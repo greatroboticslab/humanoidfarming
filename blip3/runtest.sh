@@ -1,16 +1,18 @@
 #!/bin/bash
 
-conda init
+source /jet/home/byler/miniconda3/etc/profile.d/conda.sh
+conda env list
+conda activate blip3o
 
-conda activate  blip3o
 
+export PYTHONPATH=$PYTHONPATH:$(pwd)
 
-export HF_HOME=/HF/Home/
-export OUTPUT_FOLDER=/Your/Model/Output/
-export IMG_FOLDER=/Your/Image/Folder
+export HF_HOME=hf_home/
+export OUTPUT_FOLDER=training_output/
+export IMG_FOLDER=training_data/
 
 ## import journeyDB folder if you want to use journeyDB, and then you need to add a training argument below   --journeyDB_folder  ${journeyDB_folder}  \  The  journeyDB_folder needs to be the format like:  /fsx/sfr/data/jiuhai/hub/datasets--JourneyDB--JourneyDB/snapshots/e191aa61ca37e5e4418707ade4df5deb5c6d5d8f
-export journeyDB_folder=/Your/JourneyDB/Folder  
+export journeyDB_folder=/Your/JourneyDB/Folder
 
 torchrun --nproc_per_node=8 \
     blip3o/train/train_mem.py \
@@ -18,7 +20,7 @@ torchrun --nproc_per_node=8 \
     --model_name_or_path Qwen/Qwen2.5-VL-7B-Instruct  \
     --version qwen \
     --data_type "mix" \
-    --image_folder training_data/ \
+    --image_folder ${IMG_FOLDER} \
     --gen_vision_tower eva-clip-E-14-plus \
     --gen_projector_type mlp2x_gelu \
     --mm_projector_type mlp2x_gelu \
@@ -26,7 +28,7 @@ torchrun --nproc_per_node=8 \
     --mm_use_im_start_end False \
     --mm_use_im_patch_token False \
     --bf16 True \
-    --output_dir training_output \
+    --output_dir ${OUTPUT_FOLDER} \
     --num_train_epochs 1 \
     --per_device_train_batch_size 16 \
     --per_device_eval_batch_size 4 \
