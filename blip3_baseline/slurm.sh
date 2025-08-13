@@ -1,20 +1,23 @@
 #!/bin/bash
-#SBATCH --job-name=blip3o    # Job name
-#SBATCH --nodes=4                          # Number of nodes
-#SBATCH --gres=gpu:8                         # Number of GPUs per node
+#SBATCH --job-name=blip_training # Job name
+#SBATCH --partition=GPU-shared # Partition (queue) name
+#SBATCH -N 1
+#SBATCH --gres=gpu:v100-32:4 # Request 2 A100 GPU
 #SBATCH --time=96:00:00                      # Time limit (hh:mm:ss)
+#SBATCH --output=blip_training.out # Standard output
+#SBATCH --error=blip_training.err # Standard error
 
 
-
-export HF_HOME=/HF/Home/
-export OUTPUT_FOLDER=/Your/Model/Output/
-export IMG_FOLDER=/Your/Image/Folder
+export HF_HOME=../training_blip/hf_home/
+export OUTPUT_FOLDER=../training_blip/output_folder/
+export IMG_FOLDER=../training_blip/img_folder/
 
 
 srun torchrun --nnodes=$SLURM_NNODES --nproc_per_node=8 \
     --rdzv_id=$SLURM_JOB_ID --rdzv_backend=c10d --rdzv_endpoint=$HOSTNAME:29501 blip3o/train/train_mem.py \
     --deepspeed ./scripts/zero1.json \
-    --model_name_or_path Qwen/Qwen2.5-VL-7B-Instruct  \
+    #--model_name_or_path Qwen/Qwen2.5-VL-7B-Instruct  \
+    --model_name_or_path ../../hf_cache/hub/models--BLIP3o--BLIP3o-Model-8B/snapshots/c2edfc20814d4624c8d73ca3de351ebc3fa86508/ \
     --version qwen \
     --data_type "mix" \
     --image_folder ${IMG_FOLDER} \

@@ -1,0 +1,31 @@
+import os
+import shutil
+import argparse
+
+parser = argparse.ArgumentParser(description="Parse model argument")
+parser.add_argument('--start', type=int, default=0, help='Start from this file #')
+parser.add_argument('--end', type=int, default=-1, help='Stop processing at this file, set to -1 for all files from start.')
+parser.add_argument('--dir', type=str, default='../../../gerges/HumanoidRobotTrainingData/', help='Directory where all files to be proccessed are located.')
+
+args = parser.parse_args()
+
+repoDir = args.dir
+framesDir = repoDir + "video_processing/frames/"
+actionsDir = repoDir + "s1_baseline/output/tasks/"
+
+frameFolders = [name for name in os.listdir(framesDir) if os.path.isdir(os.path.join(framesDir, name))]
+actionFiles = [f for f in os.listdir(actionsDir) if os.path.isfile(os.path.join(actionsDir, f))]
+
+#print(frameFolders) names only not dir
+#print(actionFiles)
+
+_from = args.start
+if _from > len(actionFiles):
+    _from = len(actionFiles)
+_to = args.end
+if _to > len(actionFiles):
+    _to = len(actionFiles)
+actionFiles = actionFiles[_from:_to]
+
+for actionFile in actionFiles:
+    if actionFile[:len(actionFile)-5] in frame
