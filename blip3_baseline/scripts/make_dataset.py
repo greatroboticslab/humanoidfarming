@@ -22,7 +22,24 @@ actionFiles = [f for f in os.listdir(actionsDir) if os.path.isfile(os.path.join(
 
 for actionFile in actionFiles:
     for i in range(len(frameFolders)):
+        #print("LEN: " + str(len(frameFolders)) + ", I: " + str(i))
         if actionFile[:len(actionFile)-5] == frameFolders[i]:
             print(actionFile[:len(actionFile)-5] + " matches " + frameFolders[i])
-            with open(args.dir + actionsDir + actionFile, 'r', encoding='utf-8') as f:
+            data = None
+            with open(actionsDir + actionFile, 'r', encoding='utf-8') as f:
                 data = json.load(f)
+
+            item = data
+            tasks = []
+            category = item.get("category")
+            index = item.get("index")
+            curFolder = str(category) + "/" + index + "/"
+            for task_block in item.get("tasks", []):
+                task_description = task_block.get("task")
+                subtasks = task_block.get("subtasks", [])
+                tasks.append([task_description] + subtasks)
+            frameFolder = framesDir + "/" + frameFolders[i] + "/raw_frames/"
+            frames = [name for name in os.listdir(frameFolder) if os.path.isfile(os.path.join(frameFolder, name))]
+            #print(len(frames))
+            entryAmount = min(len(tasks), len(frames))
+            
