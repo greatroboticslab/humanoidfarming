@@ -43,13 +43,14 @@ for actionFile in actionFiles:
             frameFolder = framesDir + "/" + frameFolders[i] + "/raw_frames/"
             frames = [name for name in os.listdir(frameFolder) if os.path.isfile(os.path.join(frameFolder, name))]
             #print(len(frames))
-            entryAmount = min(len(tasks[0]), len(frames))
-            for j in range(entryAmount):
-                #Copy frames over, write task as matching file.
-                idx += 1
-                idxs = f"{idx:06d}"
-                os.makedirs("../training_data/blip/", exist_ok=True)
-                shutil.copy(frameFolder + "/" + frames[j], "../training_data/blip/" + idxs + ".jpg")
-                taskFile = open("../training_data/blip/" + idxs + ".txt", "w")
-                taskFile.write(tasks[0][j])
-                taskFile.close()
+            if len(tasks) > 0:
+                entryAmount = min(len(tasks[0]), len(frames))
+                for j in range(entryAmount):
+                    #Copy frames over, write task as matching file.
+                    idx += 1
+                    idxs = f"{idx:06d}"
+                    os.makedirs("../training_data/blip/", exist_ok=True)
+                    shutil.copy(frameFolder + "/" + frames[j], "../training_data/blip/" + idxs + ".jpg")
+                    taskFile = open("../training_data/blip/" + idxs + ".txt", "w")
+                    taskFile.write(tasks[0][j])
+                    taskFile.close()
