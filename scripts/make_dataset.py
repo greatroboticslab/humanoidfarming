@@ -6,7 +6,7 @@ import json
 parser = argparse.ArgumentParser(description="Parse model argument")
 parser.add_argument('--start', type=int, default=0, help='Start from this file #')
 parser.add_argument('--end', type=int, default=-1, help='Stop processing at this file, set to -1 for all files from start.')
-parser.add_argument('--dir', type=str, default='../../../gerges/HumanoidRobotTrainingData/', help='Directory where all files to be proccessed are located.')
+parser.add_argument('--dir', type=str, default='../../gerges/HumanoidRobotTrainingData/', help='Directory where all files to be proccessed are located.')
 
 args = parser.parse_args()
 
@@ -19,6 +19,8 @@ actionFiles = [f for f in os.listdir(actionsDir) if os.path.isfile(os.path.join(
 
 #print(frameFolders) names not dir
 #print(actionFiles)
+
+idx = 0
 
 for actionFile in actionFiles:
     for i in range(len(frameFolders)):
@@ -41,5 +43,13 @@ for actionFile in actionFiles:
             frameFolder = framesDir + "/" + frameFolders[i] + "/raw_frames/"
             frames = [name for name in os.listdir(frameFolder) if os.path.isfile(os.path.join(frameFolder, name))]
             #print(len(frames))
-            entryAmount = min(len(tasks), len(frames))
-            
+            entryAmount = min(len(tasks[0]), len(frames))
+            for j in range(entryAmount):
+                #Copy frames over, write task as matching file.
+                idx += 1
+                idxs = f"{idx:06d}"
+                os.makedirs("../training_data/blip/", exist_ok=True)
+                shutil.copy(frameFolder + "/" + frames[j], "../training_data/blip/" + idxs + ".jpg")
+                taskFile = open("../training_data/blip/" + idxs + ".txt", "w")
+                taskFile.write(tasks[0][j])
+                taskFile.close()
