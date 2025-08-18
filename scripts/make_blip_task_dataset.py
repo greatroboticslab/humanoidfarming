@@ -49,8 +49,8 @@ for actionFile in actionFiles:
                     #Copy frames over, write task as matching file.
                     idx += 1
                     idxs = f"{idx:06d}"
-                    os.makedirs("../training_data/blip_tasks/", exist_ok=True)
-                    shutil.copy(frameFolder + "/" + frames[j], "../training_data/blip/" + idxs + ".jpg")
-                    taskFile = open("../training_data/blip_tasks/" + idxs + ".txt", "w")
+                    os.makedirs("../training_data/blip_tasks/bliptask_training_data/", exist_ok=True)
+                    shutil.copy(frameFolder + "/" + frames[j], "../training_data/blip_tasks/bliptask_training_data/" + idxs + ".jpg")
+                    taskFile = open("../training_data/blip_tasks/bliptask_training_data/" + idxs + ".txt", "w")
                     taskFile.write(tasks[0][j])
                     taskFile.close()

@@ -12,10 +12,10 @@ args = parser.parse_args()
 
 repoDir = args.dir
 framesDir = repoDir + "video_processing/frames/"
-captionsDir = repoDir + "s1_baseline/output/tasks/"
+actionsDir = repoDir + "s1_baseline/output/tasks/"
 
 frameFolders = [name for name in os.listdir(framesDir) if os.path.isdir(os.path.join(framesDir, name))]
-captionFolders = [name for name in os.listdir(captionsDir) if os.path.isdir(os.path.join(captionsDir, name))]
+actionFiles = [f for f in os.listdir(actionsDir) if os.path.isfile(os.path.join(actionsDir, f))]
 
 #print(frameFolders) names not dir
 #print(actionFiles)
