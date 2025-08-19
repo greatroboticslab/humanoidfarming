@@ -6,15 +6,13 @@ import json
 parser = argparse.ArgumentParser(description="Parse model argument")
 parser.add_argument('--start', type=int, default=0, help='Start from this file #')
 parser.add_argument('--end', type=int, default=-1, help='Stop processing at this file, set to -1 for all files from start.')
-parser.add_argument('--dir', type=str, default='../../gerges/HumanoidRobotTrainingData/', help='Directory where all files to be proccessed are located.')
+parser.add_argument('--dir', type=str, default='../training_data/blip_tasks/original_tasks/', help='Directory where all files to be processed are located.')
 
 args = parser.parse_args()
 
 repoDir = args.dir
-framesDir = repoDir + "video_processing/frames/"
-actionsDir = repoDir + "s1_baseline/output/tasks/"
+actionsDir = repoDir + ""
 
-frameFolders = [name for name in os.listdir(framesDir) if os.path.isdir(os.path.join(framesDir, name))]
 actionFiles = [f for f in os.listdir(actionsDir) if os.path.isfile(os.path.join(actionsDir, f))]
 
 #print(frameFolders) names not dir
@@ -23,34 +21,29 @@ actionFiles = [f for f in os.listdir(actionsDir) if os.path.isfile(os.path.join(
 idx = 0
 
 for actionFile in actionFiles:
-    for i in range(len(frameFolders)):
-        #print("LEN: " + str(len(frameFolders)) + ", I: " + str(i))
-        if actionFile[:len(actionFile)-5] == frameFolders[i]:
-            print(actionFile[:len(actionFile)-5] + " matches " + frameFolders[i])
-            data = None
-            with open(actionsDir + actionFile, 'r', encoding='utf-8') as f:
-                data = json.load(f)
+    print(actionFile[:len(actionFile)-5])
+    data = None
+    with open(actionsDir + actionFile, 'r', encoding='utf-8') as f:
+        data = json.load(f)
 
-            item = data
-            tasks = []
-            category = item.get("category")
-            index = item.get("index")
-            curFolder = str(category) + "/" + index + "/"
-            for task_block in item.get("tasks", []):
-                task_description = task_block.get("task")
-                subtasks = task_block.get("subtasks", [])
-                tasks.append([task_description] + subtasks)
-            frameFolder = framesDir + "/" + frameFolders[i] + "/raw_frames/"
-            frames = [name for name in os.listdir(frameFolder) if os.path.isfile(os.path.join(frameFolder, name))]
-            #print(len(frames))
-            if len(tasks) > 0:
-                entryAmount = min(len(tasks[0]), len(frames))
-                for j in range(entryAmount):
-                    #Copy frames over, write task as matching file.
-                    idx += 1
-                    idxs = f"{idx:06d}"
-                    os.makedirs("../training_data/blip_tasks/bliptask_training_data/", exist_ok=True)
-                    shutil.copy(frameFolder + "/" + frames[j], "../training_data/blip_tasks/bliptask_training_data/" + idxs + ".jpg")
-                    taskFile = open("../training_data/blip_tasks/bliptask_training_data/" + idxs + ".txt", "w")
-                    taskFile.write(tasks[0][j])
-                    taskFile.close()
+    item = data
+    tasks = []
+    category = item.get("category")
+    index = item.get("index")
+    curFolder = str(category) + "/" + index + "/"
+    for task_block in item.get("tasks", []):
+        task_description = task_block.get("task")
+        subtasks = task_block.get("subtasks", [])
+        tasks.append([task_description] + subtasks)
+    #print(tasks[0])
+
+    for t in range(len(tasks)):
+        question = "What steps are needed to perform this task: " + tasks[t][0]
+        answer = ""
+        for _t in range(1, len(tasks[t])):
+            answer += str(tasks[t][_t]) + " "
+        fOutput = question + "\n" + answer
+        outFile = open("../training_data/blip_tasks/bliptask_training_data/" + str(t+1) + ".txt", "w")
+        outFile.write(fOutput)
+        outFile.close()
+
