@@ -1,0 +1,8 @@
++ cd /ocean/projects/cis240145p/byler
++ cd PSCCode/s1_baseline/
++ conda run -n s1 python s1.py --gpus 4 --searches 1000
+usage: s1.py [-h] [--model MODEL] [--gpus GPUS] [--tokens TOKENS]
+             [--start START] [--end END]
+s1.py: error: unrecognized arguments: --searches 1000
+
+ERROR conda.cli.main_run:execute(125): `conda run python s1.py --gpus 4 --searches 1000` failed. (See above for error)
