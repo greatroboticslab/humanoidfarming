@@ -1,3 +1,34 @@
+## Setup
+
+Images can be both captioned and generated with Blip3o. To set up the environment:
+
+	conda create -n blip3o python=3.11 -y
+	conda activate blip3o
+	pip install --upgrade pip  setuptools
+	pip install -r requirements.txt
+
+## Scripts
+
+You can generate images from image captions using the slurm file:
+
+	sbatch generate_images.slurm <start> <end>
+
+This will generate imaged into the output/ folder, along with their prompts, which share the same frame name. Alternatively, you can run the Python file: generate.py (located in the scripts/ folder), which is used to generate a series of images from a given prompt file. The format for the command is:
+
+	conda activate blip3o
+	python generate.py --start <start> --end <end> --model <path to model>
+
+The prompt file is a .txt file seperated by newlines for each prompt.
+
+## Debug
+
+The debug/ folder contains a script: grab_samples.py which can be run to grab a small amount of output data:
+
+	python grab_samples.py --count <sample_count>
+
+By default, the script will try to grab 10 folders, but the --count argument can be used to define a custom amount.
+
+
 # 🌌 BLIP3-o
 
 BLIP3-o is a unified multimodal model that combines the reasoning and instruction following strength of autoregressive models with the generative power of diffusion models. Unlike prior works that diffuse VAE features or raw pixels, BLIP3-o diffuses semantically rich **CLIP image features**, enabling a powerful and efficient architecture for both image understanding and generation.
