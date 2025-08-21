@@ -887,8 +887,7 @@ def train(attn_implementation=None):
                 ),
             )
         )
-        
-    ## if there exists vision tower for image understanind, we will load LLaMA LLM, otherwise will load Qwen-VL
+
     if model_args.vision_tower is not None:
         model = blip3oLlamaForCausalLM.from_pretrained(
             model_args.model_name_or_path,
@@ -898,14 +897,22 @@ def train(attn_implementation=None):
             **bnb_model_from_pretrained_args,
         )
     else:
-        model = blip3oQwenForCausalLM.from_pretrained(
-            model_args.model_name_or_path,
-            cache_dir=training_args.cache_dir,
-            attn_implementation=attn_implementation,
-            torch_dtype=(torch.bfloat16 if training_args.bf16 else None),
-            **bnb_model_from_pretrained_args,
-        )
-
+        if "Qwen" in model_args.model_name_or_path or "qwen" in model_args.model_name_or_path :
+            model = blip3oQwenForCausalLM.from_pretrained(
+                model_args.model_name_or_path,
+                cache_dir=training_args.cache_dir,
+                attn_implementation=attn_implementation,
+                torch_dtype=(torch.bfloat16 if training_args.bf16 else None),
+                **bnb_model_from_pretrained_args,
+            )
+        else:
+            model = transformers.LlamaForCausalLM.from_pretrained(
+                model_args.model_name_or_path,
+                cache_dir=training_args.cache_dir,
+                attn_implementation=attn_implementation,
+                torch_dtype=(torch.bfloat16 if training_args.bf16 else None),
+                **bnb_model_from_pretrained_args,
+            )
     model.config.use_cache = False
 
     if model_args.freeze_backbone:
@@ -969,7 +976,7 @@ def train(attn_implementation=None):
     gen_vision_tower.requires_grad_(False)
 
     data_args.gen_image_processor = gen_vision_tower.image_processor
-    data_args.image_processor = AutoProcessor.from_pretrained("Qwen/Qwen2.5-VL-7B-Instruct").image_processor
+    data_args.image_processor = AutoProcessor.from_pretrained(model_args.model_name_or_path).image_processor
 
     data_args.is_multimodal = True
     data_args.n_query = model_args.n_query

@@ -7,6 +7,10 @@ Images can be both captioned and generated with Blip3o. To set up the environmen
 	pip install --upgrade pip  setuptools
 	pip install -r requirements.txt
 
+For some computers, you may run into issues with the diffusers library. To fix this, you can simply uninstall it:
+
+	pip uninstall diffusers
+
 ## Scripts
 
 You can generate images from image captions using the slurm file:
@@ -28,6 +32,7 @@ The debug/ folder contains a script: grab_samples.py which can be run to grab a 
 
 By default, the script will try to grab 10 folders, but the --count argument can be used to define a custom amount.
 
+# Original README
 
 # 🌌 BLIP3-o
 
@@ -40,9 +45,9 @@ BLIP3-o is a unified multimodal model that combines the reasoning and instructio
 
 
 - **Fully Open-Source:**
-  - **Pretraining Data:** [24 Million Detailed Captions](https://huggingface.co/datasets/BLIP3o/BLIP3o-Pretrain-Long-Caption), [5 Million Short Captions](https://huggingface.co/datasets/BLIP3o/BLIP3o-Pretrain-Short-Caption), [4 Million JourneyDB](https://huggingface.co/datasets/BLIP3o/BLIP3o-Pretrain-JourneyDB)
+  - **Pretraining Data:** [24 Million Detailed Captions](https://huggingface.co/datasets/BLIP3o/BLIP3o-Pretrain-Long-Caption), [5 Million Short Captions](https://huggingface.co/datasets/BLIP3o/BLIP3o-Pretrain-Short-Caption)
   - **Instruction Tuning Data:** [60 k GPT-4o Distilled Instruction Tuning Data](https://huggingface.co/datasets/BLIP3o/BLIP3o-60k)
-  - **Model Weights:** [4 B](https://huggingface.co/BLIP3o/BLIP3o-Model-4B)  [8 B](https://huggingface.co/BLIP3o/BLIP3o-Model-8B)
+  - **Model Weights:** [4 B](https://huggingface.co/BLIP3o/BLIP3o-Model-4B), [8 B](https://huggingface.co/BLIP3o/BLIP3o-Model-8B)
   - **Training Code**
 
 
@@ -52,8 +57,6 @@ BLIP3-o is a unified multimodal model that combines the reasoning and instructio
 
 
 ## Update
-
-- [2025/05/29] 🔥 Check out new branch [Qwen3-Siglip2](https://github.com/JiuhaiChen/BLIP3o/tree/Qwen3-Siglip2), it supports SigLIP2 as the image understanding vision encoder and Qwen3 as the AR backbone, with flexible training strategies—either sequential training or joint training—for both image understanding and generation.
 
 
 - [2025/05/22] 🔥 Evaluation for image understanding and generation, please check folder [eval](https://github.com/JiuhaiChen/BLIP3o/tree/main/eval).

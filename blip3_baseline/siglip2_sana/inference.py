@@ -46,20 +46,25 @@ device_1 = 0
 
 
 
-model = ReconstructionPipeline.from_pretrained(decoder_path).to(device="cuda:1").to(dtype=torch.float32)
-gen_image_processor = SiglipImageProcessor.from_pretrained("google/siglip2-so400m-patch16-512")
+model = ReconstructionPipeline.from_pretrained(decoder_path).to(dtype=torch.float32)
 
+# Wrap with DataParallel if multiple GPUs are available
+if torch.cuda.device_count() > 1:
+    print(f"Using {torch.cuda.device_count()} GPUs")
+    model = torch.nn.DataParallel(model)
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+model = model.to(device)
+
+
+gen_image_processor = SiglipImageProcessor.from_pretrained("google/siglip2-so400m-patch16-512")
 
 img_path = 'fig.jpg'
 images = Image.open(img_path)
 
-x_source = img_process(
-    images,
-    gen_image_processor,
-    "square",
-).squeeze(0).to(device="cuda:1")
+x_source = img_process(images, gen_image_processor, "square").squeeze(0).to(device)
 
 x_source = [x_source]
 samples = model.sample_images_autoencoder(x_source=x_source)
 samples[0].save('reconstruction.png')
+
 
