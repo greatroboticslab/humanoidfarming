@@ -41,12 +41,6 @@ The script automatically downloads models from Hugging Face:
 - Stable Diffusion (default): for image generation and editing  
   → runwayml/stable-diffusion-v1-5
 
-If you run out of home directory space, set Hugging Face caches to a larger folder before running:
-
-    export HF_HOME=/ocean/projects/<project_id>/<username>/hf_cache
-    export HUGGINGFACE_HUB_CACHE=$HF_HOME
-    export TRANSFORMERS_CACHE=$HF_HOME
-
 ---
 
 ## Running Inference (Manually)
