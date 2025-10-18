@@ -138,15 +138,3 @@ If you use this work or codebase, please cite:
 
 ---
 
-## Acknowledgments
-
-This inference script builds upon:
-- Qwen2.5-VL (https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct)
-- Stable Diffusion (https://huggingface.co/runwayml/stable-diffusion-v1-5)
-- BLIP3o (https://github.com/JiuhaiChen/BLIP3o)
-
----
-
-Maintainer: Anusha  
-Institution: PSC / Bridges2  
-Last Updated: October 2025
