@@ -1,122 +1,161 @@
-from diffusers import DiffusionPipeline, AutoencoderKL, UNet2DConditionModel
-from diffusers.schedulers import DDIMScheduler
-import numpy as np
-from PIL import Image
-from transformers import AutoModelForCausalLM, AutoTokenizer, AutoProcessor, AutoModel
-from accelerate import init_empty_weights, infer_auto_device_map, load_checkpoint_and_dispatch
-import torch
-import pdb
-import copy
-import sys
+#!/usr/bin/env python3
 import argparse
 import os
-import json
-from tqdm import tqdm
-import shortuuid
-from blip3o.constants import *
-from blip3o.conversation import conv_templates, SeparatorStyle
+import time
+from typing import Optional
+import torch
+from PIL import Image
+from transformers import AutoProcessor
+from qwen_vl_utils import process_vision_info
+from blip3o.mm_utils import get_model_name_from_path
 from blip3o.model.builder import load_pretrained_model
 from blip3o.utils import disable_torch_init
-from blip3o.mm_utils import tokenizer_image_token, process_images, get_model_name_from_path
-import math
-import requests
-from blip3o.conversation import conv_templates, SeparatorStyle
-from transformers import AutoProcessor, Qwen2_5_VLForConditionalGeneration
-import base64
-from io import BytesIO
-from qwen_vl_utils import process_vision_info
-
-import re, random
-
-model_path = sys.argv[1]
-diffusion_path = model_path + "/diffusion-decoder"
 
 
-
-processor = AutoProcessor.from_pretrained("Qwen/Qwen2.5-VL-7B-Instruct")
-
-
-device_1 = 0
-
-
-disable_torch_init()
-model_path = os.path.expanduser(model_path)
-model_name = get_model_name_from_path(model_path)
-tokenizer, multi_model, context_len = load_pretrained_model(model_path, None, model_name)
-
-
-
-
-pipe = DiffusionPipeline.from_pretrained(
-   diffusion_path,
-   custom_pipeline="pipeline_llava_gen",
-   torch_dtype=torch.bfloat16,
-   use_safetensors=True,
-   variant="bf16",
-   multimodal_encoder=multi_model,
-   tokenizer=tokenizer,
-   safety_checker=None
-)
-
-
-pipe.vae.to(f'cuda:{device_1}')
-pipe.unet.to(f'cuda:{device_1}')
-
-
-
-def create_image_grid(images, rows, cols):
-    """Creates a grid of images and returns a single PIL Image."""
-
-    assert len(images) == rows * cols
-
-    width, height = images[0].size
-    grid_width = width * cols
-    grid_height = height * rows
-
-    grid_image = Image.new('RGB', (grid_width, grid_height))
-
-    for i, image in enumerate(images):
-        x = (i % cols) * width
-        y = (i // cols) * height
-        grid_image.paste(image, (x, y))
-
-    return grid_image
-
-
-def add_template(prompt):
-   conv = conv_templates['qwen'].copy()
-   conv.append_message(conv.roles[0], prompt[0])
-   conv.append_message(conv.roles[1], None)
-   prompt = conv.get_prompt()
-   return [prompt]
-
-
-
-def set_global_seed(seed=42):
-
+def set_global_seed(seed: int = 42):
+    import random, numpy as np
     random.seed(seed)
     np.random.seed(seed)
     torch.manual_seed(seed)
-    torch.cuda.manual_seed(seed)
-    torch.cuda.manual_seed_all(seed)
+    if torch.cuda.is_available():
+        torch.cuda.manual_seed(seed)
+        torch.cuda.manual_seed_all(seed)
 
 
+def to_device(batch):
+    device = "cuda" if torch.cuda.is_available() else "cpu"
+    moved = {}
+    for k, v in batch.items():
+        moved[k] = v.to(device) if isinstance(v, torch.Tensor) else v
+    return moved, device
 
 
+def load_vlm(model_id: str):
+    disable_torch_init()
+    model_path = os.path.expanduser(model_id)
+    model_name = get_model_name_from_path(model_path)
+    tokenizer, model, context_len = load_pretrained_model(model_path, None, model_name)
+    processor = AutoProcessor.from_pretrained(model_id)
+    return tokenizer, model, processor
 
 
-prompt = "A photo of cute cat"
-set_global_seed(seed=42)
-gen_images = []
-for i in range(4):
-    gen_img = pipe(add_template([f"Please generate image based on the following caption: {prompt}"]), guidance_scale=3.0)
-    gen_images.append(gen_img.image)
-print(f"finish {prompt}")
+def run_vlm(model, processor, prompt: str, image_path: Optional[str], max_new_tokens: int, temperature: float) -> str:
+    if image_path:
+        messages = [{"role": "user", "content": [{"type": "image", "image": image_path}, {"type": "text", "text": prompt}]}]
+    else:
+        messages = [{"role": "user", "content": [{"type": "text", "text": prompt}]}]
+    chat_prompt = processor.apply_chat_template(messages, add_generation_prompt=True, tokenize=False)
+    image_inputs, video_inputs = process_vision_info(messages)
+    inputs = processor(text=[chat_prompt], images=image_inputs, videos=video_inputs, return_tensors="pt", padding=True)
+    inputs, device = to_device(inputs)
+    with torch.inference_mode():
+        out_ids = model.generate(**inputs, max_new_tokens=max_new_tokens, temperature=temperature, do_sample=True)
+    text = processor.batch_decode(out_ids, skip_special_tokens=True)[0]
+    return text
 
 
+def load_t2i_pipeline(model_id: str, device: str):
+    from diffusers import StableDiffusionPipeline
+    pipe = StableDiffusionPipeline.from_pretrained(model_id, torch_dtype=torch.float16 if device == "cuda" else torch.float32, safety_checker=None, requires_safety_checker=False)
+    pipe = pipe.to(device)
+    return pipe
 
-grid_image = create_image_grid(gen_images, 2, 2)
-grid_image.save(f"{prompt[:100]}.png")
+
+def load_img2img_pipeline(model_id: str, device: str):
+    from diffusers import StableDiffusionImg2ImgPipeline
+    pipe = StableDiffusionImg2ImgPipeline.from_pretrained(model_id, torch_dtype=torch.float16 if device == "cuda" else torch.float32, safety_checker=None, requires_safety_checker=False)
+    pipe = pipe.to(device)
+    return pipe
 
 
+def load_inpaint_pipeline(model_id: str, device: str):
+    from diffusers import StableDiffusionInpaintPipeline
+    pipe = StableDiffusionInpaintPipeline.from_pretrained(model_id, torch_dtype=torch.float16 if device == "cuda" else torch.float32, safety_checker=None, requires_safety_checker=False)
+    pipe = pipe.to(device)
+    return pipe
+
+
+def ensure_dir(path: str):
+    os.makedirs(path, exist_ok=True)
+
+
+def timestamp() -> str:
+    return time.strftime("%Y%m%d_%H%M%S")
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Unified inference for Qwen2.5-VL + Stable Diffusion")
+    parser.add_argument("--mode", required=True, choices=["t2t", "i2t", "t2i", "i2i"])
+    parser.add_argument("--vlm", default="Qwen/Qwen2.5-VL-7B-Instruct")
+    parser.add_argument("--prompt", default="Say hi in one short sentence.")
+    parser.add_argument("--image", default=None)
+    parser.add_argument("--max_new_tokens", type=int, default=64)
+    parser.add_argument("--temperature", type=float, default=0.2)
+    parser.add_argument("--diffusion", default="runwayml/stable-diffusion-v1-5")
+    parser.add_argument("--strength", type=float, default=0.7)
+    parser.add_argument("--guidance", type=float, default=7.5)
+    parser.add_argument("--steps", type=int, default=30)
+    parser.add_argument("--mask", default=None)
+    parser.add_argument("--output_dir", default="results")
+    parser.add_argument("--seed", type=int, default=42)
+    args = parser.parse_args()
+
+    set_global_seed(args.seed)
+    device = "cuda" if torch.cuda.is_available() else "cpu"
+    ensure_dir(args.output_dir)
+
+    if args.mode in ("t2t", "i2t"):
+        tokenizer, vlm_model, processor = load_vlm(args.vlm)
+        if args.mode == "t2t":
+            result = run_vlm(vlm_model, processor, args.prompt, image_path=None, max_new_tokens=args.max_new_tokens, temperature=args.temperature)
+            print(">>>", result)
+            with open(os.path.join(args.output_dir, f"t2t_{timestamp()}.txt"), "w") as f:
+                f.write(result.strip() + "\n")
+        else:
+            if not args.image or not os.path.exists(args.image):
+                raise FileNotFoundError("--image is required for i2t and must exist")
+            result = run_vlm(vlm_model, processor, args.prompt, image_path=args.image, max_new_tokens=args.max_new_tokens, temperature=args.temperature)
+            print(">>>", result)
+            base = os.path.splitext(os.path.basename(args.image))[0]
+            with open(os.path.join(args.output_dir, f"{base}_caption_{timestamp()}.txt"), "w") as f:
+                f.write(result.strip() + "\n")
+        return
+
+    if args.mode == "t2i":
+        pipe = load_t2i_pipeline(args.diffusion, device)
+        with torch.inference_mode(), torch.autocast(device_type="cuda", dtype=torch.float16, enabled=(device=="cuda")):
+            image = pipe(prompt=args.prompt, num_inference_steps=args.steps, guidance_scale=args.guidance).images[0]
+        out_path = os.path.join(args.output_dir, f"t2i_{timestamp()}.png")
+        image.save(out_path)
+        print(f"Saved: {out_path}")
+        return
+
+    if args.mode == "i2i":
+        if not args.image or not os.path.exists(args.image):
+            raise FileNotFoundError("--image is required for i2i and must exist")
+        init_image = Image.open(args.image).convert("RGB")
+        if args.mask:
+            if not os.path.exists(args.mask):
+                raise FileNotFoundError(f"Mask not found: {args.mask}")
+            mask_image = Image.open(args.mask).convert("RGB")
+            pipe = load_inpaint_pipeline(args.diffusion, device)
+            with torch.inference_mode(), torch.autocast(device_type="cuda", dtype=torch.float16, enabled=(device=="cuda")):
+                image = pipe(prompt=args.prompt, image=init_image, mask_image=mask_image, num_inference_steps=args.steps, guidance_scale=args.guidance).images[0]
+            base = os.path.splitext(os.path.basename(args.image))[0]
+            out_path = os.path.join(args.output_dir, f"{base}_inpaint_{timestamp()}.png")
+            image.save(out_path)
+            print(f"Saved: {out_path}")
+        else:
+            pipe = load_img2img_pipeline(args.diffusion, device)
+            with torch.inference_mode(), torch.autocast(device_type="cuda", dtype=torch.float16, enabled=(device=="cuda")):
+                image = pipe(prompt=args.prompt, image=init_image, strength=args.strength, guidance_scale=args.guidance, num_inference_steps=args.steps).images[0]
+            base = os.path.splitext(os.path.basename(args.image))[0]
+            out_path = os.path.join(args.output_dir, f"{base}_img2img_{timestamp()}.png")
+            image.save(out_path)
+            print(f"Saved: {out_path}")
+        return
+
+
+if __name__ == "__main__":
+    main()
 
