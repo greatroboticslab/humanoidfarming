@@ -1,0 +1,12 @@
+system
+You are a helpful assistant.
+user
+Explain diffusion models.
+assistant
+Diffusion models are generative models that model the process of data generation in reverse, essentially training the model to perform denoising. They were initially developed for natural language processing and have since been applied to various modalities such as images, audio, and video.
+
+The core idea behind diffusion models is to gradually add noise to the original data and then train the model to learn how to remove this noise and recover the original data. This process can be thought of as going from a clean image to a noisy image, and then back to a clean image. The model learns to predict the noise at each step, essentially decoding the noisy signal into the original data.
+
+In detail:
+
+1. **Data Augmentation or Noising**: The input data (e.g., an image) is first distorted with Gaussian
