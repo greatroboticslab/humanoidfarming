@@ -77,24 +77,49 @@ You can run inference as a batch job on HPC systems like Bridges2 using:
 
 ### Example run_inference.sbatch
 
-    #!/bin/bash
-    #SBATCH --job-name=blip3_infer
-    #SBATCH --partition=GPU-shared
-    #SBATCH --gres=gpu:v100-32:1
+    #!/bin/bash -l
+    #SBATCH -J blip3_infer
+    #SBATCH -A cis240145p
+    #SBATCH -p GPU-shared
+    #SBATCH --gres=gpu:v100-16:1           
     #SBATCH --cpus-per-task=4
     #SBATCH --mem=20G
-    #SBATCH --time=04:00:00
-    #SBATCH --output=logs/blip3_infer_%j.out
+    #SBATCH -t 04:00:00
+    #SBATCH -o logs/blip3_infer_%j.out
+    #SBATCH -e logs/blip3_infer_%j.err
+    
+    set -e
+    set -o pipefail
 
-    module load cuda/12.1
-    source ~/.bashrc
+    PROJECT_DIR=/ocean/projects/cis240145p/byler/anusha/humanoidfarming/blip3_baseline
+    HF_CACHE=/ocean/projects/cis240145p/byler/anusha/hf_cache
+
+    source ~/miniconda3/etc/profile.d/conda.sh
     conda activate blip3o
-
-    export HF_HOME=/ocean/projects/$PROJECT_ID/$USER/hf_cache
-    export HUGGINGFACE_HUB_CACHE=$HF_HOME
-    export TRANSFORMERS_CACHE=$HF_HOME
-
-    python inference.py --mode t2i --prompt "A cute robot farming in a green valley" --output_dir results/
+    
+    export HF_HOME="$HF_CACHE"
+    export HUGGINGFACE_HUB_CACHE="$HF_CACHE"
+    export TRANSFORMERS_CACHE="$HF_CACHE"
+    export XDG_CACHE_HOME="$HF_CACHE"
+    
+    mkdir -p "$PROJECT_DIR/logs" "$PROJECT_DIR/results"
+    cd "$PROJECT_DIR"
+    
+    echo "Node: $(hostname)"
+    echo "CUDA_VISIBLE_DEVICES: ${CUDA_VISIBLE_DEVICES:-unset}"
+    nvidia-smi || true
+    python - <<'PY'
+    import torch
+    print("CUDA available:", torch.cuda.is_available())
+    print("Torch version:", torch.__version__)
+    print("CUDA version (torch):", torch.version.cuda)
+    PY
+    
+    srun python inference.py \
+      --mode t2i \
+      --diffusion runwayml/stable-diffusion-v1-5 \
+      --prompt "A cute robot farming in a green valley" \
+      --output_dir results/
 
 ---
 
