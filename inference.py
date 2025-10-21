@@ -122,9 +122,6 @@ def main():
 
     if args.mode in ('t2t', 'i2t'):
         tokenizer, vlm_model, processor = load_vlm(args.vlm)
-        vlm_model = vlm_model.to("cuda")  # ensure GPU placement
-        vlm_model = vlm_model.to('cuda')  # ensure bitsandbytes layers on GPU
-
         if args.mode == 't2t':
             result = run_vlm(
                 vlm_model, processor, args.prompt,

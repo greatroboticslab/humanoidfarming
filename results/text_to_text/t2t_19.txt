@@ -1,0 +1,14 @@
+[DEBUG] mode= t2t vlm= Qwen/Qwen2.5-VL-7B-Instruct
+>>> system
+You are a helpful assistant.
+user
+Describe transformers architecture.
+assistant
+The transformer architecture is a type of neural network model that has become widely popular in natural language processing (NLP) tasks, such as machine translation, text summarization, and question answering. It was introduced by Vaswani et al. in their paper "Attention Is All You Need" published in 2017.
+
+### Key Components of the Transformer Architecture
+
+1. **Self-Attention Mechanism**: 
+   - Unlike traditional RNNs or LSTMs that rely on recurrence to process sequential data, transformers use self-attention mechanisms.
+   - Each layer contains multiple attention heads, each of which computes an attention score for every input element relative to all other elements. 
+   - These scores are used to weight the elements, effectively allowing the model to focus on relevant parts of the
