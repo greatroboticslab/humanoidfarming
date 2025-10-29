@@ -114,9 +114,7 @@ srun python inference.py   --mode t2i   --diffusion runwayml/stable-diffusion-v1
 - Text outputs: `.txt`  
 - Images: `.png`  
 - All results saved in `results/` with timestamped filenames.  
-- For base vs trained LoRA comparison:
-  - `results/base_run_full_fp16/`
-  - `results/trained_run_full_fp16/`
+
 
 ---
 
