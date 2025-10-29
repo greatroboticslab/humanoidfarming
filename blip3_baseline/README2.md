@@ -1,6 +1,6 @@
-# BLIP3o Inference
+# 🧠 BLIP3o Inference
 
-This repository provides a unified inference script for running BLIP3o across multiple multimodal tasks using the Qwen2.5-VL model for understanding and Stable Diffusion for generation or editing.
+This repository provides a unified inference and fine-tuning framework for running **BLIP3o** across multimodal tasks using **Qwen2.5-VL** for reasoning and **Stable Diffusion** for image generation or editing.
 
 ---
 
@@ -8,152 +8,185 @@ This repository provides a unified inference script for running BLIP3o across mu
 
 | Task | Description | Mode Flag |
 |------|--------------|------------|
-| Text → Text (T2T) | Text reasoning or response generation | `--mode t2t` |
-| Image → Text (I2T) | Image captioning or understanding | `--mode i2t` |
-| Text → Image (T2I) | Image generation from a text prompt | `--mode t2i` |
-| Image → Image (I2I) | Image editing, stylization, or inpainting | `--mode i2i` |
+| Text → Text (T2T) | Text reasoning or step-by-step task generation | `--mode t2t` |
+| Image → Text (I2T) | Image captioning or multimodal understanding | `--mode i2t` |
+| Text → Image (T2I) | Image generation from textual descriptions | `--mode t2i` |
+| Image → Image (I2I) | Image editing, variation, or inpainting | `--mode i2i` |
 
 ---
 
-## Setup
+
+## ⚙️ Setup
 
 Create and activate the environment:
 
-    conda create -n blip3o python=3.11 -y
-    conda activate blip3o
-    pip install --upgrade pip setuptools
-    pip install -r requirements.txt
+```bash
+conda create -n blip3o python=3.11 -y
+conda activate blip3o
+pip install --upgrade pip setuptools
+pip install -r requirements.txt
+```
 
-If `diffusers` causes issues, you can remove it safely:
-
-    pip uninstall diffusers -y
-    pip install diffusers==0.30.0
-
----
-
-## Model Checkpoints
-
-The script automatically downloads models from Hugging Face:
-
-- Qwen2.5-VL: for text and vision-language reasoning  
-  → Qwen/Qwen2.5-VL-7B-Instruct
-
-- Stable Diffusion (default): for image generation and editing  
-  → runwayml/stable-diffusion-v1-5
+If `diffusers` causes issues:
+```bash
+pip uninstall diffusers -y
+pip install diffusers==0.30.0
+```
 
 ---
 
-## Running Inference (Manually)
+## 🧠 Model Checkpoints
 
-### 1. Text → Text
-
-    python inference.py --mode t2t --prompt "Explain photosynthesis in one line."
-
-### 2. Image → Text
-
-    python inference.py --mode i2t         --image path/to/image.jpg         --prompt "Describe the image in detail."
-
-### 3. Text → Image
-
-    python inference.py --mode t2i         --prompt "A futuristic city under the stars"         --output_dir results/
-
-### 4. Image → Image
-
-**Stylization / Variation**
-
-    python inference.py --mode i2i         --image path/to/input.jpg         --prompt "Make it look like a watercolor painting."
-
-**Inpainting (with mask)**
-
-    python inference.py --mode i2i         --image path/to/input.jpg         --mask path/to/mask.png         --prompt "Fill the blank area with a blue sky."
+| Component | Source | Description |
+|------------|---------|-------------|
+| Qwen2.5-VL | `Qwen/Qwen2.5-VL-7B-Instruct` | Multimodal reasoning backbone |
+| Stable Diffusion | `runwayml/stable-diffusion-v1-5` | Image generation & editing |
+| LoRA Fine-tuned Adapter | `outputs/lora-qwen3b-aug-fp16-full/` | Domain-specific fine-tuning (humanoid farming tasks) |
 
 ---
 
-## Running via Slurm (HPC / Bridges2)
+## 🚀 Running Inference
 
-You can run inference as a batch job on HPC systems like Bridges2 using:
+### 1️⃣ Text → Text (Reasoning)
+```bash
+python inference.py --mode t2t --prompt "Transplanting a tomato plant to a larger pot."
+```
 
-    sbatch run_inference.sbatch
+### 2️⃣ Image → Text
+```bash
+python inference.py --mode i2t --image path/to/image.jpg --prompt "Describe the image."
+```
 
-### Example run_inference.sbatch
+### 3️⃣ Text → Image
+```bash
+python inference.py --mode t2i --prompt "A futuristic greenhouse on Mars" --output_dir results/
+```
 
-    #!/bin/bash -l
-    #SBATCH -J blip3_infer
-    #SBATCH -A cis240145p
-    #SBATCH -p GPU-shared
-    #SBATCH --gres=gpu:v100-16:1           
-    #SBATCH --cpus-per-task=4
-    #SBATCH --mem=20G
-    #SBATCH -t 04:00:00
-    #SBATCH -o logs/blip3_infer_%j.out
-    #SBATCH -e logs/blip3_infer_%j.err
-    
-    set -e
-    set -o pipefail
-
-    PROJECT_DIR=/ocean/projects/cis240145p/byler/anusha/humanoidfarming/blip3_baseline
-    HF_CACHE=/ocean/projects/cis240145p/byler/anusha/hf_cache
-
-    source ~/miniconda3/etc/profile.d/conda.sh
-    conda activate blip3o
-    
-    export HF_HOME="$HF_CACHE"
-    export HUGGINGFACE_HUB_CACHE="$HF_CACHE"
-    export TRANSFORMERS_CACHE="$HF_CACHE"
-    export XDG_CACHE_HOME="$HF_CACHE"
-    
-    mkdir -p "$PROJECT_DIR/logs" "$PROJECT_DIR/results"
-    cd "$PROJECT_DIR"
-    
-    echo "Node: $(hostname)"
-    echo "CUDA_VISIBLE_DEVICES: ${CUDA_VISIBLE_DEVICES:-unset}"
-    nvidia-smi || true
-    python - <<'PY'
-    import torch
-    print("CUDA available:", torch.cuda.is_available())
-    print("Torch version:", torch.__version__)
-    print("CUDA version (torch):", torch.version.cuda)
-    PY
-    
-    srun python inference.py \
-      --mode t2i \
-      --diffusion runwayml/stable-diffusion-v1-5 \
-      --prompt "A cute robot farming in a green valley" \
-      --output_dir results/
+### 4️⃣ Image → Image
+```bash
+python inference.py --mode i2i --image path/to/input.jpg --prompt "Turn this into a watercolor painting."
+```
 
 ---
 
-## Output
+## 💻 Running via Slurm (HPC / Bridges2)
 
-All generated files (images or text results) are saved in the folder specified by `--output_dir`.
+Example `run_inference.sbatch`:
 
-- Default: `results/`
-- Text outputs are saved as `.txt`
-- Generated or edited images are saved as `.png`
-- All filenames include timestamps.
+```bash
+#!/bin/bash -l
+#SBATCH -J blip3_infer
+#SBATCH -A cis240145p
+#SBATCH -p GPU-shared
+#SBATCH --gres=gpu:v100-16:1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=20G
+#SBATCH -t 04:00:00
+#SBATCH -o logs/blip3_infer_%j.out
+#SBATCH -e logs/blip3_infer_%j.err
+set -e
+set -o pipefail
+
+PROJECT_DIR=/ocean/projects/cis240145p/byler/anusha/humanoidfarming/blip3_baseline
+HF_CACHE=/ocean/projects/cis240145p/byler/anusha/hf_cache
+
+source ~/miniconda3/etc/profile.d/conda.sh
+conda activate blip3o
+
+export HF_HOME=$HF_CACHE
+export HUGGINGFACE_HUB_CACHE=$HF_CACHE
+export TRANSFORMERS_CACHE=$HF_CACHE
+export XDG_CACHE_HOME=$HF_CACHE
+
+mkdir -p "$PROJECT_DIR/logs" "$PROJECT_DIR/results"
+cd "$PROJECT_DIR"
+
+echo "Node: $(hostname)"
+nvidia-smi || true
+
+srun python inference.py   --mode t2i   --diffusion runwayml/stable-diffusion-v1-5   --prompt "A cute robot farming in a green valley"   --output_dir results/
+```
 
 ---
 
-## Troubleshooting
+## 📦 Output
 
-| Error | Fix |
-|-------|-----|
-| Disk quota exceeded | Set `HF_HOME` to a project path with enough storage (see above). |
-| CUDA is required but not available | Make sure you are on a GPU node or job (use `srun` or `sbatch` on Bridges2). |
-| diffusers or torch_dtype mismatch | Reinstall `diffusers` and `transformers` from `requirements.txt`. |
-
----
-
-## Citation
-
-If you use this work or codebase, please cite:
-
-    @article{chen2025blip3,
-      title={BLIP3-o: A Family of Fully Open Unified Multimodal Models—Architecture, Training and Dataset},
-      author={Chen, Jiuhai and others},
-      journal={arXiv preprint arXiv:2505.09568},
-      year={2025}
-    }
+- Text outputs: `.txt`  
+- Images: `.png`  
+- All results saved in `results/` with timestamped filenames.  
+- For base vs trained LoRA comparison:
+  - `results/base_run_full_fp16/`
+  - `results/trained_run_full_fp16/`
 
 ---
 
+## 🧰 Troubleshooting
+
+| Error | Cause | Fix |
+|-------|--------|-----|
+| `Disk quota exceeded` | HF cache on home dir | Use `$HF_HOME` in project path |
+| `tensors does not require grad` | Gradient flow disabled | Use updated FP16 trainer |
+| `diffusers` mismatch | Version conflict | `pip install diffusers==0.30.0` |
+| `CUDA unavailable` | CPU node job | Re-run on GPU node or use `--gres=gpu:1` |
+
+---
+
+## 🧩 Text → Text: Base vs Trained Model Comparison
+
+BLIP3o supports two inference modes for text reasoning tasks:
+- **Base Model:** The original **Qwen2.5-3B-Instruct** model (no fine-tuning).
+- **Trained Model (LoRA):** Fine-tuned on domain-specific data using our `train_fp16_lora_qwen.py` pipeline.
+
+---
+
+### 🔍 Why Base and Trained Were Initially the Same
+
+Early experiments showed nearly identical outputs between base and trained runs.  
+This occurred because:
+
+1. **Gradients were not applied:**  
+   The first trainer (`train_blip_chat.py`) didn’t attach gradients to the LoRA layers, so no parameters were updated.
+
+2. **Dataset structure mismatch:**  
+   The initial dataset used a `messages` format that the trainer didn’t parse correctly, resulting in skipped examples.
+
+3. **Tiny LoRA without optimization:**  
+   Although the LoRA adapter existed (~0.4% trainable params), it stayed uninitialized since the backward pass never ran.
+
+**Result:**  
+The LoRA checkpoint contained no learned weights — producing outputs identical to the base Qwen model.
+
+---
+
+### ✅ Improvements Implemented
+
+| Area | Fix Applied | Result |
+|------|--------------|---------|
+| **Training Script** | Switched to `scripts/train_fp16_lora_qwen.py` with proper gradient checkpointing | Actual fine-tuning occurred |
+| **Dataset Format** | Rebuilt with `tools/augment_training_data` to ensure valid user/assistant pairs | Consistent supervised learning input |
+| **LoRA Configuration** | Mixed-precision FP16 training, correct gradient flow | Stable optimization and weight updates |
+| **Inference Separation** | Independent base vs trained runs and directories | Easy comparison of learning impact |
+
+---
+
+### 💡 Current Outcome
+
+| Model | Behavior | Example Output |
+|--------|-----------|----------------|
+| **Base (Qwen2.5-3B-Instruct)** | Produces structured but generic plans | “1) Assess plant health. 2) Repot carefully. 3) Water and monitor.” |
+| **Trained (LoRA Fine-tuned)** | Adds domain reasoning and contextual awareness | “1) Inspect roots for pests before repotting. 2) Fill with well-draining mix. 3) Monitor sunlight exposure post-transplant.” |
+
+The trained model now produces **more domain-specific**, **better sequenced**, and **contextually richer** step-by-step reasoning.
+
+---
+
+## 📖 Citation
+
+```bibtex
+@article{chen2025blip3,
+  title={BLIP3-o: A Family of Fully Open Unified Multimodal Models—Architecture, Training and Dataset},
+  author={Chen, Jiuhai and others},
+  journal={arXiv preprint arXiv:2505.09568},
+  year={2025}
+}
+```
