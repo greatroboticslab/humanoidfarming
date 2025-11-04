@@ -1,0 +1,834 @@
+{
+  "text": "welcome to another guide for the new game repo if this video is old check the descriptions for any updates that may have changed in these mechanics lastly all the information this video is from the games code so [Music] enjoy getting started there are three levels of entities coded into the game which will be important to distinguish when understanding enemy spawns level one entities include the Peeper Shadow child for Nomes apex predator and spewer level two entities include Rugrat animal upscreen hidden Chef bow tie Mentalist and three bangers level three entities include the headman robe Huntsman Reaper clown and trudge all have an equal chance to spawn in their respective level so odds of getting a peeper is the same as a shadow child however 4.66 56% of the time a level three slot can be taken up by a set of lower level entities these sets are limited to three animals three bow ties three mentalists two hidden three shf three upsc screams three Rugrats three peepers four apex predators four spewers four shattered Childs six bangers or 10 gnomes just as an example to understand this a little better a level three monster such as a clown might instead be replaced by three animals on a given level however there can't be two animals and a chef taking up that level three [Music] slot what types of monsters will spawn will be based off their monster level mentioned before and the game level you are on for game levels 1 to two there will be a level one monster and a level three monster so for example on your first round of playing repo you could get a huntsman just like we did you know I'm glad you so we're all around the same same PB got some Goods here guys what color am I for game levels 3 to 5 there will be one of each monster level present for game levels 6 to 8 there will be two of each monster level present for game levels 9 to 10 there will be two level ones three level twoos and two level three entities and on levels 11 and higher there will be two level one three level two and three level three entities meaning technically the difficulty tapers off at level 11 monster spawns will not change during the level so if you get three clowns be ready to see them for the entire [Music] level when beginning any level entities will spawn in after 2 to 5 seconds on the furthest level points from the truck and be forced to just sit there in idle for a certain amount of time depending on the level shown in front of you are the idle time ranges for all the levels pause the video if you would like but the too long didn't read version is that level one has the highest idle time at 2 to 3 minutes and then idle time decreases the further you progress until Level 11 where the idle time hits 0 seconds regardless of the idle time it will become active if a player comes within 20 units or a monster plays an attack audio after 3 to 4 minutes into a level entities get a short timer that ticks down when over 20 units away from all players after which they despawn this timer is 20 to 40 seconds when the monster despawns it will be put in a respawn timer this timer starts at 4 to 5 minutes but gradually decreases as more time is spent on the level for the first 10 minutes of the level despawn entities will be on a 4 to 5 minute timer and every 10 minutes after the timer will start to lower until around 50 minutes and higher entities will respawn almost instantly with their timer only at 1 second second what can really help early in the level is that monsters killed by the player have this timer multiplied by three so in the first 10 minutes killing a monster puts it on a respawn timer for 12 to 15 minutes but killing a monster after 15 minutes will just have it respawn after 3 seconds so in a way it's super beneficial to play Fast once again entity spawns will not change for the given level a good strategy I've been using is if you have an area that's very far away from an entity and you want that entity out of your way you can just chill in that very far area until the entity despawns by just waiting that 20 to 40 [Music] seconds the final extraction is probably the most dangerous part of this game when the last extraction for the level is complete any monsters on their respawn timer will respawn immediately and all monsters now have a 1second respawn timer the monsters will also now path to the truck room for 12 seconds after which they path into a room that a player occupies every 3 seconds so pretty much as you're running around the interior the monsters are going to know what room you're in and they're just going to patrol that room kind of sucks we found a good strategy to just send one player back early before you fulfill the final extraction and that way you already have someone at ship in case everyone dies if you want to catch me try Harding repo or any other game I stream every day and a huge shout out to Shibu for helping me get this information from the code hope to see you back in the future for more tips and repo gameplay",
+  "segments": [
+    {
+      "id": 0,
+      "start": 0.12,
+      "end": 3.639,
+      "text": "welcome to another guide for the new"
+    },
+    {
+      "id": 1,
+      "start": 1.52,
+      "end": 4.96,
+      "text": "game repo if this video is old check the"
+    },
+    {
+      "id": 2,
+      "start": 3.639,
+      "end": 7.04,
+      "text": "descriptions for any updates that may"
+    },
+    {
+      "id": 3,
+      "start": 4.96,
+      "end": 8.639,
+      "text": "have changed in these mechanics lastly"
+    },
+    {
+      "id": 4,
+      "start": 7.04,
+      "end": 10.28,
+      "text": "all the information this video is from"
+    },
+    {
+      "id": 5,
+      "start": 8.639,
+      "end": 13.12,
+      "text": "the games code so"
+    },
+    {
+      "id": 6,
+      "start": 10.28,
+      "end": 15.28,
+      "text": "[Music]"
+    },
+    {
+      "id": 7,
+      "start": 13.12,
+      "end": 17.199,
+      "text": "enjoy getting started there are three"
+    },
+    {
+      "id": 8,
+      "start": 15.28,
+      "end": 18.64,
+      "text": "levels of entities coded into the game"
+    },
+    {
+      "id": 9,
+      "start": 17.199,
+      "end": 20.96,
+      "text": "which will be important to distinguish"
+    },
+    {
+      "id": 10,
+      "start": 18.64,
+      "end": 23.119,
+      "text": "when understanding enemy spawns level"
+    },
+    {
+      "id": 11,
+      "start": 20.96,
+      "end": 26.679,
+      "text": "one entities include the Peeper Shadow"
+    },
+    {
+      "id": 12,
+      "start": 23.119,
+      "end": 29.439,
+      "text": "child for Nomes apex predator and spewer"
+    },
+    {
+      "id": 13,
+      "start": 26.679,
+      "end": 33.04,
+      "text": "level two entities include Rugrat animal"
+    },
+    {
+      "id": 14,
+      "start": 29.439,
+      "end": 35.36,
+      "text": "upscreen hidden Chef bow tie Mentalist"
+    },
+    {
+      "id": 15,
+      "start": 33.04,
+      "end": 39.079,
+      "text": "and three bangers level three entities"
+    },
+    {
+      "id": 16,
+      "start": 35.36,
+      "end": 41.559,
+      "text": "include the headman robe Huntsman Reaper"
+    },
+    {
+      "id": 17,
+      "start": 39.079,
+      "end": 42.879,
+      "text": "clown and trudge all have an equal"
+    },
+    {
+      "id": 18,
+      "start": 41.559,
+      "end": 45.079,
+      "text": "chance to spawn in their respective"
+    },
+    {
+      "id": 19,
+      "start": 42.879,
+      "end": 49.559,
+      "text": "level so odds of getting a peeper is the"
+    },
+    {
+      "id": 20,
+      "start": 45.079,
+      "end": 51.48,
+      "text": "same as a shadow child however 4.66 56%"
+    },
+    {
+      "id": 21,
+      "start": 49.559,
+      "end": 53.32,
+      "text": "of the time a level three slot can be"
+    },
+    {
+      "id": 22,
+      "start": 51.48,
+      "end": 55.8,
+      "text": "taken up by a set of lower level"
+    },
+    {
+      "id": 23,
+      "start": 53.32,
+      "end": 58.559,
+      "text": "entities these sets are limited to three"
+    },
+    {
+      "id": 24,
+      "start": 55.8,
+      "end": 60.64,
+      "text": "animals three bow ties three mentalists"
+    },
+    {
+      "id": 25,
+      "start": 58.559,
+      "end": 63.12,
+      "text": "two hidden three shf"
+    },
+    {
+      "id": 26,
+      "start": 60.64,
+      "end": 66.4,
+      "text": "three upsc screams three Rugrats three"
+    },
+    {
+      "id": 27,
+      "start": 63.12,
+      "end": 69.24,
+      "text": "peepers four apex predators four spewers"
+    },
+    {
+      "id": 28,
+      "start": 66.4,
+      "end": 71.56,
+      "text": "four shattered Childs six bangers or 10"
+    },
+    {
+      "id": 29,
+      "start": 69.24,
+      "end": 73.08,
+      "text": "gnomes just as an example to understand"
+    },
+    {
+      "id": 30,
+      "start": 71.56,
+      "end": 75.2,
+      "text": "this a little better a level three"
+    },
+    {
+      "id": 31,
+      "start": 73.08,
+      "end": 77.04,
+      "text": "monster such as a clown might instead be"
+    },
+    {
+      "id": 32,
+      "start": 75.2,
+      "end": 79.28,
+      "text": "replaced by three animals on a given"
+    },
+    {
+      "id": 33,
+      "start": 77.04,
+      "end": 82.68,
+      "text": "level however there can't be two animals"
+    },
+    {
+      "id": 34,
+      "start": 79.28,
+      "end": 84.52,
+      "text": "and a chef taking up that level three"
+    },
+    {
+      "id": 35,
+      "start": 82.68,
+      "end": 86.799,
+      "text": "[Music]"
+    },
+    {
+      "id": 36,
+      "start": 84.52,
+      "end": 88.6,
+      "text": "slot what types of monsters will spawn"
+    },
+    {
+      "id": 37,
+      "start": 86.799,
+      "end": 90.439,
+      "text": "will be based off their monster level"
+    },
+    {
+      "id": 38,
+      "start": 88.6,
+      "end": 93.24,
+      "text": "mentioned before and the game level you"
+    },
+    {
+      "id": 39,
+      "start": 90.439,
+      "end": 95.159,
+      "text": "are on for game levels 1 to two there"
+    },
+    {
+      "id": 40,
+      "start": 93.24,
+      "end": 97.24,
+      "text": "will be a level one monster and a level"
+    },
+    {
+      "id": 41,
+      "start": 95.159,
+      "end": 98.759,
+      "text": "three monster so for example on your"
+    },
+    {
+      "id": 42,
+      "start": 97.24,
+      "end": 101.56,
+      "text": "first round of playing repo you could"
+    },
+    {
+      "id": 43,
+      "start": 98.759,
+      "end": 103.439,
+      "text": "get a huntsman just like we did you know"
+    },
+    {
+      "id": 44,
+      "start": 101.56,
+      "end": 106.04,
+      "text": "I'm glad you so we're all around the"
+    },
+    {
+      "id": 45,
+      "start": 103.439,
+      "end": 108.92,
+      "text": "same same PB got some Goods here guys"
+    },
+    {
+      "id": 46,
+      "start": 106.04,
+      "end": 110.52,
+      "text": "what color am I for game levels 3 to 5"
+    },
+    {
+      "id": 47,
+      "start": 108.92,
+      "end": 112.6,
+      "text": "there will be one of each monster level"
+    },
+    {
+      "id": 48,
+      "start": 110.52,
+      "end": 113.96,
+      "text": "present for game levels 6 to 8 there"
+    },
+    {
+      "id": 49,
+      "start": 112.6,
+      "end": 116.079,
+      "text": "will be two of each monster level"
+    },
+    {
+      "id": 50,
+      "start": 113.96,
+      "end": 118.6,
+      "text": "present for game levels 9 to 10 there"
+    },
+    {
+      "id": 51,
+      "start": 116.079,
+      "end": 120.84,
+      "text": "will be two level ones three level twoos"
+    },
+    {
+      "id": 52,
+      "start": 118.6,
+      "end": 123.039,
+      "text": "and two level three entities"
+    },
+    {
+      "id": 53,
+      "start": 120.84,
+      "end": 125.6,
+      "text": "and on levels 11 and higher there will"
+    },
+    {
+      "id": 54,
+      "start": 123.039,
+      "end": 127.56,
+      "text": "be two level one three level two and"
+    },
+    {
+      "id": 55,
+      "start": 125.6,
+      "end": 129.52,
+      "text": "three level three entities meaning"
+    },
+    {
+      "id": 56,
+      "start": 127.56,
+      "end": 131.68,
+      "text": "technically the difficulty tapers off at"
+    },
+    {
+      "id": 57,
+      "start": 129.52,
+      "end": 133.36,
+      "text": "level 11 monster spawns will not change"
+    },
+    {
+      "id": 58,
+      "start": 131.68,
+      "end": 135.0,
+      "text": "during the level so if you get three"
+    },
+    {
+      "id": 59,
+      "start": 133.36,
+      "end": 136.07,
+      "text": "clowns be ready to see them for the"
+    },
+    {
+      "id": 60,
+      "start": 135.0,
+      "end": 138.879,
+      "text": "entire"
+    },
+    {
+      "id": 61,
+      "start": 136.07,
+      "end": 141.36,
+      "text": "[Music]"
+    },
+    {
+      "id": 62,
+      "start": 138.879,
+      "end": 143.879,
+      "text": "level when beginning any level entities"
+    },
+    {
+      "id": 63,
+      "start": 141.36,
+      "end": 145.92,
+      "text": "will spawn in after 2 to 5 seconds on"
+    },
+    {
+      "id": 64,
+      "start": 143.879,
+      "end": 148.08,
+      "text": "the furthest level points from the truck"
+    },
+    {
+      "id": 65,
+      "start": 145.92,
+      "end": 149.4,
+      "text": "and be forced to just sit there in idle"
+    },
+    {
+      "id": 66,
+      "start": 148.08,
+      "end": 150.64,
+      "text": "for a certain amount of time depending"
+    },
+    {
+      "id": 67,
+      "start": 149.4,
+      "end": 152.28,
+      "text": "on the level"
+    },
+    {
+      "id": 68,
+      "start": 150.64,
+      "end": 154.0,
+      "text": "shown in front of you are the idle time"
+    },
+    {
+      "id": 69,
+      "start": 152.28,
+      "end": 155.48,
+      "text": "ranges for all the levels pause the"
+    },
+    {
+      "id": 70,
+      "start": 154.0,
+      "end": 157.16,
+      "text": "video if you would like but the too long"
+    },
+    {
+      "id": 71,
+      "start": 155.48,
+      "end": 159.0,
+      "text": "didn't read version is that level one"
+    },
+    {
+      "id": 72,
+      "start": 157.16,
+      "end": 161.04,
+      "text": "has the highest idle time at 2 to 3"
+    },
+    {
+      "id": 73,
+      "start": 159.0,
+      "end": 163.08,
+      "text": "minutes and then idle time decreases the"
+    },
+    {
+      "id": 74,
+      "start": 161.04,
+      "end": 165.56,
+      "text": "further you progress until Level 11"
+    },
+    {
+      "id": 75,
+      "start": 163.08,
+      "end": 167.2,
+      "text": "where the idle time hits 0 seconds"
+    },
+    {
+      "id": 76,
+      "start": 165.56,
+      "end": 169.159,
+      "text": "regardless of the idle time it will"
+    },
+    {
+      "id": 77,
+      "start": 167.2,
+      "end": 173.44,
+      "text": "become active if a player comes within"
+    },
+    {
+      "id": 78,
+      "start": 169.159,
+      "end": 173.44,
+      "text": "20 units or a monster plays an attack"
+    },
+    {
+      "id": 79,
+      "start": 175.28,
+      "end": 179.599,
+      "text": "audio after 3 to 4 minutes into a level"
+    },
+    {
+      "id": 80,
+      "start": 177.879,
+      "end": 182.0,
+      "text": "entities get a short timer that ticks"
+    },
+    {
+      "id": 81,
+      "start": 179.599,
+      "end": 184.68,
+      "text": "down when over 20 units away from all"
+    },
+    {
+      "id": 82,
+      "start": 182.0,
+      "end": 187.28,
+      "text": "players after which they despawn this"
+    },
+    {
+      "id": 83,
+      "start": 184.68,
+      "end": 189.08,
+      "text": "timer is 20 to 40 seconds when the"
+    },
+    {
+      "id": 84,
+      "start": 187.28,
+      "end": 191.48,
+      "text": "monster despawns it will be put in a"
+    },
+    {
+      "id": 85,
+      "start": 189.08,
+      "end": 193.56,
+      "text": "respawn timer this timer starts at 4 to"
+    },
+    {
+      "id": 86,
+      "start": 191.48,
+      "end": 196.2,
+      "text": "5 minutes but gradually decreases as"
+    },
+    {
+      "id": 87,
+      "start": 193.56,
+      "end": 197.879,
+      "text": "more time is spent on the level for the"
+    },
+    {
+      "id": 88,
+      "start": 196.2,
+      "end": 199.879,
+      "text": "first 10 minutes of the level despawn"
+    },
+    {
+      "id": 89,
+      "start": 197.879,
+      "end": 201.959,
+      "text": "entities will be on a 4 to 5 minute"
+    },
+    {
+      "id": 90,
+      "start": 199.879,
+      "end": 204.76,
+      "text": "timer and every 10 minutes after the"
+    },
+    {
+      "id": 91,
+      "start": 201.959,
+      "end": 206.599,
+      "text": "timer will start to lower until around"
+    },
+    {
+      "id": 92,
+      "start": 204.76,
+      "end": 208.48,
+      "text": "50 minutes and higher entities will"
+    },
+    {
+      "id": 93,
+      "start": 206.599,
+      "end": 210.84,
+      "text": "respawn almost instantly with their"
+    },
+    {
+      "id": 94,
+      "start": 208.48,
+      "end": 212.439,
+      "text": "timer only at 1 second second what can"
+    },
+    {
+      "id": 95,
+      "start": 210.84,
+      "end": 214.48,
+      "text": "really help early in the level is that"
+    },
+    {
+      "id": 96,
+      "start": 212.439,
+      "end": 217.12,
+      "text": "monsters killed by the player have this"
+    },
+    {
+      "id": 97,
+      "start": 214.48,
+      "end": 218.84,
+      "text": "timer multiplied by three so in the"
+    },
+    {
+      "id": 98,
+      "start": 217.12,
+      "end": 221.04,
+      "text": "first 10 minutes killing a monster puts"
+    },
+    {
+      "id": 99,
+      "start": 218.84,
+      "end": 223.319,
+      "text": "it on a respawn timer for 12 to 15"
+    },
+    {
+      "id": 100,
+      "start": 221.04,
+      "end": 225.12,
+      "text": "minutes but killing a monster after 15"
+    },
+    {
+      "id": 101,
+      "start": 223.319,
+      "end": 227.439,
+      "text": "minutes will just have it respawn after"
+    },
+    {
+      "id": 102,
+      "start": 225.12,
+      "end": 230.439,
+      "text": "3 seconds so in a way it's super"
+    },
+    {
+      "id": 103,
+      "start": 227.439,
+      "end": 232.159,
+      "text": "beneficial to play Fast once again"
+    },
+    {
+      "id": 104,
+      "start": 230.439,
+      "end": 234.079,
+      "text": "entity spawns will not change for the"
+    },
+    {
+      "id": 105,
+      "start": 232.159,
+      "end": 236.92,
+      "text": "given level a good strategy I've been"
+    },
+    {
+      "id": 106,
+      "start": 234.079,
+      "end": 238.84,
+      "text": "using is if you have an area that's very"
+    },
+    {
+      "id": 107,
+      "start": 236.92,
+      "end": 241.2,
+      "text": "far away from an entity and you want"
+    },
+    {
+      "id": 108,
+      "start": 238.84,
+      "end": 243.48,
+      "text": "that entity out of your way you can just"
+    },
+    {
+      "id": 109,
+      "start": 241.2,
+      "end": 245.76,
+      "text": "chill in that very far area until the"
+    },
+    {
+      "id": 110,
+      "start": 243.48,
+      "end": 246.79,
+      "text": "entity despawns by just waiting that 20"
+    },
+    {
+      "id": 111,
+      "start": 245.76,
+      "end": 249.799,
+      "text": "to 40"
+    },
+    {
+      "id": 112,
+      "start": 246.79,
+      "end": 252.12,
+      "text": "[Music]"
+    },
+    {
+      "id": 113,
+      "start": 249.799,
+      "end": 253.799,
+      "text": "seconds the final extraction is probably"
+    },
+    {
+      "id": 114,
+      "start": 252.12,
+      "end": 255.239,
+      "text": "the most dangerous part of this game"
+    },
+    {
+      "id": 115,
+      "start": 253.799,
+      "end": 257.199,
+      "text": "when the last extraction for the level"
+    },
+    {
+      "id": 116,
+      "start": 255.239,
+      "end": 259.519,
+      "text": "is complete any monsters on their"
+    },
+    {
+      "id": 117,
+      "start": 257.199,
+      "end": 261.6,
+      "text": "respawn timer will respawn immediately"
+    },
+    {
+      "id": 118,
+      "start": 259.519,
+      "end": 264.639,
+      "text": "and all monsters now have a 1second"
+    },
+    {
+      "id": 119,
+      "start": 261.6,
+      "end": 267.56,
+      "text": "respawn timer the monsters will also now"
+    },
+    {
+      "id": 120,
+      "start": 264.639,
+      "end": 269.199,
+      "text": "path to the truck room for 12 seconds"
+    },
+    {
+      "id": 121,
+      "start": 267.56,
+      "end": 271.84,
+      "text": "after which they path into a room that a"
+    },
+    {
+      "id": 122,
+      "start": 269.199,
+      "end": 273.32,
+      "text": "player occupies every 3 seconds so"
+    },
+    {
+      "id": 123,
+      "start": 271.84,
+      "end": 275.32,
+      "text": "pretty much as you're running around the"
+    },
+    {
+      "id": 124,
+      "start": 273.32,
+      "end": 276.4,
+      "text": "interior the monsters are going to know"
+    },
+    {
+      "id": 125,
+      "start": 275.32,
+      "end": 279.0,
+      "text": "what room you're in and they're just"
+    },
+    {
+      "id": 126,
+      "start": 276.4,
+      "end": 280.56,
+      "text": "going to patrol that room kind of sucks"
+    },
+    {
+      "id": 127,
+      "start": 279.0,
+      "end": 282.4,
+      "text": "we found a good strategy to just send"
+    },
+    {
+      "id": 128,
+      "start": 280.56,
+      "end": 283.8,
+      "text": "one player back early before you fulfill"
+    },
+    {
+      "id": 129,
+      "start": 282.4,
+      "end": 285.199,
+      "text": "the final extraction and that way you"
+    },
+    {
+      "id": 130,
+      "start": 283.8,
+      "end": 287.24,
+      "text": "already have someone at ship in case"
+    },
+    {
+      "id": 131,
+      "start": 285.199,
+      "end": 289.199,
+      "text": "everyone dies if you want to catch me"
+    },
+    {
+      "id": 132,
+      "start": 287.24,
+      "end": 290.88,
+      "text": "try Harding repo or any other game I"
+    },
+    {
+      "id": 133,
+      "start": 289.199,
+      "end": 292.12,
+      "text": "stream every day and a huge shout out to"
+    },
+    {
+      "id": 134,
+      "start": 290.88,
+      "end": 293.8,
+      "text": "Shibu for helping me get this"
+    },
+    {
+      "id": 135,
+      "start": 292.12,
+      "end": 295.4,
+      "text": "information from the code hope to see"
+    },
+    {
+      "id": 136,
+      "start": 293.8,
+      "end": 298.72,
+      "text": "you back in the future for more tips and"
+    },
+    {
+      "id": 137,
+      "start": 295.4,
+      "end": 298.72,
+      "text": "repo gameplay"
+    }
+  ],
+  "language": "en"
+}
