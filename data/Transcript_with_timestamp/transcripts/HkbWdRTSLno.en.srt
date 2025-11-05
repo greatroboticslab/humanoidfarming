@@ -1,0 +1,232 @@
+1
+00:00:00,590 --> 00:00:04,730
+this sample query shows how to select
+
+2
+00:00:02,989 --> 00:00:06,980
+different time windows for different
+
+3
+00:00:04,730 --> 00:00:09,440
+layers okay so in this specific example
+
+4
+00:00:06,980 --> 00:00:12,200
+we're going to look at agricultural data
+
+5
+00:00:09,440 --> 00:00:15,710
+for the Midwestern u.s. specifically
+
+6
+00:00:12,200 --> 00:00:18,230
+we're going to compare the crop planting
+
+7
+00:00:15,710 --> 00:00:20,240
+information together with some weather
+
+8
+00:00:18,230 --> 00:00:23,930
+information okay so let's get started
+
+9
+00:00:20,240 --> 00:00:29,600
+initially we create a new query we
+
+10
+00:00:23,930 --> 00:00:31,850
+select from survey right here the 250
+
+11
+00:00:29,600 --> 00:00:32,989
+meter resolution crop planting map so
+
+12
+00:00:31,850 --> 00:00:36,500
+this from the US Department of
+
+13
+00:00:32,989 --> 00:00:39,350
+Agriculture and from the weather
+
+14
+00:00:36,500 --> 00:00:44,149
+category we select prison historical
+
+15
+00:00:39,350 --> 00:00:50,809
+data and let's pick the daily maximum
+
+16
+00:00:44,149 --> 00:00:53,300
+temperature for example okay so now when
+
+17
+00:00:50,809 --> 00:00:55,930
+it comes to where the prison data is
+
+18
+00:00:53,300 --> 00:00:58,160
+only available for the continental US
+
+19
+00:00:55,930 --> 00:01:00,800
+therefore you see here the contiguous US
+
+20
+00:00:58,160 --> 00:01:03,219
+has been highlighted already for us now
+
+21
+00:01:00,800 --> 00:01:06,340
+we can zoom in maybe a bit
+
+22
+00:01:03,219 --> 00:01:09,990
+and select a rectangle somewhere here in
+
+23
+00:01:06,340 --> 00:01:09,990
+the Midwest like this
+
+24
+00:01:10,909 --> 00:01:16,219
+to the where we take this option off we
+
+25
+00:01:14,990 --> 00:01:17,810
+can see now we can allow to choose
+
+26
+00:01:16,219 --> 00:01:20,299
+different time windows for these layers
+
+27
+00:01:17,810 --> 00:01:23,780
+okay so for the crop type that simply
+
+28
+00:01:20,299 --> 00:01:25,579
+pick January 1st 2017 and for the
+
+29
+00:01:23,780 --> 00:01:30,560
+maximum temperature let's pick something
+
+30
+00:01:25,579 --> 00:01:34,219
+like June 2017 okay so the idea would be
+
+31
+00:01:30,560 --> 00:01:35,569
+roughly speaking that from the crop type
+
+32
+00:01:34,219 --> 00:01:37,579
+one knows what has been planted there
+
+33
+00:01:35,569 --> 00:01:39,319
+and then one might won't be interested
+
+34
+00:01:37,579 --> 00:01:43,219
+in the temperature to see you know all
+
+35
+00:01:39,319 --> 00:01:44,780
+these crops could possibly elope so
+
+36
+00:01:43,219 --> 00:01:47,709
+let's pick next we don't do any
+
+37
+00:01:44,780 --> 00:01:47,709
+aggregation for this
+
+38
+00:01:51,890 --> 00:01:58,520
+give this name and submit it so this is
+
+39
+00:01:56,480 --> 00:02:00,350
+very straightforward to give an idea
+
+40
+00:01:58,520 --> 00:02:02,420
+what the result looks like we ran this
+
+41
+00:02:00,350 --> 00:02:03,939
+query previously so let's click on this
+
+42
+00:02:02,420 --> 00:02:07,270
+here
+
+43
+00:02:03,939 --> 00:02:08,649
+see indeed we have the crop layer note
+
+44
+00:02:07,270 --> 00:02:11,230
+that the crop type is categorically
+
+45
+00:02:08,649 --> 00:02:12,760
+encoded the codes pretty much correspond
+
+46
+00:02:11,230 --> 00:02:15,640
+to these numbers you see with this color
+
+47
+00:02:12,760 --> 00:02:19,680
+scheme they're gonna say no point you
+
+48
+00:02:15,640 --> 00:02:22,989
+can basically see the value here and
+
+49
+00:02:19,680 --> 00:02:25,840
+these numerical codes are consistent
+
+50
+00:02:22,989 --> 00:02:27,760
+with USDA codes okay so similarly we
+
+51
+00:02:25,840 --> 00:02:30,069
+could of course select our temperature
+
+52
+00:02:27,760 --> 00:02:33,220
+which we have you know picked here and
+
+53
+00:02:30,069 --> 00:02:35,950
+again is like now click on a single
+
+54
+00:02:33,220 --> 00:02:37,870
+point we also get the complete time
+
+55
+00:02:35,950 --> 00:02:41,670
+series at this point at the same time
+
+56
+00:02:37,870 --> 00:02:43,690
+you can launch an animation for this and
+
+57
+00:02:41,670 --> 00:02:47,880
+see how the temperature devolve
+
+58
+00:02:43,690 --> 00:02:47,880
+de-evolve during the month of June
+

@@ -1,0 +1,1158 @@
+{
+  "text": "all right so we're here at the property just pulled up we picked some apples out on the road when we first come in to give the deer a little bit more of a treat in the back uh today we're going to be working on adding a manual timer to the solar panel or the solar power box for the fountain and then hopefully get the fountain to turn on and figure out how to do this timer it's kind of confusing let's get to it i'm going to hop in the truck and get a few things and we'll head over to the solar power box and i will show you guys what's going on all right i just want to explain what's going on here this is our solar box that is our panel that we still have not built a frame for uh since this is just experimental this box is just a cheap box from the parts store or the hardware store in here we have a deep cycle 12 volt battery connected to a solar charger a regulator that runs to the solar panel and then runs to the battery so that is constantly connected it's probably hard to see but we finally have high voltage then we have a 500 watt power inverter and this box was built to take this extension cord right here and run the pond we hooked it up and everything worked however the battery died so i just want to go over how we had it hooked up before and why it died and then what we're going to do to fix that this here is a manual timer basically you plug it into your wall you set the time then you take these little pins and you push them down to the time that you want the power to be on and this thing just goes and keeps track of time and then whenever the time gets to these little pins the power will kick on and so i had this hooked up to the inverter and then i had that pump hooked up to this now the only thing that sucked about this setup was constantly 100 percent of the time the inverter had to be on now this inverter pulled more power than the charger could keep up with overnight which would kill the battery so it would be charging during the day and running so the just keeping this on 100 of the time was not an option so the next thing i looked up was maybe coming up with an arduino or a twino board or something that went in between the battery and the power inverter and would kick off and on and it would use let's say a six bolt reference well that was okay but then i ran into this what we're going to do is hook this up to the battery the 12 volt lead here and then we're going this is the switch side so the switch side is basically going to we're going to splice the power run it in and run it back out so it says it can take up to a 250 volt 16 amp so i'm a little skeptic because these connectors here are just the quarter inch connectors and uh we're going to be running the power inverter and ultimately our homemade pond fountain which was made out of a fifth horsepower sump pump so that's that let's uh go ahead and get started on this [Music] all right i want to give you guys a rundown on the solar power box for the fountain the first version of this box was pretty straightforward we had a 12 volt deep cycle battery an inverter and 100 watt solar panel solar panel obviously ran to the solar uh charge controller then tapped into the battery and the idea was to use the inverter with a manual timer that we could then plug our diy sump pump into for the fountain however what we ran into with this manual timer is the inverter needed to stay on uh 100 of the time even when i didn't need the power but the inverter needed to stay on to operate this uh what ended up happening was literally the first day the battery was drained just from the power that the inverter used just to even be on not even pulling power for the pump so what i opted to do this time was to go to a digital timer and this timer allows for 20 settings and it's a 12 volt dc um timer that runs off of a 12 volt reference which happened to be these two wires and basically uh these two wires on the right hand side are the power the positive lead to the inverter the way this works is you set the timer on this to to turn on and whatever time you tell it to turn on and turn off then what it'll do it will basically supply power to the power side of the inverter and the inverter will turn on so the entire system will turn on based off of this system this system has a self battery or it can sustain itself for i believe three weeks without a 12 volt reference but the battery charges off of this and doesn't use much power at all what that did was alleviated the constant draw on the inverter and literally the inverter all i do is i leave the power on on the inverter and the timer will just kick off and on when i want it to so at 3 30 this thing is supposed to shut off and we're gonna see if the pond fountain shuts off get out my other phone here the diy solar power box with the timer five seconds [Laughter] oh look at that we have success that did exactly what it was supposed to do how awesome is that we have it set now to run about 30 minutes every hour and it gives enough time for everything to charge up right now i believe it's set to to run at five we're going to work on the scheduling to make sure that we're working with optimal sun and the best times to aerate the pond with the fountain ideally i would love to have the fountain on all the time however when it comes to solar we just can't do that with that setup that i have i was actually looking at a bubbler setup so anyways if you like this video go ahead and give it a thumbs up leave a comment down below on maybe some suggestions on how to make the box better until next time guys get outside stay safe and i will see you then",
+  "segments": [
+    {
+      "id": 0,
+      "start": 1.92,
+      "end": 5.679,
+      "text": "all right so we're here at the property"
+    },
+    {
+      "id": 1,
+      "start": 6.64,
+      "end": 10.639,
+      "text": "just pulled up we picked some apples out"
+    },
+    {
+      "id": 2,
+      "start": 9.2,
+      "end": 13.12,
+      "text": "on the road when we first come in to"
+    },
+    {
+      "id": 3,
+      "start": 10.639,
+      "end": 16.48,
+      "text": "give the deer a little bit more"
+    },
+    {
+      "id": 4,
+      "start": 13.12,
+      "end": 18.96,
+      "text": "of a treat in the back uh today"
+    },
+    {
+      "id": 5,
+      "start": 16.48,
+      "end": 21.439,
+      "text": "we're going to be working on adding a"
+    },
+    {
+      "id": 6,
+      "start": 18.96,
+      "end": 24.0,
+      "text": "manual timer to the solar"
+    },
+    {
+      "id": 7,
+      "start": 21.439,
+      "end": 25.039,
+      "text": "panel or the solar power box for the"
+    },
+    {
+      "id": 8,
+      "start": 24.0,
+      "end": 26.72,
+      "text": "fountain"
+    },
+    {
+      "id": 9,
+      "start": 25.039,
+      "end": 28.8,
+      "text": "and then hopefully get the fountain to"
+    },
+    {
+      "id": 10,
+      "start": 26.72,
+      "end": 29.359,
+      "text": "turn on and figure out how to do this"
+    },
+    {
+      "id": 11,
+      "start": 28.8,
+      "end": 31.84,
+      "text": "timer"
+    },
+    {
+      "id": 12,
+      "start": 29.359,
+      "end": 33.44,
+      "text": "it's kind of confusing let's get to it"
+    },
+    {
+      "id": 13,
+      "start": 31.84,
+      "end": 34.64,
+      "text": "i'm going to hop in the truck and get a"
+    },
+    {
+      "id": 14,
+      "start": 33.44,
+      "end": 37.2,
+      "text": "few things"
+    },
+    {
+      "id": 15,
+      "start": 34.64,
+      "end": 37.84,
+      "text": "and we'll head over to the solar power"
+    },
+    {
+      "id": 16,
+      "start": 37.2,
+      "end": 41.36,
+      "text": "box"
+    },
+    {
+      "id": 17,
+      "start": 37.84,
+      "end": 41.36,
+      "text": "and i will show you guys what's going on"
+    },
+    {
+      "id": 18,
+      "start": 42.64,
+      "end": 45.92,
+      "text": "all right i just want to explain what's"
+    },
+    {
+      "id": 19,
+      "start": 44.399,
+      "end": 49.28,
+      "text": "going on here this is our"
+    },
+    {
+      "id": 20,
+      "start": 45.92,
+      "end": 52.399,
+      "text": "solar box that is our panel that we"
+    },
+    {
+      "id": 21,
+      "start": 49.28,
+      "end": 55.039,
+      "text": "still have not built a frame for"
+    },
+    {
+      "id": 22,
+      "start": 52.399,
+      "end": 56.96,
+      "text": "uh since this is just experimental this"
+    },
+    {
+      "id": 23,
+      "start": 55.039,
+      "end": 60.079,
+      "text": "box is just a cheap box from"
+    },
+    {
+      "id": 24,
+      "start": 56.96,
+      "end": 63.12,
+      "text": "the parts store or the hardware store"
+    },
+    {
+      "id": 25,
+      "start": 60.079,
+      "end": 64.159,
+      "text": "in here we have a deep cycle 12 volt"
+    },
+    {
+      "id": 26,
+      "start": 63.12,
+      "end": 67.76,
+      "text": "battery"
+    },
+    {
+      "id": 27,
+      "start": 64.159,
+      "end": 71.36,
+      "text": "connected to a solar"
+    },
+    {
+      "id": 28,
+      "start": 67.76,
+      "end": 75.6,
+      "text": "charger a regulator"
+    },
+    {
+      "id": 29,
+      "start": 71.36,
+      "end": 76.88,
+      "text": "that runs to the solar panel and then"
+    },
+    {
+      "id": 30,
+      "start": 75.6,
+      "end": 79.2,
+      "text": "runs to the battery"
+    },
+    {
+      "id": 31,
+      "start": 76.88,
+      "end": 80.32,
+      "text": "so that is constantly connected it's"
+    },
+    {
+      "id": 32,
+      "start": 79.2,
+      "end": 83.2,
+      "text": "probably hard to see"
+    },
+    {
+      "id": 33,
+      "start": 80.32,
+      "end": 83.68,
+      "text": "but we finally have high voltage then we"
+    },
+    {
+      "id": 34,
+      "start": 83.2,
+      "end": 86.96,
+      "text": "have"
+    },
+    {
+      "id": 35,
+      "start": 83.68,
+      "end": 90.4,
+      "text": "a 500 watt power inverter"
+    },
+    {
+      "id": 36,
+      "start": 86.96,
+      "end": 92.479,
+      "text": "and this box was built to take this"
+    },
+    {
+      "id": 37,
+      "start": 90.4,
+      "end": 96.24,
+      "text": "extension cord right here"
+    },
+    {
+      "id": 38,
+      "start": 92.479,
+      "end": 98.479,
+      "text": "and run the pond we hooked it up"
+    },
+    {
+      "id": 39,
+      "start": 96.24,
+      "end": 100.0,
+      "text": "and everything worked however the"
+    },
+    {
+      "id": 40,
+      "start": 98.479,
+      "end": 102.96,
+      "text": "battery died so i just want to go"
+    },
+    {
+      "id": 41,
+      "start": 100.0,
+      "end": 103.84,
+      "text": "over how we had it hooked up before and"
+    },
+    {
+      "id": 42,
+      "start": 102.96,
+      "end": 105.2,
+      "text": "why it died"
+    },
+    {
+      "id": 43,
+      "start": 103.84,
+      "end": 107.04,
+      "text": "and then what we're going to do to fix"
+    },
+    {
+      "id": 44,
+      "start": 105.2,
+      "end": 109.84,
+      "text": "that"
+    },
+    {
+      "id": 45,
+      "start": 107.04,
+      "end": 111.68,
+      "text": "this here is a manual timer basically"
+    },
+    {
+      "id": 46,
+      "start": 109.84,
+      "end": 114.159,
+      "text": "you plug it into your wall"
+    },
+    {
+      "id": 47,
+      "start": 111.68,
+      "end": 115.759,
+      "text": "you set the time then you take these"
+    },
+    {
+      "id": 48,
+      "start": 114.159,
+      "end": 118.56,
+      "text": "little pins"
+    },
+    {
+      "id": 49,
+      "start": 115.759,
+      "end": 120.88,
+      "text": "and you push them down to the time that"
+    },
+    {
+      "id": 50,
+      "start": 118.56,
+      "end": 123.92,
+      "text": "you want the power to be on"
+    },
+    {
+      "id": 51,
+      "start": 120.88,
+      "end": 125.68,
+      "text": "and this thing just goes and keeps track"
+    },
+    {
+      "id": 52,
+      "start": 123.92,
+      "end": 128.08,
+      "text": "of time and then whenever the time gets"
+    },
+    {
+      "id": 53,
+      "start": 125.68,
+      "end": 131.2,
+      "text": "to these little pins"
+    },
+    {
+      "id": 54,
+      "start": 128.08,
+      "end": 134.08,
+      "text": "the power will kick on and"
+    },
+    {
+      "id": 55,
+      "start": 131.2,
+      "end": 135.76,
+      "text": "so i had this hooked up to the inverter"
+    },
+    {
+      "id": 56,
+      "start": 134.08,
+      "end": 138.16,
+      "text": "and then i had that pump"
+    },
+    {
+      "id": 57,
+      "start": 135.76,
+      "end": 140.84,
+      "text": "hooked up to this now the only thing"
+    },
+    {
+      "id": 58,
+      "start": 138.16,
+      "end": 144.64,
+      "text": "that sucked about this setup"
+    },
+    {
+      "id": 59,
+      "start": 140.84,
+      "end": 147.76,
+      "text": "was constantly 100 percent"
+    },
+    {
+      "id": 60,
+      "start": 144.64,
+      "end": 151.36,
+      "text": "of the time the inverter had to be on"
+    },
+    {
+      "id": 61,
+      "start": 147.76,
+      "end": 154.64,
+      "text": "now this inverter pulled more power"
+    },
+    {
+      "id": 62,
+      "start": 151.36,
+      "end": 156.72,
+      "text": "than the charger could keep up with"
+    },
+    {
+      "id": 63,
+      "start": 154.64,
+      "end": 159.84,
+      "text": "overnight which would kill the battery"
+    },
+    {
+      "id": 64,
+      "start": 156.72,
+      "end": 163.2,
+      "text": "so it would be charging"
+    },
+    {
+      "id": 65,
+      "start": 159.84,
+      "end": 166.64,
+      "text": "during the day and running so"
+    },
+    {
+      "id": 66,
+      "start": 163.2,
+      "end": 169.92,
+      "text": "the just keeping this on 100 of the time"
+    },
+    {
+      "id": 67,
+      "start": 166.64,
+      "end": 170.72,
+      "text": "was not an option so the next thing i"
+    },
+    {
+      "id": 68,
+      "start": 169.92,
+      "end": 174.959,
+      "text": "looked up"
+    },
+    {
+      "id": 69,
+      "start": 170.72,
+      "end": 179.2,
+      "text": "was maybe coming up with an arduino"
+    },
+    {
+      "id": 70,
+      "start": 174.959,
+      "end": 182.4,
+      "text": "or a twino board or something that"
+    },
+    {
+      "id": 71,
+      "start": 179.2,
+      "end": 185.84,
+      "text": "went in between the battery and the"
+    },
+    {
+      "id": 72,
+      "start": 182.4,
+      "end": 188.239,
+      "text": "power inverter and would kick off and on"
+    },
+    {
+      "id": 73,
+      "start": 185.84,
+      "end": 189.2,
+      "text": "and it would use let's say a six bolt"
+    },
+    {
+      "id": 74,
+      "start": 188.239,
+      "end": 192.8,
+      "text": "reference"
+    },
+    {
+      "id": 75,
+      "start": 189.2,
+      "end": 195.44,
+      "text": "well that was okay but then i ran into"
+    },
+    {
+      "id": 76,
+      "start": 192.8,
+      "end": 196.08,
+      "text": "this what we're going to do is hook this"
+    },
+    {
+      "id": 77,
+      "start": 195.44,
+      "end": 200.879,
+      "text": "up"
+    },
+    {
+      "id": 78,
+      "start": 196.08,
+      "end": 203.44,
+      "text": "to the battery the 12 volt lead here"
+    },
+    {
+      "id": 79,
+      "start": 200.879,
+      "end": 205.599,
+      "text": "and then we're going this is the switch"
+    },
+    {
+      "id": 80,
+      "start": 203.44,
+      "end": 208.239,
+      "text": "side so the switch side is basically"
+    },
+    {
+      "id": 81,
+      "start": 205.599,
+      "end": 208.239,
+      "text": "going to"
+    },
+    {
+      "id": 82,
+      "start": 208.4,
+      "end": 212.08,
+      "text": "we're going to splice the power run it"
+    },
+    {
+      "id": 83,
+      "start": 211.04,
+      "end": 217.599,
+      "text": "in and run it back"
+    },
+    {
+      "id": 84,
+      "start": 212.08,
+      "end": 220.879,
+      "text": "out so it says it can take up to a 250"
+    },
+    {
+      "id": 85,
+      "start": 217.599,
+      "end": 225.12,
+      "text": "volt 16 amp"
+    },
+    {
+      "id": 86,
+      "start": 220.879,
+      "end": 227.28,
+      "text": "so i'm a little skeptic because these"
+    },
+    {
+      "id": 87,
+      "start": 225.12,
+      "end": 228.48,
+      "text": "connectors here are just the quarter"
+    },
+    {
+      "id": 88,
+      "start": 227.28,
+      "end": 230.959,
+      "text": "inch connectors"
+    },
+    {
+      "id": 89,
+      "start": 228.48,
+      "end": 232.0,
+      "text": "and uh we're going to be running the"
+    },
+    {
+      "id": 90,
+      "start": 230.959,
+      "end": 235.599,
+      "text": "power inverter and"
+    },
+    {
+      "id": 91,
+      "start": 232.0,
+      "end": 238.239,
+      "text": "ultimately our homemade pond fountain"
+    },
+    {
+      "id": 92,
+      "start": 235.599,
+      "end": 241.68,
+      "text": "which was made out of a"
+    },
+    {
+      "id": 93,
+      "start": 238.239,
+      "end": 244.72,
+      "text": "fifth horsepower sump pump"
+    },
+    {
+      "id": 94,
+      "start": 241.68,
+      "end": 255.84,
+      "text": "so that's that let's uh go ahead and get"
+    },
+    {
+      "id": 95,
+      "start": 244.72,
+      "end": 255.84,
+      "text": "started on this"
+    },
+    {
+      "id": 96,
+      "start": 257.67,
+      "end": 277.04,
+      "text": "[Music]"
+    },
+    {
+      "id": 97,
+      "start": 275.919,
+      "end": 280.84,
+      "text": "all right i want to give you guys a"
+    },
+    {
+      "id": 98,
+      "start": 277.04,
+      "end": 282.96,
+      "text": "rundown on the solar power box for the"
+    },
+    {
+      "id": 99,
+      "start": 280.84,
+      "end": 285.199,
+      "text": "fountain the"
+    },
+    {
+      "id": 100,
+      "start": 282.96,
+      "end": 287.04,
+      "text": "first version of this box was pretty"
+    },
+    {
+      "id": 101,
+      "start": 285.199,
+      "end": 291.759,
+      "text": "straightforward we had"
+    },
+    {
+      "id": 102,
+      "start": 287.04,
+      "end": 294.8,
+      "text": "a 12 volt deep cycle battery an inverter"
+    },
+    {
+      "id": 103,
+      "start": 291.759,
+      "end": 297.36,
+      "text": "and 100 watt solar panel"
+    },
+    {
+      "id": 104,
+      "start": 294.8,
+      "end": 298.96,
+      "text": "solar panel obviously ran to the solar"
+    },
+    {
+      "id": 105,
+      "start": 297.36,
+      "end": 301.919,
+      "text": "uh charge controller"
+    },
+    {
+      "id": 106,
+      "start": 298.96,
+      "end": 303.68,
+      "text": "then tapped into the battery and the"
+    },
+    {
+      "id": 107,
+      "start": 301.919,
+      "end": 307.919,
+      "text": "idea was to"
+    },
+    {
+      "id": 108,
+      "start": 303.68,
+      "end": 311.12,
+      "text": "use the inverter with a manual timer"
+    },
+    {
+      "id": 109,
+      "start": 307.919,
+      "end": 314.639,
+      "text": "that we could then plug our diy"
+    },
+    {
+      "id": 110,
+      "start": 311.12,
+      "end": 316.72,
+      "text": "sump pump into for the fountain"
+    },
+    {
+      "id": 111,
+      "start": 314.639,
+      "end": 318.24,
+      "text": "however what we ran into with this"
+    },
+    {
+      "id": 112,
+      "start": 316.72,
+      "end": 322.32,
+      "text": "manual timer"
+    },
+    {
+      "id": 113,
+      "start": 318.24,
+      "end": 325.68,
+      "text": "is the inverter needed to stay on"
+    },
+    {
+      "id": 114,
+      "start": 322.32,
+      "end": 327.68,
+      "text": "uh 100 of the time even when"
+    },
+    {
+      "id": 115,
+      "start": 325.68,
+      "end": 329.199,
+      "text": "i didn't need the power but the inverter"
+    },
+    {
+      "id": 116,
+      "start": 327.68,
+      "end": 332.32,
+      "text": "needed to stay on to operate"
+    },
+    {
+      "id": 117,
+      "start": 329.199,
+      "end": 333.68,
+      "text": "this uh what ended up happening was"
+    },
+    {
+      "id": 118,
+      "start": 332.32,
+      "end": 336.72,
+      "text": "literally the first day"
+    },
+    {
+      "id": 119,
+      "start": 333.68,
+      "end": 338.8,
+      "text": "the battery was drained just from"
+    },
+    {
+      "id": 120,
+      "start": 336.72,
+      "end": 341.039,
+      "text": "the power that the inverter used just to"
+    },
+    {
+      "id": 121,
+      "start": 338.8,
+      "end": 345.44,
+      "text": "even be on not even pulling"
+    },
+    {
+      "id": 122,
+      "start": 341.039,
+      "end": 347.919,
+      "text": "power for the pump so"
+    },
+    {
+      "id": 123,
+      "start": 345.44,
+      "end": 349.44,
+      "text": "what i opted to do this time was to go"
+    },
+    {
+      "id": 124,
+      "start": 347.919,
+      "end": 352.88,
+      "text": "to a digital"
+    },
+    {
+      "id": 125,
+      "start": 349.44,
+      "end": 355.28,
+      "text": "timer and this timer"
+    },
+    {
+      "id": 126,
+      "start": 352.88,
+      "end": 357.199,
+      "text": "allows for 20 settings and it's a 12"
+    },
+    {
+      "id": 127,
+      "start": 355.28,
+      "end": 360.24,
+      "text": "volt dc"
+    },
+    {
+      "id": 128,
+      "start": 357.199,
+      "end": 362.479,
+      "text": "um timer that runs off"
+    },
+    {
+      "id": 129,
+      "start": 360.24,
+      "end": 364.08,
+      "text": "of a 12 volt reference which happened to"
+    },
+    {
+      "id": 130,
+      "start": 362.479,
+      "end": 367.6,
+      "text": "be these two wires"
+    },
+    {
+      "id": 131,
+      "start": 364.08,
+      "end": 370.4,
+      "text": "and basically uh"
+    },
+    {
+      "id": 132,
+      "start": 367.6,
+      "end": 371.759,
+      "text": "these two wires on the right hand side"
+    },
+    {
+      "id": 133,
+      "start": 370.4,
+      "end": 375.36,
+      "text": "are"
+    },
+    {
+      "id": 134,
+      "start": 371.759,
+      "end": 378.0,
+      "text": "the power the positive lead to"
+    },
+    {
+      "id": 135,
+      "start": 375.36,
+      "end": 378.0,
+      "text": "the inverter"
+    },
+    {
+      "id": 136,
+      "start": 379.039,
+      "end": 385.68,
+      "text": "the way this works is you set the timer"
+    },
+    {
+      "id": 137,
+      "start": 382.88,
+      "end": 387.84,
+      "text": "on this to to turn on and whatever time"
+    },
+    {
+      "id": 138,
+      "start": 385.68,
+      "end": 391.28,
+      "text": "you tell it to turn on and turn off"
+    },
+    {
+      "id": 139,
+      "start": 387.84,
+      "end": 394.08,
+      "text": "then what it'll do it will"
+    },
+    {
+      "id": 140,
+      "start": 391.28,
+      "end": 394.96,
+      "text": "basically supply power to the power side"
+    },
+    {
+      "id": 141,
+      "start": 394.08,
+      "end": 396.56,
+      "text": "of the inverter"
+    },
+    {
+      "id": 142,
+      "start": 394.96,
+      "end": 398.319,
+      "text": "and the inverter will turn on so the"
+    },
+    {
+      "id": 143,
+      "start": 396.56,
+      "end": 401.36,
+      "text": "entire system will turn on"
+    },
+    {
+      "id": 144,
+      "start": 398.319,
+      "end": 403.84,
+      "text": "based off of this system this system has"
+    },
+    {
+      "id": 145,
+      "start": 401.36,
+      "end": 405.44,
+      "text": "a self battery or it can sustain itself"
+    },
+    {
+      "id": 146,
+      "start": 403.84,
+      "end": 408.639,
+      "text": "for i believe three weeks"
+    },
+    {
+      "id": 147,
+      "start": 405.44,
+      "end": 410.639,
+      "text": "without a 12 volt reference but the"
+    },
+    {
+      "id": 148,
+      "start": 408.639,
+      "end": 413.919,
+      "text": "battery charges off of this"
+    },
+    {
+      "id": 149,
+      "start": 410.639,
+      "end": 417.039,
+      "text": "and doesn't use much power at all"
+    },
+    {
+      "id": 150,
+      "start": 413.919,
+      "end": 418.96,
+      "text": "what that did was alleviated the"
+    },
+    {
+      "id": 151,
+      "start": 417.039,
+      "end": 420.72,
+      "text": "constant draw on the inverter and"
+    },
+    {
+      "id": 152,
+      "start": 418.96,
+      "end": 422.4,
+      "text": "literally the inverter all i do is i"
+    },
+    {
+      "id": 153,
+      "start": 420.72,
+      "end": 425.199,
+      "text": "leave the power on"
+    },
+    {
+      "id": 154,
+      "start": 422.4,
+      "end": 427.919,
+      "text": "on the inverter and the timer will just"
+    },
+    {
+      "id": 155,
+      "start": 425.199,
+      "end": 431.28,
+      "text": "kick off and on when i want it to"
+    },
+    {
+      "id": 156,
+      "start": 427.919,
+      "end": 432.4,
+      "text": "so at 3 30 this thing is supposed to"
+    },
+    {
+      "id": 157,
+      "start": 431.28,
+      "end": 435.199,
+      "text": "shut off"
+    },
+    {
+      "id": 158,
+      "start": 432.4,
+      "end": 437.84,
+      "text": "and we're gonna see if the pond fountain"
+    },
+    {
+      "id": 159,
+      "start": 435.199,
+      "end": 441.12,
+      "text": "shuts off"
+    },
+    {
+      "id": 160,
+      "start": 437.84,
+      "end": 444.479,
+      "text": "get out my other phone here"
+    },
+    {
+      "id": 161,
+      "start": 441.12,
+      "end": 451.28,
+      "text": "the diy solar power box"
+    },
+    {
+      "id": 162,
+      "start": 444.479,
+      "end": 454.08,
+      "text": "with the timer"
+    },
+    {
+      "id": 163,
+      "start": 451.28,
+      "end": 454.08,
+      "text": "five seconds"
+    },
+    {
+      "id": 164,
+      "start": 458.03,
+      "end": 463.759,
+      "text": "[Laughter]"
+    },
+    {
+      "id": 165,
+      "start": 459.52,
+      "end": 465.52,
+      "text": "oh look at that we have success"
+    },
+    {
+      "id": 166,
+      "start": 463.759,
+      "end": 466.879,
+      "text": "that did exactly what it was supposed to"
+    },
+    {
+      "id": 167,
+      "start": 465.52,
+      "end": 469.759,
+      "text": "do how awesome"
+    },
+    {
+      "id": 168,
+      "start": 466.879,
+      "end": 470.879,
+      "text": "is that we have it set now to run about"
+    },
+    {
+      "id": 169,
+      "start": 469.759,
+      "end": 474.639,
+      "text": "30 minutes"
+    },
+    {
+      "id": 170,
+      "start": 470.879,
+      "end": 477.36,
+      "text": "every hour and it gives enough time for"
+    },
+    {
+      "id": 171,
+      "start": 474.639,
+      "end": 478.16,
+      "text": "everything to charge up right now i"
+    },
+    {
+      "id": 172,
+      "start": 477.36,
+      "end": 480.879,
+      "text": "believe it's"
+    },
+    {
+      "id": 173,
+      "start": 478.16,
+      "end": 483.12,
+      "text": "set to to run at five we're going to"
+    },
+    {
+      "id": 174,
+      "start": 480.879,
+      "end": 485.68,
+      "text": "work on the scheduling to make sure that"
+    },
+    {
+      "id": 175,
+      "start": 483.12,
+      "end": 489.12,
+      "text": "we're working with optimal sun"
+    },
+    {
+      "id": 176,
+      "start": 485.68,
+      "end": 490.72,
+      "text": "and the best times to"
+    },
+    {
+      "id": 177,
+      "start": 489.12,
+      "end": 492.4,
+      "text": "aerate the pond with the fountain"
+    },
+    {
+      "id": 178,
+      "start": 490.72,
+      "end": 493.199,
+      "text": "ideally i would love to have the"
+    },
+    {
+      "id": 179,
+      "start": 492.4,
+      "end": 496.16,
+      "text": "fountain on"
+    },
+    {
+      "id": 180,
+      "start": 493.199,
+      "end": 497.599,
+      "text": "all the time however when it comes to"
+    },
+    {
+      "id": 181,
+      "start": 496.16,
+      "end": 499.599,
+      "text": "solar"
+    },
+    {
+      "id": 182,
+      "start": 497.599,
+      "end": 501.12,
+      "text": "we just can't do that with that setup"
+    },
+    {
+      "id": 183,
+      "start": 499.599,
+      "end": 502.72,
+      "text": "that i have i was actually looking at a"
+    },
+    {
+      "id": 184,
+      "start": 501.12,
+      "end": 504.24,
+      "text": "bubbler setup so"
+    },
+    {
+      "id": 185,
+      "start": 502.72,
+      "end": 505.919,
+      "text": "anyways if you like this video go ahead"
+    },
+    {
+      "id": 186,
+      "start": 504.24,
+      "end": 507.84,
+      "text": "and give it a thumbs up leave a comment"
+    },
+    {
+      "id": 187,
+      "start": 505.919,
+      "end": 508.8,
+      "text": "down below on maybe some suggestions on"
+    },
+    {
+      "id": 188,
+      "start": 507.84,
+      "end": 512.0,
+      "text": "how to make"
+    },
+    {
+      "id": 189,
+      "start": 508.8,
+      "end": 514.0,
+      "text": "the box better until next time guys"
+    },
+    {
+      "id": 190,
+      "start": 512.0,
+      "end": 516.8,
+      "text": "get outside stay safe and i will see you"
+    },
+    {
+      "id": 191,
+      "start": 514.0,
+      "end": 516.8,
+      "text": "then"
+    }
+  ],
+  "language": "en"
+}

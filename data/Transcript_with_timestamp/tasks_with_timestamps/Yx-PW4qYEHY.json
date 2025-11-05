@@ -1,0 +1,169 @@
+{
+  "index": "Yx-PW4qYEHY",
+  "title": "How Monsters Spawn in R.E.P.O. (Guide and Code deep dive)",
+  "url": "https://www.youtube.com/watch?v=Yx-PW4qYEHY",
+  "category": "Entertainment",
+  "video_id": "Yx-PW4qYEHY",
+  "tasks": [
+    {
+      "task": "Navigate through game levels and manage monster spawns.",
+      "task_start": 129.52,
+      "task_end": 133.36,
+      "task_match_score": 61.702127659574465,
+      "task_time_method": "task_text_match",
+      "subtasks": [
+        {
+          "text": "Understand the three levels of entities in the game.",
+          "segment_id": 8,
+          "match_score": 73.33333333333333,
+          "start": 15.28,
+          "end": 18.64
+        },
+        {
+          "text": "Recognize specific entities in each level (Peeper, Shadowchild, 4 Gnomes, Apex Predator, Spewer, Rugrat, Animal, Upscream, Hidden, Chef, Bowtie, Mentalist, Three Bangers, Headman, Robe, Huntsman, Reaper, Clown, Trudge).",
+          "segment_id": 52,
+          "match_score": 83.33333333333333,
+          "start": 118.6,
+          "end": 123.039
+        },
+        {
+          "text": "Realize the probability of each entity type spawning (equal chance per level).",
+          "segment_id": null,
+          "match_score": 50.43478260869565,
+          "start": null,
+          "end": null
+        },
+        {
+          "text": "Note the exception where 4.6656% of level 3 slots can be replaced by lower-level sets.",
+          "segment_id": 67,
+          "match_score": 85.71428571428571,
+          "start": 149.4,
+          "end": 152.28
+        },
+        {
+          "text": "Determine the number of each lower-level entity set that can replace a level 3 entity.",
+          "segment_id": 67,
+          "match_score": 85.71428571428571,
+          "start": 149.4,
+          "end": 152.28
+        },
+        {
+          "text": "Understand the spawning mechanics for game levels 1-2, 3-5, 6-8, 9-10, and 11+.",
+          "segment_id": 69,
+          "match_score": 62.22222222222222,
+          "start": 152.28,
+          "end": 155.48
+        },
+        {
+          "text": "Observe the monster idle times on each level (reducing from 2-3 minutes on level 1 to 0 seconds on level 11).",
+          "segment_id": 67,
+          "match_score": 100.0,
+          "start": 149.4,
+          "end": 152.28
+        },
+        {
+          "text": "Learn about the despawn timer for entities, starting at 4-5 minutes and decreasing over time.",
+          "segment_id": 90,
+          "match_score": 73.6842105263158,
+          "start": 199.879,
+          "end": 204.76
+        },
+        {
+          "text": "Note the effect of player kills on despawn timers (multiplied by 3 for the first 10 minutes).",
+          "segment_id": 88,
+          "match_score": 76.66666666666667,
+          "start": 196.2,
+          "end": 199.879
+        },
+        {
+          "text": "Understand the final extraction process and the increased aggression of monsters afterward.",
+          "segment_id": 129,
+          "match_score": 78.68852459016394,
+          "start": 282.4,
+          "end": 285.199
+        },
+        {
+          "text": "Consider strategic placement to force monsters to despawn.",
+          "segment_id": 111,
+          "match_score": 57.142857142857146,
+          "start": 245.76,
+          "end": 249.799
+        },
+        {
+          "text": "Plan for the dangerous final extraction phase.",
+          "segment_id": 129,
+          "match_score": 70.17543859649123,
+          "start": 282.4,
+          "end": 285.199
+        }
+      ]
+    },
+    {
+      "task": "Manage the timing and strategy for monster encounters and entity despawn.",
+      "task_start": 149.4,
+      "task_end": 249.799,
+      "task_match_score": 54.90196078431372,
+      "task_time_method": "subtasks_span",
+      "subtasks": [
+        {
+          "text": "Adapt movement and positioning based on entity spawn timing and idle times.",
+          "segment_id": null,
+          "match_score": 50.0,
+          "start": null,
+          "end": null
+        },
+        {
+          "text": "Use distant areas to disrupt entity spawn positions and encourage despawn.",
+          "segment_id": 111,
+          "match_score": 57.142857142857146,
+          "start": 245.76,
+          "end": 249.799
+        },
+        {
+          "text": "Practice timed respawns to exploit delayed monster respawning (within first 10 minutes).",
+          "segment_id": 98,
+          "match_score": 58.18181818181818,
+          "start": 217.12,
+          "end": 221.04
+        },
+        {
+          "text": "Adjust strategies based on the level's remaining time and entity timers.",
+          "segment_id": 67,
+          "match_score": 66.66666666666666,
+          "start": 149.4,
+          "end": 152.28
+        }
+      ]
+    },
+    {
+      "task": "Use the knowledge of entity behavior to outmaneuver them during gameplay.",
+      "task_start": 282.4,
+      "task_end": 285.199,
+      "task_match_score": 57.142857142857146,
+      "task_time_method": "subtasks_span",
+      "subtasks": [
+        {
+          "text": "Anticipate monster movement patterns after the final extraction.",
+          "segment_id": 129,
+          "match_score": 55.445544554455445,
+          "start": 282.4,
+          "end": 285.199
+        },
+        {
+          "text": "Plan retreat routes and safe rooms considering monster patrol paths.",
+          "segment_id": null,
+          "match_score": 52.38095238095238,
+          "start": null,
+          "end": null
+        },
+        {
+          "text": "Implement a rotation of players for final extraction to manage risk.",
+          "segment_id": 129,
+          "match_score": 60.37735849056604,
+          "start": 282.4,
+          "end": 285.199
+        }
+      ]
+    }
+  ]
+}
