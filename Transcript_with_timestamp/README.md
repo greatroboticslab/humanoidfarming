@@ -15,3 +15,60 @@ This step automatically extracts **timestamps** for each task video using **YouT
     {"id": 1, "start": 3.2, "end": 7.8, "text": "What is the management goal?"}
   ]
 }
+
+
+# 🧩 align_subtasks.py
+
+This script links each **task** and **subtask** from  
+`s1_baseline/tasks/*.json` to timestamps in YouTube **transcripts**.
+
+---
+
+## 📂 Folders
+```
+s1_baseline/tasks/                → input task JSONs
+Transcript_with_timestamp/transcripts/ → transcript JSONs
+s1_baseline/tasks_with_timestamps/     → output (auto-created)
+```
+
+---
+
+## ⚙️ Setup
+```bash
+pip install rapidfuzz unidecode
+```
+
+---
+
+## ▶️ Run
+```bash
+python align_subtasks.py
+```
+
+---
+
+## 🧠 What it does
+- Reads each video ID from the task file  
+- Finds its transcript JSON  
+- Fuzzy-matches **subtasks** and **tasks** to captions  
+- Adds start/end times and saves a new JSON
+
+---
+
+## ✅ Example output
+```json
+{
+  "task": "Animal care and maintenance",
+  "task_start": 87.2,
+  "task_end": 121.5,
+  "task_time_method": "subtasks_span",
+  "subtasks": [
+    {"text": "Clean animal bedding", "start": 110.2, "end": 111.9}
+  ]
+}
+```
+
+---
+
+
+
