@@ -1,4 +1,4 @@
-## 🎬 Timestamp Extraction from YouTube Videos (`fetch_captions_from_tasks.py`)
+## 🎬 Timestamp Extraction from YouTube Videos
 
 This step automatically extracts **timestamps** for each task video using **YouTube auto-captions**.
 
@@ -17,18 +17,18 @@ This step automatically extracts **timestamps** for each task video using **YouT
 }
 
 
-# 🧩 align_subtasks.py
+## 🧩 align_subtasks.py
 
 This script links each **task** and **subtask** from  
-`s1_baseline/tasks/*.json` to timestamps in YouTube **transcripts**.
+`s1_baseline/output/tasks/*.json` to timestamps in YouTube **transcripts**.
 
 ---
 
 ## 📂 Folders
 ```
-s1_baseline/tasks/                → input task JSONs
+s1_baseline/output/tasks/                → input task JSONs
 Transcript_with_timestamp/transcripts/ → transcript JSONs
-s1_baseline/tasks_with_timestamps/     → output (auto-created)
+Transcript_with_timestamp/tasks_with_timestamps/     → output (auto-created)
 ```
 
 ---
@@ -42,7 +42,7 @@ pip install rapidfuzz unidecode
 
 ## ▶️ Run
 ```bash
-python align_subtasks.py
+python align_tasks.py
 ```
 
 ---
