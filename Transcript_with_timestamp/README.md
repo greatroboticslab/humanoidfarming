@@ -15,7 +15,9 @@ This step automatically extracts **timestamps** for each task video using **YouT
     {"id": 1, "start": 3.2, "end": 7.8, "text": "What is the management goal?"}
   ]
 }
+```
 
+---
 
 ## 🧩 align_subtasks.py
 
@@ -26,9 +28,9 @@ This script links each **task** and **subtask** from
 
 ## 📂 Folders
 ```
-s1_baseline/output/tasks/                → input task JSONs
-Transcript_with_timestamp/transcripts/ → transcript JSONs
-Transcript_with_timestamp/tasks_with_timestamps/     → output (auto-created)
+s1_baseline/output/tasks/                     → input task JSONs  
+Transcript_with_timestamp/transcripts/        → transcript JSONs  
+Transcript_with_timestamp/tasks_with_timestamps/ → output (auto-created)
 ```
 
 ---
@@ -42,7 +44,7 @@ pip install rapidfuzz unidecode
 
 ## ▶️ Run
 ```bash
-python align_tasks.py
+python align_subtasks.py
 ```
 
 ---
@@ -55,7 +57,7 @@ python align_tasks.py
 
 ---
 
-## ✅ Example output
+## ✅ Example Output
 ```json
 {
   "task": "Animal care and maintenance",
@@ -67,8 +69,3 @@ python align_tasks.py
   ]
 }
 ```
-
----
-
-
-
