@@ -1,145 +1,181 @@
-# 🎬 Timestamp Extraction from YouTube and Local Videos
+# 🎬 Timestamp Extraction and Task Alignment from YouTube & Local Videos
 
-This workflow extracts **timestamps** and **speech segments** from both **YouTube videos** and **local MP4 files**, converting audio to structured JSON files with start/end times.
+This repository provides a modular pipeline to:
+
+1. Extract **timestamped transcripts** from  
+   - **YouTube videos** (auto-captions)  
+   - **local MP4 videos** (Whisper)
+
+2. Classify videos into **speech vs no-speech**.
+
+3. Use the **S1 LLM** to extract **tasks and subtasks** from transcripts.
+
+4. Assign **approximate timestamps** to each subtask using Python’s  
+   **`SequenceMatcher`**.
+
+All outputs are saved inside the **`results/`** directory.
 
 ---
 
-## 🧩 1. YouTube Caption Extraction
+## 🧭 High-Level Pipeline Overview
 
-This step automatically extracts **timestamps** for each task video using **YouTube auto-captions**.
+1. **YouTube** → `timestamps_using_yt_subtitles.py` → `results/timestamps_using_yt_subtitles/`
+2. **Local MP4** → `timestamps_using_whisper.py` → `results/timestamps_using_whisper/`
+3. **Speech/No-Speech Split** → `split_speech_vs_nospeech.py` → `results/speech_vs_nospeech_videos/`
+4. **(Optional Baseline)** → `align_tasks_with_timestamp.py` → `results/align_tasks_with_timestamp_transcript/`
+5. **Main Pipeline** → `s1_with_timestamps.py` (S1 + SequenceMatcher) → `results/tasks_with_timestamps_using_pysqmatch/`
 
-- Each task file in `s1_baseline/output/tasks/` contains a YouTube link.  
-- The script **`fetch_captions_from_tasks.py`** reads those links and downloads only the **English subtitles** (no video files).  
-- Subtitles are converted into structured JSON files stored in `data/transcripts/`, containing text segments with precise start and end times.
+---
 
-### 🧾 Example Output
+## 🧩 1. YouTube Transcript Extraction  
+**Script:** `scripts/timestamps_using_yt_subtitles.py`
+
+Downloads YouTube auto-captions and saves JSON transcripts containing  
+`text`, `segments`, and `start/end` timestamps.
+
+### ▶️ Run
+```bash
+python scripts/timestamps_using_yt_subtitles.py \
+    --url https://www.youtube.com/watch?v=VIDEO_ID \
+    --out_dir results/timestamps_using_yt_subtitles
+```
+
+### Example Output
 ```json
 {
   "text": "Cover crop mix. What is the management goal?",
   "segments": [
-    {"id": 0, "start": 0.0, "end": 3.2, "text": "Cover crop mix."},
-    {"id": 1, "start": 3.2, "end": 7.8, "text": "What is the management goal?"}
-  ]
+    { "id": 0, "start": 0.0, "end": 3.2, "text": "Cover crop mix." },
+    { "id": 1, "start": 3.2, "end": 7.8, "text": "What is the management goal?" }
+  ],
+  "language": "en"
 }
+```
+
+Outputs stored in:
+```
+results/timestamps_using_yt_subtitles/
 ```
 
 ---
 
 ## 🧩 2. Local Video Transcription (Whisper)
 
-For locally stored MP4s (e.g., from robot runs), timestamps are extracted using **OpenAI Whisper** via the **Faster-Whisper** implementation.
+**Scripts:**  
+- `scripts/timestamps_using_whisper.py`  
 
-- Input videos → `VideoProcessing/data/Videos/`
-- Transcripts → `VideoProcessing/results/`
-- Each JSON contains `text`, and a list of `segments` with `start`, `end`, and `text`.
+Extracts transcript + timestamps from `.mp4` videos using Whisper.
 
-### ⚙️ Setup
+### ▶️ Run on a Single Video
 ```bash
-# Environment setup
-conda create -n whisper python=3.10
-conda activate whisper
-pip install faster-whisper ffmpeg-python
+python scripts/timestamps_using_whisper.py \
+    --file path/to/video.mp4 \
+    --out_dir results/timestamps_using_whisper
 ```
 
-### ▶️ Run (Single Video)
+### ▶️ Batch (HPC)
 ```bash
-python scripts/whisper_json_only.py   --file data/Videos/_1k9XR8ZFTk.mp4   --out_dir results   --model small   --device cpu   --compute_type int8
+sbatch scripts/run_whisper_all_gpu.slurm
 ```
 
-### ▶️ Run (Batch / Cluster)
-```bash
-sbatch run_whisper_all_gpu.slurm
+Outputs stored in:
+```
+results/whisper_transcripts/
 ```
 
 ---
 
-## 🧩 3. Speech vs No-Speech Classification
+## 🧩 3. Speech vs No-Speech Classification  
+**Script:** `scripts/split_speech_vs_nospeech.py`
 
-Once transcripts are generated, you can automatically separate videos based on **whether they contain speech**.
-
-### ▶️ Run
-```bash
-python scripts/split_speech_vs_nospeech.py
+Classifies transcripts by text length.  
+Outputs stored in:
 ```
-
-This creates:
-- `videos_with_speech.txt`
-- `videos_no_speech.txt`
-
-and separates both videos and their corresponding JSONs into:
-```
-data/Videos_with_speech/
-data/Videos_no_speech/
-results/json_with_speech/
-results/json_no_speech/
-```
-
-### ✅ Classification Rule
-A video is labeled **“with speech”** if total transcribed text exceeds 30 characters.
-
----
-
-## 🧩 4. Aligning Tasks and Subtasks
-
-After timestamps are extracted (from YouTube or Whisper),  
-`align_subtasks.py` links **tasks** and **subtasks** to the corresponding transcript segments.
-
-### 📂 Folder Structure
-```
-s1_baseline/output/tasks/                     → input task JSONs
-Transcript_with_timestamp/transcripts/        → transcript JSONs
-Transcript_with_timestamp/tasks_with_timestamps/ → aligned outputs
+results/speech_vs_nospeech_videos/
 ```
 
 ### ▶️ Run
 ```bash
-python align_tasks.py
-```
-
-### ✅ Example Output
-```json
-{
-  "task": "Animal care and maintenance",
-  "task_start": 87.2,
-  "task_end": 121.5,
-  "task_time_method": "subtasks_span",
-  "subtasks": [
-    {"text": "Clean animal bedding", "start": 110.2, "end": 111.9}
-  ]
-}
+python scripts/split_speech_vs_nospeech.py \
+    --transcripts_dir results/whisper_transcripts
 ```
 
 ---
 
-## 💾 Summary of Key Scripts
+## 🧩 4. Baseline Task Alignment (Optional)
+**Script:** `scripts/align_tasks_with_timestamp.py`
+
+An older experimental script that aligns tasks to segments.  
+Stored in:
+```
+results/align_tasks_with_timestamp_transcript/
+```
+
+---
+
+## 🧩 5. S1 Task Extraction + Timestamp Assignment
+
+**Script:** `scripts/s1_with_timestamps.py`  
+**Prompt:** `scripts/promptusinfpysqmatcher.txt`
+
+### How it works:
+1. S1 LLM reads the transcript → decides relevance → generates tasks/subtasks.
+2. Python’s `SequenceMatcher` aligns each subtask to Whisper segments.
+3. Approximate timestamps are assigned.
+
+⚠️ **Important:**  
+S1 **does not** generate timestamps.  
+All timing is assigned by **Python heuristics** → timestamps are approximate.
+
+### ▶️ Run
+```bash
+python scripts/s1_with_timestamps.py \
+    --prompt_file scripts/promptusinfpysqmatcher.txt \
+    --input_dir results/whisper_transcripts \
+    --output_dir results/tasks_with_timestamps_using_pysqmatch
+```
+
+Outputs stored in:
+```
+results/tasks_with_timestamps_using_pysqmatch/
+```
+
+---
+
+## 📁 Folder Structure (Actual)
+
+```
+results/
+├─ align_tasks_with_timestamp_transcript/
+├─ speech_vs_nospeech_videos/
+├─ tasks_with_timestamps_using_pysqmatch/
+├─ timestamps_using_whisper/
+├─ timestamps_using_yt_subtitles/
+└─ whisper_transcripts/
+```
+
+---
+
+## 📜 Script Summary Table
 
 | Script | Purpose |
-|--------|----------|
-| `fetch_captions_from_tasks.py` | Fetch auto-captions from YouTube tasks |
-| `whisper_json_only.py` | Extract timestamps from local MP4s using Whisper |
-| `split_speech_vs_nospeech.py` | Separate videos and transcripts by speech content |
-| `align_subtasks.py` | Match task/subtask descriptions to transcript timestamps |
+|--------|---------|
+| `timestamps_using_yt_subtitles.py` | Fetch YouTube auto-captions → JSON |
+| `timestamps_using_whisper.py` | Transcribe MP4 videos using Whisper |
+| `whisper.py` | Whisper backend |
+| `split_speech_vs_nospeech.py` | Split transcripts by speech |
+| `align_tasks_with_timestamp.py` | Baseline alignment |
+| `s1_with_timestamps.py` | S1 task extraction + SequenceMatcher timestamps |
+| `run_whisper_all_gpu.slurm` | HPC Whisper batch |
+| `promptusinfpysqmatcher.txt` | Prompt for S1 |
 
 ---
 
-## 🧠 Optional: HPC Job Examples
+## ⚠️ Known Limitations / Notes
 
-### Single-Video Test
-```bash
-sbatch run_whisper_one_test_gpu.slurm
-```
+- SequenceMatcher produces **approximate** timestamp alignment.  
+- For pixel-perfect keyframe extraction, a better approach is needed.  
+- Future work: ask **S1 directly** to select segment IDs from transcript.
 
-### Full Batch Processing
-```bash
-sbatch run_whisper_all_gpu.slurm
-```
+---
 
-### Resume Remaining Files
-```bash
-sbatch run_whisper_remaining_gpu.slurm
-```
-
-Each job logs progress to:
-```
-VideoProcessing/logs/
-```
