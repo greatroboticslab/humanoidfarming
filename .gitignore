@@ -1,29 +1,45 @@
-# Python
-venv/
-__pycache__/
-*.pyc
+# Ignore everything by default
+*
 
-# Data & media
-rawvideos/
+# Allow these folders
+!scripts/
+!results/
+!documents/
+!docs/
+!reports/
+
+# Allow README
+!README.md
+
+# Allow Python files in root
+!*.py
+
+# Inside scripts/, allow everything
+scripts/*
+
+# Inside results/, include only JSON, HTML, DOCX, JPG, PNG if desired
+results/**/*.json
+results/**/*.html
+results/**/*.docx
+results/**/*.jpg
+results/**/*.jpeg
+results/**/*.png
+
+# Ignore large media and caches
 *.mp4
-*.mov
-*.avi
 *.mkv
-*.webm
-*.jpg
-*.png
-
-# Node/phantomjs or other binaries
-video_processing/phantomjs
-*.dylib
-*.so
-.DS_Store
-venv/
+*.avi
+*.wav
+whisper_cache/
+hf_cache/
 __pycache__/
-*.pyc
-data/
-rawvideos/
-*.mp4 *.mov *.mkv *.webm
-*.dylib
-*.so
-.DS_Store
+*.pt
+*.bin
+*.npy
+*.zip
+*.tar
+*.gz
+*.checkpoint
+
+!VideoProcessing/
+!VideoProcessing/**
