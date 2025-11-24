@@ -15,8 +15,52 @@ All outputs are saved inside the `results/` directory.
 
 ---
 
+
 ## 🧭 High-Level Pipeline Overview
 
+```mermaid
+flowchart TD
+
+    A[📥 Input Videos] -->|YouTube Links| B1[timestamps_using_yt_subtitles.py]
+    A -->|Local MP4 Files| B2[timestamps_using_whisper.py]
+
+    B1 --> C1[results/timestamps_using_yt_subtitles/]
+    B2 --> C2[results/timestamps_using_whisper/]
+
+    A -->|Check Audio| B3[split_speech_vs_nospeech.py]
+    B3 --> C3[results/speech_vs_nospeech_videos/]
+
+    C2 --> D1[tasks_with_timestamps.py (LLM-Based Segment-ID Alignment)]
+    C2 --> D2[tasks_with_timestamps_using_pyseqmatcher.py (Optional Baseline)]
+
+    D1 --> E1[results/timestamps_using_llm/]
+    D2 --> E2[results/timestamps_using_pyseqmatcher/]
+
+    E1 --> F[extract_frames_from_timestamps.py]
+    F --> G[results/frame_extractions/]
+
+    G --> H1[HTML Reports]
+    G --> H2[DOCX Reports]
+
+    H1 --> I1[documents/html/]
+    H2 --> I2[documents/docx/]
+```
+
+### Text-Only Version
+
+```
+YouTube Subtitles        → timestamps_using_yt_subtitles.py        → results/timestamps_using_yt_subtitles/
+Local MP4 (Whisper)      → timestamps_using_whisper.py             → results/timestamps_using_whisper/
+Speech/No Speech Split   → split_speech_vs_nospeech.py             → results/speech_vs_nospeech_videos/
+
+MAIN LLM PIPELINE
+  tasks_with_timestamps.py                      → results/timestamps_using_llm/
+  tasks_with_timestamps_using_pyseqmatcher.py   → results/timestamps_using_pyseqmatcher/
+
+Frame Extraction          → extract_frames_from_timestamps.py       → results/frame_extractions/
+
+Reports (HTML & DOCX)     → results/reports/html/ + results/reports/docx/
+```
 ```
 YouTube → timestamps_using_yt_subtitles.py → results/timestamps_using_yt_subtitles/
 Local MP4 → timestamps_using_whisper.py → results/timestamps_using_whisper/
@@ -97,93 +141,108 @@ Outputs:
 
 ## 🧩 5. LLM-Based Task Extraction & Timestamp Assignment
 
-## Main 
-**Script:** `scripts/tasks_with_timestamps.py`  
-**Prompt:** `scripts/prompt_for_tasks_with_timestamps.txt`
+### Main Scripts
 
-## (Optional)
-**Script:** `scripts/tasks_with_timestamps_using_pyseqmatcher.py`  
-**Prompt:** `scripts/prompt_for_using_pyseqmatcher.txt`
-
-
-### How It Works
-
-1. The LLM (Qwen, S1, etc.) reads the full transcript.
-2. It determines relevance.
-3. It generates **MAINTASK** and **SUBTASK** blocks grounded in the transcript.
-4. Python’s `SequenceMatcher` aligns each subtask back to Whisper segments.
-5. Approximate timestamps are assigned.
+| Purpose | File |
+|--------|------|
+| Primary LLM task extraction pipeline | **`scripts/tasks_with_timestamps.py`** |
+| Prompt template | **`scripts/prompt_for_tasks_with_timestamps.txt`** |
+| (Optional) Python approximate alignment version | `scripts/tasks_with_timestamps_using_pyseqmatcher.py` |
+| (Optional) Prompt for SeqMatcher version | `scripts/prompt_for_using_pyseqmatcher.txt` |
 
 ---
 
-## ⚠️ Important: Limitations of S1 and Python Sequence Matcher
+### How It Works
 
-### ❌ Why S1 Fails on Long Videos
+This pipeline uses a modern LLM (Qwen, S1, etc.) to:
 
-S1 has a **4096 token context window**.
+1. Read the full transcript.  
+2. Determine whether the content is relevant.  
+3. Generate grounded **MAINTASK** and **SUBTASK** blocks.  
+4. Assign **Whisper segment IDs** (`SEGMENT_IDS: [id1, id2, ...]`) for each subtask.  
+5. Convert segment IDs into Whisper timestamps for downstream frame extraction.
 
-Your prompt includes:
+These timestamps are then used to extract representative frames and build HTML/DOCX visual summaries.
 
-- Long instructions  
+---
+
+### ⚠️ Limitations of S1 + Python SeqMatcher
+
+#### ❌ Why S1 Fails on Long Videos
+
+S1 has a **4096-token context limit**.
+
+Your prompt typically includes:
+
+- A long instruction block  
 - 30–200 Whisper segments  
-- Entire transcript  
+- The full transcript  
 
-Many videos exceed 4096 tokens, causing vLLM to throw:
+Many videos exceed this limit. When the prompt length is greater than S1's maximum context, vLLM raises an error like:
 
-```
+```text
 decoder prompt length longer than max_model_len=4096
 ```
 
 When this happens:
 
-- S1 outputs nothing  
-- The script sets `relevant = false`  
-- ⚠️ This does **not** mean the video is irrelevant — it means **S1 ran out of context**.
+- S1 returns no output.  
+- The script sets `relevant = false`.  
+- This **does not** mean the video is truly irrelevant — it only means S1 ran out of context.
 
-### ❌ Why PySeqMatcher Is Not Ideal
+#### ❌ Why Python `SequenceMatcher` Is Not Ideal
 
-`SequenceMatcher`:
-- Produces **approximate** timestamps  
-- Breaks when transcripts are long  
-- Gets confused by repeated phrases  
-- Cannot handle LLM paraphrasing  
-- Is not designed for timestamp alignment  
-- Leads to frame extraction that may be off
+The optional `tasks_with_timestamps_using_pyseqmatcher.py` script uses Python's `difflib.SequenceMatcher` to align LLM text back to the transcript. This approach:
 
-It “works” but is **not robust or accurate**.
+- Produces only **approximate** timestamps.  
+- Degrades on long transcripts.  
+- Gets confused by repeated phrases.  
+- Struggles when the LLM paraphrases.  
+- Was never designed for robust timestamp alignment.
 
----
-
-## ⭐ Superior Method: Ask Qwen to Output Whisper `SEGMENT_IDS`
-
-Models like Qwen 2.5 (7B/14B) handle **32k–128k contexts** and follow instructions extremely well.
-
-Best approach:
-
-### ✔ The LLM reads:
-- Full transcript  
-- Full Whisper segment list  
-- Task extraction instructions  
-
-### ✔ The LLM outputs:
-
-```
-SUBTASK: <description>
-SEGMENT_IDS: [3, 4]
-```
-
-This gives **perfect, Whisper-aligned timestamps** and eliminates the Python heuristics entirely.
-
-### Benefits
-
-- Greatly improved alignment accuracy  
-- Works for long videos  
-- No timestamp matching hacks  
-- Produces better frames for HTML/DOCX reports  
+It can work, but it is **not** as reliable or accurate as directly predicting segment IDs.
 
 ---
 
-## 🧩 6. Frame Extraction (Optional)
+### ⭐ Recommended Method: Qwen with Explicit `SEGMENT_IDS`
+
+Modern models like **Qwen 2.5 (7B/14B)** support **32k–128k token contexts** and follow structured instructions very well.
+
+The recommended approach:
+
+1. The LLM reads:  
+   - Full transcript  
+   - Full Whisper segment list  
+   - Detailed task extraction instructions  
+
+2. The LLM outputs for each subtask:
+
+   ```text
+   SUBTASK: <description>
+   SEGMENT_IDS: [3, 4]
+   ```
+
+This directly ties each subtask to Whisper segment IDs, yielding **high-quality, Whisper-aligned timestamps** and removing the need for Python heuristic alignment.
+
+#### Benefits
+
+- Greatly improved alignment accuracy.  
+- Works for long videos.  
+- No timestamp matching hacks.  
+- Produces better frames for HTML/DOCX reports.
+
+---
+
+### ▶️ Run
+
+Basic usage with Qwen 2.5:
+
+```bash
+python scripts/tasks_with_timestamps.py   --model Qwen/Qwen2.5-7B-Instruct   --prompt_file scripts/prompt_for_tasks_with_timestamps.txt   --input_dir /path/to/json/transcripts   --output_dir /path/to/output_tasks
+```
+
+
+## 🧩 6. Frame Extraction 
 
 **Script:** `scripts/extract_frames_from_timestamps.py`
 
@@ -210,7 +269,7 @@ python scripts/extract_frames_from_timestamps.py     --json_dir results/tasks_wi
 
 ---
 
-## 🧩 7. HTML & DOCX Reports (Optional)
+## 🧩 7. HTML & DOCX Reports 
 
 Utilities can generate:
 
