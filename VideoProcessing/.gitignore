@@ -1,2 +1,28 @@
+# Ignore IDE and venv
+.idea/
+.venv/
+
+# Ignore large data / raw media
+data/
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.wav
+
+# Archives & big checkpoints
+*.zip
+*.tar
+*.gz
+*.pt
+*.bin
+*.npy
+*.checkpoint
+
+# OS junk
 .DS_Store
 **/.DS_Store
+
+# Python cache
+__pycache__/
+**/__pycache__/
