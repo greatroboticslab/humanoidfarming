@@ -44,7 +44,7 @@ python scripts/timestamps_using_whisper.py     --file path/to/video.mp4     --ou
 ### ▶️ Batch Mode (HPC)
 
 ```bash
-sbatch scripts/run_whisper_all_gpu.slurm
+sbatch scripts/run_tasks_with_timestamps.slurm
 ```
 
 ---
@@ -182,34 +182,95 @@ python scripts/tasks_with_timestamps.py   --model Qwen/Qwen2.5-7B-Instruct   --p
 ```
 
 
-## 🧩 6. Frame Extraction 
+## 🧩 6. Frame Extraction  
+**Script:** `scripts/extract_frames_from_subtasks.py`
 
-**Script:** `scripts/extract_frames_from_timestamps.py`
+This stage converts task/subtask timestamp intervals into **representative frames extracted from videos**.
 
-Given:
+## 📥 Inputs
+- JSON files with tasks, subtasks, and `(start, end)` timestamps  
+- Original video files (`.mp4`, `.mkv`, `.mov`, `.avi`)
 
-- JSON with tasks/subtasks/timestamps
-- Original videos
+## 🎯 Frame Sampling Strategy
+For every subtask:
+- Minimum **3 frames**
+- Approx. **1 frame every 5 seconds**
+- Maximum **20 frames**
+- Frames are **uniformly spaced** between `(start, end)`
+- Subtasks without valid timestamps are skipped
 
-For each subtask:
-
-1. Pick a representative timestamp (usually mid of `[start, end]`)
-2. Call `ffmpeg` to extract a single frame
-3. Save image as:
-
+## 📤 Output Directory Structure
 ```
-results/frame_extractions/<video_id>/taskXX_subYY.jpg
+results/frame_extractions/<video_id>/
+    taskXX_subYY_fZZ.jpg
 ```
 
-### ▶️ Run
+Where:
+- `XX` = task index  
+- `YY` = subtask index  
+- `ZZ` = frame index  
 
+## ▶️ Run
 ```bash
-python scripts/extract_frames_from_timestamps.py     --json_dir results/tasks_with_timestamps     --video_dir data/Videos_with_speech     --out_dir results/frame_extractions
+python scripts/extract_frames_from_subtasks.py   --json_dir results/tasks_with_timestamps   --video_dir data/Videos_with_speech   --out_dir results/frame_extractions
 ```
 
 ---
 
-## 🧩 7. HTML & DOCX Reports 
+## 🧩 7. Near-Duplicate Frame Removal & Captioning  
+**Script:** `scripts/caption_and_dedupe_frames.py`
+
+This stage refines extracted frames by:
+1. **Removing visually near-duplicate frames** using perceptual hashing  
+2. Generating **single-sentence captions** using Qwen2-VL
+
+## 📥 Inputs
+Frames from Step 6:
+
+```
+results/frame_extractions/<video_id>/*.jpg
+```
+
+## 🧹 Perceptual Hash (pHash)–Based Frame Deduplication
+The script uses the Python `imagehash` library to perform:
+- Perceptual hash (`phash`) computation
+- Detection of visually duplicate or near-identical frames
+- Retention of only the **first unique** frame
+- Optional deletion if `DELETE_DUPLICATES = True`
+
+This ensures:
+- Reduced storage
+- Faster captioning
+- More diverse visual samples
+
+## 📝 Captioning (Qwen2-VL)
+For each **unique** frame:
+- Qwen/Qwen2-VL-7B-Instruct generates a **clear, concise 1-sentence description**
+- Boilerplate (system/user/assistant) is removed
+- Metadata is stored:
+  - video index  
+  - task index  
+  - subtask index  
+  - frame index  
+  - caption  
+  - relative path  
+
+## 📤 Output
+One JSON per video:
+
+```
+results/frame_captions/<video_id>.json
+```
+
+
+### ▶️ Run
+```bash
+python scripts/caption_and_dedupe_frames.py
+```
+
+---
+
+## 🧩 HTML & DOCX Reports 
 
 Utilities can generate:
 
@@ -249,6 +310,8 @@ document/<video_id>.docx
 | `tasks_with_timestamps.py` | LLM task extraction |
 | `extract_frames_from_timestamps.py` | Frame extraction using ffmpeg |
 | `prompt_for_tasks_with_timestamps.txt` | LLM prompt template |
+| `extract_frames_from_subtasks.py` | Frame extractions |
+| `caption_and_dedupe_frames.py` | Removal of duplicates and Frame captioning |
 
 ---
 
