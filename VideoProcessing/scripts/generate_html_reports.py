@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 
 # Base paths
-BASE_DIR = Path("/ocean/projects/cis240145p/byler/anusha/humanoidfarming/VideoProcessing")
+
 
 JSON_DIR = BASE_DIR / "results" / "timestamps_using_llm"
 FRAMES_DIR = BASE_DIR / "results" / "frame_extractions"

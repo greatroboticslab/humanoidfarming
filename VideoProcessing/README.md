@@ -218,7 +218,7 @@ python scripts/extract_frames_from_subtasks.py   --json_dir results/tasks_with_t
 ---
 
 ## 🧩 7. Near-Duplicate Frame Removal & Captioning  
-**Script:** `scripts/caption_and_dedupe_frames.py`
+**Script:** `scripts/frame_captions.py`
 
 This stage refines extracted frames by:
 1. **Removing visually near-duplicate frames** using perceptual hashing  
@@ -265,7 +265,7 @@ results/frame_captions/<video_id>.json
 
 ### ▶️ Run
 ```bash
-python scripts/caption_and_dedupe_frames.py
+python scripts/frame_captions.py
 ```
 
 ---
@@ -300,18 +300,18 @@ document/<video_id>.docx
 
 ## 📜 Script Summary
 
-| Script | Purpose |
-|--------|---------|
-| `timestamps_using_yt_subtitles.py` | Download YouTube auto-captions |
-| `timestamps_using_whisper.py` | Local Whisper ASR |
-| `split_speech_vs_nospeech.py` | Speech/no-speech classification |
-| `align_tasks_with_timestamp.py` | Legacy baseline alignment |
+| Script                                        | Purpose |
+|-----------------------------------------------|---------|
+| `timestamps_using_yt_subtitles.py`            | Download YouTube auto-captions |
+| `timestamps_using_whisper.py`                 | Local Whisper ASR |
+| `split_speech_vs_nospeech.py`                 | Speech/no-speech classification |
+| `align_tasks_with_timestamp.py`               | Legacy baseline alignment |
 | `tasks_with_timestamps_using_pyseqmatcher.py` | LLM task extraction + SequenceMatcher timestamps |
-| `tasks_with_timestamps.py` | LLM task extraction |
-| `extract_frames_from_timestamps.py` | Frame extraction using ffmpeg |
-| `prompt_for_tasks_with_timestamps.txt` | LLM prompt template |
-| `extract_frames_from_subtasks.py` | Frame extractions |
-| `caption_and_dedupe_frames.py` | Removal of duplicates and Frame captioning |
+| `tasks_with_timestamps.py`                    | LLM task extraction |
+| `extract_frames_from_timestamps.py`           | Frame extraction using ffmpeg |
+| `prompt_for_tasks_with_timestamps.txt`        | LLM prompt template |
+| `extract_frames_from_subtasks.py`             | Frame extractions |
+| `frame_captions.py`                           | Removal of duplicates and Frame captioning |
 
 ---
 
@@ -326,7 +326,7 @@ document/<video_id>.docx
 ## ⭐ Recommended Workflow
 
 ```
-Whisper → Qwen (segment ID selection) → JSON → Frame Extraction → HTML/DOCX reports
+Whisper → Qwen (segment ID selection) → JSON → Frame Extraction → Frame Captions → HTML/DOCX reports
 ```
 
 This ensures:

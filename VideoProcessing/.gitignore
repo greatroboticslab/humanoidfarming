@@ -1,28 +1,12 @@
-# Ignore IDE and venv
-.idea/
-.venv/
+# Ignore everything
+*
 
-# Ignore large data / raw media
-data/
-*.mp4
-*.mkv
-*.avi
-*.mov
-*.wav
-
-# Archives & big checkpoints
-*.zip
-*.tar
-*.gz
-*.pt
-*.bin
-*.npy
-*.checkpoint
-
-# OS junk
-.DS_Store
-**/.DS_Store
-
-# Python cache
-__pycache__/
-**/__pycache__/
+# Allow these folders and files
+!/scripts/
+!/results/
+!/results/frame_extractions/
+!/results/frame_captions/
+!/documents/
+!/documents/html/
+!/README.md
+!.gitignore

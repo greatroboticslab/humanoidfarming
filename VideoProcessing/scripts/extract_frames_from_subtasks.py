@@ -5,9 +5,9 @@ import subprocess
 from pathlib import Path
 
 # === CONFIGURE THESE THREE PATHS ===
-JSON_DIR = Path("/ocean/projects/cis240145p/byler/anusha/humanoidfarming/VideoProcessing/results/tasks_with_timestamps")
-VIDEO_DIR = Path("/ocean/projects/cis240145p/byler/anusha/humanoidfarming/VideoProcessing/data/Videos_with_speech")
-OUTPUT_DIR = Path("/ocean/projects/cis240145p/byler/anusha/humanoidfarming/VideoProcessing/results/frame_extractions")
+JSON_DIR = Path("results/tasks_with_timestamps")
+VIDEO_DIR = Path("data/Videos_with_speech")
+OUTPUT_DIR = Path("results/frame_extractions")
 
 # Try these video extensions, in order
 VIDEO_EXTS = [".mp4", ".mkv", ".mov", ".avi"]

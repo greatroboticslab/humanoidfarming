@@ -381,13 +381,13 @@ def main():
     parser.add_argument(
         "--input_dir",
         type=str,
-        default="/ocean/projects/cis240145p/byler/anusha/humanoidfarming/VideoProcessing/results/timestamps_using_whisper",
+        default="results/timestamps_using_whisper",
         help="Directory with JSON transcripts (Whisper-style with segments).",
     )
     parser.add_argument(
         "--output_dir",
         type=str,
-        default="/ocean/projects/cis240145p/byler/anusha/humanoidfarming/VideoProcessing/results/tasks_with_timestamps",
+        default="results/tasks_with_timestamps",
         help="Where to save enriched JSON task files.",
     )
     parser.add_argument("--start", type=int, default=0, help="Start index into file list.")

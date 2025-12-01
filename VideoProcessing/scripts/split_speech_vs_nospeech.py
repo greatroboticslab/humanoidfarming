@@ -2,7 +2,7 @@
 import json
 from pathlib import Path
 
-PROJECT = Path("/ocean/projects/cis240145p/byler/anusha/humanoidfarming/VideoProcessing")
+PROJECT = Path("VideoProcessing")
 RESULTS = PROJECT / "results"
 VIDEOS = PROJECT / "data" / "Videos"
 
