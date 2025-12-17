@@ -1,0 +1,610 @@
+{
+  "video_index": "43De9KcZXi4",
+  "title": "New Generation Fixed-Chamber Press 540 AutoCut Review",
+  "url": "https://www.youtube.com/watch?v=43De9KcZXi4",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "The video describes a new generation of stationary bale press machine with several technical features and improvements.",
+  "tasks": [
+    {
+      "task": "Highlight the key features and improvements of the new stationary bale press machine.",
+      "start": 5.26,
+      "end": 126.79,
+      "subtasks": [
+        {
+          "text": "Observe the reinforced design of the chassis and rolls, as well as the mixed netting or film lacing system.",
+          "start": 5.26,
+          "end": 11.26,
+          "segment_ids": [
+            0
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "43De9KcZXi4/task00_sub00_f00.jpg",
+              "caption": "A tractor is mowing a field with the text \"CLAAS ROLLANT 540 RC\" overlaid.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "43De9KcZXi4/task00_sub00_f01.jpg",
+              "caption": "A tractor is seen in a field, with the text \"CLAAS ROLLANT 540 RC\" overlaid.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "43De9KcZXi4/task00_sub00_f02.jpg",
+              "caption": "A large green tractor with red wheels is driving through a field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "Observe and describe the reinforced design elements and the mixed netting or film lacing system of the CLAAS ROLLANT 540 RC fixed-chamber press.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0,1]] The scene shows a tractor mowing a field with the text \"CLAAS ROLLANT 540 RC\" overlaid. No specific details about the press are visible.",
+            "- [frames=[2]] The tractor is now driving through the field, still with the text \"CLAAS ROLLANT 540 RC\" overlaid. The focus shifts to the press itself as it is shown in operation.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The subtask involves observing the press during its operation in a field setting. The press is initially not in view but becomes the focal point as the tractor drives past it, allowing for detailed observation of its reinforced design and lacing system.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The video is playing and the current frame is within the specified time range (5.3s–11.3s).",
+            "- The press is in operation and visible in the frame.",
+            "- The text \"CLAAS ROLLANT 540 RC\" is clearly displayed in the frames.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot has identified and described the reinforced design elements of the chassis and rolls.",
+            "- The robot has noted the presence of the mixed netting or film lacing system.",
+            "- The robot has accurately highlighted the key features and improvements of the press.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0,1]] Navigate to the frame where the press first becomes visible.",
+            "2. [type=perception, frames=[2]] Analyze the current frame to identify the press and its components.",
+            "3. [type=manipulation, frames"
+          ]
+        },
+        {
+          "text": "Note the easy switching between modes by lateral guides of the roll guidance system.",
+          "start": 18.26,
+          "end": 23.26,
+          "segment_ids": [
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f00.jpg",
+              "relative_path": "43De9KcZXi4/task00_sub01_f00.jpg",
+              "caption": "A large tractor with a green and white body is parked in a field.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "43De9KcZXi4/task00_sub01_f01.jpg",
+              "caption": "A Claas tractor is parked in a field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "43De9KcZXi4/task00_sub01_f02.jpg",
+              "caption": "A tractor is seen in a field with a baling machine.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "Note the ease of switching between modes using the lateral guides of the roll guidance system.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0,1]] A large tractor with a green and white body is parked in a field.",
+            "- [frames=[2]] A tractor is seen in a field with a baling machine.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene shows a tractor in a field, which is likely preparing to operate a baling machine. The focus of the subtask is on observing the ease of switching between operating modes using the lateral guides of the roll guidance system.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The tractor is parked in a field.",
+            "- The baling machine is present and ready for operation.",
+            "- The roll guidance system is functional and visible.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot observes the lateral guides of the roll guidance system.",
+            "- The robot notes the ease of switching between operating modes.",
+            "- The robot confirms the presence of the roll guidance system and its functionality.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0,1]] Drive the robot to the area where the tractor is parked.",
+            "2. [type=perception, frames=[0,1]] Use the camera to identify the tractor and its color.",
+            "3. [type=navigation, frames=[2]] Move the robot closer to the baling machine.",
+            "4. [type=perception, frames=[2]] Use the camera to locate the roll guidance system and its lateral guides.",
+            "5. [type=manipulation, frames=[2]] Adjust the robot's position to get a clear view of the roll guidance system.",
+            "6. [type=perception, frames=[2]] Analyze the images to confirm the ease of switching between operating modes.",
+            "7. [type=communication, frames=[2]] Report the observations to the user"
+          ]
+        },
+        {
+          "text": "Describe the capability to produce bales with a diameter of 1.25 meters and a width of 1.22 meters.",
+          "start": 24.26,
+          "end": 29.26,
+          "segment_ids": [
+            3
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub02_f00.jpg",
+              "relative_path": "43De9KcZXi4/task00_sub02_f00.jpg",
+              "caption": "A large green and white agricultural machine, possibly a baler, is parked in a field.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub02_f01.jpg",
+              "relative_path": "43De9KcZXi4/task00_sub02_f01.jpg",
+              "caption": "A green and black Claas Rollant 540RC baler is parked in a field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub02_f02.jpg",
+              "relative_path": "43De9KcZXi4/task00_sub02_f02.jpg",
+              "caption": "A large agricultural machine is rolling on a field, with a green and black color scheme.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "The subtask involves describing the capability of the new stationary bale press machine to produce bales with specific dimensions.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0,1]] A large green and white agricultural machine, likely a baler, is parked in a field. The machine has a green and black color scheme, similar to the Claas Rollant 540RC baler mentioned in the video.",
+            "- [frames=[2]] The large agricultural machine is rolling on a field, indicating it is in operation.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene depicts a stationary bale press machine in operation, producing bales with a specified diameter and width. The machine's movement on the field suggests it is capable of handling and compressing material into bales.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot must recognize the machine as a stationary bale press.",
+            "- The robot should know the specific dimensions of the bales being produced (1.25 meters diameter and 1.22 meters width).",
+            "- The robot needs to understand the operational process of the bale press machine.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot should accurately describe the machine's capability to produce bales with the given dimensions.",
+            "- The robot must provide a clear and concise explanation of how the machine achieves these dimensions.",
+            "- The robot should highlight any unique features or improvements related to the bale production process.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0,1]] Navigate to the area where the large green and white agricultural machine is parked.",
+            "2. [type=perception, frames=[0,1]] Identify the machine as a stationary bale press based on its appearance and color scheme.",
+            "3. [type=manipulation, frames=[2]] Observe the machine in operation to confirm its function.",
+            "4. ["
+          ]
+        },
+        {
+          "text": "Highlight the design with a 2.1-meter pickup cam and dual roller tacking in the option, along with lateral feeders that evenly supply the rotor.",
+          "start": 29.26,
+          "end": 38.26,
+          "segment_ids": [
+            4
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub03_f01.jpg",
+              "relative_path": "43De9KcZXi4/task00_sub03_f01.jpg",
+              "caption": "The video frame shows a close-up of a tractor's large red-rimmed tires.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub03_f02.jpg",
+              "relative_path": "43De9KcZXi4/task00_sub03_f02.jpg",
+              "caption": "A piece of agricultural machinery is actively cutting grass.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "Highlight the design features of the new stationary bale press machine, specifically focusing on the 2.1-meter pickup cam, dual roller tacking, and lateral feeders.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0,1]] The video begins with a close-up of a tractor's large red-rimmed tires, indicating the setting in an agricultural environment.",
+            "- [frames=[2]] A piece of agricultural machinery is shown actively cutting grass, suggesting the context of the bale press machine being used in a field.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene transitions from showing the tractor to highlighting the agricultural machinery in action. This setup prepares viewers for the detailed features of the new stationary bale press machine, which will be discussed shortly.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The video is playing and the relevant segment is within the specified time range (29.3s–38.3s).",
+            "- The camera is focused on the agricultural machinery.",
+            "- The machine is in operation, allowing for a demonstration of its features.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot successfully identifies and highlights the 2.1-meter pickup cam.",
+            "- The robot accurately points out the dual roller tacking mechanism.",
+            "- The robot clearly explains the function of the lateral feeders.",
+            "- The robot provides a comprehensive overview of how these features contribute to the machine’s performance.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0,1]] Navigate to the close-up view of the tractor's tires to establish the setting.",
+            "2. [type=manipulation, frames=[2]] Focus on the agricultural machinery cutting grass to set the context.",
+            "3. [type=perception, frames=[2]] Identify the 2.1-meter pickup cam and highlight it.",
+            "4. [type=manipulation, frames=[2]] Point"
+          ]
+        },
+        {
+          "text": "Explain the system with 15 attachable knives that offer a theoretical cutting length of 70 mm.",
+          "start": 38.26,
+          "end": 46.79,
+          "segment_ids": [
+            5
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub04_f01.jpg",
+              "relative_path": "43De9KcZXi4/task00_sub04_f01.jpg",
+              "caption": "A close-up view of a piece of agricultural machinery, possibly a tractor or harvester, with a focus on its underside.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub04_f02.jpg",
+              "relative_path": "43De9KcZXi4/task00_sub04_f02.jpg",
+              "caption": "A tractor is mowing grass with a large red wheel visible in the foreground.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "Explain the system with 15 attachable knives that offer a theoretical cutting length of 70 mm.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0,1]] A close-up view of a piece of agricultural machinery, possibly a tractor or harvester, with a focus on its underside. The scene shows a detailed look at the machinery's components, including the knives.",
+            "- [frames=[2]] A tractor is mowing grass with a large red wheel visible in the foreground, indicating the context of the cutting mechanism.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The subtask involves explaining a stationary bale press machine equipped with 15 attachable knives capable of cutting material up to 70 mm in length. The initial frame provides a detailed view of the machine’s underside, highlighting the knives, while the second frame shifts to a broader view showing the machine in operation, likely mowing grass.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot must have access to the stationary bale press machine.",
+            "- The machine should be powered and ready for demonstration.",
+            "- The robot should be familiar with the machine’s components, particularly the knives.",
+            "- The machine should be set up in a way that allows for a clear demonstration of the cutting process.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot should accurately describe the number of knives and their theoretical cutting length.",
+            "- The explanation should clearly link the knives to the cutting process demonstrated in the second frame.",
+            "- The robot should provide a comprehensive overview of how the knives contribute to the machine’s functionality.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0,1]] Move to the close-up view of the machine’s underside to focus on the knives.",
+            "2. [type=manipulation, frames=[0,1]] Use a camera to capture detailed images of the knives and their arrangement."
+          ]
+        },
+        {
+          "text": "Describe how each knife is individually protected against foreign objects and can be lowered to clear the cut if necessary.",
+          "start": 47.79,
+          "end": 55.79,
+          "segment_ids": [
+            6
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub05_f00.jpg",
+              "relative_path": "43De9KcZXi4/task00_sub05_f00.jpg",
+              "caption": "A tractor is mowing grass with a red wheel.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub05_f01.jpg",
+              "relative_path": "43De9KcZXi4/task00_sub05_f01.jpg",
+              "caption": "A farm machine is actively cutting grass with a large blade.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub05_f02.jpg",
+              "relative_path": "43De9KcZXi4/task00_sub05_f02.jpg",
+              "caption": "A close-up view of a farm machinery component, possibly a harvester or cutter, in action.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "The subtask involves explaining how the knives in the fixed-chamber press are designed to protect against foreign objects and can be safely lowered to clear the cut if needed.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0]] A tractor is seen mowing grass, setting the context of agricultural machinery.",
+            "- [frames=[1]] A farm machine is actively cutting grass with a large blade, showing the general operation of a cutting mechanism.",
+            "- [frames=[2]] A close-up view of a farm machinery component, likely a harvester or cutter, is shown in action, providing a detailed look at the cutting mechanism.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "This subtask focuses on the safety and functionality of the knives used in the fixed-chamber press. The scene transitions from a broader view of a tractor mowing grass to a detailed view of a cutting mechanism, emphasizing the importance of safety features in the design.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot must have knowledge about the fixed-chamber press and its components.",
+            "- The robot should be aware of the safety mechanisms in place for the knives.",
+            "- The robot needs to understand the process of lowering the knives to clear the cut.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot should accurately describe the protection mechanism for the knives.",
+            "- The robot must explain the process of lowering the knives to clear the cut.",
+            "- The explanation should be clear and understandable to the viewer.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0]] Navigate to the overview of the tractor mowing grass.",
+            "2. [type=navigation, frames=[1]] Transition to the close-up view of the cutting mechanism.",
+            "3. [type=perception, frames=[2]] Analyze the close-up view to identify the knives and their protective features.",
+            "4. [type=manipulation, frames=[2]] Sim"
+          ]
+        },
+        {
+          "text": "Explain the new rear hinge system's advantages, including reduced stress on hinges and constant pressure, with hydraulic cylinders set to 180 bar.",
+          "start": 100.79,
+          "end": 114.79,
+          "segment_ids": [
+            14,
+            15
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub06_f00.jpg",
+              "relative_path": "43De9KcZXi4/task00_sub06_f00.jpg",
+              "caption": "A tractor is pulling a baling machine in a field.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub06_f01.jpg",
+              "relative_path": "43De9KcZXi4/task00_sub06_f01.jpg",
+              "caption": "A tractor is pulling a baling machine in a field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub06_f02.jpg",
+              "relative_path": "43De9KcZXi4/task00_sub06_f02.jpg",
+              "caption": "A Claas Rollant 540RC baler is parked in a field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "Explain the advantages of the new rear hinge system in the fixed-chamber press 540 AutoCut, focusing on reduced stress on hinges and constant pressure provided by hydraulic cylinders at 180 bar.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0,1]] A tractor is seen pulling a baling machine in a field, setting the scene for the introduction of the new machine.",
+            "- [frames=[2]] The Claas Rollant 540RC baler is parked in a field, providing context for the discussion about the new press machine.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene shifts from a tractor pulling a baling machine to a stationary Claas Rollant 540RC baler, preparing the viewer for an explanation of the new generation fixed-chamber press 540 AutoCut's features.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The video has already introduced the new press machine.",
+            "- The viewer is familiar with the existing baling machines.",
+            "- The focus is on the rear hinge system and its benefits.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot should clearly explain the advantages of the new rear hinge system.",
+            "- The robot should mention the reduced stress on hinges and constant pressure.",
+            "- The robot should specify the hydraulic cylinder pressure at 180 bar.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0,1]] Guide the viewer to see the tractor pulling the baling machine.",
+            "2. [type=manipulation, frames=[2]] Focus on the Claas Rollant 540RC baler to establish the context.",
+            "3. [type=perception, frames=[0-2]] Analyze the current state of the baling machine to highlight the need for improvement.",
+            "4. [type=communication, frames=[110-114"
+          ]
+        },
+        {
+          "text": "Mention the availability of NPS2 option, which includes a segment with 3 pivoting rollers in the chamber to further compress the forage.",
+          "start": 114.79,
+          "end": 126.79,
+          "segment_ids": [
+            16
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub07_f01.jpg",
+              "relative_path": "43De9KcZXi4/task00_sub07_f01.jpg",
+              "caption": "A tractor is rolling a bale of hay into a bale wrapper.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub07_f02.jpg",
+              "relative_path": "43De9KcZXi4/task00_sub07_f02.jpg",
+              "caption": "A tractor is pulling a baling machine in a field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "Mention the availability of the NPS2 option, which includes a segment with 3 pivoting rollers in the chamber to further compress the forage.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0]] The tractor is seen rolling a bale of hay into a bale wrapper.",
+            "- [frames=[1]] The tractor continues to roll the bale, indicating the process of preparing forage.",
+            "- [frames=[2]] The tractor is now pulling a baling machine in a field, setting the scene for the discussion about the fixed-chamber press.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene shifts from the preparation of forage (rolling a bale) to the introduction of the new stationary bale press machine. This transition sets up the context for discussing the NPS2 option, which is designed to enhance the compression process.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The tractor is present and operational.",
+            "- The bale of hay is ready for processing.",
+            "- The baling machine is set up and accessible.",
+            "- The NPS2 option is available and can be discussed.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot correctly identifies the NPS2 option.",
+            "- The robot explains the benefits of the 3 pivoting rollers in the chamber.",
+            "- The robot mentions how the NPS2 improves the compression of forage.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0,1]] Navigate to the area where the tractor is rolling the bale of hay.",
+            "2. [type=perception, frames=[0,1]] Observe the tractor rolling the bale and prepare to discuss the bale press.",
+            "3. [type=manipulation, frames=[2]] Position the robot near the baling machine being pulled by the tractor.",
+            "4. [type=communication, frames=[2]] Announce the"
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Highlight practical aspects of the machine, such as service accessibility and proportional lubrication.",
+      "start": 129.68,
+      "end": 148.68,
+      "subtasks": [
+        {
+          "text": "Describe the global review access and the proportional lubrication provided by an eccentric pump driven by a 6.3-liter oil tank.",
+          "start": 129.68,
+          "end": 138.68,
+          "segment_ids": [
+            17
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "43De9KcZXi4/task01_sub00_f00.jpg",
+              "caption": "A tractor is pulling a baling machine in a field.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "43De9KcZXi4/task01_sub00_f01.jpg",
+              "caption": "A tractor is driving through a field, with a person visible through the window.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "43De9KcZXi4/task01_sub00_f02.jpg",
+              "caption": "A tractor is parked in a field with a large round baler attached.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "Highlight the global review access and the proportional lubrication provided by the eccentric pump driven by a 6.3-liter oil tank.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0,1]] The scene shows a tractor pulling a baling machine in a field, with a person visible through the window.",
+            "- [frames=[2]] The tractor is parked in a field with a large round baler attached.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The subtask involves observing the tractor and the baling machine setup, focusing on the global review access and the proportional lubrication system. The tractor is seen in motion initially, then parked with the baling machine attached, setting the stage for the review of the machine's features.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The tractor and baling machine are present in the field.",
+            "- The camera is positioned to capture the tractor and the baling machine.",
+            "- The 6.3-liter oil tank and the eccentric pump are visible and operational.",
+            "- The proportional lubrication system is functioning correctly.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot can accurately describe the global review access.",
+            "- The robot can explain the operation of the proportional lubrication system.",
+            "- The robot can identify the 6.3-liter oil tank and the eccentric pump.",
+            "- The robot can confirm the proper functioning of the proportional lubrication system.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0,1]] Navigate the camera to focus on the tractor pulling the baling machine in the field.",
+            "2. [type=perception, frames=[0,1]] Identify the tractor and the baling machine in the field.",
+            "3. [type=navigation, frames=[2]] Move the camera to focus on the tractor parked with the baling machine attached.",
+            "4. [type=manipulation, frames=[2]] Adjust the"
+          ]
+        },
+        {
+          "text": "Note the rear door oilers being concentrated on the right side of the machine.",
+          "start": 138.68,
+          "end": 143.68,
+          "segment_ids": [
+            18
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "43De9KcZXi4/task01_sub01_f01.jpg",
+              "caption": "A Claas Rollant 540RC baler is being used on a farm.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "43De9KcZXi4/task01_sub01_f02.jpg",
+              "caption": "The video frame is black with a logo in the bottom left corner.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "Highlight the rear door oilers located on the right side of the machine during the review of the New Generation Fixed-Chamber Press 540 AutoCut.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0]] A Claas Rollant 540RC baler is shown in a farm setting, with the rear door open revealing the oilers on the right side.",
+            "- [frames=[1]] The camera focuses closely on the right side of the machine, highlighting the rear door oilers.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The subtask involves noting the location of the rear door oilers on the right side of the machine. This is an important aspect of the machine's maintenance and operation, as it indicates where regular lubrication is needed.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The machine must be powered on and accessible.",
+            "- The rear door must be open to view the oilers.",
+            "- The robot must have the necessary permissions to operate in the farm environment.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot must accurately identify the location of the rear door oilers.",
+            "- The robot must correctly describe the location of the oilers in the review.",
+            "- The robot must capture a clear image or video of the oilers for documentation.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0]] Navigate to the position of the machine on the farm.",
+            "2. [type=manipulation, frames=[0]] Open the rear door of the machine to access the oilers.",
+            "3. [type=perception, frames=[1]] Focus the camera on the right side of the machine to capture the oilers.",
+            "4. [type=manipulation, frames=[1]] Ensure the camera captures a clear and detailed image of the oilers.",
+            "5. [type=communication, frames=[1]] Transmit the captured image or"
+          ]
+        },
+        {
+          "text": "Mention the option to store netting or film roll on the right side of the machine.",
+          "start": 143.68,
+          "end": 148.68,
+          "segment_ids": [
+            19
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub02_f01.jpg",
+              "relative_path": "43De9KcZXi4/task01_sub02_f01.jpg",
+              "caption": "A man is inspecting the interior of a large agricultural machine.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub02_f02.jpg",
+              "relative_path": "43De9KcZXi4/task01_sub02_f02.jpg",
+              "caption": "A man is inspecting the interior of a large agricultural machine.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "The subtask involves highlighting the feature of storing netting or film roll on the right side of the machine during a review of an agricultural press.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0,1]] A man is inspecting the interior of a large agricultural machine, focusing on the right side.",
+            "- [frames=[2]] The man is pointing to a storage compartment on the right side of the machine, indicating where the netting or film roll can be stored.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene shows a detailed inspection of the machine's interior, specifically highlighting a feature that allows for easy storage of materials like netting or film rolls. This feature is crucial for maintaining the machine and ensuring it is ready for use.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The machine must be powered off and in a safe state for inspection.",
+            "- The machine’s interior must be accessible for the robot to inspect.",
+            "- The robot must have the necessary sensors to identify the storage compartment.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot must correctly identify the storage compartment on the right side of the machine.",
+            "- The robot must accurately describe the feature and its purpose.",
+            "- The robot must provide a clear and concise explanation of how the feature works.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0,1]] Navigate to the right side of the machine where the man is inspecting.",
+            "2. [type=sensing, frames=[0,1]] Use visual sensors to confirm the presence of the storage compartment.",
+            "3. [type=manipulation, frames=[2]] Mimic the man’s gesture by pointing to the storage compartment.",
+            "4. [type=speech, frames=[2]] Announce, \"The machine has a storage compartment on the right side for netting or film roll.\"",
+            "5. [type=sensing, frames=[2"
+          ]
+        }
+      ]
+    }
+  ],
+  "guidance_text_file": "final_guidance_txt/43De9KcZXi4.txt"
+}

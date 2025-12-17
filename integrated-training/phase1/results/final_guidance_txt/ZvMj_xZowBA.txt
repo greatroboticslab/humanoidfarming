@@ -1,0 +1,245 @@
+VIDEO: ZvMj_xZowBA
+TITLE: Kale Planting in Containers Explained
+======================================================================
+
+TASK 0: Explain the method and benefits of growing kale in containers.
+Time Range: 5.01 → 316.11
+----------------------------------------------------------------------
+  SUBTASK 0: Show a kale plant growing in a container and its size after about 2-3 months.
+  Time Range: 5.01 → 19.48
+  Guidance:
+    GLOBAL_SUMMARY:
+    Show a kale plant growing in a container and its size after about 2-3 months.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0]] A small plant in a green pot is growing in a garden with other plants.
+    - [frames=[1]] A small garden with various plants, including a large cabbage plant in a bucket, is seen in a sunny outdoor setting.
+    - [frames=[2]] A potted plant with large leaves is in a garden with other plants.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene transitions from a close-up of a small kale plant in a pot to a broader view of a garden containing multiple plants, including a larger cabbage plant. The final frame shows the kale plant has grown significantly, with large leaves.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must be in the garden area.
+    - There should be a kale plant in a pot visible to the robot.
+    - The environment must be outdoors and well-lit.
+    
+    SUCCESS_CRITERIA:
+    - The kale plant must be clearly visible in a pot.
+    - The kale plant must show significant growth, with noticeable large leaves.
+    - The plant must be in a garden setting with other plants.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Move the camera to focus on the kale plant in the pot.
+    2. [type=perception, frames=[0,1]] Identify the kale plant and confirm it is in a pot.
+    3. [type=navigation, frames=[2]] Pan the camera to show the kale plant in a broader garden context.
+    4. [type=perception, frames=[2]] Verify the kale plant has grown significantly with large leaves.
+    5. [type=communication, frames=[2]] Announce the growth of the kale plant and its size after 2-3 months.
+    
+    SUBTASK
+
+  SUBTASK 1: Highlight the advantage of moving containers to areas with more sunlight.
+  Time Range: 175.11 → 225.11
+  Guidance:
+    GLOBAL_SUMMARY:
+    Highlight the advantage of moving containers to areas with more sunlight to ensure optimal growth conditions for kale plants.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0]] A potted plant with large, green leaves is in a garden area.
+    - [frames=[1]] A large cabbage plant grows in a garden with other plants and containers nearby.
+    - [frames=[2]] A green bucket with a plant inside is placed on a concrete surface, surrounded by several other pots.
+    - [frames=[3-7]] Various potted plants are shown in different settings within a garden.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene depicts a garden setting with multiple potted plants, including a large cabbage plant. The focus shifts to a specific container, which is moved to a more suitable location for better sunlight exposure.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must recognize and locate the container with the kale plant.
+    - The robot should be aware of the current position of the container.
+    - The robot needs to know the optimal sunlight areas in the garden.
+    - The robot must have the capability to move the container.
+    
+    SUCCESS_CRITERIA:
+    - The container with the kale plant is moved to an area with more sunlight.
+    - The new location of the container is visible and confirmed by the robot.
+    - The robot can verify that the kale plant is now receiving adequate sunlight.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Identify the container with the kale plant in the garden.
+    2. [type=perception, frames=[2]] Determine the current position of the container.
+    3. [type=navigation, frames=[2-7]] Navigate to the optimal sunlight area in the garden.
+    4. [type=manipulation, frames=[3-7]] Move the container to the new location.
+    5. [type=perception
+
+  SUBTASK 2: Describe the ease of managing pests and diseases with container gardening.
+  Time Range: 277.11 → 316.11
+  Guidance:
+    GLOBAL_SUMMARY:
+    Describe the ease of managing pests and diseases with container gardening.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] A potted plant with large leaves is seen in a garden with other plants.
+    - [frames=[2]] Various plants and pots are shown in a vegetable garden.
+    - [frames=[3]] A garden with various plants, including kale, is displayed in a sunny outdoor setting.
+    - [frames=[4,5]] Potted plants with large leaves and a large cabbage plant in a bucket are observed in a garden.
+    - [frames=[6,7]] Small plants in green pots and buckets are growing in a garden.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene shifts between different types of potted plants and vegetables in a garden setting. The focus is on showcasing how container gardening can simplify pest and disease management due to the controlled environment and easier access to plants.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must be able to navigate through a garden.
+    - The robot should recognize and differentiate between various plants and pots.
+    - The robot needs to understand the concept of container gardening and its benefits.
+    - The robot must have knowledge about common pests and diseases affecting plants.
+    
+    SUCCESS_CRITERIA:
+    - The robot should accurately describe the ease of managing pests and diseases in container gardening.
+    - The robot must provide examples of how container gardening simplifies pest and disease control.
+    - The robot should highlight the advantages of using containers for plant cultivation.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to a potted plant with large leaves in a garden.
+    2. [type=perception, frames=[2]] Identify various plants and pots in a vegetable garden.
+    3. [type=navigation, frames=[3]] Move to a garden with various plants, including kale, in a sunny outdoor setting.
+
+
+======================================================================
+
+TASK 1: Discuss the benefits of using containers for gardening in limited spaces.
+Time Range: 317.11 → 390.11
+----------------------------------------------------------------------
+  SUBTASK 0: Observe the potential for growing multiple plants in containers simultaneously.
+  Time Range: 317.11 → 360.11
+  Guidance:
+    GLOBAL_SUMMARY:
+    Observe the potential for growing multiple plants in containers simultaneously to demonstrate the efficiency of container gardening in limited spaces.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[1]] A small plant in a bucket is growing in a garden, indicating the use of containers for individual plants.
+    - [frames=[2]] A potted plant with large leaves is placed in a garden area, showing a single plant in a container.
+    - [frames=[3]] Another small potted plant with large leaves is added to the garden area, suggesting the addition of more plants.
+    - [frames=[4]] A potted plant with large leaves is again shown in the garden area, reinforcing the presence of multiple plants.
+    - [frames=[5-7]] Multiple potted plants with large leaves are seen in a garden with other plants, illustrating the coexistence of various plants in containers.
+    - [frames=[8]] A small cabbage plant grows in a pot on a balcony, surrounded by other plants in a garden, highlighting the versatility of container gardening in different settings.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene transitions from showcasing individual plants in containers to demonstrating how multiple plants can be grown together in a garden setting. This illustrates the space-saving and versatile nature of container gardening, making it an ideal solution for limited spaces.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must be able to navigate through the garden area.
+    - The robot should recognize and differentiate between various types of plants and containers.
+    - The robot needs to understand the concept of container gardening and its benefits.
+    - The robot must have knowledge about the growth stages of plants to identify them accurately.
+    - The robot should be aware of the spatial arrangement of plants in the garden.
+    
+    SUCCESS_CRITERIA:
+    - The robot should correctly identify multiple plants in containers within the garden.
+    - The robot must recognize the coexistence of different types of plants in containers.
+
+  SUBTASK 1: Mention the importance of timing and spacing plants in containers for optimal growth.
+  Time Range: 361.11 → 390.11
+  Guidance:
+    GLOBAL_SUMMARY:
+    Discuss the importance of proper timing and spacing for plants in containers to ensure optimal growth.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[1]] A garden scene with various plants and a potted plant in the foreground, indicating a general garden setting.
+    - [frames=[2]] A close-up of a small plant in a bucket surrounded by other plants, highlighting individual container plants.
+    - [frames=[3,4]] Potted plants with large leaves are shown on a concrete surface, emphasizing the size and placement of the plants.
+    - [frames=[5]] A broader view of the garden with a greenhouse in the background, providing context for the outdoor setting.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The subtask focuses on demonstrating the significance of timing and spacing in container gardening. The frames show different views of plants in pots within a garden setting, emphasizing the need for careful arrangement to promote healthy growth.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must be aware of the current state of the garden.
+    - The robot should have knowledge about plant care and growth requirements.
+    - The robot needs to recognize different types of plants and their containers.
+    - The robot must be able to navigate through the garden without disturbing the plants.
+    - The robot should be capable of identifying the correct timing and spacing for optimal growth.
+    
+    SUCCESS_CRITERIA:
+    - The robot should accurately describe the importance of proper timing and spacing for container plants.
+    - The robot must correctly identify and highlight the plants in the frames.
+    - The robot should provide a clear explanation of how timing and spacing affect plant growth.
+    - The robot needs to demonstrate an understanding of the garden environment and the plants' needs.
+    - The robot should conclude the subtask by summarizing the key points about container gardening.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[1]] Navigate to the area where the potted plant
+
+
+======================================================================
+
+TASK 2: Showcase the versatility of containers for growing various types of plants.
+Time Range: 416.11 → 489.11
+----------------------------------------------------------------------
+  SUBTASK 0: Demonstrate growing other plants in containers besides kale.
+  Time Range: 416.11 → 448.11
+  Guidance:
+    GLOBAL_SUMMARY:
+    Demonstrate the versatility of containers by showing different types of plants growing in them.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] A small cabbage plant is growing in a bucket in a garden.
+    - [frames=[2]] A potted plant with large leaves is in a garden with other plants.
+    - [frames=[3]] A small plant in a green pot is growing in a garden with other plants.
+    - [frames=[4,5]] A green bucket with a plant inside sits on a concrete ledge in a garden.
+    - [frames=[6]] A potted plant with large leaves is in a garden area.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The subtask showcases the variety of plants that can grow in different types of containers. The scene transitions between various plants in buckets and pots, all situated in a garden setting.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must recognize and identify different types of plants.
+    - The robot should know how to handle and manipulate various container types.
+    - The robot needs to navigate through the garden to find and display the plants.
+    - The robot must be aware of the current state of the garden and its contents.
+    
+    SUCCESS_CRITERIA:
+    - The robot successfully identifies and displays multiple types of plants in different containers.
+    - The robot accurately places the plants in their respective containers without damaging them.
+    - The robot ensures that the plants are visible and clearly distinguishable from one another.
+    - The robot completes the demonstration within the specified time range.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the first plant in a bucket and position the camera to capture it.
+    2. [type=manipulation, frames=[2]] Pick up the potted plant with large leaves and place it in a suitable location for display.
+    3. [type=navigation, frames
+
+  SUBTASK 1: Encourage viewers to share their container gardening experiences in the comments.
+  Time Range: 463.11 → 489.11
+  Guidance:
+    GLOBAL_SUMMARY:
+    Encourage viewers to share their container gardening experiences in the comments section of the video.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] Various plants, including kale and collard greens, are shown in a sunny outdoor garden setting.
+    - [frames=[2]] A potted plant with large leaves is displayed in a garden area.
+    - [frames=[3]] A small green plant is growing in a pot on a concrete ledge within the garden.
+    - [frames=[4]] A small plant in a bucket is also growing in the garden.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene transitions through different views of a garden containing various potted and planted items, emphasizing the diversity of container gardening options available.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must be able to navigate and observe the garden environment.
+    - The robot should recognize and identify different types of plants and containers.
+    - The robot needs to understand the context of encouraging viewer interaction.
+    
+    SUCCESS_CRITERIA:
+    - The robot successfully identifies and highlights the various plants and containers in the garden.
+    - The robot prompts viewers to comment on their container gardening experiences.
+    - The robot ensures that the encouragement message is clearly visible and audible.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the garden area where various plants and containers are displayed.
+    2. [type=perception, frames=[0,1]] Identify and recognize the kale and collard greens, as well as other plants and containers.
+    3. [type=manipulation, frames=[2]] Focus on the potted plant with large leaves to highlight it.
+    4. [type=manipulation, frames=[3]] Highlight the small green plant growing in a pot on a concrete ledge.
+    5. [type=manipulation, frames=[4]] Show the small plant in
+
+
+======================================================================
+

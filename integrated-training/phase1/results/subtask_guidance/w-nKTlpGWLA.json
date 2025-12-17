@@ -1,0 +1,276 @@
+{
+  "video_index": "w-nKTlpGWLA",
+  "title": "FBI郑州博客神秘失踪案件调查中",
+  "url": "https://www.youtube.com/watch?v=w-nKTlpGWLA",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Contains multiple processes and observations described.",
+  "tasks": [
+    {
+      "task": "Describe the process of cooking betel leaves.",
+      "start": 72.4,
+      "end": 84.48,
+      "subtasks": [
+        {
+          "text": "Observe the process of heating and wrapping the betel leaves.",
+          "start": 72.4,
+          "end": 78.44,
+          "segment_ids": [
+            6
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "w-nKTlpGWLA/task00_sub00_f00.jpg",
+              "caption": "A woman is harvesting eggplants in a field.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "w-nKTlpGWLA/task00_sub00_f01.jpg",
+              "caption": "A person is harvesting eggplants in a field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "w-nKTlpGWLA/task00_sub00_f02.jpg",
+              "caption": "A woman in a pink dress is standing outdoors, with FAO branding in the background.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "The subtask involves observing the process of heating and wrapping betel leaves, which is part of the broader task of describing the process of cooking betel leaves.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0,1]] A woman is seen harvesting eggplants in a field, indicating the initial setup or context.",
+            "- [frames=[2]] A woman in a pink dress is standing outdoors, with FAO branding in the background, suggesting a shift in focus to a different scene or activity.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The frames indicate a transition from harvesting eggplants to an outdoor setting where the actual process of heating and wrapping betel leaves is taking place. The presence of FAO branding suggests this might be a demonstration or tutorial setting.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot must be aware of the current location being an outdoor setting.",
+            "- The robot should recognize the presence of betel leaves.",
+            "- The robot needs to know the purpose of the demonstration, which is to cook betel leaves.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot should observe the correct sequence of actions related to heating and wrapping betel leaves.",
+            "- The robot should confirm that the process is being demonstrated accurately.",
+            "- The robot should note any specific tools or techniques used during the process.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0,1]] Navigate to the outdoor setting where the betel leaf preparation is taking place.",
+            "2. [type=perception, frames=[2]] Identify the woman in a pink dress as the demonstrator.",
+            "3. [type=manipulation, frames=[2]] Adjust the camera angle to focus on the betel leaves and the tools being used.",
+            "4. [type=perception, frames=[2]] Recognize the betel leaves and any other relevant items such as wrapping materials.",
+            "5. ["
+          ]
+        },
+        {
+          "text": "Note the steps in wrapping the leaves during the cooking process.",
+          "start": 78.44,
+          "end": 84.48,
+          "segment_ids": [
+            6
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "w-nKTlpGWLA/task00_sub01_f01.jpg",
+              "caption": "An aerial view of a field with insect netting and drip irrigation system, with FAO logo and text.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "w-nKTlpGWLA/task00_sub01_f02.jpg",
+              "caption": "A person is working in a large field with rows of crops, with text indicating previous income generation during the Maha cultivation season.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "The subtask involves observing and noting the steps a person takes while wrapping betel leaves during the cooking process.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0,1]] The scene shows an aerial view of a field with insect netting and drip irrigation systems, indicating a farming context.",
+            "- [frames=[2]] A person is seen working in a large field with rows of crops, suggesting they are involved in agricultural activities.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The subtask appears to be set in a farming environment where the person is likely preparing betel leaves for cooking. The focus is on observing the wrapping process, which is a crucial step in the preparation of betel leaves.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot must be aware of the current location within the field.",
+            "- The robot should recognize the person and their actions.",
+            "- The robot needs to have knowledge about the typical steps involved in wrapping betel leaves.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot should accurately document the steps taken by the person in wrapping the betel leaves.",
+            "- The robot should capture the sequence of actions clearly and comprehensively.",
+            "- The robot should ensure that all relevant details of the wrapping process are noted.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0,1]] Navigate to the field and identify the area where the person is working.",
+            "2. [type=perception, frames=[2]] Observe the person's actions and movements in the field.",
+            "3. [type=manipulation, frames=[2]] Adjust the camera angle to focus on the person's hands as they wrap the betel leaves.",
+            "4. [type=recording, frames=[2]] Record the sequence of actions taken by the person in wrapping the betel leaves.",
+            "5. [type=communication, frames=[2]] Send the recorded data to"
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Explain the preparation and preparation methods.",
+      "start": 72.4,
+      "end": 84.48,
+      "subtasks": [
+        {
+          "text": "Look at the process of unwrapping the leaves after cooking.",
+          "start": 72.4,
+          "end": 78.44,
+          "segment_ids": [
+            6
+          ],
+          "frames": []
+        },
+        {
+          "text": "Observe the final steps in preparation, including the addition of spices.",
+          "start": 78.44,
+          "end": 84.48,
+          "segment_ids": [
+            6
+          ],
+          "frames": []
+        }
+      ]
+    },
+    {
+      "task": "Highlight the overall process and traditional methods.",
+      "start": 59.24,
+      "end": 84.48,
+      "subtasks": [
+        {
+          "text": "Watch the initial steps of the preparation process.",
+          "start": 59.24,
+          "end": 61.07,
+          "segment_ids": [
+            4
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f00.jpg",
+              "relative_path": "w-nKTlpGWLA/task02_sub00_f00.jpg",
+              "caption": "A woman in a striped shirt is working in a field, wearing a hat and holding a plant.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "w-nKTlpGWLA/task02_sub00_f01.jpg",
+              "caption": "A woman in a hat is shown working in a field, with text indicating she was trained on how to use the equipment.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "w-nKTlpGWLA/task02_sub00_f02.jpg",
+              "caption": "A woman in a field wearing a hat, with text overlay indicating she was trained by an Agriculture Instructor.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "The subtask involves observing the initial steps of the preparation process, focusing on the woman's setup and training in a field setting.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0]] A woman in a striped shirt is working in a field, holding a plant and wearing a hat.",
+            "- [frames=[1]] The same woman is shown again, now with text indicating she was trained on how to use the equipment.",
+            "- [frames=[2]] Text overlay indicates she was trained by an Agriculture Instructor, and she is seen in the field wearing a hat.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene depicts a woman preparing for her work in a field, having received training from an Agriculture Instructor. This setup suggests she is about to begin a task related to agriculture, possibly planting or maintaining crops.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot must recognize the outdoor environment.",
+            "- The robot should be aware of the presence of a woman in a field.",
+            "- The robot needs to identify the woman as someone who has been trained in agricultural practices.",
+            "- The robot must understand the context of field work and the tools used.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot should correctly identify the woman as trained in agricultural practices.",
+            "- The robot must recognize the field setting and the equipment being used.",
+            "- The robot should confirm the presence of the woman in the field and her attire.",
+            "- The robot needs to understand that the woman is about to start a preparatory task.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0,1]] Navigate to the field where the woman is working.",
+            "2. [type=perception, frames=[0,1]] Identify the woman wearing a striped shirt and a hat.",
+            "3. [type=perception, frames=[1,2]] Recognize the text overlay indicating her training.",
+            "4. [type="
+          ]
+        },
+        {
+          "text": "Notice the handling of spices and ingredients involved.",
+          "start": 61.07,
+          "end": 62.9,
+          "segment_ids": [
+            4
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub01_f01.jpg",
+              "relative_path": "w-nKTlpGWLA/task02_sub01_f01.jpg",
+              "caption": "A purple eggplant hangs from a tree branch.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub01_f02.jpg",
+              "relative_path": "w-nKTlpGWLA/task02_sub01_f02.jpg",
+              "caption": "The video frame shows a close-up of green leaves with text overlaid.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "The subtask involves observing the handling of ingredients, specifically an eggplant, during a cooking process.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0,1]] An eggplant hanging from a tree branch is shown, indicating the source of the ingredient.",
+            "- [frames=[2]] A close-up of green leaves is displayed, likely part of the preparation process.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene depicts the initial stage of preparing an eggplant for cooking, focusing on the handling and possibly the cleaning of the vegetable.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot must recognize the eggplant as a relevant ingredient.",
+            "- The robot should be aware of the current cooking context.",
+            "- The robot needs to have access to the area where the eggplant is located.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot correctly identifies the eggplant as the ingredient being handled.",
+            "- The robot understands the next steps in the preparation process based on the observed actions.",
+            "- The robot can accurately describe the handling of the eggplant in the video.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0,1]] Navigate to the location where the eggplant is hanging from the tree branch.",
+            "2. [type=perception, frames=[0,1]] Use visual sensors to confirm the presence and type of the eggplant.",
+            "3. [type=navigation, frames=[2]] Move to the area where the close-up of the green leaves is shown.",
+            "4. [type=manipulation, frames=[2]] Observe and record the handling of the eggplant leaves.",
+            "5. [type=perception, frames=[2]] Analyze the close-up to determine if any cleaning or preparation steps are being performed.",
+            "",
+            "SUBTASK_STORY:",
+            "The subtask begins with the robot identifying an eggplant hanging from a tree branch, marking the start of"
+          ]
+        },
+        {
+          "text": "Observe the entire cooking process from start to finish.",
+          "start": 72.4,
+          "end": 84.48,
+          "segment_ids": [
+            6
+          ],
+          "frames": []
+        }
+      ]
+    }
+  ],
+  "guidance_text_file": "final_guidance_txt/w-nKTlpGWLA.txt"
+}

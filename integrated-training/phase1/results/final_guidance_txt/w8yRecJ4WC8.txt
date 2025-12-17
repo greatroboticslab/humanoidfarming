@@ -1,0 +1,108 @@
+VIDEO: w8yRecJ4WC8
+TITLE: Cost Comparison: Raising vs Buying Chicken Eggs 10 Years
+======================================================================
+
+TASK 0: Explain the total costs of raising chickens over 10 years.
+Time Range: 0.0 → 73.5
+----------------------------------------------------------------------
+  SUBTASK 0: Describe the initial fixed costs, including the chicken coop, feeders, and waterers.
+  Time Range: 0.0 → 33.5
+  Guidance:
+    GLOBAL_SUMMARY:
+    Describe the initial fixed costs involved in setting up a chicken coop and purchasing necessary equipment such as feeders and waterers.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] The video frame shows a spreadsheet with costs and egg statistics, indicating the start of cost breakdown.
+    - [frames=[1]] The spreadsheet lists various costs, including fixed costs, consumables, chickens, and a grand total, highlighting the fixed costs section.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The subtask focuses on explaining the initial fixed costs required for raising chickens, which include the setup of a chicken coop and the purchase of essential equipment like feeders and waterers. This information is presented through a spreadsheet that categorizes different expenses.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must have access to the spreadsheet containing the cost data.
+    - The robot should be able to identify and read the text in the spreadsheet.
+    - The robot needs to understand the concept of fixed costs and their significance in raising chickens.
+    
+    SUCCESS_CRITERIA:
+    - The robot successfully identifies and explains the fixed costs section of the spreadsheet.
+    - The robot accurately describes the items included under fixed costs, such as the chicken coop and feeders/waterers.
+    - The robot provides a clear and concise explanation of why these costs are important for raising chickens.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the spreadsheet showing the cost breakdown.
+    2. [type=perception, frames=[0,1]] Identify the section labeled "fixed costs" on the spreadsheet.
+    3. [type=manipulation, frames=[1]] Highlight the items listed under fixed costs, such as the chicken coop, feeders, and waterers.
+    4. [type=communication, frames=[1]] Explain the importance of these fixed costs in the context of raising chickens.
+
+  SUBTASK 1: Mention the total cost of chicken feed over the 10-year period.
+  Time Range: 33.5 → 58.5
+  Guidance:
+    
+
+  SUBTASK 2: Note the initial cost of buying meat chickens and egg-laying hens.
+  Time Range: 58.5 → 73.5
+  Guidance:
+    
+
+
+======================================================================
+
+TASK 1: Describe the long-term costs and benefits of raising chickens.
+Time Range: 73.5 → 184.5
+----------------------------------------------------------------------
+  SUBTASK 0: Highlight the total cost of raising chickens over 10 years.
+  Time Range: 73.5 → 94.5
+  Guidance:
+    GLOBAL_SUMMARY:
+    Highlight the total cost of raising chickens over 10 years in a spreadsheet format.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] The video frame shows a spreadsheet with initial costs listed for chickens, eggs, and electricity, but not including time and electricity.
+    - [frames=[2]] The frame displays a detailed spreadsheet with all costs included, showing the total expenses for raising chickens over 10 years.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene transitions from an initial cost breakdown to a comprehensive overview of the total expenses involved in raising chickens over a decade. This shift helps viewers understand the full financial commitment required.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must recognize and understand spreadsheet data.
+    - The robot should be able to navigate through different frames of the video.
+    - The robot needs to identify and extract relevant cost information from the spreadsheet.
+    
+    SUCCESS_CRITERIA:
+    - The robot successfully identifies and highlights the total cost of raising chickens over 10 years.
+    - The robot accurately presents the final cost figure in the video.
+    - The robot ensures all costs, including chickens, eggs, and electricity, are accounted for in the total.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the initial cost breakdown section of the spreadsheet.
+    2. [type=manipulation, frames=[2]] Manipulate the spreadsheet to include all costs, including chickens, eggs, and electricity.
+    3. [type=perception, frames=[2]] Perceive the final total cost displayed in the spreadsheet.
+    4. [type=manipulation, frames=[2]] Highlight the total cost figure in the video.
+    5. [type=communication, frames=[2]] Announce the total cost of raising chickens over 10 years to the viewer.
+    
+    SUBTASK_STORY:
+    The video begins by
+
+  SUBTASK 1: Explain how the cost per egg changes when considering both fixed and consumable costs.
+  Time Range: 94.5 → 128.5
+  Guidance:
+    
+
+  SUBTASK 2: Mention the long-term consistency of the feed price despite occasional fluctuations.
+  Time Range: 158.5 → 178.5
+  Guidance:
+    
+
+  SUBTASK 3: Discuss the overall benefit of raising chickens for knowing how they were raised and cared for.
+  Time Range: 144.5 → 158.5
+  Guidance:
+    
+
+  SUBTASK 4: Conclude by stating that it's generally cheaper to buy eggs from stores over 10 years.
+  Time Range: 179.5 → 184.5
+  Guidance:
+    
+
+
+======================================================================
+

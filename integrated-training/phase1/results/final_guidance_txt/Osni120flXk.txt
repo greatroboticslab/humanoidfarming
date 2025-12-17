@@ -1,0 +1,177 @@
+VIDEO: Osni120flXk
+TITLE: Growing Tomatoes in Home Gardens
+======================================================================
+
+TASK 0: Explain the necessary steps and benefits of growing tomatoes.
+Time Range: 2.06 → 72.22
+----------------------------------------------------------------------
+  SUBTASK 0: Describe the timing and conditions for planting tomatoes.
+  Time Range: 2.06 → 19.48
+  Guidance:
+    GLOBAL_SUMMARY:
+    Describe the optimal timing and conditions for planting tomatoes in home gardens.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0]] The video starts with the University of Wyoming Extension logo, setting the context for gardening advice.
+    - [frames=[1]] A man in a greenhouse is shown interacting with tomato plants, indicating the indoor environment where tomatoes can be grown.
+    - [frames=[2]] A man in a plaid shirt is seen sitting in front of a window with a microphone, suggesting he is about to provide verbal instructions.
+    - [frames=[3]] The greenhouse scene continues, showing tomato plants with both green and red tomatoes, illustrating the growth stage of the plants.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The subtask involves explaining the ideal timing and conditions for planting tomatoes. This is demonstrated through a series of scenes starting with an introduction, moving to a greenhouse setting, and concluding with a man providing verbal instructions while showing the current state of tomato plants.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must recognize the University of Wyoming Extension logo.
+    - The robot should be aware of the greenhouse environment.
+    - The robot needs to identify the man giving instructions and his microphone.
+    - The robot must understand the current growth stage of tomato plants.
+    
+    SUCCESS_CRITERIA:
+    - The robot should accurately describe the optimal timing for planting tomatoes.
+    - The robot must mention the necessary conditions for successful tomato growth.
+    - The robot should visually confirm the current growth stage of the tomato plants.
+    - The robot needs to ensure the man's verbal instructions are clearly understood and conveyed.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0]] Navigate to the University of Wyoming Extension logo to acknowledge the source of information.
+    2. [type=perception, frames=[1]] Identify the man in the greenhouse and recognize the tomato plants.
+    3. [type=manipulation,
+
+  SUBTASK 1: Highlight the variety of tomato types available to gardeners.
+  Time Range: 29.62 → 35.26
+  Guidance:
+    GLOBAL_SUMMARY:
+    Highlight the variety of tomato types available to gardeners.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] A greenhouse is shown with tomato plants bearing both red and green tomatoes.
+    - [frames=[2]] A man in a plaid shirt is sitting in front of a window with a hose hanging on the side.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene shifts from showing a greenhouse filled with tomato plants to a man observing something outside. The focus remains on the variety of tomatoes, emphasizing the diversity available to gardeners.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The greenhouse must be visible and accessible to the robot.
+    - The robot should have knowledge about different tomato varieties.
+    - The robot needs to be able to navigate within the greenhouse.
+    
+    SUCCESS_CRITERIA:
+    - The robot should accurately describe the variety of tomato types.
+    - The robot should mention the benefits of having different tomato varieties.
+    - The robot should transition smoothly to the next part of the tutorial.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the greenhouse where tomato plants are displayed.
+    2. [type=perception, frames=[0,1]] Identify the tomato plants and their colors (red and green).
+    3. [type=manipulation, frames=[2]] Ignore the man and focus on the window view, but continue to monitor the environment.
+    4. [type=communication, frames=[0,1]] Describe the variety of tomato types available to gardeners.
+    5. [type=navigation, frames=[1]] Return to the main area of the greenhouse to continue the tutorial.
+    
+    SUBTASK_STORY:
+    The robot begins by navigating to the greenhouse where tomato plants are clearly visible. It identifies the red and green tomatoes, highlighting the variety available to gardeners. Despite a brief distraction by a man sitting near a window
+
+  SUBTASK 2: Emphasize the importance of watering tomatoes thoroughly and frequently.
+  Time Range: 38.46 → 48.18
+  Guidance:
+    GLOBAL_SUMMARY:
+    Explain the importance of thorough and frequent watering for tomato plants.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0]] A man in a greenhouse adjusts a cage for tomato plants, setting up the scene.
+    - [frames=[1]] A greenhouse with tomato plants in various stages of growth, highlighting the diversity of the plants.
+    - [frames=[2]] A close-up of a tomato plant showing both ripe and unripe tomatoes, emphasizing the need for proper care.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene shifts from the setup of a greenhouse to showcasing the growth stages of tomato plants. The focus then narrows to a detailed view of a single plant, illustrating the variety of tomatoes present.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The greenhouse environment is already set up.
+    - Tomato plants are present and in different growth stages.
+    - The robot has access to the greenhouse.
+    - The robot understands the concept of watering and its importance.
+    
+    SUCCESS_CRITERIA:
+    - The robot explains the necessity of thorough and frequent watering.
+    - The robot highlights the impact of proper watering on tomato plant health and yield.
+    - The robot provides examples of how insufficient watering can affect the plants.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0]] Move to the area where the man is adjusting the cage.
+    2. [type=perception, frames=[0]] Observe the setup and note the presence of tomato plants.
+    3. [type=navigation, frames=[1]] Transition to the greenhouse view, focusing on the diverse tomato plants.
+    4. [type=perception, frames=[1]] Analyze the growth stages of the plants to emphasize the importance of consistent care.
+    5. [type=navigation, frames=[2]] Zoom in on a specific tomato plant.
+    6. [type=perception, frames=[2]] Identify the ripe and un
+
+  SUBTASK 3: Point out the support structure used for tomato plants.
+  Time Range: 58.38 → 72.22
+  Guidance:
+    GLOBAL_SUMMARY:
+    Point out the support structure used for tomato plants in the context of growing tomatoes in home gardens.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] Two tomato plants are growing in a garden with metal cages. A man is kneeling in a greenhouse, surrounded by tomato plants.
+    - [frames=[2]] A close-up of a tomato plant with a tag indicating it's a variety of 'Tomato'.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene shows a man in a greenhouse discussing the support structures for tomato plants. The metal cages provide support and structure for the tomato plants to grow vertically, which helps in maximizing space and reducing the risk of soil-borne diseases.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot should be able to navigate through the greenhouse.
+    - The robot should recognize tomato plants and metal cages.
+    - The robot should have the ability to manipulate objects if needed.
+    - The robot should be aware of the current location within the greenhouse.
+    
+    SUCCESS_CRITERIA:
+    - The robot correctly identifies and highlights the metal cages supporting the tomato plants.
+    - The robot provides a clear explanation of how the metal cages benefit the growth of tomato plants.
+    - The robot can communicate the information effectively to the viewer.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the area where the tomato plants and metal cages are located.
+    2. [type=perception, frames=[0,1]] Identify the tomato plants and the metal cages.
+    3. [type=manipulation, frames=[2]] If necessary, move closer to get a better look at a tomato plant with a tag.
+    4. [type=communication, frames=[0,1]] Explain the purpose and function of the metal cages in supporting tomato plants.
+    5. [type=communication, frames=[0,1]] Describe the benefits of
+
+
+======================================================================
+
+TASK 1: Show the final product and enjoyment of tomatoes.
+Time Range: 73.62 → 82.62
+----------------------------------------------------------------------
+  SUBTASK 0: Demonstrate the act of picking and eating a tomato directly from the vine.
+  Time Range: 73.62 → 82.62
+  Guidance:
+    GLOBAL_SUMMARY:
+    Demonstrate the act of picking and eating a tomato directly from the vine, showcasing the final product and enjoyment of tomatoes.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0]] A tomato plant with a tag indicating it's a variety of tomato is visible.
+    - [frames=[1]] A man in a plaid shirt is sitting in front of a window with a hose attached to it, likely watering the plants.
+    - [frames=[2]] A man in a greenhouse with tomato plants is shown, preparing to pick a tomato.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene transitions from an initial view of a tagged tomato plant to a man watering the plants, and finally to a man in a greenhouse picking a tomato. This sequence sets up the context of growing tomatoes and culminates in the act of harvesting and enjoying them.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must be aware of the presence of a tomato plant in a greenhouse.
+    - The robot should recognize the tomato plant and know which tomatoes are ripe.
+    - The robot needs to have the necessary tools or hands to manipulate the tomato.
+    - The robot must be able to identify the man in the greenhouse.
+    - The robot should be capable of understanding the concept of picking and eating a tomato.
+    
+    SUCCESS_CRITERIA:
+    - The robot successfully picks a tomato from the vine.
+    - The robot can identify the tomato as being ripe and ready to eat.
+    - The robot demonstrates the act of eating the tomato, showing enjoyment.
+    - The robot captures a clear image or video of the picked tomato and the person eating it.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the greenhouse where the tomato plant is located.
+    2. [type=perception, frames=[0]] Identify the tomato plant and locate ripe tomatoes.
+    3. [type=manipulation
+
+
+======================================================================
+

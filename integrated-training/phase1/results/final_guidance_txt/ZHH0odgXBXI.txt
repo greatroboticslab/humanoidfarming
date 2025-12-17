@@ -1,0 +1,170 @@
+VIDEO: ZHH0odgXBXI
+TITLE: Tightening Fence Wire with Tool
+======================================================================
+
+TASK 0: Show the process of using a wire tucker to tighten barbed wire.
+Time Range: 0.0 → 36.22
+----------------------------------------------------------------------
+  SUBTASK 0: Observe the barbed wire that has become loose.
+  Time Range: 0.0 → 5.28
+  Guidance:
+    GLOBAL_SUMMARY:
+    The subtask involves observing a barbed wire fence that has become loose, setting the stage for the next steps in tightening it.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] The older man with glasses and a beard is standing outdoors, dressed in a gray jacket and a plaid shirt.
+    - [frames=[2]] A barbed wire fence is visible running across a grassy field, with a tree and a power line in the background.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene depicts an older man preparing to work on a loose barbed wire fence. He is outside in a rural setting, likely in a field where the fence is situated. The presence of a tree and a power line suggests he is working in an open area with some natural elements nearby.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must be able to recognize the outdoor environment.
+    - The robot should know the appearance of an older man with glasses and a beard.
+    - The robot needs to identify the barbed wire fence and distinguish it from other objects in the scene.
+    - The robot must understand the concept of a fence being loose.
+    
+    SUCCESS_CRITERIA:
+    - The robot should correctly identify the older man as the subject of observation.
+    - The robot must accurately locate the barbed wire fence.
+    - The robot should recognize the state of the fence as loose.
+    - The robot needs to prepare for the next steps in the task, such as identifying the appropriate tools.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the location where the older man is standing.
+    2. [type=perception, frames=[0,1]] Identify the older man with glasses and a beard.
+    3. [type=perception, frames=[2]] Detect the barbed wire fence in the field.
+    4. [type=
+
+  SUBTASK 1: Note the device called a wire tucker being prepared for use.
+  Time Range: 5.28 → 10.32
+  Guidance:
+    GLOBAL_SUMMARY:
+    The robot needs to observe a person preparing a wire tucker for use in tightening barbed wire on a fence.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[1]] A metal hook is attached to a fence in a grassy field.
+    - [frames=[2]] A person is holding a metal tool with a curved handle and a flat base, likely a wire tucker.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene shows a person setting up a wire tucker near a fence with a metal hook already attached. The wire tucker is a tool designed to tighten barbed wire efficiently.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The fence with a metal hook is visible.
+    - The wire tucker is present and ready to be used.
+    - The robot has access to the tool and can manipulate it.
+    
+    SUCCESS_CRITERIA:
+    - The wire tucker is identified and held by the person.
+    - The person is positioned next to the fence with the wire tucker ready for use.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[1]] Move to the location where the metal hook is attached to the fence.
+    2. [type=perception, frames=[1]] Identify the metal hook and confirm the presence of the fence.
+    3. [type=navigation, frames=[2]] Move to the area where the wire tucker is located.
+    4. [type=manipulation, frames=[2]] Recognize and grasp the wire tucker.
+    5. [type=perception, frames=[2]] Confirm the wire tucker is correctly held and ready for use.
+    
+    SUBTASK_STORY:
+    The person first attaches a metal hook to a fence in a grassy field. Then, they approach a wire tucker, which is a tool specifically designed for tightening barbed wire. They pick up the wire tucker and prepare it
+
+  SUBTASK 2: Watch the wire tucker being attached to the fence barbed wire.
+  Time Range: 10.32 → 20.88
+  Guidance:
+    GLOBAL_SUMMARY:
+    The task involves watching a person attach a metal piece to a fence post using a wire tucker.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[1]] A person is using pliers to attach a metal piece to a fence post.
+    - [frames=[2]] A person is using pliers to remove a metal hook from a barbed wire fence.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene shows a person preparing to use a wire tucker by attaching a metal piece to a fence post. This preparation step is crucial before the actual tightening of the barbed wire can begin.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The wire tucker is within reach of the robot.
+    - The fence post is visible and accessible.
+    - Pliers are available for attaching the metal piece.
+    - The metal piece is ready to be attached to the fence post.
+    
+    SUCCESS_CRITERIA:
+    - The metal piece is securely attached to the fence post.
+    - The attachment process is complete and observable.
+    - The metal piece is in the correct position for the wire tucker to function properly.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[1]] Move to the location where the fence post and pliers are present.
+    2. [type=manipulation, frames=[1]] Use the robot's gripper to pick up the pliers.
+    3. [type=manipulation, frames=[1]] Use the pliers to attach the metal piece to the fence post.
+    4. [type=manipulation, frames=[2]] Use the robot's gripper to pick up the metal hook.
+    5. [type=manipulation, frames=[2]] Use the pliers to remove the metal hook from the barbed wire fence.
+    
+    SUBTASK_STORY:
+    The person begins by picking up the pliers and attaching a metal piece to the fence
+
+  SUBTASK 3: Notice the fence barbed wire becoming tight after using the wire tucker.
+  Time Range: 15.76 → 20.88
+  Guidance:
+    GLOBAL_SUMMARY:
+    The robot will observe a person using a wire tucker to tighten barbed wire on a fence, noting the tension increase as the process completes.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0]] A metal hook is visible in a grassy field, indicating the initial setup.
+    - [frames=[1]] A person is seen using pliers to remove the metal hook from the barbed wire fence, suggesting the start of the tightening process.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene depicts a person removing a metal hook from a barbed wire fence using pliers. As the hook is removed, the barbed wire begins to tighten, which is the primary focus of the subtask.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must be aware of the presence of a barbed wire fence.
+    - The robot should recognize the metal hook and pliers.
+    - The robot needs to know the location of the fence and the tools.
+    
+    SUCCESS_CRITERIA:
+    - The barbed wire should visibly become tighter as the metal hook is removed.
+    - The person should be seen completing the action of removing the hook.
+    - The wire tucker should be used effectively to tighten the wire.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the location where the barbed wire fence is present.
+    2. [type=perception, frames=[0,1]] Identify the metal hook and the person using pliers.
+    3. [type=observation, frames=[1]] Observe the person removing the metal hook from the barbed wire fence.
+    4. [type=perception, frames=[1]] Confirm the removal of the hook and the subsequent tightening of the wire.
+    5. [type=communication, frames=[1]] Report the successful completion of the subtask to the user.
+    
+    SUBTASK_STORY:
+
+  SUBTASK 4: Observe the speaker emphasizing that the wire is now as tight as a banjo string.
+  Time Range: 32.54 → 36.22
+  Guidance:
+    GLOBAL_SUMMARY:
+    The subtask involves observing the speaker emphasize that the barbed wire is now tightened to a specific standard.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0]] A piece of barbed wire with a white metal hook attached to it is shown.
+    - [frames=[1]] A piece of barbed wire is embedded in the grass, indicating its position on the fence.
+    - [frames=[2]] A close-up view of a barbed wire fence in a grassy field shows the wire being taut.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene transitions from showing individual pieces of wire to a broader view of the fence, emphasizing the tension achieved through the use of a wire tucker.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The wire tucker has been used to tighten the barbed wire.
+    - The fence is visible and accessible within the robot's field of view.
+    - The speaker is present and speaking about the state of the wire.
+    
+    SUCCESS_CRITERIA:
+    - The wire is visibly taut and meets the standard described by the speaker.
+    - The speaker explicitly states that the wire is as tight as a banjo string.
+    - The robot can confirm the wire’s tension visually or through sensor data.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Move to a position where the barbed wire is clearly visible.
+    2. [type=perception, frames=[2]] Use a camera to capture a detailed image of the barbed wire fence.
+    3. [type=manipulation, frames=[0,1]] Adjust the camera angle to focus on the wire with the white metal hook.
+    4. [type=perception, frames=[1]] Confirm the wire is embedded in the grass, indicating proper placement.
+    5. [type=communication, frames=[2]] Listen to the speaker's statement about
+
+
+======================================================================
+

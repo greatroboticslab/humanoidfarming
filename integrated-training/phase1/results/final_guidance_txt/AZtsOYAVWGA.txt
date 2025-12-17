@@ -1,0 +1,274 @@
+VIDEO: AZtsOYAVWGA
+TITLE: Bailing Hay Without Burning Down Barns
+======================================================================
+
+TASK 0: Describing the hay baling process to prevent combustion and spoilage.
+Time Range: 4.08 → 44.64
+----------------------------------------------------------------------
+  SUBTASK 0: Fuelling the tractor before starting the hay cutting process.
+  Time Range: 4.08 → 10.0
+  Guidance:
+    GLOBAL_SUMMARY:
+    The subtask involves preparing the tractor by fuelling it before starting the hay cutting process.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0]] The tractor is seen harvesting hay in a field.
+    - [frames=[1]] A man is using a hose to fill a blue container in the back of a truck.
+    - [frames=[2]] A red farm implement is parked in a field of green grass.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene depicts the preparation phase where the tractor needs fuel before it can start the hay cutting operation. The man is likely filling a fuel container, possibly for the tractor, while the red farm implement is stationary and not involved in this immediate task.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The tractor must be located in the field.
+    - There should be a source of fuel available.
+    - The fuel container must be empty or nearly empty.
+    
+    SUCCESS_CRITERIA:
+    - The fuel container must be filled to an adequate level.
+    - The tractor must be ready to start the hay cutting process.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0]] Navigate to the location where the tractor is harvesting hay.
+    2. [type=sensing, frames=[0]] Sense the presence of the tractor and the fuel container.
+    3. [type=navigation, frames=[1]] Move to the area where the man is filling the fuel container.
+    4. [type=manipulation, frames=[1]] Assist the man in filling the fuel container using the hose.
+    5. [type=navigation, frames=[2]] Return to the tractor's location.
+    6. [type=sensing, frames=[2]] Verify that the fuel container is adequately filled.
+    7. [type=communication, frames=[2]] Notify the operator that the fueling is complete and the tractor is ready.
+    
+    SUBTASK_STORY:
+    The
+
+  SUBTASK 1: Cutting 13-foot paths in the hay field, despite the upcoming rain.
+  Time Range: 10.0 → 15.04
+  Guidance:
+    GLOBAL_SUMMARY:
+    The robot needs to guide the hay baler through a 13-foot path in the hay field, despite the impending rain, to ensure efficient cutting without causing damage.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] A large red agricultural machine, likely a hay baler, is moving through a field of green plants.
+    - [frames=[2]] The tractor is equipped with a red blade, indicating it is preparing to cut the hay.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene depicts a hay field where a hay baler is being guided through a specific path. The presence of a red blade on the tractor suggests that the cutting process is about to begin. This task requires careful navigation to avoid damaging the baler or the surrounding environment, especially given the imminent rain.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The hay baler is correctly positioned and ready to operate.
+    - The field is clear of obstacles that could interfere with the baler's movement.
+    - The weather conditions are suitable for hay cutting, though rain is expected shortly.
+    - The tractor is properly attached to the baler and ready for operation.
+    
+    SUCCESS_CRITERIA:
+    - The hay baler has successfully navigated the 13-foot path.
+    - The cutting process has been completed without any damage to the baler or the field.
+    - The path is free of any obstructions that could hinder further operations.
+    - The baler is safely positioned for the next phase of the hay baling process.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Guide the hay baler along the 13-foot path, ensuring it stays centered and avoids obstacles.
+    2. [type=manipulation, frames=[2]] Operate the red blade to start cutting the hay, ensuring the blade is set to the correct height.
+    3.
+
+  SUBTASK 2: Broadcasting the hay to spread it out for maximum drying.
+  Time Range: 19.6 → 22.88
+  Guidance:
+    GLOBAL_SUMMARY:
+    The subtask involves broadcasting hay to ensure it is spread out properly for optimal drying, which helps prevent combustion and spoilage.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0]] The scene shows a stormy day with heavy rain and wind, indicating challenging conditions for hay baling.
+    - [frames=[1]] A man is seen operating a tractor in a field, engaged in cutting hay.
+    - [frames=[2]] The tractor is actively working in the field, turning hay to spread it out.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    On a stormy day, a person is using a tractor to cut and then broadcast hay across the field. The goal is to spread the hay evenly so that it can dry properly under the adverse weather conditions.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The field must be accessible to the robot.
+    - The tractor should be in operation and ready to broadcast hay.
+    - The hay must be cut and ready for spreading.
+    
+    SUCCESS_CRITERIA:
+    - The hay is spread out evenly across the field.
+    - The hay is visible to be spread out.
+    - The tractor is actively broadcasting the hay.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0]] Navigate to the field where the tractor is located.
+    2. [type=perception, frames=[1]] Identify the tractor and the operator.
+    3. [type=manipulation, frames=[2]] Assist the tractor in broadcasting the hay by ensuring it is spread out evenly.
+    4. [type=perception, frames=[2]] Monitor the spread of hay to confirm even distribution.
+    5. [type=communication, frames=[2]] Communicate with the operator if adjustments are needed for better spreading.
+    
+    SUBTASK_STORY:
+    On a stormy day, the robot navigates to the field where a tractor is cutting hay. The operator begins to
+
+  SUBTASK 3: Using a rotary rake to help dry the hay more efficiently.
+  Time Range: 26.32 → 29.84
+  Guidance:
+    GLOBAL_SUMMARY:
+    The subtask involves using a rotary rake to help dry hay more efficiently, which is crucial for preventing combustion and spoilage during the hay baling process.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0]] A tractor is seen working in a field, cutting hay.
+    - [frames=[1]] A man is operating a blue tractor in a field.
+    - [frames=[2]] The man continues driving the tractor, preparing to use the rotary rake.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene depicts a farmer using a tractor equipped with a rotary rake to enhance the drying process of hay. This tool helps spread the hay out more effectively, increasing exposure to sunlight and air, which aids in faster and more uniform drying.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The tractor is already in the field.
+    - The rotary rake is attached to the tractor.
+    - The hay is freshly cut and ready to be dried.
+    - The weather conditions are suitable for drying (e.g., sunny).
+    
+    SUCCESS_CRITERIA:
+    - The hay is spread out evenly across the field.
+    - The hay is exposed to sufficient sunlight and air.
+    - The hay is not clumped together, ensuring even drying.
+    - The tractor is positioned correctly to use the rotary rake effectively.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0]] Drive the tractor into the field where the hay is freshly cut.
+    2. [type=manipulation, frames=[1]] Attach the rotary rake to the front of the tractor.
+    3. [type=navigation, frames=[2]] Position the tractor so that the rotary rake can reach the hay.
+    4. [type=manipulation, frames=[2]] Lower the rotary rake onto the hay.
+    5. [type=manipulation, frames=[2]] Start the rotary rake to begin spreading the hay.
+    6. [
+
+  SUBTASK 4: Applying dry hay inoculant to the hay while baling.
+  Time Range: 34.56 → 40.0
+  Guidance:
+    GLOBAL_SUMMARY:
+    The subtask involves applying dry hay inoculant to the hay while baling to prevent combustion and spoilage.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] A person is adding ingredients to a bowl on a machine and then mixing a green liquid in a bucket with a spoon.
+    - [frames=[2]] A man is pouring water from a green container into a large yellow tank.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene depicts the preparation and application of the dry hay inoculant. Initially, the person prepares the inoculant by mixing it with a liquid in a bucket. Subsequently, the mixture is transferred to a large tank where it will be used during the hay baling process.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must have access to the dry hay inoculant.
+    - The robot should be able to identify and interact with the mixing bowl and bucket.
+    - The robot needs to know the location of the large yellow tank.
+    - The robot must be capable of handling liquids and powders.
+    
+    SUCCESS_CRITERIA:
+    - The inoculant is thoroughly mixed in the bucket.
+    - The mixture is successfully transferred to the large yellow tank.
+    - The robot confirms the presence of the inoculant in the tank.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the mixing station where the inoculant is being prepared.
+    2. [type=manipulation, frames=[0,1]] Use the robot's arm to pick up the mixing bowl and place it on a stable surface.
+    3. [type=manipulation, frames=[0,1]] Use the robot's hand to take the spoon and mix the inoculant with the green liquid in the bucket.
+    4. [type=navigation, frames=[2]] Move to the location of the large yellow tank.
+    5. [
+
+  SUBTASK 5: Waiting until late afternoon to bale the hay for ideal drying conditions.
+  Time Range: 40.0 → 44.64
+  Guidance:
+    GLOBAL_SUMMARY:
+    The robot needs to understand why waiting until late afternoon is important for baling hay to ensure optimal drying conditions.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] A blue tractor is seen driving past an orange round baler in a field.
+    - [frames=[2]] A large orange combine harvester is moving through a field.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene depicts a farm setting where hay is being harvested and prepared for baling. The presence of both a tractor and a baler suggests ongoing hay management activities. The timing of the baling process is crucial for ensuring the hay dries properly without risking combustion or spoilage.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The current time is late afternoon.
+    - The field is dry enough for safe baling operations.
+    - The weather conditions are favorable for hay drying.
+    - The baler and tractor are available and operational.
+    - The hay is ready for baling based on moisture content.
+    
+    SUCCESS_CRITERIA:
+    - The robot correctly identifies the importance of waiting until late afternoon.
+    - The robot understands the benefits of optimal drying conditions.
+    - The robot can communicate the reason for waiting to the user.
+    - The robot can confirm that the current time and conditions are suitable for baling.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=perception, frames=[0,1]] Analyze the scene to identify the presence of a tractor and a baler.
+    2. [type=perception, frames=[2]] Recognize the combine harvester in the field.
+    3. [type=communication, frames=[0,1]] Inform the user about the importance of waiting until late afternoon.
+    4. [type=perception, frames=[0,1]] Confirm that the current time is late afternoon.
+    5. [type=perception, frames=[2]] Verify that the combine har
+
+
+======================================================================
+
+TASK 1: Moving the bales to prevent combustion and further drying.
+Time Range: 48.72 → 59.84
+----------------------------------------------------------------------
+  SUBTASK 0: Starting to move the bales as soon as they are baled.
+  Time Range: 48.72 → 53.2
+  Guidance:
+    GLOBAL_SUMMARY:
+    The subtask involves moving hay bales as soon as they are baled to prevent them from being loaded onto a trailer too early, which could lead to potential issues such as combustion and further drying.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0]] The tractor is lifting a freshly baled hay bale, indicating it has just been completed.
+    - [frames=[1]] The tractor continues to load the hay bale onto a trailer, suggesting immediate movement is necessary.
+    - [frames=[2]] A forklift takes over from the tractor, completing the loading process onto the trailer.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene depicts the immediate transfer of hay bales from the field to the trailer. The robot must recognize the timing of the bale being lifted and ensure it is moved promptly to avoid stacking too many bales prematurely, which could cause problems later.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must be aware of the current state of the bale being lifted.
+    - It should know the location of the trailer and the forklift.
+    - The robot needs to be able to communicate with the tractor and forklift operators.
+    - The robot must have the capability to navigate and manipulate the hay bales.
+    
+    SUCCESS_CRITERIA:
+    - The hay bale must be moved from the field to the trailer within a few seconds of being lifted.
+    - The bale should not be stacked on top of other bales until the trailer is ready.
+    - The robot should confirm with the operator that the bale has been moved correctly.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0]] Navigate to the location where the hay bale is being lifted.
+    2. [type=perception, frames=[0]] Confirm the hay bale is being lifted by the tractor.
+    3. [type=navigation, frames
+
+  SUBTASK 1: Keeping bales spread out with air gaps to prevent moisture-related issues.
+  Time Range: 56.48 → 59.84
+  Guidance:
+    GLOBAL_SUMMARY:
+    The robot needs to ensure that hay bales are spread out with air gaps to prevent moisture-related issues and potential combustion.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] The scene shows a barn interior with hay bales on the floor. The hay appears to be stacked closely together.
+    - [frames=[2]] The hay bales are now visible on the ground, but they are still close to each other without any significant gaps.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The subtask involves moving hay bales to create air gaps between them, which will help in preventing moisture accumulation and reduce the risk of fire. This task requires careful handling to avoid damaging the hay or the barn structure.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must have access to the barn area.
+    - The robot should be equipped with tools suitable for moving hay bales.
+    - The robot needs to know the location of the hay bales within the barn.
+    - The robot must be able to identify and distinguish between hay bales and other objects.
+    
+    SUCCESS_CRITERIA:
+    - Hay bales are spread out with adequate air gaps between them.
+    - No hay bales are damaged during the process.
+    - The barn remains undamaged throughout the operation.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the area where hay bales are located.
+    2. [type=perception, frames=[0,1]] Scan the area to locate the hay bales and assess their current arrangement.
+    3. [type=manipulation, frames=[2]] Move a hay bale to create an initial gap.
+    4. [type=navigation, frames=[2]] Move to another hay bale to repeat the process.
+    5. [type=manipulation, frames=[2]] Adjust the position of the second hay b
+
+
+======================================================================
+

@@ -1,0 +1,236 @@
+VIDEO: oBTbWBqeUoQ
+TITLE: Bananas and Soil Health: A Hidden Threat To Yield Success How to Identify and Combat Soil-Borne Diseases for Thriving...
+======================================================================
+
+TASK 0: Explain the hidden threat to banana crops and the solution.
+Time Range: 4.4 → 31.5
+----------------------------------------------------------------------
+  SUBTASK 0: Highlight the importance of proper soil management for banana plants.
+  Time Range: 4.4 → 7.5
+  Guidance:
+    GLOBAL_SUMMARY:
+    Highlight the importance of proper soil management for banana plants by showing the process of planting a seed.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] A hand is planting a seed into the soil, first placing it on top and then pushing it beneath the surface.
+    - [frames=[2]] A seed is clearly visible in the soil, indicating successful planting.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene shows the initial steps of planting a seed, which is a fundamental aspect of soil management. By observing the process, viewers can understand how seeds are placed in the ground, setting the stage for their growth and the importance of proper soil conditions.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must be able to recognize a hand and a seed.
+    - The robot should know the correct depth for planting a seed.
+    - The environment must include soil where the seed can be planted.
+    
+    SUCCESS_CRITERIA:
+    - The seed must be properly placed in the soil.
+    - The seed must be covered by an appropriate amount of soil.
+    - The robot must confirm the seed is correctly positioned.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the area where the hand is planting the seed.
+    2. [type=manipulation, frames=[0,1]] Assist the hand in pushing the seed into the soil.
+    3. [type=manipulation, frames=[2]] Ensure the seed is fully covered by the soil.
+    4. [type=perception, frames=[2]] Verify the seed is buried at the correct depth.
+    5. [type=communication, frames=[2]] Confirm the task is complete through a verbal or visual cue.
+    
+    SUBTASK_STORY:
+    The subtask begins with a hand placing a seed on the surface of the soil. The hand then pushes the seed into the ground,
+
+  SUBTASK 1: Mention the hidden enemy in the soil that can affect banana plants.
+  Time Range: 13.9 → 31.5
+  Guidance:
+    GLOBAL_SUMMARY:
+    Mention the hidden enemy in the soil that can affect banana plants.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0]] A banana plantation with some leaves showing signs of damage.
+    - [frames=[1]] The video frame shows a banana tree with large green leaves.
+    - [frames=[2]] Banana trees with green bananas in a field.
+    - [frames=[3]] Bananas growing on a tree with the word "yields" overlaid.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene transitions from a damaged banana plantation to healthy banana trees and eventually to a focus on the growth of bananas. This shift highlights the presence of an unseen threat in the soil affecting the health of the banana plants.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The video is playing and the current frame is within the specified time range (13.9s–31.5s).
+    - The robot has access to the video frames and their corresponding captions.
+    - The robot understands the context of a banana plantation and the importance of soil health.
+    
+    SUCCESS_CRITERIA:
+    - The robot mentions the hidden enemy in the soil that affects banana plants.
+    - The robot correctly identifies the transition from damaged to healthy banana plants.
+    - The robot accurately describes the impact of the soil-borne disease on banana crop yields.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0]] Navigate to the frame showing a damaged banana plantation.
+    2. [type=perception, frames=[0]] Recognize the signs of damage on the banana leaves.
+    3. [type=navigation, frames=[1]] Transition to the frame showing a healthy banana tree.
+    4. [type=perception, frames=[1]] Confirm the presence of healthy banana leaves.
+    5. [type=navigation, frames=[2]] Move to the frame with multiple banana trees and green bananas.
+    6.
+
+  SUBTASK 2: Describe the negative impact of nematodes and fungi on plant growth.
+  Time Range: 19.8 → 31.5
+  Guidance:
+    GLOBAL_SUMMARY:
+    Explain the negative impact of nematodes and fungi on plant growth, specifically focusing on their detrimental effects on banana crops.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0]] The video frame shows a black background with the word "That's" in white text.
+    - [frames=[1]] The text transitions to "Nematodes and fungi can severely impact plant health."
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene shifts from an introductory statement to highlighting the specific threats posed by nematodes and fungi to plant health, particularly emphasizing their adverse effects on banana crops.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must have prior knowledge about nematodes and fungi.
+    - The robot should be aware of the context of banana crop health.
+    - The robot needs to be prepared to discuss biological threats to plants.
+    
+    SUCCESS_CRITERIA:
+    - The robot should clearly explain the negative impacts of nematodes and fungi on plant growth.
+    - The explanation should specifically mention the detrimental effects on banana crops.
+    - The robot should provide sufficient detail to convey the severity of these threats.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=perception, frames=[0,1]] Analyze the current frame showing the transition text.
+    2. [type=communication, frames=[1]] Begin the explanation by stating, "Nematodes and fungi can severely impact plant health."
+    3. [type=manipulation, frames=[1]] Adjust the display to show relevant images or diagrams of nematodes and fungi.
+    4. [type=perception, frames=[1]] Observe the viewer's reaction to ensure understanding.
+    5. [type=communication, frames=[1]] Continue by explaining how nematodes and fungi can damage roots and reduce nutrient absorption.
+    6. [type=manipulation, frames=[1]] Show examples of affected plant roots to illustrate
+
+
+======================================================================
+
+TASK 1: Provide the solution to protecting banana plants.
+Time Range: 31.5 → 51.8
+----------------------------------------------------------------------
+  SUBTASK 0: Introduce the solution of fumigation to deal with soil-borne diseases.
+  Time Range: 31.5 → 39.8
+  Guidance:
+    GLOBAL_SUMMARY:
+    Introduce the method of fumigation as a solution to protect banana plants from soil-borne diseases.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] A person in a field is seen spraying crops with a hose, indicating the application of some form of treatment.
+    - [frames=[2]] The video transitions to a black screen with the word "plants" written in white text, suggesting a shift in focus to the target of the treatment.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene begins with a person applying a treatment to crops, likely a form of fumigation, which is then explained through a textual overlay on a black screen. This transition emphasizes the importance of the treatment for the health of the plants.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must be aware of the presence of soil-borne diseases affecting banana plants.
+    - The robot should have knowledge about fumigation as a method to combat such diseases.
+    - The robot needs to be equipped with the necessary tools or information to perform or explain fumigation.
+    
+    SUCCESS_CRITERIA:
+    - The robot successfully identifies the need for fumigation based on the presence of soil-borne diseases.
+    - The robot accurately explains the process of fumigation to the viewer.
+    - The robot provides sufficient context about why fumigation is an effective solution for protecting banana plants.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the area where the person is spraying crops.
+    2. [type=perception, frames=[0,1]] Recognize the person spraying a hose and identify the treatment as a potential fumigant.
+    3. [type=manipulation, frames=[2]] Transition to a black screen and display the word "plants" in white text.
+    4. [type=communication, frames=[2]]
+
+  SUBTASK 1: Emphasize the importance of taking action to protect the plants.
+  Time Range: 42.0 → 44.6
+  Guidance:
+    GLOBAL_SUMMARY:
+    Emphasize the urgency of taking action to protect banana plants from soil-borne diseases.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] A vast banana plantation is shown from an aerial perspective, highlighting the scale of the problem.
+    - [frames=[2]] The scene transitions to a dark, tropical setting with the word "Remember" overlaid, emphasizing the importance of the message.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The subtask involves conveying the critical need for immediate action to protect banana plants. The aerial view sets the scene, showing the extensive nature of the plantation, while the dark, tropical scene with the word "Remember" underscores the gravity of the situation and the necessity of heeding the advice given.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must have knowledge about soil-borne diseases affecting banana plants.
+    - The robot should be aware of the current state of the banana plantation.
+    - The robot needs to be equipped with communication tools to convey the message effectively.
+    - The robot must have the ability to navigate through the plantation.
+    
+    SUCCESS_CRITERIA:
+    - The robot successfully conveys the importance of taking action to protect the banana plants.
+    - The message is clearly understood by the viewer.
+    - The viewer is motivated to take immediate steps to combat soil-borne diseases.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the aerial view of the banana plantation to set the context.
+    2. [type=perception, frames=[0,1]] Analyze the health of the banana plants in the aerial view.
+    3. [type=communication, frames=[0,1]] Use a voice-over to explain the importance of protecting the banana plants.
+    4. [type=navigation, frames=[2]] Transition to the dark, tropical scene with the word "Remember" overlaid.
+    5
+
+  SUBTASK 2: Relate healthy soil to healthy plants.
+  Time Range: 44.6 → 47.2
+  Guidance:
+    GLOBAL_SUMMARY:
+    Relate the health of the soil to the health of the banana plants, emphasizing the importance of healthy soil for thriving banana crops.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] A banana tree with large leaves stands amidst other trees, indicating a healthy environment for banana plants.
+    - [frames=[2]] A white text "So, " appears in the middle of a black background, signaling a shift towards explaining the relationship between soil and plant health.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene shifts focus from showing a healthy banana tree to introducing the concept that the health of the soil directly impacts the health of the banana plants. This transition sets up the explanation that follows about how maintaining healthy soil is crucial for successful banana cultivation.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must recognize the presence of a banana tree and its surrounding environment.
+    - The robot should understand the concept of soil health and its impact on plant growth.
+    - The robot needs to be aware of the current context of discussing soil-borne diseases and their effects on banana plants.
+    
+    SUCCESS_CRITERIA:
+    - The robot successfully explains the relationship between healthy soil and healthy banana plants.
+    - The robot provides examples or visuals that clearly demonstrate the connection.
+    - The robot concludes the explanation with a statement reinforcing the importance of maintaining healthy soil for banana crop success.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the area where the banana tree is visible.
+    2. [type=perception, frames=[0,1]] Recognize the banana tree and its surroundings.
+    3. [type=manipulation, frames=[2]] Display the text "So, " on a screen or overlay it onto the image.
+    4. [type=communication, frames=[2]] Explain that the health of the soil is crucial for the health of the
+
+  SUBTASK 3: Conclude with the necessity of preparing the land before planting.
+  Time Range: 47.2 → 51.8
+  Guidance:
+    GLOBAL_SUMMARY:
+    Conclude the video by emphasizing the importance of preparing the land before planting banana plants.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] A person is seen standing in a field, likely preparing to explain the next important step.
+    - [frames=[2]] A close-up of purple flowers with green leaves is shown, possibly indicating the current state of the soil or plants.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene shifts from a general view of the field to a detailed look at the soil health, reinforcing the idea that proper preparation is crucial for successful banana plant growth.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The field should be visible and accessible.
+    - The robot should have knowledge about soil health and the importance of land preparation.
+    - The robot should be able to communicate effectively with the viewer.
+    
+    SUCCESS_CRITERIA:
+    - The robot should convey the message about the necessity of preparing the land.
+    - The viewer should understand the importance of this step for successful banana plant growth.
+    - The transition between the current scene and the conclusion should be smooth and clear.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Move to a position where the field can be clearly seen.
+    2. [type=communication, frames=[0,1]] Announce the importance of preparing the land before planting.
+    3. [type=manipulation, frames=[2]] Zoom in on the close-up of the purple flowers and green leaves.
+    4. [type=perception, frames=[2]] Analyze the image to confirm the current state of the soil.
+    5. [type=communication, frames=[2]] Explain how the current state of the soil affects banana plant growth.
+    6. [type=navigation, frames=[2]] Transition smoothly to the conclusion of the video.
+    
+    SUBTASK_STORY:
+    The video transitions from showing
+
+
+======================================================================
+

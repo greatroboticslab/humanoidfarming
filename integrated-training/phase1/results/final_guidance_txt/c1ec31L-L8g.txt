@@ -1,0 +1,309 @@
+VIDEO: c1ec31L-L8g
+TITLE: Transplanting Tomatoes Rooting Technique Explained
+======================================================================
+
+TASK 0: Demonstrate the technique of burying tomato plants during transplantation.
+Time Range: 27.28 → 85.4
+----------------------------------------------------------------------
+  SUBTASK 0: Choose healthy tomato plants that are growing well.
+  Time Range: 27.28 → 37.96
+  Guidance:
+    GLOBAL_SUMMARY:
+    The subtask involves selecting healthy tomato plants for transplantation based on their growth condition.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] The woman is in a garden setting, holding a piece of soil, likely preparing to examine the plants.
+    - [frames=[2]] The woman is now seen holding a tomato plant with visible roots, indicating she is inspecting the plant's health.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene transitions from the woman holding soil to her examining a tomato plant, suggesting she is assessing the plant’s readiness for transplantation. This involves checking the plant’s overall health and root system.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must be in a garden environment.
+    - The robot should have access to a variety of tomato plants.
+    - The robot needs to be capable of identifying and manipulating plants.
+    - The robot should have knowledge about the characteristics of healthy tomato plants.
+    
+    SUCCESS_CRITERIA:
+    - The robot selects a tomato plant with a robust root system.
+    - The selected plant appears to be growing well without signs of disease or stress.
+    - The robot can confirm the chosen plant meets the criteria for transplantation.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Move to the location where tomato plants are present.
+    2. [type=perception, frames=[0,1]] Scan the area to identify multiple tomato plants.
+    3. [type=manipulation, frames=[2]] Grasp and lift a tomato plant to inspect it.
+    4. [type=perception, frames=[2]] Analyze the plant’s root system and overall health.
+    5. [type=decision-making, frames=[2]] Determine if the plant meets the criteria for being healthy and ready for transplantation.
+    6. [type=communication, frames=[2]] Report the decision to the user or system confirming
+
+  SUBTASK 1: Carefully separate and tease the roots of the tomato plants.
+  Time Range: 37.96 → 42.2
+  Guidance:
+    GLOBAL_SUMMARY:
+    Carefully separate and tease the roots of the tomato plants to prepare them for transplantation.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[1]] A woman in a garden holds a small plant with roots.
+    - [frames=[2]] A woman in a garden with a tomato plant.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene shows a woman working in a garden, focusing on preparing a tomato plant for transplantation. She starts by holding a small plant with visible roots, then proceeds to carefully separate and tease those roots.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must be in the garden environment.
+    - The robot must have access to a tomato plant.
+    - The robot must have the necessary tools or capabilities to manipulate the plant's roots.
+    
+    SUCCESS_CRITERIA:
+    - The roots of the tomato plant are visibly separated and teased.
+    - The plant is ready for transplantation without any damaged roots.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[1]] Move to the location where the tomato plant is held.
+    2. [type=perception, frames=[1]] Identify the tomato plant and its roots.
+    3. [type=manipulation, frames=[2]] Gently grasp the plant and begin to separate the roots.
+    4. [type=manipulation, frames=[2]] Tease out the roots to ensure they are not tangled.
+    5. [type=perception, frames=[2]] Verify that the roots are sufficiently separated and teased.
+    
+    SUBTASK_STORY:
+    The woman begins by holding a small tomato plant in her hands, ensuring she has a firm grip on the stem. She then carefully examines the roots, identifying any areas that need separation. Using her fingers, she gently pulls and untangles the roots, making sure they are not entangled or damaged. Once the roots are properly separated and teased, the plant is
+
+  SUBTASK 2: Ensure the planting hole is deep enough to accommodate the entire plant.
+  Time Range: 48.4 → 60.64
+  Guidance:
+    GLOBAL_SUMMARY:
+    Ensure the planting hole is deep enough to accommodate the entire tomato plant during transplantation.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0]] A woman in a garden holds a tomato plant, preparing to transplant it.
+    - [frames=[1,2]] A hand reaches into a pile of soil to create a planting hole.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene shows a person preparing to transplant a tomato plant. They first hold the plant, then dig a hole in the soil to ensure it can be buried properly.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must know the size and depth requirements for a proper tomato plant hole.
+    - The robot should have access to a pile of soil.
+    - The robot needs to be within reach of the soil pile and the tomato plant.
+    
+    SUCCESS_CRITERIA:
+    - The planting hole is dug to a sufficient depth.
+    - The tomato plant can be fully buried without any part of the stem remaining exposed.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0]] Move to the location where the tomato plant is held.
+    2. [type=perception, frames=[0]] Identify the tomato plant and its current position.
+    3. [type=navigation, frames=[1,2]] Move to the soil pile.
+    4. [type=manipulation, frames=[1,2]] Dig a hole in the soil using a digging tool.
+    5. [type=navigation, frames=[1,2]] Return to the tomato plant.
+    6. [type=manipulation, frames=[0]] Place the tomato plant into the hole.
+    7. [type=manipulation, frames=[0]] Ensure the plant is fully buried by adjusting the soil around it.
+    
+    SUBTASK_STORY:
+    The process begins with the person holding a tomato plant in their hands. They then move to a pile
+
+  SUBTASK 3: Plant the tomato so the stem is completely covered with soil.
+  Time Range: 72.6 → 76.56
+  Guidance:
+    GLOBAL_SUMMARY:
+    The task involves planting a tomato plant in the soil such that the entire stem is buried under the soil surface.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0]] A person is seen using a hose to water a garden bed, indicating the initial setup.
+    - [frames=[1]] A hand is shown planting a tomato plant into the soil, with the stem partially exposed.
+    - [frames=[2]] The same hand is planting a smaller plant, but the focus is on the depth of the stem being covered.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The subtask begins with watering the garden bed, setting up the environment for planting. The key action is then to plant the tomato, ensuring the stem is fully covered with soil, which is demonstrated through the hand movements in the frames.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must be within reach of the garden bed.
+    - The soil must be prepared and ready for planting.
+    - The robot should have a suitable tool or hand for handling the tomato plant.
+    - The robot needs to know the correct depth for burying the stem.
+    
+    SUCCESS_CRITERIA:
+    - The tomato plant's stem is completely covered with soil.
+    - The soil around the plant is compacted properly.
+    - The plant is positioned straight and stable in the soil.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0]] Move the robot to the garden bed where the soil is prepared.
+    2. [type=manipulation, frames=[1]] Grasp the tomato plant with the appropriate tool or hand.
+    3. [type=manipulation, frames=[2]] Insert the tomato plant into the soil, ensuring the stem is fully covered.
+    4. [type=manipulation, frames=[2]] Gently press the soil around the base of the plant to secure it.
+    5. [type=per
+
+  SUBTASK 4: Explain the benefits of burying the stem for root development.
+  Time Range: 81.4 → 85.4
+  Guidance:
+    GLOBAL_SUMMARY:
+    Explain the benefits of burying the tomato plant's stem to promote root development.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] A hand holds a small tomato plant in a soil-filled hole or dirt.
+    - [frames=[2]] The hand is planting the tomato plant into the soil.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene shows a hand holding a tomato plant and then planting it into the soil. This setup is typical for demonstrating the proper technique of transplanting tomato plants, where the stem is buried to encourage new roots to grow.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must have a grasp on the tomato plant.
+    - The robot must know the location of the soil-filled hole or dirt.
+    - The robot should be aware of the correct depth for planting the tomato plant.
+    
+    SUCCESS_CRITERIA:
+    - The robot must hold the tomato plant correctly.
+    - The robot must place the plant into the soil at the appropriate depth.
+    - The robot must ensure the stem is buried to promote root growth.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Move the robotic arm to the position where the hand is holding the tomato plant.
+    2. [type=manipulation, frames=[0,1]] Grasp the tomato plant gently using the robotic hand.
+    3. [type=navigation, frames=[2]] Move the robotic arm to the soil-filled hole or dirt.
+    4. [type=manipulation, frames=[2]] Place the tomato plant into the soil at the correct depth.
+    5. [type=manipulation, frames=[2]] Ensure the stem is buried to promote root growth.
+    
+    SUBTASK_STORY:
+    The robot begins by grasping the tomato plant held by a hand in a soil-filled hole or dirt. It then moves the plant to the prepared spot and
+
+
+======================================================================
+
+TASK 1: Discuss the importance of proper sun exposure and initial care after planting.
+Time Range: 60.64 → 128.42
+----------------------------------------------------------------------
+  SUBTASK 0: Highlight the need for six to eight hours of sun daily.
+  Time Range: 60.64 → 66.24
+  Guidance:
+    GLOBAL_SUMMARY:
+    Highlight the need for six to eight hours of sun daily for proper tomato plant growth.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] A hand is seen planting a seed into the ground, indicating the start of the planting process.
+    - [frames=[2]] A person's arm is reaching into a pile of dirt, suggesting they are preparing the soil for additional planting or checking the soil condition.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene shows the initial stages of planting tomatoes, where the focus shifts from planting one seed to ensuring the plants will receive adequate sunlight. This transition is crucial for the health and growth of the tomato plants.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must recognize the context of a gardening activity.
+    - The robot should know the importance of sun exposure for tomato plants.
+    - The robot needs to understand the current state of the soil and the presence of seeds.
+    
+    SUCCESS_CRITERIA:
+    - The robot must correctly identify the need for six to eight hours of sun daily.
+    - It should convey this information clearly to the viewer.
+    - The robot should highlight the importance of proper sun exposure without any errors.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the area where the seed was planted.
+    2. [type=perception, frames=[0,1]] Confirm the presence of a newly planted seed.
+    3. [type=navigation, frames=[2]] Move to a location where the sun exposure can be discussed.
+    4. [type=manipulation, frames=[2]] Adjust the camera angle to show the surrounding environment and available sunlight.
+    5. [type=communication, frames=[2]] Announce the requirement for six to eight hours of sun daily for optimal tomato plant growth.
+    
+    SUBTASK_STORY:
+    The subtask begins with the planting of a tomato seed
+
+  SUBTASK 1: Mention the practice of watering before transplanting.
+  Time Range: 66.24 → 72.6
+  Guidance:
+    GLOBAL_SUMMARY:
+    The subtask involves discussing the practice of watering the soil before transplanting tomatoes.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[1]] A person is using a hose to water a patch of soil.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene shows a person preparing the soil by watering it before the actual transplanting process begins. This practice ensures the soil is moist and ready for the tomato plants.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must recognize the presence of a hose and a patch of soil.
+    - The robot should know the purpose of watering the soil.
+    - The robot needs to understand the context of transplanting tomatoes.
+    
+    SUCCESS_CRITERIA:
+    - The robot should correctly identify the act of watering the soil.
+    - The robot should provide accurate information about why this practice is important.
+    - The robot should mention the preparation of the soil for transplanting.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=perception, frames=[1]] Identify the person using a hose to water a patch of soil.
+    2. [type=communication, frames=[1]] Recognize the action and prepare to explain its significance.
+    3. [type=manipulation, frames=[1]] Ensure the robot can describe the importance of moist soil for transplanting.
+    4. [type=perception, frames=[1]] Confirm the robot understands the context of tomato transplanting.
+    5. [type=communication, frames=[1]] Explain that watering the soil before transplanting is crucial for root health and plant survival.
+    
+    SUBTASK_STORY:
+    The video segment begins with a person using a hose to water a patch of soil. This action sets the stage for the explanation of why it's important to water the soil before transplanting tomatoes. The robot recognizes the watering activity and explains that this practice ensures the soil is moist and ready for the tomato plants, promoting healthy root
+
+  SUBTASK 2: Instruct on providing proper care to prevent wilting.
+  Time Range: 118.62 → 123.06
+  Guidance:
+    GLOBAL_SUMMARY:
+    Instruct on providing proper care to prevent wilting of a small tomato plant.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] A small tomato plant is growing in a garden bed, showing healthy green leaves.
+    - [frames=[2]] A finger points to the small tomato plant, indicating the focus of attention.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene shows a small tomato plant growing in a garden bed, with the camera focusing on it using a pointing gesture. This indicates that the robot needs to highlight the importance of proper care for this specific plant.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must be aware of the presence of a small tomato plant in the garden.
+    - The robot should know the importance of proper care for tomato plants.
+    - The robot must have the ability to point out objects in the scene.
+    
+    SUCCESS_CRITERIA:
+    - The robot successfully highlights the need for proper care to prevent wilting.
+    - The robot provides clear instructions on how to care for the tomato plant.
+    - The robot ensures the viewer understands the importance of the care instructions.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Move to the location where the tomato plant is growing.
+    2. [type=manipulation, frames=[2]] Use a pointing gesture to direct attention to the tomato plant.
+    3. [type=perception, frames=[0,1]] Analyze the condition of the tomato plant to ensure it is healthy.
+    4. [type=communication, frames=[0,1]] Speak about the importance of proper sun exposure and initial care.
+    5. [type=communication, frames=[0,1]] Explain the signs of wilting and how to prevent it.
+    6. [type=navigation, frames=[0,1]] Return to a neutral position after providing instructions.
+    
+    SUBTASK
+
+  SUBTASK 3: Emphasize the effectiveness of this planting method.
+  Time Range: 123.1 → 128.42
+  Guidance:
+    GLOBAL_SUMMARY:
+    Emphasize the effectiveness of the tomato transplanting technique by highlighting the importance of proper care and sun exposure.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0]] A finger points to a small tomato plant in a garden, indicating focus on a specific plant.
+    - [frames=[1]] A woman in a garden with a red barn in the background is seen, suggesting she is explaining the technique.
+    - [frames=[2]] The woman continues her explanation while standing in the same location, maintaining the context of the garden setting.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene shows a woman in a garden explaining the effectiveness of a tomato transplanting technique. She uses a finger to point out a specific plant, emphasizing its importance. The presence of a red barn in the background provides a consistent outdoor setting.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must be in the garden.
+    - The robot must have a clear view of the woman and the plants.
+    - The robot must know the location of the specific plant being pointed out.
+    - The robot must have the ability to manipulate objects if needed.
+    
+    SUCCESS_CRITERIA:
+    - The robot successfully identifies the specific plant being pointed out.
+    - The robot accurately explains the importance of proper care and sun exposure.
+    - The robot maintains the context of the garden setting throughout the explanation.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0]] Move the robot's camera to focus on the specific tomato plant being pointed out.
+    2. [type=perception, frames=[0]] Identify the specific tomato plant using object recognition.
+    3. [type=manipulation, frames=[1]] Position the robot's arm to point towards the identified plant.
+    4. [type=communication, frames=[1]] Speak the statement: "This is an example of a properly transplanted tomato plant."
+    5.
+
+
+======================================================================
+

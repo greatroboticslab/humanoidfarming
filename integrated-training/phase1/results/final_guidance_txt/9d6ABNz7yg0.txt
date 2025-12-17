@@ -1,0 +1,232 @@
+VIDEO: 9d6ABNz7yg0
+TITLE: Farming Practices in Saskatchewan and North Dakota
+======================================================================
+
+TASK 0: Describe the farming operation and field sizes mentioned.
+Time Range: 0.0 → 18.24
+----------------------------------------------------------------------
+  SUBTASK 0: Observe the field Jason has, which is 1600 acres.
+  Time Range: 0.0 → 8.88
+  Guidance:
+    GLOBAL_SUMMARY:
+    The subtask involves observing a field that Jason mentions, which is 1600 acres in size. The robot needs to understand the context and size of the field as part of the broader discussion on farming practices.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0]] A man with a beard and a hat is talking into a microphone, likely introducing the topic.
+    - [frames=[1,2]] A man in a purple shirt is speaking into a microphone, possibly providing details about the field size.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene transitions from an introduction by a bearded man to a detailed explanation by a man in a purple shirt. This shift indicates that the focus is now on the specifics of the field being discussed, particularly its size of 1600 acres.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The video should be playing at the correct time range (0.0s–8.9s).
+    - The robot must recognize the speaker in the purple shirt as Jason.
+    - The robot should have knowledge of the context of the farming practices discussion.
+    
+    SUCCESS_CRITERIA:
+    - The robot should accurately identify the field size as 1600 acres.
+    - The robot should understand that the field belongs to Jason.
+    - The robot should be able to summarize the information provided about the field size.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0]] Navigate to the frame where the bearded man introduces the topic.
+    2. [type=perception, frames=[0]] Recognize the bearded man as the initial speaker.
+    3. [type=navigation, frames=[1,2]] Move to the frames where the man in the purple shirt speaks.
+    4. [type=manipulation, frames=[2]] Identify the man in the purple shirt as Jason.
+    5. [type=
+
+  SUBTASK 1: Note the contrast in the quality of the canola crop at the end of the season.
+  Time Range: 8.88 → 18.24
+  Guidance:
+    GLOBAL_SUMMARY:
+    The subtask involves noting the contrast in the quality of the canola crop at the end of the season, specifically focusing on the differences observed during a presentation.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[1]] A man in a purple shirt is speaking into a microphone.
+    - [frames=[2]] The man continues speaking, with a caption that reads "THE CANOLA CROP."
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene depicts a presenter discussing the canola crop, emphasizing the quality differences observed at the end of the season. This likely sets up a comparison between different farming practices or conditions affecting the crop quality.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The video is playing and the relevant segment is visible.
+    - The robot has access to the current frame of the video.
+    - The robot understands the context of a farming presentation.
+    
+    SUCCESS_CRITERIA:
+    - The robot correctly identifies the mention of the canola crop quality.
+    - The robot notes the contrast in the quality of the canola crop at the end of the season.
+    - The robot comprehends the context of the discussion about farming practices.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[1]] The robot navigates to the frame where the man in the purple shirt is speaking.
+    2. [type=perception, frames=[1]] The robot recognizes the speaker and the caption "THE CANOLA CROP."
+    3. [type=navigation, frames=[2]] The robot moves to the next frame where the man continues speaking.
+    4. [type=manipulation, frames=[2]] The robot captures the text "THE CANOLA CROP" for further analysis.
+    5. [type=communication, frames=[2]] The robot confirms the identification of the canola crop and the mention of quality differences.
+    
+    SUBTASK_STORY:
+    The subtask begins with a
+
+
+======================================================================
+
+TASK 1: Compare the farming practices in Saskatchewan with those in North Dakota.
+Time Range: 18.24 → 52.72
+----------------------------------------------------------------------
+  SUBTASK 0: Observe the square layout of Saskatchewan as compared to North Dakota.
+  Time Range: 18.24 → 25.76
+  Guidance:
+    GLOBAL_SUMMARY:
+    The subtask involves observing the layout of farms in Saskatchewan compared to those in North Dakota, focusing on their square patterns.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[1]] A man in a purple shirt is speaking into a microphone, likely providing context for the comparison.
+    - [frames=[2]] The man continues speaking, with the caption "IT'S FUNNY IN." This suggests he might be making a humorous point about the layout of farms.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene shows a presentation where a speaker is discussing the differences in farm layouts between Saskatchewan and North Dakota. The focus is on the square pattern of farms, which is a key aspect of the comparison being made.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must be able to recognize and understand spoken language.
+    - The robot should have access to the video feed and be capable of analyzing it frame by frame.
+    - The robot needs to know the regions Saskatchewan and North Dakota.
+    - The robot should be aware of the concept of farm layouts and square patterns.
+    
+    SUCCESS_CRITERIA:
+    - The robot correctly identifies the square layout of farms in Saskatchewan.
+    - The robot recognizes the comparison being made between Saskatchewan and North Dakota.
+    - The robot accurately notes the presence of the man in a purple shirt and his speech content.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[1]] The robot navigates to the first frame where the man in the purple shirt is speaking.
+    2. [type=perception, frames=[1]] The robot analyzes the content of the man's speech to understand the context.
+    3. [type=navigation, frames=[2]] The robot moves to the second frame where the man continues speaking.
+    4. [type=manipulation, frames=[2]] The robot captures and processes the caption "IT'S FUNNY IN."
+    5. [
+
+  SUBTASK 1: Highlight the way Saskatchewan farmers still use miles and acres in their measurements.
+  Time Range: 25.76 → 34.32
+  Guidance:
+    GLOBAL_SUMMARY:
+    Highlight the way Saskatchewan farmers still use miles and acres in their measurements during the discussion about farming practices.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] A man in a purple shirt is pointing to his face while speaking into a microphone, indicating he is the speaker.
+    - [frames=[2]] The same man continues speaking into the microphone without any additional gestures.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene shows a presenter discussing farming practices in Saskatchewan, specifically highlighting the continued use of miles and acres for measurements. The focus is on the presenter's speech and the context of the discussion.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must be able to recognize the presenter and distinguish him from other people in the video.
+    - The robot should understand the context of the discussion about farming practices.
+    - The robot needs to know the significance of miles and acres in measuring land for farming.
+    
+    SUCCESS_CRITERIA:
+    - The robot successfully identifies the use of miles and acres in the discussion.
+    - The robot accurately highlights the relevant information about the measurement units used by Saskatchewan farmers.
+    - The robot captures the essence of the discussion within the specified time range.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Identify the presenter wearing a purple shirt.
+    2. [type=perception, frames=[0,1]] Recognize the gesture of pointing to the face as an indication of the speaker.
+    3. [type=manipulation, frames=[2]] Continue listening to the speaker without additional actions.
+    4. [type=communication, frames=[0,1,2]] Analyze the content of the speech to identify mentions of miles and acres.
+    5. [type=navigation, frames=[0,1,2]] Highlight the relevant parts of the speech where miles and acres are mentioned.
+    
+    SUBTASK_STORY:
+    The
+
+  SUBTASK 2: Note the similarities in the layout of Saskatchewan and North Dakota, as evidenced by the use of street signs.
+  Time Range: 34.32 → 37.36
+  Guidance:
+    GLOBAL_SUMMARY:
+    Note the similarities in the layout of Saskatchewan and North Dakota, as evidenced by the use of street signs.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[1]] A man in a purple shirt is singing into a microphone.
+    - [frames=[2]] A man in a purple shirt is speaking into a microphone.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The frames provided do not directly relate to the subtask of noting similarities in the layout of Saskatchewan and North Dakota. It appears there might be a mismatch between the given frames and the context of the subtask. The frames show a man in a purple shirt interacting with a microphone, which does not align with the expected content related to street signs and geographical comparisons.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must be aware of the current video segment focusing on comparing farming practices in Saskatchewan and North Dakota.
+    - The robot should have access to relevant information about the geographical features of both regions.
+    - The robot needs to recognize the importance of street signs as indicators of regional layout similarities.
+    
+    SUCCESS_CRITERIA:
+    - The robot should identify and note the presence of similar street signs in both Saskatchewan and North Dakota.
+    - The robot should be able to articulate the observed similarities in the layout based on the street signs.
+    - The robot should provide a brief summary of the similarities noted during the comparison.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[1,2]] Navigate to the relevant part of the video where the man in the purple shirt is speaking.
+    2. [type=perception, frames=[1,2]] Analyze the content of the speech to understand the context of the comparison.
+    3. [type=manipulation, frames=[1,2]] Adjust the focus to clearly view any street signs mentioned or shown.
+    4. [type=perception, frames=[1,2]] Identify
+
+  SUBTASK 3: Observe that Saskatchewan farmers have not fully adopted tiling practices seen in other regions.
+  Time Range: 37.36 → 46.48
+  Guidance:
+    GLOBAL_SUMMARY:
+    The subtask involves observing that Saskatchewan farmers have not widely adopted tiling practices, which are common in other regions. This observation will be made through a video segment where a speaker discusses the topic.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] The video shows a man in a purple shirt standing in front of a microphone, likely preparing to speak about farming practices.
+    - [frames=[2]] The man continues speaking, providing information about the lack of tiling adoption in Saskatchewan compared to other regions.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene depicts a presentation or lecture setting where a speaker is discussing the differences in farming practices between Saskatchewan and other regions. The focus is on the unique aspect of tiling, which is not as prevalent in Saskatchewan as it is elsewhere.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The video is playing and the current segment is visible.
+    - The robot has access to the video frames and can analyze them.
+    - The robot understands the context of comparing farming practices in different regions.
+    
+    SUCCESS_CRITERIA:
+    - The robot correctly identifies the statement about Saskatchewan farmers not adopting tiling practices.
+    - The robot comprehends the comparison being made between Saskatchewan and other regions.
+    - The robot accurately notes the absence of tiling practices in Saskatchewan as discussed by the speaker.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the frame showing the man in a purple shirt speaking into a microphone.
+    2. [type=perception, frames=[0,1]] Analyze the content of the speech to identify the discussion of farming practices.
+    3. [type=perception, frames=[2]] Confirm the continuation of the speech focusing on the lack of tiling adoption in Saskatchewan.
+    4. [type=manipulation, frames=[2]] Highlight or mark the relevant part of the speech for
+
+  SUBTASK 4: Describe the limited row crop farming seen in some areas of Saskatchewan.
+  Time Range: 46.48 → 52.72
+  Guidance:
+    GLOBAL_SUMMARY:
+    Describe the limited row crop farming observed in certain areas of Saskatchewan.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[1]] A man in a purple shirt is speaking into a microphone, indicating he is providing information about the farming practices.
+    - [frames=[2]] Another man with a beard and headphones is speaking into a microphone, suggesting a continuation of the discussion.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene depicts two individuals discussing the limited row crop farming practices in Saskatchewan. The first speaker introduces the topic, while the second speaker elaborates, likely providing detailed insights into the specific farming methods used in the region.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must have access to the video content.
+    - The robot should recognize the speakers and their roles in the discussion.
+    - The robot needs to understand the context of farming practices in Saskatchewan.
+    
+    SUCCESS_CRITERIA:
+    - The robot successfully identifies the key points about limited row crop farming in Saskatchewan.
+    - The robot accurately captures the details provided by both speakers.
+    - The robot comprehends the scope and limitations of row crop farming in the specified regions.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[1]] Identify the first speaker and his attire (purple shirt).
+    2. [type=manipulation, frames=[2]] Identify the second speaker and his appearance (beard, headphones).
+    3. [type=perception, frames=[1,2]] Recognize the context of the discussion as related to farming practices in Saskatchewan.
+    4. [type=communication, frames=[1,2]] Understand the content being spoken by both individuals.
+    5. [type=manipulation, frames=[1,2]] Note the specific mention of limited row crop farming.
+    6. [type=perception, frames=[1,2]] Comprehend the limitations and scope of the farming practices discussed
+
+
+======================================================================
+

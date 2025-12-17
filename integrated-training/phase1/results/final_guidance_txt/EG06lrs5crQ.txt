@@ -1,0 +1,353 @@
+VIDEO: EG06lrs5crQ
+TITLE: Farm Animals and Their Names Explained
+======================================================================
+
+TASK 0: Describe the different types of cows on a farm.
+Time Range: 14.5 → 26.84
+----------------------------------------------------------------------
+  SUBTASK 0: Observe a Jersey steer and note that Jersey cows are known for producing rich milk.
+  Time Range: 14.5 → 21.16
+  Guidance:
+    GLOBAL_SUMMARY:
+    The robot needs to observe a Jersey steer and note that Jersey cows are known for producing rich milk.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0]] A brown donkey is grazing in a grassy field, which is not relevant to the task.
+    - [frames=[1]] A cow is grazing in a grassy field with other cows in the background, indicating the presence of multiple cows.
+    - [frames=[2]] A cow is grazing on grass in a fenced field, focusing on one specific cow.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene transitions from a donkey to a group of cows, then narrows down to focus on a single cow, likely a Jersey steer, as it grazes in a fenced field. The robot's task is to identify this specific cow and note its characteristics.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must be able to distinguish between different types of animals.
+    - The robot should recognize the specific breed of the cow, particularly Jersey cows.
+    - The robot needs to understand that Jersey cows are known for producing rich milk.
+    
+    SUCCESS_CRITERIA:
+    - The robot correctly identifies the cow as a Jersey steer.
+    - The robot notes that Jersey cows are known for producing rich milk.
+    - The robot provides a brief description of the cow's appearance and behavior.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[1]] Move the robot's camera to focus on the cow in the grassy field.
+    2. [type=perception, frames=[1]] Identify the cow as a potential Jersey steer based on its appearance.
+    3. [type=navigation, frames=[2]] Zoom in on the cow to get a closer look.
+    4. [type=perception, frames=[2]] Confirm the identification of the cow as a Jersey steer.
+    5. [type=communication, frames=[2
+
+  SUBTASK 1: Note that there are different breeds of cows, with some raised for meat and others for milk.
+  Time Range: 14.5 → 26.84
+  Guidance:
+    GLOBAL_SUMMARY:
+    The subtask involves noting the different breeds of cows on a farm, specifically distinguishing between those raised for meat and those for milk.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] A cow is seen grazing in a grassy field.
+    - [frames=[2]] Another cow is observed grazing on grass in a fenced field.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene depicts two cows in a pastoral setting, both engaged in grazing. The presence of a fence suggests a controlled environment, possibly indicating a distinction based on breed or purpose.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must be aware of the farm setting.
+    - The robot should recognize cows.
+    - The robot needs to understand basic concepts of meat and milk production.
+    
+    SUCCESS_CRITERIA:
+    - The robot correctly identifies and categorizes the cows into meat and milk breeds.
+    - The robot provides accurate information about the different breeds of cows.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Move to the first cow in the grassy field.
+    2. [type=perception, frames=[0,1]] Identify the cow and confirm it is a cow.
+    3. [type=navigation, frames=[2]] Move to the second cow in the fenced field.
+    4. [type=perception, frames=[2]] Identify the cow and confirm it is a cow.
+    5. [type=communication, frames=[0,2]] Announce the identification and categorization of the cows.
+    
+    SUBTASK_STORY:
+    The robot begins by moving to the first cow in the grassy field. It identifies the cow and confirms its presence. Next, the robot moves to the second cow in the fenced field, repeating the identification process. Throughout the process, the robot communicates the findings, noting the different breeds and their purposes, whether for meat or milk
+
+
+======================================================================
+
+TASK 1: Explain the life cycle and terminology for piglets and their care.
+Time Range: 74.6 → 88.4
+----------------------------------------------------------------------
+  SUBTASK 0: Observe a male pig and note that it is called a boar.
+  Time Range: 74.6 → 80.4
+  Guidance:
+    GLOBAL_SUMMARY:
+    The robot needs to observe a male pig and identify it as a boar.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] A pig is grazing on the ground in a natural setting.
+    - [frames=[2]] The pig is standing in a fenced area with a wire fence and dirt ground.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene shows a pig in a natural environment, first grazing and then standing. The pig's location changes slightly but remains in a fenced area.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must be able to recognize pigs.
+    - The robot should have knowledge about different types of pigs, including boars.
+    - The robot needs to be aware of the current scene context, which includes being in a natural setting with a fenced area.
+    
+    SUCCESS_CRITERIA:
+    - The robot correctly identifies the pig as a male.
+    - The robot accurately labels the pig as a boar.
+    - The robot provides a brief explanation of why it identified the pig as a boar.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Move to a position where the pig can be clearly seen.
+    2. [type=perception, frames=[0,1]] Use visual recognition to identify the pig.
+    3. [type=manipulation, frames=[2]] Adjust the camera angle to capture the pig standing.
+    4. [type=perception, frames=[2]] Confirm the pig's gender based on physical characteristics.
+    5. [type=communication, frames=[0,1,2]] Announce that the pig is a boar and provide a brief explanation.
+    
+    SUBTASK_STORY:
+    The robot begins by moving to a position where the pig can be clearly seen. It uses its visual recognition system to identify the pig and confirms its gender based on physical characteristics. As the pig stands
+
+  SUBTASK 1: Describe how pigs seek shade and roll in mud to cool off.
+  Time Range: 82.0 → 88.4
+  Guidance:
+    GLOBAL_SUMMARY:
+    The subtask involves describing how pigs seek shade and roll in mud to cool off, which is a common behavior observed in pigs to regulate their body temperature.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0]] A pig is standing in a fenced area with a wire fence and a wooden post. The pig appears to be looking around, possibly searching for a suitable spot.
+    - [frames=[1]] A pig is sitting in a fenced area with a blue building in the background. The pig seems to have found a shaded area and is resting.
+    - [frames=[2]] A pig is sitting on the ground in a fenced area. The pig is rolling in the mud, likely to further cool down and protect itself from the sun.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene depicts a pig's natural behavior of seeking shade and using mud to cool off. Initially, the pig stands and looks around, then finds a shaded area to rest. Finally, it rolls in the mud to further cool itself and protect its skin from the sun.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must be aware of the pig's current location within the fenced area.
+    - The robot should recognize the pig and understand its behavior patterns.
+    - The robot needs to know the location of shaded areas and mud patches within the fenced area.
+    - The robot should have the ability to navigate through the fenced area without disturbing the pig.
+    
+    SUCCESS_CRITERIA:
+    - The robot correctly identifies the pig and its behavior of seeking shade and rolling in mud.
+    - The robot accurately describes the pig's actions and the environment it is in.
+    - The robot provides a clear explanation of why pigs engage in these behaviors to cool off.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0]] Navigate to the pig's current location in the fenced area.
+    2. [type=perception
+
+
+======================================================================
+
+TASK 2: Describe goats and their farm uses.
+Time Range: 126.04 → 142.46
+----------------------------------------------------------------------
+  SUBTASK 0: Observe a male goat and note that it is called a billy goat.
+  Time Range: 126.04 → 134.12
+  Guidance:
+    GLOBAL_SUMMARY:
+    The subtask involves observing a male goat and noting that it is called a billy goat.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] A goat with large horns is walking in a grassy field with a wooden fence in the background.
+    - [frames=[2]] A goat with long ears is lying down on hay.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene shifts from a goat walking in a field to one lying down on hay. The goat's characteristics, such as its large horns and long ears, remain consistent throughout the frames, indicating it is the same goat being observed.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must be able to recognize goats.
+    - The robot should have knowledge of different types of farm animals.
+    - The robot needs to be aware of the current scene context, which includes a grassy field and hay.
+    
+    SUCCESS_CRITERIA:
+    - The robot correctly identifies the goat as a male.
+    - The robot accurately notes that the goat is called a billy goat.
+    - The robot provides a brief description of the goat's appearance, including its large horns and long ears.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Move the camera to focus on the goat walking in the field.
+    2. [type=perception, frames=[0,1]] Identify the goat based on its physical characteristics.
+    3. [type=navigation, frames=[2]] Move the camera to focus on the goat lying down on hay.
+    4. [type=perception, frames=[2]] Confirm the goat's identity and note its position.
+    5. [type=communication, frames=[0,2]] Announce that the goat is a billy goat and describe its appearance.
+    
+    SUBTASK_STORY:
+    The subtask begins with the robot observing a male goat walking in a grass
+
+  SUBTASK 1: Describe the production of goat milk and note that goat milk is good for making cheese.
+  Time Range: 137.78 → 142.46
+  Guidance:
+    GLOBAL_SUMMARY:
+    The subtask involves describing the process of producing goat milk and noting its suitability for making cheese.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[1]] A boy is seen milking a cow, while a woman watches. This scene does not directly relate to goat milk production but sets the context of dairy farming.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene shifts focus away from cows to emphasize the production of goat milk. The robot needs to understand that the primary subject is goat milk and its use in cheese-making.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot should recognize the difference between cow and goat milk.
+    - The robot must know that goat milk is used for cheese-making.
+    - The robot should be aware of the context of a farm setting.
+    
+    SUCCESS_CRITERIA:
+    - The robot should accurately describe the process of producing goat milk.
+    - The robot should mention that goat milk is suitable for making cheese.
+    - The robot should provide a clear and concise explanation without any irrelevant information.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=perception, frames=[1]] Identify the cow being milked and the woman watching.
+    2. [type=manipulation, frames=[1]] Transition the focus from the cow to goat milk production.
+    3. [type=perception, frames=[1]] Recognize the need to describe goat milk production.
+    4. [type=communication, frames=[1]] Explain the process of milking goats.
+    5. [type=perception, frames=[1]] Confirm understanding of goat milk properties.
+    6. [type=communication, frames=[1]] Mention that goat milk is good for making cheese.
+    7. [type=perception, frames=[1]] Ensure all relevant information is included in the description.
+    
+    SUBTASK_STORY:
+    The subtask begins with a scene showing a boy milking a cow, which
+
+
+======================================================================
+
+TASK 3: Describe the care and farming of sheep.
+Time Range: 282.87 → 290.75
+----------------------------------------------------------------------
+  SUBTASK 0: Observe a male sheep and note that it is called a ram.
+  Time Range: 282.87 → 284.87
+  Guidance:
+    GLOBAL_SUMMARY:
+    Observe a male sheep and identify it as a ram.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] Three sheep are grazing in a grassy field.
+    - [frames=[2]] Three sheep continue grazing with horses in the background.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene shows a peaceful farm setting where sheep are grazing. The presence of horses in the background provides context but is not directly relevant to identifying the male sheep.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot should be within the field where the sheep are located.
+    - The robot should have a clear view of the sheep.
+    - The robot should know the general appearance of a ram.
+    
+    SUCCESS_CRITERIA:
+    - The robot should correctly identify the male sheep as a ram.
+    - The robot should provide accurate information about the ram's characteristics.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Move to a position where the robot can clearly see all three sheep.
+    2. [type=perception, frames=[0,1]] Use visual recognition to distinguish between the male and female sheep.
+    3. [type=manipulation, frames=[2]] Adjust the camera angle to focus on the male sheep.
+    4. [type=perception, frames=[2]] Confirm the identification of the male sheep.
+    5. [type=communication, frames=[2]] Announce that the identified sheep is a ram.
+    
+    SUBTASK_STORY:
+    The robot begins by navigating to a position where it can observe the sheep grazing in the field. It then uses its visual recognition capabilities to distinguish the male sheep from the females. Once the male sheep is identified, the robot adjusts its camera to focus on the ram and confirms the identification. Finally, the robot communicates the correct identification to the viewer, completing the subtask.
+
+  SUBTASK 1: Note that sheep are clipped for their wool to keep them cool in summer.
+  Time Range: 285.39 → 290.75
+  Guidance:
+    GLOBAL_SUMMARY:
+    The subtask involves noting that sheep are clipped for their wool to keep them cool in summer.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] Three sheep are grazing in a grassy field with horses in the background.
+    - [frames=[2]] The scene remains unchanged with three sheep continuing to graze in the same field.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The subtask takes place in a grassy field where sheep are grazing alongside horses. This setting provides a natural environment for the sheep, which are about to undergo a process to ensure they remain comfortable during the summer months.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must be aware of the current season being summer.
+    - The robot should recognize sheep and understand their behavior.
+    - The robot needs to know the purpose of shearing sheep for wool.
+    - The robot should be able to identify the field and the presence of sheep within it.
+    
+    SUCCESS_CRITERIA:
+    - The robot must correctly identify the sheep in the field.
+    - The robot should accurately explain the reason for shearing sheep in summer.
+    - The robot needs to provide a clear and concise statement about keeping the sheep cool.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=perception, frames=[0,1]] Identify the three sheep grazing in the field.
+    2. [type=perception, frames=[2]] Confirm the sheep are still grazing without any change.
+    3. [type=communication, frames=[0,1]] Explain that sheep are sheared in summer to keep them cool.
+    4. [type=communication, frames=[2]] Reiterate the importance of shearing for maintaining the sheep's comfort.
+    5. [type=manipulation, frames=[0,1]] Simulate pointing towards the sheep to emphasize the action.
+    6. [type=manipulation, frames=[2]] Maintain
+
+
+======================================================================
+
+TASK 4: Describe farm animals in the context of horse care and riding.
+Time Range: 294.91 → 325.71
+----------------------------------------------------------------------
+  SUBTASK 0: Observe horses grazing in a pasture and note their color.
+  Time Range: 294.91 → 300.87
+  Guidance:
+    GLOBAL_SUMMARY:
+    Observe horses grazing in a pasture and note their color during a segment of the tutorial video.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] Three sheep are grazing in a grassy field.
+    - [frames=[2]] Three sheep continue grazing in a grassy field with horses in the background.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene transitions from focusing solely on sheep to including horses in the background, setting up the observation of horses for the next part of the tutorial.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must be able to distinguish between different types of animals.
+    - The robot should have a camera capable of capturing images of the pasture.
+    - The robot needs to be aware of the presence of horses in the scene.
+    
+    SUCCESS_CRITERIA:
+    - The robot correctly identifies the presence of horses.
+    - The robot accurately notes the colors of the horses observed.
+    - The robot captures an image or video of the horses for documentation.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Move the camera to focus on the sheep grazing in the field.
+    2. [type=perception, frames=[0,1]] Analyze the image to confirm the presence of sheep.
+    3. [type=navigation, frames=[2]] Adjust the camera to include the horses in the background.
+    4. [type=perception, frames=[2]] Identify the horses and note their colors.
+    5. [type=manipulation, frames=[2]] Capture an image or video of the horses for documentation.
+    6. [type=communication, frames=[2]] Send the captured image or video to the tutorial system for review.
+    
+    SUBTASK_STORY:
+    The robot begins by focusing on the sheep grazing in the field, confirming their presence through image analysis. As the scene changes, the robot adjusts its camera to
+
+  SUBTASK 1: Describe the care horses receive at a barn, including feeding and storage.
+  Time Range: 319.79 → 325.71
+  Guidance:
+    GLOBAL_SUMMARY:
+    The subtask involves describing the care horses receive at a barn, focusing on their feeding and storage needs.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] A herd of horses is seen galloping through a grassy field, indicating they are outdoors and active.
+    - [frames=[2]] The scene shifts to a group of horses, including a white one, running in a field, reinforcing the outdoor setting.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The subtask focuses on the care horses receive at a barn, but the provided frames show horses in a field. This suggests that the barn and its activities are not directly visible in the given frames, and the robot should infer that the barn is nearby or will be mentioned in the context of the video.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must know about the existence of a barn where horses are cared for.
+    - The robot should be aware of the typical feeding and storage routines for horses.
+    - The robot needs to recognize horses and understand their behavior in a field.
+    
+    SUCCESS_CRITERIA:
+    - The robot should accurately describe the feeding and storage practices for horses.
+    - The description should include details relevant to horse care at a barn.
+    - The robot should mention the importance of proper nutrition and storage of feed.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the area where horses are seen in the field.
+    2. [type=perception, frames=[0,1]] Observe the horses' behavior and environment to infer the presence of a nearby barn.
+    3. [type=manipulation, frames=[2]] Focus on the horses in the field to ensure they are healthy and well-fed.
+    4. [type=communication, frames=[0,1,2]] Explain that horses receive care at a barn, which includes proper
+
+
+======================================================================
+

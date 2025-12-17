@@ -1,0 +1,207 @@
+VIDEO: IlEYPvfVmcU
+TITLE: Fish Farms Feed the World
+======================================================================
+
+TASK 0: Present the concept of fish farming and its global impact.
+Time Range: 6.8 → 23.6
+----------------------------------------------------------------------
+  SUBTASK 0: Introduce the idea of fish farming as a significant component of seafood production.
+  Time Range: 6.8 → 9.6
+  Guidance:
+    GLOBAL_SUMMARY:
+    Introduce the concept of fish farming as a significant part of seafood production.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] A fish farm with floating cages in the ocean is shown, indicating the setting.
+    - [frames=[2]] People are seen working in a farm environment, with nets and water visible, suggesting active management.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene depicts a fish farm, both in an ocean setting with floating cages and in a more detailed view of workers managing the farm. This setup highlights the practical aspects of fish farming and its importance in seafood production.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot should have prior knowledge about fish farms and their components.
+    - The robot needs to recognize ocean environments and fish farming structures.
+    - The robot must be aware of the presence of people and tools used in fish farming.
+    
+    SUCCESS_CRITERIA:
+    - The robot should accurately describe fish farming as a significant component of seafood production.
+    - The robot should mention the use of floating cages and the involvement of people in the process.
+    - The robot should convey the importance of fish farming in global seafood production.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the view showing the fish farm with floating cages.
+    2. [type=perception, frames=[0,1]] Identify the floating cages and the ocean environment.
+    3. [type=navigation, frames=[2]] Move to the view showing people working in the farm.
+    4. [type=perception, frames=[2]] Recognize the workers, nets, and water.
+    5. [type=communication, frames=[0,2]] Describe the fish farm, mentioning the use of floating cages and the involvement of people.
+    6. [type=perception, frames=[0,2]] Confirm the recognition of the farm's
+
+  SUBTASK 1: Highlight the surprising fact that most of the fish we eat is not wild but comes from fish farms.
+  Time Range: 16.4 → 23.6
+  Guidance:
+    GLOBAL_SUMMARY:
+    Highlight the surprising fact that most of the fish we eat is not wild but comes from fish farms.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0]] A video of fish swimming underwater with a caption mentioning farming.
+    - [frames=[1]] The video shows a vast ocean with fish farms enclosed in circular cages.
+    - [frames=[2]] A group of fish swimming in a pond.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene transitions from an underwater view of fish swimming to a broader view of fish farms in the ocean, emphasizing the scale and prevalence of fish farming. Finally, it shifts to a more familiar setting of a pond, reinforcing the idea that fish farming is a widespread practice.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must have access to the video content.
+    - The robot should recognize fish and farm structures.
+    - The robot needs to understand the context of fish farming and its global impact.
+    - The robot should be able to navigate through different scenes within the video.
+    
+    SUCCESS_CRITERIA:
+    - The robot correctly identifies and highlights the fact that most of the fish we eat come from fish farms.
+    - The robot accurately presents the transition from wild fish to farmed fish.
+    - The robot effectively conveys the scale and prevalence of fish farming through visual aids.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0]] Identify the underwater scene and move the camera focus to highlight the farming aspect.
+    2. [type=manipulation, frames=[1]] Transition the view to show fish farms in the ocean, emphasizing their size and structure.
+    3. [type=manipulation, frames=[2]] Switch to a close-up of fish in a pond to contrast with the ocean farms.
+    4. [type=perception, frames=[0,1,2]] Recognize and label fish and farm structures in each frame
+
+
+======================================================================
+
+TASK 1: Emphasize the scale and importance of fish farming in global food production.
+Time Range: 23.6 → 33.9
+----------------------------------------------------------------------
+  SUBTASK 0: Explain that more than half of the world's seafood is produced through fish farming.
+  Time Range: 23.6 → 28.8
+  Guidance:
+    GLOBAL_SUMMARY:
+    Explain that more than half of the world's seafood comes from fish farms, emphasizing the significance of fish farming in global food production.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] A large fish farm is depicted, with text highlighting it as a global industry.
+    - [frames=[2]] The same fish farm is shown, but now with fish swimming in a circular enclosure.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene shifts from an overview of a large fish farm to a detailed view of fish within the farm, illustrating the scale and activity of fish farming. This transition helps viewers understand the vastness of the industry and the ongoing operations within a typical fish farm.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must have prior knowledge about fish farming and its importance.
+    - The robot should be aware of the video content and timing.
+    - The robot needs to recognize fish and farm structures.
+    - The robot should be able to navigate between different views of the fish farm.
+    
+    SUCCESS_CRITERIA:
+    - The robot successfully explains that over half of the world's seafood is produced through fish farming.
+    - The robot provides context about the global nature of fish farming.
+    - The robot highlights the active processes within a fish farm.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the first frame showing the large fish farm.
+    2. [type=perception, frames=[0,1]] Identify the text and confirm the message about fish farming being a global industry.
+    3. [type=manipulation, frames=[1]] Transition to the second frame focusing on the fish in the circular enclosure.
+    4. [type=perception, frames=[2]] Confirm the presence of fish and the circular enclosure.
+    5. [type=communication, frames=[0,2]] Explain that more than half of the
+
+  SUBTASK 1: Stress the crucial role of fish farming in feeding the growing population.
+  Time Range: 29.0 → 33.9
+  Guidance:
+    GLOBAL_SUMMARY:
+    Stress the crucial role of fish farming in feeding the growing population.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] A large fish farm is shown from above, with fish swimming in a circular enclosure.
+    - [frames=[2]] The video shows a fish farm with cages floating on water.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene transitions from an overhead view of a large fish farm to a closer look at the fish swimming in enclosures and floating cages, emphasizing the scale and activity of fish farming.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must have knowledge about fish farming and its importance.
+    - The robot should be aware of the video content and timing.
+    - The robot needs to be able to navigate through different views of the fish farm.
+    
+    SUCCESS_CRITERIA:
+    - The robot successfully highlights the scale and importance of fish farming.
+    - The robot accurately describes the fish farm's operations and their impact on feeding the growing population.
+    - The robot maintains focus on the fish farm throughout the specified time range.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the overhead view of the fish farm.
+    2. [type=perception, frames=[0,1]] Analyze the image to identify the fish farm and the circular enclosures.
+    3. [type=navigation, frames=[2]] Transition to the view showing cages floating on water.
+    4. [type=manipulation, frames=[2]] Highlight the cages and the fish within them.
+    5. [type=communication, frames=[0,2]] Explain the significance of fish farming in feeding the growing population.
+    
+    SUBTASK_STORY:
+    The video begins with an overview of a large fish farm from above, showcasing the extensive area and numerous circular enclosures where fish are swimming. As the camera zooms in, it reveals
+
+
+======================================================================
+
+TASK 2: Connect fish farming to everyday consumption.
+Time Range: 33.9 → 44.9
+----------------------------------------------------------------------
+  SUBTASK 0: Mention the example of enjoying tasty salmon sushi to illustrate the impact of fish farming.
+  Time Range: 33.9 → 44.9
+  Guidance:
+    GLOBAL_SUMMARY:
+    Illustrate the connection between fish farming and everyday consumption by mentioning an example of enjoying tasty salmon sushi.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] A close-up of a tomato with a "Subscribe" button and "Scampi, Just" text appears, which seems out of context for the current subtask.
+    - [frames=[2]] A red light is shown on a black background, indicating a shift in focus or a transition to a new scene.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene transitions from a tomato-related image to a red light, suggesting a change in the topic or a visual cue to move on to the next part of the tutorial. The subtask involves mentioning salmon sushi to connect fish farming to everyday consumption.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot should recognize the need to mention salmon sushi.
+    - The robot should have knowledge about the impact of fish farming on everyday food items.
+    - The robot should be prepared to switch between different visual cues and content.
+    
+    SUCCESS_CRITERIA:
+    - The robot mentions salmon sushi as an example of how fish farming impacts everyday consumption.
+    - The robot transitions smoothly from the previous content to the new topic.
+    - The robot provides accurate information about the connection between fish farming and consuming salmon sushi.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=perception, frames=[0,1]] Recognize the tomato-related image and understand it is not relevant to the current subtask.
+    2. [type=navigation, frames=[2]] Transition to the red light, indicating a shift in the tutorial content.
+    3. [type=manipulation, frames=[2]] Prepare to mention salmon sushi as an example.
+    4. [type=communication, frames=[2]] Speak the sentence: "Enjoying tasty salmon sushi is one way fish farming connects to our daily lives."
+    5.
+
+  SUBTASK 1: Conclude by acknowledging fish farming as a significant achievement of human innovation.
+  Time Range: 39.9 → 44.9
+  Guidance:
+    GLOBAL_SUMMARY:
+    Acknowledge fish farming as a significant achievement of human innovation, concluding the tutorial video.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] A close-up of a piece of food with a "SUBSCRIBED" notification on a social media platform, transitioning to a close-up of a plant with the text "it's a great" and "SUBSCRIBED" on the screen.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene shifts from a piece of food to a plant, symbolizing the connection between fish farming and everyday consumption. The "SUBSCRIBED" notifications reinforce the idea of engagement and interest in the topic, leading to the final acknowledgment of fish farming's importance.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must have knowledge about fish farming and its significance.
+    - The robot should be aware of the current context of the video, which is connecting fish farming to everyday consumption.
+    - The robot needs to recognize the "SUBSCRIBED" notifications as indicators of viewer engagement.
+    - The robot should be able to identify the food and plant images as symbols of the connection being made.
+    
+    SUCCESS_CRITERIA:
+    - The robot successfully acknowledges fish farming as a significant achievement.
+    - The transition between the food and plant images is smooth and coherent.
+    - The "SUBSCRIBED" notifications are clearly visible and recognized as indicators of viewer engagement.
+    - The final message conveys the importance of fish farming in a way that aligns with the video's theme.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Transition smoothly from the close-up of the food to the close-up of the plant.
+    2. [type=perception, frames=[0,1]] Recognize the "SUBSCRIBED" notifications on both images.
+    3. [type=manipulation, frames=[0
+
+
+======================================================================
+

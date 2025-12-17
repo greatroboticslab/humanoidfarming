@@ -1,0 +1,150 @@
+VIDEO: tOpVYo67qw8
+TITLE: Three Sisters Garden Planting Beans
+======================================================================
+
+TASK 0: Describe the Three Sisters planting method.
+Time Range: 4.24 → 27.12
+----------------------------------------------------------------------
+  SUBTASK 0: Plant climbing beans that grow with support from tall corn stalks.
+  Time Range: 4.24 → 8.8
+  Guidance:
+    GLOBAL_SUMMARY:
+    Plant climbing beans that will grow with support from tall corn stalks.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0]] A person is preparing to plant seeds by holding a seed packet over their hand.
+    - [frames=[1]] The person is now holding a handful of red and white beans in their hand.
+    - [frames=[2]] A hand is planting a seed into the soil.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The subtask involves planting climbing beans, which will later grow alongside corn stalks. The person first opens a seed packet and then picks up a handful of beans, presumably separating them, before planting one into the soil.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must be within reach of the seed packet.
+    - The robot should have access to a handful of beans.
+    - The robot needs to be positioned near the soil where the bean will be planted.
+    - The robot must know the correct depth and angle for planting the seed.
+    
+    SUCCESS_CRITERIA:
+    - A single bean is successfully planted in the soil.
+    - The bean is placed at the appropriate depth and angle.
+    - The soil around the planted bean is compacted slightly.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0]] Move the robot's arm to the location of the seed packet.
+    2. [type=manipulation, frames=[0]] Open the seed packet using the robot's gripper.
+    3. [type=manipulation, frames=[1]] Pick up a handful of beans from the packet.
+    4. [type=navigation, frames=[1]] Move the robot's arm to the planting area near the soil.
+    5. [type=manipulation, frames=[2]] Carefully place one bean into the soil at the correct depth and angle.
+    6. [type=manipulation, frames=[2]]
+
+  SUBTASK 1: Incorporate pumpkin or winter squash into the mounds as a living mulch.
+  Time Range: 22.48 → 27.12
+  Guidance:
+    GLOBAL_SUMMARY:
+    Incorporate pumpkin or winter squash into the mounds as a living mulch, which involves planting the seeds or seedlings alongside other crops.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0]] A person is holding a container with labeled seeds for different plants, indicating preparation for planting.
+    - [frames=[1]] A hand is holding a handful of seeds, suggesting the selection of pumpkin or winter squash seeds.
+    - [frames=[2]] A hand is planting a young plant in the soil, showing the actual act of planting the selected seeds or seedlings.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene depicts the process of incorporating pumpkin or winter squash into the mounds as part of the Three Sisters planting method. The person first selects the appropriate seeds, then plants them in the mound, ensuring they are integrated with other crops for optimal growth.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must know the location of the mounds.
+    - The robot should have access to the correct seeds or seedlings.
+    - The robot needs to be equipped with tools for planting, such as a trowel or a planter.
+    - The robot must be aware of the current state of the mounds and the surrounding environment.
+    
+    SUCCESS_CRITERIA:
+    - The robot has correctly identified and selected the appropriate seeds or seedlings.
+    - The robot has planted the seeds or seedlings in the designated area within the mounds.
+    - The robot has ensured proper spacing between the plants for optimal growth.
+    - The robot has covered the planted seeds or seedlings with soil.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0]] Navigate to the location of the mounds.
+    2. [type=perception, frames=[0]] Identify the container with labeled seeds and select the pumpkin or winter squash seeds.
+    3. [type=manipulation, frames
+
+
+======================================================================
+
+TASK 1: Highlight the historical and nutritional benefits of the Three Sisters method.
+Time Range: 8.8 → 27.12
+----------------------------------------------------------------------
+  SUBTASK 0: Explain how nitrogen-fixing beans enhance corn growth through symbiosis.
+  Time Range: 8.8 → 13.44
+  Guidance:
+    GLOBAL_SUMMARY:
+    Explain how nitrogen-fixing beans enhance corn growth through symbiosis.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0]] A person is preparing to plant a small plant in the soil.
+    - [frames=[1]] The person has just planted a small plant, likely a bean, in the soil.
+    - [frames=[2]] A person is tending to a garden bed with young corn plants.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene shows a person planting a small plant, which is likely a bean, and then tending to a garden bed containing young corn plants. This setup illustrates the initial stages of the Three Sisters method, where beans are planted alongside corn to promote mutual growth.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must recognize the presence of a garden bed.
+    - The robot should know the difference between corn and other plants.
+    - The robot needs to understand the concept of symbiotic relationships in plants.
+    
+    SUCCESS_CRITERIA:
+    - The robot successfully identifies the correct plant being planted (a bean).
+    - The robot correctly explains the role of beans in enhancing corn growth.
+    - The robot provides accurate information about the symbiotic relationship between beans and corn.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0]] Navigate to the area where the person is planting.
+    2. [type=perception, frames=[0,1]] Identify the small plant being planted, confirming it is a bean.
+    3. [type=manipulation, frames=[1]] Observe the planting process to ensure accuracy.
+    4. [type=navigation, frames=[2]] Move to the garden bed with young corn plants.
+    5. [type=communication, frames=[2]] Explain how the beans fix nitrogen in the soil, benefiting the corn plants.
+    6. [type=perception, frames=[2]] Confirm understanding by observing
+
+  SUBTASK 1: Mention the traditional knowledge behind the Three Sisters agriculture technique.
+  Time Range: 13.44 → 18.24
+  Guidance:
+    GLOBAL_SUMMARY:
+    Mention the traditional knowledge behind the Three Sisters agriculture technique during the planting process.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[1]] A hand is seen planting a seed into the soil.
+    - [frames=[2]] A person is shown planting a young corn plant in a garden.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The subtask involves highlighting the traditional knowledge of the Three Sisters method through the act of planting seeds and young plants. This technique, which has been used for centuries, emphasizes the interdependence of three crops—corn, beans, and squash—that grow together in a mutually beneficial way.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must recognize the context of a Three Sisters garden.
+    - The robot should know the significance of the Three Sisters method.
+    - The robot needs to be aware of the current scene involving planting activities.
+    
+    SUCCESS_CRITERIA:
+    - The robot mentions the traditional knowledge of the Three Sisters method.
+    - The robot accurately describes the interdependence of the crops.
+    - The robot provides historical context about the method.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=perception, frames=[1]] Identify the act of planting a seed.
+    2. [type=perception, frames=[2]] Recognize the planting of a young corn plant.
+    3. [type=manipulation, frames=[1,2]] Ensure the robot understands the planting actions.
+    4. [type=communication, frames=[1,2]] Explain the traditional knowledge of the Three Sisters method.
+    5. [type=perception, frames=[1,2]] Confirm the robot's understanding by observing the planting actions.
+    
+    SUBTASK_STORY:
+    The subtask begins with the robot observing a hand planting a seed into the soil. As the hand continues to work, the robot recognizes the planting of a young corn plant. By integrating this observation with the knowledge of
+
+  SUBTASK 2: Point out the role of pumpkins in providing living mulch for the mounds.
+  Time Range: 22.48 → 27.12
+  Guidance:
+    
+
+
+======================================================================
+

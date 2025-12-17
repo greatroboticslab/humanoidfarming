@@ -1,0 +1,214 @@
+VIDEO: YwZtvMELRrM
+TITLE: When to Cut Hay for Maximum Quality
+======================================================================
+
+TASK 0: Explain the timing and criteria for cutting hay.
+Time Range: 3.15 → 76.19
+----------------------------------------------------------------------
+  SUBTASK 0: Note the typical timeline for hay harvest, checking seed head development.
+  Time Range: 3.15 → 43.19
+  Guidance:
+    GLOBAL_SUMMARY:
+    The subtask involves noting the typical timeline for hay harvest, focusing on the stage of seed head development.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] A tractor is mowing a field in a rural area, seen from an aerial view.
+    - [frames=[2]] An aerial view of a farm with multiple tractors working on fields.
+    - [frames=[3]] A man stands next to a tractor in a field, indicating human presence and activity.
+    - [frames=[4,5]] Tractors continue to work on fields, with one having a machine attached for cutting.
+    - [frames=[6]] A green tractor is clearly visible, cutting grass with a large machine.
+    - [frames=[7]] A close-up of a green lawn mower mowing a grassy field, showing the process in detail.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene depicts a busy hay harvest operation where multiple tractors are actively cutting hay. The presence of a man near a tractor suggests ongoing human supervision and management of the process. The focus is on the timing and method of cutting hay, particularly noting the stage of seed head development.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The field must be ready for harvesting.
+    - Tractors and cutting equipment must be operational.
+    - Human operators must be present to manage the process.
+    - Weather conditions must be suitable for hay cutting.
+    
+    SUCCESS_CRITERIA:
+    - The robot should identify the correct timing for cutting based on seed head development.
+    - The robot should recognize the presence of tractors and cutting equipment.
+    - The robot should detect the stage of seed head development accurately.
+    - The robot should communicate the optimal cutting time to the human operator.
+    - The robot should document the observed timeline for future reference.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the field where
+
+  SUBTASK 1: Describe the benefits of high moisture hay versus dry hay.
+  Time Range: 43.19 → 76.19
+  Guidance:
+    GLOBAL_SUMMARY:
+    Describe the benefits of high moisture hay versus dry hay.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0]] A tractor is mowing a large field of grass.
+    - [frames=[1-5]] A man stands next to a tractor in a field, likely discussing the benefits of different types of hay.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene shows a farmer explaining the differences between high moisture and dry hay while standing near a tractor in a field. The focus is on the benefits of each type of hay, which is crucial information for understanding the timing and quality of hay cutting.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The field must be visible and accessible.
+    - The tractor must be present and operational.
+    - The farmer must be available to provide information.
+    - The robot must have the ability to recognize and understand the context of the discussion.
+    
+    SUCCESS_CRITERIA:
+    - The robot must accurately describe the benefits of high moisture hay.
+    - The robot must accurately describe the benefits of dry hay.
+    - The robot must provide a clear comparison between the two types of hay.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0]] Navigate to the field where the tractor is located.
+    2. [type=sensing, frames=[1-5]] Sense the presence of the farmer and the tractor.
+    3. [type=communication, frames=[1-5]] Initiate a conversation with the farmer about the benefits of different types of hay.
+    4. [type=perception, frames=[1-5]] Perceive the farmer's explanation of the benefits of high moisture hay.
+    5. [type=perception, frames=[1-5]] Perceive the farmer's explanation of the benefits of dry hay.
+    6. [type=manipulation, frames=[1-5]] Use a display or voice to summarize the benefits of both
+
+
+======================================================================
+
+TASK 1: Outline considerations for hay cutting in varying weather conditions.
+Time Range: 76.19 → 181.19
+----------------------------------------------------------------------
+  SUBTASK 0: Observe the effect of dry weather on hay cutting decisions.
+  Time Range: 76.19 → 145.19
+  Guidance:
+    GLOBAL_SUMMARY:
+    Observe how dry weather affects the decision-making process for hay cutting.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[1,2,3,4,8,9,10]] A tractor is seen mowing a large green field in various settings, indicating ongoing hay cutting.
+    - [frames=[5]] A man standing next to a tractor suggests someone is supervising or operating the machinery.
+    - [frames=[1,2,3,4,8,9,10]] The presence of a green lawn mower and a forest in the background provides context about the rural setting.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene depicts a continuous operation of hay cutting across different parts of a large field. The tractor's movement and the presence of a supervisor indicate active work being done. The natural elements like trees and the greenery suggest a rural environment suitable for hay production.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The field must be visible and accessible to the robot.
+    - The tractor should be present and operational.
+    - There should be a person supervising the operation.
+    - The weather must be dry, as indicated by the absence of rain or moisture.
+    
+    SUCCESS_CRITERIA:
+    - The robot should correctly identify the current weather conditions as dry.
+    - The robot should recognize the ongoing hay cutting activity.
+    - The robot should observe the tractor and the supervisor in the field.
+    - The robot should confirm the field is suitable for hay cutting under dry conditions.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[1,2,3,4,8,9,10]] Navigate to the field where the tractor is located.
+    2. [type=perception, frames=[1,2,3,4,8,9,10]] Use sensors to detect the presence of the tractor and the supervisor.
+    3. [type=
+
+  SUBTASK 1: Mention the importance of limiting hay cutting during hot, dry periods.
+  Time Range: 145.19 → 181.19
+  Guidance:
+    GLOBAL_SUMMARY:
+    Mention the importance of avoiding hay cutting during hot, dry periods to ensure maximum quality.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[2]] A red tractor is transporting a large white bale of hay, indicating ongoing hay production.
+    - [frames=[3]] A person is operating a red tractor, suggesting active farm work.
+    - [frames=[5]] A man stands next to a tractor in a field, possibly preparing for or completing a task.
+    - [frames=[7]] The video shows a scenic rural landscape with a field, trees, and a forest in the background, setting the context for agricultural activities.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene depicts a typical rural farming environment where hay is being harvested and transported. The focus is on the importance of timing hay cutting to avoid poor quality due to extreme weather conditions.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must be aware of current weather conditions.
+    - The robot should have knowledge about optimal hay cutting times.
+    - The robot needs to recognize farm equipment such as tractors and hay bales.
+    - The robot should understand the concept of hay quality and its impact on livestock.
+    
+    SUCCESS_CRITERIA:
+    - The robot must correctly identify the need to limit hay cutting during hot, dry periods.
+    - It should provide accurate information about the importance of maintaining hay quality.
+    - The robot should communicate effectively with the farmer about the best times to cut hay.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=perception, frames=[2]] Identify the presence of a tractor and hay bale.
+    2. [type=perception, frames=[3]] Recognize the operator of the tractor.
+    3. [type=perception, frames=[5]] Detect the man standing near the tractor.
+    4. [type=perception, frames=[7]] Analyze the weather conditions depicted in the landscape.
+
+
+======================================================================
+
+TASK 2: Describe best practices for storing hay to prevent spoilage and retain nutrients.
+Time Range: 181.19 → 234.19
+----------------------------------------------------------------------
+  SUBTASK 0: Note the recommended moisture content for stored hay.
+  Time Range: 181.19 → 217.19
+  Guidance:
+    GLOBAL_SUMMARY:
+    Note the recommended moisture content for stored hay, which is crucial for preventing spoilage and retaining nutrients.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] Two men are standing in a grassy field, one with a tool, discussing something.
+    - [frames=[2]] The same two men are still standing in the field, one holding a tool.
+    - [frames=[3]] A man is seen standing next to a tractor in a field.
+    - [frames=[4]] A tractor is mowing a large field of grass.
+    - [frames=[5]] A tractor is mowing a field with a red trailer attached.
+    - [frames=[6]] A black cow is standing in a lush green field with yellow flowers.
+    - [frames=[7]] Two men are again standing in a grassy field, talking.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene transitions between different activities in a field, including mowing, discussion, and observation of livestock. The focus seems to shift between the men discussing and the ongoing activity of mowing the grass.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must be aware of the current context being in a field.
+    - The robot should recognize the presence of two men and their interaction.
+    - The robot needs to understand the concept of hay and its storage requirements.
+    - The robot must be able to perceive the environment and identify key elements such as the men and the tractor.
+    
+    SUCCESS_CRITERIA:
+    - The robot should accurately note the recommended moisture content for stored hay.
+    - The robot must provide a clear and concise statement about the moisture content.
+    - The robot should ensure that the information is relevant to the context of storing hay to prevent spoilage and retain nutrients.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the area where the men are standing and begin
+
+  SUBTASK 1: Highlight the importance of controlling moisture during baling.
+  Time Range: 217.19 → 234.19
+  Guidance:
+    GLOBAL_SUMMARY:
+    Highlight the importance of controlling moisture during the baling process to ensure hay quality.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[1]] Two men in a field, one in a blue jacket and the other in a green shirt, are engaged in conversation.
+    - [frames=[2]] Two individuals walk through a field of tall grass and yellow flowers, suggesting they are moving towards the baling area.
+    - [frames=[3]] A tractor is seen mowing a large field with a forest in the background, indicating the start of the hay production process.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene transitions from a discussion about hay quality to the actual baling process. The two men likely discuss the importance of moisture control as they move towards the field where the hay is being cut and baled.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must be aware of the current weather conditions.
+    - The robot should have knowledge of optimal moisture levels for hay.
+    - The robot needs to recognize the presence of the two men and their conversation.
+    - The robot must be able to navigate to the field where the hay is being baled.
+    
+    SUCCESS_CRITERIA:
+    - The robot should identify the two men discussing hay quality.
+    - The robot must recognize the transition from discussion to the baling process.
+    - The robot should accurately describe the importance of moisture control during baling.
+    - The robot needs to confirm the presence of the tractor and the field being mowed.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[1]] Navigate to the location where the two men are standing.
+    2. [type=perception, frames=[1]] Identify the two men and their conversation.
+    3. [type=manipulation, frames=[2]] Follow the two individuals as they walk towards the baling area.
+    4. [type=perception, frames
+
+
+======================================================================
+

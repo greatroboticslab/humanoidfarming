@@ -1,0 +1,186 @@
+VIDEO: tlPb6vvE01Q
+TITLE: Farmers Market Harvest Celebration
+======================================================================
+
+TASK 0: Explain the process of sorting and preparing produce for the market.
+Time Range: 3.96 → 12.68
+----------------------------------------------------------------------
+  SUBTASK 0: Describe the sorting process for peaches by size and quality.
+  Time Range: 3.96 → 8.08
+  Guidance:
+    GLOBAL_SUMMARY:
+    The subtask involves describing the process of sorting peaches by size and quality for the farmers market.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] A close-up view of several peaches is shown, with the background blurred.
+    - [frames=[2]] A single peach is magnified, with the words "quality, ensuring" overlaid.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene depicts the sorting process where peaches are being examined closely to ensure they meet certain quality standards. This involves checking the size and condition of each peach to prepare them for display at the market.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must have access to a set of peaches.
+    - The robot should be equipped with a camera capable of capturing detailed images of the peaches.
+    - The robot needs to know the criteria for sorting peaches by size and quality.
+    - The robot must be able to manipulate the peaches gently without damaging them.
+    
+    SUCCESS_CRITERIA:
+    - All peaches are sorted into different categories based on their size and quality.
+    - The robot can accurately describe the sorting process.
+    - The robot provides a clear explanation of the quality standards used for sorting.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Move the camera to focus on the peaches.
+    2. [type=perception, frames=[0,1]] Analyze the size and appearance of each peach.
+    3. [type=manipulation, frames=[2]] Gently pick up a peach to examine it more closely.
+    4. [type=perception, frames=[2]] Confirm the quality and size of the peach.
+    5. [type=navigation, frames=[0,1]] Move the peach to the appropriate sorting area based on its size and quality.
+    6. [type=communication, frames=[0
+
+  SUBTASK 1: Highlight the display of sorted peanuts and peaches at the market.
+  Time Range: 8.08 → 12.68
+  Guidance:
+    GLOBAL_SUMMARY:
+    Highlight the display of sorted peanuts and peaches at the farmers market.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] A close-up of peaches labeled "make it to the market."
+    - [frames=[2]] A yellow shopping basket filled with sorted peanuts.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene shows the preparation and display of sorted produce, specifically focusing on peanuts and peaches. The peaches are highlighted with a label indicating they are ready for the market, while the peanuts are neatly arranged in a basket.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must know the location of the market.
+    - The robot should have access to a basket containing sorted peanuts.
+    - The robot needs to recognize and identify peaches and peanuts.
+    - The robot must be aware of the label indicating the peaches' readiness for the market.
+    
+    SUCCESS_CRITERIA:
+    - Peanuts are displayed in a basket.
+    - Peaches are shown with a label indicating they are ready for the market.
+    - Both items are visible and organized for display.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the area where the peaches are located.
+    2. [type=perception, frames=[0,1]] Identify the peaches and the label indicating they are ready for the market.
+    3. [type=navigation, frames=[2]] Move to the area where the peanuts will be displayed.
+    4. [type=manipulation, frames=[2]] Pick up the basket containing sorted peanuts.
+    5. [type=navigation, frames=[2]] Position the basket near the display area for the peaches.
+    6. [type=perception, frames=[2]] Ensure both the peanuts and peaches are visible and organized for display.
+    
+    SUBTASK_STORY:
+    The robot begins by navigating to the area
+
+
+======================================================================
+
+TASK 1: Describe the journey of the produce from the fields to the market.
+Time Range: 12.68 → 20.12
+----------------------------------------------------------------------
+  SUBTASK 0: Mention the vibrant colors of the produce catching customers' attention at the market.
+  Time Range: 12.68 → 16.0
+  Guidance:
+    GLOBAL_SUMMARY:
+    Mention the vibrant colors of the produce catching customers' attention at the market.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] A bag of peanuts and peaches are visible, showcasing their bright colors.
+    - [frames=[2]] The focus narrows to a bag of peanuts with the text "The farmers proudly" overlaid, emphasizing the quality and pride of the produce.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene shifts from a general view of various produce items to a closer look at a specific bag of peanuts. This transition highlights the vibrant colors of the produce, which are designed to catch the eye of customers and evoke a sense of freshness and quality.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must be aware of the current location within the market.
+    - The robot should recognize produce items such as peanuts and peaches.
+    - The robot needs to have access to information about the farmers and their pride in their produce.
+    
+    SUCCESS_CRITERIA:
+    - The robot successfully mentions the vibrant colors of the produce.
+    - The robot accurately captures the attention of the audience by highlighting the colors.
+    - The robot provides context about the pride of the farmers in their produce.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the area where the produce is displayed.
+    2. [type=perception, frames=[0,1]] Identify the bag of peanuts and peaches based on their colors and appearance.
+    3. [type=manipulation, frames=[2]] Focus on the bag of peanuts specifically.
+    4. [type=communication, frames=[2]] Announce the vibrant colors of the produce, emphasizing the pride of the farmers.
+    5. [type=navigation, frames=[2]] Return to a general view if needed to continue the tutorial.
+    
+    SUBTASK_STORY:
+    As the camera pans
+
+  SUBTASK 1: Describe farmers proudly displaying their produce and sharing their dedication.
+  Time Range: 16.0 → 20.12
+  Guidance:
+    GLOBAL_SUMMARY:
+    Farmers are showcasing their produce and expressing their commitment to their work at the farmers market.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[1]] A close-up of peaches in a cardboard box with the words "produce, sharing" overlaid.
+    - [frames=[2]] A man in an apron holds a crate of cherries, with the caption "dedication with the world."
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    Farmers are enthusiastically displaying their fresh produce, emphasizing the quality and care they put into growing it. The scene captures both the physical act of handling the produce and the emotional connection farmers have with their work.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must be within the vicinity of the farmers market.
+    - The robot should recognize produce and farmers.
+    - The robot needs to understand the concept of pride and dedication.
+    
+    SUCCESS_CRITERIA:
+    - The robot correctly identifies the farmers and the produce they are displaying.
+    - The robot comprehends the emotional aspect of the farmers' dedication.
+    - The robot accurately describes the scene in a way that reflects the pride and dedication of the farmers.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[1]] Move the camera to focus on the peaches in the cardboard box.
+    2. [type=perception, frames=[1]] Identify the peaches and the words "produce, sharing" overlaid.
+    3. [type=navigation, frames=[2]] Move the camera to focus on the farmer holding the crate of cherries.
+    4. [type=manipulation, frames=[2]] Recognize the farmer in the apron and the cherries he is holding.
+    5. [type=communication, frames=[1,2]] Describe the scene, highlighting the pride and dedication of the farmers in their produce.
+    
+    SUBTASK_STORY:
+    At the farmers market, farmers
+
+
+======================================================================
+
+TASK 2: Emphasize the celebration of local farming.
+Time Range: 37.4 → 45.44
+----------------------------------------------------------------------
+  SUBTASK 0: Encourage supporting local farmers during the harvest season.
+  Time Range: 37.4 → 45.44
+  Guidance:
+    GLOBAL_SUMMARY:
+    Encourage viewers to support local farmers during the harvest season by highlighting their hard work and the importance of local markets.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0]] A tractor is driving through a field, emphasizing the ongoing agricultural work.
+    - [frames=[1]] A chalkboard sign reads "Welcome to Farmers Market," indicating the setting of a local market.
+    - [frames=[2]] A person is standing in a garden, with text overlay that highlights the value of local produce and the farmers' efforts.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene transitions from showing the agricultural work being done in the fields to welcoming viewers to a local farmers market. The final frame focuses on a person in a garden, symbolizing the direct connection between the hard work of farmers and the fresh produce available at the market.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot should be aware of the current location and context of the farmers market.
+    - The robot should have knowledge about local farmers and their contributions.
+    - The robot should be able to communicate effectively with the audience.
+    
+    SUCCESS_CRITERIA:
+    - The robot should convey the message of supporting local farmers.
+    - The robot should highlight the significance of the harvest season.
+    - The robot should engage the audience in understanding the value of local produce.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0]] Drive the robot through a field to show ongoing agricultural work.
+    2. [type=communication, frames=[1]] Display a message on the robot's screen welcoming viewers to the Farmers Market.
+    3. [type=manipulation, frames=[2]] Point the robot towards a person in a garden and display text overlaying the value of local produce.
+    4. [type=communication, frames=[1]] Announce the importance of supporting local farmers during the harvest season.
+    5. [type=man
+
+
+======================================================================
+

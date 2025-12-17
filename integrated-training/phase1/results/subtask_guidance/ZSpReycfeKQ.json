@@ -1,0 +1,388 @@
+{
+  "video_index": "ZSpReycfeKQ",
+  "title": "Harvesting Machines in Action",
+  "url": "https://www.youtube.com/watch?v=ZSpReycfeKQ",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "The video describes the operation of agricultural machines and their efficiency in the harvest process.",
+  "tasks": [
+    {
+      "task": "Describe the operation and function of the harvest machines.",
+      "start": 0.0,
+      "end": 19.04,
+      "subtasks": [
+        {
+          "text": "Observe the machines moving silently yet powerfully across the vast fields.",
+          "start": 0.0,
+          "end": 5.52,
+          "segment_ids": [
+            0
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "ZSpReycfeKQ/task00_sub00_f00.jpg",
+              "caption": "The video shows a field with tractors and a machine in the foreground.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "ZSpReycfeKQ/task00_sub00_f01.jpg",
+              "caption": "The video shows a tractor harvesting wheat in a field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "ZSpReycfeKQ/task00_sub00_f02.jpg",
+              "caption": "The video shows a tractor with a large plow attached to it, driving through a field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "The subtask involves observing a machine moving silently and powerfully across a field while other tractors perform their tasks.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0]] The video begins with a field scene featuring multiple tractors and a machine in the foreground.",
+            "- [frames=[1]] A tractor is shown harvesting wheat in the field, indicating ongoing agricultural activity.",
+            "- [frames=[2]] Another tractor is seen with a large plow attached, driving through the field, suggesting preparation for planting or maintenance.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene depicts a dynamic agricultural setting where various machines work together to maintain and harvest crops. The silent, powerful machine moves across the field, likely performing tasks such as monitoring crop health or preparing the soil.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The field must be visible and accessible to the robot's camera.",
+            "- The robot should have knowledge of the different types of agricultural machinery.",
+            "- The robot needs to recognize the presence of tractors and their activities.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot should accurately identify the machine moving across the field.",
+            "- It must recognize the different types of tractors and their activities.",
+            "- The robot should confirm the machine's silent and powerful movement.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0]] Navigate to the field area based on the initial scene.",
+            "2. [type=perception, frames=[0,1]] Identify the machine moving across the field and observe its silent and powerful movement.",
+            "3. [type=perception, frames=[1]] Recognize the tractor harvesting wheat and note its ongoing activity.",
+            "4. [type=perception, frames=[2]] Detect the tractor with a large plow and track its movement through the field.",
+            "5. [type=communication, frames=[0-2]] Report observations to the main system about the"
+          ]
+        },
+        {
+          "text": "Watch the machines cut, gather, and harvest crops with precise rotations.",
+          "start": 5.52,
+          "end": 11.44,
+          "segment_ids": [
+            1
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "ZSpReycfeKQ/task00_sub01_f01.jpg",
+              "caption": "The video shows a tractor with a plow attached to it, moving through a field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "ZSpReycfeKQ/task00_sub01_f02.jpg",
+              "caption": "The video shows a tractor with a large hose spraying water onto a field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "The subtask involves observing the initial setup and preparation stages of a machine before it begins harvesting crops.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0,1]] A tractor equipped with a plow is seen moving through a field, preparing the ground for planting or harvesting.",
+            "- [frames=[2]] The tractor is then shown with a large hose, indicating the application of water to the field, likely to hydrate the soil or crops.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene depicts the early stages of agricultural machinery operations, where the tractor first prepares the field by plowing and then ensures the soil is adequately moistened before any further actions such as planting or harvesting can occur.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The field must be accessible to the tractor.",
+            "- The tractor must be operational and ready for use.",
+            "- The plow attachment must be correctly mounted on the tractor.",
+            "- The water supply must be available and functional.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The plow must have completed its pass through the field.",
+            "- Water must have been successfully applied to the field.",
+            "- The tractor must be in a position to proceed with the next stage of the operation.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0,1]] Navigate the tractor to the field and ensure it is positioned correctly for plowing.",
+            "2. [type=manipulation, frames=[0,1]] Attach the plow to the tractor if not already done.",
+            "3. [type=navigation, frames=[1]] Operate the plow to prepare the field by moving it through the soil.",
+            "4. [type=manipulation, frames=[2]] Connect the water hose to the tractor's water system.",
+            "5. [type=navigation, frames=[2]] Move the tractor to a strategic location to apply water effectively across the field."
+          ]
+        },
+        {
+          "text": "Notice the sharp blades slicing through each stalk as crops are transferred.",
+          "start": 11.44,
+          "end": 15.92,
+          "segment_ids": [
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub02_f01.jpg",
+              "relative_path": "ZSpReycfeKQ/task00_sub02_f01.jpg",
+              "caption": "A combine harvester is harvesting crops in a field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub02_f02.jpg",
+              "relative_path": "ZSpReycfeKQ/task00_sub02_f02.jpg",
+              "caption": "A combine harvester is harvesting crops in a field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "The subtask focuses on observing the process of harvesting crops using a combine harvester, specifically noting the action of the sharp blades cutting through the stalks as crops are transferred.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[1,2]] A combine harvester is shown moving through a field, with visible sharp blades on the front cutting through the stalks of crops as they are harvested.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "As the combine harvester moves through the field, it uses its sharp blades to cut through the stalks of crops, efficiently separating them from the roots. The machine then transfers the harvested crops into its collection bin, continuing the process as it progresses across the field.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The combine harvester must be operational and in motion.",
+            "- The field must contain crops ready for harvesting.",
+            "- The sharp blades must be functional and properly positioned.",
+            "- The collection bin must be empty or ready to receive the harvested crops.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The sharp blades must be clearly seen cutting through the stalks of crops.",
+            "- Crops must be visibly being transferred into the collection bin.",
+            "- The combine harvester must continue moving forward without stopping.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[1,2]] Monitor the movement of the combine harvester through the field.",
+            "2. [type=perception, frames=[1,2]] Identify the sharp blades on the front of the harvester.",
+            "3. [type=perception, frames=[1,2]] Observe the cutting action of the blades through the stalks.",
+            "4. [type=perception, frames=[1,2]] Watch for the transfer of crops into the collection bin.",
+            "5. [type=navigation, frames=[1,2]] Continue tracking the progress of the harvester as it moves forward.",
+            "",
+            "SUB"
+          ]
+        },
+        {
+          "text": "See how conveyor belts continuously move the crops to waiting trucks.",
+          "start": 15.92,
+          "end": 19.04,
+          "segment_ids": [
+            3
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub03_f01.jpg",
+              "relative_path": "ZSpReycfeKQ/task00_sub03_f01.jpg",
+              "caption": "A large combine harvester is harvesting crops in a field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub03_f02.jpg",
+              "relative_path": "ZSpReycfeKQ/task00_sub03_f02.jpg",
+              "caption": "A tractor is mowing a large triangular patch of grass in a field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "The subtask involves observing how conveyor belts move harvested crops from the field to waiting trucks.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[1]] A large combine harvester is seen harvesting crops in a field.",
+            "- [frames=[2]] A tractor is mowing a large triangular patch of grass in a field, which seems out of context for the current subtask.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene primarily focuses on the operation of a combine harvester in a field, where it is harvesting crops. The conveyor belt system is not directly visible in the given frames but is implied to be part of the larger harvesting process. The tractor observed in the second frame appears to be irrelevant to the current subtask.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The field must contain crops ready for harvesting.",
+            "- A combine harvester must be present and operational.",
+            "- A conveyor belt system must be set up to transport the harvested crops.",
+            "- Trucks must be positioned to receive the transported crops.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- Crops must be continuously moving along the conveyor belt.",
+            "- The conveyor belt must reach the waiting trucks without interruption.",
+            "- The movement of crops should be smooth and consistent throughout the observed period.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[1]] Navigate to the field where the combine harvester is located.",
+            "2. [type=perception, frames=[1]] Observe the combine harvester in action, noting the continuous movement of crops into the machine.",
+            "3. [type=navigation, frames=[2]] Move to a position where the conveyor belt can be observed.",
+            "4. [type=perception, frames=[2]] Confirm the presence of the conveyor belt and its continuous operation.",
+            "5. [type=perception, frames=[2]] Verify that the conveyor belt is transporting crops towards the waiting trucks.",
+            "6"
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Highlight the engineering marvel of these machines.",
+      "start": 19.04,
+      "end": 34.16,
+      "subtasks": [
+        {
+          "text": "Note the unmatched power and precision of the machines.",
+          "start": 19.04,
+          "end": 24.72,
+          "segment_ids": [
+            4
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "ZSpReycfeKQ/task01_sub00_f01.jpg",
+              "caption": "A tractor is harvesting a triangular field of green grass.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "ZSpReycfeKQ/task01_sub00_f02.jpg",
+              "caption": "A red tractor is driving through a dusty field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "Highlight the unmatched power and precision of the harvesting machines during the specified time range.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0]] A tractor is seen harvesting a triangular field of green grass.",
+            "- [frames=[1]] The same tractor continues its operation, now clearly visible in more detail.",
+            "- [frames=[2]] A red tractor drives through a dusty field, indicating a change in the scene.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The subtask involves observing two tractors performing their tasks in different fields. Initially, a single tractor is seen harvesting a neat triangular field of grass. This is followed by a transition to a red tractor operating in a dusty environment, suggesting a shift in the type of terrain or possibly a different phase of the operation.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The video should be playing within the specified time range (19.0s–24.7s).",
+            "- The robot must have visual access to the field where the tractors are operating.",
+            "- The robot should be able to distinguish between different types of machinery and their activities.",
+            "- The robot needs to recognize the difference between grass and dusty environments.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot should correctly identify the tractors and their respective fields.",
+            "- The robot must accurately describe the precision and power of the machines based on the observed actions.",
+            "- The robot should note the change in the tractor's appearance and the environment it operates in.",
+            "- The robot should provide a coherent summary of the observed operations.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0,1]] Navigate to the triangular field where the first tractor is harvesting.",
+            "2. [type=perception, frames=[0,1]] Observe the tractor harvesting the triangular field of green grass.",
+            "3. [type=navigation, frames=[2]] Transition to the new scene showing the"
+          ]
+        },
+        {
+          "text": "Observe the field coming to life as these machines operate harmoniously.",
+          "start": 24.72,
+          "end": 28.32,
+          "segment_ids": [
+            5
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "ZSpReycfeKQ/task01_sub01_f01.jpg",
+              "caption": "A red tractor is driving through a field, leaving a trail of dust behind it.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "ZSpReycfeKQ/task01_sub01_f02.jpg",
+              "caption": "A tractor is pulling a red machine with the number 4000 on it.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "The subtask involves observing the operation of agricultural machinery in a field, highlighting their coordinated and efficient work.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0,1]] A red tractor is seen driving through a field, creating a trail of dust.",
+            "- [frames=[2]] The tractor is now pulling a red machine marked with the number 4000, indicating a specific piece of equipment.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "As the tractor moves through the field, it begins to prepare the soil for planting. Following closely behind, the machine marked 4000 is ready to perform its function, likely related to seeding or fertilizing the ground.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The field must be visible and accessible to the robot's camera.",
+            "- The tractor and the machine marked 4000 should be present and in motion.",
+            "- The robot must have the capability to recognize and track moving objects.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot should correctly identify the tractor and the machine marked 4000.",
+            "- The robot should observe the machines operating in harmony without any apparent issues.",
+            "- The field should show signs of being prepared for planting, such as tilled soil or seeds being planted.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0,1]] Navigate to a position where both the tractor and the machine marked 4000 are clearly visible.",
+            "2. [type=perception, frames=[0,1]] Use the camera to confirm the presence and movement of the tractor and the machine.",
+            "3. [type=navigation, frames=[2]] Move to a new position to capture the tractor pulling the machine marked 4000.",
+            "4. [type=perception, frames=[2]] Verify that the machine marked 4000 is correctly attached to the"
+          ]
+        },
+        {
+          "text": "Appreciate how the harvesters transform the heavy work into a rhythmic and vibrant scene.",
+          "start": 28.32,
+          "end": 34.16,
+          "segment_ids": [
+            6
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub02_f01.jpg",
+              "relative_path": "ZSpReycfeKQ/task01_sub02_f01.jpg",
+              "caption": "A red tractor is moving through a sandy area, spreading sand.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub02_f02.jpg",
+              "relative_path": "ZSpReycfeKQ/task01_sub02_f02.jpg",
+              "caption": "A tractor is driving on a snowy road, leaving a trail of snow behind.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "The subtask focuses on understanding how the harvesters transform the heavy work into a rhythmic and vibrant scene, highlighting the engineering marvel of these machines.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[1]] A red tractor is moving through a sandy area, spreading sand.",
+            "- [frames=[2]] A tractor is driving on a snowy road, leaving a trail of snow behind.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "In this subtask, we observe a tractor performing two distinct tasks: spreading sand in a sandy area and driving on a snowy road, creating a dynamic and visually engaging scene. The transformation of heavy labor into a rhythmic and vibrant display is evident through the consistent movement and the changing environment.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot must recognize tractors and their movements.",
+            "- The robot should understand different terrains such as sandy areas and snowy roads.",
+            "- The robot needs to be aware of the context of harvesting operations.",
+            "- The robot must have the capability to analyze and interpret visual data from the environment.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot correctly identifies the tractors and their actions in both sandy and snowy environments.",
+            "- The robot understands the transformation of heavy work into a rhythmic and vibrant scene.",
+            "- The robot can describe the engineering marvel of the machines based on the observed activities.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[1]] Identify the red tractor moving through the sandy area.",
+            "2. [type=manipulation, frames=[1]] Recognize the action of spreading sand by the tractor.",
+            "3. [type=navigation, frames=[2]] Identify the tractor driving on a snowy road.",
+            "4. [type=manipulation, frames=[2]] Recognize the action of leaving a trail of snow behind.",
+            "5. [type=perception, frames=[1,2]] Analyze"
+          ]
+        }
+      ]
+    }
+  ],
+  "guidance_text_file": "final_guidance_txt/ZSpReycfeKQ.txt"
+}

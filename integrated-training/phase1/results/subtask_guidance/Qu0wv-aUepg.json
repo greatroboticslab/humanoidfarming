@@ -1,0 +1,296 @@
+{
+  "video_index": "Qu0wv-aUepg",
+  "title": "Fishes Burying for Chinese Ginger Farms Reasons Explained",
+  "url": "https://www.youtube.com/watch?v=Qu0wv-aUepg",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Explains a farming technique used in China to improve ginger yield.",
+  "tasks": [
+    {
+      "task": "Describe the agricultural practice of burying fish with ginger plants.",
+      "start": 0.0,
+      "end": 12.24,
+      "subtasks": [
+        {
+          "text": "Observe the people planting ginger and burying fish in the ground.",
+          "start": 0.0,
+          "end": 9.0,
+          "segment_ids": [
+            0,
+            1,
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "Qu0wv-aUepg/task00_sub00_f00.jpg",
+              "caption": "A row of dead fish are lined up in a trench.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "Qu0wv-aUepg/task00_sub00_f01.jpg",
+              "caption": "A group of people are walking along a dirt path with a row of dead fish lined up in the middle.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "Qu0wv-aUepg/task00_sub00_f02.jpg",
+              "caption": "A man and woman are working on a dirt path, with the woman holding a shovel.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "The subtask involves observing the process of planting ginger and burying fish in the ground, as seen in the early part of the tutorial video.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0,1]] A row of dead fish is lined up in a trench, and a group of people walk along a dirt path with the same trench visible.",
+            "- [frames=[2]] A man and woman are working on the dirt path, with the woman holding a shovel.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene depicts the initial setup where fish are prepared and laid out in trenches, followed by the planting of ginger alongside them. The people are actively involved in the process, indicating the start of the agricultural practice being explained in the video.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot must be positioned near the dirt path where the people are working.",
+            "- The robot should recognize the presence of dead fish and ginger plants.",
+            "- The robot needs to understand the context of an agricultural practice involving fish and ginger.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot should accurately identify the presence of dead fish and ginger plants.",
+            "- The robot should observe the people working on the dirt path.",
+            "- The robot should record the sequence of actions taken by the people.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0,1]] Move to a position near the dirt path where the people are working.",
+            "2. [type=perception, frames=[0,1]] Identify the row of dead fish and the trench they are placed in.",
+            "3. [type=perception, frames=[2]] Recognize the man and woman working on the dirt path.",
+            "4. [type=manipulation, frames=[2]] Observe the woman using a shovel.",
+            "5. [type=perception, frames=[2]] Detect the interaction between the woman and the"
+          ]
+        },
+        {
+          "text": "Note the reasoning behind burying the fish with the ginger.",
+          "start": 5.64,
+          "end": 12.24,
+          "segment_ids": [
+            2,
+            3
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f00.jpg",
+              "relative_path": "Qu0wv-aUepg/task00_sub01_f00.jpg",
+              "caption": "People are walking along a dirt path with a stream of water flowing down it.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "Qu0wv-aUepg/task00_sub01_f01.jpg",
+              "caption": "A person is using a hoe to dig in a dirt field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "Qu0wv-aUepg/task00_sub01_f02.jpg",
+              "caption": "A young girl is holding a bunch of ginger in a field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "Note the reasoning behind burying fish with ginger plants in Chinese ginger farms.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0]] People are walking along a dirt path with a stream of water flowing down it.",
+            "- [frames=[1]] A person is using a hoe to dig in a dirt field.",
+            "- [frames=[2]] A young girl is holding a bunch of ginger in a field.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene shifts from people walking near a stream to a field where someone is preparing to plant ginger. A young girl then appears holding ginger, suggesting she might be involved in the planting process.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The field is ready for planting.",
+            "- Ginger plants are available.",
+            "- There are tools like hoes available for digging.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot understands the context of Chinese ginger farming practices.",
+            "- The robot can identify the reason for burying fish with ginger.",
+            "- The robot can explain the benefits of this practice.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0]] Navigate to the field where people are working.",
+            "2. [type=perception, frames=[1]] Observe the person using a hoe to prepare the soil.",
+            "3. [type=perception, frames=[2]] Recognize the young girl holding ginger.",
+            "4. [type=communication, frames=[0-2]] Understand the agricultural context and the presence of ginger and tools.",
+            "5. [type=manipulation, frames=[1]] Identify the reason for burying fish with ginger based on observed activities.",
+            "6. [type=communication, frames=[0-2]] Explain the benefits of burying fish with ginger to the viewer.",
+            "",
+            "SUBTASK_STORY:",
+            "The video begins with people walking along a dirt path near a stream, setting the scene in a rural agricultural area."
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Explain the resulting benefits of this farming technique.",
+      "start": 9.0,
+      "end": 16.72,
+      "subtasks": [
+        {
+          "text": "Describe how the buried fish provide nutrition to the ginger plants.",
+          "start": 9.0,
+          "end": 12.24,
+          "segment_ids": [
+            3
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "Qu0wv-aUepg/task01_sub00_f01.jpg",
+              "caption": "A man is working in a field, pulling up a large bunch of plants.",
+              "frame_index": 1
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "The robot needs to explain how buried fish provide nutrition to ginger plants, focusing on the process observed in the video.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[1]] A man is seen working in a field, pulling up a large bunch of ginger plants.",
+            "- [frames=[1]] The ginger plants are visible, with roots and soil still attached.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene shows a farmer harvesting ginger plants from a field where fish were previously buried. The fish decompose underground, enriching the soil with nutrients that benefit the ginger plants.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot should know about the farming technique involving buried fish.",
+            "- The robot must recognize ginger plants and understand their nutritional needs.",
+            "- The robot should be aware of the decomposition process of fish in soil.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot should accurately describe the process of fish decomposition providing nutrients to the ginger plants.",
+            "- The explanation should clearly link the buried fish to the improved growth and health of the ginger plants.",
+            "- The robot should use appropriate terminology related to agriculture and soil enrichment.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=perception, frames=[1]] Identify the ginger plants being pulled up by the farmer.",
+            "2. [type=manipulation, frames=[1]] Recognize the presence of decomposing fish near the ginger plants.",
+            "3. [type=perception, frames=[1]] Analyze the soil around the ginger plants to confirm nutrient content.",
+            "4. [type=communication, frames=[1]] Explain the role of decomposing fish in enriching the soil.",
+            "5. [type=perception, frames=[1]] Confirm the correlation between the decomposing fish and the healthy appearance of the ginger plants.",
+            "6. [type=communication, frames=[1]] Highlight the benefits of this farming technique to the viewer.",
+            "",
+            "SUBTASK"
+          ]
+        },
+        {
+          "text": "Highlight the improved yield from this method.",
+          "start": 12.24,
+          "end": 14.12,
+          "segment_ids": [
+            4
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "Qu0wv-aUepg/task01_sub01_f01.jpg",
+              "caption": "A woman is holding a bunch of ginger in a field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "Qu0wv-aUepg/task01_sub01_f02.jpg",
+              "caption": "A woman is holding a bunch of ginger in a field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "Highlight the improved yield from the ginger farming technique being explained in the video.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[1,2]] A woman is holding a bunch of ginger in a field, indicating she has harvested some ginger.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene shows a farmer holding a bunch of ginger, which suggests the harvesting process is complete and the focus now shifts to showcasing the benefits of the farming technique, specifically the improved yield.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The field should be visible with the ginger plants.",
+            "- The woman should be holding a bunch of ginger.",
+            "- The camera should be positioned to capture the woman and the ginger.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot should correctly identify the woman holding the ginger.",
+            "- The robot should recognize the ginger as the product of the farming technique.",
+            "- The robot should accurately convey the improved yield benefit.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[1,2]] Navigate to the area where the woman is holding the ginger.",
+            "2. [type=perception, frames=[1,2]] Use visual recognition to confirm the woman is holding a bunch of ginger.",
+            "3. [type=manipulation, frames=[1,2]] Adjust the camera angle to ensure a clear view of the ginger bunch.",
+            "4. [type=communication, frames=[1,2]] Announce the improved yield from the ginger farming technique.",
+            "5. [type=manipulation, frames=[1,2]] Ensure the camera captures the woman holding the ginger for a close-up shot.",
+            "",
+            "SUBTASK_STORY:",
+            "The subtask begins with the woman holding a bunch of ginger in the field, symbolizing the successful harvest. The robot then navigates to her position, confirms the presence of the ginger, and adjusts the camera to get a clear view. It communicates the"
+          ]
+        },
+        {
+          "text": "Mention the final step of harvesting the ginger.",
+          "start": 14.12,
+          "end": 16.72,
+          "segment_ids": [
+            5
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub02_f01.jpg",
+              "relative_path": "Qu0wv-aUepg/task01_sub02_f01.jpg",
+              "caption": "A man is working in a sugarcane field, digging a trench.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub02_f02.jpg",
+              "relative_path": "Qu0wv-aUepg/task01_sub02_f02.jpg",
+              "caption": "A man is carrying a bundle of plants through a field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "The subtask involves mentioning the final step of harvesting the ginger, which occurs after the ginger has been allowed to grow and mature in the field.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0]] A man is working in a sugarcane field, digging a trench, indicating the initial setup for planting ginger.",
+            "- [frames=[1]] The same man is seen carrying a bundle of plants through the field, suggesting he is transporting ginger plants to be planted.",
+            "- [frames=[2]] The man is now seen harvesting ginger, likely pulling up the mature ginger plants from the ground.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene depicts the process of ginger cultivation, from planting to harvesting. The man first digs trenches and plants ginger, then transports the plants to their designated spots, and finally harvests the mature ginger by pulling it out of the ground.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The field must be prepared with trenches.",
+            "- Ginger plants must be available and ready for planting.",
+            "- The man must have transported the ginger plants to the field.",
+            "- The ginger must have grown to maturity.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The ginger must be fully harvested.",
+            "- The ginger plants must be removed from the ground.",
+            "- The man must be seen carrying or holding the harvested ginger.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0,1]] Navigate to the field where the man is working.",
+            "2. [type=observation, frames=[0,1]] Observe the man digging trenches and transporting ginger plants.",
+            "3. [type=navigation, frames=[2]] Move to the area where the man is harvesting ginger.",
+            "4. [type=observation, frames=[2]] Confirm the man is pulling up mature ginger plants.",
+            "5. [type=communication, frames=[2]] Communicate with the man to ensure he is ready"
+          ]
+        }
+      ]
+    }
+  ],
+  "guidance_text_file": "final_guidance_txt/Qu0wv-aUepg.txt"
+}

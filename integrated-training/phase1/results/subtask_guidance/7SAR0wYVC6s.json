@@ -1,0 +1,1437 @@
+{
+  "video_index": "7SAR0wYVC6s",
+  "title": "Harvesting Cherries and Chilis in Rural America",
+  "url": "https://www.youtube.com/watch?v=7SAR0wYVC6s",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "The transcript describes various agricultural processes including harvesting and post-harvest handling for different crops.",
+  "tasks": [
+    {
+      "task": "Cherry harvesting and processing.",
+      "start": 21.87,
+      "end": 141.87,
+      "subtasks": [
+        {
+          "text": "Farmers start working at sunrise to pick cherries off the trees before the heat of the day sets in.",
+          "start": 21.87,
+          "end": 37.87,
+          "segment_ids": [
+            3,
+            4,
+            5
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "7SAR0wYVC6s/task00_sub00_f00.jpg",
+              "caption": "A person is pouring wine into a glass while holding a box of cherries.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "7SAR0wYVC6s/task00_sub00_f01.jpg",
+              "caption": "The video shows a beautiful orchard with blooming trees and green grass.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "7SAR0wYVC6s/task00_sub00_f02.jpg",
+              "caption": "The video shows a cherry tree with ripe cherries.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub00_f03.jpg",
+              "relative_path": "7SAR0wYVC6s/task00_sub00_f03.jpg",
+              "caption": "The video frame shows a close-up of cherry leaves with some dark red cherries.",
+              "frame_index": 3
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "Farmers begin their work early in the morning to harvest cherries before the heat of the day.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0]] A person is seen pouring wine into a glass while holding a box of cherries, indicating the setting is likely a farm or orchard.",
+            "- [frames=[1]] The video shows a beautiful orchard with blooming cherry trees and green grass, setting the scene for the cherry harvesting process.",
+            "- [frames=[2]] A close-up of a cherry tree with ripe cherries is shown, highlighting the task at hand.",
+            "- [frames=[3]] A detailed view of cherry leaves with some dark red cherries is presented, emphasizing the ripeness of the fruit.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The subtask involves farmers starting their day early to pick cherries from the trees. The initial frame introduces a person handling cherries, suggesting they are preparing for the day's work. The subsequent frames transition to showing the orchard environment and then focus on the cherry trees themselves, setting up the context for the actual harvesting activity.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot must be aware of the current time being early morning.",
+            "- The robot should recognize the presence of cherry trees and cherries.",
+            "- The robot needs to know the location of the orchard.",
+            "- The robot must have the necessary tools or equipment for picking cherries.",
+            "- The robot should be able to distinguish between ripe and unripe cherries.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot successfully identifies ripe cherries on the tree.",
+            "- The robot picks a sufficient number of cherries within the given time frame.",
+            "- The robot places the picked cherries into a designated container or bag.",
+            "- The robot confirms the completion of the cherry-picking task through visual inspection.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames"
+          ]
+        },
+        {
+          "text": "Cherry harvesting involves filling 150 to 200 barrels each with 580 pounds of cherries.",
+          "start": 37.87,
+          "end": 52.87,
+          "segment_ids": [
+            6,
+            7,
+            8
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "7SAR0wYVC6s/task00_sub01_f01.jpg",
+              "caption": "A man in a cherry orchard is picking cherries.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "7SAR0wYVC6s/task00_sub01_f02.jpg",
+              "caption": "The video frame shows a cherry tree with clusters of red cherries.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub01_f03.jpg",
+              "relative_path": "7SAR0wYVC6s/task00_sub01_f03.jpg",
+              "caption": "People are using machinery to harvest crops in a field.",
+              "frame_index": 3
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "The subtask involves understanding the process of cherry harvesting, where workers fill barrels with cherries.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[1]] A man in a cherry orchard is picking cherries from a tree.",
+            "- [frames=[2]] The video frame shows a close-up of a cherry tree with clusters of ripe red cherries.",
+            "- [frames=[3]] People are seen using machinery to harvest crops in a field, indicating the broader context of agricultural work.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "This subtask focuses on the initial manual picking of cherries in an orchard setting. It sets the stage for the subsequent mechanical harvesting process shown later in the video.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot must be in the vicinity of the cherry orchard.",
+            "- The robot should have knowledge of cherry trees and their structure.",
+            "- The robot needs to recognize and differentiate between cherries and other objects.",
+            "- The robot should be aware of the task requirements, such as filling barrels with cherries.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot has picked a sufficient number of cherries to fill one barrel.",
+            "- The robot has placed the filled barrel in the designated area.",
+            "- The robot has verified that the barrel contains the correct weight of cherries (580 pounds).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[1]] Navigate to the cherry orchard.",
+            "2. [type=perception, frames=[1]] Identify a cherry tree and locate ripe cherries.",
+            "3. [type=manipulation, frames=[1]] Pick cherries from the tree using a robotic arm.",
+            "4. [type=navigation, frames=[3]] Move to the designated area for barrel placement.",
+            "5. [type=manipulation, frames=[3]] Place the filled barrel in the correct location.",
+            "6. ["
+          ]
+        },
+        {
+          "text": "Cherries are sorted and classified based on color, size, and smoothness of the peel.",
+          "start": 106.87,
+          "end": 122.87,
+          "segment_ids": [
+            18,
+            19,
+            20
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub02_f00.jpg",
+              "relative_path": "7SAR0wYVC6s/task00_sub02_f00.jpg",
+              "caption": "Two men are working on a container in a facility.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub02_f01.jpg",
+              "relative_path": "7SAR0wYVC6s/task00_sub02_f01.jpg",
+              "caption": "A machine with curved tracks and water cooling is shown in a factory setting.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub02_f02.jpg",
+              "relative_path": "7SAR0wYVC6s/task00_sub02_f02.jpg",
+              "caption": "A person is using a machine to process cherries.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub02_f03.jpg",
+              "relative_path": "7SAR0wYVC6s/task00_sub02_f03.jpg",
+              "caption": "A close-up of cherries in a container, with text overlaid.",
+              "frame_index": 3
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "Cherries are sorted and classified based on their color, size, and smoothness of the peel.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0,1]] Two men are working on a container in a facility, suggesting initial sorting or preparation.",
+            "- [frames=[1]] A machine with curved tracks and water cooling is shown in a factory setting, indicating a sorting mechanism.",
+            "- [frames=[2]] A person is using a machine to process cherries, likely involving the actual sorting and classification.",
+            "- [frames=[3]] A close-up of cherries in a container with text overlaid, showing the final sorted cherries.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The subtask involves sorting cherries using a specialized machine. Initially, cherries are prepared or placed in a container. The machine then processes the cherries, sorting them based on color, size, and peel smoothness. The final step involves placing the sorted cherries into a container, ready for further processing or storage.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The facility must be operational and safe for the robot to enter.",
+            "- The machine for sorting cherries must be set up and ready to use.",
+            "- The container for sorted cherries must be available and properly positioned.",
+            "- The robot must have the necessary permissions and access to the facility.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- Cherries are accurately sorted based on color, size, and peel smoothness.",
+            "- Sorted cherries are placed into the designated container.",
+            "- The machine used for sorting is shut down and cleaned if necessary.",
+            "- The container is sealed or covered to prevent contamination.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0,1]] Navigate to the facility where the cherry sorting machine is located.",
+            "2. [type=perception, frames=[1]] Identify the machine with curved tracks and water"
+          ]
+        },
+        {
+          "text": "Cherries are kept in a cold room for at least 24 to 48 hours before packaging.",
+          "start": 136.87,
+          "end": 141.87,
+          "segment_ids": [
+            24
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub03_f00.jpg",
+              "relative_path": "7SAR0wYVC6s/task00_sub03_f00.jpg",
+              "caption": "A vast field of green plants is shown, with some text overlaid.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub03_f01.jpg",
+              "relative_path": "7SAR0wYVC6s/task00_sub03_f01.jpg",
+              "caption": "A hand is picking green peppers from a plant.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub03_f02.jpg",
+              "relative_path": "7SAR0wYVC6s/task00_sub03_f02.jpg",
+              "caption": "Two green tractors are parked in a field, with one of them having a red trailer attached.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "The subtask involves cherries being stored in a cold room for at least 24 to 48 hours before packaging.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0]] A vast field of green plants is shown, indicating the initial setting where cherries are harvested.",
+            "- [frames=[1]] A hand is seen picking green peppers from a plant, which is not directly related to the subtask but shows activity in the field.",
+            "- [frames=[2]] Two green tractors are parked in a field, with one having a red trailer attached, suggesting equipment preparation for transportation.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "This subtask focuses on the post-harvest process where cherries are stored in a cold room. The initial frames set the scene in a rural area with agricultural activities, but the specific task of storing cherries is not visually evident until the understanding of the broader context.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot must be aware of the current time and the need to store cherries.",
+            "- The robot should know the location of the cold storage facility.",
+            "- The robot needs to have access to the harvested cherries.",
+            "- The robot must be able to navigate to the cold storage facility.",
+            "- The robot should have the capability to monitor temperature and humidity levels.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- Cherries must be placed in the cold storage facility.",
+            "- The storage facility must maintain the correct temperature and humidity levels for at least 24 to 48 hours.",
+            "- The robot must confirm the successful storage of cherries through sensor readings.",
+            "- The robot should log the completion of the subtask in its database.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0]] Navigate to the cold storage facility based on the stored location data.",
+            "2. [type=manipulation, frames=[2]] Retrieve"
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Detailed processes of chili harvesting and processing.",
+      "start": 132.87,
+      "end": 170.87,
+      "subtasks": [
+        {
+          "text": "Workers harvest chilis by cutting them off the plant to avoid damage from harvesters.",
+          "start": 132.87,
+          "end": 153.87,
+          "segment_ids": [
+            23,
+            26
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "7SAR0wYVC6s/task01_sub00_f00.jpg",
+              "caption": "A person is sorting cherries on a conveyor belt in a factory setting.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "7SAR0wYVC6s/task01_sub00_f01.jpg",
+              "caption": "A vast field of green plants is shown, with some text overlaid.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "7SAR0wYVC6s/task01_sub00_f02.jpg",
+              "caption": "A tractor is loading a trailer with chili plants.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task01_sub00_f03.jpg",
+              "relative_path": "7SAR0wYVC6s/task01_sub00_f03.jpg",
+              "caption": "Aerial view of people working in a lush green field.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task01_sub00_f04.jpg",
+              "relative_path": "7SAR0wYVC6s/task01_sub00_f04.jpg",
+              "caption": "A tractor is loading a truck with harvested crops in a field.",
+              "frame_index": 4
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "Workers are harvesting chilis by cutting them from the plant to prevent damage from harvesters.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0]] A person is sorting cherries on a conveyor belt in a factory setting, which is not relevant to the current scene.",
+            "- [frames=[1]] A vast field of green plants is shown, with some text overlaid indicating the context of the field.",
+            "- [frames=[2]] A tractor is loading a trailer with chili plants, showing the initial setup of the harvesting process.",
+            "- [frames=[3]] An aerial view of people working in a lush green field, highlighting the workers engaged in harvesting.",
+            "- [frames=[4]] A tractor is loading a truck with harvested crops in a field, showing the final stage of the harvesting process.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The subtask involves workers harvesting chilis from the plants in a field. They cut the chilis directly from the plant to ensure they are not damaged during the harvesting process. This method ensures that the chilis remain intact and can be processed more efficiently later.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot must be in the field where the chili plants are located.",
+            "- The robot should have the necessary tools to cut the chilis from the plants.",
+            "- The robot needs to identify the chili plants and distinguish them from other vegetation.",
+            "- The robot must be able to communicate with the workers or other systems in the field.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot successfully identifies and cuts the chilis from the plants without causing damage.",
+            "- The chilis are placed in a designated collection area or container.",
+            "- The robot confirms the completion of the task through visual inspection or sensor data.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[2]] Navigate to the field where the chili plants are"
+          ]
+        },
+        {
+          "text": "Green chilis are sorted by size and color for processing.",
+          "start": 153.87,
+          "end": 159.87,
+          "segment_ids": [
+            27
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "7SAR0wYVC6s/task01_sub01_f01.jpg",
+              "caption": "A tractor is driving through a field with workers in the background.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "7SAR0wYVC6s/task01_sub01_f02.jpg",
+              "caption": "Two green tractors are parked in a field, with one of them having a large machine attached to it.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "Green chilis are sorted by size and color for processing during the harvesting process.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0,1]] Tractor is driving through a field with workers in the background.",
+            "- [frames=[2]] Two green tractors are parked in a field, one with a large machine attached.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene transitions from a tractor moving through a field to a stationary setup where sorting of green chilis is about to begin. The large machine on one of the tractors likely plays a crucial role in the sorting process.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- Field is already harvested and chilis are present on the ground.",
+            "- Tractors are positioned in the field.",
+            "- Large machine is ready for operation.",
+            "- Workers are available to assist if needed.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- Chilis are separated into different piles based on size and color.",
+            "- Each pile contains chilis of similar size and color.",
+            "- Machine is operating correctly without any malfunctions.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0,1]] Drive the robot to the area where the tractors are located.",
+            "2. [type=sensing, frames=[0,1]] Use sensors to detect the presence of chilis on the ground.",
+            "3. [type=manipulation, frames=[2]] Position the robot next to the large machine on the tractor.",
+            "4. [type=communication, frames=[2]] Communicate with the operator to ensure the machine is ready for operation.",
+            "5. [type=manipulation, frames=[2]] Adjust the robot's gripper to interact with the machine.",
+            "6. [type=manipulation, frames=[2]] Assist in guiding chilis into the machine for sorting.",
+            "7. [type=sensing,"
+          ]
+        },
+        {
+          "text": "Red chilis are harvested once at the end of the season for packaging and shipping.",
+          "start": 159.87,
+          "end": 170.87,
+          "segment_ids": [
+            28,
+            29
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub02_f01.jpg",
+              "relative_path": "7SAR0wYVC6s/task01_sub02_f01.jpg",
+              "caption": "A group of people are working in a factory, processing green peppers.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub02_f02.jpg",
+              "relative_path": "7SAR0wYVC6s/task01_sub02_f02.jpg",
+              "caption": "The video frame shows a close-up of jalapeno peppers growing on a plant.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "Red chilis are harvested once at the end of the season for packaging and shipping.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0,1]] A group of people are working in a factory, processing green peppers.",
+            "- [frames=[2]] The video frame shows a close-up of jalapeno peppers growing on a plant.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene shifts from a factory setting where green peppers are being processed to a field where red chilis are still growing on plants. This transition indicates a change in the harvesting process from processing to actual harvesting of the chilis.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot must be aware that it is transitioning from a processing phase to a harvesting phase.",
+            "- The robot should have knowledge about the characteristics of red chilis and their growth stages.",
+            "- The robot needs to know the location of the fields where the chilis are grown.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot must identify the correct red chilis for harvesting.",
+            "- The robot should be able to pick and place the harvested chilis into a designated collection area.",
+            "- The robot must ensure that the harvested chilis are undamaged during the process.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0,1]] Navigate to the factory area where green peppers are being processed.",
+            "2. [type=perception, frames=[0,1]] Identify the type of peppers being processed and confirm the transition to harvesting red chilis.",
+            "3. [type=navigation, frames=[2]] Move to the field where red chilis are growing.",
+            "4. [type=manipulation, frames=[2]] Use sensors to detect the ripeness of the red chilis.",
+            "5. [type=manipulation, frames=[2]] Pick the ripe red ch"
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Watermelon harvesting and packing operations.",
+      "start": 182.87,
+      "end": 214.87,
+      "subtasks": [
+        {
+          "text": "Watermelons are harvested when they are mature and will be flipped over to indicate readiness.",
+          "start": 182.87,
+          "end": 198.87,
+          "segment_ids": [
+            32,
+            33
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f00.jpg",
+              "relative_path": "7SAR0wYVC6s/task02_sub00_f00.jpg",
+              "caption": "A group of people are working in a field, with one man handling a large bag of lettuce.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "7SAR0wYVC6s/task02_sub00_f01.jpg",
+              "caption": "A forklift driver is operating a forklift in a warehouse, surrounded by stacked boxes with the letters \"MVP\" on them.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "7SAR0wYVC6s/task02_sub00_f02.jpg",
+              "caption": "A bag filled with green peppers is being harvested, causing damage to the skin and machines.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task02_sub00_f03.jpg",
+              "relative_path": "7SAR0wYVC6s/task02_sub00_f03.jpg",
+              "caption": "A large field with green peppers being harvested by workers using tractors and trucks.",
+              "frame_index": 3
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "The subtask involves identifying and marking watermelons as ready for harvest by flipping them over.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0]] A group of people are working in a field, but none of them are interacting with watermelons.",
+            "- [frames=[1]] The scene shifts to a warehouse setting with forklifts and boxes, unrelated to the current subtask.",
+            "- [frames=[2]] Workers are seen harvesting green peppers, which is not relevant to the watermelon harvesting process.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "Despite the frames showing unrelated activities, the subtask focuses on the field where watermelons are being prepared for harvest. The key action is the flipping of watermelons to indicate their readiness.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot must be in the field where watermelons are being harvested.",
+            "- The robot should recognize watermelons in the field.",
+            "- The robot needs to have the capability to flip over objects.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot has identified a watermelon that is ready for harvest.",
+            "- The robot has successfully flipped the watermelon over.",
+            "- The robot has confirmed that the watermelon has been marked as ready.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0]] Navigate to the field where watermelons are being harvested.",
+            "2. [type=perception, frames=[2]] Identify a watermelon that appears to be mature based on its color and condition.",
+            "3. [type=manipulation, frames=[2]] Approach the watermelon and prepare to flip it over.",
+            "4. [type=manipulation, frames=[2]] Flip the watermelon over to mark it as ready for harvest.",
+            "5. [type=perception, frames=[2]] Verify that the watermelon has been successfully flipped.",
+            "6. [type"
+          ]
+        },
+        {
+          "text": "Workers use a sharp knife to cut watermelons from the vines and pass them to packers.",
+          "start": 198.87,
+          "end": 207.87,
+          "segment_ids": [
+            34,
+            35
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub01_f01.jpg",
+              "relative_path": "7SAR0wYVC6s/task02_sub01_f01.jpg",
+              "caption": "A close-up of green peppers with water droplets on them.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub01_f02.jpg",
+              "relative_path": "7SAR0wYVC6s/task02_sub01_f02.jpg",
+              "caption": "The video shows a field of green peppers growing in the sun.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "Workers are cutting watermelons from the vines and passing them to packers during the harvesting operation.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[1]] A close-up of green peppers with water droplets on them, indicating the presence of green peppers in the area.",
+            "- [frames=[2]] The video shows a field of green peppers growing in the sun, suggesting the scene is set in a rural agricultural environment.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The subtask involves workers harvesting watermelons from vines and passing them to packers. The field is filled with green peppers, which are not directly related to the main task but provide context about the surrounding environment.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot must be within the field where watermelons are being harvested.",
+            "- The robot should have knowledge of the layout of the field and the location of the vines.",
+            "- The robot needs to recognize watermelons and distinguish them from other plants like green peppers.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot successfully identifies and cuts a watermelon from a vine.",
+            "- The robot passes the watermelon to a human packer without dropping it.",
+            "- The robot confirms the watermelon has been passed correctly.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0,1]] Navigate to the field where watermelons are being harvested.",
+            "2. [type=perception, frames=[2]] Identify the location of the vines and locate a watermelon.",
+            "3. [type=manipulation, frames=[2]] Use a sharp knife to cut the watermelon from the vine.",
+            "4. [type=navigation, frames=[2]] Move towards the nearest human packer.",
+            "5. [type=manipulation, frames=[2]] Pass the watermelon to the packer.",
+            "",
+            "SUBTASK_STORY:",
+            "The subtask begins with the"
+          ]
+        },
+        {
+          "text": "Cured watermelons are packaged and loaded onto trucks for market delivery.",
+          "start": 207.87,
+          "end": 214.87,
+          "segment_ids": [
+            36
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub02_f01.jpg",
+              "relative_path": "7SAR0wYVC6s/task02_sub02_f01.jpg",
+              "caption": "A vast field of green chili peppers is shown, with the caption indicating they are usually mature.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub02_f02.jpg",
+              "relative_path": "7SAR0wYVC6s/task02_sub02_f02.jpg",
+              "caption": "People are harvesting green peppers in a field using a tractor and a machine.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "The subtask involves packaging cured watermelons and loading them onto trucks for market delivery.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[1]] A vast field of green chili peppers is shown, indicating the setting is a rural area where various crops are grown.",
+            "- [frames=[2]] People are seen harvesting green peppers in a field using a tractor and a machine, suggesting the initial task is not related to watermelons but sets the scene.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene transitions from a field of green chili peppers to people harvesting, which might be part of a broader agricultural operation. The focus then shifts to packaging and loading cured watermelons onto trucks, indicating a change in the workflow from harvesting other crops to preparing the final product for market delivery.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot must be aware of the current location being a rural area with agricultural activities.",
+            "- The robot should have knowledge of the curing process for watermelons.",
+            "- The robot needs to know the layout of the packaging area and the truck loading process.",
+            "- The robot must have access to packaging materials and tools necessary for loading the trucks.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- All cured watermelons are properly packaged.",
+            "- The packaged watermelons are accurately placed onto the trucks.",
+            "- The trucks are fully loaded with the correct number of watermelons.",
+            "- The packaging area is clean and organized post-operation.",
+            "- The robot has confirmed the load is secure and ready for transportation.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[1]] Navigate to the packaging area based on pre-programmed coordinates.",
+            "2. [type=perception, frames=[1]] Use sensors to confirm the presence of packaging materials and tools.",
+            "3. [type=manipulation, frames=[2]] Assist human workers in harvesting green peppers if needed, though"
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Sugar beet harvesting and processing.",
+      "start": 233.87,
+      "end": 264.87,
+      "subtasks": [
+        {
+          "text": "Harvesting machines cut off the leaves of sugar beets and load them onto trucks.",
+          "start": 233.87,
+          "end": 243.87,
+          "segment_ids": [
+            40,
+            41
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub00_f00.jpg",
+              "relative_path": "7SAR0wYVC6s/task03_sub00_f00.jpg",
+              "caption": "Two people are harvesting peppers in a field.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task03_sub00_f01.jpg",
+              "relative_path": "7SAR0wYVC6s/task03_sub00_f01.jpg",
+              "caption": "A tractor is driving through a field where people are harvesting crops.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub00_f02.jpg",
+              "relative_path": "7SAR0wYVC6s/task03_sub00_f02.jpg",
+              "caption": "A machine is harvesting chili peppers in a field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "The subtask involves observing and understanding the process of harvesting sugar beets using machinery, which includes cutting off the leaves and loading them onto trucks.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0,1]] Two people are seen harvesting peppers in a field, indicating the presence of human labor but not the machinery involved in the main task.",
+            "- [frames=[2]] A machine is harvesting chili peppers in a field, showing a similar process to what will be observed for sugar beets.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "This subtask focuses on understanding the machinery used in harvesting sugar beets. The initial frames show human labor, but the key observation is the machine harvesting chili peppers, which is analogous to the process for sugar beets.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot must be aware of the presence of a harvesting machine in the field.",
+            "- The robot should recognize the type of crop being harvested, which is sugar beets.",
+            "- The robot needs to know the location of the field and the path to reach it.",
+            "- The robot must be equipped with sensors to detect the machine and the crop leaves.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot should correctly identify the harvesting machine and the crop leaves.",
+            "- The robot should understand the process of cutting off the leaves and loading them onto trucks.",
+            "- The robot should be able to communicate the status of the task to the operator.",
+            "- The robot should be able to navigate to the field and return to the starting point.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0,1]] Navigate to the field where the harvesting is taking place.",
+            "2. [type=perception, frames=[2]] Identify the harvesting machine and the crop leaves.",
+            "3. [type=manipulation, frames=[2]] Observe the machine cutting off the leaves and loading them onto trucks"
+          ]
+        },
+        {
+          "text": "Sugar beets are cleaned, weighed, and sampled at a receiving station.",
+          "start": 243.87,
+          "end": 252.87,
+          "segment_ids": [
+            42,
+            43
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub01_f01.jpg",
+              "relative_path": "7SAR0wYVC6s/task03_sub01_f01.jpg",
+              "caption": "Chili peppers are being processed on a conveyor belt.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub01_f02.jpg",
+              "relative_path": "7SAR0wYVC6s/task03_sub01_f02.jpg",
+              "caption": "The video frame shows red chili peppers growing on a plant.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "The robot will assist in cleaning, weighing, and sampling sugar beets at a receiving station.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[1]] Chili peppers are being processed on a conveyor belt, indicating the start of the harvesting process.",
+            "- [frames=[2]] Red chili peppers growing on a plant suggest the source of the harvested peppers, though not directly related to the current task.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene transitions from processing chili peppers to focusing on sugar beets at the receiving station. This shift indicates a change in the type of crop being handled but maintains the workflow of cleaning, weighing, and sampling.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot is positioned near the receiving station.",
+            "- The conveyor belt is operational and transporting sugar beets.",
+            "- The robot has access to scales and sampling tools.",
+            "- The receiving station is equipped with necessary equipment for cleaning and sampling.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- Sugar beets are accurately weighed.",
+            "- Samples are taken from the beets.",
+            "- Data from the samples and weights are recorded.",
+            "- The beets are cleaned and ready for further processing.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[1]] Move to the receiving station where sugar beets are being processed.",
+            "2. [type=perception, frames=[1]] Identify the conveyor belt and sugar beets on it.",
+            "3. [type=manipulation, frames=[2]] Grasp a sugar beet from the conveyor belt.",
+            "4. [type=navigation, frames=[2]] Move to the scale to weigh the sugar beet.",
+            "5. [type=manipulation, frames=[2]] Place the sugar beet on the scale for weighing.",
+            "6. [type=manipulation, frames=[2]] Remove the sugar beet from the scale after weighing.",
+            "7. [type=manip"
+          ]
+        },
+        {
+          "text": "Sugar beets are processed into sugar by boiling, washing, and spinning in a centrifuge.",
+          "start": 252.87,
+          "end": 264.87,
+          "segment_ids": [
+            44,
+            45
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub02_f01.jpg",
+              "relative_path": "7SAR0wYVC6s/task03_sub02_f01.jpg",
+              "caption": "A machine is processing red pepper, with the caption indicating it's a common season and red pepper yields average.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub02_f02.jpg",
+              "relative_path": "7SAR0wYVC6s/task03_sub02_f02.jpg",
+              "caption": "A machine is loading red peppers into a truck in a field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "The subtask involves understanding the process of processing sugar beets into sugar through boiling, washing, and spinning in a centrifuge.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[1]] A machine is processing red peppers, indicating a different crop being handled but similar machinery.",
+            "- [frames=[2]] A machine is loading red peppers into a truck in a field, showing the end of the harvesting process for another crop.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "This subtask focuses on the processing stage of sugar beets, where they undergo boiling, washing, and spinning in a centrifuge. The frames show a different crop (red peppers) being processed, which helps contextualize the machinery used in agricultural settings.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot must be aware of the current location within the processing facility.",
+            "- The robot should have access to the necessary tools and machinery for processing sugar beets.",
+            "- The robot needs to know the correct sequence of operations for processing sugar beets.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The sugar beets must be fully processed through boiling, washing, and spinning in a centrifuge.",
+            "- The robot should confirm that all sugar beets have been properly processed.",
+            "- The robot should ensure that the processed sugar beets are ready for the next stage of production.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[1]] Navigate to the sugar beet processing area.",
+            "2. [type=perception, frames=[1]] Identify the sugar beet processing machine and confirm its readiness.",
+            "3. [type=manipulation, frames=[2]] Transfer sugar beets from storage to the processing machine.",
+            "4. [type=navigation, frames=[1]] Move to the boiling station and start the boiling process.",
+            "5. [type=navigation, frames=[1]] Proceed to the washing station and initiate the washing process"
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Grape picking and post-harvest handling.",
+      "start": 247.87,
+      "end": 290.87,
+      "subtasks": [
+        {
+          "text": "Experienced pickers choose the best bunches of grapes, avoiding sunburn or rot.",
+          "start": 247.87,
+          "end": 270.87,
+          "segment_ids": [
+            43,
+            45,
+            46
+          ],
+          "frames": [
+            {
+              "image_file": "task04_sub00_f00.jpg",
+              "relative_path": "7SAR0wYVC6s/task04_sub00_f00.jpg",
+              "caption": "The video shows a machine picking red peppers.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task04_sub00_f01.jpg",
+              "relative_path": "7SAR0wYVC6s/task04_sub00_f01.jpg",
+              "caption": "The video frame shows red chili peppers growing on a plant.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task04_sub00_f02.jpg",
+              "relative_path": "7SAR0wYVC6s/task04_sub00_f02.jpg",
+              "caption": "A large pot filled with a red liquid, likely tomato sauce, with a spoon in it.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task04_sub00_f03.jpg",
+              "relative_path": "7SAR0wYVC6s/task04_sub00_f03.jpg",
+              "caption": "A machine is loading peppers into a truck in a field.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task04_sub00_f04.jpg",
+              "relative_path": "7SAR0wYVC6s/task04_sub00_f04.jpg",
+              "caption": "A tractor is driving through a field of watermelons.",
+              "frame_index": 4
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "The subtask involves selecting the best bunches of grapes while avoiding those affected by sunburn or rot.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0,1]] The video initially shows a machine picking red peppers, indicating a shift from pepper harvesting to grape picking.",
+            "- [frames=[2]] A large pot filled with red liquid suggests the presence of a processing area nearby, though not directly relevant to the current task.",
+            "- [frames=[3]] A machine is loading peppers into a truck, which is unrelated to the current task but indicates ongoing agricultural activity.",
+            "- [frames=[4]] A tractor driving through a field of watermelons is irrelevant to the current task and appears to be a distraction.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene transitions from pepper harvesting to grape picking, with the robot needing to focus on identifying and selecting the best bunches of grapes. The presence of processing equipment and other farm machinery is noted but not directly relevant to the task at hand.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot must be equipped with sensors capable of distinguishing between healthy and damaged grapes.",
+            "- The robot should have knowledge of common signs of sunburn and rot in grapes.",
+            "- The robot needs to be within the vicinity of the grape vines.",
+            "- The robot must have the ability to grasp and manipulate grape bunches.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot selects only healthy grape bunches without visible signs of sunburn or rot.",
+            "- The robot avoids picking bunches that are clearly damaged or discolored.",
+            "- The robot ensures that all selected bunches meet quality standards for further processing.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0,1]] Navigate to the grape vine area based on pre-programmed coordinates or sensor data.",
+            "2. [type=sensing, frames=[2]] Use visual sensors to identify grape bunch"
+          ]
+        },
+        {
+          "text": "Grapes undergo quality checks and cleaning before export or processing.",
+          "start": 270.87,
+          "end": 281.87,
+          "segment_ids": [
+            47,
+            48
+          ],
+          "frames": [
+            {
+              "image_file": "task04_sub01_f01.jpg",
+              "relative_path": "7SAR0wYVC6s/task04_sub01_f01.jpg",
+              "caption": "The video frame shows a pile of watermelon slices.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task04_sub01_f02.jpg",
+              "relative_path": "7SAR0wYVC6s/task04_sub01_f02.jpg",
+              "caption": "A vast field of green plants with a lone watermelon in the middle.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "The subtask involves quality checks and cleaning of grapes before they are exported or processed.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[1]] The video frame shows a pile of watermelon slices, which seems out of context but might indicate a mistake in the frame list.",
+            "- [frames=[2]] A vast field of green plants with a lone watermelon in the middle appears, further suggesting an error in the frame selection since it does not align with the subtask description.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "Despite the frames not directly depicting the grape quality check and cleaning process, the scene suggests a rural setting with agricultural activities. The presence of a watermelon in the field might be a mislabeling or a different part of the tutorial.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot must be equipped with sensors capable of identifying and distinguishing between different types of fruits.",
+            "- The robot should have access to a clean water source for washing the grapes.",
+            "- The robot needs to be familiar with the quality standards for grapes used in export or processing.",
+            "- The robot must be able to navigate through the field to reach the grape harvesting area.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The grapes must be visually inspected and found to meet the quality standards.",
+            "- The grapes must be cleaned thoroughly using the available water source.",
+            "- The cleaned grapes must be sorted into appropriate containers or packaging suitable for export or processing.",
+            "- The robot must document the inspection and cleaning process for quality assurance purposes.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[2]] Navigate to the grape harvesting area based on pre-programmed coordinates.",
+            "2. [type=sensing, frames=[2]] Use visual sensors to identify and locate the grapes.",
+            "3. [type=manipulation, frames=[2]] Pick a cluster of grapes using the robotic arm.",
+            "4. [type=sensing,"
+          ]
+        },
+        {
+          "text": "Mechanized grape picking is cost-effective and ideal for large vineyards.",
+          "start": 281.87,
+          "end": 290.87,
+          "segment_ids": [
+            49,
+            50
+          ],
+          "frames": [
+            {
+              "image_file": "task04_sub02_f01.jpg",
+              "relative_path": "7SAR0wYVC6s/task04_sub02_f01.jpg",
+              "caption": "A farmer is operating a machine to harvest watermelons in a field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task04_sub02_f02.jpg",
+              "relative_path": "7SAR0wYVC6s/task04_sub02_f02.jpg",
+              "caption": "The video frame shows a lush, green field with a piece of sweet and cool watermelon.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "The subtask involves understanding the context of mechanized grape picking in a vineyard setting, which is crucial for the robot to perform subsequent tasks effectively.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[1]] A farmer is seen operating a machine to harvest watermelons in a field, indicating a different crop being harvested.",
+            "- [frames=[2]] The video frame shows a lush, green field with a piece of sweet and cool watermelon, highlighting the current activity.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "This scene appears to be a transition or an interlude in the video, showing a different crop (watermelons) being harvested. However, it is important to note that the actual subtask focuses on grape picking, which will follow this segment.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot must recognize the difference between watermelons and grapes.",
+            "- The robot should be aware of the location of the vineyard.",
+            "- The robot needs to know the correct tools and mechanisms for grape picking.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot correctly identifies the transition to grape picking.",
+            "- The robot understands the context of mechanized grape picking.",
+            "- The robot can switch focus from watermelons to grapes.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[1]] The robot navigates to the area where the watermelon harvesting is taking place.",
+            "2. [type=perception, frames=[1]] The robot uses its sensors to identify the type of crop being harvested (watermelons).",
+            "3. [type=manipulation, frames=[2]] The robot adjusts its focus to recognize the change in crop type.",
+            "4. [type=navigation, frames=[2]] The robot moves to the next scene where grape picking begins.",
+            "5. [type=perception, frames=[2]] The robot perceives the change in crop type"
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Pumpkin harvesting and storage.",
+      "start": 333.87,
+      "end": 361.87,
+      "subtasks": [
+        {
+          "text": "Workers harvest pumpkins by cutting off the vine with 3 to 6 inches of stem remaining.",
+          "start": 333.87,
+          "end": 344.87,
+          "segment_ids": [
+            60,
+            61
+          ],
+          "frames": [
+            {
+              "image_file": "task05_sub00_f00.jpg",
+              "relative_path": "7SAR0wYVC6s/task05_sub00_f00.jpg",
+              "caption": "Several workers are harvesting watermelons in a field, with one worker throwing a watermelon into a truck.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task05_sub00_f01.jpg",
+              "relative_path": "7SAR0wYVC6s/task05_sub00_f01.jpg",
+              "caption": "A tractor is loading watermelons into a trailer in a field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task05_sub00_f02.jpg",
+              "relative_path": "7SAR0wYVC6s/task05_sub00_f02.jpg",
+              "caption": "People are loading watermelons onto a truck in a field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "Workers are preparing to harvest pumpkins by cutting the vines and ensuring a proper amount of stem remains attached to the pumpkins.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0]] Several workers are seen harvesting watermelons in a field, with one worker throwing a watermelon into a truck.",
+            "- [frames=[1]] A tractor is loading watermelons into a trailer in a field.",
+            "- [frames=[2]] People are loading watermelons onto a truck in a field.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene initially shows workers harvesting watermelons, which is a similar activity but not the focus of the subtask. The transition then shifts to the loading of watermelons onto a truck and a trailer, indicating a change in the activity. However, the subtask specifically focuses on the preparation of pumpkins for harvesting, which is not directly shown in the frames provided.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot must be aware that the current task involves pumpkin harvesting.",
+            "- The robot should have access to the correct tools for cutting the vines.",
+            "- The robot needs to know the location of the pumpkins in the field.",
+            "- The robot must be able to identify and distinguish between pumpkins and other crops.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot must cut the vine of each pumpkin with a remaining stem length of 3 to 6 inches.",
+            "- The robot should ensure that all pumpkins have been processed according to the specified criteria.",
+            "- The robot must confirm that the pumpkins are ready for further processing or storage.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0]] Navigate to the area where pumpkins are located.",
+            "2. [type=perception, frames=[0]] Identify and locate the pumpkins in the field.",
+            "3. [type=manipulation, frames=[2]] Approach"
+          ]
+        },
+        {
+          "text": "Pumpkins are stored in the field to ripen further and reduce transport damage.",
+          "start": 351.87,
+          "end": 361.87,
+          "segment_ids": [
+            63,
+            64
+          ],
+          "frames": [
+            {
+              "image_file": "task05_sub01_f00.jpg",
+              "relative_path": "7SAR0wYVC6s/task05_sub01_f00.jpg",
+              "caption": "People are harvesting watermelons in a field.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task05_sub01_f01.jpg",
+              "relative_path": "7SAR0wYVC6s/task05_sub01_f01.jpg",
+              "caption": "Several workers are loading watermelons onto a truck in a field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task05_sub01_f02.jpg",
+              "relative_path": "7SAR0wYVC6s/task05_sub01_f02.jpg",
+              "caption": "A group of people are working in a field, with one person writing on a clipboard.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "The subtask involves understanding the process of storing pumpkins in the field to allow them to ripen further and reduce transport damage.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0]] Workers are seen harvesting watermelons in a field, indicating the presence of a similar agricultural setting.",
+            "- [frames=[1]] Several workers are loading watermelons onto a truck, suggesting the ongoing harvest and preparation for transport.",
+            "- [frames=[2]] A group of people are working in a field, with one person writing on a clipboard, possibly recording details about the harvest.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene depicts an agricultural setting where workers are engaged in the final stages of harvesting and preparing produce for transport. The presence of watermelons and the act of loading them onto a truck suggest that the field is part of a larger farm operation. The workers’ activities indicate they are ensuring the produce is ready for market, including allowing it to ripen further in the field.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The field must be accessible to the robot.",
+            "- The robot must recognize the type of produce being handled (pumpkins).",
+            "- The robot must understand the concept of storage and ripening.",
+            "- The robot should be aware of the current stage of the harvest.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot must correctly identify the field as a suitable location for storing pumpkins.",
+            "- The robot must understand that the pumpkins need to be left in the field to continue ripening.",
+            "- The robot should ensure that the pumpkins are not damaged during the storage process.",
+            "- The robot should be able to communicate the status of the storage to the relevant personnel.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0,1]] Navigate to the field where the workers are harvesting and loading produce.",
+            "2. [type=perception, frames"
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Mango harvesting and post-harvest processing.",
+      "start": 326.87,
+      "end": 344.87,
+      "subtasks": [
+        {
+          "text": "Mangoes are picked when they have light yellow stems to indicate ripeness.",
+          "start": 326.87,
+          "end": 333.87,
+          "segment_ids": [
+            58,
+            59
+          ],
+          "frames": [
+            {
+              "image_file": "task06_sub00_f00.jpg",
+              "relative_path": "7SAR0wYVC6s/task06_sub00_f00.jpg",
+              "caption": "Two men are in a field, one holding a large green fruit.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task06_sub00_f01.jpg",
+              "relative_path": "7SAR0wYVC6s/task06_sub00_f01.jpg",
+              "caption": "A group of people are harvesting watermelons in a field.",
+              "frame_index": 1
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "The subtask involves identifying ripe mangoes based on the color of their stems during the harvesting process.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0]] Two men are seen in a field, one holding a large green fruit, indicating they are about to start harvesting.",
+            "- [frames=[1]] The scene shifts to a different area where a group of people are harvesting watermelons, suggesting a change in focus back to mangoes.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The subtask focuses on recognizing ripe mangoes by observing the color of their stems. Initially, the scene introduces the setting with workers preparing to harvest, then shifts to a different activity before returning to the key task of identifying ripe mangoes.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot must be aware of the current task, which is mango harvesting.",
+            "- The robot should have knowledge of the characteristics of ripe mangoes, specifically the color of their stems.",
+            "- The robot needs to be in the correct location within the field where mangoes are being harvested.",
+            "- The robot should have the necessary tools or sensors to inspect the mangoes.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot correctly identifies ripe mangoes based on the color of their stems.",
+            "- The robot picks the identified ripe mangoes without damaging them.",
+            "- The robot can distinguish ripe mangoes from unripe ones effectively.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0]] Move to the location where mangoes are being harvested.",
+            "2. [type=perception, frames=[0]] Use visual sensors to identify the ripe mangoes based on the color of their stems.",
+            "3. [type=manipulation, frames=[0]] Grasp the ripe mango using the appropriate tool or robotic arm.",
+            "4. [type=navigation, frames=[1]] Return to the designated collection area for ripe mangoes"
+          ]
+        },
+        {
+          "text": "Mangoes are cleaned and trimmed before being processed into various products.",
+          "start": 333.87,
+          "end": 344.87,
+          "segment_ids": [
+            60,
+            61
+          ],
+          "frames": []
+        }
+      ]
+    },
+    {
+      "task": "Pineapple harvesting and packaging.",
+      "start": 408.87,
+      "end": 431.87,
+      "subtasks": [
+        {
+          "text": "Pineapples are cut from the plant using sharp hooks and carefully transported.",
+          "start": 408.87,
+          "end": 418.87,
+          "segment_ids": [
+            73,
+            74
+          ],
+          "frames": [
+            {
+              "image_file": "task07_sub00_f00.jpg",
+              "relative_path": "7SAR0wYVC6s/task07_sub00_f00.jpg",
+              "caption": "A tractor is harvesting sugar beets in a large field.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task07_sub00_f01.jpg",
+              "relative_path": "7SAR0wYVC6s/task07_sub00_f01.jpg",
+              "caption": "A machine is processing sugar beets in a field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task07_sub00_f02.jpg",
+              "relative_path": "7SAR0wYVC6s/task07_sub00_f02.jpg",
+              "caption": "A machine is harvesting beets in a field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "Pineapples are being harvested from the plant using sharp hooks and then carefully transported.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0]] A tractor is harvesting sugar beets in a large field.",
+            "- [frames=[1]] A machine is processing sugar beets in a field.",
+            "- [frames=[2]] A machine is harvesting beets in a field.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The initial frames show agricultural machinery working on sugar beets, which are not relevant to the current subtask. The scene transitions to focus on pineapple harvesting, where workers are using sharp hooks to cut pineapples from the plants and then transporting them carefully.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot must be in the vicinity of the pineapple field.",
+            "- The robot should have the necessary tools and equipment for cutting and transporting pineapples.",
+            "- The robot must know the location of the pineapple plants.",
+            "- The robot should be aware of the correct method for cutting and handling pineapples.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- Pineapples are successfully cut from the plants.",
+            "- Pineapples are safely transported without damage.",
+            "- The robot has completed the cutting and transportation tasks within the specified time range.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0]] Navigate to the vicinity of the pineapple field.",
+            "2. [type=sensing, frames=[1]] Sense the presence of pineapple plants in the field.",
+            "3. [type=manipulation, frames=[2]] Use sharp hooks to cut pineapples from the plants.",
+            "4. [type=manipulation, frames=[2]] Carefully transport the cut pineapples to a designated area.",
+            "5. [type=sensing, frames=[2]] Verify that all pineapples have been successfully cut and transported.",
+            "",
+            "SUBTASK_STORY:",
+            "The robot begins by navigating to"
+          ]
+        },
+        {
+          "text": "Pineapples are washed and sorted for storage or processing.",
+          "start": 418.87,
+          "end": 431.87,
+          "segment_ids": [
+            75,
+            76
+          ],
+          "frames": [
+            {
+              "image_file": "task07_sub01_f01.jpg",
+              "relative_path": "7SAR0wYVC6s/task07_sub01_f01.jpg",
+              "caption": "A truck is unloading a load of potatoes into a trailer.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task07_sub01_f02.jpg",
+              "relative_path": "7SAR0wYVC6s/task07_sub01_f02.jpg",
+              "caption": "A worker is operating machinery to remove leaves from sugar beets.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "Pineapples are being washed and sorted for storage or processing.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0]] A worker is seen standing near a large bin filled with pineapples.",
+            "- [frames=[1]] The worker is using a hose to wash the pineapples, removing dirt and debris.",
+            "- [frames=[2]] After washing, the worker sorts the pineapples into two piles based on their condition.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene depicts a worker performing two key tasks: washing and sorting pineapples. The washing process involves cleaning the fruit to ensure they are free from dirt and debris, while sorting helps in categorizing the pineapples based on their quality for either storage or processing.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot must be within reach of the pineapples.",
+            "- A water source and a hose must be available for washing.",
+            "- Sorting bins or containers should be ready for the robot to use.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- All pineapples must be washed thoroughly.",
+            "- Pineapples should be sorted into appropriate categories.",
+            "- The washing and sorting process must be complete.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0]] Move to the location where the pineapples are stored.",
+            "2. [type=manipulation, frames=[1]] Use a robotic arm to pick up a pineapple and rinse it under a hose.",
+            "3. [type=manipulation, frames=[1]] Place the washed pineapple into a designated clean pile.",
+            "4. [type=manipulation, frames=[2]] Pick up another pineapple and inspect it for any damage or imperfections.",
+            "5. [type=manipulation, frames=[2]] If the pineapple is in good condition, place it in one sorting bin; if not, place it in another"
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Apple harvesting and distribution.",
+      "start": 431.87,
+      "end": 483.87,
+      "subtasks": [
+        {
+          "text": "Apple orchard pickers carefully remove apples from trees using ladders or support tools.",
+          "start": 431.87,
+          "end": 479.87,
+          "segment_ids": [
+            77,
+            84
+          ],
+          "frames": [
+            {
+              "image_file": "task08_sub00_f01.jpg",
+              "relative_path": "7SAR0wYVC6s/task08_sub00_f01.jpg",
+              "caption": "A large pile of sugar beets is being lifted out of the ground.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task08_sub00_f02.jpg",
+              "relative_path": "7SAR0wYVC6s/task08_sub00_f02.jpg",
+              "caption": "A large industrial complex with smokestacks emitting smoke, surrounded by agricultural fields.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task08_sub00_f03.jpg",
+              "relative_path": "7SAR0wYVC6s/task08_sub00_f03.jpg",
+              "caption": "Workers are sorting potatoes in a processing plant.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task08_sub00_f04.jpg",
+              "relative_path": "7SAR0wYVC6s/task08_sub00_f04.jpg",
+              "caption": "A machine is processing a substance, possibly for weighing and sorting.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task08_sub00_f05.jpg",
+              "relative_path": "7SAR0wYVC6s/task08_sub00_f05.jpg",
+              "caption": "A machine is processing a substance with a green light shining on it.",
+              "frame_index": 5
+            },
+            {
+              "image_file": "task08_sub00_f06.jpg",
+              "relative_path": "7SAR0wYVC6s/task08_sub00_f06.jpg",
+              "caption": "A close-up view of a metallic grid with a blurry background.",
+              "frame_index": 6
+            },
+            {
+              "image_file": "task08_sub00_f07.jpg",
+              "relative_path": "7SAR0wYVC6s/task08_sub00_f07.jpg",
+              "caption": "A machine is shown filling a bag with granular material.",
+              "frame_index": 7
+            },
+            {
+              "image_file": "task08_sub00_f08.jpg",
+              "relative_path": "7SAR0wYVC6s/task08_sub00_f08.jpg",
+              "caption": "The video shows grapes hanging from a vine in a vineyard.",
+              "frame_index": 8
+            },
+            {
+              "image_file": "task08_sub00_f09.jpg",
+              "relative_path": "7SAR0wYVC6s/task08_sub00_f09.jpg",
+              "caption": "A woman is pushing a cart full of grapes through a vineyard.",
+              "frame_index": 9
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "The robot will observe and understand the process of apple harvesting and preparation in an orchard setting, focusing on picking apples from trees and preparing them for distribution.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0]] The scene shows a large pile of sugar beets being lifted out of the ground, which is not relevant to the current subtask.",
+            "- [frames=[1]] A large industrial complex with smokestacks emitting smoke, surrounded by agricultural fields, provides context but is not directly related to the subtask.",
+            "- [frames=[2]] Workers are sorting potatoes in a processing plant, indicating a different agricultural activity.",
+            "- [frames=[3]] A machine is processing a substance, possibly for weighing and sorting, showing a general processing setup.",
+            "- [frames=[4]] A machine is processing a substance with a green light shining on it, suggesting automated sorting or inspection.",
+            "- [frames=[5]] A close-up view of a metallic grid with a blurry background, likely part of a sorting or processing mechanism.",
+            "- [frames=[6]] A machine is shown filling a bag with granular material, demonstrating packaging or bagging processes.",
+            "- [frames=[7]] The video shows grapes hanging from a vine in a vineyard, which is not relevant to the current subtask.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The frames provide context of various agricultural activities, but the actual subtask involves observing and understanding the process of picking apples from trees and preparing them for distribution. This includes the use of ladders or support tools by workers to harvest apples.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot must be aware of the presence of apple orchards.",
+            "- The robot should recognize the appearance of apple trees and apples.",
+            "- The robot needs to know how to operate ladders or other support tools.",
+            "- The robot must be able to identify ripe apples.",
+            "- The robot should have"
+          ]
+        },
+        {
+          "text": "Apples are sorted, washed, and placed in cold storage for long-term preservation.",
+          "start": 474.87,
+          "end": 483.87,
+          "segment_ids": [
+            84,
+            85
+          ],
+          "frames": [
+            {
+              "image_file": "task08_sub01_f00.jpg",
+              "relative_path": "7SAR0wYVC6s/task08_sub01_f00.jpg",
+              "caption": "The video shows a bunch of grapes hanging from a vine.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task08_sub01_f01.jpg",
+              "relative_path": "7SAR0wYVC6s/task08_sub01_f01.jpg",
+              "caption": "A person is harvesting grapes in a vineyard.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task08_sub01_f02.jpg",
+              "relative_path": "7SAR0wYVC6s/task08_sub01_f02.jpg",
+              "caption": "A person is loading grapes into a trailer in a vineyard.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "Apples are sorted, washed, and placed in cold storage for long-term preservation.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0]] The video shows a bunch of grapes hanging from a vine, indicating a different scene unrelated to apple sorting.",
+            "- [frames=[1]] A person is harvesting grapes in a vineyard, further confirming the initial scene is not related to apples.",
+            "- [frames=[2]] A person is loading grapes into a trailer in a vineyard, again showing an unrelated scene.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The provided frames show scenes of grape harvesting and handling, which are not relevant to the apple sorting process described in the subtask. This suggests there might be a mistake in the video metadata or frame selection for this particular subtask.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot must be aware that the current scene is not related to apple sorting.",
+            "- The robot should have access to the correct video segment where the apple sorting process occurs.",
+            "- The robot needs to be equipped with sensors to detect and identify apples.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot must correctly identify the start of the apple sorting process.",
+            "- The robot should be able to distinguish between apples and other fruits or objects.",
+            "- The robot must initiate the sorting, washing, and cold storage procedures for apples.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0,1]] Navigate to the correct video segment where the apple sorting process begins.",
+            "2. [type=perception, frames=[2]] Use visual sensors to identify the first apple in the scene.",
+            "3. [type=manipulation, frames=[2]] Grasp the identified apple using the robotic arm.",
+            "4. [type=manipulation, frames=[2]] Transfer the apple to a designated washing station.",
+            "5. [type=manipulation, frames=["
+          ]
+        }
+      ]
+    }
+  ],
+  "guidance_text_file": "final_guidance_txt/7SAR0wYVC6s.txt"
+}

@@ -1,0 +1,245 @@
+VIDEO: ujOxourjxm0
+TITLE: Potatoes from Planting to Harvesting Cycle Spring to Fall
+======================================================================
+
+TASK 0: Describe the seasonal process of potato farming.
+Time Range: 10.15 → 21.15
+----------------------------------------------------------------------
+  SUBTASK 0: Observe the start of planting potato crops in the middle of April.
+  Time Range: 10.15 → 13.15
+  Guidance:
+    GLOBAL_SUMMARY:
+    The subtask involves observing the initial stages of potato crop planting in mid-April.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] The field shows young potato plants growing in rows, with green leaves and stems emerging.
+    - [frames=[2]] The scene shifts to a broader view of the field with wind turbines visible in the background.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The subtask focuses on the early growth phase of potato crops, starting from the moment they are planted. The transition from the close-up view of young plants to a wider perspective helps establish the context of the field's location and scale.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The field must be prepared and ready for planting.
+    - The potato seeds or seedlings should be available and properly stored.
+    - Weather conditions should be suitable for planting, typically mild temperatures and adequate moisture.
+    
+    SUCCESS_CRITERIA:
+    - The field should show newly planted potato crops with visible green leaves and stems.
+    - The plants should be arranged in neat rows.
+    - The environment should reflect the appropriate season, with signs of spring.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the field where the potato crops are being planted.
+    2. [type=perception, frames=[0,1]] Use cameras to capture images of the young potato plants growing in rows.
+    3. [type=navigation, frames=[2]] Move to a higher vantage point to get an overview of the field.
+    4. [type=perception, frames=[2]] Analyze the image to confirm the presence of wind turbines in the background.
+    5. [type=communication, frames=[0,1,2]] Report the observations to the control center, including the status of the potato crops and the field layout.
+    
+    SUBTASK_STORY:
+    In the early days of
+
+  SUBTASK 1: Note the duration of planting potato crops, which takes four to six weeks.
+  Time Range: 13.15 → 16.15
+  Guidance:
+    GLOBAL_SUMMARY:
+    The subtask involves noting the duration of planting potato crops, which takes four to six weeks.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[1]] A man in a yellow shirt and red gloves is planting potatoes in a field.
+    - [frames=[2]] A person is planting a plant in the dirt.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    This subtask focuses on observing the initial phase of potato planting. The scene shows a person, likely a farmer, planting potatoes in a field. This activity is part of the broader process of potato cultivation, marking the beginning of the growing cycle.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must be able to recognize a person in a field.
+    - The robot should know the difference between a potato and other plants.
+    - The robot needs to understand the concept of planting and the tools used for it.
+    - The robot must have knowledge about the duration of the planting phase.
+    
+    SUCCESS_CRITERIA:
+    - The robot correctly identifies the planting activity.
+    - The robot accurately notes the duration of the planting phase as four to six weeks.
+    - The robot can provide a verbal confirmation of the noted duration.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[1]] Navigate to the field where the planting activity is taking place.
+    2. [type=perception, frames=[1]] Identify the person planting potatoes using visual recognition.
+    3. [type=manipulation, frames=[2]] Recognize the act of planting a plant in the dirt.
+    4. [type=perception, frames=[1,2]] Confirm the type of plant being planted is a potato.
+    5. [type=communication, frames=[1,2]] Announce the start of the planting phase.
+    6. [type=timer, frames=[1,2]] Start a timer to track the duration of the planting phase.
+
+  SUBTASK 2: Watch the irrigation process to keep the crops healthy when it's dry.
+  Time Range: 16.15 → 21.15
+  Guidance:
+    GLOBAL_SUMMARY:
+    The subtask involves observing the irrigation process used to maintain the health of potato crops during dry periods.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[1]] A large irrigation system is visible, actively watering a field of green potato plants.
+    - [frames=[2]] The same irrigation system continues to spray water over the field of crops, ensuring they receive adequate moisture.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene depicts a continuous irrigation process where a large-scale system is used to water potato crops. This ensures that the plants remain healthy and hydrated, especially during dry seasons, which is crucial for their growth and development.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must be within the vicinity of the field.
+    - The irrigation system should be operational and visible.
+    - The field must contain green potato plants.
+    - The weather conditions should indicate a need for irrigation due to dryness.
+    
+    SUCCESS_CRITERIA:
+    - The irrigation system is clearly visible and active throughout the video segment.
+    - Water is consistently being sprayed over the field of crops.
+    - The field remains green and healthy without signs of wilting or stress.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[1]] Navigate to the field where the irrigation process is taking place.
+    2. [type=perception, frames=[1,2]] Observe the large irrigation system and ensure it is functioning properly.
+    3. [type=manipulation, frames=[2]] Verify that water is being sprayed over the field of crops.
+    4. [type=perception, frames=[1,2]] Confirm that the field remains green and healthy, indicating proper hydration.
+    5. [type=communication, frames=[1,2]] Report back to the control center that the irrigation process is effective and the crops are well-watered.
+    
+    SUBTASK_STORY:
+    The subtask begins with the robot
+
+
+======================================================================
+
+TASK 1: Describe the harvest process.
+Time Range: 25.15 → 31.15
+----------------------------------------------------------------------
+  SUBTASK 0: Observe the harvesting process starting from the first of August.
+  Time Range: 25.15 → 27.15
+  Guidance:
+    GLOBAL_SUMMARY:
+    Observe the harvesting process in a potato field starting from the first of August.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] A potato field is visible with a red barn in the background. The field appears to be under cultivation.
+    - [frames=[2]] A woman is walking through the field while a tractor passes by.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene depicts the early stages of the potato harvesting process. The presence of a tractor suggests ongoing agricultural activities, likely preparing for or completing the harvest. The woman walking through the field may be checking on the progress or performing some maintenance tasks.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must be aware of the current date being August 1st.
+    - The robot should have knowledge of the potato field layout and the presence of a red barn.
+    - The robot needs to recognize the difference between a tractor and other field equipment.
+    - The robot must be able to identify a person in the field.
+    
+    SUCCESS_CRITERIA:
+    - The robot should correctly identify the field and the presence of a tractor.
+    - The robot must recognize the woman walking through the field.
+    - The robot should understand that the scene represents the start of the harvesting process.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the potato field based on the current date being August 1st.
+    2. [type=perception, frames=[0,1]] Identify the red barn in the background to confirm the location.
+    3. [type=perception, frames=[2]] Recognize the woman walking through the field and the passing tractor.
+    4. [type=manipulation, frames=[2]] Adjust the camera angle to follow the woman's movements.
+    5. [type=communication, frames=[2]] Report the observation of the woman and the tractor to
+
+  SUBTASK 1: Notice the continuation of harvesting until the middle of October.
+  Time Range: 29.15 → 31.15
+  Guidance:
+    GLOBAL_SUMMARY:
+    The subtask involves observing the continuation of the potato harvesting process until mid-October.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0]] A woman walks through a field as a tractor drives by, indicating ongoing farm activity.
+    - [frames=[1]] A person is operating a tractor in a field, with another tractor visible in the background, suggesting multiple tractors are working simultaneously.
+    - [frames=[2]] A man in a Streef Produce Ltd. jacket is operating a tractor in a field, focusing on the harvesting process.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene depicts the ongoing potato harvesting process, with multiple tractors working in the field. The presence of a woman walking through the field suggests she might be overseeing or coordinating the activities. The man in the Streef Produce Ltd. jacket is likely a key operator involved in the harvesting process.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The field must be accessible for the robot to navigate.
+    - There should be tractors present and operating in the field.
+    - The robot must have the capability to recognize and interact with tractors.
+    - The robot needs to understand the context of potato harvesting.
+    
+    SUCCESS_CRITERIA:
+    - The robot should observe the continuous operation of tractors in the field.
+    - The robot must identify the man in the Streef Produce Ltd. jacket as a key operator.
+    - The robot should note the presence of multiple tractors working together.
+    - The robot should confirm the ongoing harvesting process until mid-October.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the field where the tractors are located.
+    2. [type=perception, frames=[0,1]] Identify the tractors and their operators in the field.
+    3. [type=manipulation, frames=[2]] Focus on the man in
+
+
+======================================================================
+
+TASK 2: Explain the off-season activities.
+Time Range: 36.15 → 49.15
+----------------------------------------------------------------------
+  SUBTASK 0: Observe the maintenance and equipment check activities in the wintertime.
+  Time Range: 36.15 → 42.15
+  Guidance:
+    GLOBAL_SUMMARY:
+    The subtask involves observing the maintenance and equipment checks performed during the wintertime, which is crucial for ensuring the readiness of agricultural machinery for the next planting season.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0]] A monitor shows a road view, indicating the start of an observation session likely involving remote monitoring or review of previous activities.
+    - [frames=[1]] A green tractor is seen driving through a field, possibly checking the condition of the roads or fields where equipment will be stored or used.
+    - [frames=[2]] The green tractor is parked in a muddy field with a trailer, suggesting the completion of a field inspection and preparation for equipment maintenance.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    During the winter, the tractor and trailer are being inspected and maintained to ensure they are ready for the upcoming planting season. This includes checking the condition of the tractor, preparing it for storage, and ensuring the trailer is in good working order.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The tractor and trailer are present in the field.
+    - The weather conditions are suitable for outdoor maintenance activities.
+    - The necessary tools and spare parts are available for maintenance.
+    - The tractor and trailer are not currently in use for other tasks.
+    
+    SUCCESS_CRITERIA:
+    - The tractor and trailer are visually inspected and found to be in good condition.
+    - Any necessary repairs or maintenance tasks are identified and documented.
+    - The tractor and trailer are properly stored or prepared for future use.
+    - All safety checks are completed and recorded.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0]] The robot navigates to the monitor display to review the road view.
+    2. [type=perception, frames=[1]] The robot uses its camera to observe the green tractor driving through the field.
+    3. [type=navigation, frames=[2]] The robot moves to the area where
+
+  SUBTASK 1: Watch the variety of equipment that needs to be checked.
+  Time Range: 47.15 → 49.15
+  Guidance:
+    GLOBAL_SUMMARY:
+    Watch the variety of equipment that needs to be checked during the off-season activities in the potato processing facility.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] A conveyor belt processes potatoes in a factory setting, showing various machines handling the potatoes.
+    - [frames=[2]] In a warehouse environment, multiple machines process potatoes, with stacks of pallets in the background indicating storage areas.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The subtask involves observing different types of machinery used in potato processing across both a factory and a warehouse setting. The scene transitions from an industrial production line to a storage area, highlighting the continuous operation and maintenance requirements of the equipment.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must have access to the factory and warehouse areas.
+    - The robot should be equipped with sensors to detect and identify different types of machinery.
+    - The robot needs to know the locations of the machinery within the facility.
+    - The robot must have a database of common maintenance tasks for the machinery observed.
+    
+    SUCCESS_CRITERIA:
+    - The robot should accurately identify all types of machinery present in the frames.
+    - The robot must recognize any potential issues or areas needing maintenance based on the observed conditions.
+    - The robot should be able to describe the current state of the machinery and suggest necessary maintenance actions.
+    - The robot should provide a comprehensive report summarizing the findings and recommendations for maintenance.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the factory area where the conveyor belt and processing machines are located.
+    2. [type=sensing, frames=[0,1]] Use visual sensors to scan the conveyor belt and identify the types of machinery in operation.
+    3. [type=sensing, frames=[2]] Move to the warehouse area and use sensors to detect the presence of additional processing machines.
+    4. [type=manipulation
+
+
+======================================================================
+

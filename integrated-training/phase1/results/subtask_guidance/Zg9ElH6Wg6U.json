@@ -1,0 +1,310 @@
+{
+  "video_index": "Zg9ElH6Wg6U",
+  "title": "Retroescavadora K-Sanio Aniversario 50 Años",
+  "url": "https://www.youtube.com/watch?v=Zg9ElH6Wg6U",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "The video describes the features and specifications of a K-San 2007 retro-escavadora, including its maintenance status and additional equipment.",
+  "tasks": [
+    {
+      "task": "Highlight the features and maintenance status of the K-San 2007 retro-escavadora.",
+      "start": 10.25,
+      "end": 24.33,
+      "subtasks": [
+        {
+          "text": "Observe that the retro-escavadora is an edition special for the 50th anniversary of K-San 2007.",
+          "start": 10.25,
+          "end": 18.13,
+          "segment_ids": [
+            1
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "Zg9ElH6Wg6U/task00_sub00_f00.jpg",
+              "caption": "A CASE 500 Series 2 tractor is parked outdoors.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "Zg9ElH6Wg6U/task00_sub00_f01.jpg",
+              "caption": "A man stands next to a large construction vehicle in a dirt lot.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "Zg9ElH6Wg6U/task00_sub00_f02.jpg",
+              "caption": "The video frame shows a CASE backhoe loader with a bucket, surrounded by other construction equipment.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "Observe that the retro-escavadora is an edition special for the 50th anniversary of K-San 2007.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0]] A CASE 500 Series 2 tractor is parked outdoors.",
+            "- [frames=[1]] A man stands next to a large construction vehicle in a dirt lot.",
+            "- [frames=[2]] The video frame shows a CASE backhoe loader with a bucket, surrounded by other construction equipment.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene transitions from an outdoor parking area to a dirt lot where a man approaches a large construction vehicle. The final frame clearly shows a CASE backhoe loader, which is the focus of the subtask.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot must be able to navigate to the dirt lot.",
+            "- The robot should recognize the CASE backhoe loader as the target vehicle.",
+            "- The robot needs to understand that the vehicle is part of a 50th anniversary edition.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot must correctly identify the CASE backhoe loader as the 50th anniversary edition.",
+            "- The robot should describe the vehicle's special edition status accurately.",
+            "- The robot should capture the presence of the man standing near the vehicle.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0]] Navigate to the dirt lot where the construction vehicle is located.",
+            "2. [type=perception, frames=[1]] Identify the man standing near the vehicle.",
+            "3. [type=manipulation, frames=[2]] Focus on the CASE backhoe loader with a bucket.",
+            "4. [type=perception, frames=[2]] Confirm the vehicle is a CASE 500 Series 2 backhoe loader.",
+            "5. [type=communication, frames=[2]] Announce that the vehicle is"
+          ]
+        },
+        {
+          "text": "Note that the machine has less than 1000 hours of usage, indicating good condition.",
+          "start": 18.13,
+          "end": 21.229999999999997,
+          "segment_ids": [
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "Zg9ElH6Wg6U/task00_sub01_f01.jpg",
+              "caption": "A CASE brand backhoe loader is parked in a lot with other heavy machinery.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "Zg9ElH6Wg6U/task00_sub01_f02.jpg",
+              "caption": "A CASE brand backhoe loader is parked in a construction yard.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "Note the maintenance status of the K-San 2007 retro-escavadora, specifically mentioning its low usage hours.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0,1]] A CASE brand backhoe loader is parked in a lot with other heavy machinery.",
+            "- [frames=[2]] The same backhoe loader is now in a construction yard, still parked but in a different location.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene transitions from a general parking lot to a more specific construction site, where the focus shifts to the maintenance status of the backhoe loader. This change in setting helps contextualize the importance of noting the machine's low usage hours.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot must recognize the backhoe loader as a CASE brand.",
+            "- The robot should be aware of the current location being a construction yard.",
+            "- The robot needs to know that the machine has less than 1000 hours of usage.",
+            "- The robot must understand that this information indicates good condition.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot should accurately note the machine's low usage hours.",
+            "- The robot must correctly interpret this as an indication of good condition.",
+            "- The robot should provide a clear statement about the machine's maintenance status during the video tutorial.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0,1]] Navigate to the backhoe loader in the parking lot.",
+            "2. [type=perception, frames=[0,1]] Identify the backhoe loader as a CASE brand.",
+            "3. [type=navigation, frames=[2]] Move to the construction yard where the loader is now located.",
+            "4. [type=perception, frames=[2]] Confirm the loader is still present and in the correct location.",
+            "5. [type=manipulation, frames=[2]] Use a camera to inspect"
+          ]
+        },
+        {
+          "text": "Describe the 4x2 traction system of the retro-escavadora.",
+          "start": 21.229999999999997,
+          "end": 24.33,
+          "segment_ids": [
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub02_f01.jpg",
+              "relative_path": "Zg9ElH6Wg6U/task00_sub02_f01.jpg",
+              "caption": "A Case brand backhoe loader is parked on a dirt lot.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub02_f02.jpg",
+              "relative_path": "Zg9ElH6Wg6U/task00_sub02_f02.jpg",
+              "caption": "A Case 50 backhoe loader is parked in a construction yard.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "Describe the 4x2 traction system of the retro-escavadora, focusing on its functionality and importance for the machine's operation.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[1]] A Case brand backhoe loader is parked on a dirt lot. The loader appears to be an older model, possibly the K-San 2007.",
+            "- [frames=[2]] A Case 50 backhoe loader is now visible in a construction yard. This loader is being used to illustrate the 4x2 traction system.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene transitions from a dirt lot to a construction yard, where the focus shifts to a specific feature of the retro-escavadora. The loader in the second frame is highlighted to explain the 4x2 traction system, which is crucial for understanding how the machine operates in various terrains.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot must recognize the Case 50 backhoe loader as the K-San 2007 model.",
+            "- The robot should be aware of the 4x2 traction system and its components.",
+            "- The robot needs to understand the context of the construction yard setting.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot should accurately describe the 4x2 traction system.",
+            "- The robot must mention the importance of this system for the machine's performance.",
+            "- The robot should provide a clear explanation of how the system works.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[1]] Navigate to the first frame showing the Case brand backhoe loader on a dirt lot.",
+            "2. [type=perception, frames=[1]] Identify the Case 50 backhoe loader as the K-San 2007 model.",
+            "3. [type=navigation, frames=[2]] Transition to the second frame in the construction"
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Describe the interior features and comfort of the K-San 2007 retro-escavadora.",
+      "start": 18.13,
+      "end": 24.33,
+      "subtasks": [
+        {
+          "text": "Notice that the machine comes with a closed cab for comfort.",
+          "start": 18.13,
+          "end": 21.229999999999997,
+          "segment_ids": [
+            2
+          ],
+          "frames": []
+        },
+        {
+          "text": "Observe the air conditioning installed in the cab for comfort.",
+          "start": 21.229999999999997,
+          "end": 24.33,
+          "segment_ids": [
+            2
+          ],
+          "frames": []
+        }
+      ]
+    },
+    {
+      "task": "Highlight the additional equipment and information provided for the K-San 2007 retro-escavadora.",
+      "start": 24.33,
+      "end": 39.01,
+      "subtasks": [
+        {
+          "text": "Describe the kit available to connect the rotomartillo.",
+          "start": 24.33,
+          "end": 30.49,
+          "segment_ids": [
+            3
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "Zg9ElH6Wg6U/task02_sub00_f01.jpg",
+              "caption": "A Case 50 backhoe loader is parked in a construction yard.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "Zg9ElH6Wg6U/task02_sub00_f02.jpg",
+              "caption": "A large yellow construction vehicle is parked in a lot with other similar vehicles.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "Describe the kit available to connect the rotomartillo for the K-San 2007 retro-escavadora.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[1]] A Case 50 backhoe loader is parked in a construction yard.",
+            "- [frames=[2]] A large yellow construction vehicle is parked in a lot with other similar vehicles.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene shows a construction yard where a Case 50 backhoe loader is parked. The focus shifts to a large yellow construction vehicle, which is likely the K-San 2007 retro-escavadora. This subtask involves highlighting the additional equipment and information provided for connecting the rotomartillo.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot must recognize the K-San 2007 retro-escavadora.",
+            "- The robot should have knowledge about the rotomartillo and its connection kit.",
+            "- The robot needs to be aware of the current scene context, specifically the construction yard setting.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot should accurately describe the kit available to connect the rotomartillo.",
+            "- The robot must provide relevant information about the additional equipment and its purpose.",
+            "- The robot should highlight any specific features or components of the kit.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[1]] Navigate to the location where the Case 50 backhoe loader is parked.",
+            "2. [type=perception, frames=[1]] Identify the Case 50 backhoe loader and confirm it is the correct vehicle.",
+            "3. [type=navigation, frames=[2]] Move to the area where the large yellow construction vehicle (K-San 2007 retro-escavadora) is located.",
+            "4. [type=perception, frames=[2]] Confirm the"
+          ]
+        },
+        {
+          "text": "Mention that the machine is available for more information and prices contact.",
+          "start": 37.05,
+          "end": 39.01,
+          "segment_ids": [
+            5
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub01_f00.jpg",
+              "relative_path": "Zg9ElH6Wg6U/task02_sub01_f00.jpg",
+              "caption": "A man stands next to a large yellow construction vehicle in a construction site.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub01_f01.jpg",
+              "relative_path": "Zg9ElH6Wg6U/task02_sub01_f01.jpg",
+              "caption": "A large yellow construction vehicle is parked in a dirt lot with another vehicle in the background.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub01_f02.jpg",
+              "relative_path": "Zg9ElH6Wg6U/task02_sub01_f02.jpg",
+              "caption": "A large orange backhoe is parked in a construction site.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "Mention that the K-San 2007 retro-escavadora is available for more information and prices, which should be communicated through a contact message.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0,1]] A man stands next to a large yellow construction vehicle in a construction site.",
+            "- [frames=[2]] A large orange backhoe is parked in a construction site.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene shifts from a man standing beside a large yellow construction vehicle to a construction site where a large orange backhoe is parked. The subtask involves highlighting the availability of the K-San 2007 retro-escavadora for further information and pricing.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The video player is at the specified time range (37.0s–39.0s).",
+            "- The scene includes a large yellow construction vehicle and a large orange backhoe.",
+            "- The man standing next to the vehicle is visible.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot mentions the availability of the K-San 2007 retro-escavadora for more information and prices.",
+            "- The robot provides a clear call-to-action for contacting the seller.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0,1]] Navigate to the scene where the man is standing next to the large yellow construction vehicle.",
+            "2. [type=perception, frames=[0,1]] Identify the man and the large yellow construction vehicle.",
+            "3. [type=navigation, frames=[2]] Move to the scene where the large orange backhoe is parked.",
+            "4. [type=manipulation, frames=[2]] Ensure the robot can clearly see the backhoe.",
+            "5. [type=communication, frames=[0,1,2]] Announce that the K-San 2"
+          ]
+        }
+      ]
+    }
+  ],
+  "guidance_text_file": "final_guidance_txt/Zg9ElH6Wg6U.txt"
+}

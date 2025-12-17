@@ -1,0 +1,928 @@
+{
+  "video_index": "nOzea5B7W1U",
+  "title": "Spring Tilling and Seeding Oats Barley and Peas",
+  "url": "https://www.youtube.com/watch?v=nOzea5B7W1U",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Detailed explanation of soil preparation and seed planting methods for small-scale grain production.",
+  "tasks": [
+    {
+      "task": "Explain the process of preparing the soil for grain production.",
+      "start": 33.14,
+      "end": 78.06,
+      "subtasks": [
+        {
+          "text": "Describe the process of discing the top layer of the soil to knock down vegetation.",
+          "start": 33.14,
+          "end": 41.28,
+          "segment_ids": [
+            2,
+            3
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "nOzea5B7W1U/task00_sub00_f00.jpg",
+              "caption": "A man in a field with a greenhouse and a church in the background.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "nOzea5B7W1U/task00_sub00_f01.jpg",
+              "caption": "A man in a field with a church in the background.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "nOzea5B7W1U/task00_sub00_f02.jpg",
+              "caption": "The video frame shows a grassy field with a dirt path leading to a church and a greenhouse.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "The subtask involves showing how to prepare the soil by disking the top layer to remove vegetation, which is an essential step before planting grains like oats, barley, and peas.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0,1]] A man is seen in a field with a greenhouse and a church in the background.",
+            "- [frames=[2]] The scene shifts to a broader view of a grassy field with a dirt path leading to a church and a greenhouse.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The video captures a man working in a field, likely preparing it for planting. The presence of a greenhouse and a church suggests this is part of a larger agricultural setting, possibly near a rural community.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The field should be visible and accessible to the robot.",
+            "- The robot should have a clear understanding of the current state of the field, including the presence of vegetation.",
+            "- The robot should be equipped with the necessary tools for disking, such as a disc harrow.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The top layer of the soil should be visibly disturbed, indicating that the vegetation has been effectively knocked down.",
+            "- The field should show signs of being ready for further preparation, such as tilling or seeding.",
+            "- The man in the field should be shown using the disc harrow, demonstrating the process.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0,1]] Navigate to the field where the man is working.",
+            "2. [type=perception, frames=[0,1]] Identify the man and the disc harrow he is using.",
+            "3. [type=manipulation, frames=[2]] Assist the man by operating the disc harrow to disk the top layer of the soil.",
+            "4. [type=perception, frames=[2]] Monitor the process to ensure the"
+          ]
+        },
+        {
+          "text": "Detail the use of a tiller to plant seeds in the treated soil.",
+          "start": 41.28,
+          "end": 72.22,
+          "segment_ids": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "nOzea5B7W1U/task00_sub01_f01.jpg",
+              "caption": "The video shows a grassy area with a large greenhouse in the background.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "nOzea5B7W1U/task00_sub01_f02.jpg",
+              "caption": "A field of wheat and wildflowers.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub01_f05.jpg",
+              "relative_path": "nOzea5B7W1U/task00_sub01_f05.jpg",
+              "caption": "A man in a field with a church in the background.",
+              "frame_index": 5
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "The subtask involves using a tiller to prepare the soil for planting seeds, specifically oats, barley, and peas.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[1]] The video shows a grassy area with a large greenhouse in the background, indicating an agricultural setting.",
+            "- [frames=[2]] A field of wheat and wildflowers is visible, suggesting the area has been previously cultivated.",
+            "- [frames=[5]] A man is seen in a field with a church in the background, likely operating the tiller.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene transitions from a grassy area with a greenhouse to a field with existing crops, showing the progression from preparation to planting. A man is observed using a tiller, which is the primary tool for preparing the soil for the next planting season.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot must be aware of the current season and the need for soil preparation.",
+            "- The robot should have access to the tiller and know its location.",
+            "- The robot needs to understand the types of seeds to be planted (oats, barley, and peas).",
+            "- The robot must be able to navigate to the field where the tiller is located.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The soil must be adequately tilled to ensure proper seed placement.",
+            "- The tiller must be returned to its storage location after use.",
+            "- The robot should confirm that the field is ready for planting the specified seeds.",
+            "- The robot should document the completion of the task for future reference.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[1]] Navigate to the field where the tiller is located.",
+            "2. [type=manipulation, frames=[2]] Operate the tiller to prepare the soil for planting.",
+            "3. [type=perception, frames=[5]] Confirm the presence of the man"
+          ]
+        },
+        {
+          "text": "Mention the use of horse manure as a natural fertilizer.",
+          "start": 72.22,
+          "end": 78.06,
+          "segment_ids": [
+            12,
+            13
+          ],
+          "frames": []
+        }
+      ]
+    },
+    {
+      "task": "Describe methods for planting seeds and adjusting the seeding rate.",
+      "start": 80.82,
+      "end": 332.74,
+      "subtasks": [
+        {
+          "text": "Discuss the differences in seeding practices for winter and spring grains.",
+          "start": 80.82,
+          "end": 116.26,
+          "segment_ids": [
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "nOzea5B7W1U/task01_sub00_f00.jpg",
+              "caption": "A man in a field with a church in the background.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "nOzea5B7W1U/task01_sub00_f01.jpg",
+              "caption": "A person is using a tiller to till a garden bed.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "nOzea5B7W1U/task01_sub00_f02.jpg",
+              "caption": "A person is using a tiller to till a field.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task01_sub00_f03.jpg",
+              "relative_path": "nOzea5B7W1U/task01_sub00_f03.jpg",
+              "caption": "A man in a field is talking about fertilizer.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task01_sub00_f04.jpg",
+              "relative_path": "nOzea5B7W1U/task01_sub00_f04.jpg",
+              "caption": "A man in a field with a church in the background.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task01_sub00_f06.jpg",
+              "relative_path": "nOzea5B7W1U/task01_sub00_f06.jpg",
+              "caption": "A man in a field with a church in the background.",
+              "frame_index": 6
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "Discuss the differences in seeding practices for winter and spring grains.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0,4,6]] A man in a field with a church in the background is present throughout, indicating he is the subject of discussion.",
+            "- [frames=[1,2]] A person is using a tiller to prepare the soil, suggesting the context involves field preparation.",
+            "- [frames=[3]] A man in a field is talking about fertilizer, which might be related to the seeding practices but not directly the focus of this subtask.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene shifts between showing the man preparing the field and him discussing the differences in seeding practices for winter and spring grains. The tillage activities suggest the field is being prepared for planting, while the man's speech focuses on the specifics of how to plant different types of grains.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The field is already prepared for planting.",
+            "- The man has knowledge about winter and spring grain seeding practices.",
+            "- The camera is set up to capture the man's speech and the field preparation activities.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot should accurately describe the differences in seeding practices for winter and spring grains.",
+            "- The robot should provide clear and relevant information based on the man's speech.",
+            "- The robot should ensure the field is ready for planting according to the correct seeding practices.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0,1,2,4,6]] Navigate to the field where the man is preparing the soil.",
+            "2. [type=perception, frames=[3]] Listen to the man's speech about fertilizer.",
+            "3. [type=manipulation, frames=[1,2]] Observe the tiller being used to prepare the soil.",
+            "4. [type=communication, frames=[3]] Understand the context"
+          ]
+        },
+        {
+          "text": "Explain the process of creating rows for planting seeds and adjusting the spacing.",
+          "start": 116.26,
+          "end": 139.78,
+          "segment_ids": [
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "nOzea5B7W1U/task01_sub01_f01.jpg",
+              "caption": "A man in a field with a church in the background.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f03.jpg",
+              "relative_path": "nOzea5B7W1U/task01_sub01_f03.jpg",
+              "caption": "A person is using a shovel to mix compost in a wooden bin.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task01_sub01_f04.jpg",
+              "relative_path": "nOzea5B7W1U/task01_sub01_f04.jpg",
+              "caption": "A man is pushing a wheelbarrow filled with mulch across a grassy field.",
+              "frame_index": 4
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "The subtask involves explaining how to create rows for planting seeds and adjust the spacing between them.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[1]] A man is seen in a field with a church in the background, indicating he is outdoors preparing for planting.",
+            "- [frames=[3]] The scene shifts to a person using a shovel to mix compost in a wooden bin, suggesting preparation of the seed mixture.",
+            "- [frames=[4]] A man is pushing a wheelbarrow filled with mulch across a grassy field, showing the next step in preparing the soil.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The subtask focuses on the initial setup for planting seeds, including preparing the rows and ensuring proper spacing. This involves mixing compost, preparing the soil, and creating rows suitable for planting.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The field is prepared and ready for planting.",
+            "- The necessary tools such as a shovel and wheelbarrow are available.",
+            "- The robot has access to the correct type of soil and compost.",
+            "- The robot understands the desired spacing for planting.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- Rows are created in the field.",
+            "- The spacing between the rows is adjusted according to the specified requirements.",
+            "- The soil is properly mixed with compost.",
+            "- The wheelbarrow is used to transport mulch to the field.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[1]] Navigate to the field where the planting will take place.",
+            "2. [type=manipulation, frames=[3]] Use a shovel to mix compost in a wooden bin.",
+            "3. [type=navigation, frames=[4]] Move a wheelbarrow filled with mulch to the field.",
+            "4. [type=manipulation, frames=[4]] Push the wheelbarrow across the grassy field to distribute mulch.",
+            "5. [type="
+          ]
+        },
+        {
+          "text": "Describe the use of a single row seeder and modifications to adjust the seeding rate.",
+          "start": 139.78,
+          "end": 260.74,
+          "segment_ids": [
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub02_f01.jpg",
+              "relative_path": "nOzea5B7W1U/task01_sub02_f01.jpg",
+              "caption": "The video frame shows a muddy, grassy field with some patches of green grass and dried grass.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub02_f02.jpg",
+              "relative_path": "nOzea5B7W1U/task01_sub02_f02.jpg",
+              "caption": "A man is using a shovel to clear a path in a field, with a wheelbarrow filled with dirt nearby.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task01_sub02_f03.jpg",
+              "relative_path": "nOzea5B7W1U/task01_sub02_f03.jpg",
+              "caption": "A person is walking through a muddy field near a church and a greenhouse.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task01_sub02_f04.jpg",
+              "relative_path": "nOzea5B7W1U/task01_sub02_f04.jpg",
+              "caption": "A man is working in a field with a greenhouse in the background.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task01_sub02_f05.jpg",
+              "relative_path": "nOzea5B7W1U/task01_sub02_f05.jpg",
+              "caption": "The video frame shows a muddy, grassy area with some patches of dirt and a few small plants.",
+              "frame_index": 5
+            },
+            {
+              "image_file": "task01_sub02_f06.jpg",
+              "relative_path": "nOzea5B7W1U/task01_sub02_f06.jpg",
+              "caption": "A person is using a tool to clear a path in a field.",
+              "frame_index": 6
+            },
+            {
+              "image_file": "task01_sub02_f07.jpg",
+              "relative_path": "nOzea5B7W1U/task01_sub02_f07.jpg",
+              "caption": "A person is using a tiller to till a field near a church and a greenhouse.",
+              "frame_index": 7
+            },
+            {
+              "image_file": "task01_sub02_f11.jpg",
+              "relative_path": "nOzea5B7W1U/task01_sub02_f11.jpg",
+              "caption": "A man in a field with a greenhouse and a church in the background.",
+              "frame_index": 11
+            },
+            {
+              "image_file": "task01_sub02_f12.jpg",
+              "relative_path": "nOzea5B7W1U/task01_sub02_f12.jpg",
+              "caption": "A person is planting seeds in a garden.",
+              "frame_index": 12
+            },
+            {
+              "image_file": "task01_sub02_f13.jpg",
+              "relative_path": "nOzea5B7W1U/task01_sub02_f13.jpg",
+              "caption": "A person is using a tool to dig a hole in a garden.",
+              "frame_index": 13
+            },
+            {
+              "image_file": "task01_sub02_f14.jpg",
+              "relative_path": "nOzea5B7W1U/task01_sub02_f14.jpg",
+              "caption": "A man in a field with a measuring tape, wearing gloves and boots, appears to be preparing for gardening or landscaping work.",
+              "frame_index": 14
+            },
+            {
+              "image_file": "task01_sub02_f15.jpg",
+              "relative_path": "nOzea5B7W1U/task01_sub02_f15.jpg",
+              "caption": "A person in a garden, wearing gloves and boots, is using a tool to work on the soil.",
+              "frame_index": 15
+            },
+            {
+              "image_file": "task01_sub02_f16.jpg",
+              "relative_path": "nOzea5B7W1U/task01_sub02_f16.jpg",
+              "caption": "A man in a hat and gloves is walking in a muddy field with a tape measure.",
+              "frame_index": 16
+            },
+            {
+              "image_file": "task01_sub02_f17.jpg",
+              "relative_path": "nOzea5B7W1U/task01_sub02_f17.jpg",
+              "caption": "A man in a sweater and hat walks through a muddy field with a metal tool.",
+              "frame_index": 17
+            },
+            {
+              "image_file": "task01_sub02_f18.jpg",
+              "relative_path": "nOzea5B7W1U/task01_sub02_f18.jpg",
+              "caption": "A man in a sweater and boots is standing in a muddy field with a measuring tape.",
+              "frame_index": 18
+            },
+            {
+              "image_file": "task01_sub02_f19.jpg",
+              "relative_path": "nOzea5B7W1U/task01_sub02_f19.jpg",
+              "caption": "A man in a field with a measuring tape and gloves.",
+              "frame_index": 19
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "Describe the use of a single row seeder and modifications to adjust the seeding rate during the spring tilling and seeding process.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0]] The video begins with a muddy, grassy field showing patches of green and dried grass.",
+            "- [frames=[1]] A man is seen clearing a path in the field with a shovel, and a wheelbarrow filled with dirt is nearby.",
+            "- [frames=[2]] Another person is observed using a tool to clear a path in the field.",
+            "- [frames=[3]] A person is walking through a muddy field near a church and a greenhouse.",
+            "- [frames=[4]] A man is working in a field with a greenhouse in the background.",
+            "- [frames=[5]] The field is shown again, now with more cleared paths and some patches of dirt and small plants.",
+            "- [frames=[6]] A person is using a tool to clear a path in the field.",
+            "- [frames=[7]] A person is tilling a field near a church and a greenhouse.",
+            "- [frames=[11]] A man is seen in a field with a greenhouse and a church in the background.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene depicts a series of activities leading up to and including the use of a single row seeder. Initially, the field is muddy and overgrown, with paths being cleared. As the video progresses, the field becomes more prepared, with paths cleared and tilled. The final scene shows the use of the seeder, likely setting the stage for planting oats, barley, and peas.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The field must be prepared with cleared paths.",
+            "- The soil must be tilled to an appropriate depth.",
+            "- The greenhouse and church should be visible in the background.",
+            "- The single row seeder must be available and ready for use."
+          ]
+        },
+        {
+          "text": "Detail the planting process and adjusting the depth of the seeds.",
+          "start": 263.54,
+          "end": 332.74,
+          "segment_ids": [
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub03_f00.jpg",
+              "relative_path": "nOzea5B7W1U/task01_sub03_f00.jpg",
+              "caption": "A man in a field with a hat and gloves, standing in a muddy patch.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub03_f01.jpg",
+              "relative_path": "nOzea5B7W1U/task01_sub03_f01.jpg",
+              "caption": "A man in a hat and red gloves is using a tool to measure a garden plot.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub03_f02.jpg",
+              "relative_path": "nOzea5B7W1U/task01_sub03_f02.jpg",
+              "caption": "A man in a hat and gloves is using a tool to mark a spot in a garden.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task01_sub03_f03.jpg",
+              "relative_path": "nOzea5B7W1U/task01_sub03_f03.jpg",
+              "caption": "A man in a hat and gloves is using a tape measure to measure a garden plot.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task01_sub03_f04.jpg",
+              "relative_path": "nOzea5B7W1U/task01_sub03_f04.jpg",
+              "caption": "A man in a garden, using a rake, is preparing the soil for planting.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task01_sub03_f05.jpg",
+              "relative_path": "nOzea5B7W1U/task01_sub03_f05.jpg",
+              "caption": "A man in a garden, wearing a helmet and gloves, is using a tool to dig a hole.",
+              "frame_index": 5
+            },
+            {
+              "image_file": "task01_sub03_f06.jpg",
+              "relative_path": "nOzea5B7W1U/task01_sub03_f06.jpg",
+              "caption": "A person in boots is walking through a muddy field.",
+              "frame_index": 6
+            },
+            {
+              "image_file": "task01_sub03_f07.jpg",
+              "relative_path": "nOzea5B7W1U/task01_sub03_f07.jpg",
+              "caption": "A person is walking through a muddy field with green grass on the left side.",
+              "frame_index": 7
+            },
+            {
+              "image_file": "task01_sub03_f08.jpg",
+              "relative_path": "nOzea5B7W1U/task01_sub03_f08.jpg",
+              "caption": "A person is using a tool to tend to a garden bed in a wooded area.",
+              "frame_index": 8
+            },
+            {
+              "image_file": "task01_sub03_f09.jpg",
+              "relative_path": "nOzea5B7W1U/task01_sub03_f09.jpg",
+              "caption": "A man in a garden, wearing a hat and gloves, is using a tool to tend to the soil.",
+              "frame_index": 9
+            },
+            {
+              "image_file": "task01_sub03_f10.jpg",
+              "relative_path": "nOzea5B7W1U/task01_sub03_f10.jpg",
+              "caption": "A field of green grass with a white building in the background.",
+              "frame_index": 10
+            },
+            {
+              "image_file": "task01_sub03_f11.jpg",
+              "relative_path": "nOzea5B7W1U/task01_sub03_f11.jpg",
+              "caption": "A man in a garden, wearing a hat and gloves, is using a tool to dig in the soil.",
+              "frame_index": 11
+            },
+            {
+              "image_file": "task01_sub03_f12.jpg",
+              "relative_path": "nOzea5B7W1U/task01_sub03_f12.jpg",
+              "caption": "A person is working in a garden, using metal stakes to create a garden bed.",
+              "frame_index": 12
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "Detail the planting process and adjusting the depth of the seeds for oats, barley, and peas.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0]] A man in a field with a hat and gloves stands in a muddy patch.",
+            "- [frames=[1,2]] The man uses a tool to measure and mark spots in the garden.",
+            "- [frames=[3]] He measures a garden plot using a tape measure.",
+            "- [frames=[4]] Preparing the soil involves using a rake.",
+            "- [frames=[5]] Using a tool, he digs a hole to plant the seeds.",
+            "- [frames=[6,7]] A person walks through a muddy field, likely checking the progress.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The man is setting up and preparing to plant seeds in a garden. He first measures and marks spots, then prepares the soil, and finally digs holes to plant the seeds at the correct depth.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot must be in the field.",
+            "- The robot must have tools for measuring and digging.",
+            "- The robot must know the type of seeds being planted.",
+            "- The robot must have access to the correct depth information for the seeds.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot has marked the planting spots accurately.",
+            "- The soil is prepared properly.",
+            "- Holes are dug to the correct depth for the seeds.",
+            "- Seeds are placed in the holes.",
+            "- The holes are covered appropriately.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0]] Move to the field where the planting will take place.",
+            "2. [type=manipulation, frames=[1,2]] Use a measuring tool to mark planting spots.",
+            "3. [type=manipulation, frames=[3]] Measure the garden plot using a tape measure.",
+            "4. [type=manipulation, frames=[4"
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Conclude with notes on post-planting maintenance and future plans.",
+      "start": 332.74,
+      "end": 784.99,
+      "subtasks": [
+        {
+          "text": "Mention the need for weeding and preventative steps to protect the seeds.",
+          "start": 332.74,
+          "end": 390.46,
+          "segment_ids": [
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "nOzea5B7W1U/task02_sub00_f01.jpg",
+              "caption": "A person is working in a garden, using stakes to mark a garden bed.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "nOzea5B7W1U/task02_sub00_f02.jpg",
+              "caption": "A man in a hat and gloves is adjusting a piece of equipment in a grassy area.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task02_sub00_f03.jpg",
+              "relative_path": "nOzea5B7W1U/task02_sub00_f03.jpg",
+              "caption": "A man is adjusting a piece of gardening equipment on the ground.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task02_sub00_f04.jpg",
+              "relative_path": "nOzea5B7W1U/task02_sub00_f04.jpg",
+              "caption": "A man is kneeling next to a seed spreader, preparing to use it.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task02_sub00_f05.jpg",
+              "relative_path": "nOzea5B7W1U/task02_sub00_f05.jpg",
+              "caption": "A man is adjusting a seed spreader in a garden.",
+              "frame_index": 5
+            },
+            {
+              "image_file": "task02_sub00_f06.jpg",
+              "relative_path": "nOzea5B7W1U/task02_sub00_f06.jpg",
+              "caption": "A person is adjusting a piece of equipment on the ground.",
+              "frame_index": 6
+            },
+            {
+              "image_file": "task02_sub00_f07.jpg",
+              "relative_path": "nOzea5B7W1U/task02_sub00_f07.jpg",
+              "caption": "A man is preparing to use a seed spreader in a garden.",
+              "frame_index": 7
+            },
+            {
+              "image_file": "task02_sub00_f08.jpg",
+              "relative_path": "nOzea5B7W1U/task02_sub00_f08.jpg",
+              "caption": "A man is kneeling next to a seed spreader, preparing to use it.",
+              "frame_index": 8
+            },
+            {
+              "image_file": "task02_sub00_f09.jpg",
+              "relative_path": "nOzea5B7W1U/task02_sub00_f09.jpg",
+              "caption": "A man is preparing to use a seed spreader in a garden.",
+              "frame_index": 9
+            },
+            {
+              "image_file": "task02_sub00_f10.jpg",
+              "relative_path": "nOzea5B7W1U/task02_sub00_f10.jpg",
+              "caption": "A man is fixing a piece of equipment in a garden.",
+              "frame_index": 10
+            },
+            {
+              "image_file": "task02_sub00_f11.jpg",
+              "relative_path": "nOzea5B7W1U/task02_sub00_f11.jpg",
+              "caption": "A man is working on a garden tool in a backyard.",
+              "frame_index": 11
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "The subtask involves mentioning the need for weeding and taking preventative steps to protect the seeds after planting oats, barley, and peas.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0,1]] A person is working in a garden, using stakes to mark a garden bed.",
+            "- [frames=[2,3]] A man in a hat and gloves is adjusting a piece of equipment in a grassy area.",
+            "- [frames=[4,5]] A man is kneeling next to a seed spreader, preparing to use it.",
+            "- [frames=[6,7,8]] A man is adjusting a seed spreader in a garden, preparing to plant seeds.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene transitions from marking the garden bed to preparing and using a seed spreader. The focus shifts from marking the area to setting up and adjusting the equipment for planting.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The garden bed is marked and ready for planting.",
+            "- The seed spreader is available and accessible.",
+            "- The correct seeds are present and ready to be planted.",
+            "- The environment is suitable for planting (e.g., appropriate soil moisture).",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The seed spreader is properly adjusted and ready for use.",
+            "- The seeds are distributed evenly across the garden bed.",
+            "- The person mentions the need for weeding and preventative measures.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0,1]] Navigate to the garden bed where the stakes are placed.",
+            "2. [type=perception, frames=[2,3]] Observe the equipment being adjusted and note the presence of the man in a hat and gloves.",
+            "3. [type=manipulation, frames=[4,5]] Assist in kneeling next to the seed spreader and prepare to use it.",
+            "4. [type=manipulation,"
+          ]
+        },
+        {
+          "text": "Describe future plans for unrelated parts of the video not directly relevant.",
+          "start": 682.71,
+          "end": 784.99,
+          "segment_ids": [
+            203,
+            204,
+            205,
+            206,
+            207,
+            208,
+            209,
+            210,
+            211,
+            212,
+            213,
+            214,
+            215,
+            216,
+            217,
+            218,
+            219,
+            220,
+            221,
+            222,
+            223,
+            224,
+            225,
+            226,
+            227,
+            228,
+            229,
+            230,
+            231,
+            232,
+            233,
+            234,
+            235,
+            236,
+            237,
+            238,
+            239,
+            240,
+            241,
+            242
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub01_f00.jpg",
+              "relative_path": "nOzea5B7W1U/task02_sub01_f00.jpg",
+              "caption": "A man is sitting on the grass, working with a machine and a bag of seeds.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub01_f01.jpg",
+              "relative_path": "nOzea5B7W1U/task02_sub01_f01.jpg",
+              "caption": "The video frame shows a diagram of plant area, seeds per foot, and row spacing for different crops, with a greenhouse in the background.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub01_f02.jpg",
+              "relative_path": "nOzea5B7W1U/task02_sub01_f02.jpg",
+              "caption": "The video frame shows a red outline of a field with different crops labeled in white text.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task02_sub01_f05.jpg",
+              "relative_path": "nOzea5B7W1U/task02_sub01_f05.jpg",
+              "caption": "A man is sitting on the grass, working with a seed spreader and a bag of seeds.",
+              "frame_index": 5
+            },
+            {
+              "image_file": "task02_sub01_f06.jpg",
+              "relative_path": "nOzea5B7W1U/task02_sub01_f06.jpg",
+              "caption": "A man is sitting on the grass, working with a machine and a bag of seeds.",
+              "frame_index": 6
+            },
+            {
+              "image_file": "task02_sub01_f07.jpg",
+              "relative_path": "nOzea5B7W1U/task02_sub01_f07.jpg",
+              "caption": "A man is sitting on the grass, preparing a seed spreader.",
+              "frame_index": 7
+            },
+            {
+              "image_file": "task02_sub01_f08.jpg",
+              "relative_path": "nOzea5B7W1U/task02_sub01_f08.jpg",
+              "caption": "A man is sitting on the grass, working with a machine and a bag of seeds.",
+              "frame_index": 8
+            },
+            {
+              "image_file": "task02_sub01_f09.jpg",
+              "relative_path": "nOzea5B7W1U/task02_sub01_f09.jpg",
+              "caption": "A man is setting up a fence in a garden.",
+              "frame_index": 9
+            },
+            {
+              "image_file": "task02_sub01_f10.jpg",
+              "relative_path": "nOzea5B7W1U/task02_sub01_f10.jpg",
+              "caption": "A man in a garden, wearing a hat and knee pads, is adjusting a metal structure.",
+              "frame_index": 10
+            },
+            {
+              "image_file": "task02_sub01_f11.jpg",
+              "relative_path": "nOzea5B7W1U/task02_sub01_f11.jpg",
+              "caption": "A man in a garden, wearing a hat and knee pads, is adjusting a metal structure.",
+              "frame_index": 11
+            },
+            {
+              "image_file": "task02_sub01_f12.jpg",
+              "relative_path": "nOzea5B7W1U/task02_sub01_f12.jpg",
+              "caption": "A person is working in a garden, using a tool to adjust a fence.",
+              "frame_index": 12
+            },
+            {
+              "image_file": "task02_sub01_f13.jpg",
+              "relative_path": "nOzea5B7W1U/task02_sub01_f13.jpg",
+              "caption": "A person is walking in a garden with a greenhouse and a fence in the background.",
+              "frame_index": 13
+            },
+            {
+              "image_file": "task02_sub01_f14.jpg",
+              "relative_path": "nOzea5B7W1U/task02_sub01_f14.jpg",
+              "caption": "A person is using a hand tractor to till a garden plot.",
+              "frame_index": 14
+            },
+            {
+              "image_file": "task02_sub01_f15.jpg",
+              "relative_path": "nOzea5B7W1U/task02_sub01_f15.jpg",
+              "caption": "A man is adjusting a metal structure in a garden.",
+              "frame_index": 15
+            },
+            {
+              "image_file": "task02_sub01_f16.jpg",
+              "relative_path": "nOzea5B7W1U/task02_sub01_f16.jpg",
+              "caption": "A man in a field is using a device to measure soil moisture.",
+              "frame_index": 16
+            },
+            {
+              "image_file": "task02_sub01_f17.jpg",
+              "relative_path": "nOzea5B7W1U/task02_sub01_f17.jpg",
+              "caption": "A person is standing in a muddy field with a fence in the foreground.",
+              "frame_index": 17
+            },
+            {
+              "image_file": "task02_sub01_f18.jpg",
+              "relative_path": "nOzea5B7W1U/task02_sub01_f18.jpg",
+              "caption": "A muddy field with a fence in the foreground.",
+              "frame_index": 18
+            },
+            {
+              "image_file": "task02_sub01_f19.jpg",
+              "relative_path": "nOzea5B7W1U/task02_sub01_f19.jpg",
+              "caption": "A person is using crutches to walk in a garden with a greenhouse in the background.",
+              "frame_index": 19
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "The subtask involves describing future plans for unrelated parts of the video not directly relevant to the current task of spring tilling and seeding oats, barley, and peas.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0,1,8]] A man is sitting on the grass, working with a machine and a bag of seeds.",
+            "- [frames=[2]] A red outline of a field with different crops labeled in white text.",
+            "- [frames=[5,6,7]] The man continues to work with a seed spreader and a bag of seeds.",
+            "- [frames=[9]] A man is setting up a fence in a garden.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "This subtask focuses on the man's activities that are not directly related to the planting process but rather on future plans and other tasks. He is seen working with agricultural equipment and setting up a fence, indicating his involvement in various aspects of farm management beyond just planting.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot must recognize the man as a person.",
+            "- The robot should be aware of the current context of spring tilling and seeding.",
+            "- The robot needs to understand that the man is not currently engaged in the planting process.",
+            "- The robot should be able to identify agricultural equipment and tools.",
+            "- The robot must be capable of distinguishing between different areas of the farm.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot should accurately describe the man's future plans and other tasks.",
+            "- The robot must correctly identify and label the agricultural equipment and tools.",
+            "- The robot should be able to explain the man's actions in the context of farm management.",
+            "- The robot needs to ensure that the description of future plans and other tasks is coherent and relevant to the video content.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=perception, frames=[0,1,8]] Identify the man and the agricultural"
+          ]
+        }
+      ]
+    }
+  ],
+  "guidance_text_file": "final_guidance_txt/nOzea5B7W1U.txt"
+}

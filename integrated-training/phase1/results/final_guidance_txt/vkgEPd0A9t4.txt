@@ -1,0 +1,212 @@
+VIDEO: vkgEPd0A9t4
+TITLE: Training Farmers on New Agricultural Machinery
+======================================================================
+
+TASK 0: Train farmers on the use of small agricultural machinery.
+Time Range: 13.04 → 47.44
+----------------------------------------------------------------------
+  SUBTASK 0: Observe farmers, extension officers, and students completing a small machinery training session.
+  Time Range: 13.04 → 19.2
+  Guidance:
+    GLOBAL_SUMMARY:
+    Observe farmers, extension officers, and students performing tasks with various small agricultural machinery during a training session.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0]] A group of people are working in a garden using a tiller.
+    - [frames=[1]] Three men are working in a garden with a small tractor.
+    - [frames=[2]] A man in a blue shirt and hat is demonstrating a lawn mower to a young girl in a white shirt and blue skirt.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene depicts a diverse group of individuals engaged in practical demonstrations of different types of small agricultural machinery. The setting is a garden where multiple pieces of equipment are being used, showcasing their operation and functionality.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must be able to recognize and identify different types of agricultural machinery.
+    - The robot should understand the context of a training session involving farmers and students.
+    - The robot needs to be aware of the presence of a garden setting.
+    - The robot must be capable of navigating through the garden area.
+    - The robot should be able to communicate effectively with humans.
+    
+    SUCCESS_CRITERIA:
+    - The robot successfully identifies and categorizes all types of machinery demonstrated.
+    - The robot accurately understands the context of the training session.
+    - The robot correctly navigates through the garden area without obstacles.
+    - The robot can communicate relevant information about the machinery to the participants.
+    - The robot captures key moments of the demonstration for documentation purposes.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the garden area where the machinery is being used.
+    2. [type=perception, frames=[0,1]] Identify and categorize the tiller and small tractor in use.
+    3. [type=perception, frames=[2]] Recognize the man demonstrating the lawn mower and the young girl observing
+
+  SUBTASK 1: Listen to the project coordinator Adeline Nunovic discussing the training's purpose and its preparation for incoming machinery.
+  Time Range: 42.4 → 47.44
+  Guidance:
+    GLOBAL_SUMMARY:
+    The subtask involves listening to the project coordinator Adeline Nunovic discuss the purpose of the training and its preparation for new machinery.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0]] Two men are operating a small tractor in a field, with others watching.
+    - [frames=[1], [frames=[2]] A woman in a pink shirt is being interviewed outdoors.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene transitions from a field where machinery is being used to an outdoor setting where the project coordinator is giving a brief introduction about the upcoming training session. This sets the stage for understanding the context and purpose of the training.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must be aware of the ongoing training session.
+    - The robot should recognize the project coordinator Adeline Nunovic.
+    - The robot needs to be able to distinguish between different outdoor settings.
+    - The robot must have knowledge about agricultural machinery.
+    
+    SUCCESS_CRITERIA:
+    - The robot has correctly identified the project coordinator.
+    - The robot has understood the purpose of the training.
+    - The robot has noted the preparation for new machinery.
+    - The robot has recorded the key points of the discussion.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0]] Navigate to the field where the small tractor is being operated.
+    2. [type=perception, frames=[0]] Identify the two men operating the tractor and the other people watching.
+    3. [type=navigation, frames=[1], [frames=[2]] Move to the outdoor setting where the interview is taking place.
+    4. [type=perception, frames=[1], [frames=[2]] Recognize the woman in a pink shirt as the project coordinator Adeline Nunovic.
+    5. [type=communication, frames=[1], [frames=[2]] Listen to Adeline Nunovic discussing the training's purpose and its
+
+
+======================================================================
+
+TASK 1: Explain the benefits of farm mechanization from a politician's perspective.
+Time Range: 87.28 → 105.36
+----------------------------------------------------------------------
+  SUBTASK 0: Hear Minister Alfred Prosper emphasizing the importance of small mechanization in making the agriculture sector appealing to younger farmers.
+  Time Range: 87.28 → 93.36
+  Guidance:
+    GLOBAL_SUMMARY:
+    The subtask involves a politician, Minister Alfred Prosper, emphasizing the importance of small-scale farm mechanization to make the agriculture sector more attractive to younger farmers.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] A group of people in green shirts are working together outdoors, likely representing a farming community.
+    - [frames=[2]] A person, presumably Minister Alfred Prosper, is seen working on a piece of machinery with the Ministry of Agriculture logo in the background.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    Minister Alfred Prosper is demonstrating the benefits of small-scale farm mechanization to a group of farmers. The scene suggests he is highlighting how such machinery can modernize agricultural practices, making the sector more appealing to younger generations who might otherwise be deterred by traditional farming methods.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must recognize Minister Alfred Prosper and understand his role as a politician.
+    - The robot should be aware of the context of farm mechanization and its benefits.
+    - The robot needs to know about the target audience, which includes younger farmers.
+    - The robot must have access to relevant information about the Ministry of Agriculture and its initiatives.
+    
+    SUCCESS_CRITERIA:
+    - The robot successfully identifies Minister Alfred Prosper and correctly interprets his speech.
+    - The robot accurately captures the key points about the benefits of small-scale mechanization.
+    - The robot understands the target audience and can convey the message effectively.
+    - The robot ensures that the demonstration aligns with the Ministry of Agriculture’s goals.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the area where the group of farmers is working.
+    2. [type=perception, frames=[0,1]] Identify Minister Alfred Prosper and confirm his identity.
+    3. [type=manipulation, frames=[2]] Observe the machinery being worked on and note any relevant
+
+  SUBTASK 1: Note the minister’s statement that farm mechanization saves time, energy, and contributes to value chain development.
+  Time Range: 99.44 → 105.36
+  Guidance:
+    GLOBAL_SUMMARY:
+    The subtask involves noting a minister's statement about the benefits of farm mechanization, specifically mentioning time savings, energy conservation, and value chain development.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0]] A person is working on a piece of machinery with a logo for the Ministry of Agriculture.
+    - [frames=[1]] The video shows a muddy field with a tractor and people working in the background.
+    - [frames=[2]] Three men are working on a piece of machinery in a field.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene transitions from a close-up of a person working on agricultural machinery to a broader view of a field with ongoing work. This shift highlights the context of farm mechanization and its practical application.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must recognize the logo of the Ministry of Agriculture.
+    - The robot should be aware of the current scene being a field related to agriculture.
+    - The robot needs to understand the context of farm mechanization and its benefits.
+    
+    SUCCESS_CRITERIA:
+    - The robot must accurately note the minister's statement regarding time savings, energy conservation, and value chain development.
+    - The robot should capture the essence of the statement in a way that aligns with the politician's perspective.
+    - The robot must ensure that the statement is recorded without any errors or omissions.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0]] Navigate to the area where the person is working on the machinery.
+    2. [type=perception, frames=[0]] Identify the logo of the Ministry of Agriculture.
+    3. [type=navigation, frames=[1]] Move to a position where the field and machinery are visible.
+    4. [type=perception, frames=[1]] Recognize the presence of a tractor and other workers in the field.
+    5. [type=navigation, frames=[2
+
+
+======================================================================
+
+TASK 2: Describe the expected cost reductions from using small machinery.
+Time Range: 133.76 → 158.4
+----------------------------------------------------------------------
+  SUBTASK 0: Follow the explanation that small machinery can drastically reduce the cost of production.
+  Time Range: 133.76 → 140.32
+  Guidance:
+    GLOBAL_SUMMARY:
+    The subtask involves explaining how small machinery can significantly reduce agricultural production costs.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] A farmer in a white shirt and black cap is being interviewed in a field with a microphone.
+    - [frames=[2]] The same farmer continues his interview, likely elaborating on the benefits of small machinery.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene depicts a farmer providing an explanation about the cost-saving advantages of using small agricultural machinery. This explanation is part of a broader tutorial aimed at training farmers on new machinery.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must recognize the farmer and the setting as a field.
+    - The robot should have knowledge about agricultural machinery and its costs.
+    - The robot needs to be able to understand and interpret spoken language.
+    
+    SUCCESS_CRITERIA:
+    - The robot successfully identifies the farmer and the context of the interview.
+    - The robot comprehends the explanation about cost reductions from using small machinery.
+    - The robot accurately conveys the information to the viewer.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Identify the farmer and the field setting.
+    2. [type=perception, frames=[0,1]] Recognize the farmer speaking into a microphone.
+    3. [type=manipulation, frames=[2]] Ensure the camera focuses on the farmer's face for better clarity.
+    4. [type=communication, frames=[0,1,2]] Analyze the spoken words to understand the explanation about cost reductions.
+    5. [type=manipulation, frames=[2]] Adjust the camera angle to capture the farmer's hands if he uses them to illustrate his points.
+    6. [type=perception, frames=[0,1,2]] Continuously monitor the farmer’s speech and body language for additional context.
+    
+    SUBTASK_ST
+
+  SUBTASK 1: Observe the demonstration that small machinery can complete a task in one hour, reducing labor costs.
+  Time Range: 152.56 → 158.4
+  Guidance:
+    GLOBAL_SUMMARY:
+    The subtask involves observing a demonstration where small machinery completes a task in one hour, highlighting the reduction in labor costs for farmers.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] A man in a white shirt and black cap is being interviewed in front of a farm with a group of people working in the background.
+    - [frames=[2]] The same man is being interviewed in a field with other people working in the background.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene transitions from an interview area near the farm to a field where the demonstration of small machinery is taking place. The man being interviewed likely explains how the machinery reduces labor costs, while the background shows ongoing farm activities.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The farm setting is familiar to the robot.
+    - The robot has access to the video feed and understands the context of the demonstration.
+    - The robot knows the location of the farm and the field.
+    - The robot can recognize the man being interviewed and the group of workers.
+    
+    SUCCESS_CRITERIA:
+    - The robot observes the machinery completing the task within one hour.
+    - The robot hears the explanation about reduced labor costs.
+    - The robot captures the transition from the interview area to the field where the machinery is demonstrated.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the position where the man in the white shirt and black cap is being interviewed.
+    2. [type=perception, frames=[0,1]] Identify the man and the group of workers in the background.
+    3. [type=navigation, frames=[2]] Move to the field where the machinery demonstration is taking place.
+    4. [type=perception, frames=[2]] Confirm the machinery is completing the task within one hour.
+    5. [type=communication, frames=[2]] Listen to the explanation about
+
+
+======================================================================
+
