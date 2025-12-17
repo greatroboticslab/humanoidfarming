@@ -1,17 +1,29 @@
-# 🎬 Timestamp Extraction, Task Alignment & Frame Extraction from YouTube & Local Videos
+# 🎬 Timestamp Extraction, Task Alignment, Frame Grounding & Robot Guidance Generation
 
-This repository provides a modular pipeline to:
+This repository provides a **modular, end-to-end pipeline** to convert videos (YouTube or local) into:
+
+> **Task-structured, timestamp-aligned, visually grounded, robot-centric guidance**
+
+The pipeline combines **ASR, LLM-based task extraction, timestamp grounding, frame-level visual grounding, and instruction-style guidance generation**.  
+All intermediate and final artifacts are saved under the `results/` directory unless otherwise noted.
+
+---
+
+## 🔍 What This Pipeline Does
 
 - Extract timestamped transcripts from:
-  - YouTube videos (auto-captions)
-  - Local MP4 videos (Whisper)
-- Classify videos into speech vs no-speech.
-- Use an LLM (e.g., **Qwen**, **S1**, etc.) to extract tasks and subtasks from transcripts.
-- Assign approximate timestamps to each subtask using Python’s `SequenceMatcher` (deprecated approach).
-- Preferably, instruct the LLM (Qwen recommended) to select **Whisper segment IDs** for *high-accuracy timestamps*.
-- Optionally extract **key frames / images** for each subtask and generate **HTML / DOCX** visual reports.
-
-All outputs are saved inside the `results/` directory.
+  - **YouTube videos** (auto-captions)
+  - **Local MP4 videos** (Whisper ASR)
+- Classify videos into **speech vs no-speech**
+- Use an **LLM (Qwen, S1, etc.)** to extract **tasks and subtasks** from transcripts
+- Assign timestamps via:
+  - **Python SequenceMatcher** (legacy / deprecated)
+  - **LLM-predicted Whisper segment IDs** (recommended)
+- Extract representative **frames per subtask**
+- **Remove near-duplicate frames** and generate **frame captions**
+- Generate **robot-centric, structured subtask guidance** from text + frames
+- Export results as **JSON, TXT, HTML, or DOCX**
+- Prepare datasets for **Qwen LoRA training**
 
 ---
 
@@ -19,12 +31,16 @@ All outputs are saved inside the `results/` directory.
 
 **Script:** `scripts/timestamps_using_yt_subtitles.py`
 
-Downloads YouTube auto-captions and saves JSON transcripts containing text, segments, and timestamps.
+Downloads YouTube auto-captions and saves JSON transcripts containing:
+- text
+- segment IDs
+- start/end timestamps
 
 ### ▶️ Run
-
 ```bash
-python scripts/timestamps_using_yt_subtitles.py     --url https://www.youtube.com/watch?v=VIDEO_ID     --out_dir results/timestamps_using_yt_subtitles
+python scripts/timestamps_using_yt_subtitles.py \
+  --url https://www.youtube.com/watch?v=VIDEO_ID \
+  --out_dir results/timestamps_using_yt_subtitles
 ```
 
 ---
@@ -36,15 +52,10 @@ python scripts/timestamps_using_yt_subtitles.py     --url https://www.youtube.co
 Extracts transcript + timestamps from `.mp4` videos using Whisper.
 
 ### ▶️ Run on a Single Video
-
 ```bash
-python scripts/timestamps_using_whisper.py     --file path/to/video.mp4     --out_dir results/timestamps_using_whisper
-```
-
-### ▶️ Batch Mode (HPC)
-
-```bash
-sbatch scripts/run_tasks_with_timestamps.slurm
+python scripts/timestamps_using_whisper.py \
+  --file path/to/video.mp4 \
+  --out_dir results/timestamps_using_whisper
 ```
 
 ---
@@ -53,29 +64,32 @@ sbatch scripts/run_tasks_with_timestamps.slurm
 
 **Script:** `scripts/split_speech_vs_nospeech.py`
 
-Classifies transcripts based on text length.
+Classifies transcripts based on text length to filter non-instructional videos.
 
 ### ▶️ Run
-
 ```bash
-python scripts/split_speech_vs_nospeech.py     --transcripts_dir results/timestamps_using_whisper
+python scripts/split_speech_vs_nospeech.py \
+  --transcripts_dir results/timestamps_using_whisper
 ```
 
-Outputs:
-
-- `results/speech_vs_nospeech_videos/`
+**Output**
+```
+results/speech_vs_nospeech_videos/
+```
 
 ---
 
-## 🧩 4. Baseline Task Alignment (Optional)
+## 🧩 4. Baseline Task Alignment (Legacy / Optional)
 
 **Script:** `scripts/align_tasks_with_timestamp.py`
 
-This was the original timestamp alignment method—kept for reference.
+Original timestamp alignment approach using heuristic text matching.  
+Kept **only for reference and comparison**.
 
-Outputs:
-
-- `results/align_tasks_with_timestamp_transcript/`
+**Output**
+```
+results/align_tasks_with_timestamp_transcript/
+```
 
 ---
 
@@ -84,253 +98,211 @@ Outputs:
 ### Main Scripts
 
 | Purpose | File |
-|--------|------|
-| Primary LLM task extraction pipeline | **`scripts/tasks_with_timestamps.py`** |
-| Prompt template | **`scripts/prompt_for_tasks_with_timestamps.txt`** |
-| (Optional) Python approximate alignment version | `scripts/tasks_with_timestamps_using_pyseqmatcher.py` |
-| (Optional) Prompt for SeqMatcher version | `scripts/prompt_for_using_pyseqmatcher.txt` |
+|------|------|
+| Primary pipeline (recommended) | `scripts/tasks_with_timestamps.py` |
+| Prompt template | `scripts/prompt_for_tasks_with_timestamps.txt` |
+| Legacy SeqMatcher version | `scripts/tasks_with_timestamps_using_pyseqmatcher.py` |
+| Legacy prompt | `scripts/prompt_for_using_pyseqmatcher.txt` |
 
 ---
 
 ### How It Works
 
-This pipeline uses a modern LLM (Qwen, S1, etc.) to:
+The LLM:
+1. Reads the **full transcript**
+2. Determines whether the content is **relevant**
+3. Generates **TASK / SUBTASK** structure
+4. Predicts **Whisper SEGMENT_IDS** per subtask
+5. Converts segment IDs → exact timestamps
 
-1. Read the full transcript.  
-2. Determine whether the content is relevant.  
-3. Generate grounded **MAINTASK** and **SUBTASK** blocks.  
-4. Assign **Whisper segment IDs** (`SEGMENT_IDS: [id1, id2, ...]`) for each subtask.  
-5. Convert segment IDs into Whisper timestamps for downstream frame extraction.
-
-These timestamps are then used to extract representative frames and build HTML/DOCX visual summaries.
+These timestamps are then used downstream for frame extraction and visual grounding.
 
 ---
 
-### ⚠️ Limitations of S1 + Python SeqMatcher
+### ❌ Limitations of S1 + Python SequenceMatcher
 
-#### ❌ Why S1 Fails on Long Videos
-
-S1 has a **4096-token context limit**.
-
-Your prompt typically includes:
-
-- A long instruction block  
-- 30–200 Whisper segments  
-- The full transcript  
-
-Many videos exceed this limit. When the prompt length is greater than S1's maximum context, vLLM raises an error like:
-
+#### Why S1 Fails on Long Videos
+- S1 has a **4096-token context limit**
+- Prompts often include:
+  - Long instructions
+  - 30–200 Whisper segments
+  - Full transcripts
+- When exceeded, vLLM throws:
 ```text
 decoder prompt length longer than max_model_len=4096
 ```
 
 When this happens:
+- S1 produces no output
+- `relevant = false` is set
+- This **does NOT mean the video is actually irrelevant**
 
-- S1 returns no output.  
-- The script sets `relevant = false`.  
-- This **does not** mean the video is truly irrelevant — it only means S1 ran out of context.
-
-#### ❌ Why Python `SequenceMatcher` Is Not Ideal
-
-The optional `tasks_with_timestamps_using_pyseqmatcher.py` script uses Python's `difflib.SequenceMatcher` to align LLM text back to the transcript. This approach:
-
-- Produces only **approximate** timestamps.  
-- Degrades on long transcripts.  
-- Gets confused by repeated phrases.  
-- Struggles when the LLM paraphrases.  
-- Was never designed for robust timestamp alignment.
-
-It can work, but it is **not** as reliable or accurate as directly predicting segment IDs.
+#### Why SequenceMatcher Is Not Ideal
+- Produces **approximate timestamps**
+- Degrades on long transcripts
+- Fails with repeated phrases
+- Breaks when the LLM paraphrases
+- Not designed for semantic grounding
 
 ---
 
-### ⭐ Recommended Method: Qwen with Explicit `SEGMENT_IDS`
+## ⭐ Recommended Method: Qwen + Explicit SEGMENT_IDS
 
-Modern models like **Qwen 2.5 (7B/14B)** support **32k–128k token contexts** and follow structured instructions very well.
+Modern **Qwen 2.5 (7B / 14B)** models support long context (32k–128k tokens) and follow structured prompts well.
 
-The recommended approach:
+The LLM outputs:
+```text
+SUBTASK: <description>
+SEGMENT_IDS: [3, 4]
+```
 
-1. The LLM reads:  
-   - Full transcript  
-   - Full Whisper segment list  
-   - Detailed task extraction instructions  
-
-2. The LLM outputs for each subtask:
-
-   ```text
-   SUBTASK: <description>
-   SEGMENT_IDS: [3, 4]
-   ```
-
-This directly ties each subtask to Whisper segment IDs, yielding **high-quality, Whisper-aligned timestamps** and removing the need for Python heuristic alignment.
-
-#### Benefits
-
-- Greatly improved alignment accuracy.  
-- Works for long videos.  
-- No timestamp matching hacks.  
-- Produces better frames for HTML/DOCX reports.
-
----
+This directly ties each subtask to Whisper segments, yielding:
+- Exact timestamp recovery
+- No heuristic alignment
+- Stable long-video support
+- Higher-quality frame extraction
 
 ### ▶️ Run
-
-Basic usage with Qwen 2.5:
-
 ```bash
-python scripts/tasks_with_timestamps.py   --model Qwen/Qwen2.5-7B-Instruct   --prompt_file scripts/prompt_for_tasks_with_timestamps.txt   --input_dir /path/to/json/transcripts   --output_dir /path/to/output_tasks
-```
-
-
-## 🧩 6. Frame Extraction  
-**Script:** `scripts/extract_frames_from_subtasks.py`
-
-This stage converts task/subtask timestamp intervals into **representative frames extracted from videos**.
-
-## 📥 Inputs
-- JSON files with tasks, subtasks, and `(start, end)` timestamps  
-- Original video files (`.mp4`, `.mkv`, `.mov`, `.avi`)
-
-## 🎯 Frame Sampling Strategy
-For every subtask:
-- Minimum **3 frames**
-- Approx. **1 frame every 5 seconds**
-- Maximum **20 frames**
-- Frames are **uniformly spaced** between `(start, end)`
-- Subtasks without valid timestamps are skipped
-
-## 📤 Output Directory Structure
-```
-results/frame_extractions/<video_id>/
-    taskXX_subYY_fZZ.jpg
-```
-
-Where:
-- `XX` = task index  
-- `YY` = subtask index  
-- `ZZ` = frame index  
-
-## ▶️ Run
-```bash
-python scripts/extract_frames_from_subtasks.py   --json_dir results/tasks_with_timestamps   --video_dir data/Videos_with_speech   --out_dir results/frame_extractions
+python scripts/tasks_with_timestamps.py \
+  --model Qwen/Qwen2.5-7B-Instruct \
+  --prompt_file scripts/prompt_for_tasks_with_timestamps.txt \
+  --input_dir results/timestamps_using_whisper \
+  --output_dir results/tasks_with_timestamps
 ```
 
 ---
 
-## 🧩 7. Near-Duplicate Frame Removal & Captioning  
-**Script:** `scripts/frame_captions.py`
+## 🧩 6. Frame Extraction
 
-This stage refines extracted frames by:
-1. **Removing visually near-duplicate frames** using perceptual hashing  
-2. Generating **single-sentence captions** using Qwen2-VL
+**Script:** `scripts/extract_frames_from_subtasks.py`
 
-## 📥 Inputs
-Frames from Step 6:
+Converts task/subtask timestamp intervals into representative frames.
 
+### 🎯 Frame Sampling Strategy
+For every subtask:
+- Minimum **3 frames**
+- ~**1 frame every 5 seconds**
+- Maximum **20 frames**
+- Uniform spacing between `(start, end)`
+- Subtasks without valid timestamps are skipped
+
+**Output Structure**
 ```
-results/frame_extractions/<video_id>/*.jpg
+results/frame_extractions/<video_id>/
+  taskXX_subYY_fZZ.jpg
 ```
 
-## 🧹 Perceptual Hash (pHash)–Based Frame Deduplication
-The script uses the Python `imagehash` library to perform:
-- Perceptual hash (`phash`) computation
-- Detection of visually duplicate or near-identical frames
-- Retention of only the **first unique** frame
-- Optional deletion if `DELETE_DUPLICATES = True`
+---
 
-This ensures:
-- Reduced storage
-- Faster captioning
-- More diverse visual samples
+## 🧩 7. Frame Deduplication & Captioning (Vision Grounding)
 
-## 📝 Captioning (Qwen2-VL)
-For each **unique** frame:
-- Qwen/Qwen2-VL-7B-Instruct generates a **clear, concise 1-sentence description**
-- Boilerplate (system/user/assistant) is removed
-- Metadata is stored:
-  - video index  
-  - task index  
-  - subtask index  
-  - frame index  
-  - caption  
-  - relative path  
+**Script:** `scripts/frame_captions.py` (or updated variants)
 
-## 📤 Output
-One JSON per video:
+### What This Stage Does
+1. Removes near-duplicate frames using **perceptual hashing (pHash)**
+2. Generates **one-sentence captions** for each unique frame using:
+   - InstructBLIP or Qwen-VL
+3. Attaches frames + captions to the correct task/subtask
 
+**Output**
 ```
 results/frame_captions/<video_id>.json
 ```
 
+Each subtask gains a `frames` field containing:
+- frame index
+- relative path
+- caption text
 
-### ▶️ Run
-```bash
-python scripts/frame_captions.py
+---
+
+## 🧩 8. Subtask Guidance Generation (Robot-Centric)
+
+**Script:** `scripts/subtask_guidance.py`
+
+Uses **Qwen-2.5-7B** to generate **structured, robot-oriented guidance** per subtask using:
+- Subtask text
+- Time range
+- Frame captions
+
+### Generated Sections
+- `GLOBAL_SUMMARY`
+- `FRAME_BASED_OBSERVATIONS`
+- `INTEGRATED_SCENE_UNDERSTANDING`
+- `PRECONDITIONS_FOR_ROBOT`
+- `SUCCESS_CRITERIA`
+- `ORDERED_ROBOT_ACTION_STEPS`
+- `SUBTASK_STORY`
+
+The output is attached to each subtask as `guidance_text`.
+
+---
+
+## 🧩 9. Export Final Guidance to TXT
+
+**Script:** `batch_export_all_videos.py`
+
+- Converts nested JSON guidance into **clean, human-readable TXT**
+- One TXT per video
+- Adds a reference back into the source JSON
+
+**Output**
+```
+final_guidance_txt/<video_id>.txt
 ```
 
 ---
 
-## 🧩 HTML & DOCX Reports 
+## 🧩 10. Training (Qwen LoRA)
 
-Utilities can generate:
-
-### 📄 HTML
-
-- Includes task → subtask → timestamp  
-- Inline base64 images  
-- Perfect for visual inspection  
-
-### 📄 DOCX
-
-- Table format:
-  - Task (merged cells)
-  - Subtask description
-  - Timestamp
-  - Embedded image thumbnails
-
-Outputs:
-
+Location:
 ```
-document/<video_id>.html
-document/<video_id>.docx
+VideoProcessing/qwen_train/
 ```
+
+Contains:
+- `data/` – instruction-tuning datasets
+- `scripts/` – training & inference
+- `ckpts/` – LoRA checkpoints
+- `inference_results/` – post-training sanity checks
+
+Training uses the **robot-centric guidance text** as supervision.
 
 ---
-
 
 ## 📜 Script Summary
 
-| Script                                        | Purpose |
-|-----------------------------------------------|---------|
-| `timestamps_using_yt_subtitles.py`            | Download YouTube auto-captions |
-| `timestamps_using_whisper.py`                 | Local Whisper ASR |
-| `split_speech_vs_nospeech.py`                 | Speech/no-speech classification |
-| `align_tasks_with_timestamp.py`               | Legacy baseline alignment |
-| `tasks_with_timestamps_using_pyseqmatcher.py` | LLM task extraction + SequenceMatcher timestamps |
-| `tasks_with_timestamps.py`                    | LLM task extraction |
-| `extract_frames_from_timestamps.py`           | Frame extraction using ffmpeg |
-| `prompt_for_tasks_with_timestamps.txt`        | LLM prompt template |
-| `extract_frames_from_subtasks.py`             | Frame extractions |
-| `frame_captions.py`                           | Removal of duplicates and Frame captioning |
-
----
-
-## ⚠️ Known Limitations
-
-- Python Sequence Matcher timestamps are approximate  
-- S1 fails on long prompts (4096 max context)  
-- Qwen is strongly recommended for segment selection  
+| Script | Purpose |
+|------|------|
+| timestamps_using_yt_subtitles.py | Download YouTube auto-captions |
+| timestamps_using_whisper.py | Local Whisper ASR |
+| split_speech_vs_nospeech.py | Speech filtering |
+| align_tasks_with_timestamp.py | Legacy alignment |
+| tasks_with_timestamps.py | LLM task + timestamp extraction |
+| extract_frames_from_subtasks.py | Frame extraction |
+| frame_captions.py | Frame deduplication & captioning |
+| subtask_guidance.py | Robot guidance generation |
+| batch_export_all_videos.py | Export guidance to TXT |
 
 ---
 
 ## ⭐ Recommended Workflow
 
 ```
-Whisper → Qwen (segment ID selection) → JSON → Frame Extraction → Frame Captions → HTML/DOCX reports
+Whisper
+  → Qwen (SEGMENT_IDS)
+  → Task/Subtask JSON
+  → Frame Extraction
+  → Frame Captioning
+  → Subtask Guidance
+  → TXT / HTML / DOCX
+  → Qwen LoRA Training
 ```
 
-This ensures:
-- Reliable task extraction  
-- True segment-level timestamps  
-- Accurate frame selection  
-- Clean visual documentation
+### Guarantees
+- Long-video support
+- True segment-level timestamps
+- Visual grounding
+- Robot-centric, structured supervision
+- Clean, reusable training data
