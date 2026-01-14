@@ -1,0 +1,730 @@
+{
+  "video_index": "8ulpy_GFLDk",
+  "title": "Soil Preparation for Crop Production Processes Explained",
+  "url": "https://www.youtube.com/watch?v=8ulpy_GFLDk",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Explains the importance of soil preparation for agricultural practices.",
+  "tasks": [
+    {
+      "task": "Describe the process of soil preparation in agriculture.",
+      "start": 9.81,
+      "end": 118.81,
+      "subtasks": [
+        {
+          "text": "Explain why soil needs to be loosened before cultivation.",
+          "start": 9.81,
+          "end": 15.51,
+          "segment_ids": [
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "8ulpy_GFLDk/task00_sub00_f00.jpg",
+              "caption": "The video frame shows an agricultural scene with a man holding a hoe in a field.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "8ulpy_GFLDk/task00_sub00_f01.jpg",
+              "caption": "A cartoon character with a moustache is holding a pickaxe in a green circle, surrounded by numbered buttons.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "8ulpy_GFLDk/task00_sub00_f02.jpg",
+              "caption": "A cartoon character with a moustache and a walking stick is shown in a green circle with numbers 1 to 4 below it.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Before cultivation, soil needs to be loosened to improve aeration, drainage, and root penetration, which enhances plant growth and health.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A man is seen holding a hoe in a field, indicating manual soil preparation.",
+            "- [frames=[1]] A cartoon character with a moustache holds a pickaxe, symbolizing the action of loosening soil.",
+            "- [frames=[2]] The same character is shown with a walking stick, possibly indicating the need for physical effort.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from a real agricultural setting to a cartoon representation, emphasizing the concept of soil loosening through various tools and actions.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a hoe or similar tool for soil manipulation.",
+            "- The robot must be able to identify and navigate to the soil area.",
+            "- The robot should have the capability to lift and move the tool.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The soil should be visibly loosened after the operation.",
+            "- The robot should be able to confirm the depth and extent of soil loosening.",
+            "- The area should be free of obstructions post-operation.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Navigate to the designated soil area.",
+            "2. [type=perception, frames=[0]] Scan the soil surface to assess its current condition.",
+            "3. [type=manipulation, frames=[1]] Use the hoe to loosen the soil, starting from the surface and moving downwards.",
+            "4. [type=manipulation, frames=[1]] Continue loosening the soil in a systematic manner, ensuring even coverage.",
+            "5. [type=perception, frames=[1]] Verify the depth of soil loosening using sensors.",
+            "6. [type=navigation, frames=[1]] Move.",
+            "7. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the designated soil area. It then verifies the key detail directly from the frames (Verify the depth of soil loosening using sensors).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Mention the role of earthworms in soil aeration.",
+          "start": 56.81,
+          "end": 64.81,
+          "segment_ids": [
+            14,
+            15
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f00.jpg",
+              "relative_path": "8ulpy_GFLDk/task00_sub01_f00.jpg",
+              "caption": "The video frame shows a diagram of soil with the words \"Loosened soil\" and two bullet points indicating \"More air passage\" and \"Good crop production",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "8ulpy_GFLDk/task00_sub01_f01.jpg",
+              "caption": "The video frame shows a close-up of earthworms in the soil.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "8ulpy_GFLDk/task00_sub01_f02.jpg",
+              "caption": "The video frame shows a brown background with the words \"Earthworms\" and \"Loosen the soil\" written on it.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will explain the role of earthworms in soil aeration during the process of soil preparation for crop production.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The video frame shows a diagram of soil with the words \"Loosened soil\" and two bullet points indicating \"More air passage\" and \"Good crop production.\"",
+            "- [frames=[1]] A close-up of earthworms in the soil is shown.",
+            "- [frames=[2]] The video frame displays a brown background with the words \"Earthworms\" and \"Loosen the soil\" written on it.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from showing the benefits of loosened soil to focusing on earthworms and their role in soil aeration. Earthworms contribute to soil aeration by creating channels that allow air to pass through the soil more easily, which is crucial for good crop production.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have knowledge about soil preparation and the role of earthworms.",
+            "- The robot should be able to access and display diagrams and images.",
+            "- The robot should be capable of verbal communication to explain the concept.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the role of earthworms in soil aeration.",
+            "- The robot should mention the benefits of earthworm activity in the soil.",
+            "- The robot should visually confirm the presence of earthworms in the soil.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Read the diagram showing the benefits of loosened soil.",
+            "2. [type=communication, frames=[0]] Explain how loosened soil allows for better air passage and good crop production.",
+            "3. [type=manipulation, frames=[1]] Focus on the close-up of earthworms in the soil.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Read the diagram showing the benefits of loosened soil. It then verifies the key detail directly from the frames (Read the diagram showing the benefits of loosened soil).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Describe how loosening soil helps retain water.",
+          "start": 67.81,
+          "end": 70.81,
+          "segment_ids": [
+            17
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub02_f00.jpg",
+              "relative_path": "8ulpy_GFLDk/task00_sub02_f00.jpg",
+              "caption": "The video frame shows a slide with the title \"Earthworms\" and two bullet points: \"Loosen the soil\" and \"Soil aeration.\"",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub02_f01.jpg",
+              "relative_path": "8ulpy_GFLDk/task00_sub02_f01.jpg",
+              "caption": "The video shows a diagram of a loosed soil with text explaining its benefits.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub02_f02.jpg",
+              "relative_path": "8ulpy_GFLDk/task00_sub02_f02.jpg",
+              "caption": "The video frame shows a diamond-shaped blue object on a cracked soil surface, with text explaining its benefits.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Loosening the soil improves its ability to retain water, which is crucial for crop growth. This subtask explains how earthworm activity and proper soil aeration contribute to better water retention.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The slide titled \"Earthworms\" lists \"Loosen the soil\" and \"Soil aeration\" as key points.",
+            "- [frames=[1]] A diagram of loosed soil is shown, highlighting its benefits.",
+            "- [frames=[2]] A diamond-shaped blue object is depicted on a cracked soil surface, with explanatory text.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from explaining the role of earthworms in loosening soil to showing the benefits of aeration through a diagram and a visual representation of a well-loosed soil surface.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to observe the soil conditions.",
+            "- The robot needs to have knowledge about soil aeration and water retention.",
+            "- The robot should be able to navigate to the area where the soil is being prepared.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The soil should show signs of improved aeration and structure.",
+            "- Water retention should be enhanced, as indicated by the presence of moisture in the soil.",
+            "- The robot should confirm that the soil is now more conducive to plant growth.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Read the slide to understand the importance of soil loosening and aeration.",
+            "2. [type=navigation, frames=[1]] Navigate to the diagram of loosed soil to analyze its benefits.",
+            "3. [type=perception, frames=[1]] Verify the diagram's explanation of soil aeration and water retention.",
+            "4. [type=navigation, frames=[2]] Move to the area where the diamond-shaped blue object is placed on the.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Read the slide to understand the importance of soil loosening and aeration. It then verifies the key detail directly from the frames (Read the slide to understand the importance of soil loosening and aeration).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Explain the process of decomposition and how it forms humus.",
+          "start": 78.31,
+          "end": 94.31,
+          "segment_ids": [
+            20,
+            21,
+            22
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub03_f00.jpg",
+              "relative_path": "8ulpy_GFLDk/task00_sub03_f00.jpg",
+              "caption": "The video frame shows a question about humus.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub03_f01.jpg",
+              "relative_path": "8ulpy_GFLDk/task00_sub03_f01.jpg",
+              "caption": "The video frame shows a graphic of a plant growing in a soil-like environment.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub03_f02.jpg",
+              "relative_path": "8ulpy_GFLDk/task00_sub03_f02.jpg",
+              "caption": "The video frame shows a dark background with the word \"Humus\" in green text.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub03_f03.jpg",
+              "relative_path": "8ulpy_GFLDk/task00_sub03_f03.jpg",
+              "caption": "The video frame shows a black background with a white box containing the word \"Humus\" and a description of decomposed matter rich in nutrients.",
+              "frame_index": 3
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will explain the process of decomposition and how it forms humus, using visual aids to enhance understanding.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The video frame shows a question about humus, setting the context for the explanation.",
+            "- [frames=[1]] A graphic of a plant growing in a soil-like environment is displayed, illustrating the importance of healthy soil.",
+            "- [frames=[2]] A dark background with the word \"Humus\" in green text appears, highlighting the key term.",
+            "- [frames=[3]] A black background with a white box containing the word \"Humus\" and a description of decomposed matter rich in nutrients is shown, providing detailed information.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from a question about humus to a visual representation of plant growth, emphasizing its significance. The word \"Humus\" is prominently featured, followed by a detailed description of its composition and benefits.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to the video frames and their descriptions.",
+            "- The robot needs to be able to read and interpret the text on the frames.",
+            "- The robot should be capable of navigating through the frames and performing actions based on the scene understanding.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully explains the process of decomposition and how it forms humus.",
+            "- The robot accurately describes the role of humus in soil health.",
+            "- The robot verifies the correct understanding of the audience through visual cues and explanations.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Navigate to the frame showing the question about humus.",
+            "2. [type=perception, frames=[0]] Read the question and confirm the topic of discussion.",
+            "3. [type=navigation, frames=[1]] Move to the frame displaying the plant growing in soil.",
+            "4. [type=perception, frames=[0,1,2,3]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2,3]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the frame showing the question about humus. It then verifies the key detail directly from the frames (Read the question and confirm the topic of discussion).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Describe the benefit of loosening soil for plant nutrient uptake.",
+          "start": 97.31,
+          "end": 118.81,
+          "segment_ids": [
+            24,
+            25,
+            26,
+            27
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub04_f01.jpg",
+              "relative_path": "8ulpy_GFLDk/task00_sub04_f01.jpg",
+              "caption": "The video frame shows a dark, textured surface with a small, colorful logo in the top right corner.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub04_f02.jpg",
+              "relative_path": "8ulpy_GFLDk/task00_sub04_f02.jpg",
+              "caption": "The video frame shows a brown and black abstract pattern with a small blue triangle in the top right corner.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub04_f03.jpg",
+              "relative_path": "8ulpy_GFLDk/task00_sub04_f03.jpg",
+              "caption": "The video frame shows a brown background with horizontal lines.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task00_sub04_f04.jpg",
+              "relative_path": "8ulpy_GFLDk/task00_sub04_f04.jpg",
+              "caption": "The video frame shows a diamond-shaped object with the words \"Loosened soil\" on it, and it is surrounded by a cracked soil background.",
+              "frame_index": 4
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will explain the benefits of loosening soil for better plant nutrient uptake, using visual aids to enhance understanding.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A dark, textured surface with a small, colorful logo in the top right corner.",
+            "- [frames=[2]] A brown and black abstract pattern with a small blue triangle in the top right corner.",
+            "- [frames=[3]] A brown background with horizontal lines.",
+            "- [frames=[4]] A diamond-shaped object with the words \"Loosened soil\" on it, surrounded by a cracked soil background.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The frames show various textures and patterns related to soil, with a focus on the concept of loosened soil. The final frame visually emphasizes the topic by displaying the term \"Loosened soil\" within a cracked soil background, indicating the importance of soil structure for plant growth.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to the tutorial video.",
+            "- The robot should be able to read and interpret the video frames.",
+            "- The robot should have knowledge about soil preparation and its benefits.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the benefits of loosening soil.",
+            "- The robot should correctly identify and highlight the key points in the video frames.",
+            "- The robot should ensure the explanation is clear and understandable.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Read the texture of the soil in the first frame to understand the initial state.",
+            "2. [type=perception, frames=[2]] Analyze the abstract pattern to recognize different soil components.",
+            "3. [type=perception, frames=[3]] Observe the horizontal lines to understand the soil layers.",
+            "4. [type=communication, frames=[4]] Display the \"Loosened soil\" diamond shape to emphasize the.",
+            "5. [type=navigation, frames=[1,2,3,4]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Read the texture of the soil in the first frame to understand the initial state. It then verifies the key detail directly from the frames (Read the texture of the soil in the first frame to understand the initial state). After verification, it communicates the result clearly (Display the \"Loosened soil\" diamond shape to emphasize the).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Describe the equipment used for soil preparation in agriculture.",
+      "start": 129.31,
+      "end": 170.81,
+      "subtasks": [
+        {
+          "text": "Mention the plough and its role in loosening soil.",
+          "start": 129.31,
+          "end": 136.81,
+          "segment_ids": [
+            31,
+            32,
+            33
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "8ulpy_GFLDk/task01_sub00_f00.jpg",
+              "caption": "The video frame shows a dry, cracked landscape with the words \"Tilling or Ploughing\" written above it.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "8ulpy_GFLDk/task01_sub00_f01.jpg",
+              "caption": "The video frame shows a plough on a dry, cracked field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "8ulpy_GFLDk/task01_sub00_f02.jpg",
+              "caption": "The video frame shows a plough on a dry, cracked field, indicating the process of tilling or ploughing.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment describes the use of a plough in soil preparation, highlighting its role in loosening the soil for crop production.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The video frame shows a dry, cracked landscape with the words \"Tilling or Ploughing\" written above it.",
+            "- [frames=[1,2]] The video frame shows a plough on a dry, cracked field, indicating the process of tilling or ploughing.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a dry, cracked landscape where a plough is being used to prepare the soil for planting crops. The plough is shown moving through the field, breaking up the hard, compacted earth.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to observe the field conditions.",
+            "- The robot should have knowledge of agricultural tools and their functions.",
+            "- The robot should be able to navigate the field without obstacles.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The plough should be correctly identified and described.",
+            "- The robot should accurately explain the role of the plough in soil preparation.",
+            "- The robot should provide a clear understanding of how the plough affects the soil structure.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Uses its camera to identify the landscape and the presence of the plough.",
+            "2. [type=perception, frames=[1,2]] Confirm the plough's movement across the field.",
+            "3. [type=manipulation, frames=[1,2]] Simulates the action of the plough to demonstrate its function.",
+            "4. [type=communication, frames=[0,1,2]] Explains that the plough loosens the soil, making it suitable for planting.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Uses its camera to identify the landscape and the presence of the plough. It then verifies the key detail directly from the frames (Confirm the plough's movement across the field).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Explain why it might be necessary to water the soil before plowing if it is hard.",
+          "start": 150.81,
+          "end": 154.81,
+          "segment_ids": [
+            39
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f00.jpg",
+              "relative_path": "8ulpy_GFLDk/task01_sub01_f00.jpg",
+              "caption": "The video frame shows a striped pattern with alternating brown and beige colors.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "8ulpy_GFLDk/task01_sub01_f01.jpg",
+              "caption": "The video frame shows a striped pattern with alternating brown and orange colors.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "8ulpy_GFLDk/task01_sub01_f02.jpg",
+              "caption": "The video frame shows a striped pattern with alternating brown and tan colors.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Before plowing hard soil, watering the soil is necessary to make it more workable and reduce dust. This process ensures the soil is in optimal condition for the next steps in crop production.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The video frame shows a striped pattern with alternating brown and beige colors, indicating dry, hard soil.",
+            "- [frames=[1]] The video frame changes to a striped pattern with alternating brown and orange colors, suggesting the soil is starting to soften.",
+            "- [frames=[2]] The video frame now displays a striped pattern with alternating brown and tan colors, showing further softening of the soil.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts the transformation of hard, dry soil into softer, more pliable soil through the process of watering. This change is crucial for preparing the ground for plowing, ensuring that the soil can be worked without causing excessive dust or compaction.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a watering system capable of delivering water to the soil.",
+            "- The robot needs to have sensors to detect the moisture level of the soil.",
+            "- The robot must have the ability to navigate to the area where the soil needs to be watered.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The soil should show signs of softening and becoming more pliable.",
+            "- The moisture level of the soil should be within an optimal range for plowing.",
+            "- The robot should be able to confirm that the soil is ready for plowing by measuring its moisture content.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Navigate to the area where the soil needs to be watered.",
+            "2. [type=perception, frames=[0]] Use soil moisture sensors to measure the current moisture level of the soil.",
+            "3. [type=manipulation, frames=[1]] Activate.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the area where the soil needs to be watered. It then verifies the key detail directly from the frames (Use soil moisture sensors to measure the current moisture level of the soil).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Describe the process of breaking down chunks of soil after plowing.",
+          "start": 154.81,
+          "end": 158.81,
+          "segment_ids": [
+            40
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub02_f01.jpg",
+              "relative_path": "8ulpy_GFLDk/task01_sub02_f01.jpg",
+              "caption": "The video frame shows a section of a soil profile with the words \"Tilling or Ploughing\" written above it.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub02_f02.jpg",
+              "relative_path": "8ulpy_GFLDk/task01_sub02_f02.jpg",
+              "caption": "A cartoon scene shows a field with layers of soil and mountains in the background.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on describing the process of breaking down soil chunks after plowing, which is a crucial step in soil preparation for crop production.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] The video frame shows a section of a soil profile with the words \"Tilling or Ploughing\" written above it.",
+            "- [frames=[2]] A cartoon scene depicts a field with layers of soil and mountains in the background, indicating the context of agricultural land preparation.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene illustrates the immediate aftermath of plowing, where large chunks of soil remain. Tilling or ploughing is the initial step that breaks up the soil, but the process is incomplete without further action to ensure the soil is fine and ready for planting.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with sensors to detect soil conditions.",
+            "- The robot needs to be within the field area.",
+            "- The robot must have access to the necessary tools for soil manipulation.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The soil should be free of large chunks.",
+            "- The soil should be finely broken down to an appropriate texture for planting.",
+            "- The robot should be able to confirm the soil condition through sensor readings.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate to the area where the soil chunks are visible.",
+            "2. [type=perception, frames=[1]] Use the robot's camera to verify the presence of large soil chunks.",
+            "3. [type=manipulation, frames=[2]] Deploy the soil-breaking tool to start breaking down the larger chunks.",
+            "4. [type=manipulation, frames=[2]] Continue using the tool to break down any remaining large chunks until they are sufficiently small.",
+            "5. [type=perception, frames=[2]] Check the soil texture using the robot’s sensors.",
+            "6. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the area where the soil chunks are visible. It then verifies the key detail directly from the frames (Use the robot's camera to verify the presence of large soil chunks).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Explain how soil needs to be leveled for seed sowing.",
+          "start": 158.81,
+          "end": 162.81,
+          "segment_ids": [
+            41
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub03_f01.jpg",
+              "relative_path": "8ulpy_GFLDk/task01_sub03_f01.jpg",
+              "caption": "The video shows a field with rows of crops and mountains in the background.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub03_f02.jpg",
+              "relative_path": "8ulpy_GFLDk/task01_sub03_f02.jpg",
+              "caption": "The video shows a field with rows of crops and mountains in the background.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to explain how soil is leveled for seed sowing, ensuring the field is prepared for planting.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] The field is shown with rows of crops and mountains in the background.",
+            "- [frames=[2]] The view remains the same, showing the field with rows of crops and mountains in the background.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a field with rows of crops already planted, indicating that the soil has been prepared for subsequent planting activities. The presence of mountains in the background suggests the area is hilly, necessitating leveling for optimal crop growth.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to observe the field.",
+            "- The robot must have knowledge of agricultural practices and tools.",
+            "- The robot should be able to communicate the explanation clearly to the viewer.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The field should appear flat and level.",
+            "- Rows of crops should be visible and evenly spaced.",
+            "- The explanation should be clear and concise.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Uses its camera to capture an image of the field.",
+            "2. [type=perception, frames=[1]] Analyze the image to identify uneven areas in the field.",
+            "3. [type=navigation, frames=[1]] Moves to a position where it can clearly see the entire field.",
+            "4. [type=communication, frames=[1]] Explains the importance of leveling the soil for seed sowing.",
+            "5. [type=navigation, frames=[1]] Moves to a section of the field that appears uneven.",
+            "6. [type=manipulation, frames=[1]] Simulates using a soil leveling tool to demonstrate the process.",
+            "7. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "8. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Uses its camera to capture an image of the field. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Mention the use of manure to improve soil fertility.",
+          "start": 166.81,
+          "end": 170.81,
+          "segment_ids": [
+            43,
+            44
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub04_f00.jpg",
+              "relative_path": "8ulpy_GFLDk/task01_sub04_f00.jpg",
+              "caption": "The video shows a cross-section of a soil profile with the words \"Infertile soil\" on it.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub04_f01.jpg",
+              "relative_path": "8ulpy_GFLDk/task01_sub04_f01.jpg",
+              "caption": "A bag of manure is shown in a field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub04_f02.jpg",
+              "relative_path": "8ulpy_GFLDk/task01_sub04_f02.jpg",
+              "caption": "A bag of manure is shown in a circle on a field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment explains how manure is used to improve soil fertility, transitioning from an infertile soil profile to the application of manure.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The video shows a cross-section of a soil profile labeled \"Infertile soil.\"",
+            "- [frames=[1]] A bag of manure is visible in a field.",
+            "- [frames=[2]] Another view of the same bag of manure is shown in a circular frame within the field.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shifts from showing an infertile soil profile to highlighting the introduction of manure as a method to enhance soil fertility. This transition visually demonstrates the improvement in soil quality through the addition of organic matter.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with sensors to detect soil conditions.",
+            "- The robot needs to have access to a storage area containing manure bags.",
+            "- The robot must be capable of navigating the field terrain.",
+            "- The robot should have the ability to lift and transport objects.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The manure bag should be correctly identified and positioned.",
+            "- The manure should be spread evenly across the field.",
+            "- The soil profile should show signs of improved fertility.",
+            "- The robot should return to its initial position after completing the task.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the location where the manure bag is placed.",
+            "2. [type=perception, frames=[1]] Verify the presence of the manure bag using onboard cameras.",
+            "3. [type=manipulation, frames=[2]] Lift the manure bag from the ground.",
+            "4. [type=navigation, frames=[2]] Transport the manure bag to the designated spreading area.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the location where the manure bag is placed. It then verifies the key detail directly from the frames (Verify the presence of the manure bag using onboard cameras).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

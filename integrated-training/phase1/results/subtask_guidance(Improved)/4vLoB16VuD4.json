@@ -1,0 +1,225 @@
+{
+  "video_index": "4vLoB16VuD4",
+  "title": "Aeroponic Garden Setup in Tahiti Countryside",
+  "url": "https://www.youtube.com/watch?v=4vLoB16VuD4",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "The video discusses an aeroponic farm setup in Tahiti and highlights local crop cultivation.",
+  "tasks": [
+    {
+      "task": "Describe the setting and crops being grown.",
+      "start": 0.0,
+      "end": 16.08,
+      "subtasks": [
+        {
+          "text": "Observe the aeroponic tower farm being set up in the countryside of Tahiti.",
+          "start": 0.0,
+          "end": 5.12,
+          "segment_ids": [
+            0
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "4vLoB16VuD4/task00_sub00_f00.jpg",
+              "caption": "A woman is standing on a ladder next to a series of white towers in a grassy area.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "4vLoB16VuD4/task00_sub00_f01.jpg",
+              "caption": "A couple stands on a wooden platform with their arms outstretched, overlooking a scenic coastal landscape.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "4vLoB16VuD4/task00_sub00_f02.jpg",
+              "caption": "A line of white vertical towers with green bases stand on a grassy lawn.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "A woman is setting up an aeroponic tower farm in the countryside of Tahiti, with the help of others, overlooking a scenic coastal landscape.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A woman is standing on a ladder next to a series of white towers in a grassy area.",
+            "- [frames=[1]] A couple stands on a wooden platform with their arms outstretched, overlooking a scenic coastal landscape.",
+            "- [frames=[2]] A line of white vertical towers with green bases stand on a grassy lawn.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts the initial setup of an aeroponic tower farm in a picturesque countryside setting. The towers, which are likely filled with plants, are positioned on a grassy lawn, and the presence of a woman on a ladder suggests she is preparing to install or adjust something within the towers.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a ladder or climbing mechanism.",
+            "- The robot should have the ability to recognize and interact with the white towers.",
+            "- The robot should be able to navigate through the grassy area.",
+            "- The robot should have a camera to observe the setup process.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The towers should be properly installed and positioned.",
+            "- The green bases of the towers should be visible and intact.",
+            "- The robot should confirm the presence of the towers and their correct orientation.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Move the robot to the location where the woman is standing on the ladder.",
+            "2. [type=perception, frames=[0]] Use the robot's camera to verify the presence of the white towers.",
+            "3. [type=navigation, frames=[1]] Navigate the robot to the wooden platform where the couple is standing.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move the robot to the location where the woman is standing on the ladder. It then verifies the key detail directly from the frames (Use the robot's camera to verify the presence of the white towers).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Note the diverse crops including leafy greens, herbs like cilantro and parsley, and vegetables such as buck choy.",
+          "start": 5.12,
+          "end": 16.08,
+          "segment_ids": [
+            1,
+            2,
+            3
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "4vLoB16VuD4/task00_sub01_f01.jpg",
+              "caption": "A person is harvesting lettuce from a vertical garden.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "4vLoB16VuD4/task00_sub01_f02.jpg",
+              "caption": "A person is harvesting a large bok choy from a hydroponic system.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene shows a variety of crops being harvested in an aeroponic garden setup in the Tahitian countryside, including leafy greens and specific vegetables like bok choy.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A person is harvesting lettuce from a vertical garden.",
+            "- [frames=[2]] A person is harvesting a large bok choy from a hydroponic system.",
+            "- [frames=[1,2]] The background indicates a rural setting with greenery and natural elements typical of the Tahitian countryside.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The video captures a diverse range of crops being grown in an aeroponic garden, highlighting the presence of leafy greens and specific vegetables such as bok choy. The setting is clearly in a rural area of Tahiti, emphasizing the agricultural practices used in the region.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with sensors to identify different types of plants.",
+            "- The robot needs to be familiar with the layout of the garden.",
+            "- The robot should have the necessary tools for harvesting and handling crops.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Correct identification of the harvested crops.",
+            "- Proper handling and placement of the harvested items.",
+            "- Verification that the correct type of crop was harvested.",
+            "- Ensuring the garden remains undamaged during the process.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate to the vertical garden where lettuce is growing.",
+            "2. [type=perception, frames=[1]] Use vision sensors to confirm the presence of lettuce.",
+            "3. [type=manipulation, frames=[1]] Harvest the lettuce using the robotic arm.",
+            "4. [type=navigation, frames=[2]] Move to the hydroponic system where bok choy is growing.",
+            "5. [type=perception, frames=[2]] Use vision sensors to confirm.",
+            "6. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the vertical garden where lettuce is growing. It then verifies the key detail directly from the frames (Use vision sensors to confirm the presence of lettuce).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Explain the benefits of local farming on isolated islands.",
+      "start": 16.08,
+      "end": 25.92,
+      "subtasks": [
+        {
+          "text": "Highlight how growing vegetables locally on an island like Tahiti reduces dependency on imported produce.",
+          "start": 16.08,
+          "end": 25.92,
+          "segment_ids": [
+            4,
+            5
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "4vLoB16VuD4/task01_sub00_f01.jpg",
+              "caption": "A lush, green cilantro plant grows vertically in a container.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "4vLoB16VuD4/task01_sub00_f02.jpg",
+              "caption": "A group of white vertical towers with green bases and holes in the sides are set up outdoors.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Growing vegetables locally on an island like Tahiti reduces dependency on imported produce, highlighting the benefits of local farming.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A lush, green cilantro plant grows vertically in a container, indicating a method of efficient space utilization.",
+            "- [frames=[2]] Vertical towers with green bases and holes in the sides are set up outdoors, suggesting a hydroponic system for vegetable cultivation.",
+            "- [frames=[1,2]] The setup emphasizes the use of vertical space and hydroponics, which are key to reducing land use and increasing yield.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a modern approach to agriculture using vertical hydroponic systems, which are particularly beneficial in island environments where land is limited and transportation costs for imports are high.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the layout of the garden area.",
+            "- The robot should have access to the necessary tools and equipment for setting up and maintaining the hydroponic system.",
+            "- The robot should know the specific types of vegetables to grow and their care requirements.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should successfully set up the hydroponic system.",
+            "- The robot should ensure that the plants are properly positioned and watered.",
+            "- The robot should verify that the system is functioning correctly before leaving.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate to the location where the cilantro plant is growing.",
+            "2. [type=perception, frames=[1]] Verify the health and growth stage of the cilantro plant.",
+            "3. [type=navigation, frames=[2]] Move to the area where the vertical towers are to be installed.",
+            "4. [type=manipulation, frames=[2]] Assemble the vertical towers and place them in the designated outdoor area.",
+            "5. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the location where the cilantro plant is growing. It then verifies the key detail directly from the frames (Verify the health and growth stage of the cilantro plant).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

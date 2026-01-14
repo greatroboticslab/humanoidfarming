@@ -1,0 +1,945 @@
+{
+  "video_index": "2BahTtzq3fQ",
+  "title": "Bell Pepper Plants in Containers Update",
+  "url": "https://www.youtube.com/watch?v=2BahTtzq3fQ",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Provides an update on the author's gardening practices and challenges faced during the growing season.",
+  "tasks": [
+    {
+      "task": "Caring for bell peppers in different growing conditions.",
+      "start": 31.73,
+      "end": 99.26,
+      "subtasks": [
+        {
+          "text": "Observe bell peppers growing in containers and covered with insect barriers.",
+          "start": 31.73,
+          "end": 44.69,
+          "segment_ids": [
+            2,
+            3
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "2BahTtzq3fQ/task00_sub00_f00.jpg",
+              "caption": "A woman in a blue shirt is standing in front of a wooden fence, with a \"SUBSCRIBED\" notification displayed on the screen.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "2BahTtzq3fQ/task00_sub00_f01.jpg",
+              "caption": "A woman in a blue shirt and pink hat is standing in a backyard with a wooden fence and a house in the background.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "2BahTtzq3fQ/task00_sub00_f02.jpg",
+              "caption": "A woman in a blue shirt and cap is holding a pepper in a backyard.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe a woman in a blue shirt and pink hat in a backyard, where she is handling bell peppers under insect barriers.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A woman in a blue shirt is standing in front of a wooden fence, with a \"SUBSCRIBED\" notification displayed on the screen.",
+            "- [frames=[1]] The same woman is now in a backyard with a wooden fence and a house in the background.",
+            "- [frames=[2]] The woman is holding a pepper in her hand.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a woman in a backyard, likely tending to bell peppers in containers, with an insect barrier covering them. The presence of a wooden fence and a house suggests a residential setting.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture the environment.",
+            "- The robot should have the ability to navigate through the backyard.",
+            "- The robot should be able to identify and interact with bell peppers.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should confirm the presence of bell peppers in containers.",
+            "- The robot should verify the insect barriers are intact and properly covering the plants.",
+            "- The robot should measure the growth of the bell peppers if possible.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the backyard area where the woman is located.",
+            "2. [type=perception, frames=[1]] Use the camera to identify the woman and the bell peppers in her hand.",
+            "3. [type=navigation, frames=[2]] Move closer to the woman to observe the bell peppers more closely.",
+            "4. [type=manipulation, frames=[2]] Gently take the bell pepper from the woman's hand.",
+            "5. [type=perception, frames=[2]] Verify the type and condition of the.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the backyard area where the woman is located. It then verifies the key detail directly from the frames (Verify the type and condition of the).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Note the difference between first and second generation bell peppers.",
+          "start": 44.69,
+          "end": 55.49,
+          "segment_ids": [
+            4,
+            5
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "2BahTtzq3fQ/task00_sub01_f01.jpg",
+              "caption": "Two plants are covered with plastic bags in a backyard.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "2BahTtzq3fQ/task00_sub01_f02.jpg",
+              "caption": "Two tomato plants are covered in plastic bags in a backyard.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe and note the differences between first and second generation bell pepper plants, focusing on their growth stages and characteristics.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] Two plants are covered with plastic bags in a backyard.",
+            "- [frames=[2]] Two tomato plants are covered in plastic bags in a backyard.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows two plants, likely bell peppers, covered with plastic bags in a backyard setting. The presence of plastic bags suggests they might be protecting the plants from environmental factors such as pests or extreme weather.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have knowledge about bell pepper plants and their characteristics.",
+            "- The robot needs to be equipped with cameras and sensors to accurately identify and differentiate between plant types.",
+            "- The robot should be able to communicate with the user to confirm observations.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Correctly identify the first and second generation bell pepper plants.",
+            "- Note any visible differences between the two generations.",
+            "- Provide a summary of the observed differences to the user.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1,2]] Capture images of the plants covered with plastic bags.",
+            "2. [type=perception, frames=[1,2]] Analyze the captured images to identify the type of plants.",
+            "3. [type=manipulation, frames=[1,2]] Remove the plastic bags from the plants to observe them more closely.",
+            "4. [type=perception, frames=[1,2]] Examine the plants for any visible differences in size, color, or leaf structure.",
+            "5. [type=communication, frames=[1,2]] Report the observed differences to the user.",
+            "6. [type=manipulation, frames=[1,2]] Replace the plastic bags over the plants.",
+            "7. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "8. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture images of the plants covered with plastic bags. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting). After verification, it communicates the result clearly (Report the observed differences to the user).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Describe the overwintering of a bell pepper plant indoors.",
+          "start": 55.49,
+          "end": 75.78,
+          "segment_ids": [
+            6,
+            7
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub02_f01.jpg",
+              "relative_path": "2BahTtzq3fQ/task00_sub02_f01.jpg",
+              "caption": "Two tomato plants are covered in plastic bags in a backyard.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub02_f02.jpg",
+              "relative_path": "2BahTtzq3fQ/task00_sub02_f02.jpg",
+              "caption": "A person is tending to plants in a garden, with one plant covered in a plastic bag.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub02_f03.jpg",
+              "relative_path": "2BahTtzq3fQ/task00_sub02_f03.jpg",
+              "caption": "A person is spraying plants in a garden with a hose.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task00_sub02_f04.jpg",
+              "relative_path": "2BahTtzq3fQ/task00_sub02_f04.jpg",
+              "caption": "A person in a blue shirt is holding a plastic bag over a plant.",
+              "frame_index": 4
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask involves describing how to properly overwinter a bell pepper plant indoors, focusing on covering it with a plastic bag to protect it from cold temperatures.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] Two tomato plants are covered in plastic bags in a backyard.",
+            "- [frames=[2]] A person is tending to plants in a garden, with one plant covered in a plastic bag.",
+            "- [frames=[3]] A person is spraying plants in a garden with a hose.",
+            "- [frames=[4]] A person in a blue shirt is holding a plastic bag over a plant.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a gardener preparing a bell pepper plant for overwintering by covering it with a plastic bag. This method helps insulate the plant against cold temperatures, ensuring its survival through winter.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the concept of overwintering plants.",
+            "- The robot needs access to a plastic bag suitable for covering a plant.",
+            "- The robot should know the location of the bell pepper plant in the garden.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The bell pepper plant is successfully covered with a plastic bag.",
+            "- The plant remains undamaged during the process.",
+            "- The robot can confirm the plant is properly covered.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate to the area where the bell pepper plant is located.",
+            "2. [type=perception, frames=[2]] Verify the presence of the bell pepper plant by visually inspecting the garden.",
+            "3. [type=navigation, frames=[4]] Approach the bell pepper plant and pick up a plastic bag.",
+            "4. [type=manipulation, frames=[4]] Place the plastic bag over the bell pepper plant, securing it in place.",
+            "5. [type=navigation, frames=[1,2,3,4]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the area where the bell pepper plant is located. It then verifies the key detail directly from the frames (Verify the presence of the bell pepper plant by visually inspecting the garden).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Point out the current state and harvesting process of bell peppers.",
+          "start": 75.78,
+          "end": 99.26,
+          "segment_ids": [
+            8,
+            9,
+            10
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub03_f01.jpg",
+              "relative_path": "2BahTtzq3fQ/task00_sub03_f01.jpg",
+              "caption": "A woman in a blue shirt tends to plants in a garden.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub03_f02.jpg",
+              "relative_path": "2BahTtzq3fQ/task00_sub03_f02.jpg",
+              "caption": "A person is touching a plant in front of a wooden fence.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub03_f03.jpg",
+              "relative_path": "2BahTtzq3fQ/task00_sub03_f03.jpg",
+              "caption": "A person is tending to a plant in a garden, using a garden hose.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task00_sub03_f04.jpg",
+              "relative_path": "2BahTtzq3fQ/task00_sub03_f04.jpg",
+              "caption": "A person is spraying a plant with a hose.",
+              "frame_index": 4
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe and describe the current state of bell pepper plants and their harvesting process, as demonstrated by a person in a garden setting.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A woman in a blue shirt is tending to plants in a garden.",
+            "- [frames=[2]] A person is touching a plant in front of a wooden fence.",
+            "- [frames=[3]] A person is tending to a plant in a garden, using a garden hose.",
+            "- [frames=[4]] A person is spraying a plant with a hose.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a person in a garden environment, interacting with bell pepper plants. The person is shown tending to the plants, likely checking their health and possibly preparing them for harvesting.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture the scene.",
+            "- The robot should have knowledge about bell pepper plants and their care.",
+            "- The robot should be able to communicate the findings to the viewer.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the current state of the bell pepper plants.",
+            "- The robot should correctly identify any signs of readiness for harvesting.",
+            "- The robot should provide clear instructions on the harvesting process.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Capture an image of the woman tending to the plants.",
+            "2. [type=perception, frames=[2]] Observe the person touching a plant near a wooden fence.",
+            "3. [type=perception, frames=[3]] Monitor the person using a garden hose on a plant.",
+            "4. [type=perception, frames=[4]] Watch the person spraying water on a plant.",
+            "5. [type=perception, frames=[1,2,3,4]] Identify the bell pepper plants and assess their condition.",
+            "6. [type=perception, frames=[1,2,3,4]] Verify/confirm the key observation before reporting.",
+            "7. [type=navigation, frames=[1,2,3,4]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture an image of the woman tending to the plants. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Growing varieties of peppers in a suitable environment.",
+      "start": 99.26,
+      "end": 148.74,
+      "subtasks": [
+        {
+          "text": "Compare the growth of organic store-bought mini peppers.",
+          "start": 99.26,
+          "end": 112.9,
+          "segment_ids": [
+            11,
+            12
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "2BahTtzq3fQ/task01_sub00_f01.jpg",
+              "caption": "A person is using a leaf blower to clean a plant in front of a wooden fence.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "2BahTtzq3fQ/task01_sub00_f02.jpg",
+              "caption": "A green plant with large leaves is growing in a garden.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe and compare the growth of organic store-bought mini peppers in a garden setting.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A person is using a leaf blower to clean a plant in front of a wooden fence.",
+            "- [frames=[2]] A green plant with large leaves is growing in a garden.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a garden where a person is maintaining a plant by cleaning it with a leaf blower. Nearby, there is a green plant with large leaves, likely a pepper plant.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture images of the plants.",
+            "- The robot should have a database of different types of peppers for comparison.",
+            "- The robot should be able to identify and track the growth of plants over time.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the type of pepper being grown.",
+            "- The robot should measure the growth of the pepper plant over the specified period.",
+            "- The robot should compare the growth of the organic store-bought mini peppers to expected standards.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Capture an image of the person using the leaf blower to clean the plant.",
+            "2. [type=perception, frames=[2]] Identify the green plant with large leaves in the garden.",
+            "3. [type=perception, frames=[1]] Verify the plant is a pepper plant by cross-checking with the database.",
+            "4. [type=perception, frames=[2]] Measure the height and width of the plant using a built-in sensor.",
+            "5. [type=communication, frames=[2]] Record the current growth data of the plant.",
+            "6. [type=manipulation, frames=[2]] Take a detailed image of the plant's.",
+            "7. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture an image of the person using the leaf blower to clean the plant. It then verifies the key detail directly from the frames (Verify the plant is a pepper plant by cross-checking with the database).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Highlight the challenges and solutions for growing bell peppers in a semi-arid climate.",
+          "start": 112.94,
+          "end": 148.74,
+          "segment_ids": [
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "2BahTtzq3fQ/task01_sub01_f01.jpg",
+              "caption": "A green and yellow leaf blower is next to a plant in a backyard.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "2BahTtzq3fQ/task01_sub01_f02.jpg",
+              "caption": "A person is tending to a plant in a garden, with a wooden fence in the background.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task01_sub01_f03.jpg",
+              "relative_path": "2BahTtzq3fQ/task01_sub01_f03.jpg",
+              "caption": "A person in a blue shirt is tending to a plant in a garden.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task01_sub01_f04.jpg",
+              "relative_path": "2BahTtzq3fQ/task01_sub01_f04.jpg",
+              "caption": "A person is using a leaf blower to clean leaves from a plant.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task01_sub01_f05.jpg",
+              "relative_path": "2BahTtzq3fQ/task01_sub01_f05.jpg",
+              "caption": "A person is watering a plant in a garden with a hose.",
+              "frame_index": 5
+            },
+            {
+              "image_file": "task01_sub01_f06.jpg",
+              "relative_path": "2BahTtzq3fQ/task01_sub01_f06.jpg",
+              "caption": "A person is tending to a plant in a garden, with a wooden fence in the background.",
+              "frame_index": 6
+            },
+            {
+              "image_file": "task01_sub01_f07.jpg",
+              "relative_path": "2BahTtzq3fQ/task01_sub01_f07.jpg",
+              "caption": "A person is using a garden sprayer to water a plant in a garden.",
+              "frame_index": 7
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment focuses on the challenges faced when growing bell peppers in a semi-arid climate and the solutions implemented by the gardener.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A green and yellow leaf blower is positioned near a plant in a backyard.",
+            "- [frames=[2,3,6]] A person in a blue shirt is seen tending to plants in a garden, with a wooden fence in the background.",
+            "- [frames=[4]] The person uses a leaf blower to clean leaves from a plant.",
+            "- [frames=[5]] The person waters a plant in a garden with a hose.",
+            "- [frames=[7]] The person uses a garden sprayer to water a plant in a garden.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a gardener actively managing a plant in a garden setting, addressing issues such as leaf accumulation and ensuring adequate hydration. The presence of a wooden fence suggests a backyard or small garden area.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a leaf blower.",
+            "- The robot should have a watering system or access to a hose.",
+            "- The robot should be able to identify and locate plants in a garden setting.",
+            "- The robot should be capable of using a garden sprayer.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The plant should be free of excess leaves.",
+            "- The plant should be adequately watered.",
+            "- The plant should show signs of healthy growth.",
+            "- The garden area should be clean and tidy.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate to the location where the plant is situated.",
+            "2. [type=perception, frames=[1]] Verify the presence of a leaf blower.",
+            "3. [type=manipulation, frames=[4]] Use the leaf blower to remove excess leaves from the plant.",
+            "4. [type=perception, frames=[1,2,3,4,5,6,7]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[1,2,3,4,5,6,7]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the location where the plant is situated. It then verifies the key detail directly from the frames (Verify the presence of a leaf blower).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Discuss the benefits and growing techniques of container gardening.",
+      "start": 225.34,
+      "end": 277.54,
+      "subtasks": [
+        {
+          "text": "Describe the setup of a tropical microclimate for growing ginger.",
+          "start": 225.34,
+          "end": 241.98,
+          "segment_ids": [
+            33,
+            34,
+            35
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f00.jpg",
+              "relative_path": "2BahTtzq3fQ/task02_sub00_f00.jpg",
+              "caption": "A person is tending to a plant in a garden, using a green trellis to support the plant.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "2BahTtzq3fQ/task02_sub00_f01.jpg",
+              "caption": "A person is tending to a plant in a garden, using a green trellis to support the plant.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "2BahTtzq3fQ/task02_sub00_f02.jpg",
+              "caption": "A green plant with leaves is growing in a garden with a fence in the background.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task02_sub00_f03.jpg",
+              "relative_path": "2BahTtzq3fQ/task02_sub00_f03.jpg",
+              "caption": "A person is tending to a garden with a green trellis and plants.",
+              "frame_index": 3
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will set up a tropical microclimate suitable for growing ginger in a container garden.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] The person is tending to a plant in a garden, using a green trellis to support it.",
+            "- [frames=[2]] A green plant with leaves is growing in a garden with a fence in the background.",
+            "- [frames=[3]] The person is tending to a garden with a green trellis and plants.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a garden setting where a person is actively involved in gardening activities, including the use of a trellis. The presence of a fence suggests a controlled environment, which could be relevant for creating a tropical microclimate.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to a container suitable for growing ginger.",
+            "- The robot needs to have the necessary tools for setting up a microclimate, such as heaters, humidifiers, and possibly a tent or cover.",
+            "- The robot should be aware of the current weather conditions to ensure they match the tropical climate requirements.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The container should be properly set up to maintain a warm and humid environment.",
+            "- The robot should verify that the temperature and humidity levels are within the required range for ginger growth.",
+            "- The robot should confirm that the container is securely covered to prevent external environmental influences.",
+            "- The robot should measure the initial conditions before and after setting up the microclimate to ensure accuracy.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1,2,3]] Inspect/verify the scene before any physical action.",
+            "2. [type=navigation, frames=[0,1]] Navigate to the garden area where the container is located.",
+            "3. [type=manipulation, frames=[2]] Place the container in a suitable location within the garden.",
+            "4. [type=manipulation, frames=[3]] Assemble the necessary equipment (he.",
+            "5. [type=navigation, frames=[0,1,2,3]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Inspect/verify the scene before any physical action. It then verifies the key detail directly from the frames (Inspect/verify the scene before any physical action).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Explain how to protect a ginger plant from pests.",
+          "start": 241.98,
+          "end": 259.86,
+          "segment_ids": [
+            36,
+            37,
+            38
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub01_f01.jpg",
+              "relative_path": "2BahTtzq3fQ/task02_sub01_f01.jpg",
+              "caption": "A person is tending to a garden with a green plant supported by a metal trellis.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub01_f02.jpg",
+              "relative_path": "2BahTtzq3fQ/task02_sub01_f02.jpg",
+              "caption": "A person is tending to a plant in a garden, using a green metal frame to support the plant.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task02_sub01_f03.jpg",
+              "relative_path": "2BahTtzq3fQ/task02_sub01_f03.jpg",
+              "caption": "A person is tending to a garden with a green plant in a cage.",
+              "frame_index": 3
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe a gardener protecting a ginger plant from pests using a cage and a trellis. The robot will then replicate the process to ensure the plant's safety.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A person is tending to a garden with a green plant supported by a metal trellis.",
+            "- [frames=[2]] A person is tending to a plant in a garden, using a green metal frame to support the plant.",
+            "- [frames=[3]] A person is tending to a garden with a green plant in a cage.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene involves a gardener protecting a ginger plant from pests. The plant is initially supported by a trellis and later placed in a cage. The gardener uses both methods to ensure the plant's health and safety.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with tools to handle plants and cages.",
+            "- The robot should know the location of the ginger plant in the garden.",
+            "- The robot should have access to a trellis and a cage.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The ginger plant should be securely placed in a cage.",
+            "- The trellis should be removed if it was previously used.",
+            "- The plant should be free from visible pests.",
+            "- The plant should be properly supported and protected.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate to the ginger plant in the garden.",
+            "2. [type=perception, frames=[1]] Verify the presence of pests on the plant.",
+            "3. [type=manipulation, frames=[1]] Remove any existing trellis supporting the plant.",
+            "4. [type=manipulation, frames=[3]] Retrieve a cage from storage.",
+            "5. [type=manipulation, frames=[3]] Place the.",
+            "6. [type=navigation, frames=[1,2,3]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the ginger plant in the garden. It then verifies the key detail directly from the frames (Verify the presence of pests on the plant).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Show the current state and harvesting process of a ginger plant.",
+          "start": 259.86,
+          "end": 277.54,
+          "segment_ids": [
+            39,
+            40,
+            41
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub02_f01.jpg",
+              "relative_path": "2BahTtzq3fQ/task02_sub02_f01.jpg",
+              "caption": "A person is using a pressure washer to clean a garden bed.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub02_f02.jpg",
+              "relative_path": "2BahTtzq3fQ/task02_sub02_f02.jpg",
+              "caption": "A garden with plants and a fence, with a hose and a bag nearby.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task02_sub02_f03.jpg",
+              "relative_path": "2BahTtzq3fQ/task02_sub02_f03.jpg",
+              "caption": "A garden scene with a potted plant and a fence in the background.",
+              "frame_index": 3
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe the current state and harvesting process of a ginger plant in a container garden, ensuring it understands the growth stage and readiness for harvest.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A person is using a pressure washer to clean a garden bed, indicating maintenance activities but not directly related to the ginger plant.",
+            "- [frames=[2]] A garden scene with various plants and a fence, showing a general garden setting but no specific ginger plant.",
+            "- [frames=[3]] A close-up of a potted plant, likely the ginger plant, with a fence in the background, clearly showing the plant's current state.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a container garden with multiple plants, including a ginger plant. The ginger plant is in a pot and appears to be in a growth phase, possibly ready for harvesting based on its current state.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have knowledge about container gardening and the specific requirements for ginger plants.",
+            "- The robot needs access to the container garden area.",
+            "- The robot should be equipped with sensors to identify and assess the ginger plant.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the ginger plant in the container.",
+            "- It should verify the plant’s readiness for harvesting by checking its growth stage.",
+            "- The robot should describe the current state of the ginger plant accurately.",
+            "- It should demonstrate the proper harvesting technique for the ginger plant.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[3]] Navigate to the container garden area.",
+            "2. [type=perception, frames=[3]] Use the camera to identify the ginger plant in the pot.",
+            "3. [type=navigation, frames=[3]] Approach the ginger plant gently to avoid damaging it.",
+            "4. [type=perception, frames=[3]] Verify the plant’s.",
+            "5. [type=navigation, frames=[1,2,3]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the container garden area. It then verifies the key detail directly from the frames (Verify the plant’s).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Growing a variety of vegetables and herbs in containers.",
+      "start": 277.54,
+      "end": 335.66,
+      "subtasks": [
+        {
+          "text": "Observe the Perry Morse lettuce growing under partial shade.",
+          "start": 277.54,
+          "end": 292.38,
+          "segment_ids": [
+            42,
+            43
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub00_f01.jpg",
+              "relative_path": "2BahTtzq3fQ/task03_sub00_f01.jpg",
+              "caption": "A person is watering a potted plant in a garden.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub00_f02.jpg",
+              "relative_path": "2BahTtzq3fQ/task03_sub00_f02.jpg",
+              "caption": "A person is tending to a potted plant in a garden.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe a person tending to a potted plant, specifically focusing on the Perry Morse lettuce growing under partial shade.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A person is seen using a watering can to water a potted plant.",
+            "- [frames=[2]] The same person is observed checking the soil moisture and possibly adjusting the plant's position.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a gardener attending to a potted plant, likely ensuring it receives adequate water and light. The plant is situated in a garden setting, possibly under partial shade, which is crucial for the growth of the Perry Morse lettuce.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture the scene.",
+            "- It needs to have the capability to recognize plants and understand their care requirements.",
+            "- The robot must be able to navigate within the garden area.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Verify that the plant is receiving appropriate water.",
+            "- Confirm that the plant is positioned correctly under partial shade.",
+            "- Check that the soil moisture level is suitable for the plant’s needs.",
+            "- Measure the light conditions around the plant.",
+            "- Cross-check the plant identification to ensure it is indeed Perry Morse lettuce.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Capture an image of the person watering the plant.",
+            "2. [type=perception, frames=[2]] Analyze the current state of the plant and its environment.",
+            "3. [type=perception, frames=[1]] Verify that the plant is being watered adequately by checking the watering can.",
+            "4. [type=perception, frames=[2]] Confirm the plant’s position under partial shade by observing its surroundings.",
+            "5. [type=perception, frames=[2]] Measure the soil moisture level to ensure it is appropriate for.",
+            "6. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture an image of the person watering the plant. It then verifies the key detail directly from the frames (Verify that the plant is being watered adequately by checking the watering can).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Demonstrate the method of growing carrots.",
+          "start": 293.06,
+          "end": 311.06,
+          "segment_ids": [
+            44,
+            45,
+            46
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub01_f00.jpg",
+              "relative_path": "2BahTtzq3fQ/task03_sub01_f00.jpg",
+              "caption": "A garden with plants and a fence in the background.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task03_sub01_f01.jpg",
+              "relative_path": "2BahTtzq3fQ/task03_sub01_f01.jpg",
+              "caption": "A person is watering a potted plant in a garden.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub01_f02.jpg",
+              "relative_path": "2BahTtzq3fQ/task03_sub01_f02.jpg",
+              "caption": "A person is tending to a plant in a pot, wearing a baseball cap.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task03_sub01_f03.jpg",
+              "relative_path": "2BahTtzq3fQ/task03_sub01_f03.jpg",
+              "caption": "A person is pointing at a plant in a garden.",
+              "frame_index": 3
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will demonstrate the method of growing carrots in a container, showing the necessary steps from preparation to initial care.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A garden with plants and a fence in the background sets the scene.",
+            "- [frames=[1]] A person is watering a potted plant in a garden, indicating the presence of a container.",
+            "- [frames=[2]] A person is tending to a plant in a pot, wearing a baseball cap, suggesting they are focused on the task.",
+            "- [frames=[3]] A person is pointing at a plant in a garden, likely indicating the carrot plant.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a garden setting where a person is actively engaged in caring for a carrot plant in a container. The background includes other plants and a fence, providing context for a typical vegetable garden.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the location of gardening tools and containers.",
+            "- It should know how to identify a carrot plant in a container.",
+            "- The robot needs to understand basic gardening tasks such as watering and checking soil moisture.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should successfully demonstrate the watering process.",
+            "- It should accurately identify and point to the carrot plant.",
+            "- The robot must ensure the soil is moist but not overly wet.",
+            "- It should confirm the plant is in a suitable container.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Navigate to the garden area.",
+            "2. [type=perception, frames=[1]] Identify a carrot plant in a container.",
+            "3. [type=manipulation, frames=[2]] Water the carrot plant using a watering can.",
+            "4. [type=perception, frames=[3]] Verify the soil is moist by checking the surface.",
+            "5. [type=navigation, frames=[0,1,2,3]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the garden area. It then verifies the key detail directly from the frames (Verify the soil is moist by checking the surface).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Highlight the challenges and benefits of growing pineapples and strawberries in containers.",
+          "start": 311.06,
+          "end": 335.66,
+          "segment_ids": [
+            47,
+            48,
+            49,
+            50
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub02_f01.jpg",
+              "relative_path": "2BahTtzq3fQ/task03_sub02_f01.jpg",
+              "caption": "A person is tending to a potted plant in a backyard.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub02_f02.jpg",
+              "relative_path": "2BahTtzq3fQ/task03_sub02_f02.jpg",
+              "caption": "A person is tending to a plant in a garden.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task03_sub02_f03.jpg",
+              "relative_path": "2BahTtzq3fQ/task03_sub02_f03.jpg",
+              "caption": "A person is watering a potted plant in a backyard.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task03_sub02_f04.jpg",
+              "relative_path": "2BahTtzq3fQ/task03_sub02_f04.jpg",
+              "caption": "A person is tending to a plant in a wooden planter in a backyard garden.",
+              "frame_index": 4
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask involves highlighting the challenges and benefits of growing pineapples and strawberries in containers, which is demonstrated through various gardening activities in a backyard setting.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1,2]] A person is tending to plants in different types of containers, including pots and wooden planters.",
+            "- [frames=[3]] The person is watering a potted plant, indicating regular maintenance required for container gardening.",
+            "- [frames=[4]] The person is interacting with a plant in a wooden planter, suggesting the use of multiple container types.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a backyard garden where various container gardening activities are taking place. The focus is on the care and maintenance of pineapple and strawberry plants, showcasing the versatility of container gardening.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the types of plants being grown (pineapple and strawberry).",
+            "- The robot needs to know how to handle different container types (pots, wooden planters).",
+            "- The robot should be aware of the tasks involved in container gardening, such as watering and tending to plants.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify and describe the challenges and benefits of growing pineapples and strawberries in containers.",
+            "- The robot should demonstrate an understanding of the gardening activities shown in the video.",
+            "- The robot should provide a clear and concise summary of the subtask.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1,2]] Identify the types of plants and containers being used by the gardener.",
+            "2. [type=perception, frames=[3]] Observe the act of watering a potted plant to understand the maintenance requirements.",
+            "3. [type=manipulation, frames=[4]] Mimic the action of tending to a plant in a wooden planter to.",
+            "4. [type=perception, frames=[1,2,3,4]] Verify/confirm the key observation before reporting.",
+            "5. [type=navigation, frames=[1,2,3,4]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the types of plants and containers being used by the gardener. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

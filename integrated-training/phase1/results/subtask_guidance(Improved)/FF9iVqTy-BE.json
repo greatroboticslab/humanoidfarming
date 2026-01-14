@@ -1,0 +1,476 @@
+{
+  "video_index": "FF9iVqTy-BE",
+  "title": "Batata Project: Aiming for Sustainable Agriculture",
+  "url": "https://www.youtube.com/watch?v=FF9iVqTy-BE",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "The transcript describes agricultural practices and the effects of a project aimed at reducing chemical usage and improving decision-making for farmers.",
+  "tasks": [
+    {
+      "task": "Describe the agricultural practices and project objectives.",
+      "start": 73.3,
+      "end": 261.39,
+      "subtasks": [
+        {
+          "text": "The speaker discusses the use of chemical substances without expert advice in the project.",
+          "start": 73.3,
+          "end": 77.3,
+          "segment_ids": [
+            1
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "FF9iVqTy-BE/task00_sub00_f00.jpg",
+              "caption": "A man in a potato field talks about growing potatoes.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "FF9iVqTy-BE/task00_sub00_f01.jpg",
+              "caption": "A man in a hat stands in a field of green plants.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "FF9iVqTy-BE/task00_sub00_f02.jpg",
+              "caption": "Ahmad Fares, a potato farmer, talks about using a lot of chemical fertilizers before a project.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The speaker, likely a potato farmer named Ahmad Fares, discusses the misuse of chemical substances in the project without expert advice.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A man in a potato field talks about growing potatoes.",
+            "- [frames=[1]] A man in a hat stands in a field of green plants.",
+            "- [frames=[2]] Ahmad Fares, a potato farmer, talks about using a lot of chemical fertilizers before a project.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a potato farmer discussing the use of chemical fertilizers in his field. The farmer is likely explaining how he previously used excessive amounts of chemicals without proper guidance.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the current location in the potato field.",
+            "- The robot should have access to information about the project and its goals.",
+            "- The robot should be able to communicate with the farmer.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the farmer speaking.",
+            "- The robot should correctly interpret the discussion about chemical usage.",
+            "- The robot should verify the farmer's statement about the misuse of chemicals.",
+            "- The robot should confirm the need for expert advice in future practices.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Move to the area where the farmer is standing.",
+            "2. [type=perception, frames=[0]] Identify the farmer by facial recognition.",
+            "3. [type=perception, frames=[0]] Confirm the identity of the farmer.",
+            "4. [type=perception, frames=[2]] Verify the farmer's statement about using excessive chemical fertilizers.",
+            "5. [type=communication, frames=[2]] Retrieve a tablet or device to display information on sustainable agriculture practices.",
+            "6. [type=communication, frames=[2]] Provide information on the importance of expert advice in chemical usage.",
+            "7. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to the area where the farmer is standing. It then verifies the key detail directly from the frames (Confirm the identity of the farmer).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Mention the reduction in chemical use and its impact on monetary costs for farmers.",
+          "start": 165.3,
+          "end": 170.3,
+          "segment_ids": [
+            27,
+            28,
+            29
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f00.jpg",
+              "relative_path": "FF9iVqTy-BE/task00_sub01_f00.jpg",
+              "caption": "A man in a field talks about the dangers of pesticides near bees.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "FF9iVqTy-BE/task00_sub01_f01.jpg",
+              "caption": "A man in a market talks about following the advice of project staff.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "FF9iVqTy-BE/task00_sub01_f02.jpg",
+              "caption": "A man in a market talks about following the advice of project staff.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should observe the farmer discussing the reduction in chemical use and its financial benefits, emphasizing the transition towards more sustainable agricultural practices.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The man in the field is talking about the dangers of pesticides near bees.",
+            "- [frames=[1,2]] The man in the market is seen twice, discussing his adherence to the project staff's advice.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shifts from a field discussion on pesticide dangers to a market conversation where the farmer emphasizes following the project staff’s advice, likely related to reducing chemical use.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot must be able to recognize the farmer and understand the context of agricultural practices.",
+            "- It needs to comprehend the significance of chemical reduction and its economic impact.",
+            "- The robot should have knowledge of sustainable agriculture and its benefits.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately convey the reduction in chemical use and its positive impact on monetary costs for farmers.",
+            "- It must ensure the information aligns with the project’s objectives of promoting sustainable agriculture.",
+            "- The robot should highlight the farmer’s adherence to project staff advice.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigates to the field where the farmer discusses pesticide dangers.",
+            "2. [type=perception, frames=[0]] Listens to the farmer’s concerns about pesticides near bees.",
+            "3. [type=navigation, frames=[1,2]] Moves to the market where the farmer continues the discussion.",
+            "4. [type=perception, frames=[1,2]] Capture the farmer’s emphasis on following project staff advice.",
+            "5. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigates to the field where the farmer discusses pesticide dangers. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Highlight the difference in chemical fertilizer usage from 50% to 60%.",
+          "start": 249.39,
+          "end": 261.39,
+          "segment_ids": [
+            46,
+            47,
+            48,
+            49,
+            50
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub02_f00.jpg",
+              "relative_path": "FF9iVqTy-BE/task00_sub02_f00.jpg",
+              "caption": "A woman in a black blazer and white blouse is standing in front of a backdrop with logos for the Food and Agriculture Organization of the United Nations and the Lebanese",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub02_f01.jpg",
+              "relative_path": "FF9iVqTy-BE/task00_sub02_f01.jpg",
+              "caption": "A woman is speaking in front of a backdrop with FAO logos.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub02_f02.jpg",
+              "relative_path": "FF9iVqTy-BE/task00_sub02_f02.jpg",
+              "caption": "A woman is speaking in front of a backdrop with logos for the Food and Agriculture Organization of the United Nations and the Lebanese Ministry of Agriculture.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe a woman discussing the reduction in chemical fertilizer usage from 50% to 60%, highlighting the shift towards more sustainable agricultural practices.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A woman in a black blazer and white blouse stands in front of a backdrop with logos for the Food and Agriculture Organization of the United Nations and the Lebanese Ministry of Agriculture.",
+            "- [frames=[1]] The woman is speaking in front of the same backdrop, emphasizing the importance of sustainable agriculture.",
+            "- [frames=[2]] The woman continues her speech, focusing on the specific reduction in chemical fertilizer usage.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a professional setting where a woman is delivering a presentation about sustainable agricultural practices. She is likely explaining how reducing chemical fertilizer usage contributes to more sustainable farming methods.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be positioned in a way to clearly see the woman and the backdrop.",
+            "- The robot should have access to audio capabilities to understand the speech.",
+            "- The robot should be able to navigate to different areas if needed.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the reduction in chemical fertilizer usage from 50% to 60%.",
+            "- The robot should confirm the context of sustainable agriculture.",
+            "- The robot should verify the specific percentage change mentioned by the woman.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Listen to the woman's speech and identify the mention of chemical fertilizer usage.",
+            "2. [type=perception, frames=[2]] Confirm the specific percentage change from 50% to 60%.",
+            "3. [type=perception, frames=[0,1,2]] Cross-check the identified information with the backdrop logos to ensure accuracy.",
+            "4. [type=manipulation, frames=[0,1,2]] Adjust the display to.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Listen to the woman's speech and identify the mention of chemical fertilizer usage. It then verifies the key detail directly from the frames (Confirm the specific percentage change from 50% to 60%).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Discuss the project's impact on reducing water pollution and its benefits to farmers.",
+      "start": 232.39,
+      "end": 321.39,
+      "subtasks": [
+        {
+          "text": "Explain how the project helps reduce pollution of water bodies and benefits farmers.",
+          "start": 232.39,
+          "end": 246.39,
+          "segment_ids": [
+            40,
+            41,
+            42,
+            43,
+            44
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "FF9iVqTy-BE/task01_sub00_f00.jpg",
+              "caption": "A man in a plaid shirt is speaking in front of a backdrop with logos for the Food and Agriculture Organization of the United Nations.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "FF9iVqTy-BE/task01_sub00_f01.jpg",
+              "caption": "A man is speaking in front of a backdrop with logos for the Food and Agriculture Organization of the United Nations and the Lebanese Republic Ministry of Agriculture.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "FF9iVqTy-BE/task01_sub00_f02.jpg",
+              "caption": "A man in a plaid shirt is standing in front of a backdrop with logos for the Food and Agriculture Organization of the United Nations and the Lebanese Republic Ministry of",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment explains how the Batata Project reduces water pollution and benefits farmers, focusing on the role of the project in sustainable agriculture.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] The speaker is wearing a plaid shirt and is in front of a backdrop featuring logos for the Food and Agriculture Organization of the United Nations and the Lebanese Republic Ministry of Agriculture.",
+            "- [frames=[0,1]] The backdrop suggests an official or educational setting.",
+            "- [frames=[0,1]] The speaker is likely discussing the project's impact on water pollution and farmer benefits.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a formal presentation where a representative from the Batata Project is explaining the project’s goals and outcomes. The presence of multiple international and local agricultural organizations' logos indicates a global initiative with regional focus.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture the speaker.",
+            "- The robot needs to have audio capabilities to understand the spoken content.",
+            "- The robot should be able to navigate to the appropriate location to perform the task.",
+            "- The robot must have a display screen to show relevant information.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the speaker and their message.",
+            "- The robot should correctly interpret the key points about water pollution reduction and farmer benefits.",
+            "- The robot should present the information clearly and coherently.",
+            "- The robot should ensure the information aligns with the project’s goals.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the area where the speaker is presenting.",
+            "2. [type=perception, frames=[0,1]] Use the camera to capture the speaker and the backdrop.",
+            "3. [type=manipulation, frames=[0,1]] Adjust the camera angle to ensure the speaker and logos are clearly visible.",
+            "4. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the area where the speaker is presenting. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Describe the collaboration between the ministry of agriculture and the FAO to support farmers.",
+          "start": 263.39,
+          "end": 281.39,
+          "segment_ids": [
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f00.jpg",
+              "relative_path": "FF9iVqTy-BE/task01_sub01_f00.jpg",
+              "caption": "A woman is standing in front of a backdrop with the FAO logo, and there is text overlaid on the image.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "FF9iVqTy-BE/task01_sub01_f01.jpg",
+              "caption": "A man in a plaid shirt is speaking in front of a backdrop with logos for the FAO and the Lebanese Ministry of Agriculture.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "FF9iVqTy-BE/task01_sub01_f02.jpg",
+              "caption": "A woman is standing in front of a backdrop with logos for the Food and Agriculture Organization of the United Nations and the Lebanese Ministry of Agriculture.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task01_sub01_f03.jpg",
+              "relative_path": "FF9iVqTy-BE/task01_sub01_f03.jpg",
+              "caption": "A woman is standing in front of a backdrop with logos for the Food and Agriculture Organization of the United Nations and the Lebanese Ministry of Agriculture.",
+              "frame_index": 3
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment describes the collaboration between the Lebanese Ministry of Agriculture and the FAO to support farmers, focusing on their joint efforts and the benefits they bring.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A woman stands in front of a backdrop with the FAO logo, indicating an introduction by a FAO representative.",
+            "- [frames=[1]] A man in a plaid shirt speaks in front of a backdrop with logos for both the FAO and the Lebanese Ministry of Agriculture, suggesting he is explaining the collaboration.",
+            "- [frames=[2,3]] A woman stands in front of a backdrop with logos for the FAO and the Lebanese Ministry of Agriculture, likely summarizing the points made by the previous speaker.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a series of presentations where representatives from the FAO and the Lebanese Ministry of Agriculture discuss their collaborative efforts to support farmers. The backdrop with multiple logos suggests a formal setting and official partnership.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be in a position to observe the video segment.",
+            "- The robot should have access to the video frames and the ability to analyze them.",
+            "- The robot should be able to perform navigation, manipulation, perception, and communication tasks.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Verify that the collaboration between the FAO and the Lebanese Ministry of Agriculture is clearly explained.",
+            "- Confirm that the benefits to farmers are highlighted.",
+            "- Check that the sequence of events is accurately captured.",
+            "- Measure the clarity and coherence of the information presented.",
+            "- Cross-check the details of the collaboration and its impact on farmers.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Analyze the image to identify the FAO representative.",
+            "2. [type=perception, frames=[1]] Identify the man in the plaid shirt as the speaker.",
+            "3. [type=perception, frames=[0,1,2,3]] Verify/confirm the key observation before reporting.",
+            "4. [type=perception, frames=[0,1,2,3]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2,3]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Analyze the image to identify the FAO representative. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Share the impact of the project on reducing the use of chemical fertilizers and pesticides.",
+          "start": 307.39,
+          "end": 321.39,
+          "segment_ids": [
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub02_f00.jpg",
+              "relative_path": "FF9iVqTy-BE/task01_sub02_f00.jpg",
+              "caption": "A woman is speaking in front of a backdrop with logos for the Food and Agriculture Organization of the United Nations and the Lebanese Ministry of Agriculture.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub02_f01.jpg",
+              "relative_path": "FF9iVqTy-BE/task01_sub02_f01.jpg",
+              "caption": "A woman is standing in front of a backdrop with the FAO logo, and there is text on the screen indicating that the reduction of pollution in the Litani",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub02_f02.jpg",
+              "relative_path": "FF9iVqTy-BE/task01_sub02_f02.jpg",
+              "caption": "A vast, green field of crops with a clear blue sky and distant buildings in the background.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe a woman discussing the Batata Project’s impact on reducing the use of chemical fertilizers and pesticides, which contributes to sustainable agriculture practices.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] The robot sees a woman speaking in front of a backdrop with logos for the Food and Agriculture Organization of the United Nations and the Lebanese Ministry of Agriculture.",
+            "- [frames=[1]] The robot notices text on the screen indicating the reduction of pollution in the Litani.",
+            "- [frames=[2]] The robot observes a vast, green field of crops with a clear blue sky and distant buildings in the background.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a woman explaining the Batata Project’s efforts to reduce chemical fertilizer and pesticide usage, which leads to improved environmental conditions and benefits for farmers. The backdrop includes international agricultural organizations, emphasizing the global significance of the project.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture the woman’s speech.",
+            "- The robot needs to have access to a display to show relevant information.",
+            "- The robot must be able to navigate to different areas of the field to verify the impact visually.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the woman speaking about the project.",
+            "- The robot must confirm the reduction of pollution in the Litani.",
+            "- The robot should measure the positive impact on the crops and the environment.",
+            "- The robot needs to cross-check the information provided by the woman with data from the field.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigates to the area where the woman is speaking.",
+            "2. [type=perception, frames=[0,1]] Uses its camera to verify the woman’s presence and the logos on the backdrop.",
+            "3. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigates to the area where the woman is speaking. It then verifies the key detail directly from the frames (Uses its camera to verify the woman’s presence and the logos on the backdrop).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

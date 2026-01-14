@@ -1,0 +1,544 @@
+{
+  "video_index": "sbtZhYm769E",
+  "title": "Genesis No-Till Drill Simplifies Planting",
+  "url": "https://www.youtube.com/watch?v=sbtZhYm769E",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Explains the process and benefits of using a Genesis No-Till Drill for planting compared to traditional methods.",
+  "tasks": [
+    {
+      "task": "Explain the process and benefits of using a Genesis No-Till Drill for planting compared to traditional methods.",
+      "start": 0.0,
+      "end": 50.08,
+      "subtasks": [
+        {
+          "text": "Compare the two planting methods, starting with turning the soil versus direct seeding.",
+          "start": 0.0,
+          "end": 13.36,
+          "segment_ids": [
+            0,
+            1
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "sbtZhYm769E/task00_sub00_f00.jpg",
+              "caption": "A tractor is driving through a field, with a green and black machine attached to the back.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "sbtZhYm769E/task00_sub00_f01.jpg",
+              "caption": "A person is operating a green tractor in a field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "sbtZhYm769E/task00_sub00_f02.jpg",
+              "caption": "A field of tall, yellow flowers with purple centers and green leaves, with a blue sky and white clouds in the background.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment introduces the Genesis No-Till Drill by comparing it to traditional soil-turning methods, highlighting the differences in the planting process and benefits.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A tractor is driving through a field, with a green and black machine attached to the back.",
+            "- [frames=[1]] A person is operating a green tractor in a field.",
+            "- [frames=[2]] A field of tall, yellow flowers with purple centers and green leaves, with a blue sky and white clouds in the background.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a tractor equipped with a Genesis No-Till Drill in a field, contrasting with a natural landscape of flowers. The presence of the drill indicates an advanced planting method, while the flowers suggest a previously tilled area.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the Genesis No-Till Drill operation.",
+            "- The robot needs to understand basic agricultural terminology.",
+            "- The robot should know the differences between soil-turning and direct seeding.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the process of using a Genesis No-Till Drill.",
+            "- The robot should highlight the benefits of the no-till method over traditional soil-turning.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Describe the steps involved in the traditional method: cultivating land, planting seeds, and running a cultivator.",
+          "start": 13.36,
+          "end": 27.28,
+          "segment_ids": [
+            2,
+            3,
+            4
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "sbtZhYm769E/task00_sub01_f01.jpg",
+              "caption": "A field of tall, dry grasses in shades of brown and yellow.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "sbtZhYm769E/task00_sub01_f02.jpg",
+              "caption": "A green lawn seed planter with bags of seed is inside a building.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The traditional method of planting involves preparing the land by cultivating it, then planting seeds, and finally running a cultivator over the area to ensure proper seed coverage and soil preparation.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] The scene shows a field covered in tall, dry grasses in various shades of brown and yellow, indicating a recently cultivated or fallow field.",
+            "- [frames=[2]] Inside a building, a green lawn seed planter is seen alongside bags of seeds, suggesting the equipment and materials needed for planting.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The field depicted in the first frame is likely a plot of land that has been prepared through cultivation, possibly to remove weeds and prepare the soil for planting. The second frame inside the building indicates the presence of planting equipment and seeds, which are essential for the next steps in the traditional planting process.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to observe the field conditions.",
+            "- It needs access to a building where the planting equipment and seeds are stored.",
+            "- The robot should have the capability to navigate both indoor and outdoor environments.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The field should show signs of proper soil preparation and seed placement.",
+            "- The robot should (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Highlight the simplicity and efficiency of the No-Till Drill method, needing only one pass.",
+          "start": 28.08,
+          "end": 34.32,
+          "segment_ids": [
+            5
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub02_f00.jpg",
+              "relative_path": "sbtZhYm769E/task00_sub02_f00.jpg",
+              "caption": "A green seed drill with bags of seeds is inside a shed.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub02_f01.jpg",
+              "relative_path": "sbtZhYm769E/task00_sub02_f01.jpg",
+              "caption": "A green and blue piece of machinery is attached to a tractor with a red and black attachment.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub02_f02.jpg",
+              "relative_path": "sbtZhYm769E/task00_sub02_f02.jpg",
+              "caption": "The video frame shows a green machine with the RTP Outdoors logo, and it appears to be a piece of agricultural equipment.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on highlighting the simplicity and efficiency of the No-Till Drill method, emphasizing that it requires only one pass for planting.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A green seed drill with bags of seeds is inside a shed.",
+            "- [frames=[1]] A green and blue piece of machinery is attached to a tractor with a red and black attachment.",
+            "- [frames=[2]] The video frame shows a green machine with the RTP Outdoors logo, clearly an agricultural piece of equipment.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from showing the seed drill in storage to the actual No-Till Drill being prepared for use on a tractor. This setup emphasizes the practical application of the tool in a field setting.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should recognize the No-Till Drill and its components.",
+            "- It must understand the context of agricultural machinery and operations.",
+            "- The robot needs to be aware of the presence of a tractor and its attachments.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the No-Till Drill and its attachments.",
+            "- It must correctly explain the single-pass planting process.",
+            "- The explanation should highlight the efficiency and simplicity of the No-Till Drill over traditional methods",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Mention the spacing of the discs on the No-Till Drill.",
+          "start": 34.32,
+          "end": 40.32,
+          "segment_ids": [
+            6
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub03_f01.jpg",
+              "relative_path": "sbtZhYm769E/task00_sub03_f01.jpg",
+              "caption": "The video frame shows a close-up of a green machine with metal components and screws.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub03_f02.jpg",
+              "relative_path": "sbtZhYm769E/task00_sub03_f02.jpg",
+              "caption": "A green machine with bags of seed is parked in a building.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video focuses on explaining the spacing of the discs on the Genesis No-Till Drill, which is crucial for understanding its operation and benefits over traditional planting methods.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A close-up view of a green machine with metal components and screws is shown, highlighting the drill's structure.",
+            "- [frames=[2]] The same machine is seen with bags of seed, indicating it is prepared for planting.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a Genesis No-Till Drill, emphasizing its mechanical aspects and preparation for planting. The drill’s design suggests precision in planting, which is further highlighted by the mention of disc spacing.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the Genesis No-Till Drill model.",
+            "- It must recognize the importance of disc spacing in the planting process.",
+            "- The robot needs to understand the context of comparing the No-Till Drill to traditional methods.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the disc spacing on the No-Till Drill.",
+            "- It must explain how this spacing contributes to the efficiency and effectiveness of the planting process.",
+            "- The robot should highlight the benefits of using the No-Till Drill over traditional methods.",
+            "",
+            "ORDERED_RO (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Emphasize the availability of different width models for the No-Till Drill.",
+          "start": 40.32,
+          "end": 45.36,
+          "segment_ids": [
+            7
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub04_f01.jpg",
+              "relative_path": "sbtZhYm769E/task00_sub04_f01.jpg",
+              "caption": "The video frame shows a close-up of a piece of agricultural equipment with bags of seeds on top.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub04_f02.jpg",
+              "relative_path": "sbtZhYm769E/task00_sub04_f02.jpg",
+              "caption": "The video frame shows a close-up of a piece of agricultural equipment with green components and orange labels indicating depth settings.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video emphasizes the variety of width models available for the Genesis No-Till Drill, highlighting its adaptability for different farming needs.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A close-up of a piece of agricultural equipment is shown, with bags of seeds placed on top, indicating the drill's capability to handle multiple seed types.",
+            "- [frames=[2]] Another close-up reveals the drill’s green components with orange labels marking various depth settings, emphasizing precision in planting depth.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene illustrates the Genesis No-Till Drill’s versatility through the display of different seed types and adjustable depth settings, underscoring its adaptability to various soil conditions and crop requirements.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the Genesis No-Till Drill model.",
+            "- The robot should have access to the drill’s control panel.",
+            "- The robot should know the different seed types and their corresponding planting depths.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the available width models.",
+            "- The robot should confirm the presence of multiple seed types.",
+            "- The robot should verify the depth settings on the drill.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Mention the optional weight rack for the No-Till Drill.",
+          "start": 45.36,
+          "end": 50.08,
+          "segment_ids": [
+            8
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub05_f01.jpg",
+              "relative_path": "sbtZhYm769E/task00_sub05_f01.jpg",
+              "caption": "The video frame shows a close-up of a piece of agricultural machinery, specifically focusing on the depth adjustment mechanism.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub05_f02.jpg",
+              "relative_path": "sbtZhYm769E/task00_sub05_f02.jpg",
+              "caption": "The video frame shows a close-up of a piece of agricultural machinery, specifically focusing on the tire and the mechanism that holds it in place.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment explains an optional feature of the Genesis No-Till Drill, the weight rack, which enhances its functionality and efficiency during planting.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] The camera focuses on the depth adjustment mechanism of the No-Till Drill, indicating the importance of proper setup.",
+            "- [frames=[2]] A close-up of the tire and its holding mechanism is shown, suggesting the need to ensure the drill's stability.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shifts focus from the depth adjustment mechanism to the tire and its securing mechanism, highlighting the importance of both components in maintaining the drill’s operational integrity.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The No-Till Drill is already set up and ready for operation.",
+            "- The operator has access to the weight rack attachment.",
+            "- The drill is positioned in the field where planting will occur.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The weight rack is correctly attached to the No-Till Drill.",
+            "- The depth adjustment mechanism is properly set.",
+            "- The tire and its holding mechanism are securely fastened.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Move the camera to focus on the depth adjustment mechanism.",
+            "2. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "3. [type=perception, frames=[1,2]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move the camera to focus on the depth adjustment mechanism. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Provide information about the availability and customer service for the No-Till Drill.",
+      "start": 62.96,
+      "end": 96.96,
+      "subtasks": [
+        {
+          "text": "Mention the website where plant-thing attachments can be checked out.",
+          "start": 62.96,
+          "end": 67.36,
+          "segment_ids": [
+            12
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "sbtZhYm769E/task01_sub00_f00.jpg",
+              "caption": "The video frame shows a close-up of a green machine with various knobs and a scale.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "sbtZhYm769E/task01_sub00_f01.jpg",
+              "caption": "A close-up view of a green machine with a cylindrical object and a metal pole inside.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "sbtZhYm769E/task01_sub00_f02.jpg",
+              "caption": "A close-up view of a green machine with a metal rod and a logo on it.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to mention the website where plant-thing attachments for the No-Till Drill can be checked out during the specified time range in the video.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] The video shows a close-up of a green machine with various knobs and a scale.",
+            "- [frames=[0,1]] A cylindrical object and a metal pole are visible inside the machine.",
+            "- [frames=[0,2]] A metal rod and a logo are seen on the machine.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene involves a detailed view of a green machine, likely the No-Till Drill, with various components such as knobs, scales, and a logo. The focus is on the machine's attachments and its operational details.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to the video metadata and the specific time range (63.0s–67.4s).",
+            "- The robot should be able to read and interpret the visual elements within the specified frames.",
+            "- The robot should know the correct website URL to mention.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately mention the website where plant-thing attachments can be checked out.",
+            "- The robot should ensure the mentioned website",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Inform about free shipping and the no worry guarantee for customers.",
+          "start": 86.16,
+          "end": 96.96,
+          "segment_ids": [
+            17,
+            18
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f00.jpg",
+              "relative_path": "sbtZhYm769E/task01_sub01_f00.jpg",
+              "caption": "The video frame shows a mobile website for a tractor company with two products listed.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "sbtZhYm769E/task01_sub01_f01.jpg",
+              "caption": "The video frame shows a mobile phone screen with a webpage for Good Works Tractor Co. featuring information about a front cutter disc for a tractor.",
+              "frame_index": 1
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will inform viewers about the free shipping and no worry guarantee for the No-Till Drill offered by Good Works Tractor Co.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The video frame shows a mobile website for a tractor company with two products listed.",
+            "- [frames=[1]] The video frame shows a mobile phone screen with a webpage for Good Works Tractor Co. featuring information about a front cutter disc for a tractor.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from a general tractor company website to a specific product page for Good Works Tractor Co., indicating that the focus is on a particular product, likely the No-Till Drill.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to the mobile website of Good Works Tractor Co.",
+            "- The robot must be able to read and interpret text on the webpage.",
+            "- The robot needs to understand the concept of free shipping and no worry guarantees.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should clearly state that free shipping is available for the No-Till Drill.",
+            "- The robot must explain the no worry guarantee, ensuring customers feel secure in their purchase.",
+            "- The robot should provide a clear call-to-action encouraging customers to buy the No-Till Drill",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

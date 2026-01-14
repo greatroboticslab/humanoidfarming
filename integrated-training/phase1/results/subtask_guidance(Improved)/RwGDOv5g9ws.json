@@ -1,0 +1,378 @@
+{
+  "video_index": "RwGDOv5g9ws",
+  "title": "Ginger Ridge Transformation Process Explained",
+  "url": "https://www.youtube.com/watch?v=RwGDOv5g9ws",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Describes a unique method of growing ginger and its transformation.",
+  "tasks": [
+    {
+      "task": "Explain the initial setup and protection of ginger plants.",
+      "start": 3.12,
+      "end": 11.8,
+      "subtasks": [
+        {
+          "text": "Observe the young ginger plants tucked away in the ditches.",
+          "start": 3.12,
+          "end": 6.56,
+          "segment_ids": [
+            1
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "RwGDOv5g9ws/task00_sub00_f00.jpg",
+              "caption": "People are working in a field, with one person bending over and another standing nearby.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "RwGDOv5g9ws/task00_sub00_f01.jpg",
+              "caption": "A ginger plant with green leaves is growing in a dirt patch.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "RwGDOv5g9ws/task00_sub00_f02.jpg",
+              "caption": "A man is working in a field, using a hoe to cultivate the soil.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot observes young ginger plants in a field, noting their growth stage and the presence of workers.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] People are working in a field, with one person bending over and another standing nearby.",
+            "- [frames=[1]] A ginger plant with green leaves is growing in a dirt patch.",
+            "- [frames=[2]] A man is working in a field, using a hoe to cultivate the soil.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a field where ginger plants are being tended by workers. The plants are at an early growth stage, indicated by their green leaves. A man is using a hoe to prepare the soil around them.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to observe the field.",
+            "- The robot needs to be within range of the field to perform tasks.",
+            "- The robot should have knowledge about ginger plant care and growth stages.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should identify the young ginger plants correctly.",
+            "- The robot should confirm the presence of workers in the field.",
+            "- The robot should verify the soil condition around the plants.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Uses its camera to identify the young ginger plants and the workers in the field.",
+            "2. [type=perception, frames=[1]] Confirm the presence of a ginger plant with green leaves.",
+            "3. [type=navigation, frames=[0]] Moves closer to the ginger plant to get a better view.",
+            "4. [type=perception, frames=[2]] Uses a tool to gently check the soil around the plant.",
+            "5. [type=communication, frames=[0,1,2]] Reports its findings to the human supervisor.",
+            "6. [type=navigation, frames=[0]] The.",
+            "7. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Uses its camera to identify the young ginger plants and the workers in the field. It then verifies the key detail directly from the frames (Confirm the presence of a ginger plant with green leaves). After verification, it communicates the result clearly (Reports its findings to the human supervisor).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Notice how this setup keeps the plants cool and hydrated.",
+          "start": 6.56,
+          "end": 11.8,
+          "segment_ids": [
+            2,
+            3
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "RwGDOv5g9ws/task00_sub01_f01.jpg",
+              "caption": "A man is using a hoe to cultivate a field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "RwGDOv5g9ws/task00_sub01_f02.jpg",
+              "caption": "A person is using a hoe to dig in a garden.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot observes a person using a hoe to cultivate a field, which helps keep the ginger plants cool and hydrated.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A man is using a hoe to cultivate a field.",
+            "- [frames=[2]] A person is using a hoe to dig in a garden.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a person manually cultivating a field, likely preparing it for ginger plants. The hoeing action is crucial for maintaining soil conditions that help keep the plants cool and hydrated.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be within reach of the hoe.",
+            "- The robot should have the ability to recognize and interact with gardening tools.",
+            "- The robot should understand the purpose of hoeing in a ginger field.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The hoe should be correctly identified and used.",
+            "- The hoeing action should be performed accurately.",
+            "- The field should appear well-prepared for planting ginger.",
+            "- The plants should be visibly cooler and more hydrated after the process.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Identify the hoe in the field.",
+            "2. [type=navigation, frames=[1]] Move closer to the hoe.",
+            "3. [type=manipulation, frames=[2]] Grasp the hoe.",
+            "4. [type=manipulation, frames=[2]] Begin hoeing the soil.",
+            "5. [type=perception, frames=[2]] Verify the hoeing action is being performed correctly.",
+            "6. [type=manipulation, frames=[2]] Continue hoeing until the field is adequately prepared.",
+            "7. [type=manipulation, frames=[2]] Place the hoe back in its original position.",
+            "8. [type=perception, frames=[2]] Confirm the field is ready for planting ginger.",
+            "9. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the hoe in the field. It then verifies the key detail directly from the frames (Verify the hoeing action is being performed correctly).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Describe the late growth phase and landscape change.",
+      "start": 20.56,
+      "end": 28.8,
+      "subtasks": [
+        {
+          "text": "Watch as the landscape flips, with ditches becoming ridges.",
+          "start": 20.56,
+          "end": 26.76,
+          "segment_ids": [
+            8,
+            9
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "RwGDOv5g9ws/task01_sub00_f00.jpg",
+              "caption": "A person is walking through a field of tall grass.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "RwGDOv5g9ws/task01_sub00_f01.jpg",
+              "caption": "A woman is walking through a field of green plants, possibly ginger.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "RwGDOv5g9ws/task01_sub00_f02.jpg",
+              "caption": "A person is using a shovel to dig a small trench in a field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The landscape transforms dramatically, with ditches turning into ridges, showcasing the late growth phase of the ginger ridge transformation process.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A person is walking through a field of tall grass.",
+            "- [frames=[1]] A woman is walking through a field of green plants, possibly ginger.",
+            "- [frames=[2]] A person is using a shovel to dig a small trench in a field.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a transition from a flat field to one with newly formed ridges, indicating the late growth phase where previously dug areas are now elevated. The presence of a person digging suggests active modification of the landscape.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a shovel or similar tool for digging.",
+            "- The robot needs to be within the field area.",
+            "- The robot must have the ability to recognize and navigate through the field terrain.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should successfully transform a trench into a ridge.",
+            "- The final elevation of the transformed area should match the surrounding landscape.",
+            "- The robot should verify the new ridge formation before moving on.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the location where the trench is being dug.",
+            "2. [type=perception, frames=[2]] Verify the presence of a trench using visual sensors.",
+            "3. [type=manipulation, frames=[2]] Use the shovel to fill the trench with soil.",
+            "4. [type=manipulation, frames=[2]] Level the filled area to ensure it matches the surrounding landscape.",
+            "5. [type=perception, frames=[2]] Check the elevation of the newly formed ridge using height sensors.",
+            "6. [type=manipulation, frames=[2]] Smooth out any uneven spots on the.",
+            "7. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the location where the trench is being dug. It then verifies the key detail directly from the frames (Verify the presence of a trench using visual sensors).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Observe the farmers adding soil little by little to support the plant.",
+          "start": 26.76,
+          "end": 28.8,
+          "segment_ids": [
+            10
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "RwGDOv5g9ws/task01_sub01_f01.jpg",
+              "caption": "A person is digging a trench in a field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "RwGDOv5g9ws/task01_sub01_f02.jpg",
+              "caption": "A person is working in a field of tall grass.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The farmer is preparing the ground by digging a trench, which will later involve adding soil to support the plant.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] The farmer is seen digging a trench in a field.",
+            "- [frames=[2]] The farmer is working in a field of tall grass, indicating the area where the trench was dug.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a farmer actively preparing the ground for planting, likely in a field with existing vegetation. The farmer's actions suggest they are setting up an environment suitable for the late growth phase of a plant.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be within the field area.",
+            "- The robot should have the necessary tools for digging and adding soil.",
+            "- The robot should be able to identify the trench location.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The trench should be properly dug.",
+            "- Soil should be added to the trench.",
+            "- The area should be free of obstacles that could interfere with the plant's growth.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate to the trench location.",
+            "2. [type=perception, frames=[1]] Verify the trench depth using a sensor.",
+            "3. [type=manipulation, frames=[1]] Begin digging the trench if it is too shallow.",
+            "4. [type=navigation, frames=[2]] Move to the area where soil will be added.",
+            "5. [type=manipulation, frames=[2]] Pick up a bag of soil.",
+            "6. [type=manipulation, frames=[2]] Open the bag and pour soil into the trench.",
+            "7. [type=perception, frames=[2]] Check the amount of soil added to ensure it is sufficient.",
+            "8. [type=navigation, frames=[2]] Return to the trench location.",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the trench location. It then verifies the key detail directly from the frames (Verify the trench depth using a sensor).",
+            "To finish safely, it completes cleanup and returns to standby: Return to the trench location.",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Highlight the overall resilience and care of the ginger farming method.",
+      "start": 31.16,
+      "end": 36.56,
+      "subtasks": [
+        {
+          "text": "Notice the dynamic field that adapts as the ginger thrives.",
+          "start": 31.16,
+          "end": 36.56,
+          "segment_ids": [
+            12,
+            13
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f00.jpg",
+              "relative_path": "RwGDOv5g9ws/task02_sub00_f00.jpg",
+              "caption": "A person is walking through a lush green field with trees in the background.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "RwGDOv5g9ws/task02_sub00_f01.jpg",
+              "caption": "A man and a woman are holding a bundle of bamboo shoots in a rural setting.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "RwGDOv5g9ws/task02_sub00_f02.jpg",
+              "caption": "A woman is holding a large bunch of ginger in a garden.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene shows a dynamic field where ginger plants grow and adapt as they thrive, highlighting the resilience and care of the ginger farming method.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A person is walking through a lush green field with trees in the background, indicating a natural and thriving environment.",
+            "- [frames=[1]] A man and a woman are holding a bundle of bamboo shoots, suggesting the use of bamboo for support or cultivation.",
+            "- [frames=[2]] A woman is holding a large bunch of ginger in a garden, showing the mature growth and harvest of the ginger plants.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The field appears to be well-maintained with a mix of natural elements like trees and cultivated areas with ginger plants. The presence of bamboo shoots indicates a method of supporting the ginger plants as they grow.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with sensors to detect plant growth and health.",
+            "- The robot needs to have the ability to navigate through uneven terrain.",
+            "- The robot should be able to identify and distinguish between different types of plants and tools.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately track the growth of the ginger plants over time.",
+            "- It should be able to identify when the ginger is ready for harvesting.",
+            "- The robot should be able to confirm the health and resilience of the ginger plants.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Navigate through the field to locate the area where ginger is growing.",
+            "2. [type=perception, frames=[0]] Use sensors to assess the current state of the ginger plants.",
+            "3. [type=navigation, frames=[1]] Move towards the area where bamboo shoots are present.",
+            "4. [type=perception, frames=[1]] Identify the type of bamboo and its role in supporting the ginger plants.",
+            "5. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate through the field to locate the area where ginger is growing. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

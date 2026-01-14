@@ -1,0 +1,585 @@
+{
+  "video_index": "wfzLdxgR1ks",
+  "title": "Grow Coriander in 5 Days Guide",
+  "url": "https://www.youtube.com/watch?v=wfzLdxgR1ks",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Describes the process of growing coriander in a home garden within 5 days.",
+  "tasks": [
+    {
+      "task": "Explain the initial steps to prepare coriander seeds for planting.",
+      "start": 8.14,
+      "end": 15.14,
+      "subtasks": [
+        {
+          "text": "Describe how to gently pound the coriander seeds to split them up.",
+          "start": 8.14,
+          "end": 11.14,
+          "segment_ids": [
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "wfzLdxgR1ks/task00_sub00_f00.jpg",
+              "caption": "A hand is using a mortar and pestle to crush seeds.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "wfzLdxgR1ks/task00_sub00_f01.jpg",
+              "caption": "A person is holding a handful of coriander seeds over a mortar and pestle.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "wfzLdxgR1ks/task00_sub00_f02.jpg",
+              "caption": "A bowl filled with lentils is placed on a grassy surface.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The task involves preparing coriander seeds by gently pounding them to split them open, which is an essential step before planting.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A hand is using a mortar and pestle to crush seeds.",
+            "- [frames=[0,1]] A person is holding a handful of coriander seeds over a mortar and pestle.",
+            "- [frames=[0,1,2]] No additional objects or scenes are present.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a person preparing coriander seeds for planting by using a mortar and pestle. The presence of a handful of seeds and a mortar and pestle indicates the context of seed preparation.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to a mortar and pestle.",
+            "- The robot should be able to hold and manipulate a handful of coriander seeds.",
+            "- The robot should be capable of applying gentle pressure to the seeds.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The seeds should be visibly split open.",
+            "- There should be no significant damage to the seeds.",
+            "- The process should be completed within the specified time range (8.1s–11.1s).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Mention the need to wash the split seeds and soak them overnight.",
+          "start": 12.14,
+          "end": 15.14,
+          "segment_ids": [
+            3
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f00.jpg",
+              "relative_path": "wfzLdxgR1ks/task00_sub01_f00.jpg",
+              "caption": "A person is pouring water into a bowl of lentils.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "wfzLdxgR1ks/task00_sub01_f01.jpg",
+              "caption": "Water is being poured into a bowl of lentils.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "wfzLdxgR1ks/task00_sub01_f02.jpg",
+              "caption": "A hand is reaching into a bowl of seeds.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to demonstrate the process of washing and soaking coriander seeds before planting.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A person is pouring water into a bowl containing lentils.",
+            "- [frames=[0,1]] The lentils are visibly moving and floating in the water.",
+            "- [frames=[2]] A hand reaches into a bowl, likely to remove the lentils.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a person preparing lentils by washing them in water. This action is similar to what would be done with coriander seeds, indicating the need for the robot to perform a similar task.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to a bowl.",
+            "- The robot should be able to pour water.",
+            "- The robot should be capable of handling seeds gently.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The seeds should be visibly clean and free from debris.",
+            "- The seeds should be soaked in water for at least 8 hours.",
+            "- The bowl should contain the soaked seeds.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2]] Move to the bowl containing the seeds.",
+            "2. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "3. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to the bowl containing the seeds. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Outline the subsequent steps for preparing and planting the seeds.",
+      "start": 21.14,
+      "end": 29.14,
+      "subtasks": [
+        {
+          "text": "Explain clearing a garden or pot area to sprinkle the soaked seeds evenly.",
+          "start": 21.14,
+          "end": 24.14,
+          "segment_ids": [
+            6
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "wfzLdxgR1ks/task01_sub00_f00.jpg",
+              "caption": "A trowel is being used to dig into a pile of dirt.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "wfzLdxgR1ks/task01_sub00_f01.jpg",
+              "caption": "A close-up view of a red, rocky surface with small yellowish particles scattered across it.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "wfzLdxgR1ks/task01_sub00_f02.jpg",
+              "caption": "The video frame shows a close-up of a red, rocky surface with scattered yellow objects.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to clear a garden or pot area by removing debris and preparing the soil for planting the soaked coriander seeds.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A trowel is being used to dig into a pile of dirt.",
+            "- [frames=[1]] A close-up view of a red, rocky surface with small yellowish particles scattered across it.",
+            "- [frames=[2]] The video frame shows a close-up of a red, rocky surface with scattered yellow objects.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a rocky surface with scattered debris, likely representing a garden or pot area that needs preparation before planting. The presence of a trowel indicates the need for soil manipulation.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to a trowel.",
+            "- The robot must be able to identify and differentiate between soil and debris.",
+            "- The robot should be capable of recognizing the texture and color of the rocky surface.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The area should be free of large debris and rocks.",
+            "- The soil should be loosened and ready for planting.",
+            "- The surface should be uniform and suitable for seed distribution.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Describe covering the seeds with mud and patting it down.",
+          "start": 25.14,
+          "end": 27.14,
+          "segment_ids": [
+            7
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f00.jpg",
+              "relative_path": "wfzLdxgR1ks/task01_sub01_f00.jpg",
+              "caption": "A hand is scooping up a small amount of red dirt.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "wfzLdxgR1ks/task01_sub01_f01.jpg",
+              "caption": "A hand is planting seeds into a bed of soil.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "wfzLdxgR1ks/task01_sub01_f02.jpg",
+              "caption": "A close-up view of a soil surface with scattered seeds.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The task involves covering the seeds with a layer of soil and patting it down to ensure proper contact with the seeds.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A hand is scooping up a small amount of red dirt.",
+            "- [frames=[1]] A hand is planting seeds into a bed of soil.",
+            "- [frames=[2]] A close-up view of a soil surface with scattered seeds.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows the process of covering and patting down the soil over the seeds. The red dirt indicates a specific type of soil being used, likely for its nutrient-rich properties suitable for growing coriander.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to a container of red dirt.",
+            "- The robot must be able to identify and pick up seeds.",
+            "- The robot needs to know how to navigate to the planting area.",
+            "- The robot should be capable of applying a thin layer of soil over the seeds.",
+            "- The robot must be able to press down on the soil to compact it.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The soil layer should be evenly distributed over the seeds.",
+            "- The soil should be pressed down firmly to ensure good seed-to-soil contact.",
+            "- The surface (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Note the instruction to not press the soil too much.",
+          "start": 28.14,
+          "end": 29.14,
+          "segment_ids": [
+            8
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub02_f00.jpg",
+              "relative_path": "wfzLdxgR1ks/task01_sub02_f00.jpg",
+              "caption": "A close-up view of soil with scattered seeds.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub02_f01.jpg",
+              "relative_path": "wfzLdxgR1ks/task01_sub02_f01.jpg",
+              "caption": "A person is pouring coffee beans into a pile of dirt.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub02_f02.jpg",
+              "relative_path": "wfzLdxgR1ks/task01_sub02_f02.jpg",
+              "caption": "The video shows a close-up of a dirt surface with scattered seeds.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to observe the correct technique for handling soil when planting coriander seeds, ensuring the soil is not pressed down too tightly.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,2]] A close-up view of soil with scattered seeds is shown.",
+            "- [frames=[1]] A person is seen pouring coffee beans into a pile of dirt, which is not relevant to the task.",
+            "- [frames=[0,2]] The video focuses on the soil and seeds, emphasizing the correct technique.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene involves observing the correct technique for handling soil without pressing it down too tightly. This is crucial for proper seed germination.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to observe the soil and seeds.",
+            "- The robot should have knowledge about the correct technique for planting seeds.",
+            "- The robot should be within reach of the soil and seeds.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The soil should not be pressed down too tightly.",
+            "- The seeds should remain scattered and not buried deeply.",
+            "- The robot should confirm that the soil is handled correctly before proceeding.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,2]] Ob.",
+            "2. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "3. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Ob. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Describe the final stages and care needed for sprouting and growth.",
+      "start": 30.14,
+      "end": 46.14,
+      "subtasks": [
+        {
+          "text": "Moist the soil with soaked and fresh water as needed.",
+          "start": 30.14,
+          "end": 36.14,
+          "segment_ids": [
+            9
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f00.jpg",
+              "relative_path": "wfzLdxgR1ks/task02_sub00_f00.jpg",
+              "caption": "A close-up view of a soil surface with seeds scattered across it.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "wfzLdxgR1ks/task02_sub00_f01.jpg",
+              "caption": "A small green plant is growing in a patch of dirt.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "wfzLdxgR1ks/task02_sub00_f02.jpg",
+              "caption": "A person is using a shovel to mix soil and sand in a large pile.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to ensure the soil remains moist by adding both soaked and fresh water as necessary during the sprouting and early growth stages of coriander.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The soil surface is visible with seeds scattered across it.",
+            "- [frames=[1]] A small green plant is growing in a patch of dirt.",
+            "- [frames=[0,1,2]] No shovel is present in any frame, indicating no soil mixing activity.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows the initial stages of coriander growth, where the focus is on maintaining moisture levels in the soil. The presence of seeds and a growing plant suggests the early sprouting phase.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the current moisture level in the soil.",
+            "- The robot must have access to both soaked and fresh water sources.",
+            "- The robot should know the optimal moisture range for coriander seedlings.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The soil should remain consistently moist throughout the day.",
+            "- The robot should be able to detect when the soil dries out and adjust the watering accordingly.",
+            "- The plant should show signs of healthy growth without overwatering.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Highlight the rapid growth of saplings from day 5.",
+          "start": 37.14,
+          "end": 42.14,
+          "segment_ids": [
+            10
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub01_f00.jpg",
+              "relative_path": "wfzLdxgR1ks/task02_sub01_f00.jpg",
+              "caption": "A person is using a shovel to dig into a patch of dirt.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub01_f01.jpg",
+              "relative_path": "wfzLdxgR1ks/task02_sub01_f01.jpg",
+              "caption": "A person is using a trowel to dig into a bed of soil.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub01_f02.jpg",
+              "relative_path": "wfzLdxgR1ks/task02_sub01_f02.jpg",
+              "caption": "A person is pouring water from a bottle onto a patch of dirt.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene shows the final preparation steps before the coriander plants start their rapid growth phase on day 5.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A person is seen using a trowel to dig into a bed of soil, likely preparing the ground for watering.",
+            "- [frame=2] The same person is pouring water from a bottle onto a patch of dirt, ensuring the soil is adequately moistened.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The person is completing the initial setup for the coriander plants, which will soon enter a period of rapid growth. The digging and watering ensure the soil is ready to support the young saplings.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the current stage of the coriander plants (day 5).",
+            "- The robot must have access to tools such as a trowel and a watering device.",
+            "- The robot needs to know the location of the planting area.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The soil should be properly prepared and moistened.",
+            "- The robot should confirm that the soil conditions are suitable for the next growth phase.",
+            "- The robot should verify that the watering process was completed successfully.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Indicate the need to water the coriander regularly and use it fresh.",
+          "start": 43.14,
+          "end": 46.14,
+          "segment_ids": [
+            11
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub02_f00.jpg",
+              "relative_path": "wfzLdxgR1ks/task02_sub02_f00.jpg",
+              "caption": "A hand is seen reaching into a patch of dirt.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub02_f01.jpg",
+              "relative_path": "wfzLdxgR1ks/task02_sub02_f01.jpg",
+              "caption": "A close-up view of green plants growing in a soil-filled environment.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub02_f02.jpg",
+              "relative_path": "wfzLdxgR1ks/task02_sub02_f02.jpg",
+              "caption": "A close-up view of a field of young green plants.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to understand the importance of regular watering and the benefit of using coriander fresh during the final stages of sprouting and growth.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A hand reaches into a patch of dirt, indicating the need for interaction with the soil.",
+            "- [frames=[1]] A close-up view of green plants growing in a soil-filled environment shows the current state of the coriander.",
+            "- [frames=[2]] Another close-up view of a field of young green plants reinforces the growth stage of the coriander.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts the growth phase of coriander, with plants emerging from the soil. The presence of a hand reaching into the dirt suggests the need for manual intervention, likely for watering.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- Knowledge of the current growth stage of coriander.",
+            "- Understanding of the importance of regular watering.",
+            "- Familiarity with the concept of using herbs fresh.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The coriander should be watered regularly.",
+            "- The robot should inform the user about the benefits of using coriander fresh.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

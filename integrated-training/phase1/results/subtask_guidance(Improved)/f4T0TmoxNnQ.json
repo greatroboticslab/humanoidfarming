@@ -1,0 +1,911 @@
+{
+  "video_index": "f4T0TmoxNnQ",
+  "title": "Agricultural Disasters and Human Impact on Food Security",
+  "url": "https://www.youtube.com/watch?v=f4T0TmoxNnQ",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Discusses the impact and solutions to agricultural disasters.",
+  "tasks": [
+    {
+      "task": "Explain the multifaceted nature of agricultural disasters and their consequences.",
+      "start": 4.11,
+      "end": 56.11,
+      "subtasks": [
+        {
+          "text": "Describe how agricultural disasters go beyond crop failure and affect human lives.",
+          "start": 4.11,
+          "end": 11.11,
+          "segment_ids": [
+            0,
+            1
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "f4T0TmoxNnQ/task00_sub00_f00.jpg",
+              "caption": "The video frame shows a welcome message for \"FarmGear Innovators.\"",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "f4T0TmoxNnQ/task00_sub00_f01.jpg",
+              "caption": "A tractor is driving across a field with a large yellow tank attached to it.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "f4T0TmoxNnQ/task00_sub00_f02.jpg",
+              "caption": "The video shows a dried-up river with text overlay.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Agricultural disasters extend far beyond just crop failure, impacting various aspects of human life. This subtask will illustrate how these disasters affect communities through multiple layers of consequence.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The video begins with a welcome message for \"FarmGear Innovators,\" setting the context for agricultural technology.",
+            "- [frames=[1]] A tractor is seen driving across a field with a large yellow tank, indicating modern farming equipment.",
+            "- [frames=[2]] A dried-up river is shown with text overlay, symbolizing water scarcity and its impact on agriculture.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from an introduction to FarmGear Innovators to a depiction of advanced agricultural machinery, followed by a stark image of environmental degradation. These visuals highlight the technological advancements in agriculture juxtaposed with the severe consequences of natural disasters and human-induced changes.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the layout of the farm area.",
+            "- It needs to have access to real-time weather data and historical agricultural records.",
+            "- The robot must be capable of recognizing different types of agricultural machinery and environmental conditions.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the multifaceted impacts of agricultural disasters.",
+            "- It must identify and explain the connection between crop failure and broader human impacts such as food security and economic stability.",
+            "- The robot should provide examples of how water scarcity affects not just crops but also livestock and human settlements.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Navigate to the welcome screen and read the message \"FarmGear Innovators.\".",
+            "2. [type=perception, frames=[1]] Identify the tractor and the large yellow tank, confirming the presence of modern farming equipment.",
+            "3. [type=navigation, frames=[2]] Move to the image of the dried-up river and cross.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the welcome screen and read the message \"FarmGear Innovators.\". It then verifies the key detail directly from the frames (Navigate to the welcome screen and read the message \"FarmGear Innovators.\").",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "List the types of agricultural disasters such as droughts, flash floods, and extreme weather events.",
+          "start": 11.11,
+          "end": 21.11,
+          "segment_ids": [
+            2,
+            3,
+            4
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "f4T0TmoxNnQ/task00_sub01_f01.jpg",
+              "caption": "A farmer is working in a flooded field, with text overlay indicating flash floods that destroy.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "f4T0TmoxNnQ/task00_sub01_f02.jpg",
+              "caption": "The video frame shows a rural landscape with a large greenhouse complex and power lines.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment lists various types of agricultural disasters, focusing on flash floods and extreme weather events.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A farmer is working in a flooded field, with text overlay indicating flash floods that destroy.",
+            "- [frames=[2]] The video frame shows a rural landscape with a large greenhouse complex and power lines.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from showing the immediate impact of a flash flood on farmland to a broader view of agricultural infrastructure, including greenhouses and power lines, suggesting the wide-ranging effects of agricultural disasters.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture the current state of the flooded field.",
+            "- The robot needs to have knowledge about different types of agricultural disasters.",
+            "- The robot must be able to communicate with the user or other systems to provide information.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify and list the types of agricultural disasters shown in the video.",
+            "- It should provide a clear explanation of the impact of these disasters on agriculture.",
+            "- The robot should be able to verify the presence of flash floods and other extreme weather events.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Capture an image of the flooded field to confirm the presence of flash floods.",
+            "2. [type=perception, frames=[2]] Scan the rural landscape to identify additional agricultural structures like greenhouses and power lines.",
+            "3. [type=communication, frames=[1,2]] Announce the identification of flash floods and other extreme weather events affecting agriculture.",
+            "4. [type=communication, frames=[1]] Use a digital display to show images of flooded fields and other affected areas.",
+            "5. [type=communication, frames=[2]] Display diagrams or models of greenhouse complexes and power lines to illustrate the broader impact.",
+            "6. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture an image of the flooded field to confirm the presence of flash floods. It then verifies the key detail directly from the frames (Capture an image of the flooded field to confirm the presence of flash floods). After verification, it communicates the result clearly (Announce the identification of flash floods and other extreme weather events affecting agriculture).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Emphasize that human practices are contributing to the crisis of agricultural disasters.",
+          "start": 21.11,
+          "end": 46.11,
+          "segment_ids": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub02_f01.jpg",
+              "relative_path": "f4T0TmoxNnQ/task00_sub02_f01.jpg",
+              "caption": "The video frame shows an aerial view of a farm with various fields and animals.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub02_f02.jpg",
+              "relative_path": "f4T0TmoxNnQ/task00_sub02_f02.jpg",
+              "caption": "The video frame shows a field with smoke rising from a fire in the distance.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub02_f03.jpg",
+              "relative_path": "f4T0TmoxNnQ/task00_sub02_f03.jpg",
+              "caption": "The video frame shows a serene rural landscape with a small pond and rolling hills at sunset.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task00_sub02_f04.jpg",
+              "relative_path": "f4T0TmoxNnQ/task00_sub02_f04.jpg",
+              "caption": "The video frame shows a large field with irrigation systems, with the text \"leaving it vulnerable\" overlaid.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task00_sub02_f05.jpg",
+              "relative_path": "f4T0TmoxNnQ/task00_sub02_f05.jpg",
+              "caption": "The frame shows a dark, textured surface with a logo in the top right corner.",
+              "frame_index": 5
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will explain how human practices contribute to the crisis of agricultural disasters, using visual aids to support the explanation.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] An aerial view of a farm with various fields and animals sets the scene.",
+            "- [frames=[2]] A field with smoke rising from a fire in the distance highlights a disaster scenario.",
+            "- [frames=[3]] A serene rural landscape with a small pond and rolling hills at sunset provides a contrast.",
+            "- [frames=[4]] A large field with irrigation systems, marked as \"leaving it vulnerable,\" emphasizes the vulnerability.",
+            "- [frames=[5]] A dark, textured surface with a logo in the top right corner indicates the end of the visual sequence.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes transition from a peaceful rural setting to one showing signs of disaster, highlighting the contrast between natural beauty and human-induced vulnerabilities. The imagery underscores the impact of human practices on agricultural stability.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to a display screen to show images.",
+            "- The robot needs to be familiar with the video content and its timing.",
+            "- The robot must be able to navigate through the frames accurately.",
+            "- The robot should have a voice or text-to-speech capability to deliver the explanation.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully navigates through the frames to present the visual aids.",
+            "- The robot explains the role of human practices in agricultural disasters.",
+            "- The robot contrasts the serene landscape with the disaster scenario effectively.",
+            "- The robot highlights the vulnerability of agricultural land due to human practices.",
+            "- The robot concludes by emphasizing the importance of understanding these issues.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Move to frame 1 to show the farm with various fields and animals.",
+            "2. [type=perception, frames=[1,2,3,4,5]] Verify/confirm the key observation before reporting.",
+            "3. [type=perception, frames=[1,2,3,4,5]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[1,2,3,4,5]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[1,2,3,4,5]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to frame 1 to show the farm with various fields and animals. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Compare the current agricultural crisis to the dust bowl of the 1930s as a man-made disaster.",
+          "start": 42.11,
+          "end": 56.11,
+          "segment_ids": [
+            12,
+            13,
+            14,
+            15
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub03_f00.jpg",
+              "relative_path": "f4T0TmoxNnQ/task00_sub03_f00.jpg",
+              "caption": "A tractor is spraying water on a large field with irrigation systems.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub03_f01.jpg",
+              "relative_path": "f4T0TmoxNnQ/task00_sub03_f01.jpg",
+              "caption": "The video frame shows a vast, green landscape with patches of water, under a sunset sky.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub03_f02.jpg",
+              "relative_path": "f4T0TmoxNnQ/task00_sub03_f02.jpg",
+              "caption": "The video frame shows a vast wasteland with tire tracks and a windmill in the background.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask involves comparing the current agricultural crisis to the dust bowl of the 1930s, highlighting the man-made nature of both disasters and their impact on food security.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A tractor is seen spraying water on a large field with irrigation systems.",
+            "- [frames=[1]] The scene shifts to a vast, green landscape with patches of water, under a sunset sky.",
+            "- [frames=[2]] The view changes to a vast wasteland with tire tracks and a windmill in the background.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The frames depict contrasting scenes of modern agricultural practices and the aftermath of environmental degradation. The first frame shows active irrigation and farming, while the second and third frames illustrate the barren land resulting from severe drought and overuse of resources.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have knowledge of historical agricultural disasters.",
+            "- The robot needs access to a display or screen to show images.",
+            "- The robot should be able to communicate effectively with the viewer.",
+            "- The robot must have the ability to navigate through different frames.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the similarities between the current crisis and the dust bowl.",
+            "- The robot should highlight the man-made factors contributing to both disasters.",
+            "- The robot should provide context on how these events affected food security.",
+            "- The robot should visually compare the two scenarios using the provided frames.",
+            "- The robot should conclude by emphasizing the importance of learning from past mistakes.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Read the image of the tractor spraying water and note the irrigation systems.",
+            "2. [type=perception, frames=[1]] Verify the vast, green landscape with patches of water under a sunset sky.",
+            "3. [type=perception, frames=[2]] Confirm the vast.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Read the image of the tractor spraying water and note the irrigation systems. It then verifies the key detail directly from the frames (Read the image of the tractor spraying water and note the irrigation systems).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Highlight the global scale of agricultural challenges and the impact on farmlands.",
+      "start": 62.11,
+      "end": 127.11,
+      "subtasks": [
+        {
+          "text": "Mention specific regions facing agricultural challenges like the Sahel region and Asia.",
+          "start": 62.11,
+          "end": 71.11,
+          "segment_ids": [
+            18,
+            19
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "f4T0TmoxNnQ/task01_sub00_f00.jpg",
+              "caption": "A combine harvester operates at night with its lights on, illuminating the field.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "f4T0TmoxNnQ/task01_sub00_f01.jpg",
+              "caption": "The video frame shows an aerial view of a large, plowed field with a windmill in the distance.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "f4T0TmoxNnQ/task01_sub00_f02.jpg",
+              "caption": "A person is feeding chickens in a dark, enclosed area.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video highlights specific regions facing agricultural challenges, such as the Sahel region and Asia, emphasizing the global scale of these issues.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A combine harvester operates at night, indicating ongoing agricultural activities even under challenging conditions.",
+            "- [frames=[1]] An aerial view shows a large, plowed field with a windmill in the distance, suggesting modern farming practices and infrastructure.",
+            "- [frames=[2]] A person is seen feeding chickens in a dark, enclosed area, hinting at small-scale or subsistence farming.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict both large-scale commercial farming and smaller-scale operations, illustrating the diverse nature of agricultural challenges faced globally.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to real-time satellite imagery and drone footage.",
+            "- It needs to be equipped with night vision capabilities.",
+            "- The robot must be able to communicate with local farmers and agricultural experts.",
+            "- It should have a database of known agricultural regions and their characteristics.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Accurately identify and label the specific regions mentioned (Sahel region and Asia).",
+            "- Provide statistical data on the extent of agricultural challenges in these regions.",
+            "- Highlight the types of crops and farming methods used in these areas.",
+            "- Cross-check the information with expert opinions and historical data.",
+            "- Ensure the information is presented in a clear and understandable manner.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the combine harvester scene and capture detailed images.",
+            "2. [type=perception, frames=[0,1]] Analyze the images to confirm the presence of a combine harvester operating at night.",
+            "3. [type=navigation, frames=[1]] Move to the aerial view scene and capture a wide-angle image.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the combine harvester scene and capture detailed images. It then verifies the key detail directly from the frames (Analyze the images to confirm the presence of a combine harvester operating at night).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Discuss how climate change exacerbates agricultural challenges.",
+          "start": 78.11,
+          "end": 96.11,
+          "segment_ids": [
+            22,
+            23,
+            24,
+            25,
+            26
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f00.jpg",
+              "relative_path": "f4T0TmoxNnQ/task01_sub01_f00.jpg",
+              "caption": "The video frame shows a scenic view of a city with mountains in the background, under a cloudy sky.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "f4T0TmoxNnQ/task01_sub01_f01.jpg",
+              "caption": "A vast agricultural field with rows of crops, surrounded by trees and mountains in the distance.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "f4T0TmoxNnQ/task01_sub01_f02.jpg",
+              "caption": "A large smoke cloud is billowing over a barren landscape.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task01_sub01_f03.jpg",
+              "relative_path": "f4T0TmoxNnQ/task01_sub01_f03.jpg",
+              "caption": "A large greenhouse with rows of plants is surrounded by green grass.",
+              "frame_index": 3
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment highlights how climate change intensifies agricultural challenges, affecting both productive and degraded landscapes.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A cityscape with mountains and a cloudy sky sets the scene for urban and rural impacts.",
+            "- [frames=[1]] An expansive agricultural field with rows of crops and distant trees illustrates typical farmland.",
+            "- [frames=[2]] A large smoke cloud over a barren landscape symbolizes environmental degradation due to climate change.",
+            "- [frames=[3]] A greenhouse with plants and green grass contrasts with the previous scenes, showing modern agricultural practices.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The video transitions from an urban setting to a lush agricultural field, then to a desolate landscape, and finally to a controlled environment. This sequence visually conveys the diverse impacts of climate change on agriculture.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with environmental sensors.",
+            "- It needs access to real-time weather data.",
+            "- The robot must have a database of agricultural practices and their outcomes.",
+            "- It should be able to communicate with remote experts if necessary.",
+            "- The robot should have a map of the area to navigate effectively.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Verify the presence of smoke and barren land to confirm climate change impact.",
+            "- Check the health of crops in the agricultural field.",
+            "- Measure the temperature and humidity levels in the greenhouse.",
+            "- Cross-check the data with historical records to identify trends.",
+            "- Confirm the robot’s ability to navigate through different terrains.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the agricultural field.",
+            "2. [type=perception, frames=[1]] Use sensors to measure the health of the crops.",
+            "3. [type=navigation, frames=[2]] Move to the barren landscape to verify the presence of smoke.",
+            "4. [type=perception, frames=[0,1,2,3]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2,3]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the agricultural field. It then verifies the key detail directly from the frames (Use sensors to measure the health of the crops).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Explain the ripple effects of crop failures on food prices and availability.",
+          "start": 110.11,
+          "end": 127.11,
+          "segment_ids": [
+            31,
+            32,
+            33,
+            34,
+            35
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub02_f00.jpg",
+              "relative_path": "f4T0TmoxNnQ/task01_sub02_f00.jpg",
+              "caption": "Two tomatoes are growing on a plant in a greenhouse.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub02_f01.jpg",
+              "relative_path": "f4T0TmoxNnQ/task01_sub02_f01.jpg",
+              "caption": "The video frame shows a scenic landscape with rolling hills and a winding road, with the text \"basic staples become\" overlaid.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub02_f02.jpg",
+              "relative_path": "f4T0TmoxNnQ/task01_sub02_f02.jpg",
+              "caption": "The video frame shows a vast, empty landscape with winding roads and hills.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task01_sub02_f03.jpg",
+              "relative_path": "f4T0TmoxNnQ/task01_sub02_f03.jpg",
+              "caption": "A man in a mask is spraying crops in a field.",
+              "frame_index": 3
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on explaining how crop failures can lead to increased food prices and reduced availability of basic staples, impacting food security globally.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A close-up of two tomatoes growing in a greenhouse indicates the initial stages of crop production.",
+            "- [frames=[1]] A scenic landscape with rolling hills and a winding road appears, with the text \"basic staples become\" overlaid, suggesting a shift from crop production to staple food items.",
+            "- [frames=[2]] An expansive, barren landscape with winding roads and hills highlights the aftermath of crop failure, emphasizing the vastness of the affected area.",
+            "- [frames=[3]] A man in a mask spraying crops in a field shows ongoing agricultural efforts despite the challenges faced.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes transition from a controlled environment (greenhouse) to a broader landscape, illustrating the progression from crop production to the wider impact on food supply. The barren landscape underscores the severe consequences of crop failures, while the man spraying crops symbolizes the continued efforts to mitigate these impacts.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- Understanding of agricultural processes and their impact on food security.",
+            "- Knowledge of global food markets and supply chains.",
+            "- Familiarity with the terminology related to crop failures and food prices.",
+            "- Ability to explain complex concepts in simple terms.",
+            "- Awareness of the visual elements and their significance in the tutorial.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Clear explanation of how crop failures affect food prices and availability.",
+            "- Identification of key areas impacted by crop failures.",
+            "- Demonstration of understanding through relevant examples and visuals.",
+            "- Engagement of the audience with appropriate pacing and clarity.",
+            "- Accurate representation of the global scale of agricultural challenges.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Focus on the greenhouse scene to introduce the topic of crop production.",
+            "2. [type=perception, frames=[0,1,2,3]] Verify/confirm the key observation before reporting.",
+            "3. [type=perception, frames=[0,1,2,3]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[0,1,2,3]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2,3]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Focus on the greenhouse scene to introduce the topic of crop production. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Describe the efforts being made to address agricultural disasters.",
+      "start": 132.11,
+      "end": 232.11,
+      "subtasks": [
+        {
+          "text": "Mention scientists, farmers, and innovators working to find solutions.",
+          "start": 132.11,
+          "end": 143.11,
+          "segment_ids": [
+            38,
+            39,
+            40
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f00.jpg",
+              "relative_path": "f4T0TmoxNnQ/task02_sub00_f00.jpg",
+              "caption": "A tractor is driving across a vast, open field, leaving a trail of dust behind it.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "f4T0TmoxNnQ/task02_sub00_f01.jpg",
+              "caption": "The video frame shows a vast agricultural landscape with various fields and water bodies, with the text \"around the world scientists\" overlaid.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "f4T0TmoxNnQ/task02_sub00_f02.jpg",
+              "caption": "A row of old farm equipment is lined up, with the caption \"are working tirelessly to find solutions.\"",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Scientists, farmers, and innovators around the world are working together to address agricultural disasters and ensure food security.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A tractor is driving across a vast, open field, indicating ongoing agricultural activities.",
+            "- [frames=[1]] The video shows a broad agricultural landscape with various fields and water bodies, with the text \"around the world scientists\" overlaid, emphasizing global efforts.",
+            "- [frames=[2]] Old farm equipment is lined up, symbolizing traditional methods alongside modern innovations.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a wide agricultural setting with both modern and traditional farming tools, highlighting the diverse range of efforts in addressing agricultural challenges. The presence of scientists and their work underscores the importance of research and innovation in agriculture.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with sensors to detect agricultural landscapes.",
+            "- It needs to have communication capabilities to interact with humans.",
+            "- The robot should be able to navigate through different terrains.",
+            "- It must have the ability to read and interpret text overlays.",
+            "- The robot should be capable of performing basic tasks such as moving objects or checking conditions.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Verify that the agricultural landscape is accurately identified.",
+            "- Confirm that the text overlay is correctly recognized.",
+            "- Check that the old farm equipment is properly observed.",
+            "- Measure the extent of the agricultural area.",
+            "- Cross-check the presence of scientists and innovators in the scene.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the field where the tractor is driving.",
+            "2. [type=perception, frames=[0]] Read the text overlay to confirm the presence of scientists.",
+            "3. [type=navigation, frames=[1]] Move to the area showing the vast agricultural landscape.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the field where the tractor is driving. It then verifies the key detail directly from the frames (Read the text overlay to confirm the presence of scientists).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Describe promising technologies like vertical farming and hydroponics.",
+          "start": 153.11,
+          "end": 166.11,
+          "segment_ids": [
+            44,
+            45,
+            46,
+            47
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub01_f00.jpg",
+              "relative_path": "f4T0TmoxNnQ/task02_sub01_f00.jpg",
+              "caption": "A person is tending to a garden with drip irrigation lines, and the text \"the fight to secure our food future is underway\" is overlaid.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub01_f01.jpg",
+              "relative_path": "f4T0TmoxNnQ/task02_sub01_f01.jpg",
+              "caption": "The video frame shows an aerial view of a farm with rows of crops, with text overlaid that reads, \"are revolutionizing the way we.\"",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub01_f02.jpg",
+              "relative_path": "f4T0TmoxNnQ/task02_sub01_f02.jpg",
+              "caption": "A large field is being irrigated with a sprinkler system.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment highlights the adoption of innovative agricultural technologies such as vertical farming and hydroponics to enhance food security amidst agricultural disasters.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A person is tending to a garden with drip irrigation lines, and the text \"the fight to secure our food future is underway\" is overlaid.",
+            "- [frames=[1]] The video frame shows an aerial view of a farm with rows of crops, with text overlaid that reads, \"are revolutionizing the way we.\"",
+            "- [frames=[2]] A large field is being irrigated with a sprinkler system.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict various modern agricultural practices aimed at improving efficiency and resilience against disasters. The first frame shows manual intervention with precision irrigation, while the second frame provides a broader view of conventional irrigation methods. Both highlight the ongoing efforts to secure food supplies through technological advancements.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with sensors for navigation and object recognition.",
+            "- The robot needs access to a database of agricultural technologies and their applications.",
+            "- The robot must have the ability to communicate with other systems involved in agricultural management.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify and describe the technologies shown in the video.",
+            "- It should provide a clear explanation of how these technologies contribute to food security.",
+            "- The robot should be able to cross-check the information with its database.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Navigate to the first frame where a person is tending to a garden.",
+            "2. [type=perception, frames=[0]] Use visual sensors to confirm the presence of drip irrigation lines.",
+            "3. [type=perception, frames=[0]] Simulate the action of tending to the garden to verify the technology.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the first frame where a person is tending to a garden. It then verifies the key detail directly from the frames (Use visual sensors to confirm the presence of drip irrigation lines).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Highlight regenerative agriculture practices being implemented.",
+          "start": 166.11,
+          "end": 185.11,
+          "segment_ids": [
+            48,
+            49,
+            50,
+            51,
+            52,
+            53
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub02_f01.jpg",
+              "relative_path": "f4T0TmoxNnQ/task02_sub02_f01.jpg",
+              "caption": "Several people are planting rice in a field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub02_f02.jpg",
+              "relative_path": "f4T0TmoxNnQ/task02_sub02_f02.jpg",
+              "caption": "The video frame shows an aerial view of a farm with rows of crops, likely lettuce, in various stages of growth.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task02_sub02_f03.jpg",
+              "relative_path": "f4T0TmoxNnQ/task02_sub02_f03.jpg",
+              "caption": "A combine harvester is harvesting crops in a field, with a tractor nearby.",
+              "frame_index": 3
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment highlights regenerative agriculture practices, focusing on sustainable farming methods such as crop rotation and soil health improvement.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] People are planting rice in a field, indicating manual labor and the beginning of a regenerative practice.",
+            "- [frames=[2]] An aerial view of a farm shows rows of crops in various stages of growth, suggesting diverse plantings and possibly different crop cycles.",
+            "- [frames=[3]] A combine harvester is harvesting crops, with a tractor nearby, showing efficient machinery use in regenerative agriculture.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a variety of regenerative agriculture practices, including manual planting, diverse crop cultivation, and efficient harvesting techniques. These practices aim to improve soil health and biodiversity while ensuring sustainable food production.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with sensors for identifying different types of crops.",
+            "- It needs to have the capability to navigate through fields and around machinery.",
+            "- The robot must be able to communicate with other farm equipment if necessary.",
+            "- The robot should have a database of regenerative agriculture practices and their benefits.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Correct identification of regenerative agriculture practices.",
+            "- Accurate depiction of the planting, growing, and harvesting processes.",
+            "- Proper representation of the diversity in crop types and soil health improvements.",
+            "- Clear demonstration of the efficiency and sustainability of the practices shown.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate to the area where people are planting rice.",
+            "2. [type=perception, frames=[1]] Use cameras to verify the type of seeds being planted and the method of planting.",
+            "3. [type=navigation, frames=[2]] Move to the aerial view of the farm to observe the diverse crop rows.",
+            "4. [type=perception, frames=[1,2,3]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[1,2,3]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the area where people are planting rice. It then verifies the key detail directly from the frames (Use cameras to verify the type of seeds being planted and the method of planting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Conclude by emphasizing the importance of action and collaboration.",
+          "start": 195.11,
+          "end": 232.11,
+          "segment_ids": [
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub03_f00.jpg",
+              "relative_path": "f4T0TmoxNnQ/task02_sub03_f00.jpg",
+              "caption": "The video frame shows a large, organized farm with rows of crops, likely vegetables, under a protective netting system.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub03_f01.jpg",
+              "relative_path": "f4T0TmoxNnQ/task02_sub03_f01.jpg",
+              "caption": "People are working in a field, with a tractor parked nearby.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub03_f02.jpg",
+              "relative_path": "f4T0TmoxNnQ/task02_sub03_f02.jpg",
+              "caption": "A person is tending to plants in a garden with a car parked nearby.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task02_sub03_f03.jpg",
+              "relative_path": "f4T0TmoxNnQ/task02_sub03_f03.jpg",
+              "caption": "Several farmers are planting rice in a field.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task02_sub03_f04.jpg",
+              "relative_path": "f4T0TmoxNnQ/task02_sub03_f04.jpg",
+              "caption": "A vast, newly planted field with young corn plants.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task02_sub03_f05.jpg",
+              "relative_path": "f4T0TmoxNnQ/task02_sub03_f05.jpg",
+              "caption": "The video frame shows an aerial view of a farm with greenhouses and fields.",
+              "frame_index": 5
+            },
+            {
+              "image_file": "task02_sub03_f06.jpg",
+              "relative_path": "f4T0TmoxNnQ/task02_sub03_f06.jpg",
+              "caption": "A large field with two harvesters and a tractor is being harvested.",
+              "frame_index": 6
+            },
+            {
+              "image_file": "task02_sub03_f07.jpg",
+              "relative_path": "f4T0TmoxNnQ/task02_sub03_f07.jpg",
+              "caption": "A dark, gold-toned background with a few golden particles floating around.",
+              "frame_index": 7
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video concludes by highlighting the importance of collective action in addressing agricultural challenges, emphasizing the need for ongoing effort and cooperation among farmers, researchers, and policymakers.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] Large, organized farms with protective netting systems and people working in fields.",
+            "- [frames=[2]] Farmers tending to plants in gardens with cars nearby.",
+            "- [frames=[3,4]] Farmers planting rice in fields, showing a vast, newly planted field with young corn plants.",
+            "- [frames=[5]] An aerial view of farms with greenhouses and fields.",
+            "- [frames=[6]] Harvesting activity with multiple machines in a large field.",
+            "- [frames=[7]] A dark, gold-toned background with floating golden particles, symbolizing the value and importance of agriculture.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict various agricultural activities, from planting to harvesting, emphasizing the complexity and scale of farming operations. The presence of protective measures and modern machinery highlights the technological advancements and the need for sustainable practices in agriculture.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the layout of the farm and the types of crops grown.",
+            "- It should have access to real-time weather data and agricultural reports.",
+            "- The robot needs to be equipped with communication tools to interact with farmers and other stakeholders.",
+            "- The robot should have a database of best practices and solutions for addressing agricultural disasters.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should convey the message about the importance of action and collaboration effectively.",
+            "- It should identify key areas where collaboration can enhance agricultural resilience.",
+            "- The robot should provide actionable insights based on current agricultural trends and challenges.",
+            "- It should ensure that the message is clear and resonates with the audience.",
+            "- The robot should be able to cross-check the effectiveness of the communication strategy.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2,3,4,5,6,7]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2,3,4,5,6,7]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2,3,4,5,6,7]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2,3,4,5,6,7]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2,3,4,5,6,7]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

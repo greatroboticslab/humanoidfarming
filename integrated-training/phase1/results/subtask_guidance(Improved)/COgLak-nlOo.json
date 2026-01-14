@@ -1,0 +1,234 @@
+{
+  "video_index": "COgLak-nlOo",
+  "title": "Prepare Corn for Planting Video",
+  "url": "https://www.youtube.com/watch?v=COgLak-nlOo",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "The transcript describes a process of preparing and planting corn.",
+  "tasks": [
+    {
+      "task": "Demonstrate the steps of preparing corn for planting.",
+      "start": 0.02,
+      "end": 6.03,
+      "subtasks": [
+        {
+          "text": "Grab a fresh corn and peel it.",
+          "start": 0.02,
+          "end": 2.02,
+          "segment_ids": [
+            0
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "COgLak-nlOo/task00_sub00_f00.jpg",
+              "caption": "A man in a black tank top and white pants is holding a banana in a kitchen.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "COgLak-nlOo/task00_sub00_f01.jpg",
+              "caption": "A man is holding a fresh corn cob in a kitchen.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "COgLak-nlOo/task00_sub00_f02.jpg",
+              "caption": "A person is peeling a banana.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to identify and pick up a fresh corn cob, then proceed to peel it.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The scene shows a man holding a banana in a kitchen, which is irrelevant to the task.",
+            "- [frames=[1]] A man is holding a fresh corn cob in a kitchen, indicating the presence of the object to be picked up.",
+            "- [frames=[2]] A person is peeling a banana, which is not relevant to the current task.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene involves a kitchen setting where a fresh corn cob is present. The robot’s task is to locate and handle the corn cob, then perform the peeling action.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be able to recognize a corn cob.",
+            "- The robot must have the capability to grasp and manipulate objects.",
+            "- The robot should be aware of its current position relative to the corn cob.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully picks up the corn cob.",
+            "- The robot correctly identifies the corn cob as the target object.",
+            "- The robot completes the peeling action on the corn cob.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Scan the environment to locate the fresh corn cob.",
+            "2. [type=navigation, frames=[1]] Move towards the location of the corn cob.",
+            "3. [type=manipulation, frames=[1]] Grasp the corn cob using the robotic arm.",
+            "4. [type=perception, frames=[2]] Verify the correct identification of the corn cob by checking its appearance.",
+            "5. [type=manipulation, frames=[2]] Begin peeling the corn cob by removing the outer layer.",
+            "6. [type=manipulation, frames=[2]] Continue peeling until the entire outer layer is removed.",
+            "7. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Scan the environment to locate the fresh corn cob. It then verifies the key detail directly from the frames (Verify the correct identification of the corn cob by checking its appearance).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Throw the peeled corn on top of a pot with salt.",
+          "start": 2.02,
+          "end": 6.03,
+          "segment_ids": [
+            1
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "COgLak-nlOo/task00_sub01_f01.jpg",
+              "caption": "A hand is holding a peeled corn cob.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "COgLak-nlOo/task00_sub01_f02.jpg",
+              "caption": "A window with plants and a table in a room.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will take a peeled corn cob and place it on top of a pot containing salt.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] The robot's hand is holding a peeled corn cob.",
+            "- [frames=[2]] A window with plants and a table can be seen in the background, but no pot with salt is visible.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a room with a table and plants near a window. The robot needs to find a pot with salt to complete the task.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to a pot with salt.",
+            "- The robot should be able to identify and manipulate the corn cob.",
+            "- The robot should know the location of the pot with salt.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The corn cob is placed on top of the pot with salt.",
+            "- The robot confirms the corn cob is correctly positioned on the pot.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Move the robotic arm to the position where the hand is holding the corn cob.",
+            "2. [type=navigation, frames=[2]] Navigate to the area near the window where the pot with salt is expected to be located.",
+            "3. [type=perception, frames=[2]] Scan the area around the window to locate the pot with salt.",
+            "4. [type=navigation, frames=[2]] Move towards the pot with salt once located.",
+            "5. [type=manipulation, frames=[1,2]] Gently place the corn cob on top of the pot with salt.",
+            "6. [type=perception, frames=[2]] Verify the corn cob is correctly positioned on the pot.",
+            "7. [type=navigation, frames=[2]] Return to the initial position near the window.",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move the robotic arm to the position where the hand is holding the corn cob. It then verifies the key detail directly from the frames (Verify the corn cob is correctly positioned on the pot).",
+            "To finish safely, it completes cleanup and returns to standby: Return to the initial position near the window.",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Explain the next step in the process of corn planting.",
+      "start": 6.03,
+      "end": 26.7,
+      "subtasks": [
+        {
+          "text": "Out of each sprouted seed, carefully implant this gently and-",
+          "start": 6.03,
+          "end": 26.7,
+          "segment_ids": [
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "COgLak-nlOo/task01_sub00_f01.jpg",
+              "caption": "A flower pot with soil and a plant inside.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "COgLak-nlOo/task01_sub00_f02.jpg",
+              "caption": "A man is holding a large pot with a corn cob inside.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task01_sub00_f03.jpg",
+              "relative_path": "COgLak-nlOo/task01_sub00_f03.jpg",
+              "caption": "A man is holding a large pot with plants inside, and the word \"BOOM!\" appears on the screen.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task01_sub00_f04.jpg",
+              "relative_path": "COgLak-nlOo/task01_sub00_f04.jpg",
+              "caption": "A blurry image with a text overlay that says \"GENTLY IN IT'S OWN POT.\"",
+              "frame_index": 4
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to understand the process of carefully planting each sprouted corn seed into its own pot. This involves handling the seed and ensuring it is placed gently into the soil.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A flower pot with soil and a plant inside is visible, indicating the context of planting.",
+            "- [frames=[2]] A man is holding a large pot containing a corn cob, suggesting the source of the seeds.",
+            "- [frames=[3]] The man is shown holding a pot with plants, and \"BOOM!\" appears, likely indicating a transition or emphasis.",
+            "- [frames=[4]] A blurry image with a text overlay instructs to \"GENTLY IN ITS OWN POT,\" reinforcing the action required.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from showing a prepared pot to a man holding a corn cob, then to a pot with plants, and finally to a gentle instruction. This sequence suggests the robot should handle a single sprouted seed and place it carefully into a pot.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot must be equipped with a tool or mechanism to pick up and handle small objects like seeds.",
+            "- It should have the ability to recognize and differentiate between sprouted seeds and other objects.",
+            "- The robot needs to be able to navigate to and interact with pots and soil.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully picks up a single sprouted seed.",
+            "- The seed is placed gently into a pot.",
+            "- The seed is positioned correctly in the soil without damaging it.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2,3,4]] Move to the location where the sprouted seed is located.",
+            "2. [type=perception, frames=[1,2,3,4]] Identify the sprouted seed using object recognition.",
+            "3. [type=manipulation, frames=[1,2,3,4]] Grasp the spr.",
+            "4. [type=perception, frames=[1,2,3,4]] Verify/confirm the key observation before reporting.",
+            "5. [type=navigation, frames=[1,2,3,4]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to the location where the sprouted seed is located. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

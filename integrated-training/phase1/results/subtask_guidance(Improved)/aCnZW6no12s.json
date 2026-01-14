@@ -1,0 +1,490 @@
+{
+  "video_index": "aCnZW6no12s",
+  "title": "Improving Cropping Practice Monitoring with Spatial Technologies",
+  "url": "https://www.youtube.com/watch?v=aCnZW6no12s",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Discusses the increasing need for spatialized information in agricultural practices and future research directions.",
+  "tasks": [
+    {
+      "task": "Describe the current approach and limitations in agricultural remote sensing studies.",
+      "start": 0.0,
+      "end": 22.9,
+      "subtasks": [
+        {
+          "text": "Explain the increasing need for spatialized information in agricultural practices due to agronomic, environmental, and economic reasons.",
+          "start": 0.0,
+          "end": 13.84,
+          "segment_ids": [
+            0
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "aCnZW6no12s/task00_sub00_f00.jpg",
+              "caption": "The video shows a sequence of people working in a field, including planting, tilling, and harvesting crops.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "aCnZW6no12s/task00_sub00_f01.jpg",
+              "caption": "Three farmers are working in a field, one with a tractor, while another holds a hose.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "aCnZW6no12s/task00_sub00_f02.jpg",
+              "caption": "The video shows a collage of scenes related to agriculture, including a tractor in a field, a person working in a field, and various agricultural activities.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video illustrates the importance of incorporating spatialized information in agricultural practices, highlighting the agronomic, environmental, and economic benefits.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] People are shown performing various agricultural tasks such as planting, tilling, and harvesting.",
+            "- [frames=[1]] Farmers are depicted using a tractor and a hose, emphasizing modern agricultural techniques.",
+            "- [frames=[2]] A collage of agricultural scenes is presented, including tractors, people working in fields, and diverse farming activities.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict a range of agricultural activities, indicating the complexity and diversity of farming operations. These activities highlight the need for detailed spatial data to optimize processes and address challenges effectively.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have a basic understanding of agricultural environments.",
+            "- It needs to recognize common agricultural tools and machinery.",
+            "- The robot should be capable of identifying different stages of crop growth and farm activities.",
+            "- It must be able to communicate with other systems involved in agricultural monitoring.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify and describe the agricultural activities shown in the video.",
+            "- It must recognize the importance of spatial data in optimizing these activities.",
+            "- The robot should explain how spatial technologies can improve efficiency and sustainability in agriculture.",
+            "- It should provide examples of how spatialized information addresses agronomic, environmental, and economic issues.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1,2]] Analyze the video frames to identify key agricultural activities and tools.",
+            "2. [type=perception, frames=[0,1,2]] Recognize the stages of crop growth and farm activities depicted in the video.",
+            "3. [type=communication, frames=[0,1,2]] Generate a summary of the observed agricultural activities and their spatial requirements.",
+            "4. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Analyze the video frames to identify key agricultural activities and tools. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Note that most existing studies are exploratory in nature, heavily relying on local knowledge and using just one type of sensor.",
+          "start": 13.84,
+          "end": 22.9,
+          "segment_ids": [
+            1
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "aCnZW6no12s/task00_sub01_f01.jpg",
+              "caption": "The video shows a farmer working in a field, while a scientist examines the same field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "aCnZW6no12s/task00_sub01_f02.jpg",
+              "caption": "The video shows a series of scenes of people working in agricultural fields, including planting, monitoring, and research.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Most existing agricultural remote sensing studies are exploratory and rely on local knowledge, using only one type of sensor. This approach has limitations due to its narrow scope and lack of comprehensive data collection methods.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A farmer is shown working in a field, while a scientist observes the same area.",
+            "- [frames=[2]] Multiple scenes depict various agricultural activities such as planting, monitoring, and research.",
+            "- [frames=[1,2]] The scenes emphasize the reliance on local expertise and manual observation.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The video highlights the current practice of agricultural remote sensing, where studies are often limited by the use of single-sensor data and the dependence on local knowledge. These practices suggest a need for more standardized and comprehensive approaches to improve the accuracy and reliability of remote sensing data.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to a database of agricultural practices and sensor types.",
+            "- It needs to be equipped with multiple sensors capable of collecting diverse data.",
+            "- The robot must be able to communicate with local experts and other sensors in the field.",
+            "- It should have a map of the agricultural area to navigate effectively.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should collect data from multiple sensors simultaneously.",
+            "- It must verify the consistency of the collected data with local expert knowledge.",
+            "- The robot should generate a report summarizing the findings.",
+            "- It needs to cross-check the data against historical records.",
+            "- The final analysis should identify areas for improvement in current practices.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate to the field where the farmer and scientist are working.",
+            "2. [type=perception, frames=[1]] Use the robot's camera to capture images of the field.",
+            "3. [type=manipulation, frames=[1]] Deploy multiple sensors to collect.",
+            "4. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "5. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the field where the farmer and scientist are working. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Outline proposed future research directions to improve the monitoring of cropping practices.",
+      "start": 22.9,
+      "end": 39.34,
+      "subtasks": [
+        {
+          "text": "Mention the need for using land stratification in future research.",
+          "start": 22.9,
+          "end": 27.009999999999998,
+          "segment_ids": [
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "aCnZW6no12s/task01_sub00_f01.jpg",
+              "caption": "The video shows various scenes of people working in a field, including planting, tilling, and using a tractor.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "aCnZW6no12s/task01_sub00_f02.jpg",
+              "caption": "Three people are working in a field, with one holding a clipboard and the other two using agricultural tools.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to mention the importance of land stratification in future research for improving cropping practice monitoring.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] People are seen working in a field with various agricultural activities.",
+            "- [frames=[2]] Three individuals are observed in a field, with one holding a clipboard and others using tools.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a typical agricultural setting with ongoing farming activities. The presence of a person with a clipboard suggests data collection or documentation.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have knowledge about land stratification techniques.",
+            "- The robot must be equipped with communication capabilities to convey information.",
+            "- The robot should be aware of the current context of the video, focusing on agricultural practices.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately mention the need for land stratification.",
+            "- The information provided should be relevant and contribute to the improvement of cropping practice monitoring.",
+            "- The robot should ensure that the information is clear and understandable.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Observe the field activities and note the presence of people working.",
+            "2. [type=perception, frames=[2]] Identify the person with the clipboard and recognize their role in data collection.",
+            "3. [type=manipulation, frames=[1,2]] Access the stored information about land stratification techniques.",
+            "4. [type=communication, frames=[1,2]] Announce the importance of land stratification in future research.",
+            "5. [type=manipulation, frames=[1,2]] Provide examples of how land stratification can enhance monitoring accuracy.",
+            "6. [type=communication, frames=[1,2]] Emphasize the benefits of integrating spatial technologies with land stratification.",
+            "7. [type=manipulation, frames=[1,2]] Suggest potential areas where land stratification could be.",
+            "8. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "9. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Observe the field activities and note the presence of people working. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting). After verification, it communicates the result clearly (Announce the importance of land stratification in future research).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Pay attention to the recommendation for combining data from multiple sensors.",
+          "start": 27.009999999999998,
+          "end": 31.12,
+          "segment_ids": [
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "aCnZW6no12s/task01_sub01_f01.jpg",
+              "caption": "The video shows a combination of people working in a field and in a greenhouse, with a focus on expertise and collaboration.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "aCnZW6no12s/task01_sub01_f02.jpg",
+              "caption": "Two men in a field, one holding a clipboard, discussing knowledge-driven methods.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on understanding the importance of combining data from multiple sensors for improving cropping practice monitoring. This involves observing experts in a field and a greenhouse setting.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] People are seen working in both a field and a greenhouse, emphasizing the collaborative nature of agricultural expertise.",
+            "- [frames=[2]] Two men in a field are observed, one holding a clipboard, indicating a discussion about knowledge-driven methods.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a mix of outdoor and indoor agricultural settings, highlighting the need for a comprehensive approach to monitoring cropping practices. Experts are collaborating, likely sharing insights and data, which is crucial for developing effective monitoring strategies.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with sensors capable of collecting data from various sources.",
+            "- The robot needs to understand the importance of combining different types of data for accurate monitoring.",
+            "- The robot must be able to communicate effectively with other systems or humans involved in the process.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should successfully identify and combine data from multiple sensors.",
+            "- It should be able to verify the accuracy of the combined data.",
+            "- The robot should be able to suggest improvements based on the integrated data.",
+            "- It should be able to communicate the findings to relevant stakeholders.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Scan the environment to identify the presence of multiple sensors and data sources.",
+            "2. [type=perception, frames=[2]] Listen to the conversation between the two men to understand the context of knowledge-driven methods.",
+            "3. [type=navigation, frames=[1]] Move to a position where it can access all sensor data.",
+            "4. [type=manipulation, frames=[1]] Collect data from the field sensors.",
+            "5. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "6. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Scan the environment to identify the presence of multiple sensors and data sources. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Highlight the suggestion to use expert knowledge-driven methods for improved monitoring.",
+          "start": 31.12,
+          "end": 35.230000000000004,
+          "segment_ids": [
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub02_f01.jpg",
+              "relative_path": "aCnZW6no12s/task01_sub02_f01.jpg",
+              "caption": "Three men are in a field, one of them is writing on a piece of paper.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub02_f02.jpg",
+              "relative_path": "aCnZW6no12s/task01_sub02_f02.jpg",
+              "caption": "The video shows various scenes of people working in agricultural fields, including a woman in an apron holding papers, a man in a red hat and glasses holding a",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment highlights the importance of incorporating expert knowledge-driven methods to enhance the monitoring of cropping practices.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] Three men are in a field, one of them is writing on a piece of paper.",
+            "- [frames=[2]] Various scenes show people working in agricultural fields, including a woman in an apron holding papers, a man in a red hat and glasses holding a device.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a group of individuals engaged in agricultural activities, with one person specifically noted for writing down information. This suggests the collection of data or notes that could be used for expert knowledge-driven monitoring.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with sensors to detect and analyze agricultural environments.",
+            "- It needs to have the capability to communicate with humans and other devices.",
+            "- The robot must be able to navigate through different terrains within the agricultural field.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify key areas for monitoring based on expert knowledge.",
+            "- It must be able to collect and record relevant data effectively.",
+            "- The robot should be able to cross-check collected data against existing expert knowledge.",
+            "- The robot should provide real-time feedback on the quality of the monitoring process.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate to the area where the individual is writing on a piece of paper.",
+            "2. [type=perception, frames=[1]] Use visual sensors to confirm the presence of the individual and the activity of writing.",
+            "3. [type=navigation, frames=[1]] Approach the individual and request permission to assist with data collection.",
+            "4. [type=communication, frames=[1]] Initiate a conversation to understand the context and gather necessary information.",
+            "5. [type=navigation, frames=[2]] Move to the.",
+            "6. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the area where the individual is writing on a piece of paper. It then verifies the key detail directly from the frames (Use visual sensors to confirm the presence of the individual and the activity of writing).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Focus on the use of new spatial technologies like the sentinel constellation for monitoring cropping practices.",
+          "start": 35.230000000000004,
+          "end": 39.34,
+          "segment_ids": [
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub03_f01.jpg",
+              "relative_path": "aCnZW6no12s/task01_sub03_f01.jpg",
+              "caption": "The video frame shows a group of people working in a field, with one person holding a book and another holding a shovel.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub03_f02.jpg",
+              "relative_path": "aCnZW6no12s/task01_sub03_f02.jpg",
+              "caption": "A group of people are working in a field, with some using laptops and others inspecting crops.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene focuses on a group of people working in a field, using both traditional tools and modern technology to monitor and manage their crops. The introduction highlights the potential of new spatial technologies, such as the Sentinel constellation, for improving crop monitoring.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] People are seen working in a field, with one individual holding a book and another using a shovel.",
+            "- [frames=[2]] Individuals are observed using laptops and inspecting crops, indicating the integration of modern technology in agricultural practices.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a blend of traditional and modern agricultural methods. Workers are actively engaged in field activities, utilizing both physical tools and digital devices to monitor crop health and conditions. This dual approach suggests a shift towards more sophisticated and data-driven farming techniques.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with sensors capable of detecting spatial data.",
+            "- It needs to have access to real-time satellite imagery from the Sentinel constellation.",
+            "- The robot must be able to communicate with other devices in the field, such as laptops and drones.",
+            "- The robot should be familiar with the layout and boundaries of the field.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Accurate collection of spatial data from the Sentinel constellation.",
+            "- Integration of this data with on-site observations.",
+            "- Real-time analysis of crop health and growth patterns.",
+            "- Identification of areas requiring intervention or further investigation.",
+            "- Generation of actionable insights for improved crop management.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1,2]] Inspect/verify the scene before any physical action.",
+            "2. [type=manipulation, frames=[1,2]] Activate the robot’s sensor suite to collect spatial data.",
+            "3. [type=perception, frames=[1,2]] Retrieve real-time satellite imagery from the Sentinel constellation.",
+            "4. [type=perception, frames=[1]] Scan the field environment using onboard cameras to identify key areas of interest.",
+            "5. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Inspect/verify the scene before any physical action. It then verifies the key detail directly from the frames (Inspect/verify the scene before any physical action).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Provide information about the authors of the article.",
+      "start": 39.34,
+      "end": 45.34,
+      "subtasks": [
+        {
+          "text": "Mention the authors of the article: Agnes Baig, Damien Arver, Beatrice Bellin, and others.",
+          "start": 39.34,
+          "end": 45.34,
+          "segment_ids": [
+            3
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "aCnZW6no12s/task02_sub00_f01.jpg",
+              "caption": "The video frame shows a review article on remote sensing and cropping practices.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "aCnZW6no12s/task02_sub00_f02.jpg",
+              "caption": "The video frame shows a webpage with a title and authors listed for a review on remote sensing and cropping practices.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will mention the authors of an article on remote sensing and cropping practices, which are Agnes Baig, Damien Arver, Beatrice Bellin, and others.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] The video frame shows a review article on remote sensing and cropping practices.",
+            "- [frames=[2]] The video frame shows a webpage with a title and authors listed for a review on remote sensing and cropping practices.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene involves a review article and a webpage displaying the authors of a study on remote sensing and cropping practices. The authors mentioned are Agnes Baig, Damien Arver, Beatrice Bellin, and others.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot has access to the review article and webpage.",
+            "- The robot can read and process text from images.",
+            "- The robot knows the specific authors to mention.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot correctly identifies and mentions the authors.",
+            "- The robot reads the authors' names accurately.",
+            "- The robot includes all named authors without omission.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Read the text from the review article to identify the authors.",
+            "2. [type=perception, frames=[2]] Read the text from the webpage to confirm the authors.",
+            "3. [type=navigation, frames=[2]] Focus on the section containing the authors' names.",
+            "4. [type=communication, frames=[2]] Announce the authors: \"The authors of the article are Agnes Baig, Damien Arver, Beatrice Bellin, and others.\".",
+            "5. [type=perception, frames=[2]] Verify the announcement by cross-checking with the displayed text.",
+            "6. [type=navigation, frames=[2]] Return to a neutral position.",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Read the text from the review article to identify the authors. It then verifies the key detail directly from the frames (Read the text from the review article to identify the authors). After verification, it communicates the result clearly (Announce the authors: \"The authors of the article are Agnes Baig, Damien Arver, Beatrice Bellin, and others.\").",
+            "To finish safely, it completes cleanup and returns to standby: Return to a neutral position.",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

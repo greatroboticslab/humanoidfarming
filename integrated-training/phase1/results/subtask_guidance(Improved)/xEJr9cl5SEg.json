@@ -1,0 +1,418 @@
+{
+  "video_index": "xEJr9cl5SEg",
+  "title": "Five Facts on Global Water Crisis",
+  "url": "https://www.youtube.com/watch?v=xEJr9cl5SEg",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Provides information about the global water crisis and its various aspects.",
+  "tasks": [
+    {
+      "task": "Present facts about the global water crisis.",
+      "start": 0.85,
+      "end": 13.85,
+      "subtasks": [
+        {
+          "text": "Mention that water scarcity is happening faster than anticipated.",
+          "start": 0.85,
+          "end": 3.85,
+          "segment_ids": [
+            0
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "xEJr9cl5SEg/task00_sub00_f00.jpg",
+              "caption": "The video frame shows a cracked, dry surface, possibly a desert or arid landscape.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "xEJr9cl5SEg/task00_sub00_f01.jpg",
+              "caption": "The video frame shows a cracked, dry surface, with the word \"happening\" overlaid.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "xEJr9cl5SEg/task00_sub00_f02.jpg",
+              "caption": "A group of people are using a hand pump to draw water from a well.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will mention that water scarcity is occurring more rapidly than expected, supported by visual cues of a cracked, dry surface.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The video frame shows a cracked, dry surface, possibly indicating an arid landscape.",
+            "- [frames=[1]] The same cracked, dry surface is shown with the word \"happening\" overlaid.",
+            "- [frames=[2]] A group of people are seen using a hand pump to draw water from a well, suggesting efforts to access limited water resources.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a harsh environment with signs of water scarcity, where people are struggling to obtain water. This reinforces the notion that water scarcity is worsening at a faster rate than anticipated.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a screen or display to show images and text.",
+            "- The robot must have the ability to navigate to the appropriate location within the video frame.",
+            "- The robot needs to recognize the visual cues of a cracked, dry surface and people using a hand pump.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully displays the message about water scarcity happening faster than anticipated.",
+            "- The robot accurately navigates to the correct part of the video",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "List the first fact about the global water crisis.",
+          "start": 6.85,
+          "end": 11.85,
+          "segment_ids": [
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f00.jpg",
+              "relative_path": "xEJr9cl5SEg/task00_sub01_f00.jpg",
+              "caption": "A child stands in a rural setting, possibly preparing food or washing dishes.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "xEJr9cl5SEg/task00_sub01_f01.jpg",
+              "caption": "A child in a colorful shirt stands next to a bucket and a bottle of water, while another child in a Spider-Man costume plays in the dirt.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "xEJr9cl5SEg/task00_sub01_f02.jpg",
+              "caption": "The video frame shows a busy outdoor scene with numerous people and vehicles, possibly at a public event or gathering.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will present the first fact about the global water crisis by observing a rural setting and children interacting with water, which sets the context for discussing water scarcity issues.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A child stands in a rural setting, possibly preparing food or washing dishes.",
+            "- [frames=[1]] A child in a colorful shirt stands next to a bucket and a bottle of water, while another child in a Spider-Man costume plays in the dirt.",
+            "- [frames=[2]] The video frame shows a busy outdoor scene with numerous people and vehicles, possibly at a public event or gathering.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict various settings where water is used, from a rural home to a public event, suggesting diverse contexts of water usage and potential water scarcity issues.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should recognize children and their activities related to water.",
+            "- It must be aware of different settings such as rural areas and public events.",
+            "- The robot needs to understand the concept of water scarcity and its impact on daily life.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately state the first fact about the global water crisis.",
+            "- It should maintain a clear and engaging presentation style.",
+            "- The robot (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Provide the statistics for the first fact.",
+          "start": 11.85,
+          "end": 13.85,
+          "segment_ids": [
+            3
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub02_f01.jpg",
+              "relative_path": "xEJr9cl5SEg/task00_sub02_f01.jpg",
+              "caption": "A large crowd of people is gathered in a parking lot, with some holding signs and flags.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub02_f02.jpg",
+              "relative_path": "xEJr9cl5SEg/task00_sub02_f02.jpg",
+              "caption": "The video shows a busy street with numerous people and vehicles, with a focus on the Earth logo.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to present a statistic related to the global water crisis during the specified time range.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A large crowd of people is gathered in a parking lot, with some holding signs and flags.",
+            "- [frames=[2]] The video shows a busy street with numerous people and vehicles, with a focus on the Earth logo.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from a gathering in a parking lot to a busy street, likely indicating a public event or demonstration focused on environmental issues.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to accurate statistical data about the global water crisis.",
+            "- The robot must be able to display or speak the statistic clearly within the given time frame.",
+            "- The robot should be aware of the context of the event, recognizing it as part of a discussion on the global water crisis.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot presents the correct statistic.",
+            "- The statistic is spoken or displayed legibly within the 11.8s–13.8s timeframe.",
+            "- The presentation is clear and relevant to the topic of the global water crisis.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Describe future projections for water scarcity.",
+      "start": 13.85,
+      "end": 21.85,
+      "subtasks": [
+        {
+          "text": "State that 50% of the world's population will be living in water-stressed regions by 2025.",
+          "start": 13.85,
+          "end": 21.85,
+          "segment_ids": [
+            4
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "xEJr9cl5SEg/task01_sub00_f01.jpg",
+              "caption": "A group of people, including women in traditional attire, are using a hand pump to draw water from a well.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "xEJr9cl5SEg/task01_sub00_f02.jpg",
+              "caption": "People are working together to pump water from a well.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "By 2025, it is projected that half of the global population will reside in areas experiencing water stress.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A group of people, including women in traditional attire, are using a hand pump to draw water from a well.",
+            "- [frames=[2]] People are working together to pump water from a well.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict a community relying on manual methods to access water, highlighting the ongoing need for sustainable water management practices.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture visual data.",
+            "- The robot needs to have pre-programmed knowledge about water stress regions and their projections.",
+            "- The robot must be able to communicate with the user or other systems to convey information.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately state that 50% of the world's population will be living in water-stressed regions by 2025.",
+            "- The robot should provide supporting visuals or data to verify the statement.",
+            "- The robot should ensure the statement is clear and understandable to the audience.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Capture an.",
+            "2. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "3. [type=perception, frames=[1,2]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture an. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Highlight the role of the agriculture industry in water usage.",
+      "start": 21.85,
+      "end": 30.85,
+      "subtasks": [
+        {
+          "text": "Note that agriculture uses more than 70% of all fresh water.",
+          "start": 21.85,
+          "end": 27.85,
+          "segment_ids": [
+            5
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "xEJr9cl5SEg/task02_sub00_f01.jpg",
+              "caption": "A large field is being irrigated with a water truck.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "xEJr9cl5SEg/task02_sub00_f02.jpg",
+              "caption": "A rainbow appears over a field being irrigated with freshwater.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Agriculture significantly contributes to global water consumption, using over 70% of available fresh water resources.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A large field is being irrigated with a water truck, indicating active agricultural activity.",
+            "- [frames=[1]] A rainbow appears over the field, symbolizing natural beauty and contrast against the man-made irrigation scene.",
+            "- [frames=[1,2]] The scenes emphasize the scale and impact of agricultural water usage.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The imagery highlights the extensive use of water in agriculture, with the rainbow adding a symbolic layer to the scene, representing both the necessity and the potential environmental impact of such practices.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with image recognition capabilities to identify fields and water trucks.",
+            "- It must have knowledge of global water usage statistics, particularly those related to agriculture.",
+            "- The robot needs to understand the significance of rainbows in cultural and environmental contexts.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Correctly identifying the field and water truck in the frames.",
+            "- Accurately noting the percentage of water used by agriculture.",
+            "- Recognizing the symbolic representation of the rainbow.",
+            "- Providing a clear explanation of the role of agriculture in water usage.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Explain that much of the agricultural water is lost due to inefficient irrigation.",
+          "start": 27.85,
+          "end": 30.85,
+          "segment_ids": [
+            6
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub01_f01.jpg",
+              "relative_path": "xEJr9cl5SEg/task02_sub01_f01.jpg",
+              "caption": "A rainbow appears over a field being irrigated.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub01_f02.jpg",
+              "relative_path": "xEJr9cl5SEg/task02_sub01_f02.jpg",
+              "caption": "The video frame shows a blurred view of a field with irrigation lines.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will explain that a significant portion of agricultural water is wasted due to inefficient irrigation methods.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A rainbow appears over a field being irrigated, indicating a picturesque scene of water usage.",
+            "- [frames=[2]] The video frame shows a blurred view of a field with irrigation lines, suggesting an overview of the irrigation system.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a field under irrigation, with a rainbow adding a symbolic touch to highlight the importance of efficient water use. The blurred view of irrigation lines suggests a large-scale agricultural setting where water is being used but potentially wasted.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture the field images.",
+            "- The robot needs to have knowledge about agricultural practices and water usage.",
+            "- The robot must be able to communicate the explanation effectively.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the inefficiencies in irrigation.",
+            "- The explanation should correlate with the visual elements shown in the frames.",
+            "- The robot should convey the message clearly without any technical jargon.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Capture the image of the field with the.",
+            "2. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "3. [type=perception, frames=[1,2]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture the image of the field with the. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,361 @@
+{
+  "video_index": "Qu0wv-aUepg",
+  "title": "Fishes Burying for Chinese Ginger Farms Reasons Explained",
+  "url": "https://www.youtube.com/watch?v=Qu0wv-aUepg",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Explains a farming technique used in China to improve ginger yield.",
+  "tasks": [
+    {
+      "task": "Describe the agricultural practice of burying fish with ginger plants.",
+      "start": 0.0,
+      "end": 12.24,
+      "subtasks": [
+        {
+          "text": "Observe the people planting ginger and burying fish in the ground.",
+          "start": 0.0,
+          "end": 9.0,
+          "segment_ids": [
+            0,
+            1,
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "Qu0wv-aUepg/task00_sub00_f00.jpg",
+              "caption": "A row of dead fish are lined up in a trench.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "Qu0wv-aUepg/task00_sub00_f01.jpg",
+              "caption": "A group of people are walking along a dirt path with a row of dead fish lined up in the middle.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "Qu0wv-aUepg/task00_sub00_f02.jpg",
+              "caption": "A man and woman are working on a dirt path, with the woman holding a shovel.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "People are preparing to bury dead fish alongside ginger plants in a traditional agricultural practice.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A row of dead fish is lined up in a trench.",
+            "- [frames=[0,1]] A group of people walk along a dirt path with the fish.",
+            "- [frames=[2]] A man and woman are working on a dirt path, with the woman holding a shovel.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts the initial setup for burying fish with ginger plants, indicating a method used in Chinese ginger farming to enhance soil fertility and pest control.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a shovel or similar tool for digging.",
+            "- The robot needs to be able to identify and handle dead fish.",
+            "- The robot must be capable of navigating the dirt path.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The fish should be buried alongside the ginger plants.",
+            "- The trench should be properly filled and compacted.",
+            "- The ginger plants should be undamaged during the process.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Move to the location where the fish are lined up.",
+            "2. [type=perception, frames=[0,1]] Verify the presence of the fish using sensors.",
+            "3. [type=navigation, frames=[2]] Proceed to the work area where the man and woman are digging.",
+            "4. [type=manipulation, frames=[2]] Pick up a fish using the robotic arm.",
+            "5. [type=navigation, frames=[2]] Move to the trench where the ginger plants are located.",
+            "6. [type=manipulation, frames=[2]] Place the fish into the trench next to a ginger plant.",
+            "7. [type=manipulation, frames=[2]] Use the shovel to cover the.",
+            "8. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to the location where the fish are lined up. It then verifies the key detail directly from the frames (Verify the presence of the fish using sensors).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Note the reasoning behind burying the fish with the ginger.",
+          "start": 5.64,
+          "end": 12.24,
+          "segment_ids": [
+            2,
+            3
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f00.jpg",
+              "relative_path": "Qu0wv-aUepg/task00_sub01_f00.jpg",
+              "caption": "People are walking along a dirt path with a stream of water flowing down it.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "Qu0wv-aUepg/task00_sub01_f01.jpg",
+              "caption": "A person is using a hoe to dig in a dirt field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "Qu0wv-aUepg/task00_sub01_f02.jpg",
+              "caption": "A young girl is holding a bunch of ginger in a field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask involves understanding the reasoning behind burying fish with ginger plants in an agricultural setting.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] People are walking along a dirt path with a stream of water flowing down it.",
+            "- [frames=[1]] A person is using a hoe to dig in a dirt field.",
+            "- [frames=[2]] A young girl is holding a bunch of ginger in a field.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts an agricultural setting where people are preparing the soil for planting ginger. The presence of a stream suggests a natural water source, which could be beneficial for irrigation.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the agricultural context.",
+            "- The robot should have knowledge about different types of soil preparation techniques.",
+            "- The robot should understand the significance of water in agricultural practices.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the reason for burying fish with ginger.",
+            "- The robot should be able to explain the benefits of this practice.",
+            "- The robot should ensure that the explanation aligns with the observed agricultural activities.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Observe the people walking along the dirt path with a stream.",
+            "2. [type=perception, frames=[1]] Monitor the person using a hoe to dig in the dirt field.",
+            "3. [type=perception, frames=[2]] Notice the young girl holding a bunch of ginger in the field.",
+            "4. [type=manipulation, frames=[1]] Assist in digging the soil to prepare for planting.",
+            "5. [type=manipulation, frames=[2]] Help hold the ginger bunch while the person digs.",
+            "6. [type=communication, frames=[0,1,2]] Explain the reasoning behind burying fish with ginger, emphasizing the benefits such as nutrient enhancement.",
+            "7. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "8. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Observe the people walking along the dirt path with a stream. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Explain the resulting benefits of this farming technique.",
+      "start": 9.0,
+      "end": 16.72,
+      "subtasks": [
+        {
+          "text": "Describe how the buried fish provide nutrition to the ginger plants.",
+          "start": 9.0,
+          "end": 12.24,
+          "segment_ids": [
+            3
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "Qu0wv-aUepg/task01_sub00_f01.jpg",
+              "caption": "A man is working in a field, pulling up a large bunch of plants.",
+              "frame_index": 1
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will explain how buried fish provide nutrition to ginger plants, enhancing the growth and health of the ginger crops.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A man is seen working in a field, pulling up a large bunch of plants.",
+            "- The man's actions suggest he is harvesting ginger plants.",
+            "- [frames=[1]] The plants appear to be growing in rows, indicating a structured farming environment.",
+            "- [frames=[1]] The soil around the plants is rich and dark, suggesting fertile conditions.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a farmer harvesting ginger plants in a well-maintained field. The presence of fish suggests the use of an aquaponics system where fish waste provides nutrients to the plants.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have knowledge about aquaponics systems.",
+            "- The robot needs to understand the relationship between fish and plant nutrition.",
+            "- The robot should be able to visually identify fish and ginger plants.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the process of fish waste enriching the soil.",
+            "- The robot should mention the role of nitrates and other nutrients in plant growth.",
+            "- The robot should highlight the benefits of using this method over traditional farming techniques.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Identify the farmer and the harvested ginger plants.",
+            "2. [type=perception, frames=[1]] Recognize the fish buried in the soil near the ginger plants.",
+            "3. [type=manipulation, frames=[1]] Use a camera to capture close-up images of the fish and ginger roots.",
+            "4. [type=communication, frames=[1]] Display an animation showing the breakdown of fish waste into nutrients.",
+            "5. [type=communication, frames=[1]] Explain how fish waste is converted into n.",
+            "6. [type=perception, frames=[1]] Verify/confirm the key observation before reporting.",
+            "7. [type=navigation, frames=[1]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the farmer and the harvested ginger plants. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting). After verification, it communicates the result clearly (Display an animation showing the breakdown of fish waste into nutrients).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Highlight the improved yield from this method.",
+          "start": 12.24,
+          "end": 14.12,
+          "segment_ids": [
+            4
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "Qu0wv-aUepg/task01_sub01_f01.jpg",
+              "caption": "A woman is holding a bunch of ginger in a field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "Qu0wv-aUepg/task01_sub01_f02.jpg",
+              "caption": "A woman is holding a bunch of ginger in a field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will explain how the technique of burying ginger improves the yield for Chinese ginger farms, focusing on the visual evidence provided in the video frames.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A woman is holding a bunch of ginger in a field, indicating the presence of harvested ginger.",
+            "- [frames=[2]] The same scene repeats, reinforcing the visual evidence of harvested ginger.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a woman holding a bunch of ginger in a field, suggesting that the ginger has been harvested using the described technique. This visual evidence supports the explanation of the improved yield from this method.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the context of Chinese ginger farming techniques.",
+            "- The robot should have access to information about the benefits of burying ginger.",
+            "- The robot should be able to communicate effectively with the audience.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the improved yield resulting from the burying technique.",
+            "- The robot should provide clear and concise information.",
+            "- The robot should visually point out the harvested ginger in the field.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Observe the woman holding the bunch of ginger in the field.",
+            "2. [type=manipulation, frames=[1]] Point to the bunch of ginger in the field to emphasize the visual evidence.",
+            "3. [type=communication, frames=[1]] Announce, \"This bunch of ginger was harvested using the burying technique.\".",
+            "4. [type=perception, frames=[1]] Verify the presence of the harvested ginger by confirming its location.",
+            "5. [type=communication, frames=[1]] Explain, \"By burying the ginger, farmers can improve the yield because it allows for better root development and soil retention.\".",
+            "6. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Observe the woman holding the bunch of ginger in the field. It then verifies the key detail directly from the frames (Verify the presence of the harvested ginger by confirming its location). After verification, it communicates the result clearly (Announce, \"This bunch of ginger was harvested using the burying technique.\").",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Mention the final step of harvesting the ginger.",
+          "start": 14.12,
+          "end": 16.72,
+          "segment_ids": [
+            5
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub02_f01.jpg",
+              "relative_path": "Qu0wv-aUepg/task01_sub02_f01.jpg",
+              "caption": "A man is working in a sugarcane field, digging a trench.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub02_f02.jpg",
+              "relative_path": "Qu0wv-aUepg/task01_sub02_f02.jpg",
+              "caption": "A man is carrying a bundle of plants through a field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The final step of harvesting involves collecting the ginger plants from the field.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A man is working in a sugarcane field, digging a trench.",
+            "- [frames=[2]] A man is carrying a bundle of plants through a field.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts the process of harvesting ginger, where workers dig trenches and then collect the harvested plants.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot needs to be within the field area.",
+            "- The robot should have the necessary tools for digging and carrying.",
+            "- The robot must know the location of the trench and the path to carry the plants.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully digs the trench.",
+            "- The robot collects the ginger plants.",
+            "- The robot carries the plants to the designated collection point.",
+            "- The robot verifies the correct type of plant before carrying it.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate to the trench area.",
+            "2. [type=perception, frames=[1]] Verify the presence of the trench using sensors.",
+            "3. [type=navigation, frames=[2]] Move to the location where the plants are being carried.",
+            "4. [type=manipulation, frames=[2]] Dig the trench using the robotic arm.",
+            "5. [type=manipulation, frames=[2]] Collect the ginger plants from the trench.",
+            "6. [type=navigation, frames=[2]] Move to the designated collection point.",
+            "7. [type=manipulation, frames=[2]] Place the ginger plants on the collection point.",
+            "8. [type=perception, frames=[2]] Confirm the correct type of plant using sensors.",
+            "9. [type=navigation, frames=[1,2]] Return to the starting position.",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the trench area. It then verifies the key detail directly from the frames (Verify the presence of the trench using sensors).",
+            "To finish safely, it completes cleanup and returns to standby: Return to the starting position.",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}
