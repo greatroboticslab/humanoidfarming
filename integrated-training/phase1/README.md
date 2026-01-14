@@ -270,20 +270,113 @@ Contains:
 Training uses the **robot-centric guidance text** as supervision.
 
 ---
+## 🧩 11. Updated Qwen LoRA Training & Robust Inference (NEW)
+
+We updated the Qwen training and inference pipeline to improve **data quality, robustness, and generalization**, especially for **text-only and fallback scenarios**.
+
+### 🔧 What Changed (Compared to Initial Training)
+
+#### 1. Generate–Validate–Repair Training Data
+Instead of directly using raw LLM outputs, we now apply a **strict Python-based validation layer** before training:
+
+- **Completeness checks**
+  - All required sections must exist
+  - No truncated outputs
+  - Minimum and maximum step counts enforced
+- **Structural correctness**
+  - Only allowed step types: `navigation`, `manipulation`, `perception`, `communication`
+  - No illegal tags (e.g., `cleanup`, `vision-only actions`)
+- **Semantic correctness**
+  - Robot-only actions (no human assumptions)
+  - No hallucinated tools or environments
+  - Explicit verification steps enforced
+
+If any check fails:
+```
+LLM (draft) → Python validator → LLM (rewrite) → Python re-check
+```
+
+Only **defect-free examples** are kept in the final training set.
+
+---
+
+
+---
+
+####  LoRA Training Improvements
+- **Model**: `Qwen/Qwen2.5-7B-Instruct`
+- **Method**: Parameter-efficient LoRA
+- **Trainable params**: ~0.26% of full model
+- **Sequence length**: tuned to avoid GPU OOM
+- **Stable Slurm execution** on shared GPUs
+
+Artifacts produced:
+```
+qwen_training/ckpts/qwen2.5-7b-lora/
+  ├── adapter_model.safetensors
+  ├── adapter_config.json
+  └── trainer_state.json
+```
+
+---
+
+#### Generic Text Inference with Fallback
+We added a **text-only inference mode** that produces valid robot guidance.
+
+Example:
+```bash
+python qwen_training/scripts/infer_text.py   
+--base Qwen/Qwen2.5-7B-Instruct  
+--lora qwen_training/ckpts/qwen2.5-7b-lora  
+--prompt "Generate robot-centric guidance for testing soil pH."
+```
+
+**Guaranteed properties of inference output**:
+- Structured sections
+- Allowed step types only
+- Verification included
+- Cleanup mapped to valid actions automatically
+- No visual references
+
+---
+
+#### Alignment with Research Goal
+This update directly supports:
+- **High-quality instruction tuning**
+- **Low-violation supervision**
+- **Scalable agent training in the future**
+
+The final pipeline matches the intended research design:
+```
+LLM = writer
+Python = judge
+LLM = rewriter
+Python = final sanitizer
+```
+
+---
+
+### Resulting Benefits
+- Cleaner training data
+- Lower rule-violation rate
+- Robust fallback inference
+- Stronger generalization beyond videos
+- Ready for agent-style extensions
 
 ## 📜 Script Summary
 
-| Script | Purpose |
-|------|------|
+| Script                           | Purpose |
+|----------------------------------|------|
 | timestamps_using_yt_subtitles.py | Download YouTube auto-captions |
-| timestamps_using_whisper.py | Local Whisper ASR |
-| split_speech_vs_nospeech.py | Speech filtering |
-| align_tasks_with_timestamp.py | Legacy alignment |
-| tasks_with_timestamps.py | LLM task + timestamp extraction |
-| extract_frames_from_subtasks.py | Frame extraction |
-| frame_captions.py | Frame deduplication & captioning |
-| subtask_guidance.py | Robot guidance generation |
-| batch_export_all_videos.py | Export guidance to TXT |
+| timestamps_using_whisper.py      | Local Whisper ASR |
+| split_speech_vs_nospeech.py      | Speech filtering |
+| align_tasks_with_timestamp.py    | Legacy alignment |
+| tasks_with_timestamps.py         | LLM task + timestamp extraction |
+| extract_frames_from_subtasks.py  | Frame extraction |
+| frame_captions.py                | Frame deduplication & captioning |
+| subtask_guidance.py              | Robot guidance generation |
+| subtask_guidance(Improved).py    | Robot guidance generation |
+| batch_export_all_videos.py       | Export guidance to TXT |
 
 ---
 
