@@ -285,7 +285,6 @@ Instead of directly using raw LLM outputs, we now apply a **strict Python-based 
   - Minimum and maximum step counts enforced
 - **Structural correctness**
   - Only allowed step types: `navigation`, `manipulation`, `perception`, `communication`
-  - No illegal tags (e.g., `cleanup`, `vision-only actions`)
 - **Semantic correctness**
   - Robot-only actions (no human assumptions)
   - No hallucinated tools or environments

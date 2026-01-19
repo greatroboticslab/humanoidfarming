@@ -4,6 +4,7 @@ import json
 import re
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
+from datetime import datetime
 
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
@@ -15,8 +16,12 @@ except Exception:
     PEFT_AVAILABLE = False
 
 
+# -----------------------------
+# REQUIRED HEADINGS (text-only inference)
+# -----------------------------
 HEADINGS = [
     "GLOBAL_SUMMARY:",
+    "FRAME_BASED_OBSERVATIONS:",
     "INTEGRATED_SCENE_UNDERSTANDING:",
     "PRECONDITIONS_FOR_ROBOT:",
     "SUCCESS_CRITERIA:",
@@ -24,9 +29,26 @@ HEADINGS = [
     "SUBTASK_STORY:",
 ]
 
+TEXT_ONLY_FRAME_BLOCK = (
+    "FRAME_BASED_OBSERVATIONS:\n\n"
+    "None (text-only mode; no frames provided).\n"
+)
+
 ALLOWED_TYPES = {"navigation", "manipulation", "perception", "communication"}
 
-# Expanded banned list (catch your exact leakage)
+TYPE_FIX_MAP = {
+    "cleanup": "manipulation",
+    "clean_up": "manipulation",
+    "clean": "manipulation",
+    "verification": "perception",
+    "sensing": "perception",
+    "analysis": "perception",
+    "planning": "perception",
+    "actuation": "manipulation",
+    "movement": "navigation",
+}
+
+# Ban any vision/scene grounding language
 BANNED = re.compile(
     r"\b("
     r"frame|frames|image|images|caption|captions|video|camera|visual|visually|visible|see|seen|scene|shown|showing|"
@@ -38,7 +60,7 @@ BANNED = re.compile(
 RE_STEP = re.compile(r"^\s*(\d+)\.\s*\[type=([a-zA-Z_]+)\]\s*(.+?)\s*$")
 RE_VERIFY = re.compile(r"\b(verify|check|confirm|measure|cross-check|validate)\b", re.IGNORECASE)
 RE_ACTIONFUL = re.compile(
-    r"\b(collect|scoop|sample|mix|insert|dip|calibrate|read|record|log|report|rinse|clean|store|open|close|start)\b",
+    r"\b(collect|scoop|sample|mix|insert|dip|calibrate|read|record|log|report|rinse|clean|store|open|close|start|stop|stow)\b",
     re.IGNORECASE,
 )
 RE_PH = re.compile(r"\bph\b", re.IGNORECASE)
@@ -46,18 +68,20 @@ RE_PH = re.compile(r"\bph\b", re.IGNORECASE)
 MIN_STEPS = 7
 MAX_STEPS = 10
 
+
 TEXT_ONLY_SYSTEM = f"""You are a precise assistant generating robot-centric guidance from TEXT ONLY.
 
 Hard rules:
-- Do NOT mention frames, images, captions, video, camera, visibility, scenes, grounding, or anything being shown/seen.
+- Do NOT mention frames/images/captions/video/camera/visibility/scenes/grounding/shown/seen.
 - Do NOT assume a specific environment (no "garden/kitchen/field"). Use "workspace" or "task area".
 - Use only these step types: navigation, manipulation, perception, communication.
 - Include at least one explicit verification word: verify/check/confirm/measure/cross-check.
-- Include at least one explicit pH measurement action (measure/read pH).
+- Include at least one explicit pH measurement reference (pH).
 
 Output format:
 Use exactly these headings, in this order:
 GLOBAL_SUMMARY:
+FRAME_BASED_OBSERVATIONS:
 INTEGRATED_SCENE_UNDERSTANDING:
 PRECONDITIONS_FOR_ROBOT:
 SUCCESS_CRITERIA:
@@ -66,6 +90,8 @@ SUBTASK_STORY:
 
 Formatting:
 - Blank line after each heading.
+- FRAME_BASED_OBSERVATIONS must be exactly:
+  None (text-only mode; no frames provided).
 - PRECONDITIONS_FOR_ROBOT and SUCCESS_CRITERIA are bullet lists.
 - ORDERED_ROBOT_ACTION_STEPS is a numbered list:
   1. [type=navigation] ...
@@ -148,7 +174,7 @@ def run_chat(tokenizer, model, system: str, user: str, max_new_tokens: int) -> s
 
 
 def extract_steps(text: str) -> List[Tuple[int, str, str]]:
-    steps = []
+    steps: List[Tuple[int, str, str]] = []
     in_steps = False
     for ln in text.splitlines():
         if ln.strip() == "ORDERED_ROBOT_ACTION_STEPS:":
@@ -163,11 +189,123 @@ def extract_steps(text: str) -> List[Tuple[int, str, str]]:
     return steps
 
 
+def ensure_frame_based_observations_block(text: str) -> str:
+    if "FRAME_BASED_OBSERVATIONS:" not in text:
+        if "GLOBAL_SUMMARY:" in text and "INTEGRATED_SCENE_UNDERSTANDING:" in text:
+            parts = text.split("INTEGRATED_SCENE_UNDERSTANDING:", 1)
+            return parts[0].rstrip() + "\n\n" + TEXT_ONLY_FRAME_BLOCK + "\nINTEGRATED_SCENE_UNDERSTANDING:" + parts[1]
+        return TEXT_ONLY_FRAME_BLOCK + "\n" + text
+
+    pre, rest = text.split("FRAME_BASED_OBSERVATIONS:", 1)
+    next_idx = len(rest)
+    for h in HEADINGS:
+        if h == "FRAME_BASED_OBSERVATIONS:":
+            continue
+        pos = rest.find(h)
+        if pos != -1:
+            next_idx = min(next_idx, pos)
+    tail = rest[next_idx:] if next_idx < len(rest) else ""
+    return pre.rstrip() + "\n\n" + TEXT_ONLY_FRAME_BLOCK + "\n" + tail.lstrip()
+
+
+def normalize_step_types_and_renumber(text: str) -> str:
+    lines = text.splitlines()
+    out_lines: List[str] = []
+    in_steps = False
+    step_buf: List[str] = []
+
+    for ln in lines:
+        if ln.strip() == "ORDERED_ROBOT_ACTION_STEPS:":
+            in_steps = True
+            out_lines.append("ORDERED_ROBOT_ACTION_STEPS:")
+            continue
+        if in_steps and ln.strip() == "SUBTASK_STORY:":
+            in_steps = False
+
+            cleaned: List[Tuple[str, str]] = []
+            for s in step_buf:
+                m = RE_STEP.match(s)
+                if not m:
+                    continue
+                typ = m.group(2).lower()
+                action = m.group(3).strip()
+                if typ not in ALLOWED_TYPES:
+                    typ = TYPE_FIX_MAP.get(typ, "perception")
+                cleaned.append((typ, action))
+
+            if len(cleaned) > MAX_STEPS:
+                cleaned = cleaned[:MAX_STEPS]
+            while len(cleaned) < MIN_STEPS:
+                cleaned.append(("perception", "Verify/confirm the pH measurement is consistent before reporting."))
+
+            # remove exact-duplicate actions (keep first)
+            seen_actions = set()
+            deduped: List[Tuple[str, str]] = []
+            for typ, action in cleaned:
+                key = action.strip().lower()
+                if key in seen_actions:
+                    continue
+                seen_actions.add(key)
+                deduped.append((typ, action))
+
+            # re-pad if dedupe reduced too far
+            while len(deduped) < MIN_STEPS:
+                deduped.append(("communication", "Report the verified pH value and log it for future reference."))
+
+            if len(deduped) > MAX_STEPS:
+                deduped = deduped[:MAX_STEPS]
+
+            for i, (typ, action) in enumerate(deduped, start=1):
+                out_lines.append(f"{i}. [type={typ}] {action}")
+
+            out_lines.append("SUBTASK_STORY:")
+            continue
+
+        if in_steps:
+            step_buf.append(ln)
+        else:
+            out_lines.append(ln)
+
+    return "\n".join(out_lines).strip()
+
+
+def sanitize_subtask_story(text: str) -> str:
+    if "SUBTASK_STORY:" not in text:
+        return text
+
+    pre, story = text.split("SUBTASK_STORY:", 1)
+    if not BANNED.search(story):
+        return text
+
+    safe_story = (
+        "\n"
+        "The robot moves to the task area, gathers the required tools, and collects a representative soil sample.\n"
+        "It measures soil pH using the available testing device, verifies the reading for consistency, then\n"
+        "communicates and logs the result before returning materials and tools to their proper locations.\n"
+    )
+    return pre.rstrip() + "\n\nSUBTASK_STORY:" + safe_story
+
+
 def validate(text: str) -> List[str]:
-    issues = []
+    issues: List[str] = []
+
     for h in HEADINGS:
         if h not in text:
             issues.append(f"missing_heading:{h}")
+
+    # Frame block exact placeholder
+    if "FRAME_BASED_OBSERVATIONS:" in text:
+        after = text.split("FRAME_BASED_OBSERVATIONS:", 1)[1]
+        next_idx = len(after)
+        for h in HEADINGS:
+            if h == "FRAME_BASED_OBSERVATIONS:":
+                continue
+            pos = after.find(h)
+            if pos != -1:
+                next_idx = min(next_idx, pos)
+        block = after[:next_idx].strip()
+        if block != "None (text-only mode; no frames provided).":
+            issues.append("frame_based_observations_not_placeholder")
 
     if BANNED.search(text):
         issues.append("contains_banned_visual_language")
@@ -188,7 +326,7 @@ def validate(text: str) -> List[str]:
         issues.append("missing_verification_word")
 
     if not any(RE_PH.search(s) for _, _, s in steps):
-        issues.append("missing_explicit_ph_reference")
+        issues.append("missing_ph_reference")
 
     actionful = sum(1 for _, _, s in steps if RE_ACTIONFUL.search(s))
     if actionful < 4:
@@ -210,46 +348,33 @@ def defect_report(issues: List[str]) -> str:
 
 REWRITE REQUIREMENTS
 - Keep the exact required headings and order.
-- Do not use banned visual wording.
-- Do not assume a specific environment; use "workspace" or "task area".
+- FRAME_BASED_OBSERVATIONS must be exactly:
+  None (text-only mode; no frames provided).
+- Only allowed step types: navigation, manipulation, perception, communication.
+- No banned visual language.
 - Ensure {MIN_STEPS}-{MAX_STEPS} non-duplicate, actionful steps.
-- Include explicit pH measurement and at least one verification.
+- Include explicit pH reference and at least one verification step.
 """
-
-
-def sanitize_subtask_story(text: str) -> str:
-    """
-    If SUBTASK_STORY contains banned terms, replace story with a safe template derived from steps.
-    """
-    if "SUBTASK_STORY:" not in text:
-        return text
-
-    parts = text.split("SUBTASK_STORY:", 1)
-    head = parts[0]
-    story = parts[1]
-
-    if not BANNED.search(story):
-        return text
-
-    steps = extract_steps(text)
-    # Build a generic, non-visual story
-    story_lines = [
-        "",
-        "The robot moves to the task area, gathers the required tools, and collects a representative soil sample.",
-        "It performs the pH measurement using the available test device, verifies the reading for consistency,",
-        "then communicates and logs the result before returning materials and tools to their proper locations.",
-        "",
-    ]
-    return head + "SUBTASK_STORY:" + "\n".join(story_lines)
 
 
 def generate_with_validate_repair(tokenizer, model, prompt: str, max_new_tokens: int) -> str:
     out = run_chat(tokenizer, model, TEXT_ONLY_SYSTEM, prompt, max_new_tokens=max_new_tokens)
+
+    out = ensure_frame_based_observations_block(out)
+
     issues = validate(out)
     if issues:
-        out = run_chat(tokenizer, model, REWRITE_SYSTEM, out + "\n\n" + defect_report(issues), max_new_tokens=max_new_tokens)
+        out = run_chat(
+            tokenizer,
+            model,
+            REWRITE_SYSTEM,
+            out + "\n\n" + defect_report(issues),
+            max_new_tokens=max_new_tokens
+        )
 
-    # Final safety: sanitize SUBTASK_STORY even if model slips
+    # Hard post-processing (always safe)
+    out = ensure_frame_based_observations_block(out)
+    out = normalize_step_types_and_renumber(out)
     out = sanitize_subtask_story(out)
     return out
 
@@ -285,14 +410,37 @@ def extract_prompt(row: Dict[str, Any]) -> str:
     return json.dumps(row, ensure_ascii=False)
 
 
+def slugify(s: str, max_len: int = 60) -> str:
+    s = s.strip().lower()
+    s = re.sub(r"\s+", "_", s)
+    s = re.sub(r"[^a-z0-9_]+", "", s)
+    s = s.strip("_")
+    if not s:
+        s = "prompt"
+    return s[:max_len]
+
+
+def default_out_txt(prompt: str) -> str:
+    ts = datetime.now().strftime("%Y%m%d_%H%M%S")
+    name = slugify(prompt)
+    return str(Path("qwen_training/inference_results") / f"{ts}_{name}.txt")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--base", default="Qwen/Qwen2.5-7B-Instruct")
     ap.add_argument("--lora", default=None)
+
+    # Single prompt mode
     ap.add_argument("--prompt", default=None)
+    ap.add_argument("--out_txt", default=None, help="Optional. If omitted, auto-saves to qwen_training/inference_results/")
+    ap.add_argument("--quiet", type=int, default=0, help="1 = do not print full output (still writes file).")
+
+    # Batch mode
     ap.add_argument("--in_jsonl", default=None)
     ap.add_argument("--out_jsonl", default=None)
-    ap.add_argument("--max_new_tokens", type=int, default=800)
+
+    ap.add_argument("--max_new_tokens", type=int, default=900)
     ap.add_argument("--prefer_cuda", type=int, default=1)
     ap.add_argument("--dtype", default="bf16", choices=["bf16", "fp16", "fp32"])
     args = ap.parse_args()
@@ -314,11 +462,21 @@ def main():
     model, used_lora = attach_lora_if_possible(base_model, args.lora, device=device)
     print(f"[INFO] using {'LoRA+base' if used_lora else 'base-only'}")
 
+    # ---------------- Single prompt: AUTO-SAVE ----------------
     if args.prompt:
         out = generate_with_validate_repair(tokenizer, model, args.prompt, args.max_new_tokens)
-        print(out)
+
+        out_path = args.out_txt or default_out_txt(args.prompt)
+        Path(out_path).parent.mkdir(parents=True, exist_ok=True)
+        with open(out_path, "w", encoding="utf-8") as f:
+            f.write(out.rstrip() + "\n")
+
+        print(f"[OK] wrote {out_path}")
+        if not args.quiet:
+            print(out)
         return
 
+    # ---------------- Batch mode ----------------
     if args.in_jsonl:
         rows = read_jsonl(args.in_jsonl)
         out_rows: List[Dict[str, Any]] = []
@@ -330,15 +488,13 @@ def main():
             r2["used_lora"] = used_lora
             out_rows.append(r2)
 
-        if args.out_jsonl:
-            write_jsonl(args.out_jsonl, out_rows)
-            print(f"[OK] wrote {args.out_jsonl} ({len(out_rows)} rows)")
-        else:
-            for r in out_rows[:3]:
-                print(json.dumps(r, ensure_ascii=False)[:2000])
+        # Default out_jsonl if user didn't pass it
+        out_jsonl = args.out_jsonl or "qwen_training/inference_results/predictions.jsonl"
+        write_jsonl(out_jsonl, out_rows)
+        print(f"[OK] wrote {out_jsonl} ({len(out_rows)} rows)")
         return
 
-    raise SystemExit("Provide --prompt OR --in_jsonl (with optional --out_jsonl).")
+    raise SystemExit("Provide --prompt (auto-saves) OR --in_jsonl (writes to qwen_training/inference_results by default).")
 
 
 if __name__ == "__main__":
