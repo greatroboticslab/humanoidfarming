@@ -1,0 +1,43 @@
+GLOBAL_SUMMARY:
+
+The robot will navigate to the strawberry plants, pick ripe strawberries without damaging the plants, and ensure the strawberries are of good quality before placing them in a container.
+
+FRAME_BASED_OBSERVATIONS:
+
+None (text-only mode; no frames provided).
+
+INTEGRATED_SCENE_UNDERSTANDING:
+
+The workspace contains rows of strawberry plants with leaves and berries. The robot needs to identify ripe berries based on their color and size, ensuring they are not overly mature or damaged.
+
+PRECONDITIONS_FOR_ROBOT:
+
+- The robot has a camera capable of capturing high-resolution images.
+- The robot is equipped with a gripper that can handle delicate objects.
+- The robot knows the location of the strawberry plants.
+- The robot has access to a container for storing the picked strawberries.
+
+SUCCESS_CRITERIA:
+
+- The robot picks only ripe strawberries.
+- The robot does not damage the plants during the picking process.
+- The picked strawberries meet the quality standards set by the farm.
+- The strawberries are placed in the correct container.
+
+ORDERED_ROBOT_ACTION_STEPS:
+1. [type=navigation] Navigate to the row of strawberry plants.
+2. [type=perception] Capture an image of the strawberries using the camera.
+3. [type=perception] Analyze the image to identify ripe strawberries based on color and size.
+4. [type=manipulation] Move the gripper to position it over a ripe strawberry.
+5. [type=manipulation] Gently grasp the ripe strawberry without applying excessive pressure.
+6. [type=manipulation] Lift the strawberry off the plant, ensuring not to pull on the leaves.
+7. [type=perception] Verify the strawberry's color and size to confirm it is ripe.
+8. [type=manipulation] Place the strawberry into the designated container.
+9. [type=navigation] Return/reset to a safe standby position and stow any tools (cleanup).
+
+SUBTASK_STORY:
+The robot navigates to the task area and confirms the correct target (ripe, strawberries, damaging, plants) before starting.
+It performs required handling actions to prepare tools and inputs (Move the gripper to position it over a ripe strawberry.; Gently grasp the ripe strawberry without applying excessive pressure.).
+It performs sensing and verification to produce a reliable measurement (Capture an of the strawberries using the .; Analyze the to identify ripe strawberries based on color and size.).
+It communicates the verified outcome and records the result.
+Finally, it secures materials and leaves the workspace in a clean state.
