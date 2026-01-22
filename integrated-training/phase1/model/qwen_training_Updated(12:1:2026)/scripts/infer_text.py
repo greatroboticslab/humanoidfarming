@@ -60,7 +60,7 @@ BANNED = re.compile(
 RE_STEP = re.compile(r"^\s*(\d+)\.\s*\[type=([a-zA-Z_]+)\]\s*(.+?)\s*$")
 RE_VERIFY = re.compile(r"\b(verify|check|confirm|measure|cross-check|validate)\b", re.IGNORECASE)
 RE_ACTIONFUL = re.compile(
-    r"\b(collect|scoop|sample|mix|insert|dip|calibrate|read|record|log|report|rinse|clean|store|open|close|start|stop|stow)\b",
+    r"\b(collect|scoop|sample|mix|insert|dip|calibrate|read|record|log|report|rinse|clean|store|open|close|start|stop|stow|flush|seal|repair|label|refill)\b",
     re.IGNORECASE,
 )
 RE_PH = re.compile(r"\bph\b", re.IGNORECASE)
@@ -238,7 +238,6 @@ def normalize_step_types_and_renumber(text: str) -> str:
             while len(cleaned) < MIN_STEPS:
                 cleaned.append(("perception", "Verify/confirm the pH measurement is consistent before reporting."))
 
-            # remove exact-duplicate actions (keep first)
             seen_actions = set()
             deduped: List[Tuple[str, str]] = []
             for typ, action in cleaned:
@@ -248,7 +247,6 @@ def normalize_step_types_and_renumber(text: str) -> str:
                 seen_actions.add(key)
                 deduped.append((typ, action))
 
-            # re-pad if dedupe reduced too far
             while len(deduped) < MIN_STEPS:
                 deduped.append(("communication", "Report the verified pH value and log it for future reference."))
 
@@ -269,21 +267,101 @@ def normalize_step_types_and_renumber(text: str) -> str:
     return "\n".join(out_lines).strip()
 
 
-def sanitize_subtask_story(text: str) -> str:
+# -----------------------------
+# SUBTASK_STORY: generic but prompt-relevant
+# -----------------------------
+_INSTRUCTION_STOP = {
+    "generate","guidance","robotcentric","robot","centric","instructions","instruction","steps","step","task","subtask",
+    "please","create","write","produce","output"
+}
+_STOPWORDS = {
+    "the","a","an","and","or","to","of","in","on","for","with","without","by","at","from","into","over","under",
+    "is","are","was","were","be","been","being","this","that","these","those","it","its","as","then","than",
+    "workspace","area","user","result","results","data","value","values"
+} | _INSTRUCTION_STOP
+
+def _keywords_from_prompt(prompt: str, k: int = 4) -> List[str]:
+    toks = re.findall(r"[a-zA-Z0-9]+", prompt.lower())
+
+    # Prefer keywords near the end (usually the domain object is there)
+    keep: List[str] = []
+    seen = set()
+    for t in reversed(toks):
+        if t in _STOPWORDS:
+            continue
+        if len(t) < 4 and t != "ph":
+            continue
+        if t not in seen:
+            seen.add(t)
+            keep.append(t)
+        if len(keep) >= k:
+            break
+    keep = list(reversed(keep))
+
+    # Ensure "ph" shows up if present
+    if "ph" in toks and "ph" not in keep:
+        keep.insert(0, "ph")
+        keep = keep[:k]
+
+    return keep[:k] if keep else ["ph"]
+
+
+def _scrub_banned_words(s: str) -> str:
+    s2 = BANNED.sub(" ", s)
+    s2 = re.sub(r"\s+", " ", s2).strip()
+    return s2
+
+
+def rebuild_subtask_story(prompt: str, text: str) -> str:
     if "SUBTASK_STORY:" not in text:
         return text
 
-    pre, story = text.split("SUBTASK_STORY:", 1)
-    if not BANNED.search(story):
-        return text
+    steps = extract_steps(text)
+    kws = _keywords_from_prompt(prompt, k=4)
 
-    safe_story = (
-        "\n"
-        "The robot moves to the task area, gathers the required tools, and collects a representative soil sample.\n"
-        "It measures soil pH using the available testing device, verifies the reading for consistency, then\n"
-        "communicates and logs the result before returning materials and tools to their proper locations.\n"
-    )
-    return pre.rstrip() + "\n\nSUBTASK_STORY:" + safe_story
+    nav = next((s for _, t, s in steps if t == "navigation"), "")
+    manips = [s for _, t, s in steps if t == "manipulation"]
+    senses = [s for _, t, s in steps if t == "perception"]
+    comms = [s for _, t, s in steps if t == "communication"]
+
+    # Only claim "clean state" if the steps actually include cleanup-like actions
+    has_cleanup = any(re.search(r"\b(rinse|clean|stow|dispose|reset)\b", s, re.IGNORECASE) for _, _, s in steps)
+
+    lines: List[str] = []
+    if nav:
+        lines.append(f"The robot navigates to the task area and confirms the correct target ({', '.join(kws)}) before starting.")
+    else:
+        lines.append(f"The robot confirms the correct target ({', '.join(kws)}) before starting.")
+
+    if manips:
+        m = "; ".join(_scrub_banned_words(x) for x in manips[:2])
+        lines.append(f"It performs required handling actions to prepare tools and inputs ({m}).")
+    else:
+        lines.append("It prepares the necessary tools and materials using safe, repeatable handling actions.")
+
+    if senses:
+        s = "; ".join(_scrub_banned_words(x) for x in senses[:2])
+        lines.append(f"It performs sensing and verification to produce a reliable measurement ({s}).")
+    else:
+        lines.append("It performs sensing and verification to produce a reliable measurement (including a pH check).")
+
+    if comms:
+        c = _scrub_banned_words(comms[0])
+        lines.append(f"It communicates the verified outcome and records the result ({c}).")
+    else:
+        lines.append("It communicates the verified outcome and records the result.")
+
+    if has_cleanup:
+        lines.append("Finally, it secures materials and leaves the workspace in a clean state.")
+    else:
+        lines.append("Finally, it secures materials and leaves the workspace ready for the next task.")
+
+    story = "\n" + "\n".join(lines).strip() + "\n"
+    story = _scrub_banned_words(story)
+    story = "\n" + re.sub(r"\. ", ".\n", story).strip() + "\n"
+
+    pre, _old = text.split("SUBTASK_STORY:", 1)
+    return pre.rstrip() + "\n\nSUBTASK_STORY:" + story
 
 
 def validate(text: str) -> List[str]:
@@ -293,7 +371,6 @@ def validate(text: str) -> List[str]:
         if h not in text:
             issues.append(f"missing_heading:{h}")
 
-    # Frame block exact placeholder
     if "FRAME_BASED_OBSERVATIONS:" in text:
         after = text.split("FRAME_BASED_OBSERVATIONS:", 1)[1]
         next_idx = len(after)
@@ -359,7 +436,6 @@ REWRITE REQUIREMENTS
 
 def generate_with_validate_repair(tokenizer, model, prompt: str, max_new_tokens: int) -> str:
     out = run_chat(tokenizer, model, TEXT_ONLY_SYSTEM, prompt, max_new_tokens=max_new_tokens)
-
     out = ensure_frame_based_observations_block(out)
 
     issues = validate(out)
@@ -372,10 +448,9 @@ def generate_with_validate_repair(tokenizer, model, prompt: str, max_new_tokens:
             max_new_tokens=max_new_tokens
         )
 
-    # Hard post-processing (always safe)
     out = ensure_frame_based_observations_block(out)
     out = normalize_step_types_and_renumber(out)
-    out = sanitize_subtask_story(out)
+    out = rebuild_subtask_story(prompt, out)
     return out
 
 
@@ -431,12 +506,10 @@ def main():
     ap.add_argument("--base", default="Qwen/Qwen2.5-7B-Instruct")
     ap.add_argument("--lora", default=None)
 
-    # Single prompt mode
     ap.add_argument("--prompt", default=None)
     ap.add_argument("--out_txt", default=None, help="Optional. If omitted, auto-saves to qwen_training/inference_results/")
     ap.add_argument("--quiet", type=int, default=0, help="1 = do not print full output (still writes file).")
 
-    # Batch mode
     ap.add_argument("--in_jsonl", default=None)
     ap.add_argument("--out_jsonl", default=None)
 
@@ -462,7 +535,6 @@ def main():
     model, used_lora = attach_lora_if_possible(base_model, args.lora, device=device)
     print(f"[INFO] using {'LoRA+base' if used_lora else 'base-only'}")
 
-    # ---------------- Single prompt: AUTO-SAVE ----------------
     if args.prompt:
         out = generate_with_validate_repair(tokenizer, model, args.prompt, args.max_new_tokens)
 
@@ -476,7 +548,6 @@ def main():
             print(out)
         return
 
-    # ---------------- Batch mode ----------------
     if args.in_jsonl:
         rows = read_jsonl(args.in_jsonl)
         out_rows: List[Dict[str, Any]] = []
@@ -488,7 +559,6 @@ def main():
             r2["used_lora"] = used_lora
             out_rows.append(r2)
 
-        # Default out_jsonl if user didn't pass it
         out_jsonl = args.out_jsonl or "qwen_training/inference_results/predictions.jsonl"
         write_jsonl(out_jsonl, out_rows)
         print(f"[OK] wrote {out_jsonl} ({len(out_rows)} rows)")
