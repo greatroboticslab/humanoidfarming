@@ -1,0 +1,1222 @@
+{
+  "video_index": "E-juRjYSpZY",
+  "title": "Advanced农业机械设备展示",
+  "url": "https://www.youtube.com/watch?v=E-juRjYSpZY",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "The video demonstrates various agricultural machines and their functions in modern farming processes.",
+  "tasks": [
+    {
+      "task": "Display the functionality of the parsley harvester used for efficient harvesting of herb crops.",
+      "start": 9.5,
+      "end": 26.7,
+      "subtasks": [
+        {
+          "text": "Show the operation of the parsley harvester as it moves through rows of parsley, cutting plants at a predetermined height.",
+          "start": 9.5,
+          "end": 19.7,
+          "segment_ids": [
+            1
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "E-juRjYSpZY/task00_sub00_f00.jpg",
+              "caption": "A large agricultural machine is pouring grain into a silo.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "E-juRjYSpZY/task00_sub00_f01.jpg",
+              "caption": "A parsley harvester is being demonstrated by Moverco.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "E-juRjYSpZY/task00_sub00_f02.jpg",
+              "caption": "A combine harvester is harvesting crops in a field in the Netherlands.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment demonstrates the operation of a parsley harvester moving through rows of parsley, showcasing its cutting mechanism at a predetermined height.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A large agricultural machine is pouring grain into a silo, which is not relevant to the parsley harvester.",
+            "- [frames=[1]] A parsley harvester is being demonstrated by Moverco, showing its basic structure and operation.",
+            "- [frames=[2]] A combine harvester is harvesting crops in a field in the Netherlands, which is irrelevant to the current subtask.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene focuses on the demonstration of a parsley harvester, highlighting its movement and cutting action through rows of parsley. The harvester is shown to operate efficiently, maintaining a consistent height for optimal harvesting.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the structure and operation of a parsley harvester.",
+            "- The robot needs to know the predetermined height for cutting parsley.",
+            "- The robot should be aware of the row layout and direction of movement.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately follow the rows of parsley.",
+            "- The robot should maintain the correct cutting height throughout the demonstration.",
+            "- The robot should demonstrate smooth and efficient movement of the harvester.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate to the position where the parsley harvester is being demonstrated.",
+            "2. [type=perception, frames=[1]] Verify the correct model of the parsley harvester using visual recognition.",
+            "3. [type=navigation, frames=[1,2]] Move the robot to the starting point of the parsley rows.",
+            "4. [type=manipulation, frames=[1,2]] Adjust the cutting mechanism to the predetermined height for parsley harvesting.",
+            "5. [type=navigation, frames=[2]] Begin moving.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the position where the parsley harvester is being demonstrated. It then verifies the key detail directly from the frames (Verify the correct model of the parsley harvester using visual recognition).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the position where the parsley harvester is being demonstrated; Move the robot to the starting point of the parsley rows; Adjust the cutting mechanism to the predetermined height for parsley harvesting; Begin moving; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 10.2,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/E-juRjYSpZY/task00/sub00/motion.bvh",
+            "params_path": "results/momask/E-juRjYSpZY/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Highlight how the parsley harvester conveys the cut parsley using a vacuum system to a collection area.",
+          "start": 19.7,
+          "end": 26.7,
+          "segment_ids": [
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "E-juRjYSpZY/task00_sub01_f01.jpg",
+              "caption": "A large agricultural machine with a ladder and a green and yellow color scheme is shown.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "E-juRjYSpZY/task00_sub01_f02.jpg",
+              "caption": "A large combine harvester is harvesting crops in a field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe and describe the process by which the parsley harvester uses a vacuum system to convey cut parsley to a collection area.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] The large agricultural machine with a green and yellow color scheme is visible, indicating it is a parsley harvester.",
+            "- [frames=[2]] The machine is shown in action, cutting and conveying parsley using a vacuum system.",
+            "- [frames=[1,2]] The machine's vacuum system is clearly visible, drawing cut parsley towards a collection area.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a parsley harvester in operation, showcasing its ability to efficiently harvest and transport parsley using a vacuum system. The machine’s design and function are evident through the visual elements and the movement of the parsley.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot must be within visual range of the parsley harvester.",
+            "- The harvester should be operational and in the process of cutting parsley.",
+            "- The vacuum system must be active and conveying parsley to the collection area.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot must accurately identify the vacuum system in operation.",
+            "- The conveyed parsley must be successfully directed to the collection area.",
+            "- The robot should confirm the presence of parsley in the collection area.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Identify the parsley harvester and locate the vacuum system.",
+            "2. [type=perception, frames=[2]] Confirm the operation of the vacuum system by observing the movement of cut parsley.",
+            "3. [type=perception, frames=[2]] Verify the direction of the vacuum system and ensure parsley is being conveyed correctly.",
+            "4. [type=perception, frames=[2]] Check the collection area to confirm parsley is arriving as expected.",
+            "5. [type=manipulation, frames=[2]] Assist in redirecting.",
+            "6. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the parsley harvester and locate the vacuum system. It then verifies the key detail directly from the frames (Confirm the operation of the vacuum system by observing the movement of cut parsley).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Assist in redirecting; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 7.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/E-juRjYSpZY/task00/sub01/motion.bvh",
+            "params_path": "results/momask/E-juRjYSpZY/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Demonstrate the utilization of the Soil-Tiller for soil preparation in agricultural fields.",
+      "start": 61.7,
+      "end": 92.0,
+      "subtasks": [
+        {
+          "text": "Describe the Soil-Tiller's capability to break up stubborn soil clumps.",
+          "start": 61.7,
+          "end": 70.8,
+          "segment_ids": [
+            8
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "E-juRjYSpZY/task01_sub00_f00.jpg",
+              "caption": "A large red tractor is working in a field.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "E-juRjYSpZY/task01_sub00_f01.jpg",
+              "caption": "A tractor is driving through a field, leaving parallel furrows.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "E-juRjYSpZY/task01_sub00_f02.jpg",
+              "caption": "A tractor is driving through a field with a red plow.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will demonstrate how the Soil-Tiller effectively breaks up stubborn soil clumps, preparing the field for planting.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The large red tractor is seen working in a field, indicating the start of the soil preparation process.",
+            "- [frames=[1]] The tractor continues its work, leaving parallel furrows across the field.",
+            "- [frames=[2]] The tractor is now equipped with a red plow, suggesting it is ready to till the soil.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a tractor performing initial field preparation tasks, including creating furrows and setting up for tilling. The Soil-Tiller will follow to break up any stubborn soil clumps, ensuring the field is ready for planting.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The field should be prepared with furrows.",
+            "- The Soil-Tiller should be attached to the tractor.",
+            "- The tractor should be in operational condition.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The soil clumps should be visibly broken up.",
+            "- The field should show signs of smooth, prepared soil.",
+            "- The tractor should be in a safe position after completing the task.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1,2]] Inspect/verify the scene before any physical action.",
+            "2. [type=navigation, frames=[0,1]] Drive the tractor along the field, following the existing furrows.",
+            "3. [type=manipulation, frames=[2]] Attach the Soil-Tiller to the tractor.",
+            "4. [type=perception, frames=[2]] Verify the attachment is secure by checking the connection points.",
+            "5. [type=navigation, frames=[1,2]] Continue driving the tractor, engaging the Soil-Tiller to begin breaking up the soil clumps.",
+            "6. [type=manipulation, frames=[2]] Adjust the depth of the Soil-Tiller to ensure effective soil breakdown.",
+            "7. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Inspect/verify the scene before any physical action. It then verifies the key detail directly from the frames (Inspect/verify the scene before any physical action).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Drive the tractor along the field, following the existing furrows; Continue driving the tractor, engaging the Soil-Tiller to begin breaking up the soil clumps; Adjust the depth of the Soil-Tiller to ensure effective soil breakdown; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 9.099999999999994,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/E-juRjYSpZY/task01/sub00/motion.bvh",
+            "params_path": "results/momask/E-juRjYSpZY/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Explain how the Soil-Tiller creates stable soil mounds for root crop growth.",
+          "start": 86.7,
+          "end": 92.0,
+          "segment_ids": [
+            11
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f00.jpg",
+              "relative_path": "E-juRjYSpZY/task01_sub01_f00.jpg",
+              "caption": "A tractor is plowing a field with a large, red plow.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "E-juRjYSpZY/task01_sub01_f01.jpg",
+              "caption": "A tractor is driving through a field, leaving parallel furrows.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "E-juRjYSpZY/task01_sub01_f02.jpg",
+              "caption": "The video frame shows an orange agricultural machine with a red lever and a label indicating \"LEVEL PLUG.\"",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will explain how the Soil-Tiller creates stable soil mounds suitable for root crop growth, following the demonstration of the tractor plowing the field.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] The tractor is seen plowing a field with a large, red plow, creating parallel furrows.",
+            "- [frame=2] An orange agricultural machine with a red lever labeled \"LEVEL PLUG\" is shown, indicating the Soil-Tiller.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts the initial stages of preparing the soil for root crops, where the tractor has created furrows, and the Soil-Tiller is about to be used to create stable soil mounds.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the operation of the Soil-Tiller.",
+            "- The robot should know the purpose of creating stable soil mounds for root crops.",
+            "- The robot should be aware of the tractor's role in preparing the field.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The soil mounds should be stable and suitable for root crop growth.",
+            "- The furrows should be evenly spaced and deep enough for planting.",
+            "- The Soil-Tiller should be correctly positioned and operated.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Drive the robot to the area where the tractor has created the furrows.",
+            "2. [type=perception, frames=[2]] Verify the presence of the Soil-Tiller by checking its position and readiness.",
+            "3. [type=manipulation, frames=[2]] Engage the Soil-Tiller by inserting the \"LEVEL PLUG\" into the designated slot.",
+            "4. [type=navigation, frames=[0,1]] Guide the Soil-Tiller along the furrows, ensuring it follows the path accurately.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Drive the robot to the area where the tractor has created the furrows. It then verifies the key detail directly from the frames (Verify the presence of the Soil-Tiller by checking its position and readiness).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Drive the robot to the area where the tractor has created the furrows; Engage the Soil-Tiller by inserting the \"LEVEL PLUG\" into the designated slot; Guide the Soil-Tiller along the furrows, ensuring it follows the path accurately; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 5.299999999999997,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/E-juRjYSpZY/task01/sub01/motion.bvh",
+            "params_path": "results/momask/E-juRjYSpZY/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Showcase the process of peanut harvesting using a machine designed to save labor and time.",
+      "start": 200.3,
+      "end": 220.1,
+      "subtasks": [
+        {
+          "text": "Observe the peanut digger moving through rows, cutting the roots from the underside of plants.",
+          "start": 200.3,
+          "end": 204.0,
+          "segment_ids": [
+            25
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f00.jpg",
+              "relative_path": "E-juRjYSpZY/task02_sub00_f00.jpg",
+              "caption": "A tractor is harvesting grapes in a vineyard.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "E-juRjYSpZY/task02_sub00_f01.jpg",
+              "caption": "A tractor is moving through a vineyard, with a caption about a peanut digger.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "E-juRjYSpZY/task02_sub00_f02.jpg",
+              "caption": "A large agricultural machine is harvesting crops in a field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot observes a large agricultural machine moving through a field, cutting the roots of peanut plants from the underside. This scene is part of a broader demonstration of labor-saving machinery in agriculture.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A tractor is seen harvesting grapes in a vineyard, indicating a transition from one scene to another.",
+            "- [frames=[1]] A tractor moves through a vineyard, with a caption mentioning a peanut digger, suggesting a shift in focus.",
+            "- [frames=[2]] A large agricultural machine is shown harvesting crops in a field, which aligns with the subtask's context.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a large agricultural machine, likely a peanut digger, moving through a field. The machine is designed to efficiently harvest peanuts by cutting the roots from the underside of the plants, thereby saving labor and time.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot must recognize the type of machine as a peanut digger.",
+            "- The robot should be aware of the machine’s movement pattern and its purpose.",
+            "- The robot needs to understand the context of the field and the presence of peanut plants.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should confirm the machine is correctly identified as a peanut digger.",
+            "- The robot must verify the machine is moving through the field as expected.",
+            "- The robot should check if the machine is cutting the roots from the underside of the plants.",
+            "- The robot needs to measure the efficiency of the machine in terms of speed and coverage.",
+            "- The robot should cross-check the machine’s operation against standard agricultural practices.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Identify the machine as a peanut digger.",
+            "2. [type=navigation, frames=[2]] Monitor the machine’s movement through the field.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the machine as a peanut digger. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Monitor the machine’s movement through the field; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.6999999999999886,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/E-juRjYSpZY/task02/sub00/motion.bvh",
+            "params_path": "results/momask/E-juRjYSpZY/task02/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Notice the process of flipping peanut plants over with rotating times, preparing them for harvesting.",
+          "start": 208.7,
+          "end": 220.1,
+          "segment_ids": [
+            27
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub01_f00.jpg",
+              "relative_path": "E-juRjYSpZY/task02_sub01_f00.jpg",
+              "caption": "A tractor is harvesting grapes.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub01_f01.jpg",
+              "relative_path": "E-juRjYSpZY/task02_sub01_f01.jpg",
+              "caption": "A machine is shown with a person flipping plants over.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub01_f02.jpg",
+              "relative_path": "E-juRjYSpZY/task02_sub01_f02.jpg",
+              "caption": "A tractor is harvesting grapes in a vineyard.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot observes a machine flipping peanut plants over, preparing them for harvesting. This process is crucial for ensuring the plants are ready for the next stage of the harvesting operation.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A tractor is harvesting grapes, indicating the setting is a vineyard but not the focus area.",
+            "- [frames=[1]] A machine is shown with a person flipping plants over, highlighting the key action.",
+            "- [frames=[2]] A tractor is harvesting grapes again, confirming the setting but not relevant to the current task.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a machine designed to flip peanut plants over, which is an essential preparatory step before actual harvesting. The presence of a person indicates manual assistance, though the robot's role is to understand and replicate this process.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot must be aware of the machine's function and the specific action of flipping plants.",
+            "- It should recognize the difference between grape vines and peanut plants.",
+            "- The robot needs to understand the importance of orientation for optimal harvesting.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The plant must be flipped correctly.",
+            "- The orientation of the plant should be verified to ensure it is facing the correct direction for harvesting.",
+            "- The process should be completed without damaging the plants.",
+            "- The machine should operate smoothly and efficiently.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Identify the machine and the person flipping the plants.",
+            "2. [type=perception, frames=[1]] Recognize the specific action of flipping the plants.",
+            "3. [type=manipulation, frames=[1]] Mimic the action by flipping the plants over.",
+            "4. [type=perception, frames=[1]] Verify the orientation of the flipped plants.",
+            "5. [type=manipulation, frames=[1]] Adjust.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the machine and the person flipping the plants. It then verifies the key detail directly from the frames (Verify the orientation of the flipped plants).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Mimic the action by flipping the plants over; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 11.400000000000006,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/E-juRjYSpZY/task02/sub01/motion.bvh",
+            "params_path": "results/momask/E-juRjYSpZY/task02/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Highlight the machine harvesting of grapes and its efficiency in the vineyard.",
+      "start": 282.3,
+      "end": 295.4,
+      "subtasks": [
+        {
+          "text": "Watch the machine harvesting process shaking vines to release grapes onto a conveyor belt.",
+          "start": 282.3,
+          "end": 289.6,
+          "segment_ids": [
+            36
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub00_f00.jpg",
+              "relative_path": "E-juRjYSpZY/task03_sub00_f00.jpg",
+              "caption": "The video shows a machine with yellow covers and a man in the foreground.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task03_sub00_f01.jpg",
+              "relative_path": "E-juRjYSpZY/task03_sub00_f01.jpg",
+              "caption": "A tractor is shaking the vines to collect the grapes.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub00_f02.jpg",
+              "relative_path": "E-juRjYSpZY/task03_sub00_f02.jpg",
+              "caption": "A tree is being loaded onto a conveyor belt.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The machine is shaking the vines to release grapes onto a conveyor belt, demonstrating an efficient harvesting process in the vineyard.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The video shows a machine with yellow covers and a man in the foreground.",
+            "- [frames=[1]] A tractor is actively shaking the vines to collect the grapes.",
+            "- [frames=[2]] Grapes are being loaded onto a conveyor belt.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a modern agricultural machine in action, specifically designed for grape harvesting. The machine uses mechanical shaking to dislodge grapes from the vines, which are then transported via a conveyor belt.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be within the operational range of the machine.",
+            "- The machine should be turned on and ready for operation.",
+            "- The conveyor belt should be functional and positioned correctly.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The grapes should be effectively shaken off the vines.",
+            "- The grapes should be successfully transferred to the conveyor belt.",
+            "- The machine should operate without any malfunctions.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Move the robot to a position near the machine.",
+            "2. [type=perception, frames=[1]] Verify the machine is operating by observing the shaking mechanism.",
+            "3. [type=navigation, frames=[1]] Position the robot's camera to monitor the grape collection process.",
+            "4. [type=manipulation, frames=[1]] Assist in adjusting the machine's shaking intensity if necessary.",
+            "5. [type=manipulation, frames=[2]] Ensure the conveyor belt is properly aligned and functioning.",
+            "6. [type=perception, frames=[2]] Confirm the grapes are being efficiently transferred to the conveyor belt.",
+            "7. [type=navigation, frames=[2]] Move the robot to a safe distance.",
+            "8. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move the robot to a position near the machine. It then verifies the key detail directly from the frames (Verify the machine is operating by observing the shaking mechanism).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move the robot to a position near the machine; Position the robot's camera to monitor the grape collection process; Assist in adjusting the machine's shaking intensity if necessary; Ensure the conveyor belt is properly aligned and functioning; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 7.300000000000011,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/E-juRjYSpZY/task03/sub00/motion.bvh",
+            "params_path": "results/momask/E-juRjYSpZY/task03/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Notice the removal of impurities from harvested grapes through a series of screens.",
+          "start": 289.6,
+          "end": 295.4,
+          "segment_ids": [
+            37
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub01_f01.jpg",
+              "relative_path": "E-juRjYSpZY/task03_sub01_f01.jpg",
+              "caption": "A machine is shown collecting and removing impurities from a substance.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub01_f02.jpg",
+              "relative_path": "E-juRjYSpZY/task03_sub01_f02.jpg",
+              "caption": "A tractor is harvesting olives in a field, while a man in a turtleneck is speaking in the foreground.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should observe the process of removing impurities from harvested grapes using a series of screens, ensuring the efficiency and quality of the operation.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A machine is shown collecting and removing impurities from a substance, likely grapes.",
+            "- [frames=[2]] A tractor is harvesting olives in a field, while a man in a turtleneck is speaking in the foreground, but this frame is not relevant to the subtask.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a machine processing grapes by removing impurities, which is an essential part of the grape harvesting process. The machine likely uses a series of screens to separate unwanted materials from the grapes.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot needs to be within visual range of the grape processing area.",
+            "- The machine should be operational and visible.",
+            "- The robot should have the necessary sensors to detect the presence of impurities.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The machine successfully removes all visible impurities from the grapes.",
+            "- The processed grapes are free of debris and contaminants.",
+            "- The machine operates without any malfunctions during the process.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Should verify the presence of impurities in the grapes by observing the machine's operation.",
+            "2. [type=perception, frames=[1]] Should confirm the machine is functioning correctly by checking its operation.",
+            "3. [type=manipulation, frames=[1]] Should assist in guiding the grapes into the machine for processing.",
+            "4. [type=manipulation, frames=[1]] Should help in directing the machine to remove impurities effectively.",
+            "5. [type=perception, frames=[1]] Should check the output to ensure all impurities have been removed.",
+            "6. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Should verify the presence of impurities in the grapes by observing the machine's operation. It then verifies the key detail directly from the frames (Should verify the presence of impurities in the grapes by observing the machine's operation).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Should assist in guiding the grapes into the machine for processing; Should help in directing the machine to remove impurities effectively; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 5.7999999999999545,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/E-juRjYSpZY/task03/sub01/motion.bvh",
+            "params_path": "results/momask/E-juRjYSpZY/task03/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Illustrate the use of a tarp system for harvesting various fruits.",
+      "start": 373.2,
+      "end": 379.7,
+      "subtasks": [
+        {
+          "text": "Observe the automatic operation and extension of the tarp system for harvesting fruits like olives and almonds.",
+          "start": 373.2,
+          "end": 379.7,
+          "segment_ids": [
+            52
+          ],
+          "frames": [
+            {
+              "image_file": "task04_sub00_f00.jpg",
+              "relative_path": "E-juRjYSpZY/task04_sub00_f00.jpg",
+              "caption": "The video shows a tractor in a field with rows of crops.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task04_sub00_f01.jpg",
+              "relative_path": "E-juRjYSpZY/task04_sub00_f01.jpg",
+              "caption": "A machine is harvesting olives in a field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task04_sub00_f02.jpg",
+              "relative_path": "E-juRjYSpZY/task04_sub00_f02.jpg",
+              "caption": "A tractor is driving through a muddy field with a large tire visible.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot observes the automatic operation and extension of the tarp system as it assists in harvesting olives and almonds in a field setting.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The video shows a tractor in a field with rows of crops.",
+            "- [frames=[1]] A machine is harvesting olives in a field.",
+            "- [frames=[2]] A tractor is driving through a muddy field with a large tire visible.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a field where agricultural machinery is in operation, specifically focusing on the harvesting process of olives and almonds. The presence of a tractor and a harvesting machine indicates an automated setup designed to improve efficiency in fruit collection.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The tarp system is already deployed and operational.",
+            "- The field conditions are suitable for harvesting operations.",
+            "- The robot has access to the tarp system controls.",
+            "- The robot understands the types of fruits being harvested (olives and almonds).",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The tarp system extends correctly over the harvested area.",
+            "- The harvested fruits are collected efficiently without damage.",
+            "- The tarp system retracts smoothly after harvesting.",
+            "- The field remains clean and organized post-harvesting.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Drive the robot to the area where the tarp system is located.",
+            "2. [type=perception, frames=[1]] Verify the presence of the tarp system by scanning the field.",
+            "3. [type=manipulation, frames=[1]] Initiate the extension of the tarp system over the harvested area.",
+            "4. [type=perception, frames=[1]] Monitor the tarp extension to ensure it covers the entire harvested area.",
+            "5. [type=manipulation, frames=[1]] Adjust the tarp system.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Drive the robot to the area where the tarp system is located. It then verifies the key detail directly from the frames (Verify the presence of the tarp system by scanning the field).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Drive the robot to the area where the tarp system is located; Initiate the extension of the tarp system over the harvested area; Adjust the tarp system; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 6.5,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/E-juRjYSpZY/task04/sub00/motion.bvh",
+            "params_path": "results/momask/E-juRjYSpZY/task04/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Demonstrate the operation and effectiveness of the automatic transplanter for efficient planting.",
+      "start": 434.4,
+      "end": 448.8,
+      "subtasks": [
+        {
+          "text": "Show the preparation of soil and loading of seedling trays into the transplanter.",
+          "start": 434.4,
+          "end": 437.9,
+          "segment_ids": [
+            62
+          ],
+          "frames": [
+            {
+              "image_file": "task05_sub00_f00.jpg",
+              "relative_path": "E-juRjYSpZY/task05_sub00_f00.jpg",
+              "caption": "A plow is working in a dusty field, preparing the soil for planting.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task05_sub00_f01.jpg",
+              "relative_path": "E-juRjYSpZY/task05_sub00_f01.jpg",
+              "caption": "A tractor is mowing a field, and trays are being loaded into the machine.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task05_sub00_f02.jpg",
+              "relative_path": "E-juRjYSpZY/task05_sub00_f02.jpg",
+              "caption": "A tractor is mowing a field with a red and black mower.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will prepare the soil by plowing and then load seedling trays into the automatic transplanter.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A plow is working in a dusty field, preparing the soil for planting.",
+            "- [frames=[1]] A tractor is mowing a field, and trays are being loaded into the machine.",
+            "- [frames=[0,1,2]] The scene transitions from soil preparation to loading seedling trays.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The robot observes a field being prepared for planting, starting with soil plowing and moving on to the loading of seedling trays into the transplanter.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The field must be accessible for the robot to perform tasks.",
+            "- The transplanter must be ready and positioned correctly.",
+            "- Seedling trays should be available and properly filled.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The soil must be adequately prepared for planting.",
+            "- Seedling trays must be accurately loaded into the transplanter.",
+            "- The transplanter must be in a position to receive the trays.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1,2]] Inspect/verify the scene before any physical action.",
+            "2. [type=manipulation, frames=[0]] Drive the robot to the field where the plowing is taking place.",
+            "3. [type=perception, frames=[0]] Verify the plow is operating correctly by checking its movement and depth.",
+            "4. [type=navigation, frames=[1]] Move the robot to the area where the seedling trays are being loaded.",
+            "5. [type=manipulation, frames=[1]] Grasp and lift a seedling tray from the ground.",
+            "6. [type=manipulation, frames=[1]] Place the tray into the transplanter's designated slot.",
+            "7. [type=manipulation, frames=[1]] Repeat steps 4 and 5 until all trays are loaded.",
+            "8. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Inspect/verify the scene before any physical action. It then verifies the key detail directly from the frames (Inspect/verify the scene before any physical action).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Drive the robot to the field where the plowing is taking place; Move the robot to the area where the seedling trays are being loaded; Grasp and lift a seedling tray from the ground; Place the tray into the transplanter's designated slot; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.5,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/E-juRjYSpZY/task05/sub00/motion.bvh",
+            "params_path": "results/momask/E-juRjYSpZY/task05/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Notice the precision setting of parameters such as the distance between plants by operators.",
+          "start": 441.9,
+          "end": 448.8,
+          "segment_ids": [
+            64
+          ],
+          "frames": [
+            {
+              "image_file": "task05_sub01_f00.jpg",
+              "relative_path": "E-juRjYSpZY/task05_sub01_f00.jpg",
+              "caption": "A combine harvester is harvesting crops in a field.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task05_sub01_f01.jpg",
+              "relative_path": "E-juRjYSpZY/task05_sub01_f01.jpg",
+              "caption": "A tractor is driving on a field, with a person standing next to it.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task05_sub01_f02.jpg",
+              "relative_path": "E-juRjYSpZY/task05_sub01_f02.jpg",
+              "caption": "A tractor is harvesting hay in a field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Operators are adjusting the parameters of the automatic transplanter, focusing particularly on the distance between plants, which is crucial for efficient planting.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A combine harvester is harvesting crops in a field, indicating the current agricultural activity.",
+            "- [frames=[1]] A tractor is driving on a field, with a person standing next to it, suggesting the presence of an operator.",
+            "- [frames=[2]] A tractor is harvesting hay, which is not directly related but shows ongoing agricultural work.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from harvesting to planting, with the focus shifting to the setup and adjustment of the automatic transplanter. The operator is likely preparing the machine for the next phase of planting.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the layout of the field and the location of the automatic transplanter.",
+            "- The robot needs to know the standard settings for the transplanter and how to adjust them.",
+            "- The robot should be able to communicate with the transplanter’s control system.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The distance between plants is set accurately according to the operator's specifications.",
+            "- The transplanter is ready for planting without any malfunctions.",
+            "- The operator confirms the settings are correct before initiating the planting process.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate to the location of the automatic transplanter.",
+            "2. [type=perception, frames=[1]] Verify the current settings of the transplanter using the display screen.",
+            "3. [type=manipulation, frames=[2]] Adjust the distance parameter to match the operator's specifications.",
+            "4. [type=perception, frames=[2]] Confirm the new settings with the operator through voice communication.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the location of the automatic transplanter. It then verifies the key detail directly from the frames (Verify the current settings of the transplanter using the display screen).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the location of the automatic transplanter; Adjust the distance parameter to match the operator's specifications; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 6.900000000000034,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/E-juRjYSpZY/task05/sub01/motion.bvh",
+            "params_path": "results/momask/E-juRjYSpZY/task05/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Describe the manual harvesting of mangoes using ladders and nets to prevent bruising.",
+      "start": 464.8,
+      "end": 469.5,
+      "subtasks": [
+        {
+          "text": "Watch the process of mango picking by hand, leaving a bit of stem on the fruit.",
+          "start": 464.8,
+          "end": 469.5,
+          "segment_ids": [
+            68
+          ],
+          "frames": [
+            {
+              "image_file": "task06_sub00_f00.jpg",
+              "relative_path": "E-juRjYSpZY/task06_sub00_f00.jpg",
+              "caption": "A tractor is mowing a field with a white and red design.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task06_sub00_f01.jpg",
+              "relative_path": "E-juRjYSpZY/task06_sub00_f01.jpg",
+              "caption": "Tractors are harvesting hay in a field, with the caption \"fruit is less likely to get damaged.\"",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task06_sub00_f02.jpg",
+              "relative_path": "E-juRjYSpZY/task06_sub00_f02.jpg",
+              "caption": "Farmers use a pole with a net to pick hay in a field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Farmers are demonstrating the manual harvesting of mangoes using ladders and nets to prevent bruising, focusing on leaving a bit of stem on the fruit.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A tractor is mowing a field with a white and red design.",
+            "- [frames=[1]] Tractors are harvesting hay in a field, with the caption \"fruit is less likely to get damaged.\"",
+            "- [frames=[2]] Farmers use a pole with a net to pick hay in a field.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shifts from agricultural machinery to farmers using tools to harvest hay, which is a metaphorical reference to the handling of mangoes. The focus is on minimizing damage during the picking process.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a ladder and a net.",
+            "- The robot should be familiar with the environment and able to navigate through fields.",
+            "- The robot should have the ability to manipulate the ladder and net effectively.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should successfully pick mangoes without damaging them.",
+            "- The robot should leave a bit of stem on each fruit.",
+            "- The robot should ensure that the picked mangoes are placed in a designated collection area.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Move the robot to the field where the mangoes are located.",
+            "2. [type=perception, frames=[2]] Verify the presence of mango trees using visual sensors.",
+            "3. [type=navigation, frames=[2]] Approach a mango tree using the pre-programmed path.",
+            "4. [type=manipulation, frames=[2]] Extend the ladder and position it against the tree trunk.",
+            "5. [type=manipulation, frames=[2]] Attach the net to the ladder.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move the robot to the field where the mangoes are located. It then verifies the key detail directly from the frames (Verify the presence of mango trees using visual sensors).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move the robot to the field where the mangoes are located; Approach a mango tree using the pre-programmed path; Extend the ladder and position it against the tree trunk; Attach the net to the ladder; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 4.699999999999989,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/E-juRjYSpZY/task06/sub00/motion.bvh",
+            "params_path": "results/momask/E-juRjYSpZY/task06/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Showcase the post-harvest handling and processing of mangoes at the packing facility.",
+      "start": 508.6,
+      "end": 514.0,
+      "subtasks": [
+        {
+          "text": "Observe the cooling process of mangoes to remove field heat and extend their shelf life.",
+          "start": 508.6,
+          "end": 514.0,
+          "segment_ids": [
+            76
+          ],
+          "frames": [
+            {
+              "image_file": "task07_sub00_f00.jpg",
+              "relative_path": "E-juRjYSpZY/task07_sub00_f00.jpg",
+              "caption": "The video shows a farm with a large field of trees and a water body, with text indicating the need to take them to a packing area.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task07_sub00_f01.jpg",
+              "relative_path": "E-juRjYSpZY/task07_sub00_f01.jpg",
+              "caption": "A mango tree with green leaves and a packing facility is shown in the video.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task07_sub00_f02.jpg",
+              "relative_path": "E-juRjYSpZY/task07_sub00_f02.jpg",
+              "caption": "A person is using a machine to spray a field, likely to cool it down.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot observes the initial stages of the post-harvest handling of mangoes, focusing on the cooling process to remove field heat and extend shelf life.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The video shows a farm with a large field of trees and a water body, indicating the need to transport mangoes to a packing area.",
+            "- [frames=[1]] A mango tree with green leaves and a packing facility are visible, suggesting the transition from the field to processing.",
+            "- [frames=[2]] A person is using a machine to spray a field, likely to cool it down, setting up the scene for the cooling process.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts the beginning of the post-harvest process where mangoes are being prepared for cooling to remove field heat and improve shelf life. The presence of a packing facility suggests that the cooling process is part of a larger handling and processing workflow.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the location of the packing facility.",
+            "- The robot needs to know the path from the field to the packing facility.",
+            "- The robot must be equipped with sensors to detect the temperature of mangoes.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Mangoes should show a significant reduction in temperature.",
+            "- The cooling process should be completed within the expected timeframe.",
+            "- The robot should confirm that the mangoes are at an optimal temperature before moving to the next stage.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the field where mangoes are located.",
+            "2. [type=perception, frames=[2]] Verify the presence of a cooling machine by scanning the area.",
+            "3. [type=navigation, frames=[2]] Move towards the cooling machine.",
+            "4. [type=manipulation, frames=[2]] Operate the.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the field where mangoes are located. It then verifies the key detail directly from the frames (Verify the presence of a cooling machine by scanning the area).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the field where mangoes are located; Move towards the cooling machine; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 5.399999999999977,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/E-juRjYSpZY/task07/sub00/motion.bvh",
+            "params_path": "results/momask/E-juRjYSpZY/task07/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Demonstrate the mechanical harvesting process in sugarcane farming.",
+      "start": 1010.0,
+      "end": 1016.3,
+      "subtasks": [
+        {
+          "text": "Show the mechanical harvester collecting mature sugarcane from September until January.",
+          "start": 1010.0,
+          "end": 1016.3,
+          "segment_ids": [
+            167
+          ],
+          "frames": [
+            {
+              "image_file": "task08_sub00_f00.jpg",
+              "relative_path": "E-juRjYSpZY/task08_sub00_f00.jpg",
+              "caption": "A tractor is plowing a field with a large plow.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task08_sub00_f01.jpg",
+              "relative_path": "E-juRjYSpZY/task08_sub00_f01.jpg",
+              "caption": "A tractor is harvesting sugarcane in a field, with the caption \"collect the cane from September until\".",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task08_sub00_f02.jpg",
+              "relative_path": "E-juRjYSpZY/task08_sub00_f02.jpg",
+              "caption": "A tractor is harvesting crops in a field in January.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will demonstrate the mechanical harvesting process of sugarcane from September to January, focusing on the collection phase.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The tractor is plowing a field with a large plow.",
+            "- [frames=[1]] The tractor is harvesting sugarcane in a field, with the caption \"collect the cane from September until\".",
+            "- [frames=[2]] The tractor is harvesting crops in a field in January.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from plowing to harvesting sugarcane, indicating the start of the harvesting season in September and continuing through January. The robot needs to simulate the harvesting process during this period.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a mechanical harvester attachment.",
+            "- The robot must be able to navigate the field autonomously.",
+            "- The robot should have sensors to detect mature sugarcane.",
+            "- The robot needs to communicate with the system to log the harvesting duration.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully collects mature sugarcane from September to January.",
+            "- The harvesting process is continuous without interruptions.",
+            "- The robot logs the start and end times of the harvesting process accurately.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the field where harvesting will take place.",
+            "2. [type=perception, frames=[1]] Use sensors to identify mature sugarcane.",
+            "3. [type=manipulation, frames=[1]] Attach the mechanical harvester to the robot.",
+            "4. [type=navigation, frames=[1,2]] Move the robot across the field to begin harvesting.",
+            "5. [type=manipulation, frames=[2]] Collect and stack the harvested sugarcane.",
+            "6. [type=communication, frames=[2]] Log the start time of the.",
+            "7. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "8. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the field where harvesting will take place. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the field where harvesting will take place; Attach the mechanical harvester to the robot; Move the robot across the field to begin harvesting; Collect and stack the harvested sugarcane; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 6.2999999999999545,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/E-juRjYSpZY/task08/sub00/motion.bvh",
+            "params_path": "results/momask/E-juRjYSpZY/task08/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Notice the efficiency increase in harvesting time from 32 hours to just 6 to 12 hours with mechanical harvesters.",
+          "start": null,
+          "end": null,
+          "segment_ids": [
+            184
+          ],
+          "frames": [],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 4.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/E-juRjYSpZY/task08/sub01/motion.bvh",
+            "params_path": "results/momask/E-juRjYSpZY/task08/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

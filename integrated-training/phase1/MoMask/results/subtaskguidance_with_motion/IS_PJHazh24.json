@@ -1,0 +1,432 @@
+{
+  "video_index": "IS_PJHazh24",
+  "title": "Hydraulic Top Link for Summit Tractor Adjustments",
+  "url": "https://www.youtube.com/watch?v=IS_PJHazh24",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "The video describes a specific accessory for the tractor and its benefits.",
+  "tasks": [
+    {
+      "task": "Explain the recommended hydraulic top link for the Summit tractor.",
+      "start": 0.0,
+      "end": 23.2,
+      "subtasks": [
+        {
+          "text": "Introduce the hydraulic top link that has been recommended for the Summit tractor.",
+          "start": 0.0,
+          "end": 2.56,
+          "segment_ids": [
+            0
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "IS_PJHazh24/task00_sub00_f00.jpg",
+              "caption": "A man in a baseball cap and navy shirt is standing next to a red tractor with a cat 1 e-hitch.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "IS_PJHazh24/task00_sub00_f01.jpg",
+              "caption": "A man is inspecting a piece of equipment with a caption that reads \"WHERE TO GET THIS HYDRAULIC TOP LINK.\"",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "IS_PJHazh24/task00_sub00_f02.jpg",
+              "caption": "A man is inspecting a piece of equipment with a caption that reads \"WHERE TO GET THIS HYDRAULIC TOP LINK.\"",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video introduces the recommended hydraulic top link for the Summit tractor by showing a man inspecting the equipment and pointing out where to get it.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A man in a baseball cap and navy shirt is standing next to a red tractor with a cat 1 e-hitch.",
+            "- [frames=[1,2]] A man is inspecting a piece of equipment with a caption that reads \"WHERE TO GET THIS HYDRAULIC TOP LINK.\"",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a man explaining the recommended hydraulic top link for the Summit tractor by pointing to a specific piece of equipment and indicating its source.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be within the vicinity of the red tractor.",
+            "- The robot should have access to the area where the man is inspecting the equipment.",
+            "- The robot should be able to read the caption on the equipment.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the recommended hydraulic top link.",
+            "- The robot should accurately locate the source of the hydraulic top link.",
+            "- The robot should confirm the correct identification with the man.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Scan the area to locate the man and the red tractor.",
+            "2. [type=perception, frames=[1,2]] Read the caption \"WHERE TO GET THIS HYDRAULIC TOP LINK\" on the equipment.",
+            "3. [type=navigation, frames=[0,1]] Move closer to the man and the equipment.",
+            "4. [type=manipulation, frames=[1,2]] Point to the equipment and ask the man about the recommended hydraulic top link.",
+            "5. [type=perception, frames=[1,2]] Confirm the correct identification of the hydraulic top link with the man.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Scan the area to locate the man and the red tractor. It then verifies the key detail directly from the frames (Read the caption \"WHERE TO GET THIS HYDRAULIC TOP LINK\" on the equipment).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move closer to the man and the equipment; Point to the equipment and ask the man about the recommended hydraulic top link; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/IS_PJHazh24/task00/sub00/motion.bvh",
+            "params_path": "results/momask/IS_PJHazh24/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Mention where the hydraulic top link was purchased from.",
+          "start": 4.16,
+          "end": 6.36,
+          "segment_ids": [
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f00.jpg",
+              "relative_path": "IS_PJHazh24/task00_sub01_f00.jpg",
+              "caption": "The video frame shows a close-up of a vehicle's hydraulic circuit with warning stickers and hoses.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "IS_PJHazh24/task00_sub01_f01.jpg",
+              "caption": "The video frame shows a close-up of a vehicle's hydraulic circuit with warning stickers and hoses.",
+              "frame_index": 1
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment focuses on mentioning the source of purchase for the hydraulic top link used on the Summit tractor.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] The video frame shows a close-up of a vehicle's hydraulic circuit with warning stickers and hoses.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene is set within a workshop or repair bay, where a hydraulic circuit of a vehicle is being inspected. The presence of warning stickers and hoses indicates caution and maintenance activities related to the hydraulic system.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture the display.",
+            "- The robot needs access to the video feed from the tutorial.",
+            "- The robot should have knowledge about the hydraulic top link for the Summit tractor.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the source of purchase for the hydraulic top link.",
+            "- The robot should provide a clear and concise statement about where the hydraulic top link was purchased.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Capture an image of the hydraulic circuit to analyze the details.",
+            "2. [type=manipulation, frames=[0,1]] Zoom in on the area where the hydraulic top link is mentioned or displayed.",
+            "3. [type=perception, frames=[0,1]] Read the text or label indicating the source of purchase for the hydraulic top link.",
+            "4. [type=perception, frames=[0,1]] Confirm the identified source of purchase by cross-checking with known information about the hydraulic top link.",
+            "5. [type=navigation, frames=[0,1]] Return the camera to its original position.",
+            "6. [type=communication, frames=[0,1]] Announce the source of purchase for the hydraulic top link.",
+            "7. [type=navigation, frames=[0,1]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture an image of the hydraulic circuit to analyze the details. It then verifies the key detail directly from the frames (Read the text or label indicating the source of purchase for the hydraulic top link). After verification, it communicates the result clearly (Announce the source of purchase for the hydraulic top link).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Zoom in on the area where the hydraulic top link is mentioned or displayed; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/IS_PJHazh24/task00/sub01/motion.bvh",
+            "params_path": "results/momask/IS_PJHazh24/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Describe the convenience of the hydraulic top link for attaching various equipment.",
+          "start": 17.48,
+          "end": 23.2,
+          "segment_ids": [
+            10,
+            11,
+            12,
+            13
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub02_f00.jpg",
+              "relative_path": "IS_PJHazh24/task00_sub02_f00.jpg",
+              "caption": "A red tractor with a dirt dog attachment is shown in a garage.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub02_f01.jpg",
+              "relative_path": "IS_PJHazh24/task00_sub02_f01.jpg",
+              "caption": "A person is adjusting a piece of equipment on a tractor in a garage.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub02_f02.jpg",
+              "relative_path": "IS_PJHazh24/task00_sub02_f02.jpg",
+              "caption": "The video frame shows a red tractor with a dirt dog attachment in a garage.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment explains how the hydraulic top link makes it easier to attach different pieces of equipment to the Summit tractor.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A red tractor with a dirt dog attachment is shown in a garage.",
+            "- [frames=[1]] A person is seen adjusting a piece of equipment on the tractor in the garage.",
+            "- [frames=[2]] The red tractor with the dirt dog attachment is again shown in the garage.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a typical garage setting where a tractor is being prepared for work. The presence of a dirt dog attachment suggests the tractor is used for agricultural tasks. The focus is on the ease of attaching and detaching equipment using a hydraulic system.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the current state of the tractor, specifically the presence of the dirt dog attachment.",
+            "- The robot needs to know the location of the hydraulic top link and other attachments.",
+            "- The robot should have access to the necessary tools and attachments for demonstration purposes.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the convenience of the hydraulic top link.",
+            "- The robot should mention the ease of attaching and detaching various equipment.",
+            "- The robot should provide a clear explanation of how the hydraulic system works.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Identify the tractor and its current attachment (dirt dog).",
+            "2. [type=perception, frames=[1]] Observe the person adjusting equipment on the tractor.",
+            "3. [type=manipulation, frames=[1]] Demonstrate the process of attaching a hypothetical new piece of equipment using the hydraulic top link.",
+            "4. [type=communication, frames=[1]] Explain the ease of attaching the equipment using the hydraulic system.",
+            "5. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the tractor and its current attachment (dirt dog). It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Demonstrate the process of attaching a hypothetical new piece of equipment using the hydraulic top link; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 5.719999999999999,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/IS_PJHazh24/task00/sub02/motion.bvh",
+            "params_path": "results/momask/IS_PJHazh24/task00/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Highlight the benefits and recommendation of the hydraulic top link.",
+      "start": 17.48,
+      "end": 34.0,
+      "subtasks": [
+        {
+          "text": "Detail how the hydraulic top link can be used for adjusting blades and attachments.",
+          "start": 17.48,
+          "end": 23.2,
+          "segment_ids": [
+            10,
+            11,
+            12,
+            13
+          ],
+          "frames": [],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 5.719999999999999,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/IS_PJHazh24/task01/sub00/motion.bvh",
+            "params_path": "results/momask/IS_PJHazh24/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Illustrate the ease of attaching and detaching equipment using a quick hitch.",
+          "start": 23.2,
+          "end": 27.88,
+          "segment_ids": [
+            14,
+            15,
+            16,
+            17
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "IS_PJHazh24/task01_sub01_f02.jpg",
+              "caption": "A man is standing next to a red tractor with a caption that says \"Find the link to our Amazon store at...\".",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should observe a man demonstrating the ease of attaching and detaching equipment using a quick hitch on a red tractor.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[2]] A man is standing next to a red tractor.",
+            "- [frames=[2]] The man is pointing towards a hydraulic top link.",
+            "- [frames=[2]] There is a caption on the screen saying \"Find the link to our Amazon store at...\".",
+            "- [frames=[2]] The man is holding a piece of equipment that he will attach to the tractor.",
+            "- [frames=[2]] The man is showing how the quick hitch allows for easy attachment and detachment of the equipment.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a man explaining the convenience of using a quick hitch for attaching and detaching equipment on a red tractor. The hydraulic top link is highlighted as a key component for this process.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be within visual range of the red tractor.",
+            "- The robot should have access to the quick hitch mechanism.",
+            "- The robot should be able to identify the man and the equipment being used.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the quick hitch mechanism.",
+            "- The robot should understand the ease of attachment and detachment demonstrated by the man.",
+            "- The robot should be able to explain the benefits of using a quick hitch.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[2]] Identify the man and the red tractor.",
+            "2. [type=perception, frames=[2]] Recognize the hydraulic top link and the quick hitch mechanism.",
+            "3. [type=perception, frames=[2]] Observe the man attaching the equipment to the tractor using the quick hitch.",
+            "4. [type=perception, frames=[2]] Observe the man detaching the equipment from the tractor.",
+            "5. [type=perception, frames=[2]] Verify/confirm the key observation before reporting.",
+            "6. [type=navigation, frames=[2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the man and the red tractor. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 4.68,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/IS_PJHazh24/task01/sub01/motion.bvh",
+            "params_path": "results/momask/IS_PJHazh24/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Recommend purchasing the hydraulic top link for those with a rear remote on their tractor.",
+          "start": 27.88,
+          "end": 34.0,
+          "segment_ids": [
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub02_f01.jpg",
+              "relative_path": "IS_PJHazh24/task01_sub02_f01.jpg",
+              "caption": "A man is standing next to a red tractor with a caption that reads \"GOOD WORKSTRACTORS.COM.\"",
+              "frame_index": 1
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should recommend purchasing the hydraulic top link for users with a rear remote on their tractor, highlighting its benefits during a tutorial video.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A man is standing next to a red tractor with the caption \"GOOD WORKSTRACTORS.COM.\"",
+            "- The scene focuses on the tractor and the man providing context.",
+            "- [frames=[1]] The man is likely explaining the benefits of the hydraulic top link.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a man standing beside a red tractor, presumably demonstrating or discussing the hydraulic top link. The caption suggests this is part of a larger tutorial series on tractor adjustments.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot needs to be aware of the current scene and the presence of the man.",
+            "- It should recognize the tractor and the caption.",
+            "- The robot must know about the hydraulic top link and its benefits for tractors with rear remotes.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately convey the recommendation to purchase the hydraulic top link.",
+            "- It should highlight the benefits specifically for tractors with rear remotes.",
+            "- The robot should ensure the recommendation aligns with the tutorial's context.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Identify the man and the tractor in the scene.",
+            "2. [type=perception, frames=[1]] Recognize the caption \"GOOD WORKSTRACTORS.COM\" and understand it is part of the tutorial.",
+            "3. [type=perception, frames=[1]] Confirm the current topic is about tractor adjustments.",
+            "4. [type=navigation, frames=[1]] Position the robot to face the man and the tractor.",
+            "5. [type=communication, frames=[1]] Display a message on the robot’s screen recommending the hydraulic top link.",
+            "6. [type=navigation, frames=[1]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the man and the tractor in the scene. It then verifies the key detail directly from the frames (Confirm the current topic is about tractor adjustments). After verification, it communicates the result clearly (Display a message on the robot’s screen recommending the hydraulic top link).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 6.120000000000001,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/IS_PJHazh24/task01/sub02/motion.bvh",
+            "params_path": "results/momask/IS_PJHazh24/task01/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

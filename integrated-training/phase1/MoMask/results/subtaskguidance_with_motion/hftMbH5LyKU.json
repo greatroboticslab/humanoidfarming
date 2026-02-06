@@ -1,0 +1,668 @@
+{
+  "video_index": "hftMbH5LyKU",
+  "title": "Agri Drone Sprayer Revolutionizing Farming",
+  "url": "https://www.youtube.com/watch?v=hftMbH5LyKU",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Highlights the key features and benefits of the Agri Drone Sprayer in modern agriculture.",
+  "tasks": [
+    {
+      "task": "Demonstrate the capabilities and advantages of the Agri Drone Sprayer in precision spraying.",
+      "start": 4.2,
+      "end": 28.0,
+      "subtasks": [
+        {
+          "text": "Observe the Agri Drone Sprayer described as a \"tech marvel\" and a \"game changer\" in the field of agriculture.",
+          "start": 4.2,
+          "end": 8.6,
+          "segment_ids": [
+            1
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "hftMbH5LyKU/task00_sub00_f00.jpg",
+              "caption": "A drone is flying over a field, with the caption \"Revolutionizing.\"",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "hftMbH5LyKU/task00_sub00_f01.jpg",
+              "caption": "A tractor is spraying crops in a field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "hftMbH5LyKU/task00_sub00_f02.jpg",
+              "caption": "A tractor is spraying crops in a field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video introduces the Agri Drone Sprayer as a revolutionary technology in agriculture, highlighting its advanced capabilities and impact on farming efficiency.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The drone is seen flying over a field, with the caption \"Revolutionizing.\"",
+            "- [frames=[1,2]] Tractors are shown spraying crops in a field, serving as a comparison to traditional methods.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene contrasts the current agricultural practices, represented by tractors, with the innovative approach of the Agri Drone Sprayer. The drone's flight path and the detailed spraying by the tractors emphasize the differences in efficiency and precision.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The drone must be fully charged and ready for operation.",
+            "- The drone’s spraying system should be calibrated and functional.",
+            "- The drone’s navigation system needs to be set up for the specific field layout.",
+            "- Weather conditions should be suitable for drone operation.",
+            "- The drone’s payload capacity should match the required pesticide or fertilizer load.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The drone successfully completes the spraying mission without any technical issues.",
+            "- The sprayed area matches the intended coverage.",
+            "- The drone returns to the starting point without deviation.",
+            "- The drone lands safely and is in good condition for future use.",
+            "- The sprayed area shows uniform coverage, indicating effective application.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Navigate the drone to the starting point of the field.",
+            "2. [type=perception, frames=[0]] Verify the drone’s position using GPS coordinates.",
+            "3. [type=navigation, frames=[1,2]] Fly the drone over the field while checking the spraying pattern.",
+            "4. [type=manipulation, frames=[1,2]] Adjust the spraying system settings based on the observed field conditions.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate the drone to the starting point of the field. It then verifies the key detail directly from the frames (Verify the drone’s position using GPS coordinates).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate the drone to the starting point of the field; Fly the drone over the field while checking the spraying pattern; Adjust the spraying system settings based on the observed field conditions; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 4.3999999999999995,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/hftMbH5LyKU/task00/sub00/motion.bvh",
+            "params_path": "results/momask/hftMbH5LyKU/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Note that the drone is capable of spray-painting crops with pesticides and fertilizers.",
+          "start": 11.3,
+          "end": 15.0,
+          "segment_ids": [
+            3
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f00.jpg",
+              "relative_path": "hftMbH5LyKU/task00_sub01_f00.jpg",
+              "caption": "A tractor is driving across a field, with the caption \"They're programmed.\"",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "hftMbH5LyKU/task00_sub01_f01.jpg",
+              "caption": "A tractor is spraying pesticides on a field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "hftMbH5LyKU/task00_sub01_f02.jpg",
+              "caption": "A drone is flying over a lush green field, with the caption \"crops, ensuring every.\"",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The drone is shown performing its task of spraying pesticides over crops, highlighting its precision and efficiency compared to traditional methods like tractors.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The tractor is seen driving across a field, with the caption \"They're programmed.\"",
+            "- [frames=[1]] The tractor is spraying pesticides on a field, indicating the current method used by farmers.",
+            "- [frames=[2]] A drone is flying over a lush green field, with the caption \"crops, ensuring every.\"",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from a tractor spraying pesticides to a drone performing the same task but with greater precision. This shift showcases how modern technology can enhance agricultural practices, making them more efficient and targeted.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The drone must be fully charged and ready for operation.",
+            "- The drone's spray system must be properly calibrated and filled with the appropriate pesticide or fertilizer.",
+            "- The drone's navigation system must be set up to follow the desired flight path over the crops.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The drone successfully sprays the entire field without any leaks or malfunctions.",
+            "- The spray pattern is uniform and covers all areas of the crops.",
+            "- The drone returns to its starting point without any issues.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the starting point of the field.",
+            "2. [type=perception, frames=[2]] Confirm the crop coverage area using onboard cameras.",
+            "3. [type=manipulation, frames=[2]] Deploy the spray system and ensure it is primed for operation.",
+            "4. [type=navigation, frames=[2]] Begin flying over the field following the pre-programmed route.",
+            "5. [type=manipulation, frames=[2]] Start spraying the pesticide/fertilizer while maintaining a steady.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the starting point of the field. It then verifies the key detail directly from the frames (Confirm the crop coverage area using onboard cameras).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the starting point of the field; Begin flying over the field following the pre-programmed route; Start spraying the pesticide/fertilizer while maintaining a steady; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.6999999999999993,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/hftMbH5LyKU/task00/sub01/motion.bvh",
+            "params_path": "results/momask/hftMbH5LyKU/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Highlight how the drone ensures every inch of the field is covered with precision.",
+          "start": 15.0,
+          "end": 18.0,
+          "segment_ids": [
+            4
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub02_f01.jpg",
+              "relative_path": "hftMbH5LyKU/task00_sub02_f01.jpg",
+              "caption": "A drone is spraying a field, covering an inch of the field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub02_f02.jpg",
+              "relative_path": "hftMbH5LyKU/task00_sub02_f02.jpg",
+              "caption": "A drone is flying over a green field with the text \"With pinpoint\" overlaid.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The drone ensures every inch of the field is covered with precision, highlighting its capability to perform accurate spraying.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] The drone is spraying a small section of the field, indicating it is capable of precise application.",
+            "- [frames=[2]] The drone is flying over a green field with the text \"With pinpoint\" overlaid, emphasizing the precision aspect.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a drone performing a spraying task over a field, with the drone's movements and the text overlay reinforcing the concept of precision.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The drone is equipped with a spraying mechanism.",
+            "- The drone has a pre-programmed flight path for the field.",
+            "- The drone is charged and ready for operation.",
+            "- The spraying solution is loaded into the drone’s tank.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The drone covers the entire field without missing any areas.",
+            "- The spraying is done with minimal overlap.",
+            "- The drone maintains a consistent height and speed during the operation.",
+            "- The spraying pattern matches the intended coverage area.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1,2]] Inspect/verify the scene before any physical action.",
+            "2. [type=navigation, frames=[1]] Navigate the drone to the starting point of the field.",
+            "3. [type=manipulation, frames=[1]] Deploy the spraying mechanism.",
+            "4. [type=navigation, frames=[1]] Begin moving the drone along the programmed path.",
+            "5. [type=perception, frames=[1]] Monitor the spraying pattern to ensure even coverage.",
+            "6. [type=manipulation, frames=[1]] Adjust the drone’s position if necessary to avoid missed areas.",
+            "7. [type=manipulation, frames=[2]] Continue spraying until the entire field is covered.",
+            "8. [type=navigation, frames=[2]] Fly the drone back to the starting point.",
+            "9. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Inspect/verify the scene before any physical action. It then verifies the key detail directly from the frames (Inspect/verify the scene before any physical action).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate the drone to the starting point of the field; Deploy the spraying mechanism; Begin moving the drone along the programmed path; Adjust the drone’s position if necessary to avoid missed areas; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/hftMbH5LyKU/task00/sub02/motion.bvh",
+            "params_path": "results/momask/hftMbH5LyKU/task00/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Watch the drone achieve pinpoint accuracy, reducing waste and increasing efficiency.",
+          "start": 18.0,
+          "end": 22.2,
+          "segment_ids": [
+            5
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub03_f01.jpg",
+              "relative_path": "hftMbH5LyKU/task00_sub03_f01.jpg",
+              "caption": "The video frame shows a green field with text overlaid saying \"accuracy, they reduce.\"",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub03_f02.jpg",
+              "relative_path": "hftMbH5LyKU/task00_sub03_f02.jpg",
+              "caption": "Efficiency is a win-win for both farmers and the environment.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The drone demonstrates its precision by achieving pinpoint accuracy, thereby reducing waste and increasing efficiency on the farm.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] The video frame shows a green field with text overlaid saying \"accuracy, they reduce.\"",
+            "- [frames=[2]] The caption reads \"Efficiency is a win-win for both farmers and the environment.\"",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a drone performing a task over a green field, emphasizing the reduction of waste and increase in efficiency. The text overlay highlights the key message of accuracy and reduced waste.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The drone is pre-programmed with the correct flight path.",
+            "- The drone is equipped with sensors for accurate navigation.",
+            "- The drone has sufficient battery life for the demonstration.",
+            "- The drone is loaded with the appropriate amount of spray solution.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The drone successfully completes the spraying task without deviation.",
+            "- The drone maintains a consistent and precise path over the field.",
+            "- The drone uses minimal spray solution, demonstrating reduced waste.",
+            "- The drone achieves the desired coverage without overspraying.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1,2]] Inspect/verify the scene before any physical action.",
+            "2. [type=navigation, frames=[1]] The drone takes off from the starting point.",
+            "3. [type=navigation, frames=[1]] The drone begins to follow the programmed flight path.",
+            "4. [type=manipulation, frames=[2]] The drone starts to release the spray solution.",
+            "5. [type=perception, frames=[2]] The drone checks the spray pattern to ensure it is accurate.",
+            "6. [type=navigation, frames=[2]] The drone adjusts its path if necessary to maintain accuracy.",
+            "7. [type=manipulation, frames=[2]] The drone continues to release the spray solution.",
+            "8. [type=perception, frames=[2]] The drone measures.",
+            "9. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Inspect/verify the scene before any physical action. It then verifies the key detail directly from the frames (Inspect/verify the scene before any physical action).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: The drone takes off from the starting point; The drone begins to follow the programmed flight path; The drone adjusts its path if necessary to maintain accuracy; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 4.199999999999999,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/hftMbH5LyKU/task00/sub03/motion.bvh",
+            "params_path": "results/momask/hftMbH5LyKU/task00/sub03/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Observe that the drone works effectively on any terrain and large fields.",
+          "start": 25.0,
+          "end": 28.0,
+          "segment_ids": [
+            7
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub04_f00.jpg",
+              "relative_path": "hftMbH5LyKU/task00_sub04_f00.jpg",
+              "caption": "A tractor drives over a field, with the caption \"No terrain is too.\"",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub04_f01.jpg",
+              "relative_path": "hftMbH5LyKU/task00_sub04_f01.jpg",
+              "caption": "A tractor is driving through a field, with the caption \"tough, no field too vast.\"",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub04_f02.jpg",
+              "relative_path": "hftMbH5LyKU/task00_sub04_f02.jpg",
+              "caption": "An orange agricultural drone is spraying crops in a field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The drone demonstrates its ability to operate effectively across various terrains and large fields, showcasing its versatility and efficiency in agricultural spraying.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] The tractor is shown driving over a field, with captions indicating the drone can handle tough terrains and vast fields.",
+            "- [frame_index=2] An orange agricultural drone is seen spraying crops in a field, emphasizing its capability to work in diverse environments.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from a tractor navigating a challenging field to an agricultural drone performing its task. This illustrates the drone's adaptability and effectiveness in different scenarios, highlighting its precision and coverage.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The drone must be equipped with appropriate sensors and spraying mechanisms.",
+            "- The drone should be pre-programmed with the necessary flight paths and spraying patterns.",
+            "- The drone needs to be charged or fueled sufficiently for the operation.",
+            "- The drone must be within the operational range of the ground control station.",
+            "- The weather conditions should be suitable for outdoor operations.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The drone successfully navigates the field without obstacles.",
+            "- The drone sprays the crops evenly and efficiently.",
+            "- The drone maintains stable flight throughout the operation.",
+            "- The drone covers the entire field as intended.",
+            "- The drone lands safely and returns to the starting point.",
+            "- The spraying pattern matches the pre-programmed path.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate the drone to the starting point of the field.",
+            "2. [type=perception, frames=[2]] Verify the spraying pattern and adjust if necessary.",
+            "3. [type=navigation, frames=[2]] Begin moving the drone across the field.",
+            "4. [type=manipulation, frames=[2]] Start the spraying mechanism.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate the drone to the starting point of the field. It then verifies the key detail directly from the frames (Verify the spraying pattern and adjust if necessary).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate the drone to the starting point of the field; Begin moving the drone across the field; Start the spraying mechanism; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/hftMbH5LyKU/task00/sub04/motion.bvh",
+            "params_path": "results/momask/hftMbH5LyKU/task00/sub04/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Show how the Agri Drone Sprayer sets new standards in modern farming.",
+      "start": 32.2,
+      "end": 52.2,
+      "subtasks": [
+        {
+          "text": "Note the mention of various crop types including \"patty fields to corn mazes.\"",
+          "start": 35.7,
+          "end": 41.7,
+          "segment_ids": [
+            10
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "hftMbH5LyKU/task01_sub00_f00.jpg",
+              "caption": "The video shows a tractor in a large field.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "hftMbH5LyKU/task01_sub00_f01.jpg",
+              "caption": "A drone sprayer is spraying crops in a green field with trees in the background.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "hftMbH5LyKU/task01_sub00_f02.jpg",
+              "caption": "The video frame shows a tractor in a field with trees in autumn colors.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment highlights the versatility of the Agri Drone Sprayer by showing it operating in different crop types, including patty fields and corn mazes.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The scene starts with a tractor in a large field, indicating the initial setting.",
+            "- [frames=[1]] A drone sprayer is seen spraying crops in a green field with trees in the background, showcasing its operation.",
+            "- [frames=[2]] The video then shifts to a tractor in a field with trees in autumn colors, suggesting a change in season or location.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The drone sprayer is shown in diverse agricultural settings, emphasizing its adaptability to various crop types and environments. This versatility is crucial for modern farming practices, where different crops require specific spraying techniques and conditions.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The drone sprayer must be fully charged and ready for operation.",
+            "- The drone sprayer should have the correct spray nozzles and chemicals for the current crop type.",
+            "- The drone's navigation system needs to be calibrated for the specific field layout.",
+            "- Weather conditions should be suitable for drone operation, with no strong winds or rain.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The drone sprayer successfully completes the spraying task without any malfunctions.",
+            "- The sprayed area matches the intended crop type.",
+            "- The drone returns to its base station safely after completing the task.",
+            "- The drone's battery level remains sufficient throughout the operation.",
+            "- The sprayed crops show uniform coverage without over-spraying or under-spraying.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate the drone sprayer to the starting point of the field.",
+            "2. [type=perception, frames=[1]] Verify the crop type by analyzing the field using onboard sensors.",
+            "3. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate the drone sprayer to the starting point of the field. It then verifies the key detail directly from the frames (Verify the crop type by analyzing the field using onboard sensors).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate the drone sprayer to the starting point of the field; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 6.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/hftMbH5LyKU/task01/sub00/motion.bvh",
+            "params_path": "results/momask/hftMbH5LyKU/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Observe the emphasis on embracing the use of technology in agriculture.",
+          "start": 32.2,
+          "end": 35.7,
+          "segment_ids": [
+            9
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f00.jpg",
+              "relative_path": "hftMbH5LyKU/task01_sub01_f00.jpg",
+              "caption": "A tractor sprays crops in a field, with the caption \"Forget traditional.\"",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "hftMbH5LyKU/task01_sub01_f01.jpg",
+              "caption": "A vast field with rows of crops, with text overlaid saying \"methods, this is the.\"",
+              "frame_index": 1
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene emphasizes the shift towards modern agricultural practices by showcasing advanced technology like the Agri Drone Sprayer, contrasting it with traditional methods.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A tractor is seen spraying crops in a field, with the caption \"Forget traditional.\"",
+            "- [frames=[1]] A vast field with rows of crops is shown, with text overlaid saying \"methods, this is the.\"",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The video contrasts traditional farming methods, represented by a tractor, with modern technology, symbolized by the Agri Drone Sprayer. This highlights the transition towards more efficient and technologically advanced agricultural practices.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the current scene and the contrast being made.",
+            "- It needs to recognize the presence of a tractor and a drone.",
+            "- The robot should understand the context of traditional versus modern farming methods.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the traditional method (tractor) and the modern method (drone).",
+            "- It should understand the message conveyed by the text overlay.",
+            "- The robot should be able to explain the significance of the Agri Drone Sprayer in modern farming.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Identify the tractor and the drone in the field.",
+            "2. [type=perception, frames=[0,1]] Recognize the text overlay and understand its message.",
+            "3. [type=manipulation, frames=[0,1]] Point to the tractor and the drone to highlight the contrast.",
+            "4. [type=communication, frames=[0,1]] Explain the significance of the Agri Drone Sprayer in modern farming.",
+            "5. [type=manipulation, frames=[0,1]] Demonstrate the drone's operation if possible.",
+            "6. [type=perception, frames=[0,1]] Verify/confirm the key observation before reporting.",
+            "7. [type=navigation, frames=[0,1]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the tractor and the drone in the field. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Point to the tractor and the drone to highlight the contrast; Demonstrate the drone's operation if possible; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.5,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/hftMbH5LyKU/task01/sub01/motion.bvh",
+            "params_path": "results/momask/hftMbH5LyKU/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Highlight the statement that the Agri Drone Sprayer represents a change for the better.",
+          "start": 49.7,
+          "end": 52.2,
+          "segment_ids": [
+            13
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub02_f00.jpg",
+              "relative_path": "hftMbH5LyKU/task01_sub02_f00.jpg",
+              "caption": "A tractor is spraying a field.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub02_f01.jpg",
+              "relative_path": "hftMbH5LyKU/task01_sub02_f01.jpg",
+              "caption": "A tractor is spraying a field, with the caption \"change for the better.\"",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub02_f02.jpg",
+              "relative_path": "hftMbH5LyKU/task01_sub02_f02.jpg",
+              "caption": "A vast agricultural field with a tractor visible in the distance.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene shifts to highlight the concept of progress in agriculture, emphasizing the Agri Drone Sprayer as an improvement over traditional methods.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A tractor is shown spraying a field, setting the context for traditional farming methods.",
+            "- [frames=[1]] The same tractor is depicted, but with the caption \"change for the better,\" indicating a shift in perspective.",
+            "- [frames=[2]] A wide shot of a vast agricultural field with a distant tractor, providing context for the scale of modern farming.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The video transitions from showing a tractor in action to emphasizing the concept of progress, using the caption to guide the viewer's understanding of the Agri Drone Sprayer's superiority.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the current scene and the need to highlight the concept of progress.",
+            "- It should have access to the caption \"change for the better\" to understand the message.",
+            "- The robot needs to be able to navigate to the relevant frames and perform actions accordingly.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately display the tractor in action.",
+            "- It should correctly overlay the caption \"change for the better\" on the relevant frame.",
+            "- The robot should ensure the final wide shot conveys the scale and modernity of the Agri Drone Sprayer.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Navigate to the first frame where the tractor is shown spraying the field.",
+            "2. [type=perception, frames=[0]] Verify the presence of the tractor and the field.",
+            "3. [type=navigation, frames=[1]] Move to the second frame where the caption \"change for the better\" appears.",
+            "4. [type=manipulation, frames=[1]] Overlay the caption \"change for the better\".",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the first frame where the tractor is shown spraying the field. It then verifies the key detail directly from the frames (Verify the presence of the tractor and the field).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the first frame where the tractor is shown spraying the field; Move to the second frame where the caption \"change for the better\" appears; Overlay the caption \"change for the better\"; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/hftMbH5LyKU/task01/sub02/motion.bvh",
+            "params_path": "results/momask/hftMbH5LyKU/task01/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

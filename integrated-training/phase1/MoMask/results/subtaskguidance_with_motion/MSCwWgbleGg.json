@@ -1,0 +1,499 @@
+{
+  "video_index": "MSCwWgbleGg",
+  "title": "Drainage Water Recycling for Crop Resilience Under Climate Change",
+  "url": "https://www.youtube.com/watch?v=MSCwWgbleGg",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "The video describes a recent agricultural practice of drainage water recycling which explains an innovative approach to managing water resources.",
+  "tasks": [
+    {
+      "task": "Describe the traditional drainage method and its primary objective.",
+      "start": 0.0,
+      "end": 4.76,
+      "subtasks": [
+        {
+          "text": "Historically, drainage was seen as quickly removing water to improve crops' productivity.",
+          "start": 0.0,
+          "end": 4.76,
+          "segment_ids": [
+            0
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "MSCwWgbleGg/task00_sub00_f00.jpg",
+              "caption": "An excavator is digging a trench with a metal box and two pipes.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "MSCwWgbleGg/task00_sub00_f01.jpg",
+              "caption": "A man in a field is pointing to his watch.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "MSCwWgbleGg/task00_sub00_f02.jpg",
+              "caption": "A man in a black polo shirt with the word \"ISG\" on it is wearing sunglasses.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Historically, drainage methods were focused on swiftly removing excess water from fields to enhance crop productivity. This subtask describes the initial setup and preparation for such a drainage system.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] An excavator is digging a trench with a metal box and two pipes, indicating the start of a drainage system installation.",
+            "- [frames=[1]] A man in a field is pointing to his watch, possibly indicating a time-sensitive task or a countdown.",
+            "- [frames=[2]] A man in a black polo shirt with the word \"ISG\" on it is wearing sunglasses, likely a project manager or supervisor overseeing the work.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts the beginning of a drainage system installation, where an excavator is preparing trenches and laying down pipes. The presence of a supervisor suggests that the operation is being closely monitored and managed.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with excavation tools.",
+            "- The robot needs to have the ability to operate heavy machinery like an excavator.",
+            "- The robot must be able to communicate with the supervisor for any necessary adjustments.",
+            "- The robot should have the capability to measure and verify the depth and alignment of the trench.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The trench should be dug to the correct depth and width.",
+            "- The pipes should be correctly placed within the trench.",
+            "- The trench should be free of obstructions and properly aligned.",
+            "- The supervisor should confirm the quality of the trench and pipe placement.",
+            "- The robot should ensure that all measurements meet the specified standards.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1,2]] Inspect/verify the scene before any physical action.",
+            "2. [type=navigation, frames=[0]] Navigate to the location where the trench is being dug.",
+            "3. [type=manipulation, frames=[0]] Operate the excavator to dig the trench to the required depth and width.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Inspect/verify the scene before any physical action. It then verifies the key detail directly from the frames (Inspect/verify the scene before any physical action).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the location where the trench is being dug; Operate the excavator to dig the trench to the required depth and width; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 4.76,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/MSCwWgbleGg/task00/sub00/motion.bvh",
+            "params_path": "results/momask/MSCwWgbleGg/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Explain the new approach to drainage and how it addresses modern climate challenges.",
+      "start": 4.76,
+      "end": 33.72,
+      "subtasks": [
+        {
+          "text": "In recent times, we're dealing with wet springs and drier summers, causing crop stress.",
+          "start": 4.76,
+          "end": 11.36,
+          "segment_ids": [
+            1,
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "MSCwWgbleGg/task01_sub00_f01.jpg",
+              "caption": "A person is operating a Case excavator on a construction site.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "MSCwWgbleGg/task01_sub00_f02.jpg",
+              "caption": "A construction worker is operating an excavator bucket, pouring gravel into a trench.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment describes the challenges of wet springs and drier summers affecting crops, setting the stage for explaining a new drainage approach.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A person is operating a Case excavator on a construction site.",
+            "- [frames=[2]] A construction worker is operating an excavator bucket, pouring gravel into a trench.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts construction activities, likely related to preparing a site for improved drainage. The excavator is being used to move materials, possibly to create a drainage system.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with construction equipment operation.",
+            "- The robot needs to understand the context of drainage systems and their importance in agriculture.",
+            "- The robot must know the specific tasks required for creating a drainage system, such as digging trenches and placing materials.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Correctly identifying the type of construction equipment needed.",
+            "- Accurately measuring and marking the area for the drainage system.",
+            "- Properly operating the excavator to dig trenches.",
+            "- Ensuring the correct placement of materials like gravel.",
+            "- Verifying the depth and width of the trenches meet specifications.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2]] Move to the construction site where the excavator is located.",
+            "2. [type=perception, frames=[1]] Observe the excavator and its current position.",
+            "3. [type=navigation, frames=[1,2]] Approach the excavator and prepare to operate it.",
+            "4. [type=manipulation, frames=[2]] Operate the excavator bucket to dig a trench.",
+            "5. [type=manipulation, frames=[2]] Pour gravel into the trench using the excavator bucket.",
+            "6. [type=perception, frames=[2]] Verify the depth and width of the trench.",
+            "7. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to the construction site where the excavator is located. It then verifies the key detail directly from the frames (Verify the depth and width of the trench).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move to the construction site where the excavator is located; Approach the excavator and prepare to operate it; Operate the excavator bucket to dig a trench; Pour gravel into the trench using the excavator bucket; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 6.6,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/MSCwWgbleGg/task01/sub00/motion.bvh",
+            "params_path": "results/momask/MSCwWgbleGg/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Describe the new practice of capturing and storing rainfall water for later use.",
+          "start": 25.08,
+          "end": 33.72,
+          "segment_ids": [
+            6,
+            7
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f00.jpg",
+              "relative_path": "MSCwWgbleGg/task01_sub01_f00.jpg",
+              "caption": "A man stands in a field with a lake in the background.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "MSCwWgbleGg/task01_sub01_f01.jpg",
+              "caption": "A construction site with a large excavator and a road being built.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "MSCwWgbleGg/task01_sub01_f02.jpg",
+              "caption": "A reservoir construction site with machinery and a large reservoir in the background.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will describe the new practice of capturing and storing rainfall water for later use, which is part of a broader approach to drainage and crop resilience under climate change.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A man stands in a field with a lake in the background, indicating an agricultural setting.",
+            "- [frames=[1]] A construction site with a large excavator and a road being built suggests ongoing infrastructure development.",
+            "- [frames=[2]] A reservoir construction site with machinery and a large reservoir in the background shows the process of building a water storage facility.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from a natural landscape with a lake to a construction site where infrastructure is being developed, culminating in the construction of a reservoir. This indicates the integration of modern engineering practices with traditional agricultural methods to enhance water management.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the concept of water conservation and storage.",
+            "- It needs to understand the context of climate change and its impact on agriculture.",
+            "- The robot should have knowledge about different types of reservoirs and their construction processes.",
+            "- It must be aware of the importance of sustainable water management in agriculture.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately explain the new practice of capturing and storing rainfall water.",
+            "- It must provide clear examples of how this practice addresses modern climate challenges.",
+            "- The explanation should highlight the benefits of this method for crop resilience.",
+            "- The robot should be able to cross-check the information with relevant data or references.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Observe the man standing in the field with a lake to set the context.",
+            "2. [type=perception, frames=[1]] Analyze the construction site with a large excavator to understand ongoing infrastructure development.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Observe the man standing in the field with a lake to set the context. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 8.64,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/MSCwWgbleGg/task01/sub01/motion.bvh",
+            "params_path": "results/momask/MSCwWgbleGg/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Outline the benefits of the new drainage water recycling practice.",
+      "start": 33.72,
+      "end": 48.76,
+      "subtasks": [
+        {
+          "text": "Landowners can use stored water to irrigate crops during dry periods.",
+          "start": 33.72,
+          "end": 42.92,
+          "segment_ids": [
+            8,
+            9
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "MSCwWgbleGg/task02_sub00_f01.jpg",
+              "caption": "A man in a black shirt with the word \"CROP\" on it is talking outdoors.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "MSCwWgbleGg/task02_sub00_f02.jpg",
+              "caption": "A man in a black polo shirt and sunglasses is standing outdoors, with the words \"ON TO THEIR\" overlaid on the image.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Landowners can utilize stored water for irrigation during dry periods, enhancing crop resilience.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A man in a black shirt with \"CROP\" on it is talking outdoors.",
+            "- [frames=[2]] Another man in a black polo shirt and sunglasses is standing outdoors, with \"ON TO THEIR\" overlaid.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts two men discussing agricultural practices, likely explaining the benefits of using stored water for irrigation.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture outdoor scenes.",
+            "- The robot needs to have access to audio processing capabilities to understand spoken content.",
+            "- The robot must be able to navigate to different locations within the field.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the two men and their clothing details.",
+            "- It should recognize the context of discussing agricultural practices.",
+            "- The robot must confirm the mention of stored water being used for irrigation during dry periods.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Capture an image of the man in the black shirt with \"CROP\" on it.",
+            "2. [type=perception, frames=[2]] Capture an image of the man in the black polo shirt and sunglasses.",
+            "3. [type=navigation, frames=[1,2]] Navigate to a location where the men are standing.",
+            "4. [type=perception, frames=[1,2]] Confirm the discussion topic by verifying the mention of stored water for irrigation.",
+            "5. [type=navigation, frames=[1,2]] Move to a position where the robot can clearly see both men.",
+            "6. [type=perception, frames=[1,2]] Verify the context of the conversation by cross-checking the clothing details.",
+            "7. [type=navigation, frames=[1,2]] Position.",
+            "8. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture an image of the man in the black shirt with \"CROP\" on it. It then verifies the key detail directly from the frames (Confirm the discussion topic by verifying the mention of stored water for irrigation).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to a location where the men are standing; Move to a position where the robot can clearly see both men; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 9.200000000000003,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/MSCwWgbleGg/task02/sub00/motion.bvh",
+            "params_path": "results/momask/MSCwWgbleGg/task02/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Highlight the positive impact this practice has on agricultural productivity.",
+          "start": 42.92,
+          "end": 44.12,
+          "segment_ids": [
+            10
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub01_f01.jpg",
+              "relative_path": "MSCwWgbleGg/task02_sub01_f01.jpg",
+              "caption": "A man in a black shirt is talking outdoors.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub01_f02.jpg",
+              "relative_path": "MSCwWgbleGg/task02_sub01_f02.jpg",
+              "caption": "A man in a black polo shirt with a \"ISG\" logo on it is standing outdoors, wearing sunglasses and a watch.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should highlight the positive impact of the new drainage water recycling practice on agricultural productivity by observing the speaker and understanding the context of the discussion.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] The man in a black shirt is talking outdoors, likely providing an overview of the topic.",
+            "- [frames=[2]] The man in a black polo shirt with an ISG logo is standing outdoors, possibly elaborating on the benefits of the practice.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows two men outdoors, one providing an introduction and the other elaborating on the benefits of the drainage water recycling practice. The context suggests that the man in the black polo shirt is the main speaker discussing the positive impacts on agricultural productivity.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot needs to be in a position to observe both speakers.",
+            "- The robot should have access to information about the drainage water recycling practice.",
+            "- The robot must be able to understand and interpret the spoken words of the speakers.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the positive impacts of the practice.",
+            "- The robot should convey these impacts clearly and concisely.",
+            "- The robot should ensure that the information aligns with the context provided by the speakers.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1,2]] Listen to the speakers and identify the key points about the benefits of the practice.",
+            "2. [type=perception, frames=[1,2]] Verify the identified points by cross-checking with known information about the practice.",
+            "3. [type=navigation, frames=[1,2]] Move to a position where the robot can face the camera and present the information.",
+            "4. [type=communication, frames=[1,2]] Use a display screen to show relevant images or data supporting the benefits discussed.",
+            "5. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Listen to the speakers and identify the key points about the benefits of the practice. It then verifies the key detail directly from the frames (Verify the identified points by cross-checking with known information about the practice).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 3.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/MSCwWgbleGg/task02/sub01/motion.bvh",
+            "params_path": "results/momask/MSCwWgbleGg/task02/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Conclude by noting the growing popularity of this new drainage method.",
+          "start": 44.12,
+          "end": 48.76,
+          "segment_ids": [
+            11
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub02_f01.jpg",
+              "relative_path": "MSCwWgbleGg/task02_sub02_f01.jpg",
+              "caption": "A man in a black polo shirt is talking outdoors, with the words \"NEW TYPE\" overlaid on the image.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub02_f02.jpg",
+              "relative_path": "MSCwWgbleGg/task02_sub02_f02.jpg",
+              "caption": "A vast, dry field with a lush green riverbank in the foreground.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should conclude the video by noting the growing popularity of the new drainage method, reinforcing its importance through visual cues and spoken confirmation.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A man in a black polo shirt is talking outdoors, with the words \"NEW TYPE\" overlaid on the image.",
+            "- [frames=[1]] A vast, dry field with a lush green riverbank in the foreground.",
+            "- [frames=[1,2]] The scene transitions from an outdoor setting to a natural landscape, emphasizing the environmental impact of the new drainage method.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The video shifts focus from a person explaining the new drainage method to a broader landscape, highlighting the positive outcomes of adopting this technique. The lush greenery near the riverbank contrasts with the dry field, symbolizing improved crop resilience.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot has already provided detailed information about the benefits of the new drainage method.",
+            "- The robot is equipped with a camera to capture the current scene.",
+            "- The robot has access to a microphone to deliver the final statement.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot accurately identifies the end of the explanation.",
+            "- The robot correctly notes the growing popularity of the new drainage method.",
+            "- The robot delivers the conclusion in a clear and concise manner.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Focuses on the man speaking, confirming his presence.",
+            "2. [type=perception, frames=[1]] Read the overlay text \"NEW TYPE\" to verify the context.",
+            "3. [type=navigation, frames=[1]] Shifts its view to the vast, dry field and the lush green riverbank.",
+            "4. [type=communication, frames=[1,2]] States, \"This new drainage method is gaining widespread acceptance.\".",
+            "5. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Focuses on the man speaking, confirming his presence. It then verifies the key detail directly from the frames (Read the overlay text \"NEW TYPE\" to verify the context). After verification, it communicates the result clearly (States, \"This new drainage method is gaining widespread acceptance.\").",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Focuses on the man speaking, confirming his presence; Shifts its view to the vast, dry field and the lush green riverbank; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 4.640000000000001,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/MSCwWgbleGg/task02/sub02/motion.bvh",
+            "params_path": "results/momask/MSCwWgbleGg/task02/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,639 @@
+{
+  "video_index": "xNfFKjLskzs",
+  "title": "No-Till Farming with Plastic Fabrics",
+  "url": "https://www.youtube.com/watch?v=xNfFKjLskzs",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Explains the concept of no-till farming and innovative techniques to control weeds for organic farmers.",
+  "tasks": [
+    {
+      "task": "Describe the no-till farming technique for organic farmers.",
+      "start": 312.1,
+      "end": 387.18,
+      "subtasks": [
+        {
+          "text": "Explain the initial step of establishing a cover crop using diverse seeds like cowpeas, forage radish, black mustard, oats, and buckwheat, allowing it to grow vigorously.",
+          "start": 312.1,
+          "end": 349.3,
+          "segment_ids": [
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "xNfFKjLskzs/task00_sub00_f00.jpg",
+              "caption": "The video shows a garden with rows of green plants and a rolling and crimping process.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "xNfFKjLskzs/task00_sub00_f01.jpg",
+              "caption": "A lush garden with various plants and a Think Tech Hawaii logo.",
+              "frame_index": 1
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The initial step involves establishing a cover crop using diverse seeds, which will grow vigorously. This is part of the no-till farming technique described in the video.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The video shows a garden with rows of green plants undergoing a rolling and crimping process.",
+            "- [frames=[1]] A lush garden with various plants is visible, along with a Think Tech Hawaii logo.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a garden where multiple cover crops are growing, indicating the early stages of no-till farming. The presence of diverse seeds such as cowpeas, forage radish, black mustard, oats, and buckwheat suggests a deliberate choice for soil health and weed suppression.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with sensors to identify different plant species.",
+            "- The robot needs to have the capability to roll and crimp the soil.",
+            "- The robot must be able to navigate through the garden without damaging the existing plants.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The cover crop should be established using the specified seeds.",
+            "- The plants should be allowed to grow vigorously.",
+            "- The garden should show signs of improved soil health and reduced weed growth.",
+            "",
+            "ORDERED_RO (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 37.19999999999999,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/xNfFKjLskzs/task00/sub00/motion.bvh",
+            "params_path": "results/momask/xNfFKjLskzs/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Describe the process of crushing the cover crop with a roller before covering with plastic.",
+          "start": 361.46,
+          "end": 387.18,
+          "segment_ids": [
+            101,
+            102,
+            103,
+            104,
+            105,
+            106
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f00.jpg",
+              "relative_path": "xNfFKjLskzs/task00_sub01_f00.jpg",
+              "caption": "A man is using a tool to tend to plants in a garden.",
+              "frame_index": 0
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask involves showing how to crush a cover crop with a roller and then cover it with plastic fabric, a key step in no-till farming.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A man is seen using a roller to crush a cover crop in a field.",
+            "- [frames=[0]] The cover crop appears to be a mix of various plant species.",
+            "- [frames=[0]] The roller is a heavy, cylindrical device with spikes or teeth.",
+            "- [frames=[0]] After rolling, the crushed cover crop is visible on the ground.",
+            "- [frames=[0]] The field is relatively flat, suitable for rolling operations.",
+            "- [frames=[0]] The man is wearing protective gear, including gloves and safety glasses.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a farmer performing the crucial step of crushing a cover crop with a roller, which helps in breaking down the biomass and preparing the soil surface for plastic coverage. This process is essential for no-till farming as it reduces soil disturbance and enhances organic matter retention.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot must have access to a roller attachment.",
+            "- The robot should be capable of navigating through the field.",
+            "- The robot needs to be able (completed).",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- (auto-filled) Robot completes the subtask and reports outcomes.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 25.720000000000027,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/xNfFKjLskzs/task00/sub01/motion.bvh",
+            "params_path": "results/momask/xNfFKjLskzs/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Describe the use of durable woven plastic fabrics for weed control.",
+      "start": 420.66,
+      "end": 500.82,
+      "subtasks": [
+        {
+          "text": "Explain the use of plastic fabrics to cover the soil and kill weeds by blocking light for one week.",
+          "start": 420.66,
+          "end": 446.26,
+          "segment_ids": [
+            116,
+            117,
+            118,
+            119,
+            120,
+            121,
+            122,
+            123
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "xNfFKjLskzs/task01_sub00_f00.jpg",
+              "caption": "The video shows a garden with plants and a black tarp.",
+              "frame_index": 0
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will explain how durable woven plastic fabrics can be used to cover the soil and effectively kill weeds by blocking light for one week.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A garden scene is shown with various plants growing.",
+            "- [frames=[0]] A large black tarp is laid over the soil, covering most of the plants.",
+            "- [frames=[0]] The tarp is secured at the edges, preventing it from moving.",
+            "- [frames=[0]] The soil beneath the tarp remains visible, but the plants are partially covered.",
+            "- [frames=[0]] The tarp is clearly visible, with its smooth surface reflecting sunlight.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a garden where a black tarp is being used to cover the soil and plants. This method is intended to block sunlight, thereby inhibiting weed growth for an extended period.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have knowledge about no-till farming techniques.",
+            "- The robot must understand the concept of using plastic fabrics for weed control.",
+            "- The robot needs to be aware of the duration required for the fabric to be effective (one week).",
+            "- The robot should know how to describe the process in a clear and concise",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- (auto-filled) Robot completes the subtask and reports outcomes.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 25.599999999999966,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/xNfFKjLskzs/task01/sub00/motion.bvh",
+            "params_path": "results/momask/xNfFKjLskzs/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Describe the process of planting crops after covering the soil with the fabric.",
+          "start": 482.9,
+          "end": 500.82,
+          "segment_ids": [
+            137,
+            138,
+            139,
+            140,
+            141,
+            142
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f00.jpg",
+              "relative_path": "xNfFKjLskzs/task01_sub01_f00.jpg",
+              "caption": "A garden bed with weeds and a hose is shown.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "xNfFKjLskzs/task01_sub01_f01.jpg",
+              "caption": "A field of young corn plants is growing in a garden.",
+              "frame_index": 1
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will demonstrate how to plant crops after covering the soil with durable woven plastic fabrics, ensuring proper weed control.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A garden bed with visible weeds and a hose is present.",
+            "- [frames=[0]] The soil appears to be prepared and ready for planting.",
+            "- [frames=[1]] Young corn plants are growing in a garden, indicating successful planting after fabric application.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a transition from a weedy garden bed to a well-established crop field, highlighting the effectiveness of using plastic fabrics for weed suppression.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot must have knowledge of the location of the garden bed.",
+            "- It should be aware of the presence of the plastic fabric and the young corn plants.",
+            "- The robot needs to understand the concept of planting and the appropriate spacing for the crops.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should ensure the fabric is properly covered with soil.",
+            "- Corn plants should be planted at the correct depth and spacing.",
+            "- The area around the plants should be free of weeds.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Move to the garden bed where the.",
+            "2. [type=perception, frames=[0,1]] Verify/confirm the key observation before reporting.",
+            "3. [type=perception, frames=[0,1]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[0,1]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to the garden bed where the. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move to the garden bed where the; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 17.920000000000016,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/xNfFKjLskzs/task01/sub01/motion.bvh",
+            "params_path": "results/momask/xNfFKjLskzs/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Describe additional benefits and applications of the technique.",
+      "start": 727.94,
+      "end": 1427.7,
+      "subtasks": [
+        {
+          "text": "Explain the advantages of the technique for moderate scale farmers and home gardeners.",
+          "start": 727.94,
+          "end": 753.3,
+          "segment_ids": [
+            209,
+            210,
+            211,
+            212,
+            213,
+            214
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f00.jpg",
+              "relative_path": "xNfFKjLskzs/task02_sub00_f00.jpg",
+              "caption": "A field of young corn plants with some dry grass and a plastic sheet.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "xNfFKjLskzs/task02_sub00_f01.jpg",
+              "caption": "A field of young corn plants is shown, with a watermark from Think Tech Hawaii.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "xNfFKjLskzs/task02_sub00_f02.jpg",
+              "caption": "A man in a newsroom with a world map behind him, and a TV screen showing another man.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task02_sub00_f04.jpg",
+              "relative_path": "xNfFKjLskzs/task02_sub00_f04.jpg",
+              "caption": "A man in a Hawaiian shirt is standing in front of a world map.",
+              "frame_index": 4
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should explain the benefits of using plastic fabrics in no-till farming for both moderate-scale farmers and home gardeners, focusing on practical advantages such as weed control and soil moisture retention.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] The scene shows a field of young corn plants with a visible plastic sheet covering part of it, indicating the use of plastic fabric in no-till farming.",
+            "- [frame=2] A man in a newsroom is seen discussing the topic, with a world map in the background and a TV screen showing another man, suggesting a broader context of the technique's global relevance.",
+            "- [frame=4] Another man in a Hawaiian shirt stands in front of a world map, possibly providing more details about the technique or its applications.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The video transitions between showing a practical example of no-till farming with plastic fabrics and a newsroom setting where experts discuss the technique’s broader implications. This contrast highlights both the local application and the global significance of the method.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot must be familiar with the concept of no-till farming and the specific benefits of using plastic fabrics.",
+            "- It should have knowledge about the target audience,",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- (auto-filled) Robot completes the subtask and reports outcomes.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2,4]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2,4]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2,4]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2,4]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2,4]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 25.3599999999999,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/xNfFKjLskzs/task02/sub00/motion.bvh",
+            "params_path": "results/momask/xNfFKjLskzs/task02/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Describe the use of the technique for pest management, specifically targeting nematodes.",
+          "start": 1215.62,
+          "end": 1266.42,
+          "segment_ids": [
+            338,
+            339,
+            340,
+            341,
+            342,
+            343,
+            344,
+            345,
+            346,
+            347,
+            348,
+            349
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub01_f00.jpg",
+              "relative_path": "xNfFKjLskzs/task02_sub01_f00.jpg",
+              "caption": "A man in a polo shirt is seen on a television screen with a logo for Think Tech Hawaii.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub01_f01.jpg",
+              "relative_path": "xNfFKjLskzs/task02_sub01_f01.jpg",
+              "caption": "A man in a blue shirt is on a video call with a logo for Think Tech Hawaii in the bottom right corner.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub01_f02.jpg",
+              "relative_path": "xNfFKjLskzs/task02_sub01_f02.jpg",
+              "caption": "A man in a polo shirt is shown on a television screen with the text \"Likable Science Only on ThinkTech Hawaii.\"",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task02_sub01_f03.jpg",
+              "relative_path": "xNfFKjLskzs/task02_sub01_f03.jpg",
+              "caption": "A man in a polo shirt is seen on a television screen with a logo for \"Think Tech Hawaii\" in the bottom right corner.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task02_sub01_f09.jpg",
+              "relative_path": "xNfFKjLskzs/task02_sub01_f09.jpg",
+              "caption": "A man in a polo shirt and sunglasses is on a video call, with a Think Tech Hawaii logo in the bottom right corner.",
+              "frame_index": 9
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should describe how no-till farming with plastic fabrics can be used for pest management, specifically targeting nematodes, based on the video content.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A man in a polo shirt is seen on a television screen with a logo for Think Tech Hawaii.",
+            "- [frames=[2,3]] The same man in a polo shirt is shown on a television screen with the text \"Likable Science Only on ThinkTech Hawaii.\"",
+            "- [frames=[9]] A man in a polo shirt and sunglasses is on a video call, with a Think Tech Hawaii logo in the bottom right corner.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene involves a man discussing no-till farming techniques, specifically focusing on the use of plastic fabrics for pest management, particularly targeting nematodes. The discussion is part of a video series on agricultural practices.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to the video content.",
+            "- The robot should be able to understand and interpret the spoken content.",
+            "- The robot should have knowledge about no-till farming and its applications.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the benefits of using plastic fabrics for pest management.",
+            "- The (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2,3,9]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2,3,9]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2,3,9]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2,3,9]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2,3,9]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 50.80000000000018,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/xNfFKjLskzs/task02/sub01/motion.bvh",
+            "params_path": "results/momask/xNfFKjLskzs/task02/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Discuss the potential for developing new, lightweight fabric technology for the technique.",
+          "start": 1393.14,
+          "end": 1427.7,
+          "segment_ids": [
+            388,
+            389,
+            390,
+            391,
+            392,
+            393,
+            394,
+            395,
+            396,
+            397
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub02_f00.jpg",
+              "relative_path": "xNfFKjLskzs/task02_sub02_f00.jpg",
+              "caption": "A man in a polo shirt is seen on a television screen with a logo for Think Tech Hawaii.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub02_f01.jpg",
+              "relative_path": "xNfFKjLskzs/task02_sub02_f01.jpg",
+              "caption": "A man is hosting a news segment about organic no-till farming.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub02_f02.jpg",
+              "relative_path": "xNfFKjLskzs/task02_sub02_f02.jpg",
+              "caption": "A man in a newsroom with a world map behind him, and a screen showing another man.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task02_sub02_f03.jpg",
+              "relative_path": "xNfFKjLskzs/task02_sub02_f03.jpg",
+              "caption": "A man in a newsroom with a world map behind him, and a video feed of another man on a monitor.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task02_sub02_f04.jpg",
+              "relative_path": "xNfFKjLskzs/task02_sub02_f04.jpg",
+              "caption": "A man is hosting a news segment in a studio with a world map on the background.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task02_sub02_f06.jpg",
+              "relative_path": "xNfFKjLskzs/task02_sub02_f06.jpg",
+              "caption": "A man in a polo shirt is seen on a television screen with a logo for \"Think Tech Hawaii\" in the bottom right corner.",
+              "frame_index": 6
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe a discussion about developing new, lightweight fabric technology for no-till farming techniques and prepare to engage in a conversation about the topic.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] The robot sees a man in a polo shirt on a television screen with a logo for Think Tech Hawaii.",
+            "- [frames=[2,3,4]] The robot observes a man in a newsroom with a world map behind him, discussing no-till farming with another man on a video feed.",
+            "- [frames=[6]] The robot confirms the presence of the Think Tech Hawaii logo on the television screen.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a news segment where a host discusses no-till farming techniques, specifically focusing on the application of plastic fabrics. The discussion includes the potential for developing new, lightweight fabric technology to enhance the technique.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have knowledge of no-till farming and its associated technologies.",
+            "- The robot needs to be familiar with lightweight fabric materials and their potential uses.",
+            "- The robot must be able to communicate effectively in a news segment setting.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the potential benefits and applications of new, lightweight fabric",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2,3,4,6]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2,3,4,6]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2,3,4,6]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2,3,4,6]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2,3,4,6]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 34.559999999999945,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/xNfFKjLskzs/task02/sub02/motion.bvh",
+            "params_path": "results/momask/xNfFKjLskzs/task02/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

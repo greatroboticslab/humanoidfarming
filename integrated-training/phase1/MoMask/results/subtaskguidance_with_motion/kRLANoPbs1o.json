@@ -1,0 +1,691 @@
+{
+  "video_index": "kRLANoPbs1o",
+  "title": "Planting the Three Sisters Companion Garden Method",
+  "url": "https://www.youtube.com/watch?v=kRLANoPbs1o",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Describes the three sisters planting technique and related processes.",
+  "tasks": [
+    {
+      "task": "Explain the three sisters planting technique and its underlying principles.",
+      "start": 11.11,
+      "end": 39.11,
+      "subtasks": [
+        {
+          "text": "Describe the role of beans in fixing nitrogen in the soil.",
+          "start": 11.11,
+          "end": 18.11,
+          "segment_ids": [
+            1,
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "kRLANoPbs1o/task00_sub00_f00.jpg",
+              "caption": "A woman in a garden is using a tool to prepare the soil.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "kRLANoPbs1o/task00_sub00_f01.jpg",
+              "caption": "A woman is standing in a garden with a hoe, wearing a red bandana and green shirt.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "kRLANoPbs1o/task00_sub00_f02.jpg",
+              "caption": "A woman in a white shirt and red bandana stands in a cornfield.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should describe how beans contribute to fixing nitrogen in the soil, which is a key component of the three sisters planting technique.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A woman in a garden is preparing the soil with a tool.",
+            "- [frames=[1]] The woman is seen with a hoe, wearing a red bandana and green shirt.",
+            "- [frames=[2]] Another woman in a white shirt and red bandana is standing in a cornfield.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts women working in a garden, likely explaining the three sisters method. The focus on soil preparation and the presence of women in different attire suggests a hands-on demonstration of the planting technique.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the three sisters planting technique.",
+            "- The robot should know about the role of beans in soil nitrogen fixation.",
+            "- The robot should have the ability to speak clearly and concisely.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately explain the role of beans in fixing nitrogen.",
+            "- The explanation should be clear and easy to understand.",
+            "- The robot should maintain eye contact with the audience if possible.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 7.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/kRLANoPbs1o/task00/sub00/motion.bvh",
+            "params_path": "results/momask/kRLANoPbs1o/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Explain how corn provides support for bean vines to climb.",
+          "start": 18.11,
+          "end": 23.15,
+          "segment_ids": [
+            3,
+            4
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "kRLANoPbs1o/task00_sub01_f02.jpg",
+              "caption": "A woman in a field of corn is wearing a red bandana.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will explain how corn plants provide support for bean vines to climb, using visual cues from the tutorial video.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[2]] A woman in a field of corn is wearing a red bandana.",
+            "- [frames=[2]] Corn plants are visible in the background, with bean vines growing nearby.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a woman in a cornfield, with corn stalks providing a natural structure for bean vines to climb. The corn acts as a support system, allowing beans to grow vertically and efficiently utilize space.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the three sisters planting technique.",
+            "- The robot should have access to the video frames for reference.",
+            "- The robot should be able to communicate the explanation clearly.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe how corn supports bean vines.",
+            "- The robot should mention the benefits of vertical growth for beans.",
+            "- The robot should connect the concept to the visual elements in the video.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[2]] Observe the woman in the cornfield.",
+            "2. [type=perception, frames=[2]] Identify.",
+            "3. [type=perception, frames=[2]] Verify/confirm the key observation before reporting.",
+            "4. [type=perception, frames=[2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Observe the woman in the cornfield. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 5.039999999999999,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/kRLANoPbs1o/task00/sub01/motion.bvh",
+            "params_path": "results/momask/kRLANoPbs1o/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Describe the function of squash in shading the ground.",
+          "start": 23.15,
+          "end": 25.87,
+          "segment_ids": [
+            5
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub02_f01.jpg",
+              "relative_path": "kRLANoPbs1o/task00_sub02_f01.jpg",
+              "caption": "A woman in a white shirt and red scarf stands in a cornfield.",
+              "frame_index": 1
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should explain how squash plants provide shade to the ground, which is part of the three sisters planting technique.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A woman in a white shirt and red scarf stands in a cornfield.",
+            "- The woman is facing the camera, indicating she will be speaking.",
+            "- The background shows rows of corn plants with squash plants interspersed among them.",
+            "- The squash plants appear larger and more spread out compared to the corn plants.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a typical three sisters garden layout where corn, beans, and squash are planted together. The squash plants are visible in the background, providing a shaded area under their leaves.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should recognize the woman as the speaker.",
+            "- The robot must identify the corn and squash plants in the field.",
+            "- The robot needs to understand the concept of shading provided by squash plants.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the function of squash in shading the ground.",
+            "- The explanation should align with the principles of the three sisters planting method.",
+            "- The robot should mention the benefits of shading for soil moisture retention and weed suppression.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[1]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[1]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[1]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[1]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/kRLANoPbs1o/task00/sub02/motion.bvh",
+            "params_path": "results/momask/kRLANoPbs1o/task00/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Mention the Wampanoag method of the three sisters planting.",
+          "start": 27.51,
+          "end": 39.11,
+          "segment_ids": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub03_f00.jpg",
+              "relative_path": "kRLANoPbs1o/task00_sub03_f00.jpg",
+              "caption": "A woman wearing a red scarf and white shirt is kneeling in a garden surrounded by tall plants.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub03_f02.jpg",
+              "relative_path": "kRLANoPbs1o/task00_sub03_f02.jpg",
+              "caption": "A purple bean pod hangs from a plant with large green leaves.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask involves explaining the Wampanoag method of the three sisters planting technique, which includes beans, corn, and squash.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A woman wearing a red scarf and white shirt is kneeling in a garden surrounded by tall plants.",
+            "- [frames=[0]] The same woman continues her actions, possibly preparing the soil or arranging seeds.",
+            "- [frames=[2]] A purple bean pod hangs from a plant with large green leaves, indicating the successful growth of one of the three sisters.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a woman demonstrating the Wampanoag method of the three sisters planting technique. She is likely showing how to plant and care for beans, corn, and squash together in a garden setting.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the Wampanoag method of the three sisters planting.",
+            "- The robot needs to have knowledge about the specific plants involved (beans, corn, squash).",
+            "- The robot must be able to recognize and interact with a garden environment.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the Wampanoag method of the three sisters planting.",
+            "- It should mention the specific (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 11.599999999999998,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/kRLANoPbs1o/task00/sub03/motion.bvh",
+            "params_path": "results/momask/kRLANoPbs1o/task00/sub03/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Provide instructions for building and planting the three sisters mound.",
+      "start": 39.11,
+      "end": 71.63,
+      "subtasks": [
+        {
+          "text": "Tell how to build the mound with specific dimensions.",
+          "start": 39.11,
+          "end": 45.79,
+          "segment_ids": [
+            11,
+            12
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "kRLANoPbs1o/task01_sub00_f01.jpg",
+              "caption": "A green bean plant with red flowers and green leaves.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "kRLANoPbs1o/task01_sub00_f02.jpg",
+              "caption": "A wooden wall with visible knots and nails.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to understand the process of building a mound for the three sisters companion garden method, specifically focusing on the dimensions required.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A green bean plant with red flowers and green leaves is visible.",
+            "- [frames=[2]] A wooden wall with visible knots and nails is present, indicating the setting where the mound will be built.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a garden setting with a wooden structure nearby, suggesting the mound will be built in an area that might benefit from the support of the wooden wall. The presence of a green bean plant indicates one of the components of the three sisters garden.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- Knowledge of the three sisters garden method.",
+            "- Understanding of mound construction techniques.",
+            "- Familiarity with soil preparation and layering methods.",
+            "- Ability to measure and mark the ground accurately.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The mound should have the correct dimensions.",
+            "- The mound should be level and stable.",
+            "- The mound should be free of any debris or obstacles.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2]] Move to the location near the wooden wall.",
+            "2. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "3. [type=perception, frames=[1,2]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to the location near the wooden wall. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move to the location near the wooden wall; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 6.68,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/kRLANoPbs1o/task01/sub00/motion.bvh",
+            "params_path": "results/momask/kRLANoPbs1o/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Describe the spacing of the mounds and what to plant on the flat part.",
+          "start": 45.79,
+          "end": 51.87,
+          "segment_ids": [
+            13,
+            14
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "kRLANoPbs1o/task01_sub01_f01.jpg",
+              "caption": "Two seed packets are displayed on a wooden background.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "kRLANoPbs1o/task01_sub01_f02.jpg",
+              "caption": "A corn field with tall stalks and green leaves.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to describe the spacing of the mounds and what to plant on the flat part of the three sisters mound.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] Two seed packets are displayed on a wooden background.",
+            "- [frames=[2]] A corn field with tall stalks and green leaves is shown.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows two seed packets, likely containing seeds for the three sisters method (corn, beans, and squash), and a corn field. The robot will need to refer to these items to provide accurate instructions.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have knowledge about the three sisters garden method.",
+            "- The robot should be able to display images or text on a screen.",
+            "- The robot should be able to manipulate objects if needed.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly describe the spacing of the mounds.",
+            "- The robot should accurately state what to plant on the flat part of the mound.",
+            "- The robot should ensure the information aligns with the three sisters method.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Read the labels on the seed packets to identify the types of seeds.",
+            "2. [type=perception, frames=[1,2]] Check/confirm the key detail matches the captions and scene.",
+            "3. [type=perception, frames=[1,2]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Read the labels on the seed packets to identify the types of seeds. It then verifies the key detail directly from the frames (Read the labels on the seed packets to identify the types of seeds).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 6.079999999999998,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/kRLANoPbs1o/task01/sub01/motion.bvh",
+            "params_path": "results/momask/kRLANoPbs1o/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Explain when to start the garden and what to do if transplanting corn.",
+          "start": 51.87,
+          "end": 56.91,
+          "segment_ids": [
+            15,
+            16
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub02_f01.jpg",
+              "relative_path": "kRLANoPbs1o/task01_sub02_f01.jpg",
+              "caption": "The video frame shows a close-up of a corn plant with green leaves and stems.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub02_f02.jpg",
+              "relative_path": "kRLANoPbs1o/task01_sub02_f02.jpg",
+              "caption": "The video frame shows a question about corn types and options to choose from.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask involves explaining the timing for starting the garden and providing guidance on how to handle corn plants during transplantation.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A close-up view of a corn plant with green leaves and stems is shown.",
+            "- [frames=[2]] A question appears on screen regarding different types of corn available for selection.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shifts from showing a detailed view of a corn plant to presenting a question about corn varieties, indicating a transition in the instructional content.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the current stage of the garden preparation.",
+            "- It must have information on the optimal planting times for the three sisters method.",
+            "- The robot needs to know how to handle corn plants during transplantation.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should provide accurate information on when to start the garden.",
+            "- It must offer clear instructions on handling corn plants during transplantation.",
+            "- The explanation should cover different types of corn available for selection.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2]] Navigates to the section discussing the timing for starting the garden.",
+            "2. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "3. [type=perception, frames=[1,2]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigates to the section discussing the timing for starting the garden. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigates to the section discussing the timing for starting the garden; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 5.039999999999999,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/kRLANoPbs1o/task01/sub02/motion.bvh",
+            "params_path": "results/momask/kRLANoPbs1o/task01/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Describe the planting of beans with an inoculant.",
+          "start": 56.91,
+          "end": 60.95,
+          "segment_ids": [
+            17,
+            18
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub03_f01.jpg",
+              "relative_path": "kRLANoPbs1o/task01_sub03_f01.jpg",
+              "caption": "The video frame displays a question about corn types and options for use.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub03_f02.jpg",
+              "relative_path": "kRLANoPbs1o/task01_sub03_f02.jpg",
+              "caption": "A garden with green leaves and yellow flowers.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will describe the process of planting beans with an inoculant, ensuring the beans are healthy and productive in the companion garden.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A question about corn types appears on screen.",
+            "- [frames=[2]] A garden scene is shown with green leaves and yellow flowers.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shifts from a question about corn types to a garden setting, indicating a transition in the tutorial from discussing corn to planting beans.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have knowledge of the three sisters companion garden method.",
+            "- The robot needs to be familiar with the types of beans used in this method.",
+            "- The robot should know how to apply inoculants to seeds.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the application of inoculant to the bean seeds.",
+            "- The robot should ensure the seeds are planted correctly in the mound.",
+            "- The robot should confirm the correct type of beans are being used.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Read the question about corn types and confirm understanding.",
+            "2. [type=navigation, frames=[2]] Transition to the garden scene.",
+            "3. [type=perception, frames=[1,2]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Read the question about corn types and confirm understanding. It then verifies the key detail directly from the frames (Read the question about corn types and confirm understanding).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Transition to the garden scene; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 4.040000000000006,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/kRLANoPbs1o/task01/sub03/motion.bvh",
+            "params_path": "results/momask/kRLANoPbs1o/task01/sub03/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Describe the placement and spacing of squash seeds.",
+          "start": 60.95,
+          "end": 71.63,
+          "segment_ids": [
+            19,
+            20,
+            21
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub04_f01.jpg",
+              "relative_path": "kRLANoPbs1o/task01_sub04_f01.jpg",
+              "caption": "A person is tending to a watermelon plant in a garden.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub04_f02.jpg",
+              "relative_path": "kRLANoPbs1o/task01_sub04_f02.jpg",
+              "caption": "A garden with red stalks and green leaves.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to understand the placement and spacing of squash seeds in the context of the three sisters mound planting method.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A person is tending to a watermelon plant in a garden, indicating the presence of other plants but not directly related to squash.",
+            "- [frames=[2]] A garden scene with red stalks and green leaves, suggesting a mature garden setting.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a typical garden setting with various plants, including red stalks and green leaves. The focus is on the layout and arrangement of plants within the garden, particularly emphasizing the spacing and placement of squash seeds.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- Knowledge of the three sisters planting method.",
+            "- Understanding of squash seed characteristics and growth requirements.",
+            "- Familiarity with the garden layout and existing plants.",
+            "- Ability to measure distances accurately.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Correct identification of the area where squash seeds should be planted.",
+            "- Proper spacing between squash seeds.",
+            "- Accurate placement of squash seeds in the designated area.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2]] Navigate to the garden area shown in the video.",
+            "2. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "3. [type=perception, frames=[1,2]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the garden area shown in the video. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the garden area shown in the video; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 10.679999999999993,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/kRLANoPbs1o/task01/sub04/motion.bvh",
+            "params_path": "results/momask/kRLANoPbs1o/task01/sub04/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

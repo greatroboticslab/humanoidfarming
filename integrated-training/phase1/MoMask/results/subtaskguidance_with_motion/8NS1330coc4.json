@@ -1,0 +1,757 @@
+{
+  "video_index": "8NS1330coc4",
+  "title": "Greenhouse Preparation for Spring Farminguggested",
+  "url": "https://www.youtube.com/watch?v=8NS1330coc4",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "The video describes routine farm preparations and activities.",
+  "tasks": [
+    {
+      "task": "Cleanup and preparation of the greenhouse.",
+      "start": 32.27,
+      "end": 793.05,
+      "subtasks": [
+        {
+          "text": "Clean out the entire greenhouse and make it tidy.",
+          "start": 32.27,
+          "end": 56.1,
+          "segment_ids": [
+            0,
+            1
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "8NS1330coc4/task00_sub00_f00.jpg",
+              "caption": "A man in a beanie holds a drill in front of a greenhouse.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "8NS1330coc4/task00_sub00_f01.jpg",
+              "caption": "A greenhouse with a wooden frame and plastic covering, with a person's hand visible in the background.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "8NS1330coc4/task00_sub00_f02.jpg",
+              "caption": "A man in a greenhouse holding a drill.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub00_f03.jpg",
+              "relative_path": "8NS1330coc4/task00_sub00_f03.jpg",
+              "caption": "A greenhouse with various plants and watering cans.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task00_sub00_f04.jpg",
+              "relative_path": "8NS1330coc4/task00_sub00_f04.jpg",
+              "caption": "A person in a yellow jacket and hat is holding a piece of string.",
+              "frame_index": 4
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will clean out the entire greenhouse, making it tidy by removing debris and ensuring all areas are accessible for spring farming preparations.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A man in a beanie holds a drill in front of a greenhouse, indicating initial setup or maintenance work.",
+            "- [frames=[2]] A man in a greenhouse holding a drill suggests ongoing maintenance activities.",
+            "- [frames=[3]] A greenhouse with various plants and watering cans shows the current state before cleaning.",
+            "- [frames=[4]] A person in a yellow jacket and hat holding a piece of string might indicate additional tasks like securing covers or marking areas.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene involves a greenhouse with a wooden frame and plastic covering, where the robot needs to remove any debris, ensure the space is clear, and prepare the environment for planting.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to the greenhouse.",
+            "- It should be equipped with tools such as a drill, broom, and dustpan.",
+            "- The robot must be able to identify and remove plant debris and other waste materials.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The greenhouse should be free of debris and waste.",
+            "- All surfaces should be clean and accessible.",
+            "- Any necessary repairs or maintenance should be completed.",
+            "- The robot should confirm the tidiness of the greenhouse.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the greenhouse entrance.",
+            "2. [type=perception, frames=[3]] Scan the interior of the greenhouse to locate debris and waste materials.",
+            "3. [type=manipulation, frames=[4]] Use a broom to sweep away loose debris and plant waste.",
+            "4. [type=manipulation, frames=[0,1,2,3,4]] Collect debris using a dustpan and dispose of it outside the greenhouse.",
+            "5. [type=perception, frames=[0,1,2,3,4]] Verify/confirm the key observation before reporting.",
+            "6. [type=navigation, frames=[0,1,2,3,4]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the greenhouse entrance. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the greenhouse entrance; Use a broom to sweep away loose debris and plant waste; Collect debris using a dustpan and dispose of it outside the greenhouse; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 23.83,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/8NS1330coc4/task00/sub00/motion.bvh",
+            "params_path": "results/momask/8NS1330coc4/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Sweep an old table and prepare it for firewood.",
+          "start": 367.72,
+          "end": 793.05,
+          "segment_ids": [
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f00.jpg",
+              "relative_path": "8NS1330coc4/task00_sub01_f00.jpg",
+              "caption": "A person in a greenhouse with a hat and jacket.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "8NS1330coc4/task00_sub01_f01.jpg",
+              "caption": "A person is kneeling in front of a greenhouse, wearing gloves and a beanie.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "8NS1330coc4/task00_sub01_f02.jpg",
+              "caption": "A person is using a tool on a wooden surface in an outdoor setting.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub01_f03.jpg",
+              "relative_path": "8NS1330coc4/task00_sub01_f03.jpg",
+              "caption": "A person is using a chainsaw to cut a piece of wood.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task00_sub01_f04.jpg",
+              "relative_path": "8NS1330coc4/task00_sub01_f04.jpg",
+              "caption": "A hand is holding seed packets labeled \"MoravoSeed\" with images of peppers.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task00_sub01_f05.jpg",
+              "relative_path": "8NS1330coc4/task00_sub01_f05.jpg",
+              "caption": "A hand is seen sifting through a small amount of seeds on a white cloth.",
+              "frame_index": 5
+            },
+            {
+              "image_file": "task00_sub01_f06.jpg",
+              "relative_path": "8NS1330coc4/task00_sub01_f06.jpg",
+              "caption": "A person is standing in front of a chicken coop with a laptop, surrounded by a fenced area.",
+              "frame_index": 6
+            },
+            {
+              "image_file": "task00_sub01_f07.jpg",
+              "relative_path": "8NS1330coc4/task00_sub01_f07.jpg",
+              "caption": "A person stands on a wooden platform near a chicken coop in a rural setting.",
+              "frame_index": 7
+            },
+            {
+              "image_file": "task00_sub01_f08.jpg",
+              "relative_path": "8NS1330coc4/task00_sub01_f08.jpg",
+              "caption": "A wooden chicken coop with two windows and a man walking by.",
+              "frame_index": 8
+            },
+            {
+              "image_file": "task00_sub01_f09.jpg",
+              "relative_path": "8NS1330coc4/task00_sub01_f09.jpg",
+              "caption": "A man is working on a chicken coop in front of a wooden building.",
+              "frame_index": 9
+            },
+            {
+              "image_file": "task00_sub01_f10.jpg",
+              "relative_path": "8NS1330coc4/task00_sub01_f10.jpg",
+              "caption": "A person is pushing a wheelbarrow filled with mulch towards a chicken coop in a backyard.",
+              "frame_index": 10
+            },
+            {
+              "image_file": "task00_sub01_f11.jpg",
+              "relative_path": "8NS1330coc4/task00_sub01_f11.jpg",
+              "caption": "A person is pushing a wheelbarrow on a farm with a chicken coop and barn in the background.",
+              "frame_index": 11
+            },
+            {
+              "image_file": "task00_sub01_f12.jpg",
+              "relative_path": "8NS1330coc4/task00_sub01_f12.jpg",
+              "caption": "A person is walking through a chicken coop with a view of a snowy field.",
+              "frame_index": 12
+            },
+            {
+              "image_file": "task00_sub01_f13.jpg",
+              "relative_path": "8NS1330coc4/task00_sub01_f13.jpg",
+              "caption": "A person is cleaning a chicken coop with a broom.",
+              "frame_index": 13
+            },
+            {
+              "image_file": "task00_sub01_f14.jpg",
+              "relative_path": "8NS1330coc4/task00_sub01_f14.jpg",
+              "caption": "A man is kneeling on a leaf-covered path, handling a large white bag.",
+              "frame_index": 14
+            },
+            {
+              "image_file": "task00_sub01_f15.jpg",
+              "relative_path": "8NS1330coc4/task00_sub01_f15.jpg",
+              "caption": "A pile of dried leaves is seen in a confined space.",
+              "frame_index": 15
+            },
+            {
+              "image_file": "task00_sub01_f16.jpg",
+              "relative_path": "8NS1330coc4/task00_sub01_f16.jpg",
+              "caption": "A person is kneeling on the ground, examining soil in a small container.",
+              "frame_index": 16
+            },
+            {
+              "image_file": "task00_sub01_f17.jpg",
+              "relative_path": "8NS1330coc4/task00_sub01_f17.jpg",
+              "caption": "A person is planting seeds in trays on a table.",
+              "frame_index": 17
+            },
+            {
+              "image_file": "task00_sub01_f18.jpg",
+              "relative_path": "8NS1330coc4/task00_sub01_f18.jpg",
+              "caption": "A person is holding a seed tray with soil and seed packets.",
+              "frame_index": 18
+            },
+            {
+              "image_file": "task00_sub01_f19.jpg",
+              "relative_path": "8NS1330coc4/task00_sub01_f19.jpg",
+              "caption": "A young man wearing a beanie and a Nike sweatshirt stands outdoors in a natural setting.",
+              "frame_index": 19
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will sweep an old table and prepare it for storing firewood in the greenhouse.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A person in a greenhouse with a hat and jacket is present.",
+            "- [frames=[2]] A person is using a tool on a wooden surface in an outdoor setting.",
+            "- [frames=[3]] A person is using a chainsaw to cut a piece of wood.",
+            "- [frames=[4,5]] Seed packets labeled \"MoravoSeed\" with images of peppers are visible.",
+            "- [frames=[6,7]] A person is standing in front of a chicken coop with a laptop, surrounded by a fenced area.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene involves clearing a table in the greenhouse for firewood storage. The presence of a person suggests they are performing the task manually, while the outdoor setting indicates the wood might be cut elsewhere and brought in.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be within the greenhouse.",
+            "- The robot should have access to cleaning tools such as a broom and dustpan.",
+            "- The robot should be capable of identifying and handling firewood.",
+            "- The robot should know the location of the table to be cleaned.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The table should be free of debris and ready for firewood.",
+            "- The firewood should be neatly arranged on the table.",
+            "- The robot should confirm the table is clean before proceeding.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the greenhouse where the table is located.",
+            "2. [type=perception, frames=[0,1]] Scan the area to locate the table and ensure the robot is in the correct position.",
+            "3. [type=manipulation, frames=[2]] Pick up a broom and sweep the table.",
+            "4. [type=perception, frames=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]] Verify/confirm the key observation before reporting.",
+            "5. [type=navigation, frames=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the greenhouse where the table is located. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the greenhouse where the table is located; Pick up a broom and sweep the table; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 425.3299999999999,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/8NS1330coc4/task00/sub01/motion.bvh",
+            "params_path": "results/momask/8NS1330coc4/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Preparing a new growing bed.",
+      "start": 793.65,
+      "end": 1765.41,
+      "subtasks": [
+        {
+          "text": "Prepare a bed for growing onions, beans, and other vegetables.",
+          "start": 927.54,
+          "end": 1765.41,
+          "segment_ids": [
+            5
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "8NS1330coc4/task01_sub00_f00.jpg",
+              "caption": "Two cartons of eggs are on a table, with one containing red eggs and the other containing brown eggs.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "8NS1330coc4/task01_sub00_f01.jpg",
+              "caption": "A person is standing next to a plastic container filled with seedlings.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "8NS1330coc4/task01_sub00_f02.jpg",
+              "caption": "A man in a kitchen prepares a smoothie, adding bananas to a blender.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task01_sub00_f03.jpg",
+              "relative_path": "8NS1330coc4/task01_sub00_f03.jpg",
+              "caption": "A man is preparing a recipe in a kitchen, adding ingredients to a blender.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task01_sub00_f04.jpg",
+              "relative_path": "8NS1330coc4/task01_sub00_f04.jpg",
+              "caption": "A man in a kitchen prepares waffles, with one already cooked on a plate.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task01_sub00_f05.jpg",
+              "relative_path": "8NS1330coc4/task01_sub00_f05.jpg",
+              "caption": "Two men are lifting a large bale of hay.",
+              "frame_index": 5
+            },
+            {
+              "image_file": "task01_sub00_f06.jpg",
+              "relative_path": "8NS1330coc4/task01_sub00_f06.jpg",
+              "caption": "Two individuals are assembling a metal gate in a rural setting.",
+              "frame_index": 6
+            },
+            {
+              "image_file": "task01_sub00_f07.jpg",
+              "relative_path": "8NS1330coc4/task01_sub00_f07.jpg",
+              "caption": "A man is reaching into a kitchen cabinet to retrieve a plate.",
+              "frame_index": 7
+            },
+            {
+              "image_file": "task01_sub00_f08.jpg",
+              "relative_path": "8NS1330coc4/task01_sub00_f08.jpg",
+              "caption": "A man is eating avocado toast at a table with various breakfast items.",
+              "frame_index": 8
+            },
+            {
+              "image_file": "task01_sub00_f09.jpg",
+              "relative_path": "8NS1330coc4/task01_sub00_f09.jpg",
+              "caption": "A white cat is lying on its back on a grassy field.",
+              "frame_index": 9
+            },
+            {
+              "image_file": "task01_sub00_f10.jpg",
+              "relative_path": "8NS1330coc4/task01_sub00_f10.jpg",
+              "caption": "A person carries a bucket of wood through a grassy field near a forest.",
+              "frame_index": 10
+            },
+            {
+              "image_file": "task01_sub00_f11.jpg",
+              "relative_path": "8NS1330coc4/task01_sub00_f11.jpg",
+              "caption": "A pile of dry branches is burning in a field with smoke rising.",
+              "frame_index": 11
+            },
+            {
+              "image_file": "task01_sub00_f12.jpg",
+              "relative_path": "8NS1330coc4/task01_sub00_f12.jpg",
+              "caption": "A man is using sticks to build a fire in a rural setting.",
+              "frame_index": 12
+            },
+            {
+              "image_file": "task01_sub00_f13.jpg",
+              "relative_path": "8NS1330coc4/task01_sub00_f13.jpg",
+              "caption": "A tree trunk is planted in the ground with soil around it.",
+              "frame_index": 13
+            },
+            {
+              "image_file": "task01_sub00_f14.jpg",
+              "relative_path": "8NS1330coc4/task01_sub00_f14.jpg",
+              "caption": "A person is planting a tree in a field near a barn and a blue bucket.",
+              "frame_index": 14
+            },
+            {
+              "image_file": "task01_sub00_f15.jpg",
+              "relative_path": "8NS1330coc4/task01_sub00_f15.jpg",
+              "caption": "A man walks towards a house surrounded by a natural landscape.",
+              "frame_index": 15
+            },
+            {
+              "image_file": "task01_sub00_f16.jpg",
+              "relative_path": "8NS1330coc4/task01_sub00_f16.jpg",
+              "caption": "Two men walk towards a chicken coop on a farm.",
+              "frame_index": 16
+            },
+            {
+              "image_file": "task01_sub00_f17.jpg",
+              "relative_path": "8NS1330coc4/task01_sub00_f17.jpg",
+              "caption": "A man is installing a fence in a field.",
+              "frame_index": 17
+            },
+            {
+              "image_file": "task01_sub00_f18.jpg",
+              "relative_path": "8NS1330coc4/task01_sub00_f18.jpg",
+              "caption": "A person stands on a deck, drinking from a bottle, with a scenic view of a field and trees.",
+              "frame_index": 18
+            },
+            {
+              "image_file": "task01_sub00_f19.jpg",
+              "relative_path": "8NS1330coc4/task01_sub00_f19.jpg",
+              "caption": "A young man stands outdoors, smiling, with a red building and trees in the background.",
+              "frame_index": 19
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will prepare a bed for growing onions, beans, and other vegetables by gathering necessary materials and tools, and ensuring the bed is ready for planting.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] Two cartons of eggs are on a table, with one containing red eggs and the other containing brown eggs.",
+            "- [frames=[1]] A person is standing next to a plastic container filled with seedlings.",
+            "- [frames=[2-7]] Various scenes in a kitchen or rural setting are shown, but none directly related to the subtask.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from kitchen activities to rural settings, but the relevant information for the subtask is found in frame 1, where a container of seedlings is visible. The robot needs to gather these seedlings and any other necessary items for preparing the growing bed.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to a tool for digging or turning soil.",
+            "- The robot should be able to identify and pick up seedlings.",
+            "- The robot should know how to measure and mark the bed dimensions.",
+            "- The robot should have a way to verify the readiness of the bed.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The bed should be free of weeds and debris.",
+            "- The soil should be properly turned and enriched.",
+            "- Seedlings should be planted in the correct pattern.",
+            "- The bed should be marked with the appropriate spacing for the vegetables.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]] Inspect/verify the scene before any physical action.",
+            "2. [type=navigation, frames=[1]] Navigate to the location where the seedlings are stored.",
+            "3. [type=manipulation, frames=[1]] Pick up the container of seedlings.",
+            "4. [type=navigation, frames=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]] Move to the designated area for preparing the growing bed.",
+            "5. [type=perception, frames=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]] Verify the current state.",
+            "6. [type=navigation, frames=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Inspect/verify the scene before any physical action. It then verifies the key detail directly from the frames (Inspect/verify the scene before any physical action).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the location where the seedlings are stored; Pick up the container of seedlings; Move to the designated area for preparing the growing bed; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 837.8700000000001,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/8NS1330coc4/task01/sub00/motion.bvh",
+            "params_path": "results/momask/8NS1330coc4/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Lay a total of 13 eggs, which is a lot.",
+          "start": 793.65,
+          "end": 924.22,
+          "segment_ids": [
+            3
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f00.jpg",
+              "relative_path": "8NS1330coc4/task01_sub01_f00.jpg",
+              "caption": "A person wearing a beanie and a dark jacket stands outdoors with a bright sun in the background.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "8NS1330coc4/task01_sub01_f01.jpg",
+              "caption": "A person is using a sledgehammer to break apart a wooden structure.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "8NS1330coc4/task01_sub01_f02.jpg",
+              "caption": "A person is using a shovel to move a wooden board on a snowy surface.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task01_sub01_f03.jpg",
+              "relative_path": "8NS1330coc4/task01_sub01_f03.jpg",
+              "caption": "A person in a black hoodie and hat is cutting wood with an ax in a snowy outdoor setting.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task01_sub01_f04.jpg",
+              "relative_path": "8NS1330coc4/task01_sub01_f04.jpg",
+              "caption": "A person is working on a wooden structure in a snowy yard.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task01_sub01_f05.jpg",
+              "relative_path": "8NS1330coc4/task01_sub01_f05.jpg",
+              "caption": "A man in a black sweatshirt and beanie walks down a dirt path towards a house with a wooden structure.",
+              "frame_index": 5
+            },
+            {
+              "image_file": "task01_sub01_f06.jpg",
+              "relative_path": "8NS1330coc4/task01_sub01_f06.jpg",
+              "caption": "A man in a black hoodie and gray pants carries a chainsaw while walking on a snowy path.",
+              "frame_index": 6
+            },
+            {
+              "image_file": "task01_sub01_f07.jpg",
+              "relative_path": "8NS1330coc4/task01_sub01_f07.jpg",
+              "caption": "A person is standing next to a wooden board with sawdust on it.",
+              "frame_index": 7
+            },
+            {
+              "image_file": "task01_sub01_f08.jpg",
+              "relative_path": "8NS1330coc4/task01_sub01_f08.jpg",
+              "caption": "A person is using a chainsaw to cut wood on a snowy ground.",
+              "frame_index": 8
+            },
+            {
+              "image_file": "task01_sub01_f09.jpg",
+              "relative_path": "8NS1330coc4/task01_sub01_f09.jpg",
+              "caption": "A person is using an ax to cut a piece of wood.",
+              "frame_index": 9
+            },
+            {
+              "image_file": "task01_sub01_f10.jpg",
+              "relative_path": "8NS1330coc4/task01_sub01_f10.jpg",
+              "caption": "A person is sorting wood in a snowy yard.",
+              "frame_index": 10
+            },
+            {
+              "image_file": "task01_sub01_f11.jpg",
+              "relative_path": "8NS1330coc4/task01_sub01_f11.jpg",
+              "caption": "A person is using a hammer to break wood in a snowy outdoor setting.",
+              "frame_index": 11
+            },
+            {
+              "image_file": "task01_sub01_f12.jpg",
+              "relative_path": "8NS1330coc4/task01_sub01_f12.jpg",
+              "caption": "A person is sorting through a pile of wood in a snowy outdoor setting.",
+              "frame_index": 12
+            },
+            {
+              "image_file": "task01_sub01_f13.jpg",
+              "relative_path": "8NS1330coc4/task01_sub01_f13.jpg",
+              "caption": "A man stands in front of a house with a snowy lawn and a pile of wood.",
+              "frame_index": 13
+            },
+            {
+              "image_file": "task01_sub01_f14.jpg",
+              "relative_path": "8NS1330coc4/task01_sub01_f14.jpg",
+              "caption": "A person walks in the snow near a tractor and a red house.",
+              "frame_index": 14
+            },
+            {
+              "image_file": "task01_sub01_f15.jpg",
+              "relative_path": "8NS1330coc4/task01_sub01_f15.jpg",
+              "caption": "A wooden door with a wooden texture is mounted on a wall, with tools and materials nearby.",
+              "frame_index": 15
+            },
+            {
+              "image_file": "task01_sub01_f16.jpg",
+              "relative_path": "8NS1330coc4/task01_sub01_f16.jpg",
+              "caption": "A chicken egg is in a nest with hay.",
+              "frame_index": 16
+            },
+            {
+              "image_file": "task01_sub01_f17.jpg",
+              "relative_path": "8NS1330coc4/task01_sub01_f17.jpg",
+              "caption": "A nest with three brown eggs and some straw.",
+              "frame_index": 17
+            },
+            {
+              "image_file": "task01_sub01_f18.jpg",
+              "relative_path": "8NS1330coc4/task01_sub01_f18.jpg",
+              "caption": "A man is inspecting a chicken coop with a carton of eggs.",
+              "frame_index": 18
+            },
+            {
+              "image_file": "task01_sub01_f19.jpg",
+              "relative_path": "8NS1330coc4/task01_sub01_f19.jpg",
+              "caption": "A young man wearing a black hoodie and a beanie is standing indoors.",
+              "frame_index": 19
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will assist in breaking down a wooden structure and preparing materials for laying a large number of eggs, likely for nesting boxes.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A person is outdoors, indicating the task is taking place in a natural environment.",
+            "- [frames=[1]] A person uses a sledgehammer to break apart a wooden structure, suggesting the initial stage of dismantling.",
+            "- [frames=[2]] A person moves a wooden board, possibly to clear space or prepare materials.",
+            "- [frames=[3]] Another person cuts wood with an ax, likely to create smaller pieces needed for the task.",
+            "- [frames=[4]] A person works on a wooden structure, continuing the dismantling process.",
+            "- [frames=[5]] A man walks towards a house with a wooden structure, possibly to retrieve tools or materials.",
+            "- [frames=[6]] A person carries a chainsaw, indicating they might need to cut more wood.",
+            "- [frames=[7]] A person stands next to a wooden board with sawdust, showing the presence of sawdust and wood debris.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a series of activities aimed at dismantling a wooden structure and preparing materials. The tasks involve breaking down the structure, moving boards, cutting wood, and potentially retrieving additional tools. The goal appears to be creating components for laying a large number of eggs, possibly for nesting boxes.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a sledgehammer, shovel, chainsaw, and ax.",
+            "- The robot needs to be able to navigate through a snowy outdoor environment.",
+            "- The robot should have the capability to lift and move wooden boards.",
+            "- The robot must be able to read and follow instructions related to the task.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The wooden structure should be sufficiently broken down into manageable pieces.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 130.57000000000005,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/8NS1330coc4/task01/sub01/motion.bvh",
+            "params_path": "results/momask/8NS1330coc4/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Plan to cook something.",
+          "start": 925.06,
+          "end": 927.06,
+          "segment_ids": [
+            4
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub02_f00.jpg",
+              "relative_path": "8NS1330coc4/task01_sub02_f00.jpg",
+              "caption": "A young man wearing a gray beanie and a black hoodie with the word \"NIKE\" on it is standing indoors.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub02_f01.jpg",
+              "relative_path": "8NS1330coc4/task01_sub02_f01.jpg",
+              "caption": "A young man wearing a black hoodie and a gray beanie is standing indoors.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub02_f02.jpg",
+              "relative_path": "8NS1330coc4/task01_sub02_f02.jpg",
+              "caption": "A person wearing a black hoodie and a beanie is standing indoors.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The young man is planning to cook something, likely as part of his preparation for the greenhouse setup. This involves some indoor planning before moving on to physical tasks.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] The young man is wearing a gray beanie and a black hoodie with the word \"NIKE\" on it.",
+            "- [frames=[0,1]] He is standing indoors, possibly in a kitchen or living area.",
+            "- [frames=[0,1]] The man is looking around, indicating he is considering what to cook.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene suggests the man is in an indoor setting, likely preparing mentally for the cooking task. He might be deciding on a recipe or gathering ingredients before moving to the greenhouse.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should know the current indoor environment layout.",
+            "- It needs to recognize the young man and understand his intentions.",
+            "- The robot should have access to a list of potential recipes and ingredients.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should confirm the man's intention to cook.",
+            "- It should verify the availability of necessary ingredients.",
+            "- The robot should check if the man has decided on a specific dish.",
+            "- It should ensure the man is ready to proceed with the next steps.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Observe the young man and his surroundings to understand his current state and intentions.",
+            "2. [type=perception, frames=[0,1]] Confirm with the man that he plans to cook something.",
+            "3. [type=perception, frames=[0,1]] Check the inventory of available ingredients.",
+            "4. [type=manipulation, frames=[0,1]] Retrieve a list of potential recipes based on available ingredients.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Observe the young man and his surroundings to understand his current state and intentions. It then verifies the key detail directly from the frames (Confirm with the man that he plans to cook something).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Retrieve a list of potential recipes based on available ingredients; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/8NS1330coc4/task01/sub02/motion.bvh",
+            "params_path": "results/momask/8NS1330coc4/task01/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

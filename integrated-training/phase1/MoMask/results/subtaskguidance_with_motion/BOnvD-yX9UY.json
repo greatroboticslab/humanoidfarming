@@ -1,0 +1,731 @@
+{
+  "video_index": "BOnvD-yX9UY",
+  "title": "Herb Gardening Indoors in Winter",
+  "url": "https://www.youtube.com/watch?v=BOnvD-yX9UY",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Provides information on indoor gardening and the benefits of growing herbs.",
+  "tasks": [
+    {
+      "task": "Discuss the reasons for gardening and the benefits of indoor gardening.",
+      "start": 0.0,
+      "end": 25.72,
+      "subtasks": [
+        {
+          "text": "Mention that there are many reasons why people garden.",
+          "start": 0.0,
+          "end": 9.84,
+          "segment_ids": [
+            0,
+            1
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "BOnvD-yX9UY/task00_sub00_f00.jpg",
+              "caption": "The video frame shows the University of Wyoming Extension logo with a grass background.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "BOnvD-yX9UY/task00_sub00_f01.jpg",
+              "caption": "A man in a tan shirt from the University of Wyoming Cooperative Extension Service is standing in front of a greenhouse with hanging plants.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "BOnvD-yX9UY/task00_sub00_f02.jpg",
+              "caption": "A man in a tan University of Wyoming shirt is standing in front of a greenhouse with plants.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will introduce the concept of gardening by mentioning its various benefits, starting with the reasons why people engage in gardening.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The video frame shows the University of Wyoming Extension logo with a grass background.",
+            "- [frames=[1,2]] A man in a tan University of Wyoming shirt is standing in front of a greenhouse with plants.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene sets up an introduction to gardening, likely to be followed by discussing its benefits. The presence of a man in a University of Wyoming shirt suggests he is an expert or representative from the university.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the concept of gardening.",
+            "- The robot should know about the benefits of gardening.",
+            "- The robot should be able to communicate effectively with the audience.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should mention that there are many reasons why people garden.",
+            "- The robot should provide a clear and concise introduction to the topic.",
+            "- The robot should maintain a professional and engaging tone throughout the introduction.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Verify the University of Wyoming Extension logo on the screen.",
+            "2. [type=perception, frames=[1,2]] Confirm the presence of the man in the tan University of Wyoming shirt.",
+            "3. [type=communication, frames=[1,2]] Greet the man and ask him to introduce the topic of gardening.",
+            "4. [type=communication, frames=[1,2]] State, \"Many people enjoy gardening for various reasons.\".",
+            "5. [type=communication, frames=[1,2]] Explain that gardening can be a rewarding hobby.",
+            "6. [type=communication, frames=[1,2]] Mention that it provides fresh produce and herbs.",
+            "7. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Verify the University of Wyoming Extension logo on the screen. It then verifies the key detail directly from the frames (Verify the University of Wyoming Extension logo on the screen). After verification, it communicates the result clearly (State, \"Many people enjoy gardening for various reasons.\").",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 9.84,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/BOnvD-yX9UY/task00/sub00/motion.bvh",
+            "params_path": "results/momask/BOnvD-yX9UY/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Describe how people garden for exercise, as a hobby, and to eat.",
+          "start": 9.84,
+          "end": 14.66,
+          "segment_ids": [
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "BOnvD-yX9UY/task00_sub01_f01.jpg",
+              "caption": "A woman is planting in a garden bed.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "BOnvD-yX9UY/task00_sub01_f02.jpg",
+              "caption": "A woman is planting in a garden bed.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment explains why people garden, specifically highlighting exercise, hobbies, and food consumption.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1,2]] A woman is seen planting in a garden bed, indicating active gardening behavior.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a woman engaged in the act of gardening, which aligns with the subtask's focus on describing the reasons behind gardening activities.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with basic gardening tools and techniques.",
+            "- The robot needs to understand the context of indoor gardening.",
+            "- The robot should know how to interact with humans in a tutorial setting.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the reasons for gardening.",
+            "- The robot should mention exercise, hobbies, and eating as benefits of gardening.",
+            "- The robot should provide a clear and concise explanation.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Observes the woman planting in the garden bed.",
+            "2. [type=manipulation, frames=[1]] Picks up a tool (e.g., trowel) to demonstrate proper gardening technique.",
+            "3. [type=communication, frames=[1]] Verbally states, \"Gardening is a great way to get exercise.\".",
+            "4. [type=manipulation, frames=[1]] Demonstrates using the tool by gently turning soil.",
+            "5. [type=communication, frames=[1]] Says, \"It’s also a fun hobby that can bring joy and relaxation.\".",
+            "6. [type=manipulation, frames=[1]] Shows how to plant seeds or seedlings.",
+            "7. [type=communication, frames=[1]] Explains, \"And of course, you can grow your own fresh produce, which is delicious and healthy.\".",
+            "8. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "9. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Observes the woman planting in the garden bed. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Picks up a tool (e.g., trowel) to demonstrate proper gardening technique; Demonstrates using the tool by gently turning soil; Shows how to plant seeds or seedlings; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 4.82,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/BOnvD-yX9UY/task00/sub01/motion.bvh",
+            "params_path": "results/momask/BOnvD-yX9UY/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Explain that it is possible to get the same satisfaction from gardening indoors as outdoors.",
+          "start": 14.66,
+          "end": 25.72,
+          "segment_ids": [
+            3,
+            4,
+            5
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub02_f01.jpg",
+              "relative_path": "BOnvD-yX9UY/task00_sub02_f01.jpg",
+              "caption": "A man in a tan University of Wyoming shirt is standing in front of a greenhouse with plants.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub02_f02.jpg",
+              "relative_path": "BOnvD-yX9UY/task00_sub02_f02.jpg",
+              "caption": "A close-up view of soil with small white particles in it, likely fertilizer.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will explain that indoor gardening can provide the same satisfaction as outdoor gardening, using visual aids to support the explanation.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A man in a tan University of Wyoming shirt is standing in front of a greenhouse with plants.",
+            "- [frames=[1]] A close-up view of soil with small white particles in it, likely fertilizer.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a man explaining the benefits of indoor gardening while standing near a greenhouse. The close-up of the soil suggests the presence of fertilizers, indicating active gardening activity.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a display screen to show images and videos.",
+            "- The robot should have a voice module to narrate the explanation.",
+            "- The robot should be able to access relevant images and videos about indoor gardening.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should clearly state that indoor gardening can provide the same satisfaction as outdoor gardening.",
+            "- The robot should visually demonstrate the greenhouse and soil to support the explanation.",
+            "- The robot should end the explanation with a positive note on the benefits of indoor gardening.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Move to the position where the man is standing.",
+            "2. [type=perception, frames=[1]] Verify the man's presence and his focus on the greenhouse.",
+            "3. [type=navigation, frames=[1]] Move to the side to show the close-up of the soil.",
+            "4. [type=communication, frames=[1]] Use the display screen to show an image of the soil with fertilizers.",
+            "5. [type=communication, frames=[1]] Narrate, \"Indoor gardening can provide the same satisfaction as outdoor gardening.\".",
+            "6. [type=navigation, frames=[1]] Return to the initial position.",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to the position where the man is standing. It then verifies the key detail directly from the frames (Verify the man's presence and his focus on the greenhouse).",
+            "To finish safely, it completes cleanup and returns to standby: Return to the initial position.",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move to the position where the man is standing; Move to the side to show the close-up of the soil; Return to the initial position; then return to a stable neutral stance.",
+            "duration_s": 11.059999999999999,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/BOnvD-yX9UY/task00/sub02/motion.bvh",
+            "params_path": "results/momask/BOnvD-yX9UY/task00/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Highlight the best opportunities for indoor gardening during the winter.",
+      "start": 25.72,
+      "end": 39.02,
+      "subtasks": [
+        {
+          "text": "Identify herbs as one of the best plants to grow indoors in the winter.",
+          "start": 25.72,
+          "end": 34.1,
+          "segment_ids": [
+            6,
+            7,
+            8
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "BOnvD-yX9UY/task01_sub00_f01.jpg",
+              "caption": "A man in a tan shirt is standing in front of a greenhouse with various plants and flowers.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "BOnvD-yX9UY/task01_sub00_f02.jpg",
+              "caption": "A man in a tan shirt is standing in a greenhouse with various plants and flowers.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to identify herbs as an ideal choice for indoor gardening during winter by observing a man in a tan shirt standing in a greenhouse filled with various plants and flowers.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1,2]] A man in a tan shirt is standing in a greenhouse with multiple plants and flowers visible.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a man in a tan shirt within a greenhouse setting, surrounded by diverse plant life. The presence of a man suggests he might be providing information about suitable indoor plants for winter.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be able to recognize a man in a tan shirt.",
+            "- The robot must be capable of identifying different types of plants and flowers.",
+            "- The robot needs to understand the context of indoor gardening during winter.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify herbs as a good choice for indoor winter gardening.",
+            "- The robot must provide a clear and accurate statement about herbs being ideal for indoor winter gardening.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1,2]] Scan the scene to locate the man in a tan shirt.",
+            "2. [type=perception, frames=[1,2]] Identify the man and confirm his presence.",
+            "3. [type=perception, frames=[1,2]] Recognize the various plants and flowers in the greenhouse.",
+            "4. [type=perception, frames=[1,2]] Determine if any of the identified plants are herbs.",
+            "5. [type=manipulation, frames=[1,2]] Point to the herbs and highlight them.",
+            "6. [type=communication, frames=[1,2]] Announce that herbs are a great choice for indoor winter gardening.",
+            "7. [type=perception, frames=[1,2]] Verify the man's agreement or confirmation on.",
+            "8. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Scan the scene to locate the man in a tan shirt. It then verifies the key detail directly from the frames (Identify the man and confirm his presence). After verification, it communicates the result clearly (Announce that herbs are a great choice for indoor winter gardening).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Point to the herbs and highlight them; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 8.380000000000003,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/BOnvD-yX9UY/task01/sub00/motion.bvh",
+            "params_path": "results/momask/BOnvD-yX9UY/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Note that herbs are hearty and can be used in the kitchen.",
+          "start": 31.42,
+          "end": 39.02,
+          "segment_ids": [
+            8,
+            9
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f00.jpg",
+              "relative_path": "BOnvD-yX9UY/task01_sub01_f00.jpg",
+              "caption": "A man in a tan shirt is standing in a greenhouse with various plants on shelves.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "BOnvD-yX9UY/task01_sub01_f01.jpg",
+              "caption": "A man in a tan shirt is standing in a greenhouse with various plants and herbs.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "BOnvD-yX9UY/task01_sub01_f02.jpg",
+              "caption": "A man in a tan University of Wyoming shirt is standing in front of a wooden wall with plants hanging from it.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment highlights the versatility of herbs for indoor gardening during winter, emphasizing their hardiness and kitchen utility.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A man in a tan shirt is standing in a greenhouse with various plants on shelves, including herbs.",
+            "- [frames=[1,2]] The man continues to stand in a greenhouse, now with a focus on herbs and plants hanging from a wooden wall.",
+            "- [frames=[2]] The man is positioned in front of a wooden wall with hanging plants, indicating a close-up on the herbs.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a man in a greenhouse, surrounded by a variety of plants, with a particular emphasis on herbs. The environment suggests a controlled growing space suitable for year-round cultivation, especially highlighting the adaptability of herbs for indoor gardening.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture the greenhouse environment.",
+            "- The robot needs to have knowledge about common herbs and their characteristics.",
+            "- The robot should be able to navigate within the greenhouse.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should identify and highlight herbs as suitable for indoor winter gardening.",
+            "- The robot should confirm the hardiness of herbs through visual inspection.",
+            "- The robot should communicate the benefits of using herbs in the kitchen.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Capture an image of the man and the plants in the greenhouse.",
+            "2. [type=perception, frames=[1,2]] Focus on the herbs and plants hanging from the wooden wall.",
+            "3. [type=navigation, frames=[0,1]] Move closer to the herbs for a detailed inspection.",
+            "4. [type=manipulation, frames=[1,2]] Adjust the camera angle to capture the hanging herbs from multiple angles.",
+            "5. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture an image of the man and the plants in the greenhouse. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Adjust the camera angle to capture the hanging herbs from multiple angles; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 7.600000000000001,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/BOnvD-yX9UY/task01/sub01/motion.bvh",
+            "params_path": "results/momask/BOnvD-yX9UY/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Provide tips for growing herbs indoors.",
+      "start": 60.1,
+      "end": 80.14,
+      "subtasks": [
+        {
+          "text": "Mention that herbs do not need to be constantly monitored, but they need care.",
+          "start": 60.1,
+          "end": 74.26,
+          "segment_ids": [
+            16,
+            19
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f00.jpg",
+              "relative_path": "BOnvD-yX9UY/task02_sub00_f00.jpg",
+              "caption": "A greenhouse display of various potted plants, including thyme, is shown.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "BOnvD-yX9UY/task02_sub00_f01.jpg",
+              "caption": "A man in a tan shirt is standing in a greenhouse with various plants and herbs.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "BOnvD-yX9UY/task02_sub00_f02.jpg",
+              "caption": "A close-up of parsley plants with a logo for the University of Wyoming Extension.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment explains that herbs require care but do not need constant monitoring, providing insight into their maintenance needs.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A greenhouse display shows various potted plants, including thyme.",
+            "- [frames=[1]] A man in a tan shirt stands in a greenhouse surrounded by different types of plants and herbs.",
+            "- [frames=[2]] A close-up of parsley plants is shown, with a logo for the University of Wyoming Extension visible.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a greenhouse setting where multiple herbs and plants are displayed. The presence of a man in the background suggests he might be explaining the care requirements for these plants.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with indoor gardening practices.",
+            "- The robot should have access to a greenhouse or similar environment.",
+            "- The robot should know about common herbs like thyme and parsley.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the herbs in the scene.",
+            "- The robot should understand that herbs require care but not constant monitoring.",
+            "- The robot should be able to convey this information accurately.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Identify the herbs present in the greenhouse display.",
+            "2. [type=perception, frames=[1]] Recognize the man in the tan shirt as the source of information.",
+            "3. [type=perception, frames=[1]] Confirm the man's role in providing gardening advice.",
+            "4. [type=perception, frames=[2]] Focus on the close-up of parsley plants to verify the type of herb being discussed.",
+            "5. [type=navigation, frames=[1]] Approach the man to gather more detailed information about herb care.",
+            "6. [type=communication, frames=[1]] Ask the man about the care requirements for the herbs.",
+            "7. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the herbs present in the greenhouse display. It then verifies the key detail directly from the frames (Confirm the man's role in providing gardening advice).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Approach the man to gather more detailed information about herb care; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 14.160000000000004,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/BOnvD-yX9UY/task02/sub00/motion.bvh",
+            "params_path": "results/momask/BOnvD-yX9UY/task02/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Suggest placing herbs where they can receive plenty of light.",
+          "start": 64.02,
+          "end": 68.22,
+          "segment_ids": [
+            17
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub01_f00.jpg",
+              "relative_path": "BOnvD-yX9UY/task02_sub01_f00.jpg",
+              "caption": "A close-up shot of a green plant with small, fuzzy leaves.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub01_f01.jpg",
+              "relative_path": "BOnvD-yX9UY/task02_sub01_f01.jpg",
+              "caption": "A man in a tan shirt is standing in a greenhouse with various plants and flowers.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub01_f02.jpg",
+              "relative_path": "BOnvD-yX9UY/task02_sub01_f02.jpg",
+              "caption": "A man in a tan shirt stands in front of a greenhouse, holding a small leaf.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should suggest an optimal location for herbs to receive ample light, based on the visual cues provided in the frames.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A close-up shot of a green plant with small, fuzzy leaves indicates the type of herb being discussed.",
+            "- [frames=[1]] A man in a tan shirt is standing in a greenhouse with various plants and flowers, suggesting a suitable environment for herbs.",
+            "- [frames=[2]] The man in a tan shirt holds a small leaf, emphasizing the importance of light for plant growth.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a greenhouse setting with multiple plants and flowers, indicating a controlled environment for growing herbs. The focus is on ensuring the herbs receive sufficient light, which is crucial for their growth.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have knowledge about the importance of light for herb growth.",
+            "- The robot should be able to identify the type of herb from the visual cues.",
+            "- The robot should know the characteristics of a well-lit environment for indoor herb cultivation.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should suggest a location within the greenhouse where herbs can receive plenty of light.",
+            "- The robot should provide a clear and concise recommendation.",
+            "- The robot should ensure the suggested location aligns with the visual cues provided.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Identify the type of herb from the close-up shot.",
+            "2. [type=perception, frames=[1]] Recognize the greenhouse environment and various plants and flowers.",
+            "3. [type=perception, frames=[2]] Confirm the importance of light by observing the man holding a leaf.",
+            "4. [type=navigation, frames=[0,1,2]] Navigate to a location in the greenhouse where herbs can receive plenty of light.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the type of herb from the close-up shot. It then verifies the key detail directly from the frames (Confirm the importance of light by observing the man holding a leaf).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to a location in the greenhouse where herbs can receive plenty of light; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 4.200000000000003,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/BOnvD-yX9UY/task02/sub01/motion.bvh",
+            "params_path": "results/momask/BOnvD-yX9UY/task02/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Recommend using good soil and avoiding overwatering.",
+          "start": 68.22,
+          "end": 74.26,
+          "segment_ids": [
+            18,
+            19
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub02_f01.jpg",
+              "relative_path": "BOnvD-yX9UY/task02_sub02_f01.jpg",
+              "caption": "A close-up of parsley leaves with a blurred background.",
+              "frame_index": 1
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should recommend using good soil and avoid overwatering when growing herbs indoors, based on a close-up of parsley leaves.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A close-up of parsley leaves with a blurred background, indicating the focus is on the plant's health.",
+            "- [frames=[1]] The leaves appear healthy but slightly wilted, suggesting potential issues with watering.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene focuses on a close-up of parsley leaves, which are a common herb used in indoor gardening. The slightly wilted appearance suggests the plant might be suffering from overwatering or poor soil quality.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot has access to a camera to observe the plant.",
+            "- The robot has knowledge about common herbs and their care requirements.",
+            "- The robot can communicate verbally and visually.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot provides accurate advice on soil quality and watering.",
+            "- The advice is clear and easy to follow.",
+            "- The robot can visually confirm the plant's current state.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Analyze the condition of the parsley leaves to determine if they are overwatered.",
+            "2. [type=communication, frames=[1]] Inform the user that the parsley leaves appear slightly wilted, which could indicate overwatering.",
+            "3. [type=perception, frames=[1]] Check the soil moisture level by analyzing the background.",
+            "4. [type=communication, frames=[1]] Advise the user to use good quality soil to ensure proper drainage and nutrient retention.",
+            "5. [type=communication, frames=[1]] Warn the user against overwatering, as it can lead to root rot and other issues.",
+            "6. [type=communication, frames=[1]] Suggest checking the soil moisture before watering to avoid over.",
+            "7. [type=navigation, frames=[1]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Analyze the condition of the parsley leaves to determine if they are overwatered. It then verifies the key detail directly from the frames (Check the soil moisture level by analyzing the background).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 6.040000000000006,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/BOnvD-yX9UY/task02/sub02/motion.bvh",
+            "params_path": "results/momask/BOnvD-yX9UY/task02/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Provide guidance on where to seek further information about herbs and indoor gardening.",
+          "start": 74.26,
+          "end": 80.14,
+          "segment_ids": [
+            20
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub03_f01.jpg",
+              "relative_path": "BOnvD-yX9UY/task02_sub03_f01.jpg",
+              "caption": "A mint plant with a label indicating it's mint chocolate flavored.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub03_f02.jpg",
+              "relative_path": "BOnvD-yX9UY/task02_sub03_f02.jpg",
+              "caption": "A man in a tan shirt from the University of Wyoming Extension Service is speaking in front of a greenhouse.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should guide viewers on where to find additional resources for growing herbs indoors by showing relevant images and providing spoken guidance.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A mint plant with a label indicating it's mint chocolate flavored is visible.",
+            "- [frames=[2]] A man in a tan shirt from the University of Wyoming Extension Service is speaking in front of a greenhouse.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a mint plant labeled as mint chocolate flavored, and a man from the University of Wyoming Extension Service providing information about indoor gardening. This suggests the man will provide credible advice on growing herbs indoors.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to the mint plant image.",
+            "- The robot should know the location of the man from the University of Wyoming Extension Service.",
+            "- The robot should be able to communicate effectively with the viewer.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should display the mint plant image.",
+            "- The robot should provide a clear statement directing viewers to the University of Wyoming Extension Service for more information.",
+            "- The robot should ensure the viewer understands the source of the information.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Move to the position of the mint plant image.",
+            "2. [type=perception, frames=[1]] Verify the presence of the mint plant image.",
+            "3. [type=communication, frames=[1]] Display the mint plant image to the viewer.",
+            "4. [type=communication, frames=[2]] Announce, \"For more information on growing herbs indoors, visit the University of Wyoming Extension Service.\".",
+            "5. [type=manipulation, frames=[2]] Point to the man from the University of Wyoming Extension Service on the screen.",
+            "6. [type=perception, frames=[2]] Confirm, \"He is a reliable source for indoor.",
+            "7. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to the position of the mint plant image. It then verifies the key detail directly from the frames (Verify the presence of the mint plant image). After verification, it communicates the result clearly (Display the mint plant image to the viewer).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move to the position of the mint plant image; Point to the man from the University of Wyoming Extension Service on the screen; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 5.8799999999999955,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/BOnvD-yX9UY/task02/sub03/motion.bvh",
+            "params_path": "results/momask/BOnvD-yX9UY/task02/sub03/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

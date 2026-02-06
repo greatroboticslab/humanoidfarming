@@ -1,0 +1,324 @@
+{
+  "video_index": "KrdwNrWQeHA",
+  "title": "Vertical Aeroponic Tower Garden Review",
+  "url": "https://www.youtube.com/watch?v=KrdwNrWQeHA",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Describes a vertical aeroplane tower garden and its benefits.",
+  "tasks": [
+    {
+      "task": "Explain the features and benefits of a vertical aeroplane tower garden.",
+      "start": 0.0,
+      "end": 22.56,
+      "subtasks": [
+        {
+          "text": "Observe the vertical aeroplane tower garden that can grow up to 44 plants in less than one square meter.",
+          "start": 0.0,
+          "end": 6.48,
+          "segment_ids": [
+            0
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "KrdwNrWQeHA/task00_sub00_f00.jpg",
+              "caption": "A man stands in a greenhouse with lettuce plants growing in white pots.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "KrdwNrWQeHA/task00_sub00_f01.jpg",
+              "caption": "A man is inspecting a vertical garden filled with lettuce plants.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "KrdwNrWQeHA/task00_sub00_f02.jpg",
+              "caption": "A man on a ladder tends to a large plant in a garden.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe a vertical aeroplane tower garden designed to grow up to 44 plants in less than one square meter. This setup is showcased in a greenhouse setting with lettuce plants.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A man stands in a greenhouse with lettuce plants growing in white pots.",
+            "- [frames=[1]] A man is inspecting a vertical garden filled with lettuce plants.",
+            "- [frames=[2]] A man on a ladder tends to a large plant in a garden.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a vertical aeroplane tower garden within a greenhouse. The garden is densely populated with lettuce plants, showcasing its compact yet efficient design. The presence of a man standing and inspecting the garden indicates that it is a key feature of the tutorial.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture images of the garden.",
+            "- The robot should have the ability to navigate through the greenhouse.",
+            "- The robot should be able to communicate with the user via audio or text.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the number of plants that can be grown in the garden.",
+            "- The robot should confirm the size of the garden area.",
+            "- The robot should verify the type of plants being grown (lettuce).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the location where the vertical aeroplane tower garden is displayed.",
+            "2. [type=perception, frames=[0,1]] Use the camera to capture images of the garden and the man inspecting it.",
+            "3. [type=navigation, frames=[1]] Approach the vertical garden and observe the lettuce plants closely.",
+            "4. [type=perception, frames=[1]] Confirm the number of plants in the garden by counting them.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the location where the vertical aeroplane tower garden is displayed. It then verifies the key detail directly from the frames (Confirm the number of plants in the garden by counting them).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the location where the vertical aeroplane tower garden is displayed; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 6.48,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/KrdwNrWQeHA/task00/sub00/motion.bvh",
+            "params_path": "results/momask/KrdwNrWQeHA/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Notice that the tower garden allows you to grow up to 160 different types of crops.",
+          "start": 6.48,
+          "end": 13.04,
+          "segment_ids": [
+            1
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "KrdwNrWQeHA/task00_sub01_f01.jpg",
+              "caption": "A man on a ladder tends to a large plant in a garden.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "KrdwNrWQeHA/task00_sub01_f02.jpg",
+              "caption": "A man stands in front of a vertical garden filled with lettuce plants.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will explain that the vertical aeroponic tower garden can grow up to 160 different types of crops, highlighting its versatility and efficiency.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A man on a ladder tends to a large plant in a garden, indicating manual maintenance.",
+            "- [frames=[2]] A man stands in front of a vertical garden filled with lettuce plants, showing a section of the garden in operation.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a vertical aeroponic tower garden with multiple levels, each containing various types of crops like lettuce. The garden is designed to maximize space and yield diverse produce.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be positioned near the vertical garden.",
+            "- The robot should have access to information about the number of crop types the garden can support.",
+            "- The robot should be able to communicate effectively with the audience.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately state the number of crop types the garden can support.",
+            "- The robot should provide a clear explanation of the garden's efficiency and versatility.",
+            "- The robot should visually confirm the presence of multiple crop types within the garden.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Move to the side of the vertical garden where it is visible.",
+            "2. [type=perception, frames=[2]] Observe the variety of crops in the garden, focusing on lettuce plants.",
+            "3. [type=manipulation, frames=[1]] Point to the man on the ladder to emphasize manual maintenance.",
+            "4. [type=communication, frames=[1,2]] Announce, \"This vertical aeroponic tower garden can grow up to 160 different types of crops.\".",
+            "5. [type=manipulation, frames=[2]] Point to the lettuce plants in the garden to illustrate the.",
+            "6. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "7. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to the side of the vertical garden where it is visible. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting). After verification, it communicates the result clearly (Announce, \"This vertical aeroponic tower garden can grow up to 160 different types of crops.\").",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move to the side of the vertical garden where it is visible; Point to the man on the ladder to emphasize manual maintenance; Point to the lettuce plants in the garden to illustrate the; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 6.559999999999999,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/KrdwNrWQeHA/task00/sub01/motion.bvh",
+            "params_path": "results/momask/KrdwNrWQeHA/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Highlight the feature that you can mix and match crops on the tower.",
+          "start": 13.04,
+          "end": 18.4,
+          "segment_ids": [
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub02_f01.jpg",
+              "relative_path": "KrdwNrWQeHA/task00_sub02_f01.jpg",
+              "caption": "A close-up view of vibrant red and orange chard leaves in a greenhouse setting.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub02_f02.jpg",
+              "relative_path": "KrdwNrWQeHA/task00_sub02_f02.jpg",
+              "caption": "A vertical garden with red and green leafy plants.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will highlight the feature of mixing and matching crops in a vertical aeroponic tower garden, emphasizing the flexibility it offers to gardeners.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A close-up view of vibrant red and orange chard leaves in a greenhouse setting.",
+            "- [frames=[2]] A vertical garden with red and green leafy plants.",
+            "- [frames=[1,2]] The presence of multiple types of plants in different colors and sizes.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a variety of crops growing in a vertical aeroponic tower, highlighting the ability to mix and match different plants. This setup allows for efficient space utilization and diverse crop cultivation.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot is positioned near the vertical aeroponic tower.",
+            "- The tower is illuminated and operational.",
+            "- Multiple types of plants are visible in the tower.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully highlights the feature of mixing and matching crops.",
+            "- The audience understands the benefits of this feature.",
+            "- The robot provides clear and concise information about the flexibility offered by the system.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Move to the close-up view of the vibrant chard leaves.",
+            "2. [type=perception, frames=[1]] Read the label or text indicating the type of plant (chard).",
+            "3. [type=navigation, frames=[2]] Move to the vertical garden with various leafy plants.",
+            "4. [type=manipulation, frames=[2]] Point to the different types of plants in the tower.",
+            "5. [type=communication, frames=[2]] Announce, \"This vertical aeroponic tower allows you to mix and match different crops.\".",
+            "6. [type=perception, frames=[2]] Verify the presence of multiple plant types by scanning the.",
+            "7. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to the close-up view of the vibrant chard leaves. It then verifies the key detail directly from the frames (Read the label or text indicating the type of plant (chard)). After verification, it communicates the result clearly (Announce, \"This vertical aeroponic tower allows you to mix and match different crops.\").",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move to the close-up view of the vibrant chard leaves; Move to the vertical garden with various leafy plants; Point to the different types of plants in the tower; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 5.359999999999999,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/KrdwNrWQeHA/task00/sub02/motion.bvh",
+            "params_path": "results/momask/KrdwNrWQeHA/task00/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Note that the tower garden uses 95% less water than traditional farming methods.",
+          "start": 18.4,
+          "end": 22.56,
+          "segment_ids": [
+            3
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub03_f01.jpg",
+              "relative_path": "KrdwNrWQeHA/task00_sub03_f01.jpg",
+              "caption": "A man stands in front of a vertical garden filled with lettuce plants.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub03_f02.jpg",
+              "relative_path": "KrdwNrWQeHA/task00_sub03_f02.jpg",
+              "caption": "A man stands in front of a vertical garden filled with lettuce.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will explain that the vertical aeroponic tower garden uses 95% less water than traditional farming methods, highlighting its efficiency.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A man stands in front of a vertical garden filled with lettuce plants.",
+            "- [frames=[2]] A man stands in front of a vertical garden filled with lettuce.",
+            "- [frames=[1,2]] The garden is vertical and contains multiple levels of planters.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a man standing in front of a vertical aeroponic tower garden, which is filled with lettuce plants. The garden is designed to be efficient in terms of space and water usage.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be positioned near the vertical garden.",
+            "- The robot should have access to information about the water-saving feature of the garden.",
+            "- The robot should be able to communicate effectively with the audience.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately convey the water-saving benefit of the vertical garden.",
+            "- The robot should maintain eye contact with the audience during the explanation.",
+            "- The robot should ensure the audience understands the significance of the 95% water reduction.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Move to a position near the vertical garden.",
+            "2. [type=perception, frames=[1]] Confirm the presence of the vertical garden by visually inspecting it.",
+            "3. [type=communication, frames=[1]] Address the audience and begin the explanation.",
+            "4. [type=manipulation, frames=[2]] Point to the vertical garden to emphasize the feature being discussed.",
+            "5. [type=communication, frames=[2]] Explain that the vertical garden uses 95% less water than traditional farming methods.",
+            "6. [type=manipulation, frames=[1]] Point to.",
+            "7. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to a position near the vertical garden. It then verifies the key detail directly from the frames (Confirm the presence of the vertical garden by visually inspecting it).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move to a position near the vertical garden; Point to the vertical garden to emphasize the feature being discussed; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 4.16,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/KrdwNrWQeHA/task00/sub03/motion.bvh",
+            "params_path": "results/momask/KrdwNrWQeHA/task00/sub03/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

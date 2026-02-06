@@ -1,0 +1,337 @@
+{
+  "video_index": "DR_oWbpxtTM",
+  "title": "African Nightcrawler Farming Revolution Explained",
+  "url": "https://www.youtube.com/watch?v=DR_oWbpxtTM",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "The video describes a new method of organic farming and its benefits.",
+  "tasks": [
+    {
+      "task": "Introduce the concept of vermiculture and its importance in organic farming.",
+      "start": 6.0,
+      "end": 28.0,
+      "subtasks": [
+        {
+          "text": "Highlight the use of African Nightcrawlers in turning kitchen scraps into fertilizer.",
+          "start": 6.0,
+          "end": 17.0,
+          "segment_ids": [
+            1,
+            2,
+            3
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "DR_oWbpxtTM/task00_sub00_f00.jpg",
+              "caption": "A worm is emerging from the ground in a forest.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "DR_oWbpxtTM/task00_sub00_f01.jpg",
+              "caption": "A close-up of earthworms in a pile, with the caption \"tirelessly beneath.\"",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "DR_oWbpxtTM/task00_sub00_f02.jpg",
+              "caption": "A close-up of earthworms in soil, with a caption that reads, \"It's like magic, but.\"",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on highlighting the role of African Nightcrawlers in converting kitchen scraps into fertilizer through vermiculture.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A worm emerges from the ground in a forest setting, indicating natural habitat.",
+            "- [frames=[1]] Close-up of earthworms in a pile, emphasizing their tireless activity underground.",
+            "- [frames=[2]] Another close-up of earthworms in soil, suggesting the magical transformation process.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from a natural environment to a more controlled setting where earthworms are actively involved in the decomposition process, turning organic waste into valuable fertilizer. This highlights the importance of vermiculture in sustainable farming practices.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture the scenes.",
+            "- The robot needs to have a basic understanding of earthworm behavior and vermiculture.",
+            "- The robot must be able to navigate within the filming area.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify earthworms in different stages of the process.",
+            "- It should convey the idea of continuous activity and transformation.",
+            "- The robot must effectively communicate the benefits of using African Nightcrawlers in organic farming.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Capture an image of a worm emerging from the ground to show natural habitat.",
+            "2. [type=navigation, frames=[1]] Move to a closer position to capture the earthworms in a pile.",
+            "3. [type=perception, frames=[1]] Verify the presence of multiple earthworms in the pile.",
+            "4. [type=navigation, frames=[2]] Position the camera to focus on earthworms in soil.",
+            "5. [type=perception, frames=[2]] Confirm the ongoing activity of earthworms in.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture an image of a worm emerging from the ground to show natural habitat. It then verifies the key detail directly from the frames (Verify the presence of multiple earthworms in the pile).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move to a closer position to capture the earthworms in a pile; Position the camera to focus on earthworms in soil; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 11.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/DR_oWbpxtTM/task00/sub00/motion.bvh",
+            "params_path": "results/momask/DR_oWbpxtTM/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Explain how vermiculture is an eco-friendly and cost-effective farming method.",
+          "start": 17.0,
+          "end": 28.0,
+          "segment_ids": [
+            4,
+            5,
+            6
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "DR_oWbpxtTM/task00_sub01_f01.jpg",
+              "caption": "A vegetable garden with rows of lettuce and other plants, with the text \"cultivating worms, is\" overlaid.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "DR_oWbpxtTM/task00_sub01_f02.jpg",
+              "caption": "A person in a red apron is tending to a garden.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Explain how vermiculture is an eco-friendly and cost-effective farming method by highlighting its benefits and practical applications.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A vegetable garden with rows of lettuce and other plants, with the text \"cultivating worms, is\" overlaid.",
+            "- [frames=[2]] A person in a red apron is tending to a garden.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a typical vegetable garden with various plants, emphasizing the role of worms in the cultivation process. The overlay text suggests that the focus will be on vermiculture, which involves using earthworms to improve soil quality and manage organic waste.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the concept of vermiculture.",
+            "- The robot should have access to relevant information about the benefits of vermiculture.",
+            "- The robot should be able to communicate effectively with the audience.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Clearly explain the eco-friendliness of vermiculture.",
+            "- Highlight the cost-effectiveness of vermiculture.",
+            "- Provide examples of how vermiculture can be implemented in a garden setting.",
+            "- Engage the audience with relevant visuals and explanations.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Read the overlay text \"cultivating worms, is\" and confirm the context.",
+            "2. [type=communication, frames=[1]] Announce the introduction to vermiculture.",
+            "3. [type=navigation, frames=[2]] Move to the area where the person in the red apron is tending to the garden.",
+            "4. [type=manipulation, frames=[2]] Demonstrate the process of adding compost to the garden bed.",
+            "5. [type=perception, frames=[2]] Observe the person tending to the garden and note the use of compost.",
+            "6. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Read the overlay text \"cultivating worms, is\" and confirm the context. It then verifies the key detail directly from the frames (Read the overlay text \"cultivating worms, is\" and confirm the context). After verification, it communicates the result clearly (Announce the introduction to vermiculture).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move to the area where the person in the red apron is tending to the garden; Demonstrate the process of adding compost to the garden bed; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 11.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/DR_oWbpxtTM/task00/sub01/motion.bvh",
+            "params_path": "results/momask/DR_oWbpxtTM/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Detail the benefits of using African Nightcrawlers in crop production.",
+      "start": 28.0,
+      "end": 41.8,
+      "subtasks": [
+        {
+          "text": "Describe how African Nightcrawlers transform waste into natural fertilizer for plants.",
+          "start": 28.0,
+          "end": 36.0,
+          "segment_ids": [
+            7,
+            8
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "DR_oWbpxtTM/task01_sub00_f01.jpg",
+              "caption": "A person is working in a garden, transforming waste into plants.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "DR_oWbpxtTM/task01_sub00_f02.jpg",
+              "caption": "A woman carries a basket of vegetables through a lush, green garden.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "African Nightcrawlers convert waste into natural fertilizer, enriching the soil for plant growth. This process is visually demonstrated in the tutorial video.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A person is seen working in a garden, indicating manual labor involved in the process.",
+            "- [frames=[2]] A woman carrying a basket of vegetables through a garden suggests the presence of crops and organic matter.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a garden setting where a person is actively engaged in transforming waste into a beneficial resource for plants. The presence of a woman carrying vegetables further emphasizes the agricultural context.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with tools for handling organic materials.",
+            "- The robot needs to navigate within the garden environment.",
+            "- The robot must be capable of identifying and collecting waste materials.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should successfully collect waste materials.",
+            "- The collected waste should be transformed into a form suitable for use as fertilizer.",
+            "- The robot should verify the quality of the fertilizer before application.",
+            "- The robot should ensure the area is clean and organized post-operation.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate to the location where the person is working in the garden.",
+            "2. [type=perception, frames=[1]] Use sensors to identify and locate waste materials.",
+            "3. [type=manipulation, frames=[1]] Collect the identified waste materials using robotic arms.",
+            "4. [type=navigation, frames=[2]] Move to a designated area for processing the waste.",
+            "5. [type=manipulation, frames=[2]] Process the waste into a form suitable for use as fertilizer.",
+            "6. [type=perception, frames=[2]] Verify the quality of the processed fertilizer.",
+            "7. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the location where the person is working in the garden. It then verifies the key detail directly from the frames (Verify the quality of the processed fertilizer).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the location where the person is working in the garden; Collect the identified waste materials using robotic arms; Move to a designated area for processing the waste; Process the waste into a form suitable for use as fertilizer; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 8.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/DR_oWbpxtTM/task01/sub00/motion.bvh",
+            "params_path": "results/momask/DR_oWbpxtTM/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Emphasize the quick turnaround and increased profits from using African Nightcrawlers.",
+          "start": 36.0,
+          "end": 41.8,
+          "segment_ids": [
+            9,
+            10
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "DR_oWbpxtTM/task01_sub01_f01.jpg",
+              "caption": "A group of people are working in a garden, with one person carrying a basket of vegetables.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "DR_oWbpxtTM/task01_sub01_f02.jpg",
+              "caption": "A man is tending to plants in a garden while a woman stands behind him.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should observe the quick turnaround and increased profits from using African Nightcrawlers in a garden setting, emphasizing the efficiency and economic benefits.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A group of people are working in a garden, with one person carrying a basket of vegetables.",
+            "- [frames=[2]] A man is tending to plants in a garden while a woman stands behind him.",
+            "- [frames=[1,2]] The garden appears well-maintained with healthy-looking plants.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a typical garden setting where multiple individuals are actively engaged in gardening activities. The presence of a basket of vegetables suggests recent harvesting, indicating a quick turnaround in crop production. The interaction between the man and woman implies teamwork and efficient labor utilization.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot must be equipped with a camera to capture the garden environment.",
+            "- The robot should have knowledge about the benefits of African Nightcrawlers in crop production.",
+            "- The robot needs to be able to communicate the benefits effectively to the viewers.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the benefits of using African Nightcrawlers.",
+            "- The robot must convey the message of quick turnaround and increased profits clearly.",
+            "- The robot should ensure that the information is presented in a visually engaging manner.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Capture an image of the group of people working in the garden.",
+            "2. [type=perception, frames=[2]] Observe the man tending to the plants and the woman standing behind him.",
+            "3. [type=manipulation, frames=[1]] Pick up a sample of vegetables from the basket.",
+            "4. [type=manipulation, frames=[2]] Place the vegetable sample on a designated display area.",
+            "5. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "6. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture an image of the group of people working in the garden. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Pick up a sample of vegetables from the basket; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 5.799999999999997,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/DR_oWbpxtTM/task01/sub01/motion.bvh",
+            "params_path": "results/momask/DR_oWbpxtTM/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

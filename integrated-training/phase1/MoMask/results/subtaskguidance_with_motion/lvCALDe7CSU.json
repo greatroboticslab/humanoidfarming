@@ -1,0 +1,617 @@
+{
+  "video_index": "lvCALDe7CSU",
+  "title": "Classifying Pets Farm Animals and Zoo Animals",
+  "url": "https://www.youtube.com/watch?v=lvCALDe7CSU",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "The video describes the classification of different animals into pets, farm animals, and zoo animals.",
+  "tasks": [
+    {
+      "task": "Explain the classification of animals as pets, farm animals, and zoo animals.",
+      "start": 11.15,
+      "end": 206.38,
+      "subtasks": [
+        {
+          "text": "Describe the definition of pets as animals kept for companionship and entertainment.",
+          "start": 11.15,
+          "end": 32.63,
+          "segment_ids": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "lvCALDe7CSU/task00_sub00_f00.jpg",
+              "caption": "A woman with glasses and a ponytail is surrounded by various cartoon animals.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "lvCALDe7CSU/task00_sub00_f01.jpg",
+              "caption": "A woman with glasses and a ponytail is surrounded by various cartoon animals.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "lvCALDe7CSU/task00_sub00_f02.jpg",
+              "caption": "A woman with glasses and a ponytail is surrounded by various cartoon animals.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub00_f03.jpg",
+              "relative_path": "lvCALDe7CSU/task00_sub00_f03.jpg",
+              "caption": "A woman with glasses and a ponytail is surrounded by various cartoon animals.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task00_sub00_f04.jpg",
+              "relative_path": "lvCALDe7CSU/task00_sub00_f04.jpg",
+              "caption": "A tranquil autumn landscape with a turkey and pumpkins in a forest.",
+              "frame_index": 4
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will explain the definition of pets as animals kept for companionship and entertainment, using a series of frames showing a woman surrounded by cartoon animals.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1,2,3]] The woman with glasses and a ponytail is consistently shown surrounded by various cartoon animals.",
+            "- [frame=4] A tranquil autumn landscape with a turkey and pumpkins in a forest appears, which is not relevant to the explanation of pets.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene primarily focuses on a woman interacting with cartoon animals, likely setting up an educational context for explaining the concept of pets.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to a pre-recorded explanation about pets.",
+            "- The robot should be able to navigate to the correct position to face the camera.",
+            "- The robot should be capable of manipulating its arms to point towards the relevant animals in the frames.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately define pets as animals kept for companionship and entertainment.",
+            "- The robot should correctly identify and point to the animals in the frames.",
+            "- The robot should maintain eye contact with the viewer during the explanation.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2,3,4]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2,3,4]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2,3,4]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2,3,4]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2,3,4]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 21.480000000000004,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/lvCALDe7CSU/task00/sub00/motion.bvh",
+            "params_path": "results/momask/lvCALDe7CSU/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "List examples of common pets such as dogs, rabbits, birds, fish, and turtles.",
+          "start": 41.35,
+          "end": 47.91,
+          "segment_ids": [
+            5
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f00.jpg",
+              "relative_path": "lvCALDe7CSU/task00_sub01_f00.jpg",
+              "caption": "A woman with glasses is surrounded by images of pets, including a dog, cat, fish, and a bird.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "lvCALDe7CSU/task00_sub01_f02.jpg",
+              "caption": "A woman with glasses is surrounded by images of pets, including a dog, cat, fish, and a bird.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will list common examples of pets such as dogs, rabbits, birds, fish, and turtles, ensuring clarity on what constitutes a pet.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The scene shows a woman with glasses surrounded by images of various pets, including a dog, cat, fish, and a bird.",
+            "- [frames=[0]] The images are diverse, covering different types of pets.",
+            "- [frames=[0]] The woman appears attentive and ready to provide information about the pets.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The robot is expected to identify and list common pets based on the images provided. The scene indicates a focus on familiar household pets, which the robot needs to recognize and articulate.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to a database of common pets.",
+            "- The robot must be able to visually identify the images of pets.",
+            "- The robot should be capable of speaking clearly and concisely.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Correctly identify and name at least five common pets.",
+            "- Provide a clear and concise explanation for each pet.",
+            "- Ensure the explanation aligns with the images shown.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 6.559999999999995,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/lvCALDe7CSU/task00/sub01/motion.bvh",
+            "params_path": "results/momask/lvCALDe7CSU/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Define farm animals as those that live on farms and are used for production.",
+          "start": 47.91,
+          "end": 89.95,
+          "segment_ids": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub02_f03.jpg",
+              "relative_path": "lvCALDe7CSU/task00_sub02_f03.jpg",
+              "caption": "A woman with glasses is surrounded by images of pets, including a dog, cat, and fish.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task00_sub02_f04.jpg",
+              "relative_path": "lvCALDe7CSU/task00_sub02_f04.jpg",
+              "caption": "A cartoon dog is hugging a boy who is sitting on a ball.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task00_sub02_f05.jpg",
+              "relative_path": "lvCALDe7CSU/task00_sub02_f05.jpg",
+              "caption": "A girl is walking with a cat.",
+              "frame_index": 5
+            },
+            {
+              "image_file": "task00_sub02_f06.jpg",
+              "relative_path": "lvCALDe7CSU/task00_sub02_f06.jpg",
+              "caption": "Three arrows with different colors and designs are flying against a blue background.",
+              "frame_index": 6
+            },
+            {
+              "image_file": "task00_sub02_f07.jpg",
+              "relative_path": "lvCALDe7CSU/task00_sub02_f07.jpg",
+              "caption": "A goldfish is swimming in a fishbowl.",
+              "frame_index": 7
+            },
+            {
+              "image_file": "task00_sub02_f08.jpg",
+              "relative_path": "lvCALDe7CSU/task00_sub02_f08.jpg",
+              "caption": "A turtle is sitting on a rock in a fish tank.",
+              "frame_index": 8
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will explain that farm animals are those living on farms and used for production purposes.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[3]] The scene shows a woman with glasses surrounded by images of pets, including a dog, cat, and fish.",
+            "- [frames=[4]] A cartoon dog is hugging a boy who is sitting on a ball.",
+            "- [frames=[5]] A girl is walking with a cat.",
+            "- [frames=[6]] Three arrows with different colors and designs are flying against a blue background.",
+            "- [frames=[7]] A goldfish is swimming in a fishbowl.",
+            "- [frames=[8]] A turtle is sitting on a rock in a fish tank.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The images depict various pets, which are not relevant to the explanation of farm animals. The arrows suggest a transition or categorization process, but they are not directly related to the definition of farm animals.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have knowledge about common farm animals.",
+            "- The robot should be able to distinguish between pets and farm animals.",
+            "- The robot should be prepared to provide a clear definition of farm animals.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately define farm animals as (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[3,4,5,6,7,8]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[3,4,5,6,7,8]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[3,4,5,6,7,8]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[3,4,5,6,7,8]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[3,4,5,6,7,8]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 42.040000000000006,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/lvCALDe7CSU/task00/sub02/motion.bvh",
+            "params_path": "results/momask/lvCALDe7CSU/task00/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Provide examples of farm animals like pigs, chickens, ducks, horses, sheep, cows, and goats.",
+          "start": 92.57,
+          "end": 130.3,
+          "segment_ids": [
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub03_f00.jpg",
+              "relative_path": "lvCALDe7CSU/task00_sub03_f00.jpg",
+              "caption": "A cartoon character in a red shirt is surrounded by farm animals and a red barn.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub03_f01.jpg",
+              "relative_path": "lvCALDe7CSU/task00_sub03_f01.jpg",
+              "caption": "A cartoon character in a red shirt is surrounded by farm animals and a red barn.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub03_f02.jpg",
+              "relative_path": "lvCALDe7CSU/task00_sub03_f02.jpg",
+              "caption": "A cartoon character in a red shirt is surrounded by farm animals and a red barn.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub03_f03.jpg",
+              "relative_path": "lvCALDe7CSU/task00_sub03_f03.jpg",
+              "caption": "A cartoon character in a red shirt is surrounded by farm animals and a red barn.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task00_sub03_f04.jpg",
+              "relative_path": "lvCALDe7CSU/task00_sub03_f04.jpg",
+              "caption": "The video frame shows a group of cartoon pigs.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task00_sub03_f05.jpg",
+              "relative_path": "lvCALDe7CSU/task00_sub03_f05.jpg",
+              "caption": "The video shows a farm with chickens and a barn.",
+              "frame_index": 5
+            },
+            {
+              "image_file": "task00_sub03_f06.jpg",
+              "relative_path": "lvCALDe7CSU/task00_sub03_f06.jpg",
+              "caption": "A horse is lying down in a farm setting with a barn and trees in the background.",
+              "frame_index": 6
+            },
+            {
+              "image_file": "task00_sub03_f07.jpg",
+              "relative_path": "lvCALDe7CSU/task00_sub03_f07.jpg",
+              "caption": "A cartoon scene with a red barn, a scarecrow, and sheep in front of it.",
+              "frame_index": 7
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will explain examples of farm animals such as pigs, chickens, ducks, horses, sheep, cows, and goats, using a series of cartoon scenes set on a farm.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A cartoon character in a red shirt is surrounded by various farm animals and a red barn.",
+            "- [frame=2] The same scene as frame 0 and 1, indicating continuity.",
+            "- [frame=3] A close-up of a group of cartoon pigs.",
+            "- [frame=4] A farm scene showing chickens and a barn.",
+            "- [frame=5] A horse lying down in a farm setting with a barn and trees in the background.",
+            "- [frame=6] A cartoon scene featuring a red barn, a scarecrow, and sheep in front of it.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict a typical farm setting with a red barn, various farm animals, and natural elements like trees. The character in the red shirt interacts with the animals, likely providing explanations about them.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be able to recognize and identify different farm animals.",
+            "- The robot must have knowledge about the characteristics and roles of farm animals.",
+            "- (completed).",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- (auto-filled) Robot completes the subtask and reports outcomes.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2,3,4,5,6,7]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2,3,4,5,6,7]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2,3,4,5,6,7]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2,3,4,5,6,7]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2,3,4,5,6,7]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 37.73000000000002,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/lvCALDe7CSU/task00/sub03/motion.bvh",
+            "params_path": "results/momask/lvCALDe7CSU/task00/sub03/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Explain that zoo animals are wild animals that are dangerous and cannot be domesticated.",
+          "start": 130.3,
+          "end": 187.67,
+          "segment_ids": [
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub04_f01.jpg",
+              "relative_path": "lvCALDe7CSU/task00_sub04_f01.jpg",
+              "caption": "A cow is standing in front of a red barn in a grassy field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub04_f02.jpg",
+              "relative_path": "lvCALDe7CSU/task00_sub04_f02.jpg",
+              "caption": "A cartoon character with a speech bubble saying \"Zoo Animals\" is surrounded by various zoo animals.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub04_f03.jpg",
+              "relative_path": "lvCALDe7CSU/task00_sub04_f03.jpg",
+              "caption": "A woman in a zoo setting with a panda and other animals.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task00_sub04_f04.jpg",
+              "relative_path": "lvCALDe7CSU/task00_sub04_f04.jpg",
+              "caption": "A woman in a zoo setting with a panda and a monkey.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task00_sub04_f05.jpg",
+              "relative_path": "lvCALDe7CSU/task00_sub04_f05.jpg",
+              "caption": "A tiger is in a cage with a tree and a brick wall in the background.",
+              "frame_index": 5
+            },
+            {
+              "image_file": "task00_sub04_f06.jpg",
+              "relative_path": "lvCALDe7CSU/task00_sub04_f06.jpg",
+              "caption": "A cartoon scene featuring giraffes in a zoo setting.",
+              "frame_index": 6
+            },
+            {
+              "image_file": "task00_sub04_f07.jpg",
+              "relative_path": "lvCALDe7CSU/task00_sub04_f07.jpg",
+              "caption": "The video shows a group of monkeys in a forest setting.",
+              "frame_index": 7
+            },
+            {
+              "image_file": "task00_sub04_f08.jpg",
+              "relative_path": "lvCALDe7CSU/task00_sub04_f08.jpg",
+              "caption": "A zebra is standing next to a sign that says \"Zebra.\"",
+              "frame_index": 8
+            },
+            {
+              "image_file": "task00_sub04_f09.jpg",
+              "relative_path": "lvCALDe7CSU/task00_sub04_f09.jpg",
+              "caption": "A colorful snake is seen through a hole in a blue and white background.",
+              "frame_index": 9
+            },
+            {
+              "image_file": "task00_sub04_f10.jpg",
+              "relative_path": "lvCALDe7CSU/task00_sub04_f10.jpg",
+              "caption": "A bear is inside a cage with a sign that says \"Bear.\"",
+              "frame_index": 10
+            },
+            {
+              "image_file": "task00_sub04_f11.jpg",
+              "relative_path": "lvCALDe7CSU/task00_sub04_f11.jpg",
+              "caption": "The video shows crocodiles in a zoo enclosure.",
+              "frame_index": 11
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will explain that zoo animals are wild and dangerous, unable to be domesticated, using images of various zoo animals.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A cow is standing in front of a red barn in a grassy field.",
+            "- [frames=[2]] A cartoon character with a speech bubble saying \"Zoo Animals\" is surrounded by various zoo animals.",
+            "- [frames=[3,4]] A woman in a zoo setting with a panda and other animals.",
+            "- [frames=[5]] A tiger is in a cage with a tree and a brick wall in the background.",
+            "- [frames=[6]] A cartoon scene featuring giraffes in a zoo setting.",
+            "- [frames=[7]] The video shows a group of monkeys in a forest setting.",
+            "- [frames=[8]] A zebra is standing next to a sign that says \"Zebra.\"",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict different zoo animals such as tigers, pandas, giraffes, and zebras in various settings. These animals are wild and cannot be domesticated, which is the key point to convey.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to the video frames and captions",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- (auto-filled) Robot completes the subtask and reports outcomes.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2,3,4,5,6,7,8,9,10,11]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[1,2,3,4,5,6,7,8,9,10,11]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[1,2,3,4,5,6,7,8,9,10,11]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[1,2,3,4,5,6,7,8,9,10,11]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[1,2,3,4,5,6,7,8,9,10,11]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 57.369999999999976,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/lvCALDe7CSU/task00/sub04/motion.bvh",
+            "params_path": "results/momask/lvCALDe7CSU/task00/sub04/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "List examples of zoo animals such as lions, monkeys, elephants, and snakes.",
+          "start": 187.67,
+          "end": 206.38,
+          "segment_ids": [
+            21,
+            22,
+            23
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub05_f01.jpg",
+              "relative_path": "lvCALDe7CSU/task00_sub05_f01.jpg",
+              "caption": "The video frame shows a sign with the text \"Identify animals that belong to the group.\"",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub05_f02.jpg",
+              "relative_path": "lvCALDe7CSU/task00_sub05_f02.jpg",
+              "caption": "The video frame shows various pets, including a dog, a crocodile, a cat, a rabbit, a fish, and a parrot.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub05_f03.jpg",
+              "relative_path": "lvCALDe7CSU/task00_sub05_f03.jpg",
+              "caption": "The video frame shows various pets, including a dog, a crocodile, a cat, a fish, and a parrot, with red checkmarks indicating they",
+              "frame_index": 3
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will list examples of zoo animals, such as lions, monkeys, elephants, and snakes, in response to the task of classifying animals into different groups.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A sign is shown with the text \"Identify animals that belong to the group.\"",
+            "- [frames=[2]] Various pets are displayed, including a dog, a crocodile, a cat, a rabbit, a fish, and a parrot.",
+            "- [frames=[3]] The same pets from frame 2 are shown again, but with red checkmarks indicating which ones are pets.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from showing a sign about animal groups to displaying various pets, some of which are marked as pets by red checkmarks. This indicates that the robot should focus on the pets and understand the context of grouping animals.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot must recognize the sign indicating the task.",
+            "- The robot should identify the pets and understand their classification.",
+            "- The robot needs to be aware of the red checkmarks to distinguish between pets and other animals.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify and list the pets.",
+            "- The robot must accurately differentiate between pets and (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2,3]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[1,2,3]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[1,2,3]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[1,2,3]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[1,2,3]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 18.710000000000008,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/lvCALDe7CSU/task00/sub05/motion.bvh",
+            "params_path": "results/momask/lvCALDe7CSU/task00/sub05/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

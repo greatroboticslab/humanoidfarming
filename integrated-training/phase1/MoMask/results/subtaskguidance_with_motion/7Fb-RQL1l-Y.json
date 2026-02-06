@@ -1,0 +1,810 @@
+{
+  "video_index": "7Fb-RQL1l-Y",
+  "title": "Rice农业娇宠：从种子到丰收的全貌 春种秋收",
+  "url": "https://www.youtube.com/watch?v=7Fb-RQL1l-Y",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "The video describes various farming techniques and sustainable practices.",
+  "tasks": [
+    {
+      "task": "Describe rice planting and its cultivation process.",
+      "start": 67.04,
+      "end": 83.36,
+      "subtasks": [
+        {
+          "text": "Observe the selection of rice seeds that are carefully chosen for their resilience and suitability to local conditions.",
+          "start": 67.04,
+          "end": 73.24,
+          "segment_ids": [
+            11
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "7Fb-RQL1l-Y/task00_sub00_f00.jpg",
+              "caption": "Three people are planting rice in a flooded field.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "7Fb-RQL1l-Y/task00_sub00_f01.jpg",
+              "caption": "A person is holding a handful of grain in their hands.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "7Fb-RQL1l-Y/task00_sub00_f02.jpg",
+              "caption": "A person is holding a handful of soil in their hands.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene focuses on the careful selection of rice seeds, highlighting the importance of choosing resilient varieties suitable for the local environment.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] Three individuals are seen planting rice in a flooded field, indicating the ongoing agricultural activity.",
+            "- [frames=[1]] A person is holding a handful of grain in their hands, suggesting they are examining the seeds closely.",
+            "- [frames=[2]] Another person is holding a handful of soil, possibly to compare it with the seeds or to ensure the soil quality is appropriate for planting.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts the initial stage of rice cultivation where the selection of seeds is crucial. The farmers are ensuring that the seeds they choose are not only robust but also well-suited to the local growing conditions, which is essential for successful crop growth.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the current location within the flooded field.",
+            "- It needs to have access to a database of rice seed types and their characteristics.",
+            "- The robot should be equipped with tools for handling seeds and soil samples.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should identify and select a suitable variety of rice seeds.",
+            "- It should confirm that the selected seeds are resilient and suitable for the local conditions.",
+            "- The robot should verify that the soil quality is appropriate for planting.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Navigate to the area where the farmers are selecting seeds.",
+            "2. [type=perception, frames=[1]] Read the characteristics of the seeds being held by the farmer.",
+            "3. [type=perception, frames=[2]] Measure the quality of the soil being held by another farmer.",
+            "4. [type=manipulation, frames=[1]] Select a handful of seeds based on their resilience and suitability.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the area where the farmers are selecting seeds. It then verifies the key detail directly from the frames (Read the characteristics of the seeds being held by the farmer).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the area where the farmers are selecting seeds; Select a handful of seeds based on their resilience and suitability; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 6.199999999999989,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/7Fb-RQL1l-Y/task00/sub00/motion.bvh",
+            "params_path": "results/momask/7Fb-RQL1l-Y/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Note the process of planting rice seeds by hand in a prepared patty, emphasizing the labor involved.",
+          "start": 73.24,
+          "end": 77.76,
+          "segment_ids": [
+            12
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "7Fb-RQL1l-Y/task00_sub01_f01.jpg",
+              "caption": "Three women in traditional hats are planting rice in a muddy field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "7Fb-RQL1l-Y/task00_sub01_f02.jpg",
+              "caption": "Three women in traditional hats are planting rice in a muddy field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Three women in traditional hats are manually planting rice seeds in a muddy field, highlighting the labor-intensive nature of the task.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] Three women in traditional hats are seen planting rice seeds in a muddy field.",
+            "- [frames=[2]] The same scene is repeated, showing the ongoing process of planting rice seeds.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The women are meticulously placing rice seeds into small patties, which they then plant in the muddy soil. This process requires careful handling and precision due to the soft and wet conditions of the field.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with tools suitable for handling and planting rice seeds.",
+            "- The robot needs to be familiar with the texture and consistency of muddy soil.",
+            "- The robot must have the ability to recognize and manipulate small objects like rice seeds.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully plants rice seeds in the prepared patties.",
+            "- The seeds are placed accurately and evenly.",
+            "- The patties are properly covered with soil.",
+            "- The robot ensures the field remains undisturbed and clean after planting.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Move to the location where the women are planting rice seeds.",
+            "2. [type=perception, frames=[1]] Scan the area to identify the prepared patties and the muddy soil.",
+            "3. [type=manipulation, frames=[1]] Pick up a rice seed using a specialized tool.",
+            "4. [type=manipulation, frames=[1]] Place the rice seed into a prepared patty.",
+            "5. [type=manipulation, frames=[1]] Cover the patty with a small amount of soil.",
+            "6. [type=manipulation, frames=[1]] Repeat steps 3 to 5 until all seeds are planted.",
+            "7. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "8. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to the location where the women are planting rice seeds. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move to the location where the women are planting rice seeds; Pick up a rice seed using a specialized tool; Place the rice seed into a prepared patty; Cover the patty with a small amount of soil; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 4.52000000000001,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/7Fb-RQL1l-Y/task00/sub01/motion.bvh",
+            "params_path": "results/momask/7Fb-RQL1l-Y/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Notice the flooded field (patty) created for rice cultivation and the importance of a well-prepared environment for the rice to grow.",
+          "start": 77.76,
+          "end": 83.36,
+          "segment_ids": [
+            13
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub02_f01.jpg",
+              "relative_path": "7Fb-RQL1l-Y/task00_sub02_f01.jpg",
+              "caption": "The video frame shows a lush, green landscape with rice paddies and palm trees.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub02_f02.jpg",
+              "relative_path": "7Fb-RQL1l-Y/task00_sub02_f02.jpg",
+              "caption": "The video frame shows a vast rice field with patches of water and a small island surrounded by trees.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on identifying a flooded field used for rice cultivation and understanding the importance of preparing the environment for optimal growth.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A lush, green landscape with rice paddies and palm trees is visible.",
+            "- [frames=[2]] A vast rice field with patches of water is shown, including a small island surrounded by trees.",
+            "- [frames=[1,2]] The field appears to be prepared for rice cultivation, with water present in some areas.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a typical rice paddy field where water has been introduced to create a flooded environment, essential for rice growth. The presence of palm trees suggests a tropical or subtropical climate suitable for rice cultivation.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with sensors to detect water levels and vegetation.",
+            "- The robot needs to have a map or prior knowledge of the field layout.",
+            "- The robot must be able to navigate through the field without causing damage.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Verify the presence of water in the field.",
+            "- Confirm the absence of any obstacles that could hinder rice growth.",
+            "- Measure the water depth to ensure it is suitable for rice cultivation.",
+            "- Check the soil quality and vegetation to assess the readiness of the field.",
+            "- Cross-check the environmental conditions against optimal rice growth parameters.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate to the center of the rice field.",
+            "2. [type=perception, frames=[1]] Use sensors to verify the presence of water in the field.",
+            "3. [type=navigation, frames=[2]] Move towards the small island surrounded by trees.",
+            "4. [type=perception, frames=[2]] Confirm the absence of any obstacles that could hinder rice growth.",
+            "5. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the center of the rice field. It then verifies the key detail directly from the frames (Use sensors to verify the presence of water in the field).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the center of the rice field; Move towards the small island surrounded by trees; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 5.599999999999994,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/7Fb-RQL1l-Y/task00/sub02/motion.bvh",
+            "params_path": "results/momask/7Fb-RQL1l-Y/task00/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Highlight sustainable rice farming practices.",
+      "start": 95.56,
+      "end": 134.38,
+      "subtasks": [
+        {
+          "text": "Look at the use of organic matter, such as compost or manure, to enrich the soil and enhance its fertility.",
+          "start": 126.38,
+          "end": 134.38,
+          "segment_ids": [
+            22
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "7Fb-RQL1l-Y/task01_sub00_f00.jpg",
+              "caption": "A person is riding a horse through a field, with the word \"penetrate\" appearing on the screen.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "7Fb-RQL1l-Y/task01_sub00_f01.jpg",
+              "caption": "A bucket is being used to incorporate compost into a pile of soil.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "7Fb-RQL1l-Y/task01_sub00_f02.jpg",
+              "caption": "A person in rubber boots is standing in a garden with young plants growing in the soil.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on demonstrating the use of organic matter like compost or manure to enrich the soil and enhance its fertility, which is a key practice in sustainable rice farming.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A person is riding a horse through a field, with the word \"penetrate\" appearing on the screen.",
+            "- [frames=[1]] A bucket is being used to incorporate compost into a pile of soil.",
+            "- [frames=[2]] A person in rubber boots is standing in a garden with young plants growing in the soil.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from showing a person riding a horse to incorporating compost into soil, then to a close-up of a person working in a garden. This sequence illustrates the process of enriching soil using organic matter, a crucial step in sustainable farming.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with tools for handling soil and organic matter.",
+            "- The robot needs to be familiar with the types of organic matter used in sustainable farming.",
+            "- The robot should know how to navigate through fields and gardens.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should successfully incorporate organic matter into the soil.",
+            "- The soil should visibly show signs of improvement in texture and color.",
+            "- Young plants should appear healthy and well-nourished.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Navigate to the field where the horse is seen.",
+            "2. [type=perception, frames=[0]] Verify the presence of a horse and the field environment.",
+            "3. [type=navigation, frames=[1]] Move to the area where compost is being incorporated into soil.",
+            "4. [type=manipulation, frames=[1]] Use the robot's tool to scoop up compost from the bucket.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the field where the horse is seen. It then verifies the key detail directly from the frames (Verify the presence of a horse and the field environment).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the field where the horse is seen; Move to the area where compost is being incorporated into soil; Use the robot's tool to scoop up compost from the bucket; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 8.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/7Fb-RQL1l-Y/task01/sub00/motion.bvh",
+            "params_path": "results/momask/7Fb-RQL1l-Y/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Mention the importance of leveling the field to ensure even water distribution.",
+          "start": 95.56,
+          "end": 101.56,
+          "segment_ids": [
+            16
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f00.jpg",
+              "relative_path": "7Fb-RQL1l-Y/task01_sub01_f00.jpg",
+              "caption": "A person in a field with a bowl, labeled \"nature.\"",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "7Fb-RQL1l-Y/task01_sub01_f01.jpg",
+              "caption": "A man is kneeling in a rice field, working on the plants.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "7Fb-RQL1l-Y/task01_sub01_f02.jpg",
+              "caption": "A man is planting rice in a flooded field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on explaining the importance of leveling the field to ensure even water distribution in rice farming.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A person in a field with a bowl, labeled \"nature,\" indicating the natural setting of the field.",
+            "- [frames=[1]] A man is kneeling in a rice field, working on the plants, suggesting manual labor.",
+            "- [frames=[2]] A man is planting rice in a flooded field, showing the initial stage of rice cultivation.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts the early stages of rice farming, where a farmer is preparing the field by kneeling and working on the plants. The presence of a flooded field indicates the need for proper water management.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the current state of the field, including its unevenness.",
+            "- The robot needs to recognize the farmer's actions and understand their purpose.",
+            "- The robot must have knowledge about the importance of field leveling for water distribution.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the need for field leveling.",
+            "- It should confirm the unevenness of the field through sensors.",
+            "- The robot should measure the water distribution across the field.",
+            "- It should cross-check the water levels to ensure they are even.",
+            "- The robot should communicate the importance of field leveling to the viewer.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Should observe the field and identify any uneven areas.",
+            "2. [type=perception, frames=[1]] Should use sensors to measure the unevenness of the field.",
+            "3. [type=communication, frames=[2]] Should explain the importance of field leveling to the viewer.",
+            "4. [type=perception, frames=[2]] Should verify the water levels in different.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Should observe the field and identify any uneven areas. It then verifies the key detail directly from the frames (Should use sensors to measure the unevenness of the field).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 6.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/7Fb-RQL1l-Y/task01/sub01/motion.bvh",
+            "params_path": "results/momask/7Fb-RQL1l-Y/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Describe the importance of water management in rice cultivation.",
+      "start": null,
+      "end": null,
+      "subtasks": [
+        {
+          "text": "Inspect the role of water as a temperature regulator for the rice plants.",
+          "start": null,
+          "end": null,
+          "segment_ids": [
+            183
+          ],
+          "frames": [],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 4.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/7Fb-RQL1l-Y/task02/sub00/motion.bvh",
+            "params_path": "results/momask/7Fb-RQL1l-Y/task02/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Observe how water helps suppress weeds, giving the rice plants a competitive advantage.",
+          "start": null,
+          "end": null,
+          "segment_ids": [
+            187
+          ],
+          "frames": [],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 4.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/7Fb-RQL1l-Y/task02/sub01/motion.bvh",
+            "params_path": "results/momask/7Fb-RQL1l-Y/task02/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Explain vegetable harvesting techniques.",
+      "start": 353.74,
+      "end": 378.94,
+      "subtasks": [
+        {
+          "text": "Note that root vegetables like carrots and potatoes are ready for harvest when their foliage dies back.",
+          "start": 353.74,
+          "end": 359.74,
+          "segment_ids": [
+            59
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub00_f00.jpg",
+              "relative_path": "7Fb-RQL1l-Y/task03_sub00_f00.jpg",
+              "caption": "A person's hands are holding a potato, with the word \"value\" overlaid.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task03_sub00_f01.jpg",
+              "relative_path": "7Fb-RQL1l-Y/task03_sub00_f01.jpg",
+              "caption": "A hand is picking up potatoes from the soil.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub00_f02.jpg",
+              "relative_path": "7Fb-RQL1l-Y/task03_sub00_f02.jpg",
+              "caption": "A person is harvesting potatoes from the soil.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask involves explaining that root vegetables like carrots and potatoes are ready for harvest when their foliage dies back. The robot will demonstrate this by showing how to pick up and harvest potatoes from the soil.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A person's hands are holding a potato, with the word \"value\" overlaid.",
+            "- [frames=[1]] A hand is picking up potatoes from the soil.",
+            "- [frames=[2]] A person is harvesting potatoes from the soil.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a person handling and harvesting potatoes. The robot needs to understand the context of harvesting root vegetables and the process involved.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with tools suitable for soil manipulation.",
+            "- The robot should have a camera to visually inspect the soil and detect the presence of potatoes.",
+            "- The robot should be able to grasp and lift objects from the ground.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify and pick up potatoes from the soil.",
+            "- The robot should demonstrate the process of harvesting potatoes.",
+            "- The robot should ensure that the harvested potatoes are free from dirt and debris.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Move to the location where the potatoes are buried in the soil.",
+            "2. [type=perception, frames=[0]] Use the camera to locate the potato.",
+            "3. [type=manipulation, frames=[1]] Grasp the potato using the robotic arm.",
+            "4. [type=manipulation, frames=[1]] Lift the potato out of the soil.",
+            "5. [type=perception, frames=[1]] Verify that the potato is clean and free from dirt.",
+            "6. [type=manipulation, frames=[2]] Place the potato on a designated surface.",
+            "7. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to the location where the potatoes are buried in the soil. It then verifies the key detail directly from the frames (Verify that the potato is clean and free from dirt).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move to the location where the potatoes are buried in the soil; Grasp the potato using the robotic arm; Lift the potato out of the soil; Place the potato on a designated surface; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 6.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/7Fb-RQL1l-Y/task03/sub00/motion.bvh",
+            "params_path": "results/momask/7Fb-RQL1l-Y/task03/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Highlight the use of hand harvesting for leafy greens like lettuce and herbs.",
+          "start": 372.94,
+          "end": 378.94,
+          "segment_ids": [
+            62
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub01_f00.jpg",
+              "relative_path": "7Fb-RQL1l-Y/task03_sub01_f00.jpg",
+              "caption": "A tractor is harvesting crops in a field, with a combine harvester nearby.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task03_sub01_f01.jpg",
+              "relative_path": "7Fb-RQL1l-Y/task03_sub01_f01.jpg",
+              "caption": "A combine harvester is harvesting crops in a field, with a tractor nearby.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub01_f02.jpg",
+              "relative_path": "7Fb-RQL1l-Y/task03_sub01_f02.jpg",
+              "caption": "A person is tending to a small-scale vegetable garden.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on demonstrating hand harvesting techniques for leafy greens such as lettuce and herbs. The robot will observe a human performing this task in a small-scale vegetable garden setting.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A tractor and a combine harvester are seen in a field, indicating large-scale agricultural operations nearby.",
+            "- [frames=[2]] A person is tending to a small-scale vegetable garden, which contrasts with the machinery seen earlier.",
+            "- [frames=[0,1,2]] The scene transitions from large-scale farming to a more intimate, manual labor setting.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The video shifts focus from large-scale agricultural machinery to a smaller, more detailed scene of a person manually harvesting leafy greens. This change highlights the difference between mechanized and manual harvesting techniques.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with sensors to detect and identify leafy greens.",
+            "- It needs to be able to grasp and manipulate small objects.",
+            "- The robot should have knowledge of common leafy green varieties like lettuce and herbs.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify and harvest leafy greens without damaging them.",
+            "- It should place harvested greens into a designated container.",
+            "- The robot should avoid harvesting non-target plants.",
+            "- The robot should maintain a steady and efficient harvesting rate.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[2]] Scan the garden to locate leafy greens.",
+            "2. [type=navigation, frames=[2]] Move towards the identified leafy greens.",
+            "3. [type=manipulation, frames=[2]] Grasp a lettuce plant by its base.",
+            "4. [type=manipulation, frames=[2]] Cut the lettuce head from the plant.",
+            "5. [type=navigation, frames=[2]] Move to a designated collection area.",
+            "6. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "7. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Scan the garden to locate leafy greens. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move towards the identified leafy greens; Grasp a lettuce plant by its base; Cut the lettuce head from the plant; Move to a designated collection area; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 6.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/7Fb-RQL1l-Y/task03/sub01/motion.bvh",
+            "params_path": "results/momask/7Fb-RQL1l-Y/task03/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Describe the importance of sustainable agriculture.",
+      "start": 294.65,
+      "end": 316.85,
+      "subtasks": [
+        {
+          "text": "Observe the use of the system of rice intensification or SRI for reducing water usage.",
+          "start": 294.65,
+          "end": 300.65,
+          "segment_ids": [
+            51
+          ],
+          "frames": [
+            {
+              "image_file": "task04_sub00_f00.jpg",
+              "relative_path": "7Fb-RQL1l-Y/task04_sub00_f00.jpg",
+              "caption": "A person is planting rice in a traditional field.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task04_sub00_f01.jpg",
+              "relative_path": "7Fb-RQL1l-Y/task04_sub00_f01.jpg",
+              "caption": "A person is standing in a rice field with mountains in the background.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task04_sub00_f02.jpg",
+              "relative_path": "7Fb-RQL1l-Y/task04_sub00_f02.jpg",
+              "caption": "A person is tending to a rice field, using a tool to work the soil.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot observes the implementation of the System of Rice Intensification (SRI) in a rice field, focusing on water conservation techniques.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A person is planting rice in a traditional field, indicating initial rice cultivation methods.",
+            "- [frames=[1]] A person stands in a rice field with mountains in the background, suggesting a landscape suitable for intensive farming practices.",
+            "- [frames=[2]] A person uses a tool to work the soil, preparing the field for more efficient rice cultivation.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a traditional rice planting method followed by the preparation of the soil using a tool. This setup suggests an environment where the System of Rice Intensification (SRI) is being implemented to reduce water usage.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with sensors to detect soil moisture levels.",
+            "- The robot needs to have a database of SRI techniques and their benefits.",
+            "- The robot must be able to navigate through the rice field.",
+            "- The robot should have tools for soil preparation and irrigation management.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should verify the reduction in water usage compared to traditional methods.",
+            "- The robot should confirm the proper implementation of SRI techniques.",
+            "- The robot should measure the soil moisture levels to ensure optimal conditions for rice growth.",
+            "- The robot should cross-check the effectiveness of the soil preparation technique used.",
+            "- The robot should check the overall health of the rice plants post-implementation.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the rice field and locate the area where SRI is being implemented.",
+            "2. [type=perception, frames=[0]] Use sensors to measure current soil moisture levels.",
+            "3. [type=manipulation, frames=[2]] Assist in working.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the rice field and locate the area where SRI is being implemented. It then verifies the key detail directly from the frames (Use sensors to measure current soil moisture levels).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the rice field and locate the area where SRI is being implemented; Assist in working; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 6.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/7Fb-RQL1l-Y/task04/sub00/motion.bvh",
+            "params_path": "results/momask/7Fb-RQL1l-Y/task04/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Note the adoption of organic farming practices to build soil fertility and control pests.",
+          "start": 309.85,
+          "end": 316.85,
+          "segment_ids": [
+            53
+          ],
+          "frames": [
+            {
+              "image_file": "task04_sub01_f00.jpg",
+              "relative_path": "7Fb-RQL1l-Y/task04_sub01_f00.jpg",
+              "caption": "A person is planting rice in a field.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task04_sub01_f01.jpg",
+              "relative_path": "7Fb-RQL1l-Y/task04_sub01_f01.jpg",
+              "caption": "The video shows a field with a tractor and two people, with the words \"pesticides\" and \"Storyblocks\" overlaid.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task04_sub01_f02.jpg",
+              "relative_path": "7Fb-RQL1l-Y/task04_sub01_f02.jpg",
+              "caption": "Two people are working in a muddy field with a tractor, likely involved in agricultural production.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on the adoption of organic farming practices to enhance soil fertility and manage pests, which is crucial for sustainable agriculture.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A person is planting rice in a field, indicating the initial stage of agricultural production.",
+            "- [frames=[1]] The scene shifts to a field with a tractor and two people, with the words \"pesticides\" and \"Storyblocks\" overlaid, suggesting a contrast with conventional methods.",
+            "- [frames=[2]] Two individuals are seen working in a muddy field with a tractor, likely engaged in agricultural activities.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The video transitions from the planting of rice to a more industrialized setting involving a tractor, highlighting the shift towards modern agricultural techniques. The presence of pesticides is juxtaposed against organic farming practices, emphasizing the importance of sustainable methods.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the current location in the field.",
+            "- It needs to recognize the difference between organic and conventional farming practices.",
+            "- The robot must understand the importance of soil health and pest management in sustainable agriculture.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should identify the adoption of organic farming practices.",
+            "- It must confirm the enhancement of soil fertility through organic methods.",
+            "- The robot should verify the reduction in pesticide usage.",
+            "- It needs to cross-check the effectiveness of pest control measures without chemical intervention.",
+            "- The robot should measure the positive impact on soil health and crop yield.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Identify the person planting rice and note the initial stage of agricultural production.",
+            "2. [type=perception, frames=[1]] Recognize the presence of a tractor and two people, noting the shift to a more industrialized setting.",
+            "3. [type=perception, frames=[2]] Observe.",
+            "4. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the person planting rice and note the initial stage of agricultural production. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 7.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/7Fb-RQL1l-Y/task04/sub01/motion.bvh",
+            "params_path": "results/momask/7Fb-RQL1l-Y/task04/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

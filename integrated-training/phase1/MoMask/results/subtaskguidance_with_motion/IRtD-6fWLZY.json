@@ -1,0 +1,719 @@
+{
+  "video_index": "IRtD-6fWLZY",
+  "title": "Easy Cold Climate Gardening: Potatoes and Pumpkins",
+  "url": "https://www.youtube.com/watch?v=IRtD-6fWLZY",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "This video describes various easy and abundant food crops to grow in different climates, explaining the benefits of cultivating them.",
+  "tasks": [
+    {
+      "task": "Present the most calorie-dense food that stores well and can be planted again for more.",
+      "start": 165.46,
+      "end": 191.74,
+      "subtasks": [
+        {
+          "text": "Highlight the potato that has been stored in a pantry for six to seven months and is still crunchy and sweet.",
+          "start": 165.46,
+          "end": 171.06,
+          "segment_ids": [
+            32
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "IRtD-6fWLZY/task00_sub00_f00.jpg",
+              "caption": "A man in a garden holds a potato above a table filled with various vegetables and jars.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "IRtD-6fWLZY/task00_sub00_f01.jpg",
+              "caption": "A man in a garden holds a sprouting potato in his mouth.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "IRtD-6fWLZY/task00_sub00_f02.jpg",
+              "caption": "A man in a garden holds a plant in one hand and a purple object in the other, surrounded by various vegetables and jars.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will present a stored potato that remains crunchy and sweet after several months, highlighting its suitability for cold climate gardening.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The man in the garden holds a potato above a table filled with various vegetables and jars.",
+            "- [frames=[1]] The man in the garden holds a sprouting potato in his mouth.",
+            "- [frames=[2]] The man in the garden holds a plant in one hand and a purple object in the other, surrounded by various vegetables and jars.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a man in a garden holding a potato that has been stored for an extended period. The potato is still in good condition despite being stored for several months, indicating its durability and suitability for long-term storage.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture the potato's condition.",
+            "- The robot should have a display screen to show the potato.",
+            "- The robot should be able to navigate to the location where the potato is displayed.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The potato should appear fresh and intact on the display screen.",
+            "- The robot should be able to confirm the potato's condition through visual inspection.",
+            "- The robot should be able to communicate the potato's suitability for cold climate gardening.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Navigate to the location where the potato is displayed.",
+            "2. [type=perception, frames=[0]] Use the camera to capture an image of the potato.",
+            "3. [type=manipulation, frames=[1]] Pick up the potato using a robotic arm.",
+            "4. [type=perception, frames=[1]] Verify the potato's condition by checking if it is still crunchy and sweet.",
+            "5. [type=manipulation, frames=[2]] Place the potato.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the location where the potato is displayed. It then verifies the key detail directly from the frames (Verify the potato's condition by checking if it is still crunchy and sweet).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the location where the potato is displayed; Pick up the potato using a robotic arm; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 5.599999999999994,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/IRtD-6fWLZY/task00/sub00/motion.bvh",
+            "params_path": "results/momask/IRtD-6fWLZY/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Emphasize the potato's longevity and suitability for high-calorie food production.",
+          "start": 171.06,
+          "end": 191.74,
+          "segment_ids": [
+            33,
+            34,
+            36
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "IRtD-6fWLZY/task00_sub01_f01.jpg",
+              "caption": "A man in a garden holds a potato while surrounded by various vegetables and jars.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "IRtD-6fWLZY/task00_sub01_f02.jpg",
+              "caption": "A man in a green sweater is holding a purple plant in a garden setting.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub01_f03.jpg",
+              "relative_path": "IRtD-6fWLZY/task00_sub01_f03.jpg",
+              "caption": "A person is holding a handful of potatoes with purple roots.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task00_sub01_f04.jpg",
+              "relative_path": "IRtD-6fWLZY/task00_sub01_f04.jpg",
+              "caption": "A man in a green sweater is holding a plant with a purple stem in a garden setting.",
+              "frame_index": 4
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will highlight the potato as the most calorie-dense and long-lasting food suitable for planting again, emphasizing its benefits through visual cues and verbal descriptions.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A man in a garden holds a potato, surrounded by various vegetables and jars.",
+            "- [frames=[2]] A man in a green sweater is holding a purple plant in a garden setting.",
+            "- [frames=[3]] A person is holding a handful of potatoes with purple roots.",
+            "- [frames=[4]] A man in a green sweater is holding a plant with a purple stem in a garden setting.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a garden setting where a man is handling potatoes and other plants. The focus is on the potato, which is highlighted through close-ups and the presence of other vegetables and plants.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be positioned near the man in the garden.",
+            "- The robot should have access to a display screen or speaker to convey information.",
+            "- The robot should be able to grasp and manipulate objects.",
+            "- The robot should have knowledge about the properties of potatoes and other vegetables.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify and hold a potato.",
+            "- The robot should verbally describe the potato’s calorie density and storage capabilities.",
+            "- The robot should demonstrate the potato’s suitability for replanting.",
+            "- The robot should visually emphasize the potato among other vegetables.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Identify the potato being held by the man.",
+            "2. [type=manipulation, frames=[1]] Grasp the potato gently and bring it closer to the camera.",
+            "3. [type=communication, frames=[1]] Announce, \"Potatoes are highly calorie-dense and store well.\".",
+            "4. [type=perception, frames=[1,2,3,4]] Verify/confirm the key observation before reporting.",
+            "5. [type=navigation, frames=[1,2,3,4]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the potato being held by the man. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting). After verification, it communicates the result clearly (Announce, \"Potatoes are highly calorie-dense and store well.\").",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Grasp the potato gently and bring it closer to the camera; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 20.680000000000007,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/IRtD-6fWLZY/task00/sub01/motion.bvh",
+            "params_path": "results/momask/IRtD-6fWLZY/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Introduce pumpkins for their abundant storage time and versatility.",
+      "start": 215.86,
+      "end": 240.8,
+      "subtasks": [
+        {
+          "text": "Showcase a beautiful pumpkin from a farm, demonstrating its variety and longevity.",
+          "start": 215.86,
+          "end": 219.06,
+          "segment_ids": [
+            42
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "IRtD-6fWLZY/task01_sub00_f00.jpg",
+              "caption": "A man in a green sweater holds a large pumpkin in a garden setting.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "IRtD-6fWLZY/task01_sub00_f01.jpg",
+              "caption": "A man holds a large pumpkin in a garden setting.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "IRtD-6fWLZY/task01_sub00_f02.jpg",
+              "caption": "A man holds a large pumpkin in a garden setting.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will showcase a large, beautiful pumpkin in a garden setting, highlighting its variety and longevity.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The man is holding a large pumpkin in a garden setting.",
+            "- [frames=[1]] The man continues to hold the same large pumpkin.",
+            "- [frames=[2]] The man still holds the large pumpkin, maintaining the same pose.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a man in a garden holding a large pumpkin, emphasizing its size and quality. The setting suggests a farm environment, which aligns with the tutorial's focus on easy cold climate gardening.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a suitable gripper for handling the pumpkin.",
+            "- The robot should have knowledge of the pumpkin's characteristics and appearance.",
+            "- The robot should be able to navigate to the garden setting.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The pumpkin should be clearly visible and well-lit.",
+            "- The robot should demonstrate the pumpkin's variety and longevity effectively.",
+            "- The robot should maintain the same pose as the man throughout the demonstration.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2]] Move to the garden setting where the man is holding the pumpkin.",
+            "2. [type=perception, frames=[0]] Verify the presence of the large pumpkin by visually inspecting it.",
+            "3. [type=navigation, frames=[0]] Approach the man and gently take the pumpkin from him.",
+            "4. [type=manipulation, frames=[1]] Adjust the grip on the pumpkin to ensure stability.",
+            "5. [type=navigation, frames=[2]] Position the pumpkin in a way that highlights its variety and size.",
+            "6. [type=perception, frames=[0,1,2]] Use a voice command to confirm the demonstration is proceeding smoothly.",
+            "7. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to the garden setting where the man is holding the pumpkin. It then verifies the key detail directly from the frames (Verify the presence of the large pumpkin by visually inspecting it).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Approach the man and gently take the pumpkin from him; Adjust the grip on the pumpkin to ensure stability; Position the pumpkin in a way that highlights its variety and size; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.1999999999999886,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/IRtD-6fWLZY/task01/sub00/motion.bvh",
+            "params_path": "results/momask/IRtD-6fWLZY/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Describe the versatility of pumpkins in storage and consumption.",
+          "start": 219.42,
+          "end": 240.8,
+          "segment_ids": [
+            43,
+            44,
+            45,
+            46
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f00.jpg",
+              "relative_path": "IRtD-6fWLZY/task01_sub01_f00.jpg",
+              "caption": "A man holds a large pumpkin in a garden setting.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "IRtD-6fWLZY/task01_sub01_f01.jpg",
+              "caption": "A man in a garden holds a large pumpkin while surrounded by various vegetables and jars.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "IRtD-6fWLZY/task01_sub01_f02.jpg",
+              "caption": "A man in a garden holds a pumpkin while sitting at a table with various vegetables and jars.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task01_sub01_f03.jpg",
+              "relative_path": "IRtD-6fWLZY/task01_sub01_f03.jpg",
+              "caption": "A man in a garden holds a large pumpkin while pointing to it.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task01_sub01_f04.jpg",
+              "relative_path": "IRtD-6fWLZY/task01_sub01_f04.jpg",
+              "caption": "A man in a garden holds a pumpkin while sitting at a table with various vegetables and jars.",
+              "frame_index": 4
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The man in the garden is demonstrating the versatility of pumpkins, showing how they can be stored and used in various ways.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] The man holds a large pumpkin in a garden setting, surrounded by other vegetables and jars.",
+            "- [frames=[2,3]] The man sits at a table with various vegetables and jars, holding a pumpkin and pointing to it.",
+            "- [frames=[4]] The man continues to hold a pumpkin while sitting at the table.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a man in a garden environment, emphasizing the storage and versatile uses of pumpkins. He interacts with the pumpkin both in the garden and at a table, indicating its multiple applications.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the garden setting.",
+            "- The robot should know the appearance and characteristics of a pumpkin.",
+            "- The robot should be able to navigate within the garden and around the table.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the pumpkin in all frames.",
+            "- The robot should demonstrate an understanding of the pumpkin's versatility through appropriate actions.",
+            "- The robot should successfully communicate the benefits of storing and using pumpkins.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1,2,3,4]] Identify the pumpkin in the scene.",
+            "2. [type=navigation, frames=[0,1,2,3,4]] Move to a position where the pumpkin is clearly visible.",
+            "3. [type=manipulation, frames=[0,1,2,3,4]] Pick up the pumpkin and hold it.",
+            "4. [type=manipulation, frames=[2,3,4]] Place the pumpkin on the table and point to it.",
+            "5. [type=perception, frames=[0,1,2,3,4]] Verify/confirm the key observation before reporting.",
+            "6. [type=navigation, frames=[0,1,2,3,4]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the pumpkin in the scene. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move to a position where the pumpkin is clearly visible; Pick up the pumpkin and hold it; Place the pumpkin on the table and point to it; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 21.380000000000024,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/IRtD-6fWLZY/task01/sub01/motion.bvh",
+            "params_path": "results/momask/IRtD-6fWLZY/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Explain the benefits of growing zucchini as a summer squash.",
+      "start": null,
+      "end": null,
+      "subtasks": [
+        {
+          "text": "Illustrate the abundance and size of zucchini that grows well in colder climates.",
+          "start": null,
+          "end": null,
+          "segment_ids": [
+            263
+          ],
+          "frames": [],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 4.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/IRtD-6fWLZY/task02/sub00/motion.bvh",
+            "params_path": "results/momask/IRtD-6fWLZY/task02/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Mention the ease and benefits of growing zucchini.",
+          "start": null,
+          "end": null,
+          "segment_ids": [
+            268,
+            269,
+            270
+          ],
+          "frames": [],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 4.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/IRtD-6fWLZY/task02/sub01/motion.bvh",
+            "params_path": "results/momask/IRtD-6fWLZY/task02/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Discuss the importance of storing abundance during the growing season by canning beans and other produce.",
+      "start": null,
+      "end": null,
+      "subtasks": [
+        {
+          "text": "Show examples of canned beans and emphasize their importance for storage.",
+          "start": null,
+          "end": null,
+          "segment_ids": [
+            310,
+            311,
+            330
+          ],
+          "frames": [],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 4.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/IRtD-6fWLZY/task03/sub00/motion.bvh",
+            "params_path": "results/momask/IRtD-6fWLZY/task03/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Highlight the convenience and nutritional benefits of freezing beans.",
+          "start": null,
+          "end": null,
+          "segment_ids": [
+            348
+          ],
+          "frames": [],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 4.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/IRtD-6fWLZY/task03/sub01/motion.bvh",
+            "params_path": "results/momask/IRtD-6fWLZY/task03/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Describe the process of making garden produce more flavorful through incorporating onions and garlic.",
+      "start": null,
+      "end": null,
+      "subtasks": [
+        {
+          "text": "Demonstrate the ease and benefits of growing onions.",
+          "start": null,
+          "end": null,
+          "segment_ids": [
+            820,
+            826
+          ],
+          "frames": [],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 4.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/IRtD-6fWLZY/task04/sub00/motion.bvh",
+            "params_path": "results/momask/IRtD-6fWLZY/task04/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Show an example of garlic growing and explain its benefits.",
+          "start": null,
+          "end": null,
+          "segment_ids": [
+            848,
+            850,
+            851,
+            854
+          ],
+          "frames": [],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 4.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/IRtD-6fWLZY/task04/sub01/motion.bvh",
+            "params_path": "results/momask/IRtD-6fWLZY/task04/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Discuss the importance of greens in a diet and provide examples of easy-to-grow greens.",
+      "start": null,
+      "end": null,
+      "subtasks": [
+        {
+          "text": "Display a variety of beginner-friendly greens and highlight their ease of growth.",
+          "start": null,
+          "end": null,
+          "segment_ids": [
+            665,
+            666,
+            668,
+            670,
+            671,
+            683,
+            684,
+            686
+          ],
+          "frames": [],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 4.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/IRtD-6fWLZY/task05/sub00/motion.bvh",
+            "params_path": "results/momask/IRtD-6fWLZY/task05/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Explain the process of making sourcrout and its benefits for preserving cabbage.",
+      "start": null,
+      "end": null,
+      "subtasks": [
+        {
+          "text": "Display the process of making sourcrout and its nutritional benefits.",
+          "start": null,
+          "end": null,
+          "segment_ids": [
+            743,
+            745,
+            748,
+            761,
+            765
+          ],
+          "frames": [],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 4.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/IRtD-6fWLZY/task06/sub00/motion.bvh",
+            "params_path": "results/momask/IRtD-6fWLZY/task06/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Provide an overview of fruits and fruit trees as investments for long-term food production.",
+      "start": null,
+      "end": null,
+      "subtasks": [
+        {
+          "text": "Demonstrate the abundance of apples and their storage possibilities.",
+          "start": null,
+          "end": null,
+          "segment_ids": [
+            949,
+            951,
+            955
+          ],
+          "frames": [],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 4.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/IRtD-6fWLZY/task07/sub00/motion.bvh",
+            "params_path": "results/momask/IRtD-6fWLZY/task07/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Explain the benefits of investing in fruit trees for future food production.",
+          "start": null,
+          "end": null,
+          "segment_ids": [
+            935,
+            958,
+            967
+          ],
+          "frames": [],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 4.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/IRtD-6fWLZY/task07/sub01/motion.bvh",
+            "params_path": "results/momask/IRtD-6fWLZY/task07/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Highlight the easy-to-grow nature of berries, especially raspberries and blackberries.",
+      "start": null,
+      "end": null,
+      "subtasks": [
+        {
+          "text": "Showcase a variety of raspberries and blackberries.",
+          "start": null,
+          "end": null,
+          "segment_ids": [
+            1031,
+            1032,
+            1034,
+            1036
+          ],
+          "frames": [],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 4.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/IRtD-6fWLZY/task08/sub00/motion.bvh",
+            "params_path": "results/momask/IRtD-6fWLZY/task08/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Demonstrate the abundance and ease of growing tomatoes and hot peppers.",
+      "start": null,
+      "end": null,
+      "subtasks": [
+        {
+          "text": "Display a large planting of tomato plants and explain their abundance.",
+          "start": null,
+          "end": null,
+          "segment_ids": [
+            1080,
+            1081,
+            1083
+          ],
+          "frames": [],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 4.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/IRtD-6fWLZY/task09/sub00/motion.bvh",
+            "params_path": "results/momask/IRtD-6fWLZY/task09/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Highlight the ease and abundance of growing hot peppers.",
+          "start": null,
+          "end": null,
+          "segment_ids": [
+            1091,
+            1094
+          ],
+          "frames": [],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 4.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/IRtD-6fWLZY/task09/sub01/motion.bvh",
+            "params_path": "results/momask/IRtD-6fWLZY/task09/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

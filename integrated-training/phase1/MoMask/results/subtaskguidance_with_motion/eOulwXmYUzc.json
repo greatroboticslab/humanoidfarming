@@ -1,0 +1,250 @@
+{
+  "video_index": "eOulwXmYUzc",
+  "title": "Pasture Transformation in Years",
+  "url": "https://www.youtube.com/watch?v=eOulwXmYUzc",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Describes the quick landscape changes in a pasture using polywire.",
+  "tasks": [
+    {
+      "task": "Describe the quick landscape changes possible in a pasture.",
+      "start": 0.0,
+      "end": 15.2,
+      "subtasks": [
+        {
+          "text": "Explain how quickly pasture appearance can be altered.",
+          "start": 0.0,
+          "end": 6.08,
+          "segment_ids": [
+            0
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "eOulwXmYUzc/task00_sub00_f00.jpg",
+              "caption": "The video shows a grassy field with a fence running through it.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "eOulwXmYUzc/task00_sub00_f01.jpg",
+              "caption": "The video frame shows a close-up of a plant with the text \"TRANSFORMING LAND WITH MODERN DAY RANCHING.\"",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "eOulwXmYUzc/task00_sub00_f02.jpg",
+              "caption": "The video shows a grassy field with the text \"Transforming Land with Modern Day Ranching.\"",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on explaining how quickly a pasture's appearance can change due to modern ranching practices. The video uses visuals to convey the rapid transformation of land.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A grassy field is shown with a fence running through it.",
+            "- [frames=[1]] A close-up of a plant appears with the text \"TRANSFORMING LAND WITH MODERN DAY RANCHING.\"",
+            "- [frames=[2]] The same grassy field is visible with the text \"Transforming Land with Modern Day Ranching\" superimposed.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a typical pasture with a fence dividing it. The text emphasizes the impact of modern ranching techniques on the landscape, suggesting active management and changes.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture the visual elements.",
+            "- It needs to have knowledge about pasture landscapes and ranching practices.",
+            "- The robot must be able to read and interpret text overlays.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the transformation process.",
+            "- It must identify key elements such as the fence and plants.",
+            "- The explanation should highlight the role of modern ranching methods.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Capture an image of the grassy field with the fence.",
+            "2. [type=perception, frames=[1]] Read the text overlay \"TRANSFORMING LAND WITH MODERN DAY RANCHING.\".",
+            "3. [type=perception, frames=[2]] Confirm the presence of the text \"Transforming Land with Modern Day Ranching.\".",
+            "4. [type=perception, frames=[0]] Identify and label the fence in the image.",
+            "5. [type=manipulation, frames=[1]] Highlight the plant in the close-up image.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture an image of the grassy field with the fence. It then verifies the key detail directly from the frames (Read the text overlay \"TRANSFORMING LAND WITH MODERN DAY RANCHING.\").",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Highlight the plant in the close-up image; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 6.08,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/eOulwXmYUzc/task00/sub00/motion.bvh",
+            "params_path": "results/momask/eOulwXmYUzc/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Note the use of polywire to change cattle grazing areas.",
+          "start": 6.08,
+          "end": 10.34,
+          "segment_ids": [
+            1
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "eOulwXmYUzc/task00_sub01_f01.jpg",
+              "caption": "A large field with cows grazing, with a caption about modern day ranching.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "eOulwXmYUzc/task00_sub01_f02.jpg",
+              "caption": "A person is holding a device that appears to be used for electric fencing in a grassy field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask involves observing the use of polywire to dynamically change cattle grazing areas in a pasture.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A large field with cows grazing is shown, indicating the initial state of the pasture.",
+            "- [frames=[2]] A person is seen holding a device that appears to be an electric fencing tool, suggesting the introduction of a new grazing area.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a modern ranching practice where electric fencing (polywire) is used to manage cattle grazing areas efficiently. This method allows for quick and flexible adjustments to the pasture layout, enhancing the management of livestock.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with sensors to detect the presence of polywire and electric fencing devices.",
+            "- The robot needs to have the capability to navigate through the field without disturbing the cows.",
+            "- The robot must be able to identify and interact with the polywire device.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should successfully locate and identify the polywire device.",
+            "- It should be able to observe the changes in the grazing area over time.",
+            "- The robot should confirm the effectiveness of the new grazing area by checking the movement of the cows.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate to the location where the cows are grazing.",
+            "2. [type=perception, frames=[1]] Use visual sensors to identify the current grazing area.",
+            "3. [type=navigation, frames=[2]] Move towards the person holding the polywire device.",
+            "4. [type=perception, frames=[2]] Confirm the identification of the polywire device using object recognition.",
+            "5. [type=navigation, frames=[2]] Approach the person and request permission to assist with the setup.",
+            "6. [type=communication, frames=[2]] Eng.",
+            "7. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the location where the cows are grazing. It then verifies the key detail directly from the frames (Confirm the identification of the polywire device using object recognition).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the location where the cows are grazing; Move towards the person holding the polywire device; Approach the person and request permission to assist with the setup; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 4.26,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/eOulwXmYUzc/task00/sub01/motion.bvh",
+            "params_path": "results/momask/eOulwXmYUzc/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Mention the impact on cattle eating habits resulting from polywire placement.",
+          "start": 10.34,
+          "end": 15.2,
+          "segment_ids": [
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub02_f01.jpg",
+              "relative_path": "eOulwXmYUzc/task00_sub02_f01.jpg",
+              "caption": "The video shows a grassy field with a fence in the foreground.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub02_f02.jpg",
+              "relative_path": "eOulwXmYUzc/task00_sub02_f02.jpg",
+              "caption": "The video frame shows a black background with the text \"Growing Resilience Through Our Soils\" and a logo.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should observe the impact of polywire placement on cattle eating habits within a pasture setting.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A grassy field is shown with a visible fence in the foreground.",
+            "- [frames=[1]] The presence of a fence suggests a boundary or enclosure for the pasture.",
+            "- [frames=[2]] A black background with text and a logo appears, indicating a transition or pause in the video content.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a pasture with a fence, likely used to control the movement of cattle. The fence could be part of a temporary or permanent structure, possibly including polywire which is used for flexible fencing.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot needs to be equipped with sensors to detect the presence of fences and polywire.",
+            "- The robot should have knowledge about typical cattle behavior and eating patterns.",
+            "- The robot must be able to communicate with other systems monitoring the pasture environment.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Verify the presence of polywire in the pasture.",
+            "- Confirm changes in cattle eating habits due to the fence.",
+            "- Measure any shifts in grazing patterns or areas preferred by the cattle.",
+            "- Cross-check data with historical records of cattle behavior in similar conditions.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Scan the pasture area to locate the fence and identify any polywire.",
+            "2. [type=perception, frames=[1]] Analyze the scanned data to determine if the fence includes polywire.",
+            "3. [type=perception, frames=[1]] Monitor cattle behavior and eating patterns before the fence was placed.",
+            "4. [type=perception, frames=[1]] Compare current cattle behavior with the recorded baseline data.",
+            "5. [type=communication, frames=[1]] Send the analysis results to the central monitoring system for further review.",
+            "6. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "7. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Scan the pasture area to locate the fence and identify any polywire. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 4.859999999999999,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/eOulwXmYUzc/task00/sub02/motion.bvh",
+            "params_path": "results/momask/eOulwXmYUzc/task00/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,522 @@
+{
+  "video_index": "P3mN6mC4WCw",
+  "title": "Sustainability Through Agricultural Mechanization Progression",
+  "url": "https://www.youtube.com/watch?v=P3mN6mC4WCw",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Describes the impact of agricultural mechanization on production.",
+  "tasks": [
+    {
+      "task": "Explain the concept of mechanization in agriculture.",
+      "start": 5.14,
+      "end": 18.83,
+      "subtasks": [
+        {
+          "text": "Describe how mechanization introduces technology beyond just machinery into agricultural production.",
+          "start": 5.14,
+          "end": 9.14,
+          "segment_ids": [
+            0
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "P3mN6mC4WCw/task00_sub00_f00.jpg",
+              "caption": "A woman is driving a red tractor in a field.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "P3mN6mC4WCw/task00_sub00_f01.jpg",
+              "caption": "A combine harvester is driving through a field, with the text \"Mechanization is more than just about machinery\" overlaid.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "P3mN6mC4WCw/task00_sub00_f02.jpg",
+              "caption": "A tractor is pulling a bale machine in a field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment explains that mechanization in agriculture involves more than just machinery, highlighting the integration of advanced technologies.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A woman is driving a red tractor in a field, indicating the presence of human labor and traditional machinery.",
+            "- [frames=[1]] A combine harvester is shown moving through a field with a text overlay stating \"Mechanization is more than just about machinery.\"",
+            "- [frames=[2]] A tractor is seen pulling a bale machine, suggesting the use of additional equipment beyond simple tractors.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene illustrates various forms of mechanization, including both traditional tractors and specialized equipment like combine harvesters and bale machines. The text overlay emphasizes that mechanization encompasses a broader range of technological advancements beyond just the use of machinery.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the agricultural context.",
+            "- The robot needs to recognize different types of machinery and their functions.",
+            "- The robot must understand the concept of mechanization in agriculture.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify and describe the machinery and additional technologies used in the field.",
+            "- The robot should articulate the broader definition of mechanization in agriculture.",
+            "- The robot should accurately convey the importance of these technologies in modern farming practices.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Identify the woman operating the red tractor.",
+            "2. [type=perception, frames=[1]] Recognize the combine harvester and read the text overlay.",
+            "3. [type=perception, frames=[2]] Detect the tractor pulling the bale machine.",
+            "4. [type=manipulation, frames=[0,1,2]] Describe the woman operating the tractor.",
+            "5. [type=communication, frames=[0,1,2]] Explain the function of the combine.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the woman operating the red tractor. It then verifies the key detail directly from the frames (Recognize the combine harvester and read the text overlay).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 4.000000000000001,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/P3mN6mC4WCw/task00/sub00/motion.bvh",
+            "params_path": "results/momask/P3mN6mC4WCw/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Mention how mechanization has reshaped agricultural landscapes and production methods.",
+          "start": 13.14,
+          "end": 18.83,
+          "segment_ids": [
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f00.jpg",
+              "relative_path": "P3mN6mC4WCw/task00_sub01_f00.jpg",
+              "caption": "A robot is on the ground in a garden, with a plant nearby.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "P3mN6mC4WCw/task00_sub01_f01.jpg",
+              "caption": "A person is working in a tomato processing facility.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "P3mN6mC4WCw/task00_sub01_f02.jpg",
+              "caption": "A busy market with people and produce, with text indicating it has reshaped the agricultural landscape.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Mechanization in agriculture has significantly transformed how crops are grown and processed, leading to more efficient and sustainable farming practices.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The robot is positioned in a garden setting, indicating an agricultural environment.",
+            "- [frames=[1]] A person is seen working in a tomato processing facility, highlighting mechanized processing.",
+            "- [frames=[2]] A bustling market scene with various produce, symbolizing the impact of mechanization on distribution and consumption.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict different aspects of mechanization in agriculture, from planting and growing to processing and selling. These transformations have reshaped the agricultural landscape by increasing efficiency and productivity.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with sensors to detect its surroundings.",
+            "- It needs to have a basic understanding of agricultural environments.",
+            "- The robot should be able to navigate through both indoor and outdoor spaces.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe how mechanization has changed agricultural landscapes.",
+            "- It should mention increased efficiency and productivity.",
+            "- The robot should highlight the impact on crop processing and market distribution.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Move to the garden setting to observe the agricultural environment.",
+            "2. [type=perception, frames=[0]] Scan the garden to identify plants and machinery.",
+            "3. [type=navigation, frames=[1]] Proceed to the tomato processing facility.",
+            "4. [type=perception, frames=[1]] Observe the person working and note the machinery in use.",
+            "5. [type=navigation, frames=[2]] Go to the bustling market to see the variety of produce.",
+            "6. [type=perception, frames=[2]] Analyze the market scene to understand the distribution and consumption patterns.",
+            "7. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "8. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to the garden setting to observe the agricultural environment. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Proceed to the tomato processing facility; Go to the bustling market to see the variety of produce; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 5.689999999999998,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/P3mN6mC4WCw/task00/sub01/motion.bvh",
+            "params_path": "results/momask/P3mN6mC4WCw/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Discuss the historical progression in agricultural tools and machinery.",
+      "start": 32.5,
+      "end": 47.67,
+      "subtasks": [
+        {
+          "text": "Note the transition from rudimentary manual tools to advanced innovations.",
+          "start": 32.5,
+          "end": 37.5,
+          "segment_ids": [
+            6
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "P3mN6mC4WCw/task01_sub00_f00.jpg",
+              "caption": "Three women are planting trees in a field.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "P3mN6mC4WCw/task01_sub00_f01.jpg",
+              "caption": "Two women are using rudimentary manual tools in a rural setting.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "P3mN6mC4WCw/task01_sub00_f02.jpg",
+              "caption": "A green and black agricultural machine is in a field, with text indicating a focus on advanced, innovative tools and machinery.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video transitions from showing women using rudimentary manual tools to planting trees, to highlighting an advanced agricultural machine in a field, illustrating the shift from traditional methods to modern technology.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] Three women are planting trees in a field, using basic hand tools.",
+            "- [frames=[1]] Two women are using rudimentary manual tools in a rural setting, emphasizing the simplicity of early agricultural practices.",
+            "- [frames=[2]] An advanced agricultural machine is shown in a field, with text indicating a focus on innovative tools and machinery.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shifts from manual labor to modern mechanized agriculture, showcasing the evolution in tools used for planting and maintaining crops over time.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the current scene and the need to highlight the transition from manual to mechanical tools.",
+            "- The robot should have knowledge of historical agricultural tools and their functions.",
+            "- The robot should be able to recognize and differentiate between manual and mechanical tools.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify and describe the manual tools being used by the women.",
+            "- The robot should correctly point out the advanced agricultural machine in the field.",
+            "- The robot should explain the significance of the transition from manual to mechanical tools.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Identify the three women planting trees with basic hand tools.",
+            "2. [type=perception, frames=[1]] Recognize the two women using rudimentary manual tools in a rural setting.",
+            "3. [type=manipulation, frames=[2]] Highlight the advanced agricultural machine in the field.",
+            "4. [type=communication, frames=[2]] Explain the significance of the transition from manual to mechanical tools.",
+            "5. [type=perception, frames=[2]] Verify the.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the three women planting trees with basic hand tools. It then verifies the key detail directly from the frames (Verify the).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Highlight the advanced agricultural machine in the field; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 5.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/P3mN6mC4WCw/task01/sub00/motion.bvh",
+            "params_path": "results/momask/P3mN6mC4WCw/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Highlight the potential benefits of sustainable agricultural mechanization.",
+          "start": 43.67,
+          "end": 47.67,
+          "segment_ids": [
+            8
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f00.jpg",
+              "relative_path": "P3mN6mC4WCw/task01_sub01_f00.jpg",
+              "caption": "A person is operating a tractor in a field, with a text overlay stating \"Sustainable agricultural mechanization has the potential to.\"",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "P3mN6mC4WCw/task01_sub01_f01.jpg",
+              "caption": "The video frame shows a close-up of a sustainable agricultural mechanization system in a field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "P3mN6mC4WCw/task01_sub01_f02.jpg",
+              "caption": "A person is using a tablet with a bar graph on it, and there is a text overlay that says \"Sustainable agricultural mechanization has the potential to.\"",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on highlighting the potential benefits of sustainable agricultural mechanization through visual aids and data representation.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A person is operating a tractor in a field, with a text overlay stating \"Sustainable agricultural mechanization has the potential to.\"",
+            "- [frames=[1]] The video frame shows a close-up of a sustainable agricultural mechanization system in a field.",
+            "- [frames=[2]] A person is using a tablet with a bar graph on it, and there is a text overlay that says \"Sustainable agricultural mechanization has the potential to.\"",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from a tractor in a field to a close-up of a sustainable agricultural mechanization system, followed by a person reviewing data on a tablet. These visuals emphasize the benefits of sustainable agricultural practices through modern machinery and technology.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture and analyze the visual scenes.",
+            "- The robot needs access to a tablet or similar device to display and interact with data.",
+            "- The robot should have the capability to read text overlays and interpret visual cues.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Verify the presence of a tractor in a field.",
+            "- Check the text overlay on the tractor image for relevant information.",
+            "- Confirm the close-up view of the sustainable agricultural mechanization system.",
+            "- Measure the data displayed on the tablet.",
+            "- Cross-check the data with the text overlay for consistency.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Navigate to the tractor image in the field.",
+            "2. [type=perception, frames=[0]] Read the text overlay stating \"Sustainable agricultural mechanization has the potential to.\".",
+            "3. [type=navigation, frames=[1]] Move to the close-up view of the sustainable agricultural mechanization system.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the tractor image in the field. It then verifies the key detail directly from the frames (Read the text overlay stating \"Sustainable agricultural mechanization has the potential to.\").",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the tractor image in the field; Move to the close-up view of the sustainable agricultural mechanization system; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 4.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/P3mN6mC4WCw/task01/sub01/motion.bvh",
+            "params_path": "results/momask/P3mN6mC4WCw/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Emphasize the importance of sustainability in mechanization.",
+      "start": 67.67,
+      "end": 79.67,
+      "subtasks": [
+        {
+          "text": "State that sustainability must be the driving force behind innovations.",
+          "start": 67.67,
+          "end": 71.67,
+          "segment_ids": [
+            14
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f00.jpg",
+              "relative_path": "P3mN6mC4WCw/task02_sub00_f00.jpg",
+              "caption": "A tractor is driving through a field with a red plow attached.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "P3mN6mC4WCw/task02_sub00_f01.jpg",
+              "caption": "A combine harvester is working in a rice field, with the FAO logo in the background.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "P3mN6mC4WCw/task02_sub00_f02.jpg",
+              "caption": "The video frame shows a beautiful landscape with lush green fields and towering mountains, with a text overlay stating, \"but sustainability must always be the driving force.\"",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video emphasizes the critical role of sustainability in agricultural mechanization by showcasing various farming machines and landscapes, reinforcing the message that sustainability should guide all innovations.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A tractor with a red plow is seen driving through a field, indicating ongoing agricultural activity.",
+            "- [frames=[1]] A combine harvester is shown working in a rice field, with the FAO logo visible in the background, highlighting international agricultural support.",
+            "- [frames=[2]] A panoramic view of lush green fields and mountains appears, with a text overlay stating, \"but sustainability must always be the driving force,\" emphasizing the core message.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict various stages of agricultural mechanization, from planting to harvesting, set against a natural backdrop. The overlay text clearly states the importance of sustainability, which is reinforced by the presence of modern machinery and international support.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot must be equipped with sensors to detect and analyze environmental conditions.",
+            "- It should have the capability to navigate through different terrains and fields.",
+            "- The robot needs to be able to read and interpret text overlays on the video frames.",
+            "- It must be capable of understanding and responding to spoken or written instructions related to sustainability.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify and highlight the importance of sustainability in the video.",
+            "- It must correctly interpret the text overlay and convey its message effectively.",
+            "- The robot should be able to navigate through the different scenes without any errors.",
+            "- It should ensure that the message about sustainability is clearly communicated to the viewer.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the scene showing the tractor with a red plow.",
+            "2. [type=perception, frames=[0]] Read the text on the overlay to confirm the.",
+            "3. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the scene showing the tractor with a red plow. It then verifies the key detail directly from the frames (Read the text on the overlay to confirm the).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the scene showing the tractor with a red plow; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 4.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/P3mN6mC4WCw/task02/sub00/motion.bvh",
+            "params_path": "results/momask/P3mN6mC4WCw/task02/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Explain the need for accessible and enabling technologies.",
+          "start": 76.67,
+          "end": 79.67,
+          "segment_ids": [
+            16
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub01_f00.jpg",
+              "relative_path": "P3mN6mC4WCw/task02_sub01_f00.jpg",
+              "caption": "A woman in a yellow hat uses a tablet in a greenhouse.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub01_f01.jpg",
+              "relative_path": "P3mN6mC4WCw/task02_sub01_f01.jpg",
+              "caption": "A person in a hat and scarf is typing on a laptop in a garden.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub01_f02.jpg",
+              "relative_path": "P3mN6mC4WCw/task02_sub01_f02.jpg",
+              "caption": "A person is using a tablet in a field, with a text overlay that says, \"and enable us to produce more with less.\"",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on explaining the necessity of accessible and enabling technologies in agricultural mechanization to promote sustainability.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A woman in a yellow hat uses a tablet in a greenhouse.",
+            "- [frames=[1]] A person in a hat and scarf is typing on a laptop in a garden.",
+            "- [frames=[2]] A person is using a tablet in a field, with a text overlay that says, \"and enable us to produce more with less.\"",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict individuals using tablets and laptops in various agricultural settings, emphasizing the role of technology in enhancing productivity while promoting sustainability.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a tablet or similar device.",
+            "- The robot should have basic knowledge of agricultural practices and sustainable technologies.",
+            "- The robot should be able to navigate through different environments such as greenhouses, gardens, and fields.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should convey the message about the importance of accessible and enabling technologies.",
+            "- The robot should demonstrate how these technologies can help in producing more with less resources.",
+            "- The robot should ensure the audience understands the benefits of sustainable agricultural mechanization.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Navigate to the greenhouse where the woman is using a tablet.",
+            "2. [type=perception, frames=[0]] Observe the woman using the tablet and note her interaction.",
+            "3. [type=manipulation, frames=[0]] Mimic the woman's actions by picking up a tablet and starting to use it.",
+            "4. [type=navigation, frames=[1]] Move to the garden setting and continue using the tablet.",
+            "5. [type=navigation, frames=[2]] Transition to the field setting and use the tablet to display the text overlay.",
+            "6. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "7. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the greenhouse where the woman is using a tablet. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the greenhouse where the woman is using a tablet; Mimic the woman's actions by picking up a tablet and starting to use it; Move to the garden setting and continue using the tablet; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/P3mN6mC4WCw/task02/sub01/motion.bvh",
+            "params_path": "results/momask/P3mN6mC4WCw/task02/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

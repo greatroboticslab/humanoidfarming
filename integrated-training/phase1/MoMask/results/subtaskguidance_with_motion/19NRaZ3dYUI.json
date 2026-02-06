@@ -1,0 +1,386 @@
+{
+  "video_index": "19NRaZ3dYUI",
+  "title": "Cucumber Pruning Techniques Explained",
+  "url": "https://www.youtube.com/watch?v=19NRaZ3dYUI",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Demonstrates the process of cucumber pruning and its benefits.",
+  "tasks": [
+    {
+      "task": "Explain the benefits of pruning cucumber plants and demonstrate the pruning process.",
+      "start": 0.0,
+      "end": 56.76,
+      "subtasks": [
+        {
+          "text": "Discuss how pruning improves air circulation, leading to better plant growth and preventing diseases and pests.",
+          "start": 0.0,
+          "end": 4.24,
+          "segment_ids": [
+            0
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "19NRaZ3dYUI/task00_sub00_f00.jpg",
+              "caption": "A woman in a garden, wearing a denim jacket and a cap, is smiling and looking at the camera.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "19NRaZ3dYUI/task00_sub00_f01.jpg",
+              "caption": "A woman in a garden, wearing a red cap and a denim jacket, is talking to the camera.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "19NRaZ3dYUI/task00_sub00_f02.jpg",
+              "caption": "A woman in a garden, wearing a denim jacket and a purple hat, is talking to the camera.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will explain how pruning cucumber plants improves air circulation, which enhances plant growth and reduces disease and pest issues.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The woman in a garden, wearing a denim jacket and a cap, smiles at the camera.",
+            "- [frames=[1]] She continues to talk directly into the camera while wearing a red cap and a denim jacket.",
+            "- [frames=[2]] She remains in the same position but now wears a purple hat and continues her explanation.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a woman in a garden setting, providing an explanation about cucumber pruning techniques. Her attire changes slightly throughout the frames, but her focus remains on explaining the benefits of pruning.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be positioned near the woman in the garden.",
+            "- The robot should have access to a display screen or a camera to capture and show the woman's explanation.",
+            "- The robot should be able to communicate verbally and visually.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully explains the benefits of pruning cucumber plants.",
+            "- The robot accurately describes how improved air circulation leads to better plant growth and reduced disease and pest issues.",
+            "- The robot maintains eye contact with the viewer during the explanation.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Capture the woman's initial smile and acknowledges her presence.",
+            "2. [type=communication, frames=[0]] Greets the viewer and starts the explanation.",
+            "3. [type=perception, frames=[1]] Verifies the woman's continued explanation by listening and observing her gestures.",
+            "4. [type=manipulation, frames=[2]] Adjusts its display to show close-ups of the woman's face as she speaks.",
+            "5. [type=perception, frames=[2]] Confirm the.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture the woman's initial smile and acknowledges her presence. It then verifies the key detail directly from the frames (Confirm the).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 4.24,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/19NRaZ3dYUI/task00/sub00/motion.bvh",
+            "params_path": "results/momask/19NRaZ3dYUI/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Show the main parts of a cucumber plant including the stem, sun leaves, blossoms, and suckers.",
+          "start": 8.84,
+          "end": 10.4,
+          "segment_ids": [
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f00.jpg",
+              "relative_path": "19NRaZ3dYUI/task00_sub01_f00.jpg",
+              "caption": "A woman in a garden wearing a denim jacket and a cap.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "19NRaZ3dYUI/task00_sub01_f01.jpg",
+              "caption": "A woman in a garden, wearing a denim jacket and a cap, is talking to the camera.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "19NRaZ3dYUI/task00_sub01_f02.jpg",
+              "caption": "A woman in a garden wearing a purple hat and denim jacket.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will show the main parts of a cucumber plant, including the stem, sun leaves, blossoms, and suckers, by identifying and highlighting these components on the screen.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A woman in a garden wearing a denim jacket and a cap is visible.",
+            "- [frames=[1]] The woman is talking to the camera.",
+            "- [frames=[2]] The woman is now wearing a purple hat and denim jacket.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a woman explaining cucumber pruning techniques in a garden setting. She is dressed casually and is likely demonstrating the process to viewers.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to a live feed or pre-recorded video of the woman in the garden.",
+            "- The robot needs to be able to identify and label different parts of the cucumber plant.",
+            "- The robot should have a display or screen to show the identified parts.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot correctly identifies and labels the stem, sun leaves, blossoms, and suckers.",
+            "- The robot highlights these parts clearly on the screen.",
+            "- The robot provides accurate information about each part.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Identify the woman in the garden and confirm her presence.",
+            "2. [type=perception, frames=[2]] Verify the woman's attire has changed to a purple hat.",
+            "3. [type=navigation, frames=[0,1,2]] Focus on the woman's hands as she points to the cucumber plant.",
+            "4. [type=manipulation, frames=[0,1,2]] Use a virtual highlighter to mark the stem of the cucumber plant.",
+            "5. [type=communication, frames=[0,1,2]] Announce, \"This is the stem of the cucumber plant.\".",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the woman in the garden and confirm her presence. It then verifies the key detail directly from the frames (Identify the woman in the garden and confirm her presence). After verification, it communicates the result clearly (Announce, \"This is the stem of the cucumber plant.\").",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Focus on the woman's hands as she points to the cucumber plant; Use a virtual highlighter to mark the stem of the cucumber plant; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/19NRaZ3dYUI/task00/sub01/motion.bvh",
+            "params_path": "results/momask/19NRaZ3dYUI/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Highlight the blossom where the cucumber will grow and explain that it should be pruned off.",
+          "start": 10.4,
+          "end": 43.0,
+          "segment_ids": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub02_f01.jpg",
+              "relative_path": "19NRaZ3dYUI/task00_sub02_f01.jpg",
+              "caption": "A hand is touching a plant with yellow flowers and green leaves.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub02_f02.jpg",
+              "relative_path": "19NRaZ3dYUI/task00_sub02_f02.jpg",
+              "caption": "A hand is holding a large leaf from a plant in a garden.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub02_f03.jpg",
+              "relative_path": "19NRaZ3dYUI/task00_sub02_f03.jpg",
+              "caption": "A cucumber plant with yellow flowers and green stems is growing in a garden bed.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task00_sub02_f04.jpg",
+              "relative_path": "19NRaZ3dYUI/task00_sub02_f04.jpg",
+              "caption": "A hand is pointing at a plant in a garden.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task00_sub02_f05.jpg",
+              "relative_path": "19NRaZ3dYUI/task00_sub02_f05.jpg",
+              "caption": "A hand is touching a plant in a garden.",
+              "frame_index": 5
+            },
+            {
+              "image_file": "task00_sub02_f06.jpg",
+              "relative_path": "19NRaZ3dYUI/task00_sub02_f06.jpg",
+              "caption": "A hand is touching a green plant in a garden.",
+              "frame_index": 6
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will identify and highlight a cucumber blossom that should be pruned off, explaining its importance in the pruning process.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A hand touches a plant with yellow flowers and green leaves.",
+            "- [frames=[2]] A hand holds a large leaf from a plant in a garden.",
+            "- [frames=[3]] A cucumber plant with yellow flowers and green stems is growing in a garden bed.",
+            "- [frames=[4]] A hand points at a plant in a garden.",
+            "- [frames=[5]] A hand touches a plant in a garden.",
+            "- [frames=[6]] A hand touches a green plant in a garden.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a cucumber plant in a garden, with various hands interacting with different parts of the plant. The robot needs to focus on identifying the blossoms and understanding their role in the pruning process.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot has knowledge about cucumber plants and their growth patterns.",
+            "- The robot can recognize and differentiate between cucumber blossoms and other plant parts.",
+            "- The robot has access to a gardening tool for pruning.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot correctly identifies the blossom that should be pruned.",
+            "- The robot explains the importance of pruning this blossom.",
+            "- The robot demonstrates the correct technique for pruning the blossom.",
+            "- The robot confirms that the blossom has been successfully pruned.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1,2,3,4,5,6]] Inspect/verify the scene before any physical action.",
+            "2. [type=manipulation, frames=[4]] Point to the blossom that should be pruned.",
+            "3. [type=communication, frames=[4]] Explain why this blossom should be pruned.",
+            "4. [type=manipulation, frames=[4]] Use a gardening tool to.",
+            "5. [type=navigation, frames=[1,2,3,4,5,6]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Inspect/verify the scene before any physical action. It then verifies the key detail directly from the frames (Inspect/verify the scene before any physical action).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Point to the blossom that should be pruned; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 32.6,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/19NRaZ3dYUI/task00/sub02/motion.bvh",
+            "params_path": "results/momask/19NRaZ3dYUI/task00/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Demonstrate pruning a sucker from the plant.",
+          "start": 36.64,
+          "end": 56.76,
+          "segment_ids": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub03_f00.jpg",
+              "relative_path": "19NRaZ3dYUI/task00_sub03_f00.jpg",
+              "caption": "A hand is touching a plant in a garden.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub03_f01.jpg",
+              "relative_path": "19NRaZ3dYUI/task00_sub03_f01.jpg",
+              "caption": "A person is holding a leaf in a garden setting.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub03_f02.jpg",
+              "relative_path": "19NRaZ3dYUI/task00_sub03_f02.jpg",
+              "caption": "A garden bed with a variety of plants, including squash vines and leaves.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub03_f03.jpg",
+              "relative_path": "19NRaZ3dYUI/task00_sub03_f03.jpg",
+              "caption": "A person is tending to a garden with a plant growing on a trellis.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task00_sub03_f04.jpg",
+              "relative_path": "19NRaZ3dYUI/task00_sub03_f04.jpg",
+              "caption": "A garden with cucumber plants growing in rows, with drip irrigation lines running through the soil.",
+              "frame_index": 4
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will demonstrate how to prune a sucker from a cucumber plant, explaining the importance of this task in maintaining healthy growth.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The robot's hand is seen touching a plant in a garden.",
+            "- [frames=[1]] The robot is holding a leaf, indicating it has identified a sucker.",
+            "- [frames=[2]] A garden bed with various plants, including cucumber vines, is visible.",
+            "- [frames=[3]] The robot is tending to a cucumber plant growing on a trellis.",
+            "- [frames=[4]] Multiple cucumber plants are shown in rows, with irrigation lines present.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a typical garden setting with multiple cucumber plants. The robot needs to identify a sucker, which is an unwanted shoot that diverts energy away from the main stem, and remove it to promote healthier growth.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with cucumber plants and their growth patterns.",
+            "- It should have the necessary tools for pruning, such as secateurs.",
+            "- The robot should know the location of the sucker to be pruned.",
+            "- The robot should be able to safely handle the plant without causing damage.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The sucker is successfully removed from the cucumber plant.",
+            "- The plant appears healthier and more focused on producing fruit.",
+            "- No damage is done to the main stem or other parts of the plant.",
+            "- The pruning action is performed efficiently within the given time range.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Identify the sucker by examining the plant.",
+            "2. [type=navigation, frames=[1]] Move closer to the sucker for better visibility.",
+            "3. [type=manipulation, frames=[1]] Grasp the sucker gently using the robotic arm.",
+            "4. [type=perception, frames=[0,1,2,3,4]] Verify/confirm the key observation before reporting.",
+            "5. [type=navigation, frames=[0,1,2,3,4]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the sucker by examining the plant. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move closer to the sucker for better visibility; Grasp the sucker gently using the robotic arm; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 20.119999999999997,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/19NRaZ3dYUI/task00/sub03/motion.bvh",
+            "params_path": "results/momask/19NRaZ3dYUI/task00/sub03/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1555 @@
+{
+  "video_index": "I0hx4AueT1M",
+  "title": "Modern Apple Harvesters: Advanced Fruit Gathering Machines",
+  "url": "https://www.youtube.com/watch?v=I0hx4AueT1M",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "The video describes key features and benefits of apple and grape harvesters, showcasing technological advancements in agriculture.",
+  "tasks": [
+    {
+      "task": "Describe the design and key features of Apple Harvesters.",
+      "start": 33.0,
+      "end": 59.0,
+      "subtasks": [
+        {
+          "text": "Observe the robust frame made from stainless steel, designed to withstand harsh conditions in fruit orchards.",
+          "start": 33.0,
+          "end": 36.0,
+          "segment_ids": [
+            10
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "I0hx4AueT1M/task00_sub00_f00.jpg",
+              "caption": "A red and yellow machine is stuck in a field of tomatoes, with people around it.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "I0hx4AueT1M/task00_sub00_f01.jpg",
+              "caption": "A large red machine is harvesting apples in a field, with people watching and taking photos.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "I0hx4AueT1M/task00_sub00_f02.jpg",
+              "caption": "A tractor is harvesting apples in an orchard with workers guiding the machine.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment highlights the robust construction of apple harvesters, focusing on their durable stainless steel frame designed for use in challenging orchard environments.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The machine is depicted in a field of tomatoes, indicating its versatility beyond just apple harvesting.",
+            "- [frames=[1]] A large red machine is shown harvesting apples in a field, with people present.",
+            "- [frames=[2]] An apple harvester is seen in an orchard setting, with workers guiding it.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts various settings where the apple harvester operates, including fields and orchards. The presence of people suggests that the harvester is being demonstrated or used in a controlled environment, possibly for educational purposes.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a sturdy stainless steel frame.",
+            "- It must be capable of operating in outdoor environments.",
+            "- The robot needs to be able to navigate through fields and orchards.",
+            "- It should have sensors to detect and avoid obstacles.",
+            "- The robot must be able to communicate with human operators if necessary.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot's frame should withstand the rigors of the environment.",
+            "- It should efficiently harvest apples without damaging them.",
+            "- The robot should be able to operate safely in the presence of people.",
+            "- It must be able to adapt to different terrain types.",
+            "- The harvested apples should be collected properly.",
+            "- The robot should be able to stop and reset if needed.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Drive the robot into the apple orchard.",
+            "2. [type=perception, frames=[1]] Use sensors to scan the terrain and identify the best path.",
+            "3. [type=navigation, frames=[1]] Navigate the robot along the identified path.",
+            "4. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Drive the robot into the apple orchard. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Drive the robot into the apple orchard; Navigate the robot along the identified path; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/I0hx4AueT1M/task00/sub00/motion.bvh",
+            "params_path": "results/momask/I0hx4AueT1M/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Note the use of wheels or track systems that enable movement across various terrains from flat ground to rugged orchards.",
+          "start": 39.0,
+          "end": 45.0,
+          "segment_ids": [
+            12,
+            13
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f00.jpg",
+              "relative_path": "I0hx4AueT1M/task00_sub01_f00.jpg",
+              "caption": "A person is operating a machine in a garden, picking apples from trees.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "I0hx4AueT1M/task00_sub01_f01.jpg",
+              "caption": "A machine is operating in a green environment, possibly for agricultural purposes.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "I0hx4AueT1M/task00_sub01_f02.jpg",
+              "caption": "A machine is harvesting potatoes in a field, with several containers and machinery visible.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment highlights the movement capabilities of apple harvesters, focusing on their ability to traverse different terrains.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The operator is seen using a machine to pick apples from trees, indicating the machine's presence in an orchard setting.",
+            "- [frames=[1]] A machine is shown in operation within a green environment, likely an orchard, with its wheels or tracks visible.",
+            "- [frames=[2]] The machine is depicted harvesting potatoes in a field, suggesting it can operate in varied environments but the focus is on its mobility.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a versatile machine designed for agricultural tasks, capable of moving across different terrains such as flat ground and rugged orchards. Its mobility is crucial for efficient harvesting operations.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with wheels or tracks suitable for various terrains.",
+            "- It must have sensors to detect uneven ground and obstacles.",
+            "- The machine needs to be powered and ready for operation.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should successfully navigate from flat ground to rugged terrain without getting stuck.",
+            "- It should maintain stability while moving over uneven surfaces.",
+            "- The machine should be able to stop and start smoothly.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Move forward to approach the orchard area.",
+            "2. [type=perception, frames=[0,1]] Use sensors to detect the terrain type and adjust speed accordingly.",
+            "3. [type=navigation, frames=[0,1]] Navigate around obstacles and uneven ground.",
+            "4. [type=navigation, frames=[2]] Transition to a potato field and continue moving.",
+            "5. [type=perception, frames=[2]] Verify the terrain remains stable and suitable for operation.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move forward to approach the orchard area. It then verifies the key detail directly from the frames (Verify the terrain remains stable and suitable for operation).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move forward to approach the orchard area; Navigate around obstacles and uneven ground; Transition to a potato field and continue moving; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 6.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/I0hx4AueT1M/task00/sub01/motion.bvh",
+            "params_path": "results/momask/I0hx4AueT1M/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Highlight the adjustable vibration system that detaches apples gently without causing damage.",
+          "start": 52.0,
+          "end": 59.0,
+          "segment_ids": [
+            16,
+            17
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub02_f00.jpg",
+              "relative_path": "I0hx4AueT1M/task00_sub02_f00.jpg",
+              "caption": "Several people are working in a field, picking apples from a conveyor belt.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub02_f01.jpg",
+              "relative_path": "I0hx4AueT1M/task00_sub02_f01.jpg",
+              "caption": "A machine with a blue object on it is shown in a close-up view.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub02_f02.jpg",
+              "relative_path": "I0hx4AueT1M/task00_sub02_f02.jpg",
+              "caption": "A person is riding a red lawn mower in a yard.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on describing an adjustable vibration system used in apple harvesters that gently detaches apples without causing damage.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] People are seen working in a field, indicating a harvesting environment.",
+            "- [frames=[1]] A close-up view of a machine with a blue object is shown, likely the vibration system.",
+            "- [frames=[2]] A red lawn mower is visible, but it is not relevant to the current subtask.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a machine designed for apple harvesting, with a particular emphasis on a blue component that appears to be the vibration system. This system is crucial for ensuring that apples are detached from the trees without any damage.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be within the vicinity of the apple harvester.",
+            "- The vibration system should be accessible and visible.",
+            "- The robot should have the necessary sensors to detect the presence and condition of the vibration system.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The vibration system should be correctly identified and described.",
+            "- The system should be confirmed to operate without causing damage to the apples.",
+            "- The robot should be able to explain the mechanism of the vibration system accurately.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Scan the area to locate the machine with the blue object.",
+            "2. [type=navigation, frames=[1]] Approach the blue object to get a closer look.",
+            "3. [type=perception, frames=[1]] Verify the object is indeed the vibration system by checking its appearance and location.",
+            "4. [type=perception, frames=[1]] Gently touch the surface of the vibration system to confirm its texture and material.",
+            "5. [type=communication, frames=[1]] Describe the appearance and location of the vibration system.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Scan the area to locate the machine with the blue object. It then verifies the key detail directly from the frames (Verify the object is indeed the vibration system by checking its appearance and location).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Approach the blue object to get a closer look; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 7.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/I0hx4AueT1M/task00/sub02/motion.bvh",
+            "params_path": "results/momask/I0hx4AueT1M/task00/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Explain the collection and sorting systems in Apple Harvesters.",
+      "start": 75.0,
+      "end": 86.0,
+      "subtasks": [
+        {
+          "text": "Describe the belt or tube systems used to convey separated apples to the collection area.",
+          "start": 75.0,
+          "end": 80.0,
+          "segment_ids": [
+            23,
+            24
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "I0hx4AueT1M/task01_sub00_f00.jpg",
+              "caption": "The video shows a machine harvesting apples from trees.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "I0hx4AueT1M/task01_sub00_f01.jpg",
+              "caption": "A machine is harvesting apples from a tree.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "I0hx4AueT1M/task01_sub00_f02.jpg",
+              "caption": "The video shows a machine with two conveyor belts, one of which is empty.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment explains how apples are conveyed using conveyor belts to the collection area after being harvested from trees.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] The video shows a machine harvesting apples from trees.",
+            "- [frames=[2]] The machine is depicted with two conveyor belts, one of which is empty.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene illustrates a modern apple harvester equipped with two conveyor belts, one of which is currently inactive. These belts are designed to transport apples efficiently to a central collection point.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be within the operational range of the apple harvester.",
+            "- The robot needs to identify the active conveyor belt.",
+            "- The robot must be aware of the direction of apple flow on the conveyor belt.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Apples should be successfully transported to the collection area without damage.",
+            "- The robot should verify that all apples are accounted for in the collection area.",
+            "- The robot must ensure that the conveyor belt is functioning correctly before and after the operation.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the location where the apple harvester is operating.",
+            "2. [type=perception, frames=[2]] Identify the active conveyor belt by observing the movement of apples.",
+            "3. [type=navigation, frames=[2]] Move closer to the active conveyor belt for better inspection.",
+            "4. [type=navigation, frames=[2]] Position a sensor to measure the speed and flow of apples on the conveyor belt.",
+            "5. [type=navigation, frames=[2]] Deploy a camera to monitor the apples as they move along the conveyor belt.",
+            "6. [type=manipulation, frames=[2]] Use a robotic arm to place a collection bin under the end of the conveyor belt.",
+            "7. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the location where the apple harvester is operating. It then verifies the key detail directly from the frames (Position a sensor to measure the speed and flow of apples on the conveyor belt).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the location where the apple harvester is operating; Deploy a camera to monitor the apples as they move along the conveyor belt; Use a robotic arm to place a collection bin under the end of the conveyor belt; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 5.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/I0hx4AueT1M/task01/sub00/motion.bvh",
+            "params_path": "results/momask/I0hx4AueT1M/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Mention the sorting systems that remove damage or substandard fruit.",
+          "start": 80.0,
+          "end": 86.0,
+          "segment_ids": [
+            25
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "I0hx4AueT1M/task01_sub01_f01.jpg",
+              "caption": "A modern agricultural machine is surrounded by greenery, with a red structure nearby.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "I0hx4AueT1M/task01_sub01_f02.jpg",
+              "caption": "A green and yellow machine is surrounded by greenery in a greenhouse.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe and describe the sorting systems in an apple harvester that remove damaged or substandard fruit.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] The scene shows a modern agricultural machine in a green environment with a red structure nearby.",
+            "- [frames=[2]] Another view of a green and yellow machine in a greenhouse setting.",
+            "- [frames=[1,2]] Both frames indicate the presence of sorting mechanisms within the machine.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a sophisticated apple harvester equipped with advanced sorting systems designed to separate good apples from those that are damaged or substandard.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be programmed to recognize and differentiate between damaged and undamaged apples.",
+            "- It needs to understand the layout and operation of the sorting systems.",
+            "- The robot must be capable of navigating through the machine to reach the sorting area.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Correct identification of the sorting systems.",
+            "- Accurate description of how the systems function to remove damaged or substandard fruit.",
+            "- Clear communication of the process to the viewer.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate to the sorting area of the machine.",
+            "2. [type=perception, frames=[1]] Observe the sorting mechanism and identify the conveyor belt.",
+            "3. [type=perception, frames=[1]] Verify the presence of the camera system used for quality inspection.",
+            "4. [type=perception, frames=[2]] Inspect the sorting bins where good apples are collected.",
+            "5. [type=perception, frames=[2]] Confirm the operation of the mechanical arms that move apples into the correct bins.",
+            "6. [type=perception, frames=[2]] Check the sensors that detect damaged apples.",
+            "7. [type=communication, frames=[1,2]] Describe the process.",
+            "8. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the sorting area of the machine. It then verifies the key detail directly from the frames (Verify the presence of the camera system used for quality inspection).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the sorting area of the machine; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 6.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/I0hx4AueT1M/task01/sub01/motion.bvh",
+            "params_path": "results/momask/I0hx4AueT1M/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Detail the automated control systems and sensors in Apple Harvesters.",
+      "start": 93.0,
+      "end": 108.0,
+      "subtasks": [
+        {
+          "text": "Describe how sensors help the harvester determine the ripeness of apples and adjust the harvesting process.",
+          "start": 93.0,
+          "end": 100.0,
+          "segment_ids": [
+            28,
+            29
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f00.jpg",
+              "relative_path": "I0hx4AueT1M/task02_sub00_f00.jpg",
+              "caption": "A man is mowing a lawn with a lawn mower.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "I0hx4AueT1M/task02_sub00_f01.jpg",
+              "caption": "The video shows a machine processing various fruits, including apples and pomegranates.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "I0hx4AueT1M/task02_sub00_f02.jpg",
+              "caption": "A tractor is transporting a trailer full of apples through a field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot uses various sensors to determine the ripeness of apples and adjusts its harvesting process accordingly.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A man is mowing a lawn, which is not relevant to the task.",
+            "- [frames=[1]] The video shows a machine processing various fruits, including apples and pomegranates.",
+            "- [frames=[2]] A tractor is transporting a trailer full of apples through a field, indicating the harvesting process is ongoing.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from a lawn mowing activity to a fruit processing machine, then to a tractor transporting harvested apples. This indicates the presence of an automated apple harvester in operation.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot must be equipped with sensors capable of detecting apple ripeness.",
+            "- The harvester must be in motion, moving through the orchard.",
+            "- Apples must be present on the trees for harvesting.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Apples must be identified as ripe before harvesting.",
+            "- The harvesting process must be adjusted based on ripeness levels.",
+            "- Apples must be collected without damage.",
+            "- The harvester must continue to operate efficiently throughout the process.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Scan the environment to locate ripe apples.",
+            "2. [type=perception, frames=[1]] Measure the ripeness of apples using internal sensors.",
+            "3. [type=navigation, frames=[1]] Move towards the ripest apple.",
+            "4. [type=manipulation, frames=[1]] Grasp the apple gently to avoid damage.",
+            "5. [type=manipulation, frames=[1]] Place the apple into the collection bin.",
+            "6. [type=perception, frames=[1]] Verify the apple has been successfully placed.",
+            "7. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Scan the environment to locate ripe apples. It then verifies the key detail directly from the frames (Measure the ripeness of apples using internal sensors).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move towards the ripest apple; Grasp the apple gently to avoid damage; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 7.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/I0hx4AueT1M/task02/sub00/motion.bvh",
+            "params_path": "results/momask/I0hx4AueT1M/task02/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Highlight the role of automated control systems in reducing human intervention and improving efficiency.",
+          "start": 100.0,
+          "end": 108.0,
+          "segment_ids": [
+            30,
+            31
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub01_f01.jpg",
+              "relative_path": "I0hx4AueT1M/task02_sub01_f01.jpg",
+              "caption": "Several blue crates filled with red apples are lined up in a field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub01_f02.jpg",
+              "relative_path": "I0hx4AueT1M/task02_sub01_f02.jpg",
+              "caption": "A tractor is pulling a trailer with a load of crates in a parking lot.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Automated control systems in apple harvesters significantly reduce human intervention and enhance operational efficiency by precisely managing various tasks.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] Blue crates filled with red apples are neatly arranged in a field, indicating a harvested area.",
+            "- [frames=[2]] A tractor is seen pulling a trailer loaded with crates, suggesting the transport of harvested apples.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts an organized harvesting operation where automated systems play a crucial role in managing the process efficiently. The presence of blue crates and a tractor indicates a structured workflow involving both harvesting and transportation.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot must be equipped with advanced sensors for detecting ripe apples.",
+            "- It should have the capability to navigate through the field autonomously.",
+            "- The robot needs to be able to manipulate and pick apples without damaging them.",
+            "- It must be capable of communicating with other systems for coordination.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Apples must be picked efficiently without causing damage.",
+            "- The robot should accurately place the apples into the correct crates.",
+            "- The system must ensure that all ripe apples are harvested.",
+            "- The robot should avoid picking unripe or spoiled apples.",
+            "- The robot must maintain a safe distance from obstacles during navigation.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate towards the field where the blue crates are located.",
+            "2. [type=perception, frames=[1]] Use sensors to detect ripe apples and their locations.",
+            "3. [type=manipulation, frames=[1]] Pick ripe apples using robotic arms designed for gentle handling.",
+            "4. [type=navigation, frames=[2]] Move towards the tractor and trailer.",
+            "5. [type=manipulation, frames=[2]] Place the picked apples into the crates on the trailer.",
+            "6. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "7. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate towards the field where the blue crates are located. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate towards the field where the blue crates are located; Pick ripe apples using robotic arms designed for gentle handling; Move towards the tractor and trailer; Place the picked apples into the crates on the trailer; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 8.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/I0hx4AueT1M/task02/sub01/motion.bvh",
+            "params_path": "results/momask/I0hx4AueT1M/task02/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Discuss the time and labor savings achieved with Apple Harvesters.",
+      "start": 108.0,
+      "end": 129.0,
+      "subtasks": [
+        {
+          "text": "Compare the efficiency of apple harvesting with and without Apple Harvesters.",
+          "start": 108.0,
+          "end": 118.0,
+          "segment_ids": [
+            32,
+            33,
+            34
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub00_f01.jpg",
+              "relative_path": "I0hx4AueT1M/task03_sub00_f01.jpg",
+              "caption": "A tractor is driving through a field with people on it, surrounded by rows of crops.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub00_f02.jpg",
+              "relative_path": "I0hx4AueT1M/task03_sub00_f02.jpg",
+              "caption": "Two people are loading apples onto a conveyor belt in an orchard.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask involves comparing the efficiency of apple harvesting with and without the use of Apple Harvesters. The robot will observe the differences in time and labor required for both methods.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A tractor is driving through a field with people on it, surrounded by rows of crops.",
+            "- [frames=[1]] Two people are loading apples onto a conveyor belt in an orchard.",
+            "- [frames=[1,2]] The presence of people indicates manual harvesting, while the tractor suggests mechanized assistance.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "In the first scene, a tractor is seen moving through a field, likely equipped with an Apple Harvester. In the second scene, two individuals are manually loading apples into a conveyor belt. This setup contrasts the efficiency of mechanical harvesting versus traditional manual methods.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the layout of an orchard.",
+            "- It needs to recognize different types of machinery and human activities.",
+            "- The robot must understand the concept of time and labor.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Verify that the tractor is equipped with an Apple Harvester.",
+            "- Confirm that the conveyor belt is operational.",
+            "- Measure the time taken for both harvesting methods.",
+            "- Cross-check the number of apples collected by both methods.",
+            "- Assess the amount of labor required for each method.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Drive the robot towards the field where the tractor is located.",
+            "2. [type=perception, frames=[1]] Scan the area to identify the tractor and confirm its presence.",
+            "3. [type=navigation, frames=[1]] Move the robot to the orchard where people are loading apples.",
+            "4. [type=perception, frames=[1]] Observe the people loading apples to assess their activity.",
+            "5. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Drive the robot towards the field where the tractor is located. It then verifies the key detail directly from the frames (Scan the area to identify the tractor and confirm its presence).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Drive the robot towards the field where the tractor is located; Move the robot to the orchard where people are loading apples; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 10.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/I0hx4AueT1M/task03/sub00/motion.bvh",
+            "params_path": "results/momask/I0hx4AueT1M/task03/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Note how Apple Harvesters can harvest hundreds of apples per hour.",
+          "start": 123.0,
+          "end": 129.0,
+          "segment_ids": [
+            36,
+            37
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub01_f00.jpg",
+              "relative_path": "I0hx4AueT1M/task03_sub01_f00.jpg",
+              "caption": "The video frame shows a blurry view of a tree with green leaves and a red object in the background.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task03_sub01_f01.jpg",
+              "relative_path": "I0hx4AueT1M/task03_sub01_f01.jpg",
+              "caption": "A red and white box is sitting on a grassy area with trees in the background.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub01_f02.jpg",
+              "relative_path": "I0hx4AueT1M/task03_sub01_f02.jpg",
+              "caption": "A tractor is harvesting apples in an orchard.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video highlights the efficiency of modern apple harvesters by showing their capability to harvest a large number of apples quickly.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A blurry view of a tree with green leaves and a red object in the background suggests the initial setup or environment.",
+            "- [frames=[1]] A red and white box is visible on a grassy area, possibly indicating equipment or supplies.",
+            "- [frames=[2]] A tractor is seen harvesting apples in an orchard, showcasing the main activity.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from an initial setup to the actual harvesting process, emphasizing the speed and efficiency of the machinery.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with sensors to detect ripe apples.",
+            "- It needs to be programmed to navigate through the orchard efficiently.",
+            "- The robot must have the capability to grasp and remove apples from the trees.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should successfully pick and collect at least 100 apples within the given timeframe.",
+            "- Apples should be collected without damaging the tree or the fruit.",
+            "- The robot should avoid any obstacles in the orchard.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate towards the orchard where the apple harvesting is taking place.",
+            "2. [type=perception, frames=[2]] Use sensors to identify ripe apples and map the orchard layout.",
+            "3. [type=manipulation, frames=[2]] Extend the robotic arm to reach an apple and grasp it gently.",
+            "4. [type=manipulation, frames=[2]] Transfer the apple into the collection bin attached to the robot.",
+            "5. [type=navigation, frames=[2]] Move to the next apple tree and repeat the process.",
+            "6. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "7. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate towards the orchard where the apple harvesting is taking place. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate towards the orchard where the apple harvesting is taking place; Extend the robotic arm to reach an apple and grasp it gently; Transfer the apple into the collection bin attached to the robot; Move to the next apple tree and repeat the process; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 6.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/I0hx4AueT1M/task03/sub01/motion.bvh",
+            "params_path": "results/momask/I0hx4AueT1M/task03/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Highlight the sustainability benefits of Apple Harvesters.",
+      "start": 137.0,
+      "end": 146.0,
+      "subtasks": [
+        {
+          "text": "Explain how Apple Harvesters minimize human intervention and protect the environment.",
+          "start": 137.0,
+          "end": 146.0,
+          "segment_ids": [
+            40,
+            41
+          ],
+          "frames": [
+            {
+              "image_file": "task04_sub00_f00.jpg",
+              "relative_path": "I0hx4AueT1M/task04_sub00_f00.jpg",
+              "caption": "The video frame shows a vast, green landscape with a dirt road running through it, leading towards a small town in the distance.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task04_sub00_f01.jpg",
+              "relative_path": "I0hx4AueT1M/task04_sub00_f01.jpg",
+              "caption": "A person is harvesting vegetables from a raised garden bed.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task04_sub00_f02.jpg",
+              "relative_path": "I0hx4AueT1M/task04_sub00_f02.jpg",
+              "caption": "Two people are harvesting tomatoes in a field, with a cart full of tomatoes in the foreground.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Apple harvesters significantly reduce human labor in the fields, thereby minimizing environmental impact and promoting sustainable farming practices.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A vast, green landscape with a dirt road leading to a small town in the distance sets the scene for agricultural work.",
+            "- [frames=[1]] A person is seen harvesting vegetables from a raised garden bed, indicating traditional methods of farming.",
+            "- [frames=[2]] Two individuals are harvesting tomatoes in a field, with a cart full of tomatoes in the foreground, showing the labor-intensive nature of manual harvesting.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict the contrast between traditional and modern farming methods. The vast landscape and the presence of raised garden beds and tomato fields suggest an agricultural setting where human labor is prevalent but inefficient.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with sensors to detect ripe apples.",
+            "- It needs to navigate through the orchard without damaging the trees or the ground.",
+            "- The robot must be able to pick apples efficiently and place them into a collection bin.",
+            "- It should have a mechanism to avoid picking unripe or damaged apples.",
+            "- The robot should be capable of communicating its status and any issues encountered during operation.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully navigates the orchard without causing damage.",
+            "- It picks ripe apples and avoids unripe or damaged ones.",
+            "- The collected apples are placed into a designated collection bin.",
+            "- The robot operates continuously for a specified duration without needing human intervention.",
+            "- The robot’s performance is measured against predefined efficiency metrics.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Starts by navigating through the orchard, avoiding obstacles and maintaining a steady path.",
+            "2. [type=perception, frames=[1]] Uses its sensors to identify ripe apples based on color and size.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Starts by navigating through the orchard, avoiding obstacles and maintaining a steady path. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Starts by navigating through the orchard, avoiding obstacles and maintaining a steady path; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 9.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/I0hx4AueT1M/task04/sub00/motion.bvh",
+            "params_path": "results/momask/I0hx4AueT1M/task04/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Describe the integration of artificial intelligence in Apple Harvesters.",
+      "start": 156.0,
+      "end": 177.0,
+      "subtasks": [
+        {
+          "text": "Mention the use of AI to pick apples accurately and gently, reducing damage.",
+          "start": 156.0,
+          "end": 165.0,
+          "segment_ids": [
+            45,
+            46
+          ],
+          "frames": [
+            {
+              "image_file": "task05_sub00_f00.jpg",
+              "relative_path": "I0hx4AueT1M/task05_sub00_f00.jpg",
+              "caption": "A machine is on a boat with apples inside it.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task05_sub00_f01.jpg",
+              "relative_path": "I0hx4AueT1M/task05_sub00_f01.jpg",
+              "caption": "A robotic device is harvesting peaches in a peach orchard.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task05_sub00_f02.jpg",
+              "relative_path": "I0hx4AueT1M/task05_sub00_f02.jpg",
+              "caption": "A robotic arm is picking apples from a tree in an orchard.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot uses advanced AI to pick apples gently, ensuring minimal damage during the harvest process.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The machine is on a boat with apples inside it, indicating it's part of a mobile harvesting system.",
+            "- [frames=[1]] A robotic device is seen harvesting peaches in a different orchard, showing versatility in fruit handling.",
+            "- [frames=[2]] A robotic arm is picking apples from a tree, demonstrating the precision required for apple harvesting.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a modern apple harvester using AI to pick apples accurately and gently. The robot adapts its movements based on the fruit's size and position, ensuring efficient and careful harvesting.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot must be calibrated for the specific type of apple.",
+            "- The orchard environment should be stable and safe for operation.",
+            "- The robot needs to have a clear view of the apples to be picked.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Apples must be picked without significant damage.",
+            "- The robot should maintain a steady and efficient picking rate.",
+            "- The harvested apples should be placed in the designated collection area without any loss.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[2]] Uses its sensors to detect ripe apples on the tree.",
+            "2. [type=navigation, frames=[2]] It measures the size and position of the apple to ensure gentle handling.",
+            "3. [type=manipulation, frames=[2]] The robotic arm approaches the apple and picks it carefully.",
+            "4. [type=manipulation, frames=[2]] The apple is gently placed into the collection basket.",
+            "5. [type=perception, frames=[2]] Confirm the successful pick through a status update.",
+            "6. [type=navigation, frames=[0]] The.",
+            "7. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Uses its sensors to detect ripe apples on the tree. It then verifies the key detail directly from the frames (Confirm the successful pick through a status update).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: It measures the size and position of the apple to ensure gentle handling; The robotic arm approaches the apple and picks it carefully; The apple is gently placed into the collection basket; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 9.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/I0hx4AueT1M/task05/sub00/motion.bvh",
+            "params_path": "results/momask/I0hx4AueT1M/task05/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Describe how AI helps determine ripeness and adjust harvesting techniques based on orchard conditions.",
+          "start": 170.0,
+          "end": 177.0,
+          "segment_ids": [
+            48,
+            49
+          ],
+          "frames": [
+            {
+              "image_file": "task05_sub01_f00.jpg",
+              "relative_path": "I0hx4AueT1M/task05_sub01_f00.jpg",
+              "caption": "A person is operating a machine that is part of a fruit processing line.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task05_sub01_f01.jpg",
+              "relative_path": "I0hx4AueT1M/task05_sub01_f01.jpg",
+              "caption": "Two red apples hang from a tree branch in an orchard.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task05_sub01_f02.jpg",
+              "relative_path": "I0hx4AueT1M/task05_sub01_f02.jpg",
+              "caption": "The video shows a close-up of a tree with red apples.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot uses AI to assess apple ripeness and adjusts its harvesting technique based on the orchard's current conditions.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A person is operating a machine that is part of a fruit processing line.",
+            "- [frames=[1]] Two red apples hang from a tree branch in an orchard.",
+            "- [frames=[2]] The video shows a close-up of a tree with red apples.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts an orchard setting where apples are being harvested. The robot is equipped with sensors and AI algorithms to evaluate the ripeness of the apples and adapt its harvesting method accordingly.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot must have access to real-time data about the orchard conditions.",
+            "- The robot should be capable of identifying ripe apples through visual and tactile sensors.",
+            "- The robot needs to be able to adjust its harvesting mechanism based on the ripeness of the apples.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully identifies ripe apples.",
+            "- The robot adjusts its harvesting technique to ensure minimal damage to the orchard.",
+            "- The robot collects a sample of apples for quality verification.",
+            "- The robot ensures that the harvesting process does not cause any harm to the trees.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Uses its camera to capture images of the apples.",
+            "2. [type=perception, frames=[2]] Employs tactile sensors to measure the firmness of the apples.",
+            "3. [type=communication, frames=[0,1,2]] Sends the collected data to its AI system for analysis.",
+            "4. [type=perception, frames=[0,1,2]] The AI system cross-checks the data against predefined ripeness criteria.",
+            "5. [type=manipulation, frames=[0,1,2]] Based on the analysis, the robot.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Uses its camera to capture images of the apples. It then verifies the key detail directly from the frames (Employs tactile sensors to measure the firmness of the apples).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Based on the analysis, the robot; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 7.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/I0hx4AueT1M/task05/sub01/motion.bvh",
+            "params_path": "results/momask/I0hx4AueT1M/task05/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Explain the benefits and applications of grape harvesters in modern agriculture.",
+      "start": 257.1,
+      "end": 294.1,
+      "subtasks": [
+        {
+          "text": "Mention the ability of grape harvesters to operate based on advanced technology, including sensors and cameras.",
+          "start": 257.1,
+          "end": 267.1,
+          "segment_ids": [
+            60,
+            61
+          ],
+          "frames": [
+            {
+              "image_file": "task06_sub00_f00.jpg",
+              "relative_path": "I0hx4AueT1M/task06_sub00_f00.jpg",
+              "caption": "A large yellow machine is harvesting crops in a field.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task06_sub00_f01.jpg",
+              "relative_path": "I0hx4AueT1M/task06_sub00_f01.jpg",
+              "caption": "A machine is pouring harvested corn into a trailer.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task06_sub00_f02.jpg",
+              "relative_path": "I0hx4AueT1M/task06_sub00_f02.jpg",
+              "caption": "A modern agricultural machine is harvesting grapes in a vineyard.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Grape harvesters use advanced technology such as sensors and cameras to efficiently gather grapes in vineyards.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A large yellow machine is harvesting crops in a field.",
+            "- [frames=[1]] A machine is pouring harvested corn into a trailer.",
+            "- [frames=[2]] A modern agricultural machine is harvesting grapes in a vineyard.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict various agricultural machines performing their tasks, with a focus on the advanced technology used by grape harvesters in vineyards.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the operation of agricultural machinery.",
+            "- It should have access to a grape harvester equipped with sensors and cameras.",
+            "- The robot needs to be within the operational range of the machine.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should confirm the presence of a grape harvester.",
+            "- It should verify that the harvester is equipped with sensors and cameras.",
+            "- The robot should check that the machine is ready for operation.",
+            "- It should ensure that the machine is correctly positioned in the vineyard.",
+            "- The robot should measure the efficiency of the machine's operation.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the location where the grape harvester is operating.",
+            "2. [type=perception, frames=[2]] Verify the presence of a grape harvester using visual sensors.",
+            "3. [type=perception, frames=[2]] Check if the harvester is equipped with sensors and cameras.",
+            "4. [type=navigation, frames=[2]] Position the robot near the grape harvester.",
+            "5. [type=manipulation, frames=[2]] Assist in positioning the grape harvester correctly in the vineyard.",
+            "6. [type=manipulation, frames=[2]] Ensure the machine is.",
+            "7. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the location where the grape harvester is operating. It then verifies the key detail directly from the frames (Verify the presence of a grape harvester using visual sensors).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the location where the grape harvester is operating; Position the robot near the grape harvester; Assist in positioning the grape harvester correctly in the vineyard; Ensure the machine is; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 10.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/I0hx4AueT1M/task06/sub00/motion.bvh",
+            "params_path": "results/momask/I0hx4AueT1M/task06/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Describe the significant reduction in harvest time compared to manual labor.",
+          "start": 274.1,
+          "end": 279.1,
+          "segment_ids": [
+            64
+          ],
+          "frames": [
+            {
+              "image_file": "task06_sub01_f00.jpg",
+              "relative_path": "I0hx4AueT1M/task06_sub01_f00.jpg",
+              "caption": "A tractor is harvesting grapes in a vineyard.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task06_sub01_f01.jpg",
+              "relative_path": "I0hx4AueT1M/task06_sub01_f01.jpg",
+              "caption": "A large agricultural machine with a green and yellow body is being loaded onto a truck.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task06_sub01_f02.jpg",
+              "relative_path": "I0hx4AueT1M/task06_sub01_f02.jpg",
+              "caption": "A large agricultural machine with the brand \"Zaccaria\" is being loaded or unloaded.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment highlights the efficiency of modern grape harvesters by showcasing their ability to significantly reduce the time required for grape harvesting compared to manual labor.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A tractor is seen harvesting grapes in a vineyard, indicating the ongoing process of grape picking.",
+            "- [frames=[1]] A large agricultural machine with a green and yellow body is being loaded onto a truck, suggesting the completion of the harvesting process.",
+            "- [frames=[2]] Another view of the same large agricultural machine, now labeled \"Zaccaria,\" is shown being loaded or unloaded, possibly indicating the transition of the machine to another location or the start of unloading.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a modern grape harvester in action, emphasizing its role in reducing the time needed for grape harvesting. The presence of a tractor and a large agricultural machine underscores the mechanized nature of contemporary viticulture practices.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the current location of the grape harvester.",
+            "- The robot needs to know the loading/unloading area for the machine.",
+            "- The robot must have access to the necessary tools and equipment for handling the machine.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The grape harvester should be successfully loaded onto the truck.",
+            "- The loading process should be completed within a specified timeframe.",
+            "- The machine should be securely fastened on the truck bed.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Navigate to the location where the grape harvester is currently parked.",
+            "2. [type=perception, frames=[0]] Verify the presence of the grape harvester using onboard sensors.",
+            "3. [type=navigation, frames=[1]] Drive the robot to the loading area.",
+            "4. [type=manipulation, frames=[1]] Assist in securing the.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the location where the grape harvester is currently parked. It then verifies the key detail directly from the frames (Verify the presence of the grape harvester using onboard sensors).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the location where the grape harvester is currently parked; Drive the robot to the loading area; Assist in securing the; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 5.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/I0hx4AueT1M/task06/sub01/motion.bvh",
+            "params_path": "results/momask/I0hx4AueT1M/task06/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Highlight the role of grape harvesters in ensuring optimal grape quality.",
+          "start": 289.1,
+          "end": 294.1,
+          "segment_ids": [
+            67
+          ],
+          "frames": [
+            {
+              "image_file": "task06_sub02_f00.jpg",
+              "relative_path": "I0hx4AueT1M/task06_sub02_f00.jpg",
+              "caption": "A tractor is loading a trailer with a tree into a field.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task06_sub02_f01.jpg",
+              "relative_path": "I0hx4AueT1M/task06_sub02_f01.jpg",
+              "caption": "A tractor is loading a trailer with black material in a field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task06_sub02_f02.jpg",
+              "relative_path": "I0hx4AueT1M/task06_sub02_f02.jpg",
+              "caption": "A tractor is harvesting grapes in a vineyard.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The role of grape harvesters in ensuring optimal grape quality is highlighted by showcasing the process of harvesting grapes in a vineyard setting.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A tractor is loading a trailer with a tree into a field.",
+            "- [frames=[1]] A tractor is loading a trailer with black material in a field.",
+            "- [frames=[2]] A tractor is harvesting grapes in a vineyard.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from loading equipment to harvesting grapes, indicating the continuous operation of agricultural machinery in a vineyard setting. The presence of a tractor and its activities suggest an automated or semi-automated process aimed at maintaining high-quality grape production.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with sensors to detect ripe grapes.",
+            "- The robot needs to be capable of navigating through vineyards.",
+            "- The robot must have the ability to manipulate and collect grapes efficiently.",
+            "- The robot should be able to communicate with other farm equipment if necessary.",
+            "- The robot needs to be aware of the current weather conditions to avoid adverse effects on grape quality.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should successfully identify and collect ripe grapes.",
+            "- The collected grapes should be free from damage.",
+            "- The robot should maintain a consistent speed during the harvesting process.",
+            "- The harvested grapes should be stored in a manner that preserves their quality.",
+            "- The robot should be able to adapt to different terrain and vine structures.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[2]] Navigate to the vineyard area where grapes are being harvested.",
+            "2. [type=perception, frames=[2]] Use sensors to detect ripe grapes and map the vine structure.",
+            "3. [type=manipulation, frames=[2]] Grasp and collect a cluster of grapes using robotic arms.",
+            "4. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the vineyard area where grapes are being harvested. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the vineyard area where grapes are being harvested; Grasp and collect a cluster of grapes using robotic arms; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 5.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/I0hx4AueT1M/task06/sub02/motion.bvh",
+            "params_path": "results/momask/I0hx4AueT1M/task06/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Detail the reliability of grape harvesters in various weather conditions.",
+      "start": 318.1,
+      "end": 327.1,
+      "subtasks": [
+        {
+          "text": "Explain how grape harvesters can operate in different weather conditions from light rain to hot sunny days.",
+          "start": 318.1,
+          "end": 327.1,
+          "segment_ids": [
+            75,
+            76
+          ],
+          "frames": [
+            {
+              "image_file": "task07_sub00_f00.jpg",
+              "relative_path": "I0hx4AueT1M/task07_sub00_f00.jpg",
+              "caption": "A tractor is harvesting crops in a field with mountains in the background.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task07_sub00_f01.jpg",
+              "relative_path": "I0hx4AueT1M/task07_sub00_f01.jpg",
+              "caption": "The video frame shows an aerial view of a farm with various agricultural fields and a body of water.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task07_sub00_f02.jpg",
+              "relative_path": "I0hx4AueT1M/task07_sub00_f02.jpg",
+              "caption": "A tractor is driving through a vineyard, surrounded by rows of grapevines.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Grape harvesters can effectively operate in various weather conditions, from light rain to hot sunny days, ensuring efficient fruit gathering.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A tractor is harvesting crops in a field with mountains in the background, indicating diverse terrain.",
+            "- [frames=[1]] An aerial view of a farm with various agricultural fields and a body of water provides context for the operational environment.",
+            "- [frames=[2]] A tractor is driving through a vineyard, surrounded by rows of grapevines, showing the specific task environment.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict a typical vineyard setting with diverse weather conditions, including light rain and hot sunny days, which the grape harvesters must handle efficiently.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot must be equipped with sensors to detect weather conditions.",
+            "- It should have a robust power supply to function in varying environmental conditions.",
+            "- The robot needs to be capable of navigating through vineyards and fields.",
+            "- It must have a mechanism to adjust its operations based on weather data.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should successfully harvest grapes without damage under all weather conditions.",
+            "- It must maintain a consistent rate of harvest regardless of weather changes.",
+            "- The harvested grapes should be of high quality, free from damage or contamination.",
+            "- The robot should be able to adapt its speed and operation mode based on weather conditions.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Read weather data from onboard sensors to assess current conditions.",
+            "2. [type=navigation, frames=[2]] Drive the robot through the vineyard, adjusting speed based on weather conditions.",
+            "3. [type=manipulation, frames=[2]] Deploy harvesting arms to begin picking grapes.",
+            "4. [type=perception, frames=[2]] Verify the quality of harvested.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Read weather data from onboard sensors to assess current conditions. It then verifies the key detail directly from the frames (Read weather data from onboard sensors to assess current conditions).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Drive the robot through the vineyard, adjusting speed based on weather conditions; Deploy harvesting arms to begin picking grapes; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 9.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/I0hx4AueT1M/task07/sub00/motion.bvh",
+            "params_path": "results/momask/I0hx4AueT1M/task07/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Discuss the advancements in artificial intelligence for grape harvesters.",
+      "start": 348.1,
+      "end": 369.1,
+      "subtasks": [
+        {
+          "text": "Mention the ability of modern grape harvesters to automatically adjust harvesting speed based on grape ripeness.",
+          "start": 348.1,
+          "end": 355.1,
+          "segment_ids": [
+            83,
+            84
+          ],
+          "frames": [
+            {
+              "image_file": "task08_sub00_f00.jpg",
+              "relative_path": "I0hx4AueT1M/task08_sub00_f00.jpg",
+              "caption": "The video shows a close-up of a machine with green plants growing inside, possibly in a greenhouse or laboratory setting.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task08_sub00_f01.jpg",
+              "relative_path": "I0hx4AueT1M/task08_sub00_f01.jpg",
+              "caption": "A tractor with tracks is navigating through a vineyard.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task08_sub00_f02.jpg",
+              "relative_path": "I0hx4AueT1M/task08_sub00_f02.jpg",
+              "caption": "A machine with an orange box on top is seen in a garden setting.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Modern grape harvesters can adjust their harvesting speed based on grape ripeness, showcasing advanced AI capabilities. This feature enhances efficiency and quality control during the harvest process.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A close-up view of a machine with green plants inside suggests a controlled environment like a greenhouse or laboratory.",
+            "- [frames=[1]] A tractor with tracks is seen navigating through a vineyard, indicating the outdoor setting where the harvester operates.",
+            "- [frames=[2]] An orange-boxed machine is observed in a garden setting, likely representing a prototype or advanced model of a grape harvester.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict both indoor and outdoor settings, highlighting the versatility of modern grape harvesters. The presence of green plants and the orange box suggest technological advancements and precision farming techniques.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot must be equipped with sensors capable of detecting grape ripeness.",
+            "- It should have the ability to adjust its speed autonomously.",
+            "- The environment must allow for safe navigation and operation of the harvester.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully identifies ripe grapes.",
+            "- It adjusts its harvesting speed accordingly.",
+            "- The harvested grapes meet quality standards.",
+            "- No damage is done to the vines or unripe grapes.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Uses sensors to detect grape ripeness.",
+            "2. [type=perception, frames=[0,1]] The data from sensors is processed to determine the optimal harvesting speed.",
+            "3. [type=navigation, frames=[1]] Navigates through the vineyard using its track system.",
+            "4. [type=manipulation, frames=[1,2]] Adjusts its speed based on the ripeness of the grapes.",
+            "5. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Uses sensors to detect grape ripeness. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigates through the vineyard using its track system; Adjusts its speed based on the ripeness of the grapes; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 7.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/I0hx4AueT1M/task08/sub00/motion.bvh",
+            "params_path": "results/momask/I0hx4AueT1M/task08/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Highlight how AI technology maximizes grape quality.",
+          "start": 361.1,
+          "end": 369.1,
+          "segment_ids": [
+            86,
+            87
+          ],
+          "frames": [
+            {
+              "image_file": "task08_sub01_f00.jpg",
+              "relative_path": "I0hx4AueT1M/task08_sub01_f00.jpg",
+              "caption": "A dirty, green liquid is seen in a container with a metal lid.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task08_sub01_f01.jpg",
+              "relative_path": "I0hx4AueT1M/task08_sub01_f01.jpg",
+              "caption": "A New Holland Moretto tractor is harvesting crops in a field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task08_sub01_f02.jpg",
+              "relative_path": "I0hx4AueT1M/task08_sub01_f02.jpg",
+              "caption": "A large blue machine is harvesting grapes in a vineyard.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on how AI technology enhances grape quality during the harvesting process, showcasing advanced machinery and techniques used in modern vineyards.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A dirty, green liquid is seen in a container with a metal lid, suggesting the presence of grape juice or must.",
+            "- [frames=[1]] A New Holland Moretto tractor is harvesting crops in a field, indicating the start of the harvesting process.",
+            "- [frames=[2]] A large blue machine is harvesting grapes in a vineyard, highlighting the use of sophisticated equipment for grape picking.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a modern vineyard where both mechanical and possibly AI-driven systems are employed to ensure efficient and high-quality grape harvesting. The presence of a tractor and a large blue machine suggests automated processes that can adapt to varying conditions to maintain grape quality.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with sensors capable of detecting grape ripeness and quality.",
+            "- It needs to have the ability to communicate with other farm machinery and systems.",
+            "- The robot must be able to navigate through the vineyard terrain effectively.",
+            "- It should possess the capability to perform gentle handling of grapes to avoid damage.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify ripe grapes based on color, texture, and other sensory data.",
+            "- It must ensure minimal damage to the vines and surrounding vegetation.",
+            "- The harvested grapes should meet predefined quality standards.",
+            "- The robot should be able to adjust its harvesting strategy based on real-time feedback from the environment.",
+            "- It should be able to integrate seamlessly with existing farm management systems.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigates to the vineyard area using pre-programmed routes.",
+            "2. [type=perception, frames=[2]] Uses its sensors.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigates to the vineyard area using pre-programmed routes. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigates to the vineyard area using pre-programmed routes; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 8.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/I0hx4AueT1M/task08/sub01/motion.bvh",
+            "params_path": "results/momask/I0hx4AueT1M/task08/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

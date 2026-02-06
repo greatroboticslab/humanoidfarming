@@ -1,0 +1,888 @@
+{
+  "video_index": "O33a3T992k8",
+  "title": "Revolutionizing Agriculture with Robotic Technology",
+  "url": "https://www.youtube.com/watch?v=O33a3T992k8",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "The video discusses the role and applications of robotic technology in modern agriculture, including precision farming, autonomous vehicles, and various other agricultural tasks.",
+  "tasks": [
+    {
+      "task": "Automation of Planting and Harvesting",
+      "start": 39.4,
+      "end": 284.4,
+      "subtasks": [
+        {
+          "text": "Observe autonomous planting machines accurately sowing seeds at optimal depths.",
+          "start": 39.4,
+          "end": 46.4,
+          "segment_ids": [
+            6
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "O33a3T992k8/task00_sub00_f00.jpg",
+              "caption": "A white robot with a camera on its front is navigating through a cornfield.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "O33a3T992k8/task00_sub00_f01.jpg",
+              "caption": "A robot with a camera is navigating through a cornfield.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "O33a3T992k8/task00_sub00_f02.jpg",
+              "caption": "Strawberries grow in a controlled environment with a conveyor belt.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot navigates through a cornfield while accurately sowing seeds at optimal depths, ensuring efficient and precise planting.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] The robot, equipped with a camera, moves through a cornfield, indicating it is performing navigation tasks.",
+            "- [frames=[0,1]] The camera on the robot's front suggests it is used for visual perception during navigation.",
+            "- [frames=[2]] The scene shifts to strawberries in a controlled environment with a conveyor belt, which is not relevant to the current subtask.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene primarily focuses on the robot’s navigation and planting activities within a cornfield. The presence of a camera indicates the robot uses visual data for navigation and possibly for seed placement accuracy.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot must have a functioning camera for navigation and planting.",
+            "- The robot should be capable of moving autonomously through the cornfield.",
+            "- The robot needs to carry the necessary equipment for planting seeds.",
+            "- The cornfield must be prepared for planting, with soil conditions suitable for seed sowing.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Seeds are sown at the correct depth.",
+            "- The robot maintains an accurate path through the cornfield.",
+            "- The planting process is completed without damaging the existing plants.",
+            "- The robot verifies the depth of the seeds after planting.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate through the cornfield using the onboard camera for guidance.",
+            "2. [type=perception, frames=[0,1]] Use the camera to identify the optimal planting spots.",
+            "3. [type=manipulation, frames=[0,1]] Lower the planting mechanism to the ground.",
+            "4. [type=manipulation, frames=[0,1]] Insert the seeds into the soil at the.",
+            "5. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate through the cornfield using the onboard camera for guidance. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate through the cornfield using the onboard camera for guidance; Lower the planting mechanism to the ground; Insert the seeds into the soil at the; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 7.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/O33a3T992k8/task00/sub00/motion.bvh",
+            "params_path": "results/momask/O33a3T992k8/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Note robotic harvesters picking crops with computer vision systems.",
+          "start": 244.4,
+          "end": 284.4,
+          "segment_ids": [
+            31,
+            36
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f00.jpg",
+              "relative_path": "O33a3T992k8/task00_sub01_f00.jpg",
+              "caption": "A solar-powered robot is driving through a field of red plants.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "O33a3T992k8/task00_sub01_f01.jpg",
+              "caption": "A white object with eyes floating in a rice field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "O33a3T992k8/task00_sub01_f02.jpg",
+              "caption": "A white object floats in a rice field.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub01_f03.jpg",
+              "relative_path": "O33a3T992k8/task00_sub01_f03.jpg",
+              "caption": "A robotic farm with plants and a sign that reads \"FARMBO.\"",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task00_sub01_f04.jpg",
+              "relative_path": "O33a3T992k8/task00_sub01_f04.jpg",
+              "caption": "Several drones are flying over a field of crops, spraying water.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task00_sub01_f05.jpg",
+              "relative_path": "O33a3T992k8/task00_sub01_f05.jpg",
+              "caption": "A drone is flying over a field of crops, spraying crops with water.",
+              "frame_index": 5
+            },
+            {
+              "image_file": "task00_sub01_f06.jpg",
+              "relative_path": "O33a3T992k8/task00_sub01_f06.jpg",
+              "caption": "A garden with raised beds and sensors is being monitored.",
+              "frame_index": 6
+            },
+            {
+              "image_file": "task00_sub01_f07.jpg",
+              "relative_path": "O33a3T992k8/task00_sub01_f07.jpg",
+              "caption": "A garden bed with plants and a machine spraying water.",
+              "frame_index": 7
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Robotic harvesters equipped with computer vision systems are picking crops in a field, showcasing advanced agricultural technology.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A solar-powered robot drives through a field of red plants.",
+            "- [frames=[1,2]] A white object with eyes floats in a rice field.",
+            "- [frames=[3]] A robotic farm with plants and a sign reading \"FARMBO\" is visible.",
+            "- [frames=[4,5]] Drones are seen flying over fields, spraying water.",
+            "- [frames=[6,7]] A garden with raised beds and sensors is being monitored, with a machine spraying water.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a modern agricultural setting where robots and drones work together to automate planting and harvesting processes. The presence of solar power indicates an emphasis on sustainable practices, while the use of computer vision and drones highlights precision agriculture techniques.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot must be powered and operational.",
+            "- The field must contain crops ready for harvesting.",
+            "- Computer vision systems must be calibrated and functional.",
+            "- Drones must be available and capable of spraying water.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Crops must be accurately identified by the computer vision system.",
+            "- Harvested crops must be collected and stored properly.",
+            "- Water must be sprayed evenly across the field by drones.",
+            "- Sensors in the garden must detect optimal conditions for plant growth.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Drive the solar-powered robot through the field of red plants.",
+            "2. [type=perception, frames=[1]] Use the computer vision system to identify ripe crops.",
+            "3. [type=manipulation, frames=[2]] Extend the harvesting arm to pick the identified crops.",
+            "4. [type=manipulation, frames=[3]] Transport the harvested crops.",
+            "5. [type=perception, frames=[0,1,2,3,4,5,6,7]] Verify/confirm the key observation before reporting.",
+            "6. [type=navigation, frames=[0,1,2,3,4,5,6,7]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Drive the solar-powered robot through the field of red plants. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Drive the solar-powered robot through the field of red plants; Extend the harvesting arm to pick the identified crops; Transport the harvested crops; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 39.99999999999997,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/O33a3T992k8/task00/sub01/motion.bvh",
+            "params_path": "results/momask/O33a3T992k8/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Precision Farming Techniques",
+      "start": 58.4,
+      "end": 264.4,
+      "subtasks": [
+        {
+          "text": "Notice the use of sensors and GPS technology in robotic systems for planting and applying inputs.",
+          "start": 257.4,
+          "end": 264.4,
+          "segment_ids": [
+            34
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "O33a3T992k8/task01_sub00_f00.jpg",
+              "caption": "A person is cooking rice in a pot.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "O33a3T992k8/task01_sub00_f01.jpg",
+              "caption": "A robot is watering a garden with tomatoes and onions.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "O33a3T992k8/task01_sub00_f02.jpg",
+              "caption": "Several drones are spraying crops in a field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment illustrates the integration of advanced technologies like sensors and GPS in robotic systems for precision farming, specifically focusing on planting and applying inputs.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A person is seen cooking rice in a pot, which is irrelevant to the current subtask.",
+            "- [frames=[1]] A robot is shown watering a garden containing tomatoes and onions.",
+            "- [frames=[2]] Drones are observed spraying crops in a field, indicating automated application of inputs.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from a domestic activity (cooking) to agricultural automation, showcasing how robots and drones are used in precision farming. The focus is on the efficient use of technology to apply inputs accurately and precisely.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot must be equipped with sensors and GPS technology.",
+            "- The garden should be prepared with tomato and onion plants.",
+            "- Drones need to be pre-programmed for crop spraying.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully waters the garden without damaging the plants.",
+            "- Drones accurately spray the crops with the correct input.",
+            "- The application of inputs is measured and recorded for future reference.",
+            "- The garden and field show signs of healthy growth post-application.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate to the garden where tomatoes and onions are planted.",
+            "2. [type=perception, frames=[1]] Use onboard sensors to detect the presence of tomato and onion plants.",
+            "3. [type=manipulation, frames=[1]] Begin watering the garden using the robot's watering system.",
+            "4. [type=perception, frames=[2]] Verify the accuracy of the drone's positioning over the field.",
+            "5. [type=manipulation, frames=[2]] Initiate the drone to spray the crops with the correct input.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the garden where tomatoes and onions are planted. It then verifies the key detail directly from the frames (Verify the accuracy of the drone's positioning over the field).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the garden where tomatoes and onions are planted; Begin watering the garden using the robot's watering system; Initiate the drone to spray the crops with the correct input; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 7.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/O33a3T992k8/task01/sub00/motion.bvh",
+            "params_path": "results/momask/O33a3T992k8/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "See the analysis of soil conditions and environmental conditions through robotic systems.",
+          "start": 58.4,
+          "end": 68.4,
+          "segment_ids": [
+            9
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f00.jpg",
+              "relative_path": "O33a3T992k8/task01_sub01_f00.jpg",
+              "caption": "A red tractor is working in a field, with another tractor in the background.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "O33a3T992k8/task01_sub01_f01.jpg",
+              "caption": "A red tractor is driving through a field with another tractor in the background.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "O33a3T992k8/task01_sub01_f02.jpg",
+              "caption": "A robotic arm sprays water on plants in a greenhouse.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene depicts a robotic system analyzing soil and environmental conditions in an agricultural setting, primarily through the use of a tractor equipped with sensors and a robotic arm for spraying.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] Two tractors are seen working in a field, indicating ongoing agricultural activities.",
+            "- [frames=[2]] A robotic arm is observed spraying water on plants within a greenhouse, suggesting automated irrigation.",
+            "- [frames=[0,1,2]] The presence of a greenhouse and multiple tractors implies a modern, technologically advanced farm setting.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene combines elements of both outdoor and indoor agricultural environments, showcasing the versatility of robotic systems in precision farming. The tractors in the field likely perform initial soil and environmental condition assessments, while the greenhouse provides a controlled environment for more detailed analysis and intervention.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The tractor must be equipped with sensors capable of measuring soil moisture, pH levels, and temperature.",
+            "- The robotic arm should be able to accurately spray water based on the analysis results.",
+            "- The greenhouse must have a stable power supply and appropriate climate control systems.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Accurate measurement of soil and environmental conditions.",
+            "- Proper application of water to the plants in the greenhouse.",
+            "- Confirmation that the water application meets the required standards.",
+            "- Verification that the soil and environmental conditions are within acceptable ranges.",
+            "- Ensuring the robotic arm returns to its original position after completing tasks.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Drive the tractor to the designated area for soil and environmental condition analysis.",
+            "2. [type=perception, frames=[0,1]] Use onboard sensors to measure soil moisture, pH levels, and temperature.",
+            "3. [type=navigation, frames=[2]] Move the robotic arm to the greenhouse.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Drive the tractor to the designated area for soil and environmental condition analysis. It then verifies the key detail directly from the frames (Use onboard sensors to measure soil moisture, pH levels, and temperature).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Drive the tractor to the designated area for soil and environmental condition analysis; Move the robotic arm to the greenhouse; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 10.000000000000007,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/O33a3T992k8/task01/sub01/motion.bvh",
+            "params_path": "results/momask/O33a3T992k8/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Weeding and Pest Control",
+      "start": 130.4,
+      "end": 152.4,
+      "subtasks": [
+        {
+          "text": "Watch autonomous weeders removing unwanted vegetation.",
+          "start": 130.4,
+          "end": 141.4,
+          "segment_ids": [
+            19
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f00.jpg",
+              "relative_path": "O33a3T992k8/task02_sub00_f00.jpg",
+              "caption": "A close-up view of a mechanical device with orange and gray components.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "O33a3T992k8/task02_sub00_f01.jpg",
+              "caption": "Robotic arms are working in a greenhouse, harvesting lettuce.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "O33a3T992k8/task02_sub00_f02.jpg",
+              "caption": "Two robots are working in a field of lettuce, while people in the background watch.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Autonomous weeding robots are shown in action in a field, removing unwanted vegetation while people observe.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A close-up view of a mechanical device with orange and gray components is seen.",
+            "- [frames=[1]] Robotic arms are working in a greenhouse, harvesting lettuce.",
+            "- [frames=[2]] Two robots are working in a field of lettuce, while people in the background watch.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts an automated process where robots are employed to remove weeds from a lettuce field. People are present to monitor the operation, ensuring everything runs smoothly.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot must be powered on and ready for operation.",
+            "- The robot's sensors must be calibrated and functioning correctly.",
+            "- The robot's tools for weeding must be properly attached and in good condition.",
+            "- The field must be prepared with lettuce plants and weeds.",
+            "- The environment must be safe for the robot to operate without interference.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The unwanted vegetation must be completely removed.",
+            "- The lettuce plants must remain undamaged.",
+            "- The robot must operate without any safety incidents.",
+            "- The field must be free of visible weeds after the operation.",
+            "- The robot must return to its base station or standby position.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Move to the designated area in the field.",
+            "2. [type=perception, frames=[0]] Scan the area to identify weeds using onboard sensors.",
+            "3. [type=manipulation, frames=[2]] Extend the robotic arm equipped with a weeding tool.",
+            "4. [type=manipulation, frames=[2]] Grasp a weed and pull it out of the soil.",
+            "5. [type=manipulation, frames=[2]] Dispose of the weed by deposit.",
+            "6. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "7. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to the designated area in the field. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move to the designated area in the field; Extend the robotic arm equipped with a weeding tool; Grasp a weed and pull it out of the soil; Dispose of the weed by deposit; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 11.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/O33a3T992k8/task02/sub00/motion.bvh",
+            "params_path": "results/momask/O33a3T992k8/task02/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Trace the function of drones equipped with thermal cameras for identifying infestations.",
+          "start": 141.4,
+          "end": 152.4,
+          "segment_ids": [
+            20
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub01_f01.jpg",
+              "relative_path": "O33a3T992k8/task02_sub01_f01.jpg",
+              "caption": "Two robots are working in a field of lettuce, with workers in the background.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub01_f02.jpg",
+              "relative_path": "O33a3T992k8/task02_sub01_f02.jpg",
+              "caption": "The video frame shows a digital interface with a green hexagonal pattern and a white box with text.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask involves the use of drones equipped with thermal cameras to identify infestations in a field of lettuce. This is part of a broader tutorial on using robotic technology in agriculture.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] Two humanoid robots are working in a field of lettuce, with workers in the background.",
+            "- [frames=[2]] A digital interface with a green hexagonal pattern and a white box with text is displayed.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a field where robots are performing tasks, likely related to weeding and pest control. The digital interface suggests that the robots are receiving or displaying information about the field conditions.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The field should be illuminated for clear thermal imaging.",
+            "- The drones should be charged and ready for operation.",
+            "- The thermal cameras should be calibrated and functioning properly.",
+            "- The digital interface should be accessible for data input and display.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The drones should accurately identify areas of infestation.",
+            "- The thermal camera images should be clear and free from interference.",
+            "- The digital interface should correctly interpret the thermal data.",
+            "- The identified infested areas should be marked for further action.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate to the field of lettuce.",
+            "2. [type=perception, frames=[1]] Use thermal cameras to scan the field for signs of infestation.",
+            "3. [type=navigation, frames=[2]] Fly to the digital interface to upload thermal data.",
+            "4. [type=manipulation, frames=[2]] Input the thermal data into the digital interface.",
+            "5. [type=perception, frames=[2]] Verify the accuracy of the data input by cross-checking with the thermal images.",
+            "6. [type=manipulation, frames=[2]] Mark the identified.",
+            "7. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the field of lettuce. It then verifies the key detail directly from the frames (Verify the accuracy of the data input by cross-checking with the thermal images).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the field of lettuce; Fly to the digital interface to upload thermal data; Input the thermal data into the digital interface; Mark the identified; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 11.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/O33a3T992k8/task02/sub01/motion.bvh",
+            "params_path": "results/momask/O33a3T992k8/task02/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Monitoring and Maintenance",
+      "start": 160.4,
+      "end": 182.4,
+      "subtasks": [
+        {
+          "text": "See unmanned aerial vehicles performing aerial surveys for crop health.",
+          "start": 160.4,
+          "end": 170.4,
+          "segment_ids": [
+            23
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub00_f00.jpg",
+              "relative_path": "O33a3T992k8/task03_sub00_f00.jpg",
+              "caption": "A green agricultural machine is driving through a field of young corn plants.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task03_sub00_f01.jpg",
+              "relative_path": "O33a3T992k8/task03_sub00_f01.jpg",
+              "caption": "A green and orange agricultural machine is driving through a field of young corn plants.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub00_f02.jpg",
+              "relative_path": "O33a3T992k8/task03_sub00_f02.jpg",
+              "caption": "A robotic arm is harvesting lettuce in a greenhouse.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Unmanned aerial vehicles (UAVs) are shown performing aerial surveys for crop health in a field of young corn plants.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A green and orange agricultural machine is driving through a field of young corn plants.",
+            "- [frames=[0,1]] The machine appears to be equipped with sensors or cameras.",
+            "- [frames=[2]] A robotic arm is harvesting lettuce in a greenhouse, indicating the versatility of the system.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts an automated agricultural process where UAVs are used for monitoring crop health. The UAVs likely capture data such as plant growth, soil conditions, and pest infestations. The presence of a robotic arm in a greenhouse suggests that the system can adapt to different environments and tasks.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The UAVs must be pre-programmed with the flight path and mission parameters.",
+            "- The UAVs should have sufficient battery life and payload capacity for the survey.",
+            "- The agricultural machine needs to be calibrated and ready for operation.",
+            "- The robotic arm must be configured for lettuce harvesting.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The UAVs should complete the aerial survey without any technical issues.",
+            "- The collected data should be accurate and relevant to the crop health assessment.",
+            "- The robotic arm should successfully harvest the lettuce without damaging the plants.",
+            "- The system should provide real-time feedback on the crop health status.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate the UAVs to the designated flight path over the corn field.",
+            "2. [type=perception, frames=[0,1]] Use onboard sensors to capture images and data of the corn plants.",
+            "3. [type=navigation, frames=[0,1]] Return the UAVs to the starting point or designated landing area.",
+            "4. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate the UAVs to the designated flight path over the corn field. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate the UAVs to the designated flight path over the corn field; Return the UAVs to the starting point or designated landing area; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 10.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/O33a3T992k8/task03/sub00/motion.bvh",
+            "params_path": "results/momask/O33a3T992k8/task03/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Observe autonomous vehicles conducting soil sampling and infrastructure inspection.",
+          "start": 170.4,
+          "end": 182.4,
+          "segment_ids": [
+            24
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub01_f01.jpg",
+              "relative_path": "O33a3T992k8/task03_sub01_f01.jpg",
+              "caption": "A white object with a face is floating in a rice field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub01_f02.jpg",
+              "relative_path": "O33a3T992k8/task03_sub01_f02.jpg",
+              "caption": "The video shows a lush green field with a tractor and a small body of water.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot observes autonomous vehicles performing soil sampling and infrastructure inspection in a rice field setting.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A white object with a face is floating in a rice field.",
+            "- [frames=[2]] The scene shifts to a lush green field showing a tractor and a small body of water.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a rice field where an autonomous vehicle is conducting soil sampling and infrastructure inspection. The presence of a tractor and a body of water suggests a diverse agricultural environment.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot must be equipped with sensors for navigation and inspection.",
+            "- The robot should have a clear view of the field to monitor the autonomous vehicles.",
+            "- The robot needs to be within range to communicate with the autonomous vehicles.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should confirm the presence of the autonomous vehicles.",
+            "- It should verify the completion of soil sampling and infrastructure inspection tasks.",
+            "- The robot should cross-check the data collected by the autonomous vehicles.",
+            "- It should ensure the safety of the field during the inspection process.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Scan the field to locate the white object with a face.",
+            "2. [type=navigation, frames=[1]] Move towards the white object to get a closer view.",
+            "3. [type=perception, frames=[2]] Confirm the presence of the autonomous vehicles in the field.",
+            "4. [type=navigation, frames=[2]] Navigate to a position where the robot can observe both the field and the vehicles.",
+            "5. [type=communication, frames=[2]] Initiate communication with the autonomous vehicles to request status updates.",
+            "6. [type=perception, frames=[2]] Monitor the vehicles' activities, including soil sampling and infrastructure inspection.",
+            "7. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Scan the field to locate the white object with a face. It then verifies the key detail directly from the frames (Confirm the presence of the autonomous vehicles in the field).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move towards the white object to get a closer view; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 12.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/O33a3T992k8/task03/sub01/motion.bvh",
+            "params_path": "results/momask/O33a3T992k8/task03/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Future Outlook and Challenges",
+      "start": 191.4,
+      "end": 210.4,
+      "subtasks": [
+        {
+          "text": "Understand the challenges of high initial investment costs and technical complexity.",
+          "start": 191.4,
+          "end": 201.4,
+          "segment_ids": [
+            27
+          ],
+          "frames": [
+            {
+              "image_file": "task04_sub00_f00.jpg",
+              "relative_path": "O33a3T992k8/task04_sub00_f00.jpg",
+              "caption": "A Phoenix robot is navigating through a cornfield.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task04_sub00_f01.jpg",
+              "relative_path": "O33a3T992k8/task04_sub00_f01.jpg",
+              "caption": "A robotic arm is harvesting strawberries from a plant.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task04_sub00_f02.jpg",
+              "relative_path": "O33a3T992k8/task04_sub00_f02.jpg",
+              "caption": "A duck is swimming in a pond with leaves and branches.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on understanding the challenges of high initial investment costs and technical complexity in agricultural robotics, particularly highlighting the cost and complexity involved in deploying advanced robotic systems in farming environments.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The Phoenix robot is seen navigating through a cornfield, indicating the need for robust navigation systems.",
+            "- [frames=[0]] The presence of corn stalks suggests the robot must handle uneven terrain and varying crop heights.",
+            "- [frames=[1]] A robotic arm is shown harvesting strawberries from a plant, emphasizing the precision required in handling delicate produce.",
+            "- [frames=[1]] The close-up view of the robotic arm highlights the intricate mechanics needed for successful harvesting.",
+            "- [frames=[2]] A duck is swimming in a pond with leaves and branches, which might indicate the presence of water bodies in the farm, adding another layer of complexity to the environment.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict a diverse agricultural setting with both land and water features. The Phoenix robot navigates through crops and performs delicate tasks like strawberry harvesting, showcasing the multifaceted challenges in agricultural robotics. The presence of water bodies adds an additional layer of complexity, requiring the robot to be adaptable to different terrains and conditions.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot must have advanced navigation capabilities to move through varied terrains.",
+            "- It needs precise manipulation skills to handle different types of crops and produce.",
+            "- The system should be capable of operating in both dry and wet environments.",
+            "- High initial investment costs suggest the need for sophisticated technology and materials.",
+            "- Technical complexity implies the necessity for ongoing maintenance and updates.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully navigates through the cornfield without damaging the crops.",
+            "- It accurately harvests strawberries without causing damage to the plants or the fruit.",
+            "- The robot operates efficiently in the presence of water bodies without malfunctioning",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 10.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/O33a3T992k8/task04/sub00/motion.bvh",
+            "params_path": "results/momask/O33a3T992k8/task04/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Acknowledge the importance of interoperability and standardization for efficiency.",
+          "start": 201.4,
+          "end": 210.4,
+          "segment_ids": [
+            28
+          ],
+          "frames": [
+            {
+              "image_file": "task04_sub01_f01.jpg",
+              "relative_path": "O33a3T992k8/task04_sub01_f01.jpg",
+              "caption": "A duck is swimming in a pond with leaves and water plants.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task04_sub01_f02.jpg",
+              "relative_path": "O33a3T992k8/task04_sub01_f02.jpg",
+              "caption": "A hand is holding a transparent object over a machine.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot acknowledges the importance of interoperability and standardization in agricultural robotics for enhancing efficiency. This involves understanding the context and performing necessary actions to ensure smooth operation among different systems.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A duck is swimming in a pond with leaves and water plants, indicating a natural setting.",
+            "- [frames=[2]] A hand is holding a transparent object over a machine, suggesting an interaction with a device.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a natural environment with a body of water and wildlife, which contrasts with the technological elements like the machine being interacted with. This juxtaposition highlights the need for robots to operate seamlessly in both natural and artificial settings.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the importance of interoperability and standardization.",
+            "- It needs to recognize the presence of a machine and a transparent object.",
+            "- The robot must be capable of interacting with the machine and verifying its status.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should confirm the machine's operational readiness.",
+            "- It must verify that the transparent object is correctly placed over the machine.",
+            "- The robot should measure the machine’s performance against standard benchmarks.",
+            "- It needs to check for any potential interoperability issues.",
+            "- The robot should ensure that all systems are communicating effectively.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Observe the natural environment and identifies the machine.",
+            "2. [type=perception, frames=[2]] Recognizes the hand holding the transparent object over the machine.",
+            "3. [type=manipulation, frames=[2]] Assists in placing the transparent object over the machine.",
+            "4. [type=communication, frames=[1,2]] Communicates with the machine to confirm its operational status.",
+            "5. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Observe the natural environment and identifies the machine. It then verifies the key detail directly from the frames (Communicates with the machine to confirm its operational status).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Assists in placing the transparent object over the machine; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 9.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/O33a3T992k8/task04/sub01/motion.bvh",
+            "params_path": "results/momask/O33a3T992k8/task04/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

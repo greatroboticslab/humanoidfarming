@@ -1,0 +1,1687 @@
+{
+  "video_index": "3Ei164DyooQ",
+  "title": "Sustainable Rice Farming Practices Explained",
+  "url": "https://www.youtube.com/watch?v=3Ei164DyooQ",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Provides detailed instructions for sustainable rice farming.",
+  "tasks": [
+    {
+      "task": "Attend a Kana meeting with extension officers to select rice varieties and create a crop calendar.",
+      "start": 3.99,
+      "end": 12.57,
+      "subtasks": [
+        {
+          "text": "Attend a Kana meeting with extension officers in your area to select the best rice variety and create a crop calendar for the season.",
+          "start": 3.99,
+          "end": 12.57,
+          "segment_ids": [
+            1,
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "3Ei164DyooQ/task00_sub00_f00.jpg",
+              "caption": "Three people are standing under a banner with a logo for FAO.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "3Ei164DyooQ/task00_sub00_f01.jpg",
+              "caption": "A group of people are gathered around a calendar for a Kanna Meeting to select the best rice variety.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "3Ei164DyooQ/task00_sub00_f02.jpg",
+              "caption": "A person is working in a field with a hoe, surrounded by a long, narrow path.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will attend a Kana meeting to select the best rice variety and create a crop calendar for the season. This involves interacting with extension officers and observing the selection process.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] Three people are standing under a banner with a logo for FAO, indicating the location of the meeting.",
+            "- [frames=[1]] A group of people are gathered around a calendar for a Kanna Meeting to select the best rice variety.",
+            "- [frames=[2]] A person is working in a field with a hoe, suggesting the context of agricultural activities.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a formal meeting where extension officers and other stakeholders are selecting a suitable rice variety and planning the crop calendar. The presence of a calendar and the agricultural setting indicate the importance of seasonal planning and variety selection.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have knowledge about different rice varieties and their suitability for various conditions.",
+            "- The robot needs access to communication tools to interact with the extension officers.",
+            "- The robot should be familiar with the process of creating a crop calendar.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should successfully identify and select the best rice variety based on the discussion.",
+            "- The robot should accurately create a crop calendar for the upcoming season.",
+            "- The robot should ensure all participants agree on the selected variety and calendar.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the location where the Kana meeting is taking place.",
+            "2. [type=communication, frames=[1]] Engage with the extension officers to understand the current discussion and gather information about the rice varieties being considered.",
+            "3. [type=perception, frames=[1]] Observe the group's interaction and note the variety names and characteristics discussed.",
+            "4. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the location where the Kana meeting is taking place. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the location where the Kana meeting is taking place; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 8.58,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/3Ei164DyooQ/task00/sub00/motion.bvh",
+            "params_path": "results/momask/3Ei164DyooQ/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Request instructions on how to use water more efficiently and appoint a water controller.",
+          "start": 7.71,
+          "end": 12.57,
+          "segment_ids": [
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f00.jpg",
+              "relative_path": "3Ei164DyooQ/task00_sub01_f00.jpg",
+              "caption": "A group of people are gathered around a calendar for a Kanna meeting, discussing adapted crops, water management, integrated pest, and disease management.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "3Ei164DyooQ/task00_sub01_f01.jpg",
+              "caption": "A group of people are gathered around a calendar for a Kanna Meeting to select the best rice variety.",
+              "frame_index": 1
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe a Kanna meeting where participants discuss rice farming practices, including water management. The robot will then request instructions on efficient water usage and appoint a water controller.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A group of people are gathered around a calendar for a Kanna meeting, discussing various aspects of rice farming.",
+            "- [frames=[0,1]] The discussion includes topics such as adapted crops, water management, and integrated pest and disease management.",
+            "- [frames=[0,1]] Participants are actively engaged in selecting the best rice variety for the season.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a Kanna meeting where farmers and extension officers are collaborating to decide on sustainable rice farming practices. The primary focus is on water management strategies and the selection of appropriate rice varieties.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the context of sustainable rice farming practices.",
+            "- The robot should recognize the participants and their roles in the meeting.",
+            "- The robot should have access to communication tools to interact with the participants.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should receive clear instructions on how to use water more efficiently.",
+            "- The robot should successfully appoint a water controller for the farm.",
+            "- The robot should ensure that all participants acknowledge the instructions and appointments.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Observe the group discussion to identify key participants and the topic of water management.",
+            "2. [type=navigation, frames=[0,1]] Approach the group and ask for instructions on how to use water more efficiently.",
+            "3. [type=manipulation, frames=[0,1]] Note down the instructions provided by the participants.",
+            "4. [type=communication, frames=[0,1]] Ask the group to appoint a water controller for the farm.",
+            "5. [type=perception, frames=[0,1]] Verify/confirm the key observation before reporting.",
+            "6. [type=navigation, frames=[0,1]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Observe the group discussion to identify key participants and the topic of water management. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Approach the group and ask for instructions on how to use water more efficiently; Note down the instructions provided by the participants; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 4.86,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/3Ei164DyooQ/task00/sub01/motion.bvh",
+            "params_path": "results/momask/3Ei164DyooQ/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Implement water management techniques to maximize efficiency.",
+      "start": 27.47,
+      "end": 78.78,
+      "subtasks": [
+        {
+          "text": "Learn how to use seeds of the most adapted rice varieties for the area and season.",
+          "start": 27.47,
+          "end": 47.88,
+          "segment_ids": [
+            7,
+            9,
+            10
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "3Ei164DyooQ/task01_sub00_f00.jpg",
+              "caption": "The video shows a market with a sign that says \"ONE STOP SUPER\" and people working inside.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "3Ei164DyooQ/task01_sub00_f01.jpg",
+              "caption": "The video frame shows a sign that says \"Available at the One Stop Super\" over a cartoon scene.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "3Ei164DyooQ/task01_sub00_f02.jpg",
+              "caption": "A sign in a cartoon style lists available seeds for different varieties of rice.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task01_sub00_f03.jpg",
+              "relative_path": "3Ei164DyooQ/task01_sub00_f03.jpg",
+              "caption": "A sign in a desert landscape advertises seeds available at a one-stop super market.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task01_sub00_f04.jpg",
+              "relative_path": "3Ei164DyooQ/task01_sub00_f04.jpg",
+              "caption": "A signboard displays seeds available for the Yala season.",
+              "frame_index": 4
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to learn about using the most adapted rice varieties for the area and season by observing signs and information displayed in a market setting.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] The video shows a market with a sign that says \"ONE STOP SUPER\" and people working inside.",
+            "- [frames=[2]] A sign in a cartoon style lists available seeds for different varieties of rice.",
+            "- [frames=[3]] A sign in a desert landscape advertises seeds available at a one-stop super market.",
+            "- [frames=[4]] A signboard displays seeds available for the Yala season.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from an indoor market to outdoor advertisements, all highlighting the availability of rice seeds suitable for different areas and seasons. This suggests that the robot should focus on identifying and understanding the variety of seeds available for specific conditions.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have basic navigation skills to move through the market and read signs.",
+            "- It should be able to recognize and interpret text on signs.",
+            "- The robot needs to be equipped with sensors to read and process visual information.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should identify the most adapted rice varieties for the current area and season.",
+            "- It should understand the benefits of using these specific varieties.",
+            "- The robot should be able to communicate the information effectively.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Move towards the sign that says \"ONE STOP SUPER\".",
+            "2. [type=perception, frames=[0,1]] Read the sign and confirm it is a market.",
+            "3. [type=navigation, frames=[2]] Navigate to the sign displaying available rice seeds.",
+            "4. [type=perception, frames=[2]] Read the list of rice varieties and their descriptions.",
+            "5. [type=navigation, frames=[0,1,2,3,4]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move towards the sign that says \"ONE STOP SUPER\". It then verifies the key detail directly from the frames (Read the sign and confirm it is a market).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move towards the sign that says \"ONE STOP SUPER\"; Navigate to the sign displaying available rice seeds; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 20.410000000000004,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/3Ei164DyooQ/task01/sub00/motion.bvh",
+            "params_path": "results/momask/3Ei164DyooQ/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Follow the recommendations of the Rice Research and Development Institute for the MAHA season.",
+          "start": 43.12,
+          "end": 57.19,
+          "segment_ids": [
+            10,
+            12
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "3Ei164DyooQ/task01_sub01_f01.jpg",
+              "caption": "The video frame displays a message to start field operations.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "3Ei164DyooQ/task01_sub01_f02.jpg",
+              "caption": "A farmer is driving a tractor through a field, with instructions to request laser levelling through their extension officer.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to follow the recommendations of the Rice Research and Development Institute for the MAHA season, specifically focusing on laser levelling.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] The video frame displays a message to start field operations.",
+            "- [frames=[2]] A farmer is driving a tractor through a field, with instructions to request laser levelling through their extension officer.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene involves starting field operations and requesting laser levelling, which is a critical step in sustainable rice farming practices.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to the current field map and crop data.",
+            "- The robot must be equipped with communication capabilities to interact with the extension officer.",
+            "- The robot needs to be familiar with the recommended practices by the Rice Research and Development Institute.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should successfully request laser levelling.",
+            "- The field operations should be started according to the recommended practices.",
+            "- The robot should confirm the start of field operations with the farmer.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate to the field where operations are to begin.",
+            "2. [type=perception, frames=[1]] Read the message on the screen to confirm the start of field operations.",
+            "3. [type=communication, frames=[2]] Communicate with the extension officer to request laser levelling.",
+            "4. [type=navigation, frames=[2]] Drive the robot to the location where the farmer is operating the tractor.",
+            "5. [type=manipulation, frames=[2]] Assist the farmer in initiating the laser levelling process.",
+            "6. [type=perception, frames=[2]] Verify that the laser levelling is correctly initiated.",
+            "7. [type=navigation, frames=[2]] Return to the robot's base station after completing the task.",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the field where operations are to begin. It then verifies the key detail directly from the frames (Read the message on the screen to confirm the start of field operations).",
+            "To finish safely, it completes cleanup and returns to standby: Return to the robot's base station after completing the task.",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Assist the farmer in initiating the laser levelling process; Return to the robot's base station after completing the task; then return to a stable neutral stance.",
+            "duration_s": 14.07,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/3Ei164DyooQ/task01/sub01/motion.bvh",
+            "params_path": "results/momask/3Ei164DyooQ/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Form buns and plaster to hold water for every season.",
+          "start": 47.88,
+          "end": 53.39,
+          "segment_ids": [
+            11
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub02_f01.jpg",
+              "relative_path": "3Ei164DyooQ/task01_sub02_f01.jpg",
+              "caption": "The video frame displays a message to start field operations.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub02_f02.jpg",
+              "relative_path": "3Ei164DyooQ/task01_sub02_f02.jpg",
+              "caption": "A tractor is driving across a field with a large sun in the background.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to form buns and plaster them to hold water for sustainable rice farming, ensuring efficient water management throughout the seasons.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] The video starts with a message indicating the beginning of field operations.",
+            "- [frames=[1]] A tractor is seen driving across a field, suggesting ongoing agricultural activities.",
+            "- [frames=[1]] The background shows a large sun, indicating a sunny day suitable for field work.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts the initial stages of field preparation for sustainable rice farming, where the robot will need to perform tasks related to water management. The presence of a tractor suggests that the field is already partially prepared, and the robot's task involves adding specific structures to enhance water retention.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot must be equipped with the necessary tools for forming buns and applying plaster.",
+            "- The robot should have knowledge of the specific types of buns and plaster required for water retention.",
+            "- The robot needs to be aware of the current weather conditions and seasonal requirements for water management.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The buns must be formed correctly and placed in strategic locations around the field.",
+            "- The plaster must adhere properly to the buns to ensure they can hold water effectively.",
+            "- The structures must be sturdy enough to withstand seasonal changes and weather conditions.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Drive the robot to the designated area on the field.",
+            "2. [type=perception, frames=[1]] Scan the field to identify the best locations for placing the buns.",
+            "3. [type=manipulation, frames=[1]] Pick up a bun from the storage area.",
+            "4. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "5. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Drive the robot to the designated area on the field. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Drive the robot to the designated area on the field; Pick up a bun from the storage area; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 5.509999999999998,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/3Ei164DyooQ/task01/sub02/motion.bvh",
+            "params_path": "results/momask/3Ei164DyooQ/task01/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Place a field water tube to monitor the water level.",
+          "start": 57.19,
+          "end": 78.78,
+          "segment_ids": [
+            13,
+            15
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub03_f01.jpg",
+              "relative_path": "3Ei164DyooQ/task01_sub03_f01.jpg",
+              "caption": "A man in a red vest is standing next to a green sign that says \"FREE DEMONSTRATIONS WILL BE PROVIDED FROM THE FARM MECHANIZATION RE",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub03_f02.jpg",
+              "relative_path": "3Ei164DyooQ/task01_sub03_f02.jpg",
+              "caption": "A person is standing in front of a sign that says \"Free demonstrations will be provided from the Farm Mechanization Research Center and Farm Mechanization Training Center.\"",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task01_sub03_f03.jpg",
+              "relative_path": "3Ei164DyooQ/task01_sub03_f03.jpg",
+              "caption": "A woman is using a tool to form bunds and plaster in a dry, arid landscape.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task01_sub03_f04.jpg",
+              "relative_path": "3Ei164DyooQ/task01_sub03_f04.jpg",
+              "caption": "The video frame shows a field with plants and a water tube, and it is labeled \"Start Alternative Wetting and Drying - AWD Water Management Technique.\"",
+              "frame_index": 4
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to place a field water tube to monitor the water level, which is part of implementing the alternative wetting and drying (AWD) water management technique.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1,2]] The frames show signs about free demonstrations, indicating the context of sustainable farming practices.",
+            "- [frames=[3]] A woman is seen forming bunds and plaster, suggesting the initial setup of the field.",
+            "- [frames=[4]] The final frame shows a field with plants and a water tube, labeled as the start of the AWD technique.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene involves setting up a water monitoring system in a rice field as part of sustainable farming practices. The presence of signs and the initial setup activities indicate the context of the demonstration.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should know the location of the field where the water tube needs to be placed.",
+            "- The robot should have the necessary tools and equipment to handle the water tube.",
+            "- The robot should be aware of the AWD technique and its requirements.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The water tube is correctly placed in the field.",
+            "- The water level can be accurately monitored through the tube.",
+            "- The placement does not interfere with the existing field setup.",
+            "- The tube is securely fastened to prevent movement.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2]] Navigate to the field based on the information from the signs.",
+            "2. [type=perception, frames=[3]] Verify the current field setup by observing the bunds and plaster formed by the woman.",
+            "3. [type=navigation, frames=[4]] Proceed to the designated area where the water tube needs to be placed.",
+            "4. [type=manipulation, frames=[4]] Pick up the water tube from the storage area.",
+            "5. [type=navigation, frames=[1,2,3,4]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the field based on the information from the signs. It then verifies the key detail directly from the frames (Verify the current field setup by observing the bunds and plaster formed by the woman).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the field based on the information from the signs; Proceed to the designated area where the water tube needs to be placed; Pick up the water tube from the storage area; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 21.590000000000003,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/3Ei164DyooQ/task01/sub03/motion.bvh",
+            "params_path": "results/momask/3Ei164DyooQ/task01/sub03/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Optimize planting methods to reduce seed requirements and increase yield.",
+      "start": 85.44,
+      "end": 136.42,
+      "subtasks": [
+        {
+          "text": "Plant based on the second week of October instead of the fourth week to save water.",
+          "start": 85.44,
+          "end": 88.86,
+          "segment_ids": [
+            17
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f00.jpg",
+              "relative_path": "3Ei164DyooQ/task02_sub00_f00.jpg",
+              "caption": "A chart shows the water requirements for a rice variety over a 3.5 month period.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "3Ei164DyooQ/task02_sub00_f01.jpg",
+              "caption": "The video frame shows a calendar for planting rice varieties, with specific dates and water requirements for different weeks of October.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "3Ei164DyooQ/task02_sub00_f02.jpg",
+              "caption": "A poster with a rice variety example and planting schedule is displayed.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Planting rice in the second week of October instead of the fourth week can help save water, according to the tutorial.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A chart illustrates the water requirements for a rice variety over a 3.5 month period.",
+            "- [frames=[1]] A calendar for planting rice varieties is shown, highlighting specific dates and water requirements for different weeks of October.",
+            "- [frames=[2]] A poster with a rice variety example and its planting schedule is displayed.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The video focuses on optimizing rice planting times to reduce water usage. The chart provides detailed information on water needs, while the calendar and poster offer practical guidance on when to plant.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to the video frames and be able to read the text on the chart, calendar, and poster.",
+            "- The robot must be capable of understanding the relationship between planting dates and water requirements.",
+            "- The robot should know the current date to determine the appropriate planting window.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the recommended planting date as the second week of October.",
+            "- It should verify that this date aligns with the water-saving benefits mentioned in the video.",
+            "- The robot should ensure that the planting schedule does not conflict with other agricultural practices.",
+            "- The robot should confirm that the chosen date is within the optimal planting period for the specific rice variety.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Read the water requirements chart to understand the impact of planting dates on water usage.",
+            "2. [type=perception, frames=[1]] Analyze the calendar to identify the recommended planting date as the second week of October.",
+            "3. [type=perception, frames=[2]] Cross-check the planting schedule on the poster with the identified date.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Read the water requirements chart to understand the impact of planting dates on water usage. It then verifies the key detail directly from the frames (Read the water requirements chart to understand the impact of planting dates on water usage).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 3.4200000000000017,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/3Ei164DyooQ/task02/sub00/motion.bvh",
+            "params_path": "results/momask/3Ei164DyooQ/task02/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Use improved rice planting methods compared to broadcasting.",
+          "start": 88.86,
+          "end": 101.5,
+          "segment_ids": [
+            18,
+            20
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub01_f01.jpg",
+              "relative_path": "3Ei164DyooQ/task02_sub01_f01.jpg",
+              "caption": "A person is broadcasting seeds in a field using a traditional method.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub01_f02.jpg",
+              "relative_path": "3Ei164DyooQ/task02_sub01_f02.jpg",
+              "caption": "The video frame shows a person planting rice using traditional methods, with the text \"use improved rice planting methods\" and \"broadcasting traditional method 100",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will demonstrate an improved rice planting method that reduces seed usage while increasing yield, contrasting it with the traditional broadcasting technique shown in the video.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A person is broadcasting seeds in a field using a traditional method.",
+            "- [frames=[2]] The same person is seen planting rice using a more advanced technique, with the text overlay indicating the contrast.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene contrasts traditional and modern rice planting techniques, highlighting the efficiency and reduced seed usage of the improved method. The robot's task is to show how to achieve higher yields with fewer seeds.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a seed planter capable of precise seed placement.",
+            "- The robot needs to have knowledge of the improved rice planting method.",
+            "- The robot must be within the operational range of the field.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should plant rice seeds in a manner that demonstrates reduced seed usage.",
+            "- The planting should be done in a way that increases yield.",
+            "- The robot should ensure that the seeds are placed accurately and evenly.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Move to the location where the traditional method is being demonstrated.",
+            "2. [type=perception, frames=[1]] Observe the traditional broadcasting method to understand the context.",
+            "3. [type=navigation, frames=[2]] Position itself near the area where the improved planting method will be demonstrated.",
+            "4. [type=manipulation, frames=[2]] Adjust the seed planter to the correct settings for the improved method.",
+            "5. [type=manipulation, frames=[2]] Begin planting rice seeds in a precise pattern, reducing seed usage.",
+            "6. [type=perception, frames=[2]] Verify the accuracy and spacing of the planted seeds.",
+            "7. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to the location where the traditional method is being demonstrated. It then verifies the key detail directly from the frames (Verify the accuracy and spacing of the planted seeds).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move to the location where the traditional method is being demonstrated; Position itself near the area where the improved planting method will be demonstrated; Adjust the seed planter to the correct settings for the improved method; Begin planting rice seeds in a precise pattern, reducing seed usage; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 12.64,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/3Ei164DyooQ/task02/sub01/motion.bvh",
+            "params_path": "results/momask/3Ei164DyooQ/task02/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Transplant rice instead of broadcasting for higher yields and savings.",
+          "start": 101.5,
+          "end": 114.38,
+          "segment_ids": [
+            21,
+            23
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub02_f01.jpg",
+              "relative_path": "3Ei164DyooQ/task02_sub02_f01.jpg",
+              "caption": "The video compares direct seeding and broadcasting methods, showing that direct seeding reduces seed requirements by 75%.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub02_f02.jpg",
+              "relative_path": "3Ei164DyooQ/task02_sub02_f02.jpg",
+              "caption": "The video compares the yield and cost of transplanting and broadcasting rice, showing that transplanting yields 12.5% more than broadcasting and is more cost",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Transplanting rice instead of broadcasting can significantly increase yields and reduce costs, making it a key practice in sustainable farming.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] The video begins by comparing direct seeding and broadcasting methods, highlighting that direct seeding requires 75% fewer seeds.",
+            "- [frames=[1]] A side-by-side comparison shows that transplanting results in a 12.5% higher yield compared to broadcasting.",
+            "- [frames=[1]] Both frames emphasize the economic benefits of transplanting over broadcasting, indicating lower costs associated with transplanting.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The video visually contrasts direct seeding and broadcasting methods, clearly demonstrating the advantages of transplanting in terms of both yield and cost efficiency. The scenes highlight the reduced need for seeds and the increased productivity achieved through transplanting.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot must be equipped with sensors to detect soil conditions and rice seedlings.",
+            "- The robot should have the capability to transport and plant rice seedlings accurately.",
+            "- The robot needs to be able to navigate the field efficiently.",
+            "- The robot must have a database of optimal planting patterns for different soil types.",
+            "- The robot should be able to adjust its planting depth and spacing based on the type of rice variety.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully transplants rice seedlings at the correct depth and spacing.",
+            "- The transplanted seedlings show signs of healthy growth within a week.",
+            "- The yield from the transplanted area exceeds the yield from the broadcast area by at least 12.5%.",
+            "- The number of seeds used is reduced by at least 75% compared to traditional broadcasting methods.",
+            "- The overall cost of planting is lower due to the reduced seed usage and higher yield.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 12.879999999999995,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/3Ei164DyooQ/task02/sub02/motion.bvh",
+            "params_path": "results/momask/3Ei164DyooQ/task02/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Establish a nursery using parachute method or transplanting machines.",
+          "start": 114.38,
+          "end": 133.14,
+          "segment_ids": [
+            24,
+            25,
+            27
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub03_f01.jpg",
+              "relative_path": "3Ei164DyooQ/task02_sub03_f01.jpg",
+              "caption": "A person is standing next to a sign that says \"Nursery Trays Available at the One Stop Super\" and provides instructions on how to use the parachute",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub03_f02.jpg",
+              "relative_path": "3Ei164DyooQ/task02_sub03_f02.jpg",
+              "caption": "A hand is holding a bundle of plantlets, with a label indicating they should be planted at a distance of 20 cm.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task02_sub03_f03.jpg",
+              "relative_path": "3Ei164DyooQ/task02_sub03_f03.jpg",
+              "caption": "A hand is holding a bundle of green onions, and the text indicates that trays can be reused for four seasons.",
+              "frame_index": 3
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask involves setting up a nursery using either the parachute method or transplanting machines, focusing on efficient seedling production for rice farming.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A person is standing next to a sign indicating nursery trays are available at a local store and providing instructions on how to use the parachute method.",
+            "- [frames=[2]] A hand is holding a bundle of plantlets, with a label specifying a planting distance of 20 cm.",
+            "- [frames=[3]] A hand is holding a bundle of green onions, and the text indicates that trays can be reused for four seasons.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts the setup of a nursery for rice seedlings, emphasizing the use of trays and the importance of proper spacing during planting. The information provided suggests a focus on sustainable practices by reusing trays and ensuring accurate spacing to optimize yield.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot needs to be equipped with the necessary tools for handling plantlets and trays.",
+            "- The robot should have access to the nursery area where the trays will be set up.",
+            "- The robot must be able to read and follow instructions from signs and labels.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should successfully set up the nursery with properly spaced plantlets.",
+            "- The trays should be arranged efficiently for reuse.",
+            "- The robot should verify the correct spacing of the plantlets.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate to the sign indicating nursery trays are available.",
+            "2. [type=perception, frames=[1]] Read the instructions on the sign regarding the parachute method.",
+            "3. [type=navigation, frames=[2]] Move to the location where the plantlets are held.",
+            "4. [type=manipulation, frames=[2]] Pick up a bundle of plantlets and.",
+            "5. [type=navigation, frames=[1,2,3]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the sign indicating nursery trays are available. It then verifies the key detail directly from the frames (Read the instructions on the sign regarding the parachute method).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the sign indicating nursery trays are available; Move to the location where the plantlets are held; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 18.75999999999999,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/3Ei164DyooQ/task02/sub03/motion.bvh",
+            "params_path": "results/momask/3Ei164DyooQ/task02/sub03/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Utilize motorized transplanting services if you have a plot of at least 0.2 hectares.",
+          "start": 133.14,
+          "end": 136.42,
+          "segment_ids": [
+            28
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub04_f01.jpg",
+              "relative_path": "3Ei164DyooQ/task02_sub04_f01.jpg",
+              "caption": "A man is using a transplanting machine to plant crops on a large plot of land.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub04_f02.jpg",
+              "relative_path": "3Ei164DyooQ/task02_sub04_f02.jpg",
+              "caption": "A man is using a transplanting machine to plant crops on a small plot of land.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask involves utilizing motorized transplanting services for plots of at least 0.2 hectares to optimize planting methods and reduce seed requirements while increasing yield.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A man is using a transplanting machine on a large plot of land, indicating the use of motorized transplanting services.",
+            "- [frames=[2]] A man is using a transplanting machine on a smaller plot, suggesting the machine can be used on various sizes but the minimum size is likely 0.2 hectares based on the given instruction.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a farming activity where a motorized transplanting machine is being used to plant crops. The machine appears to be efficient and capable of handling different plot sizes, though the minimum size requirement is specified as 0.2 hectares.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot must be equipped with a motorized transplanting machine.",
+            "- The plot of land must be at least 0.2 hectares.",
+            "- The robot should have the necessary sensors to measure the plot size.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The correct number of seeds is planted per hectare.",
+            "- The planting is done efficiently without damaging the soil or plants.",
+            "- The plot is prepared and ready for the transplanting process.",
+            "- The machine operates correctly and completes the task within the specified area.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2]] Navigate to the plot of land.",
+            "2. [type=perception, frames=[1,2]] Use sensors to verify the plot size is at least 0.2 hectares.",
+            "3. [type=navigation, frames=[1,2]] Position the motorized transplanting machine at the start of the plot.",
+            "4. [type=manipulation, frames=[1]] Operate the transplant.",
+            "5. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the plot of land. It then verifies the key detail directly from the frames (Use sensors to verify the plot size is at least 0.2 hectares).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Position the motorized transplanting machine at the start of the plot; Operate the transplant; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.280000000000001,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/3Ei164DyooQ/task02/sub04/motion.bvh",
+            "params_path": "results/momask/3Ei164DyooQ/task02/sub04/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Manage weeds effectively during the first 30 days.",
+      "start": 155.17,
+      "end": 175.88,
+      "subtasks": [
+        {
+          "text": "Weed management practices for motorized transplanter rice.",
+          "start": 155.17,
+          "end": 168.88,
+          "segment_ids": [
+            33,
+            34
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub00_f00.jpg",
+              "relative_path": "3Ei164DyooQ/task03_sub00_f00.jpg",
+              "caption": "The video shows a woman tending to a field, managing weeds, and using a magnifying glass.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task03_sub00_f01.jpg",
+              "relative_path": "3Ei164DyooQ/task03_sub00_f01.jpg",
+              "caption": "A man is using a transplanting machine to plant crops in a dry, arid landscape.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub00_f02.jpg",
+              "relative_path": "3Ei164DyooQ/task03_sub00_f02.jpg",
+              "caption": "A person is using a weeder to tend to a field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask involves managing weeds in a rice field using a motorized transplanter, focusing on the initial 30 days of crop growth.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A woman is seen tending to a field, using a magnifying glass to inspect weeds.",
+            "- [frames=[1]] A man operates a transplanting machine in a dry landscape, planting crops.",
+            "- [frames=[2]] A person uses a weeder to manage weeds in a field.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts various methods of weed management, including manual inspection and mechanical planting. The focus is on early-stage weed control in a rice field.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a weeder attachment.",
+            "- The robot needs to be familiar with operating a motorized transplanter.",
+            "- The robot must have a mechanism for inspecting and identifying weeds.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Weeds should be effectively managed within the first 30 days.",
+            "- The field should be free of visible weeds.",
+            "- The transplanter should be used correctly without damaging the crops.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the field where the transplanter is being used.",
+            "2. [type=perception, frames=[0]] Use a camera to identify areas with dense weed growth.",
+            "3. [type=navigation, frames=[1]] Position the robot near the transplanter.",
+            "4. [type=manipulation, frames=[2]] Attach the weeder to the robot.",
+            "5. [type=manipulation, frames=[2]] Start the weeder and begin removing weeds.",
+            "6. [type=navigation, frames=[2]] Move the robot along the rows of planted crops.",
+            "7. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "8. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the field where the transplanter is being used. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the field where the transplanter is being used; Position the robot near the transplanter; Attach the weeder to the robot; Start the weeder and begin removing weeds; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 13.710000000000008,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/3Ei164DyooQ/task03/sub00/motion.bvh",
+            "params_path": "results/momask/3Ei164DyooQ/task03/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Use a manual cono weeder for rice seeded with a drum seeder.",
+          "start": 168.88,
+          "end": 175.88,
+          "segment_ids": [
+            35,
+            36
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub01_f01.jpg",
+              "relative_path": "3Ei164DyooQ/task03_sub01_f01.jpg",
+              "caption": "A person is using a manual weeder to control weeds between rows in a field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub01_f02.jpg",
+              "relative_path": "3Ei164DyooQ/task03_sub01_f02.jpg",
+              "caption": "A person is using a manual weeder to control weeds between rows.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will use a manual cono weeder to manage weeds in a rice field where rice was seeded with a drum seeder. This task involves precise weeding between rows within the first 30 days of planting.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] The person is using a manual weeder to control weeds between rows in a field.",
+            "- [frames=[2]] The person continues to use the manual weeder to control weeds between rows.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a person using a manual cono weeder to remove weeds from between rows of rice plants. The rows are likely newly planted, given the context of sustainable farming practices and the early stage of weed management.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot must be equipped with a cono weeder tool.",
+            "- The robot should have knowledge of the layout and spacing of the rice rows.",
+            "- The robot needs to be aware of the presence of weeds in the field.",
+            "- The robot should be able to navigate between rows of rice plants.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully removes weeds from between the rows.",
+            "- The robot ensures that the rice plants are not damaged during the process.",
+            "- The robot maintains the correct distance between the weeder and the rice plants.",
+            "- The robot completes the weeding task within the specified area.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2]] Navigate to the first row of rice plants.",
+            "2. [type=perception, frames=[1,2]] Scan the area to identify the location of weeds.",
+            "3. [type=navigation, frames=[1,2]] Position the cono weeder between the rows of rice.",
+            "4. [type=navigation, frames=[1,2]] Move the weeder along the row to remove.",
+            "5. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "6. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the first row of rice plants. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the first row of rice plants; Position the cono weeder between the rows of rice; Move the weeder along the row to remove; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 7.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/3Ei164DyooQ/task03/sub01/motion.bvh",
+            "params_path": "results/momask/3Ei164DyooQ/task03/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Manage water levels efficiently for optimal crop health.",
+      "start": 183.48,
+      "end": 226.22,
+      "subtasks": [
+        {
+          "text": "Irrigate the field to five centimeters above the surface level and allow draining until 15 centimeters below surface level.",
+          "start": 183.48,
+          "end": 203.82,
+          "segment_ids": [
+            39,
+            41,
+            42
+          ],
+          "frames": [
+            {
+              "image_file": "task04_sub00_f00.jpg",
+              "relative_path": "3Ei164DyooQ/task04_sub00_f00.jpg",
+              "caption": "The video frame shows a field with plants and a label indicating to irrigate to 5 cm above the surface level.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task04_sub00_f01.jpg",
+              "relative_path": "3Ei164DyooQ/task04_sub00_f01.jpg",
+              "caption": "The video frame shows a field with plants and text indicating to allow the field to drain until the water level is below 15 cm.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task04_sub00_f02.jpg",
+              "relative_path": "3Ei164DyooQ/task04_sub00_f02.jpg",
+              "caption": "The video frame shows a week 2 illustration of a plant growing in soil, with a text indicating the growth period will take around 7-10 days",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task04_sub00_f03.jpg",
+              "relative_path": "3Ei164DyooQ/task04_sub00_f03.jpg",
+              "caption": "The video frame shows a message from the FAO (Food and Agriculture Organization) advising farmers to consult with their extension officer for proper crop management from week 2",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task04_sub00_f04.jpg",
+              "relative_path": "3Ei164DyooQ/task04_sub00_f04.jpg",
+              "caption": "The video frame shows a cartoon illustration of a garden with instructions on when to irrigate, emphasizing the importance of watering when the water is 15 cm below",
+              "frame_index": 4
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to irrigate the rice field to a specific level and then allow it to drain to another level, ensuring optimal water conditions for the crops.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The video frame shows a field with plants and a label indicating to irrigate to 5 cm above the surface level.",
+            "- [frames=[1]] The video frame shows a field with plants and text indicating to allow the field to drain until the water level is below 15 cm.",
+            "- [frames=[2]] The video frame shows a week 2 illustration of a plant growing in soil, with a text indicating the growth period will take around 7-10 days.",
+            "- [frames=[3]] The video frame shows a message from the FAO (Food and Agriculture Organization) advising farmers to consult with their extension officer for proper crop management from week 2.",
+            "- [frames=[4]] The video frame shows a cartoon illustration of a garden with instructions on when to irrigate, emphasizing the importance of watering when the water is 15 cm below.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The robot is instructed to manage the water levels in the rice field by first irrigating it to 5 cm above the surface and then allowing it to drain until the water level is 15 cm below the surface. This process is crucial for maintaining the health and productivity of the rice crops.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot must have access to the irrigation system.",
+            "- The robot should be equipped with sensors to measure water levels accurately.",
+            "- The robot needs to know the current water level in the field.",
+            "- The robot should be able to communicate with the irrigation system.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The water level in the field reaches 5 cm above the surface.",
+            "- The water level in the field drops to 15 cm below the",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2,3,4]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2,3,4]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2,3,4]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2,3,4]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2,3,4]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 20.340000000000003,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/3Ei164DyooQ/task04/sub00/motion.bvh",
+            "params_path": "results/momask/3Ei164DyooQ/task04/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Irrigate based on weeds observed while keeping water 15 centimeters below the surface level.",
+          "start": 207.5,
+          "end": 216.62,
+          "segment_ids": [
+            44,
+            45
+          ],
+          "frames": [
+            {
+              "image_file": "task04_sub01_f00.jpg",
+              "relative_path": "3Ei164DyooQ/task04_sub01_f00.jpg",
+              "caption": "The video frame shows instructions on when to irrigate a field, with a focus on watering when the water is 15 cm below the surface level and when",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task04_sub01_f01.jpg",
+              "relative_path": "3Ei164DyooQ/task04_sub01_f01.jpg",
+              "caption": "The video frame shows a grassy field with roots extending down to a depth of 15 cm.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task04_sub01_f02.jpg",
+              "relative_path": "3Ei164DyooQ/task04_sub01_f02.jpg",
+              "caption": "The video frame shows instructions on when to irrigate a field, with a focus on maintaining the water level at 0-5 cm above the surface level.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will monitor the field for weeds and adjust the irrigation system to maintain the water level 15 centimeters below the surface to optimize rice crop health.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The video frame shows instructions on when to irrigate a field, focusing on maintaining the water level 15 cm below the surface.",
+            "- [frames=[1]] A grassy field is visible with roots extending down to a depth of 15 cm.",
+            "- [frames=[2]] The video frame again shows instructions on when to irrigate, emphasizing maintaining the water level within 0-5 cm above the surface.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene involves a field where the robot needs to ensure the water level is kept at 15 cm below the surface to prevent weed growth and promote rice health. The robot must also be aware of any weeds present to determine if irrigation is necessary.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot must have access to a water level sensor to measure the current water depth.",
+            "- The robot should be equipped with a camera to detect weeds.",
+            "- The irrigation system must be operational and controllable by the robot.",
+            "- The robot needs to know the exact location of the field and its boundaries.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The water level must be maintained at 15 cm below the surface.",
+            "- No weeds should be detected in the field.",
+            "- The irrigation system should be turned on if needed to reach the desired water level.",
+            "- The robot should confirm the water level and weed status before initiating any action.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Read the current water level from the sensor.",
+            "2. [type=perception, frames=[1]] Use the camera to scan the field for weeds.",
+            "3. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Read the current water level from the sensor. It then verifies the key detail directly from the frames (Read the current water level from the sensor).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 9.120000000000005,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/3Ei164DyooQ/task04/sub01/motion.bvh",
+            "params_path": "results/momask/3Ei164DyooQ/task04/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Maintain water level 0 to 5 centimeters above the surface level two weeks after flowering.",
+          "start": 221.1,
+          "end": 226.22,
+          "segment_ids": [
+            47
+          ],
+          "frames": [
+            {
+              "image_file": "task04_sub02_f00.jpg",
+              "relative_path": "3Ei164DyooQ/task04_sub02_f00.jpg",
+              "caption": "The video frame shows a diagram of a rice field, with instructions on maintaining water levels after rice flowers.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task04_sub02_f01.jpg",
+              "relative_path": "3Ei164DyooQ/task04_sub02_f01.jpg",
+              "caption": "The video frame shows a diagram of a rice field, with instructions to maintain the water level at 0-5 cm above the surface level for two weeks after",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task04_sub02_f02.jpg",
+              "relative_path": "3Ei164DyooQ/task04_sub02_f02.jpg",
+              "caption": "The video frame shows a diagram of a rice field, with instructions to maintain the water level at 0-5 cm above the surface level for two weeks after",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Maintain the water level at 0 to 5 centimeters above the surface level for two weeks after the rice flowers have bloomed.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] The video frame shows a diagram of a rice field with instructions on maintaining water levels after rice flowers.",
+            "- [frames=[0,1]] The instructions mention maintaining the water level at 0-5 cm above the surface level for two weeks post-flowering.",
+            "- [frames=[0,1]] The diagram is consistent across both frames, indicating repeated emphasis on the same information.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The robot needs to understand the importance of maintaining the correct water level during the critical period after rice flowering to ensure optimal crop health. This involves monitoring the water level and adjusting it if necessary to keep it within the specified range.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to a water level sensor or gauge.",
+            "- The robot must be equipped with the ability to adjust the water level in the rice field.",
+            "- The robot should have a map or GPS coordinates of the rice field.",
+            "- The robot needs to be aware of the current stage of the rice plants, specifically whether they have flowered.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The water level is maintained at 0 to 5 centimeters above the surface level.",
+            "- The robot confirms the water level is within the required range.",
+            "- The robot verifies the water level every hour during the two-week period.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Read the current water level using the onboard sensor.",
+            "2. [type=perception, frames=[0,1]] Cross-check the water level reading with a secondary sensor for accuracy.",
+            "3. [type=navigation, frames=[0,1]] Move to the designated area of.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Read the current water level using the onboard sensor. It then verifies the key detail directly from the frames (Read the current water level using the onboard sensor).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 5.1200000000000045,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/3Ei164DyooQ/task04/sub02/motion.bvh",
+            "params_path": "results/momask/3Ei164DyooQ/task04/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Prepare for harvesting and post-harvest care.",
+      "start": 230.58,
+      "end": 249.43,
+      "subtasks": [
+        {
+          "text": "Prepare a 3.5 month variety with the right moisture level (22-25%) for harvest at week 12.",
+          "start": 230.58,
+          "end": 237.35,
+          "segment_ids": [
+            49
+          ],
+          "frames": [
+            {
+              "image_file": "task05_sub00_f00.jpg",
+              "relative_path": "3Ei164DyooQ/task05_sub00_f00.jpg",
+              "caption": "The video frame shows a field with a scale indicating 15 cm, and text suggesting to drain fields two weeks before harvesting.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task05_sub00_f01.jpg",
+              "relative_path": "3Ei164DyooQ/task05_sub00_f01.jpg",
+              "caption": "The video frame shows a digital device with a digital display and a container of seeds.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task05_sub00_f02.jpg",
+              "relative_path": "3Ei164DyooQ/task05_sub00_f02.jpg",
+              "caption": "The video frame shows a digital moisture meter and jars of grain, with text indicating the moisture level is between 20-25%.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to prepare a 3.5 month rice variety for harvest by ensuring it has the correct moisture level (22-25%) at week 12. This involves draining the field, measuring moisture levels, and confirming the correct conditions before proceeding to the next steps.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The video frame shows a field with a scale indicating 15 cm, and text suggesting to drain fields two weeks before harvesting.",
+            "- [frames=[1]] The video frame shows a digital device with a digital display and a container of seeds.",
+            "- [frames=[2]] The video frame shows a digital moisture meter and jars of grain, with text indicating the moisture level is between 20-25%.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from field preparation to moisture measurement. The robot will need to ensure the field is drained and then measure the moisture content of the rice to confirm it is within the required range.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to the field and the necessary tools for draining.",
+            "- The robot should be equipped with a moisture meter to measure the rice's moisture content.",
+            "- The robot should have the ability to communicate with the user or system to confirm the correct moisture level.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The field should be drained to the appropriate level.",
+            "- The rice should have a moisture content of 22-25%.",
+            "- The robot should verify the moisture content using the moisture meter.",
+            "- The robot should confirm the correct moisture level with the user or system.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1,2]] Inspect/verify the scene before any physical action.",
+            "2. [type=navigation, frames=[0]] Navigate to the field and locate the drainage equipment.",
+            "3. [type=manipulation, frames=[0]] Operate the drainage equipment to lower the water level in the field to.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Inspect/verify the scene before any physical action. It then verifies the key detail directly from the frames (Inspect/verify the scene before any physical action).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the field and locate the drainage equipment; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 6.769999999999982,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/3Ei164DyooQ/task05/sub00/motion.bvh",
+            "params_path": "results/momask/3Ei164DyooQ/task05/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Use moisture measurement services at One Stop Super to reduce grain damages.",
+          "start": 245.03,
+          "end": 249.43,
+          "segment_ids": [
+            52
+          ],
+          "frames": [
+            {
+              "image_file": "task05_sub01_f00.jpg",
+              "relative_path": "3Ei164DyooQ/task05_sub01_f00.jpg",
+              "caption": "The video frame shows a service available at the One Stop Super, with a digital scale and jars of food.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task05_sub01_f01.jpg",
+              "relative_path": "3Ei164DyooQ/task05_sub01_f01.jpg",
+              "caption": "A service is available at the One Stop Super for free grain moisture measurements.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task05_sub01_f02.jpg",
+              "relative_path": "3Ei164DyooQ/task05_sub01_f02.jpg",
+              "caption": "A service is available at the One Stop Super for free grain moisture measurements.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will visit a service at One Stop Super to measure grain moisture levels, ensuring reduced grain damage during storage and transportation.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A service is available at One Stop Super with a digital scale and jars of food.",
+            "- [frames=[1]] A service is available at One Stop Super for free grain moisture measurements.",
+            "- [frames=[2]] A service is available at One Stop Super for free grain moisture measurements.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a service area at One Stop Super where grain moisture can be measured for free. This service is crucial for determining optimal times for harvesting and storing rice to prevent spoilage.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot has access to a navigation system to reach One Stop Super.",
+            "- The robot is equipped with a camera to identify the service area.",
+            "- The robot has a communication module to interact with humans if needed.",
+            "- The robot carries a sample of harvested rice for moisture measurement.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully identifies the correct service area.",
+            "- The robot measures the moisture content accurately.",
+            "- The robot receives a confirmation of the moisture level from the service provider.",
+            "- The robot stores the moisture measurement data correctly.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the service area at One Stop Super.",
+            "2. [type=perception, frames=[0,1]] Use the camera to confirm the presence of the service area.",
+            "3. [type=manipulation, frames=[1]] Request a grain moisture measurement from the service provider.",
+            "4. [type=perception, frames=[1]] Verify the moisture measurement using the digital scale provided.",
+            "5. [type=perception, frames=[1]] Confirm the moisture level with the service provider.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the service area at One Stop Super. It then verifies the key detail directly from the frames (Use the camera to confirm the presence of the service area).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the service area at One Stop Super; Request a grain moisture measurement from the service provider; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 4.400000000000006,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/3Ei164DyooQ/task05/sub01/motion.bvh",
+            "params_path": "results/momask/3Ei164DyooQ/task05/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Ensure field management and storage practices.",
+      "start": 256.29,
+      "end": 273.44,
+      "subtasks": [
+        {
+          "text": "Keep straw on the field post-harvest.",
+          "start": 256.29,
+          "end": 260.61,
+          "segment_ids": [
+            54
+          ],
+          "frames": [
+            {
+              "image_file": "task06_sub00_f00.jpg",
+              "relative_path": "3Ei164DyooQ/task06_sub00_f00.jpg",
+              "caption": "The video frame shows a field with straw scattered on the ground, and the text \"After harvest, keep straw on your field\" is displayed.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task06_sub00_f01.jpg",
+              "relative_path": "3Ei164DyooQ/task06_sub00_f01.jpg",
+              "caption": "A cartoon scene shows two people standing next to a large machine with the FAO logo.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task06_sub00_f02.jpg",
+              "relative_path": "3Ei164DyooQ/task06_sub00_f02.jpg",
+              "caption": "The video shows a machine being used to dry paddy, with a sign that says \"Rent at the One Stop Super\" and a logo for FAO.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask involves ensuring that straw remains on the field after rice harvesting, as part of sustainable farming practices.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] Straw is scattered on the ground in a harvested field, with a text overlay instructing to keep straw on the field.",
+            "- [frames=[1]] A cartoon scene features two people near a large machine with the FAO logo, but does not show any straw or field activity.",
+            "- [frames=[2]] The machine is shown drying paddy, with a sign and FAO logo, but no straw is visible.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from showing the aftermath of harvesting with straw left on the field to a cartoon representation of farm machinery and FAO involvement. The focus is on maintaining straw on the field to promote sustainability.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the current location on the field.",
+            "- The robot should have access to tools or methods to verify the presence of straw.",
+            "- The robot should be capable of navigating the field without causing damage.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Straw remains on the field post-harvest.",
+            "- The field is free from any signs of disturbance that would remove the straw.",
+            "- The robot can confirm the presence of straw through visual inspection.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Scan the field to locate the scattered straw.",
+            "2. [type=navigation, frames=[0,1]] Move towards the area where straw is present.",
+            "3. [type=perception, frames=[1]] Verify the presence of straw by visually inspecting the field.",
+            "4. [type=navigation, frames=[1,2]] Navigate to a nearby location to avoid disturbing the straw.",
+            "5. [type=manipulation, frames=[2]] Use sensors to ensure.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Scan the field to locate the scattered straw. It then verifies the key detail directly from the frames (Verify the presence of straw by visually inspecting the field).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move towards the area where straw is present; Navigate to a nearby location to avoid disturbing the straw; Use sensors to ensure; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 4.319999999999993,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/3Ei164DyooQ/task06/sub00/motion.bvh",
+            "params_path": "results/momask/3Ei164DyooQ/task06/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Dry paddy efficiently and economically using mobile paddy drying.",
+          "start": 264.65,
+          "end": 273.44,
+          "segment_ids": [
+            56
+          ],
+          "frames": [
+            {
+              "image_file": "task06_sub01_f00.jpg",
+              "relative_path": "3Ei164DyooQ/task06_sub01_f00.jpg",
+              "caption": "The video shows a mobile paddy drying machine with a recommended moisture level below 14%.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task06_sub01_f01.jpg",
+              "relative_path": "3Ei164DyooQ/task06_sub01_f01.jpg",
+              "caption": "The video shows a cartoon scene of a market stall with people working inside.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task06_sub01_f02.jpg",
+              "relative_path": "3Ei164DyooQ/task06_sub01_f02.jpg",
+              "caption": "The video frame shows a cartoon scene of people working in a building with a sign that says \"ONE STOP SUPER.\"",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to ensure efficient and economic drying of paddy using a mobile machine, while also understanding the context of the drying process and its importance.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The video shows a mobile paddy drying machine with a recommended moisture level below 14%.",
+            "- [frames=[1]] A cartoon scene of a market stall with people working inside is shown, which is irrelevant to the current task.",
+            "- [frames=[2]] Another cartoon scene of people working in a building with a sign that says \"ONE STOP SUPER\" appears, which is also irrelevant.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene primarily focuses on the mobile paddy drying machine and the recommended moisture level, indicating the importance of proper drying techniques to prevent spoilage and ensure quality rice production.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the recommended moisture level for paddy drying.",
+            "- The robot should have access to the mobile paddy drying machine.",
+            "- The robot should be able to communicate with the machine to start the drying process.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The paddy should be dried to a moisture level below 14%.",
+            "- The drying process should be completed efficiently and economically.",
+            "- The robot should verify the moisture level before and after the drying process.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Read the recommended moisture level displayed on the mobile paddy drying machine.",
+            "2. [type=navigation, frames=[0]] Approach the mobile paddy drying machine.",
+            "3. [type=manipulation, frames=[0]] Start the drying process on the machine.",
+            "4. [type=perception, frames=[0]] Monitor the moisture level during the drying process.",
+            "5. [type=manipulation, frames=[0]] Stop the drying process once.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Read the recommended moisture level displayed on the mobile paddy drying machine. It then verifies the key detail directly from the frames (Read the recommended moisture level displayed on the mobile paddy drying machine).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Approach the mobile paddy drying machine; Start the drying process on the machine; Stop the drying process once; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 8.79000000000002,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/3Ei164DyooQ/task06/sub01/motion.bvh",
+            "params_path": "results/momask/3Ei164DyooQ/task06/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

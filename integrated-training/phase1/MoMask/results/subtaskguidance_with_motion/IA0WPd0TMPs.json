@@ -1,0 +1,382 @@
+{
+  "video_index": "IA0WPd0TMPs",
+  "title": "Jesse's Three Year Crop Rotation Success Story",
+  "url": "https://www.youtube.com/watch?v=IA0WPd0TMPs",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Discusses crop rotation and soil health practices that increase profitability.",
+  "tasks": [
+    {
+      "task": "Explain the three-year crop rotation and its benefits.",
+      "start": 41.0,
+      "end": 88.0,
+      "subtasks": [
+        {
+          "text": "Describe the three-year rotation of corn, soybeans, and oats.",
+          "start": 41.0,
+          "end": 63.0,
+          "segment_ids": [
+            6,
+            7,
+            9
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "IA0WPd0TMPs/task00_sub00_f00.jpg",
+              "caption": "A man in a green shirt is kneeling in a field, using a shovel to dig.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "IA0WPd0TMPs/task00_sub00_f01.jpg",
+              "caption": "A man in a green shirt is talking in front of a corrugated metal wall.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "IA0WPd0TMPs/task00_sub00_f02.jpg",
+              "caption": "A man in a green shirt is standing in front of a corrugated metal wall.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub00_f03.jpg",
+              "relative_path": "IA0WPd0TMPs/task00_sub00_f03.jpg",
+              "caption": "A close-up shot of green oat plants in a field.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task00_sub00_f04.jpg",
+              "relative_path": "IA0WPd0TMPs/task00_sub00_f04.jpg",
+              "caption": "A vast, green field stretches towards the horizon under a cloudy sky.",
+              "frame_index": 4
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment describes a three-year crop rotation involving corn, soybeans, and oats, highlighting the benefits of such a system.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The man in a green shirt is kneeling in a field, using a shovel to dig, indicating he is preparing the soil for planting.",
+            "- [frames=[1,2]] The man is seen talking in front of a corrugated metal wall, likely explaining the crop rotation process.",
+            "- [frames=[3]] A close-up shot of green oat plants in a field shows the current stage of the oat crop.",
+            "- [frames=[4]] A vast, green field stretches towards the horizon under a cloudy sky, illustrating the expansive nature of the crop rotation.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a farmer explaining the three-year crop rotation cycle, starting with digging the soil for planting corn, followed by soybeans, and then oats. The farmer uses a shovel and stands near a corrugated metal wall, which could be part of his farm infrastructure.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a shovel for soil preparation.",
+            "- The robot needs to be able to communicate with the farmer.",
+            "- The robot must have the ability to navigate through the field.",
+            "- The robot should be capable of performing close-up observations.",
+            "- The robot needs to be able to stand and move around the field.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the current crop (oats) and verify its presence.",
+            "- The robot should confirm the farmer’s explanation of the crop rotation sequence.",
+            "- The robot should measure the field size and cross-check it with the farmer’s description.",
+            "- The robot should ensure the soil is prepared for planting the next crop (corn).",
+            "- The robot should stand by at the end of the demonstration.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2,3,4]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2,3,4]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2,3,4]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2,3,4]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2,3,4]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 22.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/IA0WPd0TMPs/task00/sub00/motion.bvh",
+            "params_path": "results/momask/IA0WPd0TMPs/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Highlight the increase in soybean and corn yields after introducing oats.",
+          "start": 63.0,
+          "end": 88.0,
+          "segment_ids": [
+            10,
+            11,
+            12
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "IA0WPd0TMPs/task00_sub01_f01.jpg",
+              "caption": "A man in a green shirt is standing in front of a corrugated metal wall.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "IA0WPd0TMPs/task00_sub01_f02.jpg",
+              "caption": "A cornfield with tall stalks and green leaves.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub01_f03.jpg",
+              "relative_path": "IA0WPd0TMPs/task00_sub01_f03.jpg",
+              "caption": "A close-up view of soybean seeds with a pair of tweezers in the foreground.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task00_sub01_f04.jpg",
+              "relative_path": "IA0WPd0TMPs/task00_sub01_f04.jpg",
+              "caption": "A red combine harvester is harvesting corn in a field.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task00_sub01_f05.jpg",
+              "relative_path": "IA0WPd0TMPs/task00_sub01_f05.jpg",
+              "caption": "A man wearing glasses and a green shirt is standing in front of a corrugated metal wall.",
+              "frame_index": 5
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on explaining how introducing oats into the crop rotation system increases soybean and corn yields. This is illustrated through various scenes showing the fields and equipment involved.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A man in a green shirt stands near a corrugated metal wall, likely setting up the context for the discussion.",
+            "- [frames=[2]] A wide shot of a cornfield with tall stalks and green leaves, indicating the current state of the corn crop.",
+            "- [frames=[3]] A close-up of soybean seeds with tweezers in the foreground, highlighting the focus on soybeans.",
+            "- [frames=[4]] A red combine harvester harvesting corn, showing the process of corn production.",
+            "- [frames=[5]] Another man in a green shirt and glasses standing in front of a corrugated metal wall, possibly summarizing the points made during the explanation.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict a man explaining the benefits of incorporating oats into a three-year crop rotation cycle. The cornfield and soybean seeds illustrate the crops being discussed, while the combine harvester shows the harvesting process. The man’s presence in both the initial and concluding shots suggests he is the narrator or main speaker.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be able to recognize and identify different types of crops (corn, soybeans) and farm machinery (combine harvester).",
+            "- It must understand the concept of crop rotation and its benefits.",
+            "- The robot needs to comprehend the significance of oats in improving yield.",
+            "- The robot should have knowledge about the specific crops mentioned (soybeans and corn).",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully identifies the crops and machinery shown in the frames.",
+            "- It correctly explains the benefits of adding oats to the crop rotation.",
+            "- The robot highlights the increased yields of soybeans and corn",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2,3,4,5]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[1,2,3,4,5]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[1,2,3,4,5]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[1,2,3,4,5]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[1,2,3,4,5]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 25.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/IA0WPd0TMPs/task00/sub01/motion.bvh",
+            "params_path": "results/momask/IA0WPd0TMPs/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Describe the role of cover crops and livestock in improving soil health and profitability.",
+      "start": 103.0,
+      "end": 156.0,
+      "subtasks": [
+        {
+          "text": "Explain the use of cover crops like rye and rapeseed after oats.",
+          "start": 148.0,
+          "end": 156.0,
+          "segment_ids": [
+            21
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "IA0WPd0TMPs/task01_sub00_f00.jpg",
+              "caption": "A man in a green shirt is standing in front of a train car.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "IA0WPd0TMPs/task01_sub00_f01.jpg",
+              "caption": "A man in a green shirt is talking in front of a metal structure.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "IA0WPd0TMPs/task01_sub00_f02.jpg",
+              "caption": "A man in a green shirt is standing in front of a metal structure, with text indicating he will be discussing cover crops.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment explains the benefits of using cover crops such as rye and rapeseed after oats, focusing on how they improve soil health and contribute to overall farm profitability.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A man in a green shirt is standing in front of a train car, likely setting up for his explanation.",
+            "- [frames=[1]] The same man continues speaking while standing in front of a metal structure, possibly a barn or storage area.",
+            "- [frames=[2]] The man transitions to discussing cover crops, indicated by text appearing on screen.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a farmer explaining the use of cover crops in a rural setting. The presence of a train car suggests the location might be near a farm supply depot, while the metal structure could be a storage facility for seeds or equipment.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture the scene.",
+            "- It needs to have audio capabilities to understand the farmer’s speech.",
+            "- The robot should be able to navigate to the area where the farmer is standing.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the cover crops being discussed.",
+            "- It should understand the benefits of using rye and rapeseed as cover crops.",
+            "- The robot should be able to summarize the farmer’s explanation effectively.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1,2]] Inspect/verify the scene before any physical action.",
+            "2. [type=navigation, frames=[0,1,2]] Position itself in a way that it can clearly see the farmer and hear him without obstructing the view.",
+            "3. [type=manipulation, frames=[0,1,2]] Adjust its camera angle to ensure all details of the cover crops are visible.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Inspect/verify the scene before any physical action. It then verifies the key detail directly from the frames (Inspect/verify the scene before any physical action).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Position itself in a way that it can clearly see the farmer and hear him without obstructing the view; Adjust its camera angle to ensure all details of the cover crops are visible; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 8.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/IA0WPd0TMPs/task01/sub00/motion.bvh",
+            "params_path": "results/momask/IA0WPd0TMPs/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Show the difference in soil health and profitability by introducing livestock.",
+          "start": 103.0,
+          "end": 112.0,
+          "segment_ids": [
+            15
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f00.jpg",
+              "relative_path": "IA0WPd0TMPs/task01_sub01_f00.jpg",
+              "caption": "A man in a green shirt is standing in front of a corrugated metal wall.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "IA0WPd0TMPs/task01_sub01_f01.jpg",
+              "caption": "A man in a green shirt is standing in front of a corrugated metal wall.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "IA0WPd0TMPs/task01_sub01_f02.jpg",
+              "caption": "Two men walk through a field, one in a green shirt and the other in a white shirt with a hat.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene shows a man explaining the benefits of introducing livestock to improve soil health and profitability, likely through a demonstration or discussion in a field setting.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A man in a green shirt stands in front of a corrugated metal wall, possibly indicating an area boundary or a backdrop for the discussion.",
+            "- [frame=2] Two men, one in a green shirt and another in a white shirt with a hat, walk through a field, suggesting they are moving towards a demonstration area.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from a static setup where a man explains the concept to a more dynamic one where he and another person move through a field, likely to show the practical application of introducing livestock.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be within the vicinity of the field.",
+            "- The robot should have a clear view of the two men walking through the field.",
+            "- The robot should be equipped with a camera and microphone for real-time monitoring and communication.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should verify that the two men are walking through the field.",
+            "- The robot should confirm that the man in the green shirt is explaining the benefits of introducing livestock.",
+            "- The robot should measure the change in soil health and profitability before and after the introduction of livestock.",
+            "- The robot should cross-check the information provided by the man in the green shirt with relevant data.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to a position near the corrugated metal wall to monitor the initial setup.",
+            "2. [type=perception, frames=[0,1]] Use the camera to verify that the man in the green shirt is standing in front of the wall.",
+            "3. [type=navigation, frames=[2]] Move to a position where the.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to a position near the corrugated metal wall to monitor the initial setup. It then verifies the key detail directly from the frames (Use the camera to verify that the man in the green shirt is standing in front of the wall).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to a position near the corrugated metal wall to monitor the initial setup; Move to a position where the; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 9.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/IA0WPd0TMPs/task01/sub01/motion.bvh",
+            "params_path": "results/momask/IA0WPd0TMPs/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

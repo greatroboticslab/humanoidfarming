@@ -1,0 +1,806 @@
+{
+  "video_index": "XYKSbN7L6Hg",
+  "title": "Global Food Supply Chain Evolution",
+  "url": "https://www.youtube.com/watch?v=XYKSbN7L6Hg",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "The video discusses the evolution of food supply systems and the trade-offs between local and global food production.",
+  "tasks": [
+    {
+      "task": "Examine the historical development of food supply systems.",
+      "start": 0.0,
+      "end": 55.17,
+      "subtasks": [
+        {
+          "text": "Observe the narrator's timeline of food access, going from personal gardens and local trade to a globalized food market.",
+          "start": 0.0,
+          "end": 15.52,
+          "segment_ids": [
+            0,
+            1,
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "XYKSbN7L6Hg/task00_sub00_f00.jpg",
+              "caption": "A woman in a striped shirt is standing outdoors.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "XYKSbN7L6Hg/task00_sub00_f01.jpg",
+              "caption": "A woman in a striped shirt is standing outdoors.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "XYKSbN7L6Hg/task00_sub00_f02.jpg",
+              "caption": "A wooden tray filled with fresh cucumbers.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub00_f03.jpg",
+              "relative_path": "XYKSbN7L6Hg/task00_sub00_f03.jpg",
+              "caption": "A basket filled with fresh vegetables, including carrots, beets, and squash, is placed on the grass.",
+              "frame_index": 3
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene depicts a transition from individual food cultivation to communal food sharing, illustrating early forms of food access through personal gardens and local trade.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] The woman in a striped shirt stands outdoors, setting the stage for the narrative.",
+            "- [frame_index=2] A wooden tray filled with fresh cucumbers appears, symbolizing the initial form of personal garden produce.",
+            "- [frame_index=3] A basket containing various fresh vegetables, such as carrots, beets, and squash, is placed on the grass, indicating a shift towards local trade and shared resources.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The outdoor setting suggests an early agricultural community where individuals cultivated their own food but also engaged in local exchanges. This scene visually represents the evolution from self-sufficiency to communal sharing.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be able to navigate outdoor environments.",
+            "- It needs to recognize and identify different types of vegetables.",
+            "- The robot must understand the concept of a timeline and how to represent it visually.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the presence of fresh vegetables in the scene.",
+            "- It should accurately track the transition from personal gardens to local trade.",
+            "- The robot must convey the historical progression clearly to the viewer.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the outdoor setting where the woman in the striped shirt is standing.",
+            "2. [type=perception, frames=[2]] Identify the wooden tray filled with fresh cucumbers and confirm its presence.",
+            "3. [type=perception, frames=[3]] Recognize the basket containing various fresh vegetables and verify its contents.",
+            "4. [type=manipulation, frames=[3]] Pick up the basket and move it to a designated display area.",
+            "5. [type=navigation, frames=[0,1,2,3]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the outdoor setting where the woman in the striped shirt is standing. It then verifies the key detail directly from the frames (Identify the wooden tray filled with fresh cucumbers and confirm its presence).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the outdoor setting where the woman in the striped shirt is standing; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 15.52,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/XYKSbN7L6Hg/task00/sub00/motion.bvh",
+            "params_path": "results/momask/XYKSbN7L6Hg/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Note the transformation of food supply chains from local to global enterprises.",
+          "start": 15.52,
+          "end": 34.21,
+          "segment_ids": [
+            3,
+            4
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "XYKSbN7L6Hg/task00_sub01_f01.jpg",
+              "caption": "A bucket filled with ripe tomatoes stands among rows of tomato plants.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "XYKSbN7L6Hg/task00_sub01_f02.jpg",
+              "caption": "The video frame shows a logo and text that reads \"Bridging the Gap: Subsistence Farming.\"",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub01_f03.jpg",
+              "relative_path": "XYKSbN7L6Hg/task00_sub01_f03.jpg",
+              "caption": "A woman with blonde hair and glasses is standing outdoors in a park-like setting.",
+              "frame_index": 3
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video illustrates the transition from local to global food supply chains by showing early farming practices and then moving towards more modern concepts.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A bucket filled with ripe tomatoes is placed among rows of tomato plants, indicating traditional subsistence farming.",
+            "- [frames=[2]] The logo and text \"Bridging the Gap: Subsistence Farming\" appear, providing context for the scene.",
+            "- [frames=[3]] A woman with blonde hair and glasses is seen outdoors in a park-like setting, possibly representing a modern agricultural expert or researcher.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from a local, subsistence farming practice to a broader perspective on agricultural development, highlighting the evolution of food supply chains over time.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture and analyze the scenes.",
+            "- The robot needs to have knowledge about different stages of food supply chain development.",
+            "- The robot should be able to navigate through the video frames accurately.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the stages of food supply chain development.",
+            "- It should verify the presence of the logo and text related to subsistence farming.",
+            "- The robot should recognize the woman in the park-like setting as a key figure in the narrative.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Capture the image of the bucket filled with ripe tomatoes among tomato plants.",
+            "2. [type=perception, frames=[2]] Read the logo and text \"Bridging the Gap: Subsistence Farming\" appearing in the frame.",
+            "3. [type=perception, frames=[3]] Identify the woman with blonde hair and glasses in the park-like setting.",
+            "4. [type=navigation, frames=[1,2,3]] Navigate through the video frames to ensure all.",
+            "5. [type=navigation, frames=[1,2,3]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture the image of the bucket filled with ripe tomatoes among tomato plants. It then verifies the key detail directly from the frames (Read the logo and text \"Bridging the Gap: Subsistence Farming\" appearing in the frame).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate through the video frames to ensure all; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 18.69,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/XYKSbN7L6Hg/task00/sub01/motion.bvh",
+            "params_path": "results/momask/XYKSbN7L6Hg/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Highlight the United States' role in the global agriculture trade.",
+          "start": 34.21,
+          "end": 55.17,
+          "segment_ids": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub02_f01.jpg",
+              "relative_path": "XYKSbN7L6Hg/task00_sub02_f01.jpg",
+              "caption": "The video frame shows a logo for Southland Organics with a green hexagon and the website address below it.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub02_f02.jpg",
+              "relative_path": "XYKSbN7L6Hg/task00_sub02_f02.jpg",
+              "caption": "A woman in a striped shirt is outdoors, wearing glasses and a choker.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub02_f03.jpg",
+              "relative_path": "XYKSbN7L6Hg/task00_sub02_f03.jpg",
+              "caption": "A woman in a striped shirt stands outdoors, wearing glasses.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task00_sub02_f04.jpg",
+              "relative_path": "XYKSbN7L6Hg/task00_sub02_f04.jpg",
+              "caption": "A pile of various squash and gourds is on the ground, with a burlap sack and a few wooden sticks nearby.",
+              "frame_index": 4
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on highlighting the United States' role in the global agriculture trade, specifically through visual elements and narration.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] The video frame shows a logo for Southland Organics with a green hexagon and the website address below it.",
+            "- [frames=[2,3]] A woman in a striped shirt is outdoors, wearing glasses and a choker, standing in the same position.",
+            "- [frames=[4]] A pile of various squash and gourds is on the ground, with a burlap sack and a few wooden sticks nearby.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from a company logo to a woman outdoors, likely discussing agricultural products. The presence of squash and gourds suggests a focus on seasonal produce, which is common in discussions about U.S. agricultural exports.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture and analyze the visual elements.",
+            "- The robot needs to have knowledge of the United States' role in global agriculture.",
+            "- The robot should be able to navigate to different frames within the video.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the logo of Southland Organics.",
+            "- The robot should recognize the woman as a key figure in the discussion.",
+            "- The robot should accurately describe the types of produce shown (squash and gourds) and their significance in the context of U.S. agriculture.",
+            "- The robot should provide information on the U.S.'s role in global agriculture trade.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Capture and analyze the logo of Southland Organics.",
+            "2. [type=perception, frames=[2,3]] Identify the woman in the striped shirt and confirm her presence.",
+            "3. [type=perception, frames=[1,2,3,4]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[1,2,3,4]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[1,2,3,4]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture and analyze the logo of Southland Organics. It then verifies the key detail directly from the frames (Identify the woman in the striped shirt and confirm her presence).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 20.96,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/XYKSbN7L6Hg/task00/sub02/motion.bvh",
+            "params_path": "results/momask/XYKSbN7L6Hg/task00/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Analyze the challenges and benefits of local food production.",
+      "start": 220.69,
+      "end": 378.53,
+      "subtasks": [
+        {
+          "text": "Observe the land requirements for personal food production and the limitations they present.",
+          "start": 299.17,
+          "end": 338.85,
+          "segment_ids": [
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "XYKSbN7L6Hg/task01_sub00_f00.jpg",
+              "caption": "A woman in a striped shirt is standing outdoors, wearing glasses and a necklace.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "XYKSbN7L6Hg/task01_sub00_f01.jpg",
+              "caption": "A woman in a striped shirt is standing outdoors with a microphone.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "XYKSbN7L6Hg/task01_sub00_f02.jpg",
+              "caption": "A person can produce enough fruits and vegetables for a year on about 3.25 acres.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task01_sub00_f03.jpg",
+              "relative_path": "XYKSbN7L6Hg/task01_sub00_f03.jpg",
+              "caption": "A woman in a striped shirt is standing outdoors, wearing glasses and a necklace.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task01_sub00_f04.jpg",
+              "relative_path": "XYKSbN7L6Hg/task01_sub00_f04.jpg",
+              "caption": "A woman in a striped shirt is standing outdoors.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task01_sub00_f05.jpg",
+              "relative_path": "XYKSbN7L6Hg/task01_sub00_f05.jpg",
+              "caption": "The video frame shows a satellite view of North America, highlighting its geographical features.",
+              "frame_index": 5
+            },
+            {
+              "image_file": "task01_sub00_f06.jpg",
+              "relative_path": "XYKSbN7L6Hg/task01_sub00_f06.jpg",
+              "caption": "The video frame shows a map of North America with the number 333,287,557 people displayed.",
+              "frame_index": 6
+            },
+            {
+              "image_file": "task01_sub00_f07.jpg",
+              "relative_path": "XYKSbN7L6Hg/task01_sub00_f07.jpg",
+              "caption": "A woman in a striped shirt stands outdoors, wearing glasses.",
+              "frame_index": 7
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask involves observing the land requirements for personal food production and understanding the limitations presented by such requirements.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A woman in a striped shirt is standing outdoors, wearing glasses and a necklace, indicating she is likely the narrator or presenter.",
+            "- [frames=[2]] A statistic is mentioned: a person can produce enough fruits and vegetables for a year on about 3.25 acres.",
+            "- [frames=[5]] A satellite view of North America is shown, highlighting geographical features.",
+            "- [frames=[6]] A map of North America displays the population count of 333,287,557 people.",
+            "- [frames=[7]] The woman in the striped shirt is again seen standing outdoors, reinforcing her role as the speaker.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shifts from a close-up of the narrator to a broader view of North America, emphasizing the vastness of the continent and the significant population it supports. This contrast highlights the challenge of meeting food needs through local production due to limited individual land availability.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be able to recognize the narrator and understand her role as the primary speaker.",
+            "- It must interpret statistical information and convert it into understandable terms.",
+            "- The robot needs to comprehend geographical and demographic data presented in maps and satellite views.",
+            "- It should be capable of summarizing and presenting the observed information coherently.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the narrator and her role.",
+            "- It must correctly interpret the land requirement statistic and explain its significance.",
+            "- The robot should effectively summarize the geographical and demographic data presented.",
+            "- It should provide a clear explanation of the limitations of local food production based on the observed information.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2,3,4,5,6,7]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2,3,4,5,6,7]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2,3,4,5,6,7]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2,3,4,5,6,7]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2,3,4,5,6,7]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 39.68000000000001,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/XYKSbN7L6Hg/task01/sub00/motion.bvh",
+            "params_path": "results/momask/XYKSbN7L6Hg/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Describe the disparity between available land and the land needed for food production if everyone grown their own food.",
+          "start": 338.85,
+          "end": 378.53,
+          "segment_ids": [
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "XYKSbN7L6Hg/task01_sub01_f01.jpg",
+              "caption": "The video frame shows a 3D map of the United States with the states highlighted in blue.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "XYKSbN7L6Hg/task01_sub01_f02.jpg",
+              "caption": "A woman in a striped shirt is standing outdoors with trees in the background.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task01_sub01_f03.jpg",
+              "relative_path": "XYKSbN7L6Hg/task01_sub01_f03.jpg",
+              "caption": "The video frame shows a cityscape with a bridge over a river, featuring tall buildings and a clear sky.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task01_sub01_f04.jpg",
+              "relative_path": "XYKSbN7L6Hg/task01_sub01_f04.jpg",
+              "caption": "The video frame shows a grand canyon with steep cliffs and a clear sky.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task01_sub01_f05.jpg",
+              "relative_path": "XYKSbN7L6Hg/task01_sub01_f05.jpg",
+              "caption": "A woman in a striped shirt is outdoors, standing next to a tree.",
+              "frame_index": 5
+            },
+            {
+              "image_file": "task01_sub01_f06.jpg",
+              "relative_path": "XYKSbN7L6Hg/task01_sub01_f06.jpg",
+              "caption": "A woman in a striped shirt stands outdoors, wearing glasses.",
+              "frame_index": 6
+            },
+            {
+              "image_file": "task01_sub01_f07.jpg",
+              "relative_path": "XYKSbN7L6Hg/task01_sub01_f07.jpg",
+              "caption": "A woman in a striped shirt is standing outdoors.",
+              "frame_index": 7
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on illustrating the disparity between available land and the land required for food production if everyone grew their own food. This is demonstrated through various scenes showing different landscapes and urban areas.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] The 3D map of the United States highlights blue states, indicating regions with potential agricultural land.",
+            "- [frames=[2]] A woman in a striped shirt is outdoors, possibly representing a rural or suburban setting.",
+            "- [frames=[3]] A cityscape with a bridge over a river showcases dense urban areas where land for agriculture is limited.",
+            "- [frames=[4]] The grand canyon scene emphasizes vast natural landscapes but very little arable land suitable for farming.",
+            "- [frames=[5-7]] The woman in a striped shirt is seen outdoors multiple times, likely to emphasize her role in discussing the topic.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes transition from rural to urban settings, highlighting the contrast between expansive natural landscapes and densely populated areas. This visual progression underscores the challenge of finding sufficient land for individual food production in urban environments.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be able to recognize and differentiate between rural and urban landscapes.",
+            "- It must understand the concept of arable land and its importance in food production.",
+            "- The robot needs to grasp the idea of disparity and how it applies to land availability for food production.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify and label different types of landscapes (rural, urban).",
+            "- It must correctly interpret the 3D map and highlight regions with potential agricultural land.",
+            "- The robot should be able to explain the concept of disparity in land availability for food production.",
+            "- It should effectively convey the limitations faced in urban areas compared to rural ones.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Identify the.",
+            "2. [type=perception, frames=[1,2,3,4,5,6,7]] Verify/confirm the key observation before reporting.",
+            "3. [type=perception, frames=[1,2,3,4,5,6,7]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[1,2,3,4,5,6,7]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[1,2,3,4,5,6,7]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 39.67999999999995,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/XYKSbN7L6Hg/task01/sub01/motion.bvh",
+            "params_path": "results/momask/XYKSbN7L6Hg/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Highlight the lowered food safety and sustainability concerns with local food production.",
+          "start": 220.69,
+          "end": 253.41,
+          "segment_ids": [
+            40,
+            41,
+            42,
+            43,
+            44,
+            45
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub02_f00.jpg",
+              "relative_path": "XYKSbN7L6Hg/task01_sub02_f00.jpg",
+              "caption": "A tractor is spraying a large green field.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub02_f01.jpg",
+              "relative_path": "XYKSbN7L6Hg/task01_sub02_f01.jpg",
+              "caption": "A woman in a striped shirt is outdoors, talking.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub02_f03.jpg",
+              "relative_path": "XYKSbN7L6Hg/task01_sub02_f03.jpg",
+              "caption": "A woman is selling fresh produce at an outdoor market, with customers browsing the fruits and vegetables.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task01_sub02_f05.jpg",
+              "relative_path": "XYKSbN7L6Hg/task01_sub02_f05.jpg",
+              "caption": "A woman in a striped shirt stands outdoors, wearing glasses.",
+              "frame_index": 5
+            },
+            {
+              "image_file": "task01_sub02_f06.jpg",
+              "relative_path": "XYKSbN7L6Hg/task01_sub02_f06.jpg",
+              "caption": "A grocery store display with packaged meat products.",
+              "frame_index": 6
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on highlighting the reduced food safety and sustainability concerns associated with local food production. The scenes depict a farm setting, an outdoor market, and a grocery store, emphasizing the direct supply chain and freshness of locally produced goods.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A tractor is spraying a large green field, indicating agricultural activity.",
+            "- [frames=[1]] A woman in a striped shirt is outdoors, likely discussing local food production.",
+            "- [frames=[3]] A woman is selling fresh produce at an outdoor market, with customers browsing the fruits and vegetables.",
+            "- [frames=[5]] A woman in a striped shirt stands outdoors, wearing glasses, possibly continuing her discussion.",
+            "- [frames=[6]] A grocery store display with packaged meat products, contrasting with the earlier scenes of fresh produce.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes transition from a farm setting to an outdoor market and then to a grocery store, showcasing the entire process of local food production and distribution. This sequence highlights the immediate availability and freshness of locally sourced foods, which can lead to lower food safety and sustainability concerns compared to long-distance transportation.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture and analyze the scenes.",
+            "- The robot needs to have a basic understanding of food safety and sustainability concepts.",
+            "- The robot should be able to communicate with the narrator or speaker present in the scenes.",
+            "- The robot must be capable of navigating through different environments such as fields, markets, and stores.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify and describe the reduced food safety and sustainability concerns associated with local food production.",
+            "- It should be able to cross-check the information provided by the narrator or speaker.",
+            "- The robot should effectively convey the benefits of local food production in terms of freshness and direct supply chain.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,3,5,6]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,3,5,6]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,3,5,6]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,3,5,6]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,3,5,6]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 32.72,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/XYKSbN7L6Hg/task01/sub02/motion.bvh",
+            "params_path": "results/momask/XYKSbN7L6Hg/task01/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Discuss consumer choices and preferences in the food production paradigm.",
+      "start": 247.73,
+      "end": 277.33,
+      "subtasks": [
+        {
+          "text": "Describe the growth of local food movements and markets.",
+          "start": 247.73,
+          "end": 277.33,
+          "segment_ids": [
+            45,
+            46,
+            47,
+            48,
+            49
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "XYKSbN7L6Hg/task02_sub00_f01.jpg",
+              "caption": "A grocery store display with packaged meat products.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "XYKSbN7L6Hg/task02_sub00_f02.jpg",
+              "caption": "A person is cutting a piece of raw meat with a knife.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task02_sub00_f03.jpg",
+              "relative_path": "XYKSbN7L6Hg/task02_sub00_f03.jpg",
+              "caption": "A woman in a striped shirt is outdoors, talking.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task02_sub00_f05.jpg",
+              "relative_path": "XYKSbN7L6Hg/task02_sub00_f05.jpg",
+              "caption": "A bucket filled with freshly harvested carrots.",
+              "frame_index": 5
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment discusses the rise of local food movements and markets, highlighting changes in consumer preferences towards locally sourced produce and meats.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A grocery store display with packaged meat products.",
+            "- [frames=[2]] A person is cutting a piece of raw meat with a knife.",
+            "- [frames=[3]] A woman in a striped shirt is outdoors, talking.",
+            "- [frames=[5]] A bucket filled with freshly harvested carrots.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from a typical grocery store setting with packaged meat to a more natural outdoor environment where a woman discusses local food movements. This shift illustrates the growing preference for fresh, locally sourced foods over processed and imported goods.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture visual information.",
+            "- The robot needs to have access to a database of local food movements and consumer preferences.",
+            "- The robot should be able to navigate through different environments, including indoor and outdoor spaces.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the transition from packaged meat to fresh produce.",
+            "- It should recognize the outdoor setting and the woman discussing local food movements.",
+            "- The robot should be able to summarize the key points of the local food movement discussion.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate to the grocery store display with packaged meat products.",
+            "2. [type=perception, frames=[1]] Use the camera to capture an image of the packaged meat products.",
+            "3. [type=navigation, frames=[2]] Move to the area where the person is cutting raw meat.",
+            "4. [type=perception, frames=[2]] Capture an image of the raw meat being cut.",
+            "5. [type=navigation, frames=[3]] Proceed to the outdoor setting where the woman is talking.",
+            "6. [type=perception, frames=[1,2,3,5]] Verify/confirm the key observation before reporting.",
+            "7. [type=navigation, frames=[1,2,3,5]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the grocery store display with packaged meat products. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Proceed to the outdoor setting where the woman is talking; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 29.599999999999994,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/XYKSbN7L6Hg/task02/sub00/motion.bvh",
+            "params_path": "results/momask/XYKSbN7L6Hg/task02/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Observe the economic impact of local agriculture.",
+          "start": 264.61,
+          "end": 277.33,
+          "segment_ids": [
+            48,
+            49
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub01_f00.jpg",
+              "relative_path": "XYKSbN7L6Hg/task02_sub01_f00.jpg",
+              "caption": "Two cows are resting on a lush green field.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub01_f01.jpg",
+              "relative_path": "XYKSbN7L6Hg/task02_sub01_f01.jpg",
+              "caption": "A woman in a striped shirt is standing outdoors with trees in the background.",
+              "frame_index": 1
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene focuses on observing the economic impact of local agriculture by showing a pastoral setting with cows and a person outdoors, which can help illustrate the benefits of local farming.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] Two cows are resting on a lush green field, indicating a healthy agricultural environment.",
+            "- [frames=[1]] A woman in a striped shirt is standing outdoors with trees in the background, suggesting she might be involved in or observing the agricultural activity.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a serene agricultural landscape with cows grazing, likely representing a local farm. The presence of a woman could indicate her involvement in the farm activities or her role as an observer, emphasizing the human aspect of local agriculture.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture images.",
+            "- The robot needs to be within range to observe the outdoor scenes.",
+            "- The robot should have the ability to communicate with the user.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Verify the presence of two cows on a green field.",
+            "- Check the outdoor setting with trees in the background.",
+            "- Confirm the woman's attire and position.",
+            "- Measure the economic benefits of local agriculture through the observed scenes.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Capture an image of the two cows resting on the green field.",
+            "2. [type=perception, frames=[1]] Capture an image of the woman in a striped shirt standing outdoors.",
+            "3. [type=perception, frames=[0,1]] Analyze the images to confirm the presence of the cows and the woman.",
+            "4. [type=navigation, frames=[0,1]] Move to a position where the entire field and the woman can be seen together.",
+            "5. [type=communication, frames=[0,1]] Send the captured images to the user for review.",
+            "6. [type=navigation, frames=[0,1]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture an image of the two cows resting on the green field. It then verifies the key detail directly from the frames (Analyze the images to confirm the presence of the cows and the woman).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move to a position where the entire field and the woman can be seen together; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 12.71999999999997,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/XYKSbN7L6Hg/task02/sub01/motion.bvh",
+            "params_path": "results/momask/XYKSbN7L6Hg/task02/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,407 @@
+{
+  "video_index": "fER2yRpreqs",
+  "title": "Kisan Ki Butt: Farmer's Radio Guide",
+  "url": "https://www.youtube.com/watch?v=fER2yRpreqs",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "The transcript describes an agricultural initiative aimed at modernizing farming practices, providing scientific knowledge to farmers.",
+  "tasks": [
+    {
+      "task": "Describe the government's initiative to modernize agriculture practices.",
+      "start": 0.0,
+      "end": 15.13,
+      "subtasks": [
+        {
+          "text": "Note the launch of the Kisan Ki Butt program, a monthly radio show for farmers.",
+          "start": 0.0,
+          "end": 6.4,
+          "segment_ids": [
+            0
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "fER2yRpreqs/task00_sub00_f00.jpg",
+              "caption": "The video frame shows a news headline about the government launching a program to modernize agriculture practices.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "fER2yRpreqs/task00_sub00_f01.jpg",
+              "caption": "The video frame shows a news headline about the launch of a program to modernize agriculture practices.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "fER2yRpreqs/task00_sub00_f02.jpg",
+              "caption": "A man is working in a field with a red and green color scheme.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video introduces the launch of the Kisan Ki Butt program, a monthly radio show aimed at modernizing agriculture practices for farmers.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] The video shows a news headline about the government launching a program to modernize agriculture practices.",
+            "- [frame=2] A man is seen working in a field with a red and green color scheme, indicating an agricultural setting.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shifts from a news report to a farmer working in a field, suggesting a transition from policy announcement to practical application of modernization efforts.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the context of modernizing agriculture practices.",
+            "- The robot needs to recognize news headlines and fields.",
+            "- The robot should be able to communicate effectively with farmers.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the launch of the Kisan Ki Butt program.",
+            "- It should understand the context of modernizing agriculture practices.",
+            "- The robot should be able to convey the importance of the program to farmers.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Identify the news headline about the Kisan Ki Butt program.",
+            "2. [type=perception, frames=[2]] Recognize the farmer working in the field.",
+            "3. [type=communication, frames=[0,1]] Announce the launch of the Kisan Ki Butt program to the farmer.",
+            "4. [type=communication, frames=[2]] Explain the benefits of modernizing agriculture practices to the farmer.",
+            "5. [type=navigation, frames=[0,1,2]] Move to a position where the farmer can clearly hear the message.",
+            "6. [type=manipulation, frames=[0,1,2]] Adjust the volume of the communication device to ensure clarity.",
+            "7. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "8. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the news headline about the Kisan Ki Butt program. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting). After verification, it communicates the result clearly (Announce the launch of the Kisan Ki Butt program to the farmer).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move to a position where the farmer can clearly hear the message; Adjust the volume of the communication device to ensure clarity; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 6.4,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/fER2yRpreqs/task00/sub00/motion.bvh",
+            "params_path": "results/momask/fER2yRpreqs/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Highlight the aim of the program to empower farmers with scientific knowledge.",
+          "start": 6.4,
+          "end": 15.13,
+          "segment_ids": [
+            1
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "fER2yRpreqs/task00_sub01_f01.jpg",
+              "caption": "A new monthly radio program aims to empower farmers with scientific information.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "fER2yRpreqs/task00_sub01_f02.jpg",
+              "caption": "A man is working in a field with a red and green color scheme.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to highlight the aim of a government initiative to empower farmers with scientific knowledge through a monthly radio program.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A new monthly radio program is mentioned, aiming to empower farmers with scientific information.",
+            "- [frames=[2]] A man is seen working in a field with a red and green color scheme, which might represent the agricultural setting.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a farmer working in a field, likely representing the target audience of the radio program. The program aims to provide them with scientific knowledge to improve their farming practices.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a display screen or a voice interface.",
+            "- The robot should have access to the details of the radio program and its objectives.",
+            "- The robot should be able to navigate to the appropriate location to interact with the farmer.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately convey the aim of the program.",
+            "- The robot should ensure the farmer understands the importance of scientific knowledge in modernizing agriculture.",
+            "- The robot should confirm the farmer’s comprehension of the program’s benefits.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate to the field where the farmer is working.",
+            "2. [type=perception, frames=[1]] Read the caption on the image to understand the context of the radio program.",
+            "3. [type=communication, frames=[1]] Announce the aim of the radio program to the farmer.",
+            "4. [type=manipulation, frames=[2]] Point towards the farmer to gain his attention.",
+            "5. [type=communication, frames=[2]] Explain how the program will help the farmer with scientific knowledge.",
+            "6. [type=perception, frames=[2]] Verify the farmer’s understanding by asking if he agrees with the benefits.",
+            "7. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the field where the farmer is working. It then verifies the key detail directly from the frames (Read the caption on the image to understand the context of the radio program). After verification, it communicates the result clearly (Announce the aim of the radio program to the farmer).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the field where the farmer is working; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 8.73,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/fER2yRpreqs/task00/sub01/motion.bvh",
+            "params_path": "results/momask/fER2yRpreqs/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Explain the initiative's details from the Union Agriculture Minister.",
+      "start": 15.13,
+      "end": 38.15,
+      "subtasks": [
+        {
+          "text": "Observe the announcement by Union Agriculture Minister Shivraj Sengchohan.",
+          "start": 15.13,
+          "end": 23.92,
+          "segment_ids": [
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "fER2yRpreqs/task01_sub00_f01.jpg",
+              "caption": "Agriculture Minister Shivraj Singh Chouhan announced a modernization initiative for farming techniques.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "fER2yRpreqs/task01_sub00_f02.jpg",
+              "caption": "A farmer is working in a field, with a breaking news banner at the top.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe the announcement made by Union Agriculture Minister Shivraj Singh Chouhan about a modernization initiative for farming techniques.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] The Agriculture Minister Shivraj Singh Chouhan is making an announcement.",
+            "- [frames=[2]] A farmer is seen working in a field, with a breaking news banner at the top.",
+            "- [frames=[1,2]] The announcement focuses on a modernization initiative for farming techniques.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts the minister making an important announcement about modernizing farming techniques, while a farmer is shown working in a field, indicating the context of agricultural improvement.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be within visual range of the screen displaying the announcement.",
+            "- The robot should have access to a camera or display to observe the scene.",
+            "- The robot should be able to communicate with the user or system to report findings.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the announcement made by the minister.",
+            "- The robot should correctly interpret the content of the announcement.",
+            "- The robot should provide a summary of the modernization initiative to the user.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Capture the image of the minister making the announcement.",
+            "2. [type=perception, frames=[2]] Verify the presence of the farmer working in the field.",
+            "3. [type=navigation, frames=[1]] Move the camera to focus on the minister’s face.",
+            "4. [type=communication, frames=[1]] Record the audio of the minister’s speech.",
+            "5. [type=perception, frames=[1]] Analyze the text displayed on the screen to confirm the announcement.",
+            "6. [type=manipulation, frames=[1]] Extract key points from the announcement.",
+            "7. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture the image of the minister making the announcement. It then verifies the key detail directly from the frames (Verify the presence of the farmer working in the field).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move the camera to focus on the minister’s face; Extract key points from the announcement; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 8.790000000000001,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/fER2yRpreqs/task01/sub00/motion.bvh",
+            "params_path": "results/momask/fER2yRpreqs/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Mention the objectives of the program to enhance agricultural productivity and sustainability.",
+          "start": 23.92,
+          "end": 32.15,
+          "segment_ids": [
+            3
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "fER2yRpreqs/task01_sub01_f01.jpg",
+              "caption": "Farmers will receive cutting-edge information to enhance agricultural productivity and sustainability.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "fER2yRpreqs/task01_sub01_f02.jpg",
+              "caption": "A man is working in a field with a red and green color scheme.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to explain the objectives of a program aimed at enhancing agricultural productivity and sustainability, as mentioned by the Union Agriculture Minister.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] Farmers will receive cutting-edge information to enhance agricultural productivity and sustainability.",
+            "- [frames=[2]] A man is working in a field with a red and green color scheme.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows farmers receiving information about a program designed to improve their agricultural practices. The information is presented in a visually appealing manner, possibly to engage the audience effectively.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to the correct information about the program.",
+            "- The robot should be able to communicate in a clear and understandable manner.",
+            "- The robot should be positioned near the screen or display where the information is shown.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately convey the objectives of the program.",
+            "- The robot should ensure that the information is understood by the viewers.",
+            "- The robot should maintain a professional and engaging tone throughout the explanation.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Read the information displayed on the screen.",
+            "2. [type=communication, frames=[1]] Announce the objectives of the program to enhance agricultural productivity and sustainability.",
+            "3. [type=perception, frames=[2]] Observe the farmer working in the field.",
+            "4. [type=communication, frames=[2]] Emphasize the practical application of the information in real-world scenarios.",
+            "5. [type=communication, frames=[1,2]] Encourage farmers to adopt the new practices for better outcomes.",
+            "6. [type=communication, frames=[1,2]] Provide examples of successful implementation of similar programs.",
+            "7. [type=communication, frames=[1,2]] Answer any questions from the viewers to clarify doubts.",
+            "8. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Read the information displayed on the screen. It then verifies the key detail directly from the frames (Read the information displayed on the screen). After verification, it communicates the result clearly (Announce the objectives of the program to enhance agricultural productivity and sustainability).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 8.229999999999997,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/fER2yRpreqs/task01/sub01/motion.bvh",
+            "params_path": "results/momask/fER2yRpreqs/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Describe the focus on delivering practical advice for modern agriculture.",
+          "start": 32.15,
+          "end": 38.15,
+          "segment_ids": [
+            4
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub02_f01.jpg",
+              "relative_path": "fER2yRpreqs/task01_sub02_f01.jpg",
+              "caption": "The video frame shows a man working in a field, with text overlay about a program delivering practical advice tailored to farmers.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub02_f02.jpg",
+              "relative_path": "fER2yRpreqs/task01_sub02_f02.jpg",
+              "caption": "The video frame shows a man working in a field, with text overlay describing a program focused on practical advice for modern agriculture.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment explains the focus of an initiative by the Union Agriculture Minister on delivering practical advice for modern agriculture.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A man is shown working in a field, with text overlay about a program delivering practical advice tailored to farmers.",
+            "- [frames=[2]] Similar to frame 1, but the text overlay describes the program as being focused on practical advice for modern agriculture.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a farmer working in a field, which aligns with the context of agricultural practices. The text overlays emphasize the practical and modern aspects of the advice provided by the initiative.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a display screen to show relevant information.",
+            "- The robot should have a voice communication system to narrate the explanation.",
+            "- The robot should be able to navigate to the area where the farmer is working.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately convey the focus of the initiative.",
+            "- The robot should ensure the farmer understands the practical and modern nature of the advice.",
+            "- The robot should confirm that the farmer acknowledges the information.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2]] Navigate to the area where the farmer is working.",
+            "2. [type=perception, frames=[1,2]] Read the text overlay on the video frames to understand the message.",
+            "3. [type=communication, frames=[1,2]] Announce the focus of the initiative using the voice communication system.",
+            "4. [type=communication, frames=[1,2]] Display the text overlay on the robot’s screen to visually reinforce the message.",
+            "5. [type=perception, frames=[1,2]] Verify with the farmer that they understand the practical and modern nature of the advice.",
+            "6. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the area where the farmer is working. It then verifies the key detail directly from the frames (Read the text overlay on the video frames to understand the message). After verification, it communicates the result clearly (Announce the focus of the initiative using the voice communication system).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the area where the farmer is working; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 6.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/fER2yRpreqs/task01/sub02/motion.bvh",
+            "params_path": "results/momask/fER2yRpreqs/task01/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

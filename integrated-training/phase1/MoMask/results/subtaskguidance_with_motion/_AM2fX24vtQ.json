@@ -1,0 +1,685 @@
+{
+  "video_index": "_AM2fX24vtQ",
+  "title": "How to Begin Organic Farming: A Step-by-Step Guide 0",
+  "url": "https://www.youtube.com/watch?v=_AM2fX24vtQ",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "The video explains the steps to start organic farming, including land assessment, certification requirements, and farming practices.",
+  "tasks": [
+    {
+      "task": "Assess the suitability of land for organic farming.",
+      "start": 41.0,
+      "end": 67.0,
+      "subtasks": [
+        {
+          "text": "Determine the availability of suitable land for organic farming, looking for fertile soil, access to water, and proximity to markets.",
+          "start": 41.0,
+          "end": 52.0,
+          "segment_ids": [
+            4
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "_AM2fX24vtQ/task00_sub00_f00.jpg",
+              "caption": "A man is working in a field, picking leaves from a plant.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "_AM2fX24vtQ/task00_sub00_f01.jpg",
+              "caption": "The video shows a bird's-eye view of a farm with rows of crops.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "_AM2fX24vtQ/task00_sub00_f02.jpg",
+              "caption": "A person is shopping for vegetables at a market, with a variety of fruits and vegetables displayed on a table.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to assess the suitability of land for organic farming by checking for fertile soil, access to water, and proximity to markets. This involves analyzing a bird's-eye view of a farm and observing a market scene.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The robot sees a man working in a field, indicating active agricultural activity.",
+            "- [frames=[1]] A bird's-eye view of a farm with rows of crops is shown, highlighting the layout and condition of the land.",
+            "- [frames=[2]] A person is shopping for vegetables at a market, showing the variety of produce available.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The bird's-eye view provides an overview of the farm’s layout and crop rows, suggesting potential fertile soil. The market scene indicates the presence of local demand for organic produce, implying proximity to markets.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have knowledge about what constitutes fertile soil.",
+            "- It must be equipped with sensors to measure soil quality and moisture levels.",
+            "- The robot should have information on local markets and their locations.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Verify the presence of fertile soil through soil analysis.",
+            "- Check for adequate water supply nearby.",
+            "- Confirm the proximity to markets based on the location data.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the field where the man is working.",
+            "2. [type=perception, frames=[0]] Use sensors to measure the soil quality and check for fertility.",
+            "3. [type=navigation, frames=[1]] Move to the bird's-eye view of the farm.",
+            "4. [type=perception, frames=[1]] Analyze the layout and condition of the crop rows to assess soil health and water accessibility.",
+            "5. [type=navigation, frames=[2]] Go to the market area.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the field where the man is working. It then verifies the key detail directly from the frames (Use sensors to measure the soil quality and check for fertility).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the field where the man is working; Move to the bird's-eye view of the farm; Go to the market area; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 11.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/_AM2fX24vtQ/task00/sub00/motion.bvh",
+            "params_path": "results/momask/_AM2fX24vtQ/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Ensure the land has not been treated with prohibited synthetic chemicals for at least three years to meet organic certification standards.",
+          "start": 58.0,
+          "end": 67.0,
+          "segment_ids": [
+            6
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f00.jpg",
+              "relative_path": "_AM2fX24vtQ/task00_sub01_f00.jpg",
+              "caption": "A person is counting money at a table with papers and a laptop.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "_AM2fX24vtQ/task00_sub01_f01.jpg",
+              "caption": "A watermelon plant with several fruits is shown in a field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "_AM2fX24vtQ/task00_sub01_f02.jpg",
+              "caption": "A woman is tending to plants in a greenhouse.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to assess whether the land has been treated with prohibited synthetic chemicals for at least three years, ensuring it meets organic certification standards.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The scene shows a person counting money at a table with papers and a laptop, which is irrelevant to the task.",
+            "- [frames=[1]] A watermelon plant with several fruits is shown in a field, indicating the presence of agricultural land.",
+            "- [frames=[2]] A woman is tending to plants in a greenhouse, suggesting ongoing agricultural activities but not directly related to the current task.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The frames indicate that the robot should focus on the field where the watermelon plant is located, as this is the area of interest for assessing the land's suitability for organic farming.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot must have access to a database or information about prohibited synthetic chemicals.",
+            "- The robot should be equipped with sensors capable of detecting chemical residues.",
+            "- The robot needs to know the specific timeframe required for land to be considered organic (three years).",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The land must not show any signs of prohibited synthetic chemical treatment.",
+            "- The robot should confirm that the land has been free of such treatments for at least three years.",
+            "- The robot should provide a report stating that the land meets organic certification standards.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate to the field where the watermelon plant is located.",
+            "2. [type=perception, frames=[1]] Use the robot’s sensor to scan the soil and detect any chemical residues.",
+            "3. [type=navigation, frames=[2]] Move to the greenhouse to gather additional information if needed.",
+            "4. [type=perception, frames=[2]] Verify the absence of prohibited synthetic chemicals by cross-checking with.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the field where the watermelon plant is located. It then verifies the key detail directly from the frames (Verify the absence of prohibited synthetic chemicals by cross-checking with).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the field where the watermelon plant is located; Move to the greenhouse to gather additional information if needed; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 9.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/_AM2fX24vtQ/task00/sub01/motion.bvh",
+            "params_path": "results/momask/_AM2fX24vtQ/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Understand the organic certification process and requirements.",
+      "start": 68.0,
+      "end": 83.0,
+      "subtasks": [
+        {
+          "text": "Contact the relevant organic certification body or agency in your area to learn about the certification process and standards.",
+          "start": 68.0,
+          "end": 76.0,
+          "segment_ids": [
+            7
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "_AM2fX24vtQ/task01_sub00_f00.jpg",
+              "caption": "A man in a suit is discussing paperwork with another person in a business setting.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "_AM2fX24vtQ/task01_sub00_f01.jpg",
+              "caption": "A man and a woman are sitting at a table, with the man pointing at something on the table.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "_AM2fX24vtQ/task01_sub00_f02.jpg",
+              "caption": "A man and a woman are discussing a blueprint at a table.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to understand how to contact an organic certification body or agency and gather information about the certification process and standards.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A man in a suit is discussing paperwork with another person in a business setting.",
+            "- [frames=[1]] A man and a woman are sitting at a table, with the man pointing at something on the table.",
+            "- [frames=[2]] A man and a woman are discussing a blueprint at a table.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict a professional environment where individuals are engaged in discussions related to organic farming and certification processes. The focus appears to be on obtaining detailed information from a certified body or agency.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- Knowledge of organic farming and certification processes.",
+            "- Access to communication tools such as phone or email.",
+            "- Ability to navigate to relevant websites or directories.",
+            "- Understanding of local organic certification bodies or agencies.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Successfully contacting the relevant organic certification body or agency.",
+            "- Gaining clear understanding of the certification process and standards.",
+            "- Collecting all necessary information for further steps in organic farming.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to a business directory or website containing information on organic certification bodies.",
+            "2. [type=perception, frames=[0,1]] Search for the name of the local organic certification body or agency.",
+            "3. [type=communication, frames=[1]] Initiate a call or send an email to the identified certification body or agency.",
+            "4. [type=perception, frames=[1]] Engage in a conversation or correspondence to inquire about the certification process and standards.",
+            "5. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to a business directory or website containing information on organic certification bodies. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to a business directory or website containing information on organic certification bodies; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 8.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/_AM2fX24vtQ/task01/sub00/motion.bvh",
+            "params_path": "results/momask/_AM2fX24vtQ/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Implement organic farming practices from the beginning in compliance with certification standards.",
+          "start": 77.0,
+          "end": 83.0,
+          "segment_ids": [
+            8
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f00.jpg",
+              "relative_path": "_AM2fX24vtQ/task01_sub01_f00.jpg",
+              "caption": "A group of people, including a woman and a man, are working together at a desk with laptops and documents.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "_AM2fX24vtQ/task01_sub01_f01.jpg",
+              "caption": "A group of people, including a man and a woman, are sitting around a table with laptops and documents, engaged in a discussion.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "_AM2fX24vtQ/task01_sub01_f02.jpg",
+              "caption": "A group of people, including a man and a woman, are working together at a table in an office setting.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene involves a group of people discussing and working on documents related to organic farming certification. The robot needs to understand and implement organic farming practices while ensuring compliance with certification standards.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A group of people are working together at a desk with laptops and documents.",
+            "- [frames=[1]] The same group is now sitting around a table, continuing their work and discussion.",
+            "- [frames=[2]] The group remains in an office setting, still engaged in their tasks.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a collaborative effort among individuals focused on organic farming practices and certification requirements. They are likely reviewing documents, discussing strategies, and ensuring all necessary steps are being followed to meet organic certification standards.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to relevant documents and information about organic farming practices.",
+            "- It should be familiar with the certification standards required for organic farming.",
+            "- The robot must be able to communicate effectively with the group members.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should ensure all organic farming practices are implemented correctly.",
+            "- Compliance with certification standards must be verified.",
+            "- All necessary documentation should be updated and accurate.",
+            "- The group should be informed of any necessary adjustments or additional steps.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the document containing organic farming practices.",
+            "2. [type=perception, frames=[0,1]] Read the document to understand the organic farming practices.",
+            "3. [type=navigation, frames=[0,1]] Navigate to the document containing certification standards.",
+            "4. [type=perception, frames=[0,1]] Cross-check the organic farming practices with the certification standards.",
+            "5. [type=manipulation, frames=[0,1]] Update the document to reflect any necessary changes based on.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the document containing organic farming practices. It then verifies the key detail directly from the frames (Read the document to understand the organic farming practices).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the document containing organic farming practices; Navigate to the document containing certification standards; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 6.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/_AM2fX24vtQ/task01/sub01/motion.bvh",
+            "params_path": "results/momask/_AM2fX24vtQ/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Improve soil fertility through organic methods.",
+      "start": 101.0,
+      "end": 115.0,
+      "subtasks": [
+        {
+          "text": "Incorporate organic matter such as compost, manure, cover crops, or green manure to improve soil fertility.",
+          "start": 101.0,
+          "end": 109.0,
+          "segment_ids": [
+            11
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f00.jpg",
+              "relative_path": "_AM2fX24vtQ/task02_sub00_f00.jpg",
+              "caption": "Three jars with different contents are displayed in a row.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "_AM2fX24vtQ/task02_sub00_f01.jpg",
+              "caption": "A person is scooping up a large pile of dirt.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "_AM2fX24vtQ/task02_sub00_f02.jpg",
+              "caption": "A person is seen mixing a large pile of brown material on a yellow cloth.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will mix organic matter into the soil to enhance its fertility, following the demonstration shown in the video.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] Three jars with different contents are displayed in a row, indicating various types of organic matter.",
+            "- [frames=[1]] A person is scooping up a large pile of dirt, preparing to mix it with organic materials.",
+            "- [frames=[2]] A person is seen mixing a large pile of brown material on a yellow cloth, likely compost or manure.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows the process of incorporating organic matter into soil, which is crucial for improving soil fertility. The organic matter could be compost, manure, or cover crops, all of which contribute nutrients and improve soil structure.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to a container of organic matter.",
+            "- The robot should be equipped with tools for scooping and mixing soil.",
+            "- The robot should be able to identify and handle different types of organic matter.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The soil should visibly contain a significant amount of mixed organic matter.",
+            "- The soil should appear well-mixed and uniform in color.",
+            "- The robot should measure an increase in soil nutrient levels post-mixing.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1,2]] Inspect/verify the scene before any physical action.",
+            "2. [type=navigation, frames=[1]] Move to the location where the soil is being prepared.",
+            "3. [type=manipulation, frames=[1]] Scoop a large portion of soil using a provided tool.",
+            "4. [type=perception, frames=[0]] Identify and select a jar containing compost.",
+            "5. [type=manipulation, frames=[0]] Transfer a portion of compost into the soil.",
+            "6. [type=manipulation, frames=[2]] Mix the compost and soil thoroughly on a yellow cloth.",
+            "7. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Inspect/verify the scene before any physical action. It then verifies the key detail directly from the frames (Inspect/verify the scene before any physical action).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move to the location where the soil is being prepared; Scoop a large portion of soil using a provided tool; Transfer a portion of compost into the soil; Mix the compost and soil thoroughly on a yellow cloth; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 8.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/_AM2fX24vtQ/task02/sub00/motion.bvh",
+            "params_path": "results/momask/_AM2fX24vtQ/task02/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Practice crop rotation to maintain soil health and prevent soil erosion.",
+          "start": 109.0,
+          "end": 115.0,
+          "segment_ids": [
+            12
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub01_f01.jpg",
+              "relative_path": "_AM2fX24vtQ/task02_sub01_f01.jpg",
+              "caption": "The video shows a field with various plants and trees, including bamboo poles.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub01_f02.jpg",
+              "relative_path": "_AM2fX24vtQ/task02_sub01_f02.jpg",
+              "caption": "The video shows a field with tall plants and green leaves.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe and assist in practicing crop rotation to maintain soil health and prevent erosion, ensuring the field remains fertile and productive.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] The field is shown with various plants and trees, including bamboo poles.",
+            "- [frames=[2]] Tall plants and green leaves are visible, indicating a healthy growing environment.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a diverse agricultural setting with multiple plant species and structures like bamboo poles, suggesting a well-managed farm. The presence of tall, healthy plants indicates ongoing cultivation practices.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have knowledge of different plant species and their growth cycles.",
+            "- It needs to be equipped with sensors for identifying plant types and soil conditions.",
+            "- The robot must be capable of navigating the field without causing damage to existing crops.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Correct identification of plant species and their positions.",
+            "- Proper execution of crop rotation without disturbing the soil structure.",
+            "- Verification of the new planting arrangement to ensure it supports soil health.",
+            "- Measurement of soil health indicators before and after the rotation to confirm improvements.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Identify the current layout of the field, noting the positions of different plant species.",
+            "2. [type=navigation, frames=[1,2]] Move to a position where the robot can clearly see the new planting area.",
+            "3. [type=manipulation, frames=[2]] Prepare the ground for planting by loosening the soil around the selected areas.",
+            "4. [type=manipulation, frames=[2]] Plant the next set of crops according to the crop rotation plan.",
+            "5. [type=perception, frames=[2]] Verify the correct placement of the new crops using the robot's camera.",
+            "6. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the current layout of the field, noting the positions of different plant species. It then verifies the key detail directly from the frames (Verify the correct placement of the new crops using the robot's camera).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move to a position where the robot can clearly see the new planting area; Prepare the ground for planting by loosening the soil around the selected areas; Plant the next set of crops according to the crop rotation plan; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 6.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/_AM2fX24vtQ/task02/sub01/motion.bvh",
+            "params_path": "results/momask/_AM2fX24vtQ/task02/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Manage pests and diseases using integrated pest management.",
+      "start": 149.0,
+      "end": 159.0,
+      "subtasks": [
+        {
+          "text": "Encourage natural predators and beneficial insects to control pests.",
+          "start": 149.0,
+          "end": 153.0,
+          "segment_ids": [
+            17
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub00_f00.jpg",
+              "relative_path": "_AM2fX24vtQ/task03_sub00_f00.jpg",
+              "caption": "A man is spraying water on a tree in a field.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task03_sub00_f01.jpg",
+              "relative_path": "_AM2fX24vtQ/task03_sub00_f01.jpg",
+              "caption": "A man is spraying a hose over a field of plants.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub00_f02.jpg",
+              "relative_path": "_AM2fX24vtQ/task03_sub00_f02.jpg",
+              "caption": "A man in a white tank top and colorful pants is spraying water from a hose onto a tree in a garden.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will encourage natural predators and beneficial insects by spraying water on trees and plants, mimicking the actions of a farmer.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A man is seen spraying water on a tree and a field of plants.",
+            "- [frames=[0,1]] The man uses a hose to apply water.",
+            "- [frames=[0,1]] The man is dressed casually, likely indicating he is a farmer.",
+            "- [frames=[0,1]] The setting is a field with various plants and trees.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a farmer using a hose to spray water on both individual trees and a broader area of plants. This action is intended to attract natural predators and beneficial insects, which can help control pests without the need for chemical pesticides.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to a water source.",
+            "- The robot needs to be equipped with a hose or similar spraying mechanism.",
+            "- The robot must be able to navigate through the field and approach the trees and plants.",
+            "- The robot should be capable of identifying trees and plants.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully sprays water on the specified areas.",
+            "- The robot ensures even coverage of the sprayed water.",
+            "- The robot avoids damaging the plants or trees while spraying.",
+            "- The robot confirms the water has been applied correctly.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the first tree.",
+            "2. [type=perception, frames=[0,1]] Verify the presence of the tree using sensors.",
+            "3. [type=manipulation, frames=[0,1]] Extend the hose and begin spraying water on the tree.",
+            "4. [type=navigation, frames=[0,1]] Move the hose around the tree to ensure even.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the first tree. It then verifies the key detail directly from the frames (Verify the presence of the tree using sensors).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the first tree; Extend the hose and begin spraying water on the tree; Move the hose around the tree to ensure even; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 4.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/_AM2fX24vtQ/task03/sub00/motion.bvh",
+            "params_path": "results/momask/_AM2fX24vtQ/task03/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Regularly monitor crops for signs of pests or diseases and take appropriate action.",
+          "start": 154.0,
+          "end": 159.0,
+          "segment_ids": [
+            18
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub01_f00.jpg",
+              "relative_path": "_AM2fX24vtQ/task03_sub01_f00.jpg",
+              "caption": "A man is spraying water on a tree in a garden.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task03_sub01_f01.jpg",
+              "relative_path": "_AM2fX24vtQ/task03_sub01_f01.jpg",
+              "caption": "A person is working in a large garden with rows of lettuce and other plants.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub01_f02.jpg",
+              "relative_path": "_AM2fX24vtQ/task03_sub01_f02.jpg",
+              "caption": "A person is working in a large garden with rows of lettuce and other vegetables.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should monitor crops for signs of pests or diseases and take appropriate action, such as applying treatments or removing affected plants.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A man is spraying water on a tree in a garden, indicating potential pest or disease management activities.",
+            "- [frames=[1,2]] A person is working in a large garden with rows of lettuce and other plants, suggesting the need to check multiple crop types.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a garden setting where various crops like lettuce are being tended. The presence of a person actively managing the garden suggests ongoing care and monitoring.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot needs to be equipped with sensors for detecting pests and diseases.",
+            "- The robot should have access to a variety of treatment options for managing pests and diseases.",
+            "- The robot must know the types of crops present in the garden.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should identify any signs of pests or diseases in the crops.",
+            "- The robot should apply the correct treatment if necessary.",
+            "- The robot should document the findings and actions taken.",
+            "- The robot should ensure the treated area is free of pests or diseases.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Scan the garden to detect any visible signs of pests or diseases.",
+            "2. [type=perception, frames=[1,2]] Identify the types of crops in the garden.",
+            "3. [type=navigation, frames=[0,1]] Move to the area where the crops are showing signs of distress.",
+            "4. [type=manipulation, frames=[0,1]] Apply a suitable treatment to the affected plants.",
+            "5. [type=communication, frames=[1]] Record the findings and actions taken in the garden.",
+            "6. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "7. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Scan the garden to detect any visible signs of pests or diseases. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move to the area where the crops are showing signs of distress; Apply a suitable treatment to the affected plants; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 5.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/_AM2fX24vtQ/task03/sub01/motion.bvh",
+            "params_path": "results/momask/_AM2fX24vtQ/task03/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

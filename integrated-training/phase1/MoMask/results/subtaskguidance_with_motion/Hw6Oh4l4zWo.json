@@ -1,0 +1,808 @@
+{
+  "video_index": "Hw6Oh4l4zWo",
+  "title": "Northern Growers' Key Farming Systems Insights 2023",
+  "url": "https://www.youtube.com/watch?v=Hw6Oh4l4zWo",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Provides key farming advice for Northern growers on managing nitrogen, weeds, and sowing dates.",
+  "tasks": [
+    {
+      "task": "Examine the key messages for Northern growers regarding profitability and risk management.",
+      "start": 23.6,
+      "end": 36.4,
+      "subtasks": [
+        {
+          "text": "Note that a range of farming systems have been profitable over the last five years.",
+          "start": 23.6,
+          "end": 28.4,
+          "segment_ids": [
+            0
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "Hw6Oh4l4zWo/task00_sub00_f00.jpg",
+              "caption": "The video frame shows a field with the text \"1. Farming Systems\" overlaid.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "Hw6Oh4l4zWo/task00_sub00_f01.jpg",
+              "caption": "A bee is seen on a plant with green leaves and purple flowers.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "Hw6Oh4l4zWo/task00_sub00_f02.jpg",
+              "caption": "A man in a checkered shirt is outdoors, gesturing with his hands.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment highlights the profitability of various farming systems over the past five years, emphasizing the diversity of successful approaches.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The video starts with the text \"1. Farming Systems\" overlaid on a field.",
+            "- [frames=[1]] A bee is seen on a plant with green leaves and purple flowers, indicating a healthy ecosystem.",
+            "- [frames=[2]] A man in a checkered shirt is outdoors, gesturing with his hands, likely explaining the farming systems.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from an introduction to farming systems to a detailed explanation, possibly involving a farmer discussing the benefits of different systems. The presence of a bee on a flowering plant suggests a thriving agricultural environment.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture the video frames.",
+            "- The robot needs to be within the video's frame of view.",
+            "- The robot should have the ability to navigate through the video frames.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the text \"1. Farming Systems.\"",
+            "- It should recognize the bee on the plant and confirm its presence.",
+            "- The robot should verify the man’s gestures and speech content related to farming systems.",
+            "- The robot should measure the profitability of various farming systems over the past five years.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Capture the text \"1. Farming Systems\" and verify its presence.",
+            "2. [type=perception, frames=[1]] Identify the bee on the plant and confirm its location.",
+            "3. [type=perception, frames=[2]] Recognize the man in a checkered shirt and his gestures.",
+            "4. [type=communication, frames=[2]] Record the man’s speech about farming systems.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture the text \"1. Farming Systems\" and verify its presence. It then verifies the key detail directly from the frames (Capture the text \"1. Farming Systems\" and verify its presence).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 4.799999999999997,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/Hw6Oh4l4zWo/task00/sub00/motion.bvh",
+            "params_path": "results/momask/Hw6Oh4l4zWo/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Highlight that legume systems are particularly profitable and help manage weeds and diseases.",
+          "start": 28.4,
+          "end": 36.4,
+          "segment_ids": [
+            1,
+            2,
+            3
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "Hw6Oh4l4zWo/task00_sub01_f01.jpg",
+              "caption": "A field of green plants with a background of greenhouses and industrial structures.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "Hw6Oh4l4zWo/task00_sub01_f02.jpg",
+              "caption": "A legume field is shown with text overlay describing its profitability, lower risk, higher return on investment, and ability to help with weeds and diseases.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on highlighting the profitability and risk management benefits of legume systems for Northern growers. The robot will navigate through a field and a legume field to convey these key messages visually and verbally.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A field of green plants with greenhouses and industrial structures in the background.",
+            "- [frames=[2]] A legume field with an overlay text describing its profitability, lower risk, higher return on investment, and weed and disease management capabilities.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from a general agricultural setting to a specific focus on legume crops, emphasizing their economic and ecological benefits. The legume field is clearly distinguished by the overlay text, which provides detailed information about its advantages.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera and display screen.",
+            "- The robot must have navigational capabilities to move between different fields.",
+            "- The robot needs to be able to read and interpret the overlay text on the second frame.",
+            "- The robot should have a voice synthesis system to narrate the key messages.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully navigates to and from the legume field.",
+            "- The robot reads and verifies the overlay text on the legume field.",
+            "- The robot accurately narrates the profitability and risk management benefits of legume systems.",
+            "- The robot returns to its initial position without any issues.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Move the robot to the field of green plants.",
+            "2. [type=perception, frames=[1]] Use the camera to confirm the presence of the field.",
+            "3. [type=navigation, frames=[2]] Navigate the robot to the legume field.",
+            "4. [type=perception, frames=[2]] Read and verify the overlay text describing the legume.",
+            "5. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move the robot to the field of green plants. It then verifies the key detail directly from the frames (Use the camera to confirm the presence of the field).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move the robot to the field of green plants; Navigate the robot to the legume field; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 8.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/Hw6Oh4l4zWo/task00/sub01/motion.bvh",
+            "params_path": "results/momask/Hw6Oh4l4zWo/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Discuss the importance of soil testing for nitrogen management.",
+      "start": 36.4,
+      "end": 51.02,
+      "subtasks": [
+        {
+          "text": "Emphasize the need to soil test before the coming season due to nitrogen losses from the previous years.",
+          "start": 36.4,
+          "end": 42.72,
+          "segment_ids": [
+            4,
+            5
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "Hw6Oh4l4zWo/task01_sub00_f01.jpg",
+              "caption": "A person is inspecting a legume system, which is described as profitable, lower risk, higher ROI, and helps with weeds/disease.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "Hw6Oh4l4zWo/task01_sub00_f02.jpg",
+              "caption": "A person is tending to a legume plant, with text overlay stating that legume systems are profitable, lower risk, and help with weeds/disease.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to emphasize the importance of soil testing before the coming season, specifically highlighting the need to account for nitrogen losses from the previous year.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] The robot observes a person inspecting a legume system, noting its profitability, lower risk, and benefits in managing weeds and diseases.",
+            "- [frames=[2]] The robot sees a person tending to a legume plant, with an overlay stating that legume systems are profitable, lower risk, and beneficial for weed and disease control.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a focus on legume systems, which are highlighted for their profitability, lower risk, and effectiveness in managing weeds and diseases. This context sets the stage for emphasizing the necessity of soil testing to manage nitrogen levels accurately.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have knowledge about the importance of soil testing for nitrogen management.",
+            "- The robot must be equipped with the ability to communicate effectively with the audience.",
+            "- The robot should be able to navigate to the appropriate location within the video frame.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully conveys the message about the need for soil testing.",
+            "- The robot ensures the audience understands the impact of nitrogen losses from the previous year.",
+            "- The robot provides clear and concise information about the benefits of soil testing.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=communication, frames=[1]] States, \"Inspecting legume systems can provide insights into profitability and disease management.\".",
+            "2. [type=communication, frames=[2]] Continues, \"Legume systems are also known for their lower risk and weed control benefits.\".",
+            "3. [type=navigation, frames=[1,2]] Moves to the area where the soil testing process would typically occur.",
+            "4. [type=communication, frames=[1,2]] The robot.",
+            "5. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "6. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: States, \"Inspecting legume systems can provide insights into profitability and disease management.\". It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting). After verification, it communicates the result clearly (States, \"Inspecting legume systems can provide insights into profitability and disease management.\").",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Moves to the area where the soil testing process would typically occur; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 6.32,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/Hw6Oh4l4zWo/task01/sub00/motion.bvh",
+            "params_path": "results/momask/Hw6Oh4l4zWo/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Point out that the variation in soil nitrogen levels will likely be more extreme than in the last 20 years.",
+          "start": 42.72,
+          "end": 51.02,
+          "segment_ids": [
+            6,
+            7
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "Hw6Oh4l4zWo/task01_sub01_f01.jpg",
+              "caption": "The video frame shows a close-up of a plant with text overlay about nitrogen costs and profitability.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "Hw6Oh4l4zWo/task01_sub01_f02.jpg",
+              "caption": "The video frame shows a field of legume plants with text overlay discussing their profitability, lower risk, higher return on investment, and lower nitrogen input costs.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to highlight the increased variability in soil nitrogen levels over the past two decades, emphasizing its significance for nitrogen management.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A close-up of a plant with text overlay about nitrogen costs and profitability.",
+            "- [frames=[2]] A field of legume plants with text overlay discussing their profitability, lower risk, higher return on investment, and lower nitrogen input costs.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shifts from a detailed view of a single plant to a broader field of legume plants, indicating a transition from individual plant health to overall farm profitability and cost efficiency. This change in focus underscores the economic benefits of using legumes but also highlights the need for accurate soil testing to manage nitrogen levels effectively.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to recent soil test data.",
+            "- The robot should be equipped with a camera and display screen.",
+            "- The robot should be able to communicate with the user via audio and visual cues.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately convey the increased variability in soil nitrogen levels.",
+            "- The robot should provide relevant information on the economic benefits of legumes.",
+            "- The robot should ensure the user understands the importance of regular soil testing.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Move the camera to focus on the plant with the text overlay about nitrogen costs and profitability.",
+            "2. [type=perception, frames=[1]] Read the text overlay to confirm the information about nitrogen costs and profitability.",
+            "3. [type=communication, frames=[1]] Announce the current state of nitrogen costs and profitability.",
+            "4. [type=navigation, frames=[2]] Move the camera to the field of legume plants.",
+            "5. [type=perception, frames=[2]] Verify the text overlay discussing the profitability.",
+            "6. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move the camera to focus on the plant with the text overlay about nitrogen costs and profitability. It then verifies the key detail directly from the frames (Read the text overlay to confirm the information about nitrogen costs and profitability). After verification, it communicates the result clearly (Announce the current state of nitrogen costs and profitability).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move the camera to focus on the plant with the text overlay about nitrogen costs and profitability; Move the camera to the field of legume plants; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 8.300000000000004,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/Hw6Oh4l4zWo/task01/sub01/motion.bvh",
+            "params_path": "results/momask/Hw6Oh4l4zWo/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Address the challenges posed by the previous year's good harvest on weed management.",
+      "start": 51.02,
+      "end": 67.92,
+      "subtasks": [
+        {
+          "text": "Observe the increased weed seed set due to good years leading to large weed seed banks.",
+          "start": 51.02,
+          "end": 57.68,
+          "segment_ids": [
+            8,
+            9
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "Hw6Oh4l4zWo/task02_sub00_f01.jpg",
+              "caption": "A man in a checkered shirt is standing outdoors with trees and a building in the background.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "Hw6Oh4l4zWo/task02_sub00_f02.jpg",
+              "caption": "A man in a checkered shirt is standing outdoors with trees and a building in the background.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene focuses on observing the increased weed seed set due to the previous year's good harvest, which has led to large weed seed banks.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A man in a checkered shirt is standing outdoors, likely pointing towards an area with visible weeds.",
+            "- [frames=[1]] The background includes trees and a building, indicating a rural or agricultural setting.",
+            "- [frames=[1]] The man is gesturing towards a field or area with dense vegetation, suggesting he is highlighting the weed problem.",
+            "- [frames=[1]] There are no specific tools or equipment visible, implying the observation is done manually.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a farmer or agricultural expert explaining the issue of increased weed seed set in a field. The presence of trees and a building suggests this is taking place in an outdoor agricultural setting.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera for visual inspection.",
+            "- The robot needs to be within range of the outdoor area being discussed.",
+            "- The robot should have the ability to communicate with the human observer.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify areas with high weed seed set.",
+            "- The robot should measure the extent of the weed seed bank.",
+            "- The robot should confirm the presence of large weed seed banks through visual inspection.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Capture a wide-angle image of the outdoor area to identify the extent of the weed problem.",
+            "2. [type=perception, frames=[1]] Analyze the captured image to locate areas with dense weed growth.",
+            "3. [type=navigation, frames=[1]] Move closer to the identified areas with dense weed growth for detailed inspection.",
+            "4. [type=manipulation, frames=[1]] Use a close-up camera to.",
+            "5. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "6. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture a wide-angle image of the outdoor area to identify the extent of the weed problem. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 6.659999999999997,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/Hw6Oh4l4zWo/task02/sub00/motion.bvh",
+            "params_path": "results/momask/Hw6Oh4l4zWo/task02/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Note the importance of pre-emergent herbicides to manage grass weeds, given the resistance to post-emergent herbicides.",
+          "start": 57.68,
+          "end": 67.92,
+          "segment_ids": [
+            10,
+            11
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub01_f01.jpg",
+              "relative_path": "Hw6Oh4l4zWo/task02_sub01_f01.jpg",
+              "caption": "A person is examining soil with the word \"Nitrogen\" overlaid.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub01_f02.jpg",
+              "relative_path": "Hw6Oh4l4zWo/task02_sub01_f02.jpg",
+              "caption": "Professor James Hunt from the University of Melbourne is speaking outdoors.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe the importance of using pre-emergent herbicides for managing grass weeds, given the resistance to post-emergent herbicides, as discussed by Professor James Hunt.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] The robot observes a person examining soil with the word \"Nitrogen\" overlaid.",
+            "- [frames=[2]] The robot sees Professor James Hunt speaking outdoors, likely discussing weed management strategies.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "Professor James Hunt is providing insights into effective weed management techniques, emphasizing the use of pre-emergent herbicides due to the resistance of grass weeds to post-emergent herbicides. The context suggests a discussion on sustainable farming practices.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to a display or screen to show relevant information.",
+            "- The robot needs to be able to communicate with Professor James Hunt.",
+            "- The robot must be equipped with sensors to detect soil conditions and plant growth stages.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the importance of pre-emergent herbicides.",
+            "- It should accurately convey the reason for their use, specifically addressing the resistance to post-emergent herbicides.",
+            "- The robot should be able to cross-check the information provided by Professor James Hunt.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Read the word \"Nitrogen\" on the soil sample being examined.",
+            "2. [type=communication, frames=[2]] Listens to Professor James Hunt’s explanation about weed management.",
+            "3. [type=perception, frames=[2]] Confirm the professor’s statement regarding the resistance of grass weeds to post-emergent herbicides.",
+            "4. [type=perception, frames=[1]] Measures the soil condition to verify the presence of nitrogen.",
+            "5. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Read the word \"Nitrogen\" on the soil sample being examined. It then verifies the key detail directly from the frames (Read the word \"Nitrogen\" on the soil sample being examined).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 10.240000000000002,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/Hw6Oh4l4zWo/task02/sub01/motion.bvh",
+            "params_path": "results/momask/Hw6Oh4l4zWo/task02/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Explain the importance of managing the Green Bridge to prevent disease spread.",
+      "start": 67.92,
+      "end": 88.66,
+      "subtasks": [
+        {
+          "text": "Describe the Green Bridge as cereals that establish during the summer months and should be destroyed before the next cropping cycle.",
+          "start": 67.92,
+          "end": 80.04,
+          "segment_ids": [
+            12,
+            13,
+            14
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub00_f01.jpg",
+              "relative_path": "Hw6Oh4l4zWo/task03_sub00_f01.jpg",
+              "caption": "A person is using a tool to push sticks into the ground in a field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub00_f02.jpg",
+              "relative_path": "Hw6Oh4l4zWo/task03_sub00_f02.jpg",
+              "caption": "A person is holding a soil test tool in a field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to explain the concept of the Green Bridge and how it should be managed by destroying cereals established during the summer months before the next cropping cycle.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A person is using a tool to push sticks into the ground in a field, indicating manual labor.",
+            "- [frames=[2]] A person is holding a soil test tool in a field, suggesting they are checking the soil condition.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a field where manual labor and soil testing are being conducted. The presence of tools like sticks and soil test tools suggests active management of the field.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have knowledge about the Green Bridge and its significance.",
+            "- The robot should be equipped with tools for soil testing and manual labor.",
+            "- The robot should be able to communicate effectively with the user.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the Green Bridge.",
+            "- The robot should explain the importance of destroying cereals before the next cropping cycle.",
+            "- The robot should demonstrate the correct method of soil testing.",
+            "- The robot should show the proper technique for clearing the field.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Read the current state of the field, noting the presence of sticks and soil test tools.",
+            "2. [type=perception, frames=[1,2]] Confirm understanding of the task by stating, \"I will now explain the Green Bridge and how to manage it.\".",
+            "3. [type=manipulation, frames=[1]] Demonstrate the correct technique for pushing sticks into the ground, mimicking the human action.",
+            "4. [type=perception, frames=[2]] Measure the soil condition using a soil test tool, cross-checking with known data on the Green Bridge.",
+            "5. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Read the current state of the field, noting the presence of sticks and soil test tools. It then verifies the key detail directly from the frames (Read the current state of the field, noting the presence of sticks and soil test tools).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 12.120000000000005,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/Hw6Oh4l4zWo/task03/sub00/motion.bvh",
+            "params_path": "results/momask/Hw6Oh4l4zWo/task03/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Explain why destroying the Green Bridge is crucial for preventing pathogen survival.",
+          "start": 80.04,
+          "end": 88.66,
+          "segment_ids": [
+            15,
+            16
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub01_f01.jpg",
+              "relative_path": "Hw6Oh4l4zWo/task03_sub01_f01.jpg",
+              "caption": "A person is using a soil test to manage nitrogen in a field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub01_f02.jpg",
+              "relative_path": "Hw6Oh4l4zWo/task03_sub01_f02.jpg",
+              "caption": "A soil test is being conducted to manage nitrogen.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Destroying the Green Bridge is essential to prevent pathogens from spreading, ensuring the health and productivity of crops.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A person is using a soil test to manage nitrogen in a field.",
+            "- [frames=[2]] A soil test is being conducted to manage nitrogen.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a farmer or agricultural worker performing a soil test to manage nitrogen levels, which is part of the broader task of managing the Green Bridge to prevent disease spread.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have knowledge about the Green Bridge and its role in disease prevention.",
+            "- The robot needs to be equipped with tools for soil testing and manipulation.",
+            "- The robot should be aware of the current state of the soil and the presence of any potential pathogens.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should verify the absence of pathogens in the soil post-manipulation.",
+            "- The robot should ensure that the Green Bridge has been effectively destroyed.",
+            "- The robot should measure the nitrogen levels to confirm they are within the desired range.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Read the current nitrogen levels from the soil test.",
+            "2. [type=navigation, frames=[1]] Move to the location where the Green Bridge is present.",
+            "3. [type=manipulation, frames=[2]] Use a tool to destroy the Green Bridge.",
+            "4. [type=perception, frames=[2]] Cross-check the destruction by visually inspecting the area.",
+            "5. [type=manipulation, frames=[2]] Apply a fungicide to the affected area to further prevent pathogen spread.",
+            "6. [type=perception, frames=[2]] Measure the nitrogen levels again to ensure they are within the optimal range.",
+            "7. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Read the current nitrogen levels from the soil test. It then verifies the key detail directly from the frames (Read the current nitrogen levels from the soil test).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move to the location where the Green Bridge is present; Use a tool to destroy the Green Bridge; Apply a fungicide to the affected area to further prevent pathogen spread; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 8.61999999999999,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/Hw6Oh4l4zWo/task03/sub01/motion.bvh",
+            "params_path": "results/momask/Hw6Oh4l4zWo/task03/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Stress the importance of sticking to sowing dates for optimal crop flowering.",
+      "start": 88.66,
+      "end": 104.36,
+      "subtasks": [
+        {
+          "text": "Mention that the disease pressure and logistics issues last year highlighted the importance of timely management.",
+          "start": 88.66,
+          "end": 95.46,
+          "segment_ids": [
+            17,
+            18
+          ],
+          "frames": [
+            {
+              "image_file": "task04_sub00_f01.jpg",
+              "relative_path": "Hw6Oh4l4zWo/task04_sub00_f01.jpg",
+              "caption": "A ruler is placed on a pile of soil, indicating measurements.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task04_sub00_f02.jpg",
+              "relative_path": "Hw6Oh4l4zWo/task04_sub00_f02.jpg",
+              "caption": "A man in a light blue shirt and glasses stands outdoors, with trees in the background.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe the outdoor setting and note the importance of timely sowing based on past experiences with disease pressure and logistical issues.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] The robot sees a ruler placed on a pile of soil, suggesting measurement activities.",
+            "- [frames=[2]] The robot identifies a man in a light blue shirt and glasses standing outdoors, with trees in the background, indicating an outdoor farming scene.",
+            "- [frames=[1,2]] The robot recognizes the presence of soil and trees, reinforcing the agricultural context.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The outdoor setting with soil and trees suggests a farm environment. The man’s attire and the presence of tools like the ruler indicate active farming activities.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have knowledge of past farming conditions and experiences.",
+            "- The robot needs to be equipped with sensors for measuring soil conditions.",
+            "- The robot should be able to communicate with the user about past events.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the outdoor farming setting.",
+            "- The robot should correctly interpret the significance of the ruler and the man’s attire.",
+            "- The robot should convey the importance of timely sowing based on past experiences.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Measure the soil using built-in sensors to confirm current conditions.",
+            "2. [type=perception, frames=[2]] Identify the man and his attire to understand the context.",
+            "3. [type=perception, frames=[2]] Confirm with the user that past experiences with disease pressure and logistical issues highlight the need for timely sowing.",
+            "4. [type=navigation, frames=[1,2]] Move closer to the man to better observe and interact.",
+            "5. [type=perception, frames=[1]] Use the ruler to measure the soil depth, cross-checking with previous.",
+            "6. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Measure the soil using built-in sensors to confirm current conditions. It then verifies the key detail directly from the frames (Measure the soil using built-in sensors to confirm current conditions).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 6.799999999999997,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/Hw6Oh4l4zWo/task04/sub00/motion.bvh",
+            "params_path": "results/momask/Hw6Oh4l4zWo/task04/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Remind growers to remain disciplined with sowing dates to achieve optimal flowering within the window.",
+          "start": 95.46,
+          "end": 104.36,
+          "segment_ids": [
+            19,
+            20
+          ],
+          "frames": [
+            {
+              "image_file": "task04_sub01_f01.jpg",
+              "relative_path": "Hw6Oh4l4zWo/task04_sub01_f01.jpg",
+              "caption": "A man in a field with a tractor in the background.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task04_sub01_f02.jpg",
+              "relative_path": "Hw6Oh4l4zWo/task04_sub01_f02.jpg",
+              "caption": "A tractor is spraying a field of crops, with the word \"Weeds\" overlaid.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will remind the grower about the importance of adhering to sowing dates to ensure optimal crop flowering. This involves observing the grower in a field setting and providing timely advice.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] The robot observes a man in a field with a tractor in the background.",
+            "- [frames=[2]] The robot sees a tractor spraying a field of crops, with the word \"Weeds\" overlaid.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a typical farming environment where a grower is working on a field using a tractor. The presence of a tractor and the mention of weeds suggest active crop management activities.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot must be equipped with a voice communication system.",
+            "- The robot should have a clear view of the grower and the field.",
+            "- The robot needs to be within earshot of the grower to deliver the message effectively.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The grower acknowledges the importance of sticking to sowing dates.",
+            "- The grower shows understanding and commitment to the advice given.",
+            "- The robot confirms the grower's acknowledgment through verbal or visual feedback.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Identifies the grower and the field setting.",
+            "2. [type=communication, frames=[1]] Addresses the grower by name, if known, or uses a general greeting.",
+            "3. [type=communication, frames=[1]] States the importance of adhering to sowing dates for optimal crop flowering.",
+            "4. [type=perception, frames=[2]] Verifies the grower’s attention by checking the grower’s response.",
+            "5. [type=communication, frames=[2]] Provides additional tips on how to manage sowing dates effectively.",
+            "6. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "7. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identifies the grower and the field setting. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting). After verification, it communicates the result clearly (States the importance of adhering to sowing dates for optimal crop flowering).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 8.900000000000006,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/Hw6Oh4l4zWo/task04/sub01/motion.bvh",
+            "params_path": "results/momask/Hw6Oh4l4zWo/task04/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

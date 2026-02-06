@@ -1,0 +1,681 @@
+{
+  "video_index": "MJR__CPY3HA",
+  "title": "Innovating for Sustainable Agriculture in the Americas",
+  "url": "https://www.youtube.com/watch?v=MJR__CPY3HA",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Discusses the importance of agriculture and the need for innovation in the Americas.",
+  "tasks": [
+    {
+      "task": "Highlight the significance of agriculture in the Americas.",
+      "start": 38.22,
+      "end": 61.9,
+      "subtasks": [
+        {
+          "text": "Note that agriculture is fundamental for development and food security.",
+          "start": 38.22,
+          "end": 49.5,
+          "segment_ids": [
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "MJR__CPY3HA/task00_sub00_f00.jpg",
+              "caption": "A crocodile is resting in muddy water.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "MJR__CPY3HA/task00_sub00_f01.jpg",
+              "caption": "A turtle is shown with its head raised and looking up.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "MJR__CPY3HA/task00_sub00_f02.jpg",
+              "caption": "A greenhouse complex is situated in a lush, mountainous landscape.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene shifts from natural wildlife to an agricultural setting, emphasizing the transition from nature to human intervention in food production.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A crocodile is resting in muddy water, indicating a natural environment.",
+            "- [frames=[1]] A turtle is shown with its head raised, looking up, suggesting a change in focus.",
+            "- [frames=[2]] A greenhouse complex is situated in a lush, mountainous landscape, highlighting modern agricultural practices.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The initial frames depict natural elements like a crocodile and a turtle, symbolizing the untouched natural world. The transition to the greenhouse complex illustrates the shift towards human intervention and sustainable agriculture.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the current scene and ready to make observations.",
+            "- It needs to be equipped with sensors to detect changes in the environment.",
+            "- The robot must have the ability to navigate through different scenes.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the shift from natural to agricultural settings.",
+            "- It should recognize the importance of agriculture in the context of development and food security.",
+            "- The robot must convey this information effectively within the given time range.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Observe the crocodile and turtle to confirm the natural setting.",
+            "2. [type=perception, frames=[2]] Identify the greenhouse complex in the landscape.",
+            "3. [type=navigation, frames=[0,1,2]] Transition from observing the natural elements to focusing on the agricultural setting.",
+            "4. [type=communication, frames=[0,1,2]] Announce the significance of agriculture in development and food security.",
+            "5. [type=manipulation, frames=[0,1,2]] Demonstrate the concept of sustainable agriculture by showing the greenhouse.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Observe the crocodile and turtle to confirm the natural setting. It then verifies the key detail directly from the frames (Observe the crocodile and turtle to confirm the natural setting). After verification, it communicates the result clearly (Announce the significance of agriculture in development and food security).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Transition from observing the natural elements to focusing on the agricultural setting; Demonstrate the concept of sustainable agriculture by showing the greenhouse; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 11.280000000000001,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/MJR__CPY3HA/task00/sub00/motion.bvh",
+            "params_path": "results/momask/MJR__CPY3HA/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Observe that agriculture provides livelihoods for over 100 million people.",
+          "start": 56.18,
+          "end": 61.9,
+          "segment_ids": [
+            4
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f00.jpg",
+              "relative_path": "MJR__CPY3HA/task00_sub01_f00.jpg",
+              "caption": "A large cow is standing in a field with a person standing nearby.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "MJR__CPY3HA/task00_sub01_f01.jpg",
+              "caption": "Two people are working in a field with green plants.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "MJR__CPY3HA/task00_sub01_f02.jpg",
+              "caption": "A man is plowing a field with two oxen.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene illustrates the significant role of agriculture in providing livelihoods for many people in the Americas, showcasing various agricultural activities.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A large cow stands in a field with a person nearby, indicating livestock farming.",
+            "- [frames=[1]] Two individuals are seen working in a field with green plants, suggesting manual labor in crop cultivation.",
+            "- [frames=[2]] A man is plowing a field with two oxen, demonstrating traditional farming methods.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict diverse agricultural practices, including livestock farming, manual crop cultivation, and traditional plowing with oxen. These activities collectively highlight the importance of agriculture in supporting numerous livelihoods.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with sensors to detect human presence and agricultural tools.",
+            "- The robot needs to recognize different types of crops and farm animals.",
+            "- The robot must be able to navigate through fields and avoid obstacles.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify and count the number of people in the field.",
+            "- It should recognize and classify the types of crops and farm animals present.",
+            "- The robot must measure the size of the field and the number of oxen being used.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1,2]] Scan the field to identify and count the number of people.",
+            "2. [type=perception, frames=[0,1,2]] Use visual recognition to identify and classify the types of crops and farm animals.",
+            "3. [type=navigation, frames=[0,1,2]] Move closer to the field to get a better view of the activities.",
+            "4. [type=perception, frames=[0,1,2]] Measure the size of the field using distance sensors.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Scan the field to identify and count the number of people. It then verifies the key detail directly from the frames (Measure the size of the field using distance sensors).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move closer to the field to get a better view of the activities; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 5.719999999999999,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/MJR__CPY3HA/task00/sub01/motion.bvh",
+            "params_path": "results/momask/MJR__CPY3HA/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Explain the challenges faced by agriculture and the need for change.",
+      "start": 98.43,
+      "end": 121.88,
+      "subtasks": [
+        {
+          "text": "Observe that agriculture, more than most activities, impacts climate change.",
+          "start": 98.43,
+          "end": 109.89,
+          "segment_ids": [
+            11
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "MJR__CPY3HA/task01_sub00_f00.jpg",
+              "caption": "The video frame shows a dramatic mountainous landscape with dark clouds and a distant light source.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "MJR__CPY3HA/task01_sub00_f01.jpg",
+              "caption": "A tree branch is floating in a muddy river.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "MJR__CPY3HA/task01_sub00_f02.jpg",
+              "caption": "Two children are walking through a dry, arid landscape.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene highlights the significant environmental impact of agriculture on climate change, using natural elements like mountains, rivers, and arid landscapes.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The video frame shows a dramatic mountainous landscape with dark clouds and a distant light source, emphasizing the vastness and severity of the environment.",
+            "- [frames=[1]] A tree branch is floating in a muddy river, indicating water pollution and erosion, which are consequences of agricultural practices.",
+            "- [frames=[2]] Two children are walking through a dry, arid landscape, symbolizing the harsh conditions often resulting from unsustainable farming methods.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes collectively illustrate how agriculture affects the environment, particularly through water pollution and land degradation, contributing significantly to climate change.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with environmental sensors to detect changes in air quality and water pollution.",
+            "- The robot needs to have a basic understanding of climate change and its causes.",
+            "- The robot must be able to communicate effectively with the audience.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the environmental impact of agriculture.",
+            "- It should convey the message that agriculture is a major contributor to climate change.",
+            "- The robot should engage the audience effectively, ensuring they understand the urgency of the issue.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Measure the air quality and note any signs of pollution.",
+            "2. [type=perception, frames=[1]] Identify the floating tree branch and assess the state of the river.",
+            "3. [type=perception, frames=[2]] Observe the children in the arid landscape and note their surroundings.",
+            "4. [type=communication, frames=[0,1,2]] Explain the environmental impact of agriculture, linking it to the observed scenes.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Measure the air quality and note any signs of pollution. It then verifies the key detail directly from the frames (Measure the air quality and note any signs of pollution).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 11.459999999999994,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/MJR__CPY3HA/task01/sub00/motion.bvh",
+            "params_path": "results/momask/MJR__CPY3HA/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Note that climate change affects agriculture and producers.",
+          "start": 109.89,
+          "end": 121.88,
+          "segment_ids": [
+            12
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "MJR__CPY3HA/task01_sub01_f01.jpg",
+              "caption": "A man is working in a forested area.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "MJR__CPY3HA/task01_sub01_f02.jpg",
+              "caption": "A man is using oxen to plow a field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene illustrates the traditional methods of agriculture, highlighting the challenges faced by farmers due to climate change.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A man is working in a forested area, indicating manual labor and possibly preparing land.",
+            "- [frames=[2]] A man is using oxen to plow a field, showing an ancient method of farming that is still practiced today.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "These scenes depict the use of traditional agricultural practices, which are being challenged by climate change. The forested area suggests a natural environment where farming is taking place, while the use of oxen indicates a reliance on non-mechanized methods.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the current weather conditions and climate trends.",
+            "- The robot needs to recognize the presence of a man and oxen in the scene.",
+            "- The robot must understand the context of agricultural activities and their relation to climate change.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the traditional farming methods shown.",
+            "- It should recognize the impact of climate change on these methods.",
+            "- The robot should provide relevant information about how climate change affects agriculture.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Identify the man working in the forested area.",
+            "2. [type=perception, frames=[2]] Recognize the use of oxen to plow the field.",
+            "3. [type=communication, frames=[1,2]] Inform the user about the traditional farming methods observed.",
+            "4. [type=perception, frames=[1,2]] Monitor the environmental conditions to assess the impact of climate change.",
+            "5. [type=communication, frames=[1,2]] Explain how climate change affects agriculture based on the observed conditions.",
+            "6. [type=manipulation, frames=[1,2]] Provide additional resources or tools.",
+            "7. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "8. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the man working in the forested area. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Provide additional resources or tools; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 11.989999999999995,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/MJR__CPY3HA/task01/sub01/motion.bvh",
+            "params_path": "results/momask/MJR__CPY3HA/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Describe the vision for sustainable and inclusive agriculture.",
+      "start": 129.48,
+      "end": 157.08,
+      "subtasks": [
+        {
+          "text": "Observe the need for a production paradigm that increases yields and reduces climate change impact.",
+          "start": 129.48,
+          "end": 135.12,
+          "segment_ids": [
+            14
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f00.jpg",
+              "relative_path": "MJR__CPY3HA/task02_sub00_f00.jpg",
+              "caption": "A man in a hat is watering a field.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "MJR__CPY3HA/task02_sub00_f01.jpg",
+              "caption": "A large field covered with white plastic sheets.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "MJR__CPY3HA/task02_sub00_f02.jpg",
+              "caption": "Two people are working in a field with greenhouses in the background.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene highlights the current agricultural practices that focus on increasing yields while minimizing environmental impact, setting the stage for discussing sustainable and inclusive farming methods.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A man in a hat is seen watering a field, indicating manual labor and traditional irrigation methods.",
+            "- [frames=[1]] A large field covered with white plastic sheets suggests the use of mulch or greenhouse technology to enhance crop growth and protect against climate conditions.",
+            "- [frames=[2]] Two people are observed working in a field with greenhouses in the background, hinting at modern agricultural techniques being employed.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The video frames depict various agricultural practices, including manual watering, the use of plastic mulch, and the presence of greenhouses. These elements collectively illustrate the current efforts to improve agricultural productivity while addressing environmental concerns.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with sensors to detect soil moisture levels.",
+            "- It needs to have the capability to operate irrigation systems.",
+            "- The robot must be able to interact with greenhouses and monitor their conditions.",
+            "- The robot should be capable of communicating with other farm equipment and systems.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Verify that the field is adequately watered.",
+            "- Confirm that the plastic mulch is properly laid out.",
+            "- Measure the temperature and humidity inside the greenhouses.",
+            "- Check that the irrigation system is functioning correctly.",
+            "- Cross-check the data collected from different sensors.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Navigate to the field where the man is watering.",
+            "2. [type=perception, frames=[0]] Read the soil moisture levels using the robot's sensor.",
+            "3. [type=navigation, frames=[1]] Move to the area covered by white plastic sheets.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the field where the man is watering. It then verifies the key detail directly from the frames (Read the soil moisture levels using the robot's sensor).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the field where the man is watering; Move to the area covered by white plastic sheets; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 5.640000000000015,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/MJR__CPY3HA/task02/sub00/motion.bvh",
+            "params_path": "results/momask/MJR__CPY3HA/task02/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Highlight the need for increased innovation and political will.",
+          "start": 147.58,
+          "end": 157.08,
+          "segment_ids": [
+            16
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub01_f00.jpg",
+              "relative_path": "MJR__CPY3HA/task02_sub01_f00.jpg",
+              "caption": "A group of people, including a child, are walking through a field.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub01_f01.jpg",
+              "relative_path": "MJR__CPY3HA/task02_sub01_f01.jpg",
+              "caption": "A person is picking tea leaves from a field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub01_f02.jpg",
+              "relative_path": "MJR__CPY3HA/task02_sub01_f02.jpg",
+              "caption": "A bird is perched on a branch in a forested area.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene highlights the need for increased innovation and political will in sustainable agriculture, emphasizing the importance of human effort and natural settings.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A group of people, including a child, are walking through a field, indicating communal agricultural activities.",
+            "- [frames=[1]] A person is picking tea leaves from a field, showcasing manual labor in agriculture.",
+            "- [frames=[2]] A bird is perched on a branch in a forested area, symbolizing the natural environment crucial for sustainable practices.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a rural setting with agricultural activities and natural elements, underscoring the importance of sustainable and inclusive practices in agriculture. The presence of a child suggests the continuation of traditional farming methods across generations.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with sensors to detect human activity and natural environments.",
+            "- The robot needs to understand the context of agricultural settings and recognize different types of crops.",
+            "- The robot must be capable of navigating through varied terrains, including fields and forests.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify human activities related to agriculture.",
+            "- It should recognize natural settings and their importance in sustainable practices.",
+            "- The robot must convey the message of increased innovation and political will effectively.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Scan the field to identify human activities and assess the current state of the agricultural setting.",
+            "2. [type=perception, frames=[1]] Identify the person picking tea leaves and confirm the type of crop being harvested.",
+            "3. [type=navigation, frames=[2]] Move to a nearby forested area to observe the natural environment.",
+            "4. [type=manipulation, frames=[0]] Use a camera to capture images of the group walking through the field.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Scan the field to identify human activities and assess the current state of the agricultural setting. It then verifies the key detail directly from the frames (Identify the person picking tea leaves and confirm the type of crop being harvested).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 9.5,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/MJR__CPY3HA/task02/sub01/motion.bvh",
+            "params_path": "results/momask/MJR__CPY3HA/task02/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Emphasize the role of the Inter-American Institute for promoting agriculture and innovation.",
+      "start": 249.76,
+      "end": 269.73,
+      "subtasks": [
+        {
+          "text": "Note that the Institute is the best partner for promoting agriculture and rural development in the Americas.",
+          "start": 249.76,
+          "end": 255.32,
+          "segment_ids": [
+            28
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub00_f00.jpg",
+              "relative_path": "MJR__CPY3HA/task03_sub00_f00.jpg",
+              "caption": "A person is harvesting lettuce in a garden.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task03_sub00_f01.jpg",
+              "relative_path": "MJR__CPY3HA/task03_sub00_f01.jpg",
+              "caption": "A person is walking through a field of tall grass.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub00_f02.jpg",
+              "relative_path": "MJR__CPY3HA/task03_sub00_f02.jpg",
+              "caption": "A man in a field is harvesting lettuce with a large knife.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene depicts agricultural activities in a field setting, emphasizing the importance of the Inter-American Institute as a key partner in promoting sustainable agriculture and rural development in the Americas.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A person is harvesting lettuce in a garden, indicating manual labor in an agricultural setting.",
+            "- [frames=[1]] A person walks through a field of tall grass, suggesting a broader agricultural landscape.",
+            "- [frames=[2]] A man in a field is harvesting lettuce with a large knife, showing a more intensive farming activity.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes illustrate various stages of agricultural work, from initial planting or cultivation to harvesting. The presence of different types of crops and the diverse activities suggest a comprehensive approach to agriculture, highlighting the need for support from organizations like the Inter-American Institute.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with sensors to detect agricultural activities.",
+            "- The robot needs to have a database of agricultural partners, including the Inter-American Institute.",
+            "- The robot must be able to communicate with the user about the importance of the Institute's role.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the agricultural activities shown in the frames.",
+            "- It should recognize the significance of the Inter-American Institute in promoting sustainable agriculture.",
+            "- The robot should convey the message about the Institute’s role effectively to the viewer.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Detect the person harvesting lettuce in the garden.",
+            "2. [type=perception, frames=[1]] Identify the field of tall grass being walked through.",
+            "3. [type=perception, frames=[2]] Recognize the man harvesting lettuce with a large knife.",
+            "4. [type=communication, frames=[0,1,2]] Announce the importance of the Inter-American Institute in promoting sustainable agriculture and rural development.",
+            "5. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Detect the person harvesting lettuce in the garden. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting). After verification, it communicates the result clearly (Announce the importance of the Inter-American Institute in promoting sustainable agriculture and rural development).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 5.560000000000002,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/MJR__CPY3HA/task03/sub00/motion.bvh",
+            "params_path": "results/momask/MJR__CPY3HA/task03/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Observe that the Institute shares innovative results to help countries learn from each other.",
+          "start": 265.33,
+          "end": 269.73,
+          "segment_ids": [
+            30
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub01_f00.jpg",
+              "relative_path": "MJR__CPY3HA/task03_sub01_f00.jpg",
+              "caption": "A group of women are standing in a field, with one woman holding a shovel.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task03_sub01_f01.jpg",
+              "relative_path": "MJR__CPY3HA/task03_sub01_f01.jpg",
+              "caption": "A group of people are working in a field, digging and planting.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub01_f02.jpg",
+              "relative_path": "MJR__CPY3HA/task03_sub01_f02.jpg",
+              "caption": "A person is holding a piece of lettuce.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene depicts agricultural activities where people are working in a field, sharing knowledge and results, which aligns with the role of the Inter-American Institute in promoting sustainable agriculture.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A group of women are standing in a field, with one woman holding a shovel.",
+            "- [frames=[1]] A group of people are working in a field, digging and planting.",
+            "- [frames=[2]] A person is holding a piece of lettuce, indicating ongoing agricultural activity.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows various individuals engaged in agricultural work, likely discussing or demonstrating techniques and results. This interaction suggests a collaborative effort towards sustainable farming practices.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the presence of people in the field.",
+            "- The robot needs to recognize tools like shovels and plants like lettuce.",
+            "- The robot must understand the context of sharing and learning from each other.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should observe people interacting and sharing information.",
+            "- It should identify the use of tools and plants.",
+            "- The robot must confirm the collaborative nature of the activity.",
+            "- It should measure the level of engagement among participants.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Identify the group of people and their activities in the field.",
+            "2. [type=perception, frames=[2]] Recognize the lettuce being held by an individual.",
+            "3. [type=manipulation, frames=[0,1]] Assist in digging and planting if needed.",
+            "4. [type=communication, frames=[0,1]] Monitor and record the interactions between participants.",
+            "5. [type=perception, frames=[2]] Verify the presence of the lettuce to ensure accurate observation.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the group of people and their activities in the field. It then verifies the key detail directly from the frames (Verify the presence of the lettuce to ensure accurate observation).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Assist in digging and planting if needed; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 4.400000000000034,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/MJR__CPY3HA/task03/sub01/motion.bvh",
+            "params_path": "results/momask/MJR__CPY3HA/task03/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

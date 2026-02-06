@@ -1,0 +1,1188 @@
+{
+  "video_index": "iIqi3Fy2kXM",
+  "title": "Evolution of Agriculture: From Tradition to Sustainability",
+  "url": "https://www.youtube.com/watch?v=iIqi3Fy2kXM",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "The video describes the evolution of agriculture from traditional to sustainable methods, highlighting the importance of environmental stewardship.",
+  "tasks": [
+    {
+      "task": "Explain the shift from traditional to industrial agriculture and its environmental impacts.",
+      "start": 46.72,
+      "end": 314.32,
+      "subtasks": [
+        {
+          "text": "Describe ancient farming methods that relied on simple tools and manual labor.",
+          "start": 46.72,
+          "end": 51.28,
+          "segment_ids": [
+            10
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "iIqi3Fy2kXM/task00_sub00_f00.jpg",
+              "caption": "Three people are silhouetted against a sunset, with one pointing and the others holding tools, suggesting they are engaged in agricultural work.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "iIqi3Fy2kXM/task00_sub00_f01.jpg",
+              "caption": "The video shows a vast field of green plants with the sun setting in the background.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "iIqi3Fy2kXM/task00_sub00_f02.jpg",
+              "caption": "A vast agricultural field with rows of crops, illuminated by the setting sun.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene depicts ancient farming methods using simple tools and manual labor, set against a backdrop of a sunset.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] Three people are silhouetted against a sunset, with one pointing and the others holding tools, suggesting they are engaged in agricultural work.",
+            "- [frames=[1]] The video shows a vast field of green plants with the sun setting in the background.",
+            "- [frames=[2]] A vast agricultural field with rows of crops, illuminated by the setting sun.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene illustrates the use of basic tools and manual labor in ancient farming practices, emphasizing the simplicity and reliance on natural light during work hours.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with historical farming tools and techniques.",
+            "- The robot should have knowledge of agricultural settings and sunset lighting conditions.",
+            "- The robot should be able to recognize silhouettes and tools in the scene.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the use of simple tools and manual labor.",
+            "- The robot should mention the reliance on natural light for work.",
+            "- The robot should highlight the vastness and simplicity of the agricultural field.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Identify the three silhouetted figures and the tools they are holding.",
+            "2. [type=perception, frames=[1]] Recognize the vast field of green plants and the setting sun.",
+            "3. [type=perception, frames=[2]] Confirm the rows of crops illuminated by the sunset.",
+            "4. [type=manipulation, frames=[0]] Point to the figures and describe their actions.",
+            "5. [type=manipulation, frames=[1]] Describe the field and the crops.",
+            "6. [type=manipulation, frames=[2]] Emphas.",
+            "7. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the three silhouetted figures and the tools they are holding. It then verifies the key detail directly from the frames (Confirm the rows of crops illuminated by the sunset).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Point to the figures and describe their actions; Describe the field and the crops; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 4.560000000000002,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/iIqi3Fy2kXM/task00/sub00/motion.bvh",
+            "params_path": "results/momask/iIqi3Fy2kXM/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Note the introduction of mechanization during the industrial revolution.",
+          "start": 94.96,
+          "end": 98.32,
+          "segment_ids": [
+            21
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f00.jpg",
+              "relative_path": "iIqi3Fy2kXM/task00_sub01_f00.jpg",
+              "caption": "A farmer is working in a field with a tractor, plow, and harvester.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "iIqi3Fy2kXM/task00_sub01_f01.jpg",
+              "caption": "The video shows a person working in a field with a tractor, plow, and harvester.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "iIqi3Fy2kXM/task00_sub01_f02.jpg",
+              "caption": "A tractor is spraying a vast green field, allowing farmers to cultivate vast expanses of land.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The introduction of mechanization during the industrial revolution marked a significant shift in agricultural practices, enabling more efficient and expansive farming operations.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A farmer is seen working in a field with a tractor, plow, and harvester.",
+            "- [frames=[0,1]] The presence of multiple farming tools indicates advanced mechanization.",
+            "- [frames=[2]] A tractor is shown spraying a vast green field, highlighting the scale of modern agricultural operations.",
+            "- [frames=[2]] The green field suggests fertile land being cultivated.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts the transition from manual labor to mechanized farming, emphasizing how technological advancements have transformed agricultural practices. The use of tractors, plows, and harvesters illustrates the shift towards more efficient and large-scale farming methods.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the layout of the farm.",
+            "- The robot needs to know the locations of the various farming tools and equipment.",
+            "- The robot must understand the context of the industrial revolution and its impact on agriculture.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the types of machinery present.",
+            "- The robot should correctly interpret the scale of the farming operation.",
+            "- The robot should provide a clear explanation of the mechanization process and its effects.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Identify the farmer and the machinery in the field.",
+            "2. [type=perception, frames=[2]] Confirm the presence of the tractor spraying the field.",
+            "3. [type=navigation, frames=[0,1]] Move to a position where the entire field can be observed.",
+            "4. [type=manipulation, frames=[0,1]] Pick up a model of a tractor to demonstrate mechanization.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the farmer and the machinery in the field. It then verifies the key detail directly from the frames (Confirm the presence of the tractor spraying the field).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move to a position where the entire field can be observed; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.3599999999999994,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/iIqi3Fy2kXM/task00/sub01/motion.bvh",
+            "params_path": "results/momask/iIqi3Fy2kXM/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Highlight the use of chemical fertilizers and pesticides and their negative effects.",
+          "start": 107.92,
+          "end": 112.24,
+          "segment_ids": [
+            24
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub02_f00.jpg",
+              "relative_path": "iIqi3Fy2kXM/task00_sub02_f00.jpg",
+              "caption": "A cornfield with the word \"consequences\" overlaid.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub02_f01.jpg",
+              "relative_path": "iIqi3Fy2kXM/task00_sub02_f01.jpg",
+              "caption": "A hand is holding a seed over a patch of soil.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub02_f02.jpg",
+              "relative_path": "iIqi3Fy2kXM/task00_sub02_f02.jpg",
+              "caption": "A hand is holding a small amount of soil with a caption about pesticides improving crop yields.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will explain the negative effects of using chemical fertilizers and pesticides on agricultural fields, focusing on the consequences for the environment.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A cornfield with the word \"consequences\" overlaid.",
+            "- [frames=[1]] A hand is holding a seed over a patch of soil.",
+            "- [frames=[2]] A hand is holding a small amount of soil with a caption about pesticides improving crop yields.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shifts from a cornfield to a close-up of a hand handling seeds and soil, with a caption emphasizing the role of pesticides in enhancing crop yields. This transition highlights the introduction of chemical inputs in modern agriculture and their potential drawbacks.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a display screen or a voice interface.",
+            "- The robot needs to have information on the negative impacts of chemical fertilizers and pesticides.",
+            "- The robot should be able to navigate to the appropriate location in the video.",
+            "- The robot must be capable of reading the captions and overlaying relevant information.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the negative effects of chemical fertilizers and pesticides.",
+            "- The robot should visually or verbally highlight the cornfield and the soil samples.",
+            "- The robot should provide a clear explanation of how these chemicals improve crop yields but also cause environmental harm.",
+            "- The robot should ensure the information is presented in a way that is easily understandable to the viewer.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Navigate to the cornfield scene.",
+            "2. [type=perception, frames=[0]] Read the word \"consequences\" overlaid on the cornfield.",
+            "3. [type=manipulation, frames=[1]] Mimic the action of holding a seed over the soil to illustrate the process.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the cornfield scene. It then verifies the key detail directly from the frames (Read the word \"consequences\" overlaid on the cornfield).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the cornfield scene; Mimic the action of holding a seed over the soil to illustrate the process; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 4.319999999999993,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/iIqi3Fy2kXM/task00/sub02/motion.bvh",
+            "params_path": "results/momask/iIqi3Fy2kXM/task00/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Describe the degradation of soil quality and pollution from runoff.",
+          "start": 306.64,
+          "end": 314.32,
+          "segment_ids": [
+            77,
+            78
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub03_f00.jpg",
+              "relative_path": "iIqi3Fy2kXM/task00_sub03_f00.jpg",
+              "caption": "The video shows a stream of water flowing from fields treated with chemical pesticides.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub03_f01.jpg",
+              "relative_path": "iIqi3Fy2kXM/task00_sub03_f01.jpg",
+              "caption": "A dirty water stream flows through a concrete channel.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub03_f02.jpg",
+              "relative_path": "iIqi3Fy2kXM/task00_sub03_f02.jpg",
+              "caption": "The video shows a stream of water flowing over a concrete barrier.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video illustrates the negative environmental impacts of agricultural practices, specifically focusing on soil degradation and water pollution due to runoff.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A stream of water is shown flowing from fields treated with chemical pesticides.",
+            "- [frames=[1]] The water stream continues to flow through a concrete channel, appearing dirty.",
+            "- [frames=[2]] Water flows over a concrete barrier, indicating the path of contaminated runoff.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict the consequences of using chemical pesticides in agriculture, showing how these chemicals leach into nearby water sources, causing pollution and degradation of water quality.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with sensors to detect water quality and soil conditions.",
+            "- The robot needs access to a database of agricultural practices and their environmental impacts.",
+            "- The robot must have the ability to navigate through the environment and interact with water sources.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Verify the presence of chemical residues in the water samples.",
+            "- Measure the level of soil contamination.",
+            "- Confirm the extent of water pollution through visual inspection.",
+            "- Record the data for further analysis.",
+            "- Cross-check the findings with historical data on agricultural practices.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1,2]] Inspect/verify the scene before any physical action.",
+            "2. [type=navigation, frames=[0]] Navigate to the field where the water is flowing from.",
+            "3. [type=manipulation, frames=[0]] Use sensors to collect water samples from the stream.",
+            "4. [type=manipulation, frames=[0]] Place the water samples in a container for analysis.",
+            "5. [type=navigation, frames=[1]] Move to the concrete channel where the water flows.",
+            "6. [type=perception, frames=[1]] Inspect the water quality visually and record any visible contaminants.",
+            "7. [type=navigation, frames=[2]] Proceed to the concrete barrier where the.",
+            "8. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Inspect/verify the scene before any physical action. It then verifies the key detail directly from the frames (Inspect/verify the scene before any physical action).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the field where the water is flowing from; Use sensors to collect water samples from the stream; Place the water samples in a container for analysis; Move to the concrete channel where the water flows; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 7.680000000000007,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/iIqi3Fy2kXM/task00/sub03/motion.bvh",
+            "params_path": "results/momask/iIqi3Fy2kXM/task00/sub03/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Discuss sustainable agriculture practices and their benefits.",
+      "start": 429.04,
+      "end": 659.6,
+      "subtasks": [
+        {
+          "text": "Explain organic farming techniques that promote biodiversity and soil health.",
+          "start": 429.04,
+          "end": 438.96,
+          "segment_ids": [
+            106,
+            107
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "iIqi3Fy2kXM/task01_sub00_f00.jpg",
+              "caption": "The video shows a person's hands holding soil, with the text \"nature's wisdom to control pests and nurture soil\" overlaid.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "iIqi3Fy2kXM/task01_sub00_f01.jpg",
+              "caption": "The video shows a field with green grass and a patch of dirt.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "iIqi3Fy2kXM/task01_sub00_f02.jpg",
+              "caption": "A ladybug is on a green plant in a field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on explaining organic farming techniques that enhance biodiversity and soil health, which are key aspects of sustainable agriculture.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The video shows a person's hands holding soil, with the text \"nature's wisdom to control pests and nurture soil\" overlaid.",
+            "- [frames=[1]] A field with green grass and a patch of dirt is visible, indicating a natural setting.",
+            "- [frames=[2]] A ladybug is seen on a green plant in the field, symbolizing biodiversity.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict a natural agricultural setting where organic farming practices are being discussed. The presence of a ladybug highlights the importance of biodiversity in maintaining a healthy ecosystem.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with organic farming techniques.",
+            "- The robot must have the ability to explain concepts clearly.",
+            "- The robot needs to recognize and describe the elements in the scene, such as soil, plants, and insects.",
+            "- The robot should be able to integrate visual cues with verbal explanations.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe organic farming techniques.",
+            "- The explanation should emphasize the benefits of promoting biodiversity and soil health.",
+            "- The robot should effectively convey the concept of using nature's wisdom to control pests and nurture soil.",
+            "- The robot should mention the presence of a ladybug as an example of biodiversity.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Should navigate to the area where the hands holding soil are shown.",
+            "2. [type=perception, frames=[0]] Should describe the act of holding soil and the text overlay, emphasizing \"nature's wisdom.\".",
+            "3. [type=navigation, frames=[1]] Should move to the field view.",
+            "4. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Should navigate to the area where the hands holding soil are shown. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Should navigate to the area where the hands holding soil are shown; Should move to the field view; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 9.919999999999959,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/iIqi3Fy2kXM/task01/sub00/motion.bvh",
+            "params_path": "results/momask/iIqi3Fy2kXM/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Describe permaculture principles of designing self-sustaining ecosystems.",
+          "start": 462.8,
+          "end": 468.16,
+          "segment_ids": [
+            113
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f00.jpg",
+              "relative_path": "iIqi3Fy2kXM/task01_sub01_f00.jpg",
+              "caption": "A vast field of young plants is illuminated by the sun, with the words \"innovative practices continue to shape sustainable\" overlaid.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "iIqi3Fy2kXM/task01_sub01_f01.jpg",
+              "caption": "The video shows a vertical garden with rows of plants under artificial lighting.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "iIqi3Fy2kXM/task01_sub01_f02.jpg",
+              "caption": "The video shows a vertical garden with rows of plants under artificial lighting.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on explaining permaculture principles through visual examples of innovative agricultural practices, specifically highlighting self-sustaining ecosystems.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A vast field of young plants is illuminated by the sun, with the words \"innovative practices continue to shape sustainable\" overlaid.",
+            "- [frames=[1,2]] The video shows a vertical garden with rows of plants under artificial lighting.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from a traditional field setting to an indoor vertical garden, emphasizing the shift towards more sustainable and space-efficient agricultural methods.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a display screen to show images.",
+            "- The robot needs to have knowledge about permaculture principles.",
+            "- The robot should be able to navigate between different scenes.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully explains the concept of permaculture.",
+            "- The robot accurately describes the benefits of self-sustaining ecosystems.",
+            "- The robot visually demonstrates the vertical garden setup.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Navigate to the first image showing the vast field of young plants.",
+            "2. [type=perception, frames=[0]] Read the overlay text \"innovative practices continue to shape sustainable\".",
+            "3. [type=communication, frames=[0]] Announce the importance of traditional agricultural practices in shaping sustainable farming.",
+            "4. [type=navigation, frames=[1,2]] Transition to the vertical garden setup.",
+            "5. [type=perception, frames=[1,2]] Verify the presence of rows of plants under artificial lighting.",
+            "6. [type=communication, frames=[1,2]] Explain how vertical gardens maximize space and resources.",
+            "7. [type=communication, frames=[1,2]] Highlight the benefits of self-sustaining.",
+            "8. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the first image showing the vast field of young plants. It then verifies the key detail directly from the frames (Read the overlay text \"innovative practices continue to shape sustainable\"). After verification, it communicates the result clearly (Announce the importance of traditional agricultural practices in shaping sustainable farming).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the first image showing the vast field of young plants; Transition to the vertical garden setup; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 5.360000000000014,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/iIqi3Fy2kXM/task01/sub01/motion.bvh",
+            "params_path": "results/momask/iIqi3Fy2kXM/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Show the practice of agroforestry and its benefits.",
+          "start": 514.48,
+          "end": 517.6,
+          "segment_ids": [
+            122
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub02_f00.jpg",
+              "relative_path": "iIqi3Fy2kXM/task01_sub02_f00.jpg",
+              "caption": "A person is planting a tree in a field.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub02_f01.jpg",
+              "relative_path": "iIqi3Fy2kXM/task01_sub02_f01.jpg",
+              "caption": "A person is planting a tree in a field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub02_f02.jpg",
+              "relative_path": "iIqi3Fy2kXM/task01_sub02_f02.jpg",
+              "caption": "A person is planting a small plant in a field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask involves demonstrating the practice of agroforestry by showing a person planting trees and small plants in a field, highlighting the integration of trees and crops for sustainable agricultural practices.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A person is planting a tree in a field.",
+            "- [frames=[2]] A person is planting a small plant in a field.",
+            "- [frames=[0,1,2]] The field shows signs of existing crops and trees, indicating an established agroforestry system.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a person engaging in the practice of agroforestry by planting both trees and smaller plants in a field. This method integrates trees and crops to enhance soil health, provide shade, and support biodiversity, contributing to sustainable agricultural practices.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with tools for planting, such as a shovel or planting device.",
+            "- The robot needs to be within the field area where the demonstration will take place.",
+            "- The robot should have knowledge of the types of trees and plants commonly used in agroforestry.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully plants a tree in the field.",
+            "- The robot successfully plants a small plant in the field.",
+            "- The robot verifies the correct type of tree and plant species planted.",
+            "- The robot ensures the planting depth and spacing are appropriate for the agroforestry practice.",
+            "- The robot confirms the planting area is clean and ready for the next step.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1,2]] Inspect/verify the scene before any physical action.",
+            "2. [type=navigation, frames=[0,1]] Navigate to the location where the tree is to be planted.",
+            "3. [type=manipulation, frames=[0,1]] Use the planting tool to dig a hole for the tree.",
+            "4. [type=manipulation, frames=[2]] Use the planting tool to.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Inspect/verify the scene before any physical action. It then verifies the key detail directly from the frames (Inspect/verify the scene before any physical action).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the location where the tree is to be planted; Use the planting tool to dig a hole for the tree; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.1200000000000045,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/iIqi3Fy2kXM/task01/sub02/motion.bvh",
+            "params_path": "results/momask/iIqi3Fy2kXM/task01/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Highlight conservation tillage practices to maintain soil structure.",
+          "start": 555.04,
+          "end": 560.96,
+          "segment_ids": [
+            130
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub03_f00.jpg",
+              "relative_path": "iIqi3Fy2kXM/task01_sub03_f00.jpg",
+              "caption": "A tractor is spraying a field with a crop.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub03_f01.jpg",
+              "relative_path": "iIqi3Fy2kXM/task01_sub03_f01.jpg",
+              "caption": "A tractor is spraying a field of crops.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub03_f02.jpg",
+              "relative_path": "iIqi3Fy2kXM/task01_sub03_f02.jpg",
+              "caption": "A tractor is spraying a field with a net.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on highlighting conservation tillage practices, specifically through the use of a tractor to spray fields, which maintains soil structure.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] The tractor is seen spraying a field with a crop.",
+            "- [frames=[0,1]] The field appears to be cultivated and ready for spraying.",
+            "- [frames=[2]] The tractor is shown spraying a field with a net, indicating a different application or setup.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a typical agricultural setting where a tractor is used for spraying purposes. The presence of a crop and a net suggests different applications of the tractor, possibly for different types of conservation tillage practices.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the current location and orientation of the tractor.",
+            "- The robot needs to recognize the presence of a field and crops.",
+            "- The robot must understand the concept of conservation tillage and its benefits.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the tractor and its activity.",
+            "- The robot must confirm the presence of a field and crops.",
+            "- The robot should measure or verify the type of substance being sprayed.",
+            "- The robot needs to cross-check the application method against known conservation tillage practices.",
+            "- The robot should document the observation accurately.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Identify the tractor and its current activity.",
+            "2. [type=perception, frames=[0,1]] Recognize the field and crops.",
+            "3. [type=perception, frames=[2]] Verify the presence of a net being used.",
+            "4. [type=perception, frames=[0,1]] Confirm the substance being sprayed by the tractor.",
+            "5. [type=perception, frames=[2]] Cross-check the application.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the tractor and its current activity. It then verifies the key detail directly from the frames (Verify the presence of a net being used).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 5.920000000000073,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/iIqi3Fy2kXM/task01/sub03/motion.bvh",
+            "params_path": "results/momask/iIqi3Fy2kXM/task01/sub03/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Explain integrated pest management and its role in sustainable agriculture.",
+          "start": 593.76,
+          "end": 599.44,
+          "segment_ids": [
+            137
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub04_f00.jpg",
+              "relative_path": "iIqi3Fy2kXM/task01_sub04_f00.jpg",
+              "caption": "A person is shown interacting with soil, possibly using biological control techniques.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub04_f01.jpg",
+              "relative_path": "iIqi3Fy2kXM/task01_sub04_f01.jpg",
+              "caption": "A person is holding soil with worms, and there is text indicating the practice aims to minimize chemical use.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub04_f02.jpg",
+              "relative_path": "iIqi3Fy2kXM/task01_sub04_f02.jpg",
+              "caption": "The video shows a vast agricultural field with rows of crops, emphasizing the importance of sustainable farming practices.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Integrated pest management (IPM) is discussed as a key component of sustainable agriculture, focusing on minimizing chemical use through natural methods like biological control and soil health.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A person is shown interacting with soil, possibly using biological control techniques.",
+            "- [frames=[0,1]] There is a close-up of a person holding soil with worms, indicating the practice aims to enhance soil health.",
+            "- [frames=[2]] A vast agricultural field with rows of crops is shown, emphasizing the importance of sustainable farming practices.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shifts from a close-up of soil and worms to a broader view of an agricultural field, highlighting the transition from local soil health practices to large-scale sustainable farming. This shift underscores the holistic approach to IPM in sustainable agriculture.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with sensors to detect soil conditions and pests.",
+            "- The robot needs to have knowledge about biological control methods and sustainable agriculture practices.",
+            "- The robot should be able to communicate with the user or other systems involved in the tutorial.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the presence of beneficial organisms like worms in the soil.",
+            "- It should confirm the absence of harmful chemicals in the soil samples.",
+            "- The robot should measure the effectiveness of biological control methods in managing pests.",
+            "- It should verify the overall health of the soil and crops.",
+            "- The robot should cross-check the data with known sustainable agriculture practices.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Measure the presence of beneficial organisms such as worms in the soil.",
+            "2. [type=perception, frames=[0,1]] Check for the absence of harmful chemicals in the soil samples.",
+            "3. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Measure the presence of beneficial organisms such as worms in the soil. It then verifies the key detail directly from the frames (Measure the presence of beneficial organisms such as worms in the soil).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 5.680000000000064,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/iIqi3Fy2kXM/task01/sub04/motion.bvh",
+            "params_path": "results/momask/iIqi3Fy2kXM/task01/sub04/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Describe efficient water management practices like rainwater harvesting.",
+          "start": 637.6,
+          "end": 659.6,
+          "segment_ids": [
+            146,
+            149
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub05_f00.jpg",
+              "relative_path": "iIqi3Fy2kXM/task01_sub05_f00.jpg",
+              "caption": "The video shows a close-up of a greenhouse with drip irrigation pipes and plants, highlighting the reduction in water waste.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub05_f01.jpg",
+              "relative_path": "iIqi3Fy2kXM/task01_sub05_f01.jpg",
+              "caption": "A drop of water is seen on a pipe above a pile of dirt.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub05_f02.jpg",
+              "relative_path": "iIqi3Fy2kXM/task01_sub05_f02.jpg",
+              "caption": "A field of green crops is being irrigated with a sprinkler system.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task01_sub05_f03.jpg",
+              "relative_path": "iIqi3Fy2kXM/task01_sub05_f03.jpg",
+              "caption": "A field of green crops is being irrigated by a sprinkler system.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task01_sub05_f04.jpg",
+              "relative_path": "iIqi3Fy2kXM/task01_sub05_f04.jpg",
+              "caption": "A man in a purple shirt stands in a garden, looking out at rows of green plants.",
+              "frame_index": 4
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on describing efficient water management practices, specifically rainwater harvesting and other irrigation methods, to promote sustainable agriculture.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A close-up of a greenhouse with drip irrigation pipes and plants, highlighting the reduction in water waste.",
+            "- [frames=[1]] A drop of water is seen on a pipe above a pile of dirt.",
+            "- [frames=[2,3]] Fields of green crops are being irrigated with a sprinkler system.",
+            "- [frames=[4]] A man in a purple shirt stands in a garden, looking out at rows of green plants.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict various irrigation techniques used in agriculture, including drip irrigation and sprinkler systems. These methods aim to optimize water usage and reduce waste, which is crucial for sustainable farming practices.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with sensors to detect water levels and flow rates.",
+            "- The robot needs access to a database of sustainable agriculture practices.",
+            "- The robot must have the ability to communicate with humans and other systems.",
+            "- The robot should be familiar with the layout of the agricultural fields and greenhouses.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the water management practices shown in the video.",
+            "- It should highlight the benefits of these practices, such as reduced water waste and improved crop health.",
+            "- The robot should provide examples of how these practices can be implemented in real-world scenarios.",
+            "- It should ensure that the information provided is clear and understandable to the audience.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Read the details of the greenhouse and its irrigation system.",
+            "2. [type=perception, frames=[1]] Measure the water droplet on the pipe to verify the efficiency of the system.",
+            "3. [type=perception, frames=[0,1,2,3,4]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[0,1,2,3,4]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2,3,4]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Read the details of the greenhouse and its irrigation system. It then verifies the key detail directly from the frames (Read the details of the greenhouse and its irrigation system).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 22.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/iIqi3Fy2kXM/task01/sub05/motion.bvh",
+            "params_path": "results/momask/iIqi3Fy2kXM/task01/sub05/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Explore the future of sustainable agriculture and emerging technologies.",
+      "start": 712.8,
+      "end": 808.88,
+      "subtasks": [
+        {
+          "text": "Highlight the importance of precision farming techniques in resource optimization.",
+          "start": 798.24,
+          "end": 803.6,
+          "segment_ids": [
+            177
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f00.jpg",
+              "relative_path": "iIqi3Fy2kXM/task02_sub00_f00.jpg",
+              "caption": "The video frame shows a comparison of two agricultural fields, one with a patterned surface and the other with a more uniform yellow color, with the text \"Precision",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "iIqi3Fy2kXM/task02_sub00_f01.jpg",
+              "caption": "The video frame shows a comparison of two agricultural fields, one with a uniform pattern and the other with a more complex pattern, highlighting precision farming techniques.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "iIqi3Fy2kXM/task02_sub00_f02.jpg",
+              "caption": "The video frame shows an aerial view of a field with different types of crops, with text indicating a focus on targeting specific areas of need to boost productivity.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on explaining the significance of precision farming techniques in optimizing resources for sustainable agriculture. The robot will visually compare traditional and precision farming methods, emphasizing the benefits of the latter.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The video frame shows a comparison between a patterned agricultural field and a uniformly colored one, with the text \"Precision\".",
+            "- [frames=[1]] The video frame compares a field with a uniform pattern to another with a more intricate pattern, highlighting precision farming techniques.",
+            "- [frames=[2]] An aerial view of a field with various crops is shown, with text indicating the focus on targeted areas to enhance productivity.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict the contrast between traditional and precision farming methods, with the latter showing more detailed and targeted approaches. This highlights how precision farming can optimize resources such as water, fertilizers, and pesticides, leading to higher efficiency and sustainability.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to a display screen or projector to show the video frames.",
+            "- The robot needs to be equipped with a camera to capture the current scene.",
+            "- The robot should have the ability to navigate through the video frames.",
+            "- The robot must be able to read and interpret the text displayed on the frames.",
+            "- The robot should be capable of performing basic communication tasks to explain the concepts.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately compare the traditional and precision farming methods.",
+            "- It should highlight the benefits of precision farming in optimizing resources.",
+            "- The robot should ensure that the explanation is clear and understandable to the viewer.",
+            "- The robot should verify that the viewer understands the key points by asking for confirmation.",
+            "- The robot should measure the engagement level of the viewer during the explanation.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Navigate to the first frame showing.",
+            "2. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "3. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the first frame showing. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the first frame showing; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 5.360000000000014,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/iIqi3Fy2kXM/task02/sub00/motion.bvh",
+            "params_path": "results/momask/iIqi3Fy2kXM/task02/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Mention the potential of cutting-edge technologies like drones and sensors.",
+          "start": 803.6,
+          "end": 808.88,
+          "segment_ids": [
+            178
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub01_f01.jpg",
+              "relative_path": "iIqi3Fy2kXM/task02_sub01_f01.jpg",
+              "caption": "The video shows a drone flying over a large greenhouse.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub01_f02.jpg",
+              "relative_path": "iIqi3Fy2kXM/task02_sub01_f02.jpg",
+              "caption": "The video shows a drone view of a large greenhouse with rows of greenhouses.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment highlights the use of advanced technologies such as drones and sensors in modern agricultural practices, emphasizing their role in enhancing sustainability and efficiency.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A drone is seen flying over a large greenhouse, indicating the use of aerial technology in monitoring and managing agricultural areas.",
+            "- [frames=[2]] The drone provides a bird's-eye view of multiple greenhouses, showcasing the scale and layout of the agricultural infrastructure.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a large-scale agricultural operation utilizing drones for comprehensive surveillance and management. The drone’s perspective offers a detailed overview of the greenhouse structures and their arrangement, suggesting an integrated approach to monitoring crop health and environmental conditions.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have prior knowledge of drone operation and sensor integration.",
+            "- The robot needs access to real-time data from sensors and drone feeds.",
+            "- The robot must be capable of navigating through complex agricultural environments.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should successfully identify and track the drone’s flight path.",
+            "- The robot must accurately interpret the data transmitted by the sensors.",
+            "- The robot should be able to cross-check the drone’s footage with ground-based sensor readings.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate the robot to a position where it can observe the drone’s flight path.",
+            "2. [type=perception, frames=[1]] Use onboard cameras to verify the drone’s presence and flight trajectory.",
+            "3. [type=communication, frames=[1]] Establish a communication link with the drone to receive real-time data.",
+            "4. [type=perception, frames=[2]] Analyze the drone’s bird’s-eye view to assess the layout and condition of the greenhouses.",
+            "5. [type=manipulation, frames=[2]] Deploy ground-based sensors to collect.",
+            "6. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate the robot to a position where it can observe the drone’s flight path. It then verifies the key detail directly from the frames (Use onboard cameras to verify the drone’s presence and flight trajectory).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Deploy ground-based sensors to collect; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 5.279999999999973,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/iIqi3Fy2kXM/task02/sub01/motion.bvh",
+            "params_path": "results/momask/iIqi3Fy2kXM/task02/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Discuss the role of community-supported agriculture (CSA) in local food systems.",
+          "start": 712.8,
+          "end": 716.24,
+          "segment_ids": [
+            160
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub02_f00.jpg",
+              "relative_path": "iIqi3Fy2kXM/task02_sub02_f00.jpg",
+              "caption": "Two people are reaching out to each other with the sun setting in the background.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub02_f01.jpg",
+              "relative_path": "iIqi3Fy2kXM/task02_sub02_f01.jpg",
+              "caption": "Two people shaking hands in a field at sunset.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub02_f02.jpg",
+              "relative_path": "iIqi3Fy2kXM/task02_sub02_f02.jpg",
+              "caption": "Two people shaking hands at sunset with the text \"everyone involved\" below.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene illustrates the concept of community-supported agriculture (CSA) through interactions between two individuals, emphasizing the collaborative nature of local food systems.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] Two people are reaching out to each other with the sun setting in the background, indicating a welcoming and cooperative atmosphere.",
+            "- [frames=[1]] The same two people are shaking hands in a field at sunset, symbolizing a formal agreement or partnership.",
+            "- [frames=[2]] The two people are shaking hands again at sunset, with the text \"everyone involved\" below, highlighting the inclusive nature of CSA.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene portrays a sunset setting where two individuals are engaging in a handshake, which is a common gesture of agreement and partnership. This interaction is set against a backdrop of a field, suggesting a rural or agricultural context. The repeated handshake and the text \"everyone involved\" emphasize the collaborative and inclusive nature of community-supported agriculture (CSA).",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the concept of community-supported agriculture (CSA).",
+            "- The robot should recognize the setting as an agricultural environment.",
+            "- The robot should be able to identify the two individuals involved in the handshake.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly interpret the handshake as a symbol of partnership in CSA.",
+            "- The robot should understand the inclusive nature of the interaction.",
+            "- The robot should recognize the sunset setting as relevant to the discussion of local food systems.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Identify the two individuals and their handshaking gesture.",
+            "2. [type=perception, frames=[1]] Confirm the handshake is repeated, indicating a formal agreement.",
+            "3. [type=perception, frames=[2]] Read the text \"everyone involved\" to understand the inclusive nature of.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the two individuals and their handshaking gesture. It then verifies the key detail directly from the frames (Confirm the handshake is repeated, indicating a formal agreement).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 3.4400000000000546,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/iIqi3Fy2kXM/task02/sub02/motion.bvh",
+            "params_path": "results/momask/iIqi3Fy2kXM/task02/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Describe urban agriculture as a sustainable solution for food production.",
+          "start": 760.64,
+          "end": 764.8,
+          "segment_ids": [
+            170
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub03_f00.jpg",
+              "relative_path": "iIqi3Fy2kXM/task02_sub03_f00.jpg",
+              "caption": "The video shows a vast green field with a caption about green spaces.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub03_f01.jpg",
+              "relative_path": "iIqi3Fy2kXM/task02_sub03_f01.jpg",
+              "caption": "The video shows a vast green field with a caption that reads, \"These green spaces contribute significantly to.\"",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub03_f02.jpg",
+              "relative_path": "iIqi3Fy2kXM/task02_sub03_f02.jpg",
+              "caption": "Two women wearing hats are working in a garden, with text indicating they provide fresh produce to local residents.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on describing urban agriculture as a sustainable solution for food production, highlighting its benefits through visual aids.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] The video shows a vast green field with a caption about green spaces, indicating the importance of such areas.",
+            "- [frame=2] Two women wearing hats are working in a garden, with text indicating they provide fresh produce to local residents, emphasizing the direct impact of urban agriculture.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict green spaces and a garden where women are working, suggesting the presence of a community garden or similar urban agricultural setup. These visuals support the idea of using urban areas for sustainable food production.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture and analyze the visual scenes.",
+            "- The robot needs to have knowledge about sustainable agriculture practices.",
+            "- The robot should be able to communicate with the audience effectively.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the benefits of urban agriculture.",
+            "- It should highlight the role of green spaces in supporting sustainable food production.",
+            "- The robot should mention the direct impact on local communities.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Capture images of the vast green field to verify the presence of green spaces.",
+            "2. [type=perception, frames=[2]] Capture images of the garden where women are working to confirm the scene.",
+            "3. [type=manipulation, frames=[0,1,2]] Use the captured images to create a detailed description of urban agriculture.",
+            "4. [type=communication, frames=[0,1,2]] Explain the importance of green spaces in urban areas for sustainable food production.",
+            "5. [type=communication, frames=[0,1,2]] Highlight the direct impact of urban agriculture on local communities by mentioning the women working in the garden.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture images of the vast green field to verify the presence of green spaces. It then verifies the key detail directly from the frames (Capture images of the vast green field to verify the presence of green spaces).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Use the captured images to create a detailed description of urban agriculture; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 4.159999999999968,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/iIqi3Fy2kXM/task02/sub03/motion.bvh",
+            "params_path": "results/momask/iIqi3Fy2kXM/task02/sub03/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

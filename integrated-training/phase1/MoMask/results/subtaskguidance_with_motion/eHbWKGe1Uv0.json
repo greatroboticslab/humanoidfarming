@@ -1,0 +1,256 @@
+{
+  "video_index": "eHbWKGe1Uv0",
+  "title": "Japanese Green Vegetable Protection",
+  "url": "https://www.youtube.com/watch?v=eHbWKGe1Uv0",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Describes agricultural practices used in Japan and China.",
+  "tasks": [
+    {
+      "task": "Explain the Japanese method of protecting green vegetables.",
+      "start": 0.0,
+      "end": 7.46,
+      "subtasks": [
+        {
+          "text": "Observe the use of ultra-durable wire mesh to enclose green vegetables in Japan.",
+          "start": 0.0,
+          "end": 7.46,
+          "segment_ids": [
+            0
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "eHbWKGe1Uv0/task00_sub00_f00.jpg",
+              "caption": "A tunnel-like structure with plants growing inside.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "eHbWKGe1Uv0/task00_sub00_f01.jpg",
+              "caption": "A person is using a hose to water a garden bed covered with a blue net.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "eHbWKGe1Uv0/task00_sub00_f02.jpg",
+              "caption": "A person is tending to a garden in China.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment shows the use of ultra-durable wire mesh to protect green vegetables in Japan, focusing on the setup and initial placement of the mesh.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A tunnel-like structure with plants growing inside is visible, indicating a protected environment for the vegetables.",
+            "- [frames=[1]] A person is seen using a hose to water a garden bed covered with a blue net, suggesting the presence of a protective covering.",
+            "- [frames=[2]] The scene shifts to a person tending to a garden in China, which is not relevant to the current subtask.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The video captures the initial setup of a protective enclosure for green vegetables using ultra-durable wire mesh. This setup is crucial for preventing pests and ensuring the health of the crops.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a mechanism to handle and manipulate wire mesh.",
+            "- The robot needs to be aware of the location of the tunnel-like structure where the vegetables are growing.",
+            "- The robot should have the ability to verify the presence of the protective mesh.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The wire mesh should be correctly placed around the vegetables.",
+            "- The mesh should be securely fastened without damaging the plants.",
+            "- The robot should confirm that the mesh covers the entire area intended for protection.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Navigate to the tunnel-like structure where the vegetables are growing.",
+            "2. [type=perception, frames=[0]] Verify the presence of the plants by scanning the area.",
+            "3. [type=navigation, frames=[1]] Move to the location where the wire mesh is being used.",
+            "4. [type=manipulation, frames=[1]] Pick up a section of the wire mesh.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the tunnel-like structure where the vegetables are growing. It then verifies the key detail directly from the frames (Verify the presence of the plants by scanning the area).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the tunnel-like structure where the vegetables are growing; Move to the location where the wire mesh is being used; Pick up a section of the wire mesh; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 7.46,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/eHbWKGe1Uv0/task00/sub00/motion.bvh",
+            "params_path": "results/momask/eHbWKGe1Uv0/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Describe the Chinese practice of using a black mat during tree planting.",
+      "start": 7.46,
+      "end": 12.5,
+      "subtasks": [
+        {
+          "text": "Note the placement of the black mat under tree roots in China.",
+          "start": 7.46,
+          "end": 9.98,
+          "segment_ids": [
+            1
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "eHbWKGe1Uv0/task01_sub00_f01.jpg",
+              "caption": "Two men are holding up a black cloth in a field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "eHbWKGe1Uv0/task01_sub00_f02.jpg",
+              "caption": "Two people are placing a tarp over plants in a field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe the placement of a black mat under tree roots in a Chinese agricultural practice.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] Two men are holding up a black cloth in a field.",
+            "- [frames=[2]] Two people are placing a tarp over plants in a field.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts workers preparing to plant trees by covering the soil around the roots with a black mat. This practice is common in Chinese agriculture to protect young trees from weeds and retain moisture.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to visually inspect the field.",
+            "- The robot needs to have the capability to move autonomously within the field.",
+            "- The robot should have knowledge about the dimensions and placement of the black mat.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The black mat is correctly placed under the tree roots.",
+            "- The mat is securely positioned without any gaps or overlaps.",
+            "- The mat is aligned properly with the tree trunk.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Move to the location where the black mat is being held.",
+            "2. [type=perception, frames=[1]] Use the camera to confirm the presence of the black mat.",
+            "3. [type=navigation, frames=[2]] Move to the area where the tree is to be planted.",
+            "4. [type=manipulation, frames=[2]] Lay down the black mat under the tree roots.",
+            "5. [type=perception, frames=[2]] Verify that the mat is fully unfolded and covers the roots.",
+            "6. [type=manipulation, frames=[2]] Adjust the mat to ensure it is snug against the soil.",
+            "7. [type=perception, frames=[2]] Check that there are no gaps or overlaps in the mat.",
+            "8. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to the location where the black mat is being held. It then verifies the key detail directly from the frames (Use the camera to confirm the presence of the black mat).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move to the location where the black mat is being held; Move to the area where the tree is to be planted; Lay down the black mat under the tree roots; Adjust the mat to ensure it is snug against the soil; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/eHbWKGe1Uv0/task01/sub00/motion.bvh",
+            "params_path": "results/momask/eHbWKGe1Uv0/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Observe how the black mat helps to lock in soil moisture and block weeds.",
+          "start": 9.98,
+          "end": 12.5,
+          "segment_ids": [
+            1
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "eHbWKGe1Uv0/task01_sub01_f01.jpg",
+              "caption": "Two men are working on a tree in a grassy area.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "eHbWKGe1Uv0/task01_sub01_f02.jpg",
+              "caption": "A man is using a mat to protect a plant from the elements.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot observes how a black mat is used to protect a tree from weeds and retain soil moisture during planting.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] Two men are working on a tree in a grassy area.",
+            "- [frames=[2]] A man is using a mat to protect a plant from the elements.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a man placing a black mat around a newly planted tree to prevent weed growth and maintain soil moisture levels.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to observe the environment.",
+            "- The robot needs to have the capability to navigate to the location where the mat is being placed.",
+            "- The robot should have the ability to manipulate objects such as mats.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The mat should be correctly positioned around the tree.",
+            "- The mat should cover the soil without touching the tree trunk.",
+            "- The mat should be taut but not too tight to avoid damaging the tree.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate to the location where the mat is being placed.",
+            "2. [type=perception, frames=[1]] Use the camera to confirm the presence of the tree and the grassy area.",
+            "3. [type=navigation, frames=[2]] Move closer to the mat and the tree.",
+            "4. [type=manipulation, frames=[2]] Pick up the mat from its current position.",
+            "5. [type=navigation, frames=[2]] Position the mat around the base of the tree.",
+            "6. [type=manipulation, frames=[2]] Adjust the mat to ensure it covers the soil but does not touch the tree trunk.",
+            "7. [type=perception, frames=[2]] Verify that the mat is correctly positioned by checking its coverage and tension.",
+            "8. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the location where the mat is being placed. It then verifies the key detail directly from the frames (Use the camera to confirm the presence of the tree and the grassy area).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the location where the mat is being placed; Move closer to the mat and the tree; Position the mat around the base of the tree; Adjust the mat to ensure it covers the soil but does not touch the tree trunk; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/eHbWKGe1Uv0/task01/sub01/motion.bvh",
+            "params_path": "results/momask/eHbWKGe1Uv0/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

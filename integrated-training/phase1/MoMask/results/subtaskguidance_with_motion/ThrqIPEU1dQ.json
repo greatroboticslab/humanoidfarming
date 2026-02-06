@@ -1,0 +1,489 @@
+{
+  "video_index": "ThrqIPEU1dQ",
+  "title": "No-Till Farming Runoff Shifts Over Time  Transcript",
+  "url": "https://www.youtube.com/watch?v=ThrqIPEU1dQ",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "This transcript describes a scientific study on no-till farming methods and their impact on water runoff.",
+  "tasks": [
+    {
+      "task": "Describe the early experimental setup of no-till vs. conventional tillage.",
+      "start": 0.0,
+      "end": 6.72,
+      "subtasks": [
+        {
+          "text": "Observe the initial understanding that no-till had more runoff than conventional tillage.",
+          "start": 0.0,
+          "end": 2.4,
+          "segment_ids": [
+            0
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "ThrqIPEU1dQ/task00_sub00_f00.jpg",
+              "caption": "An older man wearing a baseball cap and glasses is sitting with his hand on his chin.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "ThrqIPEU1dQ/task00_sub00_f01.jpg",
+              "caption": "Dwayne Beck discusses changing the No-Till narrative.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "ThrqIPEU1dQ/task00_sub00_f02.jpg",
+              "caption": "An older man wearing a cap and glasses is talking, with the words \"everybody knew\" on the screen.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene introduces an older man discussing the initial understanding that no-till farming resulted in more runoff compared to conventional tillage.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] An older man wearing a baseball cap and glasses is sitting with his hand on his chin, indicating deep thought or reflection.",
+            "- [frames=[1]] Dwayne Beck begins to discuss the topic, suggesting he is the primary speaker.",
+            "- [frames=[2]] The older man continues to speak, with the words \"everybody knew\" appearing on the screen, emphasizing the widespread belief about no-till farming.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts an older man, likely a seasoned agricultural expert, explaining the initial understanding that no-till farming was believed to cause more runoff than conventional tillage methods. This is supported by the appearance of the phrase \"everybody knew\" on the screen, reinforcing the common belief among farmers and researchers at the time.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be positioned near the screen or the older man.",
+            "- The robot should have access to the video transcript or a similar document containing the discussion points.",
+            "- The robot should be able to recognize the older man and Dwayne Beck.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the older man and Dwayne Beck.",
+            "- The robot should understand the initial belief that no-till farming led to more runoff.",
+            "- The robot should be able to cross-check this information with historical data or records.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Identify the older man and Dwayne Beck.",
+            "2. [type=perception, frames=[2]] Read the phrase \"everybody knew\" on the screen.",
+            "3. [type=manipulation, frames=[1]] Begin to note the discussion points related to no-till and.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the older man and Dwayne Beck. It then verifies the key detail directly from the frames (Read the phrase \"everybody knew\" on the screen).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 3.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/ThrqIPEU1dQ/task00/sub00/motion.bvh",
+            "params_path": "results/momask/ThrqIPEU1dQ/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Notice the experimental setup of no-till by tilling some of a conventionally tilled field and leaving some untilled.",
+          "start": 2.4,
+          "end": 6.72,
+          "segment_ids": [
+            1,
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "ThrqIPEU1dQ/task00_sub01_f01.jpg",
+              "caption": "The video shows a man wearing a cap and glasses, with text overlay stating that no-till had more runoff.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "ThrqIPEU1dQ/task00_sub01_f02.jpg",
+              "caption": "The video shows an older man wearing a hat and glasses, with the text \"but no-till\" overlaid.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video illustrates the initial setup of an experiment comparing no-till and conventional tillage methods, focusing on how a portion of a conventionally tilled field was left untilled while another part was tilled.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A man is shown wearing a cap and glasses, with text overlay indicating that no-till had more runoff.",
+            "- [frames=[2]] An older man is depicted wearing a hat and glasses, with the text \"but no-till\" overlaid.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts two individuals observing the experimental setup, likely researchers or farm managers discussing the results of their study. The text overlays suggest that the experiment involves comparing the effects of no-till and conventional tillage on soil runoff.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be able to identify individuals in the scene.",
+            "- It must recognize text overlays and understand their significance.",
+            "- The robot needs to navigate within the video frame to observe different parts of the field.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the presence of a man wearing a cap and glasses.",
+            "- It must recognize the text overlay indicating more runoff from no-till.",
+            "- The robot should also identify the older man wearing a hat and glasses, noting the text \"but no-till.\"",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate to the first frame where a man in a cap and glasses is visible.",
+            "2. [type=perception, frames=[1]] Identify the man based on his attire and confirm the text overlay about more runoff from no-till.",
+            "3. [type=navigation, frames=[2]] Move to the second frame showing an older man in a hat and glasses.",
+            "4. [type=perception, frames=[2]] Recognize the older man and confirm the.",
+            "5. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the first frame where a man in a cap and glasses is visible. It then verifies the key detail directly from the frames (Identify the man based on his attire and confirm the text overlay about more runoff from no-till).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the first frame where a man in a cap and glasses is visible; Move to the second frame showing an older man in a hat and glasses; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 4.32,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/ThrqIPEU1dQ/task00/sub01/motion.bvh",
+            "params_path": "results/momask/ThrqIPEU1dQ/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Explain the initial findings and the design of the no-till treatment.",
+      "start": 6.72,
+      "end": 22.56,
+      "subtasks": [
+        {
+          "text": "Note that water ran off more in the no-till during the initial years.",
+          "start": 6.72,
+          "end": 18.8,
+          "segment_ids": [
+            3,
+            7
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "ThrqIPEU1dQ/task01_sub00_f01.jpg",
+              "caption": "The video shows an older man wearing a hat and glasses, with the words \"some of it untilled\" overlaid.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "ThrqIPEU1dQ/task01_sub00_f02.jpg",
+              "caption": "An older man in a blue shirt and cap is speaking.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should observe the initial findings indicating that water runoff was higher in the no-till treatment during the early years of the study.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] An older man wearing a hat and glasses is shown, with the phrase \"some of it untilled\" overlaid.",
+            "- [frames=[2]] A man in a blue shirt and cap is speaking, likely providing information about the no-till treatment.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts an older man explaining the initial findings of a no-till farming study, specifically noting increased water runoff in the no-till areas during the early years.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot needs to be positioned near the screen where the video is being played.",
+            "- The robot should have access to a camera to observe the video frames.",
+            "- The robot must have the ability to communicate with the user or another system to confirm understanding.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the key finding that water runoff was higher in the no-till treatment initially.",
+            "- The robot should be able to cross-check this information with other data points if available.",
+            "- The robot should ensure the timing of the findings matches the video segment.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Verify the presence of the older man wearing a hat and glasses.",
+            "2. [type=perception, frames=[2]] Confirm the man in a blue shirt and cap is speaking.",
+            "3. [type=perception, frames=[1]] Read the overlay text \"some of it untilled\".",
+            "4. [type=perception, frames=[2]] Listen to the man's speech to understand the initial findings.",
+            "5. [type=perception, frames=[1,2]] Cross-check the verbal information with the visual cues provided.",
+            "6. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Verify the presence of the older man wearing a hat and glasses. It then verifies the key detail directly from the frames (Verify the presence of the older man wearing a hat and glasses).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 12.080000000000002,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/ThrqIPEU1dQ/task01/sub00/motion.bvh",
+            "params_path": "results/momask/ThrqIPEU1dQ/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Highlight the inclusion of a no-till treatment as a high runoff check.",
+          "start": 18.8,
+          "end": 22.56,
+          "segment_ids": [
+            8
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "ThrqIPEU1dQ/task01_sub01_f01.jpg",
+              "caption": "An older man wearing a hat and glasses is talking in a video.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "ThrqIPEU1dQ/task01_sub01_f02.jpg",
+              "caption": "An older man in a blue shirt and hat is speaking in a video.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment highlights the inclusion of a no-till treatment as a critical component for assessing high runoff levels in no-till farming practices.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] An older man wearing a hat and glasses is talking in a video.",
+            "- [frames=[2]] The same older man, now in a blue shirt and hat, continues his speech.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene involves an older man explaining the importance of the no-till treatment in the context of runoff analysis. He likely emphasizes its role in reducing soil erosion and improving water quality.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture the video segment.",
+            "- The robot needs to have audio capabilities to understand the spoken content.",
+            "- The robot must be able to navigate to the appropriate location to perform the task.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the mention of the no-till treatment.",
+            "- It should correctly interpret the significance of the no-till treatment in relation to runoff.",
+            "- The robot must ensure that the explanation aligns with the video's content.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Capture the video segment where the older man explains the no-till treatment.",
+            "2. [type=perception, frames=[2]] Verify the continuation of the explanation by cross-checking the speaker’s attire and speech content.",
+            "3. [type=manipulation, frames=[1,2]] Highlight the key points about the no-till treatment on the video using visual markers.",
+            "4. [type=communication, frames=[1,2]] Summarize the importance of the no-till treatment in reducing runoff to the viewer.",
+            "5. [type=manipulation, frames=[1,2]] Add a visual aid, such as a diagram, to illustrate the concept.",
+            "6. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture the video segment where the older man explains the no-till treatment. It then verifies the key detail directly from the frames (Verify the continuation of the explanation by cross-checking the speaker’s attire and speech content). After verification, it communicates the result clearly (Summarize the importance of the no-till treatment in reducing runoff to the viewer).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Highlight the key points about the no-till treatment on the video using visual markers; Add a visual aid, such as a diagram, to illustrate the concept; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.759999999999998,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/ThrqIPEU1dQ/task01/sub01/motion.bvh",
+            "params_path": "results/momask/ThrqIPEU1dQ/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Describe the long-term results and the gradual change in mindset.",
+      "start": 25.38,
+      "end": 37.92,
+      "subtasks": [
+        {
+          "text": "Observe that the no-till treatment was no longer functioning as a high runoff check after three years.",
+          "start": 25.38,
+          "end": 27.6,
+          "segment_ids": [
+            11
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f00.jpg",
+              "relative_path": "ThrqIPEU1dQ/task02_sub00_f00.jpg",
+              "caption": "An older man wearing a hat and glasses is speaking in front of a blurred background.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "ThrqIPEU1dQ/task02_sub00_f01.jpg",
+              "caption": "An older man wearing a hat and glasses is speaking in front of a blurred background.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "ThrqIPEU1dQ/task02_sub00_f02.jpg",
+              "caption": "A man in a blue shirt and cap is talking with a caption about a high runoff check.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The no-till treatment, which was initially effective in reducing runoff, began to fail after three years, as indicated by the shift in the observed data.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] The older man in a hat and glasses is speaking, likely providing context or explanation.",
+            "- [frame_index=2] A man in a blue shirt and cap is talking, with a caption mentioning a high runoff check.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shifts from an older man explaining the initial conditions to a man in a blue shirt discussing the current state of the no-till treatment. This transition highlights the change over time in the effectiveness of the no-till method.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to the video transcript and metadata.",
+            "- The robot needs to be aware of the subtask's time range (25.4s–27.6s).",
+            "- The robot should have the ability to recognize and track the speaker changes.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Verify the shift in the no-till treatment's effectiveness.",
+            "- Confirm the caption on the image matches the observed data.",
+            "- Measure the change in runoff levels over the three-year period.",
+            "- Cross-check the data with historical records if available.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Listen to the older man's explanation and identify key points about the initial conditions.",
+            "2. [type=perception, frames=[2]] Read the caption on the image showing the high runoff check.",
+            "3. [type=navigation, frames=[0,1,2]] Navigate to the section where the man in the blue shirt discusses the current state.",
+            "4. [type=perception, frames=[2]] Verify the caption on the image matches the observed data.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Listen to the older man's explanation and identify key points about the initial conditions. It then verifies the key detail directly from the frames (Read the caption on the image showing the high runoff check).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the section where the man in the blue shirt discusses the current state; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/ThrqIPEU1dQ/task02/sub00/motion.bvh",
+            "params_path": "results/momask/ThrqIPEU1dQ/task02/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Note the gradual change in mindset regarding no-till farming practices.",
+          "start": 33.12,
+          "end": 37.92,
+          "segment_ids": [
+            14,
+            15
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub01_f00.jpg",
+              "relative_path": "ThrqIPEU1dQ/task02_sub01_f00.jpg",
+              "caption": "An older man in a baseball cap and glasses is speaking in a video.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub01_f01.jpg",
+              "relative_path": "ThrqIPEU1dQ/task02_sub01_f01.jpg",
+              "caption": "An older man is adjusting his glasses while wearing a hat and a blue shirt.",
+              "frame_index": 1
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene captures an older man adjusting his glasses while speaking about the gradual shift in mindset towards no-till farming practices over time.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] The older man is seen wearing a baseball cap and glasses, speaking into the camera.",
+            "- [frames=[0,1]] He adjusts his glasses, indicating he might be reading or focusing on something.",
+            "- [frames=[0,1]] His attire includes a hat and a blue shirt, suggesting a casual yet professional setting.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The older man appears to be reflecting on the evolution of agricultural practices, specifically the transition from conventional tillage to no-till methods. His demeanor suggests a seasoned farmer or agricultural expert who has observed significant changes in the industry over the years.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be positioned near the screen where the video is being played.",
+            "- The robot needs to have the ability to read and interpret visual cues.",
+            "- The robot must be capable of understanding spoken language and context.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the gradual change in mindset discussed by the speaker.",
+            "- It should recognize the key points about the shift from conventional to no-till farming.",
+            "- The robot should be able to summarize the long-term results of adopting no-till practices.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Should observe the older man adjusting his glasses and speaking.",
+            "2. [type=perception, frames=[0,1]] Should listen to the man's speech and identify the topic of no-till farming.",
+            "3. [type=manipulation, frames=[0,1]] Should note the man’s attire and environment, confirming the setting is appropriate for discussing agricultural practices.",
+            "4. [type=perception, frames=[0,1]] Verify/confirm the key observation before reporting.",
+            "5. [type=navigation, frames=[0,1]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Should observe the older man adjusting his glasses and speaking. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Should note the man’s attire and environment, confirming the setting is appropriate for discussing agricultural practices; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 4.800000000000004,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/ThrqIPEU1dQ/task02/sub01/motion.bvh",
+            "params_path": "results/momask/ThrqIPEU1dQ/task02/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

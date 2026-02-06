@@ -1,0 +1,365 @@
+{
+  "video_index": "VQqq76JuDYE",
+  "title": "Asparagus Farming Harvest Innovation",
+  "url": "https://www.youtube.com/watch?v=VQqq76JuDYE",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "This video describes the cultivation and harvesting of asparagus, covering multiple stages of the process.",
+  "tasks": [
+    {
+      "task": "Describe the asparagus cultivation process.",
+      "start": 22.9,
+      "end": 38.9,
+      "subtasks": [
+        {
+          "text": "Farmers plant one-year-old asparagus crowns, which can produce for up to 20 years.",
+          "start": 22.9,
+          "end": 29.4,
+          "segment_ids": [
+            6,
+            7
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "VQqq76JuDYE/task00_sub00_f00.jpg",
+              "caption": "The video frame shows asparagus with the text \"Instead, farmers\" overlaid.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "VQqq76JuDYE/task00_sub00_f01.jpg",
+              "caption": "The video frame shows asparagus roots.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "VQqq76JuDYE/task00_sub00_f02.jpg",
+              "caption": "A person is holding a bunch of asparagus.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Farmers plant one-year-old asparagus crowns, which will yield for up to 20 years. This process involves careful handling and placement of the crowns.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The video frame shows asparagus with the text \"Instead, farmers\", indicating a transition from a previous topic.",
+            "- [frames=[1]] The video frame displays asparagus roots, showing the underground part of the plant.",
+            "- [frames=[2]] A person is seen holding a bunch of asparagus, suggesting the end of the planting process.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts the initial stages of asparagus cultivation, focusing on the planting of one-year-old crowns. The roots are visible, highlighting the underground portion of the plant that needs to be carefully placed in the soil.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with tools suitable for handling and planting asparagus crowns.",
+            "- The robot must have knowledge of the correct depth and spacing for planting asparagus.",
+            "- The robot should be aware of the soil conditions and moisture levels necessary for successful planting.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should successfully plant the asparagus crowns at the correct depth and spacing.",
+            "- The roots should be intact and properly positioned in the soil.",
+            "- The robot should ensure that the soil around the planted crowns is compacted appropriately.",
+            "- The robot should verify that the planting depth is correct before moving to the next crown.",
+            "- The robot should measure the distance between the planted crowns to confirm they meet the required spacing.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Navigate to the planting area where the asparagus crowns are located.",
+            "2. [type=perception, frames=[1]] Use the camera to inspect the asparagus roots and determine the appropriate planting depth.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the planting area where the asparagus crowns are located. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the planting area where the asparagus crowns are located; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 6.5,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/VQqq76JuDYE/task00/sub00/motion.bvh",
+            "params_path": "results/momask/VQqq76JuDYE/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Farmers harvest asparagus daily, with each stalk potentially growing up to 10 inches per day.",
+          "start": 32.0,
+          "end": 38.9,
+          "segment_ids": [
+            9,
+            10
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f00.jpg",
+              "relative_path": "VQqq76JuDYE/task00_sub01_f00.jpg",
+              "caption": "The video frame shows a close-up of asparagus with a text overlay that says \"Did you know that.\"",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "VQqq76JuDYE/task00_sub01_f01.jpg",
+              "caption": "A hand wearing gloves is washing asparagus in a bowl.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "VQqq76JuDYE/task00_sub01_f02.jpg",
+              "caption": "A combine harvester is harvesting wheat in a field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Farmers harvest asparagus daily, with each stalk potentially growing up to 10 inches per day. This involves a series of manual and mechanical processes to ensure the asparagus is fresh and ready for market.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The video frame shows a close-up of asparagus with a text overlay that says \"Did you know that.\"",
+            "- [frames=[1]] A hand wearing gloves is washing asparagus in a bowl.",
+            "- [frames=[2]] A combine harvester is harvesting wheat in a field, which is not directly related to asparagus harvesting.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from a close-up of asparagus to a hand washing it, indicating the next step in the harvesting process. The mention of asparagus growth rates suggests the importance of timely harvesting to maintain quality.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with sensors to detect asparagus.",
+            "- The robot needs to have a mechanism to grasp and manipulate asparagus.",
+            "- The robot must be able to communicate with other farm equipment if necessary.",
+            "- The robot should be within reach of the asparagus to perform the task.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The asparagus should be clean and free of dirt.",
+            "- The robot should be able to handle multiple asparagus stalks simultaneously.",
+            "- The robot should verify the cleanliness of the asparagus before moving on to the next step.",
+            "- The robot should ensure that the asparagus is not damaged during the cleaning process.",
+            "- The robot should be able to adapt to different sizes and shapes of asparagus stalks.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Uses its camera to identify asparagus stalks.",
+            "2. [type=navigation, frames=[1]] Moves its arm to position itself near the asparagus.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Uses its camera to identify asparagus stalks. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Moves its arm to position itself near the asparagus; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 6.899999999999999,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/VQqq76JuDYE/task00/sub01/motion.bvh",
+            "params_path": "results/momask/VQqq76JuDYE/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Explain the harvesting method and the use of specialized machinery.",
+      "start": 38.9,
+      "end": 44.2,
+      "subtasks": [
+        {
+          "text": "Specialized machinery is used to cut asparagus stalks without damaging the plant.",
+          "start": 38.9,
+          "end": 44.2,
+          "segment_ids": [
+            11,
+            12
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "VQqq76JuDYE/task01_sub00_f01.jpg",
+              "caption": "A machine is shown cutting asparagus in a field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "VQqq76JuDYE/task01_sub00_f02.jpg",
+              "caption": "A combine harvester is harvesting wheat, ensuring a fresh crop.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The specialized machinery cuts asparagus stalks efficiently while ensuring the plant's health for future harvests.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A machine is clearly visible in a field, cutting asparagus stalks.",
+            "- [frames=[1]] The machine has a sharp blade that moves smoothly across the asparagus.",
+            "- [frames=[1]] The asparagus stalks are cut at the base, leaving the plant intact.",
+            "- [frames=[1]] The machine does not damage the surrounding soil or other plants.",
+            "- [frames=[1]] The cut asparagus stalks fall onto the ground, ready for collection.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a modern agricultural setting where a specialized machine is performing the task of harvesting asparagus. The machine is designed to be precise and gentle, ensuring that the asparagus plant remains healthy and can produce future crops.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot must have knowledge of the asparagus plant structure and growth cycle.",
+            "- The robot should be aware of the specific cutting mechanism required for asparagus.",
+            "- The robot needs to understand the importance of not damaging the plant during the cutting process.",
+            "- The robot must be familiar with the field environment and the layout of the asparagus beds.",
+            "- The robot should know how to operate the specialized cutting machinery.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully identifies and locates the asparagus stalks.",
+            "- The robot operates the cutting mechanism without causing damage to the plant.",
+            "- The cut asparagus stalks are cleanly separated from the plant.",
+            "- The robot ensures that the cut asparagus falls onto the ground in a manner suitable for collection.",
+            "- The robot maintains the integrity of the asparagus bed for future harvests.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2]] Navigates to the asparagus.",
+            "2. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "3. [type=perception, frames=[1,2]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigates to the asparagus. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigates to the asparagus; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 5.300000000000004,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/VQqq76JuDYE/task01/sub00/motion.bvh",
+            "params_path": "results/momask/VQqq76JuDYE/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Highlight the modern agricultural technology in asparagus farming.",
+      "start": 52.1,
+      "end": 55.7,
+      "subtasks": [
+        {
+          "text": "Farmers combine traditional methods with advanced technology in asparagus farming.",
+          "start": 52.1,
+          "end": 55.7,
+          "segment_ids": [
+            15
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f00.jpg",
+              "relative_path": "VQqq76JuDYE/task02_sub00_f00.jpg",
+              "caption": "A woman in a blue apron is walking in a greenhouse, holding a tablet and gesturing towards a machine.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "VQqq76JuDYE/task02_sub00_f01.jpg",
+              "caption": "A woman in a blue apron is walking in a greenhouse with advanced technology methods.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "VQqq76JuDYE/task02_sub00_f02.jpg",
+              "caption": "A person is holding a phone in a field with the text \"So next time you\" overlaid.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Farmers are integrating traditional methods with advanced technology in asparagus farming, showcasing innovative practices in a greenhouse setting.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A woman in a blue apron is walking in a greenhouse, holding a tablet and gesturing towards a machine.",
+            "- [frames=[0,1]] The woman appears to be demonstrating or explaining something to an audience.",
+            "- [frames=[0,1]] Advanced technology methods are visible in the background, including a machine and possibly sensors or monitoring devices.",
+            "- [frames=[2]] A person is holding a phone in a field with the text \"So next time you\" overlaid, suggesting a transition to a broader context.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a blend of traditional farming practices and modern technological advancements. The woman in the blue apron likely represents a farmer who is knowledgeable about both old and new techniques, using a tablet to interact with sophisticated equipment. This integration highlights the evolving nature of agriculture, where historical methods are complemented by cutting-edge technology.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be able to recognize and navigate through a greenhouse environment.",
+            "- It must have the capability to identify and interact with tablets or other handheld devices.",
+            "- The robot needs to understand basic gestures and their meanings in a farming context.",
+            "- It should be equipped to recognize and interpret advanced agricultural machinery.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully identifies the woman in the blue apron as a key figure in the demonstration.",
+            "- It correctly interprets her gestures and the tablet she is holding.",
+            "- The robot accurately locates and interacts with the advanced machinery shown in the background.",
+            "- It comprehends the significance of the text overlay on the phone in the final frame.",
+            "- The robot provides a clear and concise summary of the integration of traditional and modern farming techniques.",
+            "",
+            "ORDERED_ROBOT (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.6000000000000014,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/VQqq76JuDYE/task02/sub00/motion.bvh",
+            "params_path": "results/momask/VQqq76JuDYE/task02/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

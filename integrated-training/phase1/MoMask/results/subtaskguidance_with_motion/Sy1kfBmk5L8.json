@@ -1,0 +1,431 @@
+{
+  "video_index": "Sy1kfBmk5L8",
+  "title": "Red Schoolhouses and White Churches Impact Economy",
+  "url": "https://www.youtube.com/watch?v=Sy1kfBmk5L8",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "The video discusses the importance of small family farms in the agricultural economy and the economic impact of farm income on the national economy.",
+  "tasks": [
+    {
+      "task": "Discuss the historical importance of small family farms in U.S. agriculture.",
+      "start": 161.63,
+      "end": 270.63,
+      "subtasks": [
+        {
+          "text": "Observe the world's largest pumpkin mentioned by Mr. Bowers.",
+          "start": 161.63,
+          "end": 164.63,
+          "segment_ids": [
+            26
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "Sy1kfBmk5L8/task00_sub00_f00.jpg",
+              "caption": "A man in a suit and tie is seated at a table with a nameplate that reads \"Arnold Paulson, Minn. Business Man.\"",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "Sy1kfBmk5L8/task00_sub00_f01.jpg",
+              "caption": "A man in a suit and tie is seated at a table with a nameplate that reads \"Arnold Paulson, Minn. Business Man.\"",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "Sy1kfBmk5L8/task00_sub00_f02.jpg",
+              "caption": "A man in a suit and tie is seated at a table with a nameplate that reads \"Arnold Paulson, Minn. Business Man.\"",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene shows Arnold Paulson, a Minnesota businessman, seated at a table during a discussion about the historical importance of small family farms in U.S. agriculture. The subtask involves observing the world's largest pumpkin mentioned by Mr. Bowers.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A man in a suit and tie is seated at a table with a nameplate that reads \"Arnold Paulson, Minn. Business Man.\"",
+            "- [frames=[0,1]] The background is a typical office setting with a desk, chair, and a few documents on the table.",
+            "- [frames=[0,1]] Mr. Bowers is speaking, likely pointing towards a large image or object off-camera.",
+            "- [frames=[0,1]] The camera is focused on Mr. Paulson, indicating he is the main subject of the discussion.",
+            "- [frames=[0,1]] There are no visible signs of a pumpkin or any other object related to the subtask within the immediate view.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene appears to be part of a tutorial video discussing the historical significance of small family farms in U.S. agriculture. Mr. Bowers, presumably another speaker, is making a point about a notable pumpkin, which is not directly visible in the current frame but is referenced in the subtask.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have the ability to recognize and track named individuals.",
+            "- The robot must be able to follow spoken commands and understand context.",
+            "- The robot needs to be aware of the video metadata and the specific subtask details.",
+            "- The robot should have a mechanism to pause and resume video playback if necessary.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify Mr. Bowers as the speaker.",
+            "- The robot must recognize the mention of the world's largest pumpkin.",
+            "- The robot should (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/Sy1kfBmk5L8/task00/sub00/motion.bvh",
+            "params_path": "results/momask/Sy1kfBmk5L8/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Note the contrast between small family farms and corporate farms.",
+          "start": 259.63,
+          "end": 270.63,
+          "segment_ids": [
+            38
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f00.jpg",
+              "relative_path": "Sy1kfBmk5L8/task00_sub01_f00.jpg",
+              "caption": "A man in a suit and tie is seated at a table with a nameplate that reads \"Walter Bowers, Kansas Economist.\"",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "Sy1kfBmk5L8/task00_sub01_f01.jpg",
+              "caption": "A man in a suit and tie is seated at a table with a nameplate that reads \"Walter Bowers, Kansas Economist.\"",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "Sy1kfBmk5L8/task00_sub01_f02.jpg",
+              "caption": "A man in a suit and tie is seated at a table with a nameplate that reads \"Walter Bowers, Kansas Economist.\"",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene focuses on Walter Bowers, a Kansas economist, discussing the contrast between small family farms and corporate farms in the context of U.S. agriculture.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1,2]] The same man in a suit and tie is seated at a table with a nameplate that reads \"Walter Bowers, Kansas Economist.\" He remains stationary throughout the frames.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "Walter Bowers is likely presenting or explaining the differences between small family farms and corporate farms. Given his role as an economist, he probably has data or examples to support his points about the economic impact of these different types of farming.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be positioned in front of the screen where the video is playing.",
+            "- The robot should have access to a camera to observe the screen.",
+            "- The robot should have audio capabilities to listen to the video.",
+            "- The robot should have the ability to read and understand the content being presented.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the contrast between small family farms and corporate farms.",
+            "- The robot should be able to summarize the key points made by Walter Bowers regarding the economic significance of small family farms.",
+            "- The robot should be able to note any specific statistics or examples provided by Walter Bowers.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1,2]] Should observe the man at the table and verify that he is Walter Bowers, the Kansas Economist.",
+            "2. [type=perception, frames=[0,1,2]] Should listen to the audio and confirm that Walter Bowers is discussing the contrast between small family farms and corporate farms.",
+            "3. [type=manipulation, frames=[0,1,2]] Should take notes on.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Should observe the man at the table and verify that he is Walter Bowers, the Kansas Economist. It then verifies the key detail directly from the frames (Should observe the man at the table and verify that he is Walter Bowers, the Kansas Economist).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 11.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/Sy1kfBmk5L8/task00/sub01/motion.bvh",
+            "params_path": "results/momask/Sy1kfBmk5L8/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Examine the impact of underpayment in agriculture on rural communities.",
+      "start": 437.7,
+      "end": 957.5,
+      "subtasks": [
+        {
+          "text": "Highlight the loss of nearly $1 billion in South Dakota due to underpayment, as mentioned by Mr. Rash.",
+          "start": 437.7,
+          "end": 446.7,
+          "segment_ids": [
+            59
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "Sy1kfBmk5L8/task01_sub00_f00.jpg",
+              "caption": "A man in a suit and tie is speaking into a microphone.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "Sy1kfBmk5L8/task01_sub00_f01.jpg",
+              "caption": "A man in a suit and tie is speaking into a microphone.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "Sy1kfBmk5L8/task01_sub00_f02.jpg",
+              "caption": "A man in a suit and tie is speaking into a microphone.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to highlight the economic impact of underpayment in agriculture, specifically mentioning the loss of nearly $1 billion in South Dakota as stated by Mr. Rash.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A man in a suit and tie is speaking into a microphone.",
+            "- [frames=[0,1]] The man appears to be presenting data or statistics.",
+            "- [frames=[0,1]] The background shows a slide with text and charts.",
+            "- [frames=[0,1]] The slide mentions South Dakota and underpayment in agriculture.",
+            "- [frames=[0,1]] The man's hands are visible, gesturing while speaking.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a professional presentation setting where a speaker is discussing the economic impact of underpayment in agriculture, focusing on South Dakota. The slide contains key information about the financial loss due to underpayment.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to the video feed.",
+            "- The robot should recognize the speaker and the slide content.",
+            "- The robot should be able to navigate through the video frames accurately.",
+            "- The robot should have the capability to highlight or overlay text on the video frames.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully highlights the $1 billion loss in South Dakota.",
+            "- The robot verifies the highlighted text matches the spoken content.",
+            "- The robot ensures the highlighted area is clear and legible.",
+            "- The robot cross-checks the highlighted information with the slide content.",
+            "- The robot confirms the highlighted text is visible throughout the specified time range.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the frame where the man is speaking about the $1 billion loss.",
+            "2. [type=perception, frames=[0,1]] Verify the man is speaking about the $1 billion loss.",
+            "3. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the frame where the man is speaking about the $1 billion loss. It then verifies the key detail directly from the frames (Verify the man is speaking about the $1 billion loss).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the frame where the man is speaking about the $1 billion loss; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 9.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/Sy1kfBmk5L8/task01/sub00/motion.bvh",
+            "params_path": "results/momask/Sy1kfBmk5L8/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Mention the unanimous agreement on the price problem in agriculture at the Blue Ribbon Conference.",
+          "start": 797.5,
+          "end": 809.5,
+          "segment_ids": [
+            99
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f00.jpg",
+              "relative_path": "Sy1kfBmk5L8/task01_sub01_f00.jpg",
+              "caption": "A man in a suit and tie is seated and speaking into a microphone.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "Sy1kfBmk5L8/task01_sub01_f01.jpg",
+              "caption": "A man in a suit and glasses is seated and appears to be listening intently.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "Sy1kfBmk5L8/task01_sub01_f02.jpg",
+              "caption": "A man wearing glasses and a suit is seated at a table with a nameplate that reads \"Arnold Paulson, Minn. Business Man.\"",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe a scene where a man in a suit and tie is speaking about the price problem in agriculture at a conference, followed by another man in a suit and glasses listening intently. The scene will conclude with a man wearing glasses and a suit at a table with a nameplate indicating he is Arnold Paulson, a businessman from Minnesota.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A man in a suit and tie is seated and speaking into a microphone.",
+            "- [frames=[1]] A man in a suit and glasses is seated and appears to be listening intently.",
+            "- [frames=[2]] A man wearing glasses and a suit is seated at a table with a nameplate that reads \"Arnold Paulson, Minn. Business Man.\"",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a conference setting where a speaker is addressing an audience about the price problem in agriculture. Another attendee is attentively listening, and a businessman from Minnesota is present, likely involved in the discussion.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be in a position to observe the scene clearly.",
+            "- The robot should have access to the video feed of the conference.",
+            "- The robot should be able to identify the speakers and attendees based on their attire and context.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the man speaking about the price problem in agriculture.",
+            "- The robot should recognize the man in the suit and glasses as an attentive listener.",
+            "- The robot should confirm the identity of Arnold Paulson, the businessman from Minnesota.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Identify the man in a suit and tie as the speaker discussing the price problem in agriculture.",
+            "2. [type=perception, frames=[1]] Recognize the man in a suit and glasses as an.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the man in a suit and tie as the speaker discussing the price problem in agriculture. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 12.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/Sy1kfBmk5L8/task01/sub01/motion.bvh",
+            "params_path": "results/momask/Sy1kfBmk5L8/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Describe the advice to restore farm income through collective bargaining.",
+          "start": 946.5,
+          "end": 957.5,
+          "segment_ids": [
+            118
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub02_f00.jpg",
+              "relative_path": "Sy1kfBmk5L8/task01_sub02_f00.jpg",
+              "caption": "An older man in a suit is seated at a table with a nameplate that reads \"Carl Wilken.\"",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub02_f01.jpg",
+              "relative_path": "Sy1kfBmk5L8/task01_sub02_f01.jpg",
+              "caption": "A man in a suit is seated at a table with a microphone, with text across the screen indicating it is from the U.S. Farm Report.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub02_f02.jpg",
+              "relative_path": "Sy1kfBmk5L8/task01_sub02_f02.jpg",
+              "caption": "Carl Wilken is speaking at a podium in front of a sign that reads \"U.S. Farm Report National Farmers Organization Corning, Iowa.\"",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should describe the advice given by Carl Wilken to restore farm income through collective bargaining, as presented in a segment of the U.S. Farm Report.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] An older man in a suit is seated at a table with a nameplate that reads \"Carl Wilken.\"",
+            "- [frames=[1]] A man in a suit is seated at a table with a microphone, with text across the screen indicating it is from the U.S. Farm Report.",
+            "- [frames=[2]] Carl Wilken is speaking at a podium in front of a sign that reads \"U.S. Farm Report National Farmers Organization Corning, Iowa.\"",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts Carl Wilken providing advice on restoring farm income through collective bargaining during a segment of the U.S. Farm Report. The setting is a podium in an organization meeting, likely a conference or event related to farming and agriculture.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the context of agricultural economics and collective bargaining.",
+            "- The robot should have access to the video frames and be able to analyze them.",
+            "- The robot should be capable of understanding spoken language and transcribing it accurately.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the advice given by Carl Wilken.",
+            "- The robot should ensure the description aligns with the content of the U.S. Farm Report segment.",
+            "- The robot should provide a clear and concise summary of the advice.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Listen to Carl Wilken's introduction and identify his name and role.",
+            "2. [type=perception, frames=[1]] Verify the source of the segment is the U.S. Farm Report.",
+            "3. [type=perception, frames=[2]] Listen to Carl Wilken.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Listen to Carl Wilken's introduction and identify his name and role. It then verifies the key detail directly from the frames (Verify the source of the segment is the U.S. Farm Report).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 11.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/Sy1kfBmk5L8/task01/sub02/motion.bvh",
+            "params_path": "results/momask/Sy1kfBmk5L8/task01/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

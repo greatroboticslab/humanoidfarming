@@ -1,0 +1,853 @@
+{
+  "video_index": "WhOrIUlrnPo",
+  "title": "Organic Farming: Theory and Benefits",
+  "url": "https://www.youtube.com/watch?v=WhOrIUlrnPo",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Provides an overview of conventional farming and the introduction of organic farming as an alternative.",
+  "tasks": [
+    {
+      "task": "Describe conventional farming practices and their impact on population growth.",
+      "start": 17.68,
+      "end": 51.68,
+      "subtasks": [
+        {
+          "text": "Observe how populations have grown rapidly and the intensification of farming practices.",
+          "start": 17.68,
+          "end": 34.68,
+          "segment_ids": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "WhOrIUlrnPo/task00_sub00_f00.jpg",
+              "caption": "The video frame shows a cartoon Earth with clouds and continents.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "WhOrIUlrnPo/task00_sub00_f01.jpg",
+              "caption": "The video frame shows a graph representing the human population growth over time.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "WhOrIUlrnPo/task00_sub00_f02.jpg",
+              "caption": "The video frame shows a graph representing the human population growth over time.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub00_f03.jpg",
+              "relative_path": "WhOrIUlrnPo/task00_sub00_f03.jpg",
+              "caption": "The video shows a graph representing the human population growth over time.",
+              "frame_index": 3
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask involves observing the rapid growth of human populations and the correlation with the intensification of farming practices.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The video frame shows a cartoon Earth with clouds and continents, setting the scene for global population trends.",
+            "- [frames=[1-3]] Multiple frames display graphs showing the exponential increase in human population over time.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The graphs illustrate a clear trend of population growth, which is likely to be discussed in relation to agricultural practices. The Earth image provides context for the global scale of this phenomenon.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to the video frames.",
+            "- The robot needs to be able to read and interpret the graphs.",
+            "- The robot should be capable of navigating through the video frames.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the trend in population growth.",
+            "- It should recognize the correlation between population growth and farming practices.",
+            "- The robot should be able to communicate the observed information effectively.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Navigate to the frame showing the Earth to set the global context.",
+            "2. [type=perception, frames=[0,1,2,3]] Verify/confirm the key observation before reporting.",
+            "3. [type=perception, frames=[0,1,2,3]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[0,1,2,3]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2,3]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the frame showing the Earth to set the global context. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the frame showing the Earth to set the global context; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 17.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/WhOrIUlrnPo/task00/sub00/motion.bvh",
+            "params_path": "results/momask/WhOrIUlrnPo/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Note the use of fertilizers and pesticides to maximize crop yields.",
+          "start": 45.68,
+          "end": 51.68,
+          "segment_ids": [
+            7
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f00.jpg",
+              "relative_path": "WhOrIUlrnPo/task00_sub01_f00.jpg",
+              "caption": "A group of stick figures is shown in a row.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "WhOrIUlrnPo/task00_sub01_f01.jpg",
+              "caption": "An airplane is flying over a scenic landscape with mountains, clouds, and a sun.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "WhOrIUlrnPo/task00_sub01_f02.jpg",
+              "caption": "Three icons of a cow, pig, and chick are displayed in a circular format.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on illustrating the use of fertilizers and pesticides in conventional farming to enhance crop yields, which is part of the broader discussion on conventional farming practices and their impacts.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A group of stick figures is shown in a row, possibly representing farmers or agricultural workers.",
+            "- [frames=[1]] An airplane is flying over a scenic landscape with mountains, clouds, and a sun, indicating a broad view of agricultural land.",
+            "- [frames=[2]] Three icons of a cow, pig, and chick are displayed in a circular format, suggesting the presence of livestock in the farming context.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from a close-up of farm workers to a wide aerial view of farmland, then to symbols representing different aspects of agriculture, including livestock. This sequence likely aims to provide a comprehensive overview of conventional farming practices.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture and analyze the scenes.",
+            "- The robot needs to have knowledge about conventional farming practices and their impacts.",
+            "- The robot must be able to communicate with the video system to synchronize actions with the video timeline.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify and describe the use of fertilizers and pesticides.",
+            "- It should measure or verify the impact of these practices on crop yields.",
+            "- The robot should ensure that the information aligns with the video content.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Capture an image of the stick figures to recognize the context of farm workers.",
+            "2. [type=perception, frames=[1]] Analyze the aerial view to identify the farmland and its features.",
+            "3. [type=perception, frames=[2]] Recognize the livestock icons to understand the role of animals in the farming.",
+            "4. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture an image of the stick figures to recognize the context of farm workers. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 6.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/WhOrIUlrnPo/task00/sub01/motion.bvh",
+            "params_path": "results/momask/WhOrIUlrnPo/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Introduce organic farming as a sustainable alternative.",
+      "start": 98.68,
+      "end": 150.68,
+      "subtasks": [
+        {
+          "text": "Highlight the difference in organic farming methods, focusing on the absence of chemical fertilizers and pesticides.",
+          "start": 98.68,
+          "end": 104.68,
+          "segment_ids": [
+            20
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "WhOrIUlrnPo/task01_sub00_f00.jpg",
+              "caption": "A green combine harvester is driving through a field with bees flying around.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "WhOrIUlrnPo/task01_sub00_f01.jpg",
+              "caption": "The video frame shows a hand planting a seedling with the text \"No Chemical Fertilisers\" in the background.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "WhOrIUlrnPo/task01_sub00_f02.jpg",
+              "caption": "The video frame shows three circular images with text indicating no chemical fertilizers, no herbicides, and no pesticides.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will highlight the key differences between conventional and organic farming methods, specifically focusing on the absence of chemical fertilizers and pesticides.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A green combine harvester is driving through a field with bees flying around.",
+            "- [frames=[1]] A hand is shown planting a seedling with the text \"No Chemical Fertilisers\" in the background.",
+            "- [frames=[2]] Three circular images are displayed, each indicating no chemical fertilizers, no herbicides, and no pesticides.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from showing a traditional farming method using modern machinery to highlighting the organic approach through direct actions like planting seeds and visual aids.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a display screen or an interactive interface.",
+            "- The robot needs to have knowledge about organic farming practices.",
+            "- The robot must be able to navigate and manipulate objects within the frame.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should clearly demonstrate the absence of chemical fertilizers and pesticides.",
+            "- The robot should accurately convey the benefits of organic farming.",
+            "- The robot should ensure the audience understands the difference between conventional and organic farming methods.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Move to the position where the combine harvester is visible.",
+            "2. [type=perception, frames=[0]] Verify the presence of the combine harvester and bees.",
+            "3. [type=manipulation, frames=[1]] Plant a seedling while displaying the text \"No Chemical Fertilisers.\".",
+            "4. [type=communication, frames=[1]] Explain the significance of using no chemical fertilizers.",
+            "5. [type=navigation, frames=[2]] Move to the position where the circular images are displayed.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to the position where the combine harvester is visible. It then verifies the key detail directly from the frames (Verify the presence of the combine harvester and bees).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move to the position where the combine harvester is visible; Plant a seedling while displaying the text \"No Chemical Fertilisers.\"; Move to the position where the circular images are displayed; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 6.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/WhOrIUlrnPo/task01/sub00/motion.bvh",
+            "params_path": "results/momask/WhOrIUlrnPo/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Describe the use of natural alternatives like manure in organic farming.",
+          "start": 117.68,
+          "end": 120.68,
+          "segment_ids": [
+            25
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f00.jpg",
+              "relative_path": "WhOrIUlrnPo/task01_sub01_f00.jpg",
+              "caption": "An animated apple is split in half, showing the inside and price tags.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "WhOrIUlrnPo/task01_sub01_f01.jpg",
+              "caption": "The video shows a cartoon scene with a sun, clouds, and poop.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "WhOrIUlrnPo/task01_sub01_f02.jpg",
+              "caption": "A cartoon scene shows ants moving across a field with a blue arrow pointing downwards.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will describe the use of manure as a natural alternative in organic farming, using animated visuals to illustrate the concept.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] An animated apple is split in half, showing the inside and price tags.",
+            "- [frames=[1]] A cartoon scene with a sun, clouds, and poop appears.",
+            "- [frames=[2]] Ants are shown moving across a field with a blue arrow pointing downwards.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes transition from an apple to a humorous representation of manure, followed by ants symbolizing decomposition and nutrient spread in a field. This sequence visually explains how manure enriches soil naturally.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with organic farming practices.",
+            "- The robot needs to have access to the correct animation files.",
+            "- The robot should be able to narrate and explain concepts clearly.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the benefits of using manure in organic farming.",
+            "- The robot should correctly identify and explain the visual elements in the frames.",
+            "- The robot should ensure the explanation aligns with the tutorial's objective.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Navigate to the apple split image and pause.",
+            "2. [type=perception, frames=[0]] Read the text on the apple and confirm it relates to cost.",
+            "3. [type=navigation, frames=[1]] Transition to the cartoon scene with poop.",
+            "4. [type=communication, frames=[1]] Highlight the poop element and explain its role in organic farming.",
+            "5. [type=navigation, frames=[2]] Move to the scene with ants and the field.",
+            "6. [type=communication, frames=[2]] Point out the ants and explain their role in spreading nutrients.",
+            "7. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the apple split image and pause. It then verifies the key detail directly from the frames (Read the text on the apple and confirm it relates to cost).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the apple split image and pause; Transition to the cartoon scene with poop; Move to the scene with ants and the field; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/WhOrIUlrnPo/task01/sub01/motion.bvh",
+            "params_path": "results/momask/WhOrIUlrnPo/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Mention crop rotation and its benefits in organic farming.",
+          "start": 132.68,
+          "end": 150.68,
+          "segment_ids": [
+            29,
+            30,
+            31,
+            32,
+            33,
+            34
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub02_f00.jpg",
+              "relative_path": "WhOrIUlrnPo/task01_sub02_f00.jpg",
+              "caption": "The video frame shows a cartoon landscape with a sun, clouds, and grass.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub02_f01.jpg",
+              "relative_path": "WhOrIUlrnPo/task01_sub02_f01.jpg",
+              "caption": "The video shows a field with three plates of vegetables.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub02_f02.jpg",
+              "relative_path": "WhOrIUlrnPo/task01_sub02_f02.jpg",
+              "caption": "A plant with nitrogen in the air and nitrogen molecules around it.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task01_sub02_f03.jpg",
+              "relative_path": "WhOrIUlrnPo/task01_sub02_f03.jpg",
+              "caption": "A field with rows of crops, including cucumbers, carrots, and lettuce.",
+              "frame_index": 3
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will introduce crop rotation and its benefits in organic farming, using a series of visual aids to enhance understanding.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The video frame shows a cartoon landscape with a sun, clouds, and grass.",
+            "- [frames=[1]] The video shows a field with three plates of vegetables.",
+            "- [frames=[2]] A plant with nitrogen in the air and nitrogen molecules around it is depicted.",
+            "- [frames=[3]] A field with rows of crops, including cucumbers, carrots, and lettuce, is shown.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes transition from a general setting to specific examples of crops, highlighting the importance of crop rotation through visual representations of nitrogen cycles and diverse plantings.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a display screen to show images and videos.",
+            "- The robot needs to have knowledge about organic farming practices.",
+            "- The robot must be able to navigate to different frames and manipulate the display if needed.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully introduces the concept of crop rotation.",
+            "- The robot explains the benefits of crop rotation in organic farming.",
+            "- The robot visually demonstrates the nitrogen cycle and its role in crop rotation.",
+            "- The robot ensures the audience understands the importance of rotating crops.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Navigate to the initial cartoon landscape frame.",
+            "2. [type=perception, frames=[0]] Verify the presence of the sun, clouds, and grass.",
+            "3. [type=navigation, frames=[1]] Move to the frame showing a field with vegetables.",
+            "4. [type=communication, frames=[1]] Display an image of crop rotation on the robot's screen.",
+            "5. [type=communication, frames=[1]] Explain the concept of crop rotation and its.",
+            "6. [type=navigation, frames=[0,1,2,3]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the initial cartoon landscape frame. It then verifies the key detail directly from the frames (Verify the presence of the sun, clouds, and grass). After verification, it communicates the result clearly (Display an image of crop rotation on the robot's screen).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the initial cartoon landscape frame; Move to the frame showing a field with vegetables; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 18.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/WhOrIUlrnPo/task01/sub02/motion.bvh",
+            "params_path": "results/momask/WhOrIUlrnPo/task01/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Explain the challenge of lower yields in organic farming.",
+          "start": 109.68,
+          "end": 117.68,
+          "segment_ids": [
+            23,
+            24
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub03_f00.jpg",
+              "relative_path": "WhOrIUlrnPo/task01_sub03_f00.jpg",
+              "caption": "The video frame displays the text \"Natural Alternatives\" on a white background.",
+              "frame_index": 0
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will explain the challenge of lower yields in organic farming, using a white background with the text \"Natural Alternatives\".",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The video frame displays the text \"Natural Alternatives\" on a white background.",
+            "- [frames=[0]] The background is plain white, with no other elements visible.",
+            "- [frames=[0]] The text \"Natural Alternatives\" is centered and clearly legible.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene is simple, with a white background and the text \"Natural Alternatives\". This setup suggests a focus on clarity and simplicity in communication.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be positioned in front of the camera.",
+            "- The robot's display should be ready to show the text \"Natural Alternatives\".",
+            "- The robot should have access to the necessary information about lower yields in organic farming.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately convey the challenge of lower yields in organic farming.",
+            "- The explanation should be clear and concise.",
+            "- The robot should maintain eye contact with the viewer.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Position the robot in front of the camera.",
+            "2. [type=perception, frames=[0]] Verify that the text \"Natural Alternatives\" is displayed correctly.",
+            "3. [type=communication, frames=[0]] Announce, \"In organic farming, one of the main challenges is lower yields compared to conventional methods.\".",
+            "4. [type=communication, frames=[0]] Explain, \"This is because organic farms do not use synthetic fertilizers and pesticides, which can limit plant growth and pest control.\".",
+            "5. [type=communication, frames=[0]] Add, \"However, many farmers find this trade-off worth it for the environmental benefits and health of their produce.\".",
+            "6. [type=navigation, frames=[0]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Position the robot in front of the camera. It then verifies the key detail directly from the frames (Verify that the text \"Natural Alternatives\" is displayed correctly). After verification, it communicates the result clearly (Announce, \"In organic farming, one of the main challenges is lower yields compared to conventional methods.\").",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Position the robot in front of the camera; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 8.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/WhOrIUlrnPo/task01/sub03/motion.bvh",
+            "params_path": "results/momask/WhOrIUlrnPo/task01/sub03/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Compare the environmental impact of organic farming to conventional farming.",
+      "start": 157.68,
+      "end": 205.68,
+      "subtasks": [
+        {
+          "text": "Identify how organic farming better maintains biodiversity.",
+          "start": 170.68,
+          "end": 189.68,
+          "segment_ids": [
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f00.jpg",
+              "relative_path": "WhOrIUlrnPo/task02_sub00_f00.jpg",
+              "caption": "A group of farmers in hats are working in a field.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "WhOrIUlrnPo/task02_sub00_f01.jpg",
+              "caption": "A bee flies over a grassy field with trees and a sun in the sky.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "WhOrIUlrnPo/task02_sub00_f02.jpg",
+              "caption": "Two bees are flying around a beehive in a field with flowers and trees.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task02_sub00_f03.jpg",
+              "relative_path": "WhOrIUlrnPo/task02_sub00_f03.jpg",
+              "caption": "A fox is sitting on the grass with a flower and mountains in the background.",
+              "frame_index": 3
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should identify how organic farming better maintains biodiversity by observing the presence of various species in the field and comparing them to conventional farming practices.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A group of farmers in hats are working in a field, indicating active agricultural activity.",
+            "- [frames=[1]] A bee flies over a grassy field with trees and a sun in the sky, suggesting a natural and diverse environment.",
+            "- [frames=[2]] Two bees are flying around a beehive in a field with flowers and trees, highlighting the presence of pollinators and diverse flora.",
+            "- [frames=[3]] A fox is sitting on the grass with a flower and mountains in the background, showing a variety of wildlife and vegetation.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict a diverse and natural environment with multiple species such as bees, a fox, and various plants. This suggests that organic farming practices are contributing to maintaining biodiversity.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have knowledge about the differences between organic and conventional farming.",
+            "- The robot should be able to recognize and identify different species of animals and plants.",
+            "- The robot should have access to a database of typical organic farming environments.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should be able to confirm the presence of diverse species in the field.",
+            "- It should measure the number of different species observed.",
+            "- The robot should cross-check the findings with known organic farming benefits.",
+            "- It should verify the absence of synthetic pesticides and fertilizers.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Scan the field for signs of organic farming practices.",
+            "2. [type=perception, frames=[1]] Observe the flight pattern of the bee to assess its activity level.",
+            "3. [type=perception, frames=[2]] Identify the beeh.",
+            "4. [type=perception, frames=[0,1,2,3]] Verify/confirm the key observation before reporting.",
+            "5. [type=navigation, frames=[0,1,2,3]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Scan the field for signs of organic farming practices. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 19.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/WhOrIUlrnPo/task02/sub00/motion.bvh",
+            "params_path": "results/momask/WhOrIUlrnPo/task02/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Point out the environmental benefits of not using herbicides in organic farming.",
+          "start": 157.68,
+          "end": 167.68,
+          "segment_ids": [
+            37,
+            38,
+            39
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub01_f00.jpg",
+              "relative_path": "WhOrIUlrnPo/task02_sub01_f00.jpg",
+              "caption": "A green combine harvester is harvesting crops in a field, while bees fly around a beehive.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub01_f01.jpg",
+              "relative_path": "WhOrIUlrnPo/task02_sub01_f01.jpg",
+              "caption": "Three farmers in hats are working in a field of green plants.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub01_f02.jpg",
+              "relative_path": "WhOrIUlrnPo/task02_sub01_f02.jpg",
+              "caption": "Three farmers are working in a field, wearing red shirts and hats.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should explain the environmental benefits of not using herbicides in organic farming, focusing on the absence of harmful chemicals in the ecosystem.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A green combine harvester is harvesting crops in a field, while bees fly around a beehive.",
+            "- [frames=[1]] Three farmers in hats are working in a field of green plants.",
+            "- [frames=[2]] Three farmers are working in a field, wearing red shirts and hats.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a typical organic farm with active farming activities. The presence of a combine harvester and bees indicates a diverse and healthy agricultural environment.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the concept of organic farming.",
+            "- The robot should know about the environmental impacts of herbicides.",
+            "- The robot should be able to communicate effectively with the audience.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the benefits of not using herbicides.",
+            "- The robot should highlight the positive impact on the ecosystem.",
+            "- The robot should ensure the information is clear and understandable.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Observe the green combine harvester and bees to confirm the organic farming setting.",
+            "2. [type=perception, frames=[1]] Identify the farmers working in the field to establish context.",
+            "3. [type=manipulation, frames=[2]] Adjust the robot's posture to face the audience.",
+            "4. [type=communication, frames=[0,1,2]] Explain that organic farming avoids the use of herbicides, which helps protect the environment.",
+            "5. [type=communication, frames=[0,1,2]] Emphasize how this practice reduces chemical pollution in soil and water.",
+            "6. [type=communication, frames=[0,1,2]] Mention the importance of preserving beneficial insects like.",
+            "7. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Observe the green combine harvester and bees to confirm the organic farming setting. It then verifies the key detail directly from the frames (Observe the green combine harvester and bees to confirm the organic farming setting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Adjust the robot's posture to face the audience; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 10.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/WhOrIUlrnPo/task02/sub01/motion.bvh",
+            "params_path": "results/momask/WhOrIUlrnPo/task02/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Explain the trade-off of more labor-intensive weeding in organic farming.",
+          "start": 157.68,
+          "end": 170.68,
+          "segment_ids": [
+            40,
+            37
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub02_f01.jpg",
+              "relative_path": "WhOrIUlrnPo/task02_sub02_f01.jpg",
+              "caption": "Three farmers in hats are working in a field of green plants.",
+              "frame_index": 1
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will explain the trade-off involved in using more labor-intensive methods for weeding in organic farming compared to conventional farming.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] Three farmers in hats are working in a field of green plants.",
+            "- The farmers are manually pulling weeds from the soil.",
+            "- The field is lush with green vegetation, indicating a healthy crop environment.",
+            "- The farmers' tools appear to be simple hand tools like hoes and trowels.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a typical organic farm where manual labor is used for weeding. This method is more labor-intensive but ensures no chemical residues on the crops, which is a key principle of organic farming.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have knowledge about the differences between organic and conventional farming practices.",
+            "- It needs to understand the concept of labor intensity and its implications.",
+            "- The robot must be able to communicate effectively with the audience.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the increased labor required for weeding in organic farming.",
+            "- It should highlight the benefits of this method, such as avoiding chemical residues.",
+            "- The explanation should be clear and concise, suitable for a tutorial video.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Observe the farmers and their activities in the field.",
+            "2. [type=communication, frames=[1]] Announce the topic of discussion: \"Let's talk about the trade-offs in organic farming.\".",
+            "3. [type=manipulation, frames=[1]] Demonstrate the process of manual weeding by mimicking the farmers' actions.",
+            "4. [type=perception, frames=[1]] Verify the effectiveness of manual weeding by observing the cleared area.",
+            "5. [type=communication, frames=[1]] Explain the increased labor required for we.",
+            "6. [type=navigation, frames=[1]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Observe the farmers and their activities in the field. It then verifies the key detail directly from the frames (Verify the effectiveness of manual weeding by observing the cleared area). After verification, it communicates the result clearly (Announce the topic of discussion: \"Let's talk about the trade-offs in organic farming.\").",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Demonstrate the process of manual weeding by mimicking the farmers' actions; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 13.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/WhOrIUlrnPo/task02/sub02/motion.bvh",
+            "params_path": "results/momask/WhOrIUlrnPo/task02/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Describe the potential for healthier, chemical-free food in organic farming.",
+          "start": 196.68,
+          "end": 205.68,
+          "segment_ids": [
+            50,
+            51
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub03_f00.jpg",
+              "relative_path": "WhOrIUlrnPo/task02_sub03_f00.jpg",
+              "caption": "A factory with smokestacks emitting smoke against a blue sky with a sun.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub03_f01.jpg",
+              "relative_path": "WhOrIUlrnPo/task02_sub03_f01.jpg",
+              "caption": "An animated apple is split in half, showing its inside and price tags.",
+              "frame_index": 1
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will describe how organic farming can provide healthier, chemical-free food by contrasting it with conventional farming practices.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A factory with smokestacks emitting smoke against a blue sky with a sun suggests conventional farming's negative environmental impact.",
+            "- [frames=[1]] An animated apple split in half, showing its inside and price tags, indicates the focus on produce quality and cost.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene contrasts conventional farming, represented by a polluted industrial setting, with organic farming, symbolized by an unblemished apple. This comparison highlights the health benefits and purity of organic produce.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have knowledge about the environmental impacts of conventional farming.",
+            "- It needs to understand the benefits of organic farming.",
+            "- The robot must be able to communicate effectively to convey the message clearly.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the health benefits of organic farming.",
+            "- It must compare these benefits with the drawbacks of conventional farming.",
+            "- The robot should ensure the audience understands the importance of chemical-free food.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Move to the factory scene to begin the comparison.",
+            "2. [type=perception, frames=[0]] Analyze the factory image to emphasize pollution.",
+            "3. [type=communication, frames=[0]] Explain the negative environmental impact of conventional farming.",
+            "4. [type=navigation, frames=[1]] Transition to the apple split in half.",
+            "5. [type=perception, frames=[1]] Examine the apple to highlight its purity.",
+            "6. [type=communication, frames=[1]] Describe the health benefits of organic farming.",
+            "7. [type=communication, frames=[0,1]] Compare the health benefits of organic farming with the drawbacks of conventional farming.",
+            "8. [type=perception, frames=[0,1]] Verify/confirm the key observation before reporting.",
+            "9. [type=navigation, frames=[0,1]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to the factory scene to begin the comparison. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Transition to the apple split in half; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 9.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/WhOrIUlrnPo/task02/sub03/motion.bvh",
+            "params_path": "results/momask/WhOrIUlrnPo/task02/sub03/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,399 @@
+{
+  "video_index": "dUUG_BgEhiw",
+  "title": "Rotational Grazing for Strong Roots",
+  "url": "https://www.youtube.com/watch?v=dUUG_BgEhiw",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Explains the method of rotating livestock to mimick wildlife behavior for soil health.",
+  "tasks": [
+    {
+      "task": "Explain the concept of rotating livestock to mimic wildlife behavior.",
+      "start": 0.0,
+      "end": 14.64,
+      "subtasks": [
+        {
+          "text": "Describe how wildlife, such as buffalo, antelope, and deer, rotated constantly.",
+          "start": 0.0,
+          "end": 6.88,
+          "segment_ids": [
+            0,
+            1
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "dUUG_BgEhiw/task00_sub00_f00.jpg",
+              "caption": "A man in a green jacket is sitting in a field, with the text \"The Why Behind Rotational Grazing\" and \"A. Jay Heiss Ranch",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "dUUG_BgEhiw/task00_sub00_f01.jpg",
+              "caption": "A man in a green jacket is sitting in a field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "dUUG_BgEhiw/task00_sub00_f02.jpg",
+              "caption": "The video frame shows a man in a field, with text that reads \"The Why Behind Rotational Grazing\" and \"Growing Resilience SD.com.\"",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video introduces the concept of rotational grazing by explaining how wildlife naturally rotate their grazing patterns, which is then mimicked in agricultural practices.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A man in a green jacket is sitting in a field, likely preparing to explain the concept.",
+            "- [frames=[2]] The scene remains similar, with the man still present in the field, but now the focus shifts to the text overlay.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a man in a field, possibly at an agricultural site, where he is about to discuss the concept of rotational grazing. The text overlay suggests that the explanation will cover the natural behavior of wildlife and its application in farming.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be positioned near the field where the man is standing.",
+            "- The robot should have access to a display or screen to show relevant information.",
+            "- The robot should be able to communicate with the man and understand his gestures and speech.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately convey the concept of how wildlife rotate their grazing patterns.",
+            "- The robot should be able to read and display the relevant text overlays correctly.",
+            "- The robot should maintain eye contact with the man during the explanation.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Move to a position near the man in the field.",
+            "2. [type=perception, frames=[0,1]] Observe the man and the text overlay on the field.",
+            "3. [type=perception, frames=[0,1]] Confirm the man's presence and the text overlay.",
+            "4. [type=navigation, frames=[2]] Move to a position where the robot can display the text overlay.",
+            "5. [type=communication, frames=[2]] Display the text \"The Why Behind Rotational.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to a position near the man in the field. It then verifies the key detail directly from the frames (Confirm the man's presence and the text overlay). After verification, it communicates the result clearly (Display the text \"The Why Behind Rotational).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move to a position near the man in the field; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 6.88,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/dUUG_BgEhiw/task00/sub00/motion.bvh",
+            "params_path": "results/momask/dUUG_BgEhiw/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Note that before fences, these animals were never in the same area for 40-50 days.",
+          "start": 6.88,
+          "end": 14.64,
+          "segment_ids": [
+            2,
+            3
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "dUUG_BgEhiw/task00_sub01_f01.jpg",
+              "caption": "The video frame shows a man sitting in a field, with text overlaid that reads \"The Why Behind Rotational Grazing.\"",
+              "frame_index": 1
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will explain why rotational grazing is beneficial by highlighting the historical grazing patterns of livestock before modern fencing practices.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A man is seen sitting in a field with text overlay stating \"The Why Behind Rotational Grazing.\"",
+            "- [frames=[1]] The background shows a wide open field with grass and some livestock.",
+            "- [frames=[1]] The man appears to be explaining something to an audience, possibly through a video or live stream.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a man in a field discussing the concept of rotational grazing. He is likely providing context on how livestock used to graze before the introduction of fencing, emphasizing the natural behavior of animals moving across large areas.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a display screen to show relevant images and text.",
+            "- The robot needs to have a voice module to narrate the explanation.",
+            "- The robot must be able to read and interpret the text overlay on the video frame.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully explains the historical grazing patterns.",
+            "- The robot accurately conveys the significance of animals not being confined to the same area for extended periods.",
+            "- The robot ensures the explanation aligns with the provided text overlay.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Position the robot's camera to focus on the man and the text overlay.",
+            "2. [type=perception, frames=[1]] Read the text overlay \"The Why Behind Rotational Grazing\" aloud.",
+            "3. [type=manipulation, frames=[1]] Adjust the robot’s display to show a historical image of open fields without fences.",
+            "4. [type=communication, frames=[1]] Display a graph showing the movement patterns of livestock before fencing.",
+            "5. [type=navigation, frames=[1]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Position the robot's camera to focus on the man and the text overlay. It then verifies the key detail directly from the frames (Read the text overlay \"The Why Behind Rotational Grazing\" aloud). After verification, it communicates the result clearly (Display a graph showing the movement patterns of livestock before fencing).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Position the robot's camera to focus on the man and the text overlay; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 7.760000000000001,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/dUUG_BgEhiw/task00/sub01/motion.bvh",
+            "params_path": "results/momask/dUUG_BgEhiw/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Detail the benefits of rotating livestock for soil health.",
+      "start": 14.64,
+      "end": 25.28,
+      "subtasks": [
+        {
+          "text": "State the goal of creating deep, thick roots and deep soil.",
+          "start": 14.64,
+          "end": 18.4,
+          "segment_ids": [
+            4
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "dUUG_BgEhiw/task01_sub00_f01.jpg",
+              "caption": "The video frame shows a man in a field, with text overlaid that reads \"The Why Behind Rotational Grazing.\"",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "dUUG_BgEhiw/task01_sub00_f02.jpg",
+              "caption": "The video frame shows a man in a field, with text overlaid that reads \"The Why Behind Rotational Grazing.\"",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The goal is to explain why deep, thick roots and deep soil are important for soil health through the concept of rotational grazing.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A man is seen in a field with text overlay reading \"The Why Behind Rotational Grazing.\"",
+            "- [frames=[2]] The scene remains similar with the same text overlay and the man in the field.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The video focuses on a man explaining the importance of deep, thick roots and deep soil within the context of rotational grazing. The text overlay suggests that the explanation will follow logically from the concept of rotational grazing.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture the man's explanation.",
+            "- The robot needs to be able to communicate with the man to verify his statements.",
+            "- The robot should have the ability to navigate to the field where the man is standing.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately convey the importance of deep, thick roots and deep soil.",
+            "- The robot should ensure that the man's explanation aligns with the concept of rotational grazing.",
+            "- The robot should capture clear images or videos of the man speaking.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Capture an image of the man in the field.",
+            "2. [type=perception, frames=[1]] Verify the man's statement about deep, thick roots and deep soil by asking for confirmation.",
+            "3. [type=navigation, frames=[1]] Move to a position where the robot can clearly capture the man's face and hands.",
+            "4. [type=manipulation, frames=[1]] Adjust the camera angle to ensure the man is fully visible.",
+            "5. [type=perception, frames=[1]] Confirm that the man's face and hands are in focus.",
+            "6. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture an image of the man in the field. It then verifies the key detail directly from the frames (Verify the man's statement about deep, thick roots and deep soil by asking for confirmation).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move to a position where the robot can clearly capture the man's face and hands; Adjust the camera angle to ensure the man is fully visible; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.759999999999998,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/dUUG_BgEhiw/task01/sub00/motion.bvh",
+            "params_path": "results/momask/dUUG_BgEhiw/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Mention that the only way to achieve deep soil is by rotating livestock.",
+          "start": 18.4,
+          "end": 22.56,
+          "segment_ids": [
+            5
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "dUUG_BgEhiw/task01_sub01_f01.jpg",
+              "caption": "The video frame shows a man in a field, with text that reads \"The Why Behind Rotational Grazing.\"",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "dUUG_BgEhiw/task01_sub01_f02.jpg",
+              "caption": "The video frame shows a man in a field, with text overlaid that reads \"The Why Behind Rotational Grazing.\"",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to convey that the only way to achieve deep soil is through rotational grazing, emphasizing the importance of this practice for soil health.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A man is seen in a field with text \"The Why Behind Rotational Grazing\" displayed.",
+            "- [frames=[2]] The scene remains similar, reinforcing the message with the same text overlay.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The video frame shows a man in a field explaining the concept of rotational grazing, which is crucial for achieving deep soil and enhancing soil health.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a display screen or a voice communication system.",
+            "- The robot must have the capability to read and interpret the text on the frames.",
+            "- The robot should be able to communicate effectively with the viewer.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately convey the message about the necessity of rotational grazing for deep soil.",
+            "- The robot should ensure the viewer understands the benefits of this practice for soil health.",
+            "- The robot should provide clear and concise information without any ambiguity.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Read the text \"The Why Behind Rotational Grazing\" displayed on the frame.",
+            "2. [type=communication, frames=[1]] Announce, \"The practice of rotational grazing is essential for achieving deep soil.\".",
+            "3. [type=perception, frames=[2]] Confirm the text remains unchanged, ensuring consistency.",
+            "4. [type=communication, frames=[2]] Explain, \"This method helps improve soil health and promotes sustainable farming practices.\".",
+            "5. [type=communication, frames=[2]] Emphasize, \"Rotational grazing ensures that the soil is not overused, allowing it to regenerate naturally.\".",
+            "6. [type=communication, frames=[2]] Con.",
+            "7. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Read the text \"The Why Behind Rotational Grazing\" displayed on the frame. It then verifies the key detail directly from the frames (Read the text \"The Why Behind Rotational Grazing\" displayed on the frame). After verification, it communicates the result clearly (Announce, \"The practice of rotational grazing is essential for achieving deep soil.\").",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 4.16,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/dUUG_BgEhiw/task01/sub01/motion.bvh",
+            "params_path": "results/momask/dUUG_BgEhiw/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Highlight the importance of keeping a living root and green grass growing.",
+          "start": 22.56,
+          "end": 25.28,
+          "segment_ids": [
+            6
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub02_f01.jpg",
+              "relative_path": "dUUG_BgEhiw/task01_sub02_f01.jpg",
+              "caption": "The video frame shows a man in a field, with text overlaid that reads \"THE WHY BEHIND ROTATIONAL GRAZING\" and \"GROW",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub02_f02.jpg",
+              "relative_path": "dUUG_BgEhiw/task01_sub02_f02.jpg",
+              "caption": "The video frame shows a black background with the text \"Growing Resilience Through Our Soils\" and a logo.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment emphasizes the importance of maintaining continuous plant growth through rotational grazing to enhance soil resilience.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A man is seen in a field with text overlay stating \"THE WHY BEHIND ROTATIONAL GRAZING\" and \"GROW\".",
+            "- [frames=[2]] The scene transitions to a black background with text \"Growing Resilience Through Our Soils\" and a logo.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The video shifts focus from an on-field explanation to a more abstract concept of soil resilience, reinforcing the idea that maintaining plant life is crucial for soil health.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture the field conditions.",
+            "- The robot needs to have a basic understanding of soil health principles.",
+            "- The robot must be able to communicate with the user or other systems involved in the tutorial.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Verify that the field has continuous plant growth.",
+            "- Confirm that the message about soil resilience is effectively communicated.",
+            "- Measure the impact of rotational grazing on soil health.",
+            "- Cross-check the effectiveness of the rotational grazing method.",
+            "- Check that the transition from field to abstract concept is smooth and clear.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Capture an image of the man in the field to verify the presence of continuous plant growth.",
+            "2. [type=manipulation, frames=[1]] Adjust the camera angle to ensure all relevant areas of the field are captured.",
+            "3. [type=communication, frames=[1]] Transmit the captured image to the user interface for analysis.",
+            "4. [type=navigation, frames=[2]] Move the robot to a position where it can display the abstract concept of soil resilience.",
+            "5. [type=manipulation, frames=[2]] Project the text \".",
+            "6. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture an image of the man in the field to verify the presence of continuous plant growth. It then verifies the key detail directly from the frames (Capture an image of the man in the field to verify the presence of continuous plant growth).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Adjust the camera angle to ensure all relevant areas of the field are captured; Project the text \"; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/dUUG_BgEhiw/task01/sub02/motion.bvh",
+            "params_path": "results/momask/dUUG_BgEhiw/task01/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

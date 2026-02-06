@@ -1,0 +1,646 @@
+{
+  "video_index": "WF-_Sgl35lA",
+  "title": "Geographic Crops and climates AROUND THE WORL",
+  "url": "https://www.youtube.com/watch?v=WF-_Sgl35lA",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Discusses various agricultural practices and their environmental impacts.",
+  "tasks": [
+    {
+      "task": "Describe the different agricultural practices discussed in the video.",
+      "start": 22.88,
+      "end": 290.16,
+      "subtasks": [
+        {
+          "text": "Observe the cultivation of different crops in tropical climates like Indonesia and countries near the equator.",
+          "start": 22.88,
+          "end": 32.72,
+          "segment_ids": [
+            4,
+            5
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "WF-_Sgl35lA/task00_sub00_f00.jpg",
+              "caption": "Several people are planting rice in a muddy field.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "WF-_Sgl35lA/task00_sub00_f01.jpg",
+              "caption": "A herd of horses grazes in a vast, grassy field with a hazy horizon.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "WF-_Sgl35lA/task00_sub00_f02.jpg",
+              "caption": "The video frame shows a world map with different climate zones labeled.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on observing the cultivation of crops in tropical climates, specifically highlighting rice farming and grazing in Indonesia and other equatorial regions.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] Several people are planting rice in a muddy field.",
+            "- [frames=[1]] A herd of horses grazes in a vast, grassy field with a hazy horizon.",
+            "- [frames=[2]] The video frame shows a world map with different climate zones labeled.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from a close-up of rice planting to a broader view of livestock grazing, indicating diverse agricultural practices in tropical regions. The world map provides context by showing various climate zones, which helps in understanding the geographical spread of these practices.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to a display screen to show the video.",
+            "- The robot needs to be able to navigate through the video frames.",
+            "- The robot should be capable of recognizing and identifying different agricultural activities.",
+            "- The robot must have the ability to read and interpret labels on the world map.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify and describe the rice planting activity.",
+            "- It should recognize and describe the grazing activity.",
+            "- The robot should be able to explain the relevance of the world map in the context of the agricultural practices shown.",
+            "- The robot should provide a summary of the different agricultural practices observed in tropical climates.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Navigate to the frame showing people planting rice.",
+            "2. [type=perception, frames=[0]] Verify the presence of people planting rice in a muddy field.",
+            "3. [type=manipulation, frames=[0]] Describe the process of rice planting, including the tools used and the environment.",
+            "4. [type=navigation, frames=[1]] Move to the.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the frame showing people planting rice. It then verifies the key detail directly from the frames (Verify the presence of people planting rice in a muddy field).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the frame showing people planting rice; Describe the process of rice planting, including the tools used and the environment; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 9.84,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/WF-_Sgl35lA/task00/sub00/motion.bvh",
+            "params_path": "results/momask/WF-_Sgl35lA/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Note the production of cash crops on plantations, typically in tropical climates, to serve advanced economies.",
+          "start": 205.68,
+          "end": 219.12,
+          "segment_ids": [
+            39,
+            40,
+            41
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f00.jpg",
+              "relative_path": "WF-_Sgl35lA/task00_sub01_f00.jpg",
+              "caption": "The video frame shows a table titled \"INTENSIVE AGRICULTURAL PRACTICES\" with three columns and four rows.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "WF-_Sgl35lA/task00_sub01_f01.jpg",
+              "caption": "Aerial view of a tea plantation with workers in the fields.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "WF-_Sgl35lA/task00_sub01_f02.jpg",
+              "caption": "A man is speaking in a room with a globe and a map on the wall.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on noting the production of cash crops on plantations, particularly in tropical climates, which serve advanced economies. This is illustrated through an aerial view of a tea plantation and a discussion about intensive agricultural practices.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The video displays a table titled \"INTENSIVE AGRICULTURAL PRACTICES\" with three columns and four rows.",
+            "- [frames=[1]] An aerial view of a tea plantation is shown, with workers present in the fields.",
+            "- [frames=[2]] A man is speaking in a room with a globe and a map on the wall, likely discussing the topic.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from a table listing agricultural practices to an aerial view of a tea plantation, indicating the focus on cash crops in tropical regions. The final frame shows a person explaining the context, reinforcing the discussion on intensive agricultural practices serving advanced economies.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture the table and plantation views.",
+            "- The robot needs to have access to a display screen to show the information.",
+            "- The robot should have the ability to navigate to different parts of the room.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the table and its contents.",
+            "- It should recognize the aerial view of the tea plantation and the workers.",
+            "- The robot should confirm the discussion about cash crops in tropical climates.",
+            "- It should verify the connection to advanced economies.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Navigate to the table displaying \"INTENSIVE AGRICULTURAL PRACTICES.\".",
+            "2. [type=perception, frames=[0]] Read the table to identify the cash crop production details.",
+            "3. [type=navigation, frames=[1]] Move to the area showing the.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the table displaying \"INTENSIVE AGRICULTURAL PRACTICES.\". It then verifies the key detail directly from the frames (Read the table to identify the cash crop production details).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the table displaying \"INTENSIVE AGRICULTURAL PRACTICES.\"; Move to the area showing the; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 13.439999999999998,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/WF-_Sgl35lA/task00/sub01/motion.bvh",
+            "params_path": "results/momask/WF-_Sgl35lA/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Highlight the practice of mixed crop and livestock agriculture in economically developed countries.",
+          "start": 260.72,
+          "end": 270.24,
+          "segment_ids": [
+            50,
+            51
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub02_f00.jpg",
+              "relative_path": "WF-_Sgl35lA/task00_sub02_f00.jpg",
+              "caption": "The video frame shows a table titled \"INTENSIVE AGRICULTURAL PRACTICES\" with two categories: Plantation Agriculture and Mixed Crop & Liv",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub02_f01.jpg",
+              "relative_path": "WF-_Sgl35lA/task00_sub02_f01.jpg",
+              "caption": "A group of cows are eating hay in a barn.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub02_f02.jpg",
+              "relative_path": "WF-_Sgl35lA/task00_sub02_f02.jpg",
+              "caption": "A herd of cattle is being herded down a road by a person on horseback.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on describing mixed crop and livestock agriculture in economically developed countries, specifically highlighting its presence in intensive agricultural practices.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The video frame shows a table titled \"INTENSIVE AGRICULTURAL PRACTICES\" with two categories: Plantation Agriculture and Mixed Crop & Livestock.",
+            "- [frames=[1]] A group of cows are eating hay in a barn, indicating a livestock component of the mixed agriculture.",
+            "- [frames=[2]] A herd of cattle is being herded down a road by a person on horseback, further emphasizing the livestock aspect.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a typical setting of mixed crop and livestock agriculture in an economically developed country, where both crops and animals are managed together. This practice is part of intensive agricultural methods aimed at maximizing productivity and efficiency.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture the scene.",
+            "- The robot needs to have knowledge about mixed crop and livestock agriculture.",
+            "- The robot should be able to communicate with the user to provide accurate information.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the presence of mixed crop and livestock agriculture.",
+            "- It should describe the practice accurately, mentioning the coexistence of crops and livestock.",
+            "- The robot should highlight the economic benefits of such practices in developed countries.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Capture the table showing \"INTENSIVE AGRICULTURAL PRACTICES\" to verify the context.",
+            "2. [type=perception, frames=[1]] Identify the cows eating hay in the barn to confirm the livestock component.",
+            "3. [type=perception, frames=[2]] Observe the herd of cattle being herded to cross-check the presence of livestock.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture the table showing \"INTENSIVE AGRICULTURAL PRACTICES\" to verify the context. It then verifies the key detail directly from the frames (Capture the table showing \"INTENSIVE AGRICULTURAL PRACTICES\" to verify the context).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 9.519999999999982,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/WF-_Sgl35lA/task00/sub02/motion.bvh",
+            "params_path": "results/momask/WF-_Sgl35lA/task00/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Describe market gardening, also known as truck farming, in areas with longer growing seasons.",
+          "start": 275.12,
+          "end": 290.16,
+          "segment_ids": [
+            53,
+            54,
+            55
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub03_f00.jpg",
+              "relative_path": "WF-_Sgl35lA/task00_sub03_f00.jpg",
+              "caption": "The video frame shows a table titled \"INTENSIVE AGRICULTURAL PRACTICES\" with three categories: Plantation Agriculture, Mixed Crop & Liv",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub03_f01.jpg",
+              "relative_path": "WF-_Sgl35lA/task00_sub03_f01.jpg",
+              "caption": "The video frame shows a table titled \"INTENSIVE AGRICULTURAL PRACTICES\" with three categories: Plantation Agriculture, Mixed Crop & Liv",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub03_f02.jpg",
+              "relative_path": "WF-_Sgl35lA/task00_sub03_f02.jpg",
+              "caption": "The video frame shows a table titled \"INTENSIVE AGRICULTURAL PRACTICES\" with three categories: Plantation Agriculture, Mixed Crop & Liv",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub03_f03.jpg",
+              "relative_path": "WF-_Sgl35lA/task00_sub03_f03.jpg",
+              "caption": "A person is harvesting tomatoes from a plant.",
+              "frame_index": 3
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Market gardening, also known as truck farming, is described in the video for areas with longer growing seasons. This practice involves intensive cultivation of vegetables and fruits for local markets.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The video shows a table titled \"INTENSIVE AGRICULTURAL PRACTICES\" with categories including Plantation Agriculture, Mixed Crop & Livestock.",
+            "- [frames=[1]] The table remains unchanged, indicating no new information is introduced.",
+            "- [frames=[2]] The table continues to display the same categories.",
+            "- [frames=[3]] A person is seen harvesting tomatoes from a plant, illustrating the intensive nature of market gardening.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shifts focus from an overview of different agricultural practices to a practical example of market gardening. The presence of tomatoes being harvested suggests a short-term, intensive cultivation method suitable for areas with longer growing seasons.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture the table and identify the categories.",
+            "- The robot needs to have the capability to navigate to the area where the tomatoes are being harvested.",
+            "- The robot should be able to grasp and manipulate small objects like tomatoes.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the table and its categories.",
+            "- The robot should accurately locate and harvest tomatoes.",
+            "- The robot should verify the type of crop being harvested.",
+            "- The robot should ensure the harvested tomatoes are of good quality.",
+            "- The robot should confirm the correct storage or packaging of the tomatoes.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Navigate to the table displaying the categories of intensive agricultural practices.",
+            "2. [type=perception, frames=[0]] Use the camera to read the table and identify the categories.",
+            "3. [type=navigation, frames=[3]] Move to.",
+            "4. [type=perception, frames=[0,1,2,3]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2,3]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the table displaying the categories of intensive agricultural practices. It then verifies the key detail directly from the frames (Use the camera to read the table and identify the categories).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the table displaying the categories of intensive agricultural practices; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 15.04000000000002,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/WF-_Sgl35lA/task00/sub03/motion.bvh",
+            "params_path": "results/momask/WF-_Sgl35lA/task00/sub03/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Explain the concept of shifting cultivation and its practice in tropical regions.",
+      "start": 316.88,
+      "end": 347.6,
+      "subtasks": [
+        {
+          "text": "Observe the shifting cultivation process in Latin America, Sub-Saharan Africa, or Southeast Asia.",
+          "start": 316.88,
+          "end": 347.6,
+          "segment_ids": [
+            61,
+            62,
+            63,
+            64,
+            65,
+            66
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "WF-_Sgl35lA/task01_sub00_f00.jpg",
+              "caption": "The video frame shows a slide with the title \"EXTENSIVE AGRICULTURAL PRACTICES\" and a list of options.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "WF-_Sgl35lA/task01_sub00_f01.jpg",
+              "caption": "The video frame shows a table titled \"EXTENSIVE AGRICULTURAL PRACTICES\" with two columns and four rows. The first column is labeled",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "WF-_Sgl35lA/task01_sub00_f02.jpg",
+              "caption": "The video shows a field with smoke rising from it.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task01_sub00_f04.jpg",
+              "relative_path": "WF-_Sgl35lA/task01_sub00_f04.jpg",
+              "caption": "The video frame shows a table titled \"EXTENSIVE AGRICULTURAL PRACTICES\" with three columns and three rows.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task01_sub00_f05.jpg",
+              "relative_path": "WF-_Sgl35lA/task01_sub00_f05.jpg",
+              "caption": "The video frame shows a comparison between fertile soil and intact forest, with the words \"FERTILE SOIL\" and \"INTACT FOREST\" written on",
+              "frame_index": 5
+            },
+            {
+              "image_file": "task01_sub00_f06.jpg",
+              "relative_path": "WF-_Sgl35lA/task01_sub00_f06.jpg",
+              "caption": "The video frame shows a diagram comparing fertile soil to infertile soil, with slash and burn agriculture leading to infertile soil and farming leading to fertile soil",
+              "frame_index": 6
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask involves observing the shifting cultivation process in one of the specified regions (Latin America, Sub-Saharan Africa, or Southeast Asia), focusing on the impacts of this agricultural method on soil fertility and forest integrity.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] The video begins with a slide titled \"EXTENSIVE AGRICULTURAL PRACTICES\" listing various methods.",
+            "- [frames=[2]] A field scene is shown with smoke rising, indicating recent slash and burn activity.",
+            "- [frames=[4]] The table changes to include more details on extensive agricultural practices.",
+            "- [frames=[5]] A comparison is made between fertile soil and intact forest, highlighting the contrast.",
+            "- [frames=[6]] A diagram illustrates the transition from slash and burn agriculture to infertile soil, contrasting it with traditional farming methods that lead to fertile soil.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict the process of shifting cultivation, starting with the initial clearing of land through slash and burn techniques, followed by the cultivation of crops, and eventually leading to soil depletion and the need for moving to new areas. This cycle highlights the environmental impact of such practices on both soil fertility and forest cover.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be able to recognize and identify different types of agricultural practices.",
+            "- It must understand the concepts of soil fertility and forest integrity.",
+            "- The robot needs to be capable of analyzing visual data to distinguish between fertile and infertile soil.",
+            "- It should have knowledge about the geographical regions mentioned (Latin America, Sub-Saharan Africa, Southeast Asia).",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Correctly identifying the shifting cultivation process in the given region.",
+            "- Accurately distinguishing between fertile and infertile soil.",
+            "- Recognizing the impact of slash and burn agriculture on forest cover.",
+            "- Providing a clear explanation of the observed process and its environmental",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2,4,5,6]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2,4,5,6]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2,4,5,6]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2,4,5,6]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2,4,5,6]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 30.720000000000027,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/WF-_Sgl35lA/task01/sub00/motion.bvh",
+            "params_path": "results/momask/WF-_Sgl35lA/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Describe extensive agricultural practices focused on herding and ranching.",
+      "start": 364.0,
+      "end": 412.8,
+      "subtasks": [
+        {
+          "text": "Note the nomadic herding lifestyle, primarily involving cattle, sheep, or goats.",
+          "start": 364.0,
+          "end": 379.84,
+          "segment_ids": [
+            70,
+            71,
+            72
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f00.jpg",
+              "relative_path": "WF-_Sgl35lA/task02_sub00_f00.jpg",
+              "caption": "A shepherd leads a flock of sheep across a mountainous landscape.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "WF-_Sgl35lA/task02_sub00_f01.jpg",
+              "caption": "The video frame shows a table comparing two types of agricultural practices: Shifting Cultivation and Nomadic Herding.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "WF-_Sgl35lA/task02_sub00_f02.jpg",
+              "caption": "A man in a plaid shirt is standing in a room with a globe, a map, and other decorations.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task02_sub00_f03.jpg",
+              "relative_path": "WF-_Sgl35lA/task02_sub00_f03.jpg",
+              "caption": "A large flock of sheep is scattered across a vast, open field.",
+              "frame_index": 3
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on illustrating the nomadic herding lifestyle, particularly involving sheep, across various landscapes and settings.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A shepherd leads a flock of sheep across a mountainous landscape.",
+            "- [frames=[1]] The video frame shows a table comparing two types of agricultural practices: Shifting Cultivation and Nomadic Herding.",
+            "- [frames=[2]] A man in a plaid shirt stands in a room with a globe, a map, and other decorations.",
+            "- [frames=[3]] A large flock of sheep is scattered across a vast, open field.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from a pastoral setting with shepherds and flocks to an indoor educational environment where the focus shifts to explaining different agricultural practices. This contrast highlights the nomadic nature of herding versus more stationary farming methods.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture and analyze the scenes.",
+            "- It needs to have knowledge about nomadic herding and its characteristics.",
+            "- The robot should be able to navigate through different environments, including both outdoor and indoor settings.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify and describe the nomadic herding lifestyle.",
+            "- It should correctly compare nomadic herding with shifting cultivation.",
+            "- The robot should provide a clear explanation of the nomadic herding practices, including the use of sheep and the nomadic lifestyle.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Navigate to the outdoor scene where a shepherd leads a flock of sheep across a mountainous landscape.",
+            "2. [type=perception, frames=[0]] Capture and analyze the image to confirm the presence of a shepherd and a flock of sheep.",
+            "3. [type=navigation, frames=[1]] Move to the indoor setting.",
+            "4. [type=perception, frames=[0,1,2,3]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2,3]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the outdoor scene where a shepherd leads a flock of sheep across a mountainous landscape. It then verifies the key detail directly from the frames (Capture and analyze the image to confirm the presence of a shepherd and a flock of sheep).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the outdoor scene where a shepherd leads a flock of sheep across a mountainous landscape; Move to the indoor setting; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 15.839999999999975,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/WF-_Sgl35lA/task02/sub00/motion.bvh",
+            "params_path": "results/momask/WF-_Sgl35lA/task02/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Describe the ranching practice in areas unsuitable for traditional farming.",
+          "start": 408.8,
+          "end": 412.8,
+          "segment_ids": [
+            79
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub01_f00.jpg",
+              "relative_path": "WF-_Sgl35lA/task02_sub01_f00.jpg",
+              "caption": "The video frame shows a man in a plaid shirt, likely explaining something related to agriculture or climate.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub01_f01.jpg",
+              "relative_path": "WF-_Sgl35lA/task02_sub01_f01.jpg",
+              "caption": "The video frame shows a question about crops grown in a Mediterranean climate, with options including wheat and barley, rice and vegetables, livestock and wheat, grapes and ol",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub01_f02.jpg",
+              "relative_path": "WF-_Sgl35lA/task02_sub01_f02.jpg",
+              "caption": "The video frame shows a man speaking in front of a screen with a list of options.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask involves describing ranching practices in areas unsuitable for traditional farming, focusing on the challenges and adaptations required.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A man in a plaid shirt is seen, likely explaining agricultural concepts.",
+            "- [frames=[1]] A question about crops in a Mediterranean climate is shown, with options including livestock and wheat.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shifts from an explanation by a man to a question about suitable crops in a specific climate, indicating a transition from general agricultural knowledge to more specialized topics.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have knowledge of different climates and their impacts on agriculture.",
+            "- The robot needs to understand the concept of ranching and its differences from traditional farming.",
+            "- The robot should be able to read and interpret visual cues effectively.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the challenges faced in ranching in unsuitable areas.",
+            "- It should highlight the types of livestock commonly raised in such regions.",
+            "- The robot should provide examples of successful ranching practices adapted to harsh conditions.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Read the man's explanation to understand the context of ranching.",
+            "2. [type=perception, frames=[1]] Identify the question about crops in a Mediterranean climate.",
+            "3. [type=navigation, frames=[0]] Navigate to the next slide or section to find information on ranching in unsuitable areas.",
+            "4. [type=manipulation, frames=[1]] Select the option related to livestock and wheat for further details.",
+            "5. [type=perception, frames=[2]] Confirm the selected option and proceed to the relevant information.",
+            "6. [type=perception, frames=[2]] Verify the information on ranching practices in unsuitable areas.",
+            "7. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Read the man's explanation to understand the context of ranching. It then verifies the key detail directly from the frames (Read the man's explanation to understand the context of ranching).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the next slide or section to find information on ranching in unsuitable areas; Select the option related to livestock and wheat for further details; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 4.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/WF-_Sgl35lA/task02/sub01/motion.bvh",
+            "params_path": "results/momask/WF-_Sgl35lA/task02/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

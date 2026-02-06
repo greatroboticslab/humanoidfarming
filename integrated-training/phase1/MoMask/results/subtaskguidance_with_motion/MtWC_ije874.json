@@ -1,0 +1,434 @@
+{
+  "video_index": "MtWC_ije874",
+  "title": "Crop Rotation: Nature's Soil Vacation Plan",
+  "url": "https://www.youtube.com/watch?v=MtWC_ije874",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Explains the benefits and process of crop rotation for farms.",
+  "tasks": [
+    {
+      "task": "Explain the concept of crop rotation and its benefits.",
+      "start": 0.0,
+      "end": 33.44,
+      "subtasks": [
+        {
+          "text": "Introduce crop rotation as a farm's secret weapon.",
+          "start": 0.0,
+          "end": 3.04,
+          "segment_ids": [
+            0
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "MtWC_ije874/task00_sub00_f00.jpg",
+              "caption": "The video shows an aerial view of a vast green field with parallel lines, suggesting agricultural practices.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "MtWC_ije874/task00_sub00_f01.jpg",
+              "caption": "The video frame shows an aerial view of a vast green field with parallel lines, possibly indicating agricultural practices.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "MtWC_ije874/task00_sub00_f02.jpg",
+              "caption": "The video frame shows a green landscape with a text overlay that says, \"Let's dive into how.\"",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot introduces crop rotation as a crucial practice in farming, emphasizing its importance early in the tutorial.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] The video shows an aerial view of a vast green field with parallel lines, indicating organized agricultural practices.",
+            "- [frames=[0,1]] The field is expansive and well-managed, suggesting a structured approach to farming.",
+            "- [frames=[0,1]] A text overlay appears, reading \"Let's dive into how,\" signaling the start of an explanation.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a large, organized agricultural field, likely representing a farm where crop rotation will be explained. The text overlay indicates that the explanation is about to begin, setting the stage for the introduction of crop rotation.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot is equipped with a camera to capture the aerial view.",
+            "- The robot has access to a display screen to show the text overlay.",
+            "- The robot understands the context of crop rotation and its benefits.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully captures the aerial view of the field.",
+            "- The robot accurately displays the text overlay \"Let's dive into how.\"",
+            "- The robot provides a clear and concise introduction to crop rotation.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Capture an aerial view of the vast green field with parallel lines.",
+            "2. [type=perception, frames=[0,1]] Verify the presence of the parallel lines in the captured image.",
+            "3. [type=communication, frames=[0,1]] Display the text overlay \"Let's dive into how\" on the robot's screen.",
+            "4. [type=navigation, frames=[0,1]] Pan the camera to focus on the text overlay.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture an aerial view of the vast green field with parallel lines. It then verifies the key detail directly from the frames (Verify the presence of the parallel lines in the captured image). After verification, it communicates the result clearly (Display the text overlay \"Let's dive into how\" on the robot's screen).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Pan the camera to focus on the text overlay; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.04,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/MtWC_ije874/task00/sub00/motion.bvh",
+            "params_path": "results/momask/MtWC_ije874/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Describe how different crops use different nutrients.",
+          "start": 7.2,
+          "end": 20.48,
+          "segment_ids": [
+            3,
+            6
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f00.jpg",
+              "relative_path": "MtWC_ije874/task00_sub01_f00.jpg",
+              "caption": "A blurry image of a garden with a text overlay saying \"a vacation.\"",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "MtWC_ije874/task00_sub01_f01.jpg",
+              "caption": "A field of tall, dry grass with a text overlay that says \"after that.\"",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "MtWC_ije874/task00_sub01_f02.jpg",
+              "caption": "The video frame shows a blurred background with a text overlay that says \"It's like nature's.\"",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Different crops require different nutrients, and understanding this helps in planning effective crop rotations to maintain soil health.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A blurry image of a garden with a text overlay saying \"a vacation.\" This suggests a metaphorical break for the soil.",
+            "- [frames=[1]] A field of tall, dry grass with a text overlay that says \"after that.\" This indicates the aftermath of a previous crop cycle.",
+            "- [frames=[2]] The video frame shows a blurred background with a text overlay that says \"It's like nature's.\" This introduces the idea of natural processes.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict a transition from a garden to a field of dry grass, symbolizing the end of a crop cycle. The text overlays suggest that this is part of a larger explanation about crop rotation and its benefits, specifically focusing on how different crops use different nutrients.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have knowledge of common crops and their nutrient requirements.",
+            "- The robot should be able to read and interpret text overlays.",
+            "- The robot should be aware of the current scene context and be able to navigate through it.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the different stages of the crop cycle.",
+            "- It should explain how different crops use different nutrients.",
+            "- The robot should provide a clear analogy to help viewers understand the concept.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Read the text overlay \"a vacation\" to understand the metaphorical context.",
+            "2. [type=navigation, frames=[1]] Move to the field of tall, dry grass to observe the aftermath of the previous crop cycle.",
+            "3. [type=perception, frames=[1]] Confirm the presence of dry grass to verify the end of the current crop cycle.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Read the text overlay \"a vacation\" to understand the metaphorical context. It then verifies the key detail directly from the frames (Read the text overlay \"a vacation\" to understand the metaphorical context).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 13.280000000000001,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/MtWC_ije874/task00/sub01/motion.bvh",
+            "params_path": "results/momask/MtWC_ije874/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Explain how rotating crops can improve soil structure and health.",
+          "start": 31.2,
+          "end": 33.44,
+          "segment_ids": [
+            12
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub02_f00.jpg",
+              "relative_path": "MtWC_ije874/task00_sub02_f00.jpg",
+              "caption": "The video frame shows a split screen with the words \"Different roots\" in the center.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub02_f01.jpg",
+              "relative_path": "MtWC_ije874/task00_sub02_f01.jpg",
+              "caption": "The video frame shows a close-up of soil with visible roots, and a text overlay that says \"improve soil.\"",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub02_f02.jpg",
+              "relative_path": "MtWC_ije874/task00_sub02_f02.jpg",
+              "caption": "The video frame shows a blurred green field with a text overlay that says, \"Think of it as a spa.\"",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Explaining how rotating crops can improve soil structure and health by showcasing different root systems and their impact on soil quality.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The video shows a split screen with the words \"Different roots\" in the center.",
+            "- [frames=[1]] A close-up of soil is shown with visible roots, and a text overlay that says \"improve soil.\"",
+            "- [frames=[2]] A blurred green field is displayed with a text overlay that says, \"Think of it as a spa.\"",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from highlighting different root systems to showing their impact on soil health, using a metaphor of a spa to emphasize the rejuvenation process.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture the visual elements.",
+            "- The robot needs to have knowledge about crop rotation and soil health.",
+            "- The robot should be able to communicate the benefits of crop rotation effectively.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should clearly explain the benefits of rotating crops.",
+            "- The robot should demonstrate an understanding of how different root systems affect soil.",
+            "- The robot should use the spa analogy effectively to convey the concept.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Capture the split screen image showing \"Different roots.\".",
+            "2. [type=perception, frames=[1]] Analyze the close-up of soil with visible roots.",
+            "3. [type=communication, frames=[1]] Explain how different root systems contribute to soil improvement.",
+            "4. [type=perception, frames=[2]] Observe the blurred green field with the text overlay.",
+            "5. [type=communication, frames=[2]] Use the spa analogy to describe the benefits of crop rotation.",
+            "6. [type=navigation, frames=[0,1,2]] Transition smoothly between the visual elements.",
+            "7. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "8. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture the split screen image showing \"Different roots.\". It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Transition smoothly between the visual elements; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/MtWC_ije874/task00/sub02/motion.bvh",
+            "params_path": "results/momask/MtWC_ije874/task00/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Describe how crop rotation outsmarts pests and weeds.",
+      "start": 22.32,
+      "end": 41.04,
+      "subtasks": [
+        {
+          "text": "Explain that pests and weeds dislike change.",
+          "start": 22.32,
+          "end": 29.68,
+          "segment_ids": [
+            8,
+            9,
+            10
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "MtWC_ije874/task01_sub00_f00.jpg",
+              "caption": "A dense field of green plants with the text \"And guess what?\" overlaid.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "MtWC_ije874/task01_sub00_f01.jpg",
+              "caption": "A ladybug is perched on a leaf in a garden.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "MtWC_ije874/task01_sub00_f02.jpg",
+              "caption": "A yellow \"Plus\" sign is displayed on a blurred background.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video explains why pests and weeds dislike change, using visual cues to illustrate this concept.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A dense field of green plants with the text \"And guess what?\" appears, setting the scene.",
+            "- [frames=[1]] A ladybug is seen perched on a leaf in a garden, symbolizing beneficial insects.",
+            "- [frames=[2]] A yellow \"Plus\" sign is displayed on a blurred background, indicating an addition or improvement.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shifts from a dense plant field to a garden setting, introducing the idea that beneficial changes can disrupt pest and weed populations. The ladybug on the leaf suggests that natural predators thrive in diverse environments, which is key to understanding the concept of crop rotation.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture visual information.",
+            "- It needs to have knowledge about different types of pests and weeds.",
+            "- The robot must be able to navigate through various terrains within the farm.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the presence of pests and weeds.",
+            "- It should recognize the ladybug as a beneficial insect.",
+            "- The robot must understand the concept of change in the environment.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Capture an image of the dense plant field to verify the current state.",
+            "2. [type=perception, frames=[1]] Identify the ladybug on the leaf to confirm the presence of a beneficial insect.",
+            "3. [type=navigation, frames=[0,1]] Move to a position where the ladybug is clearly visible.",
+            "4. [type=perception, frames=[1]] Measure the size and location of the ladybug to ensure accurate identification.",
+            "5. [type=navigation, frames=[2]] Navigate.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture an image of the dense plant field to verify the current state. It then verifies the key detail directly from the frames (Capture an image of the dense plant field to verify the current state).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move to a position where the ladybug is clearly visible; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 7.359999999999999,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/MtWC_ije874/task01/sub00/motion.bvh",
+            "params_path": "results/momask/MtWC_ije874/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Describe the healthier outcomes from crop rotation.",
+          "start": 37.28,
+          "end": 41.04,
+          "segment_ids": [
+            15
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f00.jpg",
+              "relative_path": "MtWC_ije874/task01_sub01_f00.jpg",
+              "caption": "A green field with a text overlay encouraging crop rotation.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "MtWC_ije874/task01_sub01_f01.jpg",
+              "caption": "A man in a field is using a tablet to monitor soil health.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "MtWC_ije874/task01_sub01_f02.jpg",
+              "caption": "A man in a field is using a tablet, and the text \"That's a win-win-win!\" appears over him.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will describe the benefits of crop rotation, focusing on the positive outcomes it brings to the soil and overall farm health.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A green field with a text overlay encouraging crop rotation.",
+            "- [frames=[1]] A man in a field is using a tablet to monitor soil health.",
+            "- [frames=[2]] The man in the field is using a tablet, and the text \"That's a win-win-win!\" appears over him.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shifts from a visually appealing green field promoting crop rotation to a farmer actively monitoring soil health using technology. The farmer’s enthusiasm is conveyed through the exclamation \"That's a win-win-win!\" indicating multiple benefits from the practice.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have knowledge about crop rotation and its benefits.",
+            "- The robot needs access to a tablet or similar device to display information.",
+            "- The robot should be able to communicate effectively with the farmer.",
+            "- The robot must be equipped with sensors to measure soil health if necessary.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the benefits of crop rotation.",
+            "- The robot should convey the positive outcomes in a clear and engaging manner.",
+            "- The robot should ensure the farmer understands the advantages of crop rotation.",
+            "- The robot should confirm the farmer’s agreement or interest in continuing the practice.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1,2]] Inspect/verify the scene before any physical action.",
+            "2. [type=communication, frames=[0]] Announce the topic of crop rotation and its benefits.",
+            "3. [type=communication, frames=[1]] Display a graph or chart showing improved soil health due to crop rotation.",
+            "4. [type=communication, frames=[1]] Explain how crop rotation helps in pest and weed management.",
+            "5. [type=manipulation, frames=[2]] Show an image or animation of the \".",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Inspect/verify the scene before any physical action. It then verifies the key detail directly from the frames (Inspect/verify the scene before any physical action). After verification, it communicates the result clearly (Announce the topic of crop rotation and its benefits).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Show an image or animation of the \"; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.759999999999998,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/MtWC_ije874/task01/sub01/motion.bvh",
+            "params_path": "results/momask/MtWC_ije874/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}
