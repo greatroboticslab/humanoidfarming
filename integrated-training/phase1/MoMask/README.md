@@ -8,7 +8,7 @@ The design is **modular and non-blocking**: motion can be deferred, placeholders
 
 ## Overview
 
-### Main Pipeline (Shared)
+### Main Pipeline
 
 Video → transcript → task/subtask + timestamps → frame grounding → validated robot guidance
 
