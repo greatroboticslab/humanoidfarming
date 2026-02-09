@@ -7,6 +7,8 @@ This repository provides a **modular, end-to-end pipeline** to convert videos (Y
 The pipeline combines **ASR, LLM-based task extraction, timestamp grounding, frame-level visual grounding, and instruction-style guidance generation**.  
 All intermediate and final artifacts are saved under the `results/` directory unless otherwise noted.
 
+![Automated Video-to-Robot Guidance Pipeline](documents/images/workflow.png)
+
 ---
 
 ## 🔍 What This Pipeline Does
