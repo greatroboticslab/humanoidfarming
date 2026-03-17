@@ -1,0 +1,838 @@
+{
+  "video_index": "EG06lrs5crQ",
+  "title": "Farm Animals and Their Names Explained",
+  "url": "https://www.youtube.com/watch?v=EG06lrs5crQ",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "The video describes various farm animals and their care, showcasing diverse farm life.",
+  "tasks": [
+    {
+      "task": "Describe the different types of cows on a farm.",
+      "start": 14.5,
+      "end": 26.84,
+      "subtasks": [
+        {
+          "text": "Observe a Jersey steer and note that Jersey cows are known for producing rich milk.",
+          "start": 14.5,
+          "end": 21.16,
+          "segment_ids": [
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "EG06lrs5crQ/task00_sub00_f00.jpg",
+              "caption": "A brown donkey is grazing in a grassy field.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "EG06lrs5crQ/task00_sub00_f01.jpg",
+              "caption": "A cow is grazing in a grassy field with other cows in the background.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "EG06lrs5crQ/task00_sub00_f02.jpg",
+              "caption": "A cow is grazing on grass in a fenced field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe a cow in a field and note that it is a Jersey steer, which is known for producing rich milk.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A brown donkey is grazing in a grassy field.",
+            "- [frames=[1]] A cow is grazing in a grassy field with other cows in the background.",
+            "- [frames=[2]] A cow is grazing on grass in a fenced field.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a field with multiple animals, including a cow that is likely a Jersey steer. The cow is grazing, and there are other cows visible in the background.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture images of the field.",
+            "- The robot should have knowledge about different types of cows and their characteristics.",
+            "- The robot should be able to communicate the findings to the user.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the cow as a Jersey steer.",
+            "- The robot should accurately state that Jersey cows are known for producing rich milk.",
+            "- The robot should provide a clear and concise explanation of the observation.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Capture an image of the cow in the field.",
+            "2. [type=perception, frames=[2]] Verify the cow's position and ensure it is still present.",
+            "3. [type=navigation, frames=[1,2]] Move closer to the cow if necessary to get a better view.",
+            "4. [type=perception, frames=[1,2]] Confirm the cow's breed by analyzing the image.",
+            "5. [type=communication, frames=[0,1,2]] Announce that the observed cow is a Jersey steer.",
+            "6. [type=communication, frames=[0,1,2]] Explain that Jersey cows are known for producing rich.",
+            "7. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture an image of the cow in the field. It then verifies the key detail directly from the frames (Verify the cow's position and ensure it is still present). After verification, it communicates the result clearly (Announce that the observed cow is a Jersey steer).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move closer to the cow if necessary to get a better view; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 6.66,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/EG06lrs5crQ/task00/sub00/motion.bvh",
+            "params_path": "results/momask/EG06lrs5crQ/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Note that there are different breeds of cows, with some raised for meat and others for milk.",
+          "start": 14.5,
+          "end": 26.84,
+          "segment_ids": [
+            2,
+            3
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "EG06lrs5crQ/task00_sub01_f01.jpg",
+              "caption": "A cow is grazing in a grassy field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "EG06lrs5crQ/task00_sub01_f02.jpg",
+              "caption": "A cow is grazing on grass in a fenced field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will describe the different types of cows on a farm, noting that some breeds are raised for meat while others are for milk.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1,2]] The scene shows a cow grazing in a grassy field, with another cow in a fenced area.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The robot observes a typical farm setting with cows grazing in a field. There are no other animals visible, and the environment is calm and natural.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have knowledge about different cow breeds.",
+            "- The robot should be able to communicate effectively with the user.",
+            "- The robot should be equipped with a camera to observe the scene.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the different types of cows.",
+            "- The robot should mention that some breeds are raised for meat and others for milk.",
+            "- The robot should provide a clear and concise explanation.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1,2]] Uses its camera to observe the cow in the field.",
+            "2. [type=perception, frames=[1,2]] Identifies the cow and notes its grazing behavior.",
+            "3. [type=communication, frames=[1,2]] States, \"This is a typical cow found on a farm.\".",
+            "4. [type=perception, frames=[1,2]] Confirm the presence of another cow in a fenced area.",
+            "5. [type=communication, frames=[1,2]] Adds, \"There are different breeds of cows on a farm.\".",
+            "6. [type=communication, frames=[1,2]] Explains, \"Some breeds are raised for meat, while others are for milk.\".",
+            "7. [type=communication, frames=[1,2]] Concludes, \"For example, the cow in the.",
+            "8. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Uses its camera to observe the cow in the field. It then verifies the key detail directly from the frames (Confirm the presence of another cow in a fenced area). After verification, it communicates the result clearly (States, \"This is a typical cow found on a farm.\").",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 12.34,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/EG06lrs5crQ/task00/sub01/motion.bvh",
+            "params_path": "results/momask/EG06lrs5crQ/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Explain the life cycle and terminology for piglets and their care.",
+      "start": 74.6,
+      "end": 88.4,
+      "subtasks": [
+        {
+          "text": "Observe a male pig and note that it is called a boar.",
+          "start": 74.6,
+          "end": 80.4,
+          "segment_ids": [
+            11
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "EG06lrs5crQ/task01_sub00_f00.jpg",
+              "caption": "A pig is grazing on the ground in a natural setting.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "EG06lrs5crQ/task01_sub00_f01.jpg",
+              "caption": "A pig is grazing on the ground in a natural setting.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "EG06lrs5crQ/task01_sub00_f02.jpg",
+              "caption": "A pig is standing in a fenced area with a wire fence and dirt ground.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe a male pig and identify it as a boar, noting its natural setting.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] The pig is grazing on the ground in a natural setting.",
+            "- [frames=[2]] The pig is standing in a fenced area with a wire fence and dirt ground.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a pig in a natural environment, likely a farm setting, where it is engaged in grazing. The pig is observed in different postures, indicating it is a common sight in the area.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have knowledge of pig anatomy and behavior.",
+            "- The robot should be equipped with a camera for visual observation.",
+            "- The robot should be able to communicate the findings to the user.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Correctly identify the pig as a male.",
+            "- Accurately name the pig as a boar.",
+            "- Provide a brief explanation of the pig's current activity (grazing).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Capture an image of the pig grazing.",
+            "2. [type=perception, frames=[2]] Capture an image of the pig standing.",
+            "3. [type=manipulation, frames=[0,1,2]] Rotate the camera to get a full view of the pig.",
+            "4. [type=communication, frames=[0,1,2]] Announce the identification of the pig as a boar.",
+            "5. [type=manipulation, frames=[0,1,2]] Adjust the camera angle to focus on the pig's body parts.",
+            "6. [type=perception, frames=[0,1,2]] Verify the presence of secondary sexual characteristics to confirm the pig is a boar.",
+            "7. [type=communication, frames=[0,1,2]] Explain the pig's current activity (grazing) and.",
+            "8. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture an image of the pig grazing. It then verifies the key detail directly from the frames (Verify the presence of secondary sexual characteristics to confirm the pig is a boar). After verification, it communicates the result clearly (Announce the identification of the pig as a boar).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Rotate the camera to get a full view of the pig; Adjust the camera angle to focus on the pig's body parts; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 5.800000000000011,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/EG06lrs5crQ/task01/sub00/motion.bvh",
+            "params_path": "results/momask/EG06lrs5crQ/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Describe how pigs seek shade and roll in mud to cool off.",
+          "start": 82.0,
+          "end": 88.4,
+          "segment_ids": [
+            12
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f00.jpg",
+              "relative_path": "EG06lrs5crQ/task01_sub01_f00.jpg",
+              "caption": "A pig is standing in a fenced area with a wire fence and a wooden post.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "EG06lrs5crQ/task01_sub01_f01.jpg",
+              "caption": "A pig is sitting in a fenced area with a blue building in the background.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "EG06lrs5crQ/task01_sub01_f02.jpg",
+              "caption": "A pig is sitting on the ground in a fenced area.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Pigs in the video seek shade and roll in mud to cool off, which is a common behavior observed in farm animals to regulate body temperature.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A pig is standing in a fenced area with a wire fence and a wooden post.",
+            "- [frames=[1]] A pig is sitting in a fenced area with a blue building in the background.",
+            "- [frames=[2]] A pig is sitting on the ground in a fenced area.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The pigs are in a fenced area, likely on a farm, where they have access to a shaded area and mud. This environment provides them with natural ways to cool down during hot weather.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with sensors to detect the presence of pigs.",
+            "- The robot should have the ability to navigate within the fenced area.",
+            "- The robot should be able to identify shaded areas and mud puddles.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify and track the pigs.",
+            "- The robot should confirm the presence of a shaded area and mud.",
+            "- The robot should verify that the pigs are using the shaded area and mud to cool off.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the location where the pigs are standing.",
+            "2. [type=perception, frames=[0,1]] Use cameras to identify the pigs and assess their current position.",
+            "3. [type=navigation, frames=[1,2]] Move towards a shaded area visible in the background.",
+            "4. [type=perception, frames=[1,2]] Verify the presence of a shaded area by checking the light levels.",
+            "5. [type=navigation, frames=[2]] Position the robot near the shaded area.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the location where the pigs are standing. It then verifies the key detail directly from the frames (Verify the presence of a shaded area by checking the light levels).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the location where the pigs are standing; Move towards a shaded area visible in the background; Position the robot near the shaded area; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 6.400000000000006,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/EG06lrs5crQ/task01/sub01/motion.bvh",
+            "params_path": "results/momask/EG06lrs5crQ/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Describe goats and their farm uses.",
+      "start": 126.04,
+      "end": 142.46,
+      "subtasks": [
+        {
+          "text": "Observe a male goat and note that it is called a billy goat.",
+          "start": 126.04,
+          "end": 134.12,
+          "segment_ids": [
+            19
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f00.jpg",
+              "relative_path": "EG06lrs5crQ/task02_sub00_f00.jpg",
+              "caption": "A goat with large horns is walking in a grassy field with a wooden fence in the background.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "EG06lrs5crQ/task02_sub00_f01.jpg",
+              "caption": "A goat with large horns stands in a grassy field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "EG06lrs5crQ/task02_sub00_f02.jpg",
+              "caption": "A goat with long ears is lying down on hay.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe a male goat, noting its characteristics and confirming its name as a billy goat.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A goat with large horns is walking in a grassy field with a wooden fence in the background.",
+            "- [frames=[0,1]] The goat is standing still in a grassy field.",
+            "- [frames=[2]] A goat with long ears is lying down on hay.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a goat in a natural setting, likely a farm, where it is either walking or standing still. The goat's physical attributes, such as large horns and long ears, are notable features.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture images.",
+            "- The robot should have a database of animal names and their corresponding genders.",
+            "- The robot should be able to communicate with the user via audio or text.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Correctly identify the goat as a male.",
+            "- Confirm the name as \"billy goat.\" (completed).",
+            "- Accurately describe the goat's physical characteristics.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Capture an image of the goat to analyze its features.",
+            "2. [type=perception, frames=[2]] Verify the goat's position by capturing another image when it is lying down.",
+            "3. [type=perception, frames=[0,1]] Use the camera to zoom in on the goat's horns and confirm they are large.",
+            "4. [type=perception, frames=[2]] Zoom in on the goat's ears to verify they are long.",
+            "5. [type=communication, frames=[0,1,2]] Announce, \"This is a male goat, also known as a billy goat.\".",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture an image of the goat to analyze its features. It then verifies the key detail directly from the frames (Verify the goat's position by capturing another image when it is lying down). After verification, it communicates the result clearly (Announce, \"This is a male goat, also known as a billy goat.\").",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 8.079999999999998,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/EG06lrs5crQ/task02/sub00/motion.bvh",
+            "params_path": "results/momask/EG06lrs5crQ/task02/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Describe the production of goat milk and note that goat milk is good for making cheese.",
+          "start": 137.78,
+          "end": 142.46,
+          "segment_ids": [
+            21
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub01_f01.jpg",
+              "relative_path": "EG06lrs5crQ/task02_sub01_f01.jpg",
+              "caption": "A boy milks a cow while a woman watches.",
+              "frame_index": 1
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe a scene where a boy is milking a cow, but the focus will be on explaining the process of producing goat milk and its suitability for cheese-making.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A boy is seen milking a cow, which is not relevant to the task.",
+            "- [frames=[1]] A woman is watching the boy milk the cow, also irrelevant.",
+            "- [frames=[1]] The background and setting remain consistent, providing context for the explanation.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a typical farm setting with a cow being milked, but the focus should shift to explaining goat milk production and its use in cheese-making. The robot needs to provide accurate information about goat milk and its benefits without showing any cows.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have knowledge about goat milk production and its use in cheese-making.",
+            "- The robot should be able to communicate effectively in a human-friendly manner.",
+            "- The robot should be equipped with a display or screen to show relevant images or text.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the process of producing goat milk.",
+            "- The robot should explain why goat milk is suitable for making cheese.",
+            "- The robot should avoid mentioning cows or cow milk during the explanation.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Observe the current scene and identify the irrelevant elements (cow milking).",
+            "2. [type=communication, frames=[1]] Inform the viewer that the focus will now shift to goat milk production.",
+            "3. [type=communication, frames=[1]] Display an image of a goat on the robot's screen.",
+            "4. [type=communication, frames=[1]] Explain how goat milk is produced, focusing on the process.",
+            "5. [type=perception, frames=[1]] Verify/confirm the key observation before reporting.",
+            "6. [type=navigation, frames=[1]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Observe the current scene and identify the irrelevant elements (cow milking). It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting). After verification, it communicates the result clearly (Display an image of a goat on the robot's screen).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 4.680000000000007,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/EG06lrs5crQ/task02/sub01/motion.bvh",
+            "params_path": "results/momask/EG06lrs5crQ/task02/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Describe the care and farming of sheep.",
+      "start": 282.87,
+      "end": 290.75,
+      "subtasks": [
+        {
+          "text": "Observe a male sheep and note that it is called a ram.",
+          "start": 282.87,
+          "end": 284.87,
+          "segment_ids": [
+            38
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub00_f00.jpg",
+              "relative_path": "EG06lrs5crQ/task03_sub00_f00.jpg",
+              "caption": "Three sheep are grazing in a grassy field.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task03_sub00_f02.jpg",
+              "relative_path": "EG06lrs5crQ/task03_sub00_f02.jpg",
+              "caption": "Three sheep are grazing in a grassy field with horses in the background.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe a male sheep in a grassy field and note that it is called a ram.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] Three sheep are grazing in a grassy field.",
+            "- [frames=[0]] The scene remains similar with three sheep grazing, now with horses in the background.",
+            "- [frames=[0]] The sheep are moving naturally, indicating they are not restrained.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a peaceful grassy field where sheep and horses coexist. The focus is on observing a male sheep, which is essential for understanding the farm environment and terminology.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture the scene.",
+            "- The robot should have the ability to identify different types of animals.",
+            "- The robot should be able to communicate the observation to the user.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Correctly identify the male sheep.",
+            "- Accurately name the male sheep as a ram.",
+            "- Provide a clear and concise description of the observation.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Capture an image of the sheep in the field.",
+            "2. [type=perception, frames=[0]] Analyze the image to identify the male sheep.",
+            "3. [type=manipulation, frames=[0]] Rotate the camera to get a better view of the sheep's features.",
+            "4. [type=communication, frames=[0]] Announce the identification of the male sheep.",
+            "5. [type=perception, frames=[0]] Zoom in on the sheep to confirm its gender.",
+            "6. [type=communication, frames=[0]] State that the identified sheep is a ram.",
+            "7. [type=navigation, frames=[0,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture an image of the sheep in the field. It then verifies the key detail directly from the frames (Zoom in on the sheep to confirm its gender). After verification, it communicates the result clearly (Announce the identification of the male sheep).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Rotate the camera to get a better view of the sheep's features; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/EG06lrs5crQ/task03/sub00/motion.bvh",
+            "params_path": "results/momask/EG06lrs5crQ/task03/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Note that sheep are clipped for their wool to keep them cool in summer.",
+          "start": 285.39,
+          "end": 290.75,
+          "segment_ids": [
+            39
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub01_f00.jpg",
+              "relative_path": "EG06lrs5crQ/task03_sub01_f00.jpg",
+              "caption": "Three sheep are grazing in a grassy field with a few horses in the background.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task03_sub01_f01.jpg",
+              "relative_path": "EG06lrs5crQ/task03_sub01_f01.jpg",
+              "caption": "Three sheep are grazing in a grassy field with horses in the background.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub01_f02.jpg",
+              "relative_path": "EG06lrs5crQ/task03_sub01_f02.jpg",
+              "caption": "Three sheep are grazing in a grassy field with horses in the background.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment explains that sheep are sheared to keep them cool during summer. This is observed in a scene where sheep are grazing in a field.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] Three sheep are grazing in a grassy field with a few horses in the background.",
+            "- [frames=[1]] The scene remains unchanged with three sheep continuing to graze.",
+            "- [frames=[2]] The sheep continue to graze without any change in their environment.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a pastoral setting with sheep and horses in a grassy field. The presence of horses suggests a rural farm environment.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the current location on the farm.",
+            "- The robot should have knowledge about the care and farming practices of sheep.",
+            "- The robot should be able to identify sheep in the field.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the sheep in the field.",
+            "- The robot should understand the context of shearing sheep to keep them cool.",
+            "- The robot should be able to explain the process of shearing to the viewer.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1,2]] Identify the sheep in the field.",
+            "2. [type=communication, frames=[0,1,2]] Explain that sheep are sheared to keep them cool during summer.",
+            "3. [type=navigation, frames=[0,1,2]] Move closer to the sheep for better visibility.",
+            "4. [type=perception, frames=[0,1,2]] Verify the number of sheep present.",
+            "5. [type=manipulation, frames=[0,1,2]] Demonstrate the shearing process using a model or animation.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the sheep in the field. It then verifies the key detail directly from the frames (Verify the number of sheep present).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move closer to the sheep for better visibility; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 5.360000000000014,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/EG06lrs5crQ/task03/sub01/motion.bvh",
+            "params_path": "results/momask/EG06lrs5crQ/task03/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Describe farm animals in the context of horse care and riding.",
+      "start": 294.91,
+      "end": 325.71,
+      "subtasks": [
+        {
+          "text": "Observe horses grazing in a pasture and note their color.",
+          "start": 294.91,
+          "end": 300.87,
+          "segment_ids": [
+            41
+          ],
+          "frames": [
+            {
+              "image_file": "task04_sub00_f00.jpg",
+              "relative_path": "EG06lrs5crQ/task04_sub00_f00.jpg",
+              "caption": "Three sheep are grazing in a grassy field.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task04_sub00_f01.jpg",
+              "relative_path": "EG06lrs5crQ/task04_sub00_f01.jpg",
+              "caption": "Three sheep are grazing in a grassy field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task04_sub00_f02.jpg",
+              "relative_path": "EG06lrs5crQ/task04_sub00_f02.jpg",
+              "caption": "Three sheep are grazing in a grassy field with horses in the background.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe horses grazing in a pasture and note their colors during a specific time range in the video.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] The scene shows three sheep grazing in a grassy field.",
+            "- [frames=[2]] Horses appear in the background behind the sheep.",
+            "- [frames=[2]] The horses are grazing in the same grassy field as the sheep.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The robot observes a pastoral scene where sheep and horses are grazing together. The horses are in the background, making them less prominent but still visible.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have the ability to recognize and differentiate between sheep and horses.",
+            "- The robot needs to be able to identify the color of the horses.",
+            "- The robot should be aware of the specific time range (294.9s–300.9s) to focus on the correct part of the video.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the presence of horses.",
+            "- The robot should accurately note the colors of the horses.",
+            "- The robot should report the findings within the specified time range.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Identify the sheep grazing in the field.",
+            "2. [type=perception, frames=[2]] Detect the horses in the background.",
+            "3. [type=perception, frames=[2]] Confirm the presence of horses by cross-checking with the known time range.",
+            "4. [type=perception, frames=[2]] Measure the color of the horses using the camera.",
+            "5. [type=communication, frames=[2]] Report the observed horse colors to the user.",
+            "6. [type=navigation, frames=[0,1,2]] Return to a standby position.",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the sheep grazing in the field. It then verifies the key detail directly from the frames (Confirm the presence of horses by cross-checking with the known time range). After verification, it communicates the result clearly (Report the observed horse colors to the user).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a standby position.",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 5.9599999999999795,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/EG06lrs5crQ/task04/sub00/motion.bvh",
+            "params_path": "results/momask/EG06lrs5crQ/task04/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Describe the care horses receive at a barn, including feeding and storage.",
+          "start": 319.79,
+          "end": 325.71,
+          "segment_ids": [
+            45
+          ],
+          "frames": [
+            {
+              "image_file": "task04_sub01_f00.jpg",
+              "relative_path": "EG06lrs5crQ/task04_sub01_f00.jpg",
+              "caption": "A herd of horses galloping through a grassy field.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task04_sub01_f01.jpg",
+              "relative_path": "EG06lrs5crQ/task04_sub01_f01.jpg",
+              "caption": "A group of horses galloping across a grassy field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task04_sub01_f02.jpg",
+              "relative_path": "EG06lrs5crQ/task04_sub01_f02.jpg",
+              "caption": "A group of horses, including a white one, are running in a field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene depicts a group of horses running in a field, setting the stage for an explanation of horse care practices at a barn.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A herd of horses is seen galloping through a grassy field.",
+            "- [frames=[0,1]] The horses appear healthy and energetic.",
+            "- [frames=[2]] A white horse joins the group, adding variety to the herd.",
+            "- [frames=[0,1]] The horses' movements suggest they are enjoying their environment.",
+            "- [frames=[2]] The field seems expansive, providing ample space for the horses to run freely.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The horses are depicted in a natural, open environment, which contrasts with the barn where they will receive care. This scene sets up the transition from outdoor activities to indoor care routines.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with horse anatomy and behavior.",
+            "- The robot should know the location of the barn and the path leading to it.",
+            "- The robot should have access to information about horse care practices.",
+            "- The robot should be able to communicate effectively with humans.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the care horses receive at a barn.",
+            "- The robot should mention feeding and storage practices.",
+            "- The robot should provide a clear and concise explanation.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate towards the barn, following the path from the field.",
+            "2. [type=perception, frames=[0,1]] Observe the horses' current state and behavior in the field.",
+            "3. [type=navigation, frames=[2]] Approach the barn and enter the area where horse care takes place.",
+            "4. [type=communication, frames=[2]] Explain the feeding routine, mentioning hay and.",
+            "5. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate towards the barn, following the path from the field. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate towards the barn, following the path from the field; Approach the barn and enter the area where horse care takes place; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 5.919999999999959,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/EG06lrs5crQ/task04/sub01/motion.bvh",
+            "params_path": "results/momask/EG06lrs5crQ/task04/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

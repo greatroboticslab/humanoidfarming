@@ -1,0 +1,658 @@
+{
+  "video_index": "A7NaVsDM2dk",
+  "title": "Precautions in Seed Selection Process",
+  "url": "https://www.youtube.com/watch?v=A7NaVsDM2dk",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "This video contains multiple agricultural procedures and steps in seed handling and transplantation.",
+  "tasks": [
+    {
+      "task": "Show various steps in seed selection and handling.",
+      "start": 305.47,
+      "end": 326.45,
+      "subtasks": [
+        {
+          "text": "Observe the process of soaking seeds in water mixed with fungicide for twelve hours.",
+          "start": 305.47,
+          "end": 309.67,
+          "segment_ids": [
+            16
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "A7NaVsDM2dk/task00_sub00_f00.jpg",
+              "caption": "A person is soaking seeds in water mixed with fungicide for 12 hours.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "A7NaVsDM2dk/task00_sub00_f01.jpg",
+              "caption": "A person is soaking seeds in water mixed with fungicide for 12 hours.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "A7NaVsDM2dk/task00_sub00_f02.jpg",
+              "caption": "A person is sitting on the ground next to two buckets, one blue and one red, with a bag of seeds in the red bucket.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe a person soaking seeds in water mixed with fungicide for 12 hours. This involves setting up the scene, observing the process, and ensuring the seeds are properly treated.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A person is soaking seeds in water mixed with fungicide for 12 hours.",
+            "- [frames=[2]] A person is sitting on the ground next to two buckets, one blue and one red, with a bag of seeds in the red bucket.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a person preparing to soak seeds in a solution containing fungicide. The person uses two buckets, one blue and one red, where the red bucket contains the seeds before they are soaked.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be within a reach of the buckets.",
+            "- The robot should have access to a camera to monitor the process.",
+            "- The robot should have a container to hold the fungicide solution.",
+            "- The robot should be able to communicate with the person if needed.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The seeds should be fully submerged in the fungicide solution for 12 hours.",
+            "- The person should confirm that the seeds are properly soaked.",
+            "- The robot should verify that the soaking process is complete.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[2]] Move to the location where the buckets are placed.",
+            "2. [type=perception, frames=[2]] Use the camera to confirm the presence of the red bucket with seeds.",
+            "3. [type=navigation, frames=[0,1,2]] Move to the blue bucket to ensure it contains the fungicide solution.",
+            "4. [type=manipulation, frames=[0,1]] Place the seeds from the red bucket into the fungicide solution in the blue bucket.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to the location where the buckets are placed. It then verifies the key detail directly from the frames (Use the camera to confirm the presence of the red bucket with seeds).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Note the next step of washing the seeds with clean water after soaking.",
+          "start": 310.81,
+          "end": 316.37,
+          "segment_ids": [
+            17
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f00.jpg",
+              "relative_path": "A7NaVsDM2dk/task00_sub01_f00.jpg",
+              "caption": "A blue bucket is sitting on the ground with a handle.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "A7NaVsDM2dk/task00_sub01_f01.jpg",
+              "caption": "A person is washing seeds in a blue bucket after 12 hours.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "A7NaVsDM2dk/task00_sub01_f02.jpg",
+              "caption": "A person is shown removing water from a blue bucket filled with seeds.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe the process of washing seeds in a blue bucket and ensure the next step is correctly followed.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A blue bucket with a handle is visible on the ground.",
+            "- [frames=[1]] A person is seen washing seeds in the blue bucket.",
+            "- [frames=[2]] The person is removing water from the blue bucket filled with seeds.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows the transition from soaking seeds to washing them, indicating the next step involves cleaning the seeds thoroughly.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be within reach of the blue bucket.",
+            "- The robot needs to have access to clean water.",
+            "- The robot must be able to identify the blue bucket.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The seeds should be visibly clean after washing.",
+            "- The bucket should be empty of excess water.",
+            "- The robot should confirm the next step is to proceed with the seed selection process.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Move to the location of the blue bucket.",
+            "2. [type=perception, frames=[1]] Verify the presence of the person washing seeds in the bucket.",
+            "3. [type=navigation, frames=[1]] Approach the blue bucket.",
+            "4. [type=manipulation, frames=[1]] Assist the person in washing the seeds by adding clean water.",
+            "5. [type=manipulation, frames=[2]] Help remove excess water from the bucket.",
+            "6. [type=perception, frames=[2]] Confirm the seeds are clean and the bucket is empty.",
+            "7. [type=communication, frames=[0,1,2]] Announce the completion of the washing step.",
+            "8. [type=navigation, frames=[0,1,2]] Move to the next station for seed selection.",
+            "9. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to the location of the blue bucket. It then verifies the key detail directly from the frames (Verify the presence of the person washing seeds in the bucket). After verification, it communicates the result clearly (Announce the completion of the washing step).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Describe placing treated seeds in wet jute bags and keeping them in shade.",
+          "start": 316.37,
+          "end": 326.45,
+          "segment_ids": [
+            18,
+            19,
+            20
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub02_f01.jpg",
+              "relative_path": "A7NaVsDM2dk/task00_sub02_f01.jpg",
+              "caption": "A person is standing next to a blue bucket and a pot on a concrete surface, with instructions to keep the jute bag or pot wet by sprinkling water",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub02_f02.jpg",
+              "relative_path": "A7NaVsDM2dk/task00_sub02_f02.jpg",
+              "caption": "A man is seen kneeling and working with seeds, with a bowl nearby.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will place treated seeds into wet jute bags and ensure they are kept in the shade. This involves several steps to prepare and handle the seeds properly.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A person is standing next to a blue bucket and a pot on a concrete surface, with instructions to keep the jute bag or pot wet by sprinkling water.",
+            "- [frames=[2]] A man is seen kneeling and working with seeds, with a bowl nearby.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a setup where seeds need to be placed into wet jute bags and kept in a shaded area. The initial step involves ensuring the jute bags or pots are wet, which is indicated by the presence of a blue bucket and a pot on the concrete surface.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to treated seeds.",
+            "- The robot needs to be equipped with tools to handle jute bags and seeds.",
+            "- The robot should know the location of the jute bags and the shaded area.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The seeds should be placed into wet jute bags.",
+            "- The jute bags should be kept in a shaded area.",
+            "- The jute bags should remain wet throughout the process.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Move to the location where the jute bags and pot are placed.",
+            "2. [type=perception, frames=[1]] Verify the presence of the jute bags and the pot.",
+            "3. [type=navigation, frames=[1]] Approach the pot and check if it is wet.",
+            "4. [type=manipulation, frames=[1]] If the pot is not wet, sprinkle water into it using a watering can.",
+            "5. [type=navigation, frames=[2]] Move to the area where the seeds.",
+            "6. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to the location where the jute bags and pot are placed. It then verifies the key detail directly from the frames (Verify the presence of the jute bags and the pot).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Demonstrate the steps in seedling transplantation.",
+      "start": 329.55,
+      "end": 370.37,
+      "subtasks": [
+        {
+          "text": "When seedlings show 4-5 leaves, they can be transplanted.",
+          "start": 329.55,
+          "end": 333.37,
+          "segment_ids": [
+            22
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "A7NaVsDM2dk/task01_sub00_f00.jpg",
+              "caption": "A close-up of seeds sprouting in 2 to 3 days.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "A7NaVsDM2dk/task01_sub00_f01.jpg",
+              "caption": "The video frame asks if all farmers follow the same method in germinating seeds.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "A7NaVsDM2dk/task01_sub00_f02.jpg",
+              "caption": "The video frame asks if all farmers follow the same method in germinating seeds.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "When seedlings reach 4-5 leaves, they are ready for transplantation. This subtask focuses on identifying the appropriate stage for transplanting.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A close-up of seeds sprouting in 2 to 3 days.",
+            "- [frames=[1,2]] The video repeatedly asks if all farmers follow the same method in germinating seeds.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shifts focus from seed sprouting to questioning the uniformity of farming practices. This transition is likely to provide context for the subsequent demonstration of the transplantation process.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to observe the seedlings.",
+            "- The robot needs to have access to a container or tray where the seedlings will be transplanted.",
+            "- The robot should be familiar with the stages of seedling growth.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify seedlings with 4-5 leaves.",
+            "- The robot should successfully transplant the seedlings into the designated container.",
+            "- The robot should ensure the soil is moist and suitable for transplantation.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Capture an image of the seedlings to assess their growth stage.",
+            "2. [type=perception, frames=[0]] Analyze the image to count the number of leaves on each seedling.",
+            "3. [type=navigation, frames=[0,1,2]] Move to the container or tray where the seedlings will be transplanted.",
+            "4. [type=manipulation, frames=[0,1,2]] Carefully remove the seedlings with 4-5 leaves from their current container.",
+            "5. [type=manipulation, frames=[0,1,2]] Place the seedlings into the new container, ensuring they are stable and upright.",
+            "6. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "7. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture an image of the seedlings to assess their growth stage. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Explain uprooting seedlings from the nursery plant.",
+          "start": 333.37,
+          "end": 355.87,
+          "segment_ids": [
+            23
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "A7NaVsDM2dk/task01_sub01_f01.jpg",
+              "caption": "A person is shown soaking seeds in water.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "A7NaVsDM2dk/task01_sub01_f02.jpg",
+              "caption": "A pile of certified seeds is shown, with a text overlay indicating their high quality and good germination percentage.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task01_sub01_f03.jpg",
+              "relative_path": "A7NaVsDM2dk/task01_sub01_f03.jpg",
+              "caption": "A person is distributing pre-germinated seeds in well-prepared seed beds.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task01_sub01_f04.jpg",
+              "relative_path": "A7NaVsDM2dk/task01_sub01_f04.jpg",
+              "caption": "A man is sowing seeds in a field, and the caption advises to keep the walkway between the beds full of water after sowing.",
+              "frame_index": 4
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will demonstrate the process of uprooting seedlings from the nursery plant, ensuring it is done carefully to avoid damaging the young plants.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] The person is shown soaking seeds in water, which is not directly related to the current subtask but sets the context for seed preparation.",
+            "- [frames=[2]] A pile of certified seeds is displayed, highlighting their quality and good germination percentage.",
+            "- [frames=[3]] A person is distributing pre-germinated seeds in well-prepared seed beds, showing the initial stage of seedling growth.",
+            "- [frames=[4]] A man is sowing seeds in a field, with a caption advising to keep the walkway between the beds full of water after sowing, providing additional context on seedling care.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from seed preparation to seed distribution and sowing, setting the stage for the next step, which involves uprooting seedlings from the nursery plant. This process is crucial for transplanting them into larger pots or fields.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with tools suitable for handling delicate seedlings.",
+            "- The robot needs to be within reach of the nursery plant where seedlings are grown.",
+            "- The robot should have a clear view of the seedlings and the surrounding area.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The seedlings should be uprooted without damage.",
+            "- The roots should remain intact.",
+            "- The seedlings should be placed gently in a designated area for further care.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[3]] Move to the nursery plant where seedlings are growing.",
+            "2. [type=perception, frames=[3]] Scan the area to locate the seedlings and ensure they are ready for uprooting.",
+            "3. [type=perception, frames=[1,2,3,4]] Verify/confirm the key observation before reporting.",
+            "4. [type=perception, frames=[1,2,3,4]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[1,2,3,4]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to the nursery plant where seedlings are growing. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Describe the process of flooding seed beds before uprooting to protect shoots and roots.",
+          "start": 355.87,
+          "end": 357.87,
+          "segment_ids": [
+            24
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub02_f01.jpg",
+              "relative_path": "A7NaVsDM2dk/task01_sub02_f01.jpg",
+              "caption": "The video shows a walkway between beds filled with water after sowing.",
+              "frame_index": 1
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Before uprooting seedlings, the video demonstrates the process of flooding seed beds to protect shoots and roots during transplantation.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] The video shows a walkway between beds filled with water after sowing.",
+            "- [frames=[1]] The camera focuses on the flooded seed bed, indicating the water level is sufficient for protection.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a well-watered seed bed, ensuring that the roots and shoots remain protected during the transplantation process. This method helps prevent damage to delicate plant parts, which is crucial for successful transplantation.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with sensors to detect water levels.",
+            "- The robot needs to navigate to the seed bed area.",
+            "- The robot must have the capability to verify the water level before proceeding.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The water level in the seed bed should be sufficient to protect the shoots and roots.",
+            "- The robot should confirm that the water level meets the required standard.",
+            "- The seed bed should be free of any obstructions that could impede the robot's movement.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate to the seed bed area.",
+            "2. [type=perception, frames=[1]] Verify the water level using onboard sensors.",
+            "3. [type=manipulation, frames=[1]] Ensure the water level is adequate by adjusting if necessary.",
+            "4. [type=perception, frames=[1]] Cross-check the water level to ensure it is sufficient for protection.",
+            "5. [type=navigation, frames=[1]] Move to the next seed bed if multiple beds need attention.",
+            "6. [type=manipulation, frames=[1]] Adjust the water level if needed for subsequent beds.",
+            "7. [type=navigation, frames=[1]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the seed bed area. It then verifies the key detail directly from the frames (Verify the water level using onboard sensors).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Highlight farmers starting the transplantation process after transporting sealings.",
+          "start": 360.83,
+          "end": 364.71,
+          "segment_ids": [
+            27,
+            28
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub03_f00.jpg",
+              "relative_path": "A7NaVsDM2dk/task01_sub03_f00.jpg",
+              "caption": "The video shows a field with water channels and instructions for maintaining water on top of the beds for a certain period.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub03_f02.jpg",
+              "relative_path": "A7NaVsDM2dk/task01_sub03_f02.jpg",
+              "caption": "The video shows a field with water and grass, and instructions on maintaining water on top of the beds for 5 to 6 days after seeds germinate.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Farmers are preparing to start the transplantation process after transporting seedlings, ensuring the fields are ready for the next stage of cultivation.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The video shows a field with water channels and instructions for maintaining water on top of the beds for a certain period.",
+            "- [frames=[0]] The field is shown again, now with water and grass, and instructions on maintaining water on top of the beds for 5 to 6 days after seeds germinate.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a field where water management is crucial for the initial stages of seedling growth. The presence of water channels and instructions indicate that the field is prepared for the transplantation process, emphasizing the importance of maintaining optimal moisture levels.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The field should be identified and located.",
+            "- Water channels and bed conditions should be confirmed.",
+            "- Instructions for maintaining water levels should be read and understood.",
+            "- Tools for transplantation should be available and ready for use.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Water levels on the beds should be maintained at the correct level.",
+            "- The field should be free of any obstacles that could hinder the transplantation process.",
+            "- Tools used for transplantation should be in good working condition.",
+            "- Farmers should be informed about the next steps in the transplantation process.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Navigate to the field where the water channels and beds are located.",
+            "2. [type=perception, frames=[0]] Verify the current water levels on the beds using sensors or visual inspection.",
+            "3. [type=navigation, frames=[0]] Move to the area where the tools for transplantation are stored.",
+            "4. [type=manipulation, frames=[0]] Retrieve the necessary tools for transplantation.",
+            "5. [type=navigation, frames=[0,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the field where the water channels and beds are located. It then verifies the key detail directly from the frames (Verify the current water levels on the beds using sensors or visual inspection).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Mention the importance of healthy sealings for better yield.",
+          "start": 364.71,
+          "end": 370.37,
+          "segment_ids": [
+            29,
+            30
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub04_f01.jpg",
+              "relative_path": "A7NaVsDM2dk/task01_sub04_f01.jpg",
+              "caption": "A man is bending over in a field, possibly preparing to plant crops.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub04_f02.jpg",
+              "relative_path": "A7NaVsDM2dk/task01_sub04_f02.jpg",
+              "caption": "A person is bending over in a field, possibly preparing to plant crops.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will explain the importance of healthy seedlings for better crop yield during the seedling transplantation process.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1,2]] A person is seen bending over in a field, likely preparing to plant crops.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a person in a field, about to begin planting. The context suggests they are setting up for seedling transplantation.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a display screen or speaker to convey information.",
+            "- The robot needs to be within visual range of the field.",
+            "- The robot should have access to relevant information about seedling health and its impact on yield.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should clearly state the importance of healthy seedlings.",
+            "- The robot should provide a reason why healthy seedlings lead to better yields.",
+            "- The robot should ensure the information is understood by the viewer.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1,2]] Observe the person in the field preparing to plant.",
+            "2. [type=communication, frames=[1,2]] Announce the importance of healthy seedlings for better crop yield.",
+            "3. [type=perception, frames=[1,2]] Confirm the viewer's understanding by asking if they agree.",
+            "4. [type=communication, frames=[1,2]] Explain that healthy seedlings grow stronger and produce more robust plants.",
+            "5. [type=communication, frames=[1,2]] Emphasize that healthy seedlings can withstand diseases and pests better.",
+            "6. [type=communication, frames=[1,2]] Suggest that healthy seedlings lead to higher overall crop yield.",
+            "7. [type=communication, frames=[1,2]] Encourage viewers to ensure their seedlings are healthy before transplantation.",
+            "8. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Observe the person in the field preparing to plant. It then verifies the key detail directly from the frames (Confirm the viewer's understanding by asking if they agree). After verification, it communicates the result clearly (Announce the importance of healthy seedlings for better crop yield).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Present information on agricultural tools and machines.",
+      "start": 631.01,
+      "end": 645.01,
+      "subtasks": [
+        {
+          "text": "Draw diagrams of agricultural tools.",
+          "start": 635.91,
+          "end": 637.9300000000001,
+          "segment_ids": [
+            64
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f00.jpg",
+              "relative_path": "A7NaVsDM2dk/task02_sub00_f00.jpg",
+              "caption": "The video frame contains a list of questions related to agriculture, including types of tools, seed selection precautions, appreciation of farmers and agricultural labor, and examples of agricultural",
+              "frame_index": 0
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will draw diagrams of agricultural tools as part of a tutorial video on agricultural tools and machines.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The video frame contains a list of questions related to agriculture, including types of tools, seed selection precautions, appreciation of farmers and agricultural labor, and examples of agricultural machinery.",
+            "- [frames=[0]] The list of questions is displayed, but no specific tool diagrams are visible yet.",
+            "- [frames=[0]] The focus shifts to drawing a simple diagram of an agricultural tool.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows the initial setup for drawing diagrams of agricultural tools, transitioning from a list of questions to the actual drawing process. The robot needs to follow the instructions to draw the diagrams accurately.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot has access to drawing tools and materials.",
+            "- The robot understands the types of agricultural tools to be drawn.",
+            "- The robot can navigate to the drawing area.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully draws the agricultural tool diagram.",
+            "- The diagram is clear and accurate.",
+            "- The robot verifies the accuracy of the diagram before moving on.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Move to the designated drawing area.",
+            "2. [type=perception, frames=[0]] Read the list of questions to identify the type of tool to be drawn.",
+            "3. [type=manipulation, frames=[0]] Pick up the drawing tool.",
+            "4. [type=manipulation, frames=[0]] Begin drawing the agricultural tool on the paper.",
+            "5. [type=perception, frames=[0]] Cross-check the drawing against the mental image of the tool.",
+            "6. [type=manipulation, frames=[0]] Continue refining the drawing until it meets the required standards.",
+            "7. [type=navigation, frames=[0]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to the designated drawing area. It then verifies the key detail directly from the frames (Read the list of questions to identify the type of tool to be drawn).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Explain about tools used in agriculture.",
+          "start": 631.01,
+          "end": 635.91,
+          "segment_ids": [
+            63
+          ],
+          "frames": []
+        },
+        {
+          "text": "Describe precautions needed in seed selection.",
+          "start": 637.9300000000001,
+          "end": 639.95,
+          "segment_ids": [
+            64
+          ],
+          "frames": []
+        },
+        {
+          "text": "Appreciate agricultural labor for their skill in transplantation.",
+          "start": 639.95,
+          "end": 645.01,
+          "segment_ids": [
+            65
+          ],
+          "frames": []
+        }
+      ]
+    }
+  ]
+}

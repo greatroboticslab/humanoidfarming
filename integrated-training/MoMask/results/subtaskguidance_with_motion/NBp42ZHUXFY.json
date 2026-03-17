@@ -1,0 +1,921 @@
+{
+  "video_index": "NBp42ZHUXFY",
+  "title": "Neolithic Revolution: Birth of Agriculture",
+  "url": "https://www.youtube.com/watch?v=NBp42ZHUXFY",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "The transcript explains the impacts and developments of agricultural revolutions on human civilization.",
+  "tasks": [
+    {
+      "task": "Explain the importance of the Neolithic Revolution in history.",
+      "start": 138.33,
+      "end": 150.85,
+      "subtasks": [
+        {
+          "text": "Describe how the discovery of agriculture allowed humans to settle in one location.",
+          "start": 138.33,
+          "end": 145.25,
+          "segment_ids": [
+            59,
+            60,
+            61
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "NBp42ZHUXFY/task00_sub00_f00.jpg",
+              "caption": "The video frame shows a presentation about the Neolithic Revolution, which occurred between 10,000 and 3,000 BC.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "NBp42ZHUXFY/task00_sub00_f01.jpg",
+              "caption": "The video frame shows a presentation slide about the Neolithic Revolution, featuring a map and some text.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "NBp42ZHUXFY/task00_sub00_f02.jpg",
+              "caption": "A man is presenting a slide about the Neolithic Revolution, which is the first agricultural revolution.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will explain how the discovery of agriculture allowed humans to settle in one location during the Neolithic Revolution.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] The presentation slide discusses the Neolithic Revolution, highlighting its timeframe between 10,000 and 3,000 BC.",
+            "- [frames=[0,1]] A map and textual information are shown on the slide, indicating the geographical spread of the revolution.",
+            "- [frames=[2]] A presenter is seen explaining the Neolithic Revolution, focusing on the transition to agriculture.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a presentation about the Neolithic Revolution, emphasizing the shift from nomadic lifestyles to settled communities due to the advent of agriculture.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have knowledge of the Neolithic Revolution and its impact on human settlement.",
+            "- The robot needs access to the presentation slides and the ability to read them.",
+            "- The robot should be able to navigate to the relevant slides and present the information accurately.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should clearly explain the concept of agriculture leading to settlement.",
+            "- The robot should reference the timeframe of the Neolithic Revolution.",
+            "- The robot should mention the geographical spread of the revolution through the use of maps.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the slide showing the map and textual information about the Neolithic Revolution.",
+            "2. [type=perception, frames=[0,1]] Read the text on the slide to understand the context.",
+            "3. [type=manipulation, frames=[2]] Point to the presenter and acknowledge their explanation.",
+            "4. [type=communication, frames=[2]] Explain how the discovery of agriculture allowed humans to settle in one location.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the slide showing the map and textual information about the Neolithic Revolution. It then verifies the key detail directly from the frames (Read the text on the slide to understand the context).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 6.9199999999999875,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/NBp42ZHUXFY/task00/sub00/motion.bvh",
+            "params_path": "results/momask/NBp42ZHUXFY/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Highlight the effects of the Neolithic Revolution, including the birth of civilizations.",
+          "start": 145.25,
+          "end": 150.85,
+          "segment_ids": [
+            62,
+            63,
+            64
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "NBp42ZHUXFY/task00_sub01_f01.jpg",
+              "caption": "A man is presenting a slide about the Neolithic Revolution, which occurred between 10,000 and 3,000 BC.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "NBp42ZHUXFY/task00_sub01_f02.jpg",
+              "caption": "A man in a Columbia shirt is seen using a tool.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will explain the effects of the Neolithic Revolution, focusing on the birth of civilizations, using visual aids and tools.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] The robot sees a man presenting a slide about the Neolithic Revolution, indicating the timeframe of 10,000 to 3,000 BC.",
+            "- [frames=[2]] The robot observes a man in a Columbia shirt using a tool, likely representing the transition to agricultural tools.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a presentation about the Neolithic Revolution, with a focus on the birth of civilizations. The man presenting uses a slide to illustrate key points, while another individual demonstrates a tool, symbolizing the shift from hunter-gatherer societies to agricultural ones.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have knowledge of the Neolithic Revolution and its effects.",
+            "- The robot needs access to a display screen to show the slide.",
+            "- The robot should be able to manipulate the tool for demonstration purposes.",
+            "- The robot must be capable of verbal communication to explain the concepts.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully presents the slide about the Neolithic Revolution.",
+            "- The robot accurately demonstrates the tool used during the Neolithic period.",
+            "- The robot clearly explains the significance of the Neolithic Revolution in the context of the birth of civilizations.",
+            "- The robot ensures the audience understands the transition from hunter-gatherer to agricultural societies.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate to the display screen to present the slide about the Neolithic Revolution.",
+            "2. [type=communication, frames=[1]] Present the slide showing the timeline of the Neolithic Revolution (10,000 to 3,000 BC).",
+            "3. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "4. [type=perception, frames=[1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the display screen to present the slide about the Neolithic Revolution. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 5.599999999999994,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/NBp42ZHUXFY/task00/sub01/motion.bvh",
+            "params_path": "results/momask/NBp42ZHUXFY/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Discuss the innovations in agriculture during different revolutions.",
+      "start": 200.05,
+      "end": 296.13,
+      "subtasks": [
+        {
+          "text": "Explain the invention of irrigation and its impact on agriculture.",
+          "start": 200.05,
+          "end": 210.69,
+          "segment_ids": [
+            86,
+            87,
+            88,
+            89
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "NBp42ZHUXFY/task01_sub00_f00.jpg",
+              "caption": "The video frame shows a man presenting information about irrigation, including its history and origins.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "NBp42ZHUXFY/task01_sub00_f01.jpg",
+              "caption": "The video frame shows a man speaking in front of a presentation slide about irrigation.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "NBp42ZHUXFY/task01_sub00_f02.jpg",
+              "caption": "A man in a Columbia shirt stands in front of a small stream surrounded by greenery.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will explain the invention of irrigation and its impact on agriculture, focusing on historical context and practical applications.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A man is presenting information about irrigation, including its history and origins.",
+            "- [frames=[0,1]] The man speaks in front of a presentation slide about irrigation.",
+            "- [frames=[2]] A man in a Columbia shirt stands in front of a small stream surrounded by greenery.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a man explaining the concept of irrigation, likely using a combination of verbal explanation and visual aids such as slides. The presence of a stream and greenery suggests the importance of water in agricultural practices.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have knowledge about the Neolithic Revolution and the invention of irrigation.",
+            "- The robot needs access to a display screen to show relevant images or videos.",
+            "- The robot should be able to stand and move to different positions as needed.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the invention of irrigation.",
+            "- The robot should explain the impact of irrigation on agriculture.",
+            "- The robot should visually demonstrate or reference the use of water in agriculture.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Move to the position where the man is presenting.",
+            "2. [type=perception, frames=[0,1]] Read the information displayed on the presentation slide.",
+            "3. [type=manipulation, frames=[2]] Point to the small stream and greenery to emphasize the importance of water in agriculture.",
+            "4. [type=communication, frames=[0,1]] Explain the historical context of irrigation, referencing the information on the slide.",
+            "5. [type=communication, frames=[0,1]] Describe the practical applications of irrigation in agriculture.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to the position where the man is presenting. It then verifies the key detail directly from the frames (Read the information displayed on the presentation slide).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move to the position where the man is presenting; Point to the small stream and greenery to emphasize the importance of water in agriculture; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 10.639999999999986,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/NBp42ZHUXFY/task01/sub00/motion.bvh",
+            "params_path": "results/momask/NBp42ZHUXFY/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Describe the concept of subsistence agriculture and how it changed over time.",
+          "start": 260.33,
+          "end": 296.13,
+          "segment_ids": [
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124,
+            125,
+            126
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f00.jpg",
+              "relative_path": "NBp42ZHUXFY/task01_sub01_f00.jpg",
+              "caption": "A man is presenting a slide about subsistence agriculture and the Neolithic Revolution.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "NBp42ZHUXFY/task01_sub01_f01.jpg",
+              "caption": "A man is presenting on subsistence agriculture, explaining that it is self-sufficiency farming where farmers focus on growing enough food to feed themselves and their families.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "NBp42ZHUXFY/task01_sub01_f02.jpg",
+              "caption": "A man is presenting on subsistence agriculture, which involves self-sufficiency farming.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task01_sub01_f03.jpg",
+              "relative_path": "NBp42ZHUXFY/task01_sub01_f03.jpg",
+              "caption": "The video frame shows a man speaking in front of a map of a medieval manor.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task01_sub01_f04.jpg",
+              "relative_path": "NBp42ZHUXFY/task01_sub01_f04.jpg",
+              "caption": "The video frame shows a man speaking about medieval agriculture, with a map of a medieval manor in the background.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task01_sub01_f05.jpg",
+              "relative_path": "NBp42ZHUXFY/task01_sub01_f05.jpg",
+              "caption": "The video frame shows a man speaking in front of a map of a medieval manor.",
+              "frame_index": 5
+            },
+            {
+              "image_file": "task01_sub01_f06.jpg",
+              "relative_path": "NBp42ZHUXFY/task01_sub01_f06.jpg",
+              "caption": "A man is standing in front of a map, speaking to the camera.",
+              "frame_index": 6
+            },
+            {
+              "image_file": "task01_sub01_f07.jpg",
+              "relative_path": "NBp42ZHUXFY/task01_sub01_f07.jpg",
+              "caption": "A man is presenting information about medieval agriculture, including land ownership and common pastures.",
+              "frame_index": 7
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will describe the concept of subsistence agriculture and its evolution over time, focusing on the Neolithic Revolution and medieval periods.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A man is presenting a slide about subsistence agriculture and the Neolithic Revolution.",
+            "- [frames=[1,2]] The man explains that subsistence agriculture is self-sufficiency farming where farmers grow enough food to feed themselves and their families.",
+            "- [frames=[3,4,5,6,7]] The man speaks about medieval agriculture, using a map of a medieval manor to illustrate land ownership and common pastures.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from an introduction to subsistence agriculture during the Neolithic Revolution to a detailed explanation of medieval agricultural practices, emphasizing self-sufficiency and land management.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a display screen to show images and videos.",
+            "- The robot should have a speaker to deliver verbal explanations.",
+            "- The robot should have access to relevant historical data and images of maps and slides.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the concept of subsistence agriculture.",
+            "- The robot should explain how subsistence agriculture evolved over time.",
+            "- The robot should effectively use visual aids such as maps and slides to enhance understanding.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the slide showing the Neolithic Revolution.",
+            "2. [type=perception, frames=[0,1]] Read and announce the definition of subsistence agriculture.",
+            "3. [type=navigation, frames=[3,4,5,6,7]] Navigate to the map of a medieval manor.",
+            "4. [type=communication, frames=[3,4,5,6,7]] Explain the concept of land ownership and common past.",
+            "5. [type=navigation, frames=[0,1,2,3,4,5,6,7]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the slide showing the Neolithic Revolution. It then verifies the key detail directly from the frames (Read and announce the definition of subsistence agriculture).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 35.80000000000001,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/NBp42ZHUXFY/task01/sub01/motion.bvh",
+            "params_path": "results/momask/NBp42ZHUXFY/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Detail the impacts of the Industrial Revolution on agriculture.",
+      "start": 515.71,
+      "end": 615.71,
+      "subtasks": [
+        {
+          "text": "Describe the movement from subsistence to commercial agriculture.",
+          "start": 515.71,
+          "end": 529.43,
+          "segment_ids": [
+            225,
+            226,
+            227,
+            228,
+            229
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f00.jpg",
+              "relative_path": "NBp42ZHUXFY/task02_sub00_f00.jpg",
+              "caption": "A man is presenting on commercial agriculture, with a slide showing grain railroad cars and a wheat field.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "NBp42ZHUXFY/task02_sub00_f01.jpg",
+              "caption": "The video frame shows a man speaking in front of a screen with text about the 2nd Agricultural Revolution.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "NBp42ZHUXFY/task02_sub00_f02.jpg",
+              "caption": "The video frame shows a man speaking in front of a presentation slide about the 2nd Agricultural Revolution.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will describe the transition from subsistence to commercial agriculture during the 2nd Agricultural Revolution, using slides and spoken content as visual aids.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A man is presenting on commercial agriculture, with a slide showing grain railroad cars and a wheat field.",
+            "- [frames=[1]] The video frame shows a man speaking in front of a screen with text about the 2nd Agricultural Revolution.",
+            "- [frames=[2]] The video frame shows a man speaking in front of a presentation slide about the 2nd Agricultural Revolution.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a presentation on the 2nd Agricultural Revolution, focusing on the shift from subsistence to commercial agriculture. The slides and spoken content highlight key aspects such as the role of railroads in transporting grain and the broader context of the 2nd Agricultural Revolution.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to the presentation slides and audio content.",
+            "- The robot should be able to navigate to the appropriate slides and read them aloud.",
+            "- The robot should be capable of understanding and explaining the historical context of the 2nd Agricultural Revolution.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the transition from subsistence to commercial agriculture.",
+            "- The robot should correctly identify and explain the role of railroads in agricultural transportation.",
+            "- The robot should provide a clear explanation of the 2nd Agricultural Revolution's impact on agriculture.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Navigate to the slide showing grain railroad cars and a wheat field.",
+            "2. [type=perception, frames=[0]] Read aloud the information on the slide, highlighting the role of railroads in transporting grain.",
+            "3. [type=navigation, frames=[1]] Navigate to the slide about the 2nd Agricultural Revolution.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the slide showing grain railroad cars and a wheat field. It then verifies the key detail directly from the frames (Read aloud the information on the slide, highlighting the role of railroads in transporting grain).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the slide showing grain railroad cars and a wheat field; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 13.719999999999914,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/NBp42ZHUXFY/task02/sub00/motion.bvh",
+            "params_path": "results/momask/NBp42ZHUXFY/task02/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Highlight the role of machinery and mechanical devices in agricultural advancements.",
+          "start": 552.67,
+          "end": 581.79,
+          "segment_ids": [
+            239,
+            240,
+            241,
+            242,
+            243,
+            244,
+            245,
+            246,
+            247,
+            248,
+            249,
+            250,
+            251,
+            252
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub01_f00.jpg",
+              "relative_path": "NBp42ZHUXFY/task02_sub01_f00.jpg",
+              "caption": "The video shows a man speaking in front of a slide that compares the productivity of a farmer and a McCormick Reaper in harvesting land.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub01_f01.jpg",
+              "relative_path": "NBp42ZHUXFY/task02_sub01_f01.jpg",
+              "caption": "The video frame shows a man speaking in front of a presentation slide about the 2nd Agricultural Revolution.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub01_f03.jpg",
+              "relative_path": "NBp42ZHUXFY/task02_sub01_f03.jpg",
+              "caption": "A man in a Columbia shirt stands in front of a black and white photo of a train yard.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task02_sub01_f04.jpg",
+              "relative_path": "NBp42ZHUXFY/task02_sub01_f04.jpg",
+              "caption": "A man is giving a presentation on the impact of railroads on agriculture.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task02_sub01_f05.jpg",
+              "relative_path": "NBp42ZHUXFY/task02_sub01_f05.jpg",
+              "caption": "A man is speaking in front of a slide about the impact of railroads on agriculture.",
+              "frame_index": 5
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on explaining how machinery and mechanical devices have transformed agriculture, particularly through the 2nd Agricultural Revolution and the impact of railroads.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] The video shows a man speaking in front of a slide comparing the productivity of a farmer using traditional methods versus a McCormick Reaper.",
+            "- [frame=3] A man in a Columbia shirt stands in front of a black and white photo of a train yard.",
+            "- [frame=4] The man is giving a presentation on the impact of railroads on agriculture.",
+            "- [frame=5] The man is speaking in front of a slide about the impact of railroads on agriculture.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from a comparison of traditional farming methods to modern machinery, specifically highlighting the McCormick Reaper. The presentation then shifts to discuss the broader impact of railroads on agriculture, emphasizing transportation and distribution improvements.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture and analyze the slides and presentations.",
+            "- The robot needs to have a display screen to show relevant images and videos.",
+            "- The robot should have a voice synthesis capability to narrate the explanation.",
+            "- The robot must be able to navigate to different areas of the room where the presentation is taking place.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately compare the productivity of a farmer using traditional methods versus a McCormick Reaper.",
+            "- The robot should explain the impact of railroads on agriculture, including improved transportation and distribution.",
+            "- The robot should ensure all information presented is clear and understandable to the viewer.",
+            "- The robot should verify the accuracy of the information before proceeding to the next part of the presentation.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the area where the slide comparing a farmer.",
+            "2. [type=perception, frames=[0,1,3,4,5]] Verify/confirm the key observation before reporting.",
+            "3. [type=perception, frames=[0,1,3,4,5]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[0,1,3,4,5]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,3,4,5]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the area where the slide comparing a farmer. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the area where the slide comparing a farmer; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 29.120000000000005,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/NBp42ZHUXFY/task02/sub01/motion.bvh",
+            "params_path": "results/momask/NBp42ZHUXFY/task02/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Describe how the railroad facilitated the growth of cities and agricultural trade.",
+          "start": 591.43,
+          "end": 615.71,
+          "segment_ids": [
+            258,
+            259,
+            260,
+            261,
+            262,
+            263,
+            264,
+            265,
+            266,
+            267,
+            268
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub02_f00.jpg",
+              "relative_path": "NBp42ZHUXFY/task02_sub02_f00.jpg",
+              "caption": "A man is presenting about the impact of railroads on agriculture.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub02_f01.jpg",
+              "relative_path": "NBp42ZHUXFY/task02_sub02_f01.jpg",
+              "caption": "A man is speaking about the impact of railroads on agriculture and cities.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub02_f02.jpg",
+              "relative_path": "NBp42ZHUXFY/task02_sub02_f02.jpg",
+              "caption": "The video frame shows a man speaking about the impact of railroads on agriculture.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task02_sub02_f03.jpg",
+              "relative_path": "NBp42ZHUXFY/task02_sub02_f03.jpg",
+              "caption": "A man is presenting about the 2nd Agricultural Revolution, discussing improvements in farming techniques like planting in rows, mechanical devices, railroads, and new fertilizers",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task02_sub02_f04.jpg",
+              "relative_path": "NBp42ZHUXFY/task02_sub02_f04.jpg",
+              "caption": "The video frame shows a man presenting information about the 2nd Agricultural Revolution.",
+              "frame_index": 4
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will describe how railroads facilitated the growth of cities and agricultural trade during the 2nd Agricultural Revolution.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A man is presenting about the impact of railroads on agriculture.",
+            "- [frames=[2]] The video frame shows a man speaking about the impact of railroads on agriculture.",
+            "- [frames=[3,4]] A man is presenting about the 2nd Agricultural Revolution, discussing improvements in farming techniques like planting in rows, mechanical devices, railroads, and new fertilizers.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene involves a man explaining the role of railroads in the 2nd Agricultural Revolution, emphasizing their impact on both urban development and agricultural trade.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to a screen displaying the video.",
+            "- The robot should be able to navigate to the relevant frames.",
+            "- The robot should be capable of reading text and understanding spoken content.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the impact of railroads on agriculture and cities.",
+            "- The robot should mention improvements in farming techniques such as planting in rows, mechanical devices, and new fertilizers.",
+            "- The robot should verify the information presented by cross-checking with the video content.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the frames where the man discusses the impact of railroads on agriculture.",
+            "2. [type=perception, frames=[0,1]] Read the man's speech about railroads and their impact on agriculture and cities.",
+            "3. [type=navigation, frames=[3,4]] Navigate to the frames where the man discusses the 2nd Agricultural Revolution and its improvements.",
+            "4. [type=perception, frames=[3,4]] Read the man's speech about improvements in.",
+            "5. [type=navigation, frames=[0,1,2,3,4]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the frames where the man discusses the impact of railroads on agriculture. It then verifies the key detail directly from the frames (Read the man's speech about railroads and their impact on agriculture and cities).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the frames where the man discusses the impact of railroads on agriculture; Navigate to the frames where the man discusses the 2nd Agricultural Revolution and its improvements; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 24.280000000000086,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/NBp42ZHUXFY/task02/sub02/motion.bvh",
+            "params_path": "results/momask/NBp42ZHUXFY/task02/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Explain the significance of the Green Revolution.",
+      "start": 617.51,
+      "end": 673.47,
+      "subtasks": [
+        {
+          "text": "Describe the role of Norman Borlaug in the Green Revolution.",
+          "start": 617.51,
+          "end": 637.51,
+          "segment_ids": [
+            270,
+            271,
+            272,
+            273,
+            274,
+            275,
+            276,
+            277
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub00_f00.jpg",
+              "relative_path": "NBp42ZHUXFY/task03_sub00_f00.jpg",
+              "caption": "A man is standing in a field of wheat, with the words \"Green Revolution\" displayed in the background.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task03_sub00_f01.jpg",
+              "relative_path": "NBp42ZHUXFY/task03_sub00_f01.jpg",
+              "caption": "The video frame shows a man speaking in front of a screen with a presentation about Norman Borlaug.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub00_f02.jpg",
+              "relative_path": "NBp42ZHUXFY/task03_sub00_f02.jpg",
+              "caption": "The video frame shows a man speaking in front of a screen with a presentation about Norman Borlaug.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task03_sub00_f03.jpg",
+              "relative_path": "NBp42ZHUXFY/task03_sub00_f03.jpg",
+              "caption": "The video features a man speaking in front of a screen with a presentation about Norman Borlaug.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task03_sub00_f04.jpg",
+              "relative_path": "NBp42ZHUXFY/task03_sub00_f04.jpg",
+              "caption": "The video frame shows a man speaking in front of a screen with a presentation about Norman Borlaug.",
+              "frame_index": 4
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will describe the role of Norman Borlaug in the Green Revolution, focusing on his contributions to agricultural advancements.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A man is standing in a field of wheat, with the words \"Green Revolution\" displayed in the background.",
+            "- [frames=[1-4]] The video shows a man speaking in front of a screen with a presentation about Norman Borlaug.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a man explaining the significance of Norman Borlaug's work during the Green Revolution. The background includes images related to agriculture and the man's presentation.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have information about Norman Borlaug and the Green Revolution.",
+            "- The robot must be able to navigate to the correct section of the video.",
+            "- The robot needs to recognize the man speaking and the relevant slides.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe Norman Borlaug's contributions to the Green Revolution.",
+            "- The robot must maintain a clear and concise explanation throughout the subtask.",
+            "- The robot should ensure the explanation aligns with the visual aids shown in the video.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the section where the man is standing in the field of wheat.",
+            "2. [type=perception, frames=[0,1,2,3,4]] Verify/confirm the key observation before reporting.",
+            "3. [type=perception, frames=[0,1,2,3,4]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[0,1,2,3,4]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2,3,4]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the section where the man is standing in the field of wheat. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 20.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/NBp42ZHUXFY/task03/sub00/motion.bvh",
+            "params_path": "results/momask/NBp42ZHUXFY/task03/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Highlight the impact of genetically modified crops on agricultural production.",
+          "start": 637.51,
+          "end": 673.47,
+          "segment_ids": [
+            278,
+            279,
+            280,
+            281,
+            282,
+            283,
+            284,
+            285,
+            286,
+            287,
+            288,
+            289,
+            290,
+            291,
+            292
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub01_f01.jpg",
+              "relative_path": "NBp42ZHUXFY/task03_sub01_f01.jpg",
+              "caption": "The video frame shows a man speaking in front of a screen with a presentation about Norman Borlaug.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub01_f02.jpg",
+              "relative_path": "NBp42ZHUXFY/task03_sub01_f02.jpg",
+              "caption": "The video frame shows a man giving a presentation about Norman Borlaug and the Green Revolution.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task03_sub01_f03.jpg",
+              "relative_path": "NBp42ZHUXFY/task03_sub01_f03.jpg",
+              "caption": "The video frame shows a man giving a presentation on the Green Agricultural Revolution, with a slide showing data on wheat production before and after the AICRP.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task03_sub01_f04.jpg",
+              "relative_path": "NBp42ZHUXFY/task03_sub01_f04.jpg",
+              "caption": "The video frame shows a presentation slide about the Green Agricultural Revolution, highlighting the impact of advanced technology and genetically engineered crops on agricultural productivity.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task03_sub01_f05.jpg",
+              "relative_path": "NBp42ZHUXFY/task03_sub01_f05.jpg",
+              "caption": "The video frame shows a man presenting a slide titled \"The Green Agricultural Revolution\" with a bar graph and some text.",
+              "frame_index": 5
+            },
+            {
+              "image_file": "task03_sub01_f06.jpg",
+              "relative_path": "NBp42ZHUXFY/task03_sub01_f06.jpg",
+              "caption": "The video frame shows a man presenting a slide titled \"The Green Agricultural Revolution\" with a bar graph and some text.",
+              "frame_index": 6
+            },
+            {
+              "image_file": "task03_sub01_f07.jpg",
+              "relative_path": "NBp42ZHUXFY/task03_sub01_f07.jpg",
+              "caption": "The video frame shows a man speaking in front of a slide titled \"Revolutions Recap,\" which lists various historical revolutions and their impacts on agriculture.",
+              "frame_index": 7
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will explain the impact of genetically modified crops on agricultural production during the Green Revolution, using slides and data presented by a speaker.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] The video shows a man speaking in front of a screen with a presentation about Norman Borlaug.",
+            "- [frames=[2]] The man continues his presentation, focusing on Norman Borlaug and the Green Revolution.",
+            "- [frames=[3]] A slide is shown with data on wheat production before and after the AICRP.",
+            "- [frames=[4]] Another slide highlights the impact of advanced technology and genetically engineered crops on agricultural productivity.",
+            "- [frames=[5,6]] The man presents a slide titled \"The Green Agricultural Revolution\" with a bar graph and additional text.",
+            "- [frames=[7]] The slide changes to \"Revolutions Recap,\" listing various historical revolutions and their impacts on agriculture.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from an introduction to Norman Borlaug and the Green Revolution to detailed data presentations on agricultural productivity. The focus shifts to the impact of genetically modified crops and concludes with a recap of agricultural revolutions.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to the presentation slides and data.",
+            "- The robot must be able to read and interpret the content of the slides.",
+            "- The robot needs to understand the context of the Green Revolution and its significance.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the impact of genetically modified crops on agricultural production.",
+            "- The robot must present data on wheat production before and after the AICRP.",
+            "- The robot should highlight the role of advanced technology and genetically engineered crops in increasing agricultural productivity.",
+            "- The robot needs to summarize the key points of the Green Agricultural Revolution.",
+            "- The robot should provide a clear and concise explanation of the significance of the Green Revolution in the context of agricultural history.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2,3,4,5,6,7]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[1,2,3,4,5,6,7]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[1,2,3,4,5,6,7]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[1,2,3,4,5,6,7]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[1,2,3,4,5,6,7]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 35.960000000000036,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/NBp42ZHUXFY/task03/sub01/motion.bvh",
+            "params_path": "results/momask/NBp42ZHUXFY/task03/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

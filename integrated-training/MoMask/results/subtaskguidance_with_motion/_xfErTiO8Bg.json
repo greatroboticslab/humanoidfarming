@@ -1,0 +1,338 @@
+{
+  "video_index": "_xfErTiO8Bg",
+  "title": "Grocery Store Food Distribution Inefficiency Explained",
+  "url": "https://www.youtube.com/watch?v=_xfErTiO8Bg",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Discusses inefficiencies in food distribution and the transition to sustainable practices.",
+  "tasks": [
+    {
+      "task": "Explain the inefficiencies in food distribution with current statistics.",
+      "start": 9.04,
+      "end": 20.08,
+      "subtasks": [
+        {
+          "text": "Note that the average piece of produce travels 1500 miles and is 10 days old.",
+          "start": 9.04,
+          "end": 15.04,
+          "segment_ids": [
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "_xfErTiO8Bg/task00_sub00_f00.jpg",
+              "caption": "A man in a blue shirt and jeans is sitting in front of wine barrels, gesturing with his hands.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "_xfErTiO8Bg/task00_sub00_f01.jpg",
+              "caption": "A white truck is driving down a highway in a rural area.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "_xfErTiO8Bg/task00_sub00_f02.jpg",
+              "caption": "The video frame shows a branch with leaves and red berries, with the word \"nutritional\" overlaid.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will explain the inefficiencies in food distribution by highlighting the long distance and age of produce. It will use visual cues to support its explanation.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A man in a blue shirt and jeans is gesturing with his hands in front of wine barrels.",
+            "- [frames=[1]] A white truck is driving down a highway in a rural area.",
+            "- [frames=[2]] A branch with leaves and red berries is shown, with the word \"nutritional\" overlaid.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a rural setting with a man gesturing, likely emphasizing the journey of produce. A truck on a highway suggests transportation, while the branch with berries highlights the nutritional aspect of fresh produce.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a display screen or a voice system to communicate.",
+            "- It needs access to relevant statistics about produce travel distances and freshness.",
+            "- The robot should be able to navigate to different areas of the video to highlight key points.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately convey the distance and age of produce.",
+            "- It should visually point out the truck and the branch with berries.",
+            "- The robot should provide clear and concise explanations.",
+            "- The robot should ensure the audience understands the inefficiencies in food distribution.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Move to the area where the man is gesturing.",
+            "2. [type=perception, frames=[0]] Verify the man's gestures indicate the journey of produce.",
+            "3. [type=navigation, frames=[1]] Move to the location showing the white truck on the highway.",
+            "4. [type=manipulation, frames=[1]] Point to the truck to emphasize the long-distance travel.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to the area where the man is gesturing. It then verifies the key detail directly from the frames (Verify the man's gestures indicate the journey of produce).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move to the area where the man is gesturing; Move to the location showing the white truck on the highway; Point to the truck to emphasize the long-distance travel; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 6.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/_xfErTiO8Bg/task00/sub00/motion.bvh",
+            "params_path": "results/momask/_xfErTiO8Bg/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Observe that produce loses half of its nutritional value and half goes bad during distribution.",
+          "start": 15.04,
+          "end": 20.08,
+          "segment_ids": [
+            3
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "_xfErTiO8Bg/task00_sub01_f01.jpg",
+              "caption": "A man and a woman are seated in a wine cellar, with barrels in the background.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "_xfErTiO8Bg/task00_sub01_f02.jpg",
+              "caption": "A hand is holding a package of spinach in a grocery store.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe the inefficiencies in food distribution, specifically focusing on the loss of nutritional value and spoilage of produce.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] The scene is set in a wine cellar with barrels, indicating an environment not directly related to food distribution.",
+            "- [frames=[2]] A hand is holding a package of spinach in a grocery store, highlighting the focus on fresh produce.",
+            "- [frames=[1,2]] The presence of people and packages suggests ongoing food handling processes.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from a wine cellar to a grocery store, where a hand holds a package of spinach. This shift indicates a change in context from storage to retail, emphasizing the inefficiencies in food distribution.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have knowledge of nutritional values and spoilage rates of produce.",
+            "- The robot needs access to a grocery store environment.",
+            "- The robot should be capable of recognizing and interacting with produce packages.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Verify that the spinach package is representative of produce in general.",
+            "- Check that the nutritional value loss and spoilage rates are accurately represented.",
+            "- Confirm that the observed inefficiencies align with current statistics.",
+            "- Measure the percentage of nutritional value lost and the rate of spoilage.",
+            "- Cross-check the findings with industry standards and reports.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate to the grocery store area.",
+            "2. [type=perception, frames=[2]] Identify the package of spinach being held by the hand.",
+            "3. [type=manipulation, frames=[2]] Pick up the spinach package and examine it closely.",
+            "4. [type=perception, frames=[2]] Measure the initial nutritional value of the spinach.",
+            "5. [type=navigation, frames=[1]] Return to the wine cellar.",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the grocery store area. It then verifies the key detail directly from the frames (Measure the initial nutritional value of the spinach).",
+            "To finish safely, it completes cleanup and returns to standby: Return to the wine cellar.",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the grocery store area; Pick up the spinach package and examine it closely; Return to the wine cellar; then return to a stable neutral stance.",
+            "duration_s": 5.039999999999999,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/_xfErTiO8Bg/task00/sub01/motion.bvh",
+            "params_path": "results/momask/_xfErTiO8Bg/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Describe the historical perspective on selling fresh food.",
+      "start": 20.08,
+      "end": 37.76,
+      "subtasks": [
+        {
+          "text": "Mention that people initially found grocery stores selling fresh food ridiculous.",
+          "start": 20.08,
+          "end": 25.28,
+          "segment_ids": [
+            4
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "_xfErTiO8Bg/task01_sub00_f01.jpg",
+              "caption": "A man in a blue shirt and glasses is seated in front of wooden barrels, with the words \"accept it.\" overlaid on the image.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "_xfErTiO8Bg/task01_sub00_f02.jpg",
+              "caption": "A person is arranging Hormel Chili cans on a shelf.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "People initially found the concept of grocery stores selling fresh food absurd, which is highlighted in the video.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A man in a blue shirt and glasses is seated in front of wooden barrels with \"accept it\" overlaid.",
+            "- [frames=[2]] A person is arranging Hormel Chili cans on a shelf.",
+            "- [frames=[1,2]] The scene transitions from a man accepting the idea to someone organizing canned goods, indicating a shift in consumer acceptance.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The video illustrates how the public's perception of grocery stores selling fresh food evolved over time. Initially, people were skeptical and resistant to the idea, but as time progressed, they began to accept and even expect such services.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the historical context of grocery store operations.",
+            "- It needs to recognize different types of grocery store items, including fresh produce and canned goods.",
+            "- The robot should understand the concept of consumer acceptance and resistance to new ideas.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the initial skepticism towards grocery stores selling fresh food.",
+            "- It should convey the eventual acceptance of this practice by consumers.",
+            "- The robot should provide a clear and concise explanation of the historical perspective.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Identify the man in the blue shirt and glasses sitting in front of wooden barrels.",
+            "2. [type=perception, frames=[2]] Recognize the person arranging Hormel Chili cans on a shelf.",
+            "3. [type=manipulation, frames=[2]] Assist in arranging the Hormel Chili cans if needed.",
+            "4. [type=communication, frames=[1,2]] Explain the initial skepticism towards grocery stores selling fresh food.",
+            "5. [type=communication, frames=[1,2]] Describe how.",
+            "6. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "7. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the man in the blue shirt and glasses sitting in front of wooden barrels. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Assist in arranging the Hormel Chili cans if needed; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 5.200000000000003,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/_xfErTiO8Bg/task01/sub00/motion.bvh",
+            "params_path": "results/momask/_xfErTiO8Bg/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Highlight the goal of working with consumers to transition to a more sustainable food system.",
+          "start": 30.16,
+          "end": 37.76,
+          "segment_ids": [
+            6
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f00.jpg",
+              "relative_path": "_xfErTiO8Bg/task01_sub01_f00.jpg",
+              "caption": "A person is holding a small plant with a bracelet on their wrist.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "_xfErTiO8Bg/task01_sub01_f01.jpg",
+              "caption": "A person is using a device to tend to plants, with the word \"consumers\" overlaid.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "_xfErTiO8Bg/task01_sub01_f02.jpg",
+              "caption": "A man is sitting in front of wine barrels, wearing a blue shirt and a necklace, with the word \"giving\" overlaid on the image.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on highlighting the goal of transitioning to a more sustainable food system by working with consumers. This involves showing the current practices and the shift towards sustainability.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A person is holding a small plant with a bracelet on their wrist, indicating a connection to nature and possibly sustainable practices.",
+            "- [frames=[1]] A person is using a device to tend to plants, with the word \"consumers\" overlaid, suggesting an interaction with consumers related to plant care.",
+            "- [frames=[2]] A man is sitting in front of wine barrels, wearing a blue shirt and a necklace, with the word \"giving\" overlaid, implying a gesture of sharing or contribution.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from a personal interaction with a plant to tending to multiple plants, symbolizing a broader effort to engage consumers in sustainable practices. The final frame shows a man in front of wine barrels, possibly representing the end result or benefit of such efforts, emphasizing the idea of giving back to the community through sustainable choices.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the current state of the grocery store environment.",
+            "- The robot needs to have access to information about sustainable food systems and consumer engagement strategies.",
+            "- The robot should be capable of interacting with plants and devices used for tending to them.",
+            "- The robot must be able to communicate effectively with humans.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should successfully demonstrate the goal of transitioning to a more sustainable food system.",
+            "- It should accurately convey the importance of consumer involvement in this process.",
+            "- The robot should visually represent the shift from traditional practices to sustainable ones.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Observe the person holding the plant and wearing a bracelet.",
+            "2. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "3. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Observe the person holding the plant and wearing a bracelet. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 7.599999999999998,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/_xfErTiO8Bg/task01/sub01/motion.bvh",
+            "params_path": "results/momask/_xfErTiO8Bg/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,433 @@
+{
+  "video_index": "E3LVDfV8sMg",
+  "title": "Diverse Crops and Cover Crops at Olsen Custom Farms Oats and Wheat Rotation Explained Rotation Management for Sustain...",
+  "url": "https://www.youtube.com/watch?v=E3LVDfV8sMg",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Describes the agricultural research and farming practices involving diverse crop rotations and cover crops.",
+  "tasks": [
+    {
+      "task": "Describe the researcher's background and initial research focus.",
+      "start": 5.42,
+      "end": 22.7,
+      "subtasks": [
+        {
+          "text": "Mention the researcher's degree in botany from South Dakota State University.",
+          "start": 5.42,
+          "end": 11.06,
+          "segment_ids": [
+            0
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "E3LVDfV8sMg/task00_sub00_f00.jpg",
+              "caption": "Three people walk through a lush, green field, with the words \"Profiles in Soil Health\" overlaid.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "E3LVDfV8sMg/task00_sub00_f01.jpg",
+              "caption": "Three men stand in a field of crops, conversing.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "E3LVDfV8sMg/task00_sub00_f02.jpg",
+              "caption": "Three men are walking through a lush, green field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "The subtask involves mentioning the researcher's educational background, specifically their degree in botany from South Dakota State University.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0,1]] Three people walk through a lush, green field, with the words \"Profiles in Soil Health\" overlaid.",
+            "- [frames=[2]] Three men continue walking through a lush, green field.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene depicts researchers walking through a field, likely discussing their work related to soil health. The subtask focuses on highlighting one researcher's academic background.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot must recognize the context of the field and the presence of researchers.",
+            "- The robot should know about the researcher's name and educational background.",
+            "- The robot needs to be aware of the current time within the video to ensure it mentions the correct researcher.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot successfully identifies the researcher and mentions their degree in botany from South Dakota State University.",
+            "- The information is provided within the specified time range of 5.4s–11.1s.",
+            "- The robot accurately aligns the spoken information with the visual context of the researchers walking through the field.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0,1]] Navigate to the area where the researchers are walking through the field.",
+            "2. [type=perception, frames=[0,1]] Identify the three individuals as researchers.",
+            "3. [type=manipulation, frames=[2]] Continue following the researchers as they walk.",
+            "4. [type=communication, frames=[0,1]] Announce the researcher's name and mention their degree in botany from South Dakota State University.",
+            "5. [type=navigation, frames=[2]] Ensure the announcement is made within the specified time range of 5.4s–1"
+          ]
+        },
+        {
+          "text": "Highlight the 20 years of USDA and ARS research experience.",
+          "start": 11.06,
+          "end": 22.7,
+          "segment_ids": [
+            1,
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "E3LVDfV8sMg/task00_sub01_f01.jpg",
+              "caption": "A man wearing a hat and a hoodie is talking in a field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "E3LVDfV8sMg/task00_sub01_f02.jpg",
+              "caption": "A man wearing a baseball cap and a black hoodie is standing outdoors, with a vehicle in the background.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "Highlight the 20 years of USDA and ARS research experience of the researcher.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0,1]] A man wearing a hat and a hoodie is talking in a field.",
+            "- [frames=[2]] The same man, now wearing a baseball cap and a black hoodie, is standing outdoors with a vehicle in the background.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene transitions from the researcher speaking in a field to him standing outdoors, likely indicating a change in location or context within the video. This shift helps establish the researcher’s background in agricultural research over an extended period.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The researcher must be present in the field.",
+            "- The researcher must be wearing a hat and a hoodie initially.",
+            "- The researcher must transition to wearing a baseball cap and a black hoodie.",
+            "- The researcher must be speaking about his research experience.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The researcher must mention his 20 years of USDA and ARS research experience.",
+            "- The researcher must be clearly visible and speaking during the specified time range.",
+            "- The transition in attire must be noticeable and consistent with the video timeline.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0,1]] Navigate to the first frame where the researcher is speaking in the field.",
+            "2. [type=perception, frames=[0,1]] Identify the researcher based on his appearance and attire.",
+            "3. [type=manipulation, frames=[2]] Adjust the camera angle to capture the researcher as he transitions to a different location.",
+            "4. [type=perception, frames=[2]] Confirm the researcher’s new attire and environment.",
+            "5. [type=communication, frames=[1,2]] Analyze the audio to ensure the researcher mentions his 20 years of USDA and ARS research experience."
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Explain the transition to cover crop research at Olsen Custom Farms.",
+      "start": 22.7,
+      "end": 126.91,
+      "subtasks": [
+        {
+          "text": "Note the role of the researcher at Olsen Custom Farms.",
+          "start": 22.7,
+          "end": 34.82,
+          "segment_ids": [
+            3,
+            4
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "E3LVDfV8sMg/task01_sub00_f01.jpg",
+              "caption": "Three men stand in a field, with one holding a drink.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "E3LVDfV8sMg/task01_sub00_f02.jpg",
+              "caption": "Three men walk through a lush green field at sunset.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "Note the role of the researcher at Olsen Custom Farms during the transition to cover crop research.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0,1]] Three men stand in a field, with one holding a drink. The setting appears to be a farm.",
+            "- [frames=[2]] The same three men walk through a lush green field at sunset, indicating they are actively engaged in their work.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene depicts researchers working on a farm, transitioning from standing to walking through a field. This change suggests they are moving from an initial discussion or planning phase to an active research phase involving cover crops.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot must recognize the farm environment.",
+            "- The robot should be aware of the context of cover crop research.",
+            "- The robot needs to identify the individuals as researchers.",
+            "- The robot must understand the difference between standing and walking.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot correctly identifies the researchers and their roles.",
+            "- The robot accurately notes the transition from standing to walking.",
+            "- The robot comprehends the context of cover crop research.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0,1]] Navigate to the field where the three men are standing.",
+            "2. [type=perception, frames=[0,1]] Identify the three men and determine who is holding a drink.",
+            "3. [type=navigation, frames=[2]] Follow the men as they walk through the field.",
+            "4. [type=manipulation, frames=[2]] Adjust camera angle to capture the lush green field at sunset.",
+            "5. [type=perception, frames=[2]] Recognize the transition from standing to walking and note the context of cover crop research.",
+            "",
+            "SUBTASK_STORY:",
+            "The subtask begins with researchers standing in a field, likely discussing their plans for cover crop research"
+          ]
+        },
+        {
+          "text": "Describe the transition from corn-soybean rotation to diverse cereal crop rotation.",
+          "start": 112.99,
+          "end": 126.91,
+          "segment_ids": [
+            17,
+            18
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f00.jpg",
+              "relative_path": "E3LVDfV8sMg/task01_sub01_f00.jpg",
+              "caption": "Three men are examining plants in a field.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "E3LVDfV8sMg/task01_sub01_f01.jpg",
+              "caption": "Three men are inspecting crops in a field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "E3LVDfV8sMg/task01_sub01_f02.jpg",
+              "caption": "A vast cornfield stretches into the distance with a few people in the distance.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "The subtask involves describing the transition from a traditional corn-soybean rotation to a more diverse cereal crop rotation at Olsen Custom Farms.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0,1]] Three men are closely examining and inspecting crops in a field, likely discussing their observations.",
+            "- [frames=[2]] A wide shot of a vast cornfield with a few people visible in the distance, indicating the current state of the farm.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene depicts a shift in focus from a specific area where three individuals are actively observing crops to a broader view of the cornfield. This change suggests a move from detailed inspection to an overview of the current agricultural practices.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot must be aware of the current state of the farm, specifically the corn-soybean rotation.",
+            "- The robot should have knowledge about diverse cereal crop rotations.",
+            "- The robot needs to recognize the three men and understand their roles in the farm management.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot should accurately describe the current corn-soybean rotation.",
+            "- The robot must explain the benefits and reasons for transitioning to a diverse cereal crop rotation.",
+            "- The robot should provide a clear comparison between the two types of rotations.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0,1]] Navigate to the area where the three men are examining crops.",
+            "2. [type=perception, frames=[0,1]] Identify the three men and their actions.",
+            "3. [type=manipulation, frames=[2]] Transition to a wider view of the cornfield.",
+            "4. [type=perception, frames=[2]] Recognize the current state of the cornfield.",
+            "5. [type=communication, frames=[0,1]] Describe the current corn-soybean rotation based on the observations."
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Discuss the benefits and management of diverse rotations.",
+      "start": 69.99,
+      "end": 107.79,
+      "subtasks": [
+        {
+          "text": "Observe the diverse set of crops now grown at the farm.",
+          "start": 69.99,
+          "end": 78.88,
+          "segment_ids": [
+            10
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f00.jpg",
+              "relative_path": "E3LVDfV8sMg/task02_sub00_f00.jpg",
+              "caption": "Two men are working in a field, one holding a tool.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "E3LVDfV8sMg/task02_sub00_f01.jpg",
+              "caption": "Two men are working in a field, one with a hat and the other with a black hoodie.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "E3LVDfV8sMg/task02_sub00_f02.jpg",
+              "caption": "Three men are crouching in a field, examining plants.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "Observe the diverse set of crops currently cultivated at the farm.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0,1]] Two men are working in a field, one holding a tool, while the other is wearing a hat.",
+            "- [frames=[2]] Three men are crouching in a field, closely examining various plants.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene depicts farm workers actively engaged in crop observation. The presence of multiple individuals suggests a collaborative effort in managing and assessing the diverse range of crops being grown.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot must be equipped with a camera capable of capturing detailed images of the field.",
+            "- The robot should have knowledge of the farm layout and current crop types.",
+            "- The robot needs to be within the vicinity of the field where the crops are being observed.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot captures clear images of the field showing the diversity of crops.",
+            "- The robot identifies and labels different types of crops present in the field.",
+            "- The robot confirms the presence of at least three distinct crop varieties.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0,1]] Move the robot to a position where it can clearly capture the two men working in the field.",
+            "2. [type=perception, frames=[0,1]] Use the camera to take high-resolution images of the field and the workers.",
+            "3. [type=navigation, frames=[2]] Position the robot near the crouching men to capture their interaction with the plants.",
+            "4. [type=perception, frames=[2]] Take detailed images of the plants being examined by the workers.",
+            "5. [type=manipulation, frames=[2]] If necessary, adjust the camera angle to ensure all crops are visible in the images.",
+            "6. [type=analysis, frames=[all]]"
+          ]
+        },
+        {
+          "text": "Mention the goals and benefits of diverse rotations.",
+          "start": 97.31,
+          "end": 107.79,
+          "segment_ids": [
+            14,
+            15
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub01_f00.jpg",
+              "relative_path": "E3LVDfV8sMg/task02_sub01_f00.jpg",
+              "caption": "People are sitting in a field, holding a yellow tube labeled \"TRU F.\"",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub01_f01.jpg",
+              "relative_path": "E3LVDfV8sMg/task02_sub01_f01.jpg",
+              "caption": "Three men in a field, one holding a shovel, are engaged in a conversation.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub01_f02.jpg",
+              "relative_path": "E3LVDfV8sMg/task02_sub01_f02.jpg",
+              "caption": "Three men are examining plants in a field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "Mention the goals and benefits of diverse crop rotations in a field setting.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0]] People are sitting in a field, holding a yellow tube labeled \"TRU F,\" indicating they might be discussing or demonstrating something related to crop rotation.",
+            "- [frames=[1]] Three men in a field, one holding a shovel, are engaged in a conversation, suggesting they are explaining the benefits of diverse rotations.",
+            "- [frames=[2]] Three men are examining plants in a field, likely to provide context or evidence of the benefits of diverse rotations.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene depicts a group of people in a field discussing and demonstrating the benefits of diverse crop rotations. They start by holding a tool and discussing, then move to examining plants to further illustrate their points.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot must be in a field environment.",
+            "- The robot should recognize the presence of multiple people.",
+            "- The robot needs to understand basic agricultural terminology.",
+            "- The robot should be able to identify tools and crops.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot successfully mentions the goals and benefits of diverse rotations.",
+            "- The robot accurately identifies and describes the tools and crops shown in the field.",
+            "- The robot can communicate the information effectively to the audience.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0]] Move to a position where the group is visible and the yellow tube labeled \"TRU F\" is clearly seen.",
+            "2. [type=perception, frames=[0]] Identify the people and the tool they are holding.",
+            "3. [type=manipulation, frames=[1]] Approach the group and observe the conversation.",
+            "4. [type=perception, frames=[1]] Recognize the three men engaging in a discussion about crop rotations.",
+            "5. [type=communication,"
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Explain the plan to reduce inorganic fertilizer use.",
+      "start": 176.15,
+      "end": 189.19,
+      "subtasks": [
+        {
+          "text": "Describe the objective of reducing inorganic fertilizer by 40 to 50 percent.",
+          "start": 176.15,
+          "end": 189.19,
+          "segment_ids": [
+            27,
+            28
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub00_f00.jpg",
+              "relative_path": "E3LVDfV8sMg/task03_sub00_f00.jpg",
+              "caption": "The video shows a field with visible crop rows.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task03_sub00_f01.jpg",
+              "relative_path": "E3LVDfV8sMg/task03_sub00_f01.jpg",
+              "caption": "Two men stand in a field, one holding a shovel.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub00_f02.jpg",
+              "relative_path": "E3LVDfV8sMg/task03_sub00_f02.jpg",
+              "caption": "A man wearing a black hoodie with the \"OCF\" logo stands in a field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "The subtask involves explaining the objective of reducing inorganic fertilizer use by 40 to 50 percent.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0]] The video shows a field with visible crop rows.",
+            "- [frames=[1]] Two men stand in a field, one holding a shovel.",
+            "- [frames=[2]] A man wearing a black hoodie with the \"OCF\" logo stands in a field.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene transitions from showing a field with crops to two individuals discussing the topic, likely setting up an explanation about reducing inorganic fertilizer use. The final frame features a representative from Olsen Custom Farms providing the explanation.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot must be aware of the context of the farm and the need to reduce inorganic fertilizer use.",
+            "- The robot should recognize the field and crops as part of the farm environment.",
+            "- The robot needs to identify the individuals present and understand their roles.",
+            "- The robot must have access to the specific target of reducing inorganic fertilizer use by 40 to 50 percent.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot successfully explains the objective of reducing inorganic fertilizer use by 40 to 50 percent.",
+            "- The explanation aligns with the information provided in the video.",
+            "- The robot accurately identifies the key points of the reduction goal and the context within the farm operations.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0]] Navigate to the field where crops are visible.",
+            "2. [type=perception, frames=[1]] Identify the two men standing in the field, one holding a shovel.",
+            "3. [type=manipulation, frames=[2]] Focus on the man wearing the black hoodie with the \"OCF\" logo.",
+            "4. [type=communication, frames=[1,2]]"
+          ]
+        }
+      ]
+    }
+  ],
+  "guidance_text_file": "final_guidance_txt/E3LVDfV8sMg.txt"
+}

@@ -1,0 +1,767 @@
+{
+  "video_index": "e6gZrubfIyg",
+  "title": "Tenny's Camp Adventure Soup And Songs",
+  "url": "https://www.youtube.com/watch?v=e6gZrubfIyg",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "The transcript describes various activities and processes related to camping and farming.",
+  "tasks": [
+    {
+      "task": "Setting up and using a tent for camping.",
+      "start": 102.84,
+      "end": 136.94,
+      "subtasks": [
+        {
+          "text": "Put up the tent by attaching the poles and securing the corners.",
+          "start": 102.84,
+          "end": 118.73,
+          "segment_ids": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "e6gZrubfIyg/task00_sub00_f00.jpg",
+              "caption": "A person in a colorful outfit is dancing in a garden with a microphone.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "e6gZrubfIyg/task00_sub00_f01.jpg",
+              "caption": "A woman in a blue shirt and yellow pants is standing next to a partially assembled tent in a backyard.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "e6gZrubfIyg/task00_sub00_f02.jpg",
+              "caption": "A person in a blue shirt and yellow pants is holding a stick in a garden.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub00_f03.jpg",
+              "relative_path": "e6gZrubfIyg/task00_sub00_f03.jpg",
+              "caption": "A person in a colorful outfit is bending over in a yard.",
+              "frame_index": 3
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will assist in setting up a tent by attaching the poles and securing the corners. This involves understanding the environment and performing precise manipulations.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A person in a colorful outfit is dancing in a garden with a microphone, which is irrelevant to the task.",
+            "- [frames=[1]] A woman in a blue shirt and yellow pants is standing next to a partially assembled tent in a backyard.",
+            "- [frames=[2]] A person in a blue shirt and yellow pants is holding a stick in a garden, indicating they might be preparing to set up the tent.",
+            "- [frames=[3]] A person in a colorful outfit is bending over in a yard, likely inspecting or adjusting something related to the tent setup.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a partially assembled tent in a backyard, with a person preparing to set it up. The robot needs to focus on the tent and the surrounding area to perform the necessary tasks.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be within reach of the tent.",
+            "- The robot should have the necessary tools or attachments to attach the tent poles.",
+            "- The robot should be able to identify the corners of the tent.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The tent poles should be securely attached to the tent.",
+            "- The corners of the tent should be properly secured.",
+            "- The tent should be stable and ready for use.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Move to the location where the tent is located.",
+            "2. [type=perception, frames=[1]] Identify the tent and its components.",
+            "3. [type=navigation, frames=[2]] Approach the person holding the stick and take over the task.",
+            "4. [type=manipulation, frames=[2]] Take the stick from the person and.",
+            "5. [type=perception, frames=[0,1,2,3]] Verify/confirm the key observation before reporting.",
+            "6. [type=navigation, frames=[0,1,2,3]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to the location where the tent is located. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Count the clippy things to ensure all hooks are used in assembling the tent.",
+          "start": 122.84,
+          "end": 136.94,
+          "segment_ids": [
+            9
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f00.jpg",
+              "relative_path": "e6gZrubfIyg/task00_sub01_f00.jpg",
+              "caption": "A person in a superhero costume is assembling a tent in a backyard.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "e6gZrubfIyg/task00_sub01_f01.jpg",
+              "caption": "A person is setting up a tent in a backyard.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "e6gZrubfIyg/task00_sub01_f02.jpg",
+              "caption": "A person is adjusting a fishing rod with a red strap.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to count the clippy things (hooks) to ensure all are used during tent assembly.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A person in a superhero costume is assembling a tent in a backyard.",
+            "- [frames=[2]] A person is adjusting a fishing rod with a red strap, which is not relevant to the task.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a person assembling a tent, likely checking or attaching various components. The clippy things (hooks) are part of the tent setup process.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be within reach of the tent components.",
+            "- The robot should have the ability to perceive and manipulate small objects like hooks.",
+            "- The robot should know the expected number of hooks based on the tent model.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- All hooks are accounted for.",
+            "- The tent is assembled correctly with all hooks used.",
+            "- No hooks are missing or incorrectly placed.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Scan the area to locate all clippy things (hooks).",
+            "2. [type=manipulation, frames=[0,1]] Pick up the first clippy thing (hook) and place it in a designated container.",
+            "3. [type=perception, frames=[0,1]] Verify the picked-up hook by visually inspecting it.",
+            "4. [type=manipulation, frames=[0,1]] Continue picking up and placing each clippy thing (hook) into the container.",
+            "5. [type=perception, frames=[0,1]] Cross-check the number of hooks in the container against the expected number.",
+            "6. [type=manipulation, frames=[0,1]] Place the last clippy thing (hook) in the container and confirm it is.",
+            "7. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Scan the area to locate all clippy things (hooks). It then verifies the key detail directly from the frames (Verify the picked-up hook by visually inspecting it).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Identifying and counting ladybugs.",
+      "start": 216.02,
+      "end": 244.66,
+      "subtasks": [
+        {
+          "text": "Observe the ladybugs and count them using a magnifying glass.",
+          "start": 216.02,
+          "end": 241.66,
+          "segment_ids": [
+            17,
+            18,
+            19
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "e6gZrubfIyg/task01_sub00_f00.jpg",
+              "caption": "A woman in a colorful outfit is peeking out from behind a tree in a garden.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "e6gZrubfIyg/task01_sub00_f01.jpg",
+              "caption": "A person in a colorful outfit is standing next to a tree in a garden.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "e6gZrubfIyg/task01_sub00_f02.jpg",
+              "caption": "A person in a colorful outfit is climbing a tree in a garden.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task01_sub00_f03.jpg",
+              "relative_path": "e6gZrubfIyg/task01_sub00_f03.jpg",
+              "caption": "A woman in a colorful shirt holds a ladybug toy in a garden.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task01_sub00_f04.jpg",
+              "relative_path": "e6gZrubfIyg/task01_sub00_f04.jpg",
+              "caption": "A woman in a blue shirt is holding a magnifying glass and a toy ladybug.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task01_sub00_f05.jpg",
+              "relative_path": "e6gZrubfIyg/task01_sub00_f05.jpg",
+              "caption": "A person in a colorful outfit is holding a ladybug toy in a garden setting.",
+              "frame_index": 5
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe ladybugs in a garden setting, count them using a magnifying glass, and ensure accuracy by cross-checking the count.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A woman in a colorful outfit is seen in a garden.",
+            "- [frames=[2]] The same person is climbing a tree in the garden.",
+            "- [frames=[3]] A woman in a colorful shirt holds a ladybug toy.",
+            "- [frames=[4]] A woman in a blue shirt is holding a magnifying glass and a toy ladybug.",
+            "- [frames=[5]] A person in a colorful outfit is holding a ladybug toy again.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene takes place in a garden where ladybugs are present. The ladybugs are being observed and counted using a magnifying glass.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera and a magnifying glass.",
+            "- The robot should know how to identify ladybugs.",
+            "- The robot should be able to count objects accurately.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Correctly identifying ladybugs.",
+            "- Accurate counting of ladybugs.",
+            "- Cross-checking the count to ensure accuracy.",
+            "- Proper use of the magnifying glass.",
+            "- Clear and accurate communication of the final count.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1,2,3,4,5]] Scan the garden area to locate ladybugs.",
+            "2. [type=navigation, frames=[0,1]] Move towards the ladybugs.",
+            "3. [type=manipulation, frames=[4]] Take the magnifying glass from the person.",
+            "4. [type=perception, frames=[4]] Verify the magnifying glass is correctly held.",
+            "5. [type=manipulation, frames=[4]] Pick up the.",
+            "6. [type=navigation, frames=[0,1,2,3,4,5]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Scan the garden area to locate ladybugs. It then verifies the key detail directly from the frames (Verify the magnifying glass is correctly held).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Walk towards a butterfly and notice its arrival.",
+          "start": 242.66,
+          "end": 244.66,
+          "segment_ids": [
+            21
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f00.jpg",
+              "relative_path": "e6gZrubfIyg/task01_sub01_f00.jpg",
+              "caption": "A person in a colorful outfit is holding a ladybug in a garden.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "e6gZrubfIyg/task01_sub01_f01.jpg",
+              "caption": "A person in a colorful outfit is holding a ladybug toy in a garden.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "e6gZrubfIyg/task01_sub01_f02.jpg",
+              "caption": "A woman in a colorful outfit is holding a ladybug in a garden.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to walk towards a person holding a ladybug in a garden and verify the ladybug's presence.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A person in a colorful outfit is holding a ladybug in a garden.",
+            "- [frames=[0,1]] The ladybug is visible in both frames.",
+            "- [frames=[0,1]] The person is standing in a garden setting.",
+            "- [frames=[2]] A woman in a colorful outfit is holding a ladybug in a garden.",
+            "- [frames=[2]] The ladybug is still present in the frame.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a ladybug being held by a person in a garden. The ladybug is the key object of interest.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be able to recognize ladybugs.",
+            "- The robot should be capable of navigating through a garden.",
+            "- The robot should have a mechanism to hold and manipulate objects.",
+            "- The robot should be able to communicate with the person in the garden.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should successfully navigate to the person holding the ladybug.",
+            "- The robot should confirm the presence of the ladybug.",
+            "- The robot should be able to interact with the ladybug without causing harm.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Move towards the person holding the ladybug.",
+            "2. [type=perception, frames=[0,1]] Verify the presence of the ladybug using visual sensors.",
+            "3. [type=manipulation, frames=[0,1]] Extend an arm to gently touch the ladybug.",
+            "4. [type=perception, frames=[2]] Confirm the ladybug's presence again.",
+            "5. [type=manipulation, frames=[2]] Gently pick up the.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move towards the person holding the ladybug. It then verifies the key detail directly from the frames (Verify the presence of the ladybug using visual sensors).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Cooking over a pretend campfire.",
+      "start": 381.61,
+      "end": 397.3,
+      "subtasks": [
+        {
+          "text": "Begin the process of turning vegetables into soup by boiling them.",
+          "start": 381.61,
+          "end": 393.3,
+          "segment_ids": [
+            37,
+            38,
+            39
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f00.jpg",
+              "relative_path": "e6gZrubfIyg/task02_sub00_f00.jpg",
+              "caption": "A hand is holding a toy bucket over a toy campfire with chocolate bars.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "e6gZrubfIyg/task02_sub00_f01.jpg",
+              "caption": "A hand is holding a toy bucket filled with colorful objects, including carrots and eggs.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "e6gZrubfIyg/task02_sub00_f02.jpg",
+              "caption": "A hand is holding a bucket filled with colorful plastic toys.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will begin the process of making soup by transferring vegetables from a bucket to a pretend campfire.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A hand is holding a toy bucket over a toy campfire with chocolate bars.",
+            "- [frames=[1]] A hand is holding a toy bucket filled with colorful objects, including carrots and eggs.",
+            "- [frames=[2]] A hand is holding a bucket filled with colorful plastic toys.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene involves a pretend campfire where a bucket initially contains chocolate bars but is later filled with various colorful objects, likely representing vegetables for the soup.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should know the location of the campfire.",
+            "- The robot should recognize the bucket and its contents.",
+            "- The robot should be aware of the pretend campfire setup.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The bucket should be empty of chocolate bars.",
+            "- The bucket should contain only the vegetables (carrots and eggs).",
+            "- The vegetables should be placed near the campfire.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Scan the campfire area to locate the bucket.",
+            "2. [type=manipulation, frames=[1]] Grasp the bucket containing the vegetables.",
+            "3. [type=navigation, frames=[1]] Move the bucket towards the campfire.",
+            "4. [type=manipulation, frames=[1]] Place the bucket near the campfire.",
+            "5. [type=perception, frames=[1]] Verify the contents of the bucket are indeed vegetables.",
+            "6. [type=manipulation, frames=[1]] Remove the vegetables from the bucket.",
+            "7. [type=manipulation, frames=[1]] Place the vegetables on the campfire.",
+            "8. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Scan the campfire area to locate the bucket. It then verifies the key detail directly from the frames (Verify the contents of the bucket are indeed vegetables).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Add some finishing touches to the soup and mix it thoroughly.",
+          "start": 390.05,
+          "end": 397.3,
+          "segment_ids": [
+            39,
+            40,
+            41
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub01_f00.jpg",
+              "relative_path": "e6gZrubfIyg/task02_sub01_f00.jpg",
+              "caption": "A woman in a colorful outfit is holding a pink bottle and a bucket in a backyard setting.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub01_f01.jpg",
+              "relative_path": "e6gZrubfIyg/task02_sub01_f01.jpg",
+              "caption": "A person is pouring water into a bucket filled with colorful plastic eggs.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub01_f02.jpg",
+              "relative_path": "e6gZrubfIyg/task02_sub01_f02.jpg",
+              "caption": "A woman in a blue and yellow outfit is preparing food outdoors.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will add finishing touches to the soup by mixing it thoroughly, ensuring the soup is well-combined and ready for serving.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A woman in a colorful outfit is holding a pink bottle and a bucket, indicating she has ingredients ready.",
+            "- [frames=[1]] A person is pouring water into a bucket filled with colorful plastic eggs, suggesting they are adding liquid to the mixture.",
+            "- [frames=[2]] A woman in a blue and yellow outfit is preparing food outdoors, setting the scene for outdoor cooking.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts an outdoor cooking setup where a woman is preparing a soup-like mixture using various ingredients, likely for a campfire cooking activity. The robot needs to assist in mixing the soup thoroughly to ensure it is ready for consumption.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be within reach of the soup mixture.",
+            "- The robot should have access to a mixing tool or spoon.",
+            "- The robot should be aware of the current state of the soup mixture.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The soup should be thoroughly mixed.",
+            "- The mixture should be uniform in consistency.",
+            "- The robot should confirm the soup is ready for serving.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Move to the location where the soup mixture is stored.",
+            "2. [type=perception, frames=[1]] Verify the presence of the soup mixture using a camera.",
+            "3. [type=manipulation, frames=[2]] Retrieve a mixing tool or spoon from a nearby storage area.",
+            "4. [type=manipulation, frames=[1]] Start stirring the soup mixture to incorporate all ingredients.",
+            "5. [type=manipulation, frames=[1]] Continue stirring for 30 seconds to ensure thorough mixing.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to the location where the soup mixture is stored. It then verifies the key detail directly from the frames (Verify the presence of the soup mixture using a camera).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Making a s'mores tower.",
+      "start": 459.56,
+      "end": 492.39,
+      "subtasks": [
+        {
+          "text": "Place marshmallows and graham crackers on top of each other to build the tower.",
+          "start": 459.56,
+          "end": 490.39,
+          "segment_ids": [
+            54,
+            57,
+            59
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub00_f00.jpg",
+              "relative_path": "e6gZrubfIyg/task03_sub00_f00.jpg",
+              "caption": "A woman in a blue shirt is holding a s'more and looking up at a stack of s'mores.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task03_sub00_f01.jpg",
+              "relative_path": "e6gZrubfIyg/task03_sub00_f01.jpg",
+              "caption": "A woman in a colorful outfit is sitting in a garden, holding a wooden block.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub00_f02.jpg",
+              "relative_path": "e6gZrubfIyg/task03_sub00_f02.jpg",
+              "caption": "A woman in a blue and yellow outfit is working on a project outdoors.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task03_sub00_f03.jpg",
+              "relative_path": "e6gZrubfIyg/task03_sub00_f03.jpg",
+              "caption": "A woman in a colorful outfit is making a sandwich outdoors.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task03_sub00_f04.jpg",
+              "relative_path": "e6gZrubfIyg/task03_sub00_f04.jpg",
+              "caption": "A woman in a blue and yellow outfit is making a sandwich outdoors.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task03_sub00_f05.jpg",
+              "relative_path": "e6gZrubfIyg/task03_sub00_f05.jpg",
+              "caption": "A woman in a blue and yellow outfit is making a stack of s'mores outdoors.",
+              "frame_index": 5
+            },
+            {
+              "image_file": "task03_sub00_f06.jpg",
+              "relative_path": "e6gZrubfIyg/task03_sub00_f06.jpg",
+              "caption": "A woman in a colorful outfit is building a tower of marshmallows and graham crackers outdoors.",
+              "frame_index": 6
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to place marshmallows and graham crackers on top of each other to build a s'mores tower, following the demonstration shown in the video.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A woman in a blue shirt is holding a s'more and looking up at a stack of s'mores.",
+            "- [frames=[1]] A woman in a colorful outfit is sitting in a garden, holding a wooden block.",
+            "- [frames=[2]] A woman in a blue and yellow outfit is working on a project outdoors.",
+            "- [frames=[3]] A woman in a colorful outfit is making a sandwich outdoors.",
+            "- [frames=[4]] A woman in a blue and yellow outfit is making a sandwich outdoors.",
+            "- [frames=[5]] A woman in a blue and yellow outfit is making a stack of s'mores outdoors.",
+            "- [frames=[6]] A woman in a colorful outfit is building a tower of marshmallows and graham crackers outdoors.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The video shows various women engaged in outdoor activities, but the relevant scene for the subtask involves stacking s'mores. The final frame clearly demonstrates the process of building a s'mores tower using marshmallows and graham crackers.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be able to identify marshmallows and graham crackers.",
+            "- The robot must have the capability to pick up and place items accurately.",
+            "- The robot should be aware of the sequence required to build a s'mores tower.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully places marshmallows and graham crackers on top of each other.",
+            "- The tower is built with alternating layers of marshmallows and graham crackers.",
+            "- The final structure resembles the one demonstrated in the video.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2,3,4,5,6]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2,3,4,5,6]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2,3,4,5,6]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2,3,4,5,6]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2,3,4,5,6]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Continue layering to make the s'mores tower as tall as possible.",
+          "start": 490.39,
+          "end": 492.39,
+          "segment_ids": [
+            60
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub01_f01.jpg",
+              "relative_path": "e6gZrubfIyg/task03_sub01_f01.jpg",
+              "caption": "A woman in a blue and yellow shirt is building a tower of graham crackers and marshmallows outdoors.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub01_f02.jpg",
+              "relative_path": "e6gZrubfIyg/task03_sub01_f02.jpg",
+              "caption": "A person is building a tower of marshmallows and crackers outdoors.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot continues to build a s'mores tower by stacking additional layers of graham crackers and marshmallows.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] The woman is placing a graham cracker on top of a marshmallow, forming a new layer.",
+            "- [frames=[2]] The person is adding another layer of marshmallows and crackers, making the tower taller.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a woman outdoors, constructing a s'mores tower using graham crackers and marshmallows. The tower is being built layer by layer, with each layer consisting of a marshmallow sandwiched between two graham crackers.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a stable base and arms capable of holding and manipulating graham crackers and marshmallows.",
+            "- The workspace should have an adequate supply of graham crackers and marshmallows.",
+            "- The robot should be aware of the current height of the s'mores tower.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The tower should be as tall as possible without collapsing.",
+            "- Each layer should be properly aligned and secured.",
+            "- The final layer should be a complete graham cracker on top.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Move to the workspace where the s'mores tower is being constructed.",
+            "2. [type=perception, frames=[1]] Scan the workspace to locate the available graham crackers and marshmallows.",
+            "3. [type=manipulation, frames=[1]] Pick up a graham cracker from the supply.",
+            "4. [type=manipulation, frames=[2]] Place the graham cracker on top of the existing tower, ensuring it is centered.",
+            "5. [type=manipulation, frames=[2]] Pick up a marshmallow from the supply.",
+            "6. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "7. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to the workspace where the s'mores tower is being constructed. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Exploring farm animals.",
+      "start": 242.66,
+      "end": 1242.05,
+      "subtasks": [
+        {
+          "text": "Interact with a butterfly that lands on the person.",
+          "start": 242.66,
+          "end": 244.66,
+          "segment_ids": [
+            21
+          ],
+          "frames": []
+        },
+        {
+          "text": "Examine a chicken and describe its features like feathers and beak.",
+          "start": 1230.05,
+          "end": 1242.05,
+          "segment_ids": [
+            148,
+            149,
+            150,
+            151,
+            152
+          ],
+          "frames": [
+            {
+              "image_file": "task04_sub01_f00.jpg",
+              "relative_path": "e6gZrubfIyg/task04_sub01_f00.jpg",
+              "caption": "Two women stand in a fenced area, one holding a chicken.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task04_sub01_f01.jpg",
+              "relative_path": "e6gZrubfIyg/task04_sub01_f01.jpg",
+              "caption": "A woman in a blue shirt is holding a chicken in a pen, while another woman in a red shirt stands next to her.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task04_sub01_f02.jpg",
+              "relative_path": "e6gZrubfIyg/task04_sub01_f02.jpg",
+              "caption": "A woman in a red shirt is holding a chicken while another woman in a blue shirt holds a chicken in a fenced area.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe and describe a chicken in a fenced area, focusing on its physical features such as feathers and beak.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] Two women are standing in a fenced area, with one holding a chicken.",
+            "- [frames=[0,1]] A woman in a blue shirt is holding a chicken in a pen, while another woman in a red shirt stands next to her.",
+            "- [frames=[0,1]] A woman in a red shirt is also holding a chicken while another woman in a blue shirt holds a chicken in a fenced area.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a fenced area where two women are interacting with a chicken. The chicken is held by both women, indicating it is a cooperative activity.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be within the fenced area.",
+            "- The robot should have access to a camera and speech capabilities.",
+            "- The robot should be able to move to different positions to get a clear view of the chicken.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the chicken’s features.",
+            "- The robot should confirm the presence of feathers and a beak.",
+            "- The robot should provide a detailed description of the chicken’s appearance.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Move to a position where the chicken is clearly visible.",
+            "2. [type=perception, frames=[0,1]] Use the camera to capture images of the chicken.",
+            "3. [type=navigation, frames=[0,1]] Approach the chicken to verify its features.",
+            "4. [type=perception, frames=[0,1]] Check the chicken’s feathers and beak using close-up images.",
+            "5. [type=communication, frames=[0,1]] Announce the presence of feathers.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to a position where the chicken is clearly visible. It then verifies the key detail directly from the frames (Approach the chicken to verify its features). After verification, it communicates the result clearly (Announce the presence of feathers).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Learn about a goat and its characteristics like ears, horns, and hooves.",
+          "start": null,
+          "end": null,
+          "segment_ids": [
+            1112,
+            1114,
+            1119,
+            1121,
+            1125
+          ],
+          "frames": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,347 @@
+{
+  "video_index": "dF3eEmzkUE4",
+  "title": "Late Season Corn: Tar Spot and Plant Health Check",
+  "url": "https://www.youtube.com/watch?v=dF3eEmzkUE4",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Provides an update on corn health and tar spot assessment.",
+  "tasks": [
+    {
+      "task": "Assess late season plant health and tar spot in corn fields.",
+      "start": 27.44,
+      "end": 39.04,
+      "subtasks": [
+        {
+          "text": "Observe a field of susceptible hybrid corn showing signs of extensive tar spot, covering the upper leaves.",
+          "start": 29.0,
+          "end": 39.04,
+          "segment_ids": [
+            10,
+            11,
+            12
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "dF3eEmzkUE4/task00_sub00_f00.jpg",
+              "caption": "A man in a corn field wearing a green shirt and a hat is talking.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "dF3eEmzkUE4/task00_sub00_f01.jpg",
+              "caption": "A man in a corn field is examining a damaged corn stalk.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "dF3eEmzkUE4/task00_sub00_f02.jpg",
+              "caption": "A man in a green shirt is inspecting a corn leaf with a serious expression.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "The robot needs to observe a field of corn showing signs of extensive tar spot, focusing on the upper leaves.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0]] A man in a corn field wearing a green shirt and a hat is talking.",
+            "- [frames=[1]] A man in a corn field is examining a damaged corn stalk.",
+            "- [frames=[2]] A man in a green shirt is inspecting a corn leaf with a serious expression.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene depicts a man in a corn field who first talks about the condition of the corn field, then examines a damaged stalk, and finally inspects a corn leaf with tar spot. The robot's task is to observe the extent of the tar spot on the upper leaves of the corn plants.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot must be equipped with a camera capable of capturing detailed images of the corn leaves.",
+            "- The robot should have knowledge of what tar spot looks like and how it affects corn plants.",
+            "- The robot needs to be within the corn field where the affected corn plants are located.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot should capture images of the upper leaves of the corn plants showing extensive tar spot.",
+            "- The robot should identify the presence of tar spot on the inspected leaves.",
+            "- The robot should record the severity of the tar spot for further analysis.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0]] Move to the location where the corn field is visible.",
+            "2. [type=perception, frames=[0,1]] Capture an overview image of the corn field to assess the general condition.",
+            "3. [type=navigation, frames=[1]] Approach a damaged corn stalk for closer inspection.",
+            "4. [type=manipulation, frames=[2]] Position the camera to focus on a corn leaf with tar spot"
+          ]
+        },
+        {
+          "text": "Describe the conditions in southern Iowa where some fields experienced aggressive tar spot through August and September.",
+          "start": 27.44,
+          "end": 29.0,
+          "segment_ids": [
+            9
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f00.jpg",
+              "relative_path": "dF3eEmzkUE4/task00_sub01_f00.jpg",
+              "caption": "A man in a corn field wearing a green shirt and a hat is talking.",
+              "frame_index": 0
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "The subtask involves describing the conditions in southern Iowa where some corn fields experienced aggressive tar spot through August and September.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0]] A man in a corn field wearing a green shirt and a hat is talking.",
+            "- [frames=[0]] The background shows a vast cornfield with tall corn stalks.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene depicts a farmer discussing the challenging conditions faced in southern Iowa during the late summer and early fall months. The aggressive spread of tar spot in some fields is highlighted, indicating the need for careful observation and management strategies.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot must be equipped with a camera to capture images of the corn field.",
+            "- The robot should have knowledge about the geographical location of southern Iowa.",
+            "- The robot needs to understand the symptoms and impact of tar spot on corn plants.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot should accurately describe the conditions in southern Iowa.",
+            "- It must mention the presence of aggressive tar spot in some fields.",
+            "- The description should cover the period from August to September.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0]] The robot navigates to the corn field area.",
+            "2. [type=perception, frames=[0]] The robot captures an image of the corn field.",
+            "3. [type=manipulation, frames=[0]] The robot identifies the farmer and focuses on his speech.",
+            "4. [type=communication, frames=[0]] The robot transcribes the farmer's description of the conditions.",
+            "5. [type=analysis, frames=[0]] The robot analyzes the captured image to confirm the presence of tar spot.",
+            "6. [type=communication, frames=[0]] The robot formulates a summary of the conditions and tar spot presence.",
+            "",
+            "SUBTASK_STORY:",
+            "The video begins with a farmer"
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Provide recommendations for managing tar spot and its impact on crop quality.",
+      "start": 39.04,
+      "end": 96.36,
+      "subtasks": [
+        {
+          "text": "Note that susceptible hybrids can be severely affected by tar spot, but the impact may not be on yield.",
+          "start": 39.04,
+          "end": 49.76,
+          "segment_ids": [
+            13,
+            14,
+            15
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "dF3eEmzkUE4/task01_sub00_f01.jpg",
+              "caption": "A man in a green shirt is holding up a corn leaf with brown spots.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "dF3eEmzkUE4/task01_sub00_f02.jpg",
+              "caption": "A man in a green shirt is examining a corn cob in a field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "The robot should note that certain corn hybrids are highly susceptible to tar spot, which affects plant health but not necessarily yield.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0]] A man in a green shirt is holding up a corn leaf with visible brown spots, indicating tar spot.",
+            "- [frames=[1]] The same man continues to examine the leaf closely, emphasizing the presence of tar spot.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene shows a man inspecting a corn leaf with tar spot, highlighting the importance of identifying this condition in susceptible hybrids. This observation is crucial for understanding the impact of tar spot on plant health without directly affecting yield.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot must recognize corn leaves and distinguish them from other plants.",
+            "- The robot should have knowledge about tar spot symptoms and their impact on plant health.",
+            "- The robot needs to be equipped with a camera capable of capturing detailed images of plant parts.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot correctly identifies the presence of tar spot on the corn leaf.",
+            "- The robot understands that the impact on yield is minimal despite the presence of tar spot.",
+            "- The robot can communicate the findings to the user or another system.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0,1]] Navigate to the location where the corn leaf is being held.",
+            "2. [type=manipulation, frames=[0]] Use a robotic arm to gently pick up the corn leaf.",
+            "3. [type=perception, frames=[0,1]] Analyze the leaf using a high-resolution camera to identify tar spot symptoms.",
+            "4. [type=manipulation, frames=[1]] Return the leaf to its original position.",
+            "5. [type=communication, frames=[1]] Communicate the findings to the user, noting the presence of tar spot and its minimal impact on"
+          ]
+        },
+        {
+          "text": "Explain the importance of checking fields for tar spot and other plant health issues before harvest.",
+          "start": 76.4,
+          "end": 79.68,
+          "segment_ids": [
+            29
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f00.jpg",
+              "relative_path": "dF3eEmzkUE4/task01_sub01_f00.jpg",
+              "caption": "A man in a green shirt and cap is standing in a cornfield.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "dF3eEmzkUE4/task01_sub01_f01.jpg",
+              "caption": "A man in a green shirt and cap stands in a cornfield, wearing glasses and speaking to the camera.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "dF3eEmzkUE4/task01_sub01_f02.jpg",
+              "caption": "A man in a green shirt and cap is standing in a corn field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "Explain the importance of checking fields for tar spot and other plant health issues before harvest.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0]] A man in a green shirt and cap is standing in a cornfield.",
+            "- [frames=[1]] The same man is now wearing glasses and speaking to the camera.",
+            "- [frames=[2]] The man continues to stand in the cornfield.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene shows a man inspecting a cornfield for signs of tar spot and other plant health issues. He initially stands in the field, then approaches the camera to explain his findings, and finally returns to the field to continue his inspection.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot must be aware of the current season and stage of corn growth.",
+            "- The robot should have knowledge about tar spot and its symptoms.",
+            "- The robot needs to be equipped with appropriate sensors for detecting plant health issues.",
+            "- The robot must be able to navigate through a cornfield.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot must identify the importance of pre-harvest field checks.",
+            "- It should recognize the presence of tar spot and other plant health issues.",
+            "- The robot should provide accurate information about the condition of the cornfield.",
+            "- It must communicate effectively with the viewer about the findings.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0]] Navigate to the cornfield.",
+            "2. [type=sensing, frames=[0,1]] Use sensors to detect the presence of tar spot and other plant health issues.",
+            "3. [type=communication, frames=[1]] Communicate the findings to the viewer.",
+            "4. [type=navigation, frames=[2]] Return to the cornfield to continue inspection.",
+            "5. [type=sensing, frames=[2]] Continue using sensors to ensure all areas are checked.",
+            "",
+            "SUBTASK_ST"
+          ]
+        },
+        {
+          "text": "Highlight the need to manage tar spot holistically, including proper fungicide application timing.",
+          "start": 84.4,
+          "end": 96.36,
+          "segment_ids": [
+            32,
+            33,
+            34,
+            35
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub02_f01.jpg",
+              "relative_path": "dF3eEmzkUE4/task01_sub02_f01.jpg",
+              "caption": "A man in a green shirt and cap is standing in a cornfield.",
+              "frame_index": 1
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "Highlight the need for a holistic approach to managing tar spot, emphasizing the importance of proper fungicide application timing.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[1]] A man in a green shirt and cap is standing in a cornfield, inspecting the plants.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene depicts a farmer in a cornfield, focusing on the need for a comprehensive strategy to manage tar spot, particularly stressing the correct timing for fungicide application.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot must recognize the farmer and the cornfield environment.",
+            "- The robot should have knowledge about tar spot and its management.",
+            "- The robot needs to understand the importance of fungicide application timing.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot should identify the farmer and the cornfield setting correctly.",
+            "- The robot must convey the message about the holistic approach to managing tar spot.",
+            "- The robot should highlight the significance of proper fungicide application timing.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[1]] Navigate to the cornfield where the farmer is standing.",
+            "2. [type=perception, frames=[1]] Recognize the farmer and the cornfield environment.",
+            "3. [type=communication, frames=[1]] Initiate communication with the farmer.",
+            "4. [type=manipulation, frames=[1]] Use a display or voice to present information about the holistic approach to managing tar spot.",
+            "5. [type=communication, frames=[1]] Emphasize the importance of proper fungicide application timing.",
+            "6. [type=manipulation, frames=[1]] Provide visual aids or diagrams if necessary to support the explanation.",
+            "",
+            "SUBTASK_STORY:",
+            "The robot first navigates to the cornfield where the farmer is standing. It recognizes the farmer and the cornfield environment, then initiates communication. Using a display or voice"
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Invite viewers to access additional information and support from Pioneer.",
+      "start": 107.0,
+      "end": 117.0,
+      "subtasks": [
+        {
+          "text": "Mention that viewers can get tar spot tolerance ratings and agronomy insights from Pioneer's website and social media channels.",
+          "start": 107.0,
+          "end": 117.0,
+          "segment_ids": [
+            40,
+            41,
+            42
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f00.jpg",
+              "relative_path": "dF3eEmzkUE4/task02_sub00_f00.jpg",
+              "caption": "The video frame shows a social media follow-up for additional agronomic information from Pioneer Agronomy.",
+              "frame_index": 0
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "Mention that viewers can access tar spot tolerance ratings and agronomy insights from Pioneer's website and social media channels.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0]] The video frame shows a social media follow-up for additional agronomic information from Pioneer Agronomy.",
+            "- [frames=[1]] The frame continues to display the same social media follow-up, emphasizing the availability of agronomy insights.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene depicts a social media follow-up where viewers are directed to Pioneer's website and social media channels for more detailed information about tar spot tolerance ratings and agronomy insights. This is part of a broader tutorial on late season corn care, specifically addressing the topic of tar spot and plant health checks.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The viewer has watched the previous parts of the tutorial.",
+            "- The viewer is aware of the current context of checking for tar spot and plant health.",
+            "- The viewer has access to the internet and social media platforms.",
+            "- The robot has the necessary permissions to interact with the viewer and provide guidance.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The viewer understands that they can find tar spot tolerance ratings and agronomy insights on Pioneer's website and social media channels.",
+            "- The viewer acknowledges the importance of these resources for managing their crops effectively.",
+            "- The viewer is directed to the correct online resources without confusion.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0,1]] Guide the viewer to the social media follow-up message.",
+            "2. [type=communication, frames=[0,1]] Inform the viewer about the availability of tar spot tolerance ratings and agronomy insights.",
+            "3. [type=navigation, frames=[0,1]] Provide links to Pioneer's website and social media channels.",
+            "4. [type=manipulation, frames=[0,1]] Ensure the viewer can easily access the provided"
+          ]
+        }
+      ]
+    }
+  ],
+  "guidance_text_file": "final_guidance_txt/dF3eEmzkUE4.txt"
+}

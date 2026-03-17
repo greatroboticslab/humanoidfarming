@@ -1,0 +1,530 @@
+{
+  "video_index": "SgceDNDV7qM",
+  "title": "Urban Farming Hacks for High Yield Gardening Success",
+  "url": "https://www.youtube.com/watch?v=SgceDNDV7qM",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Provides a series of techniques for urban gardening.",
+  "tasks": [
+    {
+      "task": "Describe the container gardening technique.",
+      "start": 7.84,
+      "end": 10.56,
+      "subtasks": [
+        {
+          "text": "Use deep, wide containers to give roots room to grow.",
+          "start": 7.84,
+          "end": 10.56,
+          "segment_ids": [
+            3
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "SgceDNDV7qM/task00_sub00_f00.jpg",
+              "caption": "A blurry image of plants with the word \"gardening\" written over it.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "SgceDNDV7qM/task00_sub00_f01.jpg",
+              "caption": "The video shows various rectangular garden plots with containers.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "SgceDNDV7qM/task00_sub00_f02.jpg",
+              "caption": "The video shows a series of rectangular garden plots with plants and flowers.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask involves explaining the importance of using deep, wide containers for plant growth in an urban farming setting.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A blurry image of plants with the word \"gardening\" written over it.",
+            "- [frames=[1]] Various rectangular garden plots with containers are shown.",
+            "- [frames=[2]] Multiple rectangular garden plots with plants and flowers are displayed.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from a general gardening context to specific examples of garden plots using containers. These containers appear to be deep and wide, providing ample space for root development.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the concept of container gardening.",
+            "- The robot needs access to the video frames to analyze the scenes.",
+            "- The robot should have knowledge about the importance of container depth and width for plant growth.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the containers used in the demonstration.",
+            "- The robot should accurately describe the benefits of using deep, wide containers.",
+            "- The robot should provide clear instructions on how to choose appropriate containers.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Read the caption \"gardening\" to understand the context.",
+            "2. [type=perception, frames=[1]] Analyze the various rectangular garden plots with containers.",
+            "3. [type=perception, frames=[2]] Confirm the presence of deep, wide containers in multiple plots.",
+            "4. [type=navigation, frames=[0,1,2]] Navigate to the area where the containers are most clearly visible.",
+            "5. [type=manipulation, frames=[0,1,2]] Point to the containers and highlight their depth and width.",
+            "6. [type=communication, frames=[0,1,2]] Explain the benefits of using deep, wide containers for root growth.",
+            "7. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Read the caption \"gardening\" to understand the context. It then verifies the key detail directly from the frames (Read the caption \"gardening\" to understand the context).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Explain companion planting.",
+      "start": 10.56,
+      "end": 15.12,
+      "subtasks": [
+        {
+          "text": "Pair plants like tomatoes and basil to help each other thrive.",
+          "start": 10.56,
+          "end": 15.12,
+          "segment_ids": [
+            4,
+            5,
+            6
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "SgceDNDV7qM/task01_sub00_f01.jpg",
+              "caption": "A tomato plant with fruits is growing in a garden.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "SgceDNDV7qM/task01_sub00_f02.jpg",
+              "caption": "The video frame shows a garden with various types of plants, including cabbages and lettuce, and the word \"thrive\" appears in the foreground.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will explain how pairing tomatoes and basil can enhance their growth in an urban farming setting.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A tomato plant with fruits is growing in a garden.",
+            "- [frames=[2]] Various plants such as cabbages and lettuce are present in the garden, with the word \"thrive\" appearing in the foreground.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a typical urban garden with multiple plants, emphasizing the concept of companion planting. The presence of tomatoes and basil is highlighted, indicating their role in supporting each other's growth.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture the garden scene.",
+            "- The robot needs to have knowledge about companion planting and the benefits of pairing tomatoes and basil.",
+            "- The robot should be able to communicate effectively with the viewer.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the benefits of pairing tomatoes and basil.",
+            "- The robot should visually point out the tomato and basil plants in the garden.",
+            "- The robot should ensure the viewer understands the concept of companion planting.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Capture an image of the tomato plant with fruits.",
+            "2. [type=perception, frames=[2]] Scan the garden to identify the location of basil plants.",
+            "3. [type=navigation, frames=[1,2]] Move to the area where the tomato and basil plants are located.",
+            "4. [type=communication, frames=[2]] Announce the benefits of pairing tomatoes and basil, highlighting their mutual support.",
+            "5. [type=manipulation, frames=[2]] Use a pointer to highlight the tomato and basil plants on the screen.",
+            "6. [type=perception, frames=[2]] Verify the correct identification of the tomato and basil plants.",
+            "7. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture an image of the tomato plant with fruits. It then verifies the key detail directly from the frames (Verify the correct identification of the tomato and basil plants). After verification, it communicates the result clearly (Announce the benefits of pairing tomatoes and basil, highlighting their mutual support).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Demonstrate vertical farming methods.",
+      "start": 15.12,
+      "end": 21.04,
+      "subtasks": [
+        {
+          "text": "Utilize walls and fences for climbing plants, saving space and boosting yield.",
+          "start": 15.12,
+          "end": 21.04,
+          "segment_ids": [
+            7,
+            8,
+            9
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "SgceDNDV7qM/task02_sub00_f01.jpg",
+              "caption": "The video shows a close-up of green plants growing on a fence.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "SgceDNDV7qM/task02_sub00_f02.jpg",
+              "caption": "The video shows a vertical farming system with plants growing in a greenhouse.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will demonstrate how to utilize walls and fences for climbing plants, optimizing space and increasing yield in an urban farming setting.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A close-up view of green plants growing on a fence is shown.",
+            "- [frames=[2]] A wider shot of a vertical farming system within a greenhouse is displayed.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from a detailed view of plants growing on a fence to a broader view of a vertical farming setup in a greenhouse. This showcases the versatility of using walls and fences for plant growth.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with sensors to detect plant types and growth stages.",
+            "- It needs to have the ability to climb and manipulate plants.",
+            "- The robot must be able to navigate through the greenhouse environment.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Plants are successfully attached to the fence or wall.",
+            "- The vertical farming system is properly set up within the greenhouse.",
+            "- The robot verifies the correct placement of plants on the fence or wall.",
+            "- The overall layout of the vertical farm is optimized for maximum yield.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Move to the fence where the plants are growing.",
+            "2. [type=perception, frames=[1]] Scan the plants to identify their type and growth stage.",
+            "3. [type=manipulation, frames=[1]] Attach climbing supports to the fence.",
+            "4. [type=navigation, frames=[2]] Move to the greenhouse area.",
+            "5. [type=perception, frames=[2]] Assess the layout of the vertical farming system.",
+            "6. [type=navigation, frames=[2]] Position additional plants on the climbing supports.",
+            "7. [type=navigation, frames=[2]] Move to another section of the fence.",
+            "8. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "9. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to the fence where the plants are growing. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Discuss water management strategies.",
+      "start": 21.04,
+      "end": 25.68,
+      "subtasks": [
+        {
+          "text": "Use drip irrigation for efficiency and reduced water waste.",
+          "start": 21.04,
+          "end": 25.68,
+          "segment_ids": [
+            10,
+            11,
+            12
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub00_f01.jpg",
+              "relative_path": "SgceDNDV7qM/task03_sub00_f01.jpg",
+              "caption": "The video frame shows a blurry image of a pipe with the word \"irrigation\" overlaid.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub00_f02.jpg",
+              "relative_path": "SgceDNDV7qM/task03_sub00_f02.jpg",
+              "caption": "A pipe is dripping water onto a plant, with the word \"waste\" overlaid.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on explaining the benefits of using drip irrigation for efficient water management in urban farming.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A blurry image of a pipe with \"irrigation\" overlaid is visible.",
+            "- [frames=[2]] A clear image of a pipe dripping water onto a plant, with \"waste\" overlaid, is shown.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a setup where water is being delivered through a pipe to a plant via drip irrigation. The overlay suggests that the focus is on reducing water waste.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to observe the setup.",
+            "- The robot needs to have knowledge about different types of irrigation systems.",
+            "- The robot should be able to communicate the benefits of drip irrigation to the viewer.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the efficiency of drip irrigation.",
+            "- It should explain how it reduces water waste.",
+            "- The robot should visually confirm the setup by showing the drip irrigation system in action.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Capture an image of the blurry pipe labeled \"irrigation.\".",
+            "2. [type=perception, frames=[2]] Capture an image of the pipe dripping water onto a plant.",
+            "3. [type=manipulation, frames=[2]] Points to the dripping water and explains its role in efficient water delivery.",
+            "4. [type=communication, frames=[1,2]] Verbally describes how drip irrigation minimizes water waste.",
+            "5. [type=manipulation, frames=[2]] Highlights the area where water is dripping onto the plant.",
+            "6. [type=communication, frames=[1,2]] Elaborates on the benefits of using less water while ensuring the plant.",
+            "7. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "8. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture an image of the blurry pipe labeled \"irrigation.\". It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Highlight mulching practices.",
+      "start": 25.68,
+      "end": 28.88,
+      "subtasks": [
+        {
+          "text": "Mulch to keep soil moist and prevent weed growth.",
+          "start": 25.68,
+          "end": 28.88,
+          "segment_ids": [
+            13,
+            14
+          ],
+          "frames": [
+            {
+              "image_file": "task04_sub00_f01.jpg",
+              "relative_path": "SgceDNDV7qM/task04_sub00_f01.jpg",
+              "caption": "The video shows a garden with plants and straw.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task04_sub00_f02.jpg",
+              "relative_path": "SgceDNDV7qM/task04_sub00_f02.jpg",
+              "caption": "A close-up of a plant with the word \"bay\" overlaid.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe and explain the practice of using straw as mulch in an urban farming setting to maintain soil moisture and suppress weeds.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] Straw is visible on the ground around plants in a garden setting.",
+            "- [frames=[2]] A close-up of a bay plant is shown, indicating the type of plant being discussed.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a typical urban garden with various plants, where straw is used as mulch. The focus is on a bay plant, suggesting that the mulching technique is particularly beneficial for this type of plant.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture the garden scene.",
+            "- The robot should have knowledge about different types of plants and their specific needs.",
+            "- The robot should be able to identify and distinguish between plants and mulch materials.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the use of straw as mulch.",
+            "- The robot should accurately describe the benefits of mulching, including moisture retention and weed suppression.",
+            "- The robot should provide information specifically relevant to the bay plant.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Capture an image of the garden to identify the mulch material.",
+            "2. [type=perception, frames=[2]] Zoom in on the bay plant to verify its type.",
+            "3. [type=navigation, frames=[1]] Move closer to the area where the straw is applied.",
+            "4. [type=manipulation, frames=[1]] Pick up a small sample of the straw to confirm it is suitable for mulching.",
+            "5. [type=communication, frames=[1]] Announce the identification of the mulch material as straw.",
+            "6. [type=manipulation, frames=[2]] Use a digital.",
+            "7. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture an image of the garden to identify the mulch material. It then verifies the key detail directly from the frames (Zoom in on the bay plant to verify its type). After verification, it communicates the result clearly (Announce the identification of the mulch material as straw).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Address pest control methods.",
+      "start": 28.88,
+      "end": 33.2,
+      "subtasks": [
+        {
+          "text": "Employ natural predators like ladybugs for safe and effective pest control.",
+          "start": 28.88,
+          "end": 33.2,
+          "segment_ids": [
+            15,
+            16,
+            17
+          ],
+          "frames": [
+            {
+              "image_file": "task05_sub00_f01.jpg",
+              "relative_path": "SgceDNDV7qM/task05_sub00_f01.jpg",
+              "caption": "A ladybug is perched on a plant, with the word \"predators\" overlaid.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task05_sub00_f02.jpg",
+              "relative_path": "SgceDNDV7qM/task05_sub00_f02.jpg",
+              "caption": "The video frame shows a purple background with the word \"effective\" in the center.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will introduce natural predators, specifically ladybugs, to control pests in an urban farming setting. This method ensures a safe and effective approach to pest management without chemical interventions.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A ladybug is seen perched on a plant, with the word \"predators\" overlaid.",
+            "- [frames=[2]] The video frame shows a purple background with the word \"effective\" in the center.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene focuses on the introduction of ladybugs as a natural pest control method. The overlay of \"predators\" emphasizes their role, while the word \"effective\" highlights the benefits of using this approach.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot has access to a supply of ladybugs.",
+            "- The robot can navigate to the garden area.",
+            "- The robot has the capability to release ladybugs into the environment.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Ladybugs are successfully released into the garden.",
+            "- The presence of ladybugs is confirmed within the garden area.",
+            "- The garden environment remains undisturbed by the release process.",
+            "- The effectiveness of the ladybugs as natural predators is observed over time.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1,2]] Inspect/verify the scene before any physical action.",
+            "2. [type=navigation, frames=[1]] Navigate to the garden area where the ladybugs need to be released.",
+            "3. [type=manipulation, frames=[1]] Retrieve a ladybug from the supply container.",
+            "4. [type=perception, frames=[1]] Verify the ladybug's health and readiness for release.",
+            "5. [type=navigation, frames=[1]] Move to a suitable location in the garden.",
+            "6. [type=manipulation, frames=[1]] Release the ladybug onto the plant.",
+            "7. [type=perception, frames=[2]] Confirm the ladybug has landed and.",
+            "8. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Inspect/verify the scene before any physical action. It then verifies the key detail directly from the frames (Inspect/verify the scene before any physical action).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Recommend crop rotation.",
+      "start": 33.2,
+      "end": 37.6,
+      "subtasks": [
+        {
+          "text": "Rotate crops to maintain soil health and productivity.",
+          "start": 33.2,
+          "end": 37.6,
+          "segment_ids": [
+            18,
+            19
+          ],
+          "frames": [
+            {
+              "image_file": "task06_sub00_f01.jpg",
+              "relative_path": "SgceDNDV7qM/task06_sub00_f01.jpg",
+              "caption": "A blurry image of a garden with the word \"going\" superimposed on it.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task06_sub00_f02.jpg",
+              "relative_path": "SgceDNDV7qM/task06_sub00_f02.jpg",
+              "caption": "The video frame shows a productive garden with rows of lettuce plants.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to understand the concept of crop rotation and how it benefits soil health and productivity in an urban farming setting. It will observe a garden and then provide recommendations based on the observed crop layout.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A blurry image of a garden with the word \"going\" superimposed on it suggests initial confusion or lack of clear information.",
+            "- [frames=[2]] The video frame shows a productive garden with rows of lettuce plants indicating current crop layout.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a well-maintained garden with rows of lettuce, suggesting a need for crop rotation to maintain soil health and prevent nutrient depletion. The robot should recognize the importance of rotating crops to avoid soil degradation and enhance yield.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- Knowledge of common urban crops and their nutritional requirements.",
+            "- Understanding of basic soil health principles.",
+            "- Familiarity with the concept of crop rotation.",
+            "- Access to a database of recommended crop rotations for urban gardens.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Correct identification of the current crop layout.",
+            "- Accurate recommendation for crop rotation.",
+            "- Clear explanation of the benefits of crop rotation to the user.",
+            "- Verification of the new crop rotation plan by the user.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Read the superimposed text \"going\" to understand the initial state of the garden.",
+            "2. [type=perception, frames=[2]] Confirm the presence of lettuce plants in rows to understand the current crop layout.",
+            "3. [type=perception, frames=[1,2]] Cross-check the current crop layout against known urban gardening practices.",
+            "4. [type=communication, frames=[1,2]] Explain the benefits of crop rotation to the user, emphasizing soil health and productivity.",
+            "5. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Read the superimposed text \"going\" to understand the initial state of the garden. It then verifies the key detail directly from the frames (Read the superimposed text \"going\" to understand the initial state of the garden).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

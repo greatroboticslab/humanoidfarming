@@ -1,0 +1,113 @@
+VIDEO: COgLak-nlOo
+TITLE: Prepare Corn for Planting Video
+======================================================================
+
+TASK 0: Demonstrate the steps of preparing corn for planting.
+Time Range: 0.02 → 6.03
+----------------------------------------------------------------------
+  SUBTASK 0: Grab a fresh corn and peel it.
+  Time Range: 0.02 → 2.02
+  Guidance:
+    GLOBAL_SUMMARY:
+    The robot needs to grab a fresh corn cob and peel it.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0]] The scene starts with a man holding a banana in a kitchen, which is not relevant to the task.
+    - [frames=[1]] A man is holding a fresh corn cob in a kitchen.
+    - [frames=[2]] A person is peeling a banana, which is not relevant to the task.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The subtask involves identifying a fresh corn cob and performing the action of peeling it. The initial frame shows the presence of a corn cob, which is the target object for the robot to interact with.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must be aware of the presence of a fresh corn cob in the kitchen.
+    - The robot should have the capability to recognize and grasp objects.
+    - The robot must be within reach of the corn cob.
+    
+    SUCCESS_CRITERIA:
+    - The robot has successfully identified and grasped the corn cob.
+    - The robot has initiated the peeling action on the corn cob.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[1]] Move to the location where the corn cob is present.
+    2. [type=perception, frames=[1]] Identify the corn cob among other objects in the kitchen.
+    3. [type=manipulation, frames=[1]] Grasp the corn cob using the appropriate gripper.
+    4. [type=navigation, frames=[2]] Move to a suitable position for peeling the corn cob.
+    5. [type=manipulation, frames=[2]] Begin peeling the corn cob by removing the outer layer.
+    
+    SUBTASK_STORY:
+    The robot first navigates to the kitchen where the corn cob is located. It then identifies the corn cob among other items and grasps it securely. Afterward
+
+  SUBTASK 1: Throw the peeled corn on top of a pot with salt.
+  Time Range: 2.02 → 6.03
+  Guidance:
+    GLOBAL_SUMMARY:
+    The robot needs to throw a peeled corn cob onto a pot containing salt.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] The robot's hand is holding a peeled corn cob.
+    - [frames=[2]] The scene shows a window with plants and a table, but no pot or salt is visible.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The subtask involves the robot moving from a position where it holds the corn cob to a location where it can place the corn into a pot with salt. The initial frame shows the robot holding the corn, while the second frame provides context about the environment but does not show the pot or salt.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must be holding a peeled corn cob.
+    - The robot should know the location of the pot and salt.
+    - The robot must have the necessary tools or dexterity to manipulate the corn cob.
+    
+    SUCCESS_CRITERIA:
+    - The corn cob must be placed on top of the pot.
+    - The pot must contain salt.
+    - The corn cob must be fully within the pot.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Move the hand holding the corn cob towards the pot.
+    2. [type=manipulation, frames=[0,1]] Adjust the grip on the corn cob to ensure a secure release.
+    3. [type=navigation, frames=[1]] Position the hand directly above the pot.
+    4. [type=manipulation, frames=[1]] Release the corn cob gently onto the pot.
+    5. [type=perception, frames=[2]] Verify that the corn cob is on top of the pot and that the pot contains salt.
+    
+    SUBTASK_STORY:
+    The robot starts by holding a peeled corn cob in its hand. It then navigates its way to the pot containing salt, ensuring it
+
+
+======================================================================
+
+TASK 1: Explain the next step in the process of corn planting.
+Time Range: 6.03 → 26.7
+----------------------------------------------------------------------
+  SUBTASK 0: Out of each sprouted seed, carefully implant this gently and-
+  Time Range: 6.03 → 26.7
+  Guidance:
+    GLOBAL_SUMMARY:
+    The robot needs to explain the next step in planting corn, which involves carefully placing a sprouted seed into its own pot.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[1]] A flower pot with soil and a plant inside is shown.
+    - [frames=[2]] A man is holding a large pot containing a corn cob.
+    - [frames=[3]] The same man is now holding a large pot with multiple plants, and "BOOM!" appears on the screen.
+    - [frames=[4]] A blurry image with a text overlay saying "GENTLY IN IT'S OWN POT" is displayed.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene transitions from showing a prepared pot with a plant to a man handling a corn cob, then to multiple plants being placed in pots, and finally to the instruction on how to properly place a sprouted seed.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot should know about the previous steps in corn planting.
+    - The robot must be aware of the current state where multiple plants are already in pots.
+    - The robot should have information on how to handle and plant corn seeds.
+    
+    SUCCESS_CRITERIA:
+    - The robot should clearly explain the next step in the corn planting process.
+    - The robot must provide guidance on how to carefully place a sprouted seed into its own pot.
+    - The robot should ensure the seed is planted gently and securely.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=perception, frames=[1]] Recognize the prepared pot with a plant.
+    2. [type=navigation, frames=[2]] Transition to the scene where the man is holding the corn cob.
+    3. [type=manipulation, frames=[3]] Identify the multiple plants in the pot and the appearance of "BOOM!".
+    4. [type=communication, frames=[4]] Display the text "GENT
+
+
+======================================================================
+

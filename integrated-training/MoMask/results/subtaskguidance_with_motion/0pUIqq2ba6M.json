@@ -1,0 +1,398 @@
+{
+  "video_index": "0pUIqq2ba6M",
+  "title": "Viking Agriculture Practices Described Here Are Key To Their Survival And Prosperity",
+  "url": "https://www.youtube.com/watch?v=0pUIqq2ba6M",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Describes the agricultural practices and their importance to the Viking community.",
+  "tasks": [
+    {
+      "task": "Explain the importance of Viking farming for their survival and community.",
+      "start": 0.0,
+      "end": 8.5,
+      "subtasks": [
+        {
+          "text": "Note how Viking farming was essential for their survival.",
+          "start": 0.0,
+          "end": 3.0,
+          "segment_ids": [
+            0
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "0pUIqq2ba6M/task00_sub00_f00.jpg",
+              "caption": "A man with a long beard and a hat is working in a field at sunset.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "0pUIqq2ba6M/task00_sub00_f01.jpg",
+              "caption": "A man with a long beard and a hat is working in a field at sunset.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "0pUIqq2ba6M/task00_sub00_f02.jpg",
+              "caption": "A wheat field with smoke rising from a village in the background.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene depicts a Viking farmer working in a field at sunset, emphasizing the importance of agriculture for their survival.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A man with a long beard and a hat is working in a field at sunset.",
+            "- [frames=[2]] A wheat field with smoke rising from a village in the background.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene portrays a Viking farmer engaged in agricultural activities, likely sowing or harvesting wheat, which is crucial for sustaining the community. The presence of smoke from a village in the background suggests a thriving settlement dependent on such labor.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with appropriate sensors for recognizing human figures and agricultural settings.",
+            "- The robot needs to be within a range where it can clearly see the farmer and the field.",
+            "- The robot must have knowledge about Viking farming practices and their significance.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the farmer and the field.",
+            "- The robot should recognize the sunset and the agricultural setting.",
+            "- The robot should accurately describe the importance of Viking farming for their survival and community.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Identify the farmer by recognizing the long beard and hat.",
+            "2. [type=perception, frames=[2]] Recognize the wheat field and the village in the background.",
+            "3. [type=perception, frames=[0,1]] Confirm the farmer's activity (sowing/harvesting) through visual analysis.",
+            "4. [type=perception, frames=[2]] Measure the extent of the wheat field to gauge its importance.",
+            "5. [type=perception, frames=[0,1]] Cross-check the farmer’s activity with historical data on Viking agriculture.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the farmer by recognizing the long beard and hat. It then verifies the key detail directly from the frames (Confirm the farmer's activity (sowing/harvesting) through visual analysis).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 3.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/0pUIqq2ba6M/task00/sub00/motion.bvh",
+            "params_path": "results/momask/0pUIqq2ba6M/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Mention the crops they grew and their suitability for the climate.",
+          "start": 3.0,
+          "end": 8.5,
+          "segment_ids": [
+            1
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "0pUIqq2ba6M/task00_sub01_f01.jpg",
+              "caption": "A rustic scene with sheep and cows grazing in front of a wooden structure, with the words \"OATS AND RYE\" overlaid.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "0pUIqq2ba6M/task00_sub01_f02.jpg",
+              "caption": "The video frame shows a black background with yellow text that reads \"THEIR CLIMATE.\"",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will explain the crops grown by Vikings and their suitability for the local climate, focusing on oats and rye.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] Sheep and cows are seen grazing in front of a wooden structure, with \"OATS AND RYE\" overlaid.",
+            "- [frames=[2]] A black background with yellow text reading \"THEIR CLIMATE\" is displayed.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a rustic agricultural setting typical of Viking times, with animals grazing and a wooden structure likely representing a farm or storage area. The overlay mentions specific crops, indicating the focus on oats and rye.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have knowledge about Viking agriculture practices.",
+            "- The robot needs to be able to read and interpret the overlay text.",
+            "- The robot should be aware of the climate conditions in Viking settlements.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Correctly identify the crops mentioned: oats and rye.",
+            "- Accurately describe the climate conditions suitable for these crops.",
+            "- Provide a clear explanation linking the crops to Viking survival and prosperity.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Read the overlay text \"OATS AND RYE\".",
+            "2. [type=perception, frames=[2]] Confirm the text \"THEIR CLIMATE\" on the black background.",
+            "3. [type=navigation, frames=[1]] Move to the area where the sheep and cows are grazing.",
+            "4. [type=manipulation, frames=[1]] Point to the wooden structure and mention it as a possible storage or farm area.",
+            "5. [type=communication, frames=[1]] Explain that oats and rye were crucial crops for Vikings due to their hardiness in cold climates.",
+            "6. [type=manipulation, frames=[2]] Highlight the.",
+            "7. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Read the overlay text \"OATS AND RYE\". It then verifies the key detail directly from the frames (Read the overlay text \"OATS AND RYE\").",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move to the area where the sheep and cows are grazing; Point to the wooden structure and mention it as a possible storage or farm area; Highlight the; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 5.5,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/0pUIqq2ba6M/task00/sub01/motion.bvh",
+            "params_path": "results/momask/0pUIqq2ba6M/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Describe the types of livestock and the products they provided.",
+      "start": 8.5,
+      "end": 20.5,
+      "subtasks": [
+        {
+          "text": "List the livestock including cattle, sheep, and goats.",
+          "start": 8.5,
+          "end": 14.5,
+          "segment_ids": [
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "0pUIqq2ba6M/task01_sub00_f01.jpg",
+              "caption": "A bearded man in a Viking helmet holds a large axe and a shovel, with the text \"Sheep and Goats\" below him.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "0pUIqq2ba6M/task01_sub00_f02.jpg",
+              "caption": "Three men in Viking attire are using a large wooden tool to push grain into a barrel.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will list the types of livestock used by Vikings, specifically cattle, sheep, and goats, based on the visual cues provided in the video.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A bearded man in a Viking helmet holds a large axe and a shovel, with the text \"Sheep and Goats\" below him.",
+            "- [frames=[2]] Three men in Viking attire are using a large wooden tool to push grain into a barrel, which is not relevant to this subtask.",
+            "- [frames=[1,2]] The focus is on the text \"Sheep and Goats\" and the presence of a Viking figure holding tools.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene primarily focuses on the mention of sheep and goats by a Viking figure, indicating these were important livestock for the Vikings. No other livestock like cattle are visually present in the given frames.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have knowledge of Viking agricultural practices.",
+            "- The robot should be able to read text and recognize Viking attire.",
+            "- The robot should be within the visible range of the screen where the text \"Sheep and Goats\" is displayed.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Correctly identify and list the livestock mentioned in the video.",
+            "- Accurately state that the livestock includes sheep and goats.",
+            "- Verify the absence of cattle in the scene.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Read the text \"Sheep and Goats\" displayed below the Viking figure.",
+            "2. [type=perception, frames=[1]] Confirm the presence of a Viking figure holding tools.",
+            "3. [type=perception, frames=[1]] Cross-check the text with the Viking attire to ensure accuracy.",
+            "4. [type=communication, frames=[1]] Announce the presence of sheep and.",
+            "5. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Read the text \"Sheep and Goats\" displayed below the Viking figure. It then verifies the key detail directly from the frames (Read the text \"Sheep and Goats\" displayed below the Viking figure). After verification, it communicates the result clearly (Announce the presence of sheep and).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 6.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/0pUIqq2ba6M/task01/sub00/motion.bvh",
+            "params_path": "results/momask/0pUIqq2ba6M/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Highlight the products provided by the livestock such as meat, milk, and wool.",
+          "start": 14.5,
+          "end": 17.5,
+          "segment_ids": [
+            3
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "0pUIqq2ba6M/task01_sub01_f01.jpg",
+              "caption": "Three men in Viking attire shear sheep in a grassy field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "0pUIqq2ba6M/task01_sub01_f02.jpg",
+              "caption": "A rustic attic filled with barrels of various fruits and vegetables.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will describe the products provided by livestock, focusing on meat, milk, and wool. This involves observing shearing and storage scenes.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] Three men in Viking attire are shearing sheep in a grassy field.",
+            "- [frames=[2]] A rustic attic is shown, filled with barrels of various fruits and vegetables.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts Vikings engaging in agricultural practices, specifically focusing on livestock management and product storage. The shearing activity suggests the production of wool, while the attic storage indicates the preservation of other goods like foodstuffs.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture the scenes.",
+            "- It needs to have knowledge about Viking livestock and their products.",
+            "- The robot must be able to communicate the information clearly.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately mention the products derived from livestock.",
+            "- It should correctly identify the shearing process and its outcome.",
+            "- The robot must describe the storage of produce in the attic.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Capture the shearing activity and identify the sheep being sheared.",
+            "2. [type=perception, frames=[1]] Recognize the men performing the shearing and note the tools used.",
+            "3. [type=perception, frames=[1]] Simulate the shearing process to confirm the production of wool.",
+            "4. [type=communication, frames=[1]] Announce that the sheep provide wool through shearing.",
+            "5. [type=perception, frames=[2]] Observe the attic and identify the barrels of produce.",
+            "6. [type=communication, frames=[2]] Mention the storage of fruits and vegetables in the attic.",
+            "7. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture the shearing activity and identify the sheep being sheared. It then verifies the key detail directly from the frames (Simulate the shearing process to confirm the production of wool). After verification, it communicates the result clearly (Announce that the sheep provide wool through shearing).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 3.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/0pUIqq2ba6M/task01/sub01/motion.bvh",
+            "params_path": "results/momask/0pUIqq2ba6M/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Emphasize how these farming practices supported the entire Viking community.",
+          "start": 17.5,
+          "end": 20.5,
+          "segment_ids": [
+            3
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub02_f01.jpg",
+              "relative_path": "0pUIqq2ba6M/task01_sub02_f01.jpg",
+              "caption": "The video frame shows a Viking community working together in a field.",
+              "frame_index": 1
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The Viking community works together in a field, showcasing their agricultural practices which were crucial for their survival and prosperity.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] Workers are seen tending to livestock, indicating the presence of various types of animals.",
+            "- [frames=[1]] A group of Vikings is shown harvesting crops, suggesting a mix of animal husbandry and crop cultivation.",
+            "- [frames=[1]] Tools and equipment are scattered around, hinting at the ongoing agricultural activities.",
+            "- [frames=[1]] Livestock such as cattle, sheep, and pigs are present, providing essential resources like meat, milk, and wool.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a collaborative effort within the Viking community, where both livestock management and crop cultivation are evident. This integrated approach underscores the importance of these practices in sustaining the community.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with Viking agricultural tools and practices.",
+            "- The robot needs to understand the significance of livestock and crops in Viking society.",
+            "- The robot must recognize different types of livestock and their roles in the community.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify and describe the types of livestock present.",
+            "- It should explain how these practices supported the entire Viking community.",
+            "- The robot should highlight the benefits of livestock and crops in terms of food, clothing, and shelter.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Scan the scene to identify the types of livestock and tools present.",
+            "2. [type=perception, frames=[1]] Analyze the context of the agricultural activities being performed.",
+            "3. [type=navigation, frames=[1]] Move closer to the livestock area to get a better view.",
+            "4. [type=manipulation, frames=[1]] Use a camera to capture detailed images of the livestock.",
+            "5. [type=perception, frames=[1]] Verify/confirm the key observation before reporting.",
+            "6. [type=navigation, frames=[1]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Scan the scene to identify the types of livestock and tools present. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move closer to the livestock area to get a better view; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/0pUIqq2ba6M/task01/sub02/motion.bvh",
+            "params_path": "results/momask/0pUIqq2ba6M/task01/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

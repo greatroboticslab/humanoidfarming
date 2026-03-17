@@ -1,0 +1,211 @@
+VIDEO: oh3iZqs-kwE
+TITLE: Purple Wave Farm Equipment Auction Ends Dec 2nd. The "Great Gatsby" and Musical Setlist
+======================================================================
+
+TASK 0: Promote the upcoming no-reserve farm equipment auction.
+Time Range: 0.0 → 10.24
+----------------------------------------------------------------------
+  SUBTASK 0: Announce that Purple Wave is selling farm equipment in a no-reserve auction ending December 2nd at purplewave.com.
+  Time Range: 0.0 → 6.44
+  Guidance:
+    GLOBAL_SUMMARY:
+    Announce that Purple Wave is selling farm equipment in a no-reserve auction ending December 2nd via their website.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0]] A poster for an agricultural equipment auction is displayed.
+    - [frames=[1]] A tractor is driving through a field with a sign indicating an ag equipment auction.
+    - [frames=[2]] A large tractor is parked in a field, with text indicating an ag equipment auction and bidding deadline.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene transitions from a poster advertising the auction to showing the auction in progress with tractors in a field. The final frame highlights the specific details of the auction, including the deadline.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must have access to the internet to navigate to purplewave.com.
+    - The robot should be able to read and understand text on posters and signs.
+    - The robot needs to know the date format and how to convert it to a digital format.
+    
+    SUCCESS_CRITERIA:
+    - The robot must successfully navigate to purplewave.com.
+    - The robot must announce the auction details, including the type of sale, the deadline, and the website.
+    - The robot should confirm that the announcement was heard by the audience.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the location where the auction poster and tractor are visible.
+    2. [type=perception, frames=[0]] Read the text on the auction poster.
+    3. [type=navigation, frames=[1]] Move to the tractor in the field.
+    4. [type=perception, frames=[1]] Recognize the tractor and the sign indicating the auction.
+    5. [type=manipulation, frames=[2]] Position itself near the large tractor.
+    6. [type=communication, frames=[2]] Announce that
+
+  SUBTASK 1: Invite bidders to name their price for tractors and a wide range of agricultural tools and machinery.
+  Time Range: 6.44 → 10.24
+  Guidance:
+    GLOBAL_SUMMARY:
+    Invite potential bidders to participate in the no-reserve farm equipment auction by allowing them to name their price for various tractors and agricultural tools.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[1]] A large agricultural equipment is parked in a field, with text indicating an auction and closing date.
+    - [frames=[2]] A tractor with a sprayer is parked in a muddy lot with grain silos in the background.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene depicts a setup for an upcoming farm equipment auction, emphasizing the variety of items available, including tractors and other agricultural machinery. The text on the equipment and the presence of grain silos suggest a focus on agricultural tools.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must have access to the video frames and their descriptions.
+    - The robot should be able to recognize and interpret text on the equipment.
+    - The robot needs to understand the context of an auction and the concept of bidders naming their prices.
+    
+    SUCCESS_CRITERIA:
+    - The robot successfully identifies the equipment and the auction details.
+    - The robot accurately conveys the invitation to name prices for tractors and other agricultural tools.
+    - The robot ensures the message is clear and engaging to potential bidders.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[1]] Navigate to the first frame showing the large agricultural equipment.
+    2. [type=perception, frames=[1]] Identify the text on the equipment indicating the auction and closing date.
+    3. [type=navigation, frames=[2]] Move to the second frame showing the tractor with a sprayer.
+    4. [type=manipulation, frames=[2]] Ensure the sprayer is visible and the grain silos are in the background.
+    5. [type=communication, frames=[1,2]] Synthesize and deliver a message inviting bidders to
+
+
+======================================================================
+
+TASK 1: Inform bidders about the auction rules.
+Time Range: 13.84 → 21.28
+----------------------------------------------------------------------
+  SUBTASK 0: State that each asset must sell to the highest bidder regardless of price.
+  Time Range: 13.84 → 16.98
+  Guidance:
+    GLOBAL_SUMMARY:
+    State that each asset must sell to the highest bidder regardless of price.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] A series of white trucks with different attachments (trailer, water tank, grain auger) are parked in a gravel lot.
+    - [frames=[2]] The scene shifts to a field with a grain silo in the background, showing another white truck with a grain auger.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The subtask involves informing bidders about the auction rules. The scene depicts various types of farm equipment being prepared for an auction, setting the context for the rules to be communicated.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must be aware of the auction rules.
+    - The robot should be positioned near the trucks or in a location where it can address the audience.
+    - The robot needs to have a clear view of the audience or the area where bidders are located.
+    - The robot should have access to a communication device or system to convey the message.
+    
+    SUCCESS_CRITERIA:
+    - The robot must clearly state the rule that each asset will sell to the highest bidder.
+    - The statement must be understood by the audience.
+    - The rule must be repeated if necessary to ensure all bidders are informed.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Move to a position near the trucks where the audience can see and hear the robot.
+    2. [type=communication, frames=[0,1]] Announce that the auction will follow a specific rule.
+    3. [type=navigation, frames=[2]] Move to a new location to ensure the rule is heard by all bidders.
+    4. [type=communication, frames=[2]] Repeat the rule to confirm understanding.
+    5. [type=manipulation, frames=[0,1,2]] Adjust
+
+  SUBTASK 1: Provide the auction end date and time, noting bidding will close on Wednesday, December 2nd at 10 a.m.
+  Time Range: 16.98 → 21.28
+  Guidance:
+    GLOBAL_SUMMARY:
+    Provide the auction end date and time to inform bidders that bidding will close on Wednesday, December 2nd at 10 a.m.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] A John Deere tractor is parked on a road with a large yellow tire.
+    - [frames=[2]] A green tractor with a large yellow wheel is parked in front of a house.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene depicts tractors being displayed, likely at an auction site. The tractors are used to set the context for the announcement of the auction end time.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must be aware of the current date and time.
+    - The robot should have access to the correct auction end date and time information.
+    - The robot needs to be in a position to communicate with the audience effectively.
+    
+    SUCCESS_CRITERIA:
+    - The robot must clearly state the auction end date and time.
+    - The robot should ensure all bidders are informed of the closing time.
+    - The robot must complete the announcement within the specified time range of 17.0s–21.3s.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Move to a position where the audience can see the robot and the tractors.
+    2. [type=manipulation, frames=[2]] Adjust the robot's camera to focus on the tractors.
+    3. [type=communication, frames=[0,2]] Announce the presence of the tractors and their location.
+    4. [type=communication, frames=[1,2]] State the auction end date and time: "Bidding will close on Wednesday, December 2nd at 10 a.m."
+    5. [type=navigation, frames=[2]] Move to a position where the robot can face
+
+
+======================================================================
+
+TASK 2: Encourage bidders to start bidding now.
+Time Range: 21.28 → 29.32
+----------------------------------------------------------------------
+  SUBTASK 0: Urge interested parties to visit purplewave.com to begin bidding.
+  Time Range: 21.28 → 25.72
+  Guidance:
+    GLOBAL_SUMMARY:
+    Urge viewers to visit the website purplewave.com to start bidding on farm equipment auctions.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] A man operates a forklift in a warehouse, indicating an ongoing auction event.
+    - [frames=[2]] A purple wave auction advertisement for various farm equipment is prominently displayed.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene shifts from a warehouse setting where a forklift is being operated to a focus on the auction advertisement. This transition suggests that the auction is taking place at Purple Wave Farm Equipment and encourages viewers to visit their website to participate in the bidding process.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must recognize the current context as related to an auction event.
+    - The robot should have access to the URL purplewave.com.
+    - The robot needs to be able to communicate effectively with the viewer.
+    
+    SUCCESS_CRITERIA:
+    - The robot successfully urges the viewer to visit purplewave.com.
+    - The viewer acknowledges the instruction and begins the bidding process on the website.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Guide the viewer's attention to the man operating the forklift.
+    2. [type=manipulation, frames=[2]] Highlight the purple wave auction advertisement.
+    3. [type=communication, frames=[2]] Announce, "Visit purplewave.com to start bidding now."
+    4. [type=manipulation, frames=[2]] Emphasize the website address by enlarging it or changing its color.
+    5. [type=perception, frames=[2]] Confirm the viewer's understanding by asking, "Are you ready to bid?"
+    
+    SUBTASK_STORY:
+    The robot first draws the viewer's attention to a man operating a forklift in a warehouse, setting the scene for an ongoing auction event. It then
+
+  SUBTASK 1: Mention the Purple Wave Auction and emphasize its straight and simple nature.
+  Time Range: 25.72 → 29.32
+  Guidance:
+    GLOBAL_SUMMARY:
+    Encourage viewers to start bidding in the Purple Wave Farm Equipment Auction, emphasizing its straightforward nature.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] The screen shows a black background with white text reading "www.purplewave.com", indicating the website for the auction.
+    - [frames=[2]] The same black background with white text reappears, reinforcing the focus on the website.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene remains consistent throughout, showing the Purple Wave Farm Equipment Auction website prominently displayed. This emphasizes the simplicity and directness of the auction process, encouraging viewers to take immediate action.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must have access to the internet.
+    - The robot should be able to display images or videos.
+    - The robot needs to recognize and interpret the text on the screen.
+    - The robot should be aware of the current time and date.
+    
+    SUCCESS_CRITERIA:
+    - The robot successfully displays the Purple Wave Farm Equipment Auction website.
+    - The robot highlights the straightforward nature of the auction.
+    - The robot encourages viewers to start bidding immediately.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the Purple Wave Farm Equipment Auction website.
+    2. [type=manipulation, frames=[2]] Ensure the website remains visible and unchanged.
+    3. [type=perception, frames=[0,1]] Recognize the text "www.purplewave.com" and confirm it is correctly displayed.
+    4. [type=communication, frames=[0,1]] Announce the start of the auction and encourage viewers to bid now.
+    5. [type=manipulation, frames=[2]] Maintain the display of the website to reinforce the message.
+    
+    SUBTASK_STORY:
+    The robot begins by navigating to the Purple Wave Farm Equipment Auction website, ensuring the screen displays "
+
+
+======================================================================
+

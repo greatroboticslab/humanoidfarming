@@ -1,0 +1,394 @@
+{
+  "video_index": "Osni120flXk",
+  "title": "Growing Tomatoes in Home Gardens",
+  "url": "https://www.youtube.com/watch?v=Osni120flXk",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Discusses the planting, care, and benefits of growing tomatoes in a garden setting.",
+  "tasks": [
+    {
+      "task": "Explain the necessary steps and benefits of growing tomatoes.",
+      "start": 2.06,
+      "end": 72.22,
+      "subtasks": [
+        {
+          "text": "Describe the timing and conditions for planting tomatoes.",
+          "start": 2.06,
+          "end": 19.48,
+          "segment_ids": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "Osni120flXk/task00_sub00_f00.jpg",
+              "caption": "The video frame shows the University of Wyoming Extension logo with the words \"UP\" in the grass.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "Osni120flXk/task00_sub00_f01.jpg",
+              "caption": "A man in a greenhouse with tomato plants.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "Osni120flXk/task00_sub00_f02.jpg",
+              "caption": "A man in a plaid shirt is sitting in front of a window with a microphone.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub00_f03.jpg",
+              "relative_path": "Osni120flXk/task00_sub00_f03.jpg",
+              "caption": "A greenhouse with tomato plants bearing both green and red tomatoes.",
+              "frame_index": 3
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will describe the optimal timing and conditions for planting tomatoes, based on the information provided in the tutorial video.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The video starts with the University of Wyoming Extension logo, indicating the source of the information.",
+            "- [frames=[1]] A man in a greenhouse is shown with tomato plants, suggesting the current season or climate is suitable for planting.",
+            "- [frames=[2]] A man in a plaid shirt is seen sitting in front of a window with a microphone, likely providing the voiceover for the video.",
+            "- [frames=[3]] A greenhouse with tomato plants showing both green and red tomatoes indicates the plants are at different stages of growth, possibly reflecting the ideal planting period.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from an introduction to the University of Wyoming Extension to a demonstration in a greenhouse, where tomato plants are visible at various stages of growth. This setup suggests the video will cover the timing and conditions for planting tomatoes.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to the video frames and audio content.",
+            "- The robot needs to understand the context of a greenhouse and the lifecycle of tomato plants.",
+            "- The robot should be able to identify the speaker and their voice.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the optimal timing for planting tomatoes.",
+            "- The robot should mention the importance of the greenhouse environment.",
+            "- The robot should explain the growth stages of tomato plants as evidence of the correct planting period.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Identify the University of Wyoming Extension logo to confirm the source of the information.",
+            "2. [type=perception, frames=[1]] Recognize the man in the greenhouse with tomato plants to verify the current season or climate.",
+            "3. [type=perception, frames=[0,1,2,3]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[0,1,2,3]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2,3]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the University of Wyoming Extension logo to confirm the source of the information. It then verifies the key detail directly from the frames (Identify the University of Wyoming Extension logo to confirm the source of the information).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Highlight the variety of tomato types available to gardeners.",
+          "start": 29.62,
+          "end": 35.26,
+          "segment_ids": [
+            7,
+            8
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f00.jpg",
+              "relative_path": "Osni120flXk/task00_sub01_f00.jpg",
+              "caption": "A greenhouse with tomato plants bearing red and green tomatoes.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "Osni120flXk/task00_sub01_f01.jpg",
+              "caption": "A greenhouse with tomato plants bearing red and green tomatoes.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "Osni120flXk/task00_sub01_f02.jpg",
+              "caption": "A man in a plaid shirt is sitting in front of a window with a hose hanging on the side.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video highlights the variety of tomato types available to gardeners, showcasing different colors and sizes in a greenhouse setting.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A greenhouse is shown with tomato plants bearing both red and green tomatoes.",
+            "- [frames=[0,1]] The plants appear healthy and well-maintained.",
+            "- [frames=[2]] A man in a plaid shirt is seen sitting in front of a window, likely providing context or commentary.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a greenhouse environment where various tomato plants are growing, indicating a controlled and nurturing environment for gardening. The presence of both red and green tomatoes suggests a diverse range of varieties.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture images of the greenhouse.",
+            "- The robot needs to have knowledge about tomato varieties to accurately describe them.",
+            "- The robot should be able to navigate within the greenhouse.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify and describe the different tomato varieties.",
+            "- The robot should provide accurate information about the benefits of growing tomatoes.",
+            "- The robot should ensure the greenhouse environment is suitable for tomato growth.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the greenhouse area where tomato plants are visible.",
+            "2. [type=perception, frames=[0,1]] Use the camera to capture images of the tomato plants.",
+            "3. [type=manipulation, frames=[0,1]] Adjust the camera angle to get a clear view of the red and green tomatoes.",
+            "4. [type=communication, frames=[0,1]] Announce the variety of tomato types available, mentioning red and green tomatoes.",
+            "5. [type=perception, frames=[2]] Verify the presence of the man in the plaid shirt by checking.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the greenhouse area where tomato plants are visible. It then verifies the key detail directly from the frames (Verify the presence of the man in the plaid shirt by checking). After verification, it communicates the result clearly (Announce the variety of tomato types available, mentioning red and green tomatoes).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Emphasize the importance of watering tomatoes thoroughly and frequently.",
+          "start": 38.46,
+          "end": 48.18,
+          "segment_ids": [
+            10,
+            11,
+            12
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub02_f00.jpg",
+              "relative_path": "Osni120flXk/task00_sub02_f00.jpg",
+              "caption": "A man in a greenhouse is adjusting a cage for tomato plants.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub02_f01.jpg",
+              "relative_path": "Osni120flXk/task00_sub02_f01.jpg",
+              "caption": "A greenhouse with tomato plants in various stages of growth, including green and red tomatoes.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub02_f02.jpg",
+              "relative_path": "Osni120flXk/task00_sub02_f02.jpg",
+              "caption": "A tomato plant with several ripe and unripe tomatoes.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should explain the importance of thorough and frequent watering for tomato plants, using observations from the greenhouse environment.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The man adjusts a cage for tomato plants, indicating care and attention to the plants.",
+            "- [frames=[1]] A greenhouse is shown with tomato plants in various stages of growth, highlighting the diversity of the plants.",
+            "- [frames=[2]] A close-up of a tomato plant with both ripe and unripe tomatoes demonstrates the plant's current state.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a greenhouse where tomato plants are growing in different stages, from green to red. The presence of a man adjusting a cage suggests ongoing care and maintenance of the plants.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the greenhouse environment.",
+            "- The robot should know about the life cycle of tomato plants.",
+            "- The robot should be able to communicate effectively about gardening practices.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately convey the importance of thorough and frequent watering.",
+            "- The robot should describe the impact of proper watering on tomato plant health and yield.",
+            "- The robot should provide clear instructions on how to water the plants correctly.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Observe the man adjusting the cage for tomato plants.",
+            "2. [type=perception, frames=[1]] Analyze the greenhouse environment with tomato plants in various stages of growth.",
+            "3. [type=communication, frames=[2]] Explain the importance of thorough and frequent watering for tomato plants.",
+            "4. [type=communication, frames=[2]] Describe the impact of proper watering on plant health and yield.",
+            "5. [type=communication, frames=[2]] Provide instructions on how to water the plants correctly.",
+            "6. [type=navigation, frames=[0,1,2]] Return.",
+            "7. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "8. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Observe the man adjusting the cage for tomato plants. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Point out the support structure used for tomato plants.",
+          "start": 58.38,
+          "end": 72.22,
+          "segment_ids": [
+            16,
+            17,
+            18,
+            19
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub03_f00.jpg",
+              "relative_path": "Osni120flXk/task00_sub03_f00.jpg",
+              "caption": "Two tomato plants are growing in a garden with metal cages.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub03_f01.jpg",
+              "relative_path": "Osni120flXk/task00_sub03_f01.jpg",
+              "caption": "A man is kneeling in a greenhouse, surrounded by tomato plants.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub03_f02.jpg",
+              "relative_path": "Osni120flXk/task00_sub03_f02.jpg",
+              "caption": "A close-up of a tomato plant with a tag indicating it's a variety of 'Tomato'.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment highlights the use of metal cages as support structures for tomato plants, emphasizing their importance in supporting plant growth and maintaining a tidy garden environment.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] Two tomato plants are growing in a garden with metal cages.",
+            "- [frames=[1]] A man is kneeling in a greenhouse, surrounded by tomato plants.",
+            "- [frames=[2]] A close-up of a tomato plant with a tag indicating it's a variety of 'Tomato'.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a typical setup for growing tomatoes in a garden or greenhouse, where metal cages are used to support the plants. These cages help in providing structural support, preventing the plants from breaking under their own weight, and making harvesting easier.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to identify and locate the metal cages.",
+            "- The robot should have the ability to navigate through the garden or greenhouse.",
+            "- The robot should be able to read labels or tags on the plants.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify and point out the metal cages used for supporting tomato plants.",
+            "- The robot should provide information about the benefits of using such support structures.",
+            "- The robot should ensure that the metal cages are clearly visible and understandable to the viewer.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the area where the tomato plants are growing.",
+            "2. [type=perception, frames=[0]] Use the camera to identify the metal cages surrounding the tomato plants.",
+            "3. [type=navigation, frames=[0]] Move closer to the metal cages to ensure they are clearly visible.",
+            "4. [type=communication, frames=[0]] Announce the presence of the metal cages and explain their purpose.",
+            "5. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the area where the tomato plants are growing. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting). After verification, it communicates the result clearly (Announce the presence of the metal cages and explain their purpose).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Show the final product and enjoyment of tomatoes.",
+      "start": 73.62,
+      "end": 82.62,
+      "subtasks": [
+        {
+          "text": "Demonstrate the act of picking and eating a tomato directly from the vine.",
+          "start": 73.62,
+          "end": 82.62,
+          "segment_ids": [
+            21,
+            22,
+            23
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "Osni120flXk/task01_sub00_f00.jpg",
+              "caption": "A tomato plant with a tag indicating it's a variety of tomato.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "Osni120flXk/task01_sub00_f01.jpg",
+              "caption": "A man in a plaid shirt is sitting in front of a window with a hose attached to it.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "Osni120flXk/task01_sub00_f02.jpg",
+              "caption": "A man in a greenhouse with tomato plants is shown.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will demonstrate picking and eating a tomato directly from the vine, showcasing the final product and enjoyment of home-grown tomatoes.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A tomato plant with a tag indicating it's a variety of tomato is visible.",
+            "- [frames=[1]] A man in a plaid shirt is sitting in front of a window with a hose attached to it.",
+            "- [frames=[2]] A man in a greenhouse with tomato plants is shown.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from an outdoor setting with a tagged tomato plant to a man watering a plant in a window, then to a greenhouse where multiple tomato plants are present. The robot needs to identify a ripe tomato on a vine and pick it before eating it.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the types of tomato plants and their characteristics.",
+            "- It should know how to navigate through different environments, including greenhouses.",
+            "- The robot must recognize ripe tomatoes based on color and size.",
+            "- It should be equipped with tools for picking and eating, such as gloves and utensils.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully picks a ripe tomato from a vine.",
+            "- The robot eats the tomato, demonstrating its freshness and quality.",
+            "- The robot verifies that the tomato is indeed ripe and suitable for consumption.",
+            "- The robot cleans up after the demonstration, returning to a neutral position.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the greenhouse where the tomato plants are located.",
+            "2. [type=perception, frames=[2]] Identify a ripe tomato on a vine by checking its color and size.",
+            "3. [type=manipulation, frames=[2]] Put on gloves to protect hands during the picking process.",
+            "4. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the greenhouse where the tomato plants are located. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

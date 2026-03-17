@@ -1,0 +1,643 @@
+{
+  "video_index": "erBn9qrHE9w",
+  "title": "Agrarian Family Farming Life 1817",
+  "url": "https://www.youtube.com/watch?v=erBn9qrHE9w",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "The transcript describes the daily life of an agrarian worker, including the work on the farm and the benefits of their lifestyle.",
+  "tasks": [
+    {
+      "task": "Describe the daily routine of an agrarian worker.",
+      "start": 9.18,
+      "end": 215.72,
+      "subtasks": [
+        {
+          "text": "Wake up at 6 a.m. and begin the day with a cleaning task.",
+          "start": 9.18,
+          "end": 19.42,
+          "segment_ids": [
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "erBn9qrHE9w/task00_sub00_f00.jpg",
+              "caption": "A person is writing on a whiteboard with a marker.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "erBn9qrHE9w/task00_sub00_f01.jpg",
+              "caption": "A person is drawing a stick figure with the name \"William\" written above it.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "erBn9qrHE9w/task00_sub00_f02.jpg",
+              "caption": "A hand is drawing stick figures with names on them.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene depicts a person preparing to start their day by writing and drawing names on a whiteboard, likely setting out tasks for the day.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A person is writing on a whiteboard with a marker.",
+            "- [frames=[1]] A person is drawing a stick figure with the name \"William\" written above it.",
+            "- [frames=[2]] A hand is drawing stick figures with names on them.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene suggests that the person is preparing a schedule or to-do list for the day, possibly for themselves or others. The stick figures indicate that the tasks are being assigned to individuals, likely family members or workers on a farm.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be within visual range of the whiteboard.",
+            "- The robot should have access to a marker or similar writing tool.",
+            "- The robot should be able to read and understand the names and tasks written on the board.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the names and tasks.",
+            "- The robot should accurately replicate the drawings and writings on the whiteboard.",
+            "- The robot should ensure that all names and tasks are clearly visible and legible.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Read the names and tasks written on the whiteboard.",
+            "2. [type=navigation, frames=[1]] Move closer to the whiteboard to ensure clear visibility.",
+            "3. [type=manipulation, frames=[1]] Pick up a marker from a nearby holder.",
+            "4. [type=manipulation, frames=[2]] Write the name \"William\" next to the stick figure.",
+            "5. [type=manipulation, frames=[2]] Draw additional stick figures and names as needed.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Read the names and tasks written on the whiteboard. It then verifies the key detail directly from the frames (Read the names and tasks written on the whiteboard).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move closer to the whiteboard to ensure clear visibility; Pick up a marker from a nearby holder; Write the name \"William\" next to the stick figure; Draw additional stick figures and names as needed; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 10.240000000000002,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/erBn9qrHE9w/task00/sub00/motion.bvh",
+            "params_path": "results/momask/erBn9qrHE9w/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Dress for the day using sustainable products from the cotton gin.",
+          "start": 51.41,
+          "end": 57.41,
+          "segment_ids": [
+            7
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f00.jpg",
+              "relative_path": "erBn9qrHE9w/task00_sub01_f00.jpg",
+              "caption": "A child is drawing a blue flower on a whiteboard with a marker.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "erBn9qrHE9w/task00_sub01_f01.jpg",
+              "caption": "A person is drawing a stick figure with a blue face and blue pants on a whiteboard.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "erBn9qrHE9w/task00_sub01_f02.jpg",
+              "caption": "A person is drawing a picture of a person wearing a shirt and pants made from cotton.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe the process of dressing for the day using sustainable cotton products, as depicted in the tutorial video.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A child is drawing a blue flower on a whiteboard with a marker, which is irrelevant to the task.",
+            "- [frames=[1]] A person is drawing a stick figure with a blue face and blue pants on a whiteboard, indicating the attire but not the clothing material.",
+            "- [frames=[2]] A person is drawing a picture of a person wearing a shirt and pants made from cotton, showing the type of clothing used.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts the process of preparing for work by drawing pictures of clothing made from cotton. The focus is on understanding the use of sustainable materials in the agrarian setting.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to a whiteboard or similar surface where drawings are being made.",
+            "- The robot needs to recognize the drawings and understand their significance.",
+            "- The robot should know about sustainable cotton products and their use in agrarian settings.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the drawings as representing clothing made from cotton.",
+            "- The robot should understand the context of sustainable farming practices.",
+            "- The robot should be able to explain the significance of using sustainable cotton products in the agrarian setting.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Observe the whiteboard for any drawings related to clothing.",
+            "2. [type=perception, frames=[2]] Confirm the presence of a drawing depicting clothing made from cotton.",
+            "3. [type=navigation, frames=[0,1,2]] Move to the area where the drawings are located.",
+            "4. [type=manipulation, frames=[0,1,2]] Retrieve a sample of sustainable cotton fabric from the storage area.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Observe the whiteboard for any drawings related to clothing. It then verifies the key detail directly from the frames (Confirm the presence of a drawing depicting clothing made from cotton).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move to the area where the drawings are located; Retrieve a sample of sustainable cotton fabric from the storage area; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 6.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/erBn9qrHE9w/task00/sub01/motion.bvh",
+            "params_path": "results/momask/erBn9qrHE9w/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Prepare and eat breakfast with products grown on the farm.",
+          "start": 71.41,
+          "end": 79.41,
+          "segment_ids": [
+            10
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub02_f00.jpg",
+              "relative_path": "erBn9qrHE9w/task00_sub02_f00.jpg",
+              "caption": "A person is cleaning a whiteboard with a cloth.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub02_f01.jpg",
+              "relative_path": "erBn9qrHE9w/task00_sub02_f01.jpg",
+              "caption": "A child is drawing a colorful picture on a whiteboard using a green marker.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub02_f02.jpg",
+              "relative_path": "erBn9qrHE9w/task00_sub02_f02.jpg",
+              "caption": "A child's drawing shows a person climbing stairs with the text \"time to eat!\"",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene depicts the preparation and eating of breakfast, which involves activities such as cleaning, drawing, and eventually moving towards the dining area.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A person is cleaning a whiteboard with a cloth.",
+            "- [frames=[1]] A child is drawing a colorful picture on a whiteboard using a green marker.",
+            "- [frames=[2]] The child’s drawing shows a person climbing stairs with the text \"time to eat!\".",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from cleaning activities to a preparatory drawing, indicating a shift towards mealtime. The drawing suggests that it is time to move to the dining area.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the current location and environment.",
+            "- The robot needs to know the layout of the farm house, particularly the dining area.",
+            "- The robot should have access to information about the family members present.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should verify that the dining area is clean and ready for breakfast.",
+            "- The robot should confirm that all necessary items for breakfast are available.",
+            "- The robot should check that the family members are ready to eat.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Navigate to the whiteboard to observe the cleaning activity.",
+            "2. [type=perception, frames=[0]] Verify that the whiteboard is being cleaned properly.",
+            "3. [type=navigation, frames=[1]] Move to the whiteboard to observe the child’s drawing.",
+            "4. [type=perception, frames=[1]] Confirm that the drawing indicates it is time to eat.",
+            "5. [type=navigation, frames=[2]] Proceed to the stairs leading to the dining area.",
+            "6. [type=navigation, frames=[2]] Ascend the stairs to reach the dining area.",
+            "7. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the whiteboard to observe the cleaning activity. It then verifies the key detail directly from the frames (Verify that the whiteboard is being cleaned properly).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Proceed to the stairs leading to the dining area; Ascend the stairs to reach the dining area; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 8.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/erBn9qrHE9w/task00/sub02/motion.bvh",
+            "params_path": "results/momask/erBn9qrHE9w/task00/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Work on the farm using plows, threshing machines, and seed drills.",
+          "start": 199.72,
+          "end": 215.72,
+          "segment_ids": [
+            30,
+            31,
+            32
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub03_f00.jpg",
+              "relative_path": "erBn9qrHE9w/task00_sub03_f00.jpg",
+              "caption": "A person is drawing a picture of a character on a whiteboard using a marker.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub03_f01.jpg",
+              "relative_path": "erBn9qrHE9w/task00_sub03_f01.jpg",
+              "caption": "A child is drawing on a whiteboard with a marker, showing how to break down soil using a plough.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub03_f02.jpg",
+              "relative_path": "erBn9qrHE9w/task00_sub03_f02.jpg",
+              "caption": "A whiteboard with green and black lines and dots is on a wooden surface.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub03_f03.jpg",
+              "relative_path": "erBn9qrHE9w/task00_sub03_f03.jpg",
+              "caption": "A child's drawing of a seed drill is displayed on a whiteboard.",
+              "frame_index": 3
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The agrarian worker demonstrates the use of plows, seed drills, and threshing machines by illustrating them on a whiteboard.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A person is drawing a picture of a character on a whiteboard using a marker.",
+            "- [frames=[1]] A child is drawing on a whiteboard with a marker, showing how to break down soil using a plough.",
+            "- [frames=[2]] A whiteboard with green and black lines and dots is on a wooden surface.",
+            "- [frames=[3]] A child's drawing of a seed drill is displayed on a whiteboard.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a learning environment where an adult and a child are collaboratively illustrating agricultural tools on a whiteboard. The drawings suggest the process of preparing the land and planting seeds.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be within reach of the whiteboard.",
+            "- The robot should have access to markers or similar writing tools.",
+            "- The robot should be able to communicate with the human participants.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately draw a plow on the whiteboard.",
+            "- The robot should correctly illustrate a seed drill.",
+            "- The robot should demonstrate the use of a threshing machine.",
+            "- The robot should ensure all drawings are clear and legible.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1,2,3]] Inspect/verify the scene before any physical action.",
+            "2. [type=navigation, frames=[0]] Move to the vicinity of the whiteboard.",
+            "3. [type=manipulation, frames=[1]] Pick up a marker from a nearby holder.",
+            "4. [type=manipulation, frames=[2]] Draw a detailed illustration of a plow on the whiteboard.",
+            "5. [type=manipulation, frames=[3]] Draw a detailed illustration of a seed drill on the whiteboard.",
+            "6. [type=navigation, frames=[0,1,2,3]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Inspect/verify the scene before any physical action. It then verifies the key detail directly from the frames (Inspect/verify the scene before any physical action).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move to the vicinity of the whiteboard; Pick up a marker from a nearby holder; Draw a detailed illustration of a plow on the whiteboard; Draw a detailed illustration of a seed drill on the whiteboard; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 16.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/erBn9qrHE9w/task00/sub03/motion.bvh",
+            "params_path": "results/momask/erBn9qrHE9w/task00/sub03/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Explain the benefits of an agrarian lifestyle.",
+      "start": 71.41,
+      "end": 247.42,
+      "subtasks": [
+        {
+          "text": "Work with less labor and more time on activities with family.",
+          "start": 71.41,
+          "end": 104.72,
+          "segment_ids": [
+            10,
+            12,
+            15
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "erBn9qrHE9w/task01_sub00_f01.jpg",
+              "caption": "A child is drawing a colorful picture with a marker on a whiteboard.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "erBn9qrHE9w/task01_sub00_f02.jpg",
+              "caption": "A person is drawing a picture of a carrot, an apple, and a green vegetable on a whiteboard using a marker.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task01_sub00_f03.jpg",
+              "relative_path": "erBn9qrHE9w/task01_sub00_f03.jpg",
+              "caption": "A person is drawing a stick figure on a whiteboard.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task01_sub00_f04.jpg",
+              "relative_path": "erBn9qrHE9w/task01_sub00_f04.jpg",
+              "caption": "A child is drawing a picture of a person with a green marker on a whiteboard.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task01_sub00_f05.jpg",
+              "relative_path": "erBn9qrHE9w/task01_sub00_f05.jpg",
+              "caption": "A person is drawing a stick figure with a green plant and wavy lines on a whiteboard.",
+              "frame_index": 5
+            },
+            {
+              "image_file": "task01_sub00_f06.jpg",
+              "relative_path": "erBn9qrHE9w/task01_sub00_f06.jpg",
+              "caption": "A person is writing on a whiteboard with a black marker.",
+              "frame_index": 6
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will explain how working less physically intensive tasks allows more time for family activities, using drawings on a whiteboard as examples.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A child is drawing a colorful picture with a marker on a whiteboard.",
+            "- [frames=[2]] A person is drawing a picture of a carrot, an apple, and a green vegetable on a whiteboard using a marker.",
+            "- [frames=[3]] A person is drawing a stick figure on a whiteboard.",
+            "- [frames=[4]] A child is drawing a picture of a person with a green marker on a whiteboard.",
+            "- [frames=[5]] A person is drawing a stick figure with a green plant and wavy lines on a whiteboard.",
+            "- [frames=[6]] A person is writing on a whiteboard with a black marker.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts various drawings on a whiteboard, including pictures of vegetables, people, and plants. These drawings likely represent different aspects of an agrarian lifestyle, emphasizing the simplicity and focus on basic needs and family activities.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be within reach of the whiteboard.",
+            "- The whiteboard should be clean and ready for drawing.",
+            "- The robot should have access to markers of different colors.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the drawings and their significance.",
+            "- The robot should ensure the drawings are clear and legible.",
+            "- The robot should provide a concise explanation of the benefits of less labor-intensive work.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Move to the whiteboard area.",
+            "2. [type=perception, frames=[1]] Observe the child's drawing of a colorful picture.",
+            "3. [type=manipulation, frames=[2]] Pick up a marker.",
+            "4. [type=perception, frames=[1,2,3,4,5,6]] Verify/confirm the key observation before reporting.",
+            "5. [type=navigation, frames=[1,2,3,4,5,6]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to the whiteboard area. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move to the whiteboard area; Pick up a marker; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 33.31,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/erBn9qrHE9w/task01/sub00/motion.bvh",
+            "params_path": "results/momask/erBn9qrHE9w/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Enjoy fresh air, reduced risk of disease, and safe living conditions.",
+          "start": 165.72,
+          "end": 171.72,
+          "segment_ids": [
+            25
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f00.jpg",
+              "relative_path": "erBn9qrHE9w/task01_sub01_f00.jpg",
+              "caption": "A person is drawing a face on a whiteboard using a green marker.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "erBn9qrHE9w/task01_sub01_f01.jpg",
+              "caption": "A hand is writing \"Fresh\" on a whiteboard with a marker.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "erBn9qrHE9w/task01_sub01_f02.jpg",
+              "caption": "A person is drawing a comparison between fresh air and pollution on a whiteboard.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will explain the benefits of an agrarian lifestyle by focusing on fresh air, reduced risk of disease, and safe living conditions. This explanation will be done through visual aids on a whiteboard.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A person is drawing a face on a whiteboard using a green marker.",
+            "- [frames=[1]] A hand is writing \"Fresh\" on a whiteboard with a marker.",
+            "- [frames=[2]] A person is drawing a comparison between fresh air and pollution on a whiteboard.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene involves a whiteboard where various elements are being drawn to illustrate the benefits of an agrarian lifestyle. The robot will need to understand the context of these drawings to provide an accurate explanation.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to a whiteboard.",
+            "- The robot should be able to manipulate markers and draw on the whiteboard.",
+            "- The robot should be familiar with the concept of agrarian lifestyles and their benefits.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the drawings on the whiteboard.",
+            "- The robot should accurately describe the benefits of fresh air, reduced risk of disease, and safe living conditions.",
+            "- The robot should ensure the explanation aligns with the visual aids provided.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Move to the whiteboard area.",
+            "2. [type=perception, frames=[0]] Verify the presence of a whiteboard and markers.",
+            "3. [type=navigation, frames=[1]] Approach the whiteboard.",
+            "4. [type=manipulation, frames=[1]] Pick up a marker and write \"Fresh\" on the board.",
+            "5. [type=navigation, frames=[2]] Move to the next part of the whiteboard.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to the whiteboard area. It then verifies the key detail directly from the frames (Verify the presence of a whiteboard and markers).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move to the whiteboard area; Approach the whiteboard; Pick up a marker and write \"Fresh\" on the board; Move to the next part of the whiteboard; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 6.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/erBn9qrHE9w/task01/sub01/motion.bvh",
+            "params_path": "results/momask/erBn9qrHE9w/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Grow food using crop rotation and benefit from technological advancements.",
+          "start": 215.72,
+          "end": 247.42,
+          "segment_ids": [
+            36,
+            33
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub02_f01.jpg",
+              "relative_path": "erBn9qrHE9w/task01_sub02_f01.jpg",
+              "caption": "A person is drawing a diagram on a whiteboard with the words \"seed drill\" and \"technological advancements\" written on it.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub02_f02.jpg",
+              "relative_path": "erBn9qrHE9w/task01_sub02_f02.jpg",
+              "caption": "A person is using a paper clip to hold a piece of paper on a whiteboard with a colorful drawing and text.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task01_sub02_f03.jpg",
+              "relative_path": "erBn9qrHE9w/task01_sub02_f03.jpg",
+              "caption": "A person is writing on a whiteboard with a marker.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task01_sub02_f04.jpg",
+              "relative_path": "erBn9qrHE9w/task01_sub02_f04.jpg",
+              "caption": "A person is drawing a diagram on a whiteboard with a marker.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task01_sub02_f05.jpg",
+              "relative_path": "erBn9qrHE9w/task01_sub02_f05.jpg",
+              "caption": "A person is writing on a whiteboard with a marker, showing a diagram of crops and the phrase \"On the Same Amor.\"",
+              "frame_index": 5
+            },
+            {
+              "image_file": "task01_sub02_f06.jpg",
+              "relative_path": "erBn9qrHE9w/task01_sub02_f06.jpg",
+              "caption": "A person is writing on a whiteboard with a marker.",
+              "frame_index": 6
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will explain how crop rotation and technological advancements can benefit an agrarian lifestyle by demonstrating key concepts on a whiteboard.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A person is drawing a diagram on a whiteboard with the words \"seed drill\" and \"technological advancements\" written on it.",
+            "- [frames=[2]] A person is using a paper clip to hold a piece of paper on a whiteboard with a colorful drawing and text.",
+            "- [frames=[3-5]] A person is writing on a whiteboard with a marker, showing diagrams and text related to crop rotation and technological advancements.",
+            "- [frames=[6]] A person is writing on a whiteboard with a marker, completing the diagrams and text.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene involves a person explaining the benefits of crop rotation and technological advancements in agriculture through detailed diagrams and text on a whiteboard. The diagrams likely illustrate how crop rotation improves soil health and reduces pest problems, while the text explains the role of technological advancements like seed drills in increasing efficiency and productivity.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to a whiteboard and markers.",
+            "- The robot should be able to navigate to the whiteboard area.",
+            "- The robot should be capable of understanding and translating the information provided by the person into a clear explanation.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately demonstrate the concept of crop rotation.",
+            "- The robot should correctly explain the benefits of crop rotation.",
+            "- The robot should effectively showcase the impact of technological advancements in agriculture.",
+            "- The robot should ensure all diagrams and text are legible and accurate.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate to the whiteboard area.",
+            "2. [type=perception, frames=[1]] Verify the presence of a whiteboard and markers.",
+            "3. [type=perception, frames=[1,2,3,4,5,6]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[1,2,3,4,5,6]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[1,2,3,4,5,6]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the whiteboard area. It then verifies the key detail directly from the frames (Verify the presence of a whiteboard and markers).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the whiteboard area; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 31.69999999999999,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/erBn9qrHE9w/task01/sub02/motion.bvh",
+            "params_path": "results/momask/erBn9qrHE9w/task01/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "video_index": "0oLDxPD8Lmc",
+  "title": "2008 Sandewari Panic Attack Spread",
+  "url": "https://www.youtube.com/watch?v=0oLDxPD8Lmc",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "The transcript describes movements and locations of individuals.",
+  "tasks": [
+    {
+      "task": "Describe the movements and locations of individuals mentioned in the text.",
+      "start": 9.87,
+      "end": 23.49,
+      "subtasks": [
+        {
+          "text": "Observe Sandvaree Pahalog Kon Avang in 2008.",
+          "start": 9.87,
+          "end": 14.19,
+          "segment_ids": [
+            0
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "0oLDxPD8Lmc/task00_sub00_f00.jpg",
+              "caption": "A man is holding a plant, and there is text describing his adoption of sustainable farming practices.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "0oLDxPD8Lmc/task00_sub00_f01.jpg",
+              "caption": "The video frame shows a man wearing a turban and a light blue shirt, with text about a project starting in 2008.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "0oLDxPD8Lmc/task00_sub00_f02.jpg",
+              "caption": "Abdul Shakoor, from Nuh, Haryana, shares his experience with the Krishi Jyoti program in his village.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene focuses on a man wearing a turban and a light blue shirt, likely Abdul Shakoor, who is sharing his experience with the Krishi Jyoti program in 2008.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A man is holding a plant, indicating he might be involved in sustainable farming practices.",
+            "- [frames=[1]] A man wearing a turban and a light blue shirt is seen, possibly Abdul Shakoor, discussing a project starting in 2008.",
+            "- [frames=[2]] Abdul Shakoor, from Nuh, Haryana, is sharing his experience with the Krishi Jyoti program in his village.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The video captures a man, likely Abdul Shakoor, explaining his involvement in the Krishi Jyoti program, which started in 2008. He is from Nuh, Haryana, and is sharing his personal experience with the program in his village.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be able to identify the man wearing a turban and a light blue shirt.",
+            "- The robot needs to recognize the text mentioning the Krishi Jyoti program and its start year.",
+            "- The robot should be aware of Abdul Shakoor's location and context within the village.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the man as Abdul Shakoor.",
+            "- The robot should confirm the mention of the Krishi Jyoti program and its start year.",
+            "- The robot should verify that Abdul Shakoor is from Nuh, Haryana.",
+            "- The robot should accurately capture the details of Abdul Shakoor’s experience with the program.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Identify the man holding a plant and confirm he is involved in sustainable farming practices.",
+            "2. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "3. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the man holding a plant and confirm he is involved in sustainable farming practices. It then verifies the key detail directly from the frames (Identify the man holding a plant and confirm he is involved in sustainable farming practices).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 4.32,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/0oLDxPD8Lmc/task00/sub00/motion.bvh",
+            "params_path": "results/momask/0oLDxPD8Lmc/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Notice Diir roaming in a far distance area.",
+          "start": 14.75,
+          "end": 17.13,
+          "segment_ids": [
+            1
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f00.jpg",
+              "relative_path": "0oLDxPD8Lmc/task00_sub01_f00.jpg",
+              "caption": "Abdul Shakoor from Nuh, Haryana, shares his experience with the Krishi Jyoti program in his village.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "0oLDxPD8Lmc/task00_sub01_f01.jpg",
+              "caption": "Abdul Shakoor from Nuh, Haryana, shares his experience with the Krishi Jyoti program in his village.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "0oLDxPD8Lmc/task00_sub01_f02.jpg",
+              "caption": "Abdul Shakoor from Nuh, Haryana, shares his experience with the Krishi Jyoti program in his village.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should identify Diir, who is roaming in a distant area, during the specified time range.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] The scene shows Abdul Shakoor sharing his experience with the Krishi Jyoti program.",
+            "- [frames=[2]] The scene continues to show Abdul Shakoor sharing his experience with the Krishi Jyoti program.",
+            "- [frames=[0,1,2]] No individual named Diir is visible in any of the frames.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The frames consistently show Abdul Shakoor speaking about the Krishi Jyoti program, with no mention or appearance of Diir.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot must be aware of the task to identify Diir.",
+            "- The robot must have a database or list of individuals to search for Diir.",
+            "- The robot must have the ability to recognize faces or names if provided.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot must correctly identify Diir as the individual roaming in a distant area.",
+            "- The robot must confirm the location of Diir accurately.",
+            "- The robot must report the presence and location of Diir within the given time range.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1,2]] Scan the frames to locate Diir.",
+            "2. [type=perception, frames=[0,1,2]] Cross-check the identified individual against the list of known individuals.",
+            "3. [type=navigation, frames=[0,1,2]] Move closer to the area where Diir is reported to be roaming.",
+            "4. [type=perception, frames=[0,1,2]] Verify the identity of Diir using facial recognition.",
+            "5. [type=communication, frames=[0,1,2]] Report the location and status of Diir to the user.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Scan the frames to locate Diir. It then verifies the key detail directly from the frames (Cross-check the identified individual against the list of known individuals). After verification, it communicates the result clearly (Report the location and status of Diir to the user).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move closer to the area where Diir is reported to be roaming; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/0oLDxPD8Lmc/task00/sub01/motion.bvh",
+            "params_path": "results/momask/0oLDxPD8Lmc/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Follow their activities in bathe and bind.",
+          "start": 18.13,
+          "end": 23.49,
+          "segment_ids": [
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub02_f00.jpg",
+              "relative_path": "0oLDxPD8Lmc/task00_sub02_f00.jpg",
+              "caption": "An elderly man wearing a turban and light blue clothing is seated, with a green text overlay identifying him as Abdul Shafi from Nuh, Haryana.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub02_f01.jpg",
+              "relative_path": "0oLDxPD8Lmc/task00_sub02_f01.jpg",
+              "caption": "A man in a white turban is working in a field, with the text \"in agriculture and prosperity\" overlaid.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub02_f02.jpg",
+              "relative_path": "0oLDxPD8Lmc/task00_sub02_f02.jpg",
+              "caption": "An elderly man in a turban and light blue clothing is seated, with the text \"in agriculture and prosperity\" overlaid.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene shows two elderly men in turbans and light blue clothing, both identified as Abdul Shafi from Nuh, Haryana. The robot needs to track their movements and activities during the specified time range.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] An elderly man wearing a turban and light blue clothing is seated, with a green text overlay identifying him as Abdul Shafi from Nuh, Haryana.",
+            "- [frames=[1]] A man in a white turban is working in a field, with the text \"in agriculture and prosperity\" overlaid.",
+            "- [frames=[2]] An elderly man in a turban and light blue clothing is seated, with the text \"in agriculture and prosperity\" overlaid.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "Both men are identified as Abdul Shafi from Nuh, Haryana. One is seated and the other is working in a field. The activities described are related to agriculture and prosperity.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have visual recognition capabilities to identify the men based on their descriptions.",
+            "- The robot should be able to navigate within the scene to locate the seated man.",
+            "- The robot should be able to distinguish between the seated and working men.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify and track both men.",
+            "- The robot should confirm the seated man's identity.",
+            "- The robot should verify the working man's activity in the field.",
+            "- The robot should document the seated man's location and activity.",
+            "- The robot should ensure the working man's activity aligns with the description of agriculture and prosperity.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Navigate to the seated man.",
+            "2. [type=perception, frames=[0]] Confirm the seated man's identity by reading the text overlay.",
+            "3. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the seated man. It then verifies the key detail directly from the frames (Confirm the seated man's identity by reading the text overlay).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the seated man; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 5.359999999999999,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/0oLDxPD8Lmc/task00/sub02/motion.bvh",
+            "params_path": "results/momask/0oLDxPD8Lmc/task00/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

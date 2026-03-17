@@ -1,0 +1,895 @@
+{
+  "video_index": "fAIdBikhRzU",
+  "title": "Cheap Tomato Staking Methods Explained",
+  "url": "https://www.youtube.com/watch?v=fAIdBikhRzU",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "This video provides multiple affordable methods for trellising tomatoes, which is a meaningful agricultural practice.",
+  "tasks": [
+    {
+      "task": "Describe the different trellising methods shown in the video.",
+      "start": 2.99,
+      "end": 144.28,
+      "subtasks": [
+        {
+          "text": "Observe the use of classic tomato cages which are inexpensive and easy to assemble.",
+          "start": 2.99,
+          "end": 17.98,
+          "segment_ids": [
+            0,
+            1
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "fAIdBikhRzU/task00_sub00_f00.jpg",
+              "caption": "Two green tomatoes hang from a plant in a garden.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "fAIdBikhRzU/task00_sub00_f01.jpg",
+              "caption": "A tomato plant with yellow flowers and green leaves in a garden setting.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "fAIdBikhRzU/task00_sub00_f02.jpg",
+              "caption": "A woman is kneeling in a garden, tending to plants and flowers.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot observes a tomato plant being tended to in a garden, focusing on the use of classic tomato cages.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] Two green tomatoes hang from a plant in a garden.",
+            "- [frames=[1]] A tomato plant with yellow flowers and green leaves in a garden setting.",
+            "- [frames=[2]] A woman is kneeling in a garden, tending to plants and flowers.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a woman tending to a tomato plant in a garden. The plant is supported by a classic tomato cage, which is visible throughout the frames.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to observe the garden setting.",
+            "- The robot should have knowledge of tomato plants and their support structures.",
+            "- The robot should be able to navigate within the garden area.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should identify the presence of a classic tomato cage.",
+            "- The robot should recognize the tomatoes hanging from the plant.",
+            "- The robot should confirm the ease of assembly and low cost of the tomato cage.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Capture an image of the tomato plant to identify the support structure.",
+            "2. [type=perception, frames=[2]] Observe the woman tending to the plant to ensure she is using the classic tomato cage.",
+            "3. [type=perception, frames=[0,1,2]] Verify the presence of the tomato cage by checking its structure and positioning.",
+            "4. [type=perception, frames=[0]] Measure the height and diameter of the tomato cage to assess its size.",
+            "5. [type=perception, frames=[0,1,2]] Confirm the tomatoes are securely held by the cage.",
+            "6. [type=communication, frames=[0,1,2]] Report the findings to.",
+            "7. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture an image of the tomato plant to identify the support structure. It then verifies the key detail directly from the frames (Verify the presence of the tomato cage by checking its structure and positioning). After verification, it communicates the result clearly (Report the findings to).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 14.99,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/fAIdBikhRzU/task00/sub00/motion.bvh",
+            "params_path": "results/momask/fAIdBikhRzU/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Examine the process of installing tomato cages by inserting them into the soil.",
+          "start": 26.28,
+          "end": 37.92,
+          "segment_ids": [
+            3,
+            4
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f00.jpg",
+              "relative_path": "fAIdBikhRzU/task00_sub01_f00.jpg",
+              "caption": "A woman in a brown tank top is sitting at a white table in a lush, green outdoor setting.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "fAIdBikhRzU/task00_sub01_f01.jpg",
+              "caption": "A woman in a brown tank top sits at a white table in a lush outdoor setting.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "fAIdBikhRzU/task00_sub01_f02.jpg",
+              "caption": "A woman with long hair wearing a brown tank top and a necklace is sitting at a table outdoors.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe a woman demonstrating how to install tomato cages by inserting them into the soil. This involves setting up the cage and ensuring it is securely placed.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A woman in a brown tank top is sitting at a white table in a lush, green outdoor setting.",
+            "- [frames=[0,1]] The woman is preparing to demonstrate the installation of tomato cages.",
+            "- [frames=[2]] The woman is now standing and about to begin the process of installing the tomato cage.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts an outdoor setting where a woman is about to demonstrate the process of installing tomato cages. The presence of a white table suggests she might have tools or materials nearby.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a tool for inserting objects into soil.",
+            "- The robot needs to be able to identify and manipulate the tomato cage.",
+            "- The robot should have knowledge of soil properties and how to insert objects into it.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The tomato cage should be properly inserted into the soil.",
+            "- The cage should be stable and secure.",
+            "- The robot should verify the stability of the cage before concluding the task.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Move to the location where the woman is seated.",
+            "2. [type=perception, frames=[0,1]] Identify the tomato cage and the soil around the table.",
+            "3. [type=navigation, frames=[2]] Approach the woman as she stands to begin the demonstration.",
+            "4. [type=manipulation, frames=[2]] Grasp the tomato cage using the appropriate tool.",
+            "5. [type=navigation, frames=[2]] Move to a suitable spot in the soil near the table.",
+            "6. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "7. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to the location where the woman is seated. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move to the location where the woman is seated; Grasp the tomato cage using the appropriate tool; Move to a suitable spot in the soil near the table; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 11.64,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/fAIdBikhRzU/task00/sub01/motion.bvh",
+            "params_path": "results/momask/fAIdBikhRzU/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Note the advantages of using bamboo stakes and string for trellising.",
+          "start": 102.6,
+          "end": 144.28,
+          "segment_ids": [
+            18,
+            20,
+            25
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub02_f00.jpg",
+              "relative_path": "fAIdBikhRzU/task00_sub02_f00.jpg",
+              "caption": "A woman sits at a table outdoors, surrounded by greenery.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub02_f01.jpg",
+              "relative_path": "fAIdBikhRzU/task00_sub02_f01.jpg",
+              "caption": "A woman with long hair and a necklace is standing outdoors with green foliage in the background.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub02_f02.jpg",
+              "relative_path": "fAIdBikhRzU/task00_sub02_f02.jpg",
+              "caption": "A woman with long hair and a necklace is standing outdoors with green foliage in the background.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub02_f03.jpg",
+              "relative_path": "fAIdBikhRzU/task00_sub02_f03.jpg",
+              "caption": "The video frame shows a garden with various gardening tools and materials.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task00_sub02_f04.jpg",
+              "relative_path": "fAIdBikhRzU/task00_sub02_f04.jpg",
+              "caption": "A yellow hose is lying on a metal fence with a plastic bag and some green objects nearby.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task00_sub02_f05.jpg",
+              "relative_path": "fAIdBikhRzU/task00_sub02_f05.jpg",
+              "caption": "A wooden trellis with green and brown poles is surrounded by a garden.",
+              "frame_index": 5
+            },
+            {
+              "image_file": "task00_sub02_f06.jpg",
+              "relative_path": "fAIdBikhRzU/task00_sub02_f06.jpg",
+              "caption": "The video frame shows a roll of twine and a pair of pruners on a bed of wood chips.",
+              "frame_index": 6
+            },
+            {
+              "image_file": "task00_sub02_f07.jpg",
+              "relative_path": "fAIdBikhRzU/task00_sub02_f07.jpg",
+              "caption": "A roll of twine, a pair of shears, and a plastic bag are on the ground with wood chips.",
+              "frame_index": 7
+            },
+            {
+              "image_file": "task00_sub02_f08.jpg",
+              "relative_path": "fAIdBikhRzU/task00_sub02_f08.jpg",
+              "caption": "The video frame shows a Florida Weave structure with plants growing through it.",
+              "frame_index": 8
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should observe and note the advantages of using bamboo stakes and string for tomato staking methods, as demonstrated in the video.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A woman is seated outdoors, setting up for the demonstration.",
+            "- [frames=[3]] Various gardening tools and materials are visible in the garden.",
+            "- [frames=[5]] A wooden trellis with green and brown poles is present in the garden.",
+            "- [frames=[6,7]] A roll of twine and a pair of pruners are seen on a bed of wood chips.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a garden setting where a woman is explaining different tomato staking methods. Bamboo stakes and string are part of the setup, indicating they will be discussed as an effective method.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture the visual details.",
+            "- It should have knowledge of tomato staking methods to understand the context.",
+            "- The robot needs to be within the outdoor garden area to observe the setup.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the advantages of using bamboo stakes and string.",
+            "- It should be able to describe these advantages clearly.",
+            "- The robot should ensure it captures all relevant information during the demonstration.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Capture the initial setup with the woman seated.",
+            "2. [type=perception, frames=[3]] Identify and document the various gardening tools and materials.",
+            "3. [type=perception, frames=[5]] Observe the wooden trellis and note its presence.",
+            "4. [type=perception, frames=[6,7]] Identify the roll of twine and the pruners on the bed of wood chips.",
+            "5. [type=perception, frames=[0,1,2,3,4,5,6,7,8]] Verify/confirm the key observation before reporting.",
+            "6. [type=navigation, frames=[0,1,2,3,4,5,6,7,8]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture the initial setup with the woman seated. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 41.68000000000001,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/fAIdBikhRzU/task00/sub02/motion.bvh",
+            "params_path": "results/momask/fAIdBikhRzU/task00/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Explain the process of creating a Florida weave trellis.",
+      "start": 261.04,
+      "end": 698.82,
+      "subtasks": [
+        {
+          "text": "See the placement of T-posts at the beginning of the Florida weave method.",
+          "start": 261.04,
+          "end": 275.24,
+          "segment_ids": [
+            48,
+            49
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "fAIdBikhRzU/task01_sub00_f00.jpg",
+              "caption": "A woman is working in a garden, bending over to tend to plants supported by a metal trellis.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "fAIdBikhRzU/task01_sub00_f01.jpg",
+              "caption": "A woman is tending to plants in a garden with a metal trellis.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "fAIdBikhRzU/task01_sub00_f02.jpg",
+              "caption": "A woman is bending over a garden bed with a metal trellis, inspecting the plants.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe the placement of T-posts at the beginning of the Florida weave trellis method, ensuring proper setup before proceeding with the construction.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] The woman is working in a garden, bending over to tend to plants supported by a metal trellis.",
+            "- [frames=[0,1]] A metal trellis is visible in the background, supporting tomato plants.",
+            "- [frames=[2]] The woman is bending over a garden bed with a metal trellis, inspecting the plants.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a woman working in a garden, focusing on the placement of T-posts for a Florida weave trellis. The trellis supports tomato plants, indicating the need for a sturdy structure to hold them up.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture the scene.",
+            "- The robot should have knowledge of the Florida weave trellis method.",
+            "- The robot should be able to navigate to the garden area.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Correct identification of T-post placement.",
+            "- Proper understanding of the trellis structure.",
+            "- Accurate measurement of T-post spacing.",
+            "- Verification of T-post stability.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the garden area where the woman is working.",
+            "2. [type=perception, frames=[0,1]] Use the camera to identify the placement of T-posts.",
+            "3. [type=perception, frames=[2]] Confirm the presence of the metal trellis and tomato plants.",
+            "4. [type=perception, frames=[0,1]] Measure the distance between the T-posts using a laser rangefinder.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the garden area where the woman is working. It then verifies the key detail directly from the frames (Confirm the presence of the metal trellis and tomato plants).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the garden area where the woman is working; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 14.199999999999989,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/fAIdBikhRzU/task01/sub00/motion.bvh",
+            "params_path": "results/momask/fAIdBikhRzU/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Watch the process of stringing the tomatoes using the Florida weave technique.",
+          "start": 578.27,
+          "end": 635.0,
+          "segment_ids": [
+            101,
+            103,
+            107
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f00.jpg",
+              "relative_path": "fAIdBikhRzU/task01_sub01_f00.jpg",
+              "caption": "A woman in a garden points to a raised bed.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "fAIdBikhRzU/task01_sub01_f01.jpg",
+              "caption": "A woman in a garden with a basket in the background.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "fAIdBikhRzU/task01_sub01_f02.jpg",
+              "caption": "A woman is tending to plants in a garden surrounded by trees.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task01_sub01_f03.jpg",
+              "relative_path": "fAIdBikhRzU/task01_sub01_f03.jpg",
+              "caption": "A person is tending to a garden with tomato plants and marigolds.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task01_sub01_f04.jpg",
+              "relative_path": "fAIdBikhRzU/task01_sub01_f04.jpg",
+              "caption": "A woman is tending to plants in a garden.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task01_sub01_f05.jpg",
+              "relative_path": "fAIdBikhRzU/task01_sub01_f05.jpg",
+              "caption": "A tomato plant with green leaves and stems growing in a garden bed.",
+              "frame_index": 5
+            },
+            {
+              "image_file": "task01_sub01_f06.jpg",
+              "relative_path": "fAIdBikhRzU/task01_sub01_f06.jpg",
+              "caption": "A garden with tomato plants growing in rows, surrounded by mulch and wooden frames.",
+              "frame_index": 6
+            },
+            {
+              "image_file": "task01_sub01_f07.jpg",
+              "relative_path": "fAIdBikhRzU/task01_sub01_f07.jpg",
+              "caption": "A tomato plant with green leaves and a yellow flower in a garden bed.",
+              "frame_index": 7
+            },
+            {
+              "image_file": "task01_sub01_f08.jpg",
+              "relative_path": "fAIdBikhRzU/task01_sub01_f08.jpg",
+              "caption": "A hand is holding a piece of string tied around a plant stem.",
+              "frame_index": 8
+            },
+            {
+              "image_file": "task01_sub01_f09.jpg",
+              "relative_path": "fAIdBikhRzU/task01_sub01_f09.jpg",
+              "caption": "A hand is holding a piece of string attached to a plant, possibly for support or training.",
+              "frame_index": 9
+            },
+            {
+              "image_file": "task01_sub01_f10.jpg",
+              "relative_path": "fAIdBikhRzU/task01_sub01_f10.jpg",
+              "caption": "A person is tying a rope around a tomato plant.",
+              "frame_index": 10
+            },
+            {
+              "image_file": "task01_sub01_f11.jpg",
+              "relative_path": "fAIdBikhRzU/task01_sub01_f11.jpg",
+              "caption": "A hand is holding a piece of rope tied to a plant.",
+              "frame_index": 11
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe the process of stringing tomatoes using the Florida weave technique, focusing on the setup and initial steps of the trellis system.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A woman in a garden points to a raised bed, indicating the location where the Florida weave trellis will be set up.",
+            "- [frames=[2,3]] A woman tends to plants in a garden, likely preparing the area for the trellis.",
+            "- [frames=[4,5]] A woman continues tending to plants, possibly setting up stakes or other materials needed for the trellis.",
+            "- [frames=[6,7]] A garden with tomato plants growing in rows, surrounded by mulch and wooden frames, provides context for the setup.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a garden setting with tomato plants and other vegetation. The woman appears to be setting up a trellis system, specifically a Florida weave trellis, which involves stringing lines between stakes to support the tomato plants.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture the setup process.",
+            "- The robot needs to be within the garden area to observe the woman's actions.",
+            "- The robot should have the ability to navigate through the garden without obstacles.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the setup of the trellis.",
+            "- The robot should verify the presence of necessary materials such as stakes and string.",
+            "- The robot should confirm the correct placement of the first stake and string.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the raised bed pointed out by the woman.",
+            "2. [type=perception, frames=[0,1]] Use the camera to confirm the location of the raised bed and the woman's actions.",
+            "3. [type=perception, frames=[0,1,2,3,4,5,6,7,8,9,10,11]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[0,1,2,3,4,5,6,7,8,9,10,11]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2,3,4,5,6,7,8,9,10,11]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the raised bed pointed out by the woman. It then verifies the key detail directly from the frames (Use the camera to confirm the location of the raised bed and the woman's actions).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the raised bed pointed out by the woman; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 56.73000000000002,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/fAIdBikhRzU/task01/sub01/motion.bvh",
+            "params_path": "results/momask/fAIdBikhRzU/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Observe the adjustment of string placement as the tomato plants grow taller.",
+          "start": 635.04,
+          "end": 675.1,
+          "segment_ids": [
+            108,
+            113
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub02_f00.jpg",
+              "relative_path": "fAIdBikhRzU/task01_sub02_f00.jpg",
+              "caption": "A hand is holding a piece of string tied to a plant.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub02_f01.jpg",
+              "relative_path": "fAIdBikhRzU/task01_sub02_f01.jpg",
+              "caption": "A close-up view of a garden with a wooden planter and green plants.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub02_f02.jpg",
+              "relative_path": "fAIdBikhRzU/task01_sub02_f02.jpg",
+              "caption": "A hand is holding a tomato plant with a rope tied around it.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task01_sub02_f03.jpg",
+              "relative_path": "fAIdBikhRzU/task01_sub02_f03.jpg",
+              "caption": "A tomato plant with a wooden planter in the background.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task01_sub02_f04.jpg",
+              "relative_path": "fAIdBikhRzU/task01_sub02_f04.jpg",
+              "caption": "A hand is holding a tomato plant with a rope tied around it.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task01_sub02_f05.jpg",
+              "relative_path": "fAIdBikhRzU/task01_sub02_f05.jpg",
+              "caption": "A hand is holding a tomato plant with a rope tied around it.",
+              "frame_index": 5
+            },
+            {
+              "image_file": "task01_sub02_f06.jpg",
+              "relative_path": "fAIdBikhRzU/task01_sub02_f06.jpg",
+              "caption": "A garden with tomato plants growing in a wooden frame.",
+              "frame_index": 6
+            },
+            {
+              "image_file": "task01_sub02_f07.jpg",
+              "relative_path": "fAIdBikhRzU/task01_sub02_f07.jpg",
+              "caption": "A woman is standing in a garden with tomato plants.",
+              "frame_index": 7
+            },
+            {
+              "image_file": "task01_sub02_f08.jpg",
+              "relative_path": "fAIdBikhRzU/task01_sub02_f08.jpg",
+              "caption": "A woman is standing in a garden with plants and flowers.",
+              "frame_index": 8
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe the adjustment of string placement on tomato plants as they grow taller, ensuring the Florida weave trellis remains effective.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A hand is holding a piece of string tied to a plant.",
+            "- [frames=[1]] A close-up view of a garden with a wooden planter and green plants.",
+            "- [frames=[2-5]] A hand is holding a tomato plant with a rope tied around it.",
+            "- [frames=[6]] A garden with tomato plants growing in a wooden frame.",
+            "- [frames=[7]] A woman is standing in a garden with tomato plants.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a garden where tomato plants are growing within a wooden planter. The plants are supported by a trellis system, likely a Florida weave, which involves strings attached to stakes and woven between the plants.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to the garden area.",
+            "- The robot should be able to identify tomato plants and strings.",
+            "- The robot should be equipped with tools to adjust string placement if necessary.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should confirm that the string placement is adjusted appropriately as the plants grow.",
+            "- The robot should verify that the trellis system remains intact and functional.",
+            "- The robot should ensure that the plants are adequately supported without being damaged.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate to the garden area.",
+            "2. [type=perception, frames=[1]] Identify the tomato plants and the trellis system.",
+            "3. [type=perception, frames=[0,1,2,3,4,5,6,7,8]] Verify/confirm the key observation before reporting.",
+            "4. [type=perception, frames=[0,1,2,3,4,5,6,7,8]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2,3,4,5,6,7,8]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the garden area. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the garden area; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 40.06000000000006,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/fAIdBikhRzU/task01/sub02/motion.bvh",
+            "params_path": "results/momask/fAIdBikhRzU/task01/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Note the importance of proper string placement for support.",
+          "start": 646.16,
+          "end": 670.42,
+          "segment_ids": [
+            110,
+            112
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub03_f00.jpg",
+              "relative_path": "fAIdBikhRzU/task01_sub03_f00.jpg",
+              "caption": "A hand is holding a tomato plant with a rope tied around it.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub03_f01.jpg",
+              "relative_path": "fAIdBikhRzU/task01_sub03_f01.jpg",
+              "caption": "A tomato plant with a wooden trellis is growing in a garden.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub03_f02.jpg",
+              "relative_path": "fAIdBikhRzU/task01_sub03_f02.jpg",
+              "caption": "A person's hands are seen through the leaves of a plant in a garden.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task01_sub03_f03.jpg",
+              "relative_path": "fAIdBikhRzU/task01_sub03_f03.jpg",
+              "caption": "A garden with tomato plants growing in a wooden raised bed.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task01_sub03_f04.jpg",
+              "relative_path": "fAIdBikhRzU/task01_sub03_f04.jpg",
+              "caption": "A woman stands in a garden with tomato plants.",
+              "frame_index": 4
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should observe the proper placement of strings on a tomato plant within a Florida weave trellis setup, ensuring the plant receives adequate support.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The robot sees a hand holding a tomato plant with a rope tied around it.",
+            "- [frames=[1]] A tomato plant with a wooden trellis is growing in a garden.",
+            "- [frames=[2]] Hands are seen through the leaves of a plant in a garden, indicating the process of tying strings.",
+            "- [frames=[3]] A garden with tomato plants growing in a wooden raised bed.",
+            "- [frames=[4]] A woman stands in a garden with tomato plants, providing context for the environment.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a garden setting where tomato plants are being supported using a Florida weave trellis. The focus is on the correct placement of strings to ensure the plants are adequately supported.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the structure of a Florida weave trellis.",
+            "- The robot should have the necessary tools to manipulate strings and tie them securely.",
+            "- The robot should know the location of the tomato plants in the garden.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Proper placement of strings on the tomato plant.",
+            "- Secure attachment of strings to the trellis.",
+            "- Verification that the plant is well-supported without damage.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Scan the area to locate the tomato plant and the existing trellis structure.",
+            "2. [type=navigation, frames=[2]] Move to the position where the hands are seen tying the strings.",
+            "3. [type=manipulation, frames=[2]] Take hold of the string and guide it around the tomato plant, ensuring it is placed correctly.",
+            "4. [type=perception, frames=[0,1,2,3,4]] Verify/confirm the key observation before reporting.",
+            "5. [type=navigation, frames=[0,1,2,3,4]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Scan the area to locate the tomato plant and the existing trellis structure. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move to the position where the hands are seen tying the strings; Take hold of the string and guide it around the tomato plant, ensuring it is placed correctly; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 24.25999999999999,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/fAIdBikhRzU/task01/sub03/motion.bvh",
+            "params_path": "results/momask/fAIdBikhRzU/task01/sub03/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Inspect the removal of unnecessary lateral branches in the Florida weave.",
+          "start": 675.1,
+          "end": 682.78,
+          "segment_ids": [
+            114,
+            115
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub04_f01.jpg",
+              "relative_path": "fAIdBikhRzU/task01_sub04_f01.jpg",
+              "caption": "A woman stands in a garden with plants and flowers.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub04_f02.jpg",
+              "relative_path": "fAIdBikhRzU/task01_sub04_f02.jpg",
+              "caption": "A woman in a garden with plants and flowers.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe the removal of unnecessary lateral branches in a Florida weave trellis setup, ensuring the structure remains clean and efficient.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] The woman is standing in a garden with various plants and flowers around her.",
+            "- [frames=[2]] The woman continues to work in the garden, likely preparing to remove lateral branches.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a woman in a garden setting, focusing on the process of pruning a trellis. The woman is likely working on a Florida weave trellis, which involves removing unnecessary branches to maintain the structure's integrity.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to visually inspect the garden.",
+            "- The robot needs to be within range to observe the woman’s actions.",
+            "- The robot should have knowledge about the Florida weave trellis structure.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The removal of all unnecessary lateral branches.",
+            "- The trellis should appear clean and organized.",
+            "- The remaining branches should be evenly spaced and aligned.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Uses its camera to identify the woman and the trellis.",
+            "2. [type=perception, frames=[2]] Confirm the woman is now ready to remove lateral branches.",
+            "3. [type=navigation, frames=[1,2]] Moves closer to the woman to get a better view of the trellis.",
+            "4. [type=manipulation, frames=[1,2]] Assists the woman by holding a pruning tool.",
+            "5. [type=manipulation, frames=[1,2]] Helps the woman remove the first unnecessary branch.",
+            "6. [type=perception, frames=[1,2]] Verifies the branch has been removed correctly.",
+            "7. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Uses its camera to identify the woman and the trellis. It then verifies the key detail directly from the frames (Confirm the woman is now ready to remove lateral branches).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Moves closer to the woman to get a better view of the trellis; Assists the woman by holding a pruning tool; Helps the woman remove the first unnecessary branch; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 7.67999999999995,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/fAIdBikhRzU/task01/sub04/motion.bvh",
+            "params_path": "results/momask/fAIdBikhRzU/task01/sub04/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Look at the final appearance of staked tomatoes using the Florida weave method.",
+          "start": 687.62,
+          "end": 698.82,
+          "segment_ids": [
+            117,
+            119
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub05_f00.jpg",
+              "relative_path": "fAIdBikhRzU/task01_sub05_f00.jpg",
+              "caption": "A woman in a garden with various plants and flowers.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub05_f01.jpg",
+              "relative_path": "fAIdBikhRzU/task01_sub05_f01.jpg",
+              "caption": "A woman stands in a garden, looking at the camera.",
+              "frame_index": 1
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe the final appearance of staked tomatoes using the Florida weave method, ensuring the structure is properly set up and maintained.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The woman is in a garden with various plants and flowers, indicating the setting.",
+            "- [frames=[1]] The woman stands in the garden, looking at the camera, suggesting she is about to describe the setup.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a garden where tomatoes are being staked using the Florida weave method. The woman is likely to provide a detailed explanation of the final appearance of the staked tomatoes.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture the scene.",
+            "- The robot needs to be within the garden area to observe the setup.",
+            "- The robot should have the ability to communicate with the woman for any necessary clarifications.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should verify that the tomatoes are properly staked.",
+            "- The robot should confirm that the Florida weave structure is intact and secure.",
+            "- The robot should check that the stakes are evenly spaced and aligned correctly.",
+            "- The robot should measure the height and stability of the stakes.",
+            "- The robot should cross-check the overall appearance of the staked tomatoes against the expected outcome.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Move to the location where the woman is standing.",
+            "2. [type=perception, frames=[0]] Capture an image of the garden to assess the current state of the staked tomatoes.",
+            "3. [type=manipulation, frames=[1]] Adjust the camera angle to get a clear view of the staked tomatoes.",
+            "4. [type=perception, frames=[1]] Verify the presence of the Florida weave structure by checking the alignment and spacing of the stakes.",
+            "5. [type=navigation, frames=[0,1]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to the location where the woman is standing. It then verifies the key detail directly from the frames (Verify the presence of the Florida weave structure by checking the alignment and spacing of the stakes).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move to the location where the woman is standing; Adjust the camera angle to get a clear view of the staked tomatoes; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 11.200000000000045,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/fAIdBikhRzU/task01/sub05/motion.bvh",
+            "params_path": "results/momask/fAIdBikhRzU/task01/sub05/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

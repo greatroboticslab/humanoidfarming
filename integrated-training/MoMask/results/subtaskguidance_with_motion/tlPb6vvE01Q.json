@@ -1,0 +1,410 @@
+{
+  "video_index": "tlPb6vvE01Q",
+  "title": "Farmers Market Harvest Celebration",
+  "url": "https://www.youtube.com/watch?v=tlPb6vvE01Q",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "The transcript describes the process of sorting produce, displaying it at the market, and celebrating local farming.",
+  "tasks": [
+    {
+      "task": "Explain the process of sorting and preparing produce for the market.",
+      "start": 3.96,
+      "end": 12.68,
+      "subtasks": [
+        {
+          "text": "Describe the sorting process for peaches by size and quality.",
+          "start": 3.96,
+          "end": 8.08,
+          "segment_ids": [
+            1
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "tlPb6vvE01Q/task00_sub00_f00.jpg",
+              "caption": "A close-up of peaches with text overlay.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "tlPb6vvE01Q/task00_sub00_f01.jpg",
+              "caption": "The video frame shows a close-up of peaches with a blurred background.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "tlPb6vvE01Q/task00_sub00_f02.jpg",
+              "caption": "A close-up of a peach with the words \"quality, ensuring\" overlaid.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will describe the process of sorting peaches by size and quality, focusing on the initial stages of the task.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A close-up of peaches is shown, with text overlay indicating the focus on sorting.",
+            "- [frames=[0,1]] The background is blurred, suggesting a detailed view of the peaches.",
+            "- [frames=[2]] A close-up of a single peach is displayed, with the words \"quality, ensuring\" overlaid.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts the initial stage of sorting peaches, emphasizing the importance of size and quality. The robot will observe and categorize the peaches based on these criteria.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture the peaches.",
+            "- The robot needs to have a clear understanding of peach sizes and quality standards.",
+            "- The workspace should be set up with appropriate containers for different categories of peaches.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Peaches should be sorted into distinct groups based on size and quality.",
+            "- The robot should accurately identify and place peaches in the correct containers.",
+            "- The sorting process should be completed without any damage to the peaches",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 4.12,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/tlPb6vvE01Q/task00/sub00/motion.bvh",
+            "params_path": "results/momask/tlPb6vvE01Q/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Highlight the display of sorted peanuts and peaches at the market.",
+          "start": 8.08,
+          "end": 12.68,
+          "segment_ids": [
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "tlPb6vvE01Q/task00_sub01_f01.jpg",
+              "caption": "A close-up of peaches with the text \"make it to the market.\"",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "tlPb6vvE01Q/task00_sub01_f02.jpg",
+              "caption": "A yellow shopping basket filled with peanuts.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene focuses on displaying sorted peanuts and peaches at the farmers market, highlighting their readiness for sale.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A close-up of peaches with the text \"make it to the market\" indicating they are prepared and ready for display.",
+            "- [frames=[2]] A yellow shopping basket filled with peanuts, suggesting they are also sorted and ready for market presentation.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts two types of produce—peaches and peanuts—that have been sorted and are now ready for display at the market. The peaches are shown in a close-up, emphasizing their freshness and readiness, while the peanuts are displayed in a basket, indicating they are organized and prepared for sale.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the presence of sorted peaches and peanuts.",
+            "- The robot must recognize the need to highlight these items for market display.",
+            "- The robot should have access to appropriate display tools such as baskets and stands.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The sorted peaches and peanuts should be clearly visible and easily accessible to customers.",
+            "- The display should be aesthetically pleasing and organized.",
+            "- The robot should ensure that both types of produce are presented",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 4.6,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/tlPb6vvE01Q/task00/sub01/motion.bvh",
+            "params_path": "results/momask/tlPb6vvE01Q/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Describe the journey of the produce from the fields to the market.",
+      "start": 12.68,
+      "end": 20.12,
+      "subtasks": [
+        {
+          "text": "Mention the vibrant colors of the produce catching customers' attention at the market.",
+          "start": 12.68,
+          "end": 16.0,
+          "segment_ids": [
+            3
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "tlPb6vvE01Q/task01_sub00_f01.jpg",
+              "caption": "A bag of peanuts and peaches.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "tlPb6vvE01Q/task01_sub00_f02.jpg",
+              "caption": "A bag of peanuts is shown with the text \"The farmers proudly\" overlaid.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene highlights the vibrant colors of produce at the farmers market, drawing customers' attention.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A bag of peanuts and peaches are prominently displayed.",
+            "- [frames=[2]] A close-up of a bag of peanuts is shown, with the text \"The farmers proudly\" overlaid.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The vibrant colors of the produce, particularly the brown of the peanuts and the orange of the peaches, create an appealing visual display that catches the eye of passersby. The text overlay on the peanuts emphasizes the pride of the farmers in their products.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the current location within the market.",
+            "- The robot must have the ability to recognize produce and distinguish between different types.",
+            "- The robot needs to be able to read and interpret text overlays on images.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the presence of the produce and its vibrant colors.",
+            "- The robot should correctly recognize the text overlay indicating the pride of the farmers.",
+            "- The robot should successfully capture and convey the visual appeal of the produce to viewers.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.3200000000000003,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/tlPb6vvE01Q/task01/sub00/motion.bvh",
+            "params_path": "results/momask/tlPb6vvE01Q/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Describe farmers proudly displaying their produce and sharing their dedication.",
+          "start": 16.0,
+          "end": 20.12,
+          "segment_ids": [
+            4
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "tlPb6vvE01Q/task01_sub01_f01.jpg",
+              "caption": "A close-up of peaches in a cardboard box with the words \"produce, sharing\" overlaid.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "tlPb6vvE01Q/task01_sub01_f02.jpg",
+              "caption": "A man in an apron holds a crate of cherries, with the caption \"dedication with the world.\"",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Farmers are proudly displaying their produce and sharing their dedication to their craft, as seen in the video clip.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A close-up of peaches in a cardboard box with the words \"produce, sharing\" overlaid.",
+            "- [frames=[2]] A man in an apron holds a crate of cherries, with the caption \"dedication with the world.\"",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "Farmers are showcasing their produce, emphasizing the quality and care they put into growing it. The scene highlights their pride and dedication, creating a sense of community and shared effort.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be within the camera's view range.",
+            "- The robot should have the ability to recognize produce and human faces.",
+            "- The robot should be equipped with a camera and a display screen.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the produce being displayed.",
+            "- The robot should recognize the farmer's dedication through their actions and expressions.",
+            "- The robot should capture and display the essence of the scene on its screen.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Identify the peaches in the cardboard box.",
+            "2. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "3. [type=perception, frames=[1,2]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the peaches in the cardboard box. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 4.120000000000001,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/tlPb6vvE01Q/task01/sub01/motion.bvh",
+            "params_path": "results/momask/tlPb6vvE01Q/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Emphasize the celebration of local farming.",
+      "start": 37.4,
+      "end": 45.44,
+      "subtasks": [
+        {
+          "text": "Encourage supporting local farmers during the harvest season.",
+          "start": 37.4,
+          "end": 45.44,
+          "segment_ids": [
+            9,
+            10
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f00.jpg",
+              "relative_path": "tlPb6vvE01Q/task02_sub00_f00.jpg",
+              "caption": "A tractor is driving through a field, with the words \"work and passion of\" overlaid.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "tlPb6vvE01Q/task02_sub00_f01.jpg",
+              "caption": "A chalkboard sign reads \"Welcome to Farmers Market\" with a blurred background of a market.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "tlPb6vvE01Q/task02_sub00_f02.jpg",
+              "caption": "A person is standing in a garden, with text overlay that reads \"their labor and savor.\"",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should encourage viewers to support local farmers during the harvest season, emphasizing the value of their work and the quality of their produce.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A tractor is driving through a field, with the words \"work and passion of\" overlaid.",
+            "- [frames=[1]] A chalkboard sign reads \"Welcome to Farmers Market\" with a blurred background of a market.",
+            "- [frames=[2]] A person is standing in a garden, with text overlay that reads \"their labor and savor.\"",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from a field where a tractor is working, symbolizing the hard work and dedication of local farmers, to a welcoming farmers market setting. The final frame shows a person in a garden, highlighting the direct connection between the farmer's labor and the produce available at the market.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the current context being a farmers market celebration.",
+            "- It must recognize the importance of local farming and the harvest season.",
+            "- The robot needs to understand the significance of the tractor and the garden scenes.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should clearly convey the message of supporting local farmers.",
+            "- It should highlight the (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 8.04,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/tlPb6vvE01Q/task02/sub00/motion.bvh",
+            "params_path": "results/momask/tlPb6vvE01Q/task02/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

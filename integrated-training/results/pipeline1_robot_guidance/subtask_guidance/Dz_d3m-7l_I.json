@@ -1,0 +1,233 @@
+{
+  "video_index": "Dz_d3m-7l_I",
+  "title": "Ice Farming on a Cold Day Farming for Eggs and Livestock Care Ice Bucket Breaker Farm Happy Cold Day Farming Ice Farm...",
+  "url": "https://www.youtube.com/watch?v=Dz_d3m-7l_I",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Describes the farm activities on a cold day.",
+  "tasks": [
+    {
+      "task": "Check on the livestock on a cold day.",
+      "start": 0.0,
+      "end": 14.48,
+      "subtasks": [
+        {
+          "text": "Observe the chickens in the coop on a 5 degree day.",
+          "start": 0.0,
+          "end": 2.32,
+          "segment_ids": [
+            0
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "Dz_d3m-7l_I/task00_sub00_f00.jpg",
+              "caption": "A young man in a hoodie and overalls stands in a room.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "Dz_d3m-7l_I/task00_sub00_f01.jpg",
+              "caption": "A man in overalls and a beanie stands in a room.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "Dz_d3m-7l_I/task00_sub00_f02.jpg",
+              "caption": "A person is walking in a snowy field near a barn and silo.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "Observe the chickens in the coop on a 5-degree day.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0,1]] A man in overalls and a beanie stands in a room, preparing to check on the chickens.",
+            "- [frames=[2]] The man walks through a snowy field towards a barn and silo, indicating he is heading to the coop.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene transitions from an indoor setting where the man prepares to check on the chickens to an outdoor environment where he heads towards the coop. This indicates that the man will move from inside the barn to the chicken coop to ensure the chickens are comfortable and safe on a cold day.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot must be able to recognize the man and understand his intent to check on the chickens.",
+            "- The robot should know the location of the coop within the barn.",
+            "- The robot needs to have access to weather data indicating it is a cold day.",
+            "- The robot must be capable of navigating through the barn and snowy field.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot successfully reaches the coop.",
+            "- The robot confirms the chickens are warm and well-fed.",
+            "- The robot verifies that the coop is secure and free from drafts.",
+            "- The robot records the observation and sends a report back to the farm management system.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0,1]] Navigate to the barn entrance based on the man's position and the barn's layout.",
+            "2. [type=navigation, frames=[2]] Walk through the snowy field towards the coop.",
+            "3. [type=perception, frames=[2]] Use sensors to confirm the location of the coop.",
+            "4. [type=manipulation, frames=[2]] Open the coop door using robotic arms.",
+            "5. [type=perception, frames"
+          ]
+        },
+        {
+          "text": "Note the hens are still laying eggs despite the cold.",
+          "start": 2.32,
+          "end": 4.64,
+          "segment_ids": [
+            0
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "Dz_d3m-7l_I/task00_sub01_f01.jpg",
+              "caption": "A snowy farm with a fence and buildings in the background.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "Dz_d3m-7l_I/task00_sub01_f02.jpg",
+              "caption": "A group of chickens in a coop, with one brown chicken in the foreground.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "The robot needs to observe the hens in their coop to confirm they are still laying eggs despite the cold weather.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0,1]] The scene shows a snowy farm with a fence and buildings in the background, indicating a cold environment.",
+            "- [frames=[2]] A group of chickens is seen in a coop, with one brown chicken in the foreground, suggesting the focus is on the hens.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The robot observes a snowy farm setting where a group of hens is housed in a coop. Despite the cold weather, the hens are still active and laying eggs, which the robot needs to verify.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot must be equipped with a camera to capture images of the coop.",
+            "- The robot should have knowledge about the typical behavior of hens under cold conditions.",
+            "- The robot needs to know the location of the coop within the farm.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot must identify the hens in the coop.",
+            "- The robot should recognize that the hens are laying eggs.",
+            "- The robot should confirm that the hens are active despite the cold.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0,1]] Move to the location of the coop.",
+            "2. [type=perception, frames=[2]] Capture an image of the hens in the coop.",
+            "3. [type=analysis, frames=[2]] Analyze the image to identify the hens.",
+            "4. [type=analysis, frames=[2]] Determine if the hens are laying eggs.",
+            "5. [type=communication, frames=[2]] Report the findings to the user.",
+            "",
+            "SUBTASK_STORY:",
+            "The robot begins by navigating to the coop located on the snowy farm. Upon reaching the coop, it captures an image of"
+          ]
+        },
+        {
+          "text": "Notice the pig-pen where the pigs are warm.",
+          "start": 9.44,
+          "end": 14.48,
+          "segment_ids": [
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub02_f00.jpg",
+              "relative_path": "Dz_d3m-7l_I/task00_sub02_f00.jpg",
+              "caption": "A man in overalls is using a bucket to pour water into a fence.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub02_f01.jpg",
+              "relative_path": "Dz_d3m-7l_I/task00_sub02_f01.jpg",
+              "caption": "A person is seen wearing gloves and a hat, kneeling on a snowy ground with grass and rocks.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub02_f02.jpg",
+              "relative_path": "Dz_d3m-7l_I/task00_sub02_f02.jpg",
+              "caption": "A pile of straw is on the ground near a wooden structure.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "The robot needs to locate and observe the pig-pen to ensure the pigs are warm and comfortable on a cold day.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0]] A man is seen pouring water into a fence, likely preparing for some maintenance or cleaning.",
+            "- [frames=[1]] A person is kneeling on a snowy ground, possibly checking something or preparing to interact with the environment.",
+            "- [frames=[2]] Straw is present near a wooden structure, which is likely the pig-pen.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene depicts a cold day setting with snow and straw, indicating the need for the robot to check on the livestock. The wooden structure near the straw is identified as the pig-pen, where the pigs should be kept warm.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot must know the location of the pig-pen.",
+            "- The robot should have the ability to navigate through snowy terrain.",
+            "- The robot must be equipped with sensors to detect temperature and observe the environment.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot must confirm the presence of the pig-pen.",
+            "- The robot should verify that the pigs are inside the pen.",
+            "- The robot needs to ensure the pigs are warm and comfortable.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0,1]] Navigate to the area where the straw and wooden structure are located.",
+            "2. [type=perception, frames=[2]] Use sensors to identify the wooden structure as the pig-pen.",
+            "3. [type=navigation, frames=[2]] Move closer to the pig-pen to get a better view.",
+            "4. [type=manipulation, frames=[2]] Use a camera to capture images of the interior of the pig-pen.",
+            "5. [type=perception, frames=[2]] Analyze the images to determine if"
+          ]
+        },
+        {
+          "text": "Watch the ice being broken out of buckets.",
+          "start": 4.64,
+          "end": 14.48,
+          "segment_ids": [
+            1,
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub03_f01.jpg",
+              "relative_path": "Dz_d3m-7l_I/task00_sub03_f01.jpg",
+              "caption": "A man in a hat and Carhartt jacket is using a bucket to pour water into a fence.",
+              "frame_index": 1
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "The robot needs to observe a man breaking ice out of buckets, which is part of checking on livestock on a cold day.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[1]] A man in a hat and Carhartt jacket is using a bucket to pour water into a fence.",
+            "- [frames=[2]] The man then uses a tool to break ice out of a bucket, likely to provide clean drinking water for livestock.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene shows a man performing the task of breaking ice out of buckets, which is crucial for ensuring the livestock have access to fresh water during cold weather. This activity is part of a broader routine of caring for animals on a farm.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot must be aware of the current weather conditions being cold.",
+            "- There should be buckets containing frozen water available.",
+            "- The robot needs to recognize the tools used for breaking ice.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot should confirm that the ice has been successfully broken from the buckets.",
+            "- The robot should verify that the buckets now contain clean, unfrozen water.",
+            "- The robot should ensure that the man has completed the task correctly.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[1]] Navigate to the area where the man is working with the buckets.",
+            "2. [type=perception, frames=[1,2]] Observe the man using a bucket to pour water into a fence and then breaking ice out of a bucket.",
+            "3. [type=manipulation, frames=[2]] Assist the man in breaking the ice if necessary.",
+            "4. [type=perception, frames=[2]] Confirm that the ice has been successfully broken.",
+            "5. [type=communication, frames=[2]] Notify the user that the ice has been broken and the water is now clean.",
+            "",
+            "SUBTASK_ST"
+          ]
+        }
+      ]
+    }
+  ],
+  "guidance_text_file": "final_guidance_txt/Dz_d3m-7l_I.txt"
+}

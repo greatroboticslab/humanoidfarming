@@ -1,0 +1,546 @@
+{
+  "video_index": "CdFkX5nbVtc",
+  "title": "Gene Editing and Food Safety Concerns",
+  "url": "https://www.youtube.com/watch?v=CdFkX5nbVtc",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "The video discusses the potential use of gene editing in agriculture and the associated risks and regulatory concerns.",
+  "tasks": [
+    {
+      "task": "Critique the federal government's efforts to deregulate gene editing techniques.",
+      "start": 12.02,
+      "end": 54.74,
+      "subtasks": [
+        {
+          "text": "Explain the rationale behind the GM crop industry's desire to bypass current regulations.",
+          "start": 12.02,
+          "end": 18.02,
+          "segment_ids": [
+            1,
+            2,
+            3
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "CdFkX5nbVtc/task00_sub00_f00.jpg",
+              "caption": "A person is putting celery into a bag with a message that reads \"OMG GMO WTF\" at a grocery store.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "CdFkX5nbVtc/task00_sub00_f01.jpg",
+              "caption": "A woman in a kitchen holds a bunch of celery while standing next to a bag that says \"OMG GMO WTF.\"",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "CdFkX5nbVtc/task00_sub00_f02.jpg",
+              "caption": "A woman in a kitchen holds a bunch of celery while standing next to a bag that says \"OMG GMO WTF.\"",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene depicts a consumer's reaction to genetically modified organisms (GMOs) in grocery stores, highlighting the industry's push to bypass current regulations.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A person is placing celery into a bag labeled \"OMG GMO WTF\" at a grocery store.",
+            "- [frames=[1]] A woman in a kitchen holds a bunch of celery, standing beside a bag with the same label.",
+            "- [frames=[2]] The woman continues holding the celery near the labeled bag.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes show consumers' reactions to GMO-labeled products, indicating public skepticism towards genetically modified crops. This context suggests the GM crop industry seeks to avoid regulatory scrutiny to expedite product development and market entry.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the current regulatory landscape for GM crops.",
+            "- The robot needs to understand the concerns of consumers regarding GMOs.",
+            "- The robot must recognize the labels \"OMG GMO WTF\" on the bags.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately explain the industry's rationale for bypassing regulations.",
+            "- It should highlight the potential benefits and risks associated with deregulation.",
+            "- The explanation should address consumer concerns effectively.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Identify the presence of the \"OMG GMO WTF\" label on the bag.",
+            "2. [type=perception, frames=[0,1]] Recognize the person placing the celery into the bag.",
+            "3. [type=manipulation, frames=[0,1]] Retrieve information about the regulatory landscape for GM crops.",
+            "4. [type=perception, frames=[0,1]] Cross-check the benefits and risks of deregulating GM crops.",
+            "5. [type=communication, frames=[0,1]] Explain.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the presence of the \"OMG GMO WTF\" label on the bag. It then verifies the key detail directly from the frames (Cross-check the benefits and risks of deregulating GM crops).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Describe the government's initiative to deregulate gene editing methods.",
+          "start": 18.02,
+          "end": 33.02,
+          "segment_ids": [
+            4,
+            5,
+            6
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "CdFkX5nbVtc/task00_sub01_f01.jpg",
+              "caption": "The video shows a laboratory with numerous glass jars containing green plants.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "CdFkX5nbVtc/task00_sub01_f02.jpg",
+              "caption": "A laboratory setting with numerous glass jars containing green plants under fluorescent lights.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub01_f03.jpg",
+              "relative_path": "CdFkX5nbVtc/task00_sub01_f03.jpg",
+              "caption": "A woman with curly hair is sitting in a chair with a red belt, wearing a gray shirt, in front of a patterned curtain.",
+              "frame_index": 3
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment describes a government initiative to deregulate gene editing methods, focusing on the potential impact on food safety. It visually emphasizes the scale and nature of gene-edited plants being studied in a laboratory setting.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1,2]] Multiple glass jars containing green plants are shown in a laboratory setting, illuminated by fluorescent lights.",
+            "- [frame=1] The laboratory environment is detailed, with numerous glass jars filled with green plants.",
+            "- [frame=2] The scene is similar to frame 1 but with more detail on the lighting and the arrangement of the jars.",
+            "- [frame=3] A woman with curly hair is seated in a chair with a red belt, wearing a gray shirt, in front of a patterned curtain. This appears to be an interviewee or presenter discussing the topic.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The laboratory setting is clearly focused on genetic research, particularly involving plants. The presence of multiple glass jars suggests a large-scale experiment or study. The woman in frame 3 likely provides context or commentary on the government's initiative.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture the laboratory environment.",
+            "- The robot needs to have knowledge about gene editing and its regulatory aspects.",
+            "- The robot should be able to communicate with the interviewer/presenter in frame 3.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Verify the presence of multiple glass jars containing green plants.",
+            "- Confirm the laboratory setting and the fluorescent lighting.",
+            "- Check the identity and attire of the woman in frame 3.",
+            "- Measure the scale and number of glass jars to assess the scope of the research.",
+            "- Cross-check the information provided by the woman in frame 3 with the visual evidence.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1,2]] Capture images of.",
+            "2. [type=perception, frames=[1,2,3]] Verify/confirm the key observation before reporting.",
+            "3. [type=perception, frames=[1,2,3]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[1,2,3]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[1,2,3]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture images of. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Highlight the widespread consumer rejection of GMOs and the industry's strategy to avoid it.",
+          "start": 33.02,
+          "end": 54.74,
+          "segment_ids": [
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub02_f01.jpg",
+              "relative_path": "CdFkX5nbVtc/task00_sub02_f01.jpg",
+              "caption": "A woman with curly hair is sitting in a chair with a red belt, wearing a gray shirt, in front of a patterned curtain.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub02_f02.jpg",
+              "relative_path": "CdFkX5nbVtc/task00_sub02_f02.jpg",
+              "caption": "A person is holding a package of Earth Source Foods Soft Tofu in a grocery store.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub02_f03.jpg",
+              "relative_path": "CdFkX5nbVtc/task00_sub02_f03.jpg",
+              "caption": "A person is holding a box with a label that lists clean ingredients, no refined sugars, and no artificial anything.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task00_sub02_f04.jpg",
+              "relative_path": "CdFkX5nbVtc/task00_sub02_f04.jpg",
+              "caption": "A man in a white shirt is sitting in front of a bookshelf filled with books.",
+              "frame_index": 4
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment highlights consumer rejection of genetically modified organisms (GMOs) and how the food industry is responding by marketing products as natural and free from artificial additives.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A woman with curly hair is sitting in a chair with a red belt, wearing a gray shirt, in front of a patterned curtain. This likely represents a consumer perspective on GMOs.",
+            "- [frames=[2]] A person is holding a package of Earth Source Foods Soft Tofu in a grocery store, indicating a product marketed as natural.",
+            "- [frames=[3]] A person is holding a box with a label that lists clean ingredients, no refined sugars, and no artificial anything, emphasizing the industry’s response to consumer concerns.",
+            "- [frames=[4]] A man in a white shirt is sitting in front of a bookshelf filled with books, possibly representing an expert or researcher discussing the topic.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a consumer’s skepticism towards GMOs and the industry’s strategy to appeal to this sentiment by promoting natural and organic products. The presence of a person holding a package and another with a label listing clean ingredients suggests a focus on transparency and health benefits.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture images.",
+            "- The robot should have the ability to read text from labels.",
+            "- The robot should be able to navigate through a grocery store environment.",
+            "- The robot should be capable of recognizing faces and objects.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should identify the presence of GMO-free products.",
+            "- The robot should verify the absence of artificial additives.",
+            "- The robot should confirm the marketing strategy aligns with consumer preferences.",
+            "- The robot should measure the effectiveness of the industry’s response.",
+            "- The robot should cross-check the information against known consumer trends.",
+            "",
+            "ORDERED_ROBOT_ACTION (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2,3,4]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[1,2,3,4]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[1,2,3,4]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[1,2,3,4]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[1,2,3,4]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Discuss the potential health risks associated with gene editing.",
+      "start": 64.74,
+      "end": 140.74,
+      "subtasks": [
+        {
+          "text": "Introduce the concept of off-target effects in gene editing processes.",
+          "start": 64.74,
+          "end": 87.74,
+          "segment_ids": [
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "CdFkX5nbVtc/task01_sub00_f00.jpg",
+              "caption": "A man in a white shirt and glasses is sitting in front of a bookshelf.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "CdFkX5nbVtc/task01_sub00_f01.jpg",
+              "caption": "A man in a white shirt is sitting in front of a bookshelf filled with books.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "CdFkX5nbVtc/task01_sub00_f02.jpg",
+              "caption": "Three jars with plants growing inside them.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task01_sub00_f03.jpg",
+              "relative_path": "CdFkX5nbVtc/task01_sub00_f03.jpg",
+              "caption": "Several transparent jars contain green plants with roots emerging from the bottom.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task01_sub00_f04.jpg",
+              "relative_path": "CdFkX5nbVtc/task01_sub00_f04.jpg",
+              "caption": "A man in a white shirt is sitting in front of a bookshelf filled with books.",
+              "frame_index": 4
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will introduce the concept of off-target effects in gene editing processes, using visual aids to enhance understanding.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A man in a white shirt and glasses is sitting in front of a bookshelf, likely explaining the topic.",
+            "- [frames=[2,3]] Three jars with plants growing inside them and several transparent jars containing green plants with roots emerging from the bottom are present, possibly representing examples of gene-edited organisms.",
+            "- [frames=[0,4]] The man in a white shirt is consistently seen in front of a bookshelf filled with books, indicating he is the main speaker.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a man explaining the concept of off-target effects in gene editing, using jars with plants as visual aids. The bookshelf suggests a formal educational setting.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the concept of off-target effects in gene editing.",
+            "- The robot should have access to the jars with plants and be able to manipulate them if needed.",
+            "- The robot should be able to communicate effectively with the audience.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should clearly explain the concept of off-target effects.",
+            "- The robot should correctly identify and describe the jars as visual aids.",
+            "- The robot should ensure the audience understands the potential risks associated with off-target effects.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Observe the man explaining the concept of off-target effects.",
+            "2. [type=perception, frames=[0,1]] Confirm the man's explanation by nodding or verbal acknowledgment.",
+            "3. [type=navigation, frames=[2,3]] Approach the jars with plants and place them on a table in front of the audience.",
+            "4. [type=perception, frames=[0,1,2,3,4]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2,3,4]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Observe the man explaining the concept of off-target effects. It then verifies the key detail directly from the frames (Confirm the man's explanation by nodding or verbal acknowledgment).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Warn about the possibility of unintended genetic alterations leading to allergens or toxins.",
+          "start": 87.74,
+          "end": 101.74,
+          "segment_ids": [
+            19,
+            20,
+            21
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "CdFkX5nbVtc/task01_sub01_f01.jpg",
+              "caption": "A woman in a floral dress stands in front of a wall adorned with paintings.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "CdFkX5nbVtc/task01_sub01_f02.jpg",
+              "caption": "A person is shopping for produce in a grocery store.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will warn viewers about the potential health risks associated with unintended genetic alterations in gene-edited foods, specifically focusing on the creation of allergens or toxins.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] The woman in a floral dress stands in front of a wall adorned with paintings, likely setting the scene for an educational discussion.",
+            "- [frames=[2]] A person is shopping for produce in a grocery store, indicating the real-world application of the discussion.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from an indoor setting with educational elements to a more practical environment where gene-edited foods might be found. This shift highlights the relevance of the discussion to everyday life.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have knowledge of gene editing and its potential risks.",
+            "- The robot needs access to a display screen or a voice communication system to convey information.",
+            "- The robot should be able to navigate between different scenes seamlessly.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should clearly communicate the risk of unintended genetic alterations.",
+            "- It should emphasize the potential for creating allergens or toxins.",
+            "- The message should be delivered in a clear, understandable manner.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Move to the position where the woman in the floral dress is standing.",
+            "2. [type=perception, frames=[1]] Confirm the presence of the woman by checking her location.",
+            "3. [type=communication, frames=[1]] Address the viewer and begin the explanation.",
+            "4. [type=navigation, frames=[2]] Move to the position where the person is shopping for produce.",
+            "5. [type=communication, frames=[2]] Explain the concept of gene editing and its potential risks.",
+            "6. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to the position where the woman in the floral dress is standing. It then verifies the key detail directly from the frames (Confirm the presence of the woman by checking her location).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Express concern about the lack of pre-market testing and labelling of gene-edited foods.",
+          "start": 101.74,
+          "end": 117.74,
+          "segment_ids": [
+            22,
+            23,
+            24,
+            25
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub02_f01.jpg",
+              "relative_path": "CdFkX5nbVtc/task01_sub02_f01.jpg",
+              "caption": "A person is selecting carrots from a tray in a grocery store.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub02_f02.jpg",
+              "relative_path": "CdFkX5nbVtc/task01_sub02_f02.jpg",
+              "caption": "A woman with curly hair is sitting in front of a patterned curtain.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should express concern about the lack of pre-market testing and labeling of gene-edited foods, emphasizing the importance of safety measures before such products reach consumers.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A person is selecting carrots from a grocery store, indicating a setting where gene-edited foods might be sold.",
+            "- [frames=[1]] A woman with curly hair is sitting in front of a patterned curtain, likely representing a discussion or presentation context.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a grocery store setting with a person selecting produce, suggesting a focus on food safety and consumer awareness. The presence of a woman in a discussion setting implies a need to address concerns related to gene-edited foods.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have knowledge about gene editing and its potential risks.",
+            "- The robot should be able to communicate effectively in a grocery store environment.",
+            "- The robot should have access to relevant data on gene-edited foods and their testing requirements.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should clearly articulate the concern about the lack of pre-market testing.",
+            "- The robot should emphasize the importance of proper labeling for gene-edited foods.",
+            "- The robot should provide factual information about current regulations and gaps in oversight.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Observe the person selecting carrots to understand the context.",
+            "2. [type=communication, frames=[1]] Address the woman in the discussion setting, initiating the conversation.",
+            "3. [type=communication, frames=[1,2]] Use a digital display or screen to show examples of gene-edited foods.",
+            "4. [type=perception, frames=[1,2]] Verify the audience's attention by checking their reactions.",
+            "5. [type=communication, frames=[1,2]] Explain the importance of pre-market testing for gene.",
+            "6. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Observe the person selecting carrots to understand the context. It then verifies the key detail directly from the frames (Verify the audience's attention by checking their reactions).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Comment on the need for comprehensive assessments before bringing gene-edited foods to market.",
+          "start": 117.74,
+          "end": 140.74,
+          "segment_ids": [
+            26,
+            27,
+            28,
+            29,
+            30
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub03_f01.jpg",
+              "relative_path": "CdFkX5nbVtc/task01_sub03_f01.jpg",
+              "caption": "A laboratory setting with numerous glass jars containing green plants under fluorescent lights.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub03_f02.jpg",
+              "relative_path": "CdFkX5nbVtc/task01_sub03_f02.jpg",
+              "caption": "A woman in a kitchen holds a bag of celery while standing next to a table with a bowl of apples and garlic.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task01_sub03_f04.jpg",
+              "relative_path": "CdFkX5nbVtc/task01_sub03_f04.jpg",
+              "caption": "A woman in a grocery store is shopping for produce, holding a bag and a basket filled with celery.",
+              "frame_index": 4
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Before gene-edited foods can be marketed, it is crucial to conduct thorough assessments to ensure their safety and prevent potential health risks.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A laboratory setting with numerous glass jars containing green plants under fluorescent lights suggests ongoing research and development.",
+            "- [frames=[2]] A woman in a kitchen holding a bag of celery and standing next to a table with apples and garlic indicates a focus on food safety and consumer concerns.",
+            "- [frames=[4]] A woman in a grocery store shopping for produce, holding a bag and a basket filled with celery, highlights the importance of assessing gene-edited foods in a real-world context.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict various stages of food handling and consumption, emphasizing the need for rigorous testing and evaluation before gene-edited foods are introduced to the market. The laboratory setting showcases the scientific process, while the kitchen and grocery store settings illustrate the practical implications for consumers.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to a laboratory equipped with necessary tools and equipment.",
+            "- The robot needs to be familiar with food safety protocols and regulations.",
+            "- The robot must be able to communicate effectively with researchers and other stakeholders.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Comprehensive risk assessments must be completed.",
+            "- Data from tests must be accurate and reliable.",
+            "- Findings must be communicated clearly to relevant parties.",
+            "- Regulatory compliance must be ensured.",
+            "- Public safety must be prioritized throughout the process.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate to the laboratory where gene-edited plant samples are stored.",
+            "2. [type=perception, frames=[1]] Verify the presence of gene-edited plant samples by scanning barcodes or using visual recognition software.",
+            "3. [type=navigation, frames=[2]] Move to the kitchen area to observe.",
+            "4. [type=perception, frames=[1,2,4]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[1,2,4]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the laboratory where gene-edited plant samples are stored. It then verifies the key detail directly from the frames (Verify the presence of gene-edited plant samples by scanning barcodes or using visual recognition software).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

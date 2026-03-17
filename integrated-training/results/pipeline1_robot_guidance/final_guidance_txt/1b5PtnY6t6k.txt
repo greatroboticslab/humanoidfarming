@@ -1,0 +1,109 @@
+VIDEO: 1b5PtnY6t6k
+TITLE: 种耳菜养花盆 见摘见长不停鲜
+======================================================================
+
+TASK 0: Describe the process of growing and maintaining leafy greens in a pot.
+Time Range: 0.0 → 7.2
+----------------------------------------------------------------------
+  SUBTASK 0: Observe how planting several black soil pots with black radish greens allows for continuous harvesting.
+  Time Range: 0.0 → 3.68
+  Guidance:
+    GLOBAL_SUMMARY:
+    The subtask involves observing the process of trimming black radish greens in pots, which allows for continuous harvesting.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0]] A close-up view of a plant with large, green leaves indicates the presence of black radish greens in a pot.
+    - [frames=[1,2]] A person is using scissors to trim a plant in a container, showing repeated actions of cutting the greens.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    This subtask focuses on the maintenance of black radish greens in pots, where the person is regularly trimming the plants to ensure they remain healthy and provide continuous harvests. The repeated trimming demonstrates the importance of regular care to sustain the growth of the greens.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must recognize black radish greens in pots.
+    - The robot should know the location of the pots containing the greens.
+    - The robot needs to have access to scissors or similar tools for trimming.
+    - The robot must understand the concept of continuous harvesting.
+    
+    SUCCESS_CRITERIA:
+    - The robot successfully identifies multiple pots containing black radish greens.
+    - The robot performs the trimming action accurately on the greens.
+    - The robot ensures that the trimmed greens are properly disposed of or collected.
+    - The robot confirms that the trimming process is complete and the greens are ready for the next harvest.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0]] Navigate to the area where the pots containing black radish greens are located.
+    2. [type=perception, frames=[0]] Identify the pots and the black radish greens within them.
+    3. [type=manipulation, frames=[1,2]] Use scissors to trim the black radish greens, repeating the action as necessary.
+    4. [type=perception, frames=[1,2]] Verify that the trimming is done
+
+  SUBTASK 1: Note that the more you harvest the black radish greens, the faster they grow.
+  Time Range: 3.68 → 5.44
+  Guidance:
+    GLOBAL_SUMMARY:
+    The subtask involves demonstrating how harvesting black radish greens can stimulate their growth.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] A person is using scissors to trim a plant in a container.
+    - [frames=[2]] A close-up view of a plant with green leaves in a container.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene shows a person trimming the black radish greens, which is intended to illustrate the concept that harvesting these greens will promote faster regrowth. This is part of a broader tutorial on growing and maintaining leafy greens in a pot.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must recognize the black radish greens in the container.
+    - The robot should have access to scissors or similar tools for trimming.
+    - The container must contain the black radish greens.
+    - The robot needs to be within reach of the container.
+    
+    SUCCESS_CRITERIA:
+    - The robot successfully trims the black radish greens.
+    - The trimmed greens are placed back into the container.
+    - The container remains intact and undamaged during the process.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Move to the location where the container with black radish greens is situated.
+    2. [type=perception, frames=[0,1]] Identify the black radish greens in the container.
+    3. [type=manipulation, frames=[0,1]] Grasp the scissors and prepare to trim the greens.
+    4. [type=manipulation, frames=[0,1]] Trim the black radish greens as shown by the person.
+    5. [type=manipulation, frames=[2]] Place the trimmed greens back into the container.
+    6. [type=perception, frames=[2]] Ensure the container is stable and the greens are properly placed.
+    
+    SUBTASK_STORY
+
+  SUBTASK 2: Explain that you don't need to worry about the greens being depleted, only about the diner's potential boredom.
+  Time Range: 5.44 → 7.2
+  Guidance:
+    GLOBAL_SUMMARY:
+    Explain that the greens in the pot will not run out, but the diner might get bored if they are not regularly trimmed.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] A person is using scissors to trim a plant in a container.
+    - [frames=[2]] A pair of scissors is being used to trim a plant in a container.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene shows a person trimming a plant in a container, emphasizing the regular maintenance needed to keep the greens fresh and appealing. This action ensures the greens remain abundant, addressing the concern of them running out while also hinting at the need to prevent the diner from getting bored due to repetitive trimming.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must recognize the plant in the container.
+    - The robot should know the location of the scissors.
+    - The robot needs to understand the concept of regular maintenance for plants.
+    - The robot must be aware of the diner's preferences and potential boredom.
+    
+    SUCCESS_CRITERIA:
+    - The plant is trimmed appropriately without damaging it.
+    - The greens look fresh and healthy.
+    - The robot can confirm that the greens are not depleted.
+    - The robot can communicate that the greens are still plentiful to the diner.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the location where the plant is kept.
+    2. [type=perception, frames=[0,1]] Identify the plant and ensure it is the correct one.
+    3. [type=manipulation, frames=[2]] Use the scissors to trim the plant.
+    4. [type=perception, frames=[2]] Verify that the plant is trimmed properly.
+    5. [type=communication, frames=[0,1,2]] Inform the diner that the greens are still plentiful and will continue to grow.
+    
+    SUBTASK_ST
+
+
+======================================================================
+

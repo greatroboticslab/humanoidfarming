@@ -1,0 +1,714 @@
+{
+  "video_index": "b-Nkqeb3mdo",
+  "title": "Seasonal Crop Planning at Rogue Farmsded Ded Two Points Included Ded Three Points Incorporated Ded Four Points Integr...",
+  "url": "https://www.youtube.com/watch?v=b-Nkqeb3mdo",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Provides an overview of agricultural decision-making processes.",
+  "tasks": [
+    {
+      "task": "Describe the criteria for selecting crops to grow each season.",
+      "start": 0.0,
+      "end": 16.32,
+      "subtasks": [
+        {
+          "text": "Explain that they check what thrives in their zone.",
+          "start": 0.0,
+          "end": 9.76,
+          "segment_ids": [
+            0,
+            1
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "b-Nkqeb3mdo/task00_sub00_f00.jpg",
+              "caption": "An apple hangs from a tree branch in a lush, green orchard.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "b-Nkqeb3mdo/task00_sub00_f01.jpg",
+              "caption": "A squirrel is perched on a tree branch amidst a lush green landscape.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "b-Nkqeb3mdo/task00_sub00_f02.jpg",
+              "caption": "The video frame shows a scenic view of a mountainous landscape with lush greenery and a cloudy sky.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot explains that they consider which crops thrive in their specific climate zone when planning seasonal crops.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] An apple hangs from a tree branch in a lush, green orchard.",
+            "- [frames=[1]] A squirrel is perched on a tree branch amidst a lush green landscape.",
+            "- [frames=[2]] The video frame shows a scenic view of a mountainous landscape with lush greenery and a cloudy sky.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a natural environment with abundant vegetation, suggesting a focus on agricultural practices suitable for the local climate. The presence of an apple tree and a squirrel indicates a temperate region, possibly within USDA hardiness zones where apples can thrive.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to current weather data and historical climate records.",
+            "- It needs to know the specific geographic location of the farm.",
+            "- The robot must be able to communicate with external databases or APIs for climate information.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should identify the appropriate climate zone for the farm.",
+            "- It must determine which crops are best suited for that zone.",
+            "- The robot should present a list of recommended crops based on the analysis.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Read the environmental conditions from the current frame.",
+            "2. [type=perception, frames=[2]] Analyze the landscape to determine the general climate type.",
+            "3. [type=navigation, frames=[0,1,2]] Access the farm's geographical coordinates.",
+            "4. [type=communication, frames=[0,1,2]] Query an external database for climate data corresponding to the farm’s location.",
+            "5. [type=perception, frames=[0,1,2]] Cross-check the climate data with the observed environmental conditions.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Read the environmental conditions from the current frame. It then verifies the key detail directly from the frames (Read the environmental conditions from the current frame).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Mention considering the soil’s needs and the season.",
+          "start": 4.64,
+          "end": 9.76,
+          "segment_ids": [
+            1
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f00.jpg",
+              "relative_path": "b-Nkqeb3mdo/task00_sub01_f00.jpg",
+              "caption": "The video frame shows a tree with green leaves in a natural setting.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "b-Nkqeb3mdo/task00_sub01_f01.jpg",
+              "caption": "The video frame shows a lush, green landscape with text about soil and weather.",
+              "frame_index": 1
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should understand that when selecting crops for a specific season, it is important to consider both the soil's needs and the current season. This involves analyzing the environmental conditions and making informed decisions based on those factors.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The video frame shows a tree with green leaves in a natural setting, indicating an outdoor environment suitable for crop growth.",
+            "- [frames=[1]] The video frame shows a lush, green landscape with text about soil and weather, highlighting the importance of these elements in crop selection.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene suggests that the robot is in an agricultural setting where the focus is on understanding the environmental conditions necessary for successful crop growth. The presence of a tree and a lush landscape indicates a healthy ecosystem, while the text overlay emphasizes the critical role of soil and weather in crop selection.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot must have access to real-time weather data.",
+            "- It should be equipped with sensors to analyze soil composition.",
+            "- The robot needs to have a database of crop requirements and seasonal conditions.",
+            "- It should be able to communicate with other farm systems for additional information.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should identify the current season accurately.",
+            "- It must determine the soil type and its nutrient levels.",
+            "- The robot should cross-check the soil and weather conditions against the crop requirements.",
+            "- It should select appropriate crops based on the analysis.",
+            "- The robot must ensure that the selected crops meet the seasonal and soil needs.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the area where soil samples can be taken.",
+            "2. [type=perception, frames=[0,1]] Use soil sensors to measure the nutrient levels and type of soil.",
+            "3. [type=navigation, frames=[1]] Move to a location.",
+            "4. [type=perception, frames=[0,1]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the area where soil samples can be taken. It then verifies the key detail directly from the frames (Use soil sensors to measure the nutrient levels and type of soil).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Describe not growing the same crops in the same spot.",
+          "start": 13.2,
+          "end": 16.32,
+          "segment_ids": [
+            3
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub02_f00.jpg",
+              "relative_path": "b-Nkqeb3mdo/task00_sub02_f00.jpg",
+              "caption": "A person is using a hoe to dig in a garden.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub02_f01.jpg",
+              "relative_path": "b-Nkqeb3mdo/task00_sub02_f01.jpg",
+              "caption": "A person is using a hoe to cultivate the soil in a garden, with the caption \"Crop Rotation: The Same Thing.\"",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub02_f02.jpg",
+              "relative_path": "b-Nkqeb3mdo/task00_sub02_f02.jpg",
+              "caption": "A person is using a hoe to cultivate the soil in a garden.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on explaining why it's important not to grow the same crops in the same spot, which is a key aspect of crop rotation.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A person is using a hoe to dig in a garden.",
+            "- [frames=[1]] A person is using a hoe to cultivate the soil in a garden, with the caption \"Crop Rotation: The Same Thing.\"",
+            "- [frames=[2]] A person is using a hoe to cultivate the soil in a garden.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a gardener using a hoe to cultivate the soil, emphasizing the concept of crop rotation. The caption suggests that the same action is being repeated, which is a point of emphasis for the subtask.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a hoe.",
+            "- The robot should be within reach of the garden area.",
+            "- The robot should have knowledge of crop rotation principles.",
+            "- The robot should be able to communicate with the user if necessary.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should demonstrate an understanding of why crop rotation is important.",
+            "- The robot should correctly identify the need to change crop locations.",
+            "- The robot should be able to explain the benefits of rotating crops.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1,2]] Inspect/verify the scene before any physical action.",
+            "2. [type=navigation, frames=[0]] Move to the garden area where the hoe is located.",
+            "3. [type=manipulation, frames=[0]] Pick up the hoe.",
+            "4. [type=perception, frames=[1]] Observe the current cultivation activity.",
+            "5. [type=manipulation, frames=[1]] Demonstrate hoeing the soil to show the process.",
+            "6. [type=communication, frames=[1]] Explain the importance of not growing the same crops in the same spot.",
+            "7. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Inspect/verify the scene before any physical action. It then verifies the key detail directly from the frames (Inspect/verify the scene before any physical action).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Explain the benefits of rotating crops.",
+      "start": 13.2,
+      "end": 16.32,
+      "subtasks": [
+        {
+          "text": "Note that rotating crops keeps the soil healthy.",
+          "start": 13.2,
+          "end": 14.76,
+          "segment_ids": [
+            3
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "b-Nkqeb3mdo/task01_sub00_f01.jpg",
+              "caption": "A person is using a hoe to cultivate the soil in a garden, with the caption \"Crop Rotation WE NEVER GROW\".",
+              "frame_index": 1
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will explain how crop rotation benefits soil health by observing a person cultivating the soil in a garden.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A person is using a hoe to cultivate the soil in a garden, with the caption \"Crop Rotation WE NEVER GROW\".",
+            "- The person is engaged in the activity of tilling the soil, which is part of the crop rotation process.",
+            "- The garden appears to be well-maintained, with rows of soil ready for planting.",
+            "- The caption on the frame emphasizes the importance of crop rotation.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a person actively involved in the process of crop rotation, preparing the soil for future planting cycles. This activity is crucial for maintaining soil health and preventing depletion of nutrients.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to observe the garden and the person's actions.",
+            "- The robot needs to have knowledge about crop rotation and its benefits.",
+            "- The robot must be able to communicate effectively with the viewer.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the benefits of crop rotation.",
+            "- The robot should identify the current activity of the person as part of crop rotation.",
+            "- The robot should ensure that the explanation aligns with the provided caption.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Observes the person using a hoe to cultivate the soil.",
+            "2. [type=perception, frames=[1]] Confirm the current activity as crop rotation.",
+            "3. [type=manipulation, frames=[1]] Points to the cultivated soil to emphasize the ongoing process.",
+            "4. [type=perception, frames=[1]] Read the caption \"Crop Rotation WE NEVER GROW\" aloud.",
+            "5. [type=communication, frames=[1]] Explains.",
+            "6. [type=navigation, frames=[1]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Observes the person using a hoe to cultivate the soil. It then verifies the key detail directly from the frames (Confirm the current activity as crop rotation).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Mention that rotating crops helps control pests.",
+          "start": 14.76,
+          "end": 16.32,
+          "segment_ids": [
+            3
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "b-Nkqeb3mdo/task01_sub01_f01.jpg",
+              "caption": "A person is using a hoe to cultivate the soil in a garden.",
+              "frame_index": 1
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will explain how crop rotation helps control pests, using a scene of a person cultivating soil with a hoe.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A person is seen using a hoe to cultivate the soil in a garden.",
+            "- The person is working in a garden setting, likely preparing the soil for planting.",
+            "- The soil appears to be well-tended, with visible rows and a neat appearance.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a typical gardening activity where a person is preparing the soil for planting. This context sets up the explanation about the benefits of crop rotation.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be positioned near the person and the cultivated soil.",
+            "- The robot needs to have information on the benefits of crop rotation.",
+            "- The robot should be able to communicate effectively with the viewer.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should clearly state that rotating crops helps control pests.",
+            "- The explanation should be concise and easy to understand.",
+            "- The robot should visually point to the cultivated soil to emphasize the current activity.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Observe the person using the hoe to cultivate the soil.",
+            "2. [type=communication, frames=[1]] Announce, \"Crop rotation helps control pests by disrupting their life cycle.\".",
+            "3. [type=manipulation, frames=[1]] Point to the cultivated soil with a virtual pointer.",
+            "4. [type=perception, frames=[1]] Verify that the viewer understands by asking, \"Does that make sense?\".",
+            "5. [type=manipulation, frames=[1]] Demonstrate by showing a diagram of crop rotation cycles.",
+            "6. [type=communication, frames=[1]] Explain, \"By changing the types of crops planted each season, pests are less likely to build up resistance.",
+            "7. [type=navigation, frames=[1]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Observe the person using the hoe to cultivate the soil. It then verifies the key detail directly from the frames (Verify that the viewer understands by asking, \"Does that make sense?\"). After verification, it communicates the result clearly (Announce, \"Crop rotation helps control pests by disrupting their life cycle.\").",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Describe their focus on what is actually consumed.",
+      "start": 21.6,
+      "end": 28.56,
+      "subtasks": [
+        {
+          "text": "Explain growing crops that the family, customers, or animals eat.",
+          "start": 21.6,
+          "end": 26.0,
+          "segment_ids": [
+            5
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f00.jpg",
+              "relative_path": "b-Nkqeb3mdo/task02_sub00_f00.jpg",
+              "caption": "The video frame shows a tomato plant with several red tomatoes growing on it.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "b-Nkqeb3mdo/task02_sub00_f01.jpg",
+              "caption": "The video frame shows a tomato plant with several tomatoes, and the text \"3. DEMAND & USE CUSTOMERS OR ANIMALS\" is overlaid.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "b-Nkqeb3mdo/task02_sub00_f02.jpg",
+              "caption": "The video frame shows a tomato plant with several tomatoes growing on it.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will explain which crops are grown for consumption by the family, customers, or animals at Rogue Farms.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A tomato plant with several red tomatoes is visible.",
+            "- [frames=[1]] The same tomato plant is shown, with additional text overlaying: \"3. DEMAND & USE CUSTOMERS OR ANIMALS\".",
+            "- [frames=[2]] The tomato plant remains unchanged, showing several tomatoes growing.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene focuses on a tomato plant, indicating that tomatoes are a crop being discussed. The overlay text suggests that the discussion will cover the demand and usage of these tomatoes by either the farm's family, customers, or animals.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the types of crops grown at Rogue Farms.",
+            "- The robot should know the purpose of different crops (for consumption by the family, customers, or animals).",
+            "- The robot should be able to read and interpret the overlay text correctly.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the tomatoes as a crop grown for consumption.",
+            "- The robot should mention the potential consumers: the family, customers, or animals.",
+            "- The robot should provide a clear explanation of why these tomatoes are important to the farm.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Read the details of the tomato plant.",
+            "2. [type=perception, frames=[1]] Confirm the presence of the overlay text \"3. DEMAND & USE CUSTOMERS OR ANIMALS\".",
+            "3. [type=manipulation, frames=[2]] Point to the tomato plant to emphasize the crop being discussed.",
+            "4. [type=communication, frames=[0,1,2]] State, \"At Rogue Farms, we grow tomatoes, which are a key crop for our family,.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Read the details of the tomato plant. It then verifies the key detail directly from the frames (Read the details of the tomato plant). After verification, it communicates the result clearly (State, \"At Rogue Farms, we grow tomatoes, which are a key crop for our family,).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Highlight that no wasted space leads to smarter farming.",
+          "start": 26.0,
+          "end": 28.56,
+          "segment_ids": [
+            6
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub01_f01.jpg",
+              "relative_path": "b-Nkqeb3mdo/task02_sub01_f01.jpg",
+              "caption": "The video frame shows a tomato plant with several ripe tomatoes.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub01_f02.jpg",
+              "relative_path": "b-Nkqeb3mdo/task02_sub01_f02.jpg",
+              "caption": "The video frame shows a tomato plant with several ripe tomatoes.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene focuses on highlighting how efficient use of space in farming can lead to smarter practices, specifically through the example of a tomato plant with ripe tomatoes.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1,2]] A tomato plant is shown with several ripe tomatoes hanging from it.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The presence of multiple ripe tomatoes on a single plant emphasizes the importance of utilizing space effectively in agriculture. This visual reinforces the idea that every part of the farm should be productive without any wasted space.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot needs to be within the camera's view range.",
+            "- The robot should have the ability to recognize and identify ripe tomatoes.",
+            "- The robot must be equipped with sensors to measure the number of tomatoes on the plant.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Verify that the tomato plant is fully utilized with no wasted space.",
+            "- Confirm that all ripe tomatoes are accounted for.",
+            "- Measure the efficiency of space usage by comparing the number of tomatoes to the plant's size.",
+            "- Cross-check the data with previous records to ensure consistency.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Scan the tomato plant to identify ripe tomatoes.",
+            "2. [type=perception, frames=[1]] Count the number of ripe tomatoes on the plant.",
+            "3. [type=manipulation, frames=[1]] Collect data on the plant's size and structure.",
+            "4. [type=communication, frames=[1]] Transmit the collected data to the central system for analysis.",
+            "5. [type=perception, frames=[1]] Verify the count of ripe tomatoes against the plant's size.",
+            "6. [type=manipulation, frames=[1]] Mark the plant for harvesting if it meets the criteria for efficient space usage.",
+            "7. [type=perception, frames=[1]] Check the marking.",
+            "8. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Scan the tomato plant to identify ripe tomatoes. It then verifies the key detail directly from the frames (Verify the count of ripe tomatoes against the plant's size).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Describe their approach to improving future crops.",
+      "start": 30.4,
+      "end": 35.36,
+      "subtasks": [
+        {
+          "text": "Track which crops thrived and which failed.",
+          "start": 30.4,
+          "end": 32.879999999999995,
+          "segment_ids": [
+            7
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub00_f00.jpg",
+              "relative_path": "b-Nkqeb3mdo/task03_sub00_f00.jpg",
+              "caption": "The video shows a field with plants growing in rows.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task03_sub00_f01.jpg",
+              "relative_path": "b-Nkqeb3mdo/task03_sub00_f01.jpg",
+              "caption": "The video frame shows a field of plants, with the text \"4. WHAT WORKED LAST YEAR THRIVED WHAT FLOPPED\" overlaid.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub00_f02.jpg",
+              "relative_path": "b-Nkqeb3mdo/task03_sub00_f02.jpg",
+              "caption": "The video frame shows a field of plants with the text \"4. WHAT WORKED LAST YEAR THRIVED WHAT FLOPPED.\"",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe the current state of crops in the field to determine which ones thrived and which ones did not, based on the information provided in the video.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The video shows a field with plants growing in rows.",
+            "- [frames=[1,2]] Text \"4. WHAT WORKED LAST YEAR THRIVED WHAT FLOPPED\" is overlaid on the field of plants.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a field where various crops are growing. The text overlay indicates that the focus is on identifying successful and unsuccessful crops from the previous year.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to the field.",
+            "- The robot should be equipped with cameras to capture images of the crops.",
+            "- The robot should have the ability to read and interpret text overlays.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Correctly identify which crops thrived and which ones did not.",
+            "- Accurately record the results for future reference.",
+            "- Provide a summary of the findings to the user.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Capture an image of the field to analyze the crop status.",
+            "2. [type=perception, frames=[1,2]] Read the text overlay \"4. WHAT WORKED LAST YEAR THRIVED WHAT FLOPPED\" to understand the task.",
+            "3. [type=navigation, frames=[0]] Move to a position where the entire field can be viewed.",
+            "4. [type=perception, frames=[0]] Analyze the captured image to identify thriving and failing crops.",
+            "5. [type=manipulation, frames=[0]] Mark the thriving and failing crops using a digital annotation tool.",
+            "6. [type=communication, frames=[0]] Send the annotated image to the user for review.",
+            "7. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture an image of the field to analyze the crop status. It then verifies the key detail directly from the frames (Read the text overlay \"4. WHAT WORKED LAST YEAR THRIVED WHAT FLOPPED\" to understand the task).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Adjust practices based on real results.",
+          "start": 32.879999999999995,
+          "end": 35.36,
+          "segment_ids": [
+            7
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub01_f01.jpg",
+              "relative_path": "b-Nkqeb3mdo/task03_sub01_f01.jpg",
+              "caption": "The video frame shows a field with crops, and text appears on the screen.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub01_f02.jpg",
+              "relative_path": "b-Nkqeb3mdo/task03_sub01_f02.jpg",
+              "caption": "The video frame shows a field with crops, and the text \"4. WHAT WORKED LAST YEAR ON REAL RESULTS\" is overlaid.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will analyze past crop data to adjust current farming practices based on real results, ensuring improved future crop outcomes.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A field with crops is shown, indicating the context of the farm.",
+            "- [frames=[2]] Text \"4. WHAT WORKED LAST YEAR ON REAL RESULTS\" is overlaid, highlighting the focus on previous year's successful practices.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a typical farm setting with crops, emphasizing the importance of leveraging historical data to enhance future agricultural practices.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- Access to historical crop data.",
+            "- Capabilities to analyze and interpret data.",
+            "- Tools to implement changes in farming practices.",
+            "- Communication systems to relay findings to relevant stakeholders.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Accurate analysis of last year’s crop data.",
+            "- Identification of successful practices.",
+            "- Implementation of identified practices in the current season.",
+            "- Verification of the effectiveness of new practices.",
+            "- Documentation of the process for future reference.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Read the historical crop data from the database.",
+            "2. [type=perception, frames=[1]] Analyze the data to identify successful practices.",
+            "3. [type=communication, frames=[2]] Relay the findings to the farm manager via a communication system.",
+            "4. [type=navigation, frames=[2]] Navigate to the field to observe current crop conditions.",
+            "5. [type=manipulation, frames=[2]] Implement the identified successful practices in the current season.",
+            "6. [type=perception, frames=[2]] Verify the implementation by cross-checking with the current crop conditions.",
+            "7. [type=manipulation, frames=[2]] Adjust any necessary parameters to ensure optimal growth.",
+            "8. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Read the historical crop data from the database. It then verifies the key detail directly from the frames (Read the historical crop data from the database).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Explain the importance of good planting.",
+      "start": 36.64,
+      "end": 39.44,
+      "subtasks": [
+        {
+          "text": "Mention good planting leads to strong harvests.",
+          "start": 36.64,
+          "end": 39.44,
+          "segment_ids": [
+            8
+          ],
+          "frames": [
+            {
+              "image_file": "task04_sub00_f00.jpg",
+              "relative_path": "b-Nkqeb3mdo/task04_sub00_f00.jpg",
+              "caption": "A person is holding a variety of fresh vegetables, including carrots, lettuce, and beets.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task04_sub00_f01.jpg",
+              "relative_path": "b-Nkqeb3mdo/task04_sub00_f01.jpg",
+              "caption": "The video frame shows a person carrying a large basket filled with fresh vegetables.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task04_sub00_f02.jpg",
+              "relative_path": "b-Nkqeb3mdo/task04_sub00_f02.jpg",
+              "caption": "A person is holding a large basket filled with fresh vegetables.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will explain that good planting practices lead to strong harvests, using visual cues of fresh vegetables being handled by a person.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A person is holding a variety of fresh vegetables, including carrots, lettuce, and beets.",
+            "- [frames=[0,1]] The person is seen carrying a large basket filled with fresh vegetables.",
+            "- [frames=[2]] A person is holding a large basket filled with fresh vegetables.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a person handling fresh vegetables, likely at a farm or market setting. This suggests the context of seasonal crop planning and the importance of good planting practices.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the concept of good planting practices.",
+            "- The robot should have access to information about the benefits of good planting on harvest strength.",
+            "- The robot should be able to communicate effectively in a human-friendly manner.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should clearly state that good planting leads to strong harvests.",
+            "- The robot should visually point to the fresh vegetables as evidence.",
+            "- The robot should ensure the explanation is understood by the viewer.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Observe the person holding fresh vegetables.",
+            "2. [type=manipulation, frames=[2]] Pick up a vegetable to demonstrate.",
+            "3. [type=communication, frames=[0,1,2]] State, \"Good planting practices lead to strong harvests.\".",
+            "4. [type=manipulation, frames=[2]] Hold the vegetable up for emphasis.",
+            "5. [type=perception, frames=[0,1,2]] Add, \"Look at these fresh vegetables as an example.\".",
+            "6. [type=perception, frames=[0,1]] Verify the person's attention is focused.",
+            "7. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Observe the person holding fresh vegetables. It then verifies the key detail directly from the frames (Verify the person's attention is focused). After verification, it communicates the result clearly (State, \"Good planting practices lead to strong harvests.\").",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

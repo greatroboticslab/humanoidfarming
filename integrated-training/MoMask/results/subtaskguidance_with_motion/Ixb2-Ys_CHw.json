@@ -1,0 +1,761 @@
+{
+  "video_index": "Ixb2-Ys_CHw",
+  "title": "NLIS Overview for Livestock Producers in Australia",
+  "url": "https://www.youtube.com/watch?v=Ixb2-Ys_CHw",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Explains the National Livestock Identification System and its requirements for tracking livestock.",
+  "tasks": [
+    {
+      "task": "Describe the National Livestock Identification System (NLIS) and its purpose.",
+      "start": 12.3,
+      "end": 36.62,
+      "subtasks": [
+        {
+          "text": "Explain what the NLIS is and why it is necessary for tracing livestock.",
+          "start": 12.3,
+          "end": 18.7,
+          "segment_ids": [
+            0,
+            1
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "Ixb2-Ys_CHw/task00_sub00_f00.jpg",
+              "caption": "The video frame shows a title screen for a North Coast Local Land Services presentation on the National Livestock Identification System.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "Ixb2-Ys_CHw/task00_sub00_f01.jpg",
+              "caption": "A woman in a checkered shirt stands in front of a pen with cows, with the text \"Jessica Lock Local Land Services\" overlaid.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "Ixb2-Ys_CHw/task00_sub00_f02.jpg",
+              "caption": "A woman in a checkered shirt is standing in front of a pen with cows.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to explain the National Livestock Identification System (NLIS) and its importance for tracing livestock. This explanation will be given during a presentation by a woman named Jessica Lock from North Coast Local Land Services.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The video frame shows a title screen for a North Coast Local Land Services presentation on the National Livestock Identification System.",
+            "- [frames=[1]] A woman in a checkered shirt stands in front of a pen with cows, with the text \"Jessica Lock Local Land Services\" overlaid.",
+            "- [frames=[2]] A woman in a checkered shirt is standing in front of a pen with cows.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a presentation about the NLIS, where a presenter named Jessica Lock explains the system's role in livestock identification and traceability. The setting includes a pen with cows, indicating the practical application of the NLIS in a livestock environment.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the NLIS and its purpose.",
+            "- The robot should have access to relevant information about the NLIS.",
+            "- The robot should be able to communicate effectively with the audience.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the NLIS and its importance.",
+            "- The robot should ensure the audience understands the benefits of using the NLIS for livestock traceability.",
+            "- The robot should maintain a clear and engaging communication style.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Read the title screen to understand the context of the presentation.",
+            "2. [type=perception, frames=[1]] Confirm the presenter's name and role by stating, \"Good morning, Jessica Lock from North Coast Local Land Services.\".",
+            "3. [type=perception, frames=[1]] Verify the presence of the pen with cows.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Read the title screen to understand the context of the presentation. It then verifies the key detail directly from the frames (Read the title screen to understand the context of the presentation).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 6.399999999999999,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/Ixb2-Ys_CHw/task00/sub00/motion.bvh",
+            "params_path": "results/momask/Ixb2-Ys_CHw/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Mention the export of Australian red meat to over 100 markets.",
+          "start": 32.62,
+          "end": 36.62,
+          "segment_ids": [
+            6
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f00.jpg",
+              "relative_path": "Ixb2-Ys_CHw/task00_sub01_f00.jpg",
+              "caption": "A herd of cows grazes in a lush green field with a tree and a forested background under a blue sky with fluffy clouds.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "Ixb2-Ys_CHw/task00_sub01_f01.jpg",
+              "caption": "A herd of cattle grazes on a lush green field under a blue sky with fluffy clouds.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "Ixb2-Ys_CHw/task00_sub01_f02.jpg",
+              "caption": "A herd of cows grazes in a lush green field under a blue sky with fluffy clouds.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on mentioning the export of Australian red meat to over 100 markets, which is relevant to the National Livestock Identification System (NLIS).",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1,2]] The scenes depict herds of cows grazing in lush green fields under a blue sky with fluffy clouds, indicating a pastoral setting.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes show a serene pastoral environment where cattle are being raised, which is typical of the Australian agricultural landscape. This setting is crucial for understanding the context of livestock production and export.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture the scenes.",
+            "- The robot should have the ability to communicate with the user or narrator.",
+            "- The robot should be able to navigate through the scenes to identify key elements.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately mention the export of Australian red meat to over 100 markets.",
+            "- The robot should provide a clear and concise statement about the significance of this export in relation to the NLIS.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1,2]] Capture images of the grazing cattle to verify the scene.",
+            "2. [type=perception, frames=[0,1,2]] Use the captured images to identify the number of cattle and their location.",
+            "3. [type=perception, frames=[0,1,2]] Confirm the presence of cattle in a pastoral setting with the user or narrator.",
+            "4. [type=perception, frames=[0,1,2]] Cross-check the information with the NLIS database to ensure accuracy.",
+            "5. [type=communication, frames=[0,1,2]] Announce the export of Australian red meat to over 100 markets.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture images of the grazing cattle to verify the scene. It then verifies the key detail directly from the frames (Capture images of the grazing cattle to verify the scene). After verification, it communicates the result clearly (Announce the export of Australian red meat to over 100 markets).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 4.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/Ixb2-Ys_CHw/task00/sub01/motion.bvh",
+            "params_path": "results/momask/Ixb2-Ys_CHw/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Outline the requirements for NLIS compliance on a property.",
+      "start": 53.94,
+      "end": 71.54,
+      "subtasks": [
+        {
+          "text": "Describe the property identification code (PIC) and how to obtain it.",
+          "start": 53.94,
+          "end": 62.98,
+          "segment_ids": [
+            13,
+            14,
+            15
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "Ixb2-Ys_CHw/task01_sub00_f00.jpg",
+              "caption": "A herd of cows stands in a grassy field under a clear blue sky.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "Ixb2-Ys_CHw/task01_sub00_f01.jpg",
+              "caption": "The video frame shows a computer screen displaying information about Property Identification Codes (PICs) for livestock.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "Ixb2-Ys_CHw/task01_sub00_f02.jpg",
+              "caption": "The video frame shows a computer screen with text indicating that LPA Accreditation must be completed and updated every three years.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask involves explaining the concept of Property Identification Codes (PICs) and how to obtain them for livestock management compliance.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A herd of cows is shown standing in a grassy field under a clear blue sky.",
+            "- [frames=[1]] The video displays a computer screen showing information about Property Identification Codes (PICs) for livestock.",
+            "- [frames=[2]] The screen shows text indicating that LPA Accreditation must be completed and updated every three years.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shifts from a pastoral setting to a digital interface providing details on PICs and their importance. This transition helps viewers understand the practical application of PICs in livestock management.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to a computer or display screen.",
+            "- The robot should be able to navigate through different frames of the video.",
+            "- The robot should be capable of reading text and images displayed on the screen.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the concept of PICs.",
+            "- The robot should explain the process of obtaining PICs.",
+            "- The robot should mention the requirement for LPA Accreditation and its frequency.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Navigate to the frame showing the herd of cows.",
+            "2. [type=perception, frames=[0]] Read the caption describing the herd of cows.",
+            "3. [type=navigation, frames=[1]] Move to the frame displaying the computer screen with information about PICs.",
+            "4. [type=perception, frames=[1]] Verify the text on the screen regarding PICs.",
+            "5. [type=navigation, frames=[2]] Proceed to the frame showing the text about LPA Accreditation.",
+            "6. [type=perception, frames=[2]] Confirm the.",
+            "7. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the frame showing the herd of cows. It then verifies the key detail directly from the frames (Read the caption describing the herd of cows).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the frame showing the herd of cows; Move to the frame displaying the computer screen with information about PICs; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 9.04,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/Ixb2-Ys_CHw/task01/sub00/motion.bvh",
+            "params_path": "results/momask/Ixb2-Ys_CHw/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Explain the importance of the property's LPA accreditation and how to update it.",
+          "start": 62.98,
+          "end": 71.54,
+          "segment_ids": [
+            16,
+            17
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "Ixb2-Ys_CHw/task01_sub01_f02.jpg",
+              "caption": "A woman in a checkered shirt is standing in front of a pen with cows, holding a pill.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to explain the significance of the property's LPA accreditation and guide the user on how to update it.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[2]] A woman in a checkered shirt is standing in front of a pen with cows, holding a pill.",
+            "- The robot should observe the woman interacting with the cows and holding a pill, which likely represents a vaccination or treatment process.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a livestock management scenario where a woman is handling cattle, possibly administering medication. This setting is typical for a property that needs to comply with NLIS (National Livestock Identification System) regulations.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have knowledge about NLIS requirements.",
+            "- It should be aware of the property’s current LPA (Livestock Property Accreditation) status.",
+            "- The robot must be able to communicate effectively with the user.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should clearly explain the importance of LPA accreditation.",
+            "- It should provide guidance on how to update the LPA.",
+            "- The user should understand the steps required to maintain compliance.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=communication, frames=[2]] Should ask the woman if she can explain the LPA process.",
+            "2. [type=perception, frames=[2]] Should observe the woman handling the cows and holding a pill.",
+            "3. [type=perception, frames=[2]] Should confirm the importance of LPA accreditation by stating, \"LPA accreditation is crucial for ensuring compliance with NLIS.\".",
+            "4. [type=communication, frames=[2]] Should explain, \"Accreditation helps track and manage livestock movements across properties.\".",
+            "5. [type=manipulation, frames=[2]] Should demonstrate how to access the LPA update form.",
+            "6. [type=navigation, frames=[2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Should ask the woman if she can explain the LPA process. It then verifies the key detail directly from the frames (Should confirm the importance of LPA accreditation by stating, \"LPA accreditation is crucial for ensuring compliance with NLIS.\").",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Should demonstrate how to access the LPA update form; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 8.56000000000001,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/Ixb2-Ys_CHw/task01/sub01/motion.bvh",
+            "params_path": "results/momask/Ixb2-Ys_CHw/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Detail the process of identifying livestock using NLIS devices.",
+      "start": 84.5,
+      "end": 111.98,
+      "subtasks": [
+        {
+          "text": "Describe the use of white breeder and orange post-breeder devices.",
+          "start": 84.5,
+          "end": 92.78,
+          "segment_ids": [
+            21,
+            22,
+            23
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f00.jpg",
+              "relative_path": "Ixb2-Ys_CHw/task02_sub00_f00.jpg",
+              "caption": "A woman in a checkered shirt is standing in a fenced area with cows in the background.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "Ixb2-Ys_CHw/task02_sub00_f01.jpg",
+              "caption": "A woman in a checkered shirt is holding a pill in front of a group of cows.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "Ixb2-Ys_CHw/task02_sub00_f02.jpg",
+              "caption": "A woman in a checkered shirt is holding a yellow object in front of a group of cows in a fenced area.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment explains the use of white breeder and orange post-breeder devices for identifying livestock using NLIS devices.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A woman in a checkered shirt is standing in a fenced area with cows in the background.",
+            "- [frames=[1]] The woman is holding a pill in front of a group of cows.",
+            "- [frames=[2]] The woman is holding a yellow object in front of a group of cows in a fenced area.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a woman demonstrating the use of identification devices on livestock. The white breeder device and the orange post-breeder device are being shown, likely to illustrate their application in the field.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the layout of a fenced area where livestock are present.",
+            "- The robot should know the appearance and function of the white breeder and orange post-breeder devices.",
+            "- The robot should be able to identify and distinguish between different types of livestock.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the white breeder and orange post-breeder devices.",
+            "- The robot should demonstrate the proper placement of the devices on the livestock.",
+            "- The robot should ensure that the devices are securely attached to the livestock.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Identify the fenced area and the presence of livestock.",
+            "2. [type=perception, frames=[1]] Recognize the white breeder device held by the woman.",
+            "3. [type=manipulation, frames=[1]] Pick up the white breeder device from the woman.",
+            "4. [type=navigation, frames=[1,2]] Move to a suitable position near the livestock.",
+            "5. [type=manipulation, frames=[2]] Attach the white breeder.",
+            "6. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "7. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the fenced area and the presence of livestock. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Pick up the white breeder device from the woman; Move to a suitable position near the livestock; Attach the white breeder; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 8.280000000000001,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/Ixb2-Ys_CHw/task02/sub00/motion.bvh",
+            "params_path": "results/momask/Ixb2-Ys_CHw/task02/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Emphasize the importance of placing the tags in the right ear and center.",
+          "start": 103.38,
+          "end": 111.98,
+          "segment_ids": [
+            28,
+            29,
+            30
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub01_f00.jpg",
+              "relative_path": "Ixb2-Ys_CHw/task02_sub01_f00.jpg",
+              "caption": "A cow with a tag on its ear is peeking over a fence.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub01_f01.jpg",
+              "relative_path": "Ixb2-Ys_CHw/task02_sub01_f01.jpg",
+              "caption": "A cow is seen behind a wooden fence, looking down.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub01_f02.jpg",
+              "relative_path": "Ixb2-Ys_CHw/task02_sub01_f02.jpg",
+              "caption": "A white cow with a yellow tag on its ear is standing in a pen.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to ensure that the NLIS tags are correctly placed on the livestock's ears, specifically in the right ear and centered.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A cow with a tag on its ear is peeking over a fence.",
+            "- [frames=[0,1]] A cow is seen behind a wooden fence, looking down.",
+            "- [frames=[2]] A white cow with a yellow tag on its ear is standing in a pen.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene involves a cow in a pen with a tag already present, but the robot must verify its position and ensure it is correctly placed in the right ear and centered.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to the pen where the cow is located.",
+            "- The robot must have the ability to identify the right ear of the cow.",
+            "- The robot should be equipped with tools to check and adjust the tag placement if necessary.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The tag must be confirmed to be in the correct ear.",
+            "- The tag must be verified to be centered.",
+            "- The tag must be checked for proper orientation and alignment.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Identify the cow and locate the right ear.",
+            "2. [type=navigation, frames=[2]] Approach the cow and confirm the presence of the tag.",
+            "3. [type=perception, frames=[2]] Verify the tag is in the correct ear.",
+            "4. [type=manipulation, frames=[2]] Adjust the tag if it is not centered.",
+            "5. [type=perception, frames=[2]] Cross-check the tag’s position to ensure it is perfectly centered.",
+            "6. [type=communication, frames=[2]] Notify the operator that the tag is correctly placed.",
+            "7. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the cow and locate the right ear. It then verifies the key detail directly from the frames (Approach the cow and confirm the presence of the tag).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Adjust the tag if it is not centered; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 8.600000000000009,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/Ixb2-Ys_CHw/task02/sub01/motion.bvh",
+            "params_path": "results/momask/Ixb2-Ys_CHw/task02/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Describe the requirements for selling and moving livestock using NLIS.",
+      "start": 125.66,
+      "end": 207.5,
+      "subtasks": [
+        {
+          "text": "Mention the need to fill out a national vendor declaration (NVD).",
+          "start": 125.66,
+          "end": 128.7,
+          "segment_ids": [
+            37
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub00_f00.jpg",
+              "relative_path": "Ixb2-Ys_CHw/task03_sub00_f00.jpg",
+              "caption": "A woman in a checkered shirt is standing in a barn with a clipboard.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task03_sub00_f01.jpg",
+              "relative_path": "Ixb2-Ys_CHw/task03_sub00_f01.jpg",
+              "caption": "A woman in a checkered shirt is standing in a barn, with a blue banner at the bottom of the frame that reads \"NATIONAL VENDOR DECLARATION",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub00_f02.jpg",
+              "relative_path": "Ixb2-Ys_CHw/task03_sub00_f02.jpg",
+              "caption": "A woman is holding a document in a barn, with a blue banner at the bottom reading \"NATIONAL VENDOR DECLARATION.\"",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to understand the importance of filling out a National Vendor Declaration (NVD) when selling and moving livestock according to the NLIS requirements.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A woman in a checkered shirt is standing in a barn with a clipboard.",
+            "- [frames=[1]] The same woman is now holding a document, with a blue banner at the bottom reading \"NATIONAL VENDOR DECLARATION.\"",
+            "- [frames=[2]] The woman continues to hold the document, emphasizing the NVD process.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a woman in a barn, likely a livestock producer, who is handling a document related to the National Vendor Declaration (NVD). This document is crucial for compliance with the NLIS regulations for selling and moving livestock.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the current context, specifically that it is in a barn where livestock transactions might occur.",
+            "- The robot should have access to information about NLIS requirements and the importance of NVDs.",
+            "- The robot should be capable of recognizing documents and understanding their significance.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should confirm that the NVD is being filled out correctly.",
+            "- It should verify that all necessary information is included in the NVD.",
+            "- The robot should ensure that the NVD is properly stored or submitted for further processing.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Should observe the woman holding the document.",
+            "2. [type=perception, frames=[1]] Should read the text on the blue banner to confirm the document's purpose.",
+            "3. [type=navigation, frames=[1]] Should approach the woman to assist her in filling out the NVD.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Should observe the woman holding the document. It then verifies the key detail directly from the frames (Should read the text on the blue banner to confirm the document's purpose).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Should approach the woman to assist her in filling out the NVD; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.039999999999992,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/Ixb2-Ys_CHw/task03/sub00/motion.bvh",
+            "params_path": "results/momask/Ixb2-Ys_CHw/task03/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Explain that the NVD must be accurate and use the correct form version.",
+          "start": 145.54,
+          "end": 152.26,
+          "segment_ids": [
+            44,
+            45
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub01_f00.jpg",
+              "relative_path": "Ixb2-Ys_CHw/task03_sub01_f00.jpg",
+              "caption": "A woman in a checkered shirt is holding a clipboard in front of a gate.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task03_sub01_f01.jpg",
+              "relative_path": "Ixb2-Ys_CHw/task03_sub01_f01.jpg",
+              "caption": "A woman in a checkered shirt is holding a clipboard and talking in front of a gate.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub01_f02.jpg",
+              "relative_path": "Ixb2-Ys_CHw/task03_sub01_f02.jpg",
+              "caption": "A document titled \"National Vendor Declaration (Cattle) and Waybill - eNVD\" is shown with various fields to be filled out by the owner or",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to explain the importance of an accurate National Vendor Declaration (NVD) and the correct form version when selling and moving livestock.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A woman in a checkered shirt is holding a clipboard in front of a gate.",
+            "- [frames=[0,1]] The woman appears to be explaining something important.",
+            "- [frames=[2]] A document titled \"National Vendor Declaration (Cattle) and Waybill - eNVD\" is shown with various fields to be filled out by the owner or vendor.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a woman explaining the necessity of filling out the correct form accurately, likely referring to the National Vendor Declaration (NVD) for cattle. This document is crucial for the process of selling and moving livestock in compliance with Australian regulations.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have knowledge about the National Livestock Identification System (NLIS).",
+            "- The robot should be able to read and understand the document displayed on the screen.",
+            "- The robot should be aware of the correct form version and its importance.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should ensure the NVD is accurate.",
+            "- The robot should confirm the correct form version is being used.",
+            "- The robot should verify that all necessary information is correctly filled out.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Read the document and identify the key points about the NVD.",
+            "2. [type=communication, frames=[0,1]] Announce the importance of having an accurate NVD.",
+            "3. [type=perception, frames=[2]] Verify the document displayed is the \"National Vendor Declaration (Cattle) and Waybill - eNVD\".",
+            "4. [type=perception, frames=[2]] Confirm the correct.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Read the document and identify the key points about the NVD. It then verifies the key detail directly from the frames (Read the document and identify the key points about the NVD). After verification, it communicates the result clearly (Announce the importance of having an accurate NVD).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 6.719999999999999,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/Ixb2-Ys_CHw/task03/sub01/motion.bvh",
+            "params_path": "results/momask/Ixb2-Ys_CHw/task03/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Describe the requirements for signatures and document copies.",
+          "start": 198.22,
+          "end": 207.5,
+          "segment_ids": [
+            64,
+            65,
+            66,
+            67
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub02_f00.jpg",
+              "relative_path": "Ixb2-Ys_CHw/task03_sub02_f00.jpg",
+              "caption": "A group of cows with pink tags graze on a grassy hillside.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task03_sub02_f01.jpg",
+              "relative_path": "Ixb2-Ys_CHw/task03_sub02_f01.jpg",
+              "caption": "A herd of cows is grazing in a lush green field with a fence in the foreground.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub02_f02.jpg",
+              "relative_path": "Ixb2-Ys_CHw/task03_sub02_f02.jpg",
+              "caption": "A woman in a checkered shirt is standing in front of a cow stall.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on explaining the requirements for signatures and document copies in the context of NLIS for livestock producers in Australia.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] The scenes depict groups of cows grazing in different fields, indicating a pastoral setting relevant to livestock producers.",
+            "- [frame=2] A woman in a checkered shirt is seen near a cow stall, suggesting she might be involved in documentation or handling documents.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes suggest a discussion about the necessary documentation and signatures required for livestock transactions, likely involving the NLIS system. The presence of a woman near a cow stall implies she could be a key figure in the process, possibly a handler or a record keeper.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the NLIS system and its requirements.",
+            "- The robot needs access to the current document copies and signature requirements.",
+            "- The robot should know the location of the checkered-shirted woman and the cow stall.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the signature and document copy requirements.",
+            "- The robot should ensure all mentioned documents and signatures are correctly identified and explained.",
+            "- The robot should confirm the accuracy of the information provided by the checkered-shirted woman.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Observe the groups of cows grazing to understand the pastoral setting.",
+            "2. [type=perception, frames=[2]] Identify the woman in the checkered shirt near the cow stall.",
+            "3. [type=navigation, frames=[0,1,2]] Approach the woman in the checkered shirt to gather information.",
+            "4. [type=perception, frames=[0,1,2]] Engage the woman in conversation to verify the signature and document copy requirements.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Observe the groups of cows grazing to understand the pastoral setting. It then verifies the key detail directly from the frames (Engage the woman in conversation to verify the signature and document copy requirements).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 9.280000000000001,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/Ixb2-Ys_CHw/task03/sub02/motion.bvh",
+            "params_path": "results/momask/Ixb2-Ys_CHw/task03/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

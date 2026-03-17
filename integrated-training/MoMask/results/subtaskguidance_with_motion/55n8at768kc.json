@@ -1,0 +1,491 @@
+{
+  "video_index": "55n8at768kc",
+  "title": "Planting Cover Crops with Multiple Species Mix",
+  "url": "https://www.youtube.com/watch?v=55n8at768kc",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Discusses the reasons and benefits of planting cover crops.",
+  "tasks": [
+    {
+      "task": "Explain the process of planting cover crops.",
+      "start": 6.32,
+      "end": 31.76,
+      "subtasks": [
+        {
+          "text": "Describe the oats field that was harvested and immediately turned into a cover crop field.",
+          "start": 6.32,
+          "end": 11.6,
+          "segment_ids": [
+            1
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "55n8at768kc/task00_sub00_f00.jpg",
+              "caption": "A man in a field holding a plant.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "55n8at768kc/task00_sub00_f01.jpg",
+              "caption": "A man in a field holding a piece of grass.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "55n8at768kc/task00_sub00_f02.jpg",
+              "caption": "Two men are standing in a field, one holding a plant and the other holding a piece of equipment.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene shows the transition from harvesting an oats field to preparing it for cover crops, involving multiple individuals and equipment.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A man is seen holding a plant, likely an oat, indicating recent harvesting activity.",
+            "- [frames=[1]] Another man holds a piece of grass, suggesting the field previously contained oats.",
+            "- [frames=[2]] Two men are observed in the field, one holding a plant and the other a piece of equipment, possibly a tiller or plow.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The field has been recently harvested, evidenced by the presence of oat plants. The immediate preparation for cover crops involves turning the soil, likely using some form of equipment held by one of the men.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the current state of the field, having observed the previous harvest.",
+            "- The robot needs to know the location of the field and the equipment required for turning the soil.",
+            "- The robot must be capable of identifying different types of plants and equipment.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The field should show signs of being prepared for cover crops, such as tilled soil.",
+            "- The robot should confirm that the oats have been completely removed and the soil is ready for new planting.",
+            "- The equipment used for turning the soil should be properly stowed or reset.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the field where the oats were harvested.",
+            "2. [type=perception, frames=[2]] Identify the type of equipment held by the second man and confirm its readiness.",
+            "3. [type=navigation, frames=[2]] Move to the area where the oats were harvested.",
+            "4. [type=manipulation, frames=[2]] Assist in operating the equipment to turn the soil.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the field where the oats were harvested. It then verifies the key detail directly from the frames (Identify the type of equipment held by the second man and confirm its readiness).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the field where the oats were harvested; Move to the area where the oats were harvested; Assist in operating the equipment to turn the soil; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 5.279999999999999,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/55n8at768kc/task00/sub00/motion.bvh",
+            "params_path": "results/momask/55n8at768kc/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Outline the composition of the 21-species cover crop mix.",
+          "start": 11.6,
+          "end": 24.24,
+          "segment_ids": [
+            2,
+            3
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "55n8at768kc/task00_sub01_f01.jpg",
+              "caption": "A man in a field is looking at the land.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "55n8at768kc/task00_sub01_f02.jpg",
+              "caption": "The video shows cover crops being used to optimize land.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe the composition of a 21-species cover crop mix, which is essential for optimizing land health and biodiversity.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A man in a field is looking at the land, indicating initial observation.",
+            "- [frames=[2]] The video shows cover crops being used to optimize land, providing context for the mix's purpose.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene involves a man observing the land and cover crops, suggesting an educational or demonstration setting. The focus is on understanding the composition of a diverse cover crop mix.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to a display or screen to show information.",
+            "- The robot needs to be able to read and interpret visual cues from the video.",
+            "- The robot must have knowledge about cover crop mixes and their components.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify all 21 species in the mix.",
+            "- It should correctly explain the benefits of using such a diverse mix.",
+            "- The robot must ensure the information is presented clearly and comprehensively.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Observe the man in the field to understand the context.",
+            "2. [type=perception, frames=[2]] Read the information about cover crops optimizing land.",
+            "3. [type=navigation, frames=[1]] Move to a position where it can clearly see the cover crops.",
+            "4. [type=communication, frames=[2]] Use a digital interface to display the list of 21 species.",
+            "5. [type=communication, frames=[2]] Highlight each species one by one on the display.",
+            "6. [type=communication, frames=[2]] Announce the name and role of each species in the mix.",
+            "7. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Observe the man in the field to understand the context. It then verifies the key detail directly from the frames (Read the information about cover crops optimizing land). After verification, it communicates the result clearly (Announce the name and role of each species in the mix).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move to a position where it can clearly see the cover crops; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 12.639999999999999,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/55n8at768kc/task00/sub01/motion.bvh",
+            "params_path": "results/momask/55n8at768kc/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Emphasize the importance of maintaining a proper carbon to nitrogen ratio.",
+          "start": 24.56,
+          "end": 31.76,
+          "segment_ids": [
+            4
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub02_f00.jpg",
+              "relative_path": "55n8at768kc/task00_sub02_f00.jpg",
+              "caption": "The video frame shows a close-up of cover crops growing on a farm.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub02_f01.jpg",
+              "relative_path": "55n8at768kc/task00_sub02_f01.jpg",
+              "caption": "The video frame shows a field with cover crops, emphasizing the use of cover crops for optimizing land.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub02_f02.jpg",
+              "relative_path": "55n8at768kc/task00_sub02_f02.jpg",
+              "caption": "Two men are standing in a field, one holding a plant.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should explain the importance of maintaining a proper carbon to nitrogen ratio when planting cover crops, ensuring optimal growth and soil health.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A close-up of cover crops growing on a farm is shown, highlighting their presence and variety.",
+            "- [frames=[0,1]] A field with cover crops is emphasized, showing how they optimize land use.",
+            "- [frames=[2]] Two men are seen in a field, one holding a plant, indicating the manual handling of cover crops.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from a detailed view of growing cover crops to a broader field view, emphasizing their role in optimizing land. The presence of two individuals handling a plant suggests a hands-on approach to planting.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have knowledge about cover crops and their benefits.",
+            "- The robot needs to be aware of the current state of the field and the crops being planted.",
+            "- The robot should be equipped with tools for measuring and verifying the carbon to nitrogen ratio.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately convey the importance of the carbon to nitrogen ratio.",
+            "- The explanation should be clear and understandable to the viewer.",
+            "- The robot should demonstrate the correct method of checking the ratio during the planting process.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Observe the cover crops growing on the farm.",
+            "2. [type=perception, frames=[2]] Identify the individuals handling the plant.",
+            "3. [type=manipulation, frames=[2]] Assist in the planting process by holding the plant.",
+            "4. [type=communication, frames=[0,1,2]] Explain the importance of maintaining a proper carbon to nitrogen ratio.",
+            "5. [type=manipulation, frames=[2]] Help in measuring the carbon.",
+            "6. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "7. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Observe the cover crops growing on the farm. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Assist in the planting process by holding the plant; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 7.200000000000003,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/55n8at768kc/task00/sub02/motion.bvh",
+            "params_path": "results/momask/55n8at768kc/task00/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Detail the benefits of using cover crops.",
+      "start": 44.24,
+      "end": 57.04,
+      "subtasks": [
+        {
+          "text": "Highlight the goal of increasing soil organic matter.",
+          "start": 51.04,
+          "end": 54.04,
+          "segment_ids": [
+            8
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "55n8at768kc/task01_sub00_f00.jpg",
+              "caption": "A man in a field is talking about optimizing land with cover crops.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "55n8at768kc/task01_sub00_f01.jpg",
+              "caption": "A man in a field is holding a plant.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "55n8at768kc/task01_sub00_f02.jpg",
+              "caption": "A man in a field is holding a plant.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe the farmer discussing the benefits of cover crops, specifically focusing on how they increase soil organic matter.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The man in the field is talking about optimizing land with cover crops.",
+            "- [frames=[1,2]] The man is holding a plant, indicating he is showing a specific type of cover crop.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a farmer explaining the advantages of cover crops, particularly highlighting their role in enhancing soil organic matter. The farmer uses a physical example by holding a plant, suggesting a hands-on demonstration.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be positioned near the farmer to capture his explanation.",
+            "- The robot needs to have a camera to observe the farmer's actions and speech.",
+            "- The robot should have knowledge about cover crops and their benefits.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the farmer’s focus on increasing soil organic matter.",
+            "- The robot should correctly interpret the farmer’s demonstration of a cover crop.",
+            "- The robot should be able to summarize the key points of the discussion.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Listen to the farmer’s explanation about cover crops.",
+            "2. [type=perception, frames=[1,2]] Observe the farmer holding a plant to demonstrate a cover crop.",
+            "3. [type=manipulation, frames=[1,2]] Mimic the farmer by picking up a similar plant to show understanding.",
+            "4. [type=perception, frames=[0,1,2]] Confirm the farmer’s point about increasing soil organic matter.",
+            "5. [type=manipulation, frames=[1,2]] Place the plant back in its original position to maintain the scene.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Listen to the farmer’s explanation about cover crops. It then verifies the key detail directly from the frames (Confirm the farmer’s point about increasing soil organic matter).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Mimic the farmer by picking up a similar plant to show understanding; Place the plant back in its original position to maintain the scene; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/55n8at768kc/task01/sub00/motion.bvh",
+            "params_path": "results/momask/55n8at768kc/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Note the intention to improve water infiltration and nutrient cycling.",
+          "start": 54.04,
+          "end": 57.04,
+          "segment_ids": [
+            8
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "55n8at768kc/task01_sub01_f01.jpg",
+              "caption": "The video shows a field with cover crops.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "55n8at768kc/task01_sub01_f02.jpg",
+              "caption": "The video frame shows a black background with a white logo that says \"Growing Resilience Through Our Soils.\"",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot is instructed to note the intention behind planting cover crops, specifically focusing on improving water infiltration and nutrient cycling.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] The video shows a field with cover crops, indicating the presence of diverse plant species.",
+            "- [frames=[2]] A black background with a white logo appears, which does not provide additional context but serves as a transition.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shifts from showing a field with cover crops to a logo, suggesting a change in focus or a transition in the video content. The field likely represents the current state of the agricultural practice being discussed.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to observe the field.",
+            "- The robot needs to be within range to read the logo on the black background.",
+            "- The robot must have access to information about cover crops and their benefits.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Verify that the field contains multiple species of cover crops.",
+            "- Confirm that the intention to improve water infiltration and nutrient cycling is noted.",
+            "- Measure or cross-check the presence of diverse plant species in the field.",
+            "- Ensure the robot can communicate the observed benefits effectively.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Capture an image of the field to verify the presence of cover crops.",
+            "2. [type=perception, frames=[2]] Read the logo on the black background to confirm the transition.",
+            "3. [type=manipulation, frames=[1]] Collect data on the diversity of plant species in the field.",
+            "4. [type=perception, frames=[1]] Analyze the collected data to confirm the presence of multiple species.",
+            "5. [type=communication, frames=[1,2]] Report the findings on water infiltration and nutrient cycling improvements.",
+            "6. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture an image of the field to verify the presence of cover crops. It then verifies the key detail directly from the frames (Capture an image of the field to verify the presence of cover crops). After verification, it communicates the result clearly (Report the findings on water infiltration and nutrient cycling improvements).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Collect data on the diversity of plant species in the field; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/55n8at768kc/task01/sub01/motion.bvh",
+            "params_path": "results/momask/55n8at768kc/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Mention the aim of reducing synthetic fertilizers through cover crops.",
+          "start": 44.24,
+          "end": 51.04,
+          "segment_ids": [
+            7
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub02_f00.jpg",
+              "relative_path": "55n8at768kc/task01_sub02_f00.jpg",
+              "caption": "The video shows two men in a field discussing cover crops.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub02_f01.jpg",
+              "relative_path": "55n8at768kc/task01_sub02_f01.jpg",
+              "caption": "A man in a field is holding a bunch of plants, and there is another man in the background.",
+              "frame_index": 1
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should observe the discussion about the benefits of using cover crops, specifically focusing on how they reduce the need for synthetic fertilizers.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] Two men in a field are seen discussing cover crops.",
+            "- [frames=[1]] A man is holding a bunch of plants, with another man in the background.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a field where two individuals are engaged in a conversation about cover crops, with one individual holding a sample of the plants. This interaction likely revolves around the benefits of using cover crops, including their role in reducing synthetic fertilizers.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot needs to be within earshot of the conversation.",
+            "- The robot should have knowledge of cover crops and their benefits.",
+            "- The robot must be equipped with a camera to observe the field and participants.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the mention of reducing synthetic fertilizers.",
+            "- The robot should correctly convey the information about the benefits of cover crops.",
+            "- The robot should ensure the conversation is understood and recorded for further analysis.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Listen to the conversation and identify the mention of reducing synthetic fertilizers.",
+            "2. [type=manipulation, frames=[1]] Take a close-up photo of the plants being held by the man.",
+            "3. [type=perception, frames=[0,1]] Confirm with the men that the discussion is about the benefits of cover crops.",
+            "4. [type=manipulation, frames=[1]] Collect a sample of the plants for further analysis.",
+            "5. [type=perception, frames=[0,1]] Verify the information about reducing synthetic fertilizers by cross-checking with known data.",
+            "6. [type=navigation, frames=[0,1]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Listen to the conversation and identify the mention of reducing synthetic fertilizers. It then verifies the key detail directly from the frames (Confirm with the men that the discussion is about the benefits of cover crops).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Take a close-up photo of the plants being held by the man; Collect a sample of the plants for further analysis; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 6.799999999999997,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/55n8at768kc/task01/sub02/motion.bvh",
+            "params_path": "results/momask/55n8at768kc/task01/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

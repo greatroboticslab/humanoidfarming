@@ -1,0 +1,700 @@
+{
+  "video_index": "EFGf7n20A-I",
+  "title": "Chickens Spread Across Cultures Through History",
+  "url": "https://www.youtube.com/watch?v=EFGf7n20A-I",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "The transcript outlines the historical domestication and spread of chickens, detailing their cultural and agricultural significance.",
+  "tasks": [
+    {
+      "task": "Describe the early domestication and spread of chickens.",
+      "start": 0.0,
+      "end": 7.16,
+      "subtasks": [
+        {
+          "text": "Observe the initial domestication of chickens around 8,000 years ago in Southeast Asia.",
+          "start": 0.0,
+          "end": 2.54,
+          "segment_ids": [
+            0
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "EFGf7n20A-I/task00_sub00_f00.jpg",
+              "caption": "A large flock of chickens is seen in a crowded, industrial setting with bright lights.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "EFGf7n20A-I/task00_sub00_f01.jpg",
+              "caption": "A vibrant, colorful rooster stands on a mossy log in a lush, green forest.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "EFGf7n20A-I/task00_sub00_f02.jpg",
+              "caption": "A vibrant rooster stands on a mossy log in a lush, forested environment.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene depicts the initial domestication of chickens around 8,000 years ago in Southeast Asia, focusing on the roosters' presence in natural and industrial settings.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A large flock of chickens is seen in a crowded, industrial setting with bright lights.",
+            "- [frames=[1,2]] A vibrant, colorful rooster stands on a mossy log in a lush, green forest.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from an industrial environment to a natural forest, highlighting the contrast between the domesticated and wild habitats of chickens. The roosters in both scenes symbolize the early stages of chicken domestication.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with sensors to detect and identify roosters.",
+            "- The robot needs to navigate through different environments.",
+            "- The robot must have the capability to capture and analyze images.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify and track the roosters in both scenes.",
+            "- The robot must successfully transition between the industrial and natural settings.",
+            "- The robot should measure the differences in the roosters' environments.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Navigate to the industrial setting where the large flock of chickens is located.",
+            "2. [type=perception, frames=[0]] Use visual sensors to identify and track the roosters in the industrial setting.",
+            "3. [type=navigation, frames=[1,2]] Transition to the natural forest setting.",
+            "4. [type=perception, frames=[1,2]] Identify and track the roosters standing on the mossy log.",
+            "5. [type=perception, frames=[0,1,2]] Compare the characteristics of the roosters in both settings.",
+            "6. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "7. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the industrial setting where the large flock of chickens is located. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Note the primary reason for domestication, which was the need for a reliable source of food.",
+          "start": 2.54,
+          "end": 5.08,
+          "segment_ids": [
+            0
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "EFGf7n20A-I/task00_sub01_f01.jpg",
+              "caption": "A vibrant rooster stands in a lush, tropical jungle.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "EFGf7n20A-I/task00_sub01_f02.jpg",
+              "caption": "A vibrant rooster stands on a mossy log in a lush, green jungle.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should observe a rooster in a jungle setting to understand why early humans domesticated chickens primarily for food.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1,2]] A vibrant rooster is standing in a lush, tropical jungle environment.",
+            "- [frames=[1,2]] The rooster is depicted on a mossy log in the jungle.",
+            "- [frames=[1,2]] The jungle is described as lush and green, indicating a tropical setting.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a rooster in a dense jungle, suggesting an environment where early humans might have encountered wild chickens. This setting aligns with the historical context of early domestication, where chickens were likely tamed for their utility as a food source.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot needs to be in a position to observe the rooster.",
+            "- The robot should have knowledge about the historical context of chicken domestication.",
+            "- The robot must be able to recognize the rooster and its environment.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the rooster.",
+            "- It should understand the jungle setting as relevant to early domestication.",
+            "- The robot should be able to explain the primary reason for domestication based on the observed scene.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1,2]] Identify the rooster in the jungle environment.",
+            "2. [type=perception, frames=[1,2]] Confirm the jungle setting is lush and green.",
+            "3. [type=perception, frames=[1,2]] Verify the rooster is standing on a mossy log.",
+            "4. [type=manipulation, frames=[1,2]] Adjust camera angle to get a better view of the rooster and its surroundings.",
+            "5. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the rooster in the jungle environment. It then verifies the key detail directly from the frames (Confirm the jungle setting is lush and green).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Highlight how chickens provided both meat and eggs during early domestication.",
+          "start": 0.0,
+          "end": 7.16,
+          "segment_ids": [
+            0,
+            1
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub02_f02.jpg",
+              "relative_path": "EFGf7n20A-I/task00_sub02_f02.jpg",
+              "caption": "A rooster stands in a barnyard, with the words \"THIS EARLY\" superimposed on its face.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Chickens were domesticated early for their dual purpose of providing both meat and eggs, as depicted in the initial frames of the video.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[2]] A rooster is seen standing in a barnyard, indicating an early agricultural setting.",
+            "- [frames=[2]] The rooster is superimposed with the words \"THIS EARLY,\" emphasizing the early domestication period.",
+            "- [frames=[2]] The rooster is positioned in a barnyard, suggesting a rural environment where chickens were first domesticated.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene portrays a rooster in a barnyard, which symbolizes the early domestication period when chickens were first tamed for their utility in providing both meat and eggs.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture the barnyard scene.",
+            "- The robot needs to have knowledge about early domestication practices.",
+            "- The robot must be able to navigate within the barnyard area.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the rooster in the barnyard.",
+            "- It should correctly interpret the early domestication context.",
+            "- The robot should convey the dual purpose of chickens (meat and eggs) effectively.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[2]] Navigate to the barnyard area where the rooster is located.",
+            "2. [type=perception, frames=[2]] Use the camera to capture images of the rooster and its surroundings.",
+            "3. [type=navigation, frames=[2]] Position the robot to get a clear view of the rooster's face.",
+            "4. [type=communication, frames=[2]] Announce the presence of the rooster and its significance in early domestication.",
+            "5. [type=perception, frames=[2]] Verify/confirm the key observation before reporting.",
+            "6. [type=navigation, frames=[2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the barnyard area where the rooster is located. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting). After verification, it communicates the result clearly (Announce the presence of the rooster and its significance in early domestication).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Explain the spread of chickens across Asia.",
+      "start": 20.24,
+      "end": 27.44,
+      "subtasks": [
+        {
+          "text": "Notice the evidence of chickens in China by 3,000 BC.",
+          "start": 20.24,
+          "end": 25.84,
+          "segment_ids": [
+            5
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "EFGf7n20A-I/task01_sub00_f00.jpg",
+              "caption": "A rooster stands in a Chinese-style alleyway with traditional architecture and lanterns.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "EFGf7n20A-I/task01_sub00_f01.jpg",
+              "caption": "A rooster is walking in a Chinese village.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "EFGf7n20A-I/task01_sub00_f02.jpg",
+              "caption": "A rooster is walking in a Chinese-style courtyard with pagodas and lanterns.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should observe the presence of chickens in ancient Chinese settings, indicating their early spread into the region by 3,000 BC.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A rooster stands in a Chinese-style alleyway with traditional architecture and lanterns.",
+            "- [frames=[1]] A rooster is walking in a Chinese village.",
+            "- [frames=[2]] A rooster is walking in a Chinese-style courtyard with pagodas and lanterns.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict roosters in various traditional Chinese settings, suggesting the presence of chickens in ancient Chinese culture by 3,000 BC.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot has access to historical context about the spread of chickens.",
+            "- The robot can recognize roosters and traditional Chinese architectural elements.",
+            "- The robot has navigational capabilities to move through the scene.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot identifies at least two different roosters in the scenes.",
+            "- The robot confirms the presence of traditional Chinese architecture and lanterns.",
+            "- The robot verifies the roosters' presence in multiple locations within the scenes.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Move to the position of the rooster in the Chinese-style alleyway.",
+            "2. [type=perception, frames=[0]] Verify the presence of a rooster standing in the alleyway.",
+            "3. [type=navigation, frames=[1]] Move to the location where the rooster is walking in the Chinese village.",
+            "4. [type=perception, frames=[1]] Confirm the rooster's presence in the village setting.",
+            "5. [type=navigation, frames=[2]] Move to the courtyard with pagodas and lanterns.",
+            "6. [type=perception, frames=[2]] Check.",
+            "7. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to the position of the rooster in the Chinese-style alleyway. It then verifies the key detail directly from the frames (Verify the presence of a rooster standing in the alleyway).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Observe the appearance of chickens in India by 2,000 BC.",
+          "start": 25.84,
+          "end": 27.44,
+          "segment_ids": [
+            6
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "EFGf7n20A-I/task01_sub01_f01.jpg",
+              "caption": "A rooster stands in a picturesque Chinese village with traditional architecture and mountains in the background.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "EFGf7n20A-I/task01_sub01_f02.jpg",
+              "caption": "Ancient Egyptians are depicted in elaborate costumes and jewelry.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "By 2,000 BC, chickens had already made their way into Indian culture, as evidenced by their presence in an ancient Indian village setting.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A rooster is standing in a picturesque Chinese village, which does not align with the subtask's focus on India.",
+            "- [frames=[2]] Ancient Egyptians are depicted in elaborate costumes and jewelry, which is irrelevant to the subtask.",
+            "- [frames=[1,2]] The scenes do not directly show chickens in India, but they provide context for the spread of chickens across different regions.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The frames depict settings in China and Egypt, indicating the spread of chickens beyond India. However, the actual appearance of chickens in India by 2,000 BC is not shown in these frames.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have knowledge of historical timelines and geographical spread of domesticated animals.",
+            "- The robot needs access to a database containing images and descriptions of ancient Indian villages.",
+            "- The robot should be able to navigate through the video frames accurately.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should identify the presence of a rooster in an Indian village setting by 2,000 BC.",
+            "- The robot should confirm the cultural context of the village.",
+            "- The robot should measure the timeline consistency with 2,000 BC.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate to the frame showing the rooster in the Chinese village.",
+            "2. [type=perception, frames=[1]] Verify the presence of a rooster in the scene.",
+            "3. [type=navigation, frames=[2]] Skip to the next frame showing ancient Egyptians.",
+            "4. [type=perception, frames=[1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[1]] Return to the frame showing the rooster.",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the frame showing the rooster in the Chinese village. It then verifies the key detail directly from the frames (Verify the presence of a rooster in the scene).",
+            "To finish safely, it completes cleanup and returns to standby: Return to the frame showing the rooster.",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Describe the cultural significance of chickens in ancient Egypt.",
+      "start": 27.44,
+      "end": 32.64,
+      "subtasks": [
+        {
+          "text": "Observe the European Egyptians valuing chickens.",
+          "start": 27.44,
+          "end": 31.44,
+          "segment_ids": [
+            7
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "EFGf7n20A-I/task02_sub00_f01.jpg",
+              "caption": "Two ancient Egyptian women in elaborate costumes and headdresses stand holding hands, adorned with intricate jewelry and symbols.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "EFGf7n20A-I/task02_sub00_f02.jpg",
+              "caption": "The video frame features two ancient Egyptian goddesses, Hathor, depicted in traditional attire and holding a staff.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene depicts ancient Egyptian women, likely representing European Egyptians, valuing chickens through their elaborate attire and symbolic gestures.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] Two ancient Egyptian women in elaborate costumes and headdresses stand holding hands, adorned with intricate jewelry and symbols.",
+            "- [frames=[2]] The video frame features two ancient Egyptian goddesses, Hathor, depicted in traditional attire and holding a staff.",
+            "- Both frames suggest a ceremonial or religious context involving chickens, possibly symbolizing their importance.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene portrays a ceremonial setting where chickens are valued, likely due to their cultural and religious significance in ancient Egypt. The presence of goddesses and elaborate attire indicates a formal and revered context.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be positioned near the screen to observe the frames.",
+            "- The robot should have the ability to read and interpret visual cues.",
+            "- The robot should be able to communicate findings to the user.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Verify that the women are depicted in elaborate costumes and headdresses.",
+            "- Confirm that the women are holding hands and adorned with intricate jewelry and symbols.",
+            "- Check that the scene includes representations of chickens or symbols related to them.",
+            "- Measure the level of detail in the depiction of the women and their attire.",
+            "- Cross-check the presence of any religious or ceremonial elements.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Read the detailed costumes and headdresses of the women.",
+            "2. [type=perception, frames=[2]] Identify the goddesses and their traditional attire.",
+            "3. [type=perception, frames=[1]] Verify that the women are holding hands.",
+            "4. [type=perception, frames=[1]] Confirm the intricate jewelry and symbols on the women.",
+            "5. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Read the detailed costumes and headdresses of the women. It then verifies the key detail directly from the frames (Read the detailed costumes and headdresses of the women).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Highlight the link between chickens and deities like the goddess Hathor.",
+          "start": 31.44,
+          "end": 32.64,
+          "segment_ids": [
+            8
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub01_f01.jpg",
+              "relative_path": "EFGf7n20A-I/task02_sub01_f01.jpg",
+              "caption": "Two ancient Egyptian pharaohs are depicted holding a staff, surrounded by hieroglyphs and symbols.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub01_f02.jpg",
+              "relative_path": "EFGf7n20A-I/task02_sub01_f02.jpg",
+              "caption": "The video frame shows a scenic map of a region with waterways and traditional Chinese architecture, emphasizing trade routes.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should highlight the connection between chickens and deities like Hathor in ancient Egypt, focusing on the depiction of pharaohs holding a staff surrounded by hieroglyphs and symbols.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] The scene shows two ancient Egyptian pharaohs holding a staff, with hieroglyphs and symbols around them.",
+            "- [frames=[2]] The frame transitions to a map with waterways and traditional Chinese architecture, which is not relevant to the subtask.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The robot needs to focus on the first frame, where the pharaohs are depicted holding a staff, surrounded by hieroglyphs and symbols. This scene likely indicates the religious and cultural significance of chickens in ancient Egypt, particularly their association with deities such as Hathor.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be able to recognize images and symbols.",
+            "- It should have knowledge about ancient Egyptian deities and their attributes.",
+            "- The robot must be capable of navigating to the correct frame and performing actions based on visual cues.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the pharaohs and the staff they are holding.",
+            "- It should recognize the hieroglyphs and symbols surrounding the pharaohs.",
+            "- The robot should accurately describe the connection between chickens and deities like Hathor.",
+            "- The robot should provide a clear explanation of the cultural significance of this imagery.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Identify the two pharaohs holding a staff.",
+            "2. [type=perception, frames=[1]] Recognize the hieroglyphs and symbols surrounding the pharaohs.",
+            "3. [type=manipulation, frames=[1]] Point to the staff held by the pharaohs.",
+            "4. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "5. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the two pharaohs holding a staff. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Discuss the global spread of chickens through trade routes.",
+      "start": 32.64,
+      "end": 37.28,
+      "subtasks": [
+        {
+          "text": "Note the movement of chickens to Europe and the Americas.",
+          "start": 32.64,
+          "end": 34.96,
+          "segment_ids": [
+            9
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub00_f01.jpg",
+              "relative_path": "EFGf7n20A-I/task03_sub00_f01.jpg",
+              "caption": "A picturesque map of China with traditional architecture and natural landscapes.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub00_f02.jpg",
+              "relative_path": "EFGf7n20A-I/task03_sub00_f02.jpg",
+              "caption": "A map of China with a Chinese house and a chicken.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should note the movement of chickens from Asia to Europe and the Americas, focusing on their spread via trade routes.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A picturesque map of China with traditional architecture and natural landscapes is visible.",
+            "- [frames=[1]] The same map now includes a Chinese house and a chicken, indicating the presence of chickens in China.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shifts from a general view of China to a more detailed depiction including a chicken, suggesting the introduction of chickens into Chinese households.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot needs to be equipped with a camera to capture the map details.",
+            "- It should have access to historical trade route data.",
+            "- The robot must be able to identify and track the movement of chickens across different regions.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the presence of chickens in China.",
+            "- It must confirm the spread of chickens to Europe and the Americas.",
+            "- The robot should verify the historical context of trade routes used for this spread.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Capture an image of the map showing China.",
+            "2. [type=perception, frames=[1]] Identify the chicken on the map.",
+            "3. [type=navigation, frames=[1]] Move to a closer view of the chicken.",
+            "4. [type=perception, frames=[1]] Confirm the presence of a chicken in China.",
+            "5. [type=navigation, frames=[1,2]] Navigate to the section of the map showing Europe.",
+            "6. [type=perception, frames=[1,2]] Verify the presence of chickens in Europe.",
+            "7. [type=navigation, frames=[1,2]] Move to the section of the map showing the Americas.",
+            "8. [type=perception, frames=[1,2]] Check for.",
+            "9. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture an image of the map showing China. It then verifies the key detail directly from the frames (Confirm the presence of a chicken in China).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Observe the impact of chickens on agricultural practices globally.",
+          "start": 34.96,
+          "end": 37.28,
+          "segment_ids": [
+            9
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub01_f01.jpg",
+              "relative_path": "EFGf7n20A-I/task03_sub01_f01.jpg",
+              "caption": "The video frame shows a stylized map of the Americas with a Chinese-style building in the foreground.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub01_f02.jpg",
+              "relative_path": "EFGf7n20A-I/task03_sub01_f02.jpg",
+              "caption": "A rooster is standing on a map of the world, with the word \"AGRICULTURAL\" written over it.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe how chickens influenced agricultural practices across different regions, focusing on the Americas and beyond.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A stylized map of the Americas is shown with a Chinese-style building in the foreground, indicating historical trade connections.",
+            "- [frames=[2]] A rooster stands on a map of the world, with the word \"AGRICULTURAL\" written over it, symbolizing the spread of agricultural practices via chickens.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene highlights the global reach of chickens, emphasizing their role in shaping agricultural practices. The presence of a Chinese-style building suggests early trade routes involving East Asia, while the rooster on the world map underscores the universal impact of chickens.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to a display screen capable of showing images and videos.",
+            "- The robot needs to be familiar with basic geographical information.",
+            "- The robot must be able to read and interpret text on the screen.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the map and the rooster.",
+            "- It should recognize the significance of the Chinese-style building and the word \"AGRICULTURAL.\"",
+            "- The robot should be able to explain the influence of chickens on agriculture based on the provided visuals.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate to the map of the Americas.",
+            "2. [type=perception, frames=[1]] Verify the presence of the Chinese-style building.",
+            "3. [type=navigation, frames=[2]] Move to the rooster standing on the world map.",
+            "4. [type=perception, frames=[2]] Confirm the word \"AGRICULTURAL\" is visible.",
+            "5. [type=manipulation, frames=[1,2]] Highlight the map and the rooster using a virtual pointer.",
+            "6. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the map of the Americas. It then verifies the key detail directly from the frames (Verify the presence of the Chinese-style building).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Conclude by noting the current widespread nature of chickens.",
+      "start": 39.88,
+      "end": 46.2,
+      "subtasks": [
+        {
+          "text": "Observe chickens as among the most widespread domesticated animals today.",
+          "start": 39.88,
+          "end": 46.2,
+          "segment_ids": [
+            11,
+            12
+          ],
+          "frames": [
+            {
+              "image_file": "task04_sub00_f00.jpg",
+              "relative_path": "EFGf7n20A-I/task04_sub00_f00.jpg",
+              "caption": "A rooster is standing on a map of the world, with the caption \"Today, Chickens.\"",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task04_sub00_f01.jpg",
+              "relative_path": "EFGf7n20A-I/task04_sub00_f01.jpg",
+              "caption": "A group of chickens and roosters are gathered in front of a blue barn.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task04_sub00_f02.jpg",
+              "relative_path": "EFGf7n20A-I/task04_sub00_f02.jpg",
+              "caption": "A group of chickens and roosters are gathered in a grassy field near a blue barn.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe chickens as one of the most widespread domesticated animals today, emphasizing their global presence and commonality.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A rooster stands on a map of the world, labeled \"Today, Chickens.\"",
+            "- [frames=[1,2]] Groups of chickens and roosters are gathered in front of a blue barn and in a grassy field near the barn.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts chickens in various settings, including a barn and an open field, reinforcing their widespread domestication across different environments.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture images.",
+            "- The robot should have knowledge of chicken characteristics to identify them accurately.",
+            "- The robot should be able to navigate to different areas within the scene.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Verify that the robot identifies multiple groups of chickens in diverse settings.",
+            "- Confirm that the robot recognizes the rooster on the map.",
+            "- Check that the robot notes the presence of chickens in both indoor and outdoor environments.",
+            "- Measure the number of chickens in each setting to ensure a comprehensive count.",
+            "- Cross-check the identification of chickens with the rooster on the map.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1,2]] Capture images of the scene to identify chickens and roosters.",
+            "2. [type=perception, frames=[0]] Identify the rooster on the map and confirm its label.",
+            "3. [type=navigation, frames=[1]] Move to the area where chickens are gathered in front of the barn.",
+            "4. [type=perception, frames=[1]] Verify the presence of multiple chickens and roosters.",
+            "5. [type=navigation, frames=[2]] Move to the grassy field near the barn.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture images of the scene to identify chickens and roosters. It then verifies the key detail directly from the frames (Identify the rooster on the map and confirm its label).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

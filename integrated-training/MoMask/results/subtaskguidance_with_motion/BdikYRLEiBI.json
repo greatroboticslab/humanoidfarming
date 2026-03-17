@@ -1,0 +1,497 @@
+{
+  "video_index": "BdikYRLEiBI",
+  "title": "Hernshaw Farms USDA Certification Milestone",
+  "url": "https://www.youtube.com/watch?v=BdikYRLEiBI",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Hernshaw Farms is described as a certified mushroom farm in West Virginia, setting a precedent in the region.",
+  "tasks": [
+    {
+      "task": "Outline Hernshaw Farms' achievements and certification.",
+      "start": 0.59,
+      "end": 7.19,
+      "subtasks": [
+        {
+          "text": "Describe Hernshaw Farms' successful renewal of the USDA Mushroom Good Agricultural Practices certification.",
+          "start": 0.59,
+          "end": 3.89,
+          "segment_ids": [
+            0
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "BdikYRLEiBI/task00_sub00_f00.jpg",
+              "caption": "The video frame shows a blue and white graphic with the words \"COVERAGE CONTINUES\" on it.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "BdikYRLEiBI/task00_sub00_f01.jpg",
+              "caption": "A woman in a blue shirt is speaking in front of a sign for Hernshaw Farms.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "BdikYRLEiBI/task00_sub00_f02.jpg",
+              "caption": "A woman is reporting on Hernshaw Farms, which is a mushroom farm.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Hernshaw Farms successfully renewed their USDA Mushroom Good Agricultural Practices certification, as reported by a woman in a blue shirt.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The video frame shows a blue and white graphic with the words \"COVERAGE CONTINUES\" on it.",
+            "- [frames=[1]] A woman in a blue shirt is speaking in front of a sign for Hernshaw Farms.",
+            "- [frames=[2]] A woman is reporting on Hernshaw Farms, which is a mushroom farm.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a woman providing information about Hernshaw Farms, likely a spokesperson or reporter, discussing the farm's recent achievement of renewing their USDA certification. The background includes a sign for Hernshaw Farms, confirming the location and subject of the discussion.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the current video context and the specific subtask.",
+            "- The robot needs to have access to the video frames and the ability to analyze them.",
+            "- The robot should be able to recognize the woman speaking and the sign for Hernshaw Farms.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the renewal of the USDA certification.",
+            "- The robot should accurately report the achievement of Hernshaw Farms.",
+            "- The robot should ensure the information aligns with the visual evidence provided in the frames.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Analyze the graphic to confirm the context of the video.",
+            "2. [type=perception, frames=[1]] Identify the woman in the blue shirt and her speech.",
+            "3. [type=perception, frames=[2]] Recognize the sign for Hernshaw Farms.",
+            "4. [type=communication, frames=[1]] Extract the key information about the certification renewal from the woman's speech.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Analyze the graphic to confirm the context of the video. It then verifies the key detail directly from the frames (Analyze the graphic to confirm the context of the video).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 3.3000000000000003,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/BdikYRLEiBI/task00/sub00/motion.bvh",
+            "params_path": "results/momask/BdikYRLEiBI/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Mention Hernshaw Farms' status as the first and only commercially certified mushroom farm in West Virginia.",
+          "start": 3.89,
+          "end": 7.19,
+          "segment_ids": [
+            0
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "BdikYRLEiBI/task00_sub01_f01.jpg",
+              "caption": "A woman is reporting on Hernshaw Farms.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "BdikYRLEiBI/task00_sub01_f02.jpg",
+              "caption": "The video frame shows a woman in a blue dress with a sign for Hernshaw Farms Mushrooms in the background.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Hernshaw Farms is highlighted as the first and only commercially certified mushroom farm in West Virginia, a significant milestone in their operations.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A woman is reporting on Hernshaw Farms.",
+            "- [frames=[2]] The video frame shows a woman in a blue dress with a sign for Hernshaw Farms Mushrooms in the background.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a reporter discussing Hernshaw Farms, likely providing information about their certification. The background sign confirms the focus on mushrooms and the location in West Virginia.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the current video frame.",
+            "- The robot should have access to the video metadata and subtask details.",
+            "- The robot should be able to identify the reporter and the sign in the background.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately mention Hernshaw Farms' status as the first and only commercially certified mushroom farm in West Virginia.",
+            "- The robot should ensure the information aligns with the video content.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Identify the reporter speaking about Hernshaw Farms.",
+            "2. [type=perception, frames=[2]] Confirm the presence of the sign for Hernshaw Farms Mushrooms in the background.",
+            "3. [type=manipulation, frames=[1,2]] Adjust camera angle to clearly show the sign for better visibility.",
+            "4. [type=communication, frames=[1,2]] Announce, \"Hernshaw Farms is the first and only commercially certified mushroom farm in West Virginia.\".",
+            "5. [type=perception, frames=[2]] Verify the sign confirms the statement.",
+            "6. [type=navigation, frames=[1,2]] Return the camera to its original position.",
+            "7. [type=communication, frames=[1,2]] Add, \"This.",
+            "8. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the reporter speaking about Hernshaw Farms. It then verifies the key detail directly from the frames (Confirm the presence of the sign for Hernshaw Farms Mushrooms in the background). After verification, it communicates the result clearly (Announce, \"Hernshaw Farms is the first and only commercially certified mushroom farm in West Virginia.\").",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Adjust camera angle to clearly show the sign for better visibility; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.3000000000000003,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/BdikYRLEiBI/task00/sub01/motion.bvh",
+            "params_path": "results/momask/BdikYRLEiBI/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Discuss Hernshaw Farms' innovative approach to mushroom farming in unexpected locations.",
+      "start": 20.79,
+      "end": 24.79,
+      "subtasks": [
+        {
+          "text": "Note the farm's cultivation of clean food in a former coal mine.",
+          "start": 20.79,
+          "end": 22.79,
+          "segment_ids": [
+            3
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "BdikYRLEiBI/task01_sub00_f00.jpg",
+              "caption": "A man is working in a tunnel-like construction site.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "BdikYRLEiBI/task01_sub00_f01.jpg",
+              "caption": "A man is walking through a warehouse with a forklift and a large pile of bags.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "BdikYRLEiBI/task01_sub00_f02.jpg",
+              "caption": "A man is moving a cart filled with large bags in a warehouse.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The farm is showcasing its innovative approach by cultivating mushrooms in a former coal mine, highlighting their commitment to clean food production in unconventional spaces.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A man is working in a tunnel-like construction site, indicating ongoing preparations or maintenance.",
+            "- [frames=[1]] The man is walking through a warehouse with a forklift and a large pile of bags, suggesting he is transporting materials.",
+            "- [frames=[2]] Another man is moving a cart filled with large bags in the same warehouse, further confirming material handling activities.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a warehouse setting where workers are actively engaged in material handling and possibly preparing for the cultivation process in the former coal mine. The presence of a forklift and large bags suggests the transport of mushroom spawn or other necessary materials.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the warehouse layout and the location of the forklift.",
+            "- The robot needs to know the dimensions and weight limits of the bags being moved.",
+            "- The robot must be familiar with the path from the warehouse to the former coal mine.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should successfully navigate the warehouse without colliding with any obstacles.",
+            "- The robot should accurately lift and move the bags using the forklift.",
+            "- The robot should verify the correct placement of the bags in the designated area.",
+            "- The robot should ensure all movements are within the safe weight limit.",
+            "- The robot should confirm the completion of the task before returning to standby mode.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Navigate to the tunnel-like construction site.",
+            "2. [type=perception, frames=[0]] Scan the environment to identify potential obstacles.",
+            "3. [type=navigation, frames=[1]] Move to the warehouse where the forkl.",
+            "4. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the tunnel-like construction site. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the tunnel-like construction site; Move to the warehouse where the forkl; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/BdikYRLEiBI/task01/sub00/motion.bvh",
+            "params_path": "results/momask/BdikYRLEiBI/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Highlight the farm's use of the Old Memorial Tunnel in Canal County for mushroom farming.",
+          "start": 22.79,
+          "end": 24.79,
+          "segment_ids": [
+            3
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "BdikYRLEiBI/task01_sub01_f01.jpg",
+              "caption": "A man is pushing a cart full of large bags in a warehouse.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "BdikYRLEiBI/task01_sub01_f02.jpg",
+              "caption": "A warehouse with pallets of plastic bags filled with items.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will navigate to a warehouse scene where it will observe the use of an old tunnel for mushroom farming, highlighting the innovative approach of Hernshaw Farms.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A man is pushing a cart full of large bags in a warehouse.",
+            "- [frames=[2]] A warehouse with pallets of plastic bags filled with items.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a typical warehouse setting with storage areas and workers moving goods around. The presence of large bags and pallets suggests a storage or distribution center.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be capable of navigating through a warehouse environment.",
+            "- It needs to recognize and identify large bags and pallets.",
+            "- The robot must be able to communicate the findings to the user.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the presence of large bags and pallets.",
+            "- It should confirm the location of the Old Memorial Tunnel within the warehouse.",
+            "- The robot should highlight the innovative use of the tunnel for mushroom farming.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate to the area where the man is pushing the cart.",
+            "2. [type=perception, frames=[1]] Observe the man pushing the cart and the large bags.",
+            "3. [type=navigation, frames=[2]] Move to the area with pallets of plastic bags.",
+            "4. [type=perception, frames=[2]] Verify the presence of pallets filled with items.",
+            "5. [type=navigation, frames=[1,2]] Proceed to the area where the Old Memorial Tunnel is located.",
+            "6. [type=perception, frames=[1,2]] Confirm the location of the Old Memorial Tunnel.",
+            "7. [type=manipulation, frames=[1,2]] Use a camera to capture images of the tunnel entrance.",
+            "8. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the area where the man is pushing the cart. It then verifies the key detail directly from the frames (Verify the presence of pallets filled with items).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the area where the man is pushing the cart; Move to the area with pallets of plastic bags; Proceed to the area where the Old Memorial Tunnel is located; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/BdikYRLEiBI/task01/sub01/motion.bvh",
+            "params_path": "results/momask/BdikYRLEiBI/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Explain the benefits of the certification for Hernshaw Farms.",
+      "start": 24.79,
+      "end": 30.49,
+      "subtasks": [
+        {
+          "text": "Describe the certification's focus on daily food safety, traceability, and quality.",
+          "start": 24.79,
+          "end": 27.64,
+          "segment_ids": [
+            4
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "BdikYRLEiBI/task02_sub00_f01.jpg",
+              "caption": "A large quantity of plastic-wrapped items are stored in a warehouse.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "BdikYRLEiBI/task02_sub00_f02.jpg",
+              "caption": "A tunnel with rows of plastic-wrapped items.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The certification focuses on ensuring daily food safety, traceability, and quality, which are crucial for Hernshaw Farms.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A large quantity of plastic-wrapped items are stored in a warehouse, indicating organized and potentially regulated storage.",
+            "- [frames=[2]] A tunnel with rows of plastic-wrapped items suggests an efficient and possibly automated process for handling and storing products.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict a well-organized warehouse and tunnel system, likely designed to maintain strict control over food safety, traceability, and quality.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to the warehouse and tunnel areas.",
+            "- The robot needs to be equipped with sensors for detecting food safety standards.",
+            "- The robot must be able to read labels and track product information.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Verify that all items are properly wrapped and labeled.",
+            "- Check that the storage conditions meet safety and quality standards.",
+            "- Confirm that the traceability system is functioning correctly.",
+            "- Measure the efficiency of the tunnel system in handling products.",
+            "- Cross-check the data against USDA guidelines.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate to the warehouse area.",
+            "2. [type=perception, frames=[1]] Scan the storage area to verify proper wrapping and labeling of items.",
+            "3. [type=navigation, frames=[2]] Move to the tunnel system.",
+            "4. [type=perception, frames=[2]] Inspect the tunnel for any signs of contamination or improper storage.",
+            "5. [type=perception, frames=[1]] Retrieve a sample item to check its condition and labeling.",
+            "6. [type=communication, frames=[1,2]] Report findings to the USDA certification team.",
+            "7. [type=navigation, frames=[2]] Return to the warehouse.",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the warehouse area. It then verifies the key detail directly from the frames (Scan the storage area to verify proper wrapping and labeling of items). After verification, it communicates the result clearly (Report findings to the USDA certification team).",
+            "To finish safely, it completes cleanup and returns to standby: Return to the warehouse.",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the warehouse area; Move to the tunnel system; Return to the warehouse; then return to a stable neutral stance.",
+            "duration_s": 3.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/BdikYRLEiBI/task02/sub00/motion.bvh",
+            "params_path": "results/momask/BdikYRLEiBI/task02/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Point out the farm's dedication to maintaining these standards.",
+          "start": 27.64,
+          "end": 30.49,
+          "segment_ids": [
+            4
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub01_f01.jpg",
+              "relative_path": "BdikYRLEiBI/task02_sub01_f01.jpg",
+              "caption": "A group of shoes are lined up in a warehouse.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub01_f02.jpg",
+              "relative_path": "BdikYRLEiBI/task02_sub01_f02.jpg",
+              "caption": "A close-up shot of a large, white mushroom in a storage room.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should highlight Hernshaw Farms' commitment to maintaining high standards, which is crucial for their USDA certification milestone.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A group of shoes are lined up in a warehouse, suggesting a focus on hygiene and cleanliness.",
+            "- [frames=[2]] A close-up shot of a large, white mushroom in a storage room indicates attention to quality and detail in product handling.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "These scenes emphasize the farm's meticulous approach to maintaining high standards, which is essential for achieving USDA certification.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot needs to be equipped with a camera to capture and analyze the scenes.",
+            "- It should have the ability to communicate the importance of these standards verbally.",
+            "- The robot must be able to navigate through the warehouse and storage rooms.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Verify that the shoes are neatly arranged, indicating a clean environment.",
+            "- Check that the mushrooms are stored properly, ensuring quality control.",
+            "- Confirm that the farm’s dedication to these standards is clearly communicated.",
+            "- Measure the adherence to hygiene and quality standards visually.",
+            "- Cross-check the visual evidence with the farm’s documentation.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate to the warehouse where the shoes are lined up.",
+            "2. [type=perception, frames=[1]] Verify that the shoes are neatly arranged.",
+            "3. [type=navigation, frames=[2]] Move to the storage room where the mushrooms are stored.",
+            "4. [type=perception, frames=[2]] Check that the mushrooms are stored properly.",
+            "5. [type=communication, frames=[1,2]] Announce the farm's dedication to maintaining these high standards.",
+            "6. [type=navigation, frames=[1,2]] Return to the starting point.",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the warehouse where the shoes are lined up. It then verifies the key detail directly from the frames (Verify that the shoes are neatly arranged). After verification, it communicates the result clearly (Announce the farm's dedication to maintaining these high standards).",
+            "To finish safely, it completes cleanup and returns to standby: Return to the starting point.",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the warehouse where the shoes are lined up; Move to the storage room where the mushrooms are stored; Return to the starting point; then return to a stable neutral stance.",
+            "duration_s": 3.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/BdikYRLEiBI/task02/sub01/motion.bvh",
+            "params_path": "results/momask/BdikYRLEiBI/task02/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

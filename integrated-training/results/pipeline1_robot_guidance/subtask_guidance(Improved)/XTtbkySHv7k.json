@@ -1,0 +1,299 @@
+{
+  "video_index": "XTtbkySHv7k",
+  "title": "Aeroponic Farming: Efficient and Nutritious Crops",
+  "url": "https://www.youtube.com/watch?v=XTtbkySHv7k",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "This video describes various benefits of aeroponic farming compared to traditional soil-based methods.",
+  "tasks": [
+    {
+      "task": "Explain the benefits of aeroponic farming.",
+      "start": 0.0,
+      "end": 13.76,
+      "subtasks": [
+        {
+          "text": "Distinguish between the 160 crops that can be grown aeroponically and soil-based crops.",
+          "start": 0.0,
+          "end": 4.08,
+          "segment_ids": [
+            0
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "XTtbkySHv7k/task00_sub00_f00.jpg",
+              "caption": "A woman on a ladder tends to a large, green lettuce plant in an indoor garden.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "XTtbkySHv7k/task00_sub00_f01.jpg",
+              "caption": "A woman on a ladder tends to a large, green lettuce plant in an outdoor vertical farming system.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "XTtbkySHv7k/task00_sub00_f02.jpg",
+              "caption": "A woman in overalls is tending to a hydroponic lettuce plant in a garden.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to distinguish between crops that can be grown aeroponically and those that require soil, focusing on lettuce as an example.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] The woman is tending to a large, green lettuce plant in both an indoor and outdoor setting.",
+            "- [frames=[2]] The woman in overalls is tending to a hydroponic lettuce plant in a garden.",
+            "- [frames=[0,1,2]] The scenes depict a woman tending to lettuce plants, indicating that lettuce is a crop suitable for aeroponics.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes show different settings where lettuce is being tended, suggesting that lettuce can thrive in both aeroponic and soil-based systems. However, the focus is on identifying which crops are specifically suited for aeroponic methods.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have knowledge of common crops and their growing methods.",
+            "- The robot should be able to recognize lettuce plants.",
+            "- The robot should be equipped with sensors to detect the growing medium (soil vs. air).",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify lettuce as a crop that can be grown aeroponically.",
+            "- The robot should differentiate between the indoor and outdoor settings shown.",
+            "- The robot should provide a clear distinction between aeroponic and soil-based growing methods.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Scan the indoor and outdoor lettuce plants to confirm they are lettuce.",
+            "2. [type=perception, frames=[2]] Identify the hydroponic lettuce plant in the garden.",
+            "3. [type=communication, frames=[0,1,2]] Announce that lettuce can be grown both aeroponically and in soil.",
+            "4. [type=navigation, frames=[0,1]] Move to the indoor setting.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Scan the indoor and outdoor lettuce plants to confirm they are lettuce. It then verifies the key detail directly from the frames (Scan the indoor and outdoor lettuce plants to confirm they are lettuce). After verification, it communicates the result clearly (Announce that lettuce can be grown both aeroponically and in soil).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Highlight the water-saving feature of vertical aeroponic farming.",
+          "start": 7.84,
+          "end": 11.36,
+          "segment_ids": [
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f00.jpg",
+              "relative_path": "XTtbkySHv7k/task00_sub01_f00.jpg",
+              "caption": "A woman is tending to a large, lush plant in an outdoor garden setting.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "XTtbkySHv7k/task00_sub01_f01.jpg",
+              "caption": "A person is harvesting vegetables from a vertical garden.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "XTtbkySHv7k/task00_sub01_f02.jpg",
+              "caption": "A woman tends to plants in a vertical hydroponic garden.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will explain how vertical aeroponic farming saves water by highlighting the efficiency of the system in the given frames.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A woman is tending to a large, lush plant in an outdoor garden setting.",
+            "- [frames=[1]] A person is harvesting vegetables from a vertical garden.",
+            "- [frames=[2]] A woman tends to plants in a vertical hydroponic garden.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict various stages of vertical aeroponic farming, including plant growth, harvesting, and maintenance. The focus is on the efficiency and water-saving aspects of the system.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the concept of aeroponic farming.",
+            "- The robot should have access to information about water-saving features.",
+            "- The robot should be able to navigate through the frames and speak clearly.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the water-saving feature.",
+            "- The robot should provide a clear comparison to traditional farming methods.",
+            "- The robot should engage the viewer effectively.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Observe the lush plant in the outdoor garden setting.",
+            "2. [type=perception, frames=[1]] Watch the person harvesting vegetables from the vertical garden.",
+            "3. [type=perception, frames=[2]] Notice the woman tending to plants in a vertical hydroponic garden.",
+            "4. [type=communication, frames=[0,1,2]] Explain the water-saving feature of vertical aeroponic farming.",
+            "5. [type=communication, frames=[0,1,2]] Compare the water usage of aeroponic farming to traditional farming methods.",
+            "6. [type=communication, frames=[0,1,2]] Emphasize the efficiency and sustainability of the system.",
+            "7. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "8. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Observe the lush plant in the outdoor garden setting. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Mention the space-saving advantage of aeroponic farming.",
+          "start": 11.36,
+          "end": 13.76,
+          "segment_ids": [
+            3
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub02_f01.jpg",
+              "relative_path": "XTtbkySHv7k/task00_sub02_f01.jpg",
+              "caption": "A woman tends to a vertical garden filled with various types of lettuce.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub02_f02.jpg",
+              "relative_path": "XTtbkySHv7k/task00_sub02_f02.jpg",
+              "caption": "A person tends to a vertical garden filled with lettuce plants.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should explain how aeroponic farming saves space by showing a vertical garden filled with lettuce.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A woman is tending to a vertical garden with various types of lettuce.",
+            "- [frames=[2]] A person is tending to a vertical garden with lettuce plants.",
+            "- [frames=[1,2]] The gardens are displayed in a vertical orientation, showcasing multiple layers of plants.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a vertical garden setup where lettuce is grown in a compact manner. This arrangement allows for efficient use of space compared to traditional farming methods.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture the vertical garden.",
+            "- The robot should have knowledge about aeroponic farming and its benefits.",
+            "- The robot should be able to communicate the information clearly to the viewer.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the space-saving advantage of aeroponic farming.",
+            "- The robot should ensure the information is presented in a clear and understandable manner.",
+            "- The robot should verify that the viewer understands the concept of space efficiency in aeroponic farming.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Capture an image of the woman tending to the vertical garden.",
+            "2. [type=perception, frames=[2]] Capture an image of the person tending to the vertical garden.",
+            "3. [type=manipulation, frames=[1,2]] Adjust the camera angle to show the full vertical garden setup.",
+            "4. [type=communication, frames=[1,2]] Announce, \"Aeroponic farming allows for efficient use of space.\".",
+            "5. [type=manipulation, frames=[1,2]] Pan the camera to show different layers of the vertical garden.",
+            "6. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "7. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture an image of the woman tending to the vertical garden. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting). After verification, it communicates the result clearly (Announce, \"Aeroponic farming allows for efficient use of space.\").",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Describe the nutrient density of aeroponic crops.",
+      "start": 18.64,
+      "end": 19.68,
+      "subtasks": [
+        {
+          "text": "Point out that aeroponic crops have up to 35% more nutrient density than soil-based plants.",
+          "start": 18.64,
+          "end": 19.68,
+          "segment_ids": [
+            5
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "XTtbkySHv7k/task01_sub00_f00.jpg",
+              "caption": "A woman is working in a vertical garden with lettuce plants.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "XTtbkySHv7k/task01_sub00_f01.jpg",
+              "caption": "A person is tending to a vertical garden with lettuce plants.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "XTtbkySHv7k/task01_sub00_f02.jpg",
+              "caption": "A vertical garden with lettuce plants growing on white towers.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will describe the higher nutrient density of aeroponic crops compared to soil-based plants, specifically mentioning a 35% increase.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A woman is working in a vertical garden with lettuce plants.",
+            "- [frames=[0,1]] A person is tending to a vertical garden with lettuce plants.",
+            "- [frames=[2]] A vertical garden with lettuce plants growing on white towers.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a vertical garden setup with lettuce plants growing on white towers. The plants appear healthy and well-maintained, indicating an efficient aeroponic system.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a display screen or speaker to convey information.",
+            "- The robot needs to be within the camera's view to observe the garden setup.",
+            "- The robot should have access to the current video frame to understand the context.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately state that aeroponic crops have up to 35% more nutrient density than soil-based plants.",
+            "- The robot should provide a clear and concise explanation of why this is the case.",
+            "- The robot should visually confirm the presence of the vertical garden and the lettuce plants.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Observe the woman working in the vertical garden with lettuce plants.",
+            "2. [type=perception, frames=[2]] Confirm the presence of the vertical garden with lettuce plants growing on white towers.",
+            "3. [type=manipulation, frames=[0,1,2]] Adjust the robot's display or speaker to face the audience.",
+            "4. [type=communication, frames=[0,1,2]] Announce, \"Aeroponic crops have up to 35% more nutrient density than soil-based plants.\".",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Observe the woman working in the vertical garden with lettuce plants. It then verifies the key detail directly from the frames (Confirm the presence of the vertical garden with lettuce plants growing on white towers). After verification, it communicates the result clearly (Announce, \"Aeroponic crops have up to 35% more nutrient density than soil-based plants.\").",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

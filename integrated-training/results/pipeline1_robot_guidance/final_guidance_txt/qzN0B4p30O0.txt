@@ -1,0 +1,168 @@
+VIDEO: qzN0B4p30O0
+TITLE: Animals Dancing on the Farm
+======================================================================
+
+TASK 0: Show animals performing dances on the farm.
+Time Range: 5.47 → 172.8
+----------------------------------------------------------------------
+  SUBTASK 0: Watch little animals dancing on the farm.
+  Time Range: 5.47 → 11.8
+  Guidance:
+    GLOBAL_SUMMARY:
+    The subtask involves observing and understanding a scene where little animals are dancing on a farm, as indicated in the video titled "Animals Dancing on the Farm."
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0]] A pink-haired character is seen against a star-shaped background, likely setting the scene.
+    - [frames=[1]] A whiteboard appears with the title "Five Little Animals Dancing on the Farm," indicating the theme of the video segment.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene transitions from an introductory character to a focus on the main content, which is the depiction of five little animals dancing on a farm. This setup suggests that the subsequent frames will show the animals engaging in various dance moves.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The video player is currently at the specified time range (5.5s–11.8s).
+    - The correct video frame sequence is loaded and ready for analysis.
+    - The robot has access to the video metadata and subtask details.
+    
+    SUCCESS_CRITERIA:
+    - The robot correctly identifies the presence of five animals dancing on a farm.
+    - The robot comprehends the context of the scene, recognizing it as part of a tutorial video about animals dancing.
+    - The robot accurately captures the duration and sequence of the dance performance.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Move the camera to focus on the whiteboard displaying the title "Five Little Animals Dancing on the Farm."
+    2. [type=perception, frames=[0,1]] Analyze the frame to confirm the presence of the title and the pink-haired character.
+    3. [type=manipulation, frames=[1]] Adjust the video playback speed to match the natural pace of the dance performance.
+    4. [type=perception, frames=[1]] Monitor the video to ensure the animals start
+
+  SUBTASK 1: Notice Leo stomp stomping his dance.
+  Time Range: 46.41 → 56.75
+  Guidance:
+    GLOBAL_SUMMARY:
+    The subtask involves observing a specific dance move performed by a character named Leo in a barnyard setting.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] A person in a cow costume is dancing in a barnyard setting, stomping his feet.
+    - [frames=[2]] The scene transitions to a red barn with a man and a child in front of it, but no dancing is visible.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The subtask focuses on identifying and understanding the dance move "stomp stomping" performed by Leo, who is dressed as a cow. This move is part of a larger sequence of dances being performed in a barnyard setting.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must recognize the barnyard setting.
+    - The robot should be aware of the character named Leo.
+    - The robot needs to identify the cow costume.
+    - The robot must know the specific dance move "stomp stomping."
+    
+    SUCCESS_CRITERIA:
+    - The robot correctly identifies the dance move "stomp stomping."
+    - The robot can describe the action accurately during the specified time range.
+    - The robot recognizes the character Leo performing the dance move.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the barnyard setting where the dance is taking place.
+    2. [type=perception, frames=[0,1]] Identify the character Leo wearing a cow costume.
+    3. [type=perception, frames=[0,1]] Recognize the dance move "stomp stomping" being performed.
+    4. [type=manipulation, frames=[2]] Transition to the next scene to confirm the end of the dance sequence.
+    5. [type=communication, frames=[all]] Report the observation of Leo performing the "stomp stomping" dance move within the specified time
+
+  SUBTASK 2: Observe more little animals continuing to dance.
+  Time Range: 56.75 → 58.75
+  Guidance:
+    GLOBAL_SUMMARY:
+    The subtask involves observing more little animals continue their dance on the farm.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[1]] A cartoon character in a cow costume is speaking, indicating the need for more little animals to dance.
+    - [frames=[2]] Another cartoon character in a cow costume is dancing, showing an example of the animals' performance.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene depicts a farm setting where various little animal characters are dancing. The subtask focuses on observing additional animals joining in the dance, as prompted by the first character's statement.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The farm environment must be visible and accessible to the robot.
+    - The robot should recognize and be able to identify the characters representing animals.
+    - The robot needs to understand the concept of dancing and recognize the actions associated with it.
+    
+    SUCCESS_CRITERIA:
+    - The robot should detect and confirm the presence of multiple additional animals dancing.
+    - The robot should recognize that the dancing continues without interruption.
+    - The robot should verify that the dancing characters match the initial description of little animals.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[1]] Navigate to the area where the farm and dancing animals are located.
+    2. [type=perception, frames=[1]] Identify the character speaking and understand the instruction to observe more animals.
+    3. [type=manipulation, frames=[2]] Focus on the dancing cow character to understand the dance style and movements.
+    4. [type=perception, frames=[2]] Detect and track the movement of additional animals joining the dance.
+    5. [type=communication, frames=[2]] Confirm with the system that the additional animals are indeed dancing and match the description of little animals.
+    
+    SUBTASK_STORY:
+    The subtask begins with a character in a cow costume speaking, prompting the robot to observe
+
+  SUBTASK 3: See the duck performing its dance.
+  Time Range: 58.75 → 87.88
+  Guidance:
+    GLOBAL_SUMMARY:
+    The subtask involves observing a duck performing a dance in a barnyard setting.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0]] A group of animated characters is seen in front of a barn.
+    - [frames=[1]] The scene shifts to a barnyard where a boy in a sailor outfit is dancing.
+    - [frames=[2]] A cartoon character blows a kiss and claps, likely signaling the start of the dance.
+    - [frames=[3]] Another character holds a toy animal in front of a tree, possibly setting up the stage.
+    - [frames=[4]] A woman in a sheep costume prepares to perform the sheep dance, but the focus then shifts to the duck.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene transitions from a group of characters in front of a barn to a barnyard where various characters are preparing for and performing dances. The focus finally lands on a duck, which is the main subject of the dance performance.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must be aware of the barnyard setting.
+    - The robot should recognize the characters and their costumes.
+    - The robot needs to know the sequence of events leading up to the duck's dance.
+    - The robot must be able to track the movement of the duck.
+    
+    SUCCESS_CRITERIA:
+    - The robot should identify the duck as the main performer.
+    - The robot must detect the start of the dance and recognize the duck's movements.
+    - The robot should capture the moment when the duck begins its dance.
+    - The robot needs to ensure the entire dance sequence is recorded or observed.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the barnyard area where the characters are present.
+    2. [type=perception, frames=[2]] Detect the signal from the cartoon character blowing a kiss and clapping.
+    3.
+
+  SUBTASK 4: Watch three little animals showing off their dance.
+  Time Range: 88.88 → 172.8
+  Guidance:
+    GLOBAL_SUMMARY:
+    The subtask involves observing three animated characters performing a dance routine in a barnyard setting.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] A woman in a sheep costume and two children dressed as bunnies are standing in front of a red barn.
+    - [frames=[2]] A cartoon character is jumping while another stands nearby.
+    - [frames=[3,4]] Two animated characters are seen in a barnyard setting.
+    - [frames=[5]] Two animated characters stand in front of a barn.
+    - [frames=[6]] A girl in a barnyard costume is dancing.
+    - [frames=[7]] The girl in a pink outfit is dancing with the words "and shake and shake and shake" displayed on the screen.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    This scene depicts a lively barnyard where various animated characters perform a dance routine. The sequence starts with a group of costumed individuals, transitions to a more focused performance by two characters, and culminates in a solo dance by a girl in a pink outfit.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must be able to recognize and track animated characters.
+    - The robot should have knowledge of common dance moves and routines.
+    - The barnyard setting must be visible and stable for observation.
+    - The robot needs to be aware of the time range for this subtask (88.9s–172.8s).
+    
+    SUCCESS_CRITERIA:
+    - The robot should identify and track the three main characters involved in the dance.
+    - The robot must recognize the dance routine being performed.
+    - The robot should confirm the presence of the girl in a pink outfit dancing.
+    - The robot needs to verify the completion of the dance routine as indicated by the words "and shake and shake and shake."
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0
+
+
+======================================================================
+

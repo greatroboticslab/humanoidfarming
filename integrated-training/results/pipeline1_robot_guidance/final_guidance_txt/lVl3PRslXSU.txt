@@ -1,0 +1,155 @@
+VIDEO: lVl3PRslXSU
+TITLE: 5 Tips for Growing Chili Plants Succinctly  Tips for Chili Plant Care Succinctly  Tips for Growing Healthy Chili Plan...
+======================================================================
+
+TASK 0: Explain the steps for growing chili plants.
+Time Range: 0.0 → 5.76
+----------------------------------------------------------------------
+  SUBTASK 0: Provide support to the chili plant.
+  Time Range: 0.0 → 1.92
+  Guidance:
+    GLOBAL_SUMMARY:
+    Provide support to the chili plant to ensure it remains upright and healthy.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] A chili plant with green leaves and several green chili peppers is shown from a distance.
+    - [frames=[2]] A piece of wood is seen being placed in the soil to support the chili plant.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The subtask involves supporting a chili plant to help it grow straight and strong. Initially, the plant is shown in its current state, and then a supportive measure is introduced by placing a piece of wood in the soil.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must recognize the chili plant and its current state.
+    - The robot should have access to a piece of wood suitable for plant support.
+    - The robot needs to know the location where the wood can be placed in the soil.
+    
+    SUCCESS_CRITERIA:
+    - The wood is correctly positioned in the soil.
+    - The chili plant is visibly supported by the wood.
+    - The plant appears stable and not leaning.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the location of the chili plant.
+    2. [type=manipulation, frames=[2]] Pick up the piece of wood from the designated storage area.
+    3. [type=navigation, frames=[2]] Move to the position next to the chili plant.
+    4. [type=manipulation, frames=[2]] Insert the wood vertically into the soil near the base of the plant.
+    5. [type=perception, frames=[2]] Verify that the wood is securely in place and the plant is supported.
+    
+    SUBTASK_STORY:
+    The robot first locates the chili plant in its current environment. It then retrieves a piece of wood from storage and moves to the plant's side. The robot carefully inserts the wood
+
+  SUBTASK 1: Add fertilizer to the chili plant every 15 days.
+  Time Range: 1.92 → 3.84
+  Guidance:
+    GLOBAL_SUMMARY:
+    The subtask involves adding fertilizer to a chili plant every 15 days.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] A plant is being supported by a piece of wood in a garden.
+    - [frames=[2]] A person is adding fertilizer to the plant.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene shows a person performing the task of fertilizing a chili plant. The plant is supported by a wooden structure, which suggests it might be in a raised bed or a container. The person is carefully applying fertilizer to the soil around the plant, indicating a routine maintenance activity.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must know the location of the chili plant.
+    - The robot must have access to fertilizer.
+    - The robot must be able to navigate to the plant's location.
+    - The robot must be capable of handling and applying fertilizer.
+    
+    SUCCESS_CRITERIA:
+    - The fertilizer has been applied to the soil around the plant.
+    - The plant is visibly receiving the fertilizer.
+    - The application process has been completed within the specified interval of 15 days.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the location of the chili plant supported by a piece of wood.
+    2. [type=perception, frames=[0,1]] Confirm the presence of the plant and the wooden support structure.
+    3. [type=manipulation, frames=[2]] Retrieve the fertilizer from storage.
+    4. [type=manipulation, frames=[2]] Apply the fertilizer to the soil around the plant.
+    5. [type=perception, frames=[2]] Verify that the fertilizer has been correctly applied.
+    
+    SUBTASK_STORY:
+    The robot begins by navigating to the location of the chili plant, which is supported by a wooden structure in a garden. Once at the correct
+
+  SUBTASK 2: Do not overwater the chili plant.
+  Time Range: 3.84 → 5.76
+  Guidance:
+    GLOBAL_SUMMARY:
+    Avoid overwatering the chili plant to ensure proper care and growth.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] A hand is seen adding fertilizer to the soil every 15 days.
+    - [frames=[2]] A hand is holding a pink watering can over a plant in the dirt.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene shows a hand performing two actions related to caring for a chili plant. First, it adds fertilizer to the soil, indicating a routine maintenance task. Then, it holds a watering can over the plant, suggesting an upcoming action. The subtask focuses on avoiding overwatering, which is crucial for the health of the chili plant.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must recognize the chili plant.
+    - The robot should know the correct watering schedule.
+    - The robot needs to be aware of the current soil moisture level.
+    - The robot must have access to a watering can.
+    
+    SUCCESS_CRITERIA:
+    - The robot must confirm that the soil is not overly moist.
+    - The robot should avoid applying water if the soil is already sufficiently hydrated.
+    - The robot should provide feedback that the chili plant will not be overwatered.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the chili plant and observe the soil.
+    2. [type=sensing, frames=[0,1]] Use sensors to check the soil moisture level.
+    3. [type=communication, frames=[2]] Confirm with the user that the soil is not overly moist.
+    4. [type=manipulation, frames=[2]] If necessary, hold the watering can away from the plant.
+    5. [type=communication, frames=[2]] Inform the user that the chili plant will not be overwatered.
+    
+    SUBTASK_STORY:
+    The robot first checks the soil moisture
+
+
+======================================================================
+
+TASK 1: Describe the necessary sunlight conditions for chili plants.
+Time Range: 0.0 → 13.44
+----------------------------------------------------------------------
+  SUBTASK 0: Ensure the chili plant receives 5-6 hours of sunshine daily.
+  Time Range: 0.0 → 5.76
+  Guidance:
+    
+
+  SUBTASK 1: Thank the viewer for their attention.
+  Time Range: 5.76 → 13.44
+  Guidance:
+    GLOBAL_SUMMARY:
+    Thanking the viewer for their attention at the end of the tutorial video on growing chili plants.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[1]] A close-up view of a plant with green leaves growing in a dirt patch.
+    - [frames=[2]] A person is holding a bunch of green chili peppers.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene shifts from showing a growing chili plant to a person holding harvested chili peppers, indicating the completion of the tutorial and thanking the viewers.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot should have completed all previous tutorial steps related to growing chili plants.
+    - The robot should have access to the video content and be able to recognize the end of the tutorial.
+    - The robot should be aware of the context of the tutorial and the expected conclusion.
+    
+    SUCCESS_CRITERIA:
+    - The robot should accurately identify the end of the tutorial video.
+    - The robot should correctly interpret the scene change from a growing plant to harvested peppers.
+    - The robot should successfully thank the viewer for their attention.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[1]] Navigate to the frame showing the close-up of the growing chili plant.
+    2. [type=perception, frames=[1]] Recognize the plant and confirm it is part of the tutorial.
+    3. [type=navigation, frames=[2]] Navigate to the frame showing the person holding the chili peppers.
+    4. [type=manipulation, frames=[2]] Simulate the act of holding the chili peppers to reinforce the tutorial's conclusion.
+    5. [type=communication, frames=[2]] Generate and display a message thanking the viewer for their attention.
+    
+    SUBTASK_STORY:
+    The tutorial video concludes with a final scene showing a close-up of a growing chili plant, transitioning to a person holding a bunch of harvested chili peppers. This visual cue
+
+
+======================================================================
+

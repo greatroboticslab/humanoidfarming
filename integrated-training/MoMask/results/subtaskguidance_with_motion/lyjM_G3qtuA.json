@@ -1,0 +1,407 @@
+{
+  "video_index": "lyjM_G3qtuA",
+  "title": "Sustainable Farming Systems for Future Land Use",
+  "url": "https://www.youtube.com/watch?v=lyjM_G3qtuA",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "The transcript describes the scale of agricultural practices and the goals of sustainable farming.",
+  "tasks": [
+    {
+      "task": "Discuss the impact of population growth and changing diets on increased use of land for agriculture.",
+      "start": 0.0,
+      "end": 10.74,
+      "subtasks": [
+        {
+          "text": "Observe how population growth and changing diets are driving the increasing use of agricultural land.",
+          "start": 0.0,
+          "end": 10.74,
+          "segment_ids": [
+            0
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "lyjM_G3qtuA/task00_sub00_f00.jpg",
+              "caption": "The video frame shows the logo of the UK Centre for Ecology & Hydrology.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "lyjM_G3qtuA/task00_sub00_f01.jpg",
+              "caption": "The video frame shows a collage of agricultural fields and forests, with the text \"SUSTAINABLE AGRICULTURE\" overlaid.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "lyjM_G3qtuA/task00_sub00_f02.jpg",
+              "caption": "The video frame shows a collage of agricultural scenes, including fields, roads, and machinery, with the text \"SUSTAINABLE AGRICULTURE\"",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video introduces the concept of sustainable agriculture by showing images related to agricultural landscapes and highlighting the impact of population growth and changing diets on land use.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The first frame displays the logo of the UK Centre for Ecology & Hydrology.",
+            "- [frames=[1]] Frame 1 shows a collage of agricultural fields and forests with the text \"SUSTAINABLE AGRICULTURE\" overlaid.",
+            "- [frames=[2]] Frame 2 presents a collage of agricultural scenes, including fields, roads, and machinery, also with the text \"SUSTAINABLE AGRICULTURE\".",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes in the video emphasize the importance of sustainable agriculture through visual representations of diverse agricultural settings. These images suggest a focus on the environmental and economic aspects of farming practices.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be able to recognize logos and text overlays.",
+            "- It must understand the context of agricultural landscapes.",
+            "- The robot needs to navigate between different frames smoothly.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Correctly identifying the logo of the UK Centre for Ecology & Hydrology.",
+            "- Accurately recognizing the text \"SUSTAINABLE AGRICULTURE (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 10.74,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/lyjM_G3qtuA/task00/sub00/motion.bvh",
+            "params_path": "results/momask/lyjM_G3qtuA/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Explain the work with commercial farmers to understand agricultural limitations and develop sustainable farming systems.",
+      "start": 10.74,
+      "end": 23.54,
+      "subtasks": [
+        {
+          "text": "Note that the team works at scale with commercial farmers to understand the limitations of food production.",
+          "start": 10.74,
+          "end": 16.58,
+          "segment_ids": [
+            1
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "lyjM_G3qtuA/task01_sub00_f01.jpg",
+              "caption": "Three women are working on a cage in a field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "lyjM_G3qtuA/task01_sub00_f02.jpg",
+              "caption": "Two individuals in protective gear are working in a field of yellow flowers.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The team is working with commercial farmers to understand the limitations of food production at a large scale. This involves direct interaction with farmers and observing their practices in the field.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] Three women are working on a cage in a field, likely setting up equipment or collecting samples.",
+            "- [frames=[2]] Two individuals in protective gear are working in a field of yellow flowers, possibly conducting tests or observations.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The team is actively engaged in fieldwork, using protective gear and specialized equipment to gather data and insights from commercial farmers. Their activities suggest they are assessing the current state of agricultural practices and identifying areas for improvement.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have the ability to navigate through fields and approach humans safely.",
+            "- It needs to recognize and interact with protective gear and field equipment.",
+            "- The robot must be capable of performing basic manipulations such as picking up and moving objects.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should be able to accurately identify and interact with the team members and their equipment.",
+            "- It must successfully navigate through the field without causing any disturbances.",
+            "- The robot should be able to verify the presence of protective gear and field equipment before proceeding",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 5.839999999999998,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/lyjM_G3qtuA/task01/sub00/motion.bvh",
+            "params_path": "results/momask/lyjM_G3qtuA/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Highlight the monitoring of agriculture's impact on the environment as part of their work.",
+          "start": 16.58,
+          "end": 23.54,
+          "segment_ids": [
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "lyjM_G3qtuA/task01_sub01_f01.jpg",
+              "caption": "A bee is clinging to a wooden surface.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "lyjM_G3qtuA/task01_sub01_f02.jpg",
+              "caption": "Two men are discussing a computer screen in an office setting.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot highlights the environmental impact of agriculture by observing interactions between humans and technology in an office setting.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A bee is clinging to a wooden surface, symbolizing the natural ecosystem affected by agricultural practices.",
+            "- [frames=[2]] Two men are discussing a computer screen in an office, indicating the use of data and technology to monitor environmental impacts.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts the intersection of nature (the bee) and technology (the computer screen), emphasizing the dual focus on both natural and technological aspects of monitoring agricultural impacts.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have knowledge of agricultural ecosystems and their environmental impacts.",
+            "- It must be capable of recognizing and interpreting images of natural elements like bees.",
+            "- The robot needs to understand the significance of computer screens in data analysis.",
+            "- It should be able to navigate through different scenes and identify key elements.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Correct identification of the bee and its significance.",
+            "- Accurate recognition of the computer screen and its role in data analysis.",
+            "- Proper integration of these elements to explain the environmental impact of agriculture.",
+            "- Clear communication of the relationship between natural and technological aspects of monitoring.",
+            "",
+            "ORDERED_ROBOT_ACTION (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 6.960000000000001,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/lyjM_G3qtuA/task01/sub01/motion.bvh",
+            "params_path": "results/momask/lyjM_G3qtuA/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Describe the role of healthy ecosystems in food production and the provision of tools and data for future land use planning.",
+      "start": 23.54,
+      "end": 32.6,
+      "subtasks": [
+        {
+          "text": "Observe that healthy ecosystems are crucial for food production, and tools and data are provided to plan future land use.",
+          "start": 23.54,
+          "end": 30.0,
+          "segment_ids": [
+            3
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "lyjM_G3qtuA/task02_sub00_f01.jpg",
+              "caption": "A person is pointing at a map on a computer screen.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "lyjM_G3qtuA/task02_sub00_f02.jpg",
+              "caption": "A scientist in a lab coat examines a plant in a controlled environment.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene illustrates the importance of healthy ecosystems for food production and showcases the use of tools and data for future land use planning.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A person is pointing at a map displayed on a computer screen.",
+            "- [frames=[1]] A scientist in a lab coat is examining a plant in a controlled environment.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The person's gesture towards the computer screen suggests they are highlighting key information related to land use planning. The scientist’s focus on the plant indicates the role of healthy ecosystems in agricultural productivity.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be able to recognize a computer screen and understand its contents.",
+            "- The robot must identify a person and their gestures.",
+            "- The robot needs to recognize a scientist and understand their actions.",
+            "- The robot should have knowledge about healthy ecosystems and their impact on food production.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly interpret the person's gesture and the scientist's actions.",
+            "- The robot should understand the significance of the map and the plant in the context of sustainable farming.",
+            "- The robot should be able to summarize the observed information accurately.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 6.460000000000001,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/lyjM_G3qtuA/task02/sub00/motion.bvh",
+            "params_path": "results/momask/lyjM_G3qtuA/task02/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Mention the development of new sustainable farming systems as part of their objectives.",
+          "start": 30.0,
+          "end": 32.6,
+          "segment_ids": [
+            4
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub01_f01.jpg",
+              "relative_path": "lyjM_G3qtuA/task02_sub01_f01.jpg",
+              "caption": "A person is holding a leaf with a tool on it.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub01_f02.jpg",
+              "relative_path": "lyjM_G3qtuA/task02_sub01_f02.jpg",
+              "caption": "A person is holding a device over a leaf.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe a person interacting with a leaf using a tool and a device, understanding that this interaction is part of developing new sustainable farming systems.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A person is holding a leaf with a tool on it.",
+            "- [frames=[2]] A person is holding a device over a leaf.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a person examining a leaf using both a physical tool and a device, likely gathering data or information relevant to sustainable farming practices.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the ongoing tutorial on sustainable farming systems.",
+            "- The robot needs to recognize the leaf and the tools being used.",
+            "- The robot should have access to the necessary data and tools for sustainable farming.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should confirm that the interaction with the leaf is part of developing new sustainable farming systems.",
+            "- The robot should verify that the data collected from the leaf is accurate and relevant.",
+            "- The robot should check that the person is using the correct tools and devices.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Identify the leaf and the tool being held by the person.",
+            "2. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "3. [type=perception, frames=[1,2]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the leaf and the tool being held by the person. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 3.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/lyjM_G3qtuA/task02/sub01/motion.bvh",
+            "params_path": "results/momask/lyjM_G3qtuA/task02/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

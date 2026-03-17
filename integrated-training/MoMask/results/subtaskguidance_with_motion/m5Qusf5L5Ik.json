@@ -1,0 +1,665 @@
+{
+  "video_index": "m5Qusf5L5Ik",
+  "title": "Amish Agriculture: Harmony with Nature Through Animal Power",
+  "url": "https://www.youtube.com/watch?v=m5Qusf5L5Ik",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Explains the Amish approach to farming, emphasizing their sustainable and community-focused practices.",
+  "tasks": [
+    {
+      "task": "Describe the Amish farming method that relies on animal power and natural processes.",
+      "start": 7.68,
+      "end": 17.12,
+      "subtasks": [
+        {
+          "text": "Observe the world's largest pumpkin on the Amish farm.",
+          "start": 7.68,
+          "end": 12.0,
+          "segment_ids": [
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "m5Qusf5L5Ik/task00_sub00_f00.jpg",
+              "caption": "A woman in a blue dress is working on a farm with horses and machinery.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "m5Qusf5L5Ik/task00_sub00_f01.jpg",
+              "caption": "A person is working in a field with a horse-drawn cart, surrounded by a white barn and silos in the background.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "m5Qusf5L5Ik/task00_sub00_f02.jpg",
+              "caption": "Amish farmers using horses to transport hay in a field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene depicts Amish farmers using animal power, specifically horses, to work on their farm, focusing on the transportation of items such as hay and produce.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A woman in a blue dress is working on a farm with horses and machinery.",
+            "- [frames=[1]] A person is working in a field with a horse-drawn cart, surrounded by a white barn and silos in the background.",
+            "- [frames=[2]] Amish farmers using horses to transport hay in a field.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The farm setting is characterized by the presence of horses, machinery, and traditional Amish structures like barns and silos. The activities involve the use of animal power for various tasks, including transporting hay and other agricultural products.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be able to recognize and navigate through rural farm environments.",
+            "- It must identify and differentiate between horses and other farm equipment.",
+            "- The robot needs to understand the context of Amish farming practices and the role of animal power.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully identifies the presence of horses and other farm elements.",
+            "- It accurately captures the scene of horse-drawn transportation.",
+            "- The robot (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 4.32,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/m5Qusf5L5Ik/task00/sub00/motion.bvh",
+            "params_path": "results/momask/m5Qusf5L5Ik/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Note the contrast between the Amish's large pumpkin and tiny hand-sized pumpkins they use for specific purposes.",
+          "start": 12.0,
+          "end": 17.12,
+          "segment_ids": [
+            3
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "m5Qusf5L5Ik/task00_sub01_f01.jpg",
+              "caption": "Amish farmers are working with horses and hay in a field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "m5Qusf5L5Ik/task00_sub01_f02.jpg",
+              "caption": "The video shows a horse pulling a cart in a rural setting.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask involves noting the difference between large and small pumpkins used by Amish farmers, highlighting their specific uses.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] Amish farmers are seen working with horses and hay in a field.",
+            "- [frames=[1]] A horse is pulling a cart in a rural setting.",
+            "- [frames=[1,2]] Large and small pumpkins are visible in the background.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts Amish farmers using animal power (horses) for agricultural tasks, with various crops and tools present. The presence of both large and small pumpkins suggests different uses within their farming practices.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the Amish farming context.",
+            "- The robot must recognize and differentiate between large and small pumpkins.",
+            "- The robot needs to understand the significance of animal power in Amish agriculture.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify and distinguish between large and small pumpkins.",
+            "- The robot should note the presence of horses and other farm equipment.",
+            "- The robot should document the specific uses of large and small pumpkins as observed in the video.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 5.120000000000001,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/m5Qusf5L5Ik/task00/sub01/motion.bvh",
+            "params_path": "results/momask/m5Qusf5L5Ik/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Explain the Amish philosophy of farming in harmony with nature.",
+      "start": 26.88,
+      "end": 119.68,
+      "subtasks": [
+        {
+          "text": "Highlight the use of hand tools and animal power for farm work.",
+          "start": 26.88,
+          "end": 31.92,
+          "segment_ids": [
+            6
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "m5Qusf5L5Ik/task01_sub00_f00.jpg",
+              "caption": "A group of Amish people are riding horses and pulling a cart through a field.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "m5Qusf5L5Ik/task01_sub00_f01.jpg",
+              "caption": "A wooden fence with a tree in the background.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "m5Qusf5L5Ik/task01_sub00_f02.jpg",
+              "caption": "Amish family in horse-drawn carriage on a rural road.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene focuses on the use of animal power, specifically horses, for farm work, highlighting the Amish approach to sustainable agriculture.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A group of Amish people are riding horses and pulling a cart through a field.",
+            "- [frames=[1]] A wooden fence with a tree in the background is visible.",
+            "- [frames=[2]] An Amish family is seen in a horse-drawn carriage on a rural road.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict the Amish using horses and carts for transportation and possibly farm work, emphasizing their reliance on animal power rather than mechanical tools. The presence of a wooden fence and trees suggests a rural setting typical of Amish farmland.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the Amish cultural context and practices.",
+            "- The robot must recognize horses, carts, and Amish people.",
+            "- The robot needs to understand the concept of animal power in farming.",
+            "- The robot should be able to identify rural settings and natural elements like fences and trees.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot correctly identifies the use of horses and carts in the scenes.",
+            "- The robot accurately describes the Amish practice of using animal",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 5.040000000000003,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/m5Qusf5L5Ik/task01/sub00/motion.bvh",
+            "params_path": "results/momask/m5Qusf5L5Ik/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Observe the rhythmic sound of hoofbeats, creaks of harnesses, and the voices of Amish farmers guiding their animals.",
+          "start": 107.2,
+          "end": 119.68,
+          "segment_ids": [
+            22,
+            23
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f00.jpg",
+              "relative_path": "m5Qusf5L5Ik/task01_sub01_f00.jpg",
+              "caption": "Two people are using horses to plow a field.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "m5Qusf5L5Ik/task01_sub01_f01.jpg",
+              "caption": "A person is using a plow to cultivate a field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "m5Qusf5L5Ik/task01_sub01_f02.jpg",
+              "caption": "A man in traditional Amish attire is practicing a stick game in a rural setting.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene depicts Amish farmers using horses to plow a field, showcasing the rhythmic sounds and interactions typical of their agricultural practices.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] Two people are using horses to plow a field, creating a harmonious rhythm with the hooves and the creaking of harnesses.",
+            "- [frames=[0,1]] A person is actively using a plow to cultivate the soil, demonstrating the manual labor involved.",
+            "- [frames=[2]] A man in traditional Amish attire is engaged in a stick game, which is a common pastime and skill practice among Amish communities.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene captures the essence of Amish agriculture, where animals play a crucial role in the farming process. The rhythmic sounds of hoofbeats and the creaking of harnesses blend with the voices of the farmers, creating a serene and efficient working environment.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with audio sensors to capture the sounds of the farm.",
+            "- The robot needs to have a camera capable of capturing detailed images of the field and the farmers.",
+            "- The robot must be familiar with Amish attire and activities to recognize the",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- (auto-filled) Robot completes the subtask and reports outcomes.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 12.480000000000004,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/m5Qusf5L5Ik/task01/sub01/motion.bvh",
+            "params_path": "results/momask/m5Qusf5L5Ik/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Describe the Amish practice of soil health and crop rotation.",
+      "start": 421.36,
+      "end": 442.48,
+      "subtasks": [
+        {
+          "text": "Watch Amish farmers carefully rotate crops to enrich the soil.",
+          "start": 421.36,
+          "end": 426.88,
+          "segment_ids": [
+            80
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f00.jpg",
+              "relative_path": "m5Qusf5L5Ik/task02_sub00_f00.jpg",
+              "caption": "A man drives a horse-drawn cart through a field.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "m5Qusf5L5Ik/task02_sub00_f01.jpg",
+              "caption": "A person is operating a horse-drawn corn harvester on a farm with a barn and silos in the background.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "m5Qusf5L5Ik/task02_sub00_f02.jpg",
+              "caption": "A person is operating a horse-drawn corn harvester in a rural field with a barn and silos in the background.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Amish farmers are seen rotating crops using horse-drawn machinery, which helps enrich the soil through natural methods.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A man drives a horse-drawn cart through a field, indicating the start of crop rotation.",
+            "- [frames=[1,2]] A person operates a horse-drawn corn harvester in a rural setting, with a barn and silos visible in the background, suggesting a well-established farm.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a traditional Amish farming method where crops are rotated to maintain soil health. The presence of a barn and silos indicates a comprehensive agricultural setup typical of Amish farms.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- Knowledge of Amish farming practices.",
+            "- Familiarity with horse-drawn machinery.",
+            "- Understanding of crop rotation techniques.",
+            "- Ability to navigate through fields.",
+            "- Capability to operate or assist with horse-drawn equipment.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Correct identification of the type of crop being harvested.",
+            "- Proper operation of the horse-drawn machinery.",
+            "- Successful navigation through the field without damaging crops or machinery.",
+            "- Completion of the crop rotation process as observed.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 5.519999999999982,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/m5Qusf5L5Ik/task02/sub00/motion.bvh",
+            "params_path": "results/momask/m5Qusf5L5Ik/task02/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Notice the use of natural fertilizers like livestock manure and compost to maintain soil health.",
+          "start": 431.36,
+          "end": 442.48,
+          "segment_ids": [
+            82,
+            83
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub01_f00.jpg",
+              "relative_path": "m5Qusf5L5Ik/task02_sub01_f00.jpg",
+              "caption": "Two people are guiding two horses pulling a cart in a rural setting.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub01_f01.jpg",
+              "relative_path": "m5Qusf5L5Ik/task02_sub01_f01.jpg",
+              "caption": "A person is using a shovel to spread compost in a garden.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub01_f02.jpg",
+              "relative_path": "m5Qusf5L5Ik/task02_sub01_f02.jpg",
+              "caption": "A person is planting a plant in a hole in the dirt.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The Amish practice of maintaining soil health involves the use of natural fertilizers such as livestock manure and compost. This is demonstrated through the spreading of compost and planting of crops.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] Two people are guiding two horses pulling a cart in a rural setting, indicating the use of animal power.",
+            "- [frames=[1]] A person is using a shovel to spread compost in a garden, showing the application of natural fertilizer.",
+            "- [frames=[2]] A person is planting a plant in a hole in the dirt, illustrating the next stage of crop cultivation.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts the Amish method of enhancing soil fertility by incorporating organic matter into the soil. This process involves the use of livestock manure and compost, which are spread over the land to enrich the soil before planting crops.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a shovel or similar tool for spreading compost.",
+            "- The robot should have the ability to navigate through a rural setting.",
+            "- The robot should be able to identify and manipulate plants and soil.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The compost should be evenly spread across the garden area.",
+            "- The plants should be correctly planted in (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 11.120000000000005,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/m5Qusf5L5Ik/task02/sub01/motion.bvh",
+            "params_path": "results/momask/m5Qusf5L5Ik/task02/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Outline the Amish approach to pest management.",
+      "start": 513.6,
+      "end": 523.84,
+      "subtasks": [
+        {
+          "text": "Observe the use of companion planting with marigolds to repel harmful insects.",
+          "start": 513.6,
+          "end": 518.32,
+          "segment_ids": [
+            97
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub00_f00.jpg",
+              "relative_path": "m5Qusf5L5Ik/task03_sub00_f00.jpg",
+              "caption": "A farmer is kneeling in a field, examining the soil.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task03_sub00_f01.jpg",
+              "relative_path": "m5Qusf5L5Ik/task03_sub00_f01.jpg",
+              "caption": "A farmer is kneeling in a field, holding a sack, and looking down.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub00_f02.jpg",
+              "relative_path": "m5Qusf5L5Ik/task03_sub00_f02.jpg",
+              "caption": "A farmer crouches in a field, examining the soil.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The farmer is observing the use of companion planting with marigolds to repel harmful insects in an Amish agricultural setting.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] The farmer is kneeling in a field, indicating a close inspection of the plants.",
+            "- [frame=0] The farmer is examining the soil, suggesting an interest in the root environment.",
+            "- [frame=1] The farmer is holding a sack, possibly containing seeds or tools related to planting.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a farmer closely inspecting the soil and plants in a field, likely preparing to plant or assess the effectiveness of companion planting with marigolds. This method is used to naturally control pests without chemical interventions, aligning with Amish agricultural practices.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with sensors to detect soil conditions and plant health.",
+            "- The robot must have the ability to recognize different types of plants, particularly marigolds.",
+            "- The robot needs to understand basic agricultural practices and the concept of companion planting.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should identify the presence of marigolds in the field.",
+            "- It should confirm that the marigolds are being used as part of (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 4.720000000000027,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/m5Qusf5L5Ik/task03/sub00/motion.bvh",
+            "params_path": "results/momask/m5Qusf5L5Ik/task03/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Notice the emphasis on biodiversity to create a healthier ecosystem.",
+          "start": 518.32,
+          "end": 523.84,
+          "segment_ids": [
+            98
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub01_f01.jpg",
+              "relative_path": "m5Qusf5L5Ik/task03_sub01_f01.jpg",
+              "caption": "A farmer crouches in a field, examining the soil.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub01_f02.jpg",
+              "relative_path": "m5Qusf5L5Ik/task03_sub01_f02.jpg",
+              "caption": "A farmer crouches in a field, examining the soil.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The farmer is closely observing the soil in a field, highlighting the Amish approach to creating a healthier ecosystem through biodiversity.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] The farmer is crouched low to the ground, hands near the soil, indicating a close inspection.",
+            "- [frames=[1]] The field appears to be rich with various plants and possibly some animals, suggesting a diverse environment.",
+            "- [frames=[1]] The farmer’s attire is traditional, consistent with Amish culture, emphasizing their connection to nature.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a farmer in a natural setting, likely a farm, where he is carefully examining the soil. This observation is part of a broader strategy to maintain a healthy ecosystem by promoting biodiversity, which is central to the Amish agricultural practices.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have the ability to recognize and identify different types of soil and plant life.",
+            "- It must be capable of navigating through varied terrain typical of farmland.",
+            "- The robot needs sensors to detect the presence of diverse flora and fauna.",
+            "- The robot should be able to communicate with the farmer or other systems to gather additional information about the field.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 5.519999999999982,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/m5Qusf5L5Ik/task03/sub01/motion.bvh",
+            "params_path": "results/momask/m5Qusf5L5Ik/task03/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

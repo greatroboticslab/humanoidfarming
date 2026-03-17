@@ -1,0 +1,121 @@
+{
+  "index": "0ajzgwoA1qs",
+  "title": "Seven Indoor Plants for Small Spaces",
+  "url": "https://www.youtube.com/watch?v=0ajzgwoA1qs",
+  "num_threads": 2,
+  "threads_with_logic": [
+    {
+      "thread_index": 0,
+      "time_start": 0.0,
+      "time_end": 20.08,
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the various indoor plants mentioned in the video.",
+          "sub_index": 0,
+          "text": "Observe radishes and green onions as examples of plants that can be grown indoors.",
+          "start": 0.0,
+          "end": 6.56,
+          "segment_ids": [
+            0
+          ]
+        },
+        {
+          "task_index": 0,
+          "task_text": "Describe the various indoor plants mentioned in the video.",
+          "sub_index": 1,
+          "text": "Note the mention of microgreens and jar sprouts as additional plants suitable for indoor gardening.",
+          "start": 7.44,
+          "end": 11.84,
+          "segment_ids": [
+            1
+          ]
+        },
+        {
+          "task_index": 0,
+          "task_text": "Describe the various indoor plants mentioned in the video.",
+          "sub_index": 2,
+          "text": "Highlight that lettuce is a good option for indoor growth without requiring a smart garden.",
+          "start": 11.84,
+          "end": 16.24,
+          "segment_ids": [
+            1
+          ]
+        },
+        {
+          "task_index": 0,
+          "task_text": "Describe the various indoor plants mentioned in the video.",
+          "sub_index": 3,
+          "text": "Mention that peppers can also be grown indoors without a smart garden, emphasizing small varieties.",
+          "start": 16.24,
+          "end": 20.08,
+          "segment_ids": [
+            2
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Indoor Gardening Options",
+        "thread_summary": "The video discusses various plants that can be grown indoors, including radishes, green onions, microgreens, jar sprouts, lettuce, and peppers.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The video transitions from discussing specific examples of indoor plants (radishes and green onions) to mentioning additional options (microgreens and jar sprouts)."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "The video continues to list indoor gardening options by highlighting lettuce as another suitable plant for indoor growth."
+          },
+          {
+            "from": 2,
+            "to": 3,
+            "link": "The video concludes by mentioning peppers as another plant that can be grown indoors without a smart garden, providing a final example of indoor gardening options."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "_raw": null
+    },
+    {
+      "thread_index": 1,
+      "time_start": 20.08,
+      "time_end": 25.28,
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the various indoor plants mentioned in the video.",
+          "sub_index": 4,
+          "text": "Focus on the personal favorite, dwarf cherry tomatoes, as a recommended indoor plant.",
+          "start": 20.08,
+          "end": 25.28,
+          "segment_ids": [
+            3
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Indoor Plant Recommendation: Dwarf Cherry Tomatoes",
+        "thread_summary": "The video segment focuses on recommending dwarf cherry tomatoes as an ideal indoor plant, highlighting its appeal as a personal favorite.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The subtask directly states the focus on the recommended indoor plant, which is the dwarf cherry tomato."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "_raw": null
+    }
+  ]
+}

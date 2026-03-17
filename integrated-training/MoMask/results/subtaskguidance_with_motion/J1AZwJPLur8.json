@@ -1,0 +1,355 @@
+{
+  "video_index": "J1AZwJPLur8",
+  "title": "Growing Strawberry Plants Explained",
+  "url": "https://www.youtube.com/watch?v=J1AZwJPLur8",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Provides instructions and tips for growing juicy strawberries.",
+  "tasks": [
+    {
+      "task": "Explain the importance of strawberry leaves in strawberry production.",
+      "start": 0.0,
+      "end": 14.24,
+      "subtasks": [
+        {
+          "text": "Describe how strawberry leaves capture sunlight and produce flowers.",
+          "start": 0.0,
+          "end": 9.62,
+          "segment_ids": [
+            0,
+            1,
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "J1AZwJPLur8/task00_sub00_f00.jpg",
+              "caption": "A man is holding a strawberry in front of a strawberry plant.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "J1AZwJPLur8/task00_sub00_f01.jpg",
+              "caption": "A hand is holding a strawberry in front of a strawberry plant.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "J1AZwJPLur8/task00_sub00_f02.jpg",
+              "caption": "A hand is holding a strawberry near a plant with large green leaves.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will explain how strawberry leaves capture sunlight and produce flowers, focusing on the role of leaves in strawberry plant growth.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A man is holding a strawberry in front of a strawberry plant.",
+            "- [frames=[2]] A hand is holding a strawberry near a plant with large green leaves.",
+            "- [frames=[0,1,2]] The scene consistently shows a strawberry plant with visible leaves.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a strawberry plant with large green leaves, which are crucial for photosynthesis and flower production. The presence of a strawberry in the frame serves as a context clue for the topic being discussed.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the anatomy of strawberry plants.",
+            "- The robot should have access to information about the role of leaves in strawberry production.",
+            "- The robot should be able to manipulate objects and point to parts of the plant.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the function of strawberry leaves in capturing sunlight and producing flowers.",
+            "- The robot should correctly identify and point to the leaves on the plant.",
+            "- The robot should provide a clear explanation of the process without errors.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Observe the strawberry plant and confirm the presence of large green leaves.",
+            "2. [type=navigation, frames=[2]] Move closer to the plant to get a better view of the leaves.",
+            "3. [type=perception, frames=[2]] Gently touch the leaves to verify their texture and confirm they are leaves.",
+            "4. [type=communication, frames=[0,1,2]] Explain that strawberry leaves are essential for capturing sunlight.",
+            "5. [type=manipulation, frames=[2]] Point to the leaves and demonstrate how they capture sunlight.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Observe the strawberry plant and confirm the presence of large green leaves. It then verifies the key detail directly from the frames (Observe the strawberry plant and confirm the presence of large green leaves).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move closer to the plant to get a better view of the leaves; Point to the leaves and demonstrate how they capture sunlight; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 9.62,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/J1AZwJPLur8/task00/sub00/motion.bvh",
+            "params_path": "results/momask/J1AZwJPLur8/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Explain the consequence of not having enough leaves on strawberry production.",
+          "start": 11.24,
+          "end": 14.24,
+          "segment_ids": [
+            4
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f00.jpg",
+              "relative_path": "J1AZwJPLur8/task00_sub01_f00.jpg",
+              "caption": "A hand is holding a strawberry in a garden setting.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "J1AZwJPLur8/task00_sub01_f01.jpg",
+              "caption": "A man in a green hat is pointing to a stack of green planters with strawberries growing inside.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "J1AZwJPLur8/task00_sub01_f02.jpg",
+              "caption": "A man is holding a strawberry in front of a stack of green pots.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will explain the consequences of insufficient strawberry leaves on production, using visual aids to support the explanation.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A hand is holding a strawberry in a garden setting.",
+            "- [frames=[1]] A man in a green hat is pointing to a stack of green planters with strawberries growing inside.",
+            "- [frames=[2]] A man is holding a strawberry in front of a stack of green pots.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a garden setting with strawberries in various stages of growth, emphasizing the importance of the plants' leaves. The man's gestures indicate he is explaining the significance of the leaves to the viewer.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the anatomy of strawberry plants.",
+            "- The robot should know the role of leaves in strawberry production.",
+            "- The robot should have access to the video frames for reference.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the impact of insufficient leaves on strawberry production.",
+            "- The robot should use the provided visual aids effectively.",
+            "- The robot should maintain a clear and concise explanation.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Read the image to identify the strawberry being held by the hand.",
+            "2. [type=perception, frames=[1]] Confirm the man pointing to the planters with strawberries.",
+            "3. [type=manipulation, frames=[2]] Pick up a model or image of a strawberry plant to demonstrate.",
+            "4. [type=communication, frames=[0,1,2]] Explain that leaves are crucial for photosynthesis, which is essential for strawberry growth.",
+            "5. [type=manipulation, frames=[2]] Show the underside of the plant to highlight the leaf structure.",
+            "6. [type=communication, frames=[0,1,2]] Describe how insufficient leaves can lead to.",
+            "7. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Read the image to identify the strawberry being held by the hand. It then verifies the key detail directly from the frames (Read the image to identify the strawberry being held by the hand).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Pick up a model or image of a strawberry plant to demonstrate; Show the underside of the plant to highlight the leaf structure; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/J1AZwJPLur8/task00/sub01/motion.bvh",
+            "params_path": "results/momask/J1AZwJPLur8/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Detail the management strategies for strawberry plant growth.",
+      "start": 15.24,
+      "end": 33.36,
+      "subtasks": [
+        {
+          "text": "Describe the process of removing excess flowers early in the season.",
+          "start": 15.24,
+          "end": 23.48,
+          "segment_ids": [
+            6,
+            7,
+            8
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "J1AZwJPLur8/task01_sub00_f00.jpg",
+              "caption": "The video shows a close-up of strawberry plants in green pots.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "J1AZwJPLur8/task01_sub00_f01.jpg",
+              "caption": "A man wearing a green hat is inspecting a strawberry plant in a garden.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "J1AZwJPLur8/task01_sub00_f02.jpg",
+              "caption": "A hand is pointing to a plant with green leaves and stems.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The task involves identifying and removing excess flowers on strawberry plants early in the growing season to promote better fruit development.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] Close-up view of strawberry plants in green pots.",
+            "- [frames=[1]] A man in a green hat inspects a strawberry plant.",
+            "- [frames=[2]] Hand pointing to a plant with green leaves and stems.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a man carefully examining a strawberry plant, likely to identify which flowers should be removed. The plants are in green pots, suggesting they are being grown in a controlled environment.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- Knowledge of strawberry plant anatomy and flower structure.",
+            "- Familiarity with common signs of excess flowers.",
+            "- Capabilities to navigate and manipulate objects within the scene.",
+            "- Tools or instruments suitable for safely removing flowers.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Removal of all identified excess flowers.",
+            "- No damage to the remaining healthy parts of the plant.",
+            "- Proper disposal of removed flowers.",
+            "- Confirmation that the plant looks healthier without the excess flowers.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Move to the location where the strawberry plants are situated.",
+            "2. [type=perception, frames=[0,1]] Scan the plants to identify those with excess flowers.",
+            "3. [type=navigation, frames=[1,2]] Approach the plant indicated by the hand.",
+            "4. [type=manipulation, frames=[2]] Use tweezers to gently remove the excess flowers.",
+            "5. [type=perception, frames=[2]] Verify that the flowers have been successfully removed.",
+            "6. [type=manipulation, frames=[2]] Dispose of the removed flowers properly.",
+            "7. [type=perception, frames=[2]] Check the remaining plant to ensure no.",
+            "8. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to the location where the strawberry plants are situated. It then verifies the key detail directly from the frames (Verify that the flowers have been successfully removed).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move to the location where the strawberry plants are situated; Use tweezers to gently remove the excess flowers; Dispose of the removed flowers properly; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 8.24,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/J1AZwJPLur8/task01/sub00/motion.bvh",
+            "params_path": "results/momask/J1AZwJPLur8/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Explain the function of runners in strawberry propagation and why they are removed.",
+          "start": 23.48,
+          "end": 33.36,
+          "segment_ids": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "J1AZwJPLur8/task01_sub01_f01.jpg",
+              "caption": "A hand is holding a strawberry leaf in a garden.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "J1AZwJPLur8/task01_sub01_f02.jpg",
+              "caption": "A man in a green hat holds a small strawberry in his hand.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask explains the role of runners in strawberry propagation and why they are typically removed, focusing on the removal process.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A hand is seen holding a strawberry leaf in a garden.",
+            "- [frames=[2]] A man in a green hat is holding a small strawberry in his hand.",
+            "- [frames=[1,2]] The focus is on the hands and strawberries, indicating a close-up view of the removal process.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a person handling strawberries, likely explaining the propagation process. The removal of runners is a key part of managing strawberry plant growth, ensuring the main plant can focus its energy on fruit production rather than spreading.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to observe the strawberries and hands.",
+            "- The robot needs to have the capability to grasp and manipulate small objects.",
+            "- The robot must be within reach of the strawberries and hands shown in the frames.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The runner is successfully identified and removed from the strawberry plant.",
+            "- The remaining plant shows signs of healthy growth without runners.",
+            "- The process is completed without damaging the main plant or other parts of the strawberry.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Uses its camera to identify the strawberry leaf being held.",
+            "2. [type=perception, frames=[2]] Locates the small strawberry in the man's hand.",
+            "3. [type=navigation, frames=[1]] Moves closer to the hand holding the strawberry leaf.",
+            "4. [type=manipulation, frames=[1]] Gently grasps the strawberry leaf using its gripper.",
+            "5. [type=manipulation, frames=[2]] Carefully removes the runner from the strawberry plant.",
+            "6. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "7. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Uses its camera to identify the strawberry leaf being held. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Moves closer to the hand holding the strawberry leaf; Gently grasps the strawberry leaf using its gripper; Carefully removes the runner from the strawberry plant; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 9.879999999999999,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/J1AZwJPLur8/task01/sub01/motion.bvh",
+            "params_path": "results/momask/J1AZwJPLur8/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

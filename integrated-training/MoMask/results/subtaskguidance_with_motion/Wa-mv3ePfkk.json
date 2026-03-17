@@ -1,0 +1,820 @@
+{
+  "video_index": "Wa-mv3ePfkk",
+  "title": "Innovations in Agricultural Machinery: From Fruit to Pumpkin",
+  "url": "https://www.youtube.com/watch?v=Wa-mv3ePfkk",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "The video describes various modern agricultural machines and their efficient operation.",
+  "tasks": [
+    {
+      "task": "Describe the pumpkin harvesting machine and its process.",
+      "start": 188.1,
+      "end": 242.14,
+      "subtasks": [
+        {
+          "text": "Observe the machine moving across pumpkin rows with rotating spikes lifting the pumpkins.",
+          "start": 188.1,
+          "end": 220.14,
+          "segment_ids": [
+            15,
+            16
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "Wa-mv3ePfkk/task00_sub00_f00.jpg",
+              "caption": "A red trailer loaded with hay is parked in a field.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "Wa-mv3ePfkk/task00_sub00_f01.jpg",
+              "caption": "A red tractor trailer is loaded with bales of hay.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "Wa-mv3ePfkk/task00_sub00_f02.jpg",
+              "caption": "A large red tractor is loading hay into a trailer.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub00_f03.jpg",
+              "relative_path": "Wa-mv3ePfkk/task00_sub00_f03.jpg",
+              "caption": "A tractor is harvesting squash in a field.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task00_sub00_f04.jpg",
+              "relative_path": "Wa-mv3ePfkk/task00_sub00_f04.jpg",
+              "caption": "A tractor is harvesting pumpkins in a field.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task00_sub00_f05.jpg",
+              "relative_path": "Wa-mv3ePfkk/task00_sub00_f05.jpg",
+              "caption": "A tractor is harvesting pumpkins in a field.",
+              "frame_index": 5
+            },
+            {
+              "image_file": "task00_sub00_f06.jpg",
+              "relative_path": "Wa-mv3ePfkk/task00_sub00_f06.jpg",
+              "caption": "A person is operating a large green machine in a field, harvesting fruit.",
+              "frame_index": 6
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The machine moves across pumpkin rows, using rotating spikes to lift the pumpkins off the ground.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[3,4,5]] The tractor is seen harvesting pumpkins in a field.",
+            "- [frames=[6]] A person is operating a large green machine in a field, harvesting fruit.",
+            "- [frames=[0,1,2]] These frames show a red trailer loaded with hay, indicating the setting is a farm.",
+            "- [frames=[3,4,5]] The machine has rotating spikes on its front end, which are used to lift the pumpkins.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a modern agricultural machinery designed specifically for pumpkin harvesting. The machine uses a unique method involving rotating spikes to lift the pumpkins from the ground, making it efficient for large-scale operations.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with sensors to detect pumpkin rows.",
+            "- It needs to have a mechanism to rotate and lift objects.",
+            "- The robot must be able to navigate through uneven terrain.",
+            "- It should have a stable base to support the weight of the pumpkins.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The machine successfully lifts the pumpkins without damaging them.",
+            "- The pumpkins are lifted to a height suitable for collection.",
+            "- The machine can move smoothly across the field without getting stuck.",
+            "- The rotating spikes effectively grip the pumpkins.",
+            "- The machine does not leave any pumpkins behind.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[3,4,5]] Move the machine forward to align with the pumpkin row.",
+            "2. [type=perception, frames=[3,4,5]] Use sensors to detect the position and orientation of the pumpkin row.",
+            "3. [type=manipulation, frames=[3,4,5]] Activate the rotating spikes.",
+            "4. [type=perception, frames=[0,1,2,3,4,5,6]] Verify/confirm the key observation before reporting.",
+            "5. [type=navigation, frames=[0,1,2,3,4,5,6]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move the machine forward to align with the pumpkin row. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move the machine forward to align with the pumpkin row; Activate the rotating spikes; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 32.03999999999999,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/Wa-mv3ePfkk/task00/sub00/motion.bvh",
+            "params_path": "results/momask/Wa-mv3ePfkk/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Note the pumpkin seeds being directed to a processing unit while husks and cores are crushed.",
+          "start": 220.14,
+          "end": 242.14,
+          "segment_ids": [
+            17,
+            18,
+            19
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "Wa-mv3ePfkk/task00_sub01_f01.jpg",
+              "caption": "A machine is harvesting pumpkins in a field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "Wa-mv3ePfkk/task00_sub01_f02.jpg",
+              "caption": "A tractor is harvesting potatoes in a field.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub01_f03.jpg",
+              "relative_path": "Wa-mv3ePfkk/task00_sub01_f03.jpg",
+              "caption": "A tractor is harvesting pumpkins in a field.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task00_sub01_f04.jpg",
+              "relative_path": "Wa-mv3ePfkk/task00_sub01_f04.jpg",
+              "caption": "The video frame shows a mixture of yellow and brown substances on a surface.",
+              "frame_index": 4
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot observes the pumpkin harvesting machine directing seeds to a processing unit while crushing husks and cores. This process involves multiple stages of separation and processing.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A machine is harvesting pumpkins in a field.",
+            "- [frames=[3]] A tractor is harvesting pumpkins in a field.",
+            "- [frames=[4]] The video frame shows a mixture of yellow and brown substances on a surface, likely indicating processed materials.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a pumpkin harvesting machine where pumpkins are being separated into seeds and other parts. The seeds are directed towards a processing unit, while the husks and cores are crushed. This indicates an automated system designed to efficiently separate and process pumpkin components.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot must be within range of the pumpkin harvesting machine.",
+            "- The processing unit must be operational and ready to receive seeds.",
+            "- The crushing mechanism must be functional to handle husks and cores.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Seeds must be accurately directed to the processing unit.",
+            "- Husks and cores must be properly crushed.",
+            "- The machine must operate without malfunctions.",
+            "- The processed materials must be free of contaminants.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Move to a position near the pumpkin harvesting machine.",
+            "2. [type=perception, frames=[1]] Verify the presence of the machine and its operational status.",
+            "3. [type=navigation, frames=[3]] Approach the processing unit to ensure it is ready to receive seeds.",
+            "4. [type=manipulation, frames=[4]] Guide the seeds towards the processing unit using robotic arms.",
+            "5. [type=navigation, frames=[4]] Position the crushing mechanism over the husks and cores.",
+            "6. [type=navigation, frames=[1,2,3,4]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to a position near the pumpkin harvesting machine. It then verifies the key detail directly from the frames (Verify the presence of the machine and its operational status).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move to a position near the pumpkin harvesting machine; Approach the processing unit to ensure it is ready to receive seeds; Guide the seeds towards the processing unit using robotic arms; Position the crushing mechanism over the husks and cores; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 22.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/Wa-mv3ePfkk/task00/sub01/motion.bvh",
+            "params_path": "results/momask/Wa-mv3ePfkk/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Explain the ecological weeding technique.",
+      "start": 44.47,
+      "end": 92.17,
+      "subtasks": [
+        {
+          "text": "Watch the foam bubbles being generated at a calibrated temperature.",
+          "start": 44.47,
+          "end": 71.17,
+          "segment_ids": [
+            3,
+            4,
+            5
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "Wa-mv3ePfkk/task01_sub00_f00.jpg",
+              "caption": "A combine harvester is loading grain into a trailer.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "Wa-mv3ePfkk/task01_sub00_f01.jpg",
+              "caption": "A red and black machine with spikes on its tires is lying on its side in the grass.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "Wa-mv3ePfkk/task01_sub00_f02.jpg",
+              "caption": "A large yellow vehicle is driving on a road surrounded by trees.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task01_sub00_f03.jpg",
+              "relative_path": "Wa-mv3ePfkk/task01_sub00_f03.jpg",
+              "caption": "A yellow vehicle is seen from above, with its back doors open, on a muddy road surrounded by trees.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task01_sub00_f04.jpg",
+              "relative_path": "Wa-mv3ePfkk/task01_sub00_f04.jpg",
+              "caption": "A large yellow machine is seen in a forested area, possibly used for agricultural purposes.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task01_sub00_f05.jpg",
+              "relative_path": "Wa-mv3ePfkk/task01_sub00_f05.jpg",
+              "caption": "A machine is harvesting nuts from trees in a field.",
+              "frame_index": 5
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot observes the setup for an ecological weeding technique involving foam bubbles generated at a specific temperature.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A combine harvester is loading grain into a trailer, indicating the presence of agricultural machinery.",
+            "- [frames=[1]] A red and black machine with spikes on its tires is lying on its side in the grass, which seems out of place for the current context.",
+            "- [frames=[2]] A large yellow vehicle is driving on a road surrounded by trees, suggesting a transition to a different scene.",
+            "- [frames=[3]] A yellow vehicle is seen from above, with its back doors open, on a muddy road surrounded by trees, likely preparing for the next phase.",
+            "- [frames=[4]] A large yellow machine is seen in a forested area, possibly used for agricultural purposes, setting the scene for the ecological weeding technique.",
+            "- [frames=[5]] A machine is harvesting nuts from trees in a field, showing the ongoing agricultural activity.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from a grain collection area to a forested agricultural field where the ecological weeding technique is being demonstrated. The focus shifts to observing the foam bubbles generated at a calibrated temperature.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot must be equipped with sensors to detect temperature and foam generation.",
+            "- The robot should have a clear view of the foam bubbles being generated.",
+            "- The robot needs to be within a range to verify the temperature and observe the foam bubbles.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The temperature of the foam bubbles must be measured and confirmed to be at the correct level.",
+            "- The foam bubbles must be observed to ensure they are forming correctly.",
+            "- The robot should cross-check the temperature reading multiple times for accuracy.",
+            "- The foam bubbles should be visible and stable during their formation.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2,3,4,5]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2,3,4,5]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2,3,4,5]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2,3,4,5]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2,3,4,5]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 26.700000000000003,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/Wa-mv3ePfkk/task01/sub00/motion.bvh",
+            "params_path": "results/momask/Wa-mv3ePfkk/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Notice the foam bubbles contacting and eliminating weeds.",
+          "start": 71.17,
+          "end": 92.17,
+          "segment_ids": [
+            6,
+            7
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "Wa-mv3ePfkk/task01_sub01_f01.jpg",
+              "caption": "A large yellow machine is harvesting almonds in a field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "Wa-mv3ePfkk/task01_sub01_f02.jpg",
+              "caption": "A machine is harvesting grapes in a vineyard.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task01_sub01_f03.jpg",
+              "relative_path": "Wa-mv3ePfkk/task01_sub01_f03.jpg",
+              "caption": "A large yellow machine is moving through the air, likely a type of agricultural machinery.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task01_sub01_f04.jpg",
+              "relative_path": "Wa-mv3ePfkk/task01_sub01_f04.jpg",
+              "caption": "A large yellow machine with large wheels is moving along a dirt path, collecting leaves.",
+              "frame_index": 4
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask involves observing a foam-based ecological weeding technique being demonstrated by a large yellow agricultural machine.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A large yellow machine is harvesting almonds in a field.",
+            "- [frames=[2]] A machine is harvesting grapes in a vineyard.",
+            "- [frames=[3]] A large yellow machine is moving through the air, likely a type of agricultural machinery.",
+            "- [frames=[4]] A large yellow machine with large wheels is moving along a dirt path, collecting leaves.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a large yellow agricultural machine performing various tasks such as harvesting and moving through different terrains. The focus is on the machine's operation during the ecological weeding technique, where foam bubbles are used to contact and eliminate weeds.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The machine must be operational and ready for use.",
+            "- The machine should have the capability to generate and release foam bubbles.",
+            "- The machine needs to be in a position to move through the field or vineyard.",
+            "- The machine should be equipped with sensors to detect weeds and apply the foam bubbles accurately.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The machine successfully generates and releases foam bubbles.",
+            "- The foam bubbles effectively contact and eliminate weeds without harming crops.",
+            "- The machine moves through the field or vineyard without causing damage to the soil or plants.",
+            "- The machine operates efficiently within the designated area.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[3]] Move the machine into the designated area for weeding.",
+            "2. [type=perception, frames=[3]] Use sensors to identify weed locations.",
+            "3. [type=manipulation, frames=[4]] Generate and release foam bubbles onto identified weed areas.",
+            "4. [type=navigation, frames=[4]] Move the machine to the next weed location.",
+            "5. [type=perception, frames=[1,2,3,4]] Verify/confirm the key observation before reporting.",
+            "6. [type=navigation, frames=[1,2,3,4]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move the machine into the designated area for weeding. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move the machine into the designated area for weeding; Generate and release foam bubbles onto identified weed areas; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 21.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/Wa-mv3ePfkk/task01/sub01/motion.bvh",
+            "params_path": "results/momask/Wa-mv3ePfkk/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Showcase the modern harvesting of tomatoes.",
+      "start": 514.71,
+      "end": 614.99,
+      "subtasks": [
+        {
+          "text": "Observe the Oxbow Tomato Harvester removing stems and fruit.",
+          "start": 514.71,
+          "end": 614.99,
+          "segment_ids": [
+            43,
+            44,
+            52,
+            53
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f00.jpg",
+              "relative_path": "Wa-mv3ePfkk/task02_sub00_f00.jpg",
+              "caption": "A close-up of a person's hand with a logo for Hyper TV in the background.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "Wa-mv3ePfkk/task02_sub00_f01.jpg",
+              "caption": "A close-up shot of cherry tomatoes with a blurred background.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "Wa-mv3ePfkk/task02_sub00_f02.jpg",
+              "caption": "A tractor is loading a trailer with red berries, likely cranberries, into a trailer.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task02_sub00_f03.jpg",
+              "relative_path": "Wa-mv3ePfkk/task02_sub00_f03.jpg",
+              "caption": "A tractor is harvesting tomatoes in a field, with a machine loading the tomatoes onto the tractor.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task02_sub00_f04.jpg",
+              "relative_path": "Wa-mv3ePfkk/task02_sub00_f04.jpg",
+              "caption": "A tractor is loading a trailer with tomatoes in a field.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task02_sub00_f05.jpg",
+              "relative_path": "Wa-mv3ePfkk/task02_sub00_f05.jpg",
+              "caption": "A person is sorting tomatoes on a conveyor belt.",
+              "frame_index": 5
+            },
+            {
+              "image_file": "task02_sub00_f06.jpg",
+              "relative_path": "Wa-mv3ePfkk/task02_sub00_f06.jpg",
+              "caption": "A machine is sorting tomatoes in a processing plant.",
+              "frame_index": 6
+            },
+            {
+              "image_file": "task02_sub00_f07.jpg",
+              "relative_path": "Wa-mv3ePfkk/task02_sub00_f07.jpg",
+              "caption": "A large agricultural machine is harvesting berries, with a logo for Hyper TV visible in the foreground.",
+              "frame_index": 7
+            },
+            {
+              "image_file": "task02_sub00_f08.jpg",
+              "relative_path": "Wa-mv3ePfkk/task02_sub00_f08.jpg",
+              "caption": "A trailer loaded with tomatoes is parked next to a tractor in a field.",
+              "frame_index": 8
+            },
+            {
+              "image_file": "task02_sub00_f09.jpg",
+              "relative_path": "Wa-mv3ePfkk/task02_sub00_f09.jpg",
+              "caption": "A conveyor belt is transporting a large amount of tomatoes.",
+              "frame_index": 9
+            },
+            {
+              "image_file": "task02_sub00_f10.jpg",
+              "relative_path": "Wa-mv3ePfkk/task02_sub00_f10.jpg",
+              "caption": "A street cleaner is operating a machine while people watch on the side.",
+              "frame_index": 10
+            },
+            {
+              "image_file": "task02_sub00_f11.jpg",
+              "relative_path": "Wa-mv3ePfkk/task02_sub00_f11.jpg",
+              "caption": "A person is using a street cleaning machine to clean a sidewalk.",
+              "frame_index": 11
+            },
+            {
+              "image_file": "task02_sub00_f12.jpg",
+              "relative_path": "Wa-mv3ePfkk/task02_sub00_f12.jpg",
+              "caption": "A man is using a street cleaner to clean the sidewalk near a stone wall.",
+              "frame_index": 12
+            },
+            {
+              "image_file": "task02_sub00_f13.jpg",
+              "relative_path": "Wa-mv3ePfkk/task02_sub00_f13.jpg",
+              "caption": "A person is using a street cleaning machine to clean the sidewalk.",
+              "frame_index": 13
+            },
+            {
+              "image_file": "task02_sub00_f14.jpg",
+              "relative_path": "Wa-mv3ePfkk/task02_sub00_f14.jpg",
+              "caption": "A person is using a machine to clean a street.",
+              "frame_index": 14
+            },
+            {
+              "image_file": "task02_sub00_f15.jpg",
+              "relative_path": "Wa-mv3ePfkk/task02_sub00_f15.jpg",
+              "caption": "A man is driving a red lawn mower in a barn.",
+              "frame_index": 15
+            },
+            {
+              "image_file": "task02_sub00_f16.jpg",
+              "relative_path": "Wa-mv3ePfkk/task02_sub00_f16.jpg",
+              "caption": "A person is riding a large, industrial vehicle through a muddy barn.",
+              "frame_index": 16
+            },
+            {
+              "image_file": "task02_sub00_f17.jpg",
+              "relative_path": "Wa-mv3ePfkk/task02_sub00_f17.jpg",
+              "caption": "A large agricultural machine is harvesting crops in a field.",
+              "frame_index": 17
+            },
+            {
+              "image_file": "task02_sub00_f18.jpg",
+              "relative_path": "Wa-mv3ePfkk/task02_sub00_f18.jpg",
+              "caption": "A combine harvester is harvesting crops in a field.",
+              "frame_index": 18
+            },
+            {
+              "image_file": "task02_sub00_f19.jpg",
+              "relative_path": "Wa-mv3ePfkk/task02_sub00_f19.jpg",
+              "caption": "A large combine harvester is harvesting crops in a field.",
+              "frame_index": 19
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The Oxbow Tomato Harvester is shown removing stems and fruit from tomato plants in a field.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A close-up of a person's hand with a logo for Hyper TV in the background.",
+            "- [frames=[1]] A close-up shot of cherry tomatoes with a blurred background.",
+            "- [frames=[2]] A tractor is loading a trailer with red berries, likely cranberries, into a trailer.",
+            "- [frames=[3]] A tractor is harvesting tomatoes in a field, with a machine loading the tomatoes onto the tractor.",
+            "- [frames=[4]] A tractor is loading a trailer with tomatoes in a field.",
+            "- [frames=[5]] A person is sorting tomatoes on a conveyor belt.",
+            "- [frames=[6]] A machine is sorting tomatoes in a processing plant.",
+            "- [frames=[7]] A large agricultural machine is harvesting berries, with a logo for Hyper TV visible in the foreground.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene primarily focuses on the harvesting process, showing various stages from the field to the processing plant. The Oxbow Tomato Harvester is central to the subtask, depicted in multiple frames as it removes stems and fruit from tomato plants.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot must be able to identify tomato plants in a field.",
+            "- It should recognize and differentiate between tomatoes and their stems.",
+            "- The robot needs to understand the concept of harvesting and removing fruits from plants.",
+            "- The robot must have the capability to operate in an outdoor environment.",
+            "- It should be able to navigate through a field without obstacles.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully identifies and removes tomatoes from their stems.",
+            "- It ensures that the harvested tomatoes are free from damage.",
+            "- The robot can distinguish between ripe and unripe tomatoes.",
+            "- It maintains a steady flow of tomatoes for further processing.",
+            "- The (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 100.27999999999997,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/Wa-mv3ePfkk/task02/sub00/motion.bvh",
+            "params_path": "results/momask/Wa-mv3ePfkk/task02/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "See the tomato sorting mechanism ensuring precise and efficient harvesting.",
+          "start": 527.71,
+          "end": 547.71,
+          "segment_ids": [
+            45,
+            46
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub01_f00.jpg",
+              "relative_path": "Wa-mv3ePfkk/task02_sub01_f00.jpg",
+              "caption": "A tractor is loading a trailer with red berries, likely cranberries, into a field.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub01_f01.jpg",
+              "relative_path": "Wa-mv3ePfkk/task02_sub01_f01.jpg",
+              "caption": "Two agricultural machines are harvesting crops in a field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub01_f02.jpg",
+              "relative_path": "Wa-mv3ePfkk/task02_sub01_f02.jpg",
+              "caption": "A large truck is loaded with tomatoes, and a tractor is harvesting them in a field.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task02_sub01_f03.jpg",
+              "relative_path": "Wa-mv3ePfkk/task02_sub01_f03.jpg",
+              "caption": "A person is sorting through a conveyor belt filled with tomatoes.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task02_sub01_f04.jpg",
+              "relative_path": "Wa-mv3ePfkk/task02_sub01_f04.jpg",
+              "caption": "A large agricultural machine is harvesting cranberries, with a trailer loaded with the harvested berries.",
+              "frame_index": 4
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on showcasing the tomato sorting mechanism used in modern agricultural machinery, highlighting its precision and efficiency.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A tractor is loading a trailer with red berries, likely cranberries, into a field.",
+            "- [frames=[1]] Two agricultural machines are harvesting crops in a field.",
+            "- [frames=[2]] A large truck is loaded with tomatoes, and a tractor is harvesting them in a field.",
+            "- [frames=[3]] A person is sorting through a conveyor belt filled with tomatoes.",
+            "- [frames=[4]] A large agricultural machine is harvesting cranberries, with a trailer loaded with the harvested berries.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts various stages of tomato harvesting and sorting. Initially, a tractor loads cranberries onto a trailer, indicating the presence of multiple crops being managed simultaneously. Subsequently, agricultural machines are seen harvesting tomatoes, which are then sorted by a person on a conveyor belt. The final frame shows another machine harvesting cranberries, suggesting the ongoing nature of agricultural operations.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot must be able to identify and distinguish between different types of fruits (tomatoes and cranberries).",
+            "- It should have the capability to operate within a dynamic agricultural environment.",
+            "- The robot needs to interact with conveyor belts and sorting mechanisms.",
+            "- The robot must be equipped with sensors to detect ripe tomatoes.",
+            "- It should be able to navigate through fields and around other machinery.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully identifies and sorts tomatoes from other crops.",
+            "- It operates the conveyor belt without causing damage to the tomatoes.",
+            "- The robot ensures that only ripe tomatoes are selected for sorting.",
+            "- It avoids interfering with the harvesting process of cranberries.",
+            "- The robot maintains a steady flow of tomatoes through the sorting mechanism.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2,3,4]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2,3,4]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2,3,4]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2,3,4]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2,3,4]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 20.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/Wa-mv3ePfkk/task02/sub01/motion.bvh",
+            "params_path": "results/momask/Wa-mv3ePfkk/task02/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Illustrate the use of a modern hay harvester.",
+      "start": 142.93,
+      "end": 165.74,
+      "subtasks": [
+        {
+          "text": "Watch the Stacker 80 gracefully stacking and compacting hay bales.",
+          "start": 142.93,
+          "end": 165.74,
+          "segment_ids": [
+            12,
+            13
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub00_f00.jpg",
+              "relative_path": "Wa-mv3ePfkk/task03_sub00_f00.jpg",
+              "caption": "A person is seen standing on a machine in a vineyard, with a sign indicating \"Hyper TV.\"",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task03_sub00_f01.jpg",
+              "relative_path": "Wa-mv3ePfkk/task03_sub00_f01.jpg",
+              "caption": "A blurry image with a logo and text on a dark background.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub00_f02.jpg",
+              "relative_path": "Wa-mv3ePfkk/task03_sub00_f02.jpg",
+              "caption": "A red tractor is parked in a field with a trailer attached.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task03_sub00_f03.jpg",
+              "relative_path": "Wa-mv3ePfkk/task03_sub00_f03.jpg",
+              "caption": "A tractor is harvesting hay in a field, with Hyper TV logo visible.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task03_sub00_f04.jpg",
+              "relative_path": "Wa-mv3ePfkk/task03_sub00_f04.jpg",
+              "caption": "A red tractor is transporting bales of hay in a field.",
+              "frame_index": 4
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The Stacker 80 is shown gracefully stacking and compacting hay bales in a vineyard setting.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A person is seen standing on a machine in a vineyard, with a sign indicating \"Hyper TV.\"",
+            "- [frames=[1]] A blurry image with a logo and text on a dark background.",
+            "- [frames=[2]] A red tractor is parked in a field with a trailer attached.",
+            "- [frames=[3]] A tractor is harvesting hay in a field, with Hyper TV logo visible.",
+            "- [frames=[4]] A red tractor is transporting bales of hay in a field.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a modern agricultural machinery operation where a red tractor, likely equipped with the Stacker 80, is performing hay bale stacking and compaction tasks in a vineyard setting. The presence of the Hyper TV logo suggests this is part of a demonstration or tutorial.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of its current location in the vineyard.",
+            "- It should have the necessary permissions to operate in the field.",
+            "- The robot needs to be within range of the hay bales being transported by the tractor.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The hay bales should be stacked and compacted efficiently.",
+            "- The stacking process should be smooth and without any interruptions.",
+            "- The final stack should be stable and meet the required density.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[3]] Navigate to the area where hay bales are being transported.",
+            "2. [type=perception, frames=[3]] Confirm the presence of hay bales using onboard sensors.",
+            "3. [type=navigation, frames=[4]] Move to the designated stacking area.",
+            "4. [type=perception, frames=[0,1,2,3,4]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2,3,4]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the area where hay bales are being transported. It then verifies the key detail directly from the frames (Confirm the presence of hay bales using onboard sensors).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the area where hay bales are being transported; Move to the designated stacking area; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 22.810000000000002,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/Wa-mv3ePfkk/task03/sub00/motion.bvh",
+            "params_path": "results/momask/Wa-mv3ePfkk/task03/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

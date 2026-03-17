@@ -1,0 +1,415 @@
+{
+  "video_index": "satMCvVd_B0",
+  "title": "India's Agricultural Prowess Shines Globally",
+  "url": "https://www.youtube.com/watch?v=satMCvVd_B0",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Describes India's agricultural sector and its significance.",
+  "tasks": [
+    {
+      "task": "Highlight the scale and diversity of India's agricultural sector.",
+      "start": 7.78,
+      "end": 13.5,
+      "subtasks": [
+        {
+          "text": "Note the vast arable land and major crops of India such as rice, wheat, and sugarcane.",
+          "start": 7.78,
+          "end": 13.5,
+          "segment_ids": [
+            1
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "satMCvVd_B0/task00_sub00_f00.jpg",
+              "caption": "The video frame shows a beautifully lit palace at night, with the words \"WITH OVER\" overlaid.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "satMCvVd_B0/task00_sub00_f01.jpg",
+              "caption": "A person is pouring milk from a pitcher into a glass.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "satMCvVd_B0/task00_sub00_f02.jpg",
+              "caption": "The video frame shows a person rowing a boat in front of a golden temple at sunset.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video shifts focus from showcasing a historical site to a domestic scene involving milk, which is not directly related to the agricultural sector. The subtask requires the robot to identify and highlight the vast arable land and major crops of India such as rice, wheat, and sugarcane.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The video frame shows a beautifully lit palace at night, with the words \"WITH OVER\" overlaid.",
+            "- [frames=[1]] A person is pouring milk from a pitcher into a glass.",
+            "- [frames=[2]] The video frame shows a person rowing a boat in front of a golden temple at sunset.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes provided do not align with the subtask requirements. The robot needs to identify and highlight the vast arable land and major crops of India, but the current frames show unrelated scenes.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to real-time video feed.",
+            "- The robot should be able to recognize and differentiate between various types of crops and landscapes.",
+            "- The robot should have a database of Indian agricultural data, including locations of arable land and major crops.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify and highlight",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 5.72,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/satMCvVd_B0/task00/sub00/motion.bvh",
+            "params_path": "results/momask/satMCvVd_B0/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Discuss the range of agricultural practices in India.",
+      "start": 16.58,
+      "end": 23.94,
+      "subtasks": [
+        {
+          "text": "Observe traditional farming methods alongside modern techniques like organic farming and precision agriculture.",
+          "start": 16.58,
+          "end": 23.94,
+          "segment_ids": [
+            3,
+            4
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "satMCvVd_B0/task01_sub00_f00.jpg",
+              "caption": "A glass of milk is splashing against a black background.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "satMCvVd_B0/task01_sub00_f01.jpg",
+              "caption": "The video frame shows a historic building with palm trees in front, with a text overlay that reads \"INCLUDING ORGANIC.\"",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "satMCvVd_B0/task01_sub00_f02.jpg",
+              "caption": "The video frame shows a majestic building with a dome and palm trees in the foreground.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask involves observing traditional farming methods and modern techniques such as organic farming and precision agriculture, as part of discussing the range of agricultural practices in India.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A glass of milk is splashing against a black background, symbolizing the importance of dairy farming in India.",
+            "- [frames=[1]] A historic building with palm trees in front appears, with a text overlay that reads \"INCLUDING ORGANIC,\" indicating the inclusion of organic farming methods.",
+            "- [frames=[2]] A majestic building with a dome and palm trees in the foreground suggests a focus on ancient agricultural practices and their integration with modern techniques.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes transition from a symbolic representation of dairy farming to historical and modern agricultural settings, emphasizing the diverse range of practices in Indian agriculture.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be able to recognize and differentiate between traditional and modern agricultural practices.",
+            "- It must understand the significance of organic farming and precision agriculture.",
+            "- The robot needs to comprehend the cultural and historical context of Indian agriculture.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify and describe both traditional and modern farming methods.",
+            "- It must highlight the integration of organic farming and precision",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 7.360000000000003,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/satMCvVd_B0/task01/sub00/motion.bvh",
+            "params_path": "results/momask/satMCvVd_B0/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Emphasize the employment and food security roles of India's agricultural sector.",
+      "start": 23.94,
+      "end": 33.34,
+      "subtasks": [
+        {
+          "text": "Notice the significant portion of the population employed in the agricultural sector.",
+          "start": 23.94,
+          "end": 28.18,
+          "segment_ids": [
+            5
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "satMCvVd_B0/task02_sub00_f01.jpg",
+              "caption": "A glass of milk is shown on a wooden surface, with a significant portion of the glass filled with milk.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "satMCvVd_B0/task02_sub00_f02.jpg",
+              "caption": "The Taj Mahal is reflected in a calm body of water, with people walking around it.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene highlights the importance of agriculture by showing a glass of milk and a reflection of the Taj Mahal, symbolizing the sector's significance in employment and national pride.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A glass of milk is shown on a wooden surface, with a significant portion of the glass filled with milk.",
+            "- [frames=[2]] The Taj Mahal is reflected in a calm body of water, with people walking around it.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The juxtaposition of the milk glass and the Taj Mahal reflects the dual role of agriculture in providing essential resources (like milk) and contributing to national heritage and tourism.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should recognize images and symbols.",
+            "- It must understand the context of agriculture and its impact on society.",
+            "- The robot needs to be aware of the cultural significance of the Taj Mahal.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the milk glass and its contents.",
+            "- It must recognize the Taj Mahal and its reflection.",
+            "- The robot should understand the connection between agriculture and national pride.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Identify the glass of milk and confirm.",
+            "2. [type=perception, frames=[1,2]] Check/confirm the key detail matches the captions and scene.",
+            "3. [type=perception, frames=[1,2]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the glass of milk and confirm. It then verifies the key detail directly from the frames (Identify the glass of milk and confirm).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 4.239999999999998,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/satMCvVd_B0/task02/sub00/motion.bvh",
+            "params_path": "results/momask/satMCvVd_B0/task02/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Recognize the crucial role of the agricultural sector in ensuring food security for 1.3 billion people.",
+          "start": 28.18,
+          "end": 33.34,
+          "segment_ids": [
+            6
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub01_f01.jpg",
+              "relative_path": "satMCvVd_B0/task02_sub01_f01.jpg",
+              "caption": "The Taj Mahal is reflected in a calm body of water, showcasing its architectural beauty.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub01_f02.jpg",
+              "relative_path": "satMCvVd_B0/task02_sub01_f02.jpg",
+              "caption": "A bottle of Itambé natural milk and a glass of milk are displayed on a wooden stand.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene shifts to showcase the Taj Mahal and then transitions to a display of milk products, emphasizing the importance of agriculture in ensuring food security for a large population.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] The Taj Mahal is reflected in a calm body of water, highlighting its beauty.",
+            "- [frames=[2]] A bottle of Itambé natural milk and a glass of milk are displayed on a wooden stand.",
+            "- [frames=[1,2]] The transition from the Taj Mahal to the milk products indicates a shift in focus from historical significance to modern agricultural achievements.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene begins with a majestic view of the Taj Mahal, symbolizing India’s rich cultural heritage. The subsequent display of milk products transitions the focus to the current agricultural sector, underscoring its critical role in providing food security for a vast population.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the video context and the need to highlight the agricultural sector.",
+            "- The robot should have access to information about the population size and the importance of food security.",
+            "- The robot should be able to navigate through different scenes and perform tasks related to the subtask.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 5.160000000000004,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/satMCvVd_B0/task02/sub01/motion.bvh",
+            "params_path": "results/momask/satMCvVd_B0/task02/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Highlight India's contribution to the global food supply.",
+      "start": 33.34,
+      "end": 38.06,
+      "subtasks": [
+        {
+          "text": "Observe India's continued contribution to the global food supply.",
+          "start": 33.34,
+          "end": 38.06,
+          "segment_ids": [
+            7
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub00_f01.jpg",
+              "relative_path": "satMCvVd_B0/task03_sub00_f01.jpg",
+              "caption": "A glass of natural milk is next to a carton of itambé natural milk.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub00_f02.jpg",
+              "relative_path": "satMCvVd_B0/task03_sub00_f02.jpg",
+              "caption": "The video frame features a white and black background with text promoting \"Video Nation\" and encouraging viewers to subscribe.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene focuses on showcasing India's contribution to the global food supply through the presence of milk products, which symbolize the country's agricultural prowess.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A glass of natural milk and a carton of itambé natural milk are placed side by side, indicating a focus on dairy products.",
+            "- [frames=[2]] The background transitions to a white and black theme with promotional text for \"Video Nation,\" suggesting a shift in the video's focus.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shifts from highlighting milk products to promoting the video channel, indicating a transition in the video's content. The milk products serve as a visual representation of India's agricultural contributions.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be positioned near the milk products.",
+            "- The robot should have access to the milk products and the promotional text area.",
+            "- The robot should be able to read and interpret the text on the screen.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the milk products.",
+            "- The robot should verify the presence of both the glass and the carton.",
+            "- The robot should confirm the promotional text about Video Nation.",
+            "- The robot should measure the duration of the scene to ensure it",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 4.719999999999999,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/satMCvVd_B0/task03/sub00/motion.bvh",
+            "params_path": "results/momask/satMCvVd_B0/task03/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

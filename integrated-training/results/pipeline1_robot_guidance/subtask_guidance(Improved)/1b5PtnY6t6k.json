@@ -1,0 +1,219 @@
+{
+  "video_index": "1b5PtnY6t6k",
+  "title": "种耳菜养花盆 见摘见长不停鲜",
+  "url": "https://www.youtube.com/watch?v=1b5PtnY6t6k",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "This video provides agricultural advice on growing and harvesting leafy greens.",
+  "tasks": [
+    {
+      "task": "Describe the process of growing and maintaining leafy greens in a pot.",
+      "start": 0.0,
+      "end": 7.2,
+      "subtasks": [
+        {
+          "text": "Observe how planting several black soil pots with black radish greens allows for continuous harvesting.",
+          "start": 0.0,
+          "end": 3.68,
+          "segment_ids": [
+            0
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "1b5PtnY6t6k/task00_sub00_f00.jpg",
+              "caption": "A close-up view of a plant with large, green leaves.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "1b5PtnY6t6k/task00_sub00_f01.jpg",
+              "caption": "A person is using scissors to trim a plant in a container.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "1b5PtnY6t6k/task00_sub00_f02.jpg",
+              "caption": "A person is using scissors to trim a plant in a container.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video shows a person trimming black radish greens in several pots, allowing for continuous harvesting.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A close-up view of a plant with large, green leaves.",
+            "- [frames=[1,2]] A person is using scissors to trim a plant in a container.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a person performing maintenance on black radish greens in pots, which will enable ongoing harvests.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be within reach of the pots.",
+            "- The robot should have access to scissors or similar tools.",
+            "- The robot should know the location of the pots and the plants.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The plants should be trimmed without damage.",
+            "- The robot should verify that all targeted plants have been trimmed.",
+            "- The robot should ensure that the pots are left clean and tidy.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Move to the location of the pots.",
+            "2. [type=perception, frames=[0]] Scan the area to locate the pots and plants.",
+            "3. [type=manipulation, frames=[1,2]] Use scissors to trim the leaves of the black radish greens.",
+            "4. [type=perception, frames=[1,2]] Verify that the leaves have been trimmed properly.",
+            "5. [type=manipulation, frames=[1,2]] Dispose of the trimmed leaves.",
+            "6. [type=perception, frames=[1,2]] Check that all targeted plants have been trimmed.",
+            "7. [type=navigation, frames=[0,1,2]] Return to a safe position.",
+            "8. [type=navigation, frames=[0,1,2]] Reset the scissors to their original position.",
+            "9. [type=manipulation, frames=[0,1,2]] Standby in a.",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to the location of the pots. It then verifies the key detail directly from the frames (Verify that the leaves have been trimmed properly).",
+            "To finish safely, it completes cleanup and returns to standby: Standby in a.",
+            ""
+          ]
+        },
+        {
+          "text": "Note that the more you harvest the black radish greens, the faster they grow.",
+          "start": 3.68,
+          "end": 5.44,
+          "segment_ids": [
+            1
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "1b5PtnY6t6k/task00_sub01_f01.jpg",
+              "caption": "A person is using scissors to trim a plant in a container.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "1b5PtnY6t6k/task00_sub01_f02.jpg",
+              "caption": "A close-up view of a plant with green leaves in a container.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe and trim black radish greens, understanding that frequent harvesting promotes faster growth.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] The person uses scissors to trim a plant in a container.",
+            "- [frames=[2]] A close-up view of a plant with green leaves in a container.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a person trimming a plant, likely black radish greens, in a container. This aligns with the subtask's focus on harvesting to promote growth.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be within reach of the plant container.",
+            "- The robot should have access to scissors or similar cutting tools.",
+            "- The robot should be able to identify the plant as black radish greens.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The plant should show signs of being trimmed.",
+            "- The plant should appear healthy and intact post-trimming.",
+            "- The robot should confirm the completion of the trimming action.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Move to the location where the plant container is situated.",
+            "2. [type=perception, frames=[1]] Identify the plant as black radish greens.",
+            "3. [type=manipulation, frames=[1]] Retrieve scissors from the tool storage area.",
+            "4. [type=navigation, frames=[1]] Approach the plant container and begin trimming the plant.",
+            "5. [type=manipulation, frames=[1]] Carefully trim the plant, ensuring not to damage the roots.",
+            "6. [type=perception, frames=[2]] Verify that the plant has been properly trimmed by checking the leaves.",
+            "7. [type=navigation, frames=[2]] Move to a safe position away from the plant.",
+            "8. [type=navigation, frames=[2]] Return the scissors to their designated storage.",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to the location where the plant container is situated. It then verifies the key detail directly from the frames (Verify that the plant has been properly trimmed by checking the leaves).",
+            "To finish safely, it completes cleanup and returns to standby: Return the scissors to their designated storage.",
+            ""
+          ]
+        },
+        {
+          "text": "Explain that you don't need to worry about the greens being depleted, only about the diner's potential boredom.",
+          "start": 5.44,
+          "end": 7.2,
+          "segment_ids": [
+            1
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub02_f01.jpg",
+              "relative_path": "1b5PtnY6t6k/task00_sub02_f01.jpg",
+              "caption": "A person is using scissors to trim a plant in a container.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub02_f02.jpg",
+              "relative_path": "1b5PtnY6t6k/task00_sub02_f02.jpg",
+              "caption": "A pair of scissors is being used to trim a plant in a container.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to explain that the greens will continue to grow even if some are trimmed, focusing on preventing the diner's boredom rather than depletion concerns.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1,2]] Scissors are being used to trim a plant in a container.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a person trimming a plant in a container, likely a pot of leafy greens. The focus is on maintaining the plant’s health and ensuring it continues to provide fresh greens.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should know basic gardening principles.",
+            "- The robot should be aware of the type of plant being trimmed.",
+            "- The robot should have knowledge about the growth cycle of leafy greens.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should explain that the greens will continue to grow.",
+            "- The robot should reassure the diner that they won’t run out of greens.",
+            "- The robot should mention that the main concern is the diner’s potential boredom.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Observe the plant being trimmed.",
+            "2. [type=perception, frames=[1]] Confirm the type of plant being trimmed.",
+            "3. [type=perception, frames=[1]] Verify the plant is a leafy green.",
+            "4. [type=communication, frames=[1]] Explain that the greens will continue to grow.",
+            "5. [type=communication, frames=[1]] Reassure the diner that they won’t run out of greens.",
+            "6. [type=communication, frames=[1]] Mention that the main concern is the diner’s potential boredom.",
+            "7. [type=navigation, frames=[1]] Return the scissors to their proper place.",
+            "8. [type=communication, frames=[1]] Suggest ways to keep the greens fresh and appealing.",
+            "9. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Observe the plant being trimmed. It then verifies the key detail directly from the frames (Confirm the type of plant being trimmed).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

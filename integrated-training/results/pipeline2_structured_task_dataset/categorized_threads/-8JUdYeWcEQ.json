@@ -1,0 +1,264 @@
+{
+  "index": "-8JUdYeWcEQ",
+  "title": "Giant and Tiny Pumpkins from China",
+  "url": "https://www.youtube.com/watch?v=-8JUdYeWcEQ",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Describe the unique pumpkin farming techniques of the Chinese.",
+      "task_category": "planning",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 1
+      }
+    },
+    {
+      "task_index": 1,
+      "task_text": "Highlight other unique products and their pricing.",
+      "task_category": "planning",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 1
+      }
+    }
+  ],
+  "num_threads": 2,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 5.84,
+      "time_end": 14.32,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "planning",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the unique pumpkin farming techniques of the Chinese.",
+          "sub_index": 0,
+          "text": "Observe the world's largest pumpkin that no single man can carry alone.",
+          "start": 5.84,
+          "end": 10.16,
+          "segment_ids": [
+            2
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [
+              "carry"
+            ],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": true
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Describe the unique pumpkin farming techniques of the Chinese.",
+          "sub_index": 1,
+          "text": "Note the smallest pumpkin developed by the Chinese, the size of a hand.",
+          "start": 10.16,
+          "end": 14.32,
+          "segment_ids": [
+            3
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 5.84,
+          "time_end": 10.16,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "narration",
+          "time_start": 10.16,
+          "time_end": 14.32,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Pumpkin Varieties and Sizes",
+        "thread_summary": "The video segment compares the world's largest pumpkin with the smallest pumpkin developed by the Chinese.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The subtasks describe contrasting examples of pumpkin sizes, moving from the extreme large to the extreme small."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 1,
+      "time_start": 14.32,
+      "time_end": 20.32,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "planning",
+      "subtasks": [
+        {
+          "task_index": 1,
+          "task_text": "Highlight other unique products and their pricing.",
+          "sub_index": 0,
+          "text": "Look at the tamarind fruit that looks awkward but is described as very delicious.",
+          "start": 14.32,
+          "end": 18.48,
+          "segment_ids": [
+            4
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "look"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Highlight other unique products and their pricing.",
+          "sub_index": 1,
+          "text": "Mention that all these pumpkins and fruits are sold for high prices in the market.",
+          "start": 18.48,
+          "end": 20.32,
+          "segment_ids": [
+            5
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 14.32,
+          "time_end": 18.48,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "narration",
+          "time_start": 18.48,
+          "time_end": 20.32,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Market Prices and Fruit Description",
+        "thread_summary": "The video segment describes the appearance and taste of a tamarind fruit and mentions the high prices of various fruits and pumpkins in the market.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The speaker transitions from describing the tamarind fruit to discussing the market prices of similar items, providing context for why the tamarind might be sold at a high price."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [
+            {
+              "insert_after": 0,
+              "text": "The tamarind, despite its unusual appearance, is known for its delicious taste."
+            }
+          ]
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,919 @@
+{
+  "video_index": "S-MatKB3suc",
+  "title": "Indian Model vs Chinese Model Yield Comparison In Agri Tech",
+  "url": "https://www.youtube.com/watch?v=S-MatKB3suc",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Provides information about technology transfer and model adaptation in agriculture.",
+  "tasks": [
+    {
+      "task": "Describe the technology transfer process from America to India.",
+      "start": 8.2,
+      "end": 21.5,
+      "subtasks": [
+        {
+          "text": "Observe that the technology in America is present in India, and note that many Indian inputs are involved.",
+          "start": 8.2,
+          "end": 18.12,
+          "segment_ids": [
+            2,
+            3
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "S-MatKB3suc/task00_sub00_f00.jpg",
+              "caption": "A man in a suit and glasses is holding a pen and a mug, possibly preparing to speak or record an interview.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "S-MatKB3suc/task00_sub00_f01.jpg",
+              "caption": "A man in a suit is talking in a studio with a microphone and a mug.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "S-MatKB3suc/task00_sub00_f02.jpg",
+              "caption": "A man in a suit is speaking in a newsroom, with a caption indicating that many areas remain untapped.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene shows a man in a suit discussing the presence of American agricultural technology in India, highlighting the involvement of Indian inputs.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A man in a suit and glasses is holding a pen and a mug, likely preparing to speak or record an interview.",
+            "- [frames=[0,1]] The setting appears to be a studio or newsroom with a microphone.",
+            "- [frame=2] A man in a suit is speaking in a newsroom, with a caption indicating that many areas remain untapped.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The man is likely explaining the technology transfer process, emphasizing the role of Indian inputs in implementing American agricultural technology in India. The setting suggests a formal discussion environment, possibly a news segment or interview.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be in a position to observe the man in the suit.",
+            "- The robot should have access to the current video feed.",
+            "- The robot should be able to communicate with the man if necessary.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately observe the man's gestures and speech.",
+            "- The robot should correctly identify the presence of American technology in India.",
+            "- The robot should recognize the involvement of Indian inputs in the technology transfer process.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Monitor the man in the suit as he prepares to speak.",
+            "2. [type=perception, frames=[2]] Confirm the man is speaking about the technology transfer process.",
+            "3. [type=manipulation, frames=[0,1]] Adjust the camera angle to focus on the man's hands and face.",
+            "4. [type=manipulation, frames=[2]] Pan the camera to include the caption indicating untapped areas.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Monitor the man in the suit as he prepares to speak. It then verifies the key detail directly from the frames (Confirm the man is speaking about the technology transfer process).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Adjust the camera angle to focus on the man's hands and face; Pan the camera to include the caption indicating untapped areas; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 9.920000000000002,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/S-MatKB3suc/task00/sub00/motion.bvh",
+            "params_path": "results/momask/S-MatKB3suc/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Highlight that India has been using technology for about 30 years.",
+          "start": 19.16,
+          "end": 21.5,
+          "segment_ids": [
+            4
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f00.jpg",
+              "relative_path": "S-MatKB3suc/task00_sub01_f00.jpg",
+              "caption": "A man in a suit and glasses is speaking into a microphone.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "S-MatKB3suc/task00_sub01_f01.jpg",
+              "caption": "A man in a suit is being interviewed by VUTV.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "S-MatKB3suc/task00_sub01_f02.jpg",
+              "caption": "A man in a suit and glasses is standing in front of a microphone.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment highlights that India has been using agricultural technology for approximately 30 years, emphasizing its long-standing engagement in this field.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A man in a suit and glasses is speaking into a microphone.",
+            "- [frames=[0,1]] The man is likely providing information about the duration of technology use in India.",
+            "- [frames=[0,1]] The background shows a professional setting, possibly a studio or conference room.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a professional interview setting where a knowledgeable individual is discussing the history of agricultural technology adoption in India. This context supports the claim that India has been utilizing such technologies for over three decades.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be positioned near a screen displaying the video content.",
+            "- The robot needs to have audio and visual recognition capabilities to understand the spoken and visual cues.",
+            "- The robot must be able to navigate through the video frames accurately.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the speaker and their attire.",
+            "- It should recognize the key message about the 30-year period of technology use in India.",
+            "- The robot must verify the duration mentioned in the video.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the frame showing the man in a suit and glasses speaking into a microphone.",
+            "2. [type=perception, frames=[0,1]] Confirm the presence of the man and his attire.",
+            "3. [type=perception, frames=[0,1]] Verify the spoken content to ensure it aligns with the 30-year timeframe.",
+            "4. [type=manipulation, frames=[0,1]] Adjust the camera angle to focus on the man’s face for better identification.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the frame showing the man in a suit and glasses speaking into a microphone. It then verifies the key detail directly from the frames (Confirm the presence of the man and his attire).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the frame showing the man in a suit and glasses speaking into a microphone; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/S-MatKB3suc/task00/sub01/motion.bvh",
+            "params_path": "results/momask/S-MatKB3suc/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Explain the financial aspects of adopting American and India models.",
+      "start": 22.2,
+      "end": 40.6,
+      "subtasks": [
+        {
+          "text": "Note that American models could generate up to 2 billion rupees.",
+          "start": 22.2,
+          "end": 25.3,
+          "segment_ids": [
+            5
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "S-MatKB3suc/task01_sub00_f00.jpg",
+              "caption": "A man in a suit is speaking in front of a microphone, with text overlay stating that two billion dollars were generated from one million bales.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "S-MatKB3suc/task01_sub00_f01.jpg",
+              "caption": "A man in a suit is speaking in front of a microphone with a text overlay stating \"Two billion dollars were generated from one million bales.\"",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "S-MatKB3suc/task01_sub00_f02.jpg",
+              "caption": "A man in a suit is speaking in front of a microphone, with text overlay stating that two billion dollars were generated from one million bales.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should note that American agricultural models can generate up to 2 billion rupees, as stated in the video.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A man in a suit is speaking in front of a microphone, with text overlay stating that two billion dollars were generated from one million bales.",
+            "- [frames=[0,1]] The text overlay remains consistent across multiple frames, emphasizing the financial aspect.",
+            "- [frames=[0,1]] The man in the suit continues to speak, likely elaborating on the financial benefits of the American model.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a professional setting where a man in a suit is delivering a presentation about the financial outcomes of adopting different agricultural models. The text overlay provides key financial data, which is crucial for understanding the subtask.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with speech recognition capabilities to understand the spoken content.",
+            "- The robot needs to have access to the video frames to analyze the visual context.",
+            "- The robot must be able to read and interpret the text overlays accurately.",
+            "- The robot should have knowledge of the financial aspects of agricultural models.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the statement about generating 2 billion rupees.",
+            "- The robot should be able to verify the consistency of the financial data across multiple frames.",
+            "- The robot should be able to communicate the financial information accurately to the user.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Read the text overlay to extract the financial data.",
+            "2. [type=perception, frames=[0,1]] Verify the consistency of the financial data across multiple frames.",
+            "3. [type=perception, frames=[0,1]] Confirm the extracted financial information with the user.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Read the text overlay to extract the financial data. It then verifies the key detail directly from the frames (Read the text overlay to extract the financial data).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 3.1000000000000014,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/S-MatKB3suc/task01/sub00/motion.bvh",
+            "params_path": "results/momask/S-MatKB3suc/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Mention that Chinese models could produce up to 4 billion rupees.",
+          "start": 26.3,
+          "end": 30.1,
+          "segment_ids": [
+            6
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f00.jpg",
+              "relative_path": "S-MatKB3suc/task01_sub01_f00.jpg",
+              "caption": "A man in a suit and glasses is speaking into a microphone.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "S-MatKB3suc/task01_sub01_f01.jpg",
+              "caption": "A man in a suit is speaking in front of a microphone with a caption about China's cotton production.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "S-MatKB3suc/task01_sub01_f02.jpg",
+              "caption": "A man in a suit is shown with a caption about China's cotton production.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should explain that Chinese models can generate up to 4 billion rupees in revenue, based on the information provided in the video.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The robot sees a man in a suit and glasses speaking into a microphone.",
+            "- [frames=[1]] The robot observes a man in a suit speaking in front of a microphone with a caption about China's cotton production.",
+            "- [frames=[2]] The robot notes a man in a suit with a caption about China's cotton production.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene involves a man presenting information about Chinese agricultural models, specifically focusing on their potential financial yield.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot needs to be in a position to see the screen and the speaker.",
+            "- The robot should have access to the relevant financial data.",
+            "- The robot must be able to communicate the information clearly.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately convey the financial aspect of Chinese models.",
+            "- The robot must ensure the information aligns with the video content.",
+            "- The robot should confirm the accuracy of the financial figures before speaking.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Read the caption about China's cotton production.",
+            "2. [type=perception, frames=[2]] Confirm the presence of the man in a suit speaking.",
+            "3. [type=navigation, frames=[0,1,2]] Positions itself to face the audience.",
+            "4. [type=communication, frames=[0,1,2]] States, \"According to the information presented, Chinese models can generate up to 4 billion rupees in revenue.\".",
+            "5. [type=perception, frames=[0,1,2]] Cross-checks the spoken information with the displayed caption.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Read the caption about China's cotton production. It then verifies the key detail directly from the frames (Read the caption about China's cotton production). After verification, it communicates the result clearly (States, \"According to the information presented, Chinese models can generate up to 4 billion rupees in revenue.\").",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Positions itself to face the audience; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.8000000000000007,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/S-MatKB3suc/task01/sub01/motion.bvh",
+            "params_path": "results/momask/S-MatKB3suc/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Describe the process of transferring Chinese models to local use.",
+          "start": 30.6,
+          "end": 34.5,
+          "segment_ids": [
+            7,
+            8
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub02_f00.jpg",
+              "relative_path": "S-MatKB3suc/task01_sub02_f00.jpg",
+              "caption": "A man in a suit is speaking behind a microphone with a VUTV logo in the background.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub02_f01.jpg",
+              "relative_path": "S-MatKB3suc/task01_sub02_f01.jpg",
+              "caption": "A man in a suit is speaking into a microphone, with text overlay that reads, \"IF WE ADOPTED CHINA MODEL.\"",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub02_f02.jpg",
+              "relative_path": "S-MatKB3suc/task01_sub02_f02.jpg",
+              "caption": "A man in a suit is speaking into a microphone, with text overlay that reads \"OR WE ADOPTED INDIA MODEL.\"",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment explains the process of adapting Chinese agricultural technology models for local use, focusing on the financial implications.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A man in a suit is speaking behind a microphone, setting up the context.",
+            "- [frames=[1]] The same man continues speaking, with an overlay stating \"IF WE ADOPTED CHINA MODEL.\"",
+            "- [frames=[2]] The man continues his speech, now with an overlay reading \"OR WE ADOPTED INDIA MODEL.\"",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a professional discussing the adoption of different agricultural technology models, specifically highlighting the Chinese model. The overlays provide key information about the financial aspects of adopting these models.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with audio recognition capabilities.",
+            "- The robot needs access to a display screen to show relevant information.",
+            "- The robot should have the ability to navigate through the video frames.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the process of adapting the Chinese model.",
+            "- It should correctly identify and read the overlays.",
+            "- The robot should convey the financial implications clearly.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Listen to the man's introduction and verify the context.",
+            "2. [type=perception, frames=[1]] Read the overlay text \"IF WE ADOPTED CHINA MODEL\" and confirm its accuracy.",
+            "3. [type=communication, frames=[1]] Announce the start of explaining the process of adapting the Chinese model.",
+            "4. [type=perception, frames=[2]] Listen to the man's continuation and verify the transition to the India model.",
+            "5. [type=communication, frames=[2]] Announce the explanation of the financial aspects of adopting the India model.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Listen to the man's introduction and verify the context. It then verifies the key detail directly from the frames (Listen to the man's introduction and verify the context). After verification, it communicates the result clearly (Announce the start of explaining the process of adapting the Chinese model).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 3.8999999999999986,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/S-MatKB3suc/task01/sub02/motion.bvh",
+            "params_path": "results/momask/S-MatKB3suc/task01/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Show the time frame for adapting models, ranging from 12 to 24 weeks.",
+          "start": 34.9,
+          "end": 37.1,
+          "segment_ids": [
+            9
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub03_f00.jpg",
+              "relative_path": "S-MatKB3suc/task01_sub03_f00.jpg",
+              "caption": "The video shows a man in a suit speaking, with text overlay stating \"WE WOULD HAVE GONE FROM TWELVE TO TWENTY FOUR.\"",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub03_f01.jpg",
+              "relative_path": "S-MatKB3suc/task01_sub03_f01.jpg",
+              "caption": "The video shows a man in a suit with a microphone, with text overlay stating \"WE WOULD HAVE GONE FROM TWELVE TO TWENTY FOUR",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub03_f02.jpg",
+              "relative_path": "S-MatKB3suc/task01_sub03_f02.jpg",
+              "caption": "The video shows a man in a suit with a microphone, with a caption that suggests a change in the number of hours worked.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment explains the duration required to adapt the American and Indian agricultural technology models, highlighting a timeframe of 12 to 24 weeks.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A man in a suit is speaking into a microphone, with text overlay stating \"WE WOULD HAVE GONE FROM TWELVE TO TWENTY FOUR.\"",
+            "- [frame=2] The scene remains similar, but there is an additional caption suggesting a change in the number of hours worked.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The man in the suit is providing a detailed explanation about the adaptation period for the agricultural technology models, emphasizing the flexibility in timing from 12 to 24 weeks. This timeframe is crucial for understanding the practical implementation and potential challenges associated with transitioning to either model.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be positioned near the screen where the video is being played.",
+            "- The robot needs to have access to the video playback controls.",
+            "- The robot should be able to read the text overlays on the video frames.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately convey the timeframe of 12 to 24 weeks for adapting the models.",
+            "- The robot should cross-check the information with the text overlays on the video frames.",
+            "- The robot should ensure the explanation aligns with the speaker's emphasis on the flexibility of the timeframe.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the video segment showing the man in a suit speaking.",
+            "2. [type=perception, frames=[0,1]] Read the text overlay stating \"WE WOULD HAVE GONE FROM TWELVE TO TWENTY FOUR.\".",
+            "3. [type=communication, frames=[0,1]] Announce the timeframe of 12 to 24 weeks for.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the video segment showing the man in a suit speaking. It then verifies the key detail directly from the frames (Read the text overlay stating \"WE WOULD HAVE GONE FROM TWELVE TO TWENTY FOUR.\"). After verification, it communicates the result clearly (Announce the timeframe of 12 to 24 weeks for).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the video segment showing the man in a suit speaking; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/S-MatKB3suc/task01/sub03/motion.bvh",
+            "params_path": "results/momask/S-MatKB3suc/task01/sub03/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Highlight that adopting Chinese models takes even less time, up to 48 weeks.",
+          "start": 37.6,
+          "end": 40.6,
+          "segment_ids": [
+            10
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub04_f00.jpg",
+              "relative_path": "S-MatKB3suc/task01_sub04_f00.jpg",
+              "caption": "A man in a suit is speaking into a microphone, with text overlay.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub04_f01.jpg",
+              "relative_path": "S-MatKB3suc/task01_sub04_f01.jpg",
+              "caption": "The video shows a man in a suit speaking into a microphone, with text overlay stating \"WE WOULD HAVE GONE TO FORTY-EIGHT BILLION",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub04_f02.jpg",
+              "relative_path": "S-MatKB3suc/task01_sub04_f02.jpg",
+              "caption": "A man in a suit and tie is standing in front of a window.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should highlight that adopting Chinese models takes up to 48 weeks, emphasizing the quick adoption period compared to other models discussed.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A man in a suit is speaking into a microphone, with text overlay.",
+            "- [frames=[0,1]] The text overlay states \"WE WOULD HAVE GONE TO FORTY-EIGHT BILLION\".",
+            "- [frames=[0,1]] The man in a suit and tie is standing in front of a window.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a man in a suit presenting information about model adoption times, with a text overlay providing specific details. The background of a window suggests an indoor setting possibly in a conference room or similar professional environment.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a display screen to show the text overlay.",
+            "- The robot should have audio capabilities to mimic the speaker's voice.",
+            "- The robot should be able to stand and move to the appropriate position in front of the window.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately convey the adoption time of 48 weeks for Chinese models.",
+            "- The robot should ensure the text overlay matches the spoken information.",
+            "- The robot should maintain eye contact with the audience while speaking.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1,2]] Inspect/verify the scene before any physical action.",
+            "2. [type=navigation, frames=[0,1]] Move to the center of the stage, facing the audience.",
+            "3. [type=manipulation, frames=[0,1]] Adjust the display screen to show the text overlay.",
+            "4. [type=communication, frames=[0,1]] Speak the phrase \"WE WOULD HAVE GONE TO FORTY-EIGHT BILLION\" in a clear, professional tone.",
+            "5. [type=perception, frames=[0,1]] Verify that the text on.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Inspect/verify the scene before any physical action. It then verifies the key detail directly from the frames (Inspect/verify the scene before any physical action).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move to the center of the stage, facing the audience; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/S-MatKB3suc/task01/sub04/motion.bvh",
+            "params_path": "results/momask/S-MatKB3suc/task01/sub04/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Describe the distribution and value addition of agricultural products.",
+      "start": 41.1,
+      "end": 51.8,
+      "subtasks": [
+        {
+          "text": "Observe the trade of 10 million metric tons of rice, and note who is involved in the trade.",
+          "start": 41.1,
+          "end": 46.3,
+          "segment_ids": [
+            11
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f00.jpg",
+              "relative_path": "S-MatKB3suc/task02_sub00_f00.jpg",
+              "caption": "A man in a suit is being interviewed by VUTV.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "S-MatKB3suc/task02_sub00_f01.jpg",
+              "caption": "A man in a suit is being interviewed by VUTV.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "S-MatKB3suc/task02_sub00_f02.jpg",
+              "caption": "A man in a suit is being interviewed by VUTV.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe an interview where a man in a suit discusses the trade of 10 million metric tons of rice, noting the parties involved in the trade.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A man in a suit is being interviewed by VUTV.",
+            "- [frames=[0,1]] The interview appears to be taking place in a studio setting.",
+            "- [frames=[0,1]] The man in the suit is facing the camera, likely answering questions about the trade.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a professional interview setting where a man in a suit is discussing the trade of 10 million metric tons of rice. The man is likely providing information on the parties involved in the trade.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to a live feed or recorded video of the interview.",
+            "- The robot should be able to identify and track the man in the suit.",
+            "- The robot should have the capability to transcribe spoken words into text.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the man in the suit as the key figure in the discussion.",
+            "- The robot should correctly transcribe the man's statements regarding the trade of rice.",
+            "- The robot should be able to list the parties involved in the trade based on the man's statements.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Identify the man in the suit as the key figure in the discussion.",
+            "2. [type=perception, frames=[0,1]] Transcribe the man's statements into text.",
+            "3. [type=manipulation, frames=[0,1]] Extract relevant information about the trade of rice.",
+            "4. [type=manipulation, frames=[0,1]] List the parties involved in the trade.",
+            "5. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the man in the suit as the key figure in the discussion. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Extract relevant information about the trade of rice; List the parties involved in the trade; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 5.199999999999996,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/S-MatKB3suc/task02/sub00/motion.bvh",
+            "params_path": "results/momask/S-MatKB3suc/task02/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Show how value addition is applied to agricultural products.",
+          "start": 47.0,
+          "end": 49.8,
+          "segment_ids": [
+            12
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub01_f00.jpg",
+              "relative_path": "S-MatKB3suc/task02_sub01_f00.jpg",
+              "caption": "A man in a suit is speaking into a microphone, with text overlay that reads, \"WHEN YOU PUT IT INTO THE VALUE ADDITION.\"",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub01_f01.jpg",
+              "relative_path": "S-MatKB3suc/task02_sub01_f01.jpg",
+              "caption": "A man in a suit is speaking into a microphone, with text overlay that reads, \"WHEN YOU PUT IT INTO THE VALUE ADDITION.\"",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub01_f02.jpg",
+              "relative_path": "S-MatKB3suc/task02_sub01_f02.jpg",
+              "caption": "The video frame shows a blurry image with text that reads, \"WHERE FROM WHERE WILL IT GO?\"",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask involves showing how value addition is applied to agricultural products through a series of frames where a man in a suit explains the concept.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A man in a suit is speaking into a microphone, with text overlay that reads, \"WHEN YOU PUT IT INTO THE VALUE ADDITION.\"",
+            "- [frames=[2]] The video frame shows a blurry image with text that reads, \"WHERE FROM WHERE WILL IT GO?\"",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from the explanation of value addition to an unclear question about its origin and destination, suggesting a shift in focus or a pause in the explanation.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be positioned near the screen to observe the video content.",
+            "- The robot should have access to a microphone to potentially record or transcribe the audio.",
+            "- The robot should be able to navigate to different parts of the screen if needed.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately capture the explanation of value addition.",
+            "- The robot should verify the transition to the unclear question.",
+            "- The robot should ensure it understands the context of the agricultural product value addition process.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Listen to the man's explanation about value addition.",
+            "2. [type=perception, frames=[2]] Verify the transition to the unclear question about the origin and destination.",
+            "3. [type=navigation, frames=[0,1,2]] Navigate to the area on the screen where the text \"WHERE FROM WHERE WILL IT GO?\" appears.",
+            "4. [type=manipulation, frames=[0,1,2]] Highlight or circle the text \"WHERE FROM WHERE WILL IT GO?\" using a virtual pointer.",
+            "5. [type=communication, frames=[0,1,2]] Record the spoken explanation and the unclear question for further.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Listen to the man's explanation about value addition. It then verifies the key detail directly from the frames (Verify the transition to the unclear question about the origin and destination).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the area on the screen where the text \"WHERE FROM WHERE WILL IT GO?\" appears; Highlight or circle the text \"WHERE FROM WHERE WILL IT GO?\" using a virtual pointer; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/S-MatKB3suc/task02/sub01/motion.bvh",
+            "params_path": "results/momask/S-MatKB3suc/task02/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Mention that a global agricultural trend is being followed.",
+          "start": 49.8,
+          "end": 51.8,
+          "segment_ids": [
+            13
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub02_f01.jpg",
+              "relative_path": "S-MatKB3suc/task02_sub02_f01.jpg",
+              "caption": "A man in a suit is seated at a desk with a mug and a microphone, with text overlay stating \"The world has gone to precision agriculture.\"",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub02_f02.jpg",
+              "relative_path": "S-MatKB3suc/task02_sub02_f02.jpg",
+              "caption": "The video shows a man in a suit speaking in a newsroom, with a caption about precision agriculture.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment introduces a global trend towards precision agriculture, setting the stage for discussing the yield comparison between Indian and Chinese models in agri tech.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A man in a suit is seated at a desk, holding a mug and a microphone, with text overlay stating \"The world has gone to precision agriculture.\"",
+            "- [frames=[2]] The same man in a suit is shown speaking in a newsroom, with a caption about precision agriculture.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a professional setting where a man in a suit is presenting information on precision agriculture. This suggests he is likely a spokesperson or expert in the field, possibly explaining the significance of precision agriculture on a global scale.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture the scene.",
+            "- The robot needs to have audio capabilities to understand the spoken content.",
+            "- The robot should have access to a display screen to show relevant information.",
+            "- The robot must be able to navigate to the appropriate location to capture the scene.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately capture the man's statement about the global trend towards precision agriculture.",
+            "- The robot should verify the presence of the man in the suit and the text overlay.",
+            "- The robot should confirm the accuracy of the spoken content about precision agriculture.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Capture an image of the man in a suit seated at the desk.",
+            "2. [type=communication, frames=[2]] Record the audio of the man speaking in the newsroom.",
+            "3. [type=navigation, frames=[1,2]] Move to a position where the robot can clearly capture both the man and the text overlay.",
+            "4. [type=manipulation, frames=[1,2]] Adjust.",
+            "5. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "6. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture an image of the man in a suit seated at the desk. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move to a position where the robot can clearly capture both the man and the text overlay; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/S-MatKB3suc/task02/sub02/motion.bvh",
+            "params_path": "results/momask/S-MatKB3suc/task02/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Describe the use of lettuce technology in tomato design.",
+      "start": 52.8,
+      "end": 56.8,
+      "subtasks": [
+        {
+          "text": "Observe that lettuce technology is used in designing tomato cultivation techniques.",
+          "start": 52.8,
+          "end": 56.8,
+          "segment_ids": [
+            14
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub00_f00.jpg",
+              "relative_path": "S-MatKB3suc/task03_sub00_f00.jpg",
+              "caption": "A man in a suit is speaking in front of a screen with the text \"IF YOUR CULTIVATORS ARE DESIGNED ON LATEST TECHNOLOGY.\"",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task03_sub00_f01.jpg",
+              "relative_path": "S-MatKB3suc/task03_sub00_f01.jpg",
+              "caption": "A man in a suit is speaking in front of a Virtual University mug.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub00_f02.jpg",
+              "relative_path": "S-MatKB3suc/task03_sub00_f02.jpg",
+              "caption": "A man in a suit is seated in front of a microphone with a Virtual University mug.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should observe a man in a suit discussing the use of lettuce technology in tomato cultivation techniques, as indicated on a screen during a presentation.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The man in a suit is speaking in front of a screen displaying the text \"IF YOUR CULTIVATORS ARE DESIGNED ON LATEST TECHNOLOGY.\"",
+            "- [frames=[1]] The man in a suit continues speaking while holding a Virtual University mug.",
+            "- [frames=[2]] The man in a suit is seated in front of a microphone with a Virtual University mug.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a professional setting where a man in a suit is presenting information about the application of lettuce technology in tomato cultivation techniques. This is likely part of a larger discussion on agricultural technology advancements.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be in a position to observe the man in a suit.",
+            "- The robot should have access to a camera to capture the screen and the man's speech.",
+            "- The robot should be able to identify the man in a suit and the screen content.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Verify that the man in a suit is discussing the use of lettuce technology in tomato cultivation techniques.",
+            "- Confirm that the screen displays the correct text related to the latest technology in cultivators.",
+            "- Check that the man in a suit is holding a Virtual University mug during his speech.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Capture an image of the screen to verify the displayed text.",
+            "2. [type=perception, frames=[1]] Identify the man in a suit and confirm he is holding a Virtual University mug.",
+            "3. [type=perception, frames=[0]] Listen to the man's speech to verify the discussion on lettuce technology in tomato cultivation.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture an image of the screen to verify the displayed text. It then verifies the key detail directly from the frames (Capture an image of the screen to verify the displayed text).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 4.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/S-MatKB3suc/task03/sub00/motion.bvh",
+            "params_path": "results/momask/S-MatKB3suc/task03/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

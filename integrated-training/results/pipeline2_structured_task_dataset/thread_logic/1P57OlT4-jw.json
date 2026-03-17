@@ -1,0 +1,180 @@
+{
+  "index": "1P57OlT4-jw",
+  "title": "Zamiana Prystawek w Maszynie Bezpiecze\u0144stwo",
+  "url": "https://www.youtube.com/watch?v=1P57OlT4-jw",
+  "num_threads": 2,
+  "threads_with_logic": [
+    {
+      "thread_index": 0,
+      "time_start": 0.0,
+      "time_end": 22.13,
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the quick couplings and safety mechanisms shown in the machine.",
+          "sub_index": 0,
+          "text": "Observe the two quick couplings and how they work.",
+          "start": 0.0,
+          "end": 4.3,
+          "segment_ids": [
+            0
+          ]
+        },
+        {
+          "task_index": 0,
+          "task_text": "Describe the quick couplings and safety mechanisms shown in the machine.",
+          "sub_index": 1,
+          "text": "Notice the two counter screws and how they are used.",
+          "start": 4.3,
+          "end": 10.37,
+          "segment_ids": [
+            1
+          ]
+        },
+        {
+          "task_index": 0,
+          "task_text": "Describe the quick couplings and safety mechanisms shown in the machine.",
+          "sub_index": 2,
+          "text": "Observe the hydraulic system and the three clutches.",
+          "start": 10.37,
+          "end": 18.63,
+          "segment_ids": [
+            2
+          ]
+        },
+        {
+          "task_index": 0,
+          "task_text": "Describe the quick couplings and safety mechanisms shown in the machine.",
+          "sub_index": 3,
+          "text": "Notice the safety feature that secures the machine with the control panel.",
+          "start": 18.63,
+          "end": 22.13,
+          "segment_ids": [
+            3
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Observation of Machine Components and Safety Features",
+        "thread_summary": "The video segment describes the observation of various components and safety features of a machine, including quick couplings, counter screws, hydraulic system, and the control panel.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The observation of the quick couplings naturally leads to noticing the counter screws, as both are part of the machine's connection and operation system."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "After observing the counter screws, the next logical step is to observe the hydraulic system, which is a critical part of the machine's functionality."
+          },
+          {
+            "from": 2,
+            "to": 3,
+            "link": "Observing the hydraulic system and clutches leads to noticing the safety feature, as the safety mechanism is likely related to the operation of the clutches and the overall system."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "_raw": null
+    },
+    {
+      "thread_index": 1,
+      "time_start": 56.26,
+      "time_end": 153.65,
+      "subtasks": [
+        {
+          "task_index": 1,
+          "task_text": "Explain the operation and handling of the machine.",
+          "sub_index": 0,
+          "text": "Describe how the machine works by pushing back the chain when necessary.",
+          "start": 56.26,
+          "end": 95.24,
+          "segment_ids": [
+            6
+          ]
+        },
+        {
+          "task_index": 1,
+          "task_text": "Explain the operation and handling of the machine.",
+          "sub_index": 1,
+          "text": "Observe the safety feature that prevents the machine from moving when there's an obstruction.",
+          "start": 108.64,
+          "end": 113.1,
+          "segment_ids": [
+            10
+          ]
+        },
+        {
+          "task_index": 1,
+          "task_text": "Explain the operation and handling of the machine.",
+          "sub_index": 2,
+          "text": "Note the safety brake feature and how it allows the machine to back up.",
+          "start": 135.64,
+          "end": 139.14,
+          "segment_ids": [
+            17
+          ]
+        },
+        {
+          "task_index": 2,
+          "task_text": "Discuss the operator platform and its functionality.",
+          "sub_index": 0,
+          "text": "Observe the platform for the operator and its mobility.",
+          "start": 139.14,
+          "end": 145.35,
+          "segment_ids": [
+            18
+          ]
+        },
+        {
+          "task_index": 2,
+          "task_text": "Discuss the operator platform and its functionality.",
+          "sub_index": 1,
+          "text": "Notice that the operator platform moves to adapt to uneven ground.",
+          "start": 147.65,
+          "end": 153.65,
+          "segment_ids": [
+            20
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Safety and Operation Features of a Machine",
+        "thread_summary": "The video segment describes the safety features and operational aspects of a machine, including its chain operation, safety mechanisms, and operator platform.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The subtask about the machine's operation (pushing back the chain) is followed by an observation of its safety feature (preventing movement with an obstruction)."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "After observing the safety feature, the next logical step is to note another safety mechanism, the safety brake, which allows the machine to back up."
+          },
+          {
+            "from": 2,
+            "to": 3,
+            "link": "Following the discussion of safety features, the next subtask shifts to describing the operator platform and its mobility."
+          },
+          {
+            "from": 3,
+            "to": 4,
+            "link": "The final subtask explains how the operator platform adapts to uneven ground, which is a logical continuation of the previous subtask about the platform's mobility."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "_raw": null
+    }
+  ]
+}

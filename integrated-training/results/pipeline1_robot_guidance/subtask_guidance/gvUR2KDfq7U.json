@@ -1,0 +1,405 @@
+{
+  "video_index": "gvUR2KDfq7U",
+  "title": "Tom Harlow's Organic Farming Practices",
+  "url": "https://www.youtube.com/watch?v=gvUR2KDfq7U",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Describes the crop rotation and agricultural practices on an organic farm.",
+  "tasks": [
+    {
+      "task": "Describe the crop rotation cycle on the farm.",
+      "start": 11.26,
+      "end": 17.26,
+      "subtasks": [
+        {
+          "text": "Explain the sequence of planting corn or squash, followed by greens, and then root crops in the third year.",
+          "start": 11.26,
+          "end": 17.26,
+          "segment_ids": [
+            1
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "gvUR2KDfq7U/task00_sub00_f00.jpg",
+              "caption": "The video frame shows a vast, barren field with no visible vegetation.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "gvUR2KDfq7U/task00_sub00_f01.jpg",
+              "caption": "The video shows a vast, plowed field with a forested background.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "gvUR2KDfq7U/task00_sub00_f02.jpg",
+              "caption": "A vast, plowed field stretches across a landscape with a forested hill in the background.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "Explain the sequence of planting corn or squash, followed by greens, and then root crops in the third year of the crop rotation cycle.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0]] The video frame shows a vast, barren field with no visible vegetation.",
+            "- [frames=[1]] The video shows a vast, plowed field with a forested background.",
+            "- [frames=[2]] A vast, plowed field stretches across a landscape with a forested hill in the background.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene depicts a field transitioning from a barren state to a prepared state for planting. The field is shown in three different frames, all depicting a large, open area suitable for agricultural activities, with a forested background providing context for the rural setting.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The field must be plowed and ready for planting.",
+            "- The robot must have knowledge of the crop rotation sequence.",
+            "- The robot should be equipped with the necessary tools for planting.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot must correctly identify the sequence of crops to be planted.",
+            "- The robot must plant the correct crops in the correct order.",
+            "- The robot must ensure the field is prepared for the next stage of the crop rotation cycle.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0,1]] Navigate to the field where the crop rotation will take place.",
+            "2. [type=perception, frames=[1]] Use sensors to confirm the field is plowed and ready for planting.",
+            "3. [type=manipulation, frames=[2]] Plant corn or squash in the first part of the field.",
+            "4. [type=manipulation, frames=[2]] Move to the next section of the field and plant greens.",
+            "5. [type=manipulation, frames=[2]] Finally, move to"
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Detail the composting process and usage on the farm.",
+      "start": 124.94,
+      "end": 136.94,
+      "subtasks": [
+        {
+          "text": "Note the use of raw manure from a local dairy farm mixed with straw to create compost.",
+          "start": 124.94,
+          "end": 130.94,
+          "segment_ids": [
+            18
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "gvUR2KDfq7U/task01_sub00_f00.jpg",
+              "caption": "A pile of compost with a forest in the background.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "gvUR2KDfq7U/task01_sub00_f01.jpg",
+              "caption": "A man in a red shirt and green hat stands in front of a pile of compost.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "gvUR2KDfq7U/task01_sub00_f02.jpg",
+              "caption": "A man in a red shirt stands in front of a pile of dirt.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "Note the use of raw manure from a local dairy farm mixed with straw to create compost.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0]] A pile of compost is visible with a forest in the background.",
+            "- [frames=[1]] A man in a red shirt and green hat stands in front of the compost pile.",
+            "- [frames=[2]] A man in a red shirt stands in front of a pile of dirt.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene depicts a farmer interacting with compost material. The first frame shows a compost pile, indicating the start of the process. The second frame introduces a farmer who is likely involved in the mixing process, while the third frame shifts to a different location, possibly showing the end result or another aspect of the composting process.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot must be aware of the presence of a compost pile.",
+            "- The robot should recognize a person in a red shirt and green hat.",
+            "- The robot needs to know about the local dairy farm and its raw manure.",
+            "- The robot should be able to distinguish between compost and dirt.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot should identify the correct compost pile.",
+            "- The robot should recognize the farmer in the red shirt and green hat.",
+            "- The robot should confirm the presence of raw manure from a local dairy farm.",
+            "- The robot should detect the mixture of manure and straw in the compost pile.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0]] Navigate to the compost pile.",
+            "2. [type=perception, frames=[0]] Identify the compost pile and note its characteristics.",
+            "3. [type=perception, frames=[1]] Recognize the farmer in a red shirt and green hat.",
+            "4. [type=manipulation, frames=[2]] Identify the pile of dirt and"
+          ]
+        },
+        {
+          "text": "Observe the turning of the compost every two or three weeks using a bucket loader.",
+          "start": 131.94,
+          "end": 136.94,
+          "segment_ids": [
+            19
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f00.jpg",
+              "relative_path": "gvUR2KDfq7U/task01_sub01_f00.jpg",
+              "caption": "A man in a pink shirt stands in front of a pile of dirt.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "gvUR2KDfq7U/task01_sub01_f01.jpg",
+              "caption": "A man in a pink shirt and hat stands in front of a pile of dirt.",
+              "frame_index": 1
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "The subtask involves observing the process of turning compost every two or three weeks using a bucket loader.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0,1]] A man in a pink shirt and hat is standing in front of a pile of dirt, preparing to turn the compost.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene depicts a man using a bucket loader to turn compost, which is a crucial step in the composting process to ensure proper aeration and decomposition. This activity is part of the broader organic farming practices demonstrated in the video.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot must be aware of the location of the compost pile.",
+            "- The robot should recognize the presence of a bucket loader.",
+            "- The robot needs to know the frequency of turning the compost (every two or three weeks).",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot should observe the man using the bucket loader to turn the compost.",
+            "- The robot should confirm that the turning process is completed within the specified timeframe.",
+            "- The robot should recognize the completion of the turning process based on the man's actions.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0,1]] Navigate to the location where the compost pile is situated.",
+            "2. [type=perception, frames=[0,1]] Identify the man in a pink shirt and hat and the pile of dirt.",
+            "3. [type=perception, frames=[0,1]] Detect the presence of a bucket loader near the compost pile.",
+            "4. [type=manipulation, frames=[0,1]] Monitor the man as he begins to use the bucket loader to turn the compost.",
+            "5. [type=perception, frames=[0,1]] Confirm that the man continues to use the bucket loader for the specified duration (two or three weeks).",
+            "6. [type=perception,"
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Describe the cover crop practices on the farm.",
+      "start": 36.26,
+      "end": 84.94,
+      "subtasks": [
+        {
+          "text": "Mention the use of winter rye and vetch as cover crops, with rye at 100 pounds per acre and vetch at 10 to 20 pounds of the total.",
+          "start": 36.26,
+          "end": 71.94,
+          "segment_ids": [
+            5,
+            8
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f00.jpg",
+              "relative_path": "gvUR2KDfq7U/task02_sub00_f00.jpg",
+              "caption": "The video shows a plowed field with a wooden shed in the background.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "gvUR2KDfq7U/task02_sub00_f01.jpg",
+              "caption": "The video frame shows a black background with white text that reads \"Organic Soil Fertility.\"",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "gvUR2KDfq7U/task02_sub00_f02.jpg",
+              "caption": "A large pile of manure or compost sits in a field with trees in the background.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task02_sub00_f03.jpg",
+              "relative_path": "gvUR2KDfq7U/task02_sub00_f03.jpg",
+              "caption": "A man in a red shirt is standing in front of a pile of dirt.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task02_sub00_f04.jpg",
+              "relative_path": "gvUR2KDfq7U/task02_sub00_f04.jpg",
+              "caption": "A man in a red shirt and baseball cap stands in a field with a pile of dirt.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task02_sub00_f05.jpg",
+              "relative_path": "gvUR2KDfq7U/task02_sub00_f05.jpg",
+              "caption": "A tractor is driving through a field of crops, surrounded by trees and a clear blue sky.",
+              "frame_index": 5
+            },
+            {
+              "image_file": "task02_sub00_f06.jpg",
+              "relative_path": "gvUR2KDfq7U/task02_sub00_f06.jpg",
+              "caption": "A tractor is driving through a field, surrounded by trees and a clear sky.",
+              "frame_index": 6
+            },
+            {
+              "image_file": "task02_sub00_f07.jpg",
+              "relative_path": "gvUR2KDfq7U/task02_sub00_f07.jpg",
+              "caption": "A man in a red shirt is driving a tractor through a field, with a dog following closely behind.",
+              "frame_index": 7
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "Mention the use of winter rye and vetch as cover crops, specifying their quantities.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0]] The video shows a plowed field with a wooden shed in the background.",
+            "- [frames=[5,6]] A tractor is driving through a field of crops, surrounded by trees and a clear blue sky.",
+            "- [frames=[7]] A man in a red shirt is driving a tractor through a field, with a dog following closely behind.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene transitions from showing a plowed field to a tractor moving through a field of crops, indicating the process of planting cover crops. The presence of a wooden shed suggests the farm’s location and infrastructure.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The field is plowed and ready for planting.",
+            "- The tractor is available and operational.",
+            "- The correct types of seeds (winter rye and vetch) are present.",
+            "- The man is operating the tractor.",
+            "- The weather conditions are suitable for planting.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot correctly identifies the use of winter rye and vetch as cover crops.",
+            "- The robot accurately mentions the quantities of each crop (rye at 100 pounds per acre and vetch at 10 to 20 pounds).",
+            "- The robot provides a clear and concise description of the cover crop practices.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0]] Navigate to the plowed field where the tractor is located.",
+            "2. [type=perception, frames=[5,6]] Observe the tractor moving through a field of crops.",
+            "3. [type=manipulation, frames=[7]] Identify the man driving the tractor and note his actions.",
+            "4. [type=communication, frames=[0,5,6,7]] Communic"
+          ]
+        },
+        {
+          "text": "Explain the timing for tilling in cover crops early for some vegetables but waiting until mid-May for corn and squash.",
+          "start": 78.94,
+          "end": 84.94,
+          "segment_ids": [
+            10
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub01_f00.jpg",
+              "relative_path": "gvUR2KDfq7U/task02_sub01_f00.jpg",
+              "caption": "A man is driving a tractor through a field, plowing the soil.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub01_f01.jpg",
+              "relative_path": "gvUR2KDfq7U/task02_sub01_f01.jpg",
+              "caption": "A man is driving a tractor through a field, plowing the soil.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub01_f02.jpg",
+              "relative_path": "gvUR2KDfq7U/task02_sub01_f02.jpg",
+              "caption": "A person is driving a tractor through a field, preparing the soil for planting.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "Explain the timing for tilling in cover crops, noting different times for various vegetables and corn/squash.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0,1]] A man is driving a tractor through a field, plowing the soil.",
+            "- [frames=[2]] A person is driving a tractor through a field, preparing the soil for planting.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene shows a farmer using a tractor to till the soil, which is part of the process of preparing the ground for planting. The timing of tilling varies depending on the type of crop being planted, with some vegetables requiring earlier tilling while corn and squash are tilled later in the season.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The field must be accessible to the tractor.",
+            "- The tractor must be operational and ready for use.",
+            "- The robot must have knowledge of the current date and the types of crops planned for the field.",
+            "- The robot must know the specific timing requirements for tilling different crops.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot must correctly identify the type of crop and the appropriate tilling time.",
+            "- The robot must ensure the tractor is in the correct location and orientation for tilling.",
+            "- The robot must confirm that the tilling process is completed according to the specified schedule.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0,1]] Navigate the robot to the field where the tractor is located.",
+            "2. [type=perception, frames=[0,1]] Use sensors to confirm the tractor is operational and ready for use.",
+            "3. [type=communication, frames=[0,1]] Communicate with the farmer to verify the current date and the types of crops planned.",
+            "4. [type=navigation, frames=[2]] Guide the tractor to the area where the soil needs to be prepared for planting"
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Explain the soil amendment practices on the farm.",
+      "start": 102.94,
+      "end": 105.94,
+      "subtasks": [
+        {
+          "text": "Describe the use of compost and blended fertilizer through planters.",
+          "start": 102.94,
+          "end": 105.94,
+          "segment_ids": [
+            14
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub00_f00.jpg",
+              "relative_path": "gvUR2KDfq7U/task03_sub00_f00.jpg",
+              "caption": "A man in a pink shirt and green hat stands in front of a pile of compost.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task03_sub00_f01.jpg",
+              "relative_path": "gvUR2KDfq7U/task03_sub00_f01.jpg",
+              "caption": "Concrete is being poured into a bucket.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub00_f02.jpg",
+              "relative_path": "gvUR2KDfq7U/task03_sub00_f02.jpg",
+              "caption": "A bucket contains a large, dark, oval-shaped object.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "The subtask involves explaining the use of compost and blended fertilizer through planters on Tom Harlow's organic farm.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0]] The man in a pink shirt and green hat stands in front of a pile of compost, indicating he is about to discuss compost usage.",
+            "- [frames=[1]] Concrete is being poured into a bucket, suggesting the preparation of a material that will be mixed with compost.",
+            "- [frames=[2]] A bucket contains a large, dark, oval-shaped object, which appears to be a pre-mixed blend of compost and concrete, likely to be used in planters.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene depicts the process of preparing and using a mixture of compost and blended fertilizer through planters. The man first introduces the compost, then prepares a mix by adding concrete to it, and finally shows the resulting mixture in a bucket, ready for application in planters.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot must recognize the man as the narrator.",
+            "- The robot should be aware of the compost and blended fertilizer materials.",
+            "- The robot needs to know the location of the planters where the mixture will be applied.",
+            "- The robot should have knowledge of the farm layout and the specific areas where planters are located.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot should accurately describe the compost and blended fertilizer mixture.",
+            "- The robot must correctly identify the purpose of the mixture in relation to the planters.",
+            "- The robot should provide a clear explanation of how the mixture is prepared and used.",
+            "- The robot needs to ensure the mixture is shown in the bucket and ready for application in the planters.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0]] Navigate to the man standing in front of the compost pile.",
+            "2. [type=perception, frames=[0"
+          ]
+        }
+      ]
+    }
+  ],
+  "guidance_text_file": "final_guidance_txt/gvUR2KDfq7U.txt"
+}

@@ -1,0 +1,821 @@
+{
+  "video_index": "ZXnqZY3NoF4",
+  "title": "Farmers Preparing Seed Beds Process Videoscape",
+  "url": "https://www.youtube.com/watch?v=ZXnqZY3NoF4",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "The video describes agricultural processes including seed selection, preparation, and harvesting.",
+  "tasks": [
+    {
+      "task": "Describe the agricultural process of selecting and preparing seeds.",
+      "start": 94.4,
+      "end": 127.44,
+      "subtasks": [
+        {
+          "text": "Observe the world's largest pumpkin and how it contrasts with the tiny pumpkins.",
+          "start": 94.4,
+          "end": 114.96,
+          "segment_ids": [
+            1,
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "ZXnqZY3NoF4/task00_sub00_f00.jpg",
+              "caption": "The video explains the Rabi crops, which are grown only in the winter season.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "ZXnqZY3NoF4/task00_sub00_f02.jpg",
+              "caption": "The video explains the Rabi crops, which are grown only in the winter season.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub00_f03.jpg",
+              "relative_path": "ZXnqZY3NoF4/task00_sub00_f03.jpg",
+              "caption": "The video frame shows various steps in agriculture, including farming, harvesting, and storage.",
+              "frame_index": 3
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment focuses on contrasting the world's largest pumpkin with smaller varieties, highlighting the diversity in pumpkin sizes within the agricultural context.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The video continues explaining Rabi crops, which are winter-grown.",
+            "- [frames=[3]] Various agricultural processes such as farming, harvesting, and storage are shown.",
+            "- [frames=[0,2,3]] No specific details about pumpkins are visible in these frames.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shifts to a broader view of agricultural activities, but does not directly show the pumpkins mentioned in the subtask. The focus remains on general agricultural processes rather than the specific comparison of pumpkin sizes.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture the visual differences between large and small pumpkins.",
+            "- The robot needs to have knowledge of different pumpkin sizes to recognize the world’s largest pumpkin.",
+            "- The robot should be able to navigate to the area where the pumpkins are displayed or discussed.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the world’s largest pumpkin.",
+            "- The robot should measure or verify the size of the largest pumpkin.",
+            "- The robot should compare the largest pumpkin with other pumpkins shown or described in the video.",
+            "- The robot should articulate the difference in size between the largest and smaller pumpkins.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[3]] Capture an image of the various pumpkins being discussed.",
+            "2. [type=perception, frames=[3]] Analyze the image to identify the world’s largest pumpkin.",
+            "3. [type=navigation, frames=[3]] Move closer to the identified largest pumpkin for a detailed view.",
+            "4. [type=perception, frames=[3]] Measure the dimensions of the largest pumpkin using built-in sensors.",
+            "5. [type=navigation, frames=[0,2,3]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture an image of the various pumpkins being discussed. It then verifies the key detail directly from the frames (Measure the dimensions of the largest pumpkin using built-in sensors).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move closer to the identified largest pumpkin for a detailed view; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 20.559999999999988,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/ZXnqZY3NoF4/task00/sub00/motion.bvh",
+            "params_path": "results/momask/ZXnqZY3NoF4/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Note the process of selecting seeds using the floatation technique.",
+          "start": 114.98,
+          "end": 123.5,
+          "segment_ids": [
+            3,
+            4
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "ZXnqZY3NoF4/task00_sub01_f01.jpg",
+              "caption": "A person is preparing land with a tool.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "ZXnqZY3NoF4/task00_sub01_f02.jpg",
+              "caption": "A farmer is using oxen to plow a field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask involves observing the process of selecting seeds using the floatation technique, which is part of the broader agricultural process of preparing seed beds.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] The scene shows a person preparing land with a tool, indicating initial land preparation.",
+            "- [frames=[2]] A farmer is seen using oxen to plow a field, suggesting further land preparation.",
+            "- [frames=[1,2]] No direct observation of the floatation technique is visible in the given frames.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The frames provided do not directly show the floatation technique for seed selection. However, it is inferred that the land is being prepared for planting, setting the stage for subsequent seed selection and preparation.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the ongoing land preparation activities.",
+            "- The robot needs to be positioned near the area where seed selection will take place.",
+            "- The robot should have access to tools or equipment necessary for seed handling.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Correct identification of seeds suitable for floatation.",
+            "- Proper separation of seeds based on the floatation test.",
+            "- Accurate recording of the results for future reference.",
+            "- Ensuring the selected seeds are free from debris and contaminants.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate to the area where the land is being prepared.",
+            "2. [type=perception, frames=[1]] Observe the land preparation activities to ensure the area is ready for seed selection.",
+            "3. [type=navigation, frames=[2]] Move to the location where the floatation technique will be performed.",
+            "4. [type=manipulation, frames=[1,2]] Retrieve a sample of seeds from the storage area.",
+            "5. [type=manipulation, frames=[1,2]] Place the seed.",
+            "6. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "7. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the area where the land is being prepared. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the area where the land is being prepared; Move to the location where the floatation technique will be performed; Retrieve a sample of seeds from the storage area; Place the seed; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 8.519999999999996,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/ZXnqZY3NoF4/task00/sub01/motion.bvh",
+            "params_path": "results/momask/ZXnqZY3NoF4/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Highlight the steps to clean good quality seeds with clean water.",
+          "start": 123.5,
+          "end": 127.44,
+          "segment_ids": [
+            5
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub02_f01.jpg",
+              "relative_path": "ZXnqZY3NoF4/task00_sub02_f01.jpg",
+              "caption": "Two oxen are plowing a field with a wooden plow.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub02_f02.jpg",
+              "relative_path": "ZXnqZY3NoF4/task00_sub02_f02.jpg",
+              "caption": "A farmer is using oxen to plow a field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe and assist in cleaning good quality seeds with clean water, ensuring the seeds are free from debris and ready for planting.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1,2]] Two oxen are plowing a field with a wooden plow, indicating the initial stage of seed bed preparation.",
+            "- [frame_index=1] A farmer is using oxen to plow a field, setting the context for the subsequent seed cleaning process.",
+            "- [frame_index=2] The scene remains similar, suggesting the ongoing plowing activity.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The robot observes a farmer using oxen to plow a field, which sets up the environment for the next steps involving seed cleaning. This scene indicates the beginning of the agricultural process, where the field is prepared for planting.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be within the field area.",
+            "- The robot needs to have access to clean water.",
+            "- The robot should be equipped with a mechanism to sort and clean seeds.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Seeds should be free from debris.",
+            "- Seeds should be thoroughly rinsed with clean water.",
+            "- The robot should confirm the cleanliness of the seeds before proceeding.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2]] Move to the area where the farmer is working on the field.",
+            "2. [type=perception, frames=[1,2]] Observe the farmer's activities to ensure the robot is in the correct position.",
+            "3. [type=navigation, frames=[1,2]] Approach the container holding the seeds.",
+            "4. [type=manipulation, frames=[1,2]] Retrieve a sample of seeds from the container.",
+            "5. [type=manipulation, frames=[1,2]] Place the seeds into a clean water basin.",
+            "6. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "7. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to the area where the farmer is working on the field. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move to the area where the farmer is working on the field; Approach the container holding the seeds; Retrieve a sample of seeds from the container; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.9399999999999977,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/ZXnqZY3NoF4/task00/sub02/motion.bvh",
+            "params_path": "results/momask/ZXnqZY3NoF4/task00/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Discuss the process of preparing seed beds.",
+      "start": 279.64,
+      "end": 335.18,
+      "subtasks": [
+        {
+          "text": "Observe the process of creating seed beds and maintaining water levels.",
+          "start": 279.64,
+          "end": 305.18,
+          "segment_ids": [
+            20,
+            21,
+            22
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "ZXnqZY3NoF4/task01_sub00_f00.jpg",
+              "caption": "A woman is using a floatation technique to select seeds.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "ZXnqZY3NoF4/task01_sub00_f01.jpg",
+              "caption": "A person is pouring seeds into a red basin of water.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "ZXnqZY3NoF4/task01_sub00_f02.jpg",
+              "caption": "A person is sorting seeds by hand in a red basin.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task01_sub00_f03.jpg",
+              "relative_path": "ZXnqZY3NoF4/task01_sub00_f03.jpg",
+              "caption": "A person is stirring rice in a red bucket.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task01_sub00_f04.jpg",
+              "relative_path": "ZXnqZY3NoF4/task01_sub00_f04.jpg",
+              "caption": "A person is washing seeds in a red bucket while removing poor-quality seeds with their hands.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task01_sub00_f05.jpg",
+              "relative_path": "ZXnqZY3NoF4/task01_sub00_f05.jpg",
+              "caption": "A person is washing seeds in a red bucket using a hand pump.",
+              "frame_index": 5
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask involves observing the process of preparing seeds for planting, including washing and sorting them. This ensures that only high-quality seeds are used for seed bed preparation.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A woman uses a floatation technique to separate good seeds from poor ones.",
+            "- [frames=[1]] A person pours seeds into a red basin of water.",
+            "- [frames=[2]] A person sorts seeds by hand in the red basin, removing poor-quality seeds.",
+            "- [frames=[3]] A person stirs rice in a red bucket, likely to help in the separation process.",
+            "- [frames=[4]] A person washes seeds in a red bucket, manually removing poor-quality seeds.",
+            "- [frames=[5]] A person uses a hand pump to wash seeds in a red bucket.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a traditional method of seed preparation where seeds are first floated to separate them based on quality, then washed thoroughly to remove any debris or poor-quality seeds. The use of a red basin and hand pump suggests a manual, labor-intensive process typical in agricultural settings.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be able to identify and interact with the red basin.",
+            "- It must have the capability to pour and stir liquids.",
+            "- The robot needs to recognize and sort objects based on quality.",
+            "- It should be equipped with a hand pump mechanism.",
+            "- The robot must be able to perform manual tasks such as washing and removing objects.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Seeds are separated into two categories: good and poor quality.",
+            "- All seeds are thoroughly washed.",
+            "- Poor-quality seeds are removed from the seed bed preparation process.",
+            "- The red basin remains clean and free of debris.",
+            "- The robot completes all tasks without damaging the seeds or equipment.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2,3,4,5]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2,3,4,5]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2,3,4,5]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2,3,4,5]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2,3,4,5]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 25.54000000000002,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/ZXnqZY3NoF4/task01/sub00/motion.bvh",
+            "params_path": "results/momask/ZXnqZY3NoF4/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Note the importance of not letting the soil develop cracks.",
+          "start": 305.18,
+          "end": 335.18,
+          "segment_ids": [
+            23
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "ZXnqZY3NoF4/task01_sub01_f01.jpg",
+              "caption": "A person is sitting on the ground with a blue bucket and a red basin, and there is a caption \"Seed treatment\" over the image.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "ZXnqZY3NoF4/task01_sub01_f02.jpg",
+              "caption": "A person is pouring a chemical into a blue bucket.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task01_sub01_f03.jpg",
+              "relative_path": "ZXnqZY3NoF4/task01_sub01_f03.jpg",
+              "caption": "A person is soaking seeds in water mixed with fungicide for 12 hours.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task01_sub01_f04.jpg",
+              "relative_path": "ZXnqZY3NoF4/task01_sub01_f04.jpg",
+              "caption": "A blue bucket with a handle is placed on a wooden surface.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task01_sub01_f05.jpg",
+              "relative_path": "ZXnqZY3NoF4/task01_sub01_f05.jpg",
+              "caption": "A man and a woman are washing seeds in a blue bucket using water from a hand pump.",
+              "frame_index": 5
+            },
+            {
+              "image_file": "task01_sub01_f06.jpg",
+              "relative_path": "ZXnqZY3NoF4/task01_sub01_f06.jpg",
+              "caption": "A person is holding a jute bag or pot, and there is a blue bucket and a bowl nearby.",
+              "frame_index": 6
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on the importance of preventing soil cracking during the preparation of seed beds, which is crucial for successful planting.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A person is sitting on the ground with a blue bucket and a red basin, indicating initial setup.",
+            "- [frames=[2]] A person is pouring a chemical into a blue bucket, suggesting preparation of a solution.",
+            "- [frames=[3]] A person is soaking seeds in water mixed with fungicide for 12 hours, showing the soaking process.",
+            "- [frames=[4]] A blue bucket with a handle is placed on a wooden surface, indicating a setup for further action.",
+            "- [frames=[5]] A man and a woman are washing seeds in a blue bucket using water from a hand pump, demonstrating the cleaning process.",
+            "- [frames=[6]] A person is holding a jute bag or pot, and there is a blue bucket and a bowl nearby, suggesting preparation for seed distribution.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts various stages of seed preparation, including treatment, soaking, and washing. The focus is on ensuring the seeds are properly prepared before being planted, with particular emphasis on maintaining the integrity of the soil to prevent cracking.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with sensors to detect soil conditions.",
+            "- It should have the ability to manipulate tools and containers.",
+            "- The robot needs to be able to communicate with the farmer for real-time updates.",
+            "- It should have a database of best practices for seed bed preparation.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The soil should remain free from cracks throughout the preparation process.",
+            "- Seeds should be thoroughly treated and soaked.",
+            "- Seeds should be cleaned and ready for planting.",
+            "- The robot should ensure that the soil remains moist and intact.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2,3,4,5,6]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[1,2,3,4,5,6]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[1,2,3,4,5,6]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[1,2,3,4,5,6]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[1,2,3,4,5,6]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 30.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/ZXnqZY3NoF4/task01/sub01/motion.bvh",
+            "params_path": "results/momask/ZXnqZY3NoF4/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Explain the process of transplanting seedlings.",
+      "start": 521.8,
+      "end": 527.34,
+      "subtasks": [
+        {
+          "text": "Observe the process of transplanting seedlings and the care to prevent crushing or drying.",
+          "start": 521.8,
+          "end": 527.34,
+          "segment_ids": [
+            33
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f00.jpg",
+              "relative_path": "ZXnqZY3NoF4/task02_sub00_f00.jpg",
+              "caption": "The video shows a dark green screen with white text that reads, \"After uprooting the seedlings, these seedlings are transported to the transplanted",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "ZXnqZY3NoF4/task02_sub00_f01.jpg",
+              "caption": "A person is transplanting seedlings in a rice field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "ZXnqZY3NoF4/task02_sub00_f02.jpg",
+              "caption": "A person is planting rice in a field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot observes the process of transplanting seedlings in a rice field, ensuring careful handling to avoid crushing or drying the seedlings.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The video shows a dark green screen with white text indicating the next step involves transporting uprooted seedlings.",
+            "- [frames=[1]] A person is seen transplanting seedlings in a rice field, carefully placing them into the soil.",
+            "- [frames=[2]] Another person is planting rice in a field, which provides context on the overall process.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts the final stages of transplanting seedlings where workers ensure the seedlings are placed gently into the soil without being crushed or dried out. This process is crucial for the survival and growth of the plants.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with sensors to detect the presence of seedlings.",
+            "- It needs to have a mechanism to pick up and transport seedlings safely.",
+            "- The robot must be able to navigate through the rice field without damaging the existing plants.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The seedlings should be placed in the soil without any visible signs of damage.",
+            "- The seedlings should be positioned correctly in the soil.",
+            "- The soil around the seedlings should be compacted slightly but not excessively.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate to the area where seedlings are being transplanted.",
+            "2. [type=perception, frames=[1]] Use sensors to locate the nearest seedling to be transplanted.",
+            "3. [type=manipulation, frames=[1]] Gently pick up the seedling using a specialized gripper.",
+            "4. [type=navigation, frames=[1,2]] Move to an appropriate spot in the soil to plant the seedling.",
+            "5. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the area where seedlings are being transplanted. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the area where seedlings are being transplanted; Gently pick up the seedling using a specialized gripper; Move to an appropriate spot in the soil to plant the seedling; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 5.540000000000077,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/ZXnqZY3NoF4/task02/sub00/motion.bvh",
+            "params_path": "results/momask/ZXnqZY3NoF4/task02/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Describe the final stages of crop harvesting.",
+      "start": 1272.6,
+      "end": 1413.27,
+      "subtasks": [
+        {
+          "text": "Observe the use of modern harvesting machines.",
+          "start": 1272.6,
+          "end": 1275.6,
+          "segment_ids": [
+            107
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub00_f00.jpg",
+              "relative_path": "ZXnqZY3NoF4/task03_sub00_f00.jpg",
+              "caption": "A combine harvester is harvesting rice in a field.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task03_sub00_f01.jpg",
+              "relative_path": "ZXnqZY3NoF4/task03_sub00_f01.jpg",
+              "caption": "A combine harvester is harvesting rice in a field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub00_f02.jpg",
+              "relative_path": "ZXnqZY3NoF4/task03_sub00_f02.jpg",
+              "caption": "A combine harvester is harvesting rice in a field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot observes a combine harvester in action, harvesting rice in a field during the final stages of crop harvesting.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] The combine harvester moves through the rice field, cutting and threshing the crops.",
+            "- [frames=[0,1]] The machine collects the harvested material into its bin.",
+            "- [frames=[0,1]] The harvester's rotating cutter bar cuts the stalks while the reel throws them towards the threshing mechanism.",
+            "- [frames=[0,1]] The threshing cylinder and concave screen separate the grain from the chaff.",
+            "- [frames=[0,1]] The cleaned grain falls into the combine harvester’s storage bin.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a modern combine harvester efficiently processing rice crops, showcasing the advanced technology used in agricultural practices. The machine’s operations involve multiple stages including cutting, threshing, cleaning, and collecting the harvested grain.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with sensors to detect the presence of the combine harvester.",
+            "- The robot needs to have a clear view of the field to track the harvester’s movements.",
+            "- The robot must be within a safe distance to observe without interfering with the machinery.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully identifies the combine harvester in the field.",
+            "- The robot accurately tracks the harvester’s operation throughout the process.",
+            "- The robot confirms the separation of grain from chaff.",
+            "- The robot measures the amount of grain collected by the harvester.",
+            "- The robot verifies the cleanliness of the harvested grain.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Uses its camera to identify the combine harvester in the field.",
+            "2. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "3. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Uses its camera to identify the combine harvester in the field. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 3.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/ZXnqZY3NoF4/task03/sub00/motion.bvh",
+            "params_path": "results/momask/ZXnqZY3NoF4/task03/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Note the common practice of harvesting crops on roads.",
+          "start": 1287.62,
+          "end": 1311.04,
+          "segment_ids": [
+            111,
+            112
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub01_f00.jpg",
+              "relative_path": "ZXnqZY3NoF4/task03_sub01_f00.jpg",
+              "caption": "A person is using a machine to harvest rice in a field.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task03_sub01_f01.jpg",
+              "relative_path": "ZXnqZY3NoF4/task03_sub01_f01.jpg",
+              "caption": "A person is winnowing grain using a basket.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub01_f02.jpg",
+              "relative_path": "ZXnqZY3NoF4/task03_sub01_f02.jpg",
+              "caption": "A person is winnowing grain in a rural setting.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task03_sub01_f03.jpg",
+              "relative_path": "ZXnqZY3NoF4/task03_sub01_f03.jpg",
+              "caption": "The video explains how moisture affects the growth of fungi in grains.",
+              "frame_index": 3
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Farmers are observed performing post-harvest activities, including winnowing grain, which often takes place on roadsides.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A person is using a machine to harvest rice in a field.",
+            "- [frames=[1]] A person is winnowing grain using a basket.",
+            "- [frames=[2]] A person is winnowing grain in a rural setting.",
+            "- [frames=[3]] The video explains how moisture affects the growth of fungi in grains.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shifts from the field where rice is being harvested to a rural area where farmers are winnowing grain. This process involves separating the grain from chaff using wind or manual methods. The explanation about moisture affecting fungal growth suggests that proper drying is crucial for storage.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the current location and context of the farming activity.",
+            "- It needs to recognize the presence of harvested grain and winnowing tools.",
+            "- The robot must know the location of nearby roads or suitable areas for winnowing.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Grain should be successfully separated from chaff.",
+            "- The robot should verify that the grain is dry and free from moisture.",
+            "- The robot should ensure that the winnowing process is completed without damage to the grain.",
+            "- The robot should confirm that the grain is ready for storage or further processing.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Navigate to the area where the harvested rice is located.",
+            "2. [type=perception, frames=[0]] Scan the environment to locate the harvested rice and winnowing tools.",
+            "3. [type=navigation, frames=[1]] Move to the location where winnowing is taking place.",
+            "4. [type=perception, frames=[0,1,2,3]] Verify/confirm the key observation before reporting.",
+            "5. [type=navigation, frames=[0,1,2,3]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the area where the harvested rice is located. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the area where the harvested rice is located; Move to the location where winnowing is taking place; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 23.420000000000073,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/ZXnqZY3NoF4/task03/sub01/motion.bvh",
+            "params_path": "results/momask/ZXnqZY3NoF4/task03/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Highlight the process of storing grains in a jute bag and godown.",
+          "start": 1398.39,
+          "end": 1413.27,
+          "segment_ids": [
+            123,
+            124
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub02_f00.jpg",
+              "relative_path": "ZXnqZY3NoF4/task03_sub02_f00.jpg",
+              "caption": "Several people are working together to spread a large white cloth on the ground.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task03_sub02_f01.jpg",
+              "relative_path": "ZXnqZY3NoF4/task03_sub02_f01.jpg",
+              "caption": "A large warehouse with multiple stacks of burlap sacks.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub02_f02.jpg",
+              "relative_path": "ZXnqZY3NoF4/task03_sub02_f02.jpg",
+              "caption": "A cold storage facility with blue and white exterior and a clear blue sky.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The final stages of storing grains involve spreading out the grains on a large white cloth and then transferring them into jute bags and storing them in a warehouse.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] Several people are working together to spread a large white cloth on the ground.",
+            "- [frames=[1]] A large warehouse with multiple stacks of burlap sacks is visible.",
+            "- [frames=[2]] A cold storage facility with a blue and white exterior and a clear blue sky is shown.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts the transition from spreading grains on a cloth to storing them in a warehouse and a cold storage facility. The workers are preparing to store the harvested grains in a more secure and controlled environment.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to observe the environment.",
+            "- The robot should have the capability to navigate through the area.",
+            "- The robot should be able to manipulate objects such as jute bags and grains.",
+            "- The robot should be able to communicate with other systems if necessary.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The grains should be successfully transferred from the cloth to the jute bags.",
+            "- The jute bags should be properly sealed and stored in the warehouse.",
+            "- The warehouse should be confirmed to be secure and ready for grain storage.",
+            "- The cold storage facility should be checked to ensure it is operational and suitable for long-term grain storage.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Navigate to the location where the large white cloth is being spread.",
+            "2. [type=perception, frames=[0]] Use the camera to verify the presence of the cloth and the workers.",
+            "3. [type=navigation, frames=[1]] Move to the warehouse to prepare for storing the grains.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the location where the large white cloth is being spread. It then verifies the key detail directly from the frames (Use the camera to verify the presence of the cloth and the workers).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the location where the large white cloth is being spread; Move to the warehouse to prepare for storing the grains; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 14.879999999999882,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/ZXnqZY3NoF4/task03/sub02/motion.bvh",
+            "params_path": "results/momask/ZXnqZY3NoF4/task03/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

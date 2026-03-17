@@ -1,0 +1,379 @@
+{
+  "video_index": "jrwqO0px0Uc",
+  "title": "Global Argo Supply Chain Journey",
+  "url": "https://www.youtube.com/watch?v=jrwqO0px0Uc",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Provides a detailed procedural explanation of the supply chain process for exporting pulses from the U.S. to India.",
+  "tasks": [
+    {
+      "task": "Describe the transportation of pulses from the U.S. to the port in the United States.",
+      "start": 13.8,
+      "end": 54.9,
+      "subtasks": [
+        {
+          "text": "Show the peas, lentils, and beans being loaded into rail cars at the Chester Montana facility.",
+          "start": 13.8,
+          "end": 21.3,
+          "segment_ids": [
+            3
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "jrwqO0px0Uc/task00_sub00_f00.jpg",
+              "caption": "The video frame shows a distorted and pixelated image of a landscape.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "jrwqO0px0Uc/task00_sub00_f01.jpg",
+              "caption": "A truck is transporting lentils and peas to a facility.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "jrwqO0px0Uc/task00_sub00_f02.jpg",
+              "caption": "A truck is parked in front of a large silo complex.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask involves showing the loading of peas, lentils, and beans into rail cars at the Chester Montana facility. This scene is part of the broader journey of pulses from the U.S. to the port.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The video frame shows a distorted and pixelated image of a landscape.",
+            "- [frames=[1]] A truck is transporting lentils and peas to a facility.",
+            "- [frames=[2]] A truck is parked in front of a large silo complex.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a transportation process where a truck arrives at a facility, likely a storage or processing center, to unload its cargo. The presence of lentils and peas suggests that the facility handles various types of pulses.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the location of the facility.",
+            "- The robot needs to recognize different types of pulses such as lentils and peas.",
+            "- The robot must have knowledge about rail car loading procedures.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the types of pulses being transported.",
+            "- The robot should confirm the correct loading of pulses into rail cars.",
+            "- The robot should ensure that all pulses are properly secured before the",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Highlight the process of trans-loading the pulses into containers and loading them onto steamship lines.",
+          "start": 49.1,
+          "end": 54.9,
+          "segment_ids": [
+            9
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f00.jpg",
+              "relative_path": "jrwqO0px0Uc/task00_sub01_f00.jpg",
+              "caption": "A hand is drawing a line on a whiteboard with a marker.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "jrwqO0px0Uc/task00_sub01_f01.jpg",
+              "caption": "Two BNSF train cars are being loaded with containers by two cranes.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "jrwqO0px0Uc/task00_sub01_f02.jpg",
+              "caption": "A ship is loaded with containers using a crane.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask involves the process of trans-loading pulses into containers and then loading these containers onto a steamship at a port facility.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A hand is drawing a line on a whiteboard with a marker, likely indicating the start of the process.",
+            "- [frames=[1]] Two BNSF train cars are being loaded with containers by two cranes, showing the initial stage of containerization.",
+            "- [frames=[2]] A ship is loaded with containers using a crane, illustrating the final step where containers are transferred to the vessel.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts the transition of goods from rail transport to maritime transport, specifically focusing on the loading of containers onto a ship. This process is crucial for the global supply chain journey of pulses.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the location of the BNSF train cars and the cranes.",
+            "- It must recognize the containers and the ship.",
+            "- The robot needs to know the correct sequence of operations for loading and unloading containers.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Containers are accurately placed on the BNSF train cars.",
+            "- Containers are successfully loaded onto the ship using the crane.",
+            "- (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Describe the import clearance and compliance process after the container arrives at the import port.",
+      "start": 74.4,
+      "end": 89.9,
+      "subtasks": [
+        {
+          "text": "Observe the product being cleared at the port of import and its custom clearance process.",
+          "start": 74.4,
+          "end": 89.9,
+          "segment_ids": [
+            13,
+            14,
+            15
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "jrwqO0px0Uc/task01_sub00_f00.jpg",
+              "caption": "A world map shows the continents and oceans, with a text overlay that reads \"Container then arrives other.\"",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "jrwqO0px0Uc/task01_sub00_f01.jpg",
+              "caption": "A container is shown with the word \"CLEARANCE\" on top of it.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "jrwqO0px0Uc/task01_sub00_f02.jpg",
+              "caption": "The video frame shows a warehouse with a large garage door and a sign that reads \"warehouse.\"",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task01_sub00_f03.jpg",
+              "relative_path": "jrwqO0px0Uc/task01_sub00_f03.jpg",
+              "caption": "A hand is shown with a thumbs-up gesture, with a seal that says \"SAFETY\" and the words \"Second check of food safety\" in the",
+              "frame_index": 3
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask involves observing the import clearance and compliance process of a container at the port of import, including safety checks and the movement of the container into a warehouse.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A world map with a text overlay indicating the container's arrival at the import port.",
+            "- [frames=[1]] A container labeled \"CLEARANCE\" is shown.",
+            "- [frames=[2]] A warehouse with a large garage door and a sign reading \"warehouse\" is visible.",
+            "- [frames=[3]] A hand gives a thumbs-up gesture, with a seal that says \"SAFETY\" and the phrase \"Second check of food safety.\"",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts the final stages of a container's journey from the port to the warehouse, focusing on the clearance and safety checks. The container is clearly marked for clearance, and the safety inspection is highlighted by the hand gesture and seal.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the container's location at the port.",
+            "- The robot must have access to the warehouse.",
+            "- The robot needs to recognize the safety seal and gestures.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The container should be correctly identified as needing clearance.",
+            "- (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2,3]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2,3]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2,3]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2,3]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2,3]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Explain the distribution and sale of the pulses to consumers.",
+      "start": 89.9,
+      "end": 96.4,
+      "subtasks": [
+        {
+          "text": "Note the movement of the pulses from the temperature-controlled warehouse to retail stores.",
+          "start": 89.9,
+          "end": 96.4,
+          "segment_ids": [
+            16,
+            17
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "jrwqO0px0Uc/task02_sub00_f01.jpg",
+              "caption": "A white wall with a pencil graphic on it.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "jrwqO0px0Uc/task02_sub00_f02.jpg",
+              "caption": "A woman is shopping in a grocery store, and the video shows the products coming from a warehouse to the store.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe the movement of pulses from a temperature-controlled warehouse to retail stores, noting the journey visually and ensuring accuracy in the supply chain process.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A white wall with a pencil graphic provides a static background.",
+            "- [frames=[2]] A woman is shopping in a grocery store, and the video shows the products coming from a warehouse to the store.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts the final leg of the pulse distribution journey, where the product moves from a warehouse to a retail store. The robot will focus on the transition of the pulses from the warehouse to the store, ensuring the process is accurately observed and recorded.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to the video feed showing the warehouse-to-store journey.",
+            "- The robot needs to be equipped with the necessary sensors to track the movement of the pulses.",
+            "- The robot must have the capability to communicate with the warehouse and store systems to verify the movement details.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately track the movement of the pulses from the warehouse to the store.",
+            "- The robot must confirm the correct product is being moved and delivered.",
+            "- The robot should record the entire journey for (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Present the sustainable and environmentally friendly aspects of the pulses.",
+      "start": 137.4,
+      "end": 144.4,
+      "subtasks": [
+        {
+          "text": "Mention that the pulses are recyclable and earth-friendly.",
+          "start": 137.4,
+          "end": 144.4,
+          "segment_ids": [
+            25
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub00_f00.jpg",
+              "relative_path": "jrwqO0px0Uc/task03_sub00_f00.jpg",
+              "caption": "The video shows a handshake between two men in front of a government building.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task03_sub00_f02.jpg",
+              "relative_path": "jrwqO0px0Uc/task03_sub00_f02.jpg",
+              "caption": "Two cartoon characters are celebrating with a trophy and the U.S. flag.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should mention that the pulses are recyclable and earth-friendly during a specific segment of the video.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The video shows a handshake between two men in front of a government building.",
+            "- [frames=[0]] The scene transitions to two cartoon characters celebrating with a trophy and the U.S. flag.",
+            "- [frames=[2]] The focus shifts back to the government building setting.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes transition from a formal handshake at a government building to a celebratory moment involving cartoon characters. The context suggests a shift in tone but maintains a professional and positive atmosphere.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot must be aware of the sustainable and environmentally friendly attributes of pulses.",
+            "- It should have the capability to speak or display text during the specified time range.",
+            "- The robot needs to recognize the appropriate moment to insert this information based on the visual cues provided.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully mentions that the pulses are recyclable and earth-friendly.",
+            "- The statement is made within the correct time range (137.4s–144.4s).",
+            "- The insertion does not disrupt the flow of the video or the celebration depicted",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "mission_id": "3-xjgCWMED0",
+  "mission_title": "Crop Rotation for Healthy Soil and Sustainable Farming",
+  "url": "https://www.youtube.com/watch?v=3-xjgCWMED0",
+  "artifacts_present": {
+    "thread_logic": true,
+    "coherent_blocks_with_submissions": true,
+    "task_blueprint": true,
+    "coherence_report": true
+  },
+  "checks": {
+    "logical_check": {
+      "status": "fail",
+      "num_issues": 1,
+      "issue_type_counts": {
+        "needs_repair": 1
+      },
+      "sample_issues": [
+        {
+          "thread_index": 1,
+          "type": "needs_repair",
+          "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+        }
+      ]
+    },
+    "coherence_check": {
+      "status": "pass",
+      "num_issues": 0,
+      "issue_type_counts": {},
+      "sample_issues": []
+    }
+  },
+  "sub_missions": [
+    {
+      "sub_mission_id": "3-xjgCWMED0_subm0",
+      "sub_mission_title": "Theme: crop / nematodes / rotation",
+      "block_id": 0,
+      "time_start": 0.21,
+      "time_end": 149.21,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "Explain the importance of crop rotation and its benefits.",
+          "status": "pass"
+        },
+        {
+          "task_index": 1,
+          "task_text": "Present the process of designing a crop rotation to manage soil health.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "3-xjgCWMED0_subm1",
+      "sub_mission_title": "Theme: crops / levels / can",
+      "block_id": 1,
+      "time_start": 258.46,
+      "time_end": 356.21,
+      "issues_detected": true,
+      "checks": {
+        "logical_check": {
+          "status": "fail",
+          "num_issues": 1,
+          "issue_type_counts": {
+            "needs_repair": 1
+          },
+          "sample_issues": [
+            {
+              "thread_index": 1,
+              "type": "needs_repair",
+              "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+            }
+          ]
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "pending",
+      "final_status": "pending_entry",
+      "used_for_training": false,
+      "tasks": [
+        {
+          "task_index": 1,
+          "task_text": "Present the process of designing a crop rotation to manage soil health.",
+          "status": "fail"
+        },
+        {
+          "task_index": 2,
+          "task_text": "Discuss additional considerations and integration of cover crops in crop rotation.",
+          "status": "fail"
+        }
+      ]
+    }
+  ],
+  "mission_rollup": {
+    "num_sub_missions": 2,
+    "num_successful_entries": 1,
+    "all_successful": false
+  }
+}

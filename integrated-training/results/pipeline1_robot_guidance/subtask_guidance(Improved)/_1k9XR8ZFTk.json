@@ -1,0 +1,589 @@
+{
+  "video_index": "_1k9XR8ZFTk",
+  "title": "Maize Growing Tips for Sustainable Production 1",
+  "url": "https://www.youtube.com/watch?v=_1k9XR8ZFTk",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Provides detailed instructions on how to grow maize more sustainably.",
+  "tasks": [
+    {
+      "task": "Describe the process of selecting and purchasing maize seeds.",
+      "start": 4.05,
+      "end": 21.05,
+      "subtasks": [
+        {
+          "text": "Consult with extension officers to choose the best maize variety for your area.",
+          "start": 4.05,
+          "end": 13.05,
+          "segment_ids": [
+            1
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "_1k9XR8ZFTk/task00_sub00_f00.jpg",
+              "caption": "The video frame shows a title screen for a sustainable maize farming tutorial.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "_1k9XR8ZFTk/task00_sub00_f01.jpg",
+              "caption": "The video frame shows two people discussing a crop calendar.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "_1k9XR8ZFTk/task00_sub00_f02.jpg",
+              "caption": "The video frame encourages investing in high-quality seeds.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will assist in consulting with extension officers to select the best maize variety for the area, ensuring sustainable production practices.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The video frame shows a title screen for a sustainable maize farming tutorial.",
+            "- [frames=[1]] Two people are seen discussing a crop calendar.",
+            "- [frames=[2]] The video frame encourages investing in high-quality seeds.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from an introductory title screen to a discussion about crop calendars, indicating a shift towards practical advice on seed selection. The encouragement to invest in high-quality seeds suggests the importance of choosing the right variety.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot is equipped with communication capabilities to interact with humans.",
+            "- The robot has access to a database of maize varieties suitable for different regions.",
+            "- The robot can navigate through the video frames to locate relevant information.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully identifies the best maize variety for the area.",
+            "- The robot verifies the selected variety with the extension officers.",
+            "- The robot provides clear recommendations based on the discussion.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Navigate to the frame showing the title screen.",
+            "2. [type=navigation, frames=[1]] Move to the frame where two people are discussing a crop calendar.",
+            "3. [type=communication, frames=[1]] Initiate a conversation with the extension officers to discuss maize varieties.",
+            "4. [type=perception, frames=[1]] Listen to the conversation to identify the key points discussed regarding maize varieties.",
+            "5. [type=manipulation, frames=[2]] Select the recommended maize variety from the database based on the discussion.",
+            "6. [type=perception, frames=[2]] Confirm the selected variety with the extension officers.",
+            "7. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the frame showing the title screen. It then verifies the key detail directly from the frames (Confirm the selected variety with the extension officers).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Purchase certified seeds from the AgroDealer recommended by the Agri Business Hubs.",
+          "start": 13.05,
+          "end": 21.05,
+          "segment_ids": [
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "_1k9XR8ZFTk/task00_sub01_f01.jpg",
+              "caption": "The video frame shows a person with their arms outstretched, surrounded by bags of seeds.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "_1k9XR8ZFTk/task00_sub01_f02.jpg",
+              "caption": "The video frame encourages viewers to choose the best variety.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will navigate to the AgroDealer recommended by the Agri Business Hubs to purchase certified maize seeds. It will follow the process of selecting the best variety and ensuring the seeds meet the required standards.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A person is shown surrounded by bags of seeds, indicating the presence of multiple seed varieties.",
+            "- [frames=[2]] The video emphasizes choosing the best variety, suggesting the need for careful selection.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a setting where various maize seed varieties are available for purchase. The viewer is encouraged to select the best variety, implying a need for quality assessment and comparison among different options.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to a list of AgroDealers recommended by the Agri Business Hubs.",
+            "- The robot must be equipped with a camera to visually inspect the seed varieties.",
+            "- The robot needs to have a communication interface to interact with the AgroDealer.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should purchase certified maize seeds.",
+            "- The selected seeds should match the best variety recommended by the Agri Business Hubs.",
+            "- The robot should verify the certification status of the seeds before purchase.",
+            "- The robot should ensure the purchased seeds are of high quality.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate to the AgroDealer recommended by the Agri Business Hubs.",
+            "2. [type=perception, frames=[1]] Use the camera to scan the available seed varieties and identify the best option.",
+            "3. [type=navigation, frames=[2]] Approach the selected seed variety.",
+            "4. [type=manipulation, frames=[2]] Pick up a sample bag of the selected seed variety.",
+            "5. [type=communication, frames=[2]] Request confirmation of the seed's.",
+            "6. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "7. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the AgroDealer recommended by the Agri Business Hubs. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Explain how to determine the appropriate planting time based on rainfall patterns.",
+      "start": 43.05,
+      "end": 64.05,
+      "subtasks": [
+        {
+          "text": "Plant late maturity varieties in regions with high rainfall during the early part of the rainy season.",
+          "start": 43.05,
+          "end": 54.05,
+          "segment_ids": [
+            6,
+            7
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "_1k9XR8ZFTk/task01_sub00_f00.jpg",
+              "caption": "The video frame shows a plate of food and a bag of flour, with text indicating that the flour is easier to store due to its hard grains.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "_1k9XR8ZFTk/task01_sub00_f01.jpg",
+              "caption": "The video frame shows a map of Zambia with different regions and a text box explaining the use of late maturity varieties planted at the beginning of the rainy season.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "_1k9XR8ZFTk/task01_sub00_f02.jpg",
+              "caption": "The video frame shows a map of Zambia with different regions shaded in different colors, indicating different maturity stages of crops.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Planting late maturity maize varieties in regions with high rainfall during the early part of the rainy season is crucial for sustainable production. This involves understanding regional rainfall patterns and selecting appropriate crop varieties.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The video initially shows a plate of food and a bag of flour, which are irrelevant to the current subtask.",
+            "- [frames=[1]] A map of Zambia is displayed, highlighting different regions and explaining the use of late maturity varieties for early rainy season planting.",
+            "- [frames=[2]] The same map is shown, but now with different regions shaded in various colors, indicating varying maturity stages of crops.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The video transitions from showing food items to focusing on a map of Zambia, which is then detailed with different regions and their corresponding crop maturity stages. This map serves as a key visual aid for understanding the geographical and climatic conditions relevant to maize cultivation.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to a map of Zambia.",
+            "- The robot needs to be able to read and interpret the map data.",
+            "- The robot must have knowledge about different maize varieties and their maturity stages.",
+            "- The robot should be aware of the current rainfall patterns in Zambia.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify regions with high rainfall during the early part of the rainy season.",
+            "- It should recommend late maturity maize varieties for planting in those regions.",
+            "- The robot should ensure that the recommended planting time aligns with the observed rainfall patterns.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Read the map of Zambia to identify regions with high rainfall during the early part of the rainy season.",
+            "2. [type=perception, frames=[2]] Cross-check the map with the shaded regions indicating different maturity stages of crops.",
+            "3. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Read the map of Zambia to identify regions with high rainfall during the early part of the rainy season. It then verifies the key detail directly from the frames (Read the map of Zambia to identify regions with high rainfall during the early part of the rainy season).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Plant medium maturity varieties in the middle of the rainy season.",
+          "start": 54.05,
+          "end": 59.05,
+          "segment_ids": [
+            8
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "_1k9XR8ZFTk/task01_sub01_f01.jpg",
+              "caption": "The video frame shows a map of Zambia with different regions and a sign indicating the use of medium maturity varieties between 1st and 25th December.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "_1k9XR8ZFTk/task01_sub01_f02.jpg",
+              "caption": "The video frame shows a map of Zambia with regions labeled and a sign indicating the use of early, medium, and late maturity varieties from December 25 to",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should explain that medium maturity maize varieties should be planted during the middle of the rainy season, specifically between December 1st and 25th, as indicated by the map and signs shown in the video.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A map of Zambia is displayed, showing different regions with a sign indicating the use of medium maturity varieties between 1st and 25th December.",
+            "- [frames=[2]] The same map is shown, but now it also includes information about early, medium, and late maturity varieties from December 25 onwards.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The robot will need to understand that the map provides critical information about the planting times for different maize varieties based on their maturity levels and the timing of the rainy season.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to the map and signs displayed in the video.",
+            "- The robot needs to be able to read and interpret the information on the map and signs.",
+            "- The robot should know the characteristics of different maize varieties and their optimal planting times.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the period when medium maturity varieties should be planted.",
+            "- The robot should accurately convey the information about the planting window.",
+            "- The robot should ensure that the explanation aligns with the information provided in the video.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Read the sign on the map indicating the planting period for medium maturity varieties.",
+            "2. [type=perception, frames=[2]] Confirm the additional information on the map regarding other maturity varieties.",
+            "3. [type=navigation, frames=[1,2]] Navigate to the section of the map highlighting the planting period for medium maturity varieties.",
+            "4. [type=communication, frames=[1,2]] Explain that medium maturity maize.",
+            "5. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Read the sign on the map indicating the planting period for medium maturity varieties. It then verifies the key detail directly from the frames (Read the sign on the map indicating the planting period for medium maturity varieties).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Plant early maturity varieties towards the end of the rainy season.",
+          "start": 59.05,
+          "end": 64.05,
+          "segment_ids": [
+            9
+          ],
+          "frames": []
+        }
+      ]
+    },
+    {
+      "task": "Discuss soil management practices for sustainable maize production.",
+      "start": 115.32,
+      "end": 138.32,
+      "subtasks": [
+        {
+          "text": "Ensure soil testing every 3 to 4 years for soil acidity and magnesium.",
+          "start": 115.32,
+          "end": 124.32,
+          "segment_ids": [
+            18
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f00.jpg",
+              "relative_path": "_1k9XR8ZFTk/task02_sub00_f00.jpg",
+              "caption": "The video frame shows a briefcase with various items inside, including bottles, a funnel, a key, a smartphone, and some papers.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "_1k9XR8ZFTk/task02_sub00_f01.jpg",
+              "caption": "A person is using a smartphone to take a picture of a box, with the help of extension officers.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "_1k9XR8ZFTk/task02_sub00_f02.jpg",
+              "caption": "The video frame shows a cartoon scene with two people and a house in a rain-soaked landscape, with a text overlay indicating \"REGION 3\" and a",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should assist in ensuring that soil testing for soil acidity and magnesium is conducted every 3 to 4 years, as part of sustainable maize production practices.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The video frame shows a briefcase containing various items, suggesting preparation for soil testing.",
+            "- [frames=[1]] A person is using a smartphone to take a picture of a box, likely to document the testing process.",
+            "- [frames=[2]] A cartoon scene indicates the context of regional agricultural practices, reinforcing the importance of regular soil testing.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts preparations for soil testing, involving both physical items like a briefcase and digital documentation through a smartphone. The cartoon element suggests a broader educational context, emphasizing the importance of sustainable farming practices.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot needs access to a briefcase containing necessary testing equipment.",
+            "- The robot should have a smartphone or similar device for documentation.",
+            "- The robot must be familiar with regional agricultural guidelines and practices.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Soil samples are collected and tested for acidity and magnesium levels.",
+            "- Test results are documented and stored for future reference.",
+            "- The robot confirms the frequency of testing aligns with recommended intervals.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1,2]] Inspect/verify the scene before any physical action.",
+            "2. [type=navigation, frames=[0]] Navigate to the location where the briefcase is placed.",
+            "3. [type=manipulation, frames=[0]] Open the briefcase to access testing equipment.",
+            "4. [type=manipulation, frames=[1]] Collect soil samples from the field.",
+            "5. [type=manipulation, frames=[1]] Place the collected samples into a container for testing.",
+            "6. [type=perception, frames=[1]] Use the smartphone to take a picture of the samples for documentation.",
+            "7. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Inspect/verify the scene before any physical action. It then verifies the key detail directly from the frames (Inspect/verify the scene before any physical action).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Apply lime to maintain a soil pH between 5.5 and 7 before planting.",
+          "start": 130.32,
+          "end": 138.32,
+          "segment_ids": [
+            20
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub01_f00.jpg",
+              "relative_path": "_1k9XR8ZFTk/task02_sub01_f00.jpg",
+              "caption": "A person is using a hoe to cultivate soil, with the text \"To make sure your soil restores a pH of 5.5-7\" displayed.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub01_f01.jpg",
+              "relative_path": "_1k9XR8ZFTk/task02_sub01_f01.jpg",
+              "caption": "A person is using a hoe to cultivate soil, with text indicating the importance of maintaining a pH of 5.5-7.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub01_f02.jpg",
+              "relative_path": "_1k9XR8ZFTk/task02_sub01_f02.jpg",
+              "caption": "The video frame shows a sign that says \"PREP THE FIELD FOR PLANTING\" with the FAO logo in the top right corner.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask involves preparing the soil by applying lime to maintain a specific pH range before planting maize.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A person is using a hoe to cultivate soil, with text emphasizing the need to restore soil pH to 5.5-7.",
+            "- [frame=2] A sign reads \"PREP THE FIELD FOR PLANTING\" with the FAO logo visible in the top right corner.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a field preparation process where the focus is on adjusting the soil's pH level to ensure optimal conditions for maize growth. The FAO logo indicates international standards and guidelines being followed.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with tools for soil cultivation and application of lime.",
+            "- The robot needs to have access to a source of lime.",
+            "- The robot must be able to read or measure soil pH levels.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Soil pH should be measured and confirmed within the desired range of 5.5-7.",
+            "- Lime should be applied evenly across the cultivated area.",
+            "- The field should be prepared for planting without any obstacles.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the location where the soil cultivation is taking place.",
+            "2. [type=perception, frames=[0,1]] Read the text on the hoe to confirm the task of restoring soil pH.",
+            "3. [type=navigation, frames=[2]] Proceed to the sign indicating \"PREP THE FIELD FOR PLANTING.\".",
+            "4. [type=manipulation, frames=[0,1]] Use the robot’s cultivator tool to prepare the soil by hoeing.",
+            "5. [type=manipulation, frames=[0,1]] Apply lime to the soil while ensuring even distribution.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the location where the soil cultivation is taking place. It then verifies the key detail directly from the frames (Read the text on the hoe to confirm the task of restoring soil pH).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Outline principles of maize planting and fertilization.",
+      "start": 199.58,
+      "end": 225.58,
+      "subtasks": [
+        {
+          "text": "Plan for 4 to 5 plants per square meter in areas with good rainfall and fertile soils.",
+          "start": 199.58,
+          "end": 213.58,
+          "segment_ids": [
+            27
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub00_f00.jpg",
+              "relative_path": "_1k9XR8ZFTk/task03_sub00_f00.jpg",
+              "caption": "The video frame shows a diagram of plants planted in soil, with instructions on planting depth, density, and spacing for optimal yields.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task03_sub00_f01.jpg",
+              "relative_path": "_1k9XR8ZFTk/task03_sub00_f01.jpg",
+              "caption": "The video frame shows a map of Zambia with regions labeled and a goal of 4-5 plants per square meter.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub00_f02.jpg",
+              "relative_path": "_1k9XR8ZFTk/task03_sub00_f02.jpg",
+              "caption": "The video frame shows a map of Zambia with regions labeled and a text indicating the number of plants per square meter.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask involves planning the density of maize plants based on soil fertility and rainfall conditions, specifically recommending 4 to 5 plants per square meter in suitable areas.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The video frame shows a diagram illustrating planting depth, density, and spacing for optimal maize yield.",
+            "- [frames=[1]] A map of Zambia is displayed, with regions marked and a goal of 4-5 plants per square meter highlighted.",
+            "- [frames=[2]] The same map is shown, but now with text clearly indicating the target plant density.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from a detailed diagram explaining planting techniques to a geographical representation of Zambia, emphasizing the recommended plant density in fertile and well-watered regions.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- Knowledge of maize planting principles and fertilization techniques.",
+            "- Familiarity with the geography and climate of Zambia.",
+            "- Understanding of the recommended plant density for optimal yield.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Correct identification of regions with good rainfall and fertile soils.",
+            "- Accurate calculation of 4 to 5 plants per square meter.",
+            "- Clear communication of the plan to the user.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Read the diagram showing planting depth, density, and spacing.",
+            "2. [type=perception, frames=[1]] Analyze the map of Zambia, identifying regions with good rainfall and fertile soils.",
+            "3. [type=manipulation, frames=[2]] Input the recommended plant density (4-5 plants per square meter) into the system.",
+            "4. [type=perception, frames=[0,1,2]] Confirm the plan with the user by displaying the calculated density and regions.",
+            "5. [type=navigation, frames=[0,1,2]] Navigate to the next section of the tutorial, ensuring the plan is integrated.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Read the diagram showing planting depth, density, and spacing. It then verifies the key detail directly from the frames (Read the diagram showing planting depth, density, and spacing).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Aim for 3 to 4 plants per square meter in areas with low rainfall or limited nutrients.",
+          "start": 213.58,
+          "end": 225.58,
+          "segment_ids": [
+            28
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub01_f01.jpg",
+              "relative_path": "_1k9XR8ZFTk/task03_sub01_f01.jpg",
+              "caption": "The video frame shows a map of Zambia with regions labeled and a goal of 3-4 plants per square meter.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub01_f02.jpg",
+              "relative_path": "_1k9XR8ZFTk/task03_sub01_f02.jpg",
+              "caption": "The video frame shows a map of Zambia with regions labeled and a text indicating the number of plants per square meter.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on explaining the optimal plant density for maize cultivation in regions with low rainfall or limited nutrients, specifically recommending 3 to 4 plants per square meter.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A map of Zambia is displayed, with regions labeled indicating areas suitable for maize cultivation.",
+            "- [frames=[2]] The same map is shown, but now with text overlay specifying the recommended number of plants per square meter.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene involves a geographical representation of Zambia, highlighting different regions and providing specific agricultural advice. The map serves as a visual aid to explain the concept of plant density in maize cultivation.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to a display screen capable of showing images and text.",
+            "- The robot needs to be able to read and interpret the map data.",
+            "- The robot must be equipped with a voice synthesis system to narrate the explanation.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully explains the recommended plant density for maize cultivation in low-rainfall or nutrient-limited areas.",
+            "- The robot accurately reads out the number of plants per square meter.",
+            "- The robot visually confirms the map details before starting the explanation.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate to the map of Zambia on the display screen.",
+            "2. [type=perception, frames=[1]] Read and interpret the labeled regions on the map.",
+            "3. [type=navigation, frames=[2]] Move to the text overlay on the map.",
+            "4. [type=perception, frames=[2]] Confirm the number of plants per square meter specified in the text.",
+            "5. [type=communication, frames=[1,2]] Announce the recommended plant density for maize cultivation in low-rainfall or nutrient-limited areas.",
+            "6. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the map of Zambia on the display screen. It then verifies the key detail directly from the frames (Read and interpret the labeled regions on the map). After verification, it communicates the result clearly (Announce the recommended plant density for maize cultivation in low-rainfall or nutrient-limited areas).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,701 @@
+{
+  "video_index": "PnY01seedZc",
+  "title": "Governor Launches Agricultural Support in Nassarawa",
+  "url": "https://www.youtube.com/watch?v=PnY01seedZc",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "The video describes administrative actions and infrastructure initiatives aimed at agricultural development.",
+  "tasks": [
+    {
+      "task": "Launch agricultural support and infrastructure projects.",
+      "start": 0.02,
+      "end": 18.58,
+      "subtasks": [
+        {
+          "text": "Governor Abdelahi Suley reaffirms his administration's commitment to boosting the agricultural sector.",
+          "start": 0.02,
+          "end": 18.58,
+          "segment_ids": [
+            0,
+            1,
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "PnY01seedZc/task00_sub00_f00.jpg",
+              "caption": "A news anchor is presenting a story about a governor's support for agricultural development.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "PnY01seedZc/task00_sub00_f01.jpg",
+              "caption": "A news anchor is presenting a story about a governor's support for agricultural development.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "PnY01seedZc/task00_sub00_f02.jpg",
+              "caption": "A news anchor is presenting a story about a governor's support for agricultural development.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub00_f03.jpg",
+              "relative_path": "PnY01seedZc/task00_sub00_f03.jpg",
+              "caption": "A female news anchor is presenting a news segment about a governor's mission to strengthen agriculture.",
+              "frame_index": 3
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment shows a news anchor discussing the governor's commitment to enhancing agricultural support and infrastructure in Nassarawa.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] The scene features a news anchor standing in a studio setting, likely reading from a teleprompter.",
+            "- [frames=[2]] The background remains similar, but the anchor appears more animated, possibly emphasizing key points.",
+            "- [frames=[3]] The anchor continues the discussion, now with a slightly different tone, indicating a shift in the narrative focus.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The news anchor is consistently presenting information about the governor’s efforts to boost the agricultural sector. The setting suggests a professional news environment, reinforcing the credibility of the message.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture the news segment.",
+            "- It needs access to a display screen to show the video content.",
+            "- The robot must have the capability to navigate to the designated area where it will play the video.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully plays the video segment without interruptions.",
+            "- The video plays clearly and without technical issues.",
+            "- The robot can verify that the video is playing by checking the display.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the designated area where the video will be displayed.",
+            "2. [type=perception, frames=[0,1]] Verify the presence of the display screen using the onboard camera.",
+            "3. [type=manipulation, frames=[2]] Adjust the display settings if necessary to ensure optimal video playback quality.",
+            "4. [type=perception, frames=[3]] Confirm with the system that the video is ready to play.",
+            "5. [type=manipulation, frames=[3]] Start playing the video segment.",
+            "6. [type=navigation, frames=[0,1,2,3]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the designated area where the video will be displayed. It then verifies the key detail directly from the frames (Verify the presence of the display screen using the onboard camera).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the designated area where the video will be displayed; Start playing the video segment; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 18.56,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/PnY01seedZc/task00/sub00/motion.bvh",
+            "params_path": "results/momask/PnY01seedZc/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Tractors and farm inputs are launched as part of the Nassarawa Accresal Hybrid Implementation Support Mission.",
+          "start": 12.18,
+          "end": 18.58,
+          "segment_ids": [
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f00.jpg",
+              "relative_path": "PnY01seedZc/task00_sub01_f00.jpg",
+              "caption": "A news anchor is presenting a story about a governor's support for agricultural development.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "PnY01seedZc/task00_sub01_f01.jpg",
+              "caption": "A news anchor is presenting a story about a governor's mission to strengthen agriculture.",
+              "frame_index": 1
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask involves the launch of tractors and farm inputs as part of the Nassarawa Accresal Hybrid Implementation Support Mission, as reported by the news anchor.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] The news anchor is seen presenting a story about a governor's support for agricultural development.",
+            "- [frames=[0,1]] The anchor is discussing the governor's mission to strengthen agriculture.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a news broadcast where the anchor is informing viewers about the governor’s initiatives aimed at enhancing agricultural support and infrastructure in Nassarawa.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the ongoing news broadcast.",
+            "- The robot needs to have access to information about the Nassarawa Accresal Hybrid Implementation Support Mission.",
+            "- The robot must be capable of understanding and interpreting the context of the news report.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the launch of tractors and farm inputs.",
+            "- It should confirm the mission details related to the Nassarawa Accresal Hybrid Implementation Support Mission.",
+            "- The robot should verify the presence of the news anchor and the content of the broadcast.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Listen to the news anchor's presentation and identify key phrases related to the launch of tractors and farm inputs.",
+            "2. [type=perception, frames=[0,1]] Read the news anchor's script to cross-check the details of the Nassarawa Accresal Hybrid Implementation Support Mission.",
+            "3. [type=communication, frames=[0,1]] Record the relevant information from the news broadcast for future reference.",
+            "4. [type=communication, frames=[0,1]] Send a confirmation message to the central command center about the identified launch details.",
+            "5. [type=navigation, frames=[0,1]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Listen to the news anchor's presentation and identify key phrases related to the launch of tractors and farm inputs. It then verifies the key detail directly from the frames (Read the news anchor's script to cross-check the details of the Nassarawa Accresal Hybrid Implementation Support Mission).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 6.399999999999999,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/PnY01seedZc/task00/sub01/motion.bvh",
+            "params_path": "results/momask/PnY01seedZc/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Discuss the construction and benefits of a new road.",
+      "start": 49.46,
+      "end": 84.78,
+      "subtasks": [
+        {
+          "text": "Governor Suley orders the contract for constructing a new road in Benway state.",
+          "start": 49.46,
+          "end": 61.14,
+          "segment_ids": [
+            9,
+            10
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "PnY01seedZc/task01_sub00_f00.jpg",
+              "caption": "A man in a suit is shaking hands with a man in a military uniform at a podium with a seal on it.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "PnY01seedZc/task01_sub00_f01.jpg",
+              "caption": "A man in a brown robe is speaking into a microphone in front of a tractor.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "PnY01seedZc/task01_sub00_f02.jpg",
+              "caption": "A man in traditional attire is speaking at a podium with a microphone.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask describes the announcement of a new road construction project by Governor Suley in Benway state. The scene involves multiple individuals making public statements about the project.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A man in a suit is shaking hands with a man in a military uniform at a podium with a seal on it.",
+            "- [frames=[1]] A man in a brown robe is speaking into a microphone in front of a tractor.",
+            "- [frames=[2]] A man in traditional attire is speaking at a podium with a microphone.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a formal event where different individuals are making announcements about a new road construction project. The presence of a military uniform suggests a government official, while the traditional attire indicates a local representative. The tractor in the background might symbolize the agricultural importance of the area.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the context of road construction and its benefits.",
+            "- The robot needs to recognize the individuals involved in the announcement.",
+            "- The robot should have access to information about the location and purpose of the new road.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the key figures involved in the announcement.",
+            "- The robot should understand the context of the road construction project.",
+            "- The robot should be able to summarize the benefits of the new road.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Identify the man in the suit and the man in the military uniform.",
+            "2. [type=perception, frames=[1]] Recognize the man in the brown robe and the podium with a microphone.",
+            "3. [type=perception, frames=[1]] Confirm the announcement about the new road construction project.",
+            "4. [type=perception, frames=[2]] Verify the man in traditional attire and his statement.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the man in the suit and the man in the military uniform. It then verifies the key detail directly from the frames (Confirm the announcement about the new road construction project).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 11.68,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/PnY01seedZc/task01/sub00/motion.bvh",
+            "params_path": "results/momask/PnY01seedZc/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "The new road will significantly reduce travel time and improve accessibility.",
+          "start": 52.62,
+          "end": 76.06,
+          "segment_ids": [
+            10,
+            11,
+            12,
+            13
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f00.jpg",
+              "relative_path": "PnY01seedZc/task01_sub01_f00.jpg",
+              "caption": "A man in traditional attire is speaking into a microphone in front of a tractor.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "PnY01seedZc/task01_sub01_f02.jpg",
+              "caption": "A man in traditional attire is speaking into a microphone in front of a tractor.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task01_sub01_f03.jpg",
+              "relative_path": "PnY01seedZc/task01_sub01_f03.jpg",
+              "caption": "A man in traditional attire is speaking into a microphone at an outdoor event.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task01_sub01_f04.jpg",
+              "relative_path": "PnY01seedZc/task01_sub01_f04.jpg",
+              "caption": "A man in traditional attire is speaking at a podium with a microphone.",
+              "frame_index": 4
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The speaker is discussing the benefits of a new road, emphasizing reduced travel time and improved accessibility. This is illustrated through various scenes of the speaker using a microphone.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The man in traditional attire is speaking into a microphone in front of a tractor.",
+            "- [frames=[2]] The man continues his speech in the same setting.",
+            "- [frames=[3]] The scene shifts to the man speaking at an outdoor event.",
+            "- [frames=[4]] The man is now speaking at a podium with a microphone.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The speaker is consistently providing information about the new road's benefits, moving from a tractor to an outdoor event and then to a podium. These settings suggest a public speaking context where the speaker is addressing an audience about infrastructure improvements.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a microphone to record the speech.",
+            "- The robot needs to be able to navigate to different locations where the speaker is present.",
+            "- The robot should have the ability to capture images or videos of the scenes.",
+            "- The robot must be capable of understanding and summarizing spoken language.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately capture the speech about the new road’s benefits.",
+            "- The robot should identify and verify key points such as reduced travel time and improved accessibility.",
+            "- The robot should document the different settings where the speech was given.",
+            "- The robot should ensure all audio and visual data is properly labeled and stored.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Navigate to the location where the man is speaking in front of the tractor.",
+            "2. [type=communication, frames=[0]] Record the audio and video of the speech.",
+            "3. [type=navigation, frames=[2]] Move to the next location.",
+            "4. [type=perception, frames=[0,2,3,4]] Verify/confirm the key observation before reporting.",
+            "5. [type=navigation, frames=[0,2,3,4]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the location where the man is speaking in front of the tractor. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 23.440000000000005,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/PnY01seedZc/task01/sub01/motion.bvh",
+            "params_path": "results/momask/PnY01seedZc/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "The road will connect Awee Luka government area to Guma, benefiting people from Tarawa.",
+          "start": 76.06,
+          "end": 84.78,
+          "segment_ids": [
+            14,
+            15
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub02_f01.jpg",
+              "relative_path": "PnY01seedZc/task01_sub02_f01.jpg",
+              "caption": "A group of people, including men and women, are seated in a field, possibly at an event or gathering.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub02_f02.jpg",
+              "relative_path": "PnY01seedZc/task01_sub02_f02.jpg",
+              "caption": "A group of people, including men and women, are seated outdoors, possibly at a public event or gathering.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask involves describing the construction and benefits of a new road connecting Awee Luka government area to Guma, which will benefit people from Tarawa. This is part of a broader discussion on agricultural support initiatives.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1,2]] A group of people, including men and women, are seated outdoors, possibly at a public event or gathering.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a community event where individuals are gathered, likely to discuss or celebrate the upcoming road project. This suggests a setting conducive to information sharing and community engagement.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture and analyze the scene.",
+            "- The robot needs to have preloaded information about the road project and its benefits.",
+            "- The robot must be able to communicate effectively with the community members.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the road's purpose and benefits.",
+            "- The robot should ensure that all community members present are informed.",
+            "- The robot should verify that the information provided is understood by the attendees.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1,2]] Capture images of the seated community to understand their reactions and engagement levels.",
+            "2. [type=communication, frames=[1,2]] Announce the start of the discussion on the new road project.",
+            "3. [type=communication, frames=[1,2]] Explain the purpose of the road connecting Awee Luka government area to Guma.",
+            "4. [type=communication, frames=[1,2]] Highlight the benefits of the road for the people from Tarawa.",
+            "5. [type=perception, frames=[1,2]] Verify through questions if the community members understand the benefits.",
+            "6. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture images of the seated community to understand their reactions and engagement levels. It then verifies the key detail directly from the frames (Verify through questions if the community members understand the benefits). After verification, it communicates the result clearly (Announce the start of the discussion on the new road project).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 8.719999999999999,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/PnY01seedZc/task01/sub02/motion.bvh",
+            "params_path": "results/momask/PnY01seedZc/task01/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Highlight the components of the Accresal Initiative.",
+      "start": 97.46,
+      "end": 152.1,
+      "subtasks": [
+        {
+          "text": "Dr. Joy Agene from the World Bank highlights the strong sustainability model of Nassarawa's progress.",
+          "start": 97.46,
+          "end": 106.3,
+          "segment_ids": [
+            20,
+            21
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f00.jpg",
+              "relative_path": "PnY01seedZc/task02_sub00_f00.jpg",
+              "caption": "A woman in a headscarf and sunglasses speaks into a microphone in front of a crowd and agricultural equipment.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "PnY01seedZc/task02_sub00_f01.jpg",
+              "caption": "A woman in a yellow dress is speaking into a microphone at a public event.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "PnY01seedZc/task02_sub00_f02.jpg",
+              "caption": "A woman in a headscarf and traditional dress speaks into a microphone at a rally.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Dr. Joy Agene from the World Bank discusses the sustainability model of Nassarawa's progress during a public event.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A woman in a headscarf and sunglasses speaks into a microphone in front of a crowd and agricultural equipment.",
+            "- [frames=[0,1]] The woman is wearing a yellow dress and speaking into a microphone at a public event.",
+            "- [frames=[0,1]] Another woman in a headscarf and traditional dress is speaking into a microphone at a rally.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a public event where a woman, likely Dr. Joy Agene, is giving a speech about the sustainability model of Nassarawa's progress. The presence of agricultural equipment suggests the context is related to agricultural support initiatives.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the video metadata and the specific subtask.",
+            "- The robot should have access to the frames for this subtask.",
+            "- The robot should be able to recognize the speaker and understand her role.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the speaker as Dr. Joy Agene.",
+            "- The robot should correctly interpret the content of her speech regarding the sustainability model.",
+            "- The robot should capture the key points of the speech related to the Accresal Initiative.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Identify the speaker and confirm she is Dr. Joy Agene.",
+            "2. [type=perception, frames=[0,1]] Listen to the speech and extract key phrases related to the sustainability model.",
+            "3. [type=perception, frames=[0,1]] Cross-check the extracted information with known details about the Accresal Initiative.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the speaker and confirm she is Dr. Joy Agene. It then verifies the key detail directly from the frames (Identify the speaker and confirm she is Dr. Joy Agene).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 8.840000000000003,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/PnY01seedZc/task02/sub00/motion.bvh",
+            "params_path": "results/momask/PnY01seedZc/task02/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Accresal Initiative has three components: landscape restoration, community landscape restoration, and sustainability.",
+          "start": 115.66,
+          "end": 135.66,
+          "segment_ids": [
+            24,
+            25,
+            26,
+            27
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub01_f00.jpg",
+              "relative_path": "PnY01seedZc/task02_sub01_f00.jpg",
+              "caption": "A woman in a headscarf and sunglasses speaks into a microphone at a public event.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub01_f01.jpg",
+              "relative_path": "PnY01seedZc/task02_sub01_f01.jpg",
+              "caption": "A woman in a gold dress is speaking at a microphone in front of a crowd.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub01_f02.jpg",
+              "relative_path": "PnY01seedZc/task02_sub01_f02.jpg",
+              "caption": "A group of people, including a woman in a blue headscarf and a man in a brown outfit, are seated in a field, possibly at an event",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task02_sub01_f03.jpg",
+              "relative_path": "PnY01seedZc/task02_sub01_f03.jpg",
+              "caption": "A group of people, including a man and a woman, are seated in an outdoor setting, possibly at a public event or conference.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task02_sub01_f04.jpg",
+              "relative_path": "PnY01seedZc/task02_sub01_f04.jpg",
+              "caption": "A woman in a gold dress is speaking at a microphone in front of a crowd.",
+              "frame_index": 4
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment highlights the Accresal Initiative, which consists of three components: landscape restoration, community landscape restoration, and sustainability. The robot needs to identify and describe these components during the specified time range.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] Two women in different outfits are speaking at a microphone in front of a crowd.",
+            "- [frames=[2,3]] A group of people are seated in a field or outdoor setting, possibly at an event.",
+            "- [frames=[4]] A woman in a gold dress continues to speak at a microphone in front of a crowd.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a public event where individuals are gathered to hear about the Accresal Initiative. The speaker is likely discussing the initiative's components while the audience listens.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be able to recognize the speaker and the audience.",
+            "- It must understand the context of the Accresal Initiative.",
+            "- The robot needs to be aware of the time range (115.7s–135.7s) to focus on the relevant information.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify and describe the three components of the Accresal Initiative.",
+            "- It must ensure that the description covers landscape restoration, community landscape restoration, and sustainability.",
+            "- The robot should confirm that all components are correctly identified before proceeding.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Listen to the speech and identify the speaker.",
+            "2. [type=perception, frames=[2,3]] Observe the group of people seated in the field or outdoor setting.",
+            "3. [type=perception, frames=[4]] Verify the current speaker is discussing the Accresal Initiative.",
+            "4. [type=perception, frames=[4]] Confirm.",
+            "5. [type=navigation, frames=[0,1,2,3,4]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Listen to the speech and identify the speaker. It then verifies the key detail directly from the frames (Verify the current speaker is discussing the Accresal Initiative).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 20.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/PnY01seedZc/task02/sub01/motion.bvh",
+            "params_path": "results/momask/PnY01seedZc/task02/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Nassarawa State is leading in sustainability efforts.",
+          "start": 135.66,
+          "end": 152.1,
+          "segment_ids": [
+            28,
+            29,
+            30
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub02_f01.jpg",
+              "relative_path": "PnY01seedZc/task02_sub02_f01.jpg",
+              "caption": "A woman in a gold dress is speaking at a microphone in front of a crowd.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub02_f02.jpg",
+              "relative_path": "PnY01seedZc/task02_sub02_f02.jpg",
+              "caption": "A man in traditional attire is speaking into a microphone in front of a crowd and agricultural machinery.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task02_sub02_f03.jpg",
+              "relative_path": "PnY01seedZc/task02_sub02_f03.jpg",
+              "caption": "A man in traditional attire is speaking into a microphone in front of a crowd and a red vehicle.",
+              "frame_index": 3
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on highlighting the components of the Accresal Initiative during a speech by a man in traditional attire about sustainability efforts in Nassarawa State.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A woman in a gold dress is speaking at a microphone in front of a crowd.",
+            "- [frames=[2]] A man in traditional attire is speaking into a microphone in front of a crowd and agricultural machinery.",
+            "- [frames=[3]] A man in traditional attire is speaking into a microphone in front of a crowd and a red vehicle.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a public event where a man in traditional attire is delivering a speech about sustainability initiatives, specifically mentioning the Accresal Initiative. The presence of agricultural machinery and a red vehicle suggests the initiative involves practical applications in agriculture.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture the scene.",
+            "- The robot should have the ability to navigate to the area where the speech is taking place.",
+            "- The robot should be able to communicate with the speaker to confirm details about the Accresal Initiative.",
+            "- The robot should have a mechanism to highlight or point out key elements in the scene.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully navigates to the area where the speech is taking place.",
+            "- The robot captures a clear image of the man speaking about the Accresal Initiative.",
+            "- The robot verifies the mention of the Accresal Initiative through the speech.",
+            "- The robot highlights the agricultural machinery and the red vehicle as part of the initiative.",
+            "- The robot ensures the highlighted elements are visible in the final image.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2,3]] Navigate to the area where the speech is taking place.",
+            "2. [type=perception, frames=[1,2,3]] Verify/confirm the key observation before reporting.",
+            "3. [type=perception, frames=[1,2,3]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[1,2,3]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[1,2,3]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the area where the speech is taking place. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the area where the speech is taking place; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 16.439999999999998,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/PnY01seedZc/task02/sub02/motion.bvh",
+            "params_path": "results/momask/PnY01seedZc/task02/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

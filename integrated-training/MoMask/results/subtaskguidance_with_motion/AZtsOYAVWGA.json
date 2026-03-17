@@ -1,0 +1,670 @@
+{
+  "video_index": "AZtsOYAVWGA",
+  "title": "Bailing Hay Without Burning Down Barns",
+  "url": "https://www.youtube.com/watch?v=AZtsOYAVWGA",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Describes the process of baling hay to prevent it from spoiling and burning.",
+  "tasks": [
+    {
+      "task": "Describing the hay baling process to prevent combustion and spoilage.",
+      "start": 4.08,
+      "end": 44.64,
+      "subtasks": [
+        {
+          "text": "Fuelling the tractor before starting the hay cutting process.",
+          "start": 4.08,
+          "end": 10.0,
+          "segment_ids": [
+            1
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "AZtsOYAVWGA/task00_sub00_f00.jpg",
+              "caption": "A tractor is harvesting hay in a field.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "AZtsOYAVWGA/task00_sub00_f01.jpg",
+              "caption": "A man is using a hose to fill a blue container in the back of a truck.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "AZtsOYAVWGA/task00_sub00_f02.jpg",
+              "caption": "A red farm implement is parked in a field of green grass.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Before starting the hay cutting process, the tractor needs to be fueled properly to ensure it runs smoothly without interruptions.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The tractor is seen harvesting hay in a field.",
+            "- [frames=[1]] A man is using a hose to fill a blue container in the back of a truck.",
+            "- [frames=[2]] A red farm implement is parked in a field of green grass.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a typical hay field where a tractor is actively harvesting hay. Nearby, a man is preparing to fuel a vehicle, likely the tractor, by filling a container with fuel using a hose. This setup suggests that the fueling process is crucial for the subsequent hay cutting operation.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the location of the fueling station.",
+            "- The robot must know the type of fuel required for the tractor.",
+            "- The robot should have access to a fuel source or be able to locate one nearby.",
+            "- The robot needs to be capable of reading fuel levels or indicators on the tractor.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The fuel level in the tractor's tank should be sufficient for the hay cutting process.",
+            "- The fueling process should not cause any spillage or contamination.",
+            "- The fueling station should be clean and free of debris post-fueling.",
+            "- The tractor should start up successfully after being fueled.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Navigate to the fueling station located near the tractor.",
+            "2. [type=perception, frames=[1]] Verify the type of fuel required by reading the fuel gauge or label on the tractor.",
+            "3. [type=navigation, frames=[1]] Move towards the blue container filled with fuel.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the fueling station located near the tractor. It then verifies the key detail directly from the frames (Verify the type of fuel required by reading the fuel gauge or label on the tractor).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move towards the blue container filled with fuel; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 5.92,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/AZtsOYAVWGA/task00/sub00/motion.bvh",
+            "params_path": "results/momask/AZtsOYAVWGA/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Cutting 13-foot paths in the hay field, despite the upcoming rain.",
+          "start": 10.0,
+          "end": 15.04,
+          "segment_ids": [
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "AZtsOYAVWGA/task00_sub01_f01.jpg",
+              "caption": "A large red agricultural machine is moving through a field of green plants.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "AZtsOYAVWGA/task00_sub01_f02.jpg",
+              "caption": "A tractor is mowing a field with a red blade.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to navigate a large red agricultural machine through a field to cut 13-foot paths before the rain, ensuring the hay is properly prepared.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A large red agricultural machine is moving through a field of green plants.",
+            "- [frames=[2]] A tractor is mowing a field with a red blade.",
+            "- [frames=[1,2]] The field appears wet and muddy due to the impending rain.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a large red agricultural machine being used to cut paths in a field of green plants. The field is wet and muddy, indicating the approaching rain will likely affect the hay quality if not handled correctly.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot must have access to the large red agricultural machine.",
+            "- The machine should be in good working condition.",
+            "- The robot should have the necessary permissions to operate the machine.",
+            "- The field should be clear of any obstacles that could impede the machine's movement.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The machine should successfully cut 13-foot paths in the field.",
+            "- The paths should be straight and even.",
+            "- The hay should be cut at the correct height to prevent damage.",
+            "- The machine should avoid any potential fire hazards.",
+            "- The machine should not leave any residue or marks on the field.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1,2]] Inspect/verify the scene before any physical action.",
+            "2. [type=navigation, frames=[1]] Drive the large red agricultural machine into the field.",
+            "3. [type=manipulation, frames=[2]] Engage the red blade to start cutting the hay.",
+            "4. [type=perception, frames=[1,2]] Verify the machine is cutting at the correct height using sensors.",
+            "5. [type=navigation, frames=[1,2]] Guide the machine to cut 13-foot paths across the field.",
+            "6. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Inspect/verify the scene before any physical action. It then verifies the key detail directly from the frames (Inspect/verify the scene before any physical action).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Drive the large red agricultural machine into the field; Engage the red blade to start cutting the hay; Guide the machine to cut 13-foot paths across the field; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 5.039999999999999,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/AZtsOYAVWGA/task00/sub01/motion.bvh",
+            "params_path": "results/momask/AZtsOYAVWGA/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Broadcasting the hay to spread it out for maximum drying.",
+          "start": 19.6,
+          "end": 22.88,
+          "segment_ids": [
+            5
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub02_f00.jpg",
+              "relative_path": "AZtsOYAVWGA/task00_sub02_f00.jpg",
+              "caption": "A stormy day with heavy rain and wind, with a silo and buildings in the background.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub02_f01.jpg",
+              "relative_path": "AZtsOYAVWGA/task00_sub02_f01.jpg",
+              "caption": "A man is operating a tractor in a field, cutting hay.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub02_f02.jpg",
+              "relative_path": "AZtsOYAVWGA/task00_sub02_f02.jpg",
+              "caption": "A tractor is actively working in a field, turning hay.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to broadcast hay to ensure it spreads out properly for maximum drying, which is crucial for preventing combustion and spoilage.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A stormy day with heavy rain and wind, indicating the need for immediate action to prevent hay from becoming waterlogged.",
+            "- [frames=[1]] A man is operating a tractor in a field, cutting hay, showing the current state of the hay being cut.",
+            "- [frames=[2]] A tractor is actively working in a field, turning hay, indicating the process of broadcasting the hay.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a field where hay is being cut and turned by a tractor on a stormy day. The goal is to spread the hay out to maximize exposure to air and sunlight, ensuring it dries properly without becoming too wet or starting a fire.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot must be equipped with a mechanism to broadcast hay.",
+            "- The robot should have sensors to detect the presence of hay and its distribution.",
+            "- The robot needs to be aware of the weather conditions, particularly the level of moisture in the air.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The hay should be evenly distributed across the field.",
+            "- The hay should be spread out sufficiently to allow for proper drying.",
+            "- There should be no clumps or piles of hay that could lead to combustion.",
+            "- The hay should be dry enough to prevent spoilage.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the field where the hay is being cut.",
+            "2. [type=perception, frames=[1]] Use sensors to detect the current distribution of hay on the field.",
+            "3. [type=navigation, frames=[2]] Move to the area where hay needs to be broadcast.",
+            "4. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the field where the hay is being cut. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the field where the hay is being cut; Move to the area where hay needs to be broadcast; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.2799999999999976,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/AZtsOYAVWGA/task00/sub02/motion.bvh",
+            "params_path": "results/momask/AZtsOYAVWGA/task00/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Using a rotary rake to help dry the hay more efficiently.",
+          "start": 26.32,
+          "end": 29.84,
+          "segment_ids": [
+            7
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub03_f00.jpg",
+              "relative_path": "AZtsOYAVWGA/task00_sub03_f00.jpg",
+              "caption": "A tractor is working in a field, cutting hay.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub03_f01.jpg",
+              "relative_path": "AZtsOYAVWGA/task00_sub03_f01.jpg",
+              "caption": "A man is operating a blue tractor in a field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub03_f02.jpg",
+              "relative_path": "AZtsOYAVWGA/task00_sub03_f02.jpg",
+              "caption": "A man is driving a tractor in a field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe a man using a rotary rake to dry hay more efficiently, ensuring the process is done correctly to prevent combustion and spoilage.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The tractor is seen cutting hay in a field.",
+            "- [frames=[1]] A man is operating a blue tractor in a field.",
+            "- [frames=[2]] The man continues driving the tractor, likely preparing to use the rotary rake.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a man operating a tractor in a field, preparing to use a rotary rake to dry the hay more efficiently. This action is crucial for preventing combustion and spoilage of the hay.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot must be within range of the field.",
+            "- The robot should have knowledge of the hay baling process and the use of a rotary rake.",
+            "- The robot needs to be equipped with sensors to detect the presence of the rotary rake.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The hay should be evenly dried without any signs of burning.",
+            "- The hay should be free from moisture to prevent spoilage.",
+            "- The use of the rotary rake should be completed without any issues.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Navigate to the field where the hay is being cut.",
+            "2. [type=perception, frames=[1]] Verify the presence of the blue tractor by scanning the area.",
+            "3. [type=perception, frames=[2]] Confirm the man is about to use the rotary rake by observing his actions.",
+            "4. [type=manipulation, frames=[0,1,2]] Assist the man in deploying the rotary rake over the hay.",
+            "5. [type=manipulation, frames=[0,1,2]] Guide the rotary rake across the field to ensure even drying.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the field where the hay is being cut. It then verifies the key detail directly from the frames (Verify the presence of the blue tractor by scanning the area).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the field where the hay is being cut; Assist the man in deploying the rotary rake over the hay; Guide the rotary rake across the field to ensure even drying; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.5199999999999996,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/AZtsOYAVWGA/task00/sub03/motion.bvh",
+            "params_path": "results/momask/AZtsOYAVWGA/task00/sub03/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Applying dry hay inoculant to the hay while baling.",
+          "start": 34.56,
+          "end": 40.0,
+          "segment_ids": [
+            11,
+            12
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub04_f00.jpg",
+              "relative_path": "AZtsOYAVWGA/task00_sub04_f00.jpg",
+              "caption": "A person is adding ingredients to a bowl on a machine.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub04_f01.jpg",
+              "relative_path": "AZtsOYAVWGA/task00_sub04_f01.jpg",
+              "caption": "A person is mixing a green liquid in a bucket with a spoon.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub04_f02.jpg",
+              "relative_path": "AZtsOYAVWGA/task00_sub04_f02.jpg",
+              "caption": "A man is pouring water from a green container into a large yellow tank.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to apply dry hay inoculant to the hay while baling to prevent combustion and spoilage. This involves preparing the inoculant before adding it to the baler.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A person is adding ingredients to a bowl on a machine.",
+            "- [frames=[1]] A person is mixing a green liquid in a bucket with a spoon.",
+            "- [frames=[2]] A man is pouring water from a green container into a large yellow tank.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows the preparation of the inoculant, which involves mixing ingredients and then adding them to the baler. The inoculant is likely a mixture of various substances that help preserve the hay during storage.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to the inoculant preparation area.",
+            "- The robot should be able to identify and interact with the inoculant container.",
+            "- The robot should know the location of the baler and how to interface with it.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The inoculant is correctly mixed.",
+            "- The inoculant is accurately applied to the hay during the baling process.",
+            "- The hay bales are free from contamination and ready for storage.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Navigate to the inoculant preparation area.",
+            "2. [type=perception, frames=[0]] Verify the presence of the inoculant container.",
+            "3. [type=manipulation, frames=[0]] Open the inoculant container.",
+            "4. [type=manipulation, frames=[1]] Transfer the inoculant from the container to a mixing bowl.",
+            "5. [type=manipulation, frames=[1]] Add water to the mixing bowl and mix thoroughly.",
+            "6. [type=navigation, frames=[2]] Navigate to the baler.",
+            "7. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the inoculant preparation area. It then verifies the key detail directly from the frames (Verify the presence of the inoculant container).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the inoculant preparation area; Open the inoculant container; Transfer the inoculant from the container to a mixing bowl; Add water to the mixing bowl and mix thoroughly; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 5.439999999999998,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/AZtsOYAVWGA/task00/sub04/motion.bvh",
+            "params_path": "results/momask/AZtsOYAVWGA/task00/sub04/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Waiting until late afternoon to bale the hay for ideal drying conditions.",
+          "start": 40.0,
+          "end": 44.64,
+          "segment_ids": [
+            13
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub05_f01.jpg",
+              "relative_path": "AZtsOYAVWGA/task00_sub05_f01.jpg",
+              "caption": "A blue tractor is driving past an orange round baler in a field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub05_f02.jpg",
+              "relative_path": "AZtsOYAVWGA/task00_sub05_f02.jpg",
+              "caption": "A large orange combine harvester is moving through a field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should understand that waiting until late afternoon is crucial for optimal drying conditions when baling hay. This timing helps prevent combustion and spoilage.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] The scene shows a blue tractor driving past an orange round baler in a field.",
+            "- [frames=[1]] Another frame captures a large orange combine harvester moving through the field.",
+            "- [frames=[1,2]] Both frames indicate that the hay baling process is ongoing, with different machinery involved.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The robot observes that the hay baling process involves multiple machines working together. The timing of baling is critical, and waiting until late afternoon ensures the hay dries properly, reducing the risk of combustion and spoilage.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot needs to recognize the current time and weather conditions.",
+            "- It should know the ideal drying conditions for hay baling.",
+            "- The robot must be aware of the location of the hay field and the presence of machinery.",
+            "- It should have access to a schedule or timer to determine the optimal baling time.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should verify that the current time is late afternoon.",
+            "- It must confirm that the weather conditions are suitable for baling.",
+            "- The robot should check that the hay is sufficiently dry before baling.",
+            "- It should ensure that the machinery is ready for operation.",
+            "- The robot must cross-check the baling schedule to avoid conflicting with other tasks.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Verify the current time and weather conditions.",
+            "2. [type=perception, frames=[1]] Check if the hay is sufficiently dry using sensors.",
+            "3. [type=navigation, frames=[1]] Move to the location where the hay is ready for baling.",
+            "4. [type=perception, frames=[1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Verify the current time and weather conditions. It then verifies the key detail directly from the frames (Verify the current time and weather conditions).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move to the location where the hay is ready for baling; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 4.640000000000001,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/AZtsOYAVWGA/task00/sub05/motion.bvh",
+            "params_path": "results/momask/AZtsOYAVWGA/task00/sub05/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Moving the bales to prevent combustion and further drying.",
+      "start": 48.72,
+      "end": 59.84,
+      "subtasks": [
+        {
+          "text": "Starting to move the bales as soon as they are baled.",
+          "start": 48.72,
+          "end": 53.2,
+          "segment_ids": [
+            16
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "AZtsOYAVWGA/task01_sub00_f00.jpg",
+              "caption": "A tractor is lifting a bale of hay.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "AZtsOYAVWGA/task01_sub00_f01.jpg",
+              "caption": "A tractor is loading hay bales onto a trailer.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "AZtsOYAVWGA/task01_sub00_f02.jpg",
+              "caption": "A forklift is loading hay bales onto a trailer.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot begins moving hay bales immediately after they are baled, ensuring they are off the ground and away from potential fire hazards.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The tractor is lifting a freshly baled hay bale.",
+            "- [frames=[1]] The tractor is loading multiple hay bales onto a trailer.",
+            "- [frames=[2]] A forklift is also loading hay bales onto a trailer.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows various methods of moving hay bales, including a tractor and a forklift. The immediate action involves lifting and loading bales to prevent any risk of fire.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot must be within range of the hay bales.",
+            "- The robot should have the necessary tools or attachments for lifting and moving bales.",
+            "- The trailer or storage area must be ready for the bales.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The bales must be safely moved from the ground.",
+            "- The bales should be placed on a stable surface.",
+            "- There should be no risk of the bales falling or causing damage.",
+            "- The bales must be positioned away from any flammable materials.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Move to the location where the tractor is lifting the hay bale.",
+            "2. [type=perception, frames=[0]] Verify the bale is securely lifted by the tractor.",
+            "3. [type=manipulation, frames=[0,1]] Grasp the bale using the robotic arm.",
+            "4. [type=navigation, frames=[1]] Move to the trailer where the bales will be loaded.",
+            "5. [type=manipulation, frames=[1]] Place the bale gently onto the trailer.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to the location where the tractor is lifting the hay bale. It then verifies the key detail directly from the frames (Verify the bale is securely lifted by the tractor).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move to the location where the tractor is lifting the hay bale; Grasp the bale using the robotic arm; Move to the trailer where the bales will be loaded; Place the bale gently onto the trailer; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 4.480000000000004,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/AZtsOYAVWGA/task01/sub00/motion.bvh",
+            "params_path": "results/momask/AZtsOYAVWGA/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Keeping bales spread out with air gaps to prevent moisture-related issues.",
+          "start": 56.48,
+          "end": 59.84,
+          "segment_ids": [
+            18
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f00.jpg",
+              "relative_path": "AZtsOYAVWGA/task01_sub01_f00.jpg",
+              "caption": "The video shows a wooden structure with hay on the ground.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "AZtsOYAVWGA/task01_sub01_f01.jpg",
+              "caption": "The video shows a barn with hay bales on the floor.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "AZtsOYAVWGA/task01_sub01_f02.jpg",
+              "caption": "The video shows a barn with hay on the floor.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to ensure that hay bales are spread out with air gaps to prevent moisture-related issues, which is crucial for preventing combustion and further drying.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The scene shows a wooden structure with hay on the ground.",
+            "- [frames=[1]] The view shifts to a barn interior where hay bales are on the floor.",
+            "- [frames=[2]] The hay is visible on the floor, indicating the need for spreading.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene involves a barn interior with hay bales scattered on the floor. The goal is to spread the bales apart to allow air circulation, reducing the risk of moisture buildup and potential fire hazards.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have the ability to navigate within the barn.",
+            "- It must be equipped with sensors to detect the presence and location of hay bales.",
+            "- The robot should be capable of lifting and moving the hay bales.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The hay bales are spread out with adequate air gaps.",
+            "- There is no overlap or clustering of bales.",
+            "- The hay is evenly distributed across the floor area.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the area where hay bales are located.",
+            "2. [type=perception, frames=[1]] Use sensors to locate and identify the hay bales.",
+            "3. [type=navigation, frames=[1]] Lift the first hay bale and move it to a new position.",
+            "4. [type=manipulation, frames=[1]] Repeat the process for the second hay bale.",
+            "5. [type=manipulation, frames=[1]] Continue moving additional hay bales until all are spread out.",
+            "6. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "7. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the area where hay bales are located. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the area where hay bales are located; Repeat the process for the second hay bale; Continue moving additional hay bales until all are spread out; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.3600000000000065,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/AZtsOYAVWGA/task01/sub01/motion.bvh",
+            "params_path": "results/momask/AZtsOYAVWGA/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

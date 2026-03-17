@@ -1,0 +1,381 @@
+VIDEO: Qrxpi_j9t5Q
+TITLE: Onions Under Attack: Pest and Disease Control Tips
+======================================================================
+
+TASK 0: Describe the pests affecting onions.
+Time Range: 0.0 → 10.32
+----------------------------------------------------------------------
+  SUBTASK 0: Observe onion thrips, onion flies, cutworms, and armyworms that are harmful to onions.
+  Time Range: 0.0 → 10.32
+  Guidance:
+    GLOBAL_SUMMARY:
+    Observe and describe the pests affecting onions, focusing on onion thrips, onion flies, cutworms, and armyworms.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0]] The video begins with a close-up of onions growing in a field, setting the scene for observing pests.
+    - [frames=[2]] A person is seen tending to a tomato plant, which is not directly related to the subtask but provides context for the agricultural environment.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene shifts from showing onions in a field to a person tending to a tomato plant, indicating a broader agricultural setting. However, the focus remains on identifying pests that affect onions.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must be equipped with a camera capable of capturing detailed images of plants and insects.
+    - The robot should have prior knowledge about common pests that affect onions.
+    - The robot needs to be within the field where onions are growing.
+    
+    SUCCESS_CRITERIA:
+    - The robot must correctly identify and describe onion thrips, onion flies, cutworms, and armyworms.
+    - The robot should provide accurate descriptions of the pests' appearance and behavior.
+    - The robot should ensure all mentioned pests are included in the description.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0]] Move the camera to focus on the onions in the field.
+    2. [type=perception, frames=[0]] Analyze the image to detect potential pests.
+    3. [type=manipulation, frames=[2]] Adjust the camera to capture a closer view of the tomato plant if necessary.
+    4. [type=perception, frames=[2]] Confirm that the tomato plant is not relevant and return to the onions.
+    5. [type=communication, frames=[0]] Report the presence of onion thrips, onion flies,
+
+  SUBTASK 1: Note aphids, spider mites, and root knot nematodes as additional pests damaging onions.
+  Time Range: 6.32 → 10.32
+  Guidance:
+    GLOBAL_SUMMARY:
+    Note aphids, spider mites, and root knot nematodes as additional pests damaging onions.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0]] The video frame shows a black background with the word "Onion" in white text.
+    - [frames=[1]] Three cutworms are observed on a plant stem.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene starts with an introduction to onions, then shifts to a close-up view of a plant stem infested with cutworms. This transition sets up the context for discussing various pests affecting onions.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must be aware of the current task, which is to describe pests affecting onions.
+    - The robot should have access to a camera to capture and analyze the frames.
+    - The robot needs to recognize the word "Onion" and understand it as the subject of the discussion.
+    - The robot must be able to identify cutworms on a plant stem.
+    
+    SUCCESS_CRITERIA:
+    - The robot should correctly identify and note aphids, spider mites, and root knot nematodes as additional pests.
+    - The robot should accurately describe the presence of cutworms on the onion plant stem.
+    - The robot should provide a comprehensive list of pests affecting onions.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0]] The robot navigates to the frame showing the word "Onion."
+    2. [type=perception, frames=[0]] The robot identifies the word "Onion" and confirms it as the subject of the discussion.
+    3. [type=navigation, frames=[1]] The robot navigates to the frame showing the cutworms on the plant stem.
+    4. [type=manipulation, frames=[1]] The robot uses its camera to closely examine the cutworms on the plant stem.
+    5
+
+
+======================================================================
+
+TASK 1: Explain the signs of pest damage on onions.
+Time Range: 10.32 → 23.84
+----------------------------------------------------------------------
+  SUBTASK 0: Describe thrips causing silver streaks on onions.
+  Time Range: 10.32 → 15.36
+  Guidance:
+    GLOBAL_SUMMARY:
+    Describe thrips causing silver streaks on onions.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[2]] Three thrips are shown on a green surface.
+    - [frames=[0,1]] No thrips are visible, but the presence of aphids is noted on a green stem.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The subtask focuses on illustrating the impact of thrips on onions, specifically showing the characteristic silver streaks they cause. Initially, the scene highlights the absence of thrips and instead features aphids on a green stem. This transition then shifts to focusing on thrips, which are depicted on a green surface, indicating their presence and the potential for them to cause damage.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The camera is set up to capture close-up views of onion plants.
+    - The robot has access to a database of common pests and their symptoms.
+    - The robot can identify thrips and differentiate them from other insects.
+    - The environment is well-lit to ensure clear visibility of the thrips.
+    
+    SUCCESS_CRITERIA:
+    - Thrips are clearly identified and shown on the green surface.
+    - The silver streaks caused by thrips are demonstrated.
+    - The robot provides accurate information about the symptoms of thrips damage.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Move the camera to focus on the green stem where aphids are present.
+    2. [type=perception, frames=[0,1]] Identify and label the aphids on the green stem.
+    3. [type=navigation, frames=[2]] Pan the camera to show three thrips on a green surface.
+    4. [type=manipulation, frames=[2]] Zoom in to clearly display the thrips.
+    5. [type=perception, frames=[2]] Confirm the identification of thrips and note
+
+  SUBTASK 1: Mention how armyworms and aphids defoliate and spread viruses, respectively.
+  Time Range: 18.96 → 23.84
+  Guidance:
+    GLOBAL_SUMMARY:
+    Explain how armyworms and aphids affect onion plants, specifically mentioning their defoliation and virus-spreading behaviors.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0]] Three cutworms are seen on a green leaf, but they are not directly relevant to the subtask.
+    - [frames=[1]] Three aphids are observed on a leaf, with one aphid labeled "defoliate," indicating its role in damaging the plant.
+    - [frames=[2]] Three aphids are again seen on a green leaf, with one aphid creating a web, suggesting it is spreading a virus.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene shifts focus to aphids, showing their presence on an onion leaf and their behavior of defoliating and potentially spreading viruses through webs.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must be able to recognize aphids and understand their role in damaging onion plants.
+    - The robot should have knowledge about the signs of viral spread in plants.
+    - The robot needs to be aware of the current state of the onion plant being inspected.
+    
+    SUCCESS_CRITERIA:
+    - The robot should accurately describe the defoliation caused by aphids.
+    - It must mention the potential for aphids to spread viruses through webs.
+    - The explanation should be clear and relevant to the task of identifying pest and disease control tips.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=perception, frames=[1]] Identify the aphids on the leaf and note the aphid labeled "defoliate."
+    2. [type=perception, frames=[2]] Observe the aphids creating a web on the leaf.
+    3. [type=communication, frames=[1,2]] Explain that aphids can cause defoliation on onion plants.
+    4. [type=communication, frames=[2]] Add that aphids can also
+
+
+======================================================================
+
+TASK 2: Describe the diseases affecting onions.
+Time Range: 28.64 → 36.56
+----------------------------------------------------------------------
+  SUBTASK 0: Observe Downy Mildew that thrives in humid conditions.
+  Time Range: 28.64 → 32.64
+  Guidance:
+    GLOBAL_SUMMARY:
+    Observe and describe Downy Mildew, a disease that affects onions and thrives in humid conditions.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0]] The video frame shows a close-up of onions growing in a garden.
+    - [frames=[1]] A close-up of onions with a text overlay that reads "causes."
+    - [frames=[2]] A close-up of onions with the word "storage" overlaid.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The subtask involves observing and describing Downy Mildew, a disease that affects onions. The video transitions from showing onions in a garden to highlighting the causes of the disease and then to mentioning storage conditions.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must be equipped with a camera to capture and analyze images.
+    - The robot should have knowledge about onion diseases, specifically Downy Mildew.
+    - The robot needs to be in a position to observe the onions closely.
+    
+    SUCCESS_CRITERIA:
+    - The robot should accurately identify Downy Mildew symptoms in the onions.
+    - The robot should provide a clear description of the disease's impact on onions.
+    - The robot should mention that the disease thrives in humid conditions.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0]] Move the camera to focus on the onions in the garden.
+    2. [type=perception, frames=[1]] Analyze the close-up image to identify the presence of Downy Mildew.
+    3. [type=manipulation, frames=[2]] Adjust the camera to ensure a clear view of the onions' storage condition.
+    4. [type=communication, frames=[1,2]] Communicate the identification of Downy Mildew and its causes to the user.
+    5. [type=perception, frames=[1,2]] Confirm the presence of Downy Mildew and
+
+  SUBTASK 1: Note White Rot, Fusarium Basal Rot, and Botrytis Leaf disease affecting onions.
+  Time Range: 32.64 → 36.56
+  Guidance:
+    GLOBAL_SUMMARY:
+    Note the diseases affecting onions, specifically focusing on White Rot, Fusarium Basal Rot, and Botrytis Leaf disease.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] Two yellow onions are shown growing in a garden, indicating the context of the onion crop.
+    - [frames=[2]] A close-up of a leaf with brown spots is displayed, suggesting the presence of a fungal infection.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene shifts from showing healthy onions in a garden to highlighting a diseased leaf, which is crucial for identifying specific onion diseases such as White Rot, Fusarium Basal Rot, and Botrytis Leaf disease.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must be aware of the current location in the tutorial video.
+    - The robot should have knowledge about the types of diseases affecting onions.
+    - The robot needs to be able to recognize leaves and spots on them.
+    
+    SUCCESS_CRITERIA:
+    - The robot should correctly identify the three mentioned diseases.
+    - The robot should provide accurate descriptions of the symptoms observed in the frames.
+    - The robot should ensure that the information is presented clearly and concisely.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the frame showing the onions in the garden.
+    2. [type=perception, frames=[0,1]] Analyze the image to confirm the presence of onions.
+    3. [type=navigation, frames=[2]] Move to the frame showing the close-up of the diseased leaf.
+    4. [type=perception, frames=[2]] Identify the brown spots on the leaf.
+    5. [type=manipulation, frames=[2]] Zoom in on the affected area to get a better view.
+    6. [type=communication, frames=[2]] Announce the identification of the disease
+
+
+======================================================================
+
+TASK 3: Explain control methods for pests.
+Time Range: 36.56 → 44.88
+----------------------------------------------------------------------
+  SUBTASK 0: Use neem oil to control pests on onions.
+  Time Range: 36.56 → 40.24
+  Guidance:
+    GLOBAL_SUMMARY:
+    Use neem oil to control pests on onions.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[1]] A leaf with brown spots is shown, indicating a pest problem.
+    - [frames=[2]] A man is seen spraying a hose over trees in an orchard, suggesting a method of pest control.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The subtask involves demonstrating how to use neem oil to control pests on onions. The first frame highlights a leaf with brown spots, which represents a pest issue. The second frame shows a man using a hose to spray something over trees, likely to control pests in a broader context.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must recognize the presence of a leaf with brown spots.
+    - The robot should know about the properties and application of neem oil.
+    - The robot needs to have access to neem oil and appropriate spraying equipment.
+    
+    SUCCESS_CRITERIA:
+    - The robot must correctly identify the leaf with brown spots as needing treatment.
+    - The robot should apply neem oil to the affected area.
+    - The robot must ensure the application covers the entire affected area effectively.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[1]] Navigate to the location where the leaf with brown spots is visible.
+    2. [type=perception, frames=[1]] Identify the leaf with brown spots as needing treatment.
+    3. [type=navigation, frames=[2]] Move to a location where neem oil can be accessed and sprayed.
+    4. [type=manipulation, frames=[2]] Retrieve the neem oil and spraying equipment.
+    5. [type=manipulation, frames=[2]] Prepare the neem oil for application.
+    6. [type=manipulation, frames=[2]] Spray the neem oil onto the affected leaf.
+    7. [type=perception,
+
+  SUBTASK 1: Recommend rotating crops to prevent pest infestations.
+  Time Range: 40.24 → 44.88
+  Guidance:
+    GLOBAL_SUMMARY:
+    Recommend rotating crops to prevent pest infestations in an onion field.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] A clean onion is shown in a field, indicating the initial state of the crop.
+    - [frames=[2]] The video frame shows onions growing in a garden, illustrating the progression of the crop's development.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The subtask involves explaining the method of crop rotation to prevent pest infestations. The robot observes a clean onion in a field and then sees the same type of onion growing in a garden, showing the growth cycle and setting the context for discussing pest control measures.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must have knowledge about common pests that affect onions.
+    - The robot should be aware of the current state of the onion field.
+    - The robot needs to understand the concept of crop rotation.
+    - The robot should have access to information on how pests spread and why rotation helps.
+    
+    SUCCESS_CRITERIA:
+    - The robot successfully explains the benefits of rotating crops.
+    - The robot provides examples of crops that can be rotated with onions.
+    - The robot mentions the timing and frequency of crop rotation.
+    - The robot ensures the explanation is clear and understandable to the viewer.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the area where the clean onion is shown in the field.
+    2. [type=perception, frames=[0,1]] Observe the clean onion in the field to establish the initial condition.
+    3. [type=navigation, frames=[2]] Move to the area where onions are growing in the garden.
+    4. [type=perception, frames=[2]] Observe the growing onions to show the progression.
+    5. [type=communication, frames=[2]] Explain the importance of crop rotation to prevent pest
+
+
+======================================================================
+
+TASK 4: Explain control methods for diseases.
+Time Range: 44.88 → 48.0
+----------------------------------------------------------------------
+  SUBTASK 0: Ensure good drainage to prevent disease spread.
+  Time Range: 44.88 → 45.92
+  Guidance:
+    GLOBAL_SUMMARY:
+    Ensure good drainage to prevent disease spread among onions in the garden.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] The video shows onions being watered in a garden, indicating the current watering process.
+    - [frames=[2]] A close-up view of onions growing in the garden provides context for the health and growth stage of the plants.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The subtask focuses on ensuring proper drainage to avoid disease spread among onions. The video transitions from showing the watering process to a detailed view of the onion plants, emphasizing the importance of maintaining healthy soil conditions.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The garden must have established onion plants.
+    - Watering equipment should be available and functional.
+    - The robot must have knowledge about the types of onions and their specific needs.
+    - The robot should be aware of the current weather conditions affecting the garden.
+    
+    SUCCESS_CRITERIA:
+    - The robot must confirm that the soil in the garden has adequate drainage.
+    - The robot should verify that the onions are not standing in water.
+    - The robot should ensure that the drainage system is functioning correctly.
+    - The robot must provide feedback to the user confirming the successful implementation of the drainage method.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the garden where onions are being watered.
+    2. [type=perception, frames=[0,1]] Use sensors to detect the current watering conditions and soil moisture levels.
+    3. [type=navigation, frames=[2]] Move to a close-up view of the onion plants.
+    4. [type=perception, frames=[2]] Analyze the plant health and soil condition through visual inspection.
+    5. [type=communication, frames=[0,1,2]] Inform the user about the current drainage status and any necessary adjustments.
+    6. [
+
+  SUBTASK 1: Avoid overhead watering to reduce disease risk.
+  Time Range: 45.92 → 46.96
+  Guidance:
+    GLOBAL_SUMMARY:
+    Explain how avoiding overhead watering can help reduce disease risk in onion crops.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] A close-up view of onions in a garden with the word "resistant" overlaid.
+    - [frames=[2]] Various types of onions are shown in a garden setting.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The subtask focuses on demonstrating the importance of not using overhead watering to prevent diseases in onions. The close-up view highlights individual onions, while the broader scene shows different varieties of onions in their natural environment.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot should be familiar with the concept of overhead watering.
+    - The robot should know about common diseases affecting onions.
+    - The robot should have access to information on gardening practices.
+    - The robot should be able to navigate within the garden area.
+    - The robot should be capable of manipulating objects if needed.
+    
+    SUCCESS_CRITERIA:
+    - The robot should clearly explain the benefits of avoiding overhead watering.
+    - The explanation should include specific reasons why overhead watering increases disease risk.
+    - The robot should provide alternative watering methods that are less likely to spread diseases.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Move to the close-up view of onions.
+    2. [type=perception, frames=[0,1]] Identify the onions and the overlayed text "resistant".
+    3. [type=manipulation, frames=[2]] Move to the broader scene showing various types of onions.
+    4. [type=communication, frames=[0,1,2]] Explain the importance of avoiding overhead watering and its impact on disease risk.
+    5. [type=perception, frames=[2]] Highlight different types of onions in the garden setting.
+    6. [type=communication, frames=[2]] Provide examples of alternative watering methods that
+
+  SUBTASK 2: Use resistant onion varieties to prevent diseases.
+  Time Range: 46.96 → 48.0
+  Guidance:
+    GLOBAL_SUMMARY:
+    Use resistant onion varieties to prevent diseases, which involves selecting and planting specific types of onions known for their disease resistance.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] Various types of onions are shown in a garden setting, indicating a diverse range of potential varieties.
+    - [frames=[2]] A close-up of onions with the word "varieties" overlaid, highlighting the focus on different types of onions.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene shifts from a general view of onions in a garden to a detailed look at specific varieties, emphasizing the importance of choosing disease-resistant types to prevent onion diseases.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must be aware of the current state of the garden, including the presence of onions.
+    - The robot should have knowledge about different onion varieties and their disease resistance properties.
+    - The robot needs to be able to identify onions in the garden.
+    
+    SUCCESS_CRITERIA:
+    - The robot must correctly identify and select disease-resistant onion varieties.
+    - The robot should provide information on why these varieties are chosen for disease prevention.
+    - The robot should be able to communicate the selection process clearly to the viewer.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the area where onions are present in the garden.
+    2. [type=perception, frames=[0,1]] Use sensors to identify and classify different onion varieties.
+    3. [type=manipulation, frames=[2]] Focus on the close-up of onions to highlight the selected varieties.
+    4. [type=communication, frames=[2]] Announce the selection of disease-resistant onion varieties.
+    5. [type=perception, frames=[2]] Verify the correct identification of the selected varieties through further inspection.
+    
+    SUBTASK_STORY:
+    The robot begins by navigating to the area where onions are growing
+
+
+======================================================================
+

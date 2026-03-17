@@ -1,0 +1,165 @@
+VIDEO: Sy1kfBmk5L8
+TITLE: Red Schoolhouses and White Churches Impact Economy
+======================================================================
+
+TASK 0: Discuss the historical importance of small family farms in U.S. agriculture.
+Time Range: 161.63 → 270.63
+----------------------------------------------------------------------
+  SUBTASK 0: Observe the world's largest pumpkin mentioned by Mr. Bowers.
+  Time Range: 161.63 → 164.63
+  Guidance:
+    GLOBAL_SUMMARY:
+    The robot needs to observe the world's largest pumpkin mentioned by Mr. Bowers during a discussion about the historical importance of small family farms in U.S. agriculture.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] The scene shows Arnold Paulson, a Minnesota businessman, seated at a table. No pumpkin is visible.
+    - [frames=[2]] Arnold Paulson is still seated at the table, but now a large pumpkin is placed next to him.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The subtask involves observing a significant object, the world's largest pumpkin, which is introduced towards the end of the discussion. This pumpkin serves as a visual aid to emphasize the historical significance of large-scale agricultural achievements.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The video has reached the specified time range (161.6s–164.6s).
+    - Arnold Paulson is present and seated at the table.
+    - The world's largest pumpkin is visible and placed next to Arnold Paulson.
+    
+    SUCCESS_CRITERIA:
+    - The robot has identified and observed the world's largest pumpkin.
+    - The pumpkin is within the robot's field of view for the entire duration of the subtask.
+    - The robot has noted the presence of the pumpkin and understood its significance in the context of the discussion.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Move the robot's camera to focus on Arnold Paulson at the table.
+    2. [type=perception, frames=[0,1]] Confirm that Arnold Paulson is present and seated.
+    3. [type=navigation, frames=[2]] Adjust the camera to include the newly placed pumpkin next to Arnold Paulson.
+    4. [type=manipulation, frames=[2]] Ensure the robot's camera captures a clear image of the pumpkin.
+    5. [
+
+  SUBTASK 1: Note the contrast between small family farms and corporate farms.
+  Time Range: 259.63 → 270.63
+  Guidance:
+    GLOBAL_SUMMARY:
+    Discuss the contrast between small family farms and corporate farms in the context of their historical importance in U.S. agriculture.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] Walter Bowers, a Kansas Economist, is seated at a table, likely preparing to discuss agricultural topics.
+    - [frames=[2]] The scene remains unchanged, indicating that Bowers continues to sit and prepare for his discussion.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    Walter Bowers, a Kansas Economist, is setting up to discuss the historical significance of small family farms in U.S. agriculture. The scene suggests he is about to elaborate on how these farms contrast with larger corporate operations.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The video player is paused at the correct time range (259.6s–270.6s).
+    - The robot has access to the video frames and can analyze them.
+    - The robot understands the context of the tutorial video and the specific subtask.
+    
+    SUCCESS_CRITERIA:
+    - The robot correctly identifies the contrast between small family farms and corporate farms.
+    - The robot accurately notes the historical importance of small family farms in U.S. agriculture.
+    - The robot provides a clear and concise explanation of the differences between the two types of farms.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Pause the video at the specified time range (259.6s–270.6s).
+    2. [type=perception, frames=[0,1]] Analyze the frames to confirm the presence of Walter Bowers and his nameplate.
+    3. [type=manipulation, frames=[2]] Ensure the video remains paused without any unintended movement.
+    4. [type=perception, frames=[0,1]] Identify the key elements in the frames, such as the name
+
+
+======================================================================
+
+TASK 1: Examine the impact of underpayment in agriculture on rural communities.
+Time Range: 437.7 → 957.5
+----------------------------------------------------------------------
+  SUBTASK 0: Highlight the loss of nearly $1 billion in South Dakota due to underpayment, as mentioned by Mr. Rash.
+  Time Range: 437.7 → 446.7
+  Guidance:
+    GLOBAL_SUMMARY:
+    Highlight the loss of nearly $1 billion in South Dakota due to underpayment, as mentioned by Mr. Rash.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] A man in a suit and tie is speaking into a microphone.
+    - [frames=[2]] The same man continues speaking, likely finishing his statement about the economic impact.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene shows a man in a suit and tie delivering a speech, possibly in a formal setting such as a conference or meeting. He is discussing the significant financial loss experienced by South Dakota's rural communities due to underpayment in agriculture.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must recognize the speaker as Mr. Rash.
+    - The robot should have access to the specific figure of $1 billion.
+    - The robot needs to know the context of underpayment in agriculture affecting rural economies.
+    
+    SUCCESS_CRITERIA:
+    - The robot correctly identifies the speaker and the specific amount mentioned.
+    - The robot accurately captures the economic impact being discussed.
+    - The robot ensures the information is presented clearly and without error.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Identify the speaker as Mr. Rash based on appearance and context.
+    2. [type=perception, frames=[0,1]] Recognize the spoken words indicating the economic impact.
+    3. [type=manipulation, frames=[2]] Ensure the microphone is functioning properly to capture the final part of the statement.
+    4. [type=communication, frames=[0,1,2]] Confirm the identified information with the database to verify the accuracy of the $1 billion figure.
+    5. [type=navigation, frames=[0,1,2]] Adjust the camera angle to ensure the entire statement is captured for clarity.
+    6. [type=manipulation, frames=[2
+
+  SUBTASK 1: Mention the unanimous agreement on the price problem in agriculture at the Blue Ribbon Conference.
+  Time Range: 797.5 → 809.5
+  Guidance:
+    GLOBAL_SUMMARY:
+    The subtask involves mentioning the unanimous agreement on the price problem in agriculture at the Blue Ribbon Conference during a specific time range in the video.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] A man in a suit and tie is seated and speaking into a microphone, likely presenting information about the price problem in agriculture.
+    - [frames=[2]] A man wearing glasses and a suit is seated at a table with a nameplate that reads "Arnold Paulson, Minn. Business Man," indicating he is a key figure in the discussion.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene depicts a conference setting where multiple attendees are present, including speakers and listeners. The focus is on a discussion about the price problem in agriculture, with a particular emphasis on the unanimous agreement reached at the Blue Ribbon Conference.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The video should be playing at the correct time range (797.5s–809.5s).
+    - The robot should recognize the context of the Blue Ribbon Conference and the agricultural price problem.
+    - The robot should have access to the relevant information about the unanimous agreement.
+    
+    SUCCESS_CRITERIA:
+    - The robot should accurately mention the unanimous agreement on the price problem in agriculture.
+    - The robot should correctly identify the Blue Ribbon Conference as the source of this agreement.
+    - The robot should provide a brief summary of the unanimous agreement without any errors.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the speaker who is currently addressing the audience.
+    2. [type=perception, frames=[0,1]] Confirm the speaker is discussing the price problem in agriculture.
+    3. [type=navigation, frames=[2]] Focus on the attendee named Arnold Paulson.
+    4. [type=manipulation, frames=[2]] Ensure the robot
+
+  SUBTASK 2: Describe the advice to restore farm income through collective bargaining.
+  Time Range: 946.5 → 957.5
+  Guidance:
+    GLOBAL_SUMMARY:
+    Describe the advice to restore farm income through collective bargaining as presented by Carl Wilken during a U.S. Farm Report segment.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] An older man in a suit named Carl Wilken is seated at a table, likely preparing to speak on camera.
+    - [frames=[1]] The scene transitions to show Carl Wilken speaking into a microphone, identified as part of the U.S. Farm Report.
+    - [frames=[2]] Carl Wilken is now standing at a podium, addressing an audience while a sign indicates he is speaking for the U.S. Farm Report National Farmers Organization in Corning, Iowa.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    This subtask involves Carl Wilken providing advice on restoring farm income through collective bargaining. He begins by sitting at a table, presumably setting up his appearance for the camera. As the segment progresses, he moves to a podium to address a larger audience, emphasizing the importance of his message.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must recognize Carl Wilken as the speaker.
+    - The robot should be aware of the context of the U.S. Farm Report and the National Farmers Organization.
+    - The robot needs to know the location of the podium and the seating arrangement.
+    - The robot must have access to information about collective bargaining in agriculture.
+    
+    SUCCESS_CRITERIA:
+    - The robot successfully identifies Carl Wilken as the key figure in the segment.
+    - The robot accurately captures the advice given regarding collective bargaining.
+    - The robot correctly understands the context of the U.S. Farm Report and the National Farmers Organization.
+    - The robot provides a clear summary of the advice given by Carl Wilken.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the seating area where Carl Wilken is seated.
+    2. [type=perception
+
+
+======================================================================
+

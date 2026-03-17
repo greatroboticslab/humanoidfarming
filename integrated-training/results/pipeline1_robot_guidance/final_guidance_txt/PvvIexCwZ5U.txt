@@ -1,0 +1,249 @@
+VIDEO: PvvIexCwZ5U
+TITLE: Planting Herbs in Bio Cups Video
+======================================================================
+
+TASK 0: Describe the process of planting herbs using a gardening kit.
+Time Range: 15.68 → 44.08
+----------------------------------------------------------------------
+  SUBTASK 0: Show the different types of herbs in the kit, including mint, lime, basil, and lavender.
+  Time Range: 15.68 → 32.4
+  Guidance:
+    GLOBAL_SUMMARY:
+    Show the different types of herbs included in the gardening kit, specifically mint, lime, basil, and lavender.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0]] A person is setting up a place mat with a red leaf-shaped coaster on a wooden table.
+    - [frames=[1]] The person then places a box labeled "Botanical Mojito Grow Kit" on the table.
+    - [frames=[2]] The person opens a box containing a DIY Mojito kit with mint, lime, basil, and lavender herbs visible inside.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene begins with the setup of a gardening area, where a person prepares a place mat. They then introduce the gardening kit by placing it on the table and opening it to reveal the various herbs needed for the task.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The table is set up with a place mat and a red leaf-shaped coaster.
+    - The Botanical Mojito Grow Kit is present on the table.
+    - The box is open, revealing the herbs inside.
+    
+    SUCCESS_CRITERIA:
+    - All four types of herbs (mint, lime, basil, and lavender) are clearly shown and identified.
+    - The herbs are arranged in a way that is easily recognizable to the viewer.
+    - The box is opened, and the herbs are visible within.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0]] Move to the location where the gardening setup is taking place.
+    2. [type=perception, frames=[0]] Identify the place mat and red leaf-shaped coaster on the wooden table.
+    3. [type=navigation, frames=[1]] Approach the table where the Botanical Mojito Grow Kit is placed.
+    4. [type=manipulation, frames=[1]] Pick up the box labeled "Botanical Mojito Grow Kit".
+    5. [type=navigation
+
+  SUBTASK 1: Explain that the speaker's partner is not interested in participating in planting.
+  Time Range: 32.4 → 44.08
+  Guidance:
+    GLOBAL_SUMMARY:
+    The robot needs to explain that the speaker's partner is not interested in participating in planting the herbs.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[1]] A hand is holding a box containing various items such as a tea bag and a small container.
+    - [frames=[2]] A person is opening the box, indicating they are about to inspect the contents.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene shows the speaker opening a box containing gardening supplies. The robot will need to observe this and convey that the partner is not interested in participating in the planting activity.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot should recognize the box and its contents.
+    - The robot should know the identity of the speaker and their partner.
+    - The robot should be aware that the partner is not interested in participating.
+    
+    SUCCESS_CRITERIA:
+    - The robot should clearly state that the partner is not interested in participating.
+    - The robot should provide an explanation for why the partner is not participating.
+    - The robot should ensure the speaker continues with the task without interruption.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=perception, frames=[1]] Recognize the box and its contents.
+    2. [type=perception, frames=[2]] Observe the person opening the box.
+    3. [type=communication, frames=[1-2]] State that the partner is not interested in participating.
+    4. [type=communication, frames=[1-2]] Provide a reason why the partner is not participating.
+    5. [type=navigation, frames=[1-2]] Guide the speaker to continue with the task.
+    
+    SUBTASK_STORY:
+    The robot observes the speaker opening a box containing gardening supplies. It recognizes that the partner is not interested in participating in the planting activity. The robot then explains to the speaker that the partner is not interested, providing a reason for it,
+
+
+======================================================================
+
+TASK 1: Explain how the kit was repurposed and placed in the room.
+Time Range: 83.9 → 90.7
+----------------------------------------------------------------------
+  SUBTASK 0: Describe the item from the kit that was left in the room with candles.
+  Time Range: 83.9 → 87.86
+  Guidance:
+    GLOBAL_SUMMARY:
+    The robot needs to describe an item from the repurposed kit that was left in the room with candles.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0]] A table with various items including a box of mojito, a cup, and a place mat is visible.
+    - [frames=[1]] A person is pouring a liquid into a container with three cups.
+    - [frames=[2]] A person is cutting a piece of paper with scissors.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene shows a table with multiple items, but the key observation is that a person is preparing something and then cutting paper, which suggests they might be leaving notes or instructions. The robot's task is to identify and describe one of the items that were left in the room, likely related to the candles.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must know the contents of the repurposed kit.
+    - The robot should recognize common household items such as candles, cups, and paper.
+    - The robot must be aware of the presence of candles in the room.
+    
+    SUCCESS_CRITERIA:
+    - The robot correctly identifies an item from the repurposed kit.
+    - The robot accurately describes the identified item.
+    - The robot mentions that the item was left in the room with candles.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0]] Move to the table where the items are located.
+    2. [type=perception, frames=[0]] Scan the table to identify all items present.
+    3. [type=manipulation, frames=[1]] Observe the person pouring liquid into a container.
+    4. [type=perception, frames=[2]] Watch the person cutting paper.
+    5. [type=communication, frames=[0-2]] Identify and describe an item from the repurposed kit that was left in the room
+
+  SUBTASK 1: Mention that the item was just sitting there and hadn't been used.
+  Time Range: 87.86 → 90.7
+  Guidance:
+    GLOBAL_SUMMARY:
+    The robot needs to observe and describe a situation where an item, likely a tray with cups, was left unused in the room.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] A person is holding a tray with two bowls, and the camera zooms in on their face.
+    - [frames=[2]] A person is holding a tray with three empty cups, surrounded by various bath products and ingredients.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene depicts a tray with cups that were not in use, as evidenced by the presence of other items such as bath products and ingredients. The cups are empty, indicating they had not been utilized.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must recognize the tray and cups.
+    - The environment must include other items like bath products and ingredients.
+    - The robot should be aware of the current state of the cups (empty).
+    
+    SUCCESS_CRITERIA:
+    - The robot must accurately describe the tray and cups as unused.
+    - The robot should mention the surrounding items to provide context.
+    - The description should clearly indicate that the cups were not in use.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Move to the location where the person is holding the tray with two bowls.
+    2. [type=perception, frames=[0,1]] Identify the tray and the two bowls.
+    3. [type=navigation, frames=[2]] Move to the location where the person is holding the tray with three empty cups.
+    4. [type=perception, frames=[2]] Confirm the presence of three empty cups and surrounding bath products and ingredients.
+    5. [type=communication, frames=[2]] Describe the scene, mentioning the tray with empty cups and the surrounding items.
+    
+    SUBTASK_STORY:
+    The robot first observes a person holding a tray with two bowls, then
+
+
+======================================================================
+
+TASK 2: Discuss the instructions in the packaging and the process of preparing the bio cups.
+Time Range: 127.21 → 215.08
+----------------------------------------------------------------------
+  SUBTASK 0: Read the instructions for preparing the growing medium.
+  Time Range: 127.21 → 134.89
+  Guidance:
+    GLOBAL_SUMMARY:
+    The robot needs to observe and understand the instructions provided in the packaging for preparing the growing medium in the bio cups.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0]] The person is pointing at two cups of tea on a tray, which seems irrelevant to the current task.
+    - [frames=[1]] The person is pointing at three small cups on a tray, indicating a shift in focus to the bio cups.
+    - [frames=[2]] A hand is pointing to a tray with three small cups on a wooden table, confirming the presence of the bio cups.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene transitions from a tray with cups of tea to a tray with bio cups, suggesting that the focus of the video is now on the preparation of the growing medium for planting herbs.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must recognize the bio cups on the tray.
+    - The robot should have access to the packaging containing the instructions.
+    - The robot needs to be within reach of the tray with the bio cups.
+    
+    SUCCESS_CRITERIA:
+    - The robot must accurately identify the instructions in the packaging.
+    - The robot should confirm that it understands the steps for preparing the growing medium.
+    - The robot should be able to communicate the key points of the instructions to the user.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[1]] Move to the tray with the bio cups.
+    2. [type=perception, frames=[2]] Identify the bio cups on the tray.
+    3. [type=navigation, frames=[1]] Move to the packaging containing the instructions.
+    4. [type=perception, frames=[1]] Read and understand the instructions for preparing the growing medium.
+    5. [type=communication, frames=[1]] Communicate the key points of the instructions to the user.
+    
+    SUBTASK_STORY:
+    The robot first
+
+  SUBTASK 1: Explain the process of dissolving the growing medium in water and fluffing it with a fork.
+  Time Range: 127.21 → 149.68
+  Guidance:
+    GLOBAL_SUMMARY:
+    Explain the process of dissolving the growing medium in water and fluffing it with a fork.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0]] A person is pointing at a tray with three small cups on a wooden table, indicating the cups are ready for preparation.
+    - [frames=[1]] A hand is holding a cup of tea near a tray with three empty cups, suggesting the person has just finished drinking and is about to start the task.
+    - [frames=[2]] A person is holding a bag of ice cubes and a metal scoop, with a tray of small cups and a red placemat in the background, showing they are about to prepare the growing medium.
+    - [frames=[3]] The person is preparing to plant seedlings in small pots, but the focus is on the growing medium being prepared first.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene shows a person preparing to plant herbs in bio cups. They start by pointing out the cups, then move on to preparing the growing medium by dissolving it in water and fluffing it with a fork. This step is crucial as it sets up the environment for planting the seeds.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The bio cups are on a wooden table.
+    - The growing medium is available in a bag.
+    - A metal scoop is present for scooping the growing medium.
+    - Water is available for dissolving the growing medium.
+    - The person has a clear workspace with a red placemat.
+    
+    SUCCESS_CRITERIA:
+    - The growing medium is fully dissolved in water.
+    - The growing medium is fluffed with a fork.
+    - The cups are ready for planting the seeds.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0]] Move to the wooden table where the bio cups are located.
+    2. [type=manipulation, frames=[1
+
+  SUBTASK 2: Demonstrate the placement of the prepared growing medium into the bio cups.
+  Time Range: 159.13 → 215.08
+  Guidance:
+    GLOBAL_SUMMARY:
+    Demonstrate the placement of the prepared growing medium into the bio cups.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0]] A person opens a plastic bag containing a bio cup and other items on a table.
+    - [frames=[1]] The person pours water into a measuring cup.
+    - [frames=[2]] The person pours the liquid into a container with a plant.
+    - [frames=[3]] The person plants seedlings in small containers on a table with a red placemat.
+    - [frames=[4]] The person continues planting seedlings in small containers.
+    - [frames=[5]] The person adds water to a seedling kit.
+    - [frames=[6]] The person prepares to plant seeds in a container using popsicle sticks.
+    - [frames=[7]] The person uses a fork to mix soil in a container.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene shows a person preparing and planting seedlings in bio cups. They start by opening a bag containing the bio cups and other materials, then proceed to prepare the growing medium by mixing it with water and other components. The person then plants the seedlings in the prepared containers, ensuring they are properly placed and watered.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The bio cups and growing medium are available on the table.
+    - The robot has access to the necessary tools such as a measuring cup and a fork.
+    - The robot understands the concept of bio cups and their purpose.
+    - The robot can identify and manipulate the growing medium and seedlings.
+    
+    SUCCESS_CRITERIA:
+    - The growing medium is correctly placed into the bio cups.
+    - The seedlings are properly planted in the bio cups.
+    - The bio cups are filled with an appropriate amount of growing medium.
+    - The seedlings are positioned securely within the bio cups.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[
+
+
+======================================================================
+

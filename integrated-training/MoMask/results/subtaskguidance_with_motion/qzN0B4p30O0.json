@@ -1,0 +1,505 @@
+{
+  "video_index": "qzN0B4p30O0",
+  "title": "Animals Dancing on the Farm",
+  "url": "https://www.youtube.com/watch?v=qzN0B4p30O0",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "The video repeatedly shows animals dancing in a farm setting.",
+  "tasks": [
+    {
+      "task": "Show animals performing dances on the farm.",
+      "start": 5.47,
+      "end": 172.8,
+      "subtasks": [
+        {
+          "text": "Watch little animals dancing on the farm.",
+          "start": 5.47,
+          "end": 11.8,
+          "segment_ids": [
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "qzN0B4p30O0/task00_sub00_f00.jpg",
+              "caption": "The video frame features a pink-haired character with a star-shaped background.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "qzN0B4p30O0/task00_sub00_f01.jpg",
+              "caption": "The video features a whiteboard with the title \"Five Little Animals Dancing on the Farm.\"",
+              "frame_index": 1
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene shows a transition from a pink-haired character to a whiteboard introducing the concept of five little animals dancing on the farm.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A pink-haired character is seen against a star-shaped background.",
+            "- [frames=[1]] The screen changes to a whiteboard displaying the title \"Five Little Animals Dancing on the Farm.\"",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The video transitions from an introductory character to setting up the theme of animals dancing on a farm. This shift indicates the start of the tutorial's main content.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be positioned near the screen to observe the transition.",
+            "- The robot needs to be able to read text on the whiteboard.",
+            "- The robot should be prepared to navigate to different parts of the screen.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should verify the presence of the title \"Five Little Animals Dancing on the Farm.\"",
+            "- The robot should confirm the transition from the character to the whiteboard.",
+            "- The robot should check that the title is correctly displayed.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Observe the pink-haired character on the screen.",
+            "2. [type=perception, frames=[0,1]] Verify/confirm the key observation before reporting.",
+            "3. [type=perception, frames=[0,1]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[0,1]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Observe the pink-haired character on the screen. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 6.330000000000001,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/qzN0B4p30O0/task00/sub00/motion.bvh",
+            "params_path": "results/momask/qzN0B4p30O0/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Notice Leo stomp stomping his dance.",
+          "start": 46.41,
+          "end": 56.75,
+          "segment_ids": [
+            5,
+            6
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f00.jpg",
+              "relative_path": "qzN0B4p30O0/task00_sub01_f00.jpg",
+              "caption": "A person in a cow costume is performing a dance in a barnyard setting.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "qzN0B4p30O0/task00_sub01_f01.jpg",
+              "caption": "A person in a cow print sweater is dancing on a blue background with cow patterns.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "qzN0B4p30O0/task00_sub01_f02.jpg",
+              "caption": "A red barn with a man and a child in front of it.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene shows a person in a cow costume dancing in a barnyard setting, specifically focusing on a character named Leo who is stomping his dance.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A person in a cow costume is performing a dance in a barnyard setting.",
+            "- [frames=[1]] A person in a cow print sweater is dancing on a blue background with cow patterns.",
+            "- [frames=[2]] A red barn with a man and a child in front of it, but not relevant to the dance.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The background changes from a realistic barnyard to a more stylized blue background, but the character remains consistent as a person in a cow-themed outfit. The focus is on the dance performance, particularly the stomping action by the character named Leo.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be able to recognize a person in a cow costume.",
+            "- The robot must be aware of the dance movements, specifically the stomping action.",
+            "- The robot needs to track the character named Leo within the scene.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the stomping action performed by the character.",
+            "- The robot should be able to distinguish between different dance moves,",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 10.340000000000003,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/qzN0B4p30O0/task00/sub01/motion.bvh",
+            "params_path": "results/momask/qzN0B4p30O0/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Observe more little animals continuing to dance.",
+          "start": 56.75,
+          "end": 58.75,
+          "segment_ids": [
+            7
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub02_f01.jpg",
+              "relative_path": "qzN0B4p30O0/task00_sub02_f01.jpg",
+              "caption": "A cartoon character wearing a cow costume is saying \"More little animals.\"",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub02_f02.jpg",
+              "relative_path": "qzN0B4p30O0/task00_sub02_f02.jpg",
+              "caption": "A cartoon character dressed as a cow is dancing on a farm.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene shows more little animals continuing their dance on the farm, as prompted by a character in a cow costume.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A cartoon character in a cow costume is speaking, indicating the need for more animals to join the dance.",
+            "- [frames=[2]] Another character in a cow costume is already dancing on the farm, setting the scene for additional animals to join.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The farm setting remains consistent, with a focus on the characters in cow costumes engaging in a dance routine. The environment includes typical farm elements such as grass and possibly farm buildings in the background.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the farm setting and the presence of characters in cow costumes.",
+            "- The robot must recognize the need to observe and potentially interact with more animals joining the dance.",
+            "- The robot should have knowledge of various animal characters and their typical movements.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify and track the new animals joining the dance.",
+            "- The robot should ensure that the new characters are in cow costumes and are dancing.",
+            "- The robot should maintain the continuity of the scene without disrupting the ongoing dance performance.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/qzN0B4p30O0/task00/sub02/motion.bvh",
+            "params_path": "results/momask/qzN0B4p30O0/task00/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "See the duck performing its dance.",
+          "start": 58.75,
+          "end": 87.88,
+          "segment_ids": [
+            8,
+            9
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub03_f01.jpg",
+              "relative_path": "qzN0B4p30O0/task00_sub03_f01.jpg",
+              "caption": "A group of animated characters in front of a barn.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub03_f02.jpg",
+              "relative_path": "qzN0B4p30O0/task00_sub03_f02.jpg",
+              "caption": "A boy in a sailor outfit is dancing in a barnyard.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub03_f03.jpg",
+              "relative_path": "qzN0B4p30O0/task00_sub03_f03.jpg",
+              "caption": "A cartoon character is blowing a kiss and clapping.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task00_sub03_f04.jpg",
+              "relative_path": "qzN0B4p30O0/task00_sub03_f04.jpg",
+              "caption": "A cartoon character is holding a toy animal in front of a tree.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task00_sub03_f05.jpg",
+              "relative_path": "qzN0B4p30O0/task00_sub03_f05.jpg",
+              "caption": "A woman in a sheep costume is about to do the sheep dance.",
+              "frame_index": 5
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask involves a duck performing a dance in a barnyard setting, which the robot should recognize and highlight.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A group of animated characters in front of a barn.",
+            "- [frames=[2]] A boy in a sailor outfit is dancing in a barnyard.",
+            "- [frames=[3]] A cartoon character is blowing a kiss and clapping.",
+            "- [frames=[4]] A cartoon character is holding a toy animal in front of a tree.",
+            "- [frames=[5]] A woman in a sheep costume is about to do the sheep dance.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from a group of characters in front of a barn to various activities such as dancing, clapping, and holding toys. The focus shifts to a woman in a sheep costume preparing to perform a dance.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot must be able to identify the barnyard setting.",
+            "- It should recognize different characters and their actions.",
+            "- The robot needs to detect the woman in the sheep costume.",
+            "- It should be capable of tracking the woman's movements.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the woman in the sheep costume.",
+            "- It must track her (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2,3,4,5]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[1,2,3,4,5]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[1,2,3,4,5]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[1,2,3,4,5]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[1,2,3,4,5]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 29.129999999999995,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/qzN0B4p30O0/task00/sub03/motion.bvh",
+            "params_path": "results/momask/qzN0B4p30O0/task00/sub03/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Watch three little animals showing off their dance.",
+          "start": 88.88,
+          "end": 172.8,
+          "segment_ids": [
+            10,
+            11
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub04_f00.jpg",
+              "relative_path": "qzN0B4p30O0/task00_sub04_f00.jpg",
+              "caption": "A group of animated characters, including a woman in a sheep costume and two children, are standing in front of a red barn.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub04_f01.jpg",
+              "relative_path": "qzN0B4p30O0/task00_sub04_f01.jpg",
+              "caption": "A woman in a sheep costume is standing in front of a barn with two children dressed as bunnies.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub04_f02.jpg",
+              "relative_path": "qzN0B4p30O0/task00_sub04_f02.jpg",
+              "caption": "A cartoon character is jumping and another is standing nearby.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub04_f03.jpg",
+              "relative_path": "qzN0B4p30O0/task00_sub04_f03.jpg",
+              "caption": "Two animated characters in a barnyard setting.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task00_sub04_f04.jpg",
+              "relative_path": "qzN0B4p30O0/task00_sub04_f04.jpg",
+              "caption": "Two animated characters in a barnyard setting.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task00_sub04_f05.jpg",
+              "relative_path": "qzN0B4p30O0/task00_sub04_f05.jpg",
+              "caption": "Two animated characters stand in front of a barn.",
+              "frame_index": 5
+            },
+            {
+              "image_file": "task00_sub04_f06.jpg",
+              "relative_path": "qzN0B4p30O0/task00_sub04_f06.jpg",
+              "caption": "A girl in a barnyard shows off her dance.",
+              "frame_index": 6
+            },
+            {
+              "image_file": "task00_sub04_f07.jpg",
+              "relative_path": "qzN0B4p30O0/task00_sub04_f07.jpg",
+              "caption": "A girl in a pink outfit is dancing with the words \"and shake and shake and shake\" on the screen.",
+              "frame_index": 7
+            },
+            {
+              "image_file": "task00_sub04_f08.jpg",
+              "relative_path": "qzN0B4p30O0/task00_sub04_f08.jpg",
+              "caption": "A red barn with a white fence and hay bales in front of it.",
+              "frame_index": 8
+            },
+            {
+              "image_file": "task00_sub04_f09.jpg",
+              "relative_path": "qzN0B4p30O0/task00_sub04_f09.jpg",
+              "caption": "A child in a bunny costume is standing in a barn.",
+              "frame_index": 9
+            },
+            {
+              "image_file": "task00_sub04_f10.jpg",
+              "relative_path": "qzN0B4p30O0/task00_sub04_f10.jpg",
+              "caption": "A group of animated characters are dancing in front of a barn.",
+              "frame_index": 10
+            },
+            {
+              "image_file": "task00_sub04_f11.jpg",
+              "relative_path": "qzN0B4p30O0/task00_sub04_f11.jpg",
+              "caption": "A child in a bunny costume is dancing with the words \"Hop and hop and hop\" on the screen.",
+              "frame_index": 11
+            },
+            {
+              "image_file": "task00_sub04_f12.jpg",
+              "relative_path": "qzN0B4p30O0/task00_sub04_f12.jpg",
+              "caption": "A child in a bunny costume is standing and saying \"and hop!\" on a purple background with bunny patterns.",
+              "frame_index": 12
+            },
+            {
+              "image_file": "task00_sub04_f13.jpg",
+              "relative_path": "qzN0B4p30O0/task00_sub04_f13.jpg",
+              "caption": "A child in a bunny costume is inviting everyone to dance together.",
+              "frame_index": 13
+            },
+            {
+              "image_file": "task00_sub04_f14.jpg",
+              "relative_path": "qzN0B4p30O0/task00_sub04_f14.jpg",
+              "caption": "Children in costumes are standing in front of a barn.",
+              "frame_index": 14
+            },
+            {
+              "image_file": "task00_sub04_f15.jpg",
+              "relative_path": "qzN0B4p30O0/task00_sub04_f15.jpg",
+              "caption": "A group of animated characters in costumes are standing in front of a barn.",
+              "frame_index": 15
+            },
+            {
+              "image_file": "task00_sub04_f16.jpg",
+              "relative_path": "qzN0B4p30O0/task00_sub04_f16.jpg",
+              "caption": "A person in a cow print sweater is dancing with the words \"Stomp and stomp and stomp!\" on the screen.",
+              "frame_index": 16
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Three animated characters perform a dance routine in a barnyard setting, showcasing their moves.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A woman in a sheep costume and two children dressed as bunnies are standing in front of a red barn.",
+            "- [frames=[2]] A cartoon character is jumping while another stands nearby.",
+            "- [frames=[3,4]] Two animated characters are seen in a barnyard setting.",
+            "- [frames=[5]] Two animated characters stand in front of a barn.",
+            "- [frames=[6]] A girl in a barnyard costume is dancing.",
+            "- [frames=[7]] The same girl in a pink outfit is dancing with the phrase \"and shake and shake and shake\" displayed on the screen.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a barnyard with animated characters performing a dance routine. The characters include a woman in a sheep costume, two children as bunnies, and other animated figures. The dance involves various movements and shaking, which is emphasized by the repeated phrase on the final frame.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be able to recognize the barnyard setting.",
+            "- It must identify the characters, especially the girl in the pink outfit.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- (auto-filled) Robot completes the subtask and reports outcomes.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 83.92000000000002,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/qzN0B4p30O0/task00/sub04/motion.bvh",
+            "params_path": "results/momask/qzN0B4p30O0/task00/sub04/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

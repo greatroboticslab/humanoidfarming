@@ -1,0 +1,288 @@
+{
+  "video_index": "med63uGKXmI",
+  "title": "Farmers' Lives Revealed Through Daily Tasks And Perspectives",
+  "url": "https://www.youtube.com/watch?v=med63uGKXmI",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Provides insights into sustainable farming practices and the multifaceted aspects of farming life.",
+  "tasks": [
+    {
+      "task": "Describe the daily activities of the farmer.",
+      "start": 0.0,
+      "end": 13.8,
+      "subtasks": [
+        {
+          "text": "Explain the morning routine that includes collecting eggs from the chicken farm.",
+          "start": 0.0,
+          "end": 13.8,
+          "segment_ids": [
+            0,
+            1
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "med63uGKXmI/task00_sub00_f00.jpg",
+              "caption": "A man with glasses and a beard is wearing a green shirt and is shown in a video frame.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "med63uGKXmI/task00_sub00_f01.jpg",
+              "caption": "A worker in a chicken farm is handling eggs.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "med63uGKXmI/task00_sub00_f02.jpg",
+              "caption": "A man with a beard and glasses is wearing a green shirt and is shown speaking.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe and describe the morning routine of a farmer, specifically focusing on the task of collecting eggs from a chicken farm.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The robot sees a man with glasses and a beard wearing a green shirt.",
+            "- [frames=[1]] The robot observes a worker handling eggs in a chicken farm setting.",
+            "- [frames=[2]] The robot notes a man with a beard and glasses wearing a green shirt speaking.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a typical morning activity on a chicken farm where a farmer collects eggs. The farmer is dressed casually and is engaged in the task of gathering eggs, likely preparing for the day's work.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture the scene.",
+            "- The robot needs to have knowledge about egg collection processes.",
+            "- The robot must be able to communicate the routine in a human-readable format.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the farmer’s morning routine.",
+            "- The robot should mention the specific task of collecting eggs.",
+            "- The robot should provide context about the farmer’s attire and environment.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Detail the process of working in the alfalfa fields for an extended period.",
+          "start": 5.6,
+          "end": 13.8,
+          "segment_ids": [
+            1
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f00.jpg",
+              "relative_path": "med63uGKXmI/task00_sub01_f00.jpg",
+              "caption": "The video frame shows a man wearing glasses and a green shirt, with text above him reading \"Sustainable Farming and Farming Practices.\"",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "med63uGKXmI/task00_sub01_f01.jpg",
+              "caption": "The video frame shows a field of purple flowers with a blurred background of a barn and trees.",
+              "frame_index": 1
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe a farmer working in an alfalfa field, noting the sustainable farming practices and the environment around the field.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The robot sees a man in a green shirt and glasses standing in front of a barn, with text indicating \"Sustainable Farming and Farming Practices.\"",
+            "- [frames=[1]] The robot observes a field of purple flowers with a blurred background showing a barn and trees, suggesting a serene farming setting.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a farmer in a sustainable farming environment, surrounded by a field of purple flowers, indicating a focus on natural beauty and possibly organic practices. The blurred background suggests a vast, open space typical of agricultural settings.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have knowledge about sustainable farming practices.",
+            "- The robot needs to be able to recognize and understand different types of crops, such as alfalfa.",
+            "- The robot should be aware of the typical tools used in farming, like shovels or rakes.",
+            "- The robot must be capable of navigating through fields without obstacles.",
+            "- The robot should be able to communicate with the farmer if necessary.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the farmer",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Discuss the broader perspective on farming.",
+      "start": 26.9,
+      "end": 33.9,
+      "subtasks": [
+        {
+          "text": "Note the observation that if analyzed collectively, you could understand the farmers' operations.",
+          "start": 26.9,
+          "end": 30.4,
+          "segment_ids": [
+            4
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "med63uGKXmI/task01_sub00_f00.jpg",
+              "caption": "A man in a turban is feeding pigs in a field.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "med63uGKXmI/task01_sub00_f01.jpg",
+              "caption": "A man wearing glasses and a green shirt is talking in front of a screen with the words \"WHAT THEY DID\" and \"SHIFTING SCHOOLS.COM\"",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "med63uGKXmI/task01_sub00_f02.jpg",
+              "caption": "A man wearing glasses and a green shirt is speaking in front of a screen with the words \"WHAT THEIR\" and \"SHIFTING SCHOOLS.com\" on",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene shifts from a farmer feeding pigs to a man discussing farmers' operations on a screen, suggesting a broader perspective on farming.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A man in a turban is feeding pigs in a field.",
+            "- [frames=[1]] A man wearing glasses and a green shirt is talking in front of a screen with the words \"WHAT THEY DID\" and \"SHIFTING SCHOOLS.COM\".",
+            "- [frames=[1]] The same man continues speaking in front of a screen with the words \"WHAT THEIR\" and \"SHIFTING SCHOOLS.com\".",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The transition from the farm setting to the man discussing farmers' operations indicates a move towards understanding the collective impact of individual farmers' actions. This suggests an analysis of daily tasks and their broader implications.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should recognize the change in scene context from farm activities to a discussion.",
+            "- It must understand the importance of analyzing individual actions collectively.",
+            "- The robot needs to be able to identify key phrases like \"WHAT THEY DID\" and \"WHAT THEIR\".",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the shift in focus from individual farm tasks to a broader perspective.",
+            "- (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Highlight the insight into what farmers prioritize and the social and political views they hold.",
+          "start": 30.4,
+          "end": 33.9,
+          "segment_ids": [
+            4
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "med63uGKXmI/task01_sub01_f01.jpg",
+              "caption": "The video frame shows a man with glasses and a beard, wearing a green shirt, and the text \"WHAT THEIR SOCIAL VIEWS\" and \"SHIFTING S",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "med63uGKXmI/task01_sub01_f02.jpg",
+              "caption": "A man with glasses and a beard is speaking in front of a screen with the words \"THINGS\" and \"SHIFTINGSCHOOLS.com\" on it",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on highlighting the social and political views of farmers, specifically what they prioritize in their daily lives and work.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A man with glasses and a beard is shown, wearing a green shirt, with text overlaying his image indicating \"WHAT THEIR SOCIAL VIEWS\" and \"SHIFTING\".",
+            "- [frames=[2]] The same man continues speaking, now in front of a screen displaying \"THINGS\" and \"SHIFTINGSCHOOLS.com\".",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a farmer discussing his social and political views, likely emphasizing changes or shifts in his perspective. The background text suggests a focus on educational resources or platforms.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be able to recognize the man based on facial features.",
+            "- It must understand the context of social and political views in relation to farming.",
+            "- The robot needs to be aware of the screen content and its relevance to the discussion.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully identifies the man and understands his speech.",
+            "- It correctly interprets the text on the screen as related to the discussion.",
+            "- The robot captures the essence of the farmer's priorities and views accurately.",
+            "",
+            "ORDERED_ROBOT (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

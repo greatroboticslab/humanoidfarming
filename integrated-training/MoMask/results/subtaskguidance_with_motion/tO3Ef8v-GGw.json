@@ -1,0 +1,486 @@
+{
+  "video_index": "tO3Ef8v-GGw",
+  "title": "DIY Vertical Herb Garden Project",
+  "url": "https://www.youtube.com/watch?v=tO3Ef8v-GGw",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Explains the step-by-step process of creating a vertical herb garden.",
+  "tasks": [
+    {
+      "task": "Describe the initial setup needed for a vertical garden.",
+      "start": 0.0,
+      "end": 16.6,
+      "subtasks": [
+        {
+          "text": "Measure and mark the spots for attaching small pots on a reclaimed wood plank.",
+          "start": 0.0,
+          "end": 6.32,
+          "segment_ids": [
+            0,
+            1,
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "tO3Ef8v-GGw/task00_sub00_f00.jpg",
+              "caption": "A vertical garden with herbs like dill, rosemary, and mint growing in wooden planters.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "tO3Ef8v-GGw/task00_sub00_f01.jpg",
+              "caption": "A vertical garden made from pallets with herbs like chives, rosemary, dill, mint, and basil.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "tO3Ef8v-GGw/task00_sub00_f02.jpg",
+              "caption": "A wooden wall with hanging planters filled with various plants.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to measure and mark the spots for attaching small pots on a reclaimed wood plank, ensuring the correct spacing for the vertical herb garden.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] The scene shows a vertical garden with various herbs growing in wooden planters.",
+            "- [frames=[0,1]] A reclaimed wood plank is visible, with herbs already planted in small pots attached to it.",
+            "- [frames=[0,1]] The herbs include dill, rosemary, and mint, indicating the types of plants to be used.",
+            "- [frames=[0,1]] The wood plank is laid horizontally, ready for marking and pot attachment.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The robot will work on a reclaimed wood plank that is part of a vertical garden project. The plank is already partially prepared with herbs in small pots, suggesting a similar setup is required.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to measuring tools such as a ruler or tape measure.",
+            "- The robot must be able to manipulate markers or paint to make marks on the wood.",
+            "- The robot should know the standard spacing for the small pots, typically around 10-15 cm apart.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- (auto-filled) Robot completes the subtask and reports outcomes.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 6.32,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/tO3Ef8v-GGw/task00/sub00/motion.bvh",
+            "params_path": "results/momask/tO3Ef8v-GGw/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Drill holes at the marked spots for securing the pots.",
+          "start": 6.32,
+          "end": 16.6,
+          "segment_ids": [
+            3,
+            4
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "tO3Ef8v-GGw/task00_sub01_f01.jpg",
+              "caption": "A workshop scene with various tools and a blueprint.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "tO3Ef8v-GGw/task00_sub01_f02.jpg",
+              "caption": "A person is using a tool to work on a piece of wood.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe the setup of a vertical herb garden and perform the task of drilling holes for pot securing.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] The scene shows a workshop with various tools and a blueprint indicating where holes need to be drilled.",
+            "- [frames=[2]] A person is using a tool to work on a piece of wood, likely marking or drilling holes.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The robot needs to understand the context of setting up a vertical herb garden, including the location of the wood and the required holes for pot securing.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to the correct tools, such as a drill and bits.",
+            "- The robot must be familiar with the blueprint indicating the hole locations.",
+            "- The robot should be able to identify the piece of wood that needs to be worked on.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Holes are drilled accurately at the marked spots.",
+            "- The holes are of the appropriate size and depth for securing pots.",
+            "- The wood is stable and secure after the holes are drilled.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Move to the workshop area where the wood and tools are located.",
+            "2. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "3. [type=perception, frames=[1,2]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to the workshop area where the wood and tools are located. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move to the workshop area where the wood and tools are located; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 10.280000000000001,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/tO3Ef8v-GGw/task00/sub01/motion.bvh",
+            "params_path": "results/momask/tO3Ef8v-GGw/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Detail the installation of the small pots.",
+      "start": 16.6,
+      "end": 27.68,
+      "subtasks": [
+        {
+          "text": "Screw small pots into the drilled holes to ensure they are secure.",
+          "start": 16.6,
+          "end": 22.8,
+          "segment_ids": [
+            5,
+            6
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "tO3Ef8v-GGw/task01_sub00_f01.jpg",
+              "caption": "A person is measuring a wooden plank with a tape measure.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "tO3Ef8v-GGw/task01_sub00_f02.jpg",
+              "caption": "A person is using a drill to make a hole in a piece of wood.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will screw small pots into pre-drilled holes on a wooden plank to secure them in place.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A person is measuring a wooden plank with a tape measure.",
+            "- [frames=[2]] A person is using a drill to make a hole in a piece of wood.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene involves preparing a wooden plank by drilling holes for small pots. The robot needs to perform the task of securing the pots into these holes.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The wooden plank should be placed on a stable surface.",
+            "- Small pots should be ready and available.",
+            "- Pre-drilled holes should be present on the wooden plank.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Pots should be securely screwed into the holes.",
+            "- The pots should fit snugly without any wobbling.",
+            "- The overall structure should be stable and safe.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1,2]] Inspect/verify the scene before any physical action.",
+            "2. [type=navigation, frames=[1]] Move to the location where the wooden plank is being measured.",
+            "3. [type=navigation, frames=[2]] Move to the location where the holes are being drilled.",
+            "4. [type=manipulation, frames=[2]] Pick.",
+            "5. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Inspect/verify the scene before any physical action. It then verifies the key detail directly from the frames (Inspect/verify the scene before any physical action).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move to the location where the wooden plank is being measured; Move to the location where the holes are being drilled; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 6.199999999999999,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/tO3Ef8v-GGw/task01/sub00/motion.bvh",
+            "params_path": "results/momask/tO3Ef8v-GGw/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Attach hooks or brackets to the top of the plank for hanging the garden.",
+          "start": 22.8,
+          "end": 27.68,
+          "segment_ids": [
+            7,
+            8
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "tO3Ef8v-GGw/task01_sub01_f01.jpg",
+              "caption": "A person is planting green plants in black pots.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "tO3Ef8v-GGw/task01_sub01_f02.jpg",
+              "caption": "A person is planting seeds in small clay pots.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The task involves attaching hooks or brackets to the top of a plank to prepare for hanging a vertical herb garden.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] The scene shows a person working on a plank, likely preparing it for the next step.",
+            "- [frames=[1]] The person is seen using tools to attach something to the top of the plank, indicating the start of the attachment process.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a person actively engaging in the setup of a vertical herb garden by attaching hooks or brackets to the top of a plank. This setup will allow the garden to be hung vertically, optimizing space usage.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The plank must be stable and in place.",
+            "- The robot should have the necessary tools (e.g., drill, screws) to attach hooks or brackets.",
+            "- The robot needs to know the exact locations where the hooks or brackets need to be attached.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Hooks or brackets are securely attached to the top of the plank.",
+            "- The attachment points are evenly spaced and aligned correctly.",
+            "- The plank is ready for hanging the vertical garden.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 4.879999999999999,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/tO3Ef8v-GGw/task01/sub01/motion.bvh",
+            "params_path": "results/momask/tO3Ef8v-GGw/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Describe the final steps to complete the vertical garden.",
+      "start": 27.68,
+      "end": 37.72,
+      "subtasks": [
+        {
+          "text": "Fill the pots with soil and plant your chosen herbs.",
+          "start": 27.68,
+          "end": 33.24,
+          "segment_ids": [
+            9,
+            10
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "tO3Ef8v-GGw/task02_sub00_f01.jpg",
+              "caption": "A woman is standing next to a strawberry tower with holes in it.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "tO3Ef8v-GGw/task02_sub00_f02.jpg",
+              "caption": "A person is using a drill to attach a metal piece to a wooden structure.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The final step involves filling the pots with soil and planting the chosen herbs into the strawberry tower.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A woman is standing next to a strawberry tower with holes in it.",
+            "- [frames=[2]] A person is using a drill to attach a metal piece to a wooden structure.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a partially assembled vertical herb garden, with a strawberry tower ready for the final assembly steps. The tower has pre-drilled holes for the pots, and additional structural elements are being added.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The strawberry tower is positioned upright.",
+            "- The necessary tools (drill, metal pieces) are within reach.",
+            "- The correct type of soil and herbs are available.",
+            "- The robot has access to the tower and its components.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- All pots are filled with soil.",
+            "- Herbs are planted in the appropriate holes.",
+            "- The structure is stable and secure.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Move to the strawberry tower.",
+            "2. [type=perception, frames=[1]] Verify the tower is upright and stable.",
+            "3. [type=perception, frames=[1,2]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to the strawberry tower. It then verifies the key detail directly from the frames (Verify the tower is upright and stable).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move to the strawberry tower; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 5.560000000000002,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/tO3Ef8v-GGw/task02/sub00/motion.bvh",
+            "params_path": "results/momask/tO3Ef8v-GGw/task02/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Water the plants and place the garden in a sunny location.",
+          "start": 33.24,
+          "end": 37.72,
+          "segment_ids": [
+            11,
+            12
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub01_f01.jpg",
+              "relative_path": "tO3Ef8v-GGw/task02_sub01_f01.jpg",
+              "caption": "A vertical garden with lettuce plants hanging from hooks.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub01_f02.jpg",
+              "relative_path": "tO3Ef8v-GGw/task02_sub01_f02.jpg",
+              "caption": "A vertical garden with lettuce plants growing in fabric pots.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The final step involves ensuring the vertical herb garden is properly watered and placed in a suitable location for optimal growth.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] The vertical garden is shown with lettuce plants hanging from hooks.",
+            "- [frames=[1]] The same vertical garden is displayed, but now the lettuce plants are growing in fabric pots.",
+            "- [frames=[1,2]] The plants appear healthy and well-watered.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a vertical garden setup where lettuce plants are either hanging from hooks or growing in fabric pots. The garden is designed to be placed in a location that receives ample sunlight, which is crucial for the plants' growth.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to a watering system or know how to manually water the plants.",
+            "- The robot must be aware of the location where the garden will be placed.",
+            "- The robot needs to understand the concept of a sunny location and its importance for plant growth.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The plants should be adequately watered.",
+            "- The garden should be placed in a location that receives at least six hours of direct sunlight per day.",
+            "- The plants should show signs of healthy growth.",
+            "",
+            "ORDERED_ROBOT_ACTION_ST (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 4.479999999999997,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/tO3Ef8v-GGw/task02/sub01/motion.bvh",
+            "params_path": "results/momask/tO3Ef8v-GGw/task02/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

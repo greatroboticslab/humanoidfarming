@@ -1,0 +1,898 @@
+{
+  "video_index": "a9tEkC0VbIk",
+  "title": "Farmers抉择粮食作物",
+  "url": "https://www.youtube.com/watch?v=a9tEkC0VbIk",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "The video describes changes in wheat production and consumption due to economic pressures and government initiatives.",
+  "tasks": [
+    {
+      "task": "Describe the current situation of wheat production in Yemen.",
+      "start": 3.31,
+      "end": 43.07,
+      "subtasks": [
+        {
+          "text": "Observe the use of homegrown wheat, which is more nutritious but more expensive than imported cereals.",
+          "start": 3.31,
+          "end": 11.07,
+          "segment_ids": [
+            0,
+            1
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "a9tEkC0VbIk/task00_sub00_f00.jpg",
+              "caption": "A person is holding a handful of grain.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "a9tEkC0VbIk/task00_sub00_f01.jpg",
+              "caption": "Three men are working in a warehouse, with one man holding a large piece of paper.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "a9tEkC0VbIk/task00_sub00_f02.jpg",
+              "caption": "A man in a white shirt is standing in a shed-like structure.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene depicts the observation of local wheat usage in Yemen, highlighting its nutritional value despite higher costs compared to imported cereals.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A person is holding a handful of grain, likely representing the homegrown wheat.",
+            "- [frames=[1]] Three men are working in a warehouse, with one holding a large piece of paper, possibly containing information about wheat prices or comparisons.",
+            "- [frames=[2]] A man in a white shirt is standing in a shed-like structure, suggesting a storage or processing area for wheat.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a warehouse setting where local farmers or workers are handling wheat. The presence of a man holding a large piece of paper indicates that there might be documentation or data being reviewed regarding the cost and nutritional benefits of homegrown versus imported cereals.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture images and videos.",
+            "- The robot needs to have the ability to navigate through the warehouse.",
+            "- The robot must be able to interact with the man holding the paper to read or scan it.",
+            "- The robot should have a mechanism to hold and manipulate the handful of grain if needed.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Verify the nutritional value of the homegrown wheat.",
+            "- Confirm the higher cost of homegrown wheat compared to imported cereals.",
+            "- Measure the quantity of grain held by the person.",
+            "- Cross-check the information on the large piece of paper with the observed data.",
+            "- Record the observations accurately for the tutorial video.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the location where the person is holding the handful of grain.",
+            "2. [type=perception, frames=[0]] Use the camera to capture an image of the grain and verify its characteristics.",
+            "3. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the location where the person is holding the handful of grain. It then verifies the key detail directly from the frames (Use the camera to capture an image of the grain and verify its characteristics).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Note the trend of Yemen importing over 80 percent of its wheat and the scarcity of local wheat.",
+          "start": 11.07,
+          "end": 17.95,
+          "segment_ids": [
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "a9tEkC0VbIk/task00_sub01_f01.jpg",
+              "caption": "A person is pouring grain into a sack.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "a9tEkC0VbIk/task00_sub01_f02.jpg",
+              "caption": "A young boy is holding a handful of corn kernels in a pile of corn.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene highlights the scarcity of locally produced wheat in Yemen, emphasizing the country's heavy reliance on imported wheat.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A person is seen pouring grain into a sack, likely wheat, indicating the presence of wheat but in small quantities.",
+            "- [frames=[2]] A young boy is holding a handful of corn kernels in a pile of corn, showing an abundance of another crop but not wheat.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The images suggest a scenario where wheat is scarce, possibly due to limited local production, while other crops like corn are more abundant. This indicates a dependency on imported wheat to meet the country’s needs.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the current context of wheat scarcity in Yemen.",
+            "- The robot should have access to information about the percentage of wheat imported from other countries.",
+            "- The robot should be able to recognize and differentiate between different types of grains, particularly wheat and corn.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Verify the percentage of wheat imported from other countries.",
+            "- Confirm the scarcity of local wheat production.",
+            "- Measure the availability of other crops like corn.",
+            "- Cross-check the data with recent reports on Yemen’s agricultural situation.",
+            "- Standby for further instructions based on the gathered information.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Read the label on the sack to confirm it contains wheat.",
+            "2. [type=perception, frames=[2]] Identify the corn kernels and count them to estimate the quantity.",
+            "3. [type=communication, frames=[1,2]] Report the findings to the user interface.",
+            "4. [type=perception, frames=[1]] Verify the type of grain being poured by comparing it with known samples of wheat.",
+            "5. [type=manipulation, frames=[1]] Collect a sample.",
+            "6. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Read the label on the sack to confirm it contains wheat. It then verifies the key detail directly from the frames (Read the label on the sack to confirm it contains wheat). After verification, it communicates the result clearly (Report the findings to the user interface).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Highlight the decline in the use of domestic wheat due to lower costs of foreign wheat.",
+          "start": 17.95,
+          "end": 43.07,
+          "segment_ids": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub02_f01.jpg",
+              "relative_path": "a9tEkC0VbIk/task00_sub02_f01.jpg",
+              "caption": "A man is standing in front of a pile of grain.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub02_f02.jpg",
+              "relative_path": "a9tEkC0VbIk/task00_sub02_f02.jpg",
+              "caption": "A man in a white shirt is standing in a market with various grains and spices.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub02_f03.jpg",
+              "relative_path": "a9tEkC0VbIk/task00_sub02_f03.jpg",
+              "caption": "A man in a white robe is pouring a substance into a large bowl at a market.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task00_sub02_f04.jpg",
+              "relative_path": "a9tEkC0VbIk/task00_sub02_f04.jpg",
+              "caption": "A man is standing in a market, surrounded by large baskets of grains.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task00_sub02_f05.jpg",
+              "relative_path": "a9tEkC0VbIk/task00_sub02_f05.jpg",
+              "caption": "A man is holding a container of spices in a market.",
+              "frame_index": 5
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene depicts a market setting where local farmers are dealing with the decline in the use of domestic wheat due to cheaper foreign wheat options. The robot needs to understand and convey this information effectively.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A man is standing in front of a pile of grain, likely representing domestic wheat.",
+            "- [frames=[2]] A man in a white shirt is standing in a market with various grains and spices, indicating a diverse range of products available.",
+            "- [frames=[3]] A man in a white robe is pouring a substance into a large bowl at a market, possibly showing the process of mixing or preparing something.",
+            "- [frames=[4]] A man is standing in a market, surrounded by large baskets of grains, suggesting a bustling market environment.",
+            "- [frames=[5]] A man is holding a container of spices in a market, highlighting the variety of goods being sold.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The market is filled with various grains and spices, with a focus on the presence of both domestic and foreign wheat. The decline in the use of domestic wheat is evident through the context provided by the farmer's actions and the availability of cheaper foreign wheat options.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the local agricultural context in Yemen.",
+            "- It should recognize different types of grains and understand their significance.",
+            "- The robot must be able to communicate effectively about economic factors affecting crop choices.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Accurately describe the decline in the use of domestic wheat.",
+            "- Explain the reasons behind the preference for foreign wheat.",
+            "- Provide relevant statistics or examples if available.",
+            "- Ensure the explanation is clear and understandable to the audience.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Identify the pile of grain as domestic wheat.",
+            "2. [type=perception, frames=[1,2,3,4,5]] Verify/confirm the key observation before reporting.",
+            "3. [type=perception, frames=[1,2,3,4,5]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[1,2,3,4,5]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[1,2,3,4,5]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the pile of grain as domestic wheat. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Explain government efforts to reduce Yemen's dependence on imported wheat.",
+      "start": 74.07,
+      "end": 101.58,
+      "subtasks": [
+        {
+          "text": "Watch the government's action to make the price of domestic wheat the same as imported wheat.",
+          "start": 74.07,
+          "end": 84.58,
+          "segment_ids": [
+            15
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "a9tEkC0VbIk/task01_sub00_f00.jpg",
+              "caption": "A person is using a tool to cut a piece of wood.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "a9tEkC0VbIk/task01_sub00_f01.jpg",
+              "caption": "A person is using a tool to cut wood in a workshop.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "a9tEkC0VbIk/task01_sub00_f02.jpg",
+              "caption": "A person is using a red tool to clean a brick wall.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene shows a person cutting wood, which is not directly related to the subtask of making the price of domestic wheat the same as imported wheat. This section will describe how the robot should interpret and respond to the given frames to align with the subtask.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A person is using a tool to cut a piece of wood.",
+            "- [frames=[1]] A person is using a tool to cut wood in a workshop.",
+            "- [frames=[2]] A person is using a red tool to clean a brick wall.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "These frames depict activities unrelated to the subtask. The robot should recognize that the actions shown are not relevant to the task of making the price of domestic wheat the same as imported wheat.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to information about government actions related to wheat prices.",
+            "- The robot should be able to communicate with other systems or databases containing relevant data.",
+            "- The robot should have the ability to verify information from multiple sources.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the government's actions related to wheat pricing.",
+            "- The robot should accurately explain the actions taken by the government.",
+            "- The robot should ensure that the explanation matches the time range specified in the metadata.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1,2]] Analyze the provided frames to identify any relevant information.",
+            "2. [type=communication, frames=[0,1,2]] Request additional context or data from the system regarding government actions on wheat prices.",
+            "3. [type=navigation, frames=[0,1,2]] Navigate to a display or interface showing current wheat prices.",
+            "4. [type=manipulation, frames=[0,1,2]] Adjust the display to show both domestic and imported wheat prices side by side.",
+            "5. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Analyze the provided frames to identify any relevant information. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Notice the government's investment in land planting and irrigation to increase wheat production.",
+          "start": 84.58,
+          "end": 95.58,
+          "segment_ids": [
+            16,
+            17
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "a9tEkC0VbIk/task01_sub01_f01.jpg",
+              "caption": "A man in a suit is seated at a desk with a laptop and a flower arrangement.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "a9tEkC0VbIk/task01_sub01_f02.jpg",
+              "caption": "A man in a suit and tie is seated at a desk in a formal office setting.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment highlights government efforts to boost wheat production in Yemen through investments in land and irrigation.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A man in a suit is seated at a desk with a laptop and a flower arrangement.",
+            "- [frames=[2]] The same man in a suit and tie is seated at a desk in a formal office setting.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a formal office environment where a government official is likely discussing or presenting information related to agricultural policies aimed at increasing domestic wheat production.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the context of Yemen’s agricultural challenges.",
+            "- The robot needs to recognize the importance of government initiatives in addressing food security.",
+            "- The robot must understand the significance of land and irrigation investments in enhancing wheat production.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should identify the key points about government investments in land and irrigation.",
+            "- It should accurately convey the message that these investments aim to increase wheat production.",
+            "- The robot should ensure that the explanation aligns with the visual cues provided in the video.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Analyze the image to confirm the presence of a man in a suit at a desk.",
+            "2. [type=perception, frames=[2]] Verify the change in attire from a suit to a suit and tie.",
+            "3. [type=communication, frames=[1,2]] Explain the government’s efforts to invest in land and irrigation to boost wheat production.",
+            "4. [type=communication, frames=[1,2]] Use digital tools to display relevant statistics or images supporting the explanation.",
+            "5. [type=perception, frames=[1,2]] Cross-check the information with available data on Yemen’s agricultural sector.",
+            "6. [type=communication, frames=[1,2]] Highlight the expected benefits of.",
+            "7. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Analyze the image to confirm the presence of a man in a suit at a desk. It then verifies the key detail directly from the frames (Analyze the image to confirm the presence of a man in a suit at a desk).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Describe the expected increase in wheat production to cover domestic needs.",
+          "start": 95.58,
+          "end": 101.58,
+          "segment_ids": [
+            18
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub02_f01.jpg",
+              "relative_path": "a9tEkC0VbIk/task01_sub02_f01.jpg",
+              "caption": "A man in a suit is seated at a desk with a floral arrangement on it.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub02_f02.jpg",
+              "relative_path": "a9tEkC0VbIk/task01_sub02_f02.jpg",
+              "caption": "A man in a suit is seated at a desk with a flower arrangement on it.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will describe the expected increase in wheat production to meet Yemen's domestic needs, based on the visual context provided.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A man in a suit is seated at a desk with a floral arrangement on it.",
+            "- The scene suggests a formal setting, possibly an office or meeting room.",
+            "- The presence of a man in a suit indicates he is likely a government official or expert discussing agricultural policy.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a professional environment where a discussion about agricultural policy is taking place. The man in the suit is likely presenting information related to the increase in wheat production to address Yemen's reliance on imported wheat.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to current data on wheat production in Yemen.",
+            "- It must be able to understand and interpret the context of the discussion.",
+            "- The robot needs to know the expected increase in wheat production figures.",
+            "- It should be capable of summarizing and presenting this information clearly.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately convey the expected increase in wheat production.",
+            "- It must present the information in a clear and concise manner.",
+            "- The robot should highlight the significance of this increase in relation to reducing Yemen's dependence on imported wheat.",
+            "- The presentation should be appropriate for the formal setting depicted.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Identify the man in the suit as the key figure in the scene.",
+            "2. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "3. [type=perception, frames=[1,2]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the man in the suit as the key figure in the scene. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Discuss the influence of ghat on agricultural practices in Yemen.",
+      "start": 103.58,
+      "end": 216.58,
+      "subtasks": [
+        {
+          "text": "Observe the production of ghat, which is a lucrative business for many farmers.",
+          "start": 103.58,
+          "end": 111.58,
+          "segment_ids": [
+            19,
+            20
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "a9tEkC0VbIk/task02_sub00_f01.jpg",
+              "caption": "A person is walking through a narrow path surrounded by tall plants.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "a9tEkC0VbIk/task02_sub00_f02.jpg",
+              "caption": "A man is walking through a field of trees.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe the production of ghat, noting its significance to farmers in Yemen.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A person is walking through a narrow path surrounded by tall plants.",
+            "- [frames=[1]] A man is walking through a field of trees.",
+            "- [frames=[1,2]] The environment suggests a rural setting with agricultural activities.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a rural agricultural landscape where farmers are engaged in the cultivation of ghat, a valuable crop. The presence of tall plants and trees indicates the type of vegetation being cultivated.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have knowledge about ghat and its importance in Yemeni agriculture.",
+            "- The robot needs to be equipped with sensors for plant identification and environmental monitoring.",
+            "- The robot should be able to navigate through uneven terrain.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the ghat plants.",
+            "- It should confirm the presence of multiple farmers involved in the cultivation.",
+            "- The robot should measure the size and health of the ghat plants.",
+            "- It should verify the economic significance of ghat to the farmers.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate through the narrow path to reach the field.",
+            "2. [type=perception, frames=[1]] Use cameras to identify the ghat plants and assess their health.",
+            "3. [type=perception, frames=[1]] Scan the area to locate multiple farmers working in the field.",
+            "4. [type=manipulation, frames=[1]] Collect samples of ghat leaves for further analysis.",
+            "5. [type=communication, frames=[1]] Record audio of the farmers discussing the ghat crop.",
+            "6. [type=perception, frames=[1]] Measure the height and width of the ghat plants.",
+            "7. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate through the narrow path to reach the field. It then verifies the key detail directly from the frames (Measure the height and width of the ghat plants).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Note the higher profitability of ghat compared to other crops.",
+          "start": 115.58,
+          "end": 131.58,
+          "segment_ids": [
+            22,
+            23,
+            24
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub01_f00.jpg",
+              "relative_path": "a9tEkC0VbIk/task02_sub01_f00.jpg",
+              "caption": "A person is using a large pipe to dig a hole in the ground.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub01_f01.jpg",
+              "relative_path": "a9tEkC0VbIk/task02_sub01_f01.jpg",
+              "caption": "A man is leading a white cow through a forested area.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub01_f02.jpg",
+              "relative_path": "a9tEkC0VbIk/task02_sub01_f02.jpg",
+              "caption": "The video frame shows a scenic landscape with a stone structure and trees in the distance.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task02_sub01_f03.jpg",
+              "relative_path": "a9tEkC0VbIk/task02_sub01_f03.jpg",
+              "caption": "The video frame shows a close-up view of a decorative metal grate with a forested background.",
+              "frame_index": 3
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on noting the higher profitability of ghat compared to other crops in Yemen, which is illustrated through various scenes in the video.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A person is using a large pipe to dig a hole in the ground, suggesting preparation for planting.",
+            "- [frames=[1]] A man is leading a white cow through a forested area, possibly indicating traditional farming methods.",
+            "- [frames=[2]] The video frame shows a scenic landscape with a stone structure and trees in the distance, setting a rural agricultural context.",
+            "- [frames=[3]] A close-up view of a decorative metal grate with a forested background, likely a decorative element or part of the farm setup.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict a rural agricultural setting in Yemen, where traditional farming methods coexist with modern elements like decorative metal grates. The presence of a stone structure and forested areas suggests a mix of historical and contemporary agricultural practices.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the geographical and cultural context of Yemen.",
+            "- The robot needs to recognize different types of crops and their profitability.",
+            "- The robot should understand the significance of ghat in Yemeni agriculture.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify and note the higher profitability of ghat compared to other crops.",
+            "- The robot should provide a comparative analysis of ghat versus other crops.",
+            "- The robot should ensure the information is presented in a clear and understandable manner.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Identify the activity of digging a hole and infer it's related to planting.",
+            "2. [type=perception, frames=[1]] Recognize the man leading the cow and understand it as a traditional farming method.",
+            "3. [type=perception, frames=[0,1,2,3]] Verify/confirm the key observation before reporting.",
+            "4. [type=perception, frames=[0,1,2,3]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2,3]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the activity of digging a hole and infer it's related to planting. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Highlight the demand for ghat among the population.",
+          "start": 142.58,
+          "end": 162.58,
+          "segment_ids": [
+            27,
+            28,
+            29,
+            30
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub02_f00.jpg",
+              "relative_path": "a9tEkC0VbIk/task02_sub02_f00.jpg",
+              "caption": "A man is standing in a forest, wearing a white scarf and gloves.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub02_f01.jpg",
+              "relative_path": "a9tEkC0VbIk/task02_sub02_f01.jpg",
+              "caption": "A man is standing in a forested area, wearing a scarf and holding a stick.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub02_f02.jpg",
+              "relative_path": "a9tEkC0VbIk/task02_sub02_f02.jpg",
+              "caption": "A man is seen holding a cigarette in his mouth while standing in a room.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task02_sub02_f03.jpg",
+              "relative_path": "a9tEkC0VbIk/task02_sub02_f03.jpg",
+              "caption": "A group of men are sitting on a pile of clothes in a crowded market.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task02_sub02_f04.jpg",
+              "relative_path": "a9tEkC0VbIk/task02_sub02_f04.jpg",
+              "caption": "Two men are sitting on a bench with their belongings, possibly in a waiting area.",
+              "frame_index": 4
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on highlighting the demand for ghat among the population, likely through interactions in a market setting.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A man is standing in a forested area, indicating an initial scene set in a natural environment.",
+            "- [frames=[2]] A man is seen holding a cigarette in a room, suggesting a transition to an indoor setting.",
+            "- [frames=[3]] A group of men are sitting on a pile of clothes in a crowded market, clearly showing a market environment.",
+            "- [frames=[4]] Two men are sitting on a bench with their belongings, possibly in a waiting area, indicating a transitional scene.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict a shift from a natural environment to a market setting, where the demand for ghat is highlighted through interactions among people.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with the ability to navigate through different environments.",
+            "- It should be able to recognize and interact with humans.",
+            "- The robot needs to understand the context of a market and its dynamics.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the demand for ghat among the population.",
+            "- It should capture the interaction dynamics within the market.",
+            "- The robot should convey the significance of ghat in the local economy.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate from the forested area to the market.",
+            "2. [type=perception, frames=[3]] Observe the group of men in the market and identify their interactions.",
+            "3. [type=navigation, frames=[3]] Approach the group and engage in conversation to gather information about ghat demand.",
+            "4. [type=communication, frames=[3]] Record the conversation and any relevant details about the demand for ghat.",
+            "5. [type=perception, frames=[0,1,2,3,4]] Verify/confirm the key observation before reporting.",
+            "6. [type=navigation, frames=[0,1,2,3,4]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate from the forested area to the market. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Describe the dilemma of prioritizing food crops over ghat.",
+          "start": 176.58,
+          "end": 189.58,
+          "segment_ids": [
+            33,
+            34
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub03_f00.jpg",
+              "relative_path": "a9tEkC0VbIk/task02_sub03_f00.jpg",
+              "caption": "Two men in robes are performing on stage.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub03_f01.jpg",
+              "relative_path": "a9tEkC0VbIk/task02_sub03_f01.jpg",
+              "caption": "A man in a suit and tie is seated in a room with a desk and a chair.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub03_f02.jpg",
+              "relative_path": "a9tEkC0VbIk/task02_sub03_f02.jpg",
+              "caption": "A man is sitting in a chair and talking.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to describe the dilemma faced by farmers in Yemen who must choose between growing food crops and ghat, a cash crop.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] Two men in robes are performing on stage, which likely sets the scene for a discussion.",
+            "- [frames=[1]] A man in a suit and tie is seated in a room with a desk and a chair, indicating a formal setting for the explanation.",
+            "- [frames=[2]] A man is sitting in a chair and talking, suggesting he will provide the explanation about the dilemma.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shifts from a performance setting to a formal discussion environment, where an expert will explain the challenges faced by Yemeni farmers in choosing between food crops and ghat.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have knowledge about agricultural practices in Yemen.",
+            "- The robot should be able to access relevant data on food crops and ghat.",
+            "- The robot should be prepared to present information in a clear and understandable manner.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the dilemma faced by farmers.",
+            "- The robot should provide balanced information on the benefits and drawbacks of both food crops and ghat.",
+            "- The robot should conclude with a summary of the challenges and potential solutions.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Analyze the scene to confirm the transition from a performance to a formal discussion setting.",
+            "2. [type=perception, frames=[1]] Identify the expert who will provide the explanation.",
+            "3. [type=communication, frames=[2]] Initiate communication with the expert to begin the explanation.",
+            "4. [type=communication, frames=[0,1,2]] Retrieve and display relevant data on food crops and ghat.",
+            "5. [type=communication, frames=[0,1,2]] Present.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Analyze the scene to confirm the transition from a performance to a formal discussion setting. It then verifies the key detail directly from the frames (Analyze the scene to confirm the transition from a performance to a formal discussion setting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Watch the government's effort to combine ghat production with other crops.",
+          "start": 199.58,
+          "end": 216.58,
+          "segment_ids": [
+            37,
+            38
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub04_f00.jpg",
+              "relative_path": "a9tEkC0VbIk/task02_sub04_f00.jpg",
+              "caption": "A man in a suit is seated at a desk.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub04_f02.jpg",
+              "relative_path": "a9tEkC0VbIk/task02_sub04_f02.jpg",
+              "caption": "A person is filling several yellow jugs with water from a well.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task02_sub04_f03.jpg",
+              "relative_path": "a9tEkC0VbIk/task02_sub04_f03.jpg",
+              "caption": "A young boy is leaning against a wall.",
+              "frame_index": 3
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe the government's efforts to integrate ghat production with other crops, focusing on scenes where a man in a suit is seated at a desk and a person is filling water jugs from a well.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A man in a suit is seated at a desk, likely discussing agricultural policies.",
+            "- [frames=[2]] A person is filling several yellow jugs with water from a well, indicating water usage in agriculture.",
+            "- [frames=[3]] A young boy is leaning against a wall, which is less relevant but provides context for the setting.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a government official discussing agricultural strategies while a person fills water jugs, suggesting the importance of water management in agricultural practices. The presence of a young boy adds a local context, possibly indicating the community's involvement in these activities.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have knowledge about ghat crops and their cultivation.",
+            "- The robot needs to be familiar with Yemen’s agricultural landscape and challenges.",
+            "- The robot should be able to recognize and understand human interactions and discussions.",
+            "- The robot must be equipped to handle basic communication and observation tasks.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the integration of ghat production with other crops.",
+            "- It should verify the water usage in agricultural practices.",
+            "- The robot should confirm the presence of a government official discussing agricultural strategies.",
+            "- It should measure the effectiveness of water management techniques.",
+            "- The robot should cross-check the information gathered with existing data on Yemen’s agricultural sector.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Listen to the conversation between the man in a suit and verify if it discusses ghat production.",
+            "2. [type=perception, frames=[2]] Observe the person filling water jugs.",
+            "3. [type=perception, frames=[0,2,3]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[0,2,3]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,2,3]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Listen to the conversation between the man in a suit and verify if it discusses ghat production. It then verifies the key detail directly from the frames (Listen to the conversation between the man in a suit and verify if it discusses ghat production).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Notice the goal of using some of the agricultural water supplies currently used for ghat.",
+          "start": 210.58,
+          "end": 216.58,
+          "segment_ids": [
+            38
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub05_f00.jpg",
+              "relative_path": "a9tEkC0VbIk/task02_sub05_f00.jpg",
+              "caption": "A person is washing their hands under a running faucet.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub05_f01.jpg",
+              "relative_path": "a9tEkC0VbIk/task02_sub05_f01.jpg",
+              "caption": "A man is filling several yellow jugs with water from a stone wall.",
+              "frame_index": 1
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot observes the current use of water supplies for ghat cultivation, noting the potential for optimizing water usage in Yemen's agricultural practices.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A person is washing their hands under a running faucet, indicating the presence of a water source.",
+            "- [frames=[1]] A man is filling several yellow jugs with water from a stone wall, showing the manual collection of water for agricultural purposes.",
+            "- [frames=[0,1]] The scenes suggest a traditional method of water collection and usage in an agricultural setting.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The robot perceives a traditional method of water collection and usage, which is critical for understanding the current agricultural practices in Yemen. This scene highlights the need for efficient water management to support ghat cultivation.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have knowledge about the agricultural practices in Yemen.",
+            "- The robot needs to be equipped with sensors to detect water sources and containers.",
+            "- The robot must be able to communicate with the farmer or local expert for further information.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Verify the type and quantity of water being collected.",
+            "- Confirm the intended use of the water for ghat cultivation.",
+            "- Measure the efficiency of the current water usage method.",
+            "- Cross-check the findings with local agricultural practices and knowledge.",
+            "- Ensure the water quality is suitable for ghat cultivation.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Scan the area to identify the water source and the person washing hands.",
+            "2. [type=perception, frames=[1]] Observe the man filling the yellow jugs with water from the stone wall.",
+            "3. [type=navigation, frames=[1]] Approach the man and ask him about the intended use of the water for ghat cultivation.",
+            "4. [type=perception, frames=[0,1]] Verify/confirm the key observation before reporting.",
+            "5. [type=navigation, frames=[0,1]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Scan the area to identify the water source and the person washing hands. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

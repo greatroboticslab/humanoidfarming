@@ -1,0 +1,631 @@
+{
+  "video_index": "LcNpBX4cPVI",
+  "title": "Grow Garlic in Plastic Bottles Water Method Edges",
+  "url": "https://www.youtube.com/watch?v=LcNpBX4cPVI",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Describes a method for growing garlic at home using plastic bottles.",
+  "tasks": [
+    {
+      "task": "Describe the initial steps of preparing the garlic and plastic bottles for planting.",
+      "start": 0.0,
+      "end": 10.64,
+      "subtasks": [
+        {
+          "text": "Observe the process of removing the skin and slightly peeling the top part of garlic bulbs.",
+          "start": 0.0,
+          "end": 7.28,
+          "segment_ids": [
+            0,
+            1
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "LcNpBX4cPVI/task00_sub00_f00.jpg",
+              "caption": "A video shows a close-up of plants growing in plastic bottles.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "LcNpBX4cPVI/task00_sub00_f01.jpg",
+              "caption": "A person is peeling garlic.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "LcNpBX4cPVI/task00_sub00_f02.jpg",
+              "caption": "A person is peeling a coconut with their hands.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The task involves observing the process of removing the skin and slightly peeling the top part of garlic bulbs, which is an initial step in preparing them for planting in plastic bottles.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A video shows a close-up of plants growing in plastic bottles, setting the context for the gardening activity.",
+            "- [frames=[1]] A person is seen peeling a garlic bulb, focusing on the removal of the outer layers.",
+            "- [frames=[1]] The person's hands are visible, indicating the manual nature of the task.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a person carefully handling garlic bulbs, likely to prepare them for planting. The focus is on the removal of the outer layers to expose the inner parts of the garlic.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be able to recognize and locate garlic bulbs.",
+            "- It must have the capability to perform gentle peeling actions.",
+            "- The robot needs to understand the difference between the outer and inner layers of the garlic.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The garlic bulb should have its outer skin removed.",
+            "- The top part of the garlic bulb should be slightly peeled to expose the inner layers.",
+            "- The garlic should remain intact without significant damage.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the location where the garlic bulb is placed.",
+            "2. [type=perception, frames=[1]] Use sensors to identify the garlic bulb and its position.",
+            "3. [type=manipulation, frames=[1]] Grasp the garlic bulb gently using the robotic arm.",
+            "4. [type=manipulation, frames=[1]] Apply a gentle pressure to remove the outer skin of the garlic bulb.",
+            "5. [type=manipulation, frames=[1]] Slightly peel the top part of the.",
+            "6. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "7. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the location where the garlic bulb is placed. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Note the action of taking plastic bottles, cutting them, and filling them with water.",
+          "start": 7.28,
+          "end": 10.64,
+          "segment_ids": [
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "LcNpBX4cPVI/task00_sub01_f01.jpg",
+              "caption": "A person is cutting a plastic bottle with a pair of scissors.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "LcNpBX4cPVI/task00_sub01_f02.jpg",
+              "caption": "A person is pouring water into a large plastic container.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video shows a person preparing plastic bottles by cutting them and then filling them with water, setting up for planting garlic.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] The person is using scissors to cut a plastic bottle.",
+            "- [frames=[2]] The person is pouring water into a large plastic container.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts the initial setup for growing garlic in plastic bottles using the water method. The person is preparing bottles by cutting them and filling them with water, which will later be used to plant the garlic cloves.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be within reach of the plastic bottles.",
+            "- The robot should have access to scissors and a large plastic container filled with water.",
+            "- The robot should be able to identify and manipulate plastic bottles and scissors.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The bottles should be properly cut.",
+            "- The bottles should be filled with water.",
+            "- The bottles should be ready for planting garlic.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1,2]] Inspect/verify the scene before any physical action.",
+            "2. [type=navigation, frames=[1]] Move to the location where the plastic bottles are placed.",
+            "3. [type=manipulation, frames=[1]] Pick up the scissors and prepare to cut the plastic bottle.",
+            "4. [type=manipulation, frames=[1]] Cut the plastic bottle using the scissors.",
+            "5. [type=navigation, frames=[2]] Move to the large plastic container filled with water.",
+            "6. [type=manipulation, frames=[2]] Pour water from the container into the cut plastic bottle.",
+            "7. [type=perception, frames=[2]] Verify the level of water in the bottle is sufficient for planting.",
+            "8. [type=navigation, frames=[1,2]] Return to the initial position with the prepared bottle.",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Inspect/verify the scene before any physical action. It then verifies the key detail directly from the frames (Inspect/verify the scene before any physical action).",
+            "To finish safely, it completes cleanup and returns to standby: Return to the initial position with the prepared bottle.",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Explain how to place the garlic in the prepared plastic bottles.",
+      "start": 10.64,
+      "end": 19.28,
+      "subtasks": [
+        {
+          "text": "Watch as the garlic is placed one by one on top of each hole in the plastic bottle.",
+          "start": 10.64,
+          "end": 14.64,
+          "segment_ids": [
+            3
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "LcNpBX4cPVI/task01_sub00_f01.jpg",
+              "caption": "A hand is placing a garlic clove on top of a plastic water bottle.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "LcNpBX4cPVI/task01_sub00_f02.jpg",
+              "caption": "A person is shown pouring water into a bottle with garlic cloves inside.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe and replicate the process of placing garlic cloves one by one into holes in a plastic bottle, ensuring they are correctly positioned.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A hand is seen picking up a garlic clove and placing it on top of a plastic water bottle.",
+            "- [frames=[2]] The same hand is shown pouring water into a bottle that already contains garlic cloves.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a person carefully placing garlic cloves into a plastic bottle, followed by adding water. The robot needs to mimic this action precisely.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to garlic cloves.",
+            "- The robot should have a mechanism to pick up and place objects.",
+            "- The robot should be able to identify and manipulate the plastic bottle.",
+            "- The robot should be aware of the holes in the bottle where the garlic cloves need to be placed.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Garlic cloves are placed one by one into the holes of the plastic bottle.",
+            "- The correct number of garlic cloves is placed in the bottle.",
+            "- The garlic cloves are positioned accurately on top of the holes.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Move to the location where the plastic bottle is placed.",
+            "2. [type=perception, frames=[1]] Identify the holes in the plastic bottle.",
+            "3. [type=navigation, frames=[1]] Move to the location where the garlic cloves are stored.",
+            "4. [type=manipulation, frames=[1]] Pick up a garlic clove using the robotic arm.",
+            "5. [type=navigation, frames=[1]] Move the garlic clove to the top of the plastic bottle.",
+            "6. [type=manipulation, frames=[1]] Place the garlic clove on top of a hole in the plastic bottle.",
+            "7. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "8. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to the location where the plastic bottle is placed. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Notice the process of pouring water to submerge the bottom part of the garlic.",
+          "start": 14.64,
+          "end": 19.28,
+          "segment_ids": [
+            4
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "LcNpBX4cPVI/task01_sub01_f01.jpg",
+              "caption": "A hand is placing garlic cloves into a clear plastic bottle.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "LcNpBX4cPVI/task01_sub01_f02.jpg",
+              "caption": "A video shows garlic sprouting in water.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to demonstrate how to properly place garlic cloves in a plastic bottle by submerging their bottoms in water.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A hand is placing garlic cloves into a clear plastic bottle.",
+            "- [frames=[2]] A video shows garlic sprouting in water.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene involves placing garlic cloves into a plastic bottle and ensuring they are submerged in water to encourage growth.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to garlic cloves and a plastic bottle.",
+            "- The robot should be able to grasp and manipulate the garlic cloves.",
+            "- The robot should be capable of pouring water into the plastic bottle.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The garlic cloves should be placed in the plastic bottle.",
+            "- The bottom part of the garlic cloves should be submerged in water.",
+            "- The water level should be sufficient to cover the base of the garlic cloves.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1,2]] Inspect/verify the scene before any physical action.",
+            "2. [type=navigation, frames=[1]] Move to the location where the plastic bottle and garlic cloves are placed.",
+            "3. [type=manipulation, frames=[1]] Grasp a garlic clove using the robotic arm.",
+            "4. [type=navigation, frames=[1]] Position the garlic clove over the opening of the plastic bottle.",
+            "5. [type=manipulation, frames=[1]] Place the garlic clove into the bottle, ensuring it is upright.",
+            "6. [type=navigation, frames=[2]] Move to the water source.",
+            "7. [type=manipulation, frames=[2]] Pour water into the plastic bottle until the bottom part of the garlic clove is submerged.",
+            "8. [type=perception, frames=[2]] Verify that the garlic clove is fully submerged in water.",
+            "9. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Inspect/verify the scene before any physical action. It then verifies the key detail directly from the frames (Inspect/verify the scene before any physical action).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Describe the growth and transformation of the garlic over time.",
+      "start": 19.28,
+      "end": 27.2,
+      "subtasks": [
+        {
+          "text": "Observe the garlic starting to sprout after five days.",
+          "start": 19.28,
+          "end": 23.6,
+          "segment_ids": [
+            5
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "LcNpBX4cPVI/task02_sub00_f01.jpg",
+              "caption": "The video shows garlic sprouting in plastic bags.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "LcNpBX4cPVI/task02_sub00_f02.jpg",
+              "caption": "A video shows a close-up of garlic growing in a garden, with the caption \"15 days it\".",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot observes the initial signs of garlic sprouting after five days, as part of the tutorial on growing garlic in plastic bottles.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] The video shows garlic sprouting in plastic bags, indicating the early stages of growth.",
+            "- [frames=[2]] A close-up view of garlic growing in a garden is shown, with a caption suggesting it has been growing for 15 days.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts garlic beginning to sprout, which is a crucial early stage in its growth cycle. This observation aligns with the expected timeline provided in the tutorial.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to the video feed showing the garlic growth process.",
+            "- The robot needs to be programmed to recognize the specific stages of garlic sprouting.",
+            "- The robot must be capable of performing close-up observations and measurements.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Verify that the garlic has started to sprout within the expected timeframe.",
+            "- Confirm that the sprouts are visible and healthy.",
+            "- Measure the length of the sprouts to ensure they meet the minimum expected size.",
+            "- Cross-check the observed growth against the tutorial's guidelines.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Capture an image of the garlic sprouting in plastic bags.",
+            "2. [type=manipulation, frames=[2]] Takes a close-up image of the garlic in the garden.",
+            "3. [type=manipulation, frames=[1]] Uses a camera to zoom in on the garlic sprouts for detailed inspection.",
+            "4. [type=manipulation, frames=[2]] Adjusts the camera angle to focus on the garlic sprouts for measurement.",
+            "5. [type=perception, frames=[1]] Verifies the presence.",
+            "6. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "7. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture an image of the garlic sprouting in plastic bags. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Note the completed plant with well-developed roots and leaves after about 15 days.",
+          "start": 23.6,
+          "end": 27.2,
+          "segment_ids": [
+            6
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub01_f01.jpg",
+              "relative_path": "LcNpBX4cPVI/task02_sub01_f01.jpg",
+              "caption": "A video shows a close-up of a plant with green shoots growing from the roots.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub01_f02.jpg",
+              "relative_path": "LcNpBX4cPVI/task02_sub01_f02.jpg",
+              "caption": "A person is removing the leaves from a plant.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "After approximately 15 days, the garlic plant will have developed well-defined roots and leaves, indicating successful growth in the plastic bottle water method.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] The plant shows green shoots emerging from the roots, indicating active growth.",
+            "- [frames=[2]] A person is seen removing leaves from the plant, likely to facilitate better air circulation and sunlight exposure.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a close-up view of a garlic plant growing in a plastic bottle using the water method. The plant has visible green shoots and leaves, suggesting it has been growing in the environment for around 15 days.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture and analyze the plant's growth.",
+            "- The robot needs to have the necessary tools to remove leaves if required.",
+            "- The robot must be able to navigate to the location where the plant is situated.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The plant should show well-developed roots and leaves.",
+            "- The plant should be free of any signs of disease or distress.",
+            "- The leaves should be green and healthy, indicating proper nutrient uptake.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Should capture an image of the plant to verify its current state.",
+            "2. [type=perception, frames=[2]] Should observe the person removing leaves to confirm the next action.",
+            "3. [type=manipulation, frames=[2]] Should assist in removing the leaves by gently pulling them off the plant.",
+            "4. [type=perception, frames=[2]] Should verify that all unnecessary leaves have been removed.",
+            "5. [type=navigation, frames=[1,2]] Should return to a standby position to monitor further growth.",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Should capture an image of the plant to verify its current state. It then verifies the key detail directly from the frames (Should capture an image of the plant to verify its current state).",
+            "To finish safely, it completes cleanup and returns to standby: Should return to a standby position to monitor further growth.",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Explain the final steps in the garlic growing process.",
+      "start": 27.2,
+      "end": 39.52,
+      "subtasks": [
+        {
+          "text": "Watch as the plants are separated and replanted.",
+          "start": 27.2,
+          "end": 30.24,
+          "segment_ids": [
+            7
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub00_f01.jpg",
+              "relative_path": "LcNpBX4cPVI/task03_sub00_f01.jpg",
+              "caption": "A person is planting a plant in a bottle.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub00_f02.jpg",
+              "relative_path": "LcNpBX4cPVI/task03_sub00_f02.jpg",
+              "caption": "A hand is planting a garlic bulb in soil.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The plants are being separated and replanted into individual bottles, ensuring each plant has its own space to grow.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A person is seen planting a plant in a bottle, indicating the initial stage of separation and replanting.",
+            "- [frames=[2]] A hand is shown planting a garlic bulb in soil, suggesting the next step in the process.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts the final steps in the garlic growing process where the plants are carefully separated and then replanted into individual bottles to ensure each plant has sufficient space and resources to thrive.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot needs to be within reach of the bottles and soil.",
+            "- The robot should have the necessary tools to handle the plants and soil.",
+            "- The robot must know the correct orientation and placement of the bottles.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Each plant is successfully separated from the original cluster.",
+            "- Each plant is properly placed in an individual bottle.",
+            "- The soil in the bottles is adequately filled and compacted around the plants.",
+            "- The bottles are securely placed on the surface.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Move to the location where the plants are being separated and replanted.",
+            "2. [type=perception, frames=[1]] Scan the area to identify the plants and bottles.",
+            "3. [type=manipulation, frames=[1]] Grasp the plant gently using the robotic arm.",
+            "4. [type=manipulation, frames=[2]] Place the plant into an empty bottle, ensuring it is centered.",
+            "5. [type=manipulation, frames=[2]] Fill the bottle with soil, pressing down to secure the plant.",
+            "6. [type=manipulation, frames=[2]] Repeat the process for all remaining plants.",
+            "7. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "8. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to the location where the plants are being separated and replanted. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Pay attention to the instruction about maintaining a distance of three to four inches between the plants.",
+          "start": 30.24,
+          "end": 34.0,
+          "segment_ids": [
+            8
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub01_f01.jpg",
+              "relative_path": "LcNpBX4cPVI/task03_sub01_f01.jpg",
+              "caption": "Two onion plants with roots growing out of the ground.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub01_f02.jpg",
+              "relative_path": "LcNpBX4cPVI/task03_sub01_f02.jpg",
+              "caption": "The video shows a close-up of young onion plants growing in a garden.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to explain the importance of maintaining a specific distance between garlic plants during the final steps of the growing process.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] Two onion plants with roots growing out of the ground are visible.",
+            "- [frames=[2]] A close-up of young onion plants growing in a garden is shown.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts young garlic plants in a garden setting, with roots clearly visible. The plants are closely spaced, indicating they need to be maintained at a certain distance apart.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the current state of the garlic plants.",
+            "- The robot should know the recommended distance between the plants.",
+            "- The robot should have access to the tutorial video's script or relevant information.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately convey the importance of maintaining a distance of three to four inches between the plants.",
+            "- The robot should provide clear visual cues or references to support the explanation.",
+            "- The robot should ensure the audience understands the benefits of proper spacing.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Observe the two onion plants with roots growing out of the ground.",
+            "2. [type=manipulation, frames=[2]] Examine the close-up of young onion plants growing in a garden.",
+            "3. [type=communication, frames=[1,2]] Explain the importance of maintaining a distance of three to four inches between the plants.",
+            "4. [type=manipulation, frames=[1,2]] Use a virtual ruler or marker to visually indicate the recommended distance between the plants.",
+            "5. [type=communication, frames=[1,2]] Describe the benefits of proper spacing, such as better air circulation and reduced competition for nutrients.",
+            "6. [type=manipulation, frames=[1,2]] Demonstrate how to gently.",
+            "7. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "8. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Observe the two onion plants with roots growing out of the ground. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Observe the final statement about the garlic plant requiring proper care to produce a mature bulb.",
+          "start": 34.0,
+          "end": 39.52,
+          "segment_ids": [
+            9
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub02_f01.jpg",
+              "relative_path": "LcNpBX4cPVI/task03_sub02_f01.jpg",
+              "caption": "A person is planting a plant in the soil.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub02_f02.jpg",
+              "relative_path": "LcNpBX4cPVI/task03_sub02_f02.jpg",
+              "caption": "The video shows a close-up of garlic plants growing in soil.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe the final statement about the importance of proper care for the garlic plants to produce mature bulbs.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A person is seen planting a plant in the soil.",
+            "- [frames=[2]] A close-up of garlic plants growing in soil is shown.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts the growth stage of garlic plants in soil, emphasizing the need for continued care to ensure the development of mature bulbs.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture the video frames.",
+            "- The robot needs to have knowledge of the garlic growing process.",
+            "- The robot must be able to communicate with the user.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the final statement about proper care.",
+            "- It should convey the importance of this care to the user.",
+            "- The robot should ensure the garlic plants receive the necessary conditions to develop mature bulbs.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Capture an image of the person planting the plant.",
+            "2. [type=perception, frames=[2]] Analyze the close-up of garlic plants growing in soil.",
+            "3. [type=manipulation, frames=[1,2]] Retrieve the video transcript or text data.",
+            "4. [type=perception, frames=[1,2]] Read out the final statement about the importance of proper care for the garlic plants.",
+            "5. [type=manipulation, frames=[1,2]] Suggest checking the soil moisture levels and ensuring adequate sunlight.",
+            "6. [type=manipulation, frames=[1,2]] Advise on regular monitoring of plant health.",
+            "7. [type=manipulation, frames=[1,2]] Recommend fertilization if needed.",
+            "8. [type=perception, frames=[1,2]] Cross-check the advice with standard.",
+            "9. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture an image of the person planting the plant. It then verifies the key detail directly from the frames (Read out the final statement about the importance of proper care for the garlic plants).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

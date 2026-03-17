@@ -1,0 +1,784 @@
+{
+  "video_index": "lNZsT_sHcA8",
+  "title": "From Seed to Plate: Onion Farming Process Explained 1. Onion Farming Journey: From Seeds to Markets 2. Growing Giants...",
+  "url": "https://www.youtube.com/watch?v=lNZsT_sHcA8",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "The video describes the entire process of onion farming from planting to processing.",
+  "tasks": [
+    {
+      "task": "Explain the global importance and nutritional benefits of onions.",
+      "start": 6.3,
+      "end": 14.18,
+      "subtasks": [
+        {
+          "text": "Note that onions are grown worldwide with the largest producers being China, India, and the United States.",
+          "start": 6.3,
+          "end": 10.38,
+          "segment_ids": [
+            1
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "lNZsT_sHcA8/task00_sub00_f00.jpg",
+              "caption": "A flying disc with a logo is seen floating in the air over a grassy field.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "lNZsT_sHcA8/task00_sub00_f01.jpg",
+              "caption": "The video frame shows a field with a logo for \"Modern Agri Machines\" in the foreground.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "lNZsT_sHcA8/task00_sub00_f02.jpg",
+              "caption": "A tractor is plowing a field with a modern agri machines logo in the foreground.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on explaining the global production of onions, highlighting the largest producers.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A flying disc with a logo is seen floating in the air over a grassy field.",
+            "- [frames=[1]] The video frame shows a field with a logo for \"Modern Agri Machines\" in the foreground.",
+            "- [frames=[2]] A tractor is plowing a field with a modern agri machines logo in the foreground.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from an aerial view of a field to ground-level views of agricultural machinery, setting the stage for discussing onion farming.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a display screen or a voice interface.",
+            "- The robot needs to have information about onion farming statistics and nutritional benefits.",
+            "- The robot must be able to navigate through the video frames accurately.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the largest onion producers.",
+            "- It should provide accurate information about the global production of onions.",
+            "- The robot should convey the nutritional benefits of onions effectively.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Navigate to the aerial view of the field.",
+            "2. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "3. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the aerial view of the field. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the aerial view of the field; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 4.080000000000001,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/lNZsT_sHcA8/task00/sub00/motion.bvh",
+            "params_path": "results/momask/lNZsT_sHcA8/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Mention that onions are crucial for flavor and are packed with essential nutrients like vitamins B and C.",
+          "start": 10.38,
+          "end": 14.18,
+          "segment_ids": [
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "lNZsT_sHcA8/task00_sub01_f01.jpg",
+              "caption": "A tractor is plowing a large field, and the Modern Agri Machines channel logo is displayed.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "lNZsT_sHcA8/task00_sub01_f02.jpg",
+              "caption": "The video shows a field with rows of young plants being watered by a drip irrigation system.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should explain that onions are crucial for flavor and are rich in essential nutrients like vitamins B and C during the specified time range.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A tractor is plowing a large field, and the Modern Agri Machines channel logo is displayed.",
+            "- [frames=[2]] The video shows a field with rows of young plants being watered by a drip irrigation system.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from a field being prepared for planting to the early stages of onion growth, indicating the beginning of the farming process.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a display screen or speaker to convey information.",
+            "- The robot should have access to accurate nutritional data about onions.",
+            "- The robot should be able to navigate within the video frame.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should clearly mention the importance of onions for flavor.",
+            "- The robot should accurately state that onions contain vitamins B and C.",
+            "- The robot should provide a brief explanation of why these nutrients are important.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate to the tractor plowing scene.",
+            "2. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "3. [type=perception, frames=[1,2]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the tractor plowing scene. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the tractor plowing scene; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.799999999999999,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/lNZsT_sHcA8/task00/sub01/motion.bvh",
+            "params_path": "results/momask/lNZsT_sHcA8/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Describe the seed treatment and planting process for onions.",
+      "start": 14.18,
+      "end": 32.58,
+      "subtasks": [
+        {
+          "text": "Describe the seed treatment process, including soaking seeds in warm water for 12 to 24 hours.",
+          "start": 14.18,
+          "end": 24.62,
+          "segment_ids": [
+            3,
+            4,
+            5
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "lNZsT_sHcA8/task01_sub00_f01.jpg",
+              "caption": "The image shows a close-up of onions, with one onion partially peeled.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "lNZsT_sHcA8/task01_sub00_f02.jpg",
+              "caption": "A tractor is driving across a field, with a modern agricultural machine attached to it.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will describe the seed treatment process for onions, focusing on soaking the seeds in warm water for 12 to 24 hours.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A close-up of an onion is shown, with one onion partially peeled.",
+            "- [frames=[2]] A tractor is seen driving across a field, with a modern agricultural machine attached to it.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from a detailed view of an onion to a broader view of a farm field being prepared for planting. This shift indicates the transition from seed preparation to the initial stages of planting.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to information about the seed treatment process.",
+            "- The robot needs to be equipped with a camera to observe the onion.",
+            "- The robot should have a voice communication system to narrate the process.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the seed soaking process.",
+            "- The robot should mention the duration of soaking (12 to 24 hours).",
+            "- The robot should ensure the seeds are properly soaked before moving to the next step.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Observes.",
+            "2. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "3. [type=perception, frames=[1,2]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Observes. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 10.440000000000001,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/lNZsT_sHcA8/task01/sub00/motion.bvh",
+            "params_path": "results/momask/lNZsT_sHcA8/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Explain the sowing of treated seeds into seed trays or nursery soil.",
+          "start": 24.62,
+          "end": 32.58,
+          "segment_ids": [
+            6,
+            7
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "lNZsT_sHcA8/task01_sub01_f01.jpg",
+              "caption": "A large field of harvested potatoes is lined up in neat rows, with power lines and transmission towers in the background.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "lNZsT_sHcA8/task01_sub01_f02.jpg",
+              "caption": "A tractor is transporting a trailer full of harvested onions.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe the sowing of treated onion seeds into seed trays or nursery soil, ensuring proper placement and conditions for growth.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A large field of harvested potatoes is visible, indicating the agricultural setting.",
+            "- [frames=[2]] A tractor is seen transporting a trailer full of harvested onions, showing the ongoing farming activity.",
+            "- [frames=[1,2]] The focus shifts to the sowing process where treated seeds are placed into seed trays or nursery soil.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from a field of harvested potatoes to a tractor transporting onions, then focuses on the sowing of treated seeds into seed trays or nursery soil. This indicates the next phase in the onion farming process.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot must be equipped with sensors to detect the seed trays or nursery soil.",
+            "- The robot should have the capability to handle and place seeds accurately.",
+            "- The robot needs to be aware of the correct spacing and depth for seed placement.",
+            "- The robot must have access to the treated seeds.",
+            "- The robot should be able to communicate with the operator if needed.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The seeds must be placed in the correct location within the seed trays",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 7.959999999999997,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/lNZsT_sHcA8/task01/sub01/motion.bvh",
+            "params_path": "results/momask/lNZsT_sHcA8/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Highlight the care and cultivation of growing onions.",
+      "start": 32.58,
+      "end": 44.82,
+      "subtasks": [
+        {
+          "text": "Describe the use of drip irrigation to conserve water and enhance plant development.",
+          "start": 32.58,
+          "end": 40.42,
+          "segment_ids": [
+            8,
+            9
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "lNZsT_sHcA8/task02_sub00_f01.jpg",
+              "caption": "A warehouse with numerous stacked plastic crates.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "lNZsT_sHcA8/task02_sub00_f02.jpg",
+              "caption": "The video frame shows a close-up of red onions with one sliced in half.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on explaining the use of drip irrigation to conserve water and enhance plant development in onion farming.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A warehouse with numerous stacked plastic crates is visible, indicating storage or supply areas.",
+            "- [frames=[2]] A close-up of red onions is shown, with one sliced in half, likely to demonstrate the quality of the produce.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from a warehouse setting to a demonstration of onion quality, suggesting a shift in focus from supply to product quality.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture the warehouse and onion images.",
+            "- The robot needs to have knowledge about drip irrigation systems and their benefits.",
+            "- The robot must be able to communicate effectively with the user or other systems.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the benefits of using drip irrigation.",
+            "- It should explain how it conserves water and enhances plant development.",
+            "- The robot should visually confirm the quality of the onions through the camera feed.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Capture an image of the warehouse to verify the presence of irrigation equipment.",
+            "2. [type=perception, frames=[1,2]] Check/confirm the key detail matches the captions and scene.",
+            "3. [type=perception, frames=[1,2]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture an image of the warehouse to verify the presence of irrigation equipment. It then verifies the key detail directly from the frames (Capture an image of the warehouse to verify the presence of irrigation equipment).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 7.840000000000003,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/lNZsT_sHcA8/task02/sub00/motion.bvh",
+            "params_path": "results/momask/lNZsT_sHcA8/task02/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Note that farmers use organic fertilizers to enhance the growth of onions.",
+          "start": 40.42,
+          "end": 44.82,
+          "segment_ids": [
+            10
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub01_f02.jpg",
+              "relative_path": "lNZsT_sHcA8/task02_sub01_f02.jpg",
+              "caption": "This video frame shows a nutritional infographic of an onion, highlighting its various nutrients and their respective amounts per 100 grams.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Farmers use organic fertilizers to promote onion growth, as highlighted in a brief segment of the video.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[2]] The frame shows a nutritional infographic of an onion, detailing its nutrients.",
+            "- [frames=[2]] No direct visual evidence of organic fertilizers is present in this frame.",
+            "- [frames=[2]] The video segment does not visually depict the application of organic fertilizers.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene focuses on an infographic rather than the actual farming process, making it challenging to directly observe the use of organic fertilizers. The information about organic fertilizers is conveyed through narration during this segment.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the ongoing tutorial on onion farming.",
+            "- The robot needs to recognize the mention of organic fertilizers in the audio.",
+            "- The robot should have knowledge of the typical stages of onion cultivation.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the mention of organic fertilizers.",
+            "- The robot should understand the importance of using organic fertilizers for onion growth.",
+            "- The robot should be able to cross-check the information with existing knowledge or databases.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 4.399999999999999,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/lNZsT_sHcA8/task02/sub01/motion.bvh",
+            "params_path": "results/momask/lNZsT_sHcA8/task02/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Detail the harvesting and post-harvest processes of onions.",
+      "start": 44.82,
+      "end": 56.82,
+      "subtasks": [
+        {
+          "text": "Mention that when onions reach maturity, their tops fall over, signaling it's time to harvest.",
+          "start": 44.82,
+          "end": 49.14,
+          "segment_ids": [
+            11
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub00_f02.jpg",
+              "relative_path": "lNZsT_sHcA8/task03_sub00_f02.jpg",
+              "caption": "The video frame shows various types of onions and their uses in different recipes.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "When onions reach maturity, their tops fall over, indicating it is time to harvest them. This signal helps farmers determine the optimal time for harvesting.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[2]] Various types of onions are shown, including bulb onions, shallots, and scallions.",
+            "- [frames=[2]] Different recipes using onions are displayed, such as stir-fries, soups, and salads.",
+            "- [frames=[2]] Close-up shots of mature onions with their tops falling over are visible.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from showcasing various onion types and their culinary uses to highlighting the physical signs of maturity, specifically the fallen tops of the onions.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the current stage of onion growth.",
+            "- It must recognize the fallen tops of onions as a sign of maturity.",
+            "- The robot needs to have the capability to navigate through the onion field.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify onions with fallen tops.",
+            "- It must confirm that the onions are at the right stage for harvesting.",
+            "- The robot should be able to communicate the readiness of the onions to the farmer.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 4.32,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/lNZsT_sHcA8/task03/sub00/motion.bvh",
+            "params_path": "results/momask/lNZsT_sHcA8/task03/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Describe the process of carefully pulling or lifting onions to prevent damage.",
+          "start": 49.14,
+          "end": 56.82,
+          "segment_ids": [
+            12,
+            13
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub01_f02.jpg",
+              "relative_path": "lNZsT_sHcA8/task03_sub01_f02.jpg",
+              "caption": "A tractor is driving across a field, leaving a trail of dust behind it.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will carefully pull or lift onions from the ground to prevent damage during the harvesting process.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[2]] A tractor is driving across a field, leaving a trail of dust behind it.",
+            "- The field is visible with rows of onion plants.",
+            "- Onion plants are visible in various stages of growth.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a field where onions are being harvested. The presence of a tractor indicates ongoing agricultural activity, but the robot's focus is on the careful handling of individual onions.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot must be equipped with a suitable tool for lifting onions.",
+            "- The robot should have knowledge of the onion plant structure to avoid damaging them.",
+            "- The robot needs to be within the field boundaries.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Onions should be lifted without breaking or bruising.",
+            "- The robot should maintain a steady pace to ensure all onions are handled properly.",
+            "- The robot should avoid any contact with the soil to prevent contamination.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[2]] Drive the robot to the designated harvesting area.",
+            "2. [type=perception, frames=[2]] Scan the.",
+            "3. [type=perception, frames=[2]] Verify/confirm the key observation before reporting.",
+            "4. [type=perception, frames=[2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Drive the robot to the designated harvesting area. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Drive the robot to the designated harvesting area; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 7.68,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/lNZsT_sHcA8/task03/sub01/motion.bvh",
+            "params_path": "results/momask/lNZsT_sHcA8/task03/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Explain the modern processing and distribution of onions.",
+      "start": 57.06,
+      "end": 72.5,
+      "subtasks": [
+        {
+          "text": "Mention the sorting of onions by size and quality in modern processing plants.",
+          "start": 57.06,
+          "end": 60.26,
+          "segment_ids": [
+            14
+          ],
+          "frames": [
+            {
+              "image_file": "task04_sub00_f00.jpg",
+              "relative_path": "lNZsT_sHcA8/task04_sub00_f00.jpg",
+              "caption": "A tractor is driving across a field, leaving a trail of dust.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task04_sub00_f01.jpg",
+              "relative_path": "lNZsT_sHcA8/task04_sub00_f01.jpg",
+              "caption": "A tractor is driving through a field with a machine attached to it, planting crops.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task04_sub00_f02.jpg",
+              "relative_path": "lNZsT_sHcA8/task04_sub00_f02.jpg",
+              "caption": "A modern agricultural machine is planting onions in a field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on the sorting process of onions by size and quality in modern processing plants, which is crucial for ensuring uniformity and marketability of the produce.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A tractor is driving across a field, indicating ongoing farming activities.",
+            "- [frames=[1]] A tractor is seen with a machine attached, suggesting the planting phase.",
+            "- [frames=[2]] An agricultural machine is shown planting onions, confirming the context of onion farming.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict the early stages of onion cultivation, including planting and initial growth. The transition to sorting would likely occur post-harvest in a processing plant setting.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with sensors for detecting onion sizes and qualities.",
+            "- The robot needs access to a conveyor belt system for moving onions.",
+            "- The robot must have the capability to sort and place onions into different bins based on their size and quality.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Onions are accurately sorted by size and quality.",
+            "- Different bins contain onions of similar sizes and qualities.",
+            "- The sorting process is efficient and minimizes damage to the onions.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.1999999999999957,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/lNZsT_sHcA8/task04/sub00/motion.bvh",
+            "params_path": "results/momask/lNZsT_sHcA8/task04/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Note the use of conveyor and automatic sorters to speed up the process.",
+          "start": 60.26,
+          "end": 72.5,
+          "segment_ids": [
+            15,
+            16,
+            17
+          ],
+          "frames": [
+            {
+              "image_file": "task04_sub01_f01.jpg",
+              "relative_path": "lNZsT_sHcA8/task04_sub01_f01.jpg",
+              "caption": "A modern agricultural machine is planting onions in a field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task04_sub01_f02.jpg",
+              "relative_path": "lNZsT_sHcA8/task04_sub01_f02.jpg",
+              "caption": "A yellow machine with a label on it is moving along a conveyor belt.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene illustrates the use of modern technology in onion processing, specifically focusing on the sorting process using conveyor belts and automatic sorters.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A modern agricultural machine is seen planting onions in a field.",
+            "- [frames=[2]] A yellow machine labeled with a specific identifier is moving along a conveyor belt.",
+            "- [frames=[1,2]] The conveyor belt is clearly visible, transporting items from left to right.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The video segment shows an automated sorting process where onions are conveyed through a system designed to separate them based on certain criteria such as size, shape, or quality. This process significantly speeds up the handling and sorting of onions, ensuring they meet market standards efficiently.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot must be equipped with sensors capable of identifying and classifying onions.",
+            "- The robot should have access to a conveyor belt system.",
+            "- The robot needs to be within the operational range of the conveyor belt.",
+            "- The robot must have the necessary tools to interact with the conveyor belt and sorters.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Correctly identify and classify onions based on predefined criteria.",
+            "- Accurately place sorted onions into designated bins or containers.",
+            "- Ensure all (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 12.240000000000002,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/lNZsT_sHcA8/task04/sub01/motion.bvh",
+            "params_path": "results/momask/lNZsT_sHcA8/task04/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

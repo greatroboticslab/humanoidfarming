@@ -1,0 +1,169 @@
+{
+  "index": "1b5PtnY6t6k",
+  "title": "\u79cd\u8033\u83dc\u517b\u82b1\u76c6 \u89c1\u6458\u89c1\u957f\u4e0d\u505c\u9c9c",
+  "url": "https://www.youtube.com/watch?v=1b5PtnY6t6k",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Describe the process of growing and maintaining leafy greens in a pot.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 2
+      }
+    }
+  ],
+  "num_threads": 1,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 0.0,
+      "time_end": 7.2,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 2
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the process of growing and maintaining leafy greens in a pot.",
+          "sub_index": 0,
+          "text": "Observe how planting several black soil pots with black radish greens allows for continuous harvesting.",
+          "start": 0.0,
+          "end": 3.68,
+          "segment_ids": [
+            0
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Describe the process of growing and maintaining leafy greens in a pot.",
+          "sub_index": 1,
+          "text": "Note that the more you harvest the black radish greens, the faster they grow.",
+          "start": 3.68,
+          "end": 5.44,
+          "segment_ids": [
+            1
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Describe the process of growing and maintaining leafy greens in a pot.",
+          "sub_index": 2,
+          "text": "Explain that you don't need to worry about the greens being depleted, only about the diner's potential boredom.",
+          "start": 5.44,
+          "end": 7.2,
+          "segment_ids": [
+            1
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 0.0,
+          "time_end": 3.68,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "narration",
+          "time_start": 3.68,
+          "time_end": 7.2,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 1
+            },
+            {
+              "task_index": 0,
+              "sub_index": 2
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Black Radish Green Cultivation and Harvesting",
+        "thread_summary": "This video segment discusses the process of growing black radish greens in soil pots and the observation that harvesting them frequently promotes faster growth.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The observation of continuous harvesting leads to the explanation of the plant's growth behavior."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "The explanation about the plant's growth behavior provides reassurance to the viewer about the sustainability of the harvesting process."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    }
+  ]
+}

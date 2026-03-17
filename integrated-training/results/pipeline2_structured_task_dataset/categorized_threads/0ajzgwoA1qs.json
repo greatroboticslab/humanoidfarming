@@ -1,0 +1,270 @@
+{
+  "index": "0ajzgwoA1qs",
+  "title": "Seven Indoor Plants for Small Spaces",
+  "url": "https://www.youtube.com/watch?v=0ajzgwoA1qs",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Describe the various indoor plants mentioned in the video.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 1,
+        "perception": 1,
+        "planning": 0,
+        "narration": 3
+      }
+    }
+  ],
+  "num_threads": 2,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 0.0,
+      "time_end": 20.08,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 3
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the various indoor plants mentioned in the video.",
+          "sub_index": 0,
+          "text": "Observe radishes and green onions as examples of plants that can be grown indoors.",
+          "start": 0.0,
+          "end": 6.56,
+          "segment_ids": [
+            0
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Describe the various indoor plants mentioned in the video.",
+          "sub_index": 1,
+          "text": "Note the mention of microgreens and jar sprouts as additional plants suitable for indoor gardening.",
+          "start": 7.44,
+          "end": 11.84,
+          "segment_ids": [
+            1
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Describe the various indoor plants mentioned in the video.",
+          "sub_index": 2,
+          "text": "Highlight that lettuce is a good option for indoor growth without requiring a smart garden.",
+          "start": 11.84,
+          "end": 16.24,
+          "segment_ids": [
+            1
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Describe the various indoor plants mentioned in the video.",
+          "sub_index": 3,
+          "text": "Mention that peppers can also be grown indoors without a smart garden, emphasizing small varieties.",
+          "start": 16.24,
+          "end": 20.08,
+          "segment_ids": [
+            2
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 0.0,
+          "time_end": 6.56,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "narration",
+          "time_start": 7.44,
+          "time_end": 20.08,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 1
+            },
+            {
+              "task_index": 0,
+              "sub_index": 2
+            },
+            {
+              "task_index": 0,
+              "sub_index": 3
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Indoor Gardening Options",
+        "thread_summary": "The video discusses various plants that can be grown indoors, including radishes, green onions, microgreens, jar sprouts, lettuce, and peppers.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The video transitions from discussing specific examples of indoor plants (radishes and green onions) to mentioning additional options (microgreens and jar sprouts)."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "The video continues to list indoor gardening options by highlighting lettuce as another suitable plant for indoor growth."
+          },
+          {
+            "from": 2,
+            "to": 3,
+            "link": "The video concludes by mentioning peppers as another plant that can be grown indoors without a smart garden, providing a final example of indoor gardening options."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.293,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 1,
+      "time_start": 20.08,
+      "time_end": 25.28,
+      "thread_category_distribution": {
+        "motion": 1,
+        "perception": 0,
+        "planning": 0,
+        "narration": 0
+      },
+      "thread_dominant_category": "motion",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the various indoor plants mentioned in the video.",
+          "sub_index": 4,
+          "text": "Focus on the personal favorite, dwarf cherry tomatoes, as a recommended indoor plant.",
+          "start": 20.08,
+          "end": 25.28,
+          "segment_ids": [
+            3
+          ],
+          "subtask_category": "motion",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [
+              "plant"
+            ],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "motion",
+          "time_start": 20.08,
+          "time_end": 25.28,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 4
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Indoor Plant Recommendation: Dwarf Cherry Tomatoes",
+        "thread_summary": "The video segment focuses on recommending dwarf cherry tomatoes as an ideal indoor plant, highlighting its appeal as a personal favorite.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    }
+  ]
+}

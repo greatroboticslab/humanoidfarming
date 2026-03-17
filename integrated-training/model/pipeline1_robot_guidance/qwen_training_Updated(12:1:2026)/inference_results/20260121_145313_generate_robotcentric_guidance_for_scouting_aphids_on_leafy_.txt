@@ -1,0 +1,44 @@
+GLOBAL_SUMMARY:
+
+The robot will navigate through a workspace to identify and measure the pH levels of soil and leaves to detect aphid infestations on leafy vegetables.
+
+FRAME_BASED_OBSERVATIONS:
+
+None (text-only mode; no frames provided).
+
+INTEGRATED_SCENE_UNDERSTANDING:
+
+The robot needs to understand the layout of the workspace, which includes rows of plants with leaves of various sizes and colors. It should also recognize different types of soil and potential signs of aphid damage such as yellowing leaves or sticky honeydew.
+
+PRECONDITIONS_FOR_ROBOT:
+
+- The robot has access to a pH meter.
+- The robot can move freely within the workspace.
+- The robot has a camera for visual inspection.
+- The robot knows the expected pH range for healthy soil and leaves.
+
+SUCCESS_CRITERIA:
+
+- Correct identification of aphid-infested leaves.
+- Accurate measurement of soil and leaf pH levels.
+- Proper documentation of findings.
+- Safe operation without damaging the plants.
+
+ORDERED_ROBOT_ACTION_STEPS:
+1. [type=navigation] Move to the first row of plants.
+2. [type=perception] Use the camera to scan the leaves for signs of aphid damage.
+3. [type=manipulation] Pick up the pH meter and measure the soil pH near the base of a plant.
+4. [type=perception] Verify if the measured soil pH is within the normal range.
+5. [type=manipulation] Use the camera to inspect the underside of leaves for aphids.
+6. [type=manipulation] If aphids are found, measure the leaf pH using the pH meter.
+7. [type=navigation] Move to the next row of plants and repeat the process.
+8. [type=communication] Record the findings in a logbook.
+9. [type=navigation] Return to the starting point.
+10. [type=navigation] Standby in a safe position until further instructions.
+
+SUBTASK_STORY:
+The robot navigates to the task area and confirms the correct target (scouting, aphids, leafy, vegetables) before starting.
+It performs required handling actions to prepare tools and inputs (Pick up the pH meter and measure the soil pH near the base of a plant.; Use the to inspect the underside of leaves for aphids.).
+It performs sensing and verification to produce a reliable measurement (Use the to scan the leaves for signs of aphid damage.; Verify if the measured soil pH is within the normal range.).
+It communicates the verified outcome and records the result (Record the findings in a logbook.).
+Finally, it secures materials and leaves the workspace ready for the next task.

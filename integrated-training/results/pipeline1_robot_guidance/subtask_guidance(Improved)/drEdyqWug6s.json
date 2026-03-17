@@ -1,0 +1,792 @@
+{
+  "video_index": "drEdyqWug6s",
+  "title": "Helicopters Revolutionize Cattle Muster",
+  "url": "https://www.youtube.com/watch?v=drEdyqWug6s",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Provides examples of innovative livestock management techniques, emphasizing the use of aerial technology in Australia and drones in other regions to manage large cattle herds.",
+  "tasks": [
+    {
+      "task": "Describe the use of helicopters for cattle mustering in Australia.",
+      "start": 16.04,
+      "end": 60.37,
+      "subtasks": [
+        {
+          "text": "Observe how a family gathers approximately 1500 cattle using a helicopter.",
+          "start": 41.37,
+          "end": 60.37,
+          "segment_ids": [
+            7,
+            8
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "drEdyqWug6s/task00_sub00_f00.jpg",
+              "caption": "A herd of cattle is being herded through a dusty field.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "drEdyqWug6s/task00_sub00_f01.jpg",
+              "caption": "A group of people on horses in a vast, open field with a helicopter flying overhead.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "drEdyqWug6s/task00_sub00_f02.jpg",
+              "caption": "A helicopter is flying over a group of horses in a desert-like landscape.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub00_f03.jpg",
+              "relative_path": "drEdyqWug6s/task00_sub00_f03.jpg",
+              "caption": "A herd of cows is grazing in a field with a tree in the background.",
+              "frame_index": 3
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "A family uses a helicopter to gather a large herd of cattle in an open field.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A herd of cattle is being herded through a dusty field.",
+            "- [frames=[1]] A group of people on horses in a vast, open field with a helicopter flying overhead.",
+            "- [frames=[2]] A helicopter is flying over a group of horses in a desert-like landscape.",
+            "- [frames=[3]] A herd of cows is grazing in a field with a tree in the background.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a family using a helicopter to manage a large cattle herd in an expansive, open field. The helicopter assists in guiding the cattle, while people on horses help corral them.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be capable of autonomous navigation.",
+            "- The robot needs to have a clear view of the field and the cattle.",
+            "- The robot must be able to communicate with the helicopter operators.",
+            "- The robot should have a mechanism to measure distances and speeds.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should successfully guide the cattle towards the desired location.",
+            "- The robot should ensure all cattle are accounted for.",
+            "- The robot should maintain a safe distance from the helicopter and the herd.",
+            "- The robot should verify the number of cattle gathered matches the expected count.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to a position above the herd to get a clear view.",
+            "2. [type=perception, frames=[0,1]] Use sensors to count the number of cattle in the herd.",
+            "3. [type=navigation, frames=[1,2]] Move to a position where the helicopter can see the robot's commands.",
+            "4. [type=communication, frames=[1,2]] Communicate with the helicopter operators.",
+            "5. [type=perception, frames=[0,1,2,3]] Verify/confirm the key observation before reporting.",
+            "6. [type=navigation, frames=[0,1,2,3]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to a position above the herd to get a clear view. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Highlight the contrast between traditional methods and helicopter mustering.",
+          "start": 16.04,
+          "end": 36.37,
+          "segment_ids": [
+            3,
+            4,
+            5
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f00.jpg",
+              "relative_path": "drEdyqWug6s/task00_sub01_f00.jpg",
+              "caption": "A person in a helicopter is controlling the helicopter while a lion is walking in the background.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "drEdyqWug6s/task00_sub01_f01.jpg",
+              "caption": "A helicopter flies over a large herd of cattle in a dusty, open landscape.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "drEdyqWug6s/task00_sub01_f02.jpg",
+              "caption": "Two helicopters are seen in a field with trees in the background.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub01_f03.jpg",
+              "relative_path": "drEdyqWug6s/task00_sub01_f03.jpg",
+              "caption": "A large herd of cattle is being herded through a dry, arid landscape.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task00_sub01_f04.jpg",
+              "relative_path": "drEdyqWug6s/task00_sub01_f04.jpg",
+              "caption": "A large herd of animals is seen moving across a vast, arid landscape.",
+              "frame_index": 4
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video contrasts traditional cattle mustering methods with the efficiency and coverage provided by helicopter mustering in Australia.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A person in a helicopter is controlling the aircraft while a lion walks in the background.",
+            "- [frames=[1]] A helicopter flies over a large herd of cattle in a dusty, open landscape.",
+            "- [frames=[2]] Two helicopters are seen in a field with trees in the background.",
+            "- [frames=[3]] A large herd of cattle is being herded through a dry, arid landscape.",
+            "- [frames=[4]] A large herd of animals is seen moving across a vast, arid landscape.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict the use of helicopters for cattle mustering, showcasing their ability to cover large areas quickly compared to traditional methods involving ground-based herding.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot must be equipped with a camera to observe the environment.",
+            "- The robot should have navigation capabilities to fly over large areas.",
+            "- The robot needs to be able to communicate with ground personnel.",
+            "- The robot must have a mechanism to measure distances and altitudes.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot must successfully navigate over the landscape without colliding with obstacles.",
+            "- The robot should be able to identify and track the herd of cattle.",
+            "- The robot must maintain a safe altitude and speed during flight.",
+            "- The robot should be able to communicate with ground personnel effectively.",
+            "- The robot must ensure all cattle are accounted for upon completion of the mustering.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate the helicopter over the large herd of cattle.",
+            "2. [type=perception, frames=[1]] Use the camera to identify and track the herd.",
+            "3. [type=navigation, frames=[2]] Fly two helicopters in.",
+            "4. [type=perception, frames=[0,1,2,3,4]] Verify/confirm the key observation before reporting.",
+            "5. [type=navigation, frames=[0,1,2,3,4]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate the helicopter over the large herd of cattle. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Explain the benefits of using helicopters for cattle management in the US.",
+      "start": 143.37,
+      "end": 188.37,
+      "subtasks": [
+        {
+          "text": "Note the advantages such as covering large areas quickly.",
+          "start": 143.37,
+          "end": 162.37,
+          "segment_ids": [
+            23,
+            25
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "drEdyqWug6s/task01_sub00_f00.jpg",
+              "caption": "A bull is standing near a truck in a rural setting.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "drEdyqWug6s/task01_sub00_f01.jpg",
+              "caption": "A small helicopter is flying in the sky above some trees.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "drEdyqWug6s/task01_sub00_f02.jpg",
+              "caption": "A person on horseback rides through a dusty field with a helicopter flying overhead.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task01_sub00_f03.jpg",
+              "relative_path": "drEdyqWug6s/task01_sub00_f03.jpg",
+              "caption": "A herd of cattle is being herded through a dry, arid landscape.",
+              "frame_index": 3
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on highlighting the advantage of using helicopters for quickly covering large areas in cattle management.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A bull is standing near a truck in a rural setting, indicating a typical cattle management scene.",
+            "- [frames=[1]] A small helicopter is flying in the sky above some trees, showing the helicopter's presence.",
+            "- [frames=[2]] A person on horseback rides through a dusty field with a helicopter flying overhead, demonstrating the helicopter’s ability to assist in herding.",
+            "- [frames=[3]] A herd of cattle is being herded through a dry, arid landscape, illustrating the need for efficient coverage.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a rural setting where cattle are managed, with a helicopter playing a crucial role in efficiently covering large areas. The helicopter’s presence and movement indicate its utility in quickly surveying and managing the cattle.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture the environment.",
+            "- The robot should have navigation capabilities to move around the area.",
+            "- The robot should be able to communicate with the helicopter operator.",
+            "- The robot should have a database of typical cattle management scenarios.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should verify that the helicopter is flying over the area.",
+            "- The robot should confirm that the helicopter is assisting in the herding process.",
+            "- The robot should measure the efficiency of the helicopter in covering the area.",
+            "- The robot should check that the cattle are being effectively managed.",
+            "- The robot should cross-check the helicopter’s flight path with the cattle’s movement.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the location where the helicopter is present.",
+            "2. [type=perception, frames=[1]] Use the camera to verify the helicopter’s position.",
+            "3. [type=perception, frames=[0,1,2,3]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[0,1,2,3]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2,3]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the location where the helicopter is present. It then verifies the key detail directly from the frames (Use the camera to verify the helicopter’s position).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Describe how GPS technology aids in monitoring cattle.",
+          "start": 180.37,
+          "end": 188.37,
+          "segment_ids": [
+            29
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f00.jpg",
+              "relative_path": "drEdyqWug6s/task01_sub01_f00.jpg",
+              "caption": "A man on horseback herds a herd of cattle through a forested area.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "drEdyqWug6s/task01_sub01_f01.jpg",
+              "caption": "A man in a helicopter cockpit, wearing a helmet and sunglasses, is looking out at a vast, open landscape.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "drEdyqWug6s/task01_sub01_f02.jpg",
+              "caption": "A helicopter is flying over a field with a large herd of cattle.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on explaining how GPS technology aids in monitoring cattle, using imagery of a helicopter flying over a field with a herd of cattle.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A man on horseback herds a herd of cattle through a forested area.",
+            "- [frames=[1]] A man in a helicopter cockpit, wearing a helmet and sunglasses, is looking out at a vast, open landscape.",
+            "- [frames=[2]] A helicopter is flying over a field with a large herd of cattle.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shifts from a ground-based perspective of cattle being herded in a forest to an aerial view of a helicopter monitoring a large herd of cattle in an open field. This transition highlights the advantage of using GPS technology for efficient and comprehensive cattle monitoring.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to GPS data.",
+            "- The robot needs to be able to communicate with the helicopter.",
+            "- The robot must be capable of analyzing and interpreting GPS data.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately track the location of the cattle.",
+            "- The robot should identify any straying animals.",
+            "- The robot should provide real-time updates to the user.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate to the helicopter cockpit.",
+            "2. [type=perception, frames=[1]] Access the GPS system and verify the current coordinates.",
+            "3. [type=perception, frames=[2]] Monitor the helicopter's flight path over the field.",
+            "4. [type=manipulation, frames=[2]] Adjust the GPS settings to ensure accurate tracking of the cattle.",
+            "5. [type=communication, frames=[2]] Send the updated GPS data to the ground control station.",
+            "6. [type=perception, frames=[2]] Continuously monitor.",
+            "7. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the helicopter cockpit. It then verifies the key detail directly from the frames (Access the GPS system and verify the current coordinates).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Discuss the challenges and risks associated with helicopter and drone cattle management.",
+      "start": 296.66,
+      "end": 358.66,
+      "subtasks": [
+        {
+          "text": "Observe how pilots maneuver helicopters to avoid the herd.",
+          "start": 342.66,
+          "end": 358.66,
+          "segment_ids": [
+            54,
+            55
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f00.jpg",
+              "relative_path": "drEdyqWug6s/task02_sub00_f00.jpg",
+              "caption": "A man is sitting in a small helicopter with a clear cockpit, parked on a grassy field.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "drEdyqWug6s/task02_sub00_f01.jpg",
+              "caption": "A helicopter is flying over a herd of cattle in a rural area.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "drEdyqWug6s/task02_sub00_f02.jpg",
+              "caption": "Three vehicles are driving on a dusty road, leaving a cloud of dust behind.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task02_sub00_f03.jpg",
+              "relative_path": "drEdyqWug6s/task02_sub00_f03.jpg",
+              "caption": "A vehicle is driving on a dirt road surrounded by trees.",
+              "frame_index": 3
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The pilot maneuvers the helicopter to avoid the cattle herd, demonstrating careful control and situational awareness.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The helicopter is parked on a grassy field, with the pilot seated inside.",
+            "- [frames=[1]] The helicopter is flying over a herd of cattle in a rural area, showing the pilot's skill in navigating around the animals.",
+            "- [frames=[2,3]] Other vehicles are seen on a dusty road, but they are not relevant to the helicopter's maneuvering.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a pilot skillfully operating a helicopter to avoid a cattle herd. The pilot must navigate through a dynamic environment, avoiding obstacles and ensuring the safety of both the aircraft and the livestock.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The helicopter must be equipped with advanced navigation systems.",
+            "- The robot should have a clear view of the surrounding area.",
+            "- The robot needs to be capable of autonomous flight and obstacle avoidance.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The helicopter successfully avoids the cattle without causing any disturbance.",
+            "- The pilot maintains a safe distance from the herd.",
+            "- The helicopter returns to its original position without incident.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigates the helicopter to approach the herd from a safe distance.",
+            "2. [type=perception, frames=[1]] Uses sensors to detect the location and movement of the cattle.",
+            "3. [type=manipulation, frames=[1]] Adjusts the helicopter's path to avoid the cattle, maintaining a safe distance.",
+            "4. [type=navigation, frames=[1]] Continues to monitor the herd and adjusts the flight path as necessary.",
+            "5. [type=manipulation, frames=[1]] Ensures the helicopter does not come too close to the cattle, verifying the.",
+            "6. [type=perception, frames=[0,1,2,3]] Verify/confirm the key observation before reporting.",
+            "7. [type=navigation, frames=[0,1,2,3]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigates the helicopter to approach the herd from a safe distance. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Highlight the risks in harsh weather conditions.",
+          "start": 296.66,
+          "end": 332.66,
+          "segment_ids": [
+            45,
+            46,
+            47,
+            50,
+            51
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub01_f00.jpg",
+              "relative_path": "drEdyqWug6s/task02_sub01_f00.jpg",
+              "caption": "Two cowboys on horses lead a herd of cattle down a dirt road.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub01_f01.jpg",
+              "relative_path": "drEdyqWug6s/task02_sub01_f01.jpg",
+              "caption": "The video shows a person standing in front of a tree with a clear blue sky in the background.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub01_f02.jpg",
+              "relative_path": "drEdyqWug6s/task02_sub01_f02.jpg",
+              "caption": "A helicopter is flying over a field with a large dust cloud, while a vehicle is parked nearby.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task02_sub01_f03.jpg",
+              "relative_path": "drEdyqWug6s/task02_sub01_f03.jpg",
+              "caption": "A helicopter is flying over a group of cows in a rural setting.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task02_sub01_f04.jpg",
+              "relative_path": "drEdyqWug6s/task02_sub01_f04.jpg",
+              "caption": "A herd of cattle is grazing in a dry, grassy field with trees in the background.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task02_sub01_f05.jpg",
+              "relative_path": "drEdyqWug6s/task02_sub01_f05.jpg",
+              "caption": "A helicopter is flying over a herd of cattle in a dry, arid landscape.",
+              "frame_index": 5
+            },
+            {
+              "image_file": "task02_sub01_f06.jpg",
+              "relative_path": "drEdyqWug6s/task02_sub01_f06.jpg",
+              "caption": "A helicopter is flying over a herd of cattle in a rural area.",
+              "frame_index": 6
+            },
+            {
+              "image_file": "task02_sub01_f07.jpg",
+              "relative_path": "drEdyqWug6s/task02_sub01_f07.jpg",
+              "caption": "A helicopter is flying over a herd of cattle in a dusty field.",
+              "frame_index": 7
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on highlighting the risks associated with using helicopters in harsh weather conditions during cattle management.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] Two cowboys on horses lead a herd of cattle down a dirt road.",
+            "- [frames=[1]] A person stands in front of a tree with a clear blue sky.",
+            "- [frames=[2]] A helicopter is flying over a field with a large dust cloud, while a vehicle is parked nearby.",
+            "- [frames=[3]] A helicopter is flying over a group of cows in a rural setting.",
+            "- [frames=[4]] A herd of cattle is grazing in a dry, grassy field with trees in the background.",
+            "- [frames=[5]] A helicopter is flying over a herd of cattle in a dry, arid landscape.",
+            "- [frames=[6]] A helicopter is flying over a herd of cattle in a rural area.",
+            "- [frames=[7]] A helicopter is flying over a herd of cattle in a dusty field.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict various settings where helicopters are used for cattle management, including fields, rural areas, and arid landscapes. The presence of a large dust cloud and dry, grassy fields suggests challenging weather and environmental conditions.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot must be able to identify and track helicopters in different environments.",
+            "- It should recognize cattle and other animals in the field.",
+            "- The robot needs to understand the impact of weather conditions on helicopter operations.",
+            "- It must be capable of analyzing the risk factors associated with harsh weather.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify and describe the risks associated with harsh weather conditions.",
+            "- It must provide a detailed analysis of how these conditions affect helicopter operations.",
+            "- The robot should highlight potential safety issues for both the helicopter and the cattle.",
+            "- It should suggest measures to mitigate these risks.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2,3,4,5,6,7]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2,3,4,5,6,7]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2,3,4,5,6,7]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2,3,4,5,6,7]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2,3,4,5,6,7]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Describe the cattle trading and processing systems in Central Asia.",
+      "start": 715.18,
+      "end": 868.56,
+      "subtasks": [
+        {
+          "text": "Highlight the Karakal livestock market in Kyrgyzstan.",
+          "start": 715.18,
+          "end": 749.18,
+          "segment_ids": [
+            104,
+            105,
+            106,
+            108
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub00_f00.jpg",
+              "relative_path": "drEdyqWug6s/task03_sub00_f00.jpg",
+              "caption": "A plate of food with meat, potatoes, and green onions is displayed.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task03_sub00_f01.jpg",
+              "relative_path": "drEdyqWug6s/task03_sub00_f01.jpg",
+              "caption": "A crowded livestock market with people and cows.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub00_f02.jpg",
+              "relative_path": "drEdyqWug6s/task03_sub00_f02.jpg",
+              "caption": "A black cow with a pink harness is being attended to by a person in a barn.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task03_sub00_f03.jpg",
+              "relative_path": "drEdyqWug6s/task03_sub00_f03.jpg",
+              "caption": "A calf is being led by a person in a market setting.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task03_sub00_f04.jpg",
+              "relative_path": "drEdyqWug6s/task03_sub00_f04.jpg",
+              "caption": "A calf with brown and white patches is standing in a barn.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task03_sub00_f05.jpg",
+              "relative_path": "drEdyqWug6s/task03_sub00_f05.jpg",
+              "caption": "A man in a black jacket is holding a cow in a barn.",
+              "frame_index": 5
+            },
+            {
+              "image_file": "task03_sub00_f06.jpg",
+              "relative_path": "drEdyqWug6s/task03_sub00_f06.jpg",
+              "caption": "A crowded livestock market with people examining cattle.",
+              "frame_index": 6
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The Karakal livestock market in Kyrgyzstan is bustling with activity, featuring various scenes of cattle handling and trading.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A plate of food with meat, potatoes, and green onions is displayed, indicating a meal or snack area.",
+            "- [frames=[1]] A crowded livestock market with people and cows is shown, highlighting the lively atmosphere.",
+            "- [frames=[2]] A black cow with a pink harness is being attended to by a person in a barn, suggesting preparation for sale or transport.",
+            "- [frames=[3]] A calf is being led by a person in a market setting, showing the process of moving livestock.",
+            "- [frames=[4]] A calf with brown and white patches is standing in a barn, possibly awaiting inspection or sale.",
+            "- [frames=[5]] A man in a black jacket is holding a cow in a barn, indicating close interaction between humans and animals.",
+            "- [frames=[6]] A crowded livestock market with people examining cattle is depicted, showing the detailed inspection phase.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict a typical livestock market where cattle are bought, sold, and prepared for transport. The presence of both indoor and outdoor settings suggests a mix of traditional and modern practices in cattle trading.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- Knowledge of Kyrgyzstan's livestock market customs and practices.",
+            "- Familiarity with the types of cattle commonly found in the Karakal region.",
+            "- Understanding of the roles of market participants such as buyers, sellers, and handlers.",
+            "- Awareness of the necessary equipment and tools used in cattle handling.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Correct identification of the Karakal livestock market in Kyrgyzstan.",
+            "- Accurate depiction of the market's bustling environment and activities.",
+            "- Proper representation of cattle handling techniques and market dynamics.",
+            "- Clear understanding of the roles and (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2,3,4,5,6]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2,3,4,5,6]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2,3,4,5,6]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2,3,4,5,6]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2,3,4,5,6]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Explain how farmers hand milk calves in small, traditional farms.",
+          "start": 803.56,
+          "end": 868.56,
+          "segment_ids": [
+            116,
+            118,
+            119,
+            121,
+            122
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub01_f00.jpg",
+              "relative_path": "drEdyqWug6s/task03_sub01_f00.jpg",
+              "caption": "A hand is reaching into a pile of hay.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task03_sub01_f01.jpg",
+              "relative_path": "drEdyqWug6s/task03_sub01_f01.jpg",
+              "caption": "A man is standing in front of a large pile of hay bales.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub01_f02.jpg",
+              "relative_path": "drEdyqWug6s/task03_sub01_f02.jpg",
+              "caption": "A man feeds hay to a group of cows in a barn.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task03_sub01_f03.jpg",
+              "relative_path": "drEdyqWug6s/task03_sub01_f03.jpg",
+              "caption": "A woman is stacking hay on a hillside in a rural setting.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task03_sub01_f04.jpg",
+              "relative_path": "drEdyqWug6s/task03_sub01_f04.jpg",
+              "caption": "Two men are working with hay and a plastic sheet in a yard.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task03_sub01_f05.jpg",
+              "relative_path": "drEdyqWug6s/task03_sub01_f05.jpg",
+              "caption": "A person is feeding a cow with a bowl of food.",
+              "frame_index": 5
+            },
+            {
+              "image_file": "task03_sub01_f06.jpg",
+              "relative_path": "drEdyqWug6s/task03_sub01_f06.jpg",
+              "caption": "A group of cows is standing in a barn.",
+              "frame_index": 6
+            },
+            {
+              "image_file": "task03_sub01_f07.jpg",
+              "relative_path": "drEdyqWug6s/task03_sub01_f07.jpg",
+              "caption": "A man is milking a cow in a barn.",
+              "frame_index": 7
+            },
+            {
+              "image_file": "task03_sub01_f08.jpg",
+              "relative_path": "drEdyqWug6s/task03_sub01_f08.jpg",
+              "caption": "Three cows are peeking over a fence in a barn.",
+              "frame_index": 8
+            },
+            {
+              "image_file": "task03_sub01_f09.jpg",
+              "relative_path": "drEdyqWug6s/task03_sub01_f09.jpg",
+              "caption": "A group of cows is seen in a large, indoor barn.",
+              "frame_index": 9
+            },
+            {
+              "image_file": "task03_sub01_f10.jpg",
+              "relative_path": "drEdyqWug6s/task03_sub01_f10.jpg",
+              "caption": "A man is feeding hay to a cow in a barn.",
+              "frame_index": 10
+            },
+            {
+              "image_file": "task03_sub01_f11.jpg",
+              "relative_path": "drEdyqWug6s/task03_sub01_f11.jpg",
+              "caption": "A man is using a shovel to feed cows in a barn.",
+              "frame_index": 11
+            },
+            {
+              "image_file": "task03_sub01_f12.jpg",
+              "relative_path": "drEdyqWug6s/task03_sub01_f12.jpg",
+              "caption": "A person is mixing ingredients in a large container.",
+              "frame_index": 12
+            },
+            {
+              "image_file": "task03_sub01_f13.jpg",
+              "relative_path": "drEdyqWug6s/task03_sub01_f13.jpg",
+              "caption": "Cows are eating hay in a barn.",
+              "frame_index": 13
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Farmers in small, traditional farms in Central Asia hand milk calves using simple methods involving hay and basic tools.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A hand reaches into a pile of hay, indicating the presence of hay storage or preparation.",
+            "- [frames=[2]] A man is seen feeding hay to a group of cows in a barn, suggesting hay is used for feeding.",
+            "- [frames=[3]] Hay is stacked on a hillside, showing hay storage in a rural setting.",
+            "- [frames=[4]] Two men work with hay and a plastic sheet in a yard, possibly preparing for feeding or milking.",
+            "- [frames=[5]] A person feeds a cow with a bowl of food, indicating additional feeding methods beyond hay.",
+            "- [frames=[6]] A group of cows stands in a barn, likely waiting to be milked.",
+            "- [frames=[7]] A man is milking a cow in a barn, directly showing the milking process.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a traditional farming method where hay is used extensively for feeding both cows and calves. The barns and yards are equipped with hay storage and feeding areas, and the milking process appears to be manual, involving a person using their hands to extract milk from the cow.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- Presence of hay in the barn or yard.",
+            "- Availability of a cow ready for milking.",
+            "- Access to a barn or yard where the milking takes place.",
+            "- Presence of a person who can guide the robot through the process.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully identifies the cow to be milked.",
+            "- The robot correctly locates and uses the hay to prepare the cow for milking.",
+            "- The robot performs the milking action without causing harm to the cow.",
+            "- The robot ensures the collected milk is properly",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2,3,4,5,6,7,8,9,10,11,12,13]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2,3,4,5,6,7,8,9,10,11,12,13]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2,3,4,5,6,7,8,9,10,11,12,13]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2,3,4,5,6,7,8,9,10,11,12,13]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2,3,4,5,6,7,8,9,10,11,12,13]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

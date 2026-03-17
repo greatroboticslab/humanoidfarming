@@ -1,0 +1,210 @@
+{
+  "video_index": "V0RcTomj8Y8",
+  "title": "Fleckbee Cattle Heritage Celebration",
+  "url": "https://www.youtube.com/watch?v=V0RcTomj8Y8",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "The video emphasizes the importance of maintaining a legacy through the ownership and breeding of fleckbee cattle.",
+  "tasks": [
+    {
+      "task": "Emphasize the significance of maintaining heritage in fleckbee cattle ownership.",
+      "start": 0.05,
+      "end": 12.05,
+      "subtasks": [
+        {
+          "text": "Explain that owning fleckbee cattle is more than a business venture.",
+          "start": 0.05,
+          "end": 3.05,
+          "segment_ids": [
+            0
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "V0RcTomj8Y8/task00_sub00_f00.jpg",
+              "caption": "A brown and white cow is walking on a grassy field.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "V0RcTomj8Y8/task00_sub00_f01.jpg",
+              "caption": "A cow is walking in a grassy area with a building in the background.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "V0RcTomj8Y8/task00_sub00_f02.jpg",
+              "caption": "A brown and white cow is standing in a grassy area with a building in the background.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should explain that owning fleckbee cattle involves more than just a business perspective, emphasizing the cultural and historical significance.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A brown and white cow is walking on a grassy field.",
+            "- [frames=[1]] A cow is walking in a grassy area with a building in the background.",
+            "- [frames=[2]] A brown and white cow is standing in a grassy area with a building in the background.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a serene grassy field where a fleckbee cow is moving around, with a building in the background suggesting a farm setting. This environment sets the stage for discussing the cultural and historical importance of fleckbee cattle.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a display screen or a speaker to convey the message effectively.",
+            "- The robot should have knowledge about fleckbee cattle and their heritage.",
+            "- The robot should be able to navigate within the field without disturbing the cow.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should successfully convey the message that owning fleckbee cattle is more than a business venture.",
+            "- The robot should ensure the cow remains calm and undisturbed during the explanation.",
+            "- The robot should provide accurate information about the heritage of fleckbee cattle.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Move to a position near the cow but not too close to avoid startling it.",
+            "2. [type=perception, frames=[0]] Observe the cow's behavior to ensure it is calm and not agitated.",
+            "3. [type=communication, frames=[0]] Address the cow and its owner, if present, in a friendly tone.",
+            "4. [type=communication, frames=[0]] Begin explaining the cultural and historical significance of fleckbee.",
+            "5. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to a position near the cow but not too close to avoid startling it. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Highlight the importance of preserving quality and excellence in the fleckbee cattle tradition.",
+          "start": 3.05,
+          "end": 7.05,
+          "segment_ids": [
+            1
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "V0RcTomj8Y8/task00_sub01_f01.jpg",
+              "caption": "A cow is running in a grassy area with a building in the background.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "V0RcTomj8Y8/task00_sub01_f02.jpg",
+              "caption": "A cow is standing in front of a building with a sign that says \"It's about carrying on a rich heritage of quality and excellence.\"",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should emphasize the importance of preserving quality and excellence in the fleckbee cattle tradition by highlighting the rich heritage carried on through the cattle.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A cow is running in a grassy area with a building in the background.",
+            "- [frames=[2]] A cow is standing in front of a building with a sign that says \"It's about carrying on a rich heritage of quality and excellence.\"",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a cow in a natural setting, likely representing the fleckbee cattle tradition. The presence of a building with a heritage-related sign suggests a location where the tradition is celebrated or preserved.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture images and read signs.",
+            "- It should have a display screen to show relevant information.",
+            "- The robot needs to be within view of the cow and the building.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately convey the message about the importance of preserving quality and excellence.",
+            "- It should correctly identify and read the sign mentioning heritage.",
+            "- The robot should visually highlight the cow to emphasize its role in the tradition.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Capture an image of the cow running in the grassy area.",
+            "2. [type=perception, frames=[2]] Read the sign that says \"It's about carrying on a rich heritage of quality and excellence.\".",
+            "3. [type=manipulation, frames=[2]] Point to the cow and the sign using the robot’s arm.",
+            "4. [type=communication, frames=[2]] Announce, \"This cow represents the rich heritage of fleckbee cattle, emphasizing the importance of preserving quality and excellence.\".",
+            "5. [type=navigation, frames=[2]] Move.",
+            "6. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture an image of the cow running in the grassy area. It then verifies the key detail directly from the frames (Read the sign that says \"It's about carrying on a rich heritage of quality and excellence.\"). After verification, it communicates the result clearly (Announce, \"This cow represents the rich heritage of fleckbee cattle, emphasizing the importance of preserving quality and excellence.\").",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Encourage celebrating the historical significance of these remarkable animals.",
+          "start": 7.05,
+          "end": 12.05,
+          "segment_ids": [
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub02_f01.jpg",
+              "relative_path": "V0RcTomj8Y8/task00_sub02_f01.jpg",
+              "caption": "A brown and white cow is walking in a fenced area.",
+              "frame_index": 1
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should encourage viewers to celebrate the historical significance of fleckbee cattle by highlighting their unique characteristics and importance in heritage.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A brown and white cow is walking in a fenced area.",
+            "- The cow's distinctive coloring and movement are notable.",
+            "- The background shows a typical farm setting with trees and other livestock.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a brown and white cow in a farm setting, emphasizing its unique appearance and place in heritage.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have knowledge about fleckbee cattle heritage.",
+            "- It needs to be able to communicate effectively with the audience.",
+            "- The robot should be equipped with a camera and speech capabilities.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should successfully convey the historical significance of fleckbee cattle.",
+            "- It should engage the viewer’s interest in learning more about these animals.",
+            "- The robot should ensure the message is clear and memorable.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Capture an image of the brown and white cow.",
+            "2. [type=communication, frames=[1]] Announce the unique features of the cow, such as its coloration and heritage.",
+            "3. [type=perception, frames=[1]] Verify the cow's distinctive markings through the captured image.",
+            "4. [type=communication, frames=[1]] Explain the historical significance of fleckbee cattle in agriculture.",
+            "5. [type=communication, frames=[1]] Encourage viewers to learn more about fleckbee cattle heritage.",
+            "6. [type=communication, frames=[1]] Provide a call-to-action, such as visiting a website or attending a local event.",
+            "7. [type=navigation, frames=[1]] Move to a different part of the farm to show other heritage animals.",
+            "8. [type=navigation, frames=[1]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture an image of the brown and white cow. It then verifies the key detail directly from the frames (Verify the cow's distinctive markings through the captured image). After verification, it communicates the result clearly (Announce the unique features of the cow, such as its coloration and heritage).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+VIDEO: jrwqO0px0Uc
+TITLE: Global Argo Supply Chain Journey
+======================================================================
+
+TASK 0: Describe the transportation of pulses from the U.S. to the port in the United States.
+Time Range: 13.8 → 54.9
+----------------------------------------------------------------------
+  SUBTASK 0: Show the peas, lentils, and beans being loaded into rail cars at the Chester Montana facility.
+  Time Range: 13.8 → 21.3
+  Guidance:
+    GLOBAL_SUMMARY:
+    Show the peas, lentils, and beans being loaded into rail cars at the Chester Montana facility.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0]] The video frame shows a distorted and pixelated image of a landscape, likely indicating an initial view before focusing on the facility.
+    - [frames=[1]] A truck is transporting lentils and peas to a facility, suggesting the arrival of the goods.
+    - [frames=[2]] A truck is parked in front of a large silo complex, indicating the loading process is about to begin.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The subtask involves showing the loading of various pulses (peas, lentils, and beans) into rail cars at the Chester Montana facility. This scene transitions from the arrival of the goods via truck to their subsequent loading into rail cars, which will transport them to the port.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The truck carrying the pulses must be present at the facility.
+    - The facility must have rail cars ready for loading.
+    - The robot must be aware of the location of the truck and the rail cars.
+    - The robot must have access to the necessary tools or mechanisms for loading the pulses into the rail cars.
+    
+    SUCCESS_CRITERIA:
+    - The pulses (peas, lentils, and beans) must be fully loaded into the rail cars.
+    - The truck must be empty of the pulses after loading.
+    - The rail cars must be properly secured and ready for transport.
+    - The robot must confirm the completion of the loading process through visual inspection or sensor data.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[1]] Navigate the robot to the area where the truck is parked.
+    2. [type=perception, frames=[1]] Use cameras to identify the type and quantity of pulses in the truck.
+    3. [type=navigation, frames=[
+
+  SUBTASK 1: Highlight the process of trans-loading the pulses into containers and loading them onto steamship lines.
+  Time Range: 49.1 → 54.9
+  Guidance:
+    GLOBAL_SUMMARY:
+    The subtask involves the process of trans-loading pulses into containers and then loading those containers onto a steamship line.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0]] A hand is drawing a line on a whiteboard with a marker, likely indicating the start of the process.
+    - [frames=[1]] Two BNSF train cars are being loaded with containers by two cranes, showing the initial loading phase.
+    - [frames=[2]] A ship is loaded with containers using a crane, demonstrating the final loading stage onto the steamship.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The subtask begins with the trans-loading of pulses into containers on a train, which are then transferred to a ship for transportation across the ocean. This process ensures that the pulses are safely and efficiently moved from inland storage to the port.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The train cars must be filled with containers.
+    - Containers must be available for loading.
+    - A crane must be operational for loading both train cars and the ship.
+    - The ship must be docked and ready for loading.
+    
+    SUCCESS_CRITERIA:
+    - All train car containers are fully loaded.
+    - Containers are securely placed on the ship.
+    - The ship is ready to depart with the newly loaded containers.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0]] Navigate to the area where the train cars are located.
+    2. [type=perception, frames=[1]] Identify the train cars and the cranes used for loading.
+    3. [type=manipulation, frames=[1]] Assist in the loading of containers onto the train cars.
+    4. [type=navigation, frames=[2]] Move to the dock where the ship is located.
+    5. [type=manipulation, frames=[2]] Help load the containers from the train cars onto the ship using the
+
+
+======================================================================
+
+TASK 1: Describe the import clearance and compliance process after the container arrives at the import port.
+Time Range: 74.4 → 89.9
+----------------------------------------------------------------------
+  SUBTASK 0: Observe the product being cleared at the port of import and its custom clearance process.
+  Time Range: 74.4 → 89.9
+  Guidance:
+    GLOBAL_SUMMARY:
+    Observe the product being cleared at the port of import and its custom clearance process.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0]] A world map shows the continents and oceans, indicating the journey of the container.
+    - [frames=[1]] A container is shown with the word "CLEARANCE" on top, highlighting the focus on the clearance process.
+    - [frames=[2]] A warehouse is depicted with a large garage door and a sign reading "warehouse," showing where the next stage of the process occurs.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The subtask involves observing the import clearance process at the port and the subsequent steps in the warehouse. The container, having arrived at the import port, undergoes various checks and procedures before being moved to the warehouse for further processing.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The container has already arrived at the import port.
+    - The robot has navigational capabilities to move between the port and the warehouse.
+    - The robot can recognize and interact with containers and signs.
+    - The robot has access to the necessary tools for inspection and documentation.
+    
+    SUCCESS_CRITERIA:
+    - The container is clearly marked as "CLEARANCE" upon arrival at the port.
+    - The container is observed entering the warehouse.
+    - The robot confirms the completion of the customs clearance process through visual or sensor data.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the import port to observe the container.
+    2. [type=perception, frames=[1]] Identify the container labeled "CLEARANCE" and confirm its presence.
+    3. [type=navigation, frames=[2]] Move to the warehouse to observe the container's entry.
+    4. [type=manipulation, frames=[2]] Use sensors to verify the container's status as it enters the warehouse.
+    5. [type=communication,
+
+
+======================================================================
+
+TASK 2: Explain the distribution and sale of the pulses to consumers.
+Time Range: 89.9 → 96.4
+----------------------------------------------------------------------
+  SUBTASK 0: Note the movement of the pulses from the temperature-controlled warehouse to retail stores.
+  Time Range: 89.9 → 96.4
+  Guidance:
+    GLOBAL_SUMMARY:
+    Note the movement of the pulses from the temperature-controlled warehouse to retail stores during the distribution and sale process.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] A white wall with a pencil graphic on it sets the scene for the explanation.
+    - [frames=[2]] A woman is shopping in a grocery store, and the video shows the products coming from a warehouse to the store.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The video transitions from an abstract background to a practical demonstration of how pulses move from a warehouse to a retail store, illustrating the supply chain journey.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must have prior knowledge about the warehouse and retail store locations.
+    - The robot should be aware of the current state of the supply chain.
+    - The robot needs to understand the concept of temperature-controlled environments.
+    
+    SUCCESS_CRITERIA:
+    - The robot should accurately track the movement of pulses from the warehouse to the retail store.
+    - The robot must correctly identify the warehouse and retail store in the video sequence.
+    - The robot should provide a clear explanation of the movement of pulses during the transition.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the warehouse location based on stored coordinates.
+    2. [type=perception, frames=[2]] Identify the warehouse and the retail store in the video sequence.
+    3. [type=navigation, frames=[2]] Move to the retail store location.
+    4. [type=manipulation, frames=[2]] Highlight the movement of pulses from the warehouse to the retail store.
+    5. [type=communication, frames=[2]] Provide a verbal explanation of the supply chain journey.
+    
+    SUBTASK_STORY:
+    The video begins with a simple background image, setting the stage for the explanation. It then transitions to a real-world scenario where a woman is shopping in a
+
+
+======================================================================
+
+TASK 3: Present the sustainable and environmentally friendly aspects of the pulses.
+Time Range: 137.4 → 144.4
+----------------------------------------------------------------------
+  SUBTASK 0: Mention that the pulses are recyclable and earth-friendly.
+  Time Range: 137.4 → 144.4
+  Guidance:
+    GLOBAL_SUMMARY:
+    Mention that the pulses are recyclable and earth-friendly during the presentation.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0]] The video shows a handshake between two men in front of a government building, indicating a formal setting.
+    - [frames=[2]] Two cartoon characters are celebrating with a trophy and the U.S. flag, suggesting a celebratory moment or achievement.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The subtask involves mentioning the recyclable and earth-friendly nature of pulses. This is likely part of a broader discussion about the sustainability of the supply chain journey, possibly transitioning from a formal meeting to a celebratory moment.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must be aware of the context of the supply chain journey.
+    - The robot should know that pulses are a key component of the journey.
+    - The robot needs to understand the concept of recyclability and environmental friendliness.
+    - The robot must be able to access relevant information about pulses being recyclable and earth-friendly.
+    - The robot should be prepared to make a statement about the sustainability aspects of pulses.
+    
+    SUCCESS_CRITERIA:
+    - The robot mentions that the pulses are recyclable and earth-friendly.
+    - The statement is made within the specified time range of 137.4s–144.4s.
+    - The statement aligns with the overall theme of the video, which is the global Argo supply chain journey.
+    - The robot's speech is clear and audible.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0]] Move to the position where the robot can address the audience.
+    2. [type=communication, frames=[1]] Initiate communication with the audience.
+    3. [type=perception, frames=[2]] Recognize the change in scene to the celebration.
+    4. [type=manipulation, frames=[2]]
+
+
+======================================================================
+

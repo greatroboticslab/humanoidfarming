@@ -1,4 +1,3 @@
-
 # Ignore everything by default
 *
 
@@ -8,6 +7,8 @@
 !documents/
 !docs/
 !reports/
+!integrated-training/
+!integrated-training/**
 
 # Allow README
 !README.md
@@ -15,16 +16,12 @@
 # Allow Python files in root
 !*.py
 
-# Inside scripts/, allow everything
-scripts/*
-
-# Inside results/, include only JSON, HTML, DOCX, JPG, PNG if desired
-results/**/*.json
-results/**/*.html
-results/**/*.docx
-results/**/*.jpg
-results/**/*.jpeg
-results/**/*.png
+# Inside allowed folders, allow everything
+!scripts/**
+!results/**
+!documents/**
+!docs/**
+!reports/**
 
 # Ignore large media and caches
 *.mp4
@@ -42,5 +39,6 @@ __pycache__/
 *.gz
 *.checkpoint
 
+# Allow specific project folder
 !VideoProcessing/
 !VideoProcessing/**

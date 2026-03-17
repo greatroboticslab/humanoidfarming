@@ -1,0 +1,236 @@
+VIDEO: erBn9qrHE9w
+TITLE: Agrarian Family Farming Life 1817
+======================================================================
+
+TASK 0: Describe the daily routine of an agrarian worker.
+Time Range: 9.18 → 215.72
+----------------------------------------------------------------------
+  SUBTASK 0: Wake up at 6 a.m. and begin the day with a cleaning task.
+  Time Range: 9.18 → 19.42
+  Guidance:
+    GLOBAL_SUMMARY:
+    The subtask involves waking up at 6 a.m. and starting the day with a cleaning task, likely preparing for the day's work.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] A person is seen writing on a whiteboard with a marker, possibly setting a schedule or marking tasks.
+    - [frames=[2]] A hand is drawing stick figures with names on them, indicating the start of a routine or task list.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene depicts the early morning preparation for the day ahead, where a person is setting up their tasks for the day, likely including a cleaning task. The use of stick figures suggests a simple, straightforward approach to planning the day’s activities.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The current time should be 6 a.m.
+    - The environment should include a whiteboard and markers.
+    - There should be a need for a cleaning task to be performed.
+    
+    SUCCESS_CRITERIA:
+    - The whiteboard should show a task list with a cleaning task marked.
+    - Stick figures with names should indicate the start of the day’s routine.
+    - The robot should initiate the cleaning task.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the whiteboard area.
+    2. [type=perception, frames=[0,1]] Observe the whiteboard for any task lists or schedules.
+    3. [type=manipulation, frames=[2]] Pick up a marker and draw stick figures with names on the board.
+    4. [type=navigation, frames=[2]] Move to the cleaning area.
+    5. [type=manipulation, frames=[2]] Start the cleaning task as indicated by the stick figures.
+    
+    SUBTASK_STORY:
+    At 6 a.m., the agrarian worker wakes up and begins the day by writing
+
+  SUBTASK 1: Dress for the day using sustainable products from the cotton gin.
+  Time Range: 51.41 → 57.41
+  Guidance:
+    GLOBAL_SUMMARY:
+    The robot needs to understand how an agrarian worker dresses for the day using sustainable products from the cotton gin.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] A person is drawing stick figures on a whiteboard, indicating preparation for the task.
+    - [frames=[2]] A person is drawing a picture of a person wearing a shirt and pants made from cotton, showing the final attire.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene depicts the process of preparing and understanding the attire for an agrarian worker, focusing on clothing made from sustainable cotton products sourced from the cotton gin.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot should recognize the context of agrarian life in 1817.
+    - The robot must know about sustainable farming practices and the cotton gin.
+    - The robot should be familiar with the types of clothing worn by agrarian workers.
+    - The robot needs to understand the concept of sustainability in historical contexts.
+    
+    SUCCESS_CRITERIA:
+    - The robot correctly identifies the type of clothing used by agrarian workers.
+    - The robot understands the source of the clothing (cotton from the gin).
+    - The robot can explain the significance of using sustainable products in the context of agrarian life.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the area where the drawings are being made.
+    2. [type=perception, frames=[0,1]] Analyze the drawings on the whiteboard to identify the stick figures.
+    3. [type=perception, frames=[2]] Recognize the drawing of a person wearing clothes made from cotton.
+    4. [type=manipulation, frames=[2]] Retrieve information about the cotton gin and sustainable farming practices.
+    5. [type=communication, frames=[2]] Explain the significance of using sustainable cotton products for agrarian workers.
+
+  SUBTASK 2: Prepare and eat breakfast with products grown on the farm.
+  Time Range: 71.41 → 79.41
+  Guidance:
+    GLOBAL_SUMMARY:
+    The subtask involves preparing and eating breakfast using farm-grown products, which is part of the daily routine of an agrarian worker.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] The initial frames show a child drawing on a whiteboard, indicating preparation for a meal.
+    - [frames=[2]] The final frame depicts a drawing of a person climbing stairs with the text "time to eat!", suggesting it's time for breakfast.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene transitions from a preparatory activity involving a child drawing on a whiteboard to a symbolic representation of the transition to mealtime. This indicates that the subtask involves moving from preparation to consumption of breakfast made from farm-grown products.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The kitchen area should be set up with necessary utensils and ingredients.
+    - The robot should know the location of the farm-grown products.
+    - The robot should be aware of the routine of the agrarian worker.
+    - The robot should have access to the whiteboard and markers.
+    
+    SUCCESS_CRITERIA:
+    - The robot should correctly identify and prepare breakfast items from the farm.
+    - The robot should present the prepared breakfast to the agrarian worker.
+    - The robot should ensure the whiteboard is updated with the correct time for the next activity.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the kitchen where the whiteboard is located.
+    2. [type=perception, frames=[0,1]] Observe the whiteboard to confirm the current activity is preparation for breakfast.
+    3. [type=manipulation, frames=[2]] Retrieve the necessary utensils and ingredients for breakfast from the kitchen.
+    4. [type=navigation, frames=[2]] Move to the dining area to prepare the breakfast.
+    5. [type=manipulation
+
+  SUBTASK 3: Work on the farm using plows, threshing machines, and seed drills.
+  Time Range: 199.72 → 215.72
+  Guidance:
+    GLOBAL_SUMMARY:
+    The subtask involves demonstrating the use of agricultural tools such as plows, seed drills, and threshing machines in a tutorial setting.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] A child is drawing a picture of a character on a whiteboard using a marker, illustrating the process of breaking down soil using a plough.
+    - [frames=[2]] A whiteboard with green and black lines and dots is visible, suggesting a detailed explanation or diagram related to farming techniques.
+    - [frames=[3]] A child's drawing of a seed drill is displayed on the whiteboard, indicating the next tool in the demonstration sequence.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene depicts a tutorial where a child is explaining the use of various agricultural tools through drawings on a whiteboard. The drawings cover the process of preparing the soil with a plough and planting seeds with a seed drill, providing a visual guide for understanding the farm work.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The whiteboard must be visible and accessible to the robot.
+    - The robot should have the ability to recognize and interpret drawings on the whiteboard.
+    - The robot needs to understand the context of agrarian farming practices.
+    - The robot must be capable of navigating to the whiteboard area.
+    
+    SUCCESS_CRITERIA:
+    - The robot should correctly identify and describe the use of a plow and a seed drill based on the drawings.
+    - The robot should accurately explain the process of breaking down soil and planting seeds.
+    - The robot should provide a coherent narrative that connects the drawings to the actual farm tasks.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the area where the whiteboard is located.
+    2. [type=perception, frames=[0,1]] Use visual recognition to identify the drawings of the plough and the character
+
+
+======================================================================
+
+TASK 1: Explain the benefits of an agrarian lifestyle.
+Time Range: 71.41 → 247.42
+----------------------------------------------------------------------
+  SUBTASK 0: Work with less labor and more time on activities with family.
+  Time Range: 71.41 → 104.72
+  Guidance:
+    GLOBAL_SUMMARY:
+    The subtask focuses on illustrating how an agrarian lifestyle allows for reduced labor and more family time through drawings on a whiteboard.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[1]] A child is engaged in drawing a colorful picture on a whiteboard.
+    - [frames=[2]] A person is drawing various vegetables and a stick figure on the whiteboard.
+    - [frames=[3]] A person continues to draw a stick figure on the whiteboard.
+    - [frames=[4]] A child is drawing a person with a green marker.
+    - [frames=[5]] A person completes a drawing of a stick figure with a green plant and wavy lines.
+    - [frames=[6]] A person writes on the whiteboard using a black marker.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene depicts a person and a child collaboratively drawing on a whiteboard to illustrate the benefits of an agrarian lifestyle. The drawings include various vegetables, a stick figure, and a person, suggesting themes of farming and family activities.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The whiteboard is visible and accessible.
+    - There are markers of different colors available.
+    - The robot understands the concept of an agrarian lifestyle and its benefits.
+    - The robot can recognize and differentiate between different types of drawings.
+    
+    SUCCESS_CRITERIA:
+    - The whiteboard contains a series of drawings depicting vegetables, a stick figure, and a person.
+    - The drawings are complete and legible.
+    - The robot has accurately captured the essence of the agrarian lifestyle and its benefits through the drawings.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the whiteboard area.
+    2. [type=manipulation, frames=[1]] Pick up a green marker and hand it to the child.
+    3. [type=manipulation, frames=[2]]
+
+  SUBTASK 1: Enjoy fresh air, reduced risk of disease, and safe living conditions.
+  Time Range: 165.72 → 171.72
+  Guidance:
+    GLOBAL_SUMMARY:
+    Explain the benefits of an agrarian lifestyle, specifically focusing on enjoying fresh air, reduced risk of disease, and safe living conditions.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] A person is drawing a face on a whiteboard using a green marker, then a hand writes "Fresh" on the whiteboard with a marker.
+    - [frames=[2]] A person is drawing a comparison between fresh air and pollution on the whiteboard.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene shows a person explaining the benefits of an agrarian lifestyle by highlighting the enjoyment of fresh air. This is demonstrated through a visual comparison of fresh air versus pollution on a whiteboard.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot should be able to navigate to the whiteboard area.
+    - The whiteboard should be visible and accessible.
+    - The robot should have markers and drawing tools available.
+    - The robot should understand the concept of fresh air and pollution.
+    
+    SUCCESS_CRITERIA:
+    - The whiteboard should display a face and the word "Fresh."
+    - A comparison between fresh air and pollution should be clearly drawn on the whiteboard.
+    - The explanation should convey the benefits of fresh air, reduced risk of disease, and safe living conditions.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the whiteboard area.
+    2. [type=manipulation, frames=[0,1]] Pick up a green marker and draw a face on the whiteboard.
+    3. [type=manipulation, frames=[1]] Write the word "Fresh" on the whiteboard.
+    4. [type=manipulation, frames=[2]] Pick up another marker and draw a comparison between fresh air and pollution on the whiteboard.
+    5. [type=communication, frames=[0-2]] Verbally explain
+
+  SUBTASK 2: Grow food using crop rotation and benefit from technological advancements.
+  Time Range: 215.72 → 247.42
+  Guidance:
+    GLOBAL_SUMMARY:
+    Explain the benefits of growing food using crop rotation and benefiting from technological advancements in an agrarian lifestyle.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[1]] A person is drawing a diagram on a whiteboard with the words "seed drill" and "technological advancements" written on it.
+    - [frames=[2]] The person uses a paper clip to hold a piece of paper on the whiteboard with a colorful drawing and text.
+    - [frames=[3]] The person writes on the whiteboard with a marker.
+    - [frames=[4]] The person continues drawing a diagram on the whiteboard with a marker.
+    - [frames=[5]] The person writes on the whiteboard with a marker, showing a diagram of crops and the phrase "On the Same Amor."
+    - [frames=[6]] The person writes on the whiteboard with a marker.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene depicts a person explaining the benefits of crop rotation and technological advancements in agriculture. They start by drawing a diagram on the whiteboard, which includes terms like "seed drill" and "technological advancements." The person then adds more details, such as a diagram of crops and the phrase "On the Same Amor," to illustrate the concept of crop rotation.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The whiteboard is visible and accessible.
+    - The robot has markers and a paper clip available.
+    - The robot understands the concepts of crop rotation and technological advancements.
+    - The robot can navigate to the whiteboard area.
+    
+    SUCCESS_CRITERIA:
+    - The robot successfully draws a diagram on the whiteboard.
+    - The robot correctly labels the diagram with relevant terms such as "seed drill" and "technological advancements."
+    - The robot accurately illustrates the concept of crop rotation.
+    - The robot explains the benefits of crop rotation and technological advancements.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1
+
+
+======================================================================
+

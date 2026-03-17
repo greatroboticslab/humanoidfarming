@@ -1,0 +1,634 @@
+{
+  "video_index": "C8MQn6FqJlY",
+  "title": "Village Elders Discuss Agricultural Challenges and Solutions",
+  "url": "https://www.youtube.com/watch?v=C8MQn6FqJlY",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "The transcript discusses the challenges faced by Afghan farmers and their awareness of the need for agricultural change.",
+  "tasks": [
+    {
+      "task": "Describe the awareness and challenges faced by Afghan farmers.",
+      "start": 3.31,
+      "end": 48.03,
+      "subtasks": [
+        {
+          "text": "Observe the village of Sardar in the province of Kandahar, Afghanistan.",
+          "start": 3.31,
+          "end": 7.75,
+          "segment_ids": [
+            0
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "C8MQn6FqJlY/task00_sub00_f00.jpg",
+              "caption": "A man in a vest stands in a desert-like area in Afghanistan.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "C8MQn6FqJlY/task00_sub00_f01.jpg",
+              "caption": "Alexander Jones, the Director of Resource Mobilization (PSR), is in the village of Sardar in Kandahar, Afghanistan.",
+              "frame_index": 1
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene introduces the setting of the village of Sardar in Kandahar, Afghanistan, where the Director of Resource Mobilization (PSR) is present.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A man in a vest is standing in a desert-like area in Afghanistan.",
+            "- [frames=[1]] Alexander Jones, the Director of Resource Mobilization (PSR), is in the village of Sardar in Kandahar, Afghanistan.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The village appears to be in a desert-like environment, suggesting harsh agricultural conditions. The presence of the PSR indicates an ongoing effort to address local challenges.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- Knowledge of the location of Sardar village in Kandahar, Afghanistan.",
+            "- Familiarity with the appearance and attire of the PSR.",
+            "- Understanding of the typical landscape features of desert areas.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Correct identification of the man in the vest as a villager.",
+            "- Accurate recognition of Alexander Jones as the PSR.",
+            "- Confirmation of the village being in a desert-like environment.",
+            "- Verification of the village name and location.",
+            "- Identification of the PSR's role in resource mobilization.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the man in the vest.",
+            "2. [type=perception, frames=[0]] Verify the man’s attire matches the description of a villager.",
+            "3. [type=navigation, frames=[1]] Move towards Alexander Jones, the PSR.",
+            "4. [type=perception, frames=[1]] Confirm the identity of Alexander Jones based on his attire and role.",
+            "5. [type=navigation, frames=[0,1]] Proceed to the village of Sardar.",
+            "6. [type=navigation, frames=[0,1]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the man in the vest. It then verifies the key detail directly from the frames (Verify the man’s attire matches the description of a villager).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the man in the vest; Move towards Alexander Jones, the PSR; Proceed to the village of Sardar; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 4.4399999999999995,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/C8MQn6FqJlY/task00/sub00/motion.bvh",
+            "params_path": "results/momask/C8MQn6FqJlY/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Note the meeting with village elders, farmers, and a farmers association to discuss challenges.",
+          "start": 7.75,
+          "end": 13.55,
+          "segment_ids": [
+            1
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "C8MQn6FqJlY/task00_sub01_f01.jpg",
+              "caption": "A group of men are sitting on a couch in a meeting.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "C8MQn6FqJlY/task00_sub01_f02.jpg",
+              "caption": "Three men are sitting on a couch, discussing challenges with a farmers association.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene depicts a meeting where village elders, farmers, and a farmers association discuss agricultural challenges.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A group of men are sitting on a couch in a meeting.",
+            "- [frames=[2]] Three men are sitting on a couch, discussing challenges with a farmers association.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The setting is a cozy room with a couch where multiple individuals are gathered to discuss agricultural issues. The presence of village elders, farmers, and a farmers association indicates a formal discussion about the challenges faced in agriculture.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the meeting location.",
+            "- The robot should have knowledge of the participants involved.",
+            "- The robot should be able to recognize the context of the discussion.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the participants in the meeting.",
+            "- The robot should capture the main points of the discussion regarding agricultural challenges.",
+            "- The robot should document the meeting details effectively.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Identify the participants in the meeting.",
+            "2. [type=perception, frames=[2]] Recognize the discussion topic related to agricultural challenges.",
+            "3. [type=perception, frames=[2]] Confirm the presence of village elders, farmers, and a farmers association.",
+            "4. [type=communication, frames=[2]] Record audio and video of the meeting for documentation.",
+            "5. [type=perception, frames=[2]] Cross-check the identified participants with known information.",
+            "6. [type=manipulation, frames=[2]] Take notes on the discussed agricultural challenges.",
+            "7. [type=perception, frames=[2]] Verify the accuracy of the recorded information with the participants.",
+            "8. [type=manipulation, frames=[2]] Store the recorded data securely.",
+            "9. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the participants in the meeting. It then verifies the key detail directly from the frames (Confirm the presence of village elders, farmers, and a farmers association).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Take notes on the discussed agricultural challenges; Store the recorded data securely; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 5.800000000000001,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/C8MQn6FqJlY/task00/sub01/motion.bvh",
+            "params_path": "results/momask/C8MQn6FqJlY/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Highlight the challenges of water scarcity, crops, soil problems, and markets.",
+          "start": 13.55,
+          "end": 20.27,
+          "segment_ids": [
+            2,
+            3
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub02_f01.jpg",
+              "relative_path": "C8MQn6FqJlY/task00_sub02_f01.jpg",
+              "caption": "A man in a vest stands in a desert-like environment, with text overlay indicating a discussion about a country facing war.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub02_f02.jpg",
+              "relative_path": "C8MQn6FqJlY/task00_sub02_f02.jpg",
+              "caption": "A man in a vest stands in a barren landscape, with text overlay indicating a discussion about a country facing war.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene depicts a discussion about agricultural challenges faced by Afghan farmers, focusing on issues such as water scarcity, crop difficulties, soil problems, and market access.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A man in a vest is standing in a desert-like environment, indicating a harsh and arid landscape.",
+            "- [frames=[1]] The background shows a barren landscape, emphasizing the lack of vegetation and resources.",
+            "- [frames=[1]] Text overlay indicates a discussion about a country facing war, setting the context for the challenges.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene portrays a village elder discussing the agricultural challenges in a war-torn region, specifically highlighting the difficulties related to water availability, crop cultivation, soil health, and market access. The barren landscape and the presence of a man in a vest suggest a rural setting where the farmer is explaining his struggles.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture the scene.",
+            "- The robot needs to have knowledge about Afghan agriculture and the current socio-economic conditions.",
+            "- The robot must be able to communicate effectively with the participants in the discussion.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify and describe the main challenges mentioned during the discussion.",
+            "- It should provide relevant information about potential solutions or support mechanisms.",
+            "- The robot should ensure that the discussion flows smoothly without interruptions.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Capture the scene using the camera to understand the environment and the participants.",
+            "2. [type=perception, frames=[1]] Listen to the discussion and identify key points about water scarcity, crops, soil problems, and markets.",
+            "3. [type=perception, frames=[1]] Verify the identified challenges by cross-checking with known data about.",
+            "4. [type=perception, frames=[1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture the scene using the camera to understand the environment and the participants. It then verifies the key detail directly from the frames (Verify the identified challenges by cross-checking with known data about).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 6.719999999999999,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/C8MQn6FqJlY/task00/sub02/motion.bvh",
+            "params_path": "results/momask/C8MQn6FqJlY/task00/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Notice the farmers' awareness of the need to adapt agricultural systems due to climate change.",
+          "start": 20.27,
+          "end": 25.55,
+          "segment_ids": [
+            4
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub03_f01.jpg",
+              "relative_path": "C8MQn6FqJlY/task00_sub03_f01.jpg",
+              "caption": "The video shows a group of men sitting in a cave-like room, discussing something.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub03_f02.jpg",
+              "relative_path": "C8MQn6FqJlY/task00_sub03_f02.jpg",
+              "caption": "A group of men are sitting in a cave-like setting, discussing challenges.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene depicts village elders discussing the challenges faced by Afghan farmers, specifically focusing on their awareness of adapting agricultural systems due to climate change.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A group of men are seated in a cave-like room, engaged in a discussion.",
+            "- [frames=[2]] The same group of men continue their discussion, emphasizing the challenges they face.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene captures a group of village elders in a cave-like setting, where they are actively discussing the challenges Afghan farmers are facing, particularly the need to adapt their agricultural practices in response to climate change.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be positioned outside the cave to observe the scene.",
+            "- The robot needs to have audio capabilities to listen to the conversation.",
+            "- The robot should have visual recognition to identify the participants and their expressions.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the key points discussed about climate change and agricultural adaptation.",
+            "- The robot should confirm the presence of multiple participants in the discussion.",
+            "- The robot should measure the duration of the discussion to ensure it covers the necessary timeframe.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Move to a position outside the cave to observe the scene.",
+            "2. [type=perception, frames=[1]] Use visual recognition to identify the participants and their expressions.",
+            "3. [type=perception, frames=[2]] Listen to the conversation to understand the context and key points.",
+            "4. [type=manipulation, frames=[2]] Adjust the camera angle to capture the entire group of men.",
+            "5. [type=communication, frames=[2]] Record the conversation for further analysis.",
+            "6. [type=perception, frames=[2]] Verify the presence of multiple participants in the discussion.",
+            "7. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to a position outside the cave to observe the scene. It then verifies the key detail directly from the frames (Verify the presence of multiple participants in the discussion).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Adjust the camera angle to capture the entire group of men; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 5.280000000000001,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/C8MQn6FqJlY/task00/sub03/motion.bvh",
+            "params_path": "results/momask/C8MQn6FqJlY/task00/sub03/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Observe the check dam being discussed, which will help prevent erosion and recharge groundwater.",
+          "start": 42.59,
+          "end": 48.03,
+          "segment_ids": [
+            9
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub04_f00.jpg",
+              "relative_path": "C8MQn6FqJlY/task00_sub04_f00.jpg",
+              "caption": "A man in a field is talking to a group of people.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub04_f01.jpg",
+              "relative_path": "C8MQn6FqJlY/task00_sub04_f01.jpg",
+              "caption": "A man in a vest stands in a desert-like environment, speaking into a microphone.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub04_f02.jpg",
+              "relative_path": "C8MQn6FqJlY/task00_sub04_f02.jpg",
+              "caption": "The video shows a construction site in a desert with a stone wall and a path leading to a water source.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene focuses on a discussion about a check dam, an important agricultural structure designed to prevent soil erosion and recharge groundwater, as observed by the village elders.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A man in a field is talking to a group of people, likely explaining the importance of the check dam.",
+            "- [frames=[1]] A man in a vest stands in a desert-like environment, speaking into a microphone, reinforcing the discussion.",
+            "- [frames=[2]] The video shows a construction site in a desert with a stone wall and a path leading to a water source, indicating the location and purpose of the check dam.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a rural setting where villagers are discussing the implementation of a check dam. This structure is crucial for managing water resources and preventing soil erosion, which are significant challenges faced by Afghan farmers.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the ongoing discussion about the check dam.",
+            "- The robot needs to recognize the key elements of the scene, such as the construction site and the stone wall.",
+            "- The robot must understand the context of the agricultural challenges and solutions being discussed.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the check dam and its components.",
+            "- It should confirm the presence of the stone wall and the path leading to the water source.",
+            "- The robot should verify that the discussion aligns with the practical application of the check dam.",
+            "- It should ensure that the information provided by the village elders is consistent with the physical structure seen in the scene.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Listen to the conversation and identify the key points about the check dam.",
+            "2. [type=perception, frames=[2]] Analyze the construction site to locate the stone wall and the.",
+            "3. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Listen to the conversation and identify the key points about the check dam. It then verifies the key detail directly from the frames (Listen to the conversation and identify the key points about the check dam).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 5.439999999999998,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/C8MQn6FqJlY/task00/sub04/motion.bvh",
+            "params_path": "results/momask/C8MQn6FqJlY/task00/sub04/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Describe the agricultural projects and support provided by FAO.",
+      "start": 56.75,
+      "end": 75.79,
+      "subtasks": [
+        {
+          "text": "Note the ongoing project of 7,000 check dams funded by the World Bank and implemented through FAO.",
+          "start": 56.75,
+          "end": 60.27,
+          "segment_ids": [
+            12
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "C8MQn6FqJlY/task01_sub00_f02.jpg",
+              "caption": "Two men are sitting in a cave-like room, with one of them holding a book.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should observe the discussion about an ongoing FAO project involving 7,000 check dams funded by the World Bank.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[2]] Two men are seated in a cave-like room, with one man holding a book.",
+            "- The scene suggests a formal discussion setting.",
+            "- The book held by one man might contain details about the project.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a conversation between two individuals in a cave-like setting, likely discussing agricultural projects. One person is reading from a book, which could provide information relevant to the ongoing FAO project.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot needs to be within earshot of the conversation.",
+            "- It should have access to a camera to capture the scene.",
+            "- The robot should be able to identify the two men and their positions.",
+            "- The robot must recognize the book as a potential source of information.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately note the mention of the 7,000 check dams project.",
+            "- It should confirm the funding source as the World Bank.",
+            "- The robot should verify the implementation agency as FAO.",
+            "- The robot should record the duration of the discussion accurately.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[2]] Listen to the conversation to identify key phrases related to the project.",
+            "2. [type=perception, frames=[2]] Observe the book being held by one of the men to determine if it contains relevant information.",
+            "3. [type=navigation, frames=[2]] Move closer to the men to ensure clear audio and visual capture.",
+            "4. [type=manipulation, frames=[2]] Request permission to briefly examine the book if necessary.",
+            "5. [type=perception, frames=[2]] Confirm the mention of 7,0.",
+            "6. [type=navigation, frames=[2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Listen to the conversation to identify key phrases related to the project. It then verifies the key detail directly from the frames (Confirm the mention of 7,0).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move closer to the men to ensure clear audio and visual capture; Request permission to briefly examine the book if necessary; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.520000000000003,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/C8MQn6FqJlY/task01/sub00/motion.bvh",
+            "params_path": "results/momask/C8MQn6FqJlY/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Highlight the farmers' desire to move into horticultural crops to adapt their farming systems.",
+          "start": 60.27,
+          "end": 66.11,
+          "segment_ids": [
+            13
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "C8MQn6FqJlY/task01_sub01_f01.jpg",
+              "caption": "A group of men are sitting in a cave-like room, with one man holding a notebook.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "C8MQn6FqJlY/task01_sub01_f02.jpg",
+              "caption": "Three men are conversing in a rural setting with camels and traditional architecture.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene depicts village elders discussing the shift towards horticultural crops among farmers, indicating an adaptation strategy to address agricultural challenges.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A group of men are seated in a cave-like room, with one man holding a notebook, suggesting documentation or discussion.",
+            "- [frames=[2]] Three men are conversing in a rural setting, surrounded by camels and traditional architecture, indicating a rural context.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The elders are likely discussing agricultural strategies in a traditional setting, possibly within a community meeting or a communal space. The presence of camels and traditional architecture supports the rural and cultural context of the discussion.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the rural setting and the presence of multiple individuals.",
+            "- The robot needs to recognize the importance of the conversation regarding agricultural shifts.",
+            "- The robot should be able to navigate through the cave-like room and the outdoor area.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately capture the essence of the discussion about moving into horticultural crops.",
+            "- It should verify the key points mentioned by the elders.",
+            "- The robot should ensure that the conversation is recorded or noted down properly.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Move to the cave-like room where the elders are seated.",
+            "2. [type=perception, frames=[1]] Observe the group and identify the elder holding the notebook.",
+            "3. [type=navigation, frames=[2]] Navigate to the outdoor area where the elders are conversing.",
+            "4. [type=navigation, frames=[2]] Position itself near the elders to record the conversation.",
+            "5. [type=communication, frames=[2]] Start recording the conversation to capture the discussion about horticultural crops.",
+            "6. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "7. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to the cave-like room where the elders are seated. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move to the cave-like room where the elders are seated; Navigate to the outdoor area where the elders are conversing; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 5.839999999999996,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/C8MQn6FqJlY/task01/sub01/motion.bvh",
+            "params_path": "results/momask/C8MQn6FqJlY/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Observe FAO's support and the open door for assistance the farmers are showing.",
+          "start": 71.47,
+          "end": 75.79,
+          "segment_ids": [
+            15
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub02_f00.jpg",
+              "relative_path": "C8MQn6FqJlY/task01_sub02_f00.jpg",
+              "caption": "A man in a vest stands in a desert-like environment, with text overlaid on the image.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub02_f01.jpg",
+              "relative_path": "C8MQn6FqJlY/task01_sub02_f01.jpg",
+              "caption": "A man in a vest stands in a desert-like environment, with text overlaid on the image.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub02_f02.jpg",
+              "relative_path": "C8MQn6FqJlY/task01_sub02_f02.jpg",
+              "caption": "A man in a vest stands in a desert-like environment, speaking into a microphone.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene shows a man in a vest standing in a desert-like environment, likely representing a farmer or community member discussing agricultural challenges and solutions with an FAO representative.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] The man in a vest is standing in a desert-like environment, with text overlaid on the image.",
+            "- [frames=[0,1]] He appears to be facing the camera, possibly indicating his willingness to speak.",
+            "- [frames=[2]] The man in a vest is now speaking into a microphone, suggesting he is providing information or feedback.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The man in a vest is positioned in a desert-like setting, which could symbolize a challenging agricultural environment. His interaction with the FAO representative indicates the organization’s support and the open door for assistance shown by the farmers.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the video context and the current subtask.",
+            "- The robot should have access to the video frames and the ability to analyze them.",
+            "- The robot should be able to identify the man in the vest and the microphone.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the man in the vest as a key figure in the discussion.",
+            "- The robot should recognize the presence of the microphone and the man speaking into it.",
+            "- The robot should verify that the man is indeed providing information about FAO’s support and the farmers’ needs.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Identify the man in the vest and confirm his position in the desert-like environment.",
+            "2. [type=perception, frames=[2]] Verify that the man is speaking into a microphone.",
+            "3. [type=communication, frames=[2]] Listen to the man’s speech and extract relevant information about FAO’s support and the.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the man in the vest and confirm his position in the desert-like environment. It then verifies the key detail directly from the frames (Identify the man in the vest and confirm his position in the desert-like environment).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 4.320000000000007,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/C8MQn6FqJlY/task01/sub02/motion.bvh",
+            "params_path": "results/momask/C8MQn6FqJlY/task01/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

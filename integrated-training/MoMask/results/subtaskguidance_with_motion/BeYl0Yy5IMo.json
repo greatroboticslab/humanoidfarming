@@ -1,0 +1,675 @@
+{
+  "video_index": "BeYl0Yy5IMo",
+  "title": "Irrigation Methods and Water Efficiency Improvements",
+  "url": "https://www.youtube.com/watch?v=BeYl0Yy5IMo",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Discusses various methods and approaches to increase water use efficiency in irrigation.",
+  "tasks": [
+    {
+      "task": "Explain the need for reducing water losses in irrigation.",
+      "start": 66.01,
+      "end": 93.01,
+      "subtasks": [
+        {
+          "text": "Highlight the fact that almost 50% of abstracted water for irrigation is wasted from evaporation, leakage, or spillage.",
+          "start": 66.01,
+          "end": 79.01,
+          "segment_ids": [
+            7
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "BeYl0Yy5IMo/task00_sub00_f00.jpg",
+              "caption": "The video frame shows a series of cartoonish icons representing different concepts, including a light bulb, an umbrella, a pipe, and a coin.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "BeYl0Yy5IMo/task00_sub00_f01.jpg",
+              "caption": "A cartoon scene with a watering can, a light bulb, and a pipe.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "BeYl0Yy5IMo/task00_sub00_f02.jpg",
+              "caption": "The video frame shows a bucket with a hose, a cloud with rain, a pipe with water, and a light bulb.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Almost half of the water used for irrigation is lost due to inefficiencies such as evaporation, leakage, and spillage. This subtask aims to highlight the significant issue of water waste in irrigation methods.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The video frame shows a series of cartoonish icons including a light bulb, an umbrella, a pipe, and a coin.",
+            "- [frames=[1]] A cartoon scene with a watering can, a light bulb, and a pipe is visible.",
+            "- [frames=[2]] The video frame depicts a bucket with a hose, a cloud with rain, a pipe with water, and a light bulb.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes in the video emphasize the importance of efficient irrigation by showing various elements like a watering can, pipes, and a light bulb. These symbols suggest that the video will discuss the need for better water management practices in agriculture.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture the video frames.",
+            "- The robot needs to have access to a display screen to show the video.",
+            "- The robot should be able to communicate with the user via audio or text.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Verify that the video accurately represents the statistics about water loss in irrigation.",
+            "- Check that the robot can navigate through the video frames effectively.",
+            "- Confirm that the robot can manipulate the video playback to highlight key points.",
+            "- Measure the duration of the highlighted section to ensure it aligns with the given time range.",
+            "- Cross-check the displayed information with the provided metadata.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Navigate to the first frame where the icons are shown.",
+            "2. [type=perception, frames=[0]] Read the icons to understand the context.",
+            "3. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the first frame where the icons are shown. It then verifies the key detail directly from the frames (Read the icons to understand the context).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the first frame where the icons are shown; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 13.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/BeYl0Yy5IMo/task00/sub00/motion.bvh",
+            "params_path": "results/momask/BeYl0Yy5IMo/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Mention that night irrigation can be an example of a managerial response to avoid evaporation.",
+          "start": 89.01,
+          "end": 93.01,
+          "segment_ids": [
+            9
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f00.jpg",
+              "relative_path": "BeYl0Yy5IMo/task00_sub01_f00.jpg",
+              "caption": "A cartoon character with a light bulb on their head is watering plants in a garden.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "BeYl0Yy5IMo/task00_sub01_f01.jpg",
+              "caption": "A cartoon scene with a person holding a light bulb, stars, a crescent moon, and a watering can, surrounded by plants.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "BeYl0Yy5IMo/task00_sub01_f02.jpg",
+              "caption": "A cartoon scene with a person holding a light bulb, stars, a crescent moon, and a beekeeper with a watering can.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will explain how night irrigation can reduce water losses due to evaporation, using a series of cartoon scenes to illustrate the concept.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A cartoon character with a light bulb on their head is watering plants in a garden.",
+            "- [frames=[1]] A cartoon scene with a person holding a light bulb, stars, a crescent moon, and a watering can, surrounded by plants.",
+            "- [frames=[2]] A cartoon scene with a person holding a light bulb, stars, a crescent moon, and a beekeeper with a watering can.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "In these scenes, the robot observes a person using a watering can under the night sky, symbolizing the concept of night irrigation. The presence of stars and a crescent moon indicates nighttime conditions, which are crucial for understanding the context of reduced evaporation.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the concept of irrigation methods and water efficiency.",
+            "- The robot should have access to the tutorial video and its frames.",
+            "- The robot should be able to navigate through the video frames accurately.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the scenes related to night irrigation.",
+            "- The robot should provide a clear explanation of how night irrigation reduces water losses due to evaporation.",
+            "- The robot should ensure the explanation aligns with the visual cues provided in the frames.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Navigate to the first frame where a character is watering plants.",
+            "2. [type=perception, frames=[0]] Verify the presence of a character with a light bulb and plants being watered.",
+            "3. [type=navigation, frames=[1]] Move to the second frame showing a person with a light bulb, stars, a crescent moon, and.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the first frame where a character is watering plants. It then verifies the key detail directly from the frames (Verify the presence of a character with a light bulb and plants being watered).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the first frame where a character is watering plants; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 4.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/BeYl0Yy5IMo/task00/sub01/motion.bvh",
+            "params_path": "results/momask/BeYl0Yy5IMo/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Describe the need to improve irrigation systems and techniques.",
+      "start": 97.01,
+      "end": 127.01,
+      "subtasks": [
+        {
+          "text": "Mention that the commonly used irrigation methods today are surface irrigation like flood irrigation, sprinkler irrigation, drip irrigation, and subsurface irrigation.",
+          "start": 97.01,
+          "end": 109.01,
+          "segment_ids": [
+            11
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "BeYl0Yy5IMo/task01_sub00_f00.jpg",
+              "caption": "A cartoon figure is holding a wrench and a light bulb, suggesting an idea or solution.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "BeYl0Yy5IMo/task01_sub00_f01.jpg",
+              "caption": "The video frame shows a colorful illustration of a mountainous landscape with a sun and a light bulb.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "BeYl0Yy5IMo/task01_sub00_f02.jpg",
+              "caption": "A cartoon illustration shows a fence with green plants on top.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment introduces the various common irrigation methods currently in use, setting the stage for discussing the need to improve water efficiency in agriculture.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A cartoon figure holds a wrench and a light bulb, symbolizing the idea of innovation and improvement.",
+            "- [frames=[0,1]] A colorful illustration of a mountainous landscape with a sun and a light bulb emphasizes the environmental context and the concept of efficiency.",
+            "- [frames=[2]] A cartoon illustration of a fence with green plants suggests the practical application of irrigation methods.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene visually conveys the importance of irrigation methods in agricultural settings, highlighting both the current practices and the potential for improvement. The use of a light bulb and a wrench symbolizes the need for innovative solutions to enhance water efficiency.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a database of common irrigation methods.",
+            "- The robot needs to have access to a screen or display to show images and information.",
+            "- The robot should be able to communicate with the user through audio or text.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify and describe the four main types of irrigation methods: surface irrigation, sprinkler irrigation, drip irrigation, and subsurface irrigation.",
+            "- The robot should convey the need for improving water efficiency in agriculture.",
+            "- The robot should present a clear and engaging visual representation of the irrigation methods.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Read the visual cues indicating the need for innovation in irrigation methods.",
+            "2. [type=communication, frames=[0,1]] Displays an image of a wrench and a light bulb to symbolize the concept of improvement.",
+            "3. [type=manipulation, frames=[2]] The robot.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Read the visual cues indicating the need for innovation in irrigation methods. It then verifies the key detail directly from the frames (Read the visual cues indicating the need for innovation in irrigation methods). After verification, it communicates the result clearly (Displays an image of a wrench and a light bulb to symbolize the concept of improvement).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 12.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/BeYl0Yy5IMo/task01/sub00/motion.bvh",
+            "params_path": "results/momask/BeYl0Yy5IMo/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Point out that flood irrigation produces excessive evaporation and causes soil salinization.",
+          "start": 109.01,
+          "end": 127.01,
+          "segment_ids": [
+            12,
+            13
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "BeYl0Yy5IMo/task01_sub01_f01.jpg",
+              "caption": "The video frame shows a cartoon of the Earth with steam coming out of its top, accompanied by a light bulb and a pipe.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "BeYl0Yy5IMo/task01_sub01_f02.jpg",
+              "caption": "A cartoon illustration shows a field of corn with a light bulb and a pipe above it.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task01_sub01_f03.jpg",
+              "relative_path": "BeYl0Yy5IMo/task01_sub01_f03.jpg",
+              "caption": "A cartoon scene shows a field of corn with steam rising from it.",
+              "frame_index": 3
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Flood irrigation is inefficient, leading to significant water loss through evaporation and soil salinization, which the robot needs to explain.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A cartoon Earth with steam coming out of its top, a light bulb, and a pipe.",
+            "- [frames=[2]] A field of corn with a light bulb and a pipe above it.",
+            "- [frames=[3]] A field of corn with steam rising from it.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict the negative impacts of flood irrigation on water efficiency and soil health, emphasizing the need for improvement.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have knowledge about different irrigation methods.",
+            "- The robot should be able to communicate effectively with the viewer.",
+            "- The robot should be equipped with a display or screen to show images.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Explain the inefficiency of flood irrigation.",
+            "- Highlight the issues of excessive evaporation and soil salinization.",
+            "- Provide clear and understandable visuals to support the explanation.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=communication, frames=[1]] Display the cartoon Earth with steam and a pipe to illustrate water loss.",
+            "2. [type=perception, frames=[2]] Show a field of corn with a light bulb and a pipe to represent flood irrigation.",
+            "3. [type=communication, frames=[3]] Display a field of corn with steam rising to emphasize the problem of evaporation.",
+            "4. [type=communication, frames=[1,2,3]] Explain that flood irrigation leads to excessive evaporation, wasting water.",
+            "5. [type=communication, frames=[1,2,3]] Describe how flood irrigation can cause soil salinization, harming plant growth.",
+            "6. [type=manipulation, frames=[1,2,3]] Adjust the display to cross-check the information with the viewer's understanding.",
+            "7. [type=navigation, frames=[1,2,3]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Display the cartoon Earth with steam and a pipe to illustrate water loss. It then verifies the key detail directly from the frames (Adjust the display to cross-check the information with the viewer's understanding). After verification, it communicates the result clearly (Display the cartoon Earth with steam and a pipe to illustrate water loss).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 18.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/BeYl0Yy5IMo/task01/sub01/motion.bvh",
+            "params_path": "results/momask/BeYl0Yy5IMo/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Explain the importance of shifting to more efficient irrigation methods.",
+      "start": 127.01,
+      "end": 156.01,
+      "subtasks": [
+        {
+          "text": "Recommend shifting to drip irrigation or subsurface irrigation, which are the most water-efficient methods.",
+          "start": 127.01,
+          "end": 138.01,
+          "segment_ids": [
+            14
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "BeYl0Yy5IMo/task02_sub00_f01.jpg",
+              "caption": "A cartoon illustration of a fence with green plants and a light bulb.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "BeYl0Yy5IMo/task02_sub00_f02.jpg",
+              "caption": "A cartoon plant with roots is depicted on a wall.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Recommendations for shifting to drip or subsurface irrigation are made, highlighting their superior water efficiency.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A cartoon illustration of a fence with green plants and a light bulb suggests the benefits of efficient irrigation.",
+            "- [frames=[2]] A cartoon plant with roots on a wall visually represents the root system, emphasizing the importance of targeted water delivery.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict the positive impact of efficient irrigation methods on plant health and water conservation. The fence and plants in the first frame symbolize the broader agricultural context, while the second frame focuses on the root system, underscoring the need for precise water application.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to the tutorial video.",
+            "- The robot needs to be able to navigate to the relevant section of the video.",
+            "- The robot must be equipped with a screen or display to show the video frames.",
+            "- The robot should have the ability to communicate with the user.",
+            "- The robot needs to be able to perform basic navigation within the video.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully navigates to the specified time range (127.0s–138.0s).",
+            "- The robot accurately displays the recommended irrigation methods.",
+            "- The robot provides clear explanations of why these methods are more efficient.",
+            "- The robot ensures the user understands the benefits of shifting to drip or subsurface irrigation.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate to the specified time range (127.0s–138.0s) in the video.",
+            "2. [type=perception, frames=[1]] Verify the presence of the fence and green plants in the first frame.",
+            "3. [type=perception, frames=[2]] Confirm the depiction of the.",
+            "4. [type=perception, frames=[1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the specified time range (127.0s–138.0s) in the video. It then verifies the key detail directly from the frames (Verify the presence of the fence and green plants in the first frame).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the specified time range (127.0s–138.0s) in the video; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 10.999999999999986,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/BeYl0Yy5IMo/task02/sub00/motion.bvh",
+            "params_path": "results/momask/BeYl0Yy5IMo/task02/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Highlight the need to improve soil water holding capacity by adding organic matter.",
+          "start": 138.01,
+          "end": 156.01,
+          "segment_ids": [
+            15,
+            16
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub01_f01.jpg",
+              "relative_path": "BeYl0Yy5IMo/task02_sub01_f01.jpg",
+              "caption": "The video frame shows a scene with various abstract shapes and lines on a brown background.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub01_f02.jpg",
+              "relative_path": "BeYl0Yy5IMo/task02_sub01_f02.jpg",
+              "caption": "The video frame shows a cartoon scene with worms and a water droplet.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task02_sub01_f03.jpg",
+              "relative_path": "BeYl0Yy5IMo/task02_sub01_f03.jpg",
+              "caption": "A cartoon scene shows a person watering plants with a yellow watering can, with a light bulb and a pipe above them.",
+              "frame_index": 3
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to explain why improving soil water holding capacity by adding organic matter is crucial for efficient irrigation methods.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] The scene features abstract shapes and lines on a brown background, setting an educational tone.",
+            "- [frames=[2]] Cartoon worms and a water droplet appear, symbolizing the interaction between soil and water.",
+            "- [frames=[3]] A person is shown watering plants with a yellow watering can, with a light bulb and a pipe above them, indicating a connection to efficiency.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes transition from an abstract educational background to a more concrete example involving soil, water, and plant care. The final frame emphasizes the concept of efficiency through a light bulb and a pipe, suggesting improved water usage.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a display screen or a voice interface.",
+            "- The robot must have knowledge about soil composition and water efficiency.",
+            "- The robot should be able to communicate effectively with the viewer.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should clearly explain the benefits of adding organic matter to soil.",
+            "- It should demonstrate how this improves water retention.",
+            "- The explanation should link back to the concept of efficient irrigation methods.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Analyze the abstract background to set the educational context.",
+            "2. [type=communication, frames=[2]] Display or narrate the cartoon scene showing worms and a water droplet.",
+            "3. [type=perception, frames=[3]] Observe the person watering plants with a yellow watering can.",
+            "4. [type=manipulation, frames=[3]] Simulate the action of adding organic matter to the soil using a virtual tool.",
+            "5. [type=communication, frames=[3]] Explain how adding organic matter improves.",
+            "6. [type=perception, frames=[1,2,3]] Verify/confirm the key observation before reporting.",
+            "7. [type=navigation, frames=[1,2,3]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Analyze the abstract background to set the educational context. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting). After verification, it communicates the result clearly (Display or narrate the cartoon scene showing worms and a water droplet).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Simulate the action of adding organic matter to the soil using a virtual tool; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 18.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/BeYl0Yy5IMo/task02/sub01/motion.bvh",
+            "params_path": "results/momask/BeYl0Yy5IMo/task02/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Discuss the role of crop selection in water savings.",
+      "start": 161.01,
+      "end": 180.01,
+      "subtasks": [
+        {
+          "text": "Mention that certain crops have the ability to take up water from deeper soil layers, like sorghum and sunflower.",
+          "start": 161.01,
+          "end": 168.01,
+          "segment_ids": [
+            18
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub00_f00.jpg",
+              "relative_path": "BeYl0Yy5IMo/task03_sub00_f00.jpg",
+              "caption": "A cartoon character is watering a dry, cracked earth, symbolizing the impact of drought on agriculture.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task03_sub00_f01.jpg",
+              "relative_path": "BeYl0Yy5IMo/task03_sub00_f01.jpg",
+              "caption": "A cartoon character is watering a plant, which is growing in a cracked soil.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub00_f02.jpg",
+              "relative_path": "BeYl0Yy5IMo/task03_sub00_f02.jpg",
+              "caption": "The video shows a cartoon character watering a plant, with a cracked earth background.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will explain how certain crops, such as sorghum and sunflower, can help save water by accessing deeper soil layers, contributing to more efficient irrigation methods.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A cartoon character is watering a dry, cracked earth, symbolizing the impact of drought on agriculture.",
+            "- [frames=[1]] A cartoon character is watering a plant, which is growing in a cracked soil.",
+            "- [frames=[2]] The video shows a cartoon character watering a plant, with a cracked earth background.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict a dry, cracked earth being watered, with a focus on a plant's growth despite the challenging conditions. This imagery sets the stage for discussing how certain crops can improve water efficiency through their root systems.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a display screen to show relevant images and text.",
+            "- The robot needs to have access to information about different crops and their water-saving properties.",
+            "- The robot should be able to navigate to the appropriate location to display the information.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately mention sorghum and sunflower as examples of crops that can access deeper soil layers.",
+            "- The robot should convey the message that these crops contribute to water savings.",
+            "- The robot should visually demonstrate the concept using the provided images.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Read the current scene to understand the context of drought and dry soil.",
+            "2. [type=communication, frames=[1]] Displays an image of a sorghum plant growing in a cracked soil, highlighting its deep roots.",
+            "3. [type=manipulation, frames=[2]] Shows an image of a sunflower plant with similar characteristics.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Read the current scene to understand the context of drought and dry soil. It then verifies the key detail directly from the frames (Read the current scene to understand the context of drought and dry soil). After verification, it communicates the result clearly (Displays an image of a sorghum plant growing in a cracked soil, highlighting its deep roots).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Shows an image of a sunflower plant with similar characteristics; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 7.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/BeYl0Yy5IMo/task03/sub00/motion.bvh",
+            "params_path": "results/momask/BeYl0Yy5IMo/task03/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Describe how the SRI or System of Rice Intensification method in Asia uses a more water-efficient rice variety.",
+          "start": 168.01,
+          "end": 180.01,
+          "segment_ids": [
+            19
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub01_f01.jpg",
+              "relative_path": "BeYl0Yy5IMo/task03_sub01_f01.jpg",
+              "caption": "The video shows a cartoon character with a watering can, a list of plants, and a cracked earth scene.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub01_f02.jpg",
+              "relative_path": "BeYl0Yy5IMo/task03_sub01_f02.jpg",
+              "caption": "The video shows a cartoon character with a watering can, a sunflower, and a light bulb, and a cracked earth scene.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on explaining how the SRI method in Asia utilizes a more water-efficient rice variety. This involves describing the method's approach to water usage and highlighting the benefits of using this variety.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A cartoon character is shown with a watering can, a list of plants, and a cracked earth scene.",
+            "- [frames=[2]] The same character is depicted with a watering can, a sunflower, and a light bulb, along with the cracked earth scene.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict a cartoon character using a watering can, which suggests an explanation about irrigation methods. The presence of a list of plants and a sunflower with a light bulb indicates a focus on plant varieties and their efficiency in water usage.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the SRI method and its application in Asia.",
+            "- The robot needs to know about the water-efficient rice variety used in SRI.",
+            "- The robot should be able to access and display images or diagrams related to the SRI method and rice varieties.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the SRI method and its water-saving benefits.",
+            "- The robot should mention the specific water-efficient rice variety used in SRI.",
+            "- The robot should visually demonstrate or reference the cracked earth scene to emphasize water conservation.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Read the information about the SRI method and the water-efficient rice variety.",
+            "2. [type=communication, frames=[2]] Display an image of the SRI method being applied in a field.",
+            "3. [type=communication, frames=[2]] Explain the SRI method and its importance in water conservation.",
+            "4. [type=manipulation, frames=[2]] Show an image.",
+            "5. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Read the information about the SRI method and the water-efficient rice variety. It then verifies the key detail directly from the frames (Read the information about the SRI method and the water-efficient rice variety). After verification, it communicates the result clearly (Display an image of the SRI method being applied in a field).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Show an image; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 12.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/BeYl0Yy5IMo/task03/sub01/motion.bvh",
+            "params_path": "results/momask/BeYl0Yy5IMo/task03/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

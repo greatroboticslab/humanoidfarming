@@ -1,0 +1,588 @@
+{
+  "video_index": "iBBnz0TzSzo",
+  "title": "Crop Variability Post-Pandemic Slimming Down",
+  "url": "https://www.youtube.com/watch?v=iBBnz0TzSzo",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "The video discusses the changes in crop production due to the pandemic.",
+  "tasks": [
+    {
+      "task": "Describe the pre-pandemic crop growth and its reduction.",
+      "start": 0.0,
+      "end": 5.56,
+      "subtasks": [
+        {
+          "text": "Note the question about whether crop growth was more varied in the past.",
+          "start": 0.0,
+          "end": 2.48,
+          "segment_ids": [
+            0
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "iBBnz0TzSzo/task00_sub00_f00.jpg",
+              "caption": "A man with a beard is speaking into a microphone.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "iBBnz0TzSzo/task00_sub00_f01.jpg",
+              "caption": "A man in a green shirt is speaking into a microphone.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "iBBnz0TzSzo/task00_sub00_f02.jpg",
+              "caption": "A man with a beard is speaking into a microphone, with the words \"OR is\" overlaid.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment introduces a discussion on the variability of crop growth before and after the pandemic, specifically noting a question about the past variation in crop growth.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A man with a beard is speaking into a microphone.",
+            "- [frames=[0,1]] The man is wearing a light-colored shirt.",
+            "- [frames=[2]] Another man in a green shirt is speaking into a microphone.",
+            "- [frames=[2]] The words \"OR is\" are overlaid on the image.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "Two men are discussing crop growth variability, with one man introducing a question about the past variation in crop growth while the other man takes over the discussion.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be in a position to observe the screen.",
+            "- The robot should have the ability to read text overlays.",
+            "- The robot should be able to communicate with the speakers.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the question about past crop growth variability.",
+            "- The robot should confirm the presence of the second speaker.",
+            "- The robot should verify the text overlay \"OR is\".",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Read the text on the screen to identify the speaker.",
+            "2. [type=perception, frames=[2]] Confirm the presence of a new speaker by reading the text \"OR is\".",
+            "3. [type=communication, frames=[0,2]] Listen to the audio to understand the question about past crop growth variability.",
+            "4. [type=perception, frames=[0,2]] Verify the text overlay \"OR is\" is present.",
+            "5. [type=navigation, frames=[0,1,2]] Move to a position where the robot can clearly see both speakers.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Read the text on the screen to identify the speaker. It then verifies the key detail directly from the frames (Read the text on the screen to identify the speaker).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move to a position where the robot can clearly see both speakers; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/iBBnz0TzSzo/task00/sub00/motion.bvh",
+            "params_path": "results/momask/iBBnz0TzSzo/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Mention that more crops were grown before the pandemic.",
+          "start": 2.48,
+          "end": 5.56,
+          "segment_ids": [
+            1,
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "iBBnz0TzSzo/task00_sub01_f01.jpg",
+              "caption": "A man with a beard is speaking into a microphone.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "iBBnz0TzSzo/task00_sub01_f02.jpg",
+              "caption": "A person wearing headphones is standing in front of a brick wall with a question overlay.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Before the pandemic, more crops were grown compared to now. The robot needs to convey this information accurately in the video.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A man with a beard is speaking into a microphone.",
+            "- [frames=[2]] A person wearing headphones is standing in front of a brick wall with a question overlay.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene involves a speaker discussing pre-pandemic crop growth, likely setting up a comparison with current conditions. The second frame suggests a transition or a follow-up point.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to historical agricultural data.",
+            "- It must be able to understand and interpret spoken language.",
+            "- The robot needs to know how to present comparative information visually.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should clearly state that more crops were grown before the pandemic.",
+            "- It must provide a visual representation of the reduction in crop growth post-pandemic.",
+            "- The robot should ensure the information is accurate and up-to-date.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Listen to the man's speech to understand the context.",
+            "2. [type=manipulation, frames=[2]] Adjust the display to show a visual comparison of pre-pandemic and post-pandemic crop growth.",
+            "3. [type=communication, frames=[2]] Announce that more crops were grown before the pandemic.",
+            "4. [type=perception, frames=[2]] Cross-check the displayed data with stored historical records.",
+            "5. [type=communication, frames=[2]] Emphasize the reduction in crop growth post-pandemic.",
+            "6. [type=manipulation, frames=[2]] Highlight key statistics or graphs to support the statement.",
+            "7. [type=perception, frames=[2]] Verify the accuracy.",
+            "8. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Listen to the man's speech to understand the context. It then verifies the key detail directly from the frames (Cross-check the displayed data with stored historical records). After verification, it communicates the result clearly (Announce that more crops were grown before the pandemic).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Highlight key statistics or graphs to support the statement; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.0799999999999996,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/iBBnz0TzSzo/task00/sub01/motion.bvh",
+            "params_path": "results/momask/iBBnz0TzSzo/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Explain the changes made due to the pandemic.",
+      "start": 5.56,
+      "end": 16.76,
+      "subtasks": [
+        {
+          "text": "Observe the decision to slim down and focus on best sellers.",
+          "start": 5.56,
+          "end": 13.96,
+          "segment_ids": [
+            3,
+            4,
+            5
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "iBBnz0TzSzo/task01_sub00_f01.jpg",
+              "caption": "A person with curly hair wearing a headset is shown in a room with a brick wall and a printer.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "iBBnz0TzSzo/task01_sub00_f02.jpg",
+              "caption": "A person wearing a headset is standing in a room with a printer and a brick wall.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot observes the decision to slim down operations and focus on best-selling products, likely due to post-pandemic adjustments.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A person with curly hair wearing a headset is in a room with a brick wall and a printer.",
+            "- [frames=[2]] Another person in a similar setup is observed, reinforcing the scene context.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a work environment where individuals are making decisions about product offerings, possibly in response to market changes or operational constraints.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to the current product catalog.",
+            "- It needs to understand the concept of best-selling products.",
+            "- Knowledge of post-pandemic business strategies is required.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Confirm the decision to slim down operations.",
+            "- Verify the focus on best-selling products.",
+            "- Cross-check with the current product catalog.",
+            "- Measure the impact on inventory management.",
+            "- Check if the decision aligns with post-pandemic business goals.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Read the current product catalog displayed on the screen.",
+            "2. [type=perception, frames=[2]] Confirm the presence of a person in a similar setup.",
+            "3. [type=communication, frames=[1,2]] Ask the person about the decision to slim down operations.",
+            "4. [type=perception, frames=[1,2]] Verify the focus on best-selling products by observing the displayed items.",
+            "5. [type=perception, frames=[1,2]] Cross-check the current product catalog with the displayed items.",
+            "6. [type=perception, frames=[1,2]] Measure the impact on inventory management by analyzing the displayed items.",
+            "7. [type=perception, frames=[1,2]] Check if.",
+            "8. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Read the current product catalog displayed on the screen. It then verifies the key detail directly from the frames (Read the current product catalog displayed on the screen).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 8.400000000000002,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/iBBnz0TzSzo/task01/sub00/motion.bvh",
+            "params_path": "results/momask/iBBnz0TzSzo/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Describe the gradual integration of seasonal holiday items.",
+          "start": 13.96,
+          "end": 16.76,
+          "segment_ids": [
+            6
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "iBBnz0TzSzo/task01_sub01_f01.jpg",
+              "caption": "A person with headphones is talking in a room with a printer.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "iBBnz0TzSzo/task01_sub01_f02.jpg",
+              "caption": "A person with curly hair is wearing a headset and talking in a room with a printer in the background.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe a person talking about the gradual integration of seasonal holiday items into the discussion on crop variability post-pandemic.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A person with headphones is talking in a room with a printer.",
+            "- [frames=[2]] A person with curly hair is wearing a headset and talking in a room with a printer in the background.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a person speaking about seasonal holiday items in a room equipped with a printer. The presence of a printer suggests the possibility of printing related documents or materials.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be in a position to observe the person speaking.",
+            "- The robot needs to have audio capabilities to listen to the conversation.",
+            "- The robot should be able to identify the context of the discussion, specifically focusing on seasonal holiday items.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the mention of seasonal holiday items.",
+            "- The robot should understand the gradual integration of these items into the discussion.",
+            "- The robot should be able to summarize the changes made due to the pandemic.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1,2]] Listen to the person speaking and identify mentions of seasonal holiday items.",
+            "2. [type=perception, frames=[1,2]] Observe the room setup, noting the presence of a printer.",
+            "3. [type=perception, frames=[1,2]] Confirm the context of the discussion is about crop variability post-pandemic.",
+            "4. [type=manipulation, frames=[1,2]] Adjust camera angle to focus on the person's face for better lip reading if needed.",
+            "5. [type=perception, frames=[1,2]] Verify the gradual integration of seasonal holiday items by cross-checking with previous statements.",
+            "6. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Listen to the person speaking and identify mentions of seasonal holiday items. It then verifies the key detail directly from the frames (Confirm the context of the discussion is about crop variability post-pandemic).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Adjust camera angle to focus on the person's face for better lip reading if needed; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/iBBnz0TzSzo/task01/sub01/motion.bvh",
+            "params_path": "results/momask/iBBnz0TzSzo/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Reflect on the current crop production.",
+      "start": 24.08,
+      "end": 46.68,
+      "subtasks": [
+        {
+          "text": "Highlight that the farm now grows smaller, more specialized varieties.",
+          "start": 24.08,
+          "end": 31.8,
+          "segment_ids": [
+            9,
+            10,
+            11
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f00.jpg",
+              "relative_path": "iBBnz0TzSzo/task02_sub00_f00.jpg",
+              "caption": "A person with curly hair is wearing a headset and is shown in a room with a printer.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "iBBnz0TzSzo/task02_sub00_f01.jpg",
+              "caption": "A person wearing a headset is in a room with a printer.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "iBBnz0TzSzo/task02_sub00_f02.jpg",
+              "caption": "A person with curly hair is wearing a headset and is in front of a brick wall with a printer.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene shows a person reviewing information about the farm's crop varieties, highlighting the shift towards smaller, more specialized varieties post-pandemic.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A person with curly hair is wearing a headset and is in a room with a printer.",
+            "- [frames=[0,1]] The person is standing in front of a brick wall.",
+            "- [frames=[0,1]] There is a printer visible in the background.",
+            "- [frames=[2]] The person with curly hair is still present but facing a different direction.",
+            "- [frames=[2]] The background remains unchanged with the brick wall and printer.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The room appears to be a work area where the person is likely reviewing data or documents related to the farm’s crop production. The presence of a headset suggests they might be accessing digital information, possibly through a virtual reality interface.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be able to navigate to the room.",
+            "- It needs to identify the person and the printer.",
+            "- The robot must understand the context of the farm’s crop production.",
+            "- The robot should have access to relevant data or documents.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should confirm the shift towards smaller, more specialized crop varieties.",
+            "- It should verify the current crop production details.",
+            "- The robot should cross-check the information with any available data sources.",
+            "- It should ensure the printer is operational.",
+            "- The robot should measure the extent of the change in crop varieties.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the room where the person is located.",
+            "2. [type=perception, frames=[0,1]] Identify the person with curly hair and the printer.",
+            "3. [type=communication, frames=[0,1]] Initiate.",
+            "4. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the room where the person is located. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the room where the person is located; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 7.720000000000002,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/iBBnz0TzSzo/task02/sub00/motion.bvh",
+            "params_path": "results/momask/iBBnz0TzSzo/task02/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Mention the previous variety of crops, including celery and different types of radishes.",
+          "start": 31.8,
+          "end": 35.68,
+          "segment_ids": [
+            12,
+            13
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub01_f01.jpg",
+              "relative_path": "iBBnz0TzSzo/task02_sub01_f01.jpg",
+              "caption": "A person wearing a blue shirt and headphones is standing in front of a printer.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub01_f02.jpg",
+              "relative_path": "iBBnz0TzSzo/task02_sub01_f02.jpg",
+              "caption": "A person wearing a headset is talking in a room with a printer in the background.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to recall and mention the previous variety of crops, specifically including celery and different types of radishes, during a tutorial video segment.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A person in a blue shirt and headphones is standing in front of a printer.",
+            "- [frames=[2]] Another person in a headset is talking in a room with a printer in the background.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a room where someone is likely preparing to print or present information related to crop varieties. The robot's task involves understanding and recalling past crop varieties mentioned by the person in the video.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to a database containing information about past crop varieties.",
+            "- The robot should be able to recognize and understand the context of the conversation.",
+            "- The robot should be capable of speaking clearly and accurately.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly mention celery and different types of radishes.",
+            "- The robot should provide accurate information without any errors.",
+            "- The robot should maintain a clear and understandable voice throughout the segment.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1,2]] Listen to the conversation to identify the mention of past crop varieties.",
+            "2. [type=manipulation, frames=[1,2]] Retrieve the relevant information from the database about past crop varieties.",
+            "3. [type=perception, frames=[1,2]] Confirm the correct information about celery and different types of radishes.",
+            "4. [type=manipulation, frames=[1,2]] Formulate the sentence to include the mentioned crops.",
+            "5. [type=communication, frames=[1,2]] Speak the sentence aloud to match the timing of the video segment.",
+            "6. [type=perception, frames=[1,2]] Verify the spoken sentence matches the intended content.",
+            "7. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Listen to the conversation to identify the mention of past crop varieties. It then verifies the key detail directly from the frames (Confirm the correct information about celery and different types of radishes).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Retrieve the relevant information from the database about past crop varieties; Formulate the sentence to include the mentioned crops; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.879999999999999,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/iBBnz0TzSzo/task02/sub01/motion.bvh",
+            "params_path": "results/momask/iBBnz0TzSzo/task02/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Conclude that the current approach is more sustainable and consistent.",
+          "start": 39.12,
+          "end": 46.68,
+          "segment_ids": [
+            15,
+            16
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub02_f00.jpg",
+              "relative_path": "iBBnz0TzSzo/task02_sub02_f00.jpg",
+              "caption": "A person wearing a headset is standing in a room with a printer and a brick wall.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub02_f01.jpg",
+              "relative_path": "iBBnz0TzSzo/task02_sub02_f01.jpg",
+              "caption": "A person wearing a blue shirt and a headset is standing in front of a printer with the word \"SUSTAINABLE\" on the screen.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub02_f02.jpg",
+              "relative_path": "iBBnz0TzSzo/task02_sub02_f02.jpg",
+              "caption": "A man with a beard and a microphone is speaking into it.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will conclude that the current approach to crop production is more sustainable and consistent based on the information presented in the video.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A person wearing a headset is standing in a room with a printer and a brick wall.",
+            "- [frames=[1]] A person wearing a blue shirt and a headset is standing in front of a printer with the word \"SUSTAINABLE\" on the screen.",
+            "- [frames=[2]] A man with a beard and a microphone is speaking into it.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a discussion about the sustainability of current crop production methods. The presence of a printer and the word \"SUSTAINABLE\" on the screen suggest that the conversation revolves around the benefits of the current approach.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to the video content.",
+            "- The robot should be able to understand and interpret the spoken and visual information.",
+            "- The robot should have the capability to navigate through the video frames.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the key points supporting the sustainability and consistency of the current approach.",
+            "- The robot should be able to summarize these points coherently.",
+            "- The robot should present a conclusion that aligns with the information provided in the video.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Analyze the visual context of the room and the presence of the printer.",
+            "2. [type=perception, frames=[1]] Read the word \"SUSTAINABLE\" on the screen.",
+            "3. [type=navigation, frames=[2]] Listen to the man speaking about the current approach to crop production.",
+            "4. [type=navigation, frames=[0,1,2]] Navigate to the section where the word \"SUSTAINABLE\" appears on the.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Analyze the visual context of the room and the presence of the printer. It then verifies the key detail directly from the frames (Read the word \"SUSTAINABLE\" on the screen).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the section where the word \"SUSTAINABLE\" appears on the; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 7.560000000000002,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/iBBnz0TzSzo/task02/sub02/motion.bvh",
+            "params_path": "results/momask/iBBnz0TzSzo/task02/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

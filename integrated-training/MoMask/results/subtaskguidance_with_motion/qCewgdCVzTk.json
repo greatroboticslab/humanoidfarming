@@ -1,0 +1,567 @@
+{
+  "video_index": "qCewgdCVzTk",
+  "title": "Ancient Civilizations' Water Management Techniques",
+  "url": "https://www.youtube.com/watch?v=qCewgdCVzTk",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "This transcript describes historical agricultural practices involving rainwater harvesting and irrigation.",
+  "tasks": [
+    {
+      "task": "Detail different rainwater harvesting methods used by ancient civilizations.",
+      "start": 0.0,
+      "end": 33.44,
+      "subtasks": [
+        {
+          "text": "Observe how ancient civilizations harnessed rainwater for agriculture.",
+          "start": 0.0,
+          "end": 2.52,
+          "segment_ids": [
+            0
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "qCewgdCVzTk/task00_sub00_f00.jpg",
+              "caption": "A man in ancient attire is shown with a sign that reads \"Ancient Civilizations and Rainwater Harvesting.\"",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "qCewgdCVzTk/task00_sub00_f01.jpg",
+              "caption": "Ancient city with a canal and buildings.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "qCewgdCVzTk/task00_sub00_f02.jpg",
+              "caption": "A long, narrow canal is being harnessed in a desert landscape.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene introduces an overview of ancient civilizations and their methods of harnessing rainwater for agricultural purposes, starting with a sign indicating the topic and then showing a cityscape with canals.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A man in ancient attire stands near a sign reading \"Ancient Civilizations and Rainwater Harvesting.\"",
+            "- [frames=[1]] An ancient city is visible with canals and buildings, suggesting a developed infrastructure for water management.",
+            "- [frames=[2]] A long, narrow canal is seen in a desert landscape, highlighting the challenge of managing water resources in arid regions.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from an introductory sign to a broader view of an ancient city, emphasizing the importance of water management in sustaining agricultural activities. The presence of canals and buildings indicates a sophisticated approach to water distribution and storage.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with knowledge about ancient civilizations and their water management techniques.",
+            "- The robot needs to be able to navigate through the scene and identify relevant structures and canals.",
+            "- The robot must have the capability to read signs and interpret their content.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the sign and understand",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/qCewgdCVzTk/task00/sub00/motion.bvh",
+            "params_path": "results/momask/qCewgdCVzTk/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Highlight the sophisticated canal systems developed by the Mesopotamians.",
+          "start": 2.52,
+          "end": 7.92,
+          "segment_ids": [
+            1,
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "qCewgdCVzTk/task00_sub01_f01.jpg",
+              "caption": "A picturesque river flows through a desert landscape with mountains in the background.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "qCewgdCVzTk/task00_sub01_f02.jpg",
+              "caption": "A man in traditional attire stands in a field, with a \"THE\" sticker on his mouth.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video highlights the sophisticated canal systems developed by the Mesopotamians, showcasing their advanced water management techniques.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A picturesque river flows through a desert landscape with mountains in the background, indicating the arid environment where the Mesopotamians lived.",
+            "- [frames=[2]] A man in traditional attire stands in a field, with a \"THE\" sticker on his mouth, suggesting he is explaining or demonstrating something related to the canal system.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict an arid region with a river running through it, which was crucial for the Mesopotamians' survival. The presence of a man in traditional attire indicates that he is likely a guide or expert explaining the canal system's importance.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture the scenes.",
+            "- It must have the ability to recognize and understand historical contexts.",
+            "- The robot needs to be able to navigate through the landscape without causing damage.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully captures images of the river and the man in traditional attire.",
+            "- It accurately identifies the key elements of the canal system being discussed.",
+            "- The robot can provide a detailed explanation",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 5.4,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/qCewgdCVzTk/task00/sub01/motion.bvh",
+            "params_path": "results/momask/qCewgdCVzTk/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Note the elaborate rainwater harvesting systems built by the Indus Valley civilization.",
+          "start": 15.0,
+          "end": 19.64,
+          "segment_ids": [
+            5,
+            6
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub02_f00.jpg",
+              "relative_path": "qCewgdCVzTk/task00_sub02_f00.jpg",
+              "caption": "A man in a turban stands in a field with green crops, wearing a blue robe.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub02_f01.jpg",
+              "relative_path": "qCewgdCVzTk/task00_sub02_f01.jpg",
+              "caption": "A person stands on a stone platform near a pond, with a scenic landscape and a column in the background.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub02_f02.jpg",
+              "relative_path": "qCewgdCVzTk/task00_sub02_f02.jpg",
+              "caption": "The video frame shows a river flowing through a desert landscape with ancient ruins and mountains in the background.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment highlights the advanced rainwater harvesting techniques employed by the Indus Valley civilization, showcasing their ingenuity in managing water resources.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A man in a turban is seen standing in a field with green crops, indicating agricultural practices.",
+            "- [frames=[1]] A person is positioned on a stone platform near a pond, suggesting the presence of a water storage system.",
+            "- [frames=[2]] A river is visible flowing through a desert landscape, hinting at the challenges faced by the civilization in accessing water.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts the sophisticated water management strategies of the Indus Valley civilization, including the construction of ponds and the utilization of natural water sources like rivers to support agriculture and daily life.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture detailed images of the scenes.",
+            "- It needs to have knowledge about ancient civilizations and their water management techniques.",
+            "- The robot must be able to navigate through the landscape and interact with the environment.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify and document the rainwater harvesting systems.",
+            "- It should measure the dimensions of the ponds and verify the flow of the river.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 4.640000000000001,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/qCewgdCVzTk/task00/sub02/motion.bvh",
+            "params_path": "results/momask/qCewgdCVzTk/task00/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Describe the practices of the Pueblo peoples in capturing rainwater runoff.",
+          "start": 23.28,
+          "end": 33.44,
+          "segment_ids": [
+            8,
+            10
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub03_f00.jpg",
+              "relative_path": "qCewgdCVzTk/task00_sub03_f00.jpg",
+              "caption": "A man in a hat and apron is working in a field.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub03_f01.jpg",
+              "relative_path": "qCewgdCVzTk/task00_sub03_f01.jpg",
+              "caption": "A man in a hat and vest is kneeling in front of a mountainous landscape.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub03_f02.jpg",
+              "relative_path": "qCewgdCVzTk/task00_sub03_f02.jpg",
+              "caption": "The video shows a man working in a field, with the words \"These Innovative\" overlaid.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will describe the rainwater harvesting techniques used by the Pueblo peoples, focusing on their innovative methods observed in the video.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A man in a hat and apron is working in a field.",
+            "- [frames=[1]] A man in a hat and vest is kneeling in front of a mountainous landscape.",
+            "- [frames=[2]] The video shows a man working in a field, with the words \"These Innovative\" overlaid.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a man engaged in agricultural activities, likely demonstrating the Pueblo peoples' methods of capturing rainwater runoff. The overlay suggests that the following actions will highlight the innovative aspects of their water management techniques.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have knowledge about ancient Pueblo water management techniques.",
+            "- The robot should be equipped with a display or voice capability to convey information.",
+            "- The robot should be able to navigate to the relevant areas in the video.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the Pueblo peoples' rainwater harvesting methods.",
+            "- The robot should visually point out key elements in the scenes.",
+            "- The robot should ensure the information aligns with historical facts.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 10.159999999999997,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/qCewgdCVzTk/task00/sub03/motion.bvh",
+            "params_path": "results/momask/qCewgdCVzTk/task00/sub03/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Explain the significance of these historical agricultural practices.",
+      "start": 33.44,
+      "end": 46.72,
+      "subtasks": [
+        {
+          "text": "Note how these early societies adapted to their environments.",
+          "start": 33.44,
+          "end": 35.24,
+          "segment_ids": [
+            11
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "qCewgdCVzTk/task01_sub00_f01.jpg",
+              "caption": "A farmer practices his crops in a field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "qCewgdCVzTk/task01_sub00_f02.jpg",
+              "caption": "A farmer is shown in a field, highlighting the contrast between a happy and sad moment.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should explain how ancient civilizations adapted their agricultural practices to fit their environmental conditions, focusing on the emotional states of the farmers depicted in the video.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A farmer is seen working in a field, indicating the agricultural setting.",
+            "- [frames=[2]] The same farmer is shown again, but this time there is a clear contrast between a happy and sad moment, suggesting changes in the farmer's emotional state.",
+            "- [frames=[1,2]] The field appears to be arid, hinting at challenging environmental conditions.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a farmer working in an arid environment, showing both the physical labor involved in agriculture and the emotional impact of the work. The contrast between the happy and sad moments suggests the challenges faced by these early societies in adapting to their harsh environments.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- Knowledge of ancient agricultural techniques.",
+            "- Understanding of environmental adaptation strategies.",
+            "- Familiarity with the emotional states of farmers in historical contexts.",
+            "- Ability to read and interpret facial expressions and body language.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Accurately describe the environmental challenges faced by the farmers.",
+            "- Explain how the farmers adapted their practices to overcome these challenges.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/qCewgdCVzTk/task01/sub00/motion.bvh",
+            "params_path": "results/momask/qCewgdCVzTk/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Describe how sustainable agricultural practices were established.",
+          "start": 38.32,
+          "end": 41.52,
+          "segment_ids": [
+            13
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f00.jpg",
+              "relative_path": "qCewgdCVzTk/task01_sub01_f00.jpg",
+              "caption": "A farmer in a field with a tractor full of hay.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "qCewgdCVzTk/task01_sub01_f01.jpg",
+              "caption": "The video frame shows various agricultural activities, including farming and harvesting.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "qCewgdCVzTk/task01_sub01_f02.jpg",
+              "caption": "A collage of farmers working in fields, with the caption \"That Laid the.\"",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on explaining how sustainable agricultural practices were established in ancient civilizations, using images of farmers and their activities.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A farmer is seen operating a tractor filled with hay in a field.",
+            "- [frames=[0]] The scene suggests a modern approach to agriculture.",
+            "- [frames=[1]] Various agricultural activities such as farming and harvesting are depicted.",
+            "- [frames=[1]] Multiple farmers are shown working in fields, indicating collective effort.",
+            "- [frames=[2]] A collage of farmers working in fields is presented, with the caption \"That Laid the.\"",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The images collectively illustrate the establishment of sustainable agricultural practices through collaborative efforts and traditional methods. The presence of both modern and traditional elements highlights the evolution and continuity of these practices over time.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with historical agricultural techniques.",
+            "- The robot must have the ability to recognize and interpret images of farmers and their activities.",
+            "- The robot needs to understand the concept of sustainability in agriculture.",
+            "- The robot should be capable of summarizing and explaining complex processes.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the significance of sustainable agricultural practices.",
+            "- (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.200000000000003,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/qCewgdCVzTk/task01/sub01/motion.bvh",
+            "params_path": "results/momask/qCewgdCVzTk/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Highlight the contribution of these practices to the prosperity of future civilizations.",
+          "start": 41.52,
+          "end": 46.72,
+          "segment_ids": [
+            14,
+            15
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub02_f01.jpg",
+              "relative_path": "qCewgdCVzTk/task01_sub02_f01.jpg",
+              "caption": "The video shows various scenes of people working in fields, with the caption \"AND CONTRIBUTED.\"",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub02_f02.jpg",
+              "relative_path": "qCewgdCVzTk/task01_sub02_f02.jpg",
+              "caption": "The video shows various scenes of farmers working in fields, including plowing, harvesting, and managing crops.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will highlight how ancient water management techniques contributed to the prosperity of future civilizations by explaining the significance of these agricultural practices.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] The video shows various scenes of people working in fields, with the caption \"AND CONTRIBUTED.\"",
+            "- [frames=[2]] The video shows various scenes of farmers working in fields, including plowing, harvesting, and managing crops.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict farmers actively engaged in agricultural activities, emphasizing the importance of their work in contributing to future prosperity. These images suggest a focus on the long-term benefits of sustainable farming practices.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have knowledge about ancient water management techniques.",
+            "- The robot should be able to access and understand the historical context of these practices.",
+            "- The robot should be capable of verbal communication to explain the significance of these practices.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the contributions of ancient water management techniques.",
+            "- The robot should convey the impact of these practices on future civilizations.",
+            "- The robot should maintain a clear and engaging tone throughout the explanation.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Read the caption.",
+            "2. [type=perception, frames=[1,2]] Check/confirm the key detail matches the captions and scene.",
+            "3. [type=perception, frames=[1,2]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Read the caption. It then verifies the key detail directly from the frames (Read the caption).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 5.199999999999996,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/qCewgdCVzTk/task01/sub02/motion.bvh",
+            "params_path": "results/momask/qCewgdCVzTk/task01/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

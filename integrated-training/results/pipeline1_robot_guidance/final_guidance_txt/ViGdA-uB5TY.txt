@@ -1,0 +1,138 @@
+VIDEO: ViGdA-uB5TY
+TITLE: Factory Heroes Struggling For Survival
+======================================================================
+
+TASK 0: Display unique products and their traits mentioned in the video.
+Time Range: 2.22 → 7.36
+----------------------------------------------------------------------
+  SUBTASK 0: Observe the world's largest pumpkin that is so heavy a single person cannot carry it alone.
+  Time Range: 2.22 → 4.94
+  Guidance:
+    GLOBAL_SUMMARY:
+    Observe a large pumpkin that is too heavy for one person to carry.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] The scene shows a child being splashed with water in a garden setting.
+    - [frames=[2]] A young boy is enjoying a refreshing shower outdoors, but there is no mention of a pumpkin.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The frames provided do not directly depict the large pumpkin mentioned in the subtask. It seems there might be a discrepancy between the video content and the subtask description. The scenes focus on outdoor activities involving water and children, but no pumpkin is shown.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must be aware of the video content and the specific subtask details.
+    - The robot should have access to the video frames and captions.
+    - The robot needs to understand that the subtask involves observing a large pumpkin.
+    
+    SUCCESS_CRITERIA:
+    - The robot should identify a large pumpkin in the video.
+    - The robot should confirm that the pumpkin is too heavy for one person to carry.
+    - The robot should accurately describe the pumpkin and its weight limitation.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate through the video frames to locate the scene with the large pumpkin.
+    2. [type=perception, frames=[0,1]] Use image recognition to identify the large pumpkin in the garden setting.
+    3. [type=navigation, frames=[2]] Continue navigating through the frames to find additional context about the pumpkin.
+    4. [type=manipulation, frames=[2]] Simulate carrying the pumpkin to verify its weight.
+    5. [type=communication, frames=[all]] Report the findings to the user, confirming the pumpkin's size and weight.
+    
+    SUBTASK_STORY:
+    The subtask begins with the robot navigating through the video frames
+
+  SUBTASK 1: Note the tiny hand-sized pumpkins that contrast visually with the giant pumpkin.
+  Time Range: 4.94 → 7.36
+  Guidance:
+    GLOBAL_SUMMARY:
+    Note the tiny hand-sized pumpkins that contrast visually with the giant pumpkin during the specified time range.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[1]] A child is being splashed with water from a hose.
+    - [frames=[2]] A child is being splashed with water by an adult.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The scene initially shows a child being splashed with water, which seems unrelated to the tiny hand-sized pumpkins. However, the context of the video suggests that these pumpkins are part of the factory's unique products, contrasting with the giant pumpkin likely used for display or decoration.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must recognize the video metadata and current time range.
+    - The robot should have knowledge of the unique products mentioned in the video.
+    - The robot needs to be aware of the visual characteristics of the tiny hand-sized pumpkins.
+    
+    SUCCESS_CRITERIA:
+    - The robot must identify the tiny hand-sized pumpkins.
+    - The robot should note the contrast between these pumpkins and the giant pumpkin.
+    - The robot should accurately describe the traits of the tiny hand-sized pumpkins.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[1]] Move the camera to focus on the child being splashed.
+    2. [type=perception, frames=[1]] Identify the child and the source of water.
+    3. [type=navigation, frames=[2]] Switch the camera view to show the adult splashing the child.
+    4. [type=perception, frames=[2]] Confirm the presence of the child and the adult.
+    5. [type=navigation, frames=[1-2]] Pan the camera to include the background where the tiny hand-sized pumpkins can be seen.
+    6. [type=perception, frames=[1-2]] Detect and recognize the tiny hand-sized
+
+
+======================================================================
+
+TASK 1: Highlight the pricing of the products mentioned.
+Time Range: 7.36 → 19.4
+----------------------------------------------------------------------
+  SUBTASK 0: Look at the tamarind fruit that looks awkward in shape but is described as very delicious.
+  Time Range: 7.36 → 9.52
+  Guidance:
+    GLOBAL_SUMMARY:
+    The robot needs to identify and highlight the pricing information of the tamarind fruit, which is described as looking awkward but very delicious.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] The scene shows a child being splashed with water in a garden setting, which seems unrelated to the tamarind fruit.
+    - [frames=[2]] The scene shifts to a child being sprayed with water from a hose, still not directly related to the tamarind fruit.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    Despite the initial frames showing unrelated activities, the subtask requires focusing on the tamarind fruit that is awkward in shape but described as very delicious. This fruit should be the primary object of interest for the robot to locate and highlight its pricing.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must have knowledge about the tamarind fruit and its characteristics.
+    - The robot should be aware of the pricing information for various products in the factory.
+    - The robot needs to be able to distinguish between different fruits based on their appearance.
+    
+    SUCCESS_CRITERIA:
+    - The robot successfully identifies the tamarind fruit.
+    - The robot highlights the pricing information of the tamarind fruit on the screen or display.
+    - The robot ensures that the pricing information is clearly visible and understandable to the viewer.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Navigate to the area where the tamarind fruit is displayed.
+    2. [type=perception, frames=[2]] Identify the tamarind fruit based on its awkward shape and description.
+    3. [type=manipulation, frames=[2]] Adjust the camera angle to focus on the tamarind fruit.
+    4. [type=communication, frames=[2]] Announce the presence of the tamarind fruit and its delicious nature.
+    5. [type
+
+  SUBTASK 1: Mention that all these pumpkins and fruits are sold for high prices in the market.
+  Time Range: 9.52 → 19.4
+  Guidance:
+    GLOBAL_SUMMARY:
+    Highlight the pricing of the products mentioned by emphasizing that all the pumpkins and fruits are sold for high prices in the market.
+    
+    FRAME_BASED_OBSERVATIONS:
+    - [frames=[0,1]] The scene shows a group of people standing in a field with a donkey, and one person is holding an umbrella. No specific products are visible.
+    - [frames=[2]] A woman in a red sari is feeding a small horse in a grassy field. This frame does not show any products either.
+    
+    INTEGRATED_SCENE_UNDERSTANDING:
+    The subtask involves understanding that the context of the video is set in a rural area where various products such as pumpkins and fruits are being discussed. However, the specific products are not shown in the given frames. The emphasis should be on the high prices of these products, which are implied but not directly visible.
+    
+    PRECONDITIONS_FOR_ROBOT:
+    - The robot must have knowledge about the types of products typically found in a rural setting, including pumpkins and fruits.
+    - The robot should be aware that the scene is set in a market or similar environment where these products would be sold.
+    - The robot needs to recognize the concept of high prices and how to convey this information effectively.
+    
+    SUCCESS_CRITERIA:
+    - The robot should clearly mention that all the pumpkins and fruits are sold for high prices.
+    - The message should be conveyed in a way that aligns with the tone and context of the video.
+    - The robot should ensure that the audience understands the implication of high prices without showing the actual products.
+    
+    ORDERED_ROBOT_ACTION_STEPS:
+    1. [type=navigation, frames=[0,1]] Move the camera to focus on the group of people and the donkey.
+    2. [type=manipulation, frames=[2]] Adjust the camera angle to capture the woman feeding the horse.
+    3. [type=per
+
+
+======================================================================
+

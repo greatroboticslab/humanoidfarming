@@ -1,0 +1,380 @@
+{
+  "video_index": "g_m1NrIqdxc",
+  "title": "Agricultural Science Field Trip Guidelines",
+  "url": "https://www.youtube.com/watch?v=g_m1NrIqdxc",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Provides a structured plan for educational agricultural field trips.",
+  "tasks": [
+    {
+      "task": "Describe the structure of the educational agricultural field trip plan.",
+      "start": 1.1,
+      "end": 11.1,
+      "subtasks": [
+        {
+          "text": "Listen to the introduction of R&R Technologies and the presentation on the excursion to a commercial farm.",
+          "start": 1.1,
+          "end": 11.1,
+          "segment_ids": [
+            0
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "g_m1NrIqdxc/task00_sub00_f00.jpg",
+              "caption": "The video frame is about an excursion to a commercial farm for teaching agricultural science practical to students in secondary schools.",
+              "frame_index": 0
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video introduces R&R Technologies and presents an excursion to a commercial farm for teaching agricultural science to secondary school students.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A group of students and teachers are seen at the entrance of a commercial farm.",
+            "- [frames=[0]] A signboard with \"R&R Technologies\" is visible in the background.",
+            "- [frames=[0]] The camera pans over to show a group of students and their teacher standing near a tractor.",
+            "- [frames=[0]] A brief introduction about the agricultural field trip is being given by a presenter.",
+            "- [frames=[0]] The scene transitions to show the interior of a classroom where the presentation is taking place.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The video captures the initial setup of the agricultural field trip, including the introduction by R&R Technologies and the presentation on the excursion to a commercial farm. The scenes transition from the farm entrance to the classroom, indicating the start of the educational program.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the context of an agricultural field trip.",
+            "- The robot needs to recognize the presence of students and teachers.",
+            "- The robot must understand the importance of introducing R&R Technologies.",
+            "- The robot should be able to identify the key elements of the presentation, such as the farm and the classroom.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully identifies the introduction of R&R Technologies.",
+            "- The robot accurately recognizes the setting of the farm and the classroom.",
+            "- The robot comprehends the purpose of the agricultural field trip.",
+            "- The robot can summarize the main points of the presentation.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Identify the presence of students and teachers at the farm entrance.",
+            "2. [type=perception, frames=[0]] Recognize the signboard with \"R.",
+            "3. [type=perception, frames=[0]] Verify/confirm the key observation before reporting.",
+            "4. [type=perception, frames=[0]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the presence of students and teachers at the farm entrance. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Outline the first activity of the field trip.",
+      "start": 11.1,
+      "end": 25.1,
+      "subtasks": [
+        {
+          "text": "Notice the requirement for students to visit a commercial farm and a subsistence farm.",
+          "start": 11.1,
+          "end": 17.1,
+          "segment_ids": [
+            1
+          ],
+          "frames": []
+        },
+        {
+          "text": "Observe the need for students to list all the machinery, implements, equipment, and tools found during the commercial farm visit.",
+          "start": 17.1,
+          "end": 25.1,
+          "segment_ids": [
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "g_m1NrIqdxc/task01_sub01_f01.jpg",
+              "caption": "The video frame shows a slide from a presentation, with a list of instructions to visit a commercial farm and a subsistence farm, and then make a list of",
+              "frame_index": 1
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to observe and understand the initial task of listing all machinery, implements, equipment, and tools observed during a commercial farm visit. This involves recognizing the instructions provided on a slide and following them accordingly.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A slide is shown with instructions for visiting a commercial farm and a subsistence farm, followed by a task to make a list of observed items.",
+            "- [frames=[1]] The slide mentions the need to list machinery, implements, equipment, and tools.",
+            "- [frames=[1]] The slide includes examples such as tractors, plows, and harvesters.",
+            "- [frames=[1]] The slide is part of a presentation, likely in a classroom setting.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a classroom environment where students are about to embark on a field trip to observe agricultural machinery and equipment. The robot needs to recognize the importance of the task and prepare to assist in its execution.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to a display or screen to read the slide content.",
+            "- The robot should be able to navigate to the area where the slide is displayed.",
+            "- The robot should have a list of common agricultural machinery, implements, equipment, and tools for reference.",
+            "- The robot should be capable of interacting with the user to confirm understanding of the task.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify and list all the machinery, implements, equipment, and tools observed during the commercial farm visit.",
+            "- The robot should ensure that the list is comprehensive and accurate.",
+            "- The robot should be able to cross-check the list against known agricultural equipment types.",
+            "- The robot should provide feedback to the user confirming the completion of the task.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate to the area where the slide is.",
+            "2. [type=perception, frames=[1]] Verify/confirm the key observation before reporting.",
+            "3. [type=perception, frames=[1]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[1]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[1]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the area where the slide is. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Highlight the second activity of the field trip.",
+      "start": 25.1,
+      "end": 40.1,
+      "subtasks": [
+        {
+          "text": "Note the visit to a farm workshop and the requirement to list the tools used there.",
+          "start": 25.1,
+          "end": 31.1,
+          "segment_ids": [
+            3
+          ],
+          "frames": []
+        },
+        {
+          "text": "Pay attention to the detail that students must state the functions of each tool listed in the workshop.",
+          "start": 31.1,
+          "end": 40.1,
+          "segment_ids": [
+            4
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub01_f01.jpg",
+              "relative_path": "g_m1NrIqdxc/task02_sub01_f01.jpg",
+              "caption": "The video frame shows a slide from a presentation, with a blue background and a blue arc on the right side. The slide is titled \"Excursion to a",
+              "frame_index": 1
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to identify and highlight the second activity of the field trip, which involves students stating the functions of each tool listed in the workshop.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] The slide is titled \"Excursion to a\" with a blue arc on the right side.",
+            "- [frames=[1]] The slide contains a list of tools and their functions.",
+            "- [frames=[1]] A pointer is moving over the list of tools.",
+            "- [frames=[1]] The pointer highlights the first tool and its function.",
+            "- [frames=[1]] The pointer moves to the next tool and its function.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a presentation slide showing a list of tools and their functions. The pointer is highlighting each tool and its corresponding function in sequence.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be able to recognize the slide layout and the list of tools.",
+            "- The robot must know the sequence of tools and their functions.",
+            "- The robot should be capable of following the pointer's movement.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the second tool and its function.",
+            "- The robot should highlight the correct information on the slide.",
+            "- The robot should ensure the pointer is pointing to the correct tool and function.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Identify the slide layout and the list of tools.",
+            "2. [type=navigation, frames=[1]] Recognize the pointer's movement and track its position.",
+            "3. [type=navigation, frames=[1]] Move the pointer to the second tool and its function.",
+            "4. [type=manipulation, frames=[1]] Highlight the second tool and its function on the slide.",
+            "5. [type=communication, frames=[1]] Announce the name and function of the second tool.",
+            "6. [type=perception, frames=[1]] Verify/confirm the key observation before reporting.",
+            "7. [type=navigation, frames=[1]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the slide layout and the list of tools. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting). After verification, it communicates the result clearly (Announce the name and function of the second tool).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Describe the third activity of the field trip.",
+      "start": 40.1,
+      "end": 52.1,
+      "subtasks": [
+        {
+          "text": "Observe students visiting a nearby farm and identifying one disease on a legume or beverage plant.",
+          "start": 40.1,
+          "end": 49.1,
+          "segment_ids": [
+            5
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub00_f01.jpg",
+              "relative_path": "g_m1NrIqdxc/task03_sub00_f01.jpg",
+              "caption": "The video frame shows a slide with a blue and white circular design and a text question about identifying diseases of legume plants and naming the causal organisms.",
+              "frame_index": 1
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe students visiting a nearby farm and identifying a disease on a legume or beverage plant. This involves understanding a slide showing a question about identifying diseases and the students' activities.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A slide appears with a blue and white circular design and a text question about identifying diseases of legume plants and naming the causal organisms.",
+            "- [frames=[1]] The slide remains visible throughout the observation period.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a slide with a question about identifying diseases of legume plants. This slide is likely part of an educational setup, possibly for a field trip or classroom activity. Students are expected to visit a nearby farm and identify a specific disease on either a legume or a beverage plant.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture the slide and monitor the students.",
+            "- The robot needs to have knowledge about common diseases affecting legume and beverage plants.",
+            "- The robot must be able to communicate with the students or have a mechanism to record their activities.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the presence of a disease on the plant.",
+            "- The robot should recognize the type of plant affected.",
+            "- The robot should accurately name the causal organism responsible for the disease.",
+            "- The robot should verify the identification through multiple sources if possible.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Capture the slide image to understand the question and context.",
+            "2. [type=manipulation, frames=[1]] Adjust the camera angle to ensure the entire slide is within view.",
+            "3. [type=perception, frames=[1]] Analyze the slide content to identify the type of plant and the disease question.",
+            "4. [type=navigation, frames=[1]] Move to a position where.",
+            "5. [type=perception, frames=[1]] Verify/confirm the key observation before reporting.",
+            "6. [type=navigation, frames=[1]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture the slide image to understand the question and context. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Notice the need to name the causal organism of each identified plant disease.",
+          "start": 49.1,
+          "end": 52.1,
+          "segment_ids": [
+            6
+          ],
+          "frames": []
+        }
+      ]
+    },
+    {
+      "task": "Outline the fourth and final activity of the field trip.",
+      "start": 52.1,
+      "end": 62.1,
+      "subtasks": [
+        {
+          "text": "Listen to the instruction for students to find different types of weeds on the farm.",
+          "start": 52.1,
+          "end": 60.1,
+          "segment_ids": [
+            7
+          ],
+          "frames": []
+        },
+        {
+          "text": "Observe the requirement for students to create a weed album.",
+          "start": 60.1,
+          "end": 62.1,
+          "segment_ids": [
+            8
+          ],
+          "frames": [
+            {
+              "image_file": "task04_sub01_f02.jpg",
+              "relative_path": "g_m1NrIqdxc/task04_sub01_f02.jpg",
+              "caption": "The slide encourages students to learn more about practical agriculture and organic farming through a farm excursion to a commercial farm.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Students are instructed to create a weed album during their field trip, which involves identifying and documenting various weeds found on the farm.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[2]] The slide mentions the importance of learning about practical agriculture and organic farming through a farm visit.",
+            "- [frames=[2]] The slide highlights the activity where students need to create a weed album.",
+            "- [frames=[2]] The slide emphasizes the practical aspects of the field trip, focusing on hands-on learning experiences.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a presentation slide during a field trip, where students are guided to engage in an educational activity involving the identification and documentation of weeds. This activity is part of a broader learning experience aimed at enhancing their understanding of agricultural practices.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot needs to be within the vicinity of the presentation area.",
+            "- The robot should have access to a camera to capture images of the slide.",
+            "- The robot must have the capability to read and interpret text on slides.",
+            "- The robot should be able to navigate to the area where students will be working on their weed albums.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully identifies the activity of creating a weed album.",
+            "- The robot captures a clear image of the slide containing information about the weed album activity.",
+            "- The robot verifies the presence of the activity in the slide content.",
+            "- The robot ensures that the information about the weed album is accurately recorded.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[2]] Navigate to the area where the presentation slide is displayed.",
+            "2. [type=perception, frames=[2]] Use the camera to capture an image of the slide.",
+            "3. [type=perception, frames=[2]] Read the text on the slide to identify the activity of creating a weed album.",
+            "4. [type=perception, frames=[2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the area where the presentation slide is displayed. It then verifies the key detail directly from the frames (Read the text on the slide to identify the activity of creating a weed album).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

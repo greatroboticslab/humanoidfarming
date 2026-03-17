@@ -1,0 +1,405 @@
+{
+  "video_index": "ZHH0odgXBXI",
+  "title": "Tightening Fence Wire with Tool",
+  "url": "https://www.youtube.com/watch?v=ZHH0odgXBXI",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Demonstrates the process of tightening a loose strand of barbed wire using a wire tucker.",
+  "tasks": [
+    {
+      "task": "Show the process of using a wire tucker to tighten barbed wire.",
+      "start": 0.0,
+      "end": 36.22,
+      "subtasks": [
+        {
+          "text": "Observe the barbed wire that has become loose.",
+          "start": 0.0,
+          "end": 5.28,
+          "segment_ids": [
+            0
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "ZHH0odgXBXI/task00_sub00_f00.jpg",
+              "caption": "An older man with glasses and a beard is standing outdoors.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "ZHH0odgXBXI/task00_sub00_f01.jpg",
+              "caption": "An older man with glasses and a beard is standing outdoors, wearing a gray jacket and a plaid shirt.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "ZHH0odgXBXI/task00_sub00_f02.jpg",
+              "caption": "A barbed wire fence runs across a grassy field with a tree and a power line in the background.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The older man observes a section of barbed wire that has become loose on a fence, setting the stage for the next steps in tightening it.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] The older man is seen standing outdoors, dressed in a gray jacket and a plaid shirt, with glasses and a beard.",
+            "- [frames=[0,1]] He is positioned near a barbed wire fence, indicating he is about to perform maintenance.",
+            "- [frames=[2]] The barbed wire fence is visible running across a grassy field, with a tree and a power line in the background, showing the setting.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts an older man preparing to tighten a section of barbed wire on a fence. The outdoor setting suggests a rural or agricultural environment, where such fences are commonly used.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a wire tucker tool.",
+            "- The robot needs to be within range of the barbed wire fence.",
+            "- The robot should have the ability to identify and locate the loose section of wire.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the loose section of barbed wire.",
+            "- The robot should be able to approach the fence without colliding with any obstacles.",
+            "- The robot should successfully tighten the wire without causing damage to the fence or the wire.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the location of the older man and the barbed wire fence.",
+            "2. [type=perception, frames=[2]] Use a camera to verify the presence of the loose section of barbed wire.",
+            "3. [type=navigation, frames=[0,1]] Move closer to the specific area where the wire is loose.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the location of the older man and the barbed wire fence. It then verifies the key detail directly from the frames (Use a camera to verify the presence of the loose section of barbed wire).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the location of the older man and the barbed wire fence; Move closer to the specific area where the wire is loose; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 5.28,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/ZHH0odgXBXI/task00/sub00/motion.bvh",
+            "params_path": "results/momask/ZHH0odgXBXI/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Note the device called a wire tucker being prepared for use.",
+          "start": 5.28,
+          "end": 10.32,
+          "segment_ids": [
+            1
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "ZHH0odgXBXI/task00_sub01_f01.jpg",
+              "caption": "A metal hook is attached to a fence in a grassy field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "ZHH0odgXBXI/task00_sub01_f02.jpg",
+              "caption": "A person is holding a metal tool with a curved handle and a flat base, used for gardening or construction.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot observes a person preparing a wire tucker for use on a fence in a grassy field.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A metal hook is attached to a fence in a grassy field.",
+            "- [frames=[2]] A person is holding a metal tool with a curved handle and a flat base, used for gardening or construction.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a person setting up a wire tucker near a fence. The tool is likely intended to tighten barbed wire, and the metal hook suggests it will be used to secure the wire tucker to the fence.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be within reach of the wire tucker.",
+            "- The robot should have the necessary tools to interact with the wire tucker and fence.",
+            "- The robot should be aware of the location of the fence and the wire tucker.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the wire tucker.",
+            "- The robot should position itself near the wire tucker and fence.",
+            "- The robot should ensure the wire tucker is ready for use.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Scan the area to locate the wire tucker and fence.",
+            "2. [type=navigation, frames=[1]] Move towards the wire tucker and fence.",
+            "3. [type=manipulation, frames=[2]] Grasp the wire tucker with the appropriate end effector.",
+            "4. [type=perception, frames=[2]] Verify the wire tucker is securely held by cross-checking grip.",
+            "5. [type=navigation, frames=[2]] Position the wire tucker near the metal hook on the fence.",
+            "6. [type=manipulation, frames=[2]] Align the wire tucker with the fence.",
+            "7. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Scan the area to locate the wire tucker and fence. It then verifies the key detail directly from the frames (Verify the wire tucker is securely held by cross-checking grip).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move towards the wire tucker and fence; Position the wire tucker near the metal hook on the fence; Align the wire tucker with the fence; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 5.04,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/ZHH0odgXBXI/task00/sub01/motion.bvh",
+            "params_path": "results/momask/ZHH0odgXBXI/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Watch the wire tucker being attached to the fence barbed wire.",
+          "start": 10.32,
+          "end": 20.88,
+          "segment_ids": [
+            2,
+            3
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub02_f01.jpg",
+              "relative_path": "ZHH0odgXBXI/task00_sub02_f01.jpg",
+              "caption": "A person is using pliers to attach a metal piece to a fence post.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub02_f02.jpg",
+              "relative_path": "ZHH0odgXBXI/task00_sub02_f02.jpg",
+              "caption": "A person is using pliers to remove a metal hook from a barbed wire fence.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "A person is attaching a metal piece to a fence post using pliers, which is part of the process of using a wire tucker to tighten barbed wire.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A person is using pliers to attach a metal piece to a fence post.",
+            "- [frames=[2]] A person is using pliers to remove a metal hook from a barbed wire fence.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a person preparing to attach a metal piece to a fence post, likely as a step in using a wire tucker to tighten barbed wire. The removal of a metal hook suggests that the wire tucker will be used to secure the wire to the post.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be within reach of the fence post.",
+            "- The robot should have access to pliers.",
+            "- The metal piece should be available for attachment.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The metal piece is securely attached to the fence post.",
+            "- The metal hook is removed from the barbed wire fence.",
+            "- The wire tucker is ready to be used for tightening the wire.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1,2]] Inspect/verify the scene before any physical action.",
+            "2. [type=navigation, frames=[1]] Move to the location of the fence post.",
+            "3. [type=manipulation, frames=[1]] Grasp the metal piece with the robot's gripper.",
+            "4. [type=manipulation, frames=[1]] Attach the metal piece to the fence post using the robot's gripper.",
+            "5. [type=manipulation, frames=[2]] Grasp the metal hook with the robot's gripper.",
+            "6. [type=manipulation, frames=[2]] Remove the metal hook from the barbed wire fence.",
+            "7. [type=perception, frames=[2]] Verify that the metal hook.",
+            "8. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Inspect/verify the scene before any physical action. It then verifies the key detail directly from the frames (Inspect/verify the scene before any physical action).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move to the location of the fence post; Grasp the metal piece with the robot's gripper; Attach the metal piece to the fence post using the robot's gripper; Grasp the metal hook with the robot's gripper; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 10.559999999999999,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/ZHH0odgXBXI/task00/sub02/motion.bvh",
+            "params_path": "results/momask/ZHH0odgXBXI/task00/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Notice the fence barbed wire becoming tight after using the wire tucker.",
+          "start": 15.76,
+          "end": 20.88,
+          "segment_ids": [
+            3
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub03_f00.jpg",
+              "relative_path": "ZHH0odgXBXI/task00_sub03_f00.jpg",
+              "caption": "A metal hook is being held in a grassy field.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub03_f01.jpg",
+              "relative_path": "ZHH0odgXBXI/task00_sub03_f01.jpg",
+              "caption": "A person is using pliers to remove a metal hook from a barbed wire fence.",
+              "frame_index": 1
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe a person removing a metal hook from a barbed wire fence and then verify that the wire becomes tight after using a wire tucker.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A metal hook is being held in a grassy field.",
+            "- [frames=[1]] A person is using pliers to remove a metal hook from a barbed wire fence.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a person working on a barbed wire fence, removing a metal hook. The wire tucker will be used to ensure the wire is properly tightened after the hook is removed.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be within reach of the barbed wire fence.",
+            "- The robot should have access to a wire tucker tool.",
+            "- The robot should be able to identify the barbed wire and the metal hook.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The barbed wire should be visibly tighter after the wire tucker is used.",
+            "- The metal hook should be successfully removed from the wire.",
+            "- The wire should not show any signs of damage or looseness.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Move to the location of the barbed wire fence.",
+            "2. [type=perception, frames=[0,1]] Scan the area to locate the metal hook and the barbed wire.",
+            "3. [type=manipulation, frames=[1]] Use the wire tucker to tighten the barbed wire.",
+            "4. [type=perception, frames=[1]] Verify that the wire is now tighter by visually inspecting it.",
+            "5. [type=manipulation, frames=[1]] Remove the metal hook using pliers.",
+            "6. [type=perception, frames=[1]] Confirm that the metal hook is fully removed from the wire.",
+            "7. [type=navigation, frames=[0,1]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to the location of the barbed wire fence. It then verifies the key detail directly from the frames (Verify that the wire is now tighter by visually inspecting it).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move to the location of the barbed wire fence; Use the wire tucker to tighten the barbed wire; Remove the metal hook using pliers; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 5.119999999999999,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/ZHH0odgXBXI/task00/sub03/motion.bvh",
+            "params_path": "results/momask/ZHH0odgXBXI/task00/sub03/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Observe the speaker emphasizing that the wire is now as tight as a banjo string.",
+          "start": 32.54,
+          "end": 36.22,
+          "segment_ids": [
+            4
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub04_f00.jpg",
+              "relative_path": "ZHH0odgXBXI/task00_sub04_f00.jpg",
+              "caption": "A piece of barbed wire with a white metal hook attached to it.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub04_f01.jpg",
+              "relative_path": "ZHH0odgXBXI/task00_sub04_f01.jpg",
+              "caption": "A piece of barbed wire is embedded in the grass.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub04_f02.jpg",
+              "relative_path": "ZHH0odgXBXI/task00_sub04_f02.jpg",
+              "caption": "A close-up view of a barbed wire fence in a grassy field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The speaker emphasizes that the barbed wire is now as tight as a banjo string, indicating the completion of the tensioning process.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A piece of barbed wire with a white metal hook attached to it is visible.",
+            "- [frames=[1]] The barbed wire is embedded in the grass, showing its position.",
+            "- [frames=[2]] A close-up view of a barbed wire fence in a grassy field is observed.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a completed section of a barbed wire fence, where the wire has been tensioned and secured. The wire is now firmly embedded in the grass, ensuring stability and security.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be within reach of the barbed wire.",
+            "- The wire tucker tool should be ready and accessible.",
+            "- The robot should have the necessary permissions to operate in the field.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The barbed wire is as tight as a banjo string.",
+            "- The wire is securely fastened to the fence posts.",
+            "- The wire is embedded in the grass without any slack.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Move to the location of the barbed wire.",
+            "2. [type=perception, frames=[0]] Verify the presence of the barbed wire by scanning the area.",
+            "3. [type=manipulation, frames=[1]] Use the wire tucker to secure the wire to the fence post.",
+            "4. [type=manipulation, frames=[2]] Ensure the wire is tightly embedded in the grass.",
+            "5. [type=perception, frames=[2]] Confirm the wire is as tight as a banjo string by measuring the tension.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to the location of the barbed wire. It then verifies the key detail directly from the frames (Verify the presence of the barbed wire by scanning the area).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move to the location of the barbed wire; Use the wire tucker to secure the wire to the fence post; Ensure the wire is tightly embedded in the grass; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.6799999999999997,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/ZHH0odgXBXI/task00/sub04/motion.bvh",
+            "params_path": "results/momask/ZHH0odgXBXI/task00/sub04/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

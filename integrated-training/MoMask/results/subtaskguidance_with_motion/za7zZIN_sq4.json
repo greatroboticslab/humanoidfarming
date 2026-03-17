@@ -1,0 +1,1576 @@
+{
+  "video_index": "za7zZIN_sq4",
+  "title": "Summer Garden Mistakes: Watermelon Edition",
+  "url": "https://www.youtube.com/watch?v=za7zZIN_sq4",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Video describes various growing and harvesting techniques for watermelons.",
+  "tasks": [
+    {
+      "task": "Explain the common mistakes made while growing watermelons.",
+      "start": 0.56,
+      "end": 86.92,
+      "subtasks": [
+        {
+          "text": "Identify the error of overwatering watermelons during the final growth phase.",
+          "start": 0.56,
+          "end": 53.92,
+          "segment_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "za7zZIN_sq4/task00_sub00_f00.jpg",
+              "caption": "A man is tending to a watermelon patch in a garden.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "za7zZIN_sq4/task00_sub00_f01.jpg",
+              "caption": "A man in a garden is holding a large watermelon.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "za7zZIN_sq4/task00_sub00_f02.jpg",
+              "caption": "A man is kneeling in a garden, pointing to a green cabbage.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub00_f03.jpg",
+              "relative_path": "za7zZIN_sq4/task00_sub00_f03.jpg",
+              "caption": "A man is kneeling in a garden, pointing to a green cabbage.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task00_sub00_f04.jpg",
+              "relative_path": "za7zZIN_sq4/task00_sub00_f04.jpg",
+              "caption": "A man is kneeling in a garden, examining a green cabbage.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task00_sub00_f05.jpg",
+              "relative_path": "za7zZIN_sq4/task00_sub00_f05.jpg",
+              "caption": "A man is kneeling in a garden, examining a green ball.",
+              "frame_index": 5
+            },
+            {
+              "image_file": "task00_sub00_f06.jpg",
+              "relative_path": "za7zZIN_sq4/task00_sub00_f06.jpg",
+              "caption": "A person is planting a plant in a garden bed with drip irrigation.",
+              "frame_index": 6
+            },
+            {
+              "image_file": "task00_sub00_f08.jpg",
+              "relative_path": "za7zZIN_sq4/task00_sub00_f08.jpg",
+              "caption": "A man is kneeling in a garden, examining a green cabbage.",
+              "frame_index": 8
+            },
+            {
+              "image_file": "task00_sub00_f09.jpg",
+              "relative_path": "za7zZIN_sq4/task00_sub00_f09.jpg",
+              "caption": "A man is kneeling in a garden, examining a green cabbage.",
+              "frame_index": 9
+            },
+            {
+              "image_file": "task00_sub00_f10.jpg",
+              "relative_path": "za7zZIN_sq4/task00_sub00_f10.jpg",
+              "caption": "A man in a garden kneels next to a watermelon.",
+              "frame_index": 10
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should identify the mistake of overwatering watermelons during the final growth phase, explaining why it is detrimental to the plants.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A man is tending to a watermelon patch in a garden.",
+            "- [frames=[1]] A man in a garden is holding a large watermelon.",
+            "- [frames=[6]] A person is planting a plant in a garden bed with drip irrigation.",
+            "- [frames=[8]] A man is kneeling in a garden, examining a green cabbage.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from the man tending to the watermelon patch to him holding a watermelon, indicating the focus on the fruit. The mention of drip irrigation suggests a controlled watering system, which contrasts with the overwatering issue. The man’s actions of examining the cabbage further emphasize his attention to the garden's health.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- Knowledge of the watermelon growth cycle.",
+            "- Understanding of proper watering techniques.",
+            "- Familiarity with the symptoms of overwatering.",
+            "- Ability to recognize the final growth phase of watermelons.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Accurately identifying the overwatering issue.",
+            "- Explaining (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2,3,4,5,6,8,9,10]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2,3,4,5,6,8,9,10]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2,3,4,5,6,8,9,10]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2,3,4,5,6,8,9,10]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2,3,4,5,6,8,9,10]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 53.36,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/za7zZIN_sq4/task00/sub00/motion.bvh",
+            "params_path": "results/momask/za7zZIN_sq4/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Describe how overwatering can dilute the flavor of watermelons.",
+          "start": 53.92,
+          "end": 86.92,
+          "segment_ids": [
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "za7zZIN_sq4/task00_sub01_f01.jpg",
+              "caption": "A man is kneeling in a garden, pointing to a watermelon that appears to be overwatered.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "za7zZIN_sq4/task00_sub01_f02.jpg",
+              "caption": "A man is kneeling in a garden, pointing to a watermelon plant that appears to be overwatered.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub01_f03.jpg",
+              "relative_path": "za7zZIN_sq4/task00_sub01_f03.jpg",
+              "caption": "Two watermelons are growing in a field.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task00_sub01_f04.jpg",
+              "relative_path": "za7zZIN_sq4/task00_sub01_f04.jpg",
+              "caption": "A man is kneeling in a garden, pointing to a watermelon plant.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task00_sub01_f06.jpg",
+              "relative_path": "za7zZIN_sq4/task00_sub01_f06.jpg",
+              "caption": "A man is kneeling in a garden, inspecting a watermelon.",
+              "frame_index": 6
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Overwatering can significantly affect the flavor of watermelons, making them less sweet and more watery. This subtask explains why and demonstrates the effects through visual examples.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1,2]] A man is kneeling in a garden, pointing to an overwatered watermelon plant.",
+            "- [frames=[3]] Two watermelons are growing in a field, showing normal growth.",
+            "- [frames=[4]] A man is kneeling in a garden, pointing to an overwatered watermelon plant.",
+            "- [frames=[6]] A man is kneeling in a garden, inspecting an overwatered watermelon.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a man explaining the negative impact of overwatering on watermelon flavor. The overwatered plants and melons are clearly visible, highlighting their poor condition compared to healthy ones.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture and analyze images.",
+            "- The robot should have knowledge about watermelon growth and the effects of overwatering.",
+            "- The robot should be able to navigate within the garden area.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify overwatered watermelons",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2,3,4,6]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[1,2,3,4,6]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[1,2,3,4,6]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[1,2,3,4,6]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[1,2,3,4,6]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 33.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/za7zZIN_sq4/task00/sub01/motion.bvh",
+            "params_path": "results/momask/za7zZIN_sq4/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Provide guidance on pollinating watermelons.",
+      "start": 86.92,
+      "end": 152.18,
+      "subtasks": [
+        {
+          "text": "Highlight the issue of un-pollinated watermelons in the patch.",
+          "start": 86.92,
+          "end": 114.04,
+          "segment_ids": [
+            22,
+            23,
+            24,
+            25,
+            26,
+            27
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "za7zZIN_sq4/task01_sub00_f01.jpg",
+              "caption": "A man is kneeling in a garden, pointing to a watermelon plant.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "za7zZIN_sq4/task01_sub00_f02.jpg",
+              "caption": "A person is holding a small, dark object in a garden with watermelon plants.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task01_sub00_f03.jpg",
+              "relative_path": "za7zZIN_sq4/task01_sub00_f03.jpg",
+              "caption": "A man is kneeling in a garden, pointing to plants and flowers.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task01_sub00_f04.jpg",
+              "relative_path": "za7zZIN_sq4/task01_sub00_f04.jpg",
+              "caption": "A man is kneeling in a garden, with a green melon and sunflowers visible.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task01_sub00_f05.jpg",
+              "relative_path": "za7zZIN_sq4/task01_sub00_f05.jpg",
+              "caption": "A man is kneeling in a garden, pointing at a melon.",
+              "frame_index": 5
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene highlights the problem of un-pollinated watermelons in a garden, emphasizing the need for proper pollination techniques.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A man is kneeling in a garden, pointing to a watermelon plant.",
+            "- [frames=[2]] A person is holding a small, dark object in a garden with watermelon plants.",
+            "- [frames=[3]] A man is kneeling in a garden, pointing to plants and flowers.",
+            "- [frames=[4]] A man is kneeling in a garden, with a green melon and sunflowers visible.",
+            "- [frames=[5]] A man is kneeling in a garden, pointing at a melon.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The video shows a man in a garden, likely demonstrating the issue of un-pollinated watermelons. He points out various elements such as watermelon plants, flowers, and a green melon, indicating the need for attention to pollination.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be able to recognize watermelon plants and flowers.",
+            "- It must understand the concept of pollination.",
+            "- The robot needs to know how to interact with plants and flowers.",
+            "- The robot should have the ability to (completed).",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- (auto-filled) Robot completes the subtask and reports outcomes.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2,3,4,5]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[1,2,3,4,5]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[1,2,3,4,5]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[1,2,3,4,5]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[1,2,3,4,5]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 27.120000000000005,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/za7zZIN_sq4/task01/sub00/motion.bvh",
+            "params_path": "results/momask/za7zZIN_sq4/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Explain the hand pollination method.",
+          "start": 114.04,
+          "end": 122.74,
+          "segment_ids": [
+            28,
+            29
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "za7zZIN_sq4/task01_sub01_f01.jpg",
+              "caption": "A man is kneeling in a garden with sunflowers and melons.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "za7zZIN_sq4/task01_sub01_f02.jpg",
+              "caption": "A man is kneeling in a garden with sunflowers and a melon.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will demonstrate the hand pollination method for watermelons, showing how to transfer pollen from male to female flowers.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] The man is kneeling in a garden surrounded by sunflowers and melons.",
+            "- [frames=[2]] The man is focusing on a single watermelon plant, likely preparing to perform the pollination.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a typical summer garden setting with sunflowers and watermelons. The man is engaged in a task that involves close interaction with the plants, specifically targeting the watermelon flowers.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture the environment.",
+            "- It must have the ability to recognize and distinguish between male and female watermelon flowers.",
+            "- The robot needs to be able to manipulate its arms to touch and collect pollen from the flowers.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully identifies and touches the male flower to collect pollen.",
+            "- It accurately transfers the pollen to the stigma of the female flower.",
+            "- The robot completes the process without damaging the flowers.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2]] Navigates to the.",
+            "2. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "3. [type=perception, frames=[1,2]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigates to the. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigates to the; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 8.699999999999989,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/za7zZIN_sq4/task01/sub01/motion.bvh",
+            "params_path": "results/momask/za7zZIN_sq4/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Show the automatic pollination setup using sunflowers.",
+          "start": 122.74,
+          "end": 152.18,
+          "segment_ids": [
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub02_f01.jpg",
+              "relative_path": "za7zZIN_sq4/task01_sub02_f01.jpg",
+              "caption": "A man is kneeling in a garden with sunflowers and melons.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub02_f02.jpg",
+              "relative_path": "za7zZIN_sq4/task01_sub02_f02.jpg",
+              "caption": "A man is kneeling in a garden with sunflowers and melons.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task01_sub02_f03.jpg",
+              "relative_path": "za7zZIN_sq4/task01_sub02_f03.jpg",
+              "caption": "A man in a garden with a melon and sunflowers.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task01_sub02_f04.jpg",
+              "relative_path": "za7zZIN_sq4/task01_sub02_f04.jpg",
+              "caption": "A man is kneeling in a garden with a melon and sunflowers.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task01_sub02_f05.jpg",
+              "relative_path": "za7zZIN_sq4/task01_sub02_f05.jpg",
+              "caption": "A man is kneeling in a garden, with a sign that reads \"DISRESPECTING THE NAME.\"",
+              "frame_index": 5
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "A man demonstrates an automatic pollination setup using sunflowers in a garden setting.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1,2]] The man is kneeling in a garden with sunflowers and melons.",
+            "- [frames=[3,4]] The man continues his demonstration with sunflowers and a melon.",
+            "- [frame=5] A sign reading \"DISRESPECTING THE NAME\" is visible.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a man performing a demonstration in a garden, focusing on an automatic pollination method involving sunflowers. The presence of a sign suggests there might be a humorous or cautionary element to the demonstration.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the garden environment.",
+            "- The robot needs to recognize sunflowers and melons.",
+            "- The robot should know how to navigate through the garden.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should verify the presence of sunflowers and melons.",
+            "- The robot should confirm the automatic pollination setup is functioning correctly.",
+            "- The robot should check that the demonstration area is safe for further interaction.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1,2]] Identify the sunflowers.",
+            "2. [type=perception, frames=[1,2,3,4,5]] Verify/confirm the key observation before reporting.",
+            "3. [type=perception, frames=[1,2,3,4,5]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[1,2,3,4,5]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[1,2,3,4,5]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the sunflowers. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 29.440000000000012,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/za7zZIN_sq4/task01/sub02/motion.bvh",
+            "params_path": "results/momask/za7zZIN_sq4/task01/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Offer advice on proper watering techniques.",
+      "start": 152.44,
+      "end": 210.52,
+      "subtasks": [
+        {
+          "text": "Discuss the need for creating mounds and depressions for watering.",
+          "start": 152.44,
+          "end": 199.06,
+          "segment_ids": [
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f00.jpg",
+              "relative_path": "za7zZIN_sq4/task02_sub00_f00.jpg",
+              "caption": "A man is kneeling in a garden, with the words \"DISRESPECTING THE NAME\" overlaid.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "za7zZIN_sq4/task02_sub00_f01.jpg",
+              "caption": "A video shows a field with watermelons and tomatoes, with a caption that reads \"DISRESPECTING THE NAME.\"",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "za7zZIN_sq4/task02_sub00_f02.jpg",
+              "caption": "A watermelon patch with some plants and leaves around it.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task02_sub00_f03.jpg",
+              "relative_path": "za7zZIN_sq4/task02_sub00_f03.jpg",
+              "caption": "A man is kneeling in a garden with a watermelon plant.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task02_sub00_f05.jpg",
+              "relative_path": "za7zZIN_sq4/task02_sub00_f05.jpg",
+              "caption": "A man is tending to a garden with a watermelon plant.",
+              "frame_index": 5
+            },
+            {
+              "image_file": "task02_sub00_f06.jpg",
+              "relative_path": "za7zZIN_sq4/task02_sub00_f06.jpg",
+              "caption": "A man is kneeling in a garden with a watermelon plant.",
+              "frame_index": 6
+            },
+            {
+              "image_file": "task02_sub00_f07.jpg",
+              "relative_path": "za7zZIN_sq4/task02_sub00_f07.jpg",
+              "caption": "A man is kneeling in a garden, inspecting a watermelon plant.",
+              "frame_index": 7
+            },
+            {
+              "image_file": "task02_sub00_f08.jpg",
+              "relative_path": "za7zZIN_sq4/task02_sub00_f08.jpg",
+              "caption": "A man is kneeling in a garden with a watermelon plant.",
+              "frame_index": 8
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should explain the importance of creating mounds and depressions for proper watering of watermelon plants, using visual cues from the tutorial video.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A man is kneeling in a garden, with the words \"DISRESPECTING THE NAME\" overlaid.",
+            "- [frames=[1]] A video shows a field with watermelons and tomatoes, with a caption that reads \"DISRESPECTING THE NAME.\"",
+            "- [frames=[2]] A watermelon patch with some plants and leaves around it.",
+            "- [frames=[3,5,6,7,8]] A man is kneeling in a garden with a watermelon plant, inspecting and tending to it.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a man in a garden, focusing on a watermelon plant. The presence of mounds and depressions is implied through the man's actions and the context of the video.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- Knowledge of proper watering techniques for watermelon plants.",
+            "- Understanding of the importance of soil structure for water retention.",
+            "- Familiarity with the concept of mounds and depressions in gardening.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2,3,5,6,7,8]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2,3,5,6,7,8]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2,3,5,6,7,8]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2,3,5,6,7,8]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2,3,5,6,7,8]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 46.620000000000005,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/za7zZIN_sq4/task02/sub00/motion.bvh",
+            "params_path": "results/momask/za7zZIN_sq4/task02/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Mention the importance of mulching to retain moisture.",
+          "start": 199.06,
+          "end": 210.52,
+          "segment_ids": [
+            48,
+            49,
+            50
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub01_f02.jpg",
+              "relative_path": "za7zZIN_sq4/task02_sub01_f02.jpg",
+              "caption": "A man is tending to a garden with a watermelon plant.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will explain the importance of mulching to retain moisture for watermelon plants, based on observations from a man tending to a garden.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[2]] A man is seen tending to a garden with a watermelon plant.",
+            "- The man is using tools such as a hoe and a watering can.",
+            "- [frames=[2]] The watermelon plant is visible, showing signs of growth.",
+            "- The garden area around the watermelon plant is bare soil.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a man actively gardening, specifically focusing on a watermelon plant. The lack of mulch around the plant suggests that the topic of mulching could be relevant to improve the plant's moisture retention.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to observe the garden.",
+            "- The robot should have knowledge about gardening practices, including the benefits of mulching.",
+            "- The robot should be able to communicate effectively with the viewer.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should mention the importance of mulching.",
+            "- The robot should provide a clear explanation of how mulching helps retain moisture.",
+            "- The robot should ensure the viewer understands the benefits of mulching for watermelon",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 11.460000000000008,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/za7zZIN_sq4/task02/sub01/motion.bvh",
+            "params_path": "results/momask/za7zZIN_sq4/task02/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Describe the common mistakes in fruit formation.",
+      "start": 210.52,
+      "end": 346.36,
+      "subtasks": [
+        {
+          "text": "Identify the issue of overcrowding in planting.",
+          "start": 210.52,
+          "end": 230.28,
+          "segment_ids": [
+            51,
+            52,
+            53,
+            54
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub00_f01.jpg",
+              "relative_path": "za7zZIN_sq4/task03_sub00_f01.jpg",
+              "caption": "A man is kneeling in a garden with a watermelon plant.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub00_f02.jpg",
+              "relative_path": "za7zZIN_sq4/task03_sub00_f02.jpg",
+              "caption": "A man is pointing to a watermelon plant in a garden, with the caption \"Crowding Out.\"",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task03_sub00_f03.jpg",
+              "relative_path": "za7zZIN_sq4/task03_sub00_f03.jpg",
+              "caption": "A man is standing in a garden with a Beni Kodama watermelon plant.",
+              "frame_index": 3
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on identifying the issue of overcrowding in planting, which can affect fruit formation in watermelons. The robot will observe and describe this problem based on the given frames.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A man is kneeling in a garden with a watermelon plant.",
+            "- [frames=[2]] A man is pointing to a watermelon plant in a garden, with the caption \"Crowding Out.\"",
+            "- [frames=[3]] A man is standing in a garden with a Beni Kodama watermelon plant.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a man explaining the issue of overcrowding in a garden setting, specifically mentioning it affects watermelon plants. The man points out the problem, indicating that too many plants in a small area can hinder their growth and fruit formation.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture and analyze the garden scenes.",
+            "- The robot needs to have knowledge about the different types of watermelon plants, such as Beni Kodama.",
+            "- The robot should be able to recognize and understand the concept of overcrowding in plants.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the issue of overcrowding.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2,3]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[1,2,3]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[1,2,3]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[1,2,3]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[1,2,3]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 19.75999999999999,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/za7zZIN_sq4/task03/sub00/motion.bvh",
+            "params_path": "results/momask/za7zZIN_sq4/task03/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Explain planting watermelon in the wrong season.",
+          "start": 230.36,
+          "end": 346.36,
+          "segment_ids": [
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub01_f00.jpg",
+              "relative_path": "za7zZIN_sq4/task03_sub01_f00.jpg",
+              "caption": "A man is sitting in a garden with a watermelon plant and is talking about it.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task03_sub01_f01.jpg",
+              "relative_path": "za7zZIN_sq4/task03_sub01_f01.jpg",
+              "caption": "A man is sitting in a garden with watermelons growing nearby.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub01_f02.jpg",
+              "relative_path": "za7zZIN_sq4/task03_sub01_f02.jpg",
+              "caption": "A man in a garden pointing at watermelons.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task03_sub01_f03.jpg",
+              "relative_path": "za7zZIN_sq4/task03_sub01_f03.jpg",
+              "caption": "A man is standing in a garden with watermelons and is talking.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task03_sub01_f04.jpg",
+              "relative_path": "za7zZIN_sq4/task03_sub01_f04.jpg",
+              "caption": "A man in a garden points to watermelons growing in the dirt.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task03_sub01_f05.jpg",
+              "relative_path": "za7zZIN_sq4/task03_sub01_f05.jpg",
+              "caption": "A man is standing in a garden with watermelons and is talking.",
+              "frame_index": 5
+            },
+            {
+              "image_file": "task03_sub01_f06.jpg",
+              "relative_path": "za7zZIN_sq4/task03_sub01_f06.jpg",
+              "caption": "A man is pointing at watermelons growing in a garden.",
+              "frame_index": 6
+            },
+            {
+              "image_file": "task03_sub01_f07.jpg",
+              "relative_path": "za7zZIN_sq4/task03_sub01_f07.jpg",
+              "caption": "A man points to watermelons growing in a garden.",
+              "frame_index": 7
+            },
+            {
+              "image_file": "task03_sub01_f08.jpg",
+              "relative_path": "za7zZIN_sq4/task03_sub01_f08.jpg",
+              "caption": "A man is sitting in a garden with watermelons and irrigation pipes.",
+              "frame_index": 8
+            },
+            {
+              "image_file": "task03_sub01_f09.jpg",
+              "relative_path": "za7zZIN_sq4/task03_sub01_f09.jpg",
+              "caption": "A man is kneeling in a garden with a watermelon.",
+              "frame_index": 9
+            },
+            {
+              "image_file": "task03_sub01_f11.jpg",
+              "relative_path": "za7zZIN_sq4/task03_sub01_f11.jpg",
+              "caption": "A man is kneeling in a garden, looking at a watermelon.",
+              "frame_index": 11
+            },
+            {
+              "image_file": "task03_sub01_f12.jpg",
+              "relative_path": "za7zZIN_sq4/task03_sub01_f12.jpg",
+              "caption": "A man is kneeling in a garden with a large cabbage.",
+              "frame_index": 12
+            },
+            {
+              "image_file": "task03_sub01_f13.jpg",
+              "relative_path": "za7zZIN_sq4/task03_sub01_f13.jpg",
+              "caption": "A man is kneeling in a garden, pointing to a green cabbage.",
+              "frame_index": 13
+            },
+            {
+              "image_file": "task03_sub01_f14.jpg",
+              "relative_path": "za7zZIN_sq4/task03_sub01_f14.jpg",
+              "caption": "A man is kneeling in a garden, pointing to a large cabbage.",
+              "frame_index": 14
+            },
+            {
+              "image_file": "task03_sub01_f15.jpg",
+              "relative_path": "za7zZIN_sq4/task03_sub01_f15.jpg",
+              "caption": "A man is kneeling in a garden with a watermelon.",
+              "frame_index": 15
+            },
+            {
+              "image_file": "task03_sub01_f16.jpg",
+              "relative_path": "za7zZIN_sq4/task03_sub01_f16.jpg",
+              "caption": "A man is kneeling in a garden, pointing at a watermelon.",
+              "frame_index": 16
+            },
+            {
+              "image_file": "task03_sub01_f17.jpg",
+              "relative_path": "za7zZIN_sq4/task03_sub01_f17.jpg",
+              "caption": "A man is kneeling in a garden with a watermelon.",
+              "frame_index": 17
+            },
+            {
+              "image_file": "task03_sub01_f18.jpg",
+              "relative_path": "za7zZIN_sq4/task03_sub01_f18.jpg",
+              "caption": "A man in a garden is kneeling next to a watermelon.",
+              "frame_index": 18
+            },
+            {
+              "image_file": "task03_sub01_f19.jpg",
+              "relative_path": "za7zZIN_sq4/task03_sub01_f19.jpg",
+              "caption": "A person is kneeling in a garden, next to a large watermelon.",
+              "frame_index": 19
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The man discusses the mistake of planting watermelon in the wrong season, using examples from his garden.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The man is sitting in a garden with a watermelon plant, explaining the issue.",
+            "- [frames=[1,2]] The man is in a garden with watermelons growing nearby, pointing at them.",
+            "- [frames=[3,4,5,6,7]] The man stands in a garden, pointing to and discussing the watermelons growing in the dirt.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The man is clearly in a garden setting, surrounded by watermelons at various stages of growth. He uses his hands to point towards the plants while speaking about the common mistake of planting watermelon in an unsuitable season.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be able to recognize a garden setting.",
+            "- It must identify watermelon plants and their growth stages.",
+            "- The robot needs to understand human speech and gestures.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot correctly identifies the man's explanation of the mistake.",
+            "- It comprehends the context of the garden and the watermelons.",
+            "- The robot can accurately describe the mistake of planting watermelon in the wrong",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 116.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/za7zZIN_sq4/task03/sub01/motion.bvh",
+            "params_path": "results/momask/za7zZIN_sq4/task03/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Provide guidance on harvesting watermelons.",
+      "start": 346.6,
+      "end": 440.77,
+      "subtasks": [
+        {
+          "text": "Demonstrate the thump test for determining ripeness.",
+          "start": 346.6,
+          "end": 415.59,
+          "segment_ids": [
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96
+          ],
+          "frames": [
+            {
+              "image_file": "task04_sub00_f00.jpg",
+              "relative_path": "za7zZIN_sq4/task04_sub00_f00.jpg",
+              "caption": "A person is kneeling in a garden, next to a large green watermelon.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task04_sub00_f01.jpg",
+              "relative_path": "za7zZIN_sq4/task04_sub00_f01.jpg",
+              "caption": "A man is kneeling in a garden with a large watermelon.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task04_sub00_f02.jpg",
+              "relative_path": "za7zZIN_sq4/task04_sub00_f02.jpg",
+              "caption": "A man is kneeling in a garden, holding a large green vegetable.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task04_sub00_f03.jpg",
+              "relative_path": "za7zZIN_sq4/task04_sub00_f03.jpg",
+              "caption": "A man in a garden is pointing to a watermelon.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task04_sub00_f04.jpg",
+              "relative_path": "za7zZIN_sq4/task04_sub00_f04.jpg",
+              "caption": "A man in a field is pointing to a watermelon.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task04_sub00_f05.jpg",
+              "relative_path": "za7zZIN_sq4/task04_sub00_f05.jpg",
+              "caption": "A man in a garden is holding a watermelon.",
+              "frame_index": 5
+            },
+            {
+              "image_file": "task04_sub00_f06.jpg",
+              "relative_path": "za7zZIN_sq4/task04_sub00_f06.jpg",
+              "caption": "A hand is touching a large, green watermelon in a garden.",
+              "frame_index": 6
+            },
+            {
+              "image_file": "task04_sub00_f07.jpg",
+              "relative_path": "za7zZIN_sq4/task04_sub00_f07.jpg",
+              "caption": "A person is touching a large watermelon in a garden.",
+              "frame_index": 7
+            },
+            {
+              "image_file": "task04_sub00_f08.jpg",
+              "relative_path": "za7zZIN_sq4/task04_sub00_f08.jpg",
+              "caption": "A person is reaching for a watermelon in a garden.",
+              "frame_index": 8
+            },
+            {
+              "image_file": "task04_sub00_f09.jpg",
+              "relative_path": "za7zZIN_sq4/task04_sub00_f09.jpg",
+              "caption": "A hand is touching a watermelon in a garden.",
+              "frame_index": 9
+            },
+            {
+              "image_file": "task04_sub00_f10.jpg",
+              "relative_path": "za7zZIN_sq4/task04_sub00_f10.jpg",
+              "caption": "A man is kneeling in a garden, examining a watermelon.",
+              "frame_index": 10
+            },
+            {
+              "image_file": "task04_sub00_f11.jpg",
+              "relative_path": "za7zZIN_sq4/task04_sub00_f11.jpg",
+              "caption": "A man is kneeling in a garden, pointing to a watermelon and a cantaloupe.",
+              "frame_index": 11
+            },
+            {
+              "image_file": "task04_sub00_f12.jpg",
+              "relative_path": "za7zZIN_sq4/task04_sub00_f12.jpg",
+              "caption": "A man is kneeling in a garden, pointing to a watermelon and a cantaloupe.",
+              "frame_index": 12
+            },
+            {
+              "image_file": "task04_sub00_f13.jpg",
+              "relative_path": "za7zZIN_sq4/task04_sub00_f13.jpg",
+              "caption": "A man is kneeling in a garden with a large cantaloupe and a watermelon.",
+              "frame_index": 13
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will demonstrate the thump test to determine the ripeness of a watermelon in a garden setting.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A man is kneeling in a garden, next to a large green watermelon.",
+            "- [frames=[2]] A man is holding a large green vegetable, which appears to be a watermelon.",
+            "- [frames=[3,4]] The man points to a watermelon in a garden.",
+            "- [frames=[5]] The man is holding a watermelon.",
+            "- [frames=[6,7]] A hand is touching a large, green watermelon in a garden.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a man in a garden demonstrating the thump test on a watermelon. He kneels down, picks up the watermelon, and then touches it with his hand.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be able to recognize a watermelon.",
+            "- The robot must have the capability to kneel down.",
+            "- The robot needs to be able to touch objects with its hand.",
+            "- The robot should be aware of the context of a garden setting.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully picks up the watermelon.",
+            "- The (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2,3,4,5,6,7,8,9,10,11,12,13]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2,3,4,5,6,7,8,9,10,11,12,13]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2,3,4,5,6,7,8,9,10,11,12,13]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2,3,4,5,6,7,8,9,10,11,12,13]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2,3,4,5,6,7,8,9,10,11,12,13]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 68.98999999999995,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/za7zZIN_sq4/task04/sub00/motion.bvh",
+            "params_path": "results/momask/za7zZIN_sq4/task04/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Explain how to assess ripeness by checking stripe patterns.",
+          "start": 415.93,
+          "end": 440.77,
+          "segment_ids": [
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103
+          ],
+          "frames": [
+            {
+              "image_file": "task04_sub01_f00.jpg",
+              "relative_path": "za7zZIN_sq4/task04_sub01_f00.jpg",
+              "caption": "A man in a garden with a watermelon.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task04_sub01_f01.jpg",
+              "relative_path": "za7zZIN_sq4/task04_sub01_f01.jpg",
+              "caption": "A person is tending to an orange glo watermelon in a garden.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task04_sub01_f02.jpg",
+              "relative_path": "za7zZIN_sq4/task04_sub01_f02.jpg",
+              "caption": "A person is holding a watermelon in a garden.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task04_sub01_f03.jpg",
+              "relative_path": "za7zZIN_sq4/task04_sub01_f03.jpg",
+              "caption": "A person is holding a watermelon in a garden.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task04_sub01_f04.jpg",
+              "relative_path": "za7zZIN_sq4/task04_sub01_f04.jpg",
+              "caption": "A person is tending to a watermelon plant in a garden.",
+              "frame_index": 4
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will guide the viewer on assessing the ripeness of a watermelon by observing its stripe patterns. This involves identifying specific visual cues that indicate when the watermelon is ready for harvest.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A man in a garden is shown with a watermelon, indicating the presence of a watermelon in the scene.",
+            "- [frames=[2,3]] A person is holding a watermelon in a garden, showing the watermelon's appearance and the person’s interaction with it.",
+            "- [frames=[4]] Another person is tending to a watermelon plant, suggesting the context of a garden setting.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a garden where a watermelon is being handled and observed. The robot needs to focus on the watermelon's appearance, particularly its stripes, to provide accurate guidance on ripeness.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture images of the watermelon.",
+            "- The robot should have knowledge about the typical stripe patterns of ripe watermelons.",
+            "- The robot should be able to communicate with the user effectively.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the ripeness of the water",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2,3,4]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2,3,4]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2,3,4]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2,3,4]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2,3,4]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 24.839999999999975,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/za7zZIN_sq4/task04/sub01/motion.bvh",
+            "params_path": "results/momask/za7zZIN_sq4/task04/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Offer a final tip on identifying watermelon readiness.",
+      "start": 440.81,
+      "end": 558.84,
+      "subtasks": [
+        {
+          "text": "Describe the importance of checking the field spot.",
+          "start": 440.81,
+          "end": 501.14,
+          "segment_ids": [
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118
+          ],
+          "frames": [
+            {
+              "image_file": "task05_sub00_f01.jpg",
+              "relative_path": "za7zZIN_sq4/task05_sub00_f01.jpg",
+              "caption": "A person is holding a large, green melon in a garden.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task05_sub00_f02.jpg",
+              "relative_path": "za7zZIN_sq4/task05_sub00_f02.jpg",
+              "caption": "A person is holding a large, green melon in a garden.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task05_sub00_f03.jpg",
+              "relative_path": "za7zZIN_sq4/task05_sub00_f03.jpg",
+              "caption": "A person is inspecting a large, green melon in a garden.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task05_sub00_f04.jpg",
+              "relative_path": "za7zZIN_sq4/task05_sub00_f04.jpg",
+              "caption": "A person is cutting a watermelon in a garden.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task05_sub00_f05.jpg",
+              "relative_path": "za7zZIN_sq4/task05_sub00_f05.jpg",
+              "caption": "A man in a garden holds a large, green fruit.",
+              "frame_index": 5
+            },
+            {
+              "image_file": "task05_sub00_f06.jpg",
+              "relative_path": "za7zZIN_sq4/task05_sub00_f06.jpg",
+              "caption": "A man in a backyard holds a large, green melon while standing next to a wooden chair.",
+              "frame_index": 6
+            },
+            {
+              "image_file": "task05_sub00_f07.jpg",
+              "relative_path": "za7zZIN_sq4/task05_sub00_f07.jpg",
+              "caption": "A man is standing in a garden, holding a large watermelon on a wooden chair.",
+              "frame_index": 7
+            },
+            {
+              "image_file": "task05_sub00_f08.jpg",
+              "relative_path": "za7zZIN_sq4/task05_sub00_f08.jpg",
+              "caption": "A man is cutting a watermelon on a wooden chair in a garden.",
+              "frame_index": 8
+            },
+            {
+              "image_file": "task05_sub00_f09.jpg",
+              "relative_path": "za7zZIN_sq4/task05_sub00_f09.jpg",
+              "caption": "A man is sitting on a wooden chair in a garden, holding a large watermelon.",
+              "frame_index": 9
+            },
+            {
+              "image_file": "task05_sub00_f10.jpg",
+              "relative_path": "za7zZIN_sq4/task05_sub00_f10.jpg",
+              "caption": "A man is cutting a watermelon on a wooden chair in a garden.",
+              "frame_index": 10
+            },
+            {
+              "image_file": "task05_sub00_f11.jpg",
+              "relative_path": "za7zZIN_sq4/task05_sub00_f11.jpg",
+              "caption": "A man is holding a watermelon that has been cut in half.",
+              "frame_index": 11
+            },
+            {
+              "image_file": "task05_sub00_f12.jpg",
+              "relative_path": "za7zZIN_sq4/task05_sub00_f12.jpg",
+              "caption": "A man in a garden holds a watermelon in one hand and a half-cut watermelon in the other.",
+              "frame_index": 12
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should guide viewers on how to check the field spot on a watermelon to determine its readiness for harvest.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1,2]] A person is holding a large, green melon in a garden.",
+            "- [frames=[3]] A person is inspecting a large, green melon in a garden.",
+            "- [frames=[4]] A person is cutting a watermelon in a garden.",
+            "- [frames=[5,6]] A man in a garden holds a large, green fruit.",
+            "- [frames=[7,8]] A man is standing in a garden, holding a large watermelon on a wooden chair.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene involves a garden setting where a person is handling and inspecting watermelons. The focus is on identifying the readiness of a watermelon by checking the field spot.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture images of the watermelon.",
+            "- The robot should have knowledge about the characteristics of a ripe watermelon.",
+            "- The robot should be able to communicate with the viewer effectively.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the field spot on the watermelon.",
+            "- The (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2,3,4,5,6,7,8,9,10,11,12]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[1,2,3,4,5,6,7,8,9,10,11,12]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[1,2,3,4,5,6,7,8,9,10,11,12]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[1,2,3,4,5,6,7,8,9,10,11,12]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[1,2,3,4,5,6,7,8,9,10,11,12]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 60.329999999999984,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/za7zZIN_sq4/task05/sub00/motion.bvh",
+            "params_path": "results/momask/za7zZIN_sq4/task05/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Show the cutting and tasting process to confirm ripeness.",
+          "start": 501.34,
+          "end": 558.84,
+          "segment_ids": [
+            119,
+            120,
+            121,
+            122,
+            123,
+            124,
+            125,
+            126
+          ],
+          "frames": [
+            {
+              "image_file": "task05_sub01_f00.jpg",
+              "relative_path": "za7zZIN_sq4/task05_sub01_f00.jpg",
+              "caption": "A man in a garden holds a watermelon in one hand and a half-cut watermelon in the other.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task05_sub01_f01.jpg",
+              "relative_path": "za7zZIN_sq4/task05_sub01_f01.jpg",
+              "caption": "A man in a backyard setting, standing next to a wooden chair and a watermelon.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task05_sub01_f02.jpg",
+              "relative_path": "za7zZIN_sq4/task05_sub01_f02.jpg",
+              "caption": "A man in a garden is sitting on a chair and eating a watermelon.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task05_sub01_f03.jpg",
+              "relative_path": "za7zZIN_sq4/task05_sub01_f03.jpg",
+              "caption": "A man is holding a slice of watermelon in a garden.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task05_sub01_f04.jpg",
+              "relative_path": "za7zZIN_sq4/task05_sub01_f04.jpg",
+              "caption": "A man in a backyard holds a watermelon.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task05_sub01_f05.jpg",
+              "relative_path": "za7zZIN_sq4/task05_sub01_f05.jpg",
+              "caption": "A man in a backyard holds a watermelon.",
+              "frame_index": 5
+            },
+            {
+              "image_file": "task05_sub01_f06.jpg",
+              "relative_path": "za7zZIN_sq4/task05_sub01_f06.jpg",
+              "caption": "A man in a garden eats a watermelon with a spoon.",
+              "frame_index": 6
+            },
+            {
+              "image_file": "task05_sub01_f07.jpg",
+              "relative_path": "za7zZIN_sq4/task05_sub01_f07.jpg",
+              "caption": "A man in a garden is cutting a watermelon.",
+              "frame_index": 7
+            },
+            {
+              "image_file": "task05_sub01_f08.jpg",
+              "relative_path": "za7zZIN_sq4/task05_sub01_f08.jpg",
+              "caption": "A man is holding a bowl of watermelon in a backyard.",
+              "frame_index": 8
+            },
+            {
+              "image_file": "task05_sub01_f09.jpg",
+              "relative_path": "za7zZIN_sq4/task05_sub01_f09.jpg",
+              "caption": "A man is holding a watermelon in a backyard.",
+              "frame_index": 9
+            },
+            {
+              "image_file": "task05_sub01_f10.jpg",
+              "relative_path": "za7zZIN_sq4/task05_sub01_f10.jpg",
+              "caption": "A man in a backyard holds a watermelon.",
+              "frame_index": 10
+            },
+            {
+              "image_file": "task05_sub01_f11.jpg",
+              "relative_path": "za7zZIN_sq4/task05_sub01_f11.jpg",
+              "caption": "A man is holding a watermelon in a backyard.",
+              "frame_index": 11
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe a man cutting and tasting a watermelon to confirm its ripeness, providing a final tip for viewers.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] The man holds a watermelon and a half-cut watermelon, indicating he has already started the cutting process.",
+            "- [frames=[2,3]] The man sits on a chair and eats a watermelon slice, showing the taste test.",
+            "- [frames=[4,5]] The man holds a whole watermelon, suggesting he might be about to start the cutting process again.",
+            "- [frames=[6,7]] The man cuts a watermelon, likely to check its ripeness by tasting it.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a man in a garden or backyard setting, performing a watermelon ripeness test through cutting and tasting. The man's actions suggest he is demonstrating how to verify if a watermelon is ripe.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to observe the man's actions.",
+            "- The robot needs to be able to navigate to the area where the man is located.",
+            "- The robot should have the capability to communicate with the viewer.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2,3,4,5,6,7,8,9,10,11]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2,3,4,5,6,7,8,9,10,11]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2,3,4,5,6,7,8,9,10,11]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2,3,4,5,6,7,8,9,10,11]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2,3,4,5,6,7,8,9,10,11]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 57.50000000000006,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/za7zZIN_sq4/task05/sub01/motion.bvh",
+            "params_path": "results/momask/za7zZIN_sq4/task05/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

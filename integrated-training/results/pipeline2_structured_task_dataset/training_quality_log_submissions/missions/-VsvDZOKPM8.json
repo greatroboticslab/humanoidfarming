@@ -1,0 +1,181 @@
+{
+  "mission_id": "-VsvDZOKPM8",
+  "mission_title": "Farmers Train for Success in Agriculture",
+  "url": "https://www.youtube.com/watch?v=-VsvDZOKPM8",
+  "artifacts_present": {
+    "thread_logic": true,
+    "coherent_blocks_with_submissions": true,
+    "task_blueprint": true,
+    "coherence_report": true
+  },
+  "checks": {
+    "logical_check": {
+      "status": "fail",
+      "num_issues": 1,
+      "issue_type_counts": {
+        "needs_repair": 1
+      },
+      "sample_issues": [
+        {
+          "thread_index": 1,
+          "type": "needs_repair",
+          "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+        }
+      ]
+    },
+    "coherence_check": {
+      "status": "pass",
+      "num_issues": 0,
+      "issue_type_counts": {},
+      "sample_issues": []
+    }
+  },
+  "sub_missions": [
+    {
+      "sub_mission_id": "-VsvDZOKPM8_subm0",
+      "sub_mission_title": "Theme: agricultural / business / covered",
+      "block_id": 0,
+      "time_start": 0.0,
+      "time_end": 23.8,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "Explain the goals of the five-week training programme.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "-VsvDZOKPM8_subm1",
+      "sub_mission_title": "Theme: agricultural / attitude / barry",
+      "block_id": 1,
+      "time_start": 23.8,
+      "time_end": 59.16,
+      "issues_detected": true,
+      "checks": {
+        "logical_check": {
+          "status": "fail",
+          "num_issues": 1,
+          "issue_type_counts": {
+            "needs_repair": 1
+          },
+          "sample_issues": [
+            {
+              "thread_index": 1,
+              "type": "needs_repair",
+              "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+            }
+          ]
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "pending",
+      "final_status": "pending_entry",
+      "used_for_training": false,
+      "tasks": [
+        {
+          "task_index": 1,
+          "task_text": "Discuss the importance of knowledge sharing and networking among farmers.",
+          "status": "fail"
+        },
+        {
+          "task_index": 2,
+          "task_text": "Highlight the role of education and attitude in achieving success.",
+          "status": "fail"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "-VsvDZOKPM8_subm2",
+      "sub_mission_title": "Theme: advantage / ambassador / chen",
+      "block_id": 2,
+      "time_start": 84.64,
+      "time_end": 126.68,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 3,
+          "task_text": "Explain the significance of a training programme in a successful project.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "-VsvDZOKPM8_subm3",
+      "sub_mission_title": "Theme: certified / farmers / have",
+      "block_id": 3,
+      "time_start": 126.88,
+      "time_end": 138.16,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 4,
+          "task_text": "Detail the outcomes of the training programme.",
+          "status": "pass"
+        }
+      ]
+    }
+  ],
+  "mission_rollup": {
+    "num_sub_missions": 4,
+    "num_successful_entries": 3,
+    "all_successful": false
+  }
+}

@@ -1,0 +1,44 @@
+GLOBAL_SUMMARY:
+
+The robot will navigate through a workspace to check a drip irrigation line for clogs and leaks, ensuring the system operates efficiently.
+
+FRAME_BASED_OBSERVATIONS:
+
+None (text-only mode; no frames provided).
+
+INTEGRATED_SCENE_UNDERSTANDING:
+
+The robot needs to inspect a drip irrigation line, which runs along the perimeter of the task area. The line consists of small tubes with evenly spaced emitters. Potential issues include clogs blocking water flow and leaks causing water loss.
+
+PRECONDITIONS_FOR_ROBOT:
+
+- The robot has access to a tool kit containing cleaning brushes and repair kits.
+- The robot can move freely within the workspace.
+- The robot has sensors capable of detecting moisture levels and visual inspection capabilities.
+- The robot knows the location of the drip irrigation line.
+
+SUCCESS_CRITERIA:
+
+- No clogs detected in the irrigation line.
+- No leaks found in the irrigation line.
+- The irrigation line is clean and free-flowing.
+- The robot can confirm the absence of any blockages or leaks.
+
+ORDERED_ROBOT_ACTION_STEPS:
+1. [type=navigation] Move to the starting point of the drip irrigation line.
+2. [type=perception] Use visual sensors to scan the first section of the irrigation line.
+3. [type=manipulation] Extend a cleaning brush into the irrigation line to clear any visible debris.
+4. [type=perception] Verify the removal of debris by visually inspecting the line again.
+5. [type=navigation] Move to the next section of the irrigation line.
+6. [type=perception] Check for any signs of leaks by listening for unusual sounds and visually inspecting the line.
+7. [type=manipulation] If a leak is detected, use a repair kit to seal it.
+8. [type=perception] Cross-check the repaired area to ensure the leak is fixed.
+9. [type=navigation] Continue moving along the irrigation line until all sections have been checked.
+10. [type=communication] Report the findings to the user via a voice message.
+
+SUBTASK_STORY:
+The robot navigates to the task area and confirms the correct target (irrigation, line, clogs, leaks) before starting.
+It performs required handling actions to prepare tools and inputs (Extend a cleaning brush into the irrigation line to clear any debris.; If a leak is detected, use a repair kit to seal it.).
+It performs sensing and verification to produce a reliable measurement (Use sensors to scan the first section of the irrigation line.; Verify the removal of debris by inspecting the line again.).
+It communicates the verified outcome and records the result (Report the findings to the user via a voice message.).
+Finally, it secures materials and leaves the workspace ready for the next task.

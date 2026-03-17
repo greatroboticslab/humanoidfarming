@@ -1,0 +1,494 @@
+{
+  "video_index": "fpTEjkDrHGc",
+  "title": "Drones and Teff in Ethiopia's Tech Revolution",
+  "url": "https://www.youtube.com/watch?v=fpTEjkDrHGc",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Ethiopia's agricultural transformation is described, showcasing technological advancements.",
+  "tasks": [
+    {
+      "task": "Describe Ethiopia's shift towards technologically advanced agriculture.",
+      "start": 0.0,
+      "end": 10.68,
+      "subtasks": [
+        {
+          "text": "Observe Ethiopia's new agricultural approach, which goes beyond traditional farming.",
+          "start": 0.0,
+          "end": 6.84,
+          "segment_ids": [
+            0,
+            1,
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "fpTEjkDrHGc/task00_sub00_f00.jpg",
+              "caption": "A woman and two children in traditional clothing stand in front of a thatched-roof building.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "fpTEjkDrHGc/task00_sub00_f01.jpg",
+              "caption": "The video frame shows a field of crops with drones flying over it.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "fpTEjkDrHGc/task00_sub00_f02.jpg",
+              "caption": "A scientist in a lab coat and protective gear is examining plants in a vertical farm, with the word \"REVOLUTION\" overlaid.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene introduces Ethiopia's shift towards modern agricultural techniques by showing traditional rural life and then transitioning to advanced technological methods.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A woman and two children in traditional clothing stand in front of a thatched-roof building, representing traditional farming practices.",
+            "- [frames=[1]] Drones are seen flying over a field of crops, indicating the integration of technology into agriculture.",
+            "- [frames=[2]] A scientist in a lab coat and protective gear examines plants in a vertical farm, symbolizing the revolution in agricultural methods.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The video contrasts traditional farming with modern, technologically advanced agricultural practices, highlighting the transition through visual elements such as traditional attire, drone technology, and vertical farming.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with sensors to detect traditional and modern farming scenes.",
+            "- It needs to recognize different types of clothing and buildings to identify traditional settings.",
+            "- The robot must be able to navigate both outdoor and indoor environments.",
+            "- It should have the capability to communicate with humans and other systems.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the presence of traditional and modern farming elements.",
+            "- It should accurately track the movement of drones and recognize their function.",
+            "- The robot must confirm the presence of a scientist in a lab setting.",
+            "- It should measure the difference in crop density and health between traditional and modern fields.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Navigate to the area where the woman and children are standing.",
+            "2. [type=perception, frames=[0]] Verify the presence of traditional clothing and thatched-roof buildings.",
+            "3. [type=navigation, frames=[1]] Move to the field where drones are flying.",
+            "4. [type=perception, frames=[1]] Measure the distance and.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the area where the woman and children are standing. It then verifies the key detail directly from the frames (Verify the presence of traditional clothing and thatched-roof buildings).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Note the use of drones for monitoring crop health as part of the tech-savvy revolution.",
+          "start": 6.84,
+          "end": 8.6,
+          "segment_ids": [
+            3
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "fpTEjkDrHGc/task00_sub01_f01.jpg",
+              "caption": "A woman is operating a drone in a field, with the word \"MONITORING\" overlaid.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "fpTEjkDrHGc/task00_sub01_f02.jpg",
+              "caption": "A woman in a field is operating a drone with a health focus.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene depicts the use of drones for monitoring crop health, highlighting Ethiopia's advancement in agricultural technology.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A woman is seen operating a drone in a field, with the word \"MONITORING\" overlaid.",
+            "- [frames=[2]] The same woman continues to operate a drone, focusing on the health aspect of the crops.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The woman is actively using a drone to monitor the health of crops in a field, indicating the integration of technology into traditional farming practices. This scene emphasizes the role of drones in modernizing agriculture by providing real-time data on crop conditions.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot must be aware of the presence of a drone.",
+            "- The robot should recognize the field environment.",
+            "- The robot needs to understand the concept of crop health monitoring.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should identify the drone being operated.",
+            "- It should confirm the drone is focused on monitoring crop health.",
+            "- The robot must recognize the field setting.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1,2]] Identify the drone in the field.",
+            "2. [type=perception, frames=[1,2]] Analyze the drone’s operation to determine it is focused on monitoring crop health.",
+            "3. [type=perception, frames=[1,2]] Confirm the presence of a woman operating the drone.",
+            "4. [type=perception, frames=[1,2]] Recognize the field environment.",
+            "5. [type=communication, frames=[1,2]] Communicate the observation to the user.",
+            "6. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "In the video, at 6.8 seconds, a woman is seen operating a drone in a field, with the word \"MONITORING\" clearly visible. She continues to focus on the",
+            ""
+          ]
+        },
+        {
+          "text": "Highlight the role of apps in connecting farmers to markets, improving their reach.",
+          "start": 8.6,
+          "end": 10.68,
+          "segment_ids": [
+            4
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub02_f01.jpg",
+              "relative_path": "fpTEjkDrHGc/task00_sub02_f01.jpg",
+              "caption": "A farmer is operating a drone in a field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub02_f02.jpg",
+              "relative_path": "fpTEjkDrHGc/task00_sub02_f02.jpg",
+              "caption": "A woman in a field is using a tablet.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene highlights how technology, particularly apps, is transforming Ethiopian agriculture by connecting farmers directly to markets, thereby expanding their reach.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A farmer is operating a drone in a field, indicating the use of modern agricultural tools.",
+            "- [frames=[2]] A woman in a field is using a tablet, suggesting the use of digital devices for market access.",
+            "- [frames=[1,2]] Both scenes indicate the integration of technology in farming practices.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The video captures two key figures: a farmer using a drone and a woman using a tablet. These scenes illustrate the role of technology in enhancing agricultural efficiency and market connectivity.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with navigation capabilities to move between different areas of the farm.",
+            "- It needs to have the ability to interact with digital devices such as tablets and drones.",
+            "- The robot must be able to communicate with external systems to gather and transmit data.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully navigates to the areas where the farmer and the woman are working.",
+            "- It verifies the presence of the tablet and drone through visual inspection.",
+            "- The robot confirms the connection status of the tablet to the internet.",
+            "- It measures the distance covered during the navigation process.",
+            "- The robot checks if the drone is properly operated and within safe boundaries.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Move to the area where the farmer is operating the drone.",
+            "2. [type=perception, frames=[1]] Verify the presence of the drone through visual inspection.",
+            "3. [type=navigation, frames=[2]] Move to the location where the woman is using the tablet.",
+            "4. [type=perception, frames=[2]] Confirm the presence of the tablet and check its connection status.",
+            "5. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to the area where the farmer is operating the drone. It then verifies the key detail directly from the frames (Verify the presence of the drone through visual inspection).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Explain how Ethiopia is adopting innovative practices.",
+      "start": 12.84,
+      "end": 32.2,
+      "subtasks": [
+        {
+          "text": "See how Ethiopia's fields are becoming platforms for marrying traditional methods with modern technology.",
+          "start": 15.64,
+          "end": 18.84,
+          "segment_ids": [
+            7
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "fpTEjkDrHGc/task01_sub00_f00.jpg",
+              "caption": "A drone is flying over a wheat field.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "fpTEjkDrHGc/task01_sub00_f01.jpg",
+              "caption": "A drone is flying over a field of wheat.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "fpTEjkDrHGc/task01_sub00_f02.jpg",
+              "caption": "A woman in a field is using a smartphone with the word \"INNOVATION\" overlaid on the image.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene illustrates how Ethiopia is integrating traditional farming methods with modern technology through the use of drones and smartphones.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A drone is flying over a wheat field, indicating the use of aerial technology in agriculture.",
+            "- [frames=[1]] The drone continues its flight path over a field of wheat, reinforcing the technological aspect.",
+            "- [frames=[2]] A woman in a field is seen using a smartphone, with the word \"INNOVATION\" overlaid, suggesting she is likely monitoring or managing the field using technology.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The video captures the intersection of traditional farming practices with modern technology, specifically highlighting the role of drones and smartphones in enhancing agricultural efficiency and innovation in Ethiopia.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the current location and context of the field.",
+            "- The robot needs to have access to real-time data about the field conditions.",
+            "- The robot must be capable of understanding and interpreting the use of technology in agriculture.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the presence of a drone and a person using a smartphone.",
+            "- The robot should recognize the field type (wheat) and the technology being used.",
+            "- The robot should be able to confirm the integration of traditional and modern methods in the field.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Identify the drone flying over the wheat field.",
+            "2. [type=perception, frames=[2]] Recognize the woman using a smartphone in the field.",
+            "3. [type=navigation, frames=[0,1,2]] Navigate to a position where the robot can observe both the drone and the woman using the smartphone.",
+            "4. [type=communication, frames=[0,1,2]] Send a message to the user confirming the observation of the drone and.",
+            "5. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the drone flying over the wheat field. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Observe the global significance of Teff, the ancient grain now gaining international recognition.",
+          "start": 12.84,
+          "end": 15.64,
+          "segment_ids": [
+            6
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f00.jpg",
+              "relative_path": "fpTEjkDrHGc/task01_sub01_f00.jpg",
+              "caption": "A person is working in a field, possibly harvesting crops, with a blurred background and a watermark indicating it's from \"perspectivesuncovered.\"",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "fpTEjkDrHGc/task01_sub01_f01.jpg",
+              "caption": "A man in traditional attire is working in a field, with the word \"ANCIENT\" overlaid on the image.",
+              "frame_index": 1
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene focuses on the significance of Teff, an ancient grain, in Ethiopia, highlighting its growing importance on a global scale.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A person is working in a field, possibly harvesting crops, with a blurred background and a watermark indicating it’s from “perspectivesuncovered.”",
+            "- [frames=[1]] A man in traditional attire is working in a field, with the word “ANCIENT” overlaid on the image.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The video captures scenes of people working in fields, emphasizing the traditional agricultural practices associated with Teff. The overlay of the word “ANCIENT” underscores the historical and cultural significance of this grain.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture images.",
+            "- The robot needs to have knowledge about Teff and its global significance.",
+            "- The robot should be able to communicate with the user to provide explanations.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the presence of Teff in the field.",
+            "- The robot should correctly read the overlay text “ANCIENT”.",
+            "- The robot should explain the global significance of Teff based on the observed scenes.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Capture images of the field where people are working.",
+            "2. [type=perception, frames=[1]] Read the overlay text “ANCIENT”.",
+            "3. [type=perception, frames=[0]] Identify the type of crop being harvested, focusing on Teff.",
+            "4. [type=communication, frames=[0,1]] Explain the historical and cultural significance of Teff.",
+            "5. [type=manipulation, frames=[1]] Point to the area where the word “ANCIENT” is displayed.",
+            "6. [type=navigation, frames=[0,1]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture images of the field where people are working. It then verifies the key detail directly from the frames (Read the overlay text “ANCIENT”).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Watch how Ethiopia's narrative is shifting from hardship to stories of growth and technological progress.",
+          "start": 21.0,
+          "end": 27.48,
+          "segment_ids": [
+            9,
+            10
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub02_f00.jpg",
+              "relative_path": "fpTEjkDrHGc/task01_sub02_f00.jpg",
+              "caption": "A drone is flying over a field of green plants, with the text \"@perspectivesuncovered\" overlaid on the image.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub02_f01.jpg",
+              "relative_path": "fpTEjkDrHGc/task01_sub02_f01.jpg",
+              "caption": "Two men in traditional attire are feeding cattle with corn stalks.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub02_f02.jpg",
+              "relative_path": "fpTEjkDrHGc/task01_sub02_f02.jpg",
+              "caption": "A drone is flying over a field with people walking around, and the word \"GRIT\" is overlaid on the image.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment highlights Ethiopia's shift from a narrative of hardship to one of growth and technological progress, focusing on agricultural advancements and drone technology.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A drone is flying over a field of green plants, with the text \"@perspectivesuncovered\" overlaid on the image.",
+            "- [frames=[1]] Two men in traditional attire are feeding cattle with corn stalks.",
+            "- [frames=[2]] A drone is flying over a field with people walking around, and the word \"GRIT\" is overlaid on the image.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts Ethiopia's progress through the use of drones in agriculture, showcasing both traditional farming methods and modern technological advancements. The overlay of \"GRIT\" suggests resilience and determination in facing challenges.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture images and videos.",
+            "- The robot should have the ability to navigate autonomously within the field.",
+            "- The robot should be capable of recognizing and identifying different elements such as drones, fields, and people.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should successfully capture images of the drone flying over the field.",
+            "- The robot should identify and document the traditional farming activities.",
+            "- The robot should verify the presence of people walking around the field.",
+            "- The robot should ensure the drone is flying safely without any obstacles.",
+            "- The robot should confirm the overall scene aligns with the narrative of growth and technological progress.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the field where the drone is flying and the men are feeding cattle.",
+            "2. [type=perception, frames=[0]] Capture an image of the drone flying over the field of green plants.",
+            "3. [type=perception, frames=[1]] Identify and document.",
+            "4. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the field where the drone is flying and the men are feeding cattle. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Notice the transformation of the country from scarcity to high-tech hope in agriculture.",
+          "start": 27.48,
+          "end": 32.2,
+          "segment_ids": [
+            11,
+            12
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub03_f01.jpg",
+              "relative_path": "fpTEjkDrHGc/task01_sub03_f01.jpg",
+              "caption": "The video frame shows a blurred image of a person in a field, with the text \"NOW\" and \"@perspectivesuncovered\" overlaid.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub03_f02.jpg",
+              "relative_path": "fpTEjkDrHGc/task01_sub03_f02.jpg",
+              "caption": "A man in a field is holding a drone and smiling, with the text \"HOPE\" and \"perspectivesuncovered\" overlaid.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment highlights the shift in Ethiopia from a state of scarcity to a hopeful future in agriculture through the use of technology like drones.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A blurred image of a person in a field with text \"NOW\" and \"@perspectivesuncovered\" indicates the current scenario.",
+            "- [frames=[2]] A man in a field holding a drone and smiling with text \"HOPE\" and \"perspectivesuncovered\" suggests the positive outlook brought by technology.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a rural setting where a farmer is using a drone, symbolizing the adoption of advanced agricultural techniques. This transition reflects the broader narrative of Ethiopia moving towards technological innovation in agriculture.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the current location and context of the field.",
+            "- The robot needs to have information about the presence of a drone and its operator.",
+            "- The robot should be capable of recognizing and interacting with the drone.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should successfully identify the drone and the farmer.",
+            "- The robot should confirm the presence of the drone in the field.",
+            "- The robot should measure the positive impact of the drone on the agricultural landscape.",
+            "- The robot should verify the emotional state of the farmer as hopeful.",
+            "- The robot should document the transformation from scarcity to hope.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Identify the blurred figure in the field and recognize the text \"NOW\".",
+            "2. [type=perception, frames=[2]] Detect the man holding a drone and confirm the text \"HOPE\".",
+            "3. [type=navigation, frames=[1,2]] Move closer to the field to get a better view of the drone and the farmer.",
+            "4. [type=manipulation, frames=[1,2]] Assist the farmer.",
+            "5. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the blurred figure in the field and recognize the text \"NOW\". It then verifies the key detail directly from the frames (Detect the man holding a drone and confirm the text \"HOPE\").",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

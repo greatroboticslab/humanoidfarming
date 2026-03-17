@@ -1,0 +1,906 @@
+{
+  "video_index": "mkEsLdNKlPM",
+  "title": "Organic Market Gardening Techniques for Maximum Yield Maximizer",
+  "url": "https://www.youtube.com/watch?v=mkEsLdNKlPM",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "The video provides a comprehensive overview of organic farming techniques for market gardeners.",
+  "tasks": [
+    {
+      "task": "Implement efficient weeding and soil cultivation methods.",
+      "start": 16.0,
+      "end": 72.75,
+      "subtasks": [
+        {
+          "text": "Observe pro-market gardeners weeding while standing and cultivating soil with specialized tools.",
+          "start": 16.0,
+          "end": 32.75,
+          "segment_ids": [
+            2,
+            3
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "mkEsLdNKlPM/task00_sub00_f00.jpg",
+              "caption": "A man is using a lawn mower to mow weeds in a field.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "mkEsLdNKlPM/task00_sub00_f01.jpg",
+              "caption": "A person is standing in a field, using a tool to tend to plants.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "mkEsLdNKlPM/task00_sub00_f02.jpg",
+              "caption": "A person is using a hoe to weed plants while standing in a garden.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub00_f03.jpg",
+              "relative_path": "mkEsLdNKlPM/task00_sub00_f03.jpg",
+              "caption": "A man in a greenhouse is shown standing and weeding while holding a shovel.",
+              "frame_index": 3
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask involves observing pro-market gardeners performing weeding and soil cultivation techniques while standing, using specialized tools.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A man is using a lawn mower to mow weeds in a field.",
+            "- [frames=[1]] A person is standing in a field, using a tool to tend to plants.",
+            "- [frames=[2]] A person is using a hoe to weed plants while standing in a garden.",
+            "- [frames=[3]] A man in a greenhouse is shown standing and weeding while holding a shovel.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict various methods of weeding and soil cultivation, including the use of a lawn mower, hand-held tools like hoes, and shovels. The gardeners are seen standing, indicating a hands-on approach to tending to the plants.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be able to stand and move around in a field or greenhouse.",
+            "- It must have access to appropriate tools such as a hoe and a shovel.",
+            "- The robot needs to recognize and differentiate between weeds and desired plants.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify and remove weeds without damaging the surrounding plants.",
+            "- It should (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2,3]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2,3]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2,3]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2,3]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2,3]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 16.75,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/mkEsLdNKlPM/task00/sub00/motion.bvh",
+            "params_path": "results/momask/mkEsLdNKlPM/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Note the use of push seeders for direct seeding, which allows for faster and more precise planting.",
+          "start": 37.75,
+          "end": 46.75,
+          "segment_ids": [
+            5
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f00.jpg",
+              "relative_path": "mkEsLdNKlPM/task00_sub01_f00.jpg",
+              "caption": "A man is using a tool to weed while standing in a field.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "mkEsLdNKlPM/task00_sub01_f01.jpg",
+              "caption": "A man is using a tool to seed a field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "mkEsLdNKlPM/task00_sub01_f02.jpg",
+              "caption": "A person is using a machine to seed a field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask involves noting the use of push seeders for direct seeding, which enhances the speed and precision of planting in an organic market garden setting.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A man is using a tool to weed while standing in a field.",
+            "- [frames=[1]] A man is using a tool to seed a field.",
+            "- [frames=[2]] A person is using a machine to seed a field.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from manual weeding to the introduction of a machine for direct seeding. The machine appears to be a push seeder, which is a tool designed to plant seeds directly into the soil without prior furrowing.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the types of tools used in organic gardening.",
+            "- The robot must have the capability to recognize and differentiate between weeding and seeding operations.",
+            "- The robot needs to understand the concept of direct seeding and its benefits over traditional methods.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the use of a push seeder for direct seeding.",
+            "- The robot should note the increased speed and precision of the operation.",
+            "- The robot should be able to explain the advantages of direct seeding in (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 9.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/mkEsLdNKlPM/task00/sub01/motion.bvh",
+            "params_path": "results/momask/mkEsLdNKlPM/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Notice the importance of marking rows correctly to ensure optimal crop spacing and easy subsequent cultivation.",
+          "start": 64.75,
+          "end": 72.75,
+          "segment_ids": [
+            8
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub02_f00.jpg",
+              "relative_path": "mkEsLdNKlPM/task00_sub02_f00.jpg",
+              "caption": "A man is using a tool to seed a field.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub02_f01.jpg",
+              "relative_path": "mkEsLdNKlPM/task00_sub02_f01.jpg",
+              "caption": "A person is using a tool to mark rows in a garden.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub02_f02.jpg",
+              "relative_path": "mkEsLdNKlPM/task00_sub02_f02.jpg",
+              "caption": "A person is using a rake to prepare a garden bed.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on the importance of marking rows correctly in a garden to ensure proper crop spacing and ease of subsequent cultivation.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A man is using a tool to seed a field.",
+            "- [frames=[1]] A person is using a tool to mark rows in a garden.",
+            "- [frames=[2]] A person is using a rake to prepare a garden bed.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts the process of preparing a garden bed for planting. Initially, a field is seeded, followed by marking the rows to maintain proper spacing and facilitate future cultivation. The final step involves preparing the soil for planting.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with tools for seeding, marking rows, and cultivating soil.",
+            "- The robot must have the ability to recognize and navigate through a garden environment.",
+            "- The robot needs to understand the concept of row marking and its importance in gardening.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Correctly marked rows with uniform spacing.",
+            "- Properly prepared soil for planting.",
+            "- Efficient use of tools without causing damage to the garden.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2]] Navigate to the.",
+            "2. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "3. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 8.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/mkEsLdNKlPM/task00/sub02/motion.bvh",
+            "params_path": "results/momask/mkEsLdNKlPM/task00/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Utilize organic techniques to maximize plant health and yield.",
+      "start": 108.75,
+      "end": 123.75,
+      "subtasks": [
+        {
+          "text": "Observe the use of compost and additional organic fertilizers for plant nourishment.",
+          "start": 108.75,
+          "end": 114.75,
+          "segment_ids": [
+            15
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "mkEsLdNKlPM/task01_sub00_f00.jpg",
+              "caption": "A person is using a tool to dig into the soil.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "mkEsLdNKlPM/task01_sub00_f01.jpg",
+              "caption": "A person is using a tool to dig into the ground.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "mkEsLdNKlPM/task01_sub00_f02.jpg",
+              "caption": "A person is using a green wheelbarrow to spread compost over a dirt area.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe the process of using compost and other organic fertilizers to nourish plants, which is a key technique in organic market gardening.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A person is using a tool to dig into the soil, indicating preparation for planting or fertilizing.",
+            "- [frames=[0,1]] The digging action suggests the intention to mix the compost into the soil for better nutrient distribution.",
+            "- [frames=[2]] A person is using a green wheelbarrow to spread compost over a dirt area, showing the application of the organic fertilizer.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a person preparing the soil by digging and then applying compost using a wheelbarrow. This method ensures that the compost is evenly distributed across the garden bed, promoting healthy plant growth through natural nutrients.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with sensors to detect soil conditions and recognize compost.",
+            "- The robot must have the capability to identify and differentiate between various types of soil and organic materials.",
+            "- The robot needs to be able to navigate within the garden area without causing damage to existing plants or structures.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully identifies the soil and compost in the",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 6.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/mkEsLdNKlPM/task01/sub00/motion.bvh",
+            "params_path": "results/momask/mkEsLdNKlPM/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Watch the process of timing fertilizer applications according to the different lifecycle stages of plants.",
+          "start": 114.75,
+          "end": 123.75,
+          "segment_ids": [
+            16
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "mkEsLdNKlPM/task01_sub01_f01.jpg",
+              "caption": "A person is using a green cart to load compost into a garden.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "mkEsLdNKlPM/task01_sub01_f02.jpg",
+              "caption": "A man wearing a hat is sitting in front of a pile of compost.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask involves observing the timing of fertilizer applications based on the lifecycle stages of plants. This is crucial for understanding how to apply fertilizers effectively to promote plant health and yield.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A person is using a green cart to load compost into a garden, indicating preparation for fertilization.",
+            "- [frames=[2]] A man wearing a hat is sitting in front of a pile of compost, suggesting he is ready to apply it.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts the setup for applying compost, which is a form of organic fertilizer. The presence of a man preparing to spread compost implies that the next step will involve applying it to the plants at the appropriate stage of their lifecycle.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- Knowledge of the different lifecycle stages of common garden plants.",
+            "- Understanding of optimal times for applying organic fertilizers.",
+            "- Familiarity with the types of tools and equipment used in gardening.",
+            "- Ability to recognize and differentiate between various stages of plant growth.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Correct identification of the current lifecycle stage of the plants.",
+            "- Proper application of compost at the right time.",
+            "- Ensuring the compost is evenly distributed across the garden bed.",
+            "- Observ (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 9.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/mkEsLdNKlPM/task01/sub01/motion.bvh",
+            "params_path": "results/momask/mkEsLdNKlPM/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Improve irrigation systems for optimal water usage.",
+      "start": 114.75,
+      "end": 123.75,
+      "subtasks": [
+        {
+          "text": "Notice the use of drip irrigation systems to deliver water directly to plant roots.",
+          "start": 114.75,
+          "end": 119.25,
+          "segment_ids": [
+            16
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "mkEsLdNKlPM/task02_sub00_f01.jpg",
+              "caption": "A person is using a green cart to move compost into a garden.",
+              "frame_index": 1
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment highlights the use of drip irrigation systems to efficiently deliver water directly to plant roots, optimizing water usage in organic market gardening.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A person is seen moving compost using a green cart into a garden area.",
+            "- [frames=[1]] The scene does not show any irrigation system being used or installed.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The current frame shows a person moving compost, which suggests preparation for planting or fertilizing. However, there is no indication of an irrigation system being present or discussed in this segment.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the need to install or improve an irrigation system.",
+            "- The robot should have access to tools and materials necessary for installing a drip irrigation system.",
+            "- The robot should know the location where the irrigation system needs to be installed.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should verify the correct placement of the drip irrigation system.",
+            "- The robot should ensure that the system delivers water directly to the plant roots.",
+            "- The robot should measure the water flow rate to confirm optimal water usage.",
+            "- The robot should cross-check the system's functionality before final installation.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[1]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[1]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[1]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[1]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 4.5,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/mkEsLdNKlPM/task02/sub00/motion.bvh",
+            "params_path": "results/momask/mkEsLdNKlPM/task02/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Observe the use of timers to fractionate water delivery to different plants.",
+          "start": 119.25,
+          "end": 123.75,
+          "segment_ids": [
+            16
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub01_f01.jpg",
+              "relative_path": "mkEsLdNKlPM/task02_sub01_f01.jpg",
+              "caption": "A man in a hat is sitting in front of a pile of compost.",
+              "frame_index": 1
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe how timers are used to control water delivery to different plants, ensuring efficient water usage in an organic market garden setting.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A man in a hat is sitting in front of a pile of compost, indicating he might be involved in gardening activities.",
+            "- [frames=[1]] The scene does not show any irrigation system or timers, suggesting the focus is on other aspects of gardening.",
+            "- [frames=[1]] No direct observation of timers or water delivery systems can be made from the given frames.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The provided frames do not directly depict the use of timers for water delivery. Instead, they show a man near compost, which might indicate preparation for planting or soil improvement.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have basic knowledge of irrigation systems and their components.",
+            "- The robot needs to be aware of the importance of water conservation in organic farming.",
+            "- The robot should be able to recognize common gardening tools and equipment.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Verify that the man is using a timer to control water delivery.",
+            "- Confirm that the timer is set to deliver water to different plants at appropriate intervals.",
+            "- Measure the amount of water delivered to (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[1]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[1]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[1]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[1]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 4.5,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/mkEsLdNKlPM/task02/sub01/motion.bvh",
+            "params_path": "results/momask/mkEsLdNKlPM/task02/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Protect and cultivate soil using cover crops and mulches.",
+      "start": 72.75,
+      "end": 83.75,
+      "subtasks": [
+        {
+          "text": "See the preparation and removal of cover crops using tarps to eliminate weeds.",
+          "start": 72.75,
+          "end": 78.75,
+          "segment_ids": [
+            9
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub00_f01.jpg",
+              "relative_path": "mkEsLdNKlPM/task03_sub00_f01.jpg",
+              "caption": "A man in a hat is kneeling in a greenhouse, with the words \"MARK YOUR ROWS\" overlaid.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub00_f02.jpg",
+              "relative_path": "mkEsLdNKlPM/task03_sub00_f02.jpg",
+              "caption": "A person is using a red machine to mark rows in a field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe the preparation and removal of cover crops using tarps in a field setting, marking rows as part of organic market gardening techniques.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A man in a hat is kneeling in a greenhouse, with the words \"MARK YOUR ROWS\" overlaid.",
+            "- [frames=[2]] A person is using a red machine to mark rows in a field.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a field where a person is preparing rows by marking them, likely to facilitate the placement of cover crops. The use of a tarp to remove weeds is implied but not directly shown in the frames.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture the field environment.",
+            "- The robot must have the capability to recognize and interpret human actions, such as marking rows.",
+            "- The robot needs to understand the context of organic gardening practices.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully identifies the marking of rows.",
+            "- The robot understands the intention behind marking rows for cover crop placement.",
+            "- The robot can accurately follow the row markings to perform subsequent tasks.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 6.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/mkEsLdNKlPM/task03/sub00/motion.bvh",
+            "params_path": "results/momask/mkEsLdNKlPM/task03/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Observe different mulch materials used to cover and protect the soil.",
+          "start": 78.75,
+          "end": 83.75,
+          "segment_ids": [
+            10
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub01_f01.jpg",
+              "relative_path": "mkEsLdNKlPM/task03_sub01_f01.jpg",
+              "caption": "A person is using a small red tractor to plant rows in a garden.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub01_f02.jpg",
+              "relative_path": "mkEsLdNKlPM/task03_sub01_f02.jpg",
+              "caption": "A man is working in a garden, using a tool to mark rows.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe various types of mulch being used in a garden setting to protect and cover the soil.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A person is operating a small red tractor to plant rows in a garden.",
+            "- [frames=[2]] A man is using a tool to mark rows in the garden.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a garden where multiple individuals are preparing the soil by planting and marking rows. The focus is on the application of mulch materials to cover and protect the soil.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with sensors to identify different types of mulch.",
+            "- It must have the capability to recognize and differentiate between various garden tools and equipment.",
+            "- The robot needs to understand the context of a garden setting and the purpose of mulching.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify and classify the types of mulch observed.",
+            "- It must correctly interpret the actions of the individuals in the garden (e.g., using a tractor and marking rows).",
+            "- The robot should be able to describe the observed mulch materials and their placement in the garden.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 5.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/mkEsLdNKlPM/task03/sub01/motion.bvh",
+            "params_path": "results/momask/mkEsLdNKlPM/task03/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Optimize farm design and spatial layouts.",
+      "start": 100.75,
+      "end": 114.75,
+      "subtasks": [
+        {
+          "text": "Notice the standardized 30-inch bed system with 18-inch pathways.",
+          "start": 100.75,
+          "end": 108.75,
+          "segment_ids": [
+            14
+          ],
+          "frames": [
+            {
+              "image_file": "task04_sub00_f00.jpg",
+              "relative_path": "mkEsLdNKlPM/task04_sub00_f00.jpg",
+              "caption": "A person is using a tool to dig into the ground.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task04_sub00_f01.jpg",
+              "relative_path": "mkEsLdNKlPM/task04_sub00_f01.jpg",
+              "caption": "A person is using a tool to dig into the soil.",
+              "frame_index": 1
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene focuses on the setup of a 30-inch bed system with 18-inch pathways, which is a key element in optimizing farm design and spatial layouts for maximum yield.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A person is using a tool to dig into the ground, indicating the preparation of the soil for the bed system.",
+            "- The tool used appears to be a spade or shovel, suggesting manual labor.",
+            "- The digging action is repeated in both frames, showing the consistency in the process.",
+            "- The soil being dug up is visible, confirming the ongoing preparation of the beds.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The video captures the initial stages of setting up the 30-inch bed system, where the soil is being prepared by digging. This setup is crucial for creating the proper spacing and depth required for optimal plant growth and efficient use of space.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have the capability to recognize and identify the 30-inch bed system and 18-inch pathways.",
+            "- It must be able to navigate within the garden area accurately.",
+            "- The robot needs to understand the importance of soil preparation for planting.",
+            "- The robot should be equipped with tools suitable for digging",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- (auto-filled) Robot completes the subtask and reports outcomes.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 8.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/mkEsLdNKlPM/task04/sub00/motion.bvh",
+            "params_path": "results/momask/mkEsLdNKlPM/task04/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Observe the importance of minimizing foot traffic through strategic farm layout design.",
+          "start": 108.75,
+          "end": 114.75,
+          "segment_ids": [
+            15
+          ],
+          "frames": [],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 6.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/mkEsLdNKlPM/task04/sub01/motion.bvh",
+            "params_path": "results/momask/mkEsLdNKlPM/task04/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Implement pest management techniques without the use of pesticides.",
+      "start": 156.75,
+      "end": 160.75,
+      "subtasks": [
+        {
+          "text": "See the use of insect nets and beneficial insects for pest control.",
+          "start": 156.75,
+          "end": 160.75,
+          "segment_ids": [
+            22
+          ],
+          "frames": [
+            {
+              "image_file": "task05_sub00_f00.jpg",
+              "relative_path": "mkEsLdNKlPM/task05_sub00_f00.jpg",
+              "caption": "A man in a straw hat is sitting in front of a pile of compost.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task05_sub00_f01.jpg",
+              "relative_path": "mkEsLdNKlPM/task05_sub00_f01.jpg",
+              "caption": "A man in a straw hat is sitting in front of a pile of compost.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task05_sub00_f02.jpg",
+              "relative_path": "mkEsLdNKlPM/task05_sub00_f02.jpg",
+              "caption": "A man in a straw hat is sitting in front of a pile of compost.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene shows a man in a straw hat sitting in front of a pile of compost, which does not directly relate to the use of insect nets or beneficial insects for pest control.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] The man in a straw hat is sitting in front of a pile of compost.",
+            "- [frames=[0,1]] There are no visible insect nets or beneficial insects present.",
+            "- [frames=[0,1]] The background appears to be a garden setting with various plants and tools scattered around.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The frames depict a typical gardening scene but do not show any elements related to the subtask of using insect nets or beneficial insects for pest control. The man’s presence and the compost pile suggest he is engaged in some form of organic gardening activity, but the specific techniques mentioned in the subtask are not visible.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the current scene and recognize the absence of insect nets and beneficial insects.",
+            "- The robot should have knowledge of organic pest management techniques.",
+            "- The robot should be able to navigate within the garden area.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should identify the need to introduce insect nets and beneficial insects",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 4.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/mkEsLdNKlPM/task05/sub00/motion.bvh",
+            "params_path": "results/momask/mkEsLdNKlPM/task05/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

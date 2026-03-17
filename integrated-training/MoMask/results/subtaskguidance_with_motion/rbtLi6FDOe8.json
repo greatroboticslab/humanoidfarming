@@ -1,0 +1,899 @@
+{
+  "video_index": "rbtLi6FDOe8",
+  "title": "Planting Method Demonstrated Correctly",
+  "url": "https://www.youtube.com/watch?v=rbtLi6FDOe8",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "The transcript describes steps in a process of soil preparation and planting.",
+  "tasks": [
+    {
+      "task": "Describe the process of soil preparation and planting as explained in the video.",
+      "start": 117.76,
+      "end": 224.06,
+      "subtasks": [
+        {
+          "text": "Observe that the sashi should be similar to a dog's tail for proper planting.",
+          "start": 117.76,
+          "end": 127.76,
+          "segment_ids": [
+            0,
+            1,
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "rbtLi6FDOe8/task00_sub00_f00.jpg",
+              "caption": "Two men are standing outdoors, one in a white shirt and the other in a blue shirt, engaged in conversation.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "rbtLi6FDOe8/task00_sub00_f01.jpg",
+              "caption": "Two men are standing outdoors in a lush, green environment.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "rbtLi6FDOe8/task00_sub00_f02.jpg",
+              "caption": "Two men are standing in a lush, green outdoor setting.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to observe the sashi, which should resemble a dog's tail, for proper planting as demonstrated in the video.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] Two men are standing outdoors, one in a white shirt and the other in a blue shirt, engaged in conversation.",
+            "- [frames=[1]] The two men are standing outdoors in a lush, green environment.",
+            "- [frames=[0,1,2]] The setting is consistent across frames, indicating a continuous scene.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a natural outdoor setting with two individuals discussing the planting method. The focus is on the sashi, which is a key element in the demonstration.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot must be able to recognize the sashi.",
+            "- The robot should have knowledge about the shape and movement of a dog's tail.",
+            "- The robot needs to be aware of the context of the planting method being demonstrated.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should identify the sashi as resembling a dog's tail.",
+            "- The robot should confirm that the sashi is correctly positioned for planting.",
+            "- The robot should note any additional details that contribute to the correct planting technique.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 10.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/rbtLi6FDOe8/task00/sub00/motion.bvh",
+            "params_path": "results/momask/rbtLi6FDOe8/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Note the importance of setting up a demonstration before proceeding.",
+          "start": 127.76,
+          "end": 131.76,
+          "segment_ids": [
+            3,
+            4
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "rbtLi6FDOe8/task00_sub01_f01.jpg",
+              "caption": "Two men are standing outdoors, one in a white shirt and the other in a blue shirt, with greenery in the background.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "rbtLi6FDOe8/task00_sub01_f02.jpg",
+              "caption": "Two men are standing outdoors, conversing in a lush, green environment.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Before demonstrating the planting method, the two men set up their equipment and discuss the process, ensuring a clear understanding before beginning.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] Two men in different colored shirts stand outdoors, indicating they are prepared for the demonstration.",
+            "- [frames=[2]] The men are seen conversing, likely discussing the steps involved in the planting process.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a setup for a demonstration, where two individuals are preparing to explain and show the correct method of soil preparation and planting. They are in an outdoor setting, surrounded by greenery, suggesting a natural environment suitable for gardening activities.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the outdoor setting.",
+            "- It needs to recognize the two men and their roles in the demonstration.",
+            "- The robot must understand the context of setting up a demonstration.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should confirm that the men are ready to begin the demonstration.",
+            "- It should verify that all necessary tools and materials are present.",
+            "- The robot must ensure that the men are in a safe position to start the demonstration.",
+            "- It should check that the environment is suitable for the demonstration.",
+            "- The robot should cross-check that the (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.999999999999986,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/rbtLi6FDOe8/task00/sub01/motion.bvh",
+            "params_path": "results/momask/rbtLi6FDOe8/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Record that the demonstration should involve showing the diameter of the area to be prepared.",
+          "start": 147.76,
+          "end": 154.76,
+          "segment_ids": [
+            13,
+            14,
+            15
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub02_f00.jpg",
+              "relative_path": "rbtLi6FDOe8/task00_sub02_f00.jpg",
+              "caption": "Two men are standing outdoors, conversing in a lush, green environment.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub02_f01.jpg",
+              "relative_path": "rbtLi6FDOe8/task00_sub02_f01.jpg",
+              "caption": "A man is digging in a field with a hoe.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub02_f02.jpg",
+              "relative_path": "rbtLi6FDOe8/task00_sub02_f02.jpg",
+              "caption": "A man is digging in a field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The demonstration involves preparing a specific area for planting by showing its diameter, which is crucial for ensuring proper spacing between plants.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] Two men are standing outdoors, conversing in a lush, green environment.",
+            "- [frames=[1]] A man is digging in a field with a hoe.",
+            "- [frames=[2]] A man is digging in a field.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a field where a man is preparing an area for planting. The focus is on the process of digging and the importance of measuring the diameter of the prepared area.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot must be able to recognize outdoor environments.",
+            "- It should have the capability to measure distances accurately.",
+            "- The robot needs to be equipped with tools suitable for digging.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the area being prepared.",
+            "- It must measure the diameter of the prepared area accurately.",
+            "- The robot should be able to communicate the measured diameter to the user.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the outdoor field where the demonstration is taking place.",
+            "2. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "3. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the outdoor field where the demonstration is taking place. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the outdoor field where the demonstration is taking place; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 7.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/rbtLi6FDOe8/task00/sub02/motion.bvh",
+            "params_path": "results/momask/rbtLi6FDOe8/task00/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Highlight the significance of avoiding work on the bus road during preparation.",
+          "start": 156.76,
+          "end": 167.76,
+          "segment_ids": [
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub03_f00.jpg",
+              "relative_path": "rbtLi6FDOe8/task00_sub03_f00.jpg",
+              "caption": "A video frame shows a green water container, a bag of soil, a bag of red powder, and a bag of a yellow and orange substance.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub03_f01.jpg",
+              "relative_path": "rbtLi6FDOe8/task00_sub03_f01.jpg",
+              "caption": "A video frame shows a green water container, a bag of soil, a bag of red soil, a bag of fertilizer, and a palm leaf.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub03_f02.jpg",
+              "relative_path": "rbtLi6FDOe8/task00_sub03_f02.jpg",
+              "caption": "The video frame shows a variety of gardening supplies, including bags of soil, a green water container, a bag of fertilizer, and a palm leaf.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should understand the importance of avoiding work on the bus road during soil preparation and planting, as highlighted in the video.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A green water container, a bag of soil, a bag of red powder, and a bag of a yellow and orange substance are present.",
+            "- [frames=[1]] A green water container, a bag of soil, a bag of red soil, a bag of fertilizer, and a palm leaf are visible.",
+            "- [frames=[2]] Various gardening supplies, including bags of soil, a green water container, a bag of fertilizer, and a palm leaf, are shown.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a setup for preparing soil and planting, with multiple gardening tools and materials. The presence of a palm leaf suggests an outdoor setting, likely a garden or farm.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should know about the bus road and its potential impact on the soil preparation process.",
+            "- The robot should recognize the importance of avoiding work on the bus road.",
+            "- The robot should be aware of the various gardening supplies available.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should confirm that the soil is prepared without any work being done on the",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 11.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/rbtLi6FDOe8/task00/sub03/motion.bvh",
+            "params_path": "results/momask/rbtLi6FDOe8/task00/sub03/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Describe the process of mixing materials and planting.",
+          "start": 175.76,
+          "end": 199.76,
+          "segment_ids": [
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub04_f00.jpg",
+              "relative_path": "rbtLi6FDOe8/task00_sub04_f00.jpg",
+              "caption": "A man is digging a hole in the ground.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub04_f01.jpg",
+              "relative_path": "rbtLi6FDOe8/task00_sub04_f01.jpg",
+              "caption": "A construction worker is pouring cement into a hole.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub04_f02.jpg",
+              "relative_path": "rbtLi6FDOe8/task00_sub04_f02.jpg",
+              "caption": "A person is digging a hole in the dirt.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub04_f03.jpg",
+              "relative_path": "rbtLi6FDOe8/task00_sub04_f03.jpg",
+              "caption": "A person is preparing to plant a tree in a garden with bags of soil, a bag of fertilizer, and a green vase.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task00_sub04_f04.jpg",
+              "relative_path": "rbtLi6FDOe8/task00_sub04_f04.jpg",
+              "caption": "A person is standing next to a pile of soil, surrounded by bags of different materials.",
+              "frame_index": 4
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment shows the process of mixing soil and other materials before planting a tree. The robot will observe and replicate the steps shown by the demonstrator.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A person is digging holes in the ground, possibly to prepare for planting.",
+            "- [frames=[2]] Another person is digging a hole, indicating the initial stage of soil preparation.",
+            "- [frames=[3]] A person is preparing to plant a tree, surrounded by bags of soil, fertilizer, and a green vase.",
+            "- [frames=[4]] A person is standing near a pile of soil, suggesting they are about to mix materials.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene involves digging holes, preparing soil, and mixing various materials before planting a tree. The demonstrator uses tools like shovels and bags of soil and fertilizer.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a shovel and a tool for mixing soil.",
+            "- The robot needs access to bags of soil and fertilizer.",
+            "- The robot should be able to identify and handle the green vase if needed.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should create a properly mixed soil bed.",
+            "- The robot should plant the tree correctly.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2,3,4]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2,3,4]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2,3,4]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2,3,4]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2,3,4]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 24.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/rbtLi6FDOe8/task00/sub04/motion.bvh",
+            "params_path": "results/momask/rbtLi6FDOe8/task00/sub04/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Explain the purpose of making a gundi and turning it into a water gondi.",
+          "start": 205.06,
+          "end": 224.06,
+          "segment_ids": [
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub05_f01.jpg",
+              "relative_path": "rbtLi6FDOe8/task00_sub05_f01.jpg",
+              "caption": "A person is preparing to plant a tree in a garden with soil, bags of fertilizer, and a palm frond.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub05_f02.jpg",
+              "relative_path": "rbtLi6FDOe8/task00_sub05_f02.jpg",
+              "caption": "A person is pouring a green bucket into a pile of soil.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub05_f03.jpg",
+              "relative_path": "rbtLi6FDOe8/task00_sub05_f03.jpg",
+              "caption": "A person is using a shovel to fill a hole with dirt.",
+              "frame_index": 3
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask involves preparing a planting area by creating a gundi (a small mound of soil) and transforming it into a water gondi (a raised bed with drainage holes).",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A person is preparing to plant a tree in a garden with soil, bags of fertilizer, and a palm frond.",
+            "- [frames=[2]] A person is pouring a green bucket into a pile of soil.",
+            "- [frames=[3]] A person is using a shovel to fill a hole with dirt.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a person preparing a planting area by first creating a gundi and then turning it into a water gondi. This involves adding soil and ensuring proper drainage for the tree's roots.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with tools such as a shovel and a watering can.",
+            "- The robot should have access to soil and water.",
+            "- The robot should be able to identify the location where the gundi needs to be created.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The gundi should be properly formed.",
+            "- The soil should be mixed with fertilizer.",
+            "- Drainage holes should be created in the gundi.",
+            "- The g (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2,3]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[1,2,3]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[1,2,3]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[1,2,3]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[1,2,3]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 19.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/rbtLi6FDOe8/task00/sub05/motion.bvh",
+            "params_path": "results/momask/rbtLi6FDOe8/task00/sub05/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Explain the steps to prepare the soil and ensure its proper treatment.",
+      "start": 132.76,
+      "end": 266.71,
+      "subtasks": [
+        {
+          "text": "Observe the specific way of planting and the importance of doing it correctly.",
+          "start": 132.76,
+          "end": 181.76,
+          "segment_ids": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            25,
+            26,
+            27
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "rbtLi6FDOe8/task01_sub00_f00.jpg",
+              "caption": "Two men are standing outdoors in a lush green environment.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "rbtLi6FDOe8/task01_sub00_f01.jpg",
+              "caption": "Two men are standing in a lush, green outdoor setting.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "rbtLi6FDOe8/task01_sub00_f02.jpg",
+              "caption": "Two men are standing outdoors, engaged in conversation.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task01_sub00_f03.jpg",
+              "relative_path": "rbtLi6FDOe8/task01_sub00_f03.jpg",
+              "caption": "A man is digging in a field.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task01_sub00_f04.jpg",
+              "relative_path": "rbtLi6FDOe8/task01_sub00_f04.jpg",
+              "caption": "A man is using a hoe to dig in a field.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task01_sub00_f07.jpg",
+              "relative_path": "rbtLi6FDOe8/task01_sub00_f07.jpg",
+              "caption": "A bomb has been detonated in a dirt field, causing a large crater.",
+              "frame_index": 7
+            },
+            {
+              "image_file": "task01_sub00_f08.jpg",
+              "relative_path": "rbtLi6FDOe8/task01_sub00_f08.jpg",
+              "caption": "A large hole in the ground with orange powder on the sides.",
+              "frame_index": 8
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe the correct method of planting, focusing on the preparation and treatment of the soil.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] Two men are standing outdoors in a lush green environment.",
+            "- [frames=[2]] The men are standing outdoors, engaged in conversation.",
+            "- [frames=[3]] A man is digging in a field.",
+            "- [frames=[4]] Another man is using a hoe to dig in a field.",
+            "- [frames=[7]] A bomb has been detonated in a dirt field, causing a large crater.",
+            "- [frames=[8]] A large hole in the ground with orange powder on the sides.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shifts from a peaceful outdoor setting to a dramatic moment where a bomb is detonated, creating a large crater. This transition likely marks a significant event in the demonstration, possibly highlighting the importance of proper soil preparation and treatment.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with sensors to detect soil conditions.",
+            "- It must have the ability to recognize and interpret human actions.",
+            "- The robot needs to understand the context of the demonstration, including the significance of the soil preparation process.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2,3,4,7,8]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2,3,4,7,8]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2,3,4,7,8]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2,3,4,7,8]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2,3,4,7,8]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 49.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/rbtLi6FDOe8/task01/sub00/motion.bvh",
+            "params_path": "results/momask/rbtLi6FDOe8/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Describe the process of mixing maratal butter and its significance.",
+          "start": 195.76,
+          "end": 266.71,
+          "segment_ids": [
+            35,
+            36,
+            55
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f00.jpg",
+              "relative_path": "rbtLi6FDOe8/task01_sub01_f00.jpg",
+              "caption": "A person is planting a tree in a garden with soil, bags of fertilizer, and a green container.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "rbtLi6FDOe8/task01_sub01_f01.jpg",
+              "caption": "A person is preparing soil for planting in a garden.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "rbtLi6FDOe8/task01_sub01_f02.jpg",
+              "caption": "A person is standing next to bags of soil and a green vase in a garden.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task01_sub01_f03.jpg",
+              "relative_path": "rbtLi6FDOe8/task01_sub01_f03.jpg",
+              "caption": "A person is preparing soil for planting in a garden.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task01_sub01_f04.jpg",
+              "relative_path": "rbtLi6FDOe8/task01_sub01_f04.jpg",
+              "caption": "A person is planting a tree in a garden with soil, seedlings, and bags of soil and fertilizer.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task01_sub01_f05.jpg",
+              "relative_path": "rbtLi6FDOe8/task01_sub01_f05.jpg",
+              "caption": "People are digging a hole in the dirt.",
+              "frame_index": 5
+            },
+            {
+              "image_file": "task01_sub01_f06.jpg",
+              "relative_path": "rbtLi6FDOe8/task01_sub01_f06.jpg",
+              "caption": "Two people are digging a hole with shovels in a dirt field.",
+              "frame_index": 6
+            },
+            {
+              "image_file": "task01_sub01_f07.jpg",
+              "relative_path": "rbtLi6FDOe8/task01_sub01_f07.jpg",
+              "caption": "A person is pouring red soil into a hole.",
+              "frame_index": 7
+            },
+            {
+              "image_file": "task01_sub01_f08.jpg",
+              "relative_path": "rbtLi6FDOe8/task01_sub01_f08.jpg",
+              "caption": "A person is pouring red soil into a freshly dug hole.",
+              "frame_index": 8
+            },
+            {
+              "image_file": "task01_sub01_f09.jpg",
+              "relative_path": "rbtLi6FDOe8/task01_sub01_f09.jpg",
+              "caption": "A person is digging a hole with a hoe in a dirt field.",
+              "frame_index": 9
+            },
+            {
+              "image_file": "task01_sub01_f10.jpg",
+              "relative_path": "rbtLi6FDOe8/task01_sub01_f10.jpg",
+              "caption": "A person is digging a hole with a shovel while another person stands nearby.",
+              "frame_index": 10
+            },
+            {
+              "image_file": "task01_sub01_f11.jpg",
+              "relative_path": "rbtLi6FDOe8/task01_sub01_f11.jpg",
+              "caption": "A person is digging a hole in the dirt.",
+              "frame_index": 11
+            },
+            {
+              "image_file": "task01_sub01_f12.jpg",
+              "relative_path": "rbtLi6FDOe8/task01_sub01_f12.jpg",
+              "caption": "A person is pouring a white substance into a hole in the ground.",
+              "frame_index": 12
+            },
+            {
+              "image_file": "task01_sub01_f13.jpg",
+              "relative_path": "rbtLi6FDOe8/task01_sub01_f13.jpg",
+              "caption": "A person is digging a hole in the dirt.",
+              "frame_index": 13
+            },
+            {
+              "image_file": "task01_sub01_f14.jpg",
+              "relative_path": "rbtLi6FDOe8/task01_sub01_f14.jpg",
+              "caption": "A person is digging a hole in the dirt.",
+              "frame_index": 14
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask involves describing the process of mixing maratal butter and explaining its significance in soil preparation for planting.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A person is planting a tree in a garden with soil, bags of fertilizer, and a green container.",
+            "- [frames=[2,3]] A person is preparing soil for planting in a garden.",
+            "- [frames=[4,5,6]] People are digging a hole in the dirt.",
+            "- [frames=[7]] A person is pouring red soil into a hole.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a garden where soil is being prepared for planting a tree. The presence of maratal butter is implied through the need to describe its mixing and significance.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the concept of soil preparation for planting.",
+            "- The robot should know the location of the garden and the necessary tools.",
+            "- The robot should be able to identify and interact with soil, fertilizer, and other gardening tools.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly describe the mixing of maratal butter and its significance.",
+            "- The robot should accurately demonstrate the process of preparing the soil.",
+            "- The robot should verify that the soil (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 70.94999999999999,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/rbtLi6FDOe8/task01/sub01/motion.bvh",
+            "params_path": "results/momask/rbtLi6FDOe8/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Highlight the steps for preparing and treating the soil with water and drying it.",
+          "start": 224.06,
+          "end": 246.81,
+          "segment_ids": [
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub02_f01.jpg",
+              "relative_path": "rbtLi6FDOe8/task01_sub02_f01.jpg",
+              "caption": "A person is pouring red soil into a trench.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub02_f02.jpg",
+              "relative_path": "rbtLi6FDOe8/task01_sub02_f02.jpg",
+              "caption": "A person is digging a hole with a shovel in a dirt field.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task01_sub02_f03.jpg",
+              "relative_path": "rbtLi6FDOe8/task01_sub02_f03.jpg",
+              "caption": "A person is digging a hole in the dirt with a shovel.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task01_sub02_f04.jpg",
+              "relative_path": "rbtLi6FDOe8/task01_sub02_f04.jpg",
+              "caption": "A person is digging a hole with a shovel while another person stands nearby.",
+              "frame_index": 4
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The task involves preparing and treating the soil by digging holes and ensuring they are properly treated with water before drying.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A person is pouring red soil into a trench.",
+            "- [frames=[2,3]] A person is digging holes with a shovel in a dirt field.",
+            "- [frames=[4]] Another person is standing nearby while the first person continues digging a hole.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows individuals working on a dirt field, where one person is actively digging holes and another is observing. The soil being used appears to be red, indicating it might be a specific type suitable for certain plants.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a shovel.",
+            "- The robot needs to have access to a water source.",
+            "- The robot must be able to identify and dig holes in the soil.",
+            "- The robot should be capable of applying water to the soil.",
+            "- The robot needs to be able to monitor the drying process of the soil.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Holes dug in the soil are of appropriate depth and size.",
+            "- Soil is adequately treated with water.",
+            "- Soil is allowed to dry completely before further planting steps.",
+            "",
+            "ORDERED_RO (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2,3,4]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[1,2,3,4]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[1,2,3,4]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[1,2,3,4]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[1,2,3,4]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 22.75,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/rbtLi6FDOe8/task01/sub02/motion.bvh",
+            "params_path": "results/momask/rbtLi6FDOe8/task01/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

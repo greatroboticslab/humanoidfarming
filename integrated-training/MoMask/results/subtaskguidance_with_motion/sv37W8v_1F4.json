@@ -1,0 +1,1123 @@
+{
+  "video_index": "sv37W8v_1F4",
+  "title": "Innovations in Sustainable Horticulture Tech",
+  "url": "https://www.youtube.com/watch?v=sv37W8v_1F4",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Discusses agricultural training and various technologies like cool-bottom, solar dryers, and irrigation systems.",
+  "tasks": [
+    {
+      "task": "Describe the training initiatives at the Horticulture Department.",
+      "start": 33.71,
+      "end": 73.71,
+      "subtasks": [
+        {
+          "text": "Train students on agricultural practices and equipment demonstrations.",
+          "start": 33.71,
+          "end": 51.71,
+          "segment_ids": [
+            6,
+            7,
+            9
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "sv37W8v_1F4/task00_sub00_f00.jpg",
+              "caption": "The video frame shows a solar dryer at the Bangkhen Campus of Kasetsart University in Bangkok.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "sv37W8v_1F4/task00_sub00_f01.jpg",
+              "caption": "A man stands next to a blue water tank in a greenhouse.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "sv37W8v_1F4/task00_sub00_f02.jpg",
+              "caption": "A greenhouse with various potted plants, including carrots and celery, is shown.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub00_f03.jpg",
+              "relative_path": "sv37W8v_1F4/task00_sub00_f03.jpg",
+              "caption": "A close-up view of young tomato plants growing in a tray.",
+              "frame_index": 3
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment focuses on demonstrating agricultural practices and equipment at the Horticulture Department, specifically at the Bangkhen Campus of Kasetsart University in Bangkok.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A solar dryer is prominently displayed at the Bangkhen Campus.",
+            "- [frames=[1]] A man is seen standing beside a blue water tank in a greenhouse.",
+            "- [frames=[2]] A greenhouse is shown with various potted plants, including carrots and celery.",
+            "- [frames=[3]] A close-up of young tomato plants growing in a tray is presented.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a typical horticultural setting with multiple elements such as greenhouses, potted plants, and drying equipment. These elements suggest ongoing educational activities related to sustainable agriculture and plant cultivation.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the layout of the Bangkhen Campus.",
+            "- It must recognize common agricultural equipment like solar dryers and water tanks.",
+            "- The robot needs to identify different types of potted plants and trays used for seedlings.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the location and purpose of the solar dryer.",
+            "- It must correctly identify and explain the function of (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2,3]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2,3]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2,3]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2,3]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2,3]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 18.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/sv37W8v_1F4/task00/sub00/motion.bvh",
+            "params_path": "results/momask/sv37W8v_1F4/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Conduct training of trainers from different countries.",
+          "start": 54.71,
+          "end": 65.71,
+          "segment_ids": [
+            10,
+            11,
+            12
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f00.jpg",
+              "relative_path": "sv37W8v_1F4/task00_sub01_f00.jpg",
+              "caption": "A man in a blue shirt is trimming a bush with a pair of scissors while a group of people watches.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "sv37W8v_1F4/task00_sub01_f01.jpg",
+              "caption": "A group of people, including a man in a blue shirt, are gathered around a plant, with one man pointing to it.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "sv37W8v_1F4/task00_sub01_f02.jpg",
+              "caption": "A person is holding a pair of pruning shears.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask involves conducting a training session where a trainer demonstrates pruning techniques to a group of participants from various countries.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A man in a blue shirt is trimming a bush with a pair of scissors while a group of people watches.",
+            "- [frames=[0,1]] The group includes a man in a blue shirt who appears to be the trainer.",
+            "- [frames=[1]] A group of people, including the man in a blue shirt, are gathered around a plant, with one man pointing to it.",
+            "- [frames=[2]] A person is holding a pair of pruning shears.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a training session where a trainer is demonstrating proper pruning techniques to an audience. The trainer uses scissors and later pruning shears to show how to trim plants effectively.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with basic horticultural tools such as scissors and pruning shears.",
+            "- The robot needs to know the correct way to hold and use these tools.",
+            "- The robot should be able to identify and interact with a group of people.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should successfully demonstrate the pruning technique using the correct",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 10.999999999999993,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/sv37W8v_1F4/task00/sub01/motion.bvh",
+            "params_path": "results/momask/sv37W8v_1F4/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Train farmers on the use of innovative agricultural technologies.",
+          "start": 65.71,
+          "end": 73.71,
+          "segment_ids": [
+            13,
+            14
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub02_f01.jpg",
+              "relative_path": "sv37W8v_1F4/task00_sub02_f01.jpg",
+              "caption": "A man in a blue shirt with the word \"Horticulture\" on it is talking to a group of people.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub02_f02.jpg",
+              "relative_path": "sv37W8v_1F4/task00_sub02_f02.jpg",
+              "caption": "A man in a blue shirt with the word \"Horticulture\" on it is talking to a group of people.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe a training session where a horticulture instructor is explaining innovative agricultural technologies to a group of farmers.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A man in a blue shirt with \"Horticulture\" written on it is speaking to a group of people.",
+            "- The group consists of multiple individuals, likely farmers, who are attentive and engaged.",
+            "- The setting appears to be an indoor classroom or training facility.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a formal training session where the horticulture instructor is delivering a presentation on new agricultural technologies. The group of farmers is actively listening, indicating their interest in learning about these innovations.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot must recognize the horticulture instructor and the group of farmers.",
+            "- It should be able to identify the context of a training session.",
+            "- The robot needs to understand basic gestures and expressions to gauge the audience's engagement.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully identifies the horticulture instructor and the group of farmers.",
+            "- It accurately interprets the context of the training session.",
+            "- The robot can track the instructor’s gestures and expressions to ensure the audience remains engaged.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 8.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/sv37W8v_1F4/task00/sub02/motion.bvh",
+            "params_path": "results/momask/sv37W8v_1F4/task00/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Explain the benefits of adopting technologies like cool-bottom.",
+      "start": 106.71,
+      "end": 143.71,
+      "subtasks": [
+        {
+          "text": "Highlight the cool-bottom's ability to reduce storage temperatures.",
+          "start": 106.71,
+          "end": 119.71,
+          "segment_ids": [
+            20,
+            21
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "sv37W8v_1F4/task01_sub00_f00.jpg",
+              "caption": "A man is pointing at a poster in front of a window.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "sv37W8v_1F4/task01_sub00_f01.jpg",
+              "caption": "An air conditioner is mounted on a wall, with the display showing a temperature of 16 degrees.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "sv37W8v_1F4/task01_sub00_f02.jpg",
+              "caption": "A man in a light blue shirt is pointing at a window with a poster behind him.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will explain how the cool-bottom technology reduces storage temperatures, using visual aids such as posters and an air conditioner display.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A man is pointing at a poster in front of a window.",
+            "- [frames=[1]] An air conditioner is mounted on a wall, with the display showing a temperature of 16 degrees.",
+            "- [frames=[2]] A man in a light blue shirt is pointing at a window with a poster behind him.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a man explaining the benefits of cool-bottom technology by pointing to a poster and an air conditioner. The air conditioner display indicates a current temperature of 16 degrees, which is likely the target temperature for optimal storage conditions.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the cool-bottom technology and its benefits.",
+            "- The robot should have access to the tutorial video and be able to read the captions.",
+            "- The robot should be able to navigate to the relevant section of the video.",
+            "- The robot should be able to communicate with the user about the benefits of cool-bottom technology.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the reduction in storage temperatures achieved by the cool",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 13.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/sv37W8v_1F4/task01/sub00/motion.bvh",
+            "params_path": "results/momask/sv37W8v_1F4/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Mention the versatility of using cool-bottoms for vegetable storage and seed preservation.",
+          "start": 119.71,
+          "end": 143.71,
+          "segment_ids": [
+            22,
+            23,
+            24
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "sv37W8v_1F4/task01_sub01_f01.jpg",
+              "caption": "A woman in a plaid shirt stands in front of a sign that reads \"Department of Horticulture.\"",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "sv37W8v_1F4/task01_sub01_f02.jpg",
+              "caption": "The video frame shows a display of various green vegetables in plastic baskets.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task01_sub01_f03.jpg",
+              "relative_path": "sv37W8v_1F4/task01_sub01_f03.jpg",
+              "caption": "The video frame shows a market display with green vegetables, including broccoli and snap peas.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task01_sub01_f04.jpg",
+              "relative_path": "sv37W8v_1F4/task01_sub01_f04.jpg",
+              "caption": "A person is holding a small, red object in their hand.",
+              "frame_index": 4
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should explain the versatility of cool-bottoms for storing vegetables and preserving seeds, using visual aids from the tutorial video.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A woman in a plaid shirt stands in front of a sign that reads \"Department of Horticulture.\"",
+            "- [frames=[2]] A display of various green vegetables in plastic baskets is shown.",
+            "- [frames=[3]] A market display with green vegetables, including broccoli and snap peas, is visible.",
+            "- [frames=[4]] A person is holding a small, red object in their hand.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from an introduction by a horticulture department representative to a display of fresh vegetables. The final frame shows someone handling a small, likely cool-bottom device, which sets the context for discussing its benefits.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the benefits of cool-bottom technology.",
+            "- The robot should have access to the video frames and be able to reference them.",
+            "- The robot should know how to articulate the benefits of cool-bottoms in a clear and concise manner.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately mention the versatility of cool-bottoms for vegetable storage and seed preservation.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2,3,4]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[1,2,3,4]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[1,2,3,4]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[1,2,3,4]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[1,2,3,4]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 24.000000000000014,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/sv37W8v_1F4/task01/sub01/motion.bvh",
+            "params_path": "results/momask/sv37W8v_1F4/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Describe the potential impact of cooling technology on produce quality.",
+      "start": 143.71,
+      "end": 172.71,
+      "subtasks": [
+        {
+          "text": "Discuss how cooling can extend crop shelf life.",
+          "start": 143.71,
+          "end": 155.71,
+          "segment_ids": [
+            25,
+            26
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "sv37W8v_1F4/task02_sub00_f01.jpg",
+              "caption": "A man in a blue shirt and black pants stands in front of a banana tree in a city park.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "sv37W8v_1F4/task02_sub00_f02.jpg",
+              "caption": "Banana tree with green bananas and a purple flower.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Cooling technology can significantly extend the shelf life of crops like bananas by slowing down their ripening process.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A man in a blue shirt and black pants is standing in front of a banana tree in a city park.",
+            "- [frames=[2]] The banana tree is shown with green bananas and a purple flower.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a typical urban setting with a banana tree, indicating the context of sustainable horticulture in an urban environment.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture images of the banana tree.",
+            "- The robot needs to have knowledge about the effects of cooling on fruit ripening.",
+            "- The robot should be able to communicate with the user to provide information.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe how cooling extends the shelf life of bananas.",
+            "- It should mention the benefits of reduced spoilage and improved quality.",
+            "- The robot should be able to visually identify the bananas and their current state.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Capture an image of the man and the banana tree.",
+            "2. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "3. [type=perception, frames=[1,2]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture an image of the man and the banana tree. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 12.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/sv37W8v_1F4/task02/sub00/motion.bvh",
+            "params_path": "results/momask/sv37W8v_1F4/task02/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Emphasize the importance of maintaining produce quality through cool-chain.",
+          "start": 155.71,
+          "end": 172.71,
+          "segment_ids": [
+            27,
+            28,
+            29
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub01_f01.jpg",
+              "relative_path": "sv37W8v_1F4/task02_sub01_f01.jpg",
+              "caption": "A seedling tray with a label indicating the date and number of the seedling.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub01_f02.jpg",
+              "relative_path": "sv37W8v_1F4/task02_sub01_f02.jpg",
+              "caption": "A small plant with green leaves is growing amidst dry straw in a field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on explaining the importance of maintaining produce quality through the cool-chain, emphasizing the role of cooling technology in sustainable horticulture.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A seedling tray with a label indicating the date and number of the seedling.",
+            "- [frames=[2]] A small plant with green leaves is growing amidst dry straw in a field.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict early stages of plant growth, suggesting the beginning of the cool-chain process. The presence of a labeled seedling tray indicates careful tracking and management, while the growing plant in a field setting highlights the initial stages of produce cultivation.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- Knowledge of the cool-chain process and its importance in produce quality.",
+            "- Understanding of sustainable horticulture practices.",
+            "- Familiarity with the lifecycle of plants from seedling to maturity.",
+            "- Awareness of the environmental conditions affecting plant growth.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Clear explanation of the cool-chain's role in maintaining produce quality.",
+            "- Highlighting the benefits of cooling technology in preserving produce freshness.",
+            "- Mention of the challenges faced without proper cooling during transportation and storage.",
+            "- Providing examples of how cooling technology can enhance the shelf life of produce.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 17.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/sv37W8v_1F4/task02/sub01/motion.bvh",
+            "params_path": "results/momask/sv37W8v_1F4/task02/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Present different types of solar dryers.",
+      "start": 183.71,
+      "end": 221.71,
+      "subtasks": [
+        {
+          "text": "Explain the FAO recommended type of solar dryer.",
+          "start": 183.71,
+          "end": 205.71,
+          "segment_ids": [
+            32,
+            33,
+            34
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub00_f00.jpg",
+              "relative_path": "sv37W8v_1F4/task03_sub00_f00.jpg",
+              "caption": "A solar dryer is displayed outside a greenhouse.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task03_sub00_f01.jpg",
+              "relative_path": "sv37W8v_1F4/task03_sub00_f01.jpg",
+              "caption": "A man stands in front of a solar dryer in a greenhouse.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub00_f02.jpg",
+              "relative_path": "sv37W8v_1F4/task03_sub00_f02.jpg",
+              "caption": "A man stands next to a solar dryer in a garden.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task03_sub00_f03.jpg",
+              "relative_path": "sv37W8v_1F4/task03_sub00_f03.jpg",
+              "caption": "A solar dryer is being used to dry produce in a horticulture innovation lab.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task03_sub00_f04.jpg",
+              "relative_path": "sv37W8v_1F4/task03_sub00_f04.jpg",
+              "caption": "The video shows a close-up of dried red chili peppers on a mesh surface.",
+              "frame_index": 4
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask involves explaining the FAO recommended type of solar dryer, which is likely a flat-bed solar dryer, based on the context provided by the frames.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A solar dryer is displayed outside a greenhouse, suggesting it is a portable or stationary model.",
+            "- [frames=[1,2]] A man stands in front of a solar dryer in a greenhouse and then next to one in a garden, indicating the dryer's versatility in different settings.",
+            "- [frames=[3,4]] A solar dryer is shown in use in a horticulture innovation lab, with a close-up of dried red chili peppers on a mesh surface, highlighting its practical application.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The solar dryer appears to be a versatile device used in various agricultural settings, including greenhouses, gardens, and horticulture labs. It is designed to efficiently dry produce using solar energy, making it an important tool in sustainable horticulture.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have knowledge about different types of solar dryers.",
+            "- The robot must be able to identify the FAO recommended type of solar dryer.",
+            "- The robot needs to understand the context of sustainable hort",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- (auto-filled) Robot completes the subtask and reports outcomes.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2,3,4]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2,3,4]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2,3,4]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2,3,4]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2,3,4]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 22.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/sv37W8v_1F4/task03/sub00/motion.bvh",
+            "params_path": "results/momask/sv37W8v_1F4/task03/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Describe the innovative solar dryer design by Professor Michael Reed.",
+          "start": 205.71,
+          "end": 221.71,
+          "segment_ids": [
+            35,
+            36,
+            37
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub01_f01.jpg",
+              "relative_path": "sv37W8v_1F4/task03_sub01_f01.jpg",
+              "caption": "A solar dryer is installed in a horticulture innovation lab at Kasetsart University.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub01_f02.jpg",
+              "relative_path": "sv37W8v_1F4/task03_sub01_f02.jpg",
+              "caption": "A man is inspecting a solar dryer in a horticulture innovation lab.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task03_sub01_f03.jpg",
+              "relative_path": "sv37W8v_1F4/task03_sub01_f03.jpg",
+              "caption": "A man is examining a solar dryer in a garden.",
+              "frame_index": 3
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask involves describing an innovative solar dryer designed by Professor Michael Reed, which is showcased in various settings within a horticulture innovation lab and a garden.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A solar dryer is installed in a horticulture innovation lab at Kasetsart University.",
+            "- [frames=[2]] A man is inspecting a solar dryer in the same lab.",
+            "- [frames=[3]] The same man is examining a solar dryer in a garden setting.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict a solar dryer being inspected both indoors and outdoors, suggesting its versatility and practical application in different environments. The presence of a man in all frames indicates he might be the presenter or someone familiar with the device, likely providing detailed insights into its features and benefits.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have prior knowledge about solar dryers and their components.",
+            "- The robot must be able to navigate through the lab and garden areas.",
+            "- The robot needs to recognize the solar dryer and understand its unique features.",
+            "- The robot should be capable of interacting with the man to gather detailed information.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the innovative features of the solar dryer.",
+            "- It (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2,3]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[1,2,3]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[1,2,3]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[1,2,3]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[1,2,3]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 16.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/sv37W8v_1F4/task03/sub01/motion.bvh",
+            "params_path": "results/momask/sv37W8v_1F4/task03/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Discuss solar-powered irrigation systems.",
+      "start": 233.71,
+      "end": 262.71,
+      "subtasks": [
+        {
+          "text": "Explain how solar power can be used for irrigation.",
+          "start": 233.71,
+          "end": 254.71,
+          "segment_ids": [
+            40,
+            41,
+            42
+          ],
+          "frames": [
+            {
+              "image_file": "task04_sub00_f00.jpg",
+              "relative_path": "sv37W8v_1F4/task04_sub00_f00.jpg",
+              "caption": "A solar pump irrigation system is displayed in a garden setting.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task04_sub00_f01.jpg",
+              "relative_path": "sv37W8v_1F4/task04_sub00_f01.jpg",
+              "caption": "A solar-powered garden with drip irrigation and a blue water tank is shown in a greenhouse.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task04_sub00_f02.jpg",
+              "relative_path": "sv37W8v_1F4/task04_sub00_f02.jpg",
+              "caption": "A garden bed with eggplant plants and other green plants, with a building in the background.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task04_sub00_f03.jpg",
+              "relative_path": "sv37W8v_1F4/task04_sub00_f03.jpg",
+              "caption": "A garden with plants and a blue water tank is surrounded by a fence and trees.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task04_sub00_f04.jpg",
+              "relative_path": "sv37W8v_1F4/task04_sub00_f04.jpg",
+              "caption": "A garden with plants and a blue water tank is shown in a greenhouse.",
+              "frame_index": 4
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Solar power is utilized in a garden setting to irrigate plants through a system involving a solar pump and a water tank.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A solar pump irrigation system is displayed in a garden setting, with a blue water tank visible.",
+            "- [frames=[2,3]] Garden beds with various plants are shown, including eggplants, surrounded by fences and trees.",
+            "- [frames=[4]] A greenhouse environment is depicted with plants and a blue water tank.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a sustainable horticultural practice where solar energy powers an irrigation system, ensuring efficient water usage for plant growth in both outdoor and greenhouse settings.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with sensors to detect sunlight intensity and water levels.",
+            "- The robot needs to have the capability to navigate within the garden and greenhouse environments.",
+            "- The robot must be able to interact with the solar pump and water tank.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The solar pump should operate efficiently to supply water to the plants.",
+            "- Water levels in the tank should be maintained at optimal levels.",
+            "- The irrigation system should distribute water evenly across all garden beds.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2,3,4]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2,3,4]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2,3,4]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2,3,4]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2,3,4]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 21.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/sv37W8v_1F4/task04/sub00/motion.bvh",
+            "params_path": "results/momask/sv37W8v_1F4/task04/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Highlight the benefits of combining solar power with drip irrigation.",
+          "start": 254.71,
+          "end": 262.71,
+          "segment_ids": [
+            43
+          ],
+          "frames": [
+            {
+              "image_file": "task04_sub01_f01.jpg",
+              "relative_path": "sv37W8v_1F4/task04_sub01_f01.jpg",
+              "caption": "A row of colorful irrigation pipes connected to a garden bed.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task04_sub01_f02.jpg",
+              "relative_path": "sv37W8v_1F4/task04_sub01_f02.jpg",
+              "caption": "A pipe in the ground is dripping water.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on explaining the advantages of using solar power in conjunction with drip irrigation systems, which are visually represented in the frames.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A row of colorful irrigation pipes is seen connected to a garden bed, indicating a well-organized and visually appealing irrigation system.",
+            "- [frames=[2]] A pipe in the ground is clearly visible, showing water being dripped out, highlighting the efficiency of the drip irrigation method.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The frames depict a well-maintained garden bed with a series of colorful irrigation pipes, suggesting a modern and sustainable approach to horticulture. The drip irrigation system is evident through the visible water droplets from the pipes, emphasizing its precision and water-saving capabilities.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture and analyze the visual information.",
+            "- The robot must have knowledge about solar power and drip irrigation systems.",
+            "- The robot needs to be able to communicate the benefits of the combined system effectively.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the benefits of solar-powered drip irrigation.",
+            "- The robot should highlight the efficiency and sustainability of the system.",
+            "- The robot should convey the precision and (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 7.999999999999972,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/sv37W8v_1F4/task04/sub01/motion.bvh",
+            "params_path": "results/momask/sv37W8v_1F4/task04/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Summarize the low-cost and sustainable technologies.",
+      "start": 273.71,
+      "end": 307.71,
+      "subtasks": [
+        {
+          "text": "Mention the affordability of these technologies for small farmers.",
+          "start": 273.71,
+          "end": 292.71,
+          "segment_ids": [
+            46,
+            47,
+            48
+          ],
+          "frames": [
+            {
+              "image_file": "task05_sub00_f00.jpg",
+              "relative_path": "sv37W8v_1F4/task05_sub00_f00.jpg",
+              "caption": "A man sits at a desk in an office, surrounded by papers and a map.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task05_sub00_f01.jpg",
+              "relative_path": "sv37W8v_1F4/task05_sub00_f01.jpg",
+              "caption": "A man in a white shirt is sitting at a desk with a map on the wall behind him.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task05_sub00_f02.jpg",
+              "relative_path": "sv37W8v_1F4/task05_sub00_f02.jpg",
+              "caption": "The video frame shows a sign with the words \"Agricultural and Food Engineering\" written on it.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task05_sub00_f03.jpg",
+              "relative_path": "sv37W8v_1F4/task05_sub00_f03.jpg",
+              "caption": "A man in a white shirt stands in front of a bookshelf filled with papers and books.",
+              "frame_index": 3
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment highlights the affordability of sustainable horticulture technologies for small farmers, emphasizing their accessibility and cost-effectiveness.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A man in a white shirt is seated at a desk, likely discussing the topic of sustainable technologies.",
+            "- [frame=2] A sign with \"Agricultural and Food Engineering\" is visible, indicating the context of the discussion.",
+            "- [frame=3] Another man in a white shirt is standing near a bookshelf, possibly presenting or referencing materials related to the topic.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict a professional setting where experts are discussing sustainable horticulture technologies. The presence of documents and books suggests a formal presentation or meeting focused on the subject matter.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the context of sustainable horticulture technologies.",
+            "- It must recognize the importance of affordability for small farmers.",
+            "- The robot needs to understand the significance of highlighting cost-effectiveness in the discussion.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately convey the affordability aspect of the technologies.",
+            "- It must ensure the information is presented in a way that emphasizes the benefits for small farmers.",
+            "- The robot should maintain a (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2,3]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2,3]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2,3]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2,3]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2,3]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 19.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/sv37W8v_1F4/task05/sub00/motion.bvh",
+            "params_path": "results/momask/sv37W8v_1F4/task05/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Emphasize the importance of indigenous knowledge in these technologies.",
+          "start": 292.71,
+          "end": 307.71,
+          "segment_ids": [
+            49,
+            50
+          ],
+          "frames": [
+            {
+              "image_file": "task05_sub01_f01.jpg",
+              "relative_path": "sv37W8v_1F4/task05_sub01_f01.jpg",
+              "caption": "A man in a white shirt stands in front of a bookshelf filled with papers.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task05_sub01_f02.jpg",
+              "relative_path": "sv37W8v_1F4/task05_sub01_f02.jpg",
+              "caption": "A man is standing next to a large blue water tank with a Clean logo on it.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task05_sub01_f03.jpg",
+              "relative_path": "sv37W8v_1F4/task05_sub01_f03.jpg",
+              "caption": "A man in a red shirt is watering white orchids in a greenhouse.",
+              "frame_index": 3
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask emphasizes the role of indigenous knowledge in sustainable horticultural technologies, highlighting its importance through various visual cues.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A man in a white shirt stands in front of a bookshelf filled with papers, suggesting he is knowledgeable about traditional methods.",
+            "- [frames=[2]] A man is standing next to a large blue water tank with a Clean logo, indicating the integration of modern technology with traditional practices.",
+            "- [frames=[3]] A man in a red shirt is watering white orchids in a greenhouse, showing practical application of sustainable techniques.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict a blend of traditional and modern approaches to horticulture, emphasizing the value of indigenous knowledge in developing sustainable technologies. The presence of books and papers suggests a rich repository of traditional wisdom, while the modern water tank symbolizes the incorporation of contemporary solutions.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should recognize the importance of indigenous knowledge.",
+            "- It must understand the context of sustainable horticulture.",
+            "- The robot needs to be aware of the visual elements representing traditional and modern practices.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately convey the significance of indigenous knowledge in sustainable technologies.",
+            "- It (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2,3]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[1,2,3]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[1,2,3]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[1,2,3]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[1,2,3]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 15.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/sv37W8v_1F4/task05/sub01/motion.bvh",
+            "params_path": "results/momask/sv37W8v_1F4/task05/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

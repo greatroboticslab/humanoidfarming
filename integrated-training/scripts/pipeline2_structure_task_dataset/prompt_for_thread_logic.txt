@@ -1,0 +1,35 @@
+You are given an ordered list of subtasks from a video segment (already sorted by timestamp).
+These subtasks may come from random talk videos and may NOT follow a rigid pipeline like observe→plan→act.
+
+Your job:
+1) Identify a short THREAD_TITLE that describes the common topic.
+2) Provide LOGICAL_LINKS between consecutive subtasks (i -> i+1) explaining why the next statement follows.
+3) Detect CONFLICTS: any contradictions, inconsistency, or abrupt topic jumps.
+4) Provide REPAIR:
+   - If conflict exists: propose minimal fixes (rewrite one sentence or insert a bridging sentence).
+   - If no conflict: optionally add one bridging sentence to improve coherence.
+5) Do NOT invent facts beyond the provided subtasks. Use only what is stated.
+
+Output STRICT JSON with this schema:
+
+{
+  "thread_title": "...",
+  "thread_summary": "...",
+  "logical_links": [
+    {"from": 0, "to": 1, "link": "..."},
+    ...
+  ],
+  "conflicts": [
+    {"type": "contradiction|topic_jump|missing_step", "between": [i, j], "description": "..."}
+  ],
+  "repair": {
+    "bridging_sentences": [
+      {"insert_after": i, "text": "..."}
+    ],
+    "revised_subtasks": [
+      {"index": i, "text": "..."}
+    ]
+  }
+}
+
+If there are no conflicts, return "conflicts": [] and keep repair minimal.

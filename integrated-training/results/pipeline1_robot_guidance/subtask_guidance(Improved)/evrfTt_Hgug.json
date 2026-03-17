@@ -1,0 +1,445 @@
+{
+  "video_index": "evrfTt_Hgug",
+  "title": "Saudi Farmers Discuss Irrigation Methods and Costs",
+  "url": "https://www.youtube.com/watch?v=evrfTt_Hgug",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "The video describes the attendees' experiences and insights from a agricultural lecture, including information on fertilizers, costs, and the positive impact of the session.",
+  "tasks": [
+    {
+      "task": "Explain the attendees' feedback on a lecture about agricultural practices.",
+      "start": 28.78,
+      "end": 63.34,
+      "subtasks": [
+        {
+          "text": "The attendees noted the large quantity of pesticides and fertilizers mentioned in the program.",
+          "start": 28.78,
+          "end": 31.94,
+          "segment_ids": [
+            0
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "evrfTt_Hgug/task00_sub00_f00.jpg",
+              "caption": "The video frame shows a man outdoors, wearing a striped shirt, with text overlay indicating a message about not adding pesticides and fertilizers to the land.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "evrfTt_Hgug/task00_sub00_f01.jpg",
+              "caption": "An older man in a striped shirt is talking outdoors.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "evrfTt_Hgug/task00_sub00_f02.jpg",
+              "caption": "A man in a striped shirt is sitting outdoors, with a tree and greenery in the background.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The attendees express concern over the excessive use of pesticides and fertilizers discussed in the lecture. They emphasize the need for more sustainable practices.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A man in a striped shirt is seen outdoors, with a message overlay about avoiding pesticides and fertilizers.",
+            "- [frames=[1]] An older man in a striped shirt is speaking outdoors, likely addressing the group's concerns.",
+            "- [frames=[2]] Another man in a striped shirt is seated outdoors, with a tree and greenery in the background, suggesting a discussion setting.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a group of farmers discussing agricultural practices, specifically focusing on the overuse of chemicals mentioned in a recent lecture. The attendees are clearly concerned about the environmental impact and seek more sustainable alternatives.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture the scene.",
+            "- The robot should have the ability to communicate with the attendees.",
+            "- The robot should be able to navigate through the outdoor area.",
+            "- The robot should have a display screen to show relevant information.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately convey the attendees' feedback regarding the pesticide and fertilizer usage.",
+            "- The robot should provide suggestions for more sustainable agricultural practices.",
+            "- The robot should ensure that the attendees' concerns are properly addressed and understood.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the outdoor location where the attendees are gathered.",
+            "2. [type=perception, frames=[0,1]] Use the camera to capture the attendees and their expressions.",
+            "3. [type=communication, frames=[1]] Engage with the older man in the striped shirt, confirming his feedback on the pesticide and fertilizer usage.",
+            "4. [type=manipulation, frames=[2]] Adjust the robot's.",
+            "5. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the outdoor location where the attendees are gathered. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "There were both accurate and incorrect information in the lecture about fertilizers.",
+          "start": 42.5,
+          "end": 49.34,
+          "segment_ids": [
+            4,
+            5
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f00.jpg",
+              "relative_path": "evrfTt_Hgug/task00_sub01_f00.jpg",
+              "caption": "An older man in a striped shirt is standing outdoors, possibly in a garden or farm, with a tree and greenery in the background.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "evrfTt_Hgug/task00_sub01_f01.jpg",
+              "caption": "A man in a striped shirt is sitting outdoors, with a background of trees and a field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "evrfTt_Hgug/task00_sub01_f02.jpg",
+              "caption": "The video shows an older man with a mustache wearing a striped shirt, and there is a caption that reads, \"we found out that we were making many",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The attendees discuss the inaccuracies and correct information presented in the lecture about fertilizers, focusing on their practical experience.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] An older man in a striped shirt is seen standing and then sitting outdoors, likely in a garden or farm setting.",
+            "- [frame=2] The scene shifts to show the same older man with a mustache, and a caption appears reading, \"we found out that we were making many.\"",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts farmers discussing the lecture on fertilizers, with one farmer providing feedback. The presence of outdoor settings suggests a rural environment relevant to agriculture.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with audio recognition capabilities.",
+            "- The robot needs to be within earshot of the discussion.",
+            "- The robot should have a display screen to show relevant information.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately capture the attendees' feedback on the lecture.",
+            "- It should identify both accurate and inaccurate information mentioned.",
+            "- The robot should present a summary of the discussion clearly.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Listen to the attendees' discussion about the lecture on fertilizers.",
+            "2. [type=perception, frames=[2]] Read the caption on the screen to confirm the attendees' feedback.",
+            "3. [type=navigation, frames=[0,1]] Move closer to the attendees if necessary to ensure clear audio capture.",
+            "4. [type=manipulation, frames=[0,1,2]] Adjust the robot's microphone to optimize sound quality.",
+            "5. [type=perception, frames=[0,1,2]] Confirm with the attendees that the robot has understood their points by repeating them back.",
+            "6. [type=manipulation, frames=[0,1,2]] Take notes on the inaccuracies and correct information discussed.",
+            "7. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Listen to the attendees' discussion about the lecture on fertilizers. It then verifies the key detail directly from the frames (Read the caption on the screen to confirm the attendees' feedback).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "The session was generally positive and beneficial for the attendees.",
+          "start": 57.42,
+          "end": 63.34,
+          "segment_ids": [
+            9,
+            10
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub02_f00.jpg",
+              "relative_path": "evrfTt_Hgug/task00_sub02_f00.jpg",
+              "caption": "An older man with a mustache is wearing a striped shirt, standing outdoors with trees in the background.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub02_f01.jpg",
+              "relative_path": "evrfTt_Hgug/task00_sub02_f01.jpg",
+              "caption": "An older man in a striped shirt is outdoors, and there is text overlaid on the image.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub02_f02.jpg",
+              "relative_path": "evrfTt_Hgug/task00_sub02_f02.jpg",
+              "caption": "A man is drawing on a whiteboard in front of a FAO banner.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The attendees found the lecture on agricultural practices to be positive and beneficial. The discussion was likely focused on irrigation methods and costs, as indicated by the presence of an older man with a mustache and a man drawing on a whiteboard with a FAO banner.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] An older man with a mustache is wearing a striped shirt, standing outdoors with trees in the background.",
+            "- [frames=[0,1]] There is text overlaid on the image, possibly indicating the topic or a quote from the lecture.",
+            "- [frames=[2]] A man is drawing on a whiteboard in front of a FAO banner, suggesting the ongoing discussion or presentation.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a group discussion where attendees are positively engaging with the lecture content. The presence of an older man and the whiteboard with a FAO banner suggests a formal setting, possibly a conference or workshop on agriculture.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be within the vicinity of the discussion area.",
+            "- The robot should have access to a display screen or projector to show relevant information.",
+            "- The robot should be able to communicate with the attendees effectively.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The attendees should express satisfaction with the lecture.",
+            "- The robot should accurately convey the positive feedback.",
+            "- The robot should provide additional relevant information if needed.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Move to a position near the older man with a mustache.",
+            "2. [type=perception, frames=[0,1]] Observe the facial expressions and body language of the attendees to gauge their reaction.",
+            "3. [type=perception, frames=[2]] Confirm the topic of the lecture by reading the text on the whiteboard.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to a position near the older man with a mustache. It then verifies the key detail directly from the frames (Confirm the topic of the lecture by reading the text on the whiteboard).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Describe the beneficial aspects of using less fertilizer.",
+      "start": 77.16,
+      "end": 94.04,
+      "subtasks": [
+        {
+          "text": "Using less fertilizer reduces the cost for the farm.",
+          "start": 77.16,
+          "end": 86.16,
+          "segment_ids": [
+            12,
+            13,
+            14,
+            15
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "evrfTt_Hgug/task01_sub00_f00.jpg",
+              "caption": "A man in a purple shirt and vest is talking outdoors, with a curtain and greenery in the background.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "evrfTt_Hgug/task01_sub00_f01.jpg",
+              "caption": "A man in a purple shirt and vest is sitting outdoors, with a curtain and greenery in the background.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "evrfTt_Hgug/task01_sub00_f02.jpg",
+              "caption": "A man in a purple shirt and vest is sitting outdoors, possibly in a garden or patio area, with trees and greenery in the background.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot observes a farmer discussing the cost-saving benefits of using less fertilizer during a tutorial video.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A man in a purple shirt and vest is talking outdoors, with a curtain and greenery in the background.",
+            "- [frames=[1]] The same man is now sitting outdoors, with a curtain and greenery still visible in the background.",
+            "- [frames=[2]] The man continues to sit, possibly in a garden or patio area, with trees and greenery in the background.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a farmer explaining the economic advantages of reduced fertilizer usage in a natural outdoor setting, likely a farm or agricultural area.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with audio recognition capabilities.",
+            "- The robot needs to have a display screen to show relevant information.",
+            "- The robot must be able to navigate to the appropriate location within the video frame.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify the farmer's statement about cost savings.",
+            "- It should correctly interpret the context of the discussion on fertilizer reduction.",
+            "- The robot should be able to present supporting data or visuals related to cost savings.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Listen to the farmer's statement about cost savings.",
+            "2. [type=perception, frames=[1]] Verify the farmer's statement by cross-checking with preloaded information on fertilizer costs.",
+            "3. [type=communication, frames=[2]] Display a graph showing the cost comparison between using less and more fertilizer.",
+            "4. [type=communication, frames=[0,1,2]] Announce the cost-saving benefits of using less fertilizer.",
+            "5. [type=navigation, frames=[0,1,2]] Return to a standby position after completing the task.",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Listen to the farmer's statement about cost savings. It then verifies the key detail directly from the frames (Verify the farmer's statement by cross-checking with preloaded information on fertilizer costs). After verification, it communicates the result clearly (Display a graph showing the cost comparison between using less and more fertilizer).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a standby position after completing the task.",
+            ""
+          ]
+        },
+        {
+          "text": "The reduced fertilizer is more appealing in terms of appearance.",
+          "start": 86.16,
+          "end": 89.56,
+          "segment_ids": [
+            16,
+            17
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "evrfTt_Hgug/task01_sub01_f01.jpg",
+              "caption": "The man is talking outdoors, possibly about farming or saving money.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "evrfTt_Hgug/task01_sub01_f02.jpg",
+              "caption": "A man with a mustache is sitting outdoors, wearing a purple shirt and a gray vest.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot should observe a farmer discussing how using less fertilizer results in a more visually appealing outcome, which is likely related to the crop's appearance.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A man with a mustache is sitting outdoors, wearing a purple shirt and a gray vest, possibly indicating he is the speaker.",
+            "- [frames=[1]] He is talking outdoors, suggesting the discussion is taking place in a natural setting relevant to farming.",
+            "- [frames=[1]] The background shows an outdoor environment, likely a farm or agricultural area.",
+            "- [frames=[1]] The man appears engaged in conversation, possibly explaining the benefits of reduced fertilizer usage.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a farmer outdoors, likely in a rural setting, discussing the positive effects of using less fertilizer on the appearance of crops. The man’s attire and the outdoor environment suggest he is knowledgeable about agriculture and is sharing his insights with others.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot needs to be positioned near the farmer to capture his speech and gestures.",
+            "- The robot should have the ability to recognize and understand spoken language.",
+            "- The robot must be able to identify and track the farmer’s face and body movements.",
+            "- The robot should have knowledge about agricultural practices and the effects of fertilizer on crops.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully identifies the farmer and understands his statement about the appearance benefits of using less fertilizer.",
+            "- The robot accurately captures the farmer’s facial expressions and gestures during the discussion.",
+            "- The robot correctly interprets the context of the conversation, recognizing it as part of a broader discussion on agricultural methods.",
+            "- The robot records the relevant information without interruption or misinterpretation.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Position the robot near the farmer to ensure clear audio and visual capture.",
+            "2. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "3. [type=perception, frames=[1,2]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Position the robot near the farmer to ensure clear audio and visual capture. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "The lecture was effective in providing beneficial information.",
+          "start": 90.2,
+          "end": 94.04,
+          "segment_ids": [
+            18
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub02_f00.jpg",
+              "relative_path": "evrfTt_Hgug/task01_sub02_f00.jpg",
+              "caption": "A man in a purple shirt and vest is outdoors, and he is talking.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub02_f01.jpg",
+              "relative_path": "evrfTt_Hgug/task01_sub02_f01.jpg",
+              "caption": "An elderly man with a mustache is sitting outdoors, wearing a purple shirt and a gray vest.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub02_f02.jpg",
+              "relative_path": "evrfTt_Hgug/task01_sub02_f02.jpg",
+              "caption": "A man in a red shirt and vest is outdoors, talking with a caption about the seminar being important.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene shows farmers discussing the importance of the seminar on irrigation methods and costs, emphasizing the effectiveness of the lecture in providing beneficial information.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A man in a purple shirt and vest is outdoors, actively speaking.",
+            "- [frames=[1]] An elderly man with a mustache is sitting outdoors, wearing a purple shirt and a gray vest, listening intently.",
+            "- [frames=[2]] A man in a red shirt and vest is outdoors, engaged in conversation, with a caption indicating the seminar's significance.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene captures a discussion among farmers about the seminar’s impact, highlighting its value in providing useful information. The elderly farmer’s attentive posture suggests he is taking the information seriously.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be within earshot of the conversation.",
+            "- The robot should have access to a recording device or transcript of the discussion.",
+            "- The robot should be able to identify key phrases related to the seminar’s benefits.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately capture the main points of the discussion.",
+            "- The robot should verify that the seminar was indeed effective in providing beneficial information.",
+            "- The robot should cross-check the information with relevant data sources.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1,2]] Listen to the ongoing conversation and identify key phrases related to the seminar’s effectiveness.",
+            "2. [type=perception, frames=[2]] Read the caption indicating the seminar’s significance.",
+            "3. [type=communication, frames=[0,1,2]] Record the conversation for further analysis.",
+            "4. [type=perception, frames=[0,1,2]] Confirm with the elderly farmer that the seminar was effective in providing beneficial information.",
+            "5. [type=perception, frames=[0,1,2]] Cross-check the recorded.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Listen to the ongoing conversation and identify key phrases related to the seminar’s effectiveness. It then verifies the key detail directly from the frames (Read the caption indicating the seminar’s significance).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

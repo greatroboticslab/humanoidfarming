@@ -1,0 +1,502 @@
+{
+  "video_index": "vkgEPd0A9t4",
+  "title": "Training Farmers on New Agricultural Machinery",
+  "url": "https://www.youtube.com/watch?v=vkgEPd0A9t4",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "The video describes an ongoing agricultural training initiative for small machinery that aims to reduce production costs and enhance food security.",
+  "tasks": [
+    {
+      "task": "Train farmers on the use of small agricultural machinery.",
+      "start": 13.04,
+      "end": 47.44,
+      "subtasks": [
+        {
+          "text": "Observe farmers, extension officers, and students completing a small machinery training session.",
+          "start": 13.04,
+          "end": 19.2,
+          "segment_ids": [
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "vkgEPd0A9t4/task00_sub00_f00.jpg",
+              "caption": "A group of people are working in a garden using a tiller.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "vkgEPd0A9t4/task00_sub00_f01.jpg",
+              "caption": "Three men are working in a garden with a small tractor.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "vkgEPd0A9t4/task00_sub00_f02.jpg",
+              "caption": "A man in a blue shirt and hat is demonstrating a lawn mower to a young girl in a white shirt and blue skirt.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Farmers, extension officers, and students are observed using various small agricultural machinery during a training session in a garden setting.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A group of people are working in a garden using a tiller.",
+            "- [frames=[1]] Three men are working in a garden with a small tractor.",
+            "- [frames=[2]] A man in a blue shirt and hat is demonstrating a lawn mower to a young girl in a white shirt and blue skirt.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a diverse group of individuals engaged in practical demonstrations of different types of small agricultural machinery. The setting is a garden, which provides a natural and familiar environment for the training.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be able to recognize and differentiate between various types of machinery.",
+            "- It must understand the context of a training session involving farmers and students.",
+            "- The robot needs to identify key participants such as farmers, extension officers, and students.",
+            "- It should be capable of recognizing and understanding the operation of different machines like tillers, tractors, and lawn mowers.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately identify and describe the machinery being used.",
+            "- It must recognize the roles of (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 6.16,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/vkgEPd0A9t4/task00/sub00/motion.bvh",
+            "params_path": "results/momask/vkgEPd0A9t4/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Listen to the project coordinator Adeline Nunovic discussing the training's purpose and its preparation for incoming machinery.",
+          "start": 42.4,
+          "end": 47.44,
+          "segment_ids": [
+            7
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f00.jpg",
+              "relative_path": "vkgEPd0A9t4/task00_sub01_f00.jpg",
+              "caption": "Two men are operating a small tractor in a field, with others watching.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "vkgEPd0A9t4/task00_sub01_f01.jpg",
+              "caption": "A woman in a pink shirt is being interviewed outdoors.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "vkgEPd0A9t4/task00_sub01_f02.jpg",
+              "caption": "A woman in a pink shirt is being interviewed outdoors.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask involves listening to a woman named Adeline Nunovic discuss the purpose of the training and the preparation for new agricultural machinery. This scene takes place outdoors with multiple people present.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] Two men are operating a small tractor in a field, with others watching.",
+            "- [frames=[1,2]] A woman in a pink shirt is being interviewed outdoors.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The outdoor setting suggests an open space suitable for agricultural activities. The presence of multiple individuals indicates a group training session, likely involving farmers and possibly other stakeholders.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be capable of recognizing and understanding human speech.",
+            "- It must have access to audio input from the video.",
+            "- The robot needs to be able to identify and track the speaker (Adeline Nunovic).",
+            "- The robot should be able to process and interpret the context of the discussion.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully identifies the speaker and understands her words.",
+            "- It accurately captures the main points of the discussion regarding the training's purpose and the upcoming machinery.",
+            "- The robot can summarize the key information provided by Adeline Nunovic.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 5.039999999999999,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/vkgEPd0A9t4/task00/sub01/motion.bvh",
+            "params_path": "results/momask/vkgEPd0A9t4/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Explain the benefits of farm mechanization from a politician's perspective.",
+      "start": 87.28,
+      "end": 105.36,
+      "subtasks": [
+        {
+          "text": "Hear Minister Alfred Prosper emphasizing the importance of small mechanization in making the agriculture sector appealing to younger farmers.",
+          "start": 87.28,
+          "end": 93.36,
+          "segment_ids": [
+            15
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "vkgEPd0A9t4/task01_sub00_f00.jpg",
+              "caption": "A group of people in green shirts are working together outdoors.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "vkgEPd0A9t4/task01_sub00_f01.jpg",
+              "caption": "A group of people in green shirts are working on a farm with a tractor.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "vkgEPd0A9t4/task01_sub00_f02.jpg",
+              "caption": "A person is working on a piece of machinery with a logo for the Ministry of Agriculture in the background.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Minister Alfred Prosper is highlighting the benefits of small-scale mechanization for young farmers, using examples of farm machinery and its operation.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A group of people in green shirts are working together outdoors, suggesting a collaborative farming environment.",
+            "- [frames=[0,1]] They are seen working on a farm with a tractor, indicating the presence of agricultural machinery.",
+            "- [frames=[2]] A person is focusing on a piece of machinery, possibly demonstrating or explaining its operation, with the Ministry of Agriculture logo visible in the background.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a group of farmers engaged in agricultural activities, with a focus on the use of machinery. The presence of the Ministry of Agriculture logo suggests that the discussion is related to government initiatives aimed at modernizing the agricultural sector.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the context of farm mechanization and its benefits.",
+            "- The robot should have access to relevant information about the Ministry of Agriculture and its initiatives.",
+            "- The robot should be able to recognize and interact with the group of farmers and the machinery.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately convey the benefits of small-scale mechanization",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 6.079999999999998,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/vkgEPd0A9t4/task01/sub00/motion.bvh",
+            "params_path": "results/momask/vkgEPd0A9t4/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Note the minister’s statement that farm mechanization saves time, energy, and contributes to value chain development.",
+          "start": 99.44,
+          "end": 105.36,
+          "segment_ids": [
+            17
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f00.jpg",
+              "relative_path": "vkgEPd0A9t4/task01_sub01_f00.jpg",
+              "caption": "A person is working on a piece of machinery with a logo for the Ministry of Agriculture.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "vkgEPd0A9t4/task01_sub01_f01.jpg",
+              "caption": "The video shows a muddy field with a tractor and people working in the background.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "vkgEPd0A9t4/task01_sub01_f02.jpg",
+              "caption": "Three men are working on a piece of machinery in a field.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The minister emphasizes the benefits of farm mechanization, highlighting its role in saving time, energy, and contributing to value chain development.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A person is working on a piece of machinery with a logo for the Ministry of Agriculture.",
+            "- [frames=[1]] The video shows a muddy field with a tractor and people working in the background.",
+            "- [frames=[2]] Three men are working on a piece of machinery in a field.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts various aspects of agricultural machinery being used in a field setting. The machinery is prominently featured, suggesting its importance in the discussion about farm mechanization.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the context of farm mechanization.",
+            "- The robot must recognize the logo of the Ministry of Agriculture.",
+            "- The robot needs to identify different types of machinery present in the field.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately capture the minister's statement about the benefits of farm mechanization.",
+            "- It should correctly identify the machinery and its usage in the field.",
+            "- The robot should ensure that the explanation aligns with the provided context and the minister's emphasis on time, energy savings, and value chain",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 5.920000000000002,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/vkgEPd0A9t4/task01/sub01/motion.bvh",
+            "params_path": "results/momask/vkgEPd0A9t4/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Describe the expected cost reductions from using small machinery.",
+      "start": 133.76,
+      "end": 158.4,
+      "subtasks": [
+        {
+          "text": "Follow the explanation that small machinery can drastically reduce the cost of production.",
+          "start": 133.76,
+          "end": 140.32,
+          "segment_ids": [
+            22
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f00.jpg",
+              "relative_path": "vkgEPd0A9t4/task02_sub00_f00.jpg",
+              "caption": "A man in a white shirt and black cap is being interviewed in a field with a microphone.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "vkgEPd0A9t4/task02_sub00_f01.jpg",
+              "caption": "A man in a white shirt and black cap is being interviewed in a field with a microphone.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "vkgEPd0A9t4/task02_sub00_f02.jpg",
+              "caption": "A man in a white shirt and black cap is being interviewed in a field with a microphone.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment focuses on explaining how small machinery can significantly reduce agricultural production costs, as part of training farmers on new machinery.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A man in a white shirt and black cap is being interviewed in a field with a microphone.",
+            "- [frames=[0,1]] The background shows a field with crops, indicating an agricultural setting.",
+            "- [frames=[0,1]] The interviewer is positioned next to the farmer, likely asking questions about the benefits of small machinery.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a farmer being interviewed in a field, emphasizing the practical application of small agricultural machinery. The presence of crops in the background reinforces the agricultural context of the discussion.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the agricultural setting.",
+            "- The robot needs to recognize the farmer and the interviewer.",
+            "- The robot must understand the topic of small machinery and its benefits.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately convey the message that small machinery can drastically reduce production costs.",
+            "- The robot should maintain a clear and concise explanation.",
+            "- The robot should ensure the farmer understands the cost-saving benefits of using small machinery.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 6.560000000000002,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/vkgEPd0A9t4/task02/sub00/motion.bvh",
+            "params_path": "results/momask/vkgEPd0A9t4/task02/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Observe the demonstration that small machinery can complete a task in one hour, reducing labor costs.",
+          "start": 152.56,
+          "end": 158.4,
+          "segment_ids": [
+            25
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub01_f00.jpg",
+              "relative_path": "vkgEPd0A9t4/task02_sub01_f00.jpg",
+              "caption": "A man in a white shirt and black cap is being interviewed in front of a farm with a group of people working in the background.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub01_f02.jpg",
+              "relative_path": "vkgEPd0A9t4/task02_sub01_f02.jpg",
+              "caption": "A man in a white shirt and black cap is being interviewed in a field with other people working in the background.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe a demonstration where a farmer uses small machinery to complete a task in one hour, highlighting the reduction in labor costs.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A man in a white shirt and black cap is being interviewed in front of a farm with a group of people working in the background.",
+            "- [frames=[0]] The farm setting suggests a rural environment with ongoing agricultural activities.",
+            "- [frames=[2]] The same man continues his interview in a field, indicating he is explaining the benefits of small machinery.",
+            "- [frames=[2]] Other individuals are visible working in the background, likely demonstrating the traditional method of completing the task.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a farmer explaining the efficiency gains from using small machinery through a live demonstration. The presence of multiple workers both in the field and around the farm highlights the scale of the operation and the potential for labor savings.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture the demonstration.",
+            "- The robot needs to have a basic understanding of agricultural machinery and its functions.",
+            "- The robot must be able to communicate with the farmer during the demonstration.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Verify that (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,2]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,2]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,2]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,2]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,2]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 5.840000000000003,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/vkgEPd0A9t4/task02/sub01/motion.bvh",
+            "params_path": "results/momask/vkgEPd0A9t4/task02/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

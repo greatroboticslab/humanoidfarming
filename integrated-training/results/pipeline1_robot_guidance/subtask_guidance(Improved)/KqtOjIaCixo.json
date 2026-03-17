@@ -1,0 +1,968 @@
+{
+  "video_index": "KqtOjIaCixo",
+  "title": "A Farmer's Journey with Pigs from Birth to Butchery",
+  "url": "https://www.youtube.com/watch?v=KqtOjIaCixo",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "The video describes a process of raising and slaughtering pigs, which involves multiple phases and specific actions.",
+  "tasks": [
+    {
+      "task": "Describe the process of raising pigs for personal consumption.",
+      "start": 14.85,
+      "end": 200.62,
+      "subtasks": [
+        {
+          "text": "Explain Ashland and the narrator's decision to raise their own meat source using Idaho pasture pigs.",
+          "start": 14.85,
+          "end": 27.25,
+          "segment_ids": [
+            3,
+            4,
+            5
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "KqtOjIaCixo/task00_sub00_f00.jpg",
+              "caption": "A person in a barn with a pig and a light.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "KqtOjIaCixo/task00_sub00_f01.jpg",
+              "caption": "A person is standing in a barn with hay on the ground and a lantern in the background.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "KqtOjIaCixo/task00_sub00_f02.jpg",
+              "caption": "A black mole is foraging in straw with a red light shining on it.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "Ashland and the narrator decide to raise their own meat source using Idaho pasture pigs, likely due to concerns about food quality and sustainability.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] The scene is set in a barn with a person interacting with a pig, indicating a farming environment.",
+            "- [frames=[0,1]] A light source is present, possibly a lantern, illuminating the area.",
+            "- [frames=[2]] A mole is seen foraging in straw, which adds context to the barn setting but is not directly related to the decision-making process.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The barn setting suggests a rural or agricultural environment where raising livestock is common. The presence of a light source indicates that activities are taking place during nighttime or in low-light conditions, which could be necessary for certain farm tasks.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the barn layout and lighting conditions.",
+            "- The robot needs to understand basic farm terminology and concepts.",
+            "- The robot should have access to information about Idaho pasture pigs and their care requirements.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should confirm the decision to raise pigs by verifying the reasons given (food quality, sustainability).",
+            "- The robot should check the availability of suitable space and resources for raising pigs.",
+            "- The robot should ensure that the chosen pigs are of the correct breed (Idaho pasture pigs).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Verify the presence of a pig and a light source in the barn.",
+            "2. [type=perception, frames=[0,1]] Confirm with the narrator the reason for choosing to raise their own meat source.",
+            "3. [type=navigation, frames=[0,1]] Navigate to a location in the barn where pigs are typically housed.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Verify the presence of a pig and a light source in the barn. It then verifies the key detail directly from the frames (Verify the presence of a pig and a light source in the barn).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Describe the lifecycle of the pigs from birth to being sold for pork production.",
+          "start": 27.25,
+          "end": 66.29,
+          "segment_ids": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "KqtOjIaCixo/task00_sub01_f01.jpg",
+              "caption": "A porcupine is lying in a hay-filled cage with a heat lamp.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "KqtOjIaCixo/task00_sub01_f02.jpg",
+              "caption": "A pig is lying down on straw with its head resting on its mother's back.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub01_f03.jpg",
+              "relative_path": "KqtOjIaCixo/task00_sub01_f03.jpg",
+              "caption": "A pig is lying on straw in a red-lit environment.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task00_sub01_f04.jpg",
+              "relative_path": "KqtOjIaCixo/task00_sub01_f04.jpg",
+              "caption": "A sow is lying down in a straw bed, surrounded by her piglets.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task00_sub01_f05.jpg",
+              "relative_path": "KqtOjIaCixo/task00_sub01_f05.jpg",
+              "caption": "A person is holding a small pig in a cage.",
+              "frame_index": 5
+            },
+            {
+              "image_file": "task00_sub01_f06.jpg",
+              "relative_path": "KqtOjIaCixo/task00_sub01_f06.jpg",
+              "caption": "Three piglets are standing in a hay-filled pen.",
+              "frame_index": 6
+            },
+            {
+              "image_file": "task00_sub01_f07.jpg",
+              "relative_path": "KqtOjIaCixo/task00_sub01_f07.jpg",
+              "caption": "A rabbit is surrounded by smoke in a dark, enclosed space.",
+              "frame_index": 7
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The lifecycle of pigs from birth to being sold for pork production is described, focusing on their early stages and care.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A porcupine is lying in a hay-filled cage with a heat lamp, indicating a different animal and environment.",
+            "- [frames=[2]] A pig is lying down on straw with its head resting on its mother's back, showing a newborn piglet.",
+            "- [frames=[3]] A pig is lying on straw in a red-lit environment, possibly indicating a controlled temperature setting.",
+            "- [frames=[4]] A sow is lying down in a straw bed, surrounded by her piglets, showing a mother pig and her offspring.",
+            "- [frames=[5]] A person is holding a small pig in a cage, suggesting handling and possibly weighing or examining the piglet.",
+            "- [frames=[6]] Three piglets are standing in a hay-filled pen, indicating growth and movement.",
+            "- [frames=[7]] A rabbit is surrounded by smoke in a dark, enclosed space, which is unrelated to the pig lifecycle.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict the early stages of pig life, including birth, nursing, and growth. The environment appears to be a farm setting with controlled conditions for the piglets' care.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- Knowledge of pig anatomy and behavior.",
+            "- Familiarity with farm environments and equipment.",
+            "- Ability to recognize and handle piglets safely.",
+            "- Understanding of pig care routines and feeding schedules.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Correct identification of piglets at various stages of development.",
+            "- Accurate depiction of the piglets' living conditions and care practices.",
+            "- Proper handling techniques demonstrated for piglets.",
+            "- Clear explanation of the transition from birth to weaning.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2,3,4,5,6,7]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[1,2,3,4,5,6,7]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[1,2,3,4,5,6,7]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[1,2,3,4,5,6,7]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[1,2,3,4,5,6,7]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Highlight the unique experience of allowing pigs to be born, raised, and butchered on the same farm.",
+          "start": 42.45,
+          "end": 66.29,
+          "segment_ids": [
+            10,
+            12,
+            14
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub02_f00.jpg",
+              "relative_path": "KqtOjIaCixo/task00_sub02_f00.jpg",
+              "caption": "A piglet is lying on straw in a barn with a red light on.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub02_f01.jpg",
+              "relative_path": "KqtOjIaCixo/task00_sub02_f01.jpg",
+              "caption": "A pig is lying down in a straw bed with its piglets.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub02_f02.jpg",
+              "relative_path": "KqtOjIaCixo/task00_sub02_f02.jpg",
+              "caption": "A pig is lying down on straw with its newborn piglets nearby.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub02_f03.jpg",
+              "relative_path": "KqtOjIaCixo/task00_sub02_f03.jpg",
+              "caption": "A group of piglets is standing in a hay-filled pen.",
+              "frame_index": 3
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on the unique experience of raising pigs from birth to butchery on the same farm, emphasizing the close bond between the farmer and the animals.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A piglet is lying on straw in a barn with a red light on, indicating a cozy and warm environment.",
+            "- [frames=[1,2]] A pig is lying down in a straw bed with its piglets, showing a nurturing mother pig.",
+            "- [frames=[2,3]] A pig is lying down on straw with its newborn piglets nearby, highlighting the immediate care and attention.",
+            "- [frames=[3]] A group of piglets is standing in a hay-filled pen, suggesting they are growing and becoming more active.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict a natural and intimate setting where pigs are born, grow, and eventually reach an age suitable for butchering. The presence of straw and hay indicates a comfortable and familiar environment for the pigs.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- Knowledge of pig behavior and life cycle.",
+            "- Familiarity with farm environments and structures.",
+            "- Understanding of the importance of close observation and interaction with animals.",
+            "- Ability to recognize different stages of pig development.",
+            "- Awareness of the ethical considerations involved in farming practices.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Correct identification of piglets and their mother.",
+            "- Accurate assessment of pig growth and health.",
+            "- Proper documentation of the pig’s journey from birth to butchery.",
+            "- Recognition of the emotional bond between the farmer and the pigs.",
+            "- Ensuring the pigs are well-cared for throughout their life.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the barn area where the piglet is lying on straw.",
+            "2. [type=perception, frames=[0,1,2,3]] Verify/confirm the key observation before reporting.",
+            "3. [type=perception, frames=[0,1,2,3]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[0,1,2,3]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2,3]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the barn area where the piglet is lying on straw. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Describe the weaning process and the transition of young pigs to the training pen.",
+          "start": 100.53,
+          "end": 121.89,
+          "segment_ids": [
+            21,
+            22,
+            23,
+            24
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub03_f00.jpg",
+              "relative_path": "KqtOjIaCixo/task00_sub03_f00.jpg",
+              "caption": "A pig is inside a wooden structure with straw bedding, looking out from behind a door.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub03_f01.jpg",
+              "relative_path": "KqtOjIaCixo/task00_sub03_f01.jpg",
+              "caption": "A pig is standing in a barn with straw bedding.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub03_f02.jpg",
+              "relative_path": "KqtOjIaCixo/task00_sub03_f02.jpg",
+              "caption": "A black and white cat is standing on straw in a barn.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub03_f03.jpg",
+              "relative_path": "KqtOjIaCixo/task00_sub03_f03.jpg",
+              "caption": "A person is feeding a calf with a red container filled with corn.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task00_sub03_f04.jpg",
+              "relative_path": "KqtOjIaCixo/task00_sub03_f04.jpg",
+              "caption": "A person is standing in a barn with hay on the floor and buckets nearby.",
+              "frame_index": 4
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The weaning process and transition of young pigs to the training pen are described, showing the pigs' movement from a wooden structure to a barn setting.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A pig is inside a wooden structure with straw bedding, looking out from behind a door.",
+            "- [frames=[0,1]] The pig is in a confined space, suggesting it is being weaned.",
+            "- [frames=[2]] A black and white cat is standing on straw in a barn, indicating the presence of a barn environment.",
+            "- [frames=[3]] A person is feeding a calf with a red container filled with corn, showing another animal being cared for but not directly related to the pigs.",
+            "- [frames=[4]] A person is standing in a barn with hay on the floor and buckets nearby, suggesting preparation for the pigs' transition.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from a wooden structure to a barn, where the pigs are moved to a larger area. This change indicates the start of the weaning process and the pigs' transition to a new living environment.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- Knowledge of pig behavior and weaning process.",
+            "- Familiarity with barn environments and structures.",
+            "- Ability to recognize and interact with pigs.",
+            "- Understanding of safe handling techniques for pigs.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The pig is safely moved from the wooden structure to the barn.",
+            "- The pig shows signs of comfort and security in the new environment.",
+            "- The pig is observed eating and moving around freely without distress.",
+            "- The transition is completed within a reasonable timeframe.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the wooden structure where the pig is located.",
+            "2. [type=perception, frames=[0,1]] Confirm the pig’s location and condition.",
+            "3. [type=perception, frames=[0,1,2,3,4]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[0,1,2,3,4]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2,3,4]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the wooden structure where the pig is located. It then verifies the key detail directly from the frames (Confirm the pig’s location and condition).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Explain the method of clearing the forest using pigs.",
+          "start": 185.1,
+          "end": 200.62,
+          "segment_ids": [
+            34,
+            35,
+            36,
+            354,
+            365
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub04_f00.jpg",
+              "relative_path": "KqtOjIaCixo/task00_sub04_f00.jpg",
+              "caption": "A man with a chainsaw stands in a forest, surrounded by dense vegetation and two dogs.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub04_f01.jpg",
+              "relative_path": "KqtOjIaCixo/task00_sub04_f01.jpg",
+              "caption": "A person is using a tool to dig a hole in a yard.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub04_f02.jpg",
+              "relative_path": "KqtOjIaCixo/task00_sub04_f02.jpg",
+              "caption": "A person in a forest is planting a tree with a dog nearby.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub04_f03.jpg",
+              "relative_path": "KqtOjIaCixo/task00_sub04_f03.jpg",
+              "caption": "A man in overalls and a white hat walks with a pig in a grassy field, carrying a bucket.",
+              "frame_index": 3
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The farmer uses pigs to clear a section of the forest, which involves leading the pigs through the area and possibly using them to root out vegetation.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The man with a chainsaw stands in a forest, indicating the initial setting.",
+            "- [frames=[1]] A person is digging a hole in a yard, suggesting an unrelated activity that is not part of the pig clearing process.",
+            "- [frames=[2]] A person in a forest is planting a tree, again showing an unrelated activity.",
+            "- [frames=[3]] A man in overalls and a white hat walks with a pig in a grassy field, carrying a bucket, indicating the start of the pig clearing process.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a man leading a pig through a forested area, likely using the pig’s natural rooting behavior to clear vegetation. This method is efficient for removing underbrush without the need for heavy machinery.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the forest environment.",
+            "- The robot should have a pig-like attachment or mechanism to guide the pig.",
+            "- The robot should have a means to carry a bucket.",
+            "- The robot should be able to navigate through forested areas.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The pig should be successfully leading through the forest.",
+            "- Vegetation should be cleared in the path of the pig.",
+            "- The robot should be able to verify the cleared area.",
+            "- The pig should return to the starting point without any issues.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1,2,3]] Inspect/verify the scene before any physical action.",
+            "2. [type=navigation, frames=[0]] Navigate to the forested area where the pig is located.",
+            "3. [type=manipulation, frames=[3]] Attach the pig-like mechanism to the pig.",
+            "4. [type=navigation, frames=[3]] Lead the pig through the forest.",
+            "5. [type=navigation, frames=[0,1,2,3]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Inspect/verify the scene before any physical action. It then verifies the key detail directly from the frames (Inspect/verify the scene before any physical action).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Describe the rotational grazing process and its benefits.",
+      "start": null,
+      "end": null,
+      "subtasks": [
+        {
+          "text": "Explain the decision to rotational graze pigs for主要内容已翻译，以下是剩余部分的翻译：",
+          "start": null,
+          "end": null,
+          "segment_ids": [],
+          "frames": []
+        }
+      ]
+    },
+    {
+      "task": "Describe the rotational grazing process and its benefits.",
+      "start": 379.95,
+      "end": 523.23,
+      "subtasks": [
+        {
+          "text": "Explain the decision to rotational graze pigs to clear pastures and add nutrients to the soil.",
+          "start": 379.95,
+          "end": 407.95,
+          "segment_ids": [
+            72,
+            73,
+            76,
+            77
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f00.jpg",
+              "relative_path": "KqtOjIaCixo/task02_sub00_f00.jpg",
+              "caption": "A man in a barn with a pencil in his ear, smiling and standing next to a wooden structure.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "KqtOjIaCixo/task02_sub00_f01.jpg",
+              "caption": "A person is using a hammer to mark a spot in a wooded area near a Polaris Ranger vehicle.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "KqtOjIaCixo/task02_sub00_f02.jpg",
+              "caption": "A person is operating a red tractor in a wooded area.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task02_sub00_f03.jpg",
+              "relative_path": "KqtOjIaCixo/task02_sub00_f03.jpg",
+              "caption": "A person is standing in a field with two pigs, surrounded by trees and a fence.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task02_sub00_f04.jpg",
+              "relative_path": "KqtOjIaCixo/task02_sub00_f04.jpg",
+              "caption": "A man walks with two dogs on a gravel path near a barn and a house.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task02_sub00_f05.jpg",
+              "relative_path": "KqtOjIaCixo/task02_sub00_f05.jpg",
+              "caption": "Two individuals wearing beanies and hoodies are standing on a gravel path in a forested area.",
+              "frame_index": 5
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The farmer explains the rationale behind rotational grazing, which involves moving pigs to different pastures to clear them and enrich the soil with pig manure.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A man in a barn with a pencil in his ear, indicating he might be taking notes or marking something important.",
+            "- [frames=[1]] A person using a hammer to mark a spot in a wooded area, suggesting preparation for future activities like setting up fences or markers.",
+            "- [frames=[2]] A person operating a red tractor in a wooded area, likely preparing the land for rotational grazing.",
+            "- [frames=[3]] A person standing in a field with two pigs, surrounded by trees and a fence, showing the current state of the pasture.",
+            "- [frames=[4]] A man walking with two dogs on a gravel path near a barn and a house, possibly checking the progress or planning the next move.",
+            "- [frames=[5]] Two individuals wearing beanies and hoodies standing on a gravel path in a forested area, possibly discussing the rotational grazing plan.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from indoor preparations to outdoor activities, highlighting the farmer’s efforts to manage the land through rotational grazing. The farmer uses various tools and methods to prepare and monitor the pastures, ensuring they remain productive and healthy.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the farm layout and the locations of key areas such as the barn, pastures, and wooded areas.",
+            "- The robot needs to understand the concept of rotational grazing and its benefits.",
+            "- The robot should have access to communication tools to interact with the farmer.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately explain the benefits of rotational grazing.",
+            "- The robot should identify the correct areas for pig movement and soil enrichment.",
+            "- The robot should ensure the pigs are moved to new past",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2,3,4,5]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2,3,4,5]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2,3,4,5]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2,3,4,5]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2,3,4,5]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Describe the process of planting food plots for the pigs to graze on.",
+          "start": 488.03,
+          "end": 508.67,
+          "segment_ids": [
+            94,
+            95,
+            96,
+            97
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub01_f00.jpg",
+              "relative_path": "KqtOjIaCixo/task02_sub01_f00.jpg",
+              "caption": "A person is hanging a pig from a crane scale, weighing it.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub01_f01.jpg",
+              "relative_path": "KqtOjIaCixo/task02_sub01_f01.jpg",
+              "caption": "A person is holding up a large piece of meat with a knife in it.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub01_f02.jpg",
+              "relative_path": "KqtOjIaCixo/task02_sub01_f02.jpg",
+              "caption": "A person is skinning a pig with a knife while standing outside a barn.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task02_sub01_f03.jpg",
+              "relative_path": "KqtOjIaCixo/task02_sub01_f03.jpg",
+              "caption": "A person in overalls is holding up a pig carcass in a rural setting.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task02_sub01_f04.jpg",
+              "relative_path": "KqtOjIaCixo/task02_sub01_f04.jpg",
+              "caption": "A person is processing a dead animal on a table.",
+              "frame_index": 4
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask involves describing the process of planting food plots for pigs to graze on, which is crucial for rotational grazing. This process ensures the pigs have a steady supply of nutritious feed.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A person is hanging a pig from a crane scale, weighing it.",
+            "- [frames=[1]] A person is holding up a large piece of meat with a knife in it.",
+            "- [frames=[2]] A person is skinning a pig with a knife while standing outside a barn.",
+            "- [frames=[3]] A person in overalls is holding up a pig carcass in a rural setting.",
+            "- [frames=[4]] A person is processing a dead animal on a table.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict various stages of pig processing, including weighing, butchering, and carcass handling. These activities are not directly related to planting food plots and should be disregarded for understanding the subtask.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with tools for planting, such as a seed drill or a shovel.",
+            "- The robot needs to know the location of the food plot area.",
+            "- The robot should have access to seeds or other planting materials.",
+            "- The robot must be able to communicate with the farmer for any necessary instructions.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The food plot is properly prepared and seeded.",
+            "- The seeds are evenly distributed across the plot.",
+            "- The soil is adequately covered to ensure proper germination.",
+            "- The robot confirms the completion of the planting process.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2,3,4]] Navigate to the designated food plot area.",
+            "2. [type=perception, frames=[0,1,2,3,4]] Scan the plot to assess its current condition.",
+            "3. [type=manipulation, frames=[0,1,2,3,4]] Retrieve the.",
+            "4. [type=perception, frames=[0,1,2,3,4]] Verify/confirm the key observation before reporting.",
+            "5. [type=navigation, frames=[0,1,2,3,4]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the designated food plot area. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Explain the challenges and outcomes of trying to grow food specifically for the pigs.",
+          "start": 508.67,
+          "end": 523.23,
+          "segment_ids": [
+            98,
+            99,
+            100
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub02_f01.jpg",
+              "relative_path": "KqtOjIaCixo/task02_sub02_f01.jpg",
+              "caption": "A person is processing a large piece of meat on a table with a knife and a drill.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub02_f02.jpg",
+              "relative_path": "KqtOjIaCixo/task02_sub02_f02.jpg",
+              "caption": "A person is preparing a pig carcass on a table, with various cuts and tools visible.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask involves explaining the challenges and outcomes of growing food specifically for pigs, which is illustrated through the preparation of a pig carcass.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A person is processing a large piece of meat on a table with a knife and a drill.",
+            "- [frames=[2]] A person is preparing a pig carcass on a table, with various cuts and tools visible.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts the final stages of processing a pig, showing the detailed work involved in butchering and preparing the carcass. This process highlights the complexity and effort required to manage a pig's diet and ensure it meets specific nutritional needs.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to observe the preparation of the pig carcass.",
+            "- The robot should have access to a table where the pig carcass is being prepared.",
+            "- The robot should be able to interact with various tools and instruments used in the butchering process.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the challenges faced in growing food specifically for pigs.",
+            "- The robot should explain the outcomes of this process effectively.",
+            "- The robot should identify and describe the tools and techniques used in the butchering process.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Should observe the person using a knife and a drill to process the meat.",
+            "2. [type=perception, frames=[2]] Should observe the person preparing the pig carcass on the table.",
+            "3. [type=manipulation, frames=[2]] Should pick up a tool (e.g., knife) to demonstrate handling.",
+            "4. [type=communication, frames=[1,2]] Should verbally describe the challenges of growing food specifically for pigs.",
+            "5. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "6. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Should observe the person using a knife and a drill to process the meat. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Describe the butchering process and its significance.",
+      "start": 452.43,
+      "end": 564.67,
+      "subtasks": [
+        {
+          "text": "Describe the butchering of Bacon, the pig that is nearing its butcher date.",
+          "start": 452.43,
+          "end": 472.91,
+          "segment_ids": [
+            87,
+            88,
+            89,
+            90
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub00_f00.jpg",
+              "relative_path": "KqtOjIaCixo/task03_sub00_f00.jpg",
+              "caption": "A person is carrying a blue barrel while standing next to a truck in a field with pigs.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task03_sub00_f01.jpg",
+              "relative_path": "KqtOjIaCixo/task03_sub00_f01.jpg",
+              "caption": "A man is loading buckets into the back of a truck, with pigs nearby.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub00_f02.jpg",
+              "relative_path": "KqtOjIaCixo/task03_sub00_f02.jpg",
+              "caption": "A person in a beanie and overalls is standing outdoors, smiling, with a barrel and a blue container nearby.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task03_sub00_f03.jpg",
+              "relative_path": "KqtOjIaCixo/task03_sub00_f03.jpg",
+              "caption": "A pig is lying on the ground next to a tractor in a snowy field.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task03_sub00_f04.jpg",
+              "relative_path": "KqtOjIaCixo/task03_sub00_f04.jpg",
+              "caption": "A person is seen cutting a dog's leg with a saw while another person holds the dog's leg.",
+              "frame_index": 4
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The butchering process of Bacon, a pig nearing its butcher date, is described in detail, highlighting the significance of each step in the process.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A person is seen carrying a blue barrel and loading buckets into a truck, indicating preparation for the butchering process.",
+            "- [frame=2] A person in a beanie and overalls is standing outdoors, suggesting they are ready to begin the butchering.",
+            "- [frame=3] A pig is lying on the ground in a snowy field, which implies it is the pig being prepared for butchering.",
+            "- [frame=4] A person is using a saw to cut a dog's leg, which is an example of the type of action that will be performed on the pig.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts the final stages of preparing a pig for butchering, with the pig lying in a snowy field and the necessary tools and personnel present. The butchering process involves careful dissection and cutting, ensuring the quality and safety of the meat.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a saw and other cutting tools.",
+            "- The robot should be familiar with the layout of the field and the location of the pig.",
+            "- The robot should have access to a clean area for butchering.",
+            "- The robot should be able to communicate with the farmer if needed.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The pig should be completely butchered.",
+            "- All cuts should be precise and clean.",
+            "- The meat should be free of any contamination.",
+            "- The robot should verify the quality of the cuts before moving on to the next step.",
+            "- The robot should ensure all parts of the pig are properly separated.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2,3,4]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2,3,4]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2,3,4]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2,3,4]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2,3,4]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Reflect on the process of raising the pigs and the emotional connection to the animals.",
+          "start": 527.95,
+          "end": 550.91,
+          "segment_ids": [
+            102,
+            103,
+            104,
+            105
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub01_f00.jpg",
+              "relative_path": "KqtOjIaCixo/task03_sub01_f00.jpg",
+              "caption": "A person is cutting a large piece of meat on a table, with labels indicating it's a shoulder and ham.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task03_sub01_f01.jpg",
+              "relative_path": "KqtOjIaCixo/task03_sub01_f01.jpg",
+              "caption": "A person is preparing to cut a sheep carcass into different parts, including loin, shoulder, belly, and ham.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub01_f02.jpg",
+              "relative_path": "KqtOjIaCixo/task03_sub01_f02.jpg",
+              "caption": "A person is holding a piece of meat with gloves on, possibly preparing to cook it.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task03_sub01_f03.jpg",
+              "relative_path": "KqtOjIaCixo/task03_sub01_f03.jpg",
+              "caption": "A person is holding a piece of raw meat in a kitchen.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task03_sub01_f04.jpg",
+              "relative_path": "KqtOjIaCixo/task03_sub01_f04.jpg",
+              "caption": "A person is using a meat grinder to process meat into ground meat.",
+              "frame_index": 4
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will observe the butchering process and reflect on the emotional connection to the pigs raised by the farmer.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] The robot sees a person cutting meat into various parts such as shoulder and ham.",
+            "- [frames=[2,3]] The robot notices a person handling raw meat, possibly preparing to cook it.",
+            "- [frames=[4]] The robot observes a person using a meat grinder to process meat.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts the final stages of butchering, where the meat is being prepared for cooking or further processing. The emotional connection to the pigs is evident through the careful handling and labeling of the meat.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have knowledge of pig anatomy and butchering techniques.",
+            "- The robot needs access to a table with meat and tools.",
+            "- The robot should be familiar with the farm setting and the lifecycle of the pigs.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the different cuts of meat.",
+            "- The robot should recognize the emotional significance of the process.",
+            "- The robot should accurately describe the butchering process and its importance.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Identifies the different cuts of meat being prepared (shoulder, ham).",
+            "2. [type=perception, frames=[2,3]] Observes the person handling raw meat, noting the care and attention.",
+            "3. [type=perception, frames=[4]] Confirm the use of a meat grinder to process the meat.",
+            "4. [type=manipulation, frames=[0,1,2,3,4]] Assists in organizing the meat cuts for storage or further processing.",
+            "5. [type=communication, frames=[0,1,2,3,4]] Reflects on the emotional journey of.",
+            "6. [type=navigation, frames=[0,1,2,3,4]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identifies the different cuts of meat being prepared (shoulder, ham). It then verifies the key detail directly from the frames (Confirm the use of a meat grinder to process the meat).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Explain the broader message about the responsibility of consumers in supporting sustainable agriculture.",
+          "start": 555.71,
+          "end": 564.67,
+          "segment_ids": [
+            107,
+            108,
+            109,
+            110
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub02_f00.jpg",
+              "relative_path": "KqtOjIaCixo/task03_sub02_f00.jpg",
+              "caption": "A person is using a meat grinder to make sausage from a long piece of meat.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task03_sub02_f01.jpg",
+              "relative_path": "KqtOjIaCixo/task03_sub02_f01.jpg",
+              "caption": "A person is making sausage in a kitchen using a sausage maker.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub02_f02.jpg",
+              "relative_path": "KqtOjIaCixo/task03_sub02_f02.jpg",
+              "caption": "A barn with a horse buggy inside, with a subscribe button and arrows pointing to it.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on explaining the broader message about consumer responsibility in supporting sustainable agriculture, using scenes of sausage-making and a barn interior.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] The person is using a meat grinder and a sausage maker to process meat into sausage.",
+            "- [frame_index=2] A barn interior is shown with a horse buggy inside, along with a subscribe button and arrows pointing to it.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict the practical aspects of meat processing and a call to action through a subscribe button, suggesting a connection between the process and consumer support for sustainable practices.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the farm setting.",
+            "- The robot needs to understand basic kitchen tools like meat grinders and sausage makers.",
+            "- The robot should know how to navigate within a barn environment.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the process of making sausage.",
+            "- It should explain the significance of supporting sustainable agriculture.",
+            "- The robot should identify and highlight the subscribe button in the barn scene.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Observe the person using a meat grinder and a sausage maker.",
+            "2. [type=perception, frames=[2]] Identify the subscribe button and arrows in the barn scene.",
+            "3. [type=navigation, frames=[0,1,2]] Move to a position where the subscribe button can be clearly seen.",
+            "4. [type=communication, frames=[0,1,2]] Point to the subscribe button and explain its importance.",
+            "5. [type=communication, frames=[0,1,2]] Describe the process of making sausage using the meat grinder and sausage maker.",
+            "6. [type=manipulation, frames=[0,1,2]] Demonstrate the steps involved in grinding meat and stuffing it into casings.",
+            "7. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "8. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Observe the person using a meat grinder and a sausage maker. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

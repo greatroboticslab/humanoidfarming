@@ -1,0 +1,833 @@
+{
+  "video_index": "RRMOZTmIIdg",
+  "title": "Top 10 Tractor Attachments Revealed: Tiller лид, Ballast Box След",
+  "url": "https://www.youtube.com/watch?v=RRMOZTmIIdg",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "The video describes various tractor attachments and their uses.",
+  "tasks": [
+    {
+      "task": "Describe the top 10 tractor attachments according to a recent survey.",
+      "start": 63.15,
+      "end": 644.48,
+      "subtasks": [
+        {
+          "text": "Mention the tiller as an attachment that makes it easier to prepare ground for seeding.",
+          "start": 63.15,
+          "end": 66.75,
+          "segment_ids": [
+            12
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "RRMOZTmIIdg/task00_sub00_f00.jpg",
+              "caption": "A man in a blue shirt and jeans is standing in front of a pile of green farm equipment.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "RRMOZTmIIdg/task00_sub00_f01.jpg",
+              "caption": "A man in a baseball cap stands in front of a pile of green farm equipment.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "RRMOZTmIIdg/task00_sub00_f02.jpg",
+              "caption": "A man in a baseball cap and blue shirt is inspecting a green piece of equipment labeled \"Dirt Dog Rhino\" in a warehouse setting.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment describes the tiller as a useful tractor attachment for preparing ground for seeding. The robot will observe the tiller being inspected and understand its function.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A man in a blue shirt and jeans is standing in front of a pile of green farm equipment.",
+            "- [frames=[1]] A man in a baseball cap stands in front of a pile of green farm equipment.",
+            "- [frames=[2]] A man in a baseball cap and blue shirt is inspecting a green piece of equipment labeled \"Dirt Dog Rhino\" in a warehouse setting.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene takes place in a warehouse where various farm equipment is displayed. The focus is on a specific piece of equipment, likely the tiller, which is being inspected by a man.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the presence of a tiller among other farm equipment.",
+            "- The robot should recognize the man inspecting the equipment.",
+            "- The robot should know the purpose of the tiller in agricultural settings.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the tiller.",
+            "- The robot should understand the tiller's function in preparing ground for seeding.",
+            "- The robot should be able to describe the tiller accurately.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Identify the man in the blue shirt and jeans.",
+            "2. [type=perception, frames=[2]] Recognize the green piece of equipment labeled \"Dirt Dog Rhino.\".",
+            "3. [type=perception, frames=[2]] Confirm the man is inspecting the tiller.",
+            "4. [type=navigation, frames=[2]] Approach the tiller for closer inspection.",
+            "5. [type=perception, frames=[2]] Verify the label.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the man in the blue shirt and jeans. It then verifies the key detail directly from the frames (Confirm the man is inspecting the tiller).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Note the hydraulic top link attachment, explaining its benefits for changing angles on attachments.",
+          "start": 105.3,
+          "end": 118.1,
+          "segment_ids": [
+            20,
+            21,
+            22
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f00.jpg",
+              "relative_path": "RRMOZTmIIdg/task00_sub01_f00.jpg",
+              "caption": "A man in a Good Works Tractors shirt is standing in front of a large display of agricultural equipment.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "RRMOZTmIIdg/task00_sub01_f01.jpg",
+              "caption": "A man is adjusting a piece of equipment on a tractor in a grassy field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "RRMOZTmIIdg/task00_sub01_f02.jpg",
+              "caption": "A close-up view of a green tractor's hydraulic system and a green piece of equipment.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment focuses on explaining the hydraulic top link attachment and its benefits for changing angles on tractor attachments.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A man in a Good Works Tractors shirt stands in front of a large display of agricultural equipment.",
+            "- [frames=[1]] A man adjusts a piece of equipment on a tractor in a grassy field.",
+            "- [frames=[2]] A close-up view of a green tractor's hydraulic system and a green piece of equipment is shown.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a man demonstrating the hydraulic top link attachment, which is crucial for adjusting the angle of various tractor attachments. The setting is a grassy field, likely a demonstration area for agricultural machinery.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with tractor attachments and their functions.",
+            "- The robot needs access to a tractor and the necessary attachments.",
+            "- The robot should have knowledge of hydraulic systems and their operation.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the hydraulic top link attachment.",
+            "- The robot should explain the benefits of using the hydraulic top link for changing angles.",
+            "- The robot should demonstrate how the hydraulic system can adjust the angle of attachments.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Identify the man in the Good Works Tractors shirt and the display of agricultural equipment.",
+            "2. [type=perception, frames=[1]] Observe the man adjusting a piece of equipment on a tractor in a grassy field.",
+            "3. [type=manipulation, frames=[2]] Examine the close-up view of the tractor's hydraulic system and the attached equipment.",
+            "4. [type=manipulation, frames=[1]] Demonstrate the adjustment of the hydraulic top link attachment on the tractor.",
+            "5. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the man in the Good Works Tractors shirt and the display of agricultural equipment. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Describe the ballast box as a solution to increase the front end loader's capability.",
+          "start": 152.5,
+          "end": 169.78,
+          "segment_ids": [
+            30,
+            31,
+            32,
+            33
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub02_f00.jpg",
+              "relative_path": "RRMOZTmIIdg/task00_sub02_f00.jpg",
+              "caption": "A person is operating a green piece of farm equipment, possibly a tractor loader, with a warning sign on it.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub02_f01.jpg",
+              "relative_path": "RRMOZTmIIdg/task00_sub02_f01.jpg",
+              "caption": "A man in a Good Works Tractors shirt is speaking in front of a pile of wood and a green piece of equipment.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub02_f02.jpg",
+              "relative_path": "RRMOZTmIIdg/task00_sub02_f02.jpg",
+              "caption": "A man in a GoodWorks Tractors shirt is standing in front of a pile of wood and a green piece of equipment.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub02_f03.jpg",
+              "relative_path": "RRMOZTmIIdg/task00_sub02_f03.jpg",
+              "caption": "A red tractor is upside down in a muddy field.",
+              "frame_index": 3
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The ballast box is described as an attachment to enhance the front end loader's capability by increasing its weight distribution and stability. This is explained during a segment of a tutorial video about tractor attachments.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A person is operating a green piece of farm equipment, possibly a tractor loader, with a warning sign on it.",
+            "- [frames=[1-2]] A man in a Good Works Tractors shirt is speaking in front of a pile of wood and a green piece of equipment.",
+            "- [frames=[3]] A red tractor is upside down in a muddy field, which is not relevant to the current discussion.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shifts to a man explaining the benefits of the ballast box while standing near a pile of wood and a tractor loader. The context suggests that the ballast box is a crucial attachment for improving the loader's performance.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the concept of ballast boxes and their function.",
+            "- The robot should have access to a suitable environment where it can demonstrate the attachment process.",
+            "- The robot should be able to communicate effectively with the user.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the ballast box as an attachment for the front end loader.",
+            "- The robot should explain how the ballast box increases the loader's capability.",
+            "- The robot should provide a clear demonstration of the ballast box's installation and benefits.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2,3]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2,3]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2,3]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2,3]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2,3]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Highlight the backhoe as a useful but potentially expensive attachment.",
+          "start": 204.58,
+          "end": 217.62,
+          "segment_ids": [
+            42,
+            43,
+            44
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub03_f00.jpg",
+              "relative_path": "RRMOZTmIIdg/task00_sub03_f00.jpg",
+              "caption": "A man in a blue shirt and hat is standing next to a green tractor in a yard filled with wooden pallets and crates.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub03_f01.jpg",
+              "relative_path": "RRMOZTmIIdg/task00_sub03_f01.jpg",
+              "caption": "A person is using a green tractor to mow a lawn.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub03_f02.jpg",
+              "relative_path": "RRMOZTmIIdg/task00_sub03_f02.jpg",
+              "caption": "A man in a blue shirt is standing next to a green piece of equipment in a yard with wooden pallets and crates.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment highlights the backhoe as a versatile yet costly attachment for tractors, emphasizing its importance despite the higher price tag.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A man in a blue shirt and hat stands next to a green tractor surrounded by wooden pallets and crates.",
+            "- [frames=[1]] The same scene is shown, but now a person is using the tractor to mow a lawn.",
+            "- [frames=[2]] Another man in a blue shirt is seen standing next to a green piece of equipment, likely a backhoe, in the same setting.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a typical farmyard with various pieces of agricultural machinery, including a tractor and a backhoe. The presence of wooden pallets and crates suggests a storage area or a work site.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the layout of a farmyard.",
+            "- It should know the appearance and location of a backhoe.",
+            "- The robot needs to recognize different types of attachments on a tractor.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should identify the backhoe as a valuable but expensive attachment.",
+            "- It should understand the context of the farmyard and the tractor's usage.",
+            "- The robot should be able to communicate the importance of the backhoe to the user.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Scan the scene to locate the backhoe.",
+            "2. [type=perception, frames=[1]] Verify the presence of the backhoe by cross-checking with the previous frame.",
+            "3. [type=navigation, frames=[2]] Approach the backhoe and confirm its identity.",
+            "4. [type=communication, frames=[0,1,2]] Inform the user about the backhoe’s usefulness and cost.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Scan the scene to locate the backhoe. It then verifies the key detail directly from the frames (Verify the presence of the backhoe by cross-checking with the previous frame).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Explain the usefulness of a bucket attachment for various tasks.",
+          "start": 274.78,
+          "end": 289.66,
+          "segment_ids": [
+            57,
+            58,
+            59
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub04_f00.jpg",
+              "relative_path": "RRMOZTmIIdg/task00_sub04_f00.jpg",
+              "caption": "A man operates a green tractor with a bucket, clearing a path in a yard.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub04_f01.jpg",
+              "relative_path": "RRMOZTmIIdg/task00_sub04_f01.jpg",
+              "caption": "A green tractor bucket is dumping wood chips onto a pile.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub04_f02.jpg",
+              "relative_path": "RRMOZTmIIdg/task00_sub04_f02.jpg",
+              "caption": "A person is operating a green tractor with a front loader, clearing debris from a tree that has fallen onto a driveway.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "A bucket attachment on a tractor is versatile, used for clearing debris and moving materials like wood chips.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A man operates a green tractor with a bucket, clearing a path in a yard.",
+            "- [frames=[1]] A green tractor bucket is dumping wood chips onto a pile.",
+            "- [frames=[2]] A person is operating a green tractor with a front loader, clearing debris from a tree that has fallen onto a driveway.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The bucket attachment is shown being used in various scenarios, including clearing paths, moving debris, and handling materials like wood chips. This versatility makes it a valuable tool for multiple tasks around a farm or property.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the tractor's controls.",
+            "- The robot should have access to a green tractor equipped with a bucket attachment.",
+            "- The robot should know the location of common materials like wood chips and debris.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should successfully clear the path in the yard.",
+            "- The robot should accurately dump wood chips onto a pile.",
+            "- The robot should effectively remove debris from a fallen tree.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1,2]] Inspect/verify the scene before any physical action.",
+            "2. [type=navigation, frames=[0]] Drive the tractor to the yard where the path needs clearing.",
+            "3. [type=manipulation, frames=[0]] Lower the bucket to the ground and start clearing debris.",
+            "4. [type=navigation, frames=[1]] Lift the bucket full of wood chips and move it to the designated pile.",
+            "5. [type=navigation, frames=[2]] Position the bucket under the fallen tree and begin removing debris.",
+            "6. [type=perception, frames=[2]] Verify the amount of debris removed by checking the cleanliness of the area.",
+            "7. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Inspect/verify the scene before any physical action. It then verifies the key detail directly from the frames (Inspect/verify the scene before any physical action).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Describe the purpose of a quick hitch attachment for easier connection.",
+          "start": 332.02,
+          "end": 344.22,
+          "segment_ids": [
+            69,
+            70
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub05_f00.jpg",
+              "relative_path": "RRMOZTmIIdg/task00_sub05_f00.jpg",
+              "caption": "A close-up of a piece of agricultural machinery with warning stickers on it.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub05_f01.jpg",
+              "relative_path": "RRMOZTmIIdg/task00_sub05_f01.jpg",
+              "caption": "A person is standing next to a piece of agricultural equipment, possibly a tractor or harvester, with a red and green attachment.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub05_f02.jpg",
+              "relative_path": "RRMOZTmIIdg/task00_sub05_f02.jpg",
+              "caption": "A man stands in a garage surrounded by various farm tractors.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The quick hitch attachment allows for easy and quick connection of various implements to a tractor, enhancing efficiency and safety during agricultural operations.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A close-up view of a piece of agricultural machinery with warning stickers indicates potential hazards or important safety information.",
+            "- [frames=[1]] A person is standing next to a piece of agricultural equipment, likely a tractor, with a red and green attachment visible, suggesting a quick hitch system.",
+            "- [frames=[2]] A man stands in a garage surrounded by various farm tractors, providing context for the discussion about attachments.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a setting where multiple tractors are present, indicating a discussion about common attachments used in agricultural machinery. The focus is on the ease of connecting different implements to the tractor using a quick hitch system.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the types of agricultural machinery and their attachments.",
+            "- The robot should have access to a tractor with a quick hitch system.",
+            "- The robot should be able to identify and interact with the quick hitch attachment.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the quick hitch attachment.",
+            "- The robot should explain the purpose of the quick hitch attachment accurately.",
+            "- The robot should demonstrate the ease of connection of implements to the tractor using the quick hitch.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Identify the warning stickers on the agricultural machinery to ensure safety awareness.",
+            "2. [type=perception, frames=[1]] Recognize the red and green quick hitch attachment on the tractor.",
+            "3. [type=manipulation, frames=[1]] Demonstrate how the quick hitch attachment can be easily connected to an implement.",
+            "4. [type=communication, frames=[1]] Explain the purpose of the quick hitch attachment.",
+            "5. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the warning stickers on the agricultural machinery to ensure safety awareness. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Note the importance of a front end loader as a versatile and valuable attachment.",
+          "start": 413.33,
+          "end": 423.97,
+          "segment_ids": [
+            85,
+            86,
+            87
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub06_f00.jpg",
+              "relative_path": "RRMOZTmIIdg/task00_sub06_f00.jpg",
+              "caption": "A person is operating a tractor in a field, cutting grass.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub06_f01.jpg",
+              "relative_path": "RRMOZTmIIdg/task00_sub06_f01.jpg",
+              "caption": "A person is mowing a grassy hillside with a red and green lawn mower.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub06_f02.jpg",
+              "relative_path": "RRMOZTmIIdg/task00_sub06_f02.jpg",
+              "caption": "A person is driving a tractor with a red attachment through a grassy area.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video highlights the versatility and value of a front-end loader as an essential tractor attachment, emphasizing its importance in various agricultural tasks.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The tractor is shown in a field, engaged in grass cutting, indicating its use in landscaping or farm maintenance.",
+            "- [frames=[1]] The operator is seen mowing a grassy hillside with a lawn mower, showcasing the tractor's adaptability to different terrains.",
+            "- [frames=[2]] A tractor with a red attachment is driven through a grassy area, suggesting the presence of a front-end loader or similar versatile attachment.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict a tractor being used in diverse settings, including flat fields and hilly terrain, highlighting the need for attachments that can handle multiple tasks efficiently. The front-end loader appears to be a key attachment, capable of performing various functions such as loading materials, digging, and leveling.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the types of attachments available for tractors.",
+            "- It should know the specific model of the tractor in the video.",
+            "- The robot needs to understand the context of the scenes, recognizing the need for a versatile attachment like a front-end loader.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should identify the front-end loader as a critical attachment.",
+            "- It should recognize the versatility of the loader in handling different tasks.",
+            "- The robot must confirm the importance of the front-end loader based on the scenes observed.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1,2]] Analyze the scenes to identify the tractor and its attachments.",
+            "2. [type=perception, frames=[0,1,2]] Recognize the front-end loader and its potential uses.",
+            "3. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Analyze the scenes to identify the tractor and its attachments. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Mention mowers and their various types for cutting fields.",
+          "start": 479.87,
+          "end": 489.39,
+          "segment_ids": [
+            100,
+            101
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub07_f00.jpg",
+              "relative_path": "RRMOZTmIIdg/task00_sub07_f00.jpg",
+              "caption": "A person is operating a green tractor with a grapple attachment in a wooded area.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub07_f01.jpg",
+              "relative_path": "RRMOZTmIIdg/task00_sub07_f01.jpg",
+              "caption": "A man operates a green tractor with a grapple attachment, clearing a path through a forest.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub07_f02.jpg",
+              "relative_path": "RRMOZTmIIdg/task00_sub07_f02.jpg",
+              "caption": "A person is operating a tractor with a mini grapple attachment to move logs and debris in a wooded area.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene involves a person operating a green tractor equipped with a grapple attachment in a wooded area, clearing paths and moving debris.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A person is seen operating a green tractor with a grapple attachment in a wooded area, clearing a path.",
+            "- [frame=0] The tractor is in a wooded setting with trees and undergrowth.",
+            "- [frame=1] The operator is actively using the grapple to move logs and debris.",
+            "- [frame=2] Another person is shown using a smaller grapple attachment to move logs and debris in a similar wooded environment.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The tractor is being used in a wooded area to clear paths and remove debris such as logs and branches. The grapple attachment is versatile, capable of handling both large and small pieces of debris effectively.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be able to identify and navigate through wooded areas.",
+            "- It must have the capability to operate a grapple attachment.",
+            "- The robot needs to recognize and differentiate between different types of debris.",
+            "- The robot should be able to perform precise movements to manipulate the grapple.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot successfully navigates through the wooded area.",
+            "- The robot correctly identifies and moves logs and other debris using the grapple attachment.",
+            "- The cleared path is free of significant obstacles.",
+            "- The robot avoids damaging the surrounding vegetation while clearing.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1,2]] Inspect/verify the scene before any physical action.",
+            "2. [type=navigation, frames=[0,1]] Navigates through the wooded area, identifying the path to be cleared.",
+            "3. [type=manipulation, frames=[0,1]] Uses the.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Inspect/verify the scene before any physical action. It then verifies the key detail directly from the frames (Inspect/verify the scene before any physical action).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Highlight grapples as attachments with different installation options.",
+          "start": 512.67,
+          "end": 540.51,
+          "segment_ids": [
+            107,
+            108,
+            109,
+            110,
+            111
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub08_f00.jpg",
+              "relative_path": "RRMOZTmIIdg/task00_sub08_f00.jpg",
+              "caption": "A green tractor with a red card advertising a 5% insider's club discount.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub08_f01.jpg",
+              "relative_path": "RRMOZTmIIdg/task00_sub08_f01.jpg",
+              "caption": "A man stands in a field of agricultural equipment, surrounded by various machines and machinery.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub08_f02.jpg",
+              "relative_path": "RRMOZTmIIdg/task00_sub08_f02.jpg",
+              "caption": "A man stands in a large outdoor equipment yard, surrounded by various agricultural machinery.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub08_f03.jpg",
+              "relative_path": "RRMOZTmIIdg/task00_sub08_f03.jpg",
+              "caption": "A red tractor is clearing a path on a gravel surface.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task00_sub08_f04.jpg",
+              "relative_path": "RRMOZTmIIdg/task00_sub08_f04.jpg",
+              "caption": "A red tractor with a red attachment is driving down a gravel road.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task00_sub08_f05.jpg",
+              "relative_path": "RRMOZTmIIdg/task00_sub08_f05.jpg",
+              "caption": "A person is driving a red tractor with a red loader, creating a cloud of dust.",
+              "frame_index": 5
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment highlights the installation options for grapples as tractor attachments, emphasizing their versatility and utility in agricultural settings.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A green tractor with a red card advertising a 5% insider's club discount is visible.",
+            "- [frames=[1-5]] Various agricultural machinery, including tractors and loaders, are shown in an outdoor setting.",
+            "- [frames=[4]] A red tractor with a red attachment is driving down a gravel road, indicating the use of a grapple.",
+            "- [frames=[5]] A person is driving a red tractor with a red loader, creating a cloud of dust, suggesting the operation of a loader attachment.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a typical agricultural environment with multiple pieces of machinery, focusing on the versatility of tractor attachments such as grapples and loaders. The presence of a tractor with a red attachment driving on a gravel road and another with a loader creating dust indicates the practical applications of these attachments.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the types of tractor attachments, specifically grapples and loaders.",
+            "- The robot should have access to a red tractor and the necessary attachments.",
+            "- The robot should be able to navigate through an outdoor agricultural setting.",
+            "- The robot should be capable of performing basic maintenance tasks on the tractor.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify and install the grapple attachment on the tractor.",
+            "- The robot should verify the proper installation of the attachment before operating the tractor.",
+            "- The robot should ensure the tractor is in good working condition before and after the task.",
+            "- The robot should demonstrate the functionality of the grapple attachment in a controlled environment.",
+            "- The robot should clean up and reset the tractor and attachment after the task.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2,3,4,5]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2,3,4,5]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2,3,4,5]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2,3,4,5]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2,3,4,5]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Describe graders as attachments for leveling and resurfacing driveways.",
+          "start": 566.91,
+          "end": 584.24,
+          "segment_ids": [
+            118,
+            119,
+            120
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub09_f00.jpg",
+              "relative_path": "RRMOZTmIIdg/task00_sub09_f00.jpg",
+              "caption": "A man in a baseball cap and blue shirt is pointing at a pile of equipment in a yard.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub09_f01.jpg",
+              "relative_path": "RRMOZTmIIdg/task00_sub09_f01.jpg",
+              "caption": "A man in a baseball cap and blue shirt is standing in a yard surrounded by wooden crates and construction equipment.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub09_f03.jpg",
+              "relative_path": "RRMOZTmIIdg/task00_sub09_f03.jpg",
+              "caption": "A man stands in front of a collection of agricultural equipment in a warehouse.",
+              "frame_index": 3
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment describes graders as attachments for leveling and resurfacing driveways, focusing on their functionality and importance in agricultural machinery.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A man in a baseball cap and blue shirt points at a pile of equipment in a yard, indicating the presence of various tractor attachments.",
+            "- [frames=[1]] The same man stands in a yard surrounded by wooden crates and construction equipment, suggesting a setting where different types of machinery are stored or displayed.",
+            "- [frames=[3]] A man stands in front of a collection of agricultural equipment in a warehouse, likely preparing to discuss specific attachments like graders.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from an outdoor setting with a man pointing at equipment to a more detailed view of agricultural machinery in a warehouse. This setup suggests a tutorial environment where the man will explain the features and uses of different tractor attachments, including graders.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture the scene.",
+            "- The robot needs to be within range to interact with the man and observe the equipment.",
+            "- The robot should have knowledge about tractor attachments and their functions.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify and describe graders as attachments for leveling and resurfacing driveways.",
+            "- The robot should accurately convey the benefits and applications of using graders in agricultural settings.",
+            "- The robot should ensure the information aligns with the man's explanation during the video segment.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Capture images of the man pointing at the equipment and the surrounding crates and construction equipment.",
+            "2. [type=perception, frames=[3]] Observe the man standing in front of the collection of agricultural equipment in the warehouse.",
+            "3. [type=perception, frames=[0,1,3]] Verify/confirm the key observation before reporting.",
+            "4. [type=perception, frames=[0,1,3]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,3]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture images of the man pointing at the equipment and the surrounding crates and construction equipment. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Note palette forks as the top-rated attachment for versatility and ease of use.",
+          "start": 631.84,
+          "end": 644.48,
+          "segment_ids": [
+            131,
+            132,
+            133
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub10_f00.jpg",
+              "relative_path": "RRMOZTmIIdg/task00_sub10_f00.jpg",
+              "caption": "A man stands in front of a large pile of agricultural equipment in a parking lot.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub10_f01.jpg",
+              "relative_path": "RRMOZTmIIdg/task00_sub10_f01.jpg",
+              "caption": "A man stands in front of a large pile of agricultural equipment in a yard.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub10_f02.jpg",
+              "relative_path": "RRMOZTmIIdg/task00_sub10_f02.jpg",
+              "caption": "The video frame shows a large collection of green agricultural machinery and equipment on a concrete surface.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment focuses on highlighting the top-rated tractor attachments based on a recent survey, with an emphasis on palette forks for their versatility and ease of use.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] The scene shows a man standing in front of a large pile of agricultural equipment in a yard or parking lot.",
+            "- [frames=[0,1]] The equipment includes various types of tractors and attachments, but no specific focus on palette forks yet.",
+            "- [frames=[2]] The video transitions to showing a large collection of green agricultural machinery and equipment on a concrete surface, still without any specific mention of palette forks.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene is set in an outdoor area where a man is about to discuss the top tractor attachments. The presence of multiple pieces of agricultural machinery suggests that the discussion will cover a range of attachments used in farming operations.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture the scene.",
+            "- The robot needs to be within the vicinity of the man and the equipment.",
+            "- The robot should have access to information about the top-rated tractor attachments.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the top-rated attachment as palette forks.",
+            "- The robot should accurately convey the reasons for its selection (versatility and ease of use).",
+            "- The robot should ensure the man's attention is directed towards the correct attachment during the discussion.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1]] Capture the scene to identify the man and the equipment.",
+            "2. [type=perception, frames=[2]] Confirm the presence of a large collection of agricultural machinery.",
+            "3. [type=navigation, frames=[0,1]] Move closer to the man to ensure clear communication.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Capture the scene to identify the man and the equipment. It then verifies the key detail directly from the frames (Confirm the presence of a large collection of agricultural machinery).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}

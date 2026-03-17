@@ -1,0 +1,1279 @@
+{
+  "video_index": "Tl6-15TLbs4",
+  "title": "Hitachi Bagger Leistungsgruppen Überblick Hauptfunktionen",
+  "url": "https://www.youtube.com/watch?v=Tl6-15TLbs4",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "The video describes various Hitachi excavators and their capabilities.",
+  "tasks": [
+    {
+      "task": "Describe the different excavator classes and their features.",
+      "start": 15.09,
+      "end": 69.77,
+      "subtasks": [
+        {
+          "text": "Explain that there are three Leistungsklassen (performance classes) for excavators: Minibagger, Raupenbagger, and Kettenbagger.",
+          "start": 15.09,
+          "end": 30.33,
+          "segment_ids": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "Tl6-15TLbs4/task00_sub00_f00.jpg",
+              "caption": "A large blue excavator with a large bucket is parked in a construction site.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "Tl6-15TLbs4/task00_sub00_f01.jpg",
+              "caption": "The video shows a row of blue excavators in a yard.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "Tl6-15TLbs4/task00_sub00_f02.jpg",
+              "caption": "Six blue excavators are lined up in a row on a gravel lot.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub00_f03.jpg",
+              "relative_path": "Tl6-15TLbs4/task00_sub00_f03.jpg",
+              "caption": "A row of blue excavators with blue hydraulic arms and a blue hydraulic arm on the left.",
+              "frame_index": 3
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment introduces the different performance classes of excavators, specifically focusing on the three main types: Minibagger, Raupenbagger, and Kettenbagger.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A large blue excavator with a large bucket is parked in a construction site.",
+            "- [frames=[1]] The video shows a row of blue excavators in a yard.",
+            "- [frames=[2]] Six blue excavators are lined up in a row on a gravel lot.",
+            "- [frames=[3]] A row of blue excavators with blue hydraulic arms and a blue hydraulic arm on the left.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from a single excavator in a construction site to multiple excavators in various settings, including a yard and a gravel lot. This setup suggests a comparison of different excavator models and their environments.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the different excavator classes.",
+            "- The robot needs to recognize the excavators in the video.",
+            "- The robot should have knowledge about the performance characteristics of each class.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the three excavator classes.",
+            "- The robot should describe the differences between the Minibagger, Raupenbagger, and Kettenbagger.",
+            "- The robot should provide accurate information about the features of each class.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2,3]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2,3]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2,3]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2,3]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2,3]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 15.239999999999998,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/Tl6-15TLbs4/task00/sub00/motion.bvh",
+            "params_path": "results/momask/Tl6-15TLbs4/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Detail the characteristics of the Minibagger MB110K and MB200, including their compactness, high performance, and suitability for small jobs.",
+          "start": 30.33,
+          "end": 69.77,
+          "segment_ids": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "Tl6-15TLbs4/task00_sub01_f01.jpg",
+              "caption": "Six small construction vehicles are parked in a row on a gravel lot at night.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "Tl6-15TLbs4/task00_sub01_f02.jpg",
+              "caption": "A blue excavator is digging into a hill of dirt in a forested area.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub01_f03.jpg",
+              "relative_path": "Tl6-15TLbs4/task00_sub01_f03.jpg",
+              "caption": "A bulldozer is moving dirt on a hillside.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task00_sub01_f04.jpg",
+              "relative_path": "Tl6-15TLbs4/task00_sub01_f04.jpg",
+              "caption": "Two blue excavators are parked on a gravel surface with trees in the background.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task00_sub01_f05.jpg",
+              "relative_path": "Tl6-15TLbs4/task00_sub01_f05.jpg",
+              "caption": "A blue excavator is working on a construction site, with a person inside the cab.",
+              "frame_index": 5
+            },
+            {
+              "image_file": "task00_sub01_f06.jpg",
+              "relative_path": "Tl6-15TLbs4/task00_sub01_f06.jpg",
+              "caption": "The video frame shows a close-up of a vehicle's undercarriage, featuring large, rugged tires and mechanical components.",
+              "frame_index": 6
+            },
+            {
+              "image_file": "task00_sub01_f07.jpg",
+              "relative_path": "Tl6-15TLbs4/task00_sub01_f07.jpg",
+              "caption": "The video frame shows a close-up of a machine's undercarriage, including large tires and a suspension system.",
+              "frame_index": 7
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment focuses on describing the characteristics of the Minibagger MB110K and MB200, highlighting their compact size, high performance, and suitability for small jobs.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] Six small construction vehicles are parked in a row on a gravel lot at night.",
+            "- [frames=[4]] Two blue excavators are parked on a gravel surface with trees in the background.",
+            "- [frames=[5]] A blue excavator is working on a construction site, with a person inside the cab.",
+            "- [frames=[6,7]] Close-ups of the excavator's undercarriage show large, rugged tires and mechanical components.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts various construction vehicles, with a focus on two blue excavators, likely the Minibagger MB110K and MB200. These machines are shown both stationary and in operation, emphasizing their compact design and robust construction.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the presence of multiple construction vehicles.",
+            "- It needs to recognize the blue excavators as the Minibagger MB110K and MB200.",
+            "- The robot must understand the context of a construction site and the need to describe the vehicles' features.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the compactness, high performance, and suitability for small jobs of the Minibagger MB110K and MB200.",
+            "- It must provide detailed information about the vehicles' mechanical components and operational capabilities.",
+            "- The robot should ensure that the description aligns with the visual evidence provided in the video.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Identify the six small construction vehicles on the gravel lot.",
+            "2. [type=perception, frames=[1,2,3,4,5,6,7]] Verify/confirm the key observation before reporting.",
+            "3. [type=perception, frames=[1,2,3,4,5,6,7]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[1,2,3,4,5,6,7]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[1,2,3,4,5,6,7]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the six small construction vehicles on the gravel lot. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 39.44,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/Tl6-15TLbs4/task00/sub01/motion.bvh",
+            "params_path": "results/momask/Tl6-15TLbs4/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Describe the features of the Raupenbagger.",
+      "start": 114.85,
+      "end": 232.63,
+      "subtasks": [
+        {
+          "text": "Explain the versatility and comfortable operation of the RB350K Raupenbagger, suitable for both large and small sites.",
+          "start": 114.85,
+          "end": 146.37,
+          "segment_ids": [
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "Tl6-15TLbs4/task01_sub00_f00.jpg",
+              "caption": "A blue excavator is parked on a driveway with gravel and rocks scattered around.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "Tl6-15TLbs4/task01_sub00_f01.jpg",
+              "caption": "A backhoe is digging into a dirt area with a bucket full of soil.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "Tl6-15TLbs4/task01_sub00_f02.jpg",
+              "caption": "Two blue excavators are parked on a gravel surface, with one having a person inside.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task01_sub00_f03.jpg",
+              "relative_path": "Tl6-15TLbs4/task01_sub00_f03.jpg",
+              "caption": "A man is driving a small blue tractor with a trailer attached, parked in front of a building with a blue sign.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task01_sub00_f04.jpg",
+              "relative_path": "Tl6-15TLbs4/task01_sub00_f04.jpg",
+              "caption": "The video frame shows a street with a blue and white flagpole and a building with a blue fence.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task01_sub00_f05.jpg",
+              "relative_path": "Tl6-15TLbs4/task01_sub00_f05.jpg",
+              "caption": "A man is operating a small blue excavator in a construction site.",
+              "frame_index": 5
+            },
+            {
+              "image_file": "task01_sub00_f06.jpg",
+              "relative_path": "Tl6-15TLbs4/task01_sub00_f06.jpg",
+              "caption": "A blue excavator is digging a trench in a grassy area.",
+              "frame_index": 6
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The RB350K Raupenbagger is shown to be versatile and easy to operate, suitable for various site sizes from small to large.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A blue excavator is parked on a driveway with gravel and rocks scattered around.",
+            "- [frames=[1]] A backhoe is digging into a dirt area with a bucket full of soil.",
+            "- [frames=[2]] Two blue excavators are parked on a gravel surface, with one having a person inside.",
+            "- [frames=[3]] A man is driving a small blue tractor with a trailer attached, parked in front of a building with a blue sign.",
+            "- [frames=[4]] The video frame shows a street with a blue and white flagpole and a building with a blue fence.",
+            "- [frames=[5]] A man is operating a small blue excavator in a construction site.",
+            "- [frames=[6]] A blue excavator is digging a trench in a grassy area.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict different types of machinery and construction activities, highlighting the versatility of the RB350K Raupenbagger in various settings. The presence of multiple machines and people suggests a dynamic work environment where the RB350K can adapt to different tasks.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be capable of recognizing different types of machinery and construction equipment.",
+            "- It must understand the concept of site size and adaptability.",
+            "- The robot needs to recognize the operator and their actions.",
+            "- It should be able to identify and differentiate between various terrains such as driveways, dirt areas, and grassy areas.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the RB350K's versatility and comfortable operation.",
+            "- It must mention the suitability of the machine for both large and small sites.",
+            "- (completed).",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2,3,4,5,6]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2,3,4,5,6]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2,3,4,5,6]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2,3,4,5,6]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2,3,4,5,6]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 31.52000000000001,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/Tl6-15TLbs4/task01/sub00/motion.bvh",
+            "params_path": "results/momask/Tl6-15TLbs4/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Highlight the capabilities of the RB510K Raupenbagger with a 1,69 meter long shovel and its suitable applications.",
+          "start": 178.5,
+          "end": 232.63,
+          "segment_ids": [
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub01_f00.jpg",
+              "relative_path": "Tl6-15TLbs4/task01_sub01_f00.jpg",
+              "caption": "A blue excavator with the logo \"Beyer Mietservice\" is parked on a snowy surface.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub01_f01.jpg",
+              "relative_path": "Tl6-15TLbs4/task01_sub01_f01.jpg",
+              "caption": "An excavator is moving dirt and gravel on a concrete surface.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub01_f02.jpg",
+              "relative_path": "Tl6-15TLbs4/task01_sub01_f02.jpg",
+              "caption": "A construction worker is using a Beyer excavator to move dirt and gravel.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task01_sub01_f03.jpg",
+              "relative_path": "Tl6-15TLbs4/task01_sub01_f03.jpg",
+              "caption": "A blue and black excavator with \"Beyer Mietservice\" written on it.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task01_sub01_f04.jpg",
+              "relative_path": "Tl6-15TLbs4/task01_sub01_f04.jpg",
+              "caption": "A blue excavator with a man inside is parked on a hillside.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task01_sub01_f05.jpg",
+              "relative_path": "Tl6-15TLbs4/task01_sub01_f05.jpg",
+              "caption": "A blue excavator is digging a trench in a grassy area.",
+              "frame_index": 5
+            },
+            {
+              "image_file": "task01_sub01_f06.jpg",
+              "relative_path": "Tl6-15TLbs4/task01_sub01_f06.jpg",
+              "caption": "Four blue excavators are parked on a gravel lot with trees in the background.",
+              "frame_index": 6
+            },
+            {
+              "image_file": "task01_sub01_f07.jpg",
+              "relative_path": "Tl6-15TLbs4/task01_sub01_f07.jpg",
+              "caption": "A blue excavator with a bucket is parked in a driveway.",
+              "frame_index": 7
+            },
+            {
+              "image_file": "task01_sub01_f08.jpg",
+              "relative_path": "Tl6-15TLbs4/task01_sub01_f08.jpg",
+              "caption": "A large building with a green lawn and a construction site in the background.",
+              "frame_index": 8
+            },
+            {
+              "image_file": "task01_sub01_f09.jpg",
+              "relative_path": "Tl6-15TLbs4/task01_sub01_f09.jpg",
+              "caption": "Two construction vehicles are working on a site near a building.",
+              "frame_index": 9
+            },
+            {
+              "image_file": "task01_sub01_f10.jpg",
+              "relative_path": "Tl6-15TLbs4/task01_sub01_f10.jpg",
+              "caption": "A group of blue and gray construction vehicles are parked in a row, with one vehicle lifting a bucket.",
+              "frame_index": 10
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The RB510K Raupenbagger with a 1.69-meter-long shovel is showcased, highlighting its capabilities and suitable applications in various terrains.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A blue excavator with the logo \"Beyer Mietservice\" is parked on a snowy surface.",
+            "- [frames=[1]] An excavator is moving dirt and gravel on a concrete surface.",
+            "- [frames=[2]] A construction worker is using a Beyer excavator to move dirt and gravel.",
+            "- [frames=[3]] A blue and black excavator with \"Beyer Mietservice\" written on it.",
+            "- [frames=[4]] A blue excavator with a man inside is parked on a hillside.",
+            "- [frames=[5]] A blue excavator is digging a trench in a grassy area.",
+            "- [frames=[6]] Four blue excavators are parked on a gravel lot with trees in the background.",
+            "- [frames=[7]] A blue excavator with a bucket is parked in a driveway.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The RB510K Raupenbagger is demonstrated in various settings, including snowy, concrete, grassy, and gravel surfaces, showcasing its versatility. The excavator's primary function is to move and dig materials, making it suitable for construction and landscaping tasks.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the RB510K Raupenbagger model.",
+            "- The robot should know the location of the excavator and its attachments.",
+            "- The robot should be aware of the different terrains where the excavator operates.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the RB510K Raupenbagger's features.",
+            "- The robot should highlight the 1.69-meter-long shovel and its applications",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2,3,4,5,6,7,8,9,10]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2,3,4,5,6,7,8,9,10]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2,3,4,5,6,7,8,9,10]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2,3,4,5,6,7,8,9,10]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2,3,4,5,6,7,8,9,10]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 54.129999999999995,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/Tl6-15TLbs4/task01/sub01/motion.bvh",
+            "params_path": "results/momask/Tl6-15TLbs4/task01/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Detail the Kettenbagger capabilities and use cases.",
+      "start": 250.23,
+      "end": 322.4,
+      "subtasks": [
+        {
+          "text": "Explain the impressive reach, depth, and stability of the KB850K Kettenbagger.",
+          "start": 250.23,
+          "end": 291.23,
+          "segment_ids": [
+            40,
+            41,
+            42,
+            43,
+            44,
+            45
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f00.jpg",
+              "relative_path": "Tl6-15TLbs4/task02_sub00_f00.jpg",
+              "caption": "A blue and gray excavator is parked on a gravel lot with trees in the background.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "Tl6-15TLbs4/task02_sub00_f01.jpg",
+              "caption": "A person is operating a vehicle, holding a red tool and adjusting a knob.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f02.jpg",
+              "relative_path": "Tl6-15TLbs4/task02_sub00_f02.jpg",
+              "caption": "A man is operating a piece of heavy machinery, wearing a black shirt with the word \"BEYER\" on it.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task02_sub00_f03.jpg",
+              "relative_path": "Tl6-15TLbs4/task02_sub00_f03.jpg",
+              "caption": "A large blue and red excavator is cutting down a tree in a forest.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task02_sub00_f04.jpg",
+              "relative_path": "Tl6-15TLbs4/task02_sub00_f04.jpg",
+              "caption": "A blue excavator is working in a forested area.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task02_sub00_f05.jpg",
+              "relative_path": "Tl6-15TLbs4/task02_sub00_f05.jpg",
+              "caption": "A fleet of blue construction equipment is parked in a yard with leafless trees in the background.",
+              "frame_index": 5
+            },
+            {
+              "image_file": "task02_sub00_f06.jpg",
+              "relative_path": "Tl6-15TLbs4/task02_sub00_f06.jpg",
+              "caption": "A blue excavator with a bucket is parked in a lot.",
+              "frame_index": 6
+            },
+            {
+              "image_file": "task02_sub00_f07.jpg",
+              "relative_path": "Tl6-15TLbs4/task02_sub00_f07.jpg",
+              "caption": "A blue excavator with a rusty bucket is parked on a gravel surface.",
+              "frame_index": 7
+            },
+            {
+              "image_file": "task02_sub00_f08.jpg",
+              "relative_path": "Tl6-15TLbs4/task02_sub00_f08.jpg",
+              "caption": "A man in a blue uniform is operating a piece of heavy machinery.",
+              "frame_index": 8
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The KB850K Kettenbagger demonstrates its impressive reach, depth, and stability in various operational scenarios, showcasing its capability to work effectively in challenging environments.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A blue and gray excavator is parked on a gravel lot with trees in the background.",
+            "- [frames=[1]] A person is operating a vehicle, holding a red tool and adjusting a knob.",
+            "- [frames=[2]] A man is operating a piece of heavy machinery, wearing a black shirt with the word \"BEYER\" on it.",
+            "- [frames=[3]] A large blue and red excavator is cutting down a tree in a forest.",
+            "- [frames=[4]] A blue excavator is working in a forested area.",
+            "- [frames=[5]] A fleet of blue construction equipment is parked in a yard with leafless trees in the background.",
+            "- [frames=[6]] A blue excavator with a bucket is parked in a lot.",
+            "- [frames=[7]] A blue excavator with a rusty bucket is parked on a gravel surface.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The KB850K Kettenbagger is shown in various operational settings, including a forested area and a gravel lot, highlighting its adaptability and robustness. The machine's ability to operate in diverse terrains and environments is evident from the scenes depicted.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with sensors for depth and reach measurement.",
+            "- The robot must have the necessary tools and attachments for operation.",
+            "- The robot needs to be in a stable position before starting operations.",
+            "- The robot should be able to communicate with the operator for real-time adjustments.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot must demonstrate a reach of at least 10 meters.",
+            "- The robot should achieve a digging depth of at least",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2,3,4,5,6,7,8]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2,3,4,5,6,7,8]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2,3,4,5,6,7,8]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2,3,4,5,6,7,8]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2,3,4,5,6,7,8]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 41.00000000000003,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/Tl6-15TLbs4/task02/sub00/motion.bvh",
+            "params_path": "results/momask/Tl6-15TLbs4/task02/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Describe the even more powerful KB1550K Kettenbagger with an extended reach and comfortable cabin.",
+          "start": 291.23,
+          "end": 322.4,
+          "segment_ids": [
+            46,
+            47,
+            48,
+            49,
+            50
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub01_f01.jpg",
+              "relative_path": "Tl6-15TLbs4/task02_sub01_f01.jpg",
+              "caption": "A person is holding a key in a vehicle's seat, possibly to unlock or adjust the seat.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub01_f02.jpg",
+              "relative_path": "Tl6-15TLbs4/task02_sub01_f02.jpg",
+              "caption": "A blue excavator is parked in a construction yard with a small building and a light pole in the background.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task02_sub01_f03.jpg",
+              "relative_path": "Tl6-15TLbs4/task02_sub01_f03.jpg",
+              "caption": "A blue excavator is parked in a construction yard with a small building and a light pole in the background.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task02_sub01_f04.jpg",
+              "relative_path": "Tl6-15TLbs4/task02_sub01_f04.jpg",
+              "caption": "A blue and red hydraulic arm of a construction vehicle is shown against a blue sky with some clouds.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task02_sub01_f05.jpg",
+              "relative_path": "Tl6-15TLbs4/task02_sub01_f05.jpg",
+              "caption": "A Hitachi excavator with a blue seat and a blue and gray excavator in the background.",
+              "frame_index": 5
+            },
+            {
+              "image_file": "task02_sub01_f06.jpg",
+              "relative_path": "Tl6-15TLbs4/task02_sub01_f06.jpg",
+              "caption": "A person wearing a blue jacket is seated in a vehicle, with their foot on the accelerator pedal.",
+              "frame_index": 6
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment introduces the KB1550K Kettenbagger, highlighting its extended reach and comfortable cabin features.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A person is holding a key in a vehicle's seat, possibly to unlock or adjust the seat.",
+            "- [frames=[2,3]] A blue excavator is parked in a construction yard with a small building and a light pole in the background.",
+            "- [frames=[4]] A blue and red hydraulic arm of a construction vehicle is shown against a blue sky with some clouds.",
+            "- [frames=[5]] A Hitachi excavator with a blue seat and a blue and gray excavator in the background.",
+            "- [frames=[6]] A person wearing a blue jacket is seated in a vehicle, with their foot on the accelerator pedal.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a construction site with various vehicles, including the KB1550K Kettenbagger, which is highlighted for its advanced features. The background includes other machinery and structures typical of a construction yard.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the KB1550K Kettenbagger's specifications.",
+            "- The robot needs to recognize the construction site environment.",
+            "- The robot must know the location of the KB1550K Kettenbagger within the scene.",
+            "- The robot should be able to identify the operator and the controls.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the KB1550K Kettenbagger.",
+            "- The robot must confirm the extended reach feature.",
+            "- The robot should verify the presence of the comfortable cabin.",
+            "- The robot needs to measure the operational range of the machine.",
+            "- The robot must cross-check the specifications with the actual machine.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1,2,3,4,5,6]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[1,2,3,4,5,6]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[1,2,3,4,5,6]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[1,2,3,4,5,6]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[1,2,3,4,5,6]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 31.16999999999996,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/Tl6-15TLbs4/task02/sub01/motion.bvh",
+            "params_path": "results/momask/Tl6-15TLbs4/task02/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Provide an overview of the common specifications and features across Hitachi excavators.",
+      "start": 339.65,
+      "end": 504.97,
+      "subtasks": [
+        {
+          "text": "Note that all Hitachi Bagger models come with standard Stabilitätsschild for stabilization.",
+          "start": 339.65,
+          "end": 348.61,
+          "segment_ids": [
+            54,
+            55
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub00_f00.jpg",
+              "relative_path": "Tl6-15TLbs4/task03_sub00_f00.jpg",
+              "caption": "A large, dirty piece of machinery with a large blade is moving on a flat surface.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task03_sub00_f01.jpg",
+              "relative_path": "Tl6-15TLbs4/task03_sub00_f01.jpg",
+              "caption": "A blue excavator with a bucket is parked in a wooded area.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub00_f02.jpg",
+              "relative_path": "Tl6-15TLbs4/task03_sub00_f02.jpg",
+              "caption": "A construction site with a blue excavator and a truck, surrounded by debris and a fence.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "All Hitachi excavator models come equipped with a standard Stabilitätsschild for stabilization. This feature is crucial for ensuring safe operation in various terrains and conditions.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] The scene shows a large, dirty excavator moving on a flat surface, indicating it is in operation.",
+            "- [frames=[1]] A blue excavator is parked in a wooded area, suggesting it might be stationary for maintenance or inspection.",
+            "- [frames=[2]] A construction site with a blue excavator and a truck is visible, surrounded by debris and a fence, showing the typical environment where such machines operate.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The video captures different scenarios of a Hitachi excavator in various settings, including operational, stationary, and in a construction site. These scenes highlight the versatility and robustness of the machine, emphasizing its ability to function in diverse environments.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the presence of a Stabilitätsschild.",
+            "- It needs to recognize the excavator model and its components.",
+            "- The robot must be able to communicate with the excavator’s systems to verify the presence of the Stabilitätsschild.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Verify the presence of the Stabilitätsschild on the excavator.",
+            "- Confirm that the Stabilitätsschild is correctly installed and functional.",
+            "- Measure the stability provided by the Stabilitätsschild under different conditions.",
+            "- Cross-check the specifications of the Stabilitätsschild with the excavator’s manual.",
+            "- Ensure the excavator can operate safely without any issues related to the Stabilitätsschild.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0,1,2]] Scan the excavator to locate the Stabilitätsschild.",
+            "2. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "3. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Scan the excavator to locate the Stabilitätsschild. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 8.960000000000036,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/Tl6-15TLbs4/task03/sub00/motion.bvh",
+            "params_path": "results/momask/Tl6-15TLbs4/task03/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Mention the flexibility provided by two paid attachments in the rental price.",
+          "start": 348.61,
+          "end": 367.22,
+          "segment_ids": [
+            56,
+            57,
+            58
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub01_f01.jpg",
+              "relative_path": "Tl6-15TLbs4/task03_sub01_f01.jpg",
+              "caption": "A blue excavator with a bucket is parked on a paved surface.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub01_f02.jpg",
+              "relative_path": "Tl6-15TLbs4/task03_sub01_f02.jpg",
+              "caption": "A row of blue excavators with red and blue buckets are parked on a gravel surface.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task03_sub01_f03.jpg",
+              "relative_path": "Tl6-15TLbs4/task03_sub01_f03.jpg",
+              "caption": "A group of blue excavators is parked in a row, with one person sitting in one of them.",
+              "frame_index": 3
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment highlights the flexibility offered by two paid attachments included in the rental price of Hitachi excavators.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A single blue excavator with a bucket is parked on a paved surface.",
+            "- [frames=[2]] Multiple blue excavators with red and blue buckets are parked on a gravel surface.",
+            "- [frames=[3]] A group of blue excavators is parked in a row, with one person sitting in one of them.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts various Hitachi excavators parked in different settings, indicating the versatility and adaptability of these machines. The presence of multiple excavators and the inclusion of people suggest a demonstration or overview setting.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the video's context and the specific subtask.",
+            "- The robot should have access to the video frames and be able to analyze them.",
+            "- The robot should be capable of understanding and interpreting the information presented in the frames.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the two paid attachments mentioned.",
+            "- The robot should accurately describe the flexibility provided by these attachments.",
+            "- The robot should ensure the information aligns with the visual evidence in the frames.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1,2,3]] Inspect/verify the scene before any physical action.",
+            "2. [type=manipulation, frames=[1,2,3]] Retrieve the relevant information about the attachments from the video metadata.",
+            "3. [type=communication, frames=[1,2,3]] Formulate a statement highlighting the flexibility provided by the two paid attachments.",
+            "4. [type=manipulation, frames=[1,2,3]] Prepare to.",
+            "5. [type=navigation, frames=[1,2,3]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Inspect/verify the scene before any physical action. It then verifies the key detail directly from the frames (Inspect/verify the scene before any physical action).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Retrieve the relevant information about the attachments from the video metadata; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 18.610000000000014,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/Tl6-15TLbs4/task03/sub01/motion.bvh",
+            "params_path": "results/momask/Tl6-15TLbs4/task03/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Highlight the wide range of grabenraumlöffel (grinding spoons) available for these excavators.",
+          "start": 367.22,
+          "end": 380.18,
+          "segment_ids": [
+            59,
+            60
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub02_f01.jpg",
+              "relative_path": "Tl6-15TLbs4/task03_sub02_f01.jpg",
+              "caption": "A blue and black excavator is digging into a pile of dirt.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub02_f02.jpg",
+              "relative_path": "Tl6-15TLbs4/task03_sub02_f02.jpg",
+              "caption": "A man is operating a large blue excavator in a wooded area.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on highlighting the variety of grinding spoons available for Hitachi excavators, which are essential tools for different digging tasks.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] An excavator is shown digging into a pile of dirt, indicating its operational context.",
+            "- [frames=[2]] A man is seen operating a large blue excavator in a wooded area, suggesting the versatility of the machine.",
+            "- [frames=[1,2]] The presence of grinding spoons is implied but not directly visible in the given frames.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts an excavator in operation, likely showcasing its capabilities in various terrains. The grinding spoons, though not explicitly shown, are inferred to be part of the excavator's toolset, enhancing its functionality for different digging tasks.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The excavator must be operational and ready for use.",
+            "- The robot should have access to information about the grinding spoons available for the excavator model.",
+            "- The robot needs to be within the operational range of the excavator.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should identify and list the types of grinding spoons available.",
+            "- It should confirm the availability and compatibility of these tools with the excavator.",
+            "- The robot should provide a brief description of each type of grinding spoon.",
+            "- It should ensure that all information is accurate and up-to-date.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Observe the current operational state of the excavator.",
+            "2. [type=perception, frames=[2]] Identifies the operator and the environment.",
+            "3. [type=manipulation, frames=[1,2]] Retrieves the list of grinding spoons from the database.",
+            "4. [type=perception, frames=[1,2]] Cross-check.",
+            "5. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Observe the current operational state of the excavator. It then verifies the key detail directly from the frames (Cross-check).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Retrieves the list of grinding spoons from the database; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 12.95999999999998,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/Tl6-15TLbs4/task03/sub02/motion.bvh",
+            "params_path": "results/momask/Tl6-15TLbs4/task03/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Explain the Länhoff-Schnellwechselsystem and its benefits for quick and safe attachment changes.",
+          "start": 380.18,
+          "end": 420.15,
+          "segment_ids": [
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub03_f01.jpg",
+              "relative_path": "Tl6-15TLbs4/task03_sub03_f01.jpg",
+              "caption": "A man is operating a blue excavator in a yard with other similar machines.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub03_f02.jpg",
+              "relative_path": "Tl6-15TLbs4/task03_sub03_f02.jpg",
+              "caption": "A person is inspecting a large, rusty piece of machinery.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task03_sub03_f03.jpg",
+              "relative_path": "Tl6-15TLbs4/task03_sub03_f03.jpg",
+              "caption": "A person is using a tool to adjust a bolt on a piece of machinery.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task03_sub03_f04.jpg",
+              "relative_path": "Tl6-15TLbs4/task03_sub03_f04.jpg",
+              "caption": "The video shows a group of blue excavators with a person inside one of them.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task03_sub03_f05.jpg",
+              "relative_path": "Tl6-15TLbs4/task03_sub03_f05.jpg",
+              "caption": "The video shows a row of blue and black excavators with a person inside one of them.",
+              "frame_index": 5
+            },
+            {
+              "image_file": "task03_sub03_f06.jpg",
+              "relative_path": "Tl6-15TLbs4/task03_sub03_f06.jpg",
+              "caption": "The video shows a row of blue excavators with Beyer branding, parked on a gravel surface.",
+              "frame_index": 6
+            },
+            {
+              "image_file": "task03_sub03_f07.jpg",
+              "relative_path": "Tl6-15TLbs4/task03_sub03_f07.jpg",
+              "caption": "The video shows a row of blue and black excavators parked in a yard.",
+              "frame_index": 7
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on explaining the Länhoff-Schnellwechselsystem and its benefits for quick and safe attachment changes in Hitachi excavators.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A man is operating a blue excavator in a yard with other similar machines.",
+            "- [frames=[2]] A person is inspecting a large, rusty piece of machinery.",
+            "- [frames=[3]] A person is using a tool to adjust a bolt on a piece of machinery.",
+            "- [frames=[4-7]] The video shows various rows of blue and black excavators with people inside some of them, indicating different models and configurations.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from showing operational excavators to detailed inspection and adjustment processes, highlighting the importance of the Länhoff-Schnellwechselsystem in facilitating efficient attachment changes.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the layout of the excavator yard.",
+            "- The robot needs access to information about the Länhoff-Schnellwechselsystem.",
+            "- The robot should have the necessary tools and attachments for demonstration purposes.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the Länhoff-Schnellwechselsystem.",
+            "- The robot should explain the benefits of the system in terms of speed and safety.",
+            "- The robot should demonstrate how the system works through a simulated attachment change process.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate to the area where the blue excavator is being operated.",
+            "2. [type=perception, frames=[1]] Verify the presence of the Länhoff-Schnellwechselsystem on the excavator.",
+            "3. [type=navigation, frames=[2]] Move to the area where the person is inspecting the machinery.",
+            "4. [type=perception, frames=[1,2,3,4,5,6,7]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[1,2,3,4,5,6,7]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the area where the blue excavator is being operated. It then verifies the key detail directly from the frames (Verify the presence of the Länhoff-Schnellwechselsystem on the excavator).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the area where the blue excavator is being operated; Move to the area where the person is inspecting the machinery; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 39.96999999999997,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/Tl6-15TLbs4/task03/sub03/motion.bvh",
+            "params_path": "results/momask/Tl6-15TLbs4/task03/sub03/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Describe the low ground pressure and versatility of the Biometers Bagger models.",
+          "start": 437.39,
+          "end": 459.99,
+          "segment_ids": [
+            71,
+            72,
+            73,
+            74
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub04_f00.jpg",
+              "relative_path": "Tl6-15TLbs4/task03_sub04_f00.jpg",
+              "caption": "The video shows different models of blue excavators with their respective model numbers and capacities.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task03_sub04_f01.jpg",
+              "relative_path": "Tl6-15TLbs4/task03_sub04_f01.jpg",
+              "caption": "A person is operating a piece of heavy machinery, wearing a beanie and gloves, with a clear view of the outside through the window.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub04_f02.jpg",
+              "relative_path": "Tl6-15TLbs4/task03_sub04_f02.jpg",
+              "caption": "A man in a blue and black jacket is operating a machine in a cabin.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task03_sub04_f03.jpg",
+              "relative_path": "Tl6-15TLbs4/task03_sub04_f03.jpg",
+              "caption": "An excavator is operating on a snowy surface.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task03_sub04_f04.jpg",
+              "relative_path": "Tl6-15TLbs4/task03_sub04_f04.jpg",
+              "caption": "The video shows a row of blue excavators with their buckets raised.",
+              "frame_index": 4
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on describing the low ground pressure and versatility of the Biometers Bagger models, highlighting their ability to operate effectively in various conditions.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] Different models of blue excavators with their respective model numbers and capacities are shown.",
+            "- [frames=[1]] A person is operating a piece of heavy machinery, wearing a beanie and gloves, with a clear view of the outside through the window.",
+            "- [frames=[2]] A man in a blue and black jacket is operating a machine in a cabin.",
+            "- [frames=[3]] An excavator is operating on a snowy surface.",
+            "- [frames=[4]] A row of blue excavators with their buckets raised is displayed.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from showcasing various excavator models to demonstrating their operation in diverse environments, emphasizing their adaptability and performance capabilities.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the Hitachi excavator models.",
+            "- The robot needs access to the video footage for analysis.",
+            "- The robot should have the capability to navigate through the video frames.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately describe the low ground pressure and versatility of the Biometers Bagger models.",
+            "- The robot should mention the excavators' ability to operate on various surfaces, including snow.",
+            "- The robot should highlight the models' operational efficiency and adaptability.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Navigate to the section showing different excavator models.",
+            "2. [type=perception, frames=[0]] Read the model numbers and capacities of the excavators.",
+            "3. [type=navigation, frames=[3]] Move to the frame showing the excavator operating on a snowy surface.",
+            "4. [type=perception, frames=[3]] Verify the excav.",
+            "5. [type=navigation, frames=[0,1,2,3,4]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the section showing different excavator models. It then verifies the key detail directly from the frames (Read the model numbers and capacities of the excavators).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the section showing different excavator models; Move to the frame showing the excavator operating on a snowy surface; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 22.600000000000023,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/Tl6-15TLbs4/task03/sub04/motion.bvh",
+            "params_path": "results/momask/Tl6-15TLbs4/task03/sub04/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Mention the safety features and ease of operation provided by the panoramic cabins and safety standards.",
+          "start": 476.55,
+          "end": 504.97,
+          "segment_ids": [
+            78,
+            79,
+            80,
+            81,
+            82
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub05_f00.jpg",
+              "relative_path": "Tl6-15TLbs4/task03_sub05_f00.jpg",
+              "caption": "A man is operating a small blue excavator on a trailer in front of a building with a blue sign.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task03_sub05_f01.jpg",
+              "relative_path": "Tl6-15TLbs4/task03_sub05_f01.jpg",
+              "caption": "The video shows a row of blue excavators and a Scania truck in a yard.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub05_f02.jpg",
+              "relative_path": "Tl6-15TLbs4/task03_sub05_f02.jpg",
+              "caption": "A blue excavator is operating on a construction site, with a worker inside.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task03_sub05_f03.jpg",
+              "relative_path": "Tl6-15TLbs4/task03_sub05_f03.jpg",
+              "caption": "A construction worker operates a blue excavator at a construction site.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task03_sub05_f04.jpg",
+              "relative_path": "Tl6-15TLbs4/task03_sub05_f04.jpg",
+              "caption": "A row of excavators with headlights on, parked in a dark, tree-lined area.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task03_sub05_f05.jpg",
+              "relative_path": "Tl6-15TLbs4/task03_sub05_f05.jpg",
+              "caption": "Three excavators with headlights on are parked in a dark, wooded area.",
+              "frame_index": 5
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment focuses on the safety features and ease of operation of Hitachi excavators, particularly highlighting the panoramic cabins and adherence to safety standards.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A man is operating a small blue excavator on a trailer in front of a building with a blue sign.",
+            "- [frames=[2]] A blue excavator is operating on a construction site, with a worker inside.",
+            "- [frames=[3]] A construction worker operates a blue excavator at a construction site.",
+            "- [frames=[4,5]] Rows of excavators with headlights on are parked in a dark, tree-lined area.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from a trailer to a construction site, showing excavators both in operation and parked. The focus is on the safety and operational aspects of the machines, especially the panoramic cabins and safety standards.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the layout of the construction site.",
+            "- The robot needs to know the location of the excavators and their operational status.",
+            "- The robot should have access to the specifications and features of Hitachi excavators.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Verify that the excavators meet the specified safety standards.",
+            "- Confirm that the panoramic cabins provide a clear view for the operator.",
+            "- Check that the excavators are easy to operate.",
+            "- Measure the visibility and accessibility of controls within the panoramic cabins.",
+            "- Cross-check the safety features against industry standards.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Navigate to the excavator on the trailer.",
+            "2. [type=perception, frames=[0]] Observe the panoramic cabin and operator's view.",
+            "3. [type=navigation, frames=[2,3]] Move to a construction site where an excavator is in operation.",
+            "4. [type=perception, frames=[0,1,2,3,4,5]] Verify/confirm the key observation before reporting.",
+            "5. [type=navigation, frames=[0,1,2,3,4,5]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the excavator on the trailer. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the excavator on the trailer; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 28.420000000000016,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/Tl6-15TLbs4/task03/sub05/motion.bvh",
+            "params_path": "results/momask/Tl6-15TLbs4/task03/sub05/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

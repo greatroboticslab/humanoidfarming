@@ -1,0 +1,643 @@
+{
+  "video_index": "XtS-bhQAoxY",
+  "title": "Hands-On Farming Education in Brisbane",
+  "url": "https://www.youtube.com/watch?v=XtS-bhQAoxY",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Relevant transcript.",
+  "tasks": [
+    {
+      "task": "Discuss the key aspects of the agricultural practices course.",
+      "start": 8.05,
+      "end": 81.81,
+      "subtasks": [
+        {
+          "text": "Introduce the speaker and mention that he teaches agricultural practices at Carinda State High School.",
+          "start": 8.05,
+          "end": 14.05,
+          "segment_ids": [
+            0
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "XtS-bhQAoxY/task00_sub00_f00.jpg",
+              "caption": "A white wall with a green and yellow stripe at the bottom.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "XtS-bhQAoxY/task00_sub00_f01.jpg",
+              "caption": "Three students are listening to a man in a hat in a classroom setting.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "XtS-bhQAoxY/task00_sub00_f02.jpg",
+              "caption": "A person is petting a black animal in a green pen.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene introduces a teacher discussing agricultural practices at Carinda State High School, with students present.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A white wall with a green and yellow stripe at the bottom sets the backdrop.",
+            "- [frames=[1]] Three students are attentively listening to a man wearing a hat in a classroom setting.",
+            "- [frames=[2]] A person is petting a black animal in a green pen, though this is not directly related to the introduction.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The classroom environment suggests a formal educational setting where the teacher is explaining agricultural practices. The presence of students indicates an active learning session.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be in the classroom.",
+            "- The robot should be able to identify the teacher and students.",
+            "- The robot should have audio capabilities to listen to the conversation.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the teacher and his role.",
+            "- The robot should accurately convey the information about the agricultural practices course.",
+            "- The robot should ensure all students are engaged and attentive.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Move to a position where the robot can clearly see the teacher and students.",
+            "2. [type=perception, frames=[1]] Listen to the conversation to identify the teacher and confirm his name.",
+            "3. [type=perception, frames=[1]] Verify the teacher's name by asking, \"Is your name Mr. Smith?\".",
+            "4. [type=manipulation, frames=[1]] Adjust the robot's camera to focus on the teacher's face for better identification.",
+            "5. [type=perception, frames=[1]] Confirm the teacher's role by saying, \"Mr. Smith, you teach agricultural practices at Carinda State High School.\".",
+            "6. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to a position where the robot can clearly see the teacher and students. It then verifies the key detail directly from the frames (Listen to the conversation to identify the teacher and confirm his name).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Move to a position where the robot can clearly see the teacher and students; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 6.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/XtS-bhQAoxY/task00/sub00/motion.bvh",
+            "params_path": "results/momask/XtS-bhQAoxY/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Highlight the unique aspects of their school, having a working agricultural section and access to common land.",
+          "start": 14.05,
+          "end": 24.13,
+          "segment_ids": [
+            1,
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "XtS-bhQAoxY/task00_sub01_f01.jpg",
+              "caption": "Two individuals are standing in a fenced area, possibly in a farm or agricultural setting.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "XtS-bhQAoxY/task00_sub01_f02.jpg",
+              "caption": "A man in a hat and jacket is inspecting a white bee hive with the label \"CS66\" while a woman in a green and yellow jacket observes",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The scene highlights the unique aspects of the school's agricultural section, emphasizing its practical and hands-on learning environment.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] Two individuals are standing in a fenced area, likely in a farm or agricultural setting.",
+            "- [frames=[2]] A man in a hat and jacket is inspecting a white bee hive labeled \"CS66,\" while a woman in a green and yellow jacket observes.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The video captures a moment where students or staff members are engaged in an agricultural activity, specifically inspecting a beehive. This interaction suggests a focus on practical, hands-on learning within the school’s agricultural program.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to capture the scene.",
+            "- The robot needs to be able to navigate through the agricultural area.",
+            "- The robot must have the capability to communicate with humans.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Verify that the robot can accurately identify the agricultural setting.",
+            "- Confirm that the robot can locate and interact with the beehive.",
+            "- Check that the robot can observe the inspection process.",
+            "- Measure the duration of the interaction to ensure it aligns with the video timeline.",
+            "- Cross-check the robot’s observations with the provided captions.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate to the fenced area where the two individuals are standing.",
+            "2. [type=perception, frames=[1]] Use the camera to verify the presence of the two individuals.",
+            "3. [type=navigation, frames=[2]] Move closer to the beehive labeled \"CS66.\".",
+            "4. [type=perception, frames=[2]] Confirm the presence of the man inspecting the beehive and the woman observing.",
+            "5. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the fenced area where the two individuals are standing. It then verifies the key detail directly from the frames (Use the camera to verify the presence of the two individuals).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the fenced area where the two individuals are standing; Move closer to the beehive labeled \"CS66.\"; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 10.079999999999998,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/XtS-bhQAoxY/task00/sub01/motion.bvh",
+            "params_path": "results/momask/XtS-bhQAoxY/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Explain that the course covers various areas of food and fibre production.",
+          "start": 24.13,
+          "end": 35.17,
+          "segment_ids": [
+            3,
+            4
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub02_f01.jpg",
+              "relative_path": "XtS-bhQAoxY/task00_sub02_f01.jpg",
+              "caption": "A man in a beekeeping suit is adjusting a valve on a metal container with another man.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub02_f02.jpg",
+              "relative_path": "XtS-bhQAoxY/task00_sub02_f02.jpg",
+              "caption": "A man in a hat and glasses is talking to two boys in school uniforms, one of whom is holding a honeycomb.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask involves explaining that the agricultural practices course covers various areas of food and fibre production. This is illustrated through scenes showing different aspects of farming activities.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A man in a beekeeping suit is adjusting a valve on a metal container with another man, indicating beekeeping or pollination activities.",
+            "- [frames=[2]] A man in a hat and glasses is talking to two boys in school uniforms, one of whom is holding a honeycomb, suggesting an educational interaction about bees and honey.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict a hands-on learning environment where agricultural practices are being demonstrated and explained. The first scene shows practical beekeeping activities, while the second scene illustrates an educational dialogue involving students, likely discussing the importance of bees in food and fibre production.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a display screen or a voice communication system.",
+            "- The robot should have knowledge about the agricultural practices course and its content.",
+            "- The robot should be able to navigate to the appropriate location within the video frame.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately convey the information about the course covering various areas of food and fibre production.",
+            "- The robot should effectively communicate the educational aspect of the scenes shown.",
+            "- The robot should ensure that the explanation aligns with the content of the video frames.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Observe the man in the beekeeping suit adjusting the valve on the metal container.",
+            "2. [type=perception, frames=[2]] Listen to the conversation between the man in the hat and glasses and the two boys, focusing on the mention of honeycomb.",
+            "3. [type=manipulation, frames=[1]] Simulate the action of adjusting a valve by moving a virtual valve.",
+            "4. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "5. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Observe the man in the beekeeping suit adjusting the valve on the metal container. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Simulate the action of adjusting a valve by moving a virtual valve; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 11.040000000000003,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/XtS-bhQAoxY/task00/sub02/motion.bvh",
+            "params_path": "results/momask/XtS-bhQAoxY/task00/sub02/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Mention the practical skills taught in the course, such as machinery operation and fencing construction.",
+          "start": 35.25,
+          "end": 50.61,
+          "segment_ids": [
+            5,
+            6,
+            7
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub03_f00.jpg",
+              "relative_path": "XtS-bhQAoxY/task00_sub03_f00.jpg",
+              "caption": "A man in a hat and a boy in a tie are observing a man in a beekeeping suit handling a honey extractor.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub03_f01.jpg",
+              "relative_path": "XtS-bhQAoxY/task00_sub03_f01.jpg",
+              "caption": "A person is using a tool to cut a piece of honeycomb from a frame.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub03_f02.jpg",
+              "relative_path": "XtS-bhQAoxY/task00_sub03_f02.jpg",
+              "caption": "A group of students, some in school uniforms, are engaging in a playful activity with lollipops.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub03_f03.jpg",
+              "relative_path": "XtS-bhQAoxY/task00_sub03_f03.jpg",
+              "caption": "A group of people, including a student, are holding chickens in a classroom setting.",
+              "frame_index": 3
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment highlights the practical skills taught in the agricultural practices course, focusing on machinery operation and fencing construction.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A man in a hat and a boy in a tie are observing a man in a beekeeping suit handling a honey extractor.",
+            "- [frames=[1]] A person is using a tool to cut a piece of honeycomb from a frame.",
+            "- [frames=[2]] A group of students, some in school uniforms, are engaging in a playful activity with lollipops.",
+            "- [frames=[3]] A group of people, including a student, are holding chickens in a classroom setting.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene transitions from machinery operation to various hands-on activities, indicating a diverse range of practical skills being taught. The presence of students suggests an educational environment where practical skills are being demonstrated and practiced.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the different tools and equipment used in the course.",
+            "- The robot needs to recognize the students and their activities.",
+            "- The robot should be able to navigate through the classroom environment.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the tools and machinery used in the course.",
+            "- The robot should accurately describe the practical skills being taught.",
+            "- The robot should confirm the presence of students and their activities.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Identify the man in the beekeeping suit and the honey extractor.",
+            "2. [type=perception, frames=[1]] Recognize the tool being used to cut honeycomb.",
+            "3. [type=manipulation, frames=[1]] Simulate the action of cutting honeycomb using the tool.",
+            "4. [type=perception, frames=[2]] Observe the group of students engaged in a playful activity with.",
+            "5. [type=perception, frames=[0,1,2,3]] Verify/confirm the key observation before reporting.",
+            "6. [type=navigation, frames=[0,1,2,3]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the man in the beekeeping suit and the honey extractor. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Simulate the action of cutting honeycomb using the tool; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 15.36,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/XtS-bhQAoxY/task00/sub03/motion.bvh",
+            "params_path": "results/momask/XtS-bhQAoxY/task00/sub03/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Discuss the unique challenges and real-world problem-solving opportunities in the farm setting.",
+          "start": 50.61,
+          "end": 62.45,
+          "segment_ids": [
+            8,
+            9
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub04_f01.jpg",
+              "relative_path": "XtS-bhQAoxY/task00_sub04_f01.jpg",
+              "caption": "A person is feeding chickens in a poultry farm.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub04_f02.jpg",
+              "relative_path": "XtS-bhQAoxY/task00_sub04_f02.jpg",
+              "caption": "Two people are examining plants in a greenhouse.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on discussing the unique challenges and real-world problem-solving opportunities faced in a farm setting, as illustrated by scenes of feeding chickens and examining plants in a greenhouse.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A person is feeding chickens in a poultry farm, highlighting the daily tasks and potential health issues related to animal care.",
+            "- [frames=[2]] Two individuals are closely examining plants in a greenhouse, indicating the need for careful observation and decision-making in plant health and growth.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict the practical aspects of farming, including animal husbandry and crop management. These activities require constant attention to detail and quick problem-solving skills to ensure optimal conditions for both animals and plants.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with sensors for detecting animal behavior and plant health.",
+            "- It needs to have a basic understanding of common farm tasks such as feeding and inspecting.",
+            "- The robot must be able to communicate effectively with humans in the farm setting.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- Accurately describe the challenges of feeding chickens and managing plant health.",
+            "- Highlight the importance of regular inspection and timely intervention.",
+            "- Provide examples of how problem-solving skills are crucial in a farm environment.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Observe the person feeding chickens to understand the routine and potential issues.",
+            "2. [type=perception, frames=[2]] Examine the plants in the greenhouse to assess their condition and identify any problems.",
+            "3. [type=manipulation, frames=[1]] Assist in feeding the chickens by providing food and water, ensuring proper distribution.",
+            "4. [type=manipulation, frames=[2]] Help in checking the plants for signs of disease or nutrient deficiencies, using tools if necessary.",
+            "5. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "6. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Observe the person feeding chickens to understand the routine and potential issues. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Help in checking the plants for signs of disease or nutrient deficiencies, using tools if necessary; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 11.840000000000003,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/XtS-bhQAoxY/task00/sub04/motion.bvh",
+            "params_path": "results/momask/XtS-bhQAoxY/task00/sub04/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Emphasize that the course provides fun and exciting opportunities to experience real Australia.",
+          "start": 62.45,
+          "end": 73.57,
+          "segment_ids": [
+            10,
+            11
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub05_f01.jpg",
+              "relative_path": "XtS-bhQAoxY/task00_sub05_f01.jpg",
+              "caption": "Two girls in school uniforms are examining plants in a greenhouse.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub05_f02.jpg",
+              "relative_path": "XtS-bhQAoxY/task00_sub05_f02.jpg",
+              "caption": "A person is standing next to a chicken coop, holding a piece of wood.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on emphasizing the fun and exciting nature of the agricultural practices course, highlighting real-world experiences in Australia.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] Two girls in school uniforms are examining plants in a greenhouse, indicating hands-on learning activities.",
+            "- [frames=[2]] A person is standing next to a chicken coop, holding a piece of wood, suggesting practical farm tasks.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict students actively engaged in agricultural activities, such as plant examination and handling farm tools like wood. These activities emphasize the practical and immersive nature of the course.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be aware of the current location and context of the video.",
+            "- The robot needs to recognize the presence of students and agricultural elements.",
+            "- The robot must be able to communicate effectively with the audience.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should accurately convey the message about the fun and exciting aspects of the course.",
+            "- It should highlight the real-world experiences provided by the course.",
+            "- The robot should ensure the audience understands the practical and immersive nature of the agricultural practices.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Identify the students and the greenhouse setting.",
+            "2. [type=perception, frames=[2]] Recognize the person near the chicken coop and the wooden tool.",
+            "3. [type=communication, frames=[1,2]] Announce, \"This course offers hands-on, real-world experiences in agriculture.\".",
+            "4. [type=communication, frames=[1,2]] Emphasize, \"Experience the fun and excitement of farming in Australia.\".",
+            "5. [type=manipulation, frames=[2]] Demonstrate handling the wooden tool to illustrate practical farm tasks.",
+            "6. [type=communication, frames=[1,2]] Explain, \"Students get to engage in various farm activities.",
+            "7. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "8. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the students and the greenhouse setting. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting). After verification, it communicates the result clearly (Announce, \"This course offers hands-on, real-world experiences in agriculture.\").",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Demonstrate handling the wooden tool to illustrate practical farm tasks; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 11.11999999999999,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/XtS-bhQAoxY/task00/sub05/motion.bvh",
+            "params_path": "results/momask/XtS-bhQAoxY/task00/sub05/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Describe the weekly work outside with cattle at Oxley Creek Common.",
+          "start": 73.57,
+          "end": 79.89,
+          "segment_ids": [
+            12
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub06_f01.jpg",
+              "relative_path": "XtS-bhQAoxY/task00_sub06_f01.jpg",
+              "caption": "A person is using a tool to stir a pot of water.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub06_f02.jpg",
+              "relative_path": "XtS-bhQAoxY/task00_sub06_f02.jpg",
+              "caption": "The video frame shows a garden with plants suffering from a disease, with leaves and peppers affected by white spots.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask describes the weekly work involving cattle at Oxley Creek Common, focusing on the environment and tasks performed there.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A person is using a tool to stir a pot of water, indicating some form of preparation or maintenance activity.",
+            "- [frames=[2]] The scene shows a garden with diseased plants, highlighting the presence of affected vegetation.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts an agricultural setting where both livestock management and plant health monitoring are taking place. The presence of diseased plants suggests ongoing efforts to maintain the health of the farm's ecosystem.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the layout of the farm area.",
+            "- It needs to know the locations of the cattle and the garden.",
+            "- The robot must have the necessary tools and equipment for handling plants and cattle.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should identify and report the presence of diseased plants.",
+            "- It should assist in maintaining the health of the cattle.",
+            "- The robot should document the findings and any actions taken.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[1]] Navigate to the area where the cattle are located.",
+            "2. [type=perception, frames=[1]] Scan the area to locate the cattle and assess their condition.",
+            "3. [type=navigation, frames=[2]] Move to the garden to inspect the plants.",
+            "4. [type=perception, frames=[2]] Identify and document the diseased plants.",
+            "5. [type=manipulation, frames=[1]] Assist in stirring the pot of water if needed.",
+            "6. [type=manipulation, frames=[2]] Collect samples from the diseased plants for further analysis.",
+            "7. [type=communication, frames=[1,2]] Report the findings to the farm manager.",
+            "8. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "9. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the area where the cattle are located. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting). After verification, it communicates the result clearly (Report the findings to the farm manager).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the area where the cattle are located; Assist in stirring the pot of water if needed; Collect samples from the diseased plants for further analysis; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 6.320000000000007,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/XtS-bhQAoxY/task00/sub06/motion.bvh",
+            "params_path": "results/momask/XtS-bhQAoxY/task00/sub06/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Conclude by saying it's a great place to learn.",
+          "start": 79.89,
+          "end": 81.81,
+          "segment_ids": [
+            13
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub07_f01.jpg",
+              "relative_path": "XtS-bhQAoxY/task00_sub07_f01.jpg",
+              "caption": "The video frame shows a plant with green leaves and a red fruit, possibly a pepper, surrounded by white spots.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub07_f02.jpg",
+              "relative_path": "XtS-bhQAoxY/task00_sub07_f02.jpg",
+              "caption": "The video frame shows a blurry image of a group of plants.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video concludes by emphasizing the value of the agricultural practices course as an excellent learning opportunity.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A close-up of a plant with green leaves and a red fruit, possibly a pepper, is shown, surrounded by white spots.",
+            "- [frames=[2]] A blurry image of a group of plants is displayed.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shifts from a detailed view of a single plant to a broader view of multiple plants, suggesting a transition from a specific example to a general overview of the course content.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be within the vicinity of the plants.",
+            "- The robot should have a clear line of sight to the plants.",
+            "- The robot should have access to the audio equipment to record the conclusion.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should convey the message that the course is a great place to learn.",
+            "- The robot should ensure the message is clearly heard or seen by the audience.",
+            "- The robot should maintain a professional and enthusiastic tone.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1]] Observe the plant with green leaves and a red fruit.",
+            "2. [type=perception, frames=[2]] Observe the group of plants.",
+            "3. [type=manipulation, frames=[1,2]] Adjust the camera angle to capture both the individual plant and the group of plants.",
+            "4. [type=communication, frames=[1,2]] Announce, \"It's a great place to learn.\".",
+            "5. [type=navigation, frames=[1,2]] Return the camera to its original position.",
+            "6. [type=navigation, frames=[1,2]] Standby in a neutral position.",
+            "7. [type=perception, frames=[1,2]] Verify/confirm the key observation before reporting.",
+            "8. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Observe the plant with green leaves and a red fruit. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting). After verification, it communicates the result clearly (Announce, \"It's a great place to learn.\").",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Adjust the camera angle to capture both the individual plant and the group of plants; Return/reset to a safe standby position and stow any tools (cleanup); then return to a stable neutral stance.",
+            "duration_s": 3.0,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/XtS-bhQAoxY/task00/sub07/motion.bvh",
+            "params_path": "results/momask/XtS-bhQAoxY/task00/sub07/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    }
+  ]
+}

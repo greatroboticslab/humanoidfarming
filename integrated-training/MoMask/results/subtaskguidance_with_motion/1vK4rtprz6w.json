@@ -1,0 +1,538 @@
+{
+  "video_index": "1vK4rtprz6w",
+  "title": "Subcompact Tractor Capabilities and Limitations",
+  "url": "https://www.youtube.com/watch?v=1vK4rtprz6w",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "This video compares multiple types of machinery and their applications.",
+  "tasks": [
+    {
+      "task": "Describe the different compact tractors discussed in the video.",
+      "start": 0.0,
+      "end": 110.8,
+      "subtasks": [
+        {
+          "text": "Explain the benefits of the John Deere 1025R subcompact tractor and its usage on smaller properties.",
+          "start": 0.0,
+          "end": 13.04,
+          "segment_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "1vK4rtprz6w/task00_sub00_f00.jpg",
+              "caption": "A man in a red hat stands in a field with two tractors, one red and one green.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "1vK4rtprz6w/task00_sub00_f01.jpg",
+              "caption": "A group of farm equipment, including tractors and a loader, is parked in a field.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "1vK4rtprz6w/task00_sub00_f02.jpg",
+              "caption": "A man stands in a field with various farm equipment, wearing a red beanie and plaid shirt.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The video segment introduces the John Deere 1025R subcompact tractor and highlights its benefits for smaller properties. The scene focuses on a man explaining the tractor's capabilities while standing among other farm equipment.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A man in a red hat stands in a field with two tractors, one red and one green.",
+            "- [frames=[1]] A group of farm equipment, including tractors and a loader, is parked in a field.",
+            "- [frames=[2]] A man stands in a field with various farm equipment, wearing a red beanie and plaid shirt.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts a typical farm setting with multiple pieces of agricultural machinery. The focus is on a man providing information about the John Deere 1025R subcompact tractor, likely emphasizing its suitability for small-scale farming operations.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a camera to identify the tractors and farm equipment.",
+            "- The robot needs to be within the field area where the man is standing.",
+            "- The robot should have the ability to communicate with the man for clarification if needed.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The robot should correctly identify the John Deere 1025R subcompact tractor.",
+            "- The robot should accurately describe the benefits of the tractor for smaller properties.",
+            "- The robot should confirm the man’s statements about the tractor’s capabilities.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[0]] Identify the man in the red hat and the two tractors in the field.",
+            "2. [type=communication, frames=[0]] Initiate a conversation with the man to gather information about the John Deere 1025R.",
+            "3. [type=perception, frames=[2]] Confirm the.",
+            "4. [type=perception, frames=[0,1,2]] Check/confirm the key detail matches the captions and scene.",
+            "5. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Identify the man in the red hat and the two tractors in the field. It then verifies the key detail directly from the frames (Confirm the).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Stand in a neutral humanoid pose, look around as if observing a scene, gesture briefly with one arm, then return to a stable idle stance.",
+            "duration_s": 13.04,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/1vK4rtprz6w/task00/sub00/motion.bvh",
+            "params_path": "results/momask/1vK4rtprz6w/task00/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        },
+        {
+          "text": "Demonstrate the utility and visibility advantages of a skid steer with examples from the video.",
+          "start": 65.68,
+          "end": 110.8,
+          "segment_ids": [
+            30,
+            33,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f00.jpg",
+              "relative_path": "1vK4rtprz6w/task00_sub01_f00.jpg",
+              "caption": "A John Deere 333G skid steer loader is parked in a field with a tractor nearby.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "1vK4rtprz6w/task00_sub01_f01.jpg",
+              "caption": "A close-up view of a John Deere 333G tractor with a logo and the number 333G on the side.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "1vK4rtprz6w/task00_sub01_f02.jpg",
+              "caption": "Two tractors, one green and one red, are parked in a field.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task00_sub01_f03.jpg",
+              "relative_path": "1vK4rtprz6w/task00_sub01_f03.jpg",
+              "caption": "A close-up of a green tractor with the model number 4720.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task00_sub01_f04.jpg",
+              "relative_path": "1vK4rtprz6w/task00_sub01_f04.jpg",
+              "caption": "A green tractor with a mounted attachment is parked in a field.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task00_sub01_f05.jpg",
+              "relative_path": "1vK4rtprz6w/task00_sub01_f05.jpg",
+              "caption": "A man stands in a field with three tractors and a small excavator, all of which are used for farming and construction.",
+              "frame_index": 5
+            },
+            {
+              "image_file": "task00_sub01_f06.jpg",
+              "relative_path": "1vK4rtprz6w/task00_sub01_f06.jpg",
+              "caption": "A man stands next to three different types of farm equipment, including a yellow excavator, a red tractor, and a green tractor.",
+              "frame_index": 6
+            },
+            {
+              "image_file": "task00_sub01_f07.jpg",
+              "relative_path": "1vK4rtprz6w/task00_sub01_f07.jpg",
+              "caption": "A red Kubota tractor with a loader is parked in a field next to a yellow Caterpillar excavator.",
+              "frame_index": 7
+            },
+            {
+              "image_file": "task00_sub01_f08.jpg",
+              "relative_path": "1vK4rtprz6w/task00_sub01_f08.jpg",
+              "caption": "A man stands next to three tractors and a small excavator in a field.",
+              "frame_index": 8
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The subtask focuses on demonstrating the utility and visibility advantages of a skid steer loader, specifically a John Deere 333G, by comparing it with other tractors and equipment shown in the video.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A John Deere 333G skid steer loader is parked in a field with another tractor nearby.",
+            "- [frames=[1]] A close-up view of the John Deere 333G tractor with its logo and model number (333G) visible.",
+            "- [frames=[2]] Two tractors, one green and one red, are parked in a field.",
+            "- [frames=[3]] A close-up of a green tractor with the model number 4720.",
+            "- [frames=[4]] A green tractor with a mounted attachment is parked in a field.",
+            "- [frames=[5]] A man stands in a field with three tractors and a small excavator, all used for farming and construction.",
+            "- [frames=[6]] A man stands next to three different types of farm equipment, including a yellow excavator, a red tractor, and a green tractor.",
+            "- [frames=[7]] A red Kubota tractor with a loader is parked in a field next to a yellow Caterpillar excavator.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene depicts various pieces of agricultural machinery, including tractors and an excavator, all positioned in a field setting. The focus is on the John Deere 333G skid steer loader and how it compares to other tractors like the green 4720 and the red Kubota with a loader.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be familiar with the different types of tractors and their models.",
+            "- The robot must recognize the John Deere 333G",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- (auto-filled) Robot completes the subtask and reports outcomes.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2,3,4,5,6,7,8]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2,3,4,5,6,7,8]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2,3,4,5,6,7,8]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2,3,4,5,6,7,8]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2,3,4,5,6,7,8]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 45.11999999999999,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/1vK4rtprz6w/task00/sub01/motion.bvh",
+            "params_path": "results/momask/1vK4rtprz6w/task00/sub01/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Compare the features and capabilities of the John Deere 4720 large compact tractor against the 1025R.",
+      "start": 240.24,
+      "end": 458.06,
+      "subtasks": [
+        {
+          "text": "Highlight the practical applications and limitations of the Kubota M4D-071 utility tractor.",
+          "start": 240.24,
+          "end": 458.06,
+          "segment_ids": [
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            136,
+            137,
+            138,
+            139,
+            140,
+            141,
+            142,
+            143,
+            144,
+            145,
+            146,
+            147,
+            148,
+            149,
+            150,
+            151,
+            152,
+            153,
+            154,
+            155,
+            156,
+            157,
+            158,
+            159,
+            160,
+            161,
+            162,
+            163,
+            164,
+            165,
+            166,
+            167,
+            168,
+            169,
+            170,
+            171,
+            172,
+            173,
+            174,
+            175,
+            176,
+            177,
+            178,
+            179,
+            180,
+            181,
+            182,
+            183,
+            184,
+            185,
+            186,
+            187,
+            188,
+            189,
+            190,
+            191,
+            192,
+            193,
+            194,
+            195,
+            196,
+            198,
+            199,
+            200,
+            201,
+            202,
+            203,
+            204,
+            205,
+            206,
+            207,
+            208,
+            209,
+            210,
+            211,
+            212,
+            213,
+            214,
+            215
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "1vK4rtprz6w/task01_sub00_f00.jpg",
+              "caption": "A person is mowing a large lawn with a green tractor.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "1vK4rtprz6w/task01_sub00_f01.jpg",
+              "caption": "Two men are working on a tractor in a backyard, surrounded by a fence and a brick house.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "1vK4rtprz6w/task01_sub00_f02.jpg",
+              "caption": "A man is operating a green tractor in a backyard, digging a hole.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task01_sub00_f03.jpg",
+              "relative_path": "1vK4rtprz6w/task01_sub00_f03.jpg",
+              "caption": "A man in a red hat and plaid shirt is standing next to two John Deere tractors in a field.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task01_sub00_f04.jpg",
+              "relative_path": "1vK4rtprz6w/task01_sub00_f04.jpg",
+              "caption": "A man stands in a field with various farm equipment, including tractors and a loader.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task01_sub00_f05.jpg",
+              "relative_path": "1vK4rtprz6w/task01_sub00_f05.jpg",
+              "caption": "The video frame shows a lush, green field with trees in the background.",
+              "frame_index": 5
+            },
+            {
+              "image_file": "task01_sub00_f06.jpg",
+              "relative_path": "1vK4rtprz6w/task01_sub00_f06.jpg",
+              "caption": "A combine harvester is driving through a forested area.",
+              "frame_index": 6
+            },
+            {
+              "image_file": "task01_sub00_f07.jpg",
+              "relative_path": "1vK4rtprz6w/task01_sub00_f07.jpg",
+              "caption": "A man stands next to a large tractor in a field.",
+              "frame_index": 7
+            },
+            {
+              "image_file": "task01_sub00_f08.jpg",
+              "relative_path": "1vK4rtprz6w/task01_sub00_f08.jpg",
+              "caption": "A forested area with a machine moving along a path.",
+              "frame_index": 8
+            },
+            {
+              "image_file": "task01_sub00_f09.jpg",
+              "relative_path": "1vK4rtprz6w/task01_sub00_f09.jpg",
+              "caption": "A large machine is clearing a path through a forest.",
+              "frame_index": 9
+            },
+            {
+              "image_file": "task01_sub00_f10.jpg",
+              "relative_path": "1vK4rtprz6w/task01_sub00_f10.jpg",
+              "caption": "A forested area with a tractor parked on a trail.",
+              "frame_index": 10
+            },
+            {
+              "image_file": "task01_sub00_f11.jpg",
+              "relative_path": "1vK4rtprz6w/task01_sub00_f11.jpg",
+              "caption": "A tractor is parked in a field surrounded by trees.",
+              "frame_index": 11
+            },
+            {
+              "image_file": "task01_sub00_f12.jpg",
+              "relative_path": "1vK4rtprz6w/task01_sub00_f12.jpg",
+              "caption": "A man in a red hat and plaid shirt is standing next to a John Deere tractor in a field.",
+              "frame_index": 12
+            },
+            {
+              "image_file": "task01_sub00_f13.jpg",
+              "relative_path": "1vK4rtprz6w/task01_sub00_f13.jpg",
+              "caption": "A forestry machine is operating in a forested area.",
+              "frame_index": 13
+            },
+            {
+              "image_file": "task01_sub00_f14.jpg",
+              "relative_path": "1vK4rtprz6w/task01_sub00_f14.jpg",
+              "caption": "A tractor tire with a red cover is parked in a garage.",
+              "frame_index": 14
+            },
+            {
+              "image_file": "task01_sub00_f15.jpg",
+              "relative_path": "1vK4rtprz6w/task01_sub00_f15.jpg",
+              "caption": "A blurry image of a person holding a small object with a white object on top.",
+              "frame_index": 15
+            },
+            {
+              "image_file": "task01_sub00_f16.jpg",
+              "relative_path": "1vK4rtprz6w/task01_sub00_f16.jpg",
+              "caption": "A man in a red hat and plaid shirt is standing next to a piece of heavy machinery in a field.",
+              "frame_index": 16
+            },
+            {
+              "image_file": "task01_sub00_f17.jpg",
+              "relative_path": "1vK4rtprz6w/task01_sub00_f17.jpg",
+              "caption": "A man in a red beanie and plaid shirt stands next to a piece of heavy machinery in a field.",
+              "frame_index": 17
+            },
+            {
+              "image_file": "task01_sub00_f18.jpg",
+              "relative_path": "1vK4rtprz6w/task01_sub00_f18.jpg",
+              "caption": "The video frame shows a close-up of a tractor's cabin with a grassy field in the background.",
+              "frame_index": 18
+            },
+            {
+              "image_file": "task01_sub00_f19.jpg",
+              "relative_path": "1vK4rtprz6w/task01_sub00_f19.jpg",
+              "caption": "A man in a red hat and plaid shirt is standing next to a John Deere tractor in a field.",
+              "frame_index": 19
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The Kubota M4D-071 utility tractor is shown in various practical applications and its limitations are highlighted throughout the scene.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A person is mowing a large lawn with a green tractor.",
+            "- [frames=[1]] Two men are working on a tractor in a backyard, surrounded by a fence and a brick house.",
+            "- [frames=[2]] A man is operating a green tractor in a backyard, digging a hole.",
+            "- [frames=[3]] A man in a red hat and plaid shirt is standing next to two John Deere tractors in a field.",
+            "- [frames=[4]] A man stands in a field with various farm equipment, including tractors and a loader.",
+            "- [frames=[5]] The video frame shows a lush, green field with trees in the background.",
+            "- [frames=[6]] A combine harvester is driving through a forested area.",
+            "- [frames=[7]] A man stands next to a large tractor in a field.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scenes depict the Kubota M4D-071 being used for mowing lawns and digging holes in backyards. It is also shown in a field with other farm equipment, indicating its versatility in agricultural tasks. However, the presence of a combine harvester suggests that the Kubota M4D-071 is not suitable for harvesting crops, highlighting its limitations.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be able to recognize the Kubota M4D-071 utility tractor.",
+            "- The robot must understand the context of mowing lawns and digging holes.",
+            "- The robot needs to comprehend the difference between the Kubota M4D-071 and larger tractors like the John Deere 4720 and 1025",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- (auto-filled) Robot completes the subtask and reports outcomes.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]] Navigate to the relevant scene for this subtask.",
+            "2. [type=perception, frames=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]] Observe key items and read any on-screen text.",
+            "3. [type=perception, frames=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]] Verify/confirm the key detail using the frames.",
+            "4. [type=communication, frames=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]] Report the verified result clearly.",
+            "5. [type=navigation, frames=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]] Return to a safe standby position (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the relevant scene for this subtask. It then verifies the key detail directly from the frames (Observe key items and read any on-screen text). After verification, it communicates the result clearly (Report the verified result clearly).",
+            "To finish safely, it completes cleanup and returns to standby: Return to a safe standby position (cleanup).",
+            ""
+          ],
+          "motion": {
+            "engine": "momask",
+            "prompt": "Perform these actions smoothly in sequence: Navigate to the relevant scene for this subtask; Return to a safe standby position (cleanup); then return to a stable neutral stance.",
+            "duration_s": 217.82,
+            "fps": 30,
+            "seed": 0,
+            "bvh_path": "results/momask/1vK4rtprz6w/task01/sub00/motion.bvh",
+            "params_path": "results/momask/1vK4rtprz6w/task01/sub00/params.json",
+            "status": "pending_momask_execution",
+            "note": "MoMask execution not yet wired; placeholder created."
+          }
+        }
+      ]
+    },
+    {
+      "task": "Discuss the key considerations and final decision regarding the choice of machinery for a specific property size and needs.",
+      "start": null,
+      "end": null,
+      "subtasks": []
+    }
+  ]
+}

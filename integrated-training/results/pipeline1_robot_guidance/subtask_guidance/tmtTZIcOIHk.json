@@ -1,0 +1,316 @@
+{
+  "video_index": "tmtTZIcOIHk",
+  "title": "Hay Farming Basics and Plant Options Explained I",
+  "url": "https://www.youtube.com/watch?v=tmtTZIcOIHk",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "This video provides a comprehensive guide on hay farming, detailing the process from soil preparation to feeding livestock.",
+  "tasks": [
+    {
+      "task": "Describe the variety of hay crops and their usage.",
+      "start": 58.5,
+      "end": 65.06,
+      "subtasks": [
+        {
+          "text": "Mention the variety of hay crops like Ryegrass, Timothy, Brome, Fescue, Bermuda grass, Orchard grass, Clovers, and Alfalfa.",
+          "start": 58.5,
+          "end": 65.06,
+          "segment_ids": [
+            12
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "tmtTZIcOIHk/task00_sub00_f00.jpg",
+              "caption": "A man in a plaid shirt stands in a field with a large stack of hay.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "tmtTZIcOIHk/task00_sub00_f01.jpg",
+              "caption": "A large pile of hay bales is stacked in a field with mountains in the background.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "tmtTZIcOIHk/task00_sub00_f02.jpg",
+              "caption": "A large pile of hay bales is stacked in a barnyard.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "Mention the variety of hay crops such as Ryegrass, Timothy, Brome, Fescue, Bermuda grass, Orchard grass, Clovers, and Alfalfa.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0]] A man in a plaid shirt stands in a field with a large stack of hay.",
+            "- [frames=[1]] A large pile of hay bales is stacked in a field with mountains in the background.",
+            "- [frames=[2]] A large pile of hay bales is stacked in a barnyard.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene shifts from an outdoor field with a man and a large stack of hay to a field with hay bales and mountains, and then to a barnyard with hay bales. The focus is on showcasing different settings where hay is stored and used.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot should be aware of the different types of hay crops.",
+            "- The robot should have access to information about the various hay crops.",
+            "- The robot should be able to recognize hay bales and fields.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot should correctly mention all the specified hay crops.",
+            "- The robot should provide accurate descriptions of the uses and characteristics of each crop.",
+            "- The robot should ensure the information is presented in a clear and understandable manner.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=perception, frames=[0]] Identify the man in the field and the large stack of hay.",
+            "2. [type=manipulation, frames=[1]] Recognize the large pile of hay bales in the field.",
+            "3. [type=perception, frames=[2]] Detect the hay bales in the barnyard.",
+            "4. [type=communication, frames=[0-2]] List the hay crops: Ryegrass, Timothy, Brome, Fescue, Bermuda"
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Explain the process of hay preparation from cutting to storing.",
+      "start": 165.26,
+      "end": 168.7,
+      "subtasks": [
+        {
+          "text": "Describe how hay is prepared by cutting fresh plant material and baling it when at its most nutritional value.",
+          "start": 165.26,
+          "end": 168.7,
+          "segment_ids": [
+            38
+          ],
+          "frames": [
+            {
+              "image_file": "task01_sub00_f00.jpg",
+              "relative_path": "tmtTZIcOIHk/task01_sub00_f00.jpg",
+              "caption": "A tractor is driving through a field with freshly harvested crops.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task01_sub00_f01.jpg",
+              "relative_path": "tmtTZIcOIHk/task01_sub00_f01.jpg",
+              "caption": "A tractor is driving across a field with freshly harvested crops.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task01_sub00_f02.jpg",
+              "relative_path": "tmtTZIcOIHk/task01_sub00_f02.jpg",
+              "caption": "The video frame shows a field with rows of crops, possibly after harvest.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "The subtask involves explaining how hay is prepared by cutting fresh plant material and baling it when at its most nutritional value.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0,1]] A tractor is seen driving through a field with freshly harvested crops, indicating the recent harvesting activity.",
+            "- [frames=[2]] The scene shifts to show a field with rows of crops, possibly after the initial harvesting, suggesting the field is ready for further processing.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The video captures the process of preparing hay, starting with the tractor moving through the field where freshly harvested crops are visible. This indicates the immediate aftermath of the cutting process. The subsequent scene shows the field with rows of crops, hinting at the readiness for baling.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The field must be freshly harvested.",
+            "- A tractor must be present in the field.",
+            "- The crops must be cut and ready for baling.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The field should show freshly cut crops.",
+            "- The tractor should be seen moving through the field.",
+            "- Bales of hay should be visible in the field.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0,1]] Drive the robot to the field where freshly harvested crops are visible.",
+            "2. [type=perception, frames=[0,1]] Use sensors to confirm the presence of freshly cut crops.",
+            "3. [type=navigation, frames=[2]] Move the robot to the area showing rows of crops.",
+            "4. [type=perception, frames=[2]] Verify the readiness of the field for baling.",
+            "5. [type=communication, frames=[0,1,2]] Communicate the current status to the user, confirming the field is ready for baling.",
+            "",
+            "SUBTASK_STORY:",
+            "The subtask begins with the tractor moving through a field"
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Highlight the evolution of hay baling equipment.",
+      "start": 257.1,
+      "end": 283.26,
+      "subtasks": [
+        {
+          "text": "Note how hay baling equipment evolved from stationary machines to mobile machinery in the early 20th century.",
+          "start": 257.1,
+          "end": 283.26,
+          "segment_ids": [
+            62,
+            63,
+            64,
+            65,
+            66,
+            67
+          ],
+          "frames": [
+            {
+              "image_file": "task02_sub00_f00.jpg",
+              "relative_path": "tmtTZIcOIHk/task02_sub00_f00.jpg",
+              "caption": "A bale of straw lies in a field with a cloudy sky in the background.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task02_sub00_f01.jpg",
+              "relative_path": "tmtTZIcOIHk/task02_sub00_f01.jpg",
+              "caption": "A bale of straw sits in a field, surrounded by clouds in the sky.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task02_sub00_f03.jpg",
+              "relative_path": "tmtTZIcOIHk/task02_sub00_f03.jpg",
+              "caption": "A bale of straw lies on a field with a cloudy sky in the background.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task02_sub00_f04.jpg",
+              "relative_path": "tmtTZIcOIHk/task02_sub00_f04.jpg",
+              "caption": "A tractor is driving through a field with bales of hay.",
+              "frame_index": 4
+            },
+            {
+              "image_file": "task02_sub00_f05.jpg",
+              "relative_path": "tmtTZIcOIHk/task02_sub00_f05.jpg",
+              "caption": "A tractor is driving through a field with bales of hay.",
+              "frame_index": 5
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "Note the transition in hay baling equipment from stationary machines to mobile machinery during the early 20th century.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0,1]] A bale of straw is shown in a field under a cloudy sky.",
+            "- [frames=[2]] The scene shifts to show a tractor moving through a field with bales of hay.",
+            "- [frames=[3]] Another bale of straw is displayed in a field with a cloudy sky.",
+            "- [frames=[4,5]] A tractor continues to drive through a field with multiple bales of hay.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The subtask illustrates the shift from stationary hay baling equipment to mobile machinery. Initially, hay bales are seen lying in fields, indicating the use of stationary equipment. As the video progresses, a tractor is shown moving through the field, suggesting the introduction of mobile machinery for bale transport and handling.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The field must contain hay bales.",
+            "- There should be a tractor visible in the field.",
+            "- The weather conditions must include a cloudy sky.",
+            "- The robot must be able to recognize hay bales and tractors.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot must correctly identify the presence of hay bales and a tractor.",
+            "- The robot must recognize the change from stationary to mobile equipment.",
+            "- The robot must accurately describe the evolution of hay baling equipment over time.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "1. [type=navigation, frames=[0,1]] Navigate to the first frame showing a bale of straw in a field.",
+            "2. [type=perception, frames=[0,1]] Identify the bale of straw and note the cloudy sky background.",
+            "3. [type=navigation, frames=[2]] Move to the next frame where a tractor is driving through the field.",
+            "4"
+          ]
+        }
+      ]
+    },
+    {
+      "task": "Discuss the methods of storing hay and their importance.",
+      "start": 301.02,
+      "end": 337.02,
+      "subtasks": [
+        {
+          "text": "Explain that hay should be kept dry to preserve its nutritional value and that storage methods have evolved over time.",
+          "start": 301.02,
+          "end": 337.02,
+          "segment_ids": [
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79
+          ],
+          "frames": [
+            {
+              "image_file": "task03_sub00_f00.jpg",
+              "relative_path": "tmtTZIcOIHk/task03_sub00_f00.jpg",
+              "caption": "A man in a white shirt and blue hat is carrying a stick while standing between two large haystacks in a rural setting.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task03_sub00_f01.jpg",
+              "relative_path": "tmtTZIcOIHk/task03_sub00_f01.jpg",
+              "caption": "A young boy is standing on top of a large pile of hay.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task03_sub00_f02.jpg",
+              "relative_path": "tmtTZIcOIHk/task03_sub00_f02.jpg",
+              "caption": "A boy is using a long stick to move hay on a pile.",
+              "frame_index": 2
+            },
+            {
+              "image_file": "task03_sub00_f03.jpg",
+              "relative_path": "tmtTZIcOIHk/task03_sub00_f03.jpg",
+              "caption": "Hay bales are stacked in a field.",
+              "frame_index": 3
+            },
+            {
+              "image_file": "task03_sub00_f05.jpg",
+              "relative_path": "tmtTZIcOIHk/task03_sub00_f05.jpg",
+              "caption": "A person is seen feeding hay into a trough.",
+              "frame_index": 5
+            },
+            {
+              "image_file": "task03_sub00_f06.jpg",
+              "relative_path": "tmtTZIcOIHk/task03_sub00_f06.jpg",
+              "caption": "A person is using a tool to spray hay into a bin.",
+              "frame_index": 6
+            },
+            {
+              "image_file": "task03_sub00_f07.jpg",
+              "relative_path": "tmtTZIcOIHk/task03_sub00_f07.jpg",
+              "caption": "A person is feeding hay to a horse in a stable.",
+              "frame_index": 7
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "Explain that hay should be kept dry to preserve its nutritional value and that storage methods have evolved over time.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "- [frames=[0]] A man in a white shirt and blue hat is carrying a stick while standing between two large haystacks in a rural setting.",
+            "- [frames=[1,2]] A young boy is interacting with hay piles, either standing on top of them or using a stick to move hay.",
+            "- [frames=[3]] Hay bales are stacked in a field, indicating various stages of hay storage.",
+            "- [frames=[5]] A person is seen feeding hay into a trough, showing one method of handling hay.",
+            "- [frames=[6]] A person is using a tool to spray hay into a bin, demonstrating another storage technique.",
+            "- [frames=[7]] A person is feeding hay to a horse in a stable, illustrating the end use of stored hay.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "The scene depicts different methods of handling and storing hay, from stacking bales in fields to feeding it directly to animals. The evolution of storage techniques is evident through the variety of methods shown, emphasizing the importance of keeping hay dry to maintain its quality and nutritional value.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "- The robot must be aware of the current state of hay storage methods.",
+            "- The robot should recognize hay, hay bales, and storage bins.",
+            "- The robot needs to understand the concept of dryness and its importance for hay preservation.",
+            "- The robot should know the locations where hay is currently stored or handled.",
+            "- The robot must be able to communicate effectively with the human narrator.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "- The robot should accurately describe the importance of keeping hay dry.",
+            "- The robot should mention that storage methods have evolved over time.",
+            "- The robot should correctly identify and describe various hay storage techniques shown in the video.",
+            "-"
+          ]
+        }
+      ]
+    }
+  ],
+  "guidance_text_file": "final_guidance_txt/tmtTZIcOIHk.txt"
+}

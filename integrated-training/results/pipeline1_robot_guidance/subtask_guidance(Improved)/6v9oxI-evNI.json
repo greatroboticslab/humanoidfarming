@@ -1,0 +1,445 @@
+{
+  "video_index": "6v9oxI-evNI",
+  "title": "Sideways Tomato Planting Technique",
+  "url": "https://www.youtube.com/watch?v=6v9oxI-evNI",
+  "category": "Unknown Category",
+  "relevant": true,
+  "reason": "Describing the process of planting tomatoes sideways.",
+  "tasks": [
+    {
+      "task": "Describe the process of planting tomatoes sideways.",
+      "start": 0.0,
+      "end": 54.26,
+      "subtasks": [
+        {
+          "text": "Cut off side shoots from the tomato plant.",
+          "start": 0.0,
+          "end": 7.76,
+          "segment_ids": [
+            0,
+            1,
+            2
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub00_f00.jpg",
+              "relative_path": "6v9oxI-evNI/task00_sub00_f00.jpg",
+              "caption": "A man in a hat and sunglasses is standing in a backyard, holding a plant.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub00_f01.jpg",
+              "relative_path": "6v9oxI-evNI/task00_sub00_f01.jpg",
+              "caption": "A man in a hat and sunglasses is planting a tomato plant in a garden.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub00_f02.jpg",
+              "relative_path": "6v9oxI-evNI/task00_sub00_f02.jpg",
+              "caption": "A man in a hat and sunglasses is trimming a plant with scissors.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The task involves cutting off side shoots from a tomato plant, which is part of preparing the plant for sideways planting.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A man in a hat and sunglasses is holding a tomato plant.",
+            "- [frames=[1]] The same man is seen planting the tomato plant in a garden.",
+            "- [frames=[2]] The man is using scissors to trim the tomato plant.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a man preparing a tomato plant for sideways planting by removing side shoots. This technique helps in ensuring the plant grows in the desired orientation.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be equipped with a pair of scissors or similar cutting tool.",
+            "- The robot needs to be within reach of the tomato plant.",
+            "- The robot should have the ability to identify and manipulate plant parts.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The side shoots should be completely removed from the tomato plant.",
+            "- The plant should be ready for sideways planting without any side shoots.",
+            "- The plant should be securely placed in the garden bed.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Move to the location where the tomato plant is held by the man.",
+            "2. [type=perception, frames=[0]] Identify the tomato plant and locate the side shoots.",
+            "3. [type=manipulation, frames=[2]] Use the scissors to cut off the side shoots.",
+            "4. [type=perception, frames=[2]] Verify that all side shoots have been removed.",
+            "5. [type=navigation, frames=[1]] Move to the garden bed where the plant will be planted.",
+            "6. [type=manipulation, frames=[1]] Place the tomato plant sideways into the garden bed.",
+            "7. [type=manipulation, frames=[1]] Secure the plant in the.",
+            "8. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to the location where the tomato plant is held by the man. It then verifies the key detail directly from the frames (Verify that all side shoots have been removed).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Dig a small trench to plant the tomato.",
+          "start": 9.24,
+          "end": 11.44,
+          "segment_ids": [
+            3
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub01_f00.jpg",
+              "relative_path": "6v9oxI-evNI/task00_sub01_f00.jpg",
+              "caption": "A man in a garden is holding a small plant and a marker.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub01_f01.jpg",
+              "relative_path": "6v9oxI-evNI/task00_sub01_f01.jpg",
+              "caption": "A person is planting seedlings in a garden.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub01_f02.jpg",
+              "relative_path": "6v9oxI-evNI/task00_sub01_f02.jpg",
+              "caption": "A person is digging a trench in a garden.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will dig a small trench in the garden to prepare for planting the tomato sideways.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A man in a garden is holding a small plant and a marker.",
+            "- [frames=[1]] A person is planting seedlings in a garden.",
+            "- [frames=[2]] A person is digging a trench in a garden.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene involves preparing a small trench in a garden for planting a tomato sideways. The trench is shallow and long enough to accommodate the tomato plant.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be within reach of the garden area.",
+            "- The robot should have the necessary tools for digging, such as a shovel.",
+            "- The robot should know the location where the trench needs to be dug.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The trench should be of appropriate depth and length.",
+            "- The trench should be straight and even.",
+            "- The robot should be able to confirm the dimensions of the trench.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Move to the designated area in the garden.",
+            "2. [type=perception, frames=[1]] Scan the area to locate the plant and marker.",
+            "3. [type=navigation, frames=[2]] Position the robot near the spot where the trench needs to be dug.",
+            "4. [type=manipulation, frames=[2]] Take out the shovel from the storage compartment.",
+            "5. [type=manipulation, frames=[2]] Begin digging a small trench using the shovel.",
+            "6. [type=perception, frames=[2]] Check the depth and length of the trench.",
+            "7. [type=manipulation, frames=[2]] Continue digging until the trench meets the required specifications.",
+            "8. [type=perception, frames=[2]] Verify the.",
+            "9. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to the designated area in the garden. It then verifies the key detail directly from the frames (Check the depth and length of the trench).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Apply organic tomato food or salt bay into the planting hole.",
+          "start": 13.86,
+          "end": 18.98,
+          "segment_ids": [
+            4
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub02_f00.jpg",
+              "relative_path": "6v9oxI-evNI/task00_sub02_f00.jpg",
+              "caption": "A person is planting a plant in a garden bed.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub02_f01.jpg",
+              "relative_path": "6v9oxI-evNI/task00_sub02_f01.jpg",
+              "caption": "A man in a hat and sunglasses is planting a seedling in a garden.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub02_f02.jpg",
+              "relative_path": "6v9oxI-evNI/task00_sub02_f02.jpg",
+              "caption": "A person is planting a tomato plant into a hole in the soil.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to apply organic tomato food or salt bay into the planting hole as part of the sideways tomato planting technique.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0,1]] A person is planting a plant in a garden bed.",
+            "- [frames=[1,2]] A man in a hat and sunglasses is planting a seedling in a garden.",
+            "- [frames=[2]] A person is planting a tomato plant into a hole in the soil.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene shows a person preparing to plant a tomato plant by digging a hole and then applying some substance to it before placing the plant. The substance could be either organic tomato food or salt bay.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should have access to the required substances (organic tomato food or salt bay).",
+            "- The robot should be within reach of the planting area.",
+            "- The robot should be able to identify the planting hole.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The substance is correctly applied to the planting hole.",
+            "- The tomato plant is placed in the hole.",
+            "- The hole is covered with soil.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Move to the location where the planting is taking place.",
+            "2. [type=perception, frames=[2]] Identify the planting hole using visual sensors.",
+            "3. [type=navigation, frames=[1]] Approach the hole where the substance will be applied.",
+            "4. [type=manipulation, frames=[1]] Retrieve the required substance (organic tomato food or salt bay) from storage.",
+            "5. [type=manipulation, frames=[1]] Pour the substance into the planting hole.",
+            "6. [type=manipulation, frames=[2]] Place the tomato plant into the hole.",
+            "7. [type=perception, frames=[0,1,2]] Verify/confirm the key observation before reporting.",
+            "8. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to the location where the planting is taking place. It then verifies the key detail directly from the frames (Verify/confirm the key observation before reporting).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Lay the tomato upside down in the trench and pop it out.",
+          "start": 19.74,
+          "end": 31.58,
+          "segment_ids": [
+            5,
+            6
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub03_f00.jpg",
+              "relative_path": "6v9oxI-evNI/task00_sub03_f00.jpg",
+              "caption": "A man in a garden holding a small plant in a pot.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub03_f01.jpg",
+              "relative_path": "6v9oxI-evNI/task00_sub03_f01.jpg",
+              "caption": "A person is planting a seedling into the soil.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub03_f02.jpg",
+              "relative_path": "6v9oxI-evNI/task00_sub03_f02.jpg",
+              "caption": "A person is planting a seedling in a garden bed.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot will need to lay a tomato plant upside down in a trench and ensure it is properly positioned before popping it out.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A man in a garden holds a small plant in a pot.",
+            "- [frames=[1]] The person is planting a seedling into the soil.",
+            "- [frames=[2]] The person continues planting a seedling in a garden bed.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene involves a person planting a tomato plant in a garden bed. The plant is initially held in a pot and then placed into the soil.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should be within reach of the plant and the trench.",
+            "- The robot should have the necessary tools to manipulate the plant.",
+            "- The trench should be prepared and ready for the plant.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The plant should be laid upside down in the trench.",
+            "- The plant should be properly positioned in the trench.",
+            "- The plant should be popped out once correctly placed.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0]] Move to the location where the plant is held in a pot.",
+            "2. [type=perception, frames=[0]] Verify the presence of the plant in the pot.",
+            "3. [type=navigation, frames=[1]] Move to the trench where the plant will be planted.",
+            "4. [type=manipulation, frames=[1]] Grasp the plant by its stem and gently remove it from the pot.",
+            "5. [type=manipulation, frames=[2]] Lay the plant upside down in the trench.",
+            "6. [type=manipulation, frames=[2]] Ensure the plant is properly positioned in the trench.",
+            "7. [type=manipulation, frames=[2]] Pop the plant out of the trench.",
+            "8. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Move to the location where the plant is held in a pot. It then verifies the key detail directly from the frames (Verify the presence of the plant in the pot).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Water the planted tomato well to help it grow roots.",
+          "start": 41.22,
+          "end": 52.82,
+          "segment_ids": [
+            10
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub04_f00.jpg",
+              "relative_path": "6v9oxI-evNI/task00_sub04_f00.jpg",
+              "caption": "A person is planting seedlings in a garden bed and throwing away a label.",
+              "frame_index": 0
+            },
+            {
+              "image_file": "task00_sub04_f01.jpg",
+              "relative_path": "6v9oxI-evNI/task00_sub04_f01.jpg",
+              "caption": "A person is planting a seedling in a garden bed.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub04_f02.jpg",
+              "relative_path": "6v9oxI-evNI/task00_sub04_f02.jpg",
+              "caption": "A man in a hat and sunglasses is kneeling next to a garden bed with metal stakes and cages.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to ensure the newly planted tomato seedling is watered thoroughly to promote root growth.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[0]] A person is planting seedlings in a garden bed and discarding a label.",
+            "- [frames=[1]] A person is planting a seedling in a garden bed.",
+            "- [frames=[2]] A man in a hat and sunglasses is kneeling next to a garden bed with metal stakes and cages.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The scene involves a garden bed where a tomato seedling has been planted. The bed likely contains soil and possibly other plants or structures like metal stakes and cages.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot should know the location of the garden bed.",
+            "- The robot should have access to a watering system or container of water.",
+            "- The robot should be able to identify the newly planted tomato seedling.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The tomato seedling should be visibly wet.",
+            "- The soil around the seedling should be moist.",
+            "- The robot should confirm the seedling has been watered sufficiently.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=navigation, frames=[0,1]] Navigate to the garden bed where the tomato seedling was planted.",
+            "2. [type=perception, frames=[1]] Verify the presence of the newly planted tomato seedling.",
+            "3. [type=navigation, frames=[2]] Position the watering system or container of water near the seedling.",
+            "4. [type=manipulation, frames=[2]] Begin watering the seedling and surrounding soil until the soil is visibly moist.",
+            "5. [type=perception, frames=[2]] Check the moisture level of the soil to ensure it is sufficiently wet.",
+            "6. [type=navigation, frames=[2]] Move the watering system away from the seed.",
+            "7. [type=navigation, frames=[0,1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Navigate to the garden bed where the tomato seedling was planted. It then verifies the key detail directly from the frames (Verify the presence of the newly planted tomato seedling).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        },
+        {
+          "text": "Ensure the sprinkler system is working to water the plants regularly.",
+          "start": 52.82,
+          "end": 54.26,
+          "segment_ids": [
+            11
+          ],
+          "frames": [
+            {
+              "image_file": "task00_sub05_f01.jpg",
+              "relative_path": "6v9oxI-evNI/task00_sub05_f01.jpg",
+              "caption": "A man is kneeling next to a garden bed with a sprinkler system.",
+              "frame_index": 1
+            },
+            {
+              "image_file": "task00_sub05_f02.jpg",
+              "relative_path": "6v9oxI-evNI/task00_sub05_f02.jpg",
+              "caption": "A man is kneeling in a backyard, pointing to a sprinkler system.",
+              "frame_index": 2
+            }
+          ],
+          "guidance_text": [
+            "GLOBAL_SUMMARY:",
+            "",
+            "The robot needs to ensure the sprinkler system is functioning properly before proceeding with the tomato planting technique.",
+            "",
+            "FRAME_BASED_OBSERVATIONS:",
+            "",
+            "- [frames=[1]] A man is kneeling next to a garden bed with a sprinkler system.",
+            "- [frames=[2]] A man is kneeling in a backyard, pointing to a sprinkler system.",
+            "- [frames=[1,2]] The scene consistently shows a man interacting with a sprinkler system in a garden setting.",
+            "",
+            "INTEGRATED_SCENE_UNDERSTANDING:",
+            "",
+            "The man is demonstrating how to check the sprinkler system, indicating it is crucial for regular watering of the plants. The robot should mimic this action to verify the system's functionality.",
+            "",
+            "PRECONDITIONS_FOR_ROBOT:",
+            "",
+            "- The robot must be within visual range of the sprinkler system.",
+            "- The robot should have the ability to interact with the sprinkler system.",
+            "- The robot should be able to communicate with the user if necessary.",
+            "",
+            "SUCCESS_CRITERIA:",
+            "",
+            "- The sprinkler system must be operational.",
+            "- Water should be visible coming from the sprinkler heads.",
+            "- The system should be set to a proper watering schedule.",
+            "",
+            "ORDERED_ROBOT_ACTION_STEPS:",
+            "",
+            "1. [type=perception, frames=[1,2]] Observe the sprinkler system to determine its current state.",
+            "2. [type=navigation, frames=[1]] Approach the sprinkler system to get a closer look.",
+            "3. [type=perception, frames=[1]] Check if water is visibly coming from the sprinkler heads.",
+            "4. [type=perception, frames=[1]] Press the test button on the sprinkler system to verify operation.",
+            "5. [type=perception, frames=[1]] Confirm that the test button activates the sprinklers.",
+            "6. [type=communication, frames=[1]] If necessary, inform the user that the sprinkler system is working.",
+            "7. [type=navigation, frames=[1,2]] Return/reset to a safe standby position and stow any tools (cleanup).",
+            "",
+            "SUBTASK_STORY:",
+            "",
+            "The robot begins by orienting to the relevant part of the video and grounding the subtask in what is visible: Observe the sprinkler system to determine its current state. It then verifies the key detail directly from the frames (Check if water is visibly coming from the sprinkler heads).",
+            "To finish safely, it completes cleanup and returns to standby: Return/reset to a safe standby position and stow any tools (cleanup).",
+            ""
+          ]
+        }
+      ]
+    }
+  ]
+}
