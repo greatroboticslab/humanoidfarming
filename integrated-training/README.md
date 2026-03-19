@@ -16,9 +16,14 @@ These outputs support research in:
 
 ---
 
-# System Overview
+## System Overview
 
-The pipeline processes videos in three stages.
+The system processes videos through a shared preprocessing stage followed by two specialized pipelines.
+
+![Automated Pipeline](./documents/images/main_pipeline.png)
+
+*Figure 1: End-to-end pipeline from video input to robot guidance and structured task datasets.*
+
 
 ```
 Video / Transcript
