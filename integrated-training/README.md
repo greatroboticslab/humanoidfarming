@@ -123,7 +123,7 @@ The model generates structured guidance sections such as:
 
 These outputs are used to train LoRA-fine-tuned Qwen models for robotic instruction generation.
 
-For detailed documentation of Pipeline 1: [Click here](integrated-training/scripts/pipeline1_robot_guidance_model/README.md)
+For detailed documentation of Pipeline 1: [Click here](scripts/pipeline1_robot_guidance_model/README.md)
 
 ---
 
@@ -163,7 +163,7 @@ This pipeline produces:
 - validated training datasets
 
 
-For detailed documentation of Pipeline 2: [Click here](integrated-training/scripts/pipeline2_structure_task_dataset/README.md)
+For detailed documentation of Pipeline 2: [Click here](scripts/pipeline2_structure_task_dataset/README.md)
 
 
 ---
