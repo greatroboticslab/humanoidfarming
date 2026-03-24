@@ -1,5 +1,5 @@
 # Pipeline 2 → Structured Task Dataset
-![Automated Video-to-Robot Guidance Pipeline](../../documents/images/pipeline_2.png)
+
 This repository implements a structured pipeline that converts **timestamped video tasks** into a hierarchical **mission → sub‑mission → task → subtask** representation.  
 The goal is to enable **robot reasoning and LLM training** for long‑horizon tasks by ensuring logical consistency, coherent grouping, and validated execution plans.
 
@@ -17,6 +17,7 @@ The pipeline processes timestamped instructions extracted from videos and produc
 
 The final representation follows this structure:
 
+```
 Mission (video)
 ↓
 Sub‑missions (coherent themes)
@@ -24,6 +25,7 @@ Sub‑missions (coherent themes)
 Tasks
 ↓
 Subtasks (timestamped actions)
+```
 
 This hierarchy allows robots and AI systems to understand complex workflows at different levels of abstraction.
 
@@ -31,6 +33,7 @@ This hierarchy allows robots and AI systems to understand complex workflows at d
 
 # Full Processing Pipeline
 
+```
 tasks_with_timestamps  
 → thread segmentation  
 → LLM logical validation  
@@ -40,11 +43,13 @@ tasks_with_timestamps
 → validation & training quality logging  
 → task blueprint generation  
 → visualization
+```
 
 ---
 
 # Repository Structure
 
+```
 scripts/
 processing and visualization scripts
 
@@ -56,6 +61,7 @@ generated outputs from each pipeline stage
 
 plots/
 visualization outputs
+```
 
 ---
 
@@ -65,18 +71,22 @@ visualization outputs
 
 Groups subtasks into logical reasoning threads.
 
-Script:
-scripts/build_subtask_threads.py
+**Script:**  
+`scripts/build_subtask_threads.py`
 
-Run:
+### Run
 
-python scripts/build_subtask_threads.py   --input_dir results/tasks_with_timestamps   --output_dir results/subtask_threads
+```bash
+python scripts/build_subtask_threads.py --input_dir results/tasks_with_timestamps --output_dir results/subtask_threads
+```
 
-Output:
+### Output
 
+```text
 results/subtask_threads/<video_id>.json
+```
 
-Purpose:
+### Purpose
 
 - Identify reasoning threads across subtasks
 - Prepare structured input for logical validation
@@ -87,21 +97,23 @@ Purpose:
 
 An LLM analyzes logical relationships between subtasks.
 
-Script:
+**Script:**  
+`scripts/thread_logic_check.py`
 
-scripts/thread_logic_check.py
+**Prompt:**  
+`prompts/prompt_for_thread_logic.txt`
 
-Prompt:
+### Run
 
-prompts/prompt_for_thread_logic.txt
+```bash
+python scripts/thread_logic_check.py --model Qwen/Qwen2.5-7B-Instruct --gpus 1 --tokens 12000 --prompt_file prompts/prompt_for_thread_logic.txt --input_dir results/subtask_threads --output_dir results/thread_logic
+```
 
-Run:
+### Output
 
-python scripts/thread_logic_check.py   --model Qwen/Qwen2.5-7B-Instruct   --gpus 1   --tokens 12000   --prompt_file prompts/prompt_for_thread_logic.txt   --input_dir results/subtask_threads   --output_dir results/thread_logic
-
-Output:
-
+```text
 results/thread_logic/<video_id>.json
+```
 
 This step detects:
 
@@ -120,24 +132,29 @@ Logical Map
 
 Annotates subtasks with semantic categories.
 
-Script:
+**Script:**  
+`scripts/categorize_tasks_and_subtasks.py`
 
-scripts/categorize_tasks_and_subtasks.py
+### Run
 
-Run:
+```bash
+python scripts/categorize_tasks_and_subtasks.py --input_dir results/thread_logic --output_dir results/categorized_threads
+```
 
-python scripts/categorize_tasks_and_subtasks.py   --input_dir results/thread_logic   --output_dir results/categorized_threads
+### Output
 
-Output:
-
+```text
 results/categorized_threads/<video_id>.json
+```
 
 Categories include:
 
+```
 perception  
 narration  
 planning  
 motion  
+```
 
 These categories help identify different reasoning roles.
 
@@ -147,26 +164,29 @@ These categories help identify different reasoning roles.
 
 Subtasks are regrouped into coherent blocks using graph‑based clustering and optional LLM boundary judgment.
 
-Scripts:
+**Scripts:**  
+`scripts/regroup_subtasks_coherence.py`  
+`prompts/prompt_for_boundary_judge.txt`
 
-scripts/regroup_subtasks_coherence.py  
-prompts/prompt_for_boundary_judge.txt
+### Run
 
-Run:
+```bash
+python scripts/regroup_subtasks_coherence.py --input_dir results/categorized_threads --output_dir results/coherent_blocks --prompt_file prompts/prompt_for_boundary_judge.txt
+```
 
-python scripts/regroup_subtasks_coherence.py   --input_dir results/categorized_threads   --output_dir results/coherent_blocks   --prompt_file prompts/prompt_for_boundary_judge.txt
+### Output
 
-Output:
-
+```text
 results/coherent_blocks/<video_id>.json
+```
 
-Visualization:
+### Visualization
 
-scripts/plot_coherent_blocks_by_category_tree.py
+`scripts/plot_coherent_blocks_by_category_tree.py`
 
-Run:
-
-python scripts/plot_coherent_blocks_by_category_tree.py   --input_dir results/coherent_blocks   --out_dir results/plots/coherent   --dpi 300
+```bash
+python scripts/plot_coherent_blocks_by_category_tree.py --input_dir results/coherent_blocks --out_dir results/plots/coherent --dpi 300
+```
 
 Produces:
 
@@ -178,17 +198,20 @@ Coherent Map
 
 Each coherent block becomes a **sub‑mission** with a theme name.
 
-Script:
+**Script:**  
+`scripts/add_submissions_to_coherent_blocks.py`
 
-scripts/add_submissions_to_coherent_blocks.py
+### Run
 
-Run:
+```bash
+python scripts/add_submissions_to_coherent_blocks.py --input_dir results/coherent_blocks --output_dir results/coherent_blocks_with_submissions --topk 3
+```
 
-python scripts/add_submissions_to_coherent_blocks.py   --input_dir results/coherent_blocks   --output_dir results/coherent_blocks_with_submissions   --topk 3
+### Output
 
-Output:
-
+```text
 results/coherent_blocks_with_submissions/<video_id>.json
+```
 
 Example:
 
@@ -203,22 +226,27 @@ Sub‑mission 2: farming / fertility / food
 
 Creates a timestamp‑ordered execution list for robots.
 
-Scripts:
+**Scripts:**  
+`scripts/generate_task_blueprints.py`  
+`scripts/plot_task_blueprints_order.py`
 
-scripts/generate_task_blueprints.py  
-scripts/plot_task_blueprints_order.py
+### Run
 
-Run:
+```bash
+python scripts/generate_task_blueprints.py --input_dir results/thread_logic --output_dir results/task_blueprints
+```
 
-python scripts/generate_task_blueprints.py   --input_dir results/thread_logic   --output_dir results/task_blueprints
+### Output
 
-Output:
-
+```text
 results/task_blueprints/<video_id>.json
+```
 
-Visualization:
+### Visualization
 
-python scripts/plot_task_blueprints_order.py   --input_dir results/task_blueprints   --out_dir results/plots/blueprints   --dpi 300
+```bash
+python scripts/plot_task_blueprints_order.py --input_dir results/task_blueprints --out_dir results/plots/blueprints --dpi 300
+```
 
 Produces:
 
@@ -230,18 +258,21 @@ Task Blueprint Plot
 
 Checks logical consistency and coherence.
 
-Script:
+**Script:**  
+`scripts/generate_check_reports.py`
 
-scripts/generate_check_reports.py
+### Run
 
-Run:
+```bash
+python scripts/generate_check_reports.py --thread_logic_dir results/thread_logic --coherent_blocks_dir results/coherent_blocks_with_submissions --output_dir results/check_reports
+```
 
-python scripts/generate_check_reports.py   --thread_logic_dir results/thread_logic   --coherent_blocks_dir results/coherent_blocks_with_submissions   --output_dir results/check_reports
+### Outputs
 
-Outputs:
-
+```
 logical_check.json  
 coherence_check.json
+```
 
 ---
 
@@ -249,25 +280,30 @@ coherence_check.json
 
 Records which missions and sub‑missions are suitable for training data.
 
-Scripts:
+**Scripts:**  
+`scripts/generate_training_quality_log.py`  
+`scripts/generate_training_quality_log_submissions.py`
 
-scripts/generate_training_quality_log.py  
-scripts/generate_training_quality_log_submissions.py
+### Run
 
-Run:
+```bash
+python scripts/generate_training_quality_log_submissions.py --check_reports_dir results/check_reports --thread_logic_dir results/thread_logic --coherent_blocks_dir results/coherent_blocks_with_submissions --task_blueprints_dir results/task_blueprints --out_dir results/training_quality_log_submissions
+```
 
-python scripts/generate_training_quality_log_submissions.py   --check_reports_dir results/check_reports   --thread_logic_dir results/thread_logic   --coherent_blocks_dir results/coherent_blocks_with_submissions   --task_blueprints_dir results/task_blueprints   --out_dir results/training_quality_log_submissions
+### Output
 
-Output:
-
+```
 training_quality_log.json  
 missions/<video_id>.json
+```
 
 Human review decisions:
 
+```
 accept  
 redo  
 give_up  
+```
 
 ---
 
@@ -275,13 +311,14 @@ give_up
 
 Shows validation and correction workflow.
 
-Script:
+**Script:**  
+`scripts/plot_human_in_loop.py`
 
-scripts/plot_human_in_loop.py
+### Run
 
-Run:
-
-python scripts/plot_human_in_loop.py   --log_dir results/training_quality_log_submissions/missions   --out_dir results/plots/human_in_loop   --dpi 300
+```bash
+python scripts/plot_human_in_loop.py --log_dir results/training_quality_log_submissions/missions --out_dir results/plots/human_in_loop --dpi 300
+```
 
 ---
 
@@ -289,13 +326,14 @@ python scripts/plot_human_in_loop.py   --log_dir results/training_quality_log_su
 
 Displays the final hierarchy.
 
-Script:
+**Script:**  
+`scripts/plot_mission_submissions_map.py`
 
-scripts/plot_mission_submissions_map.py
+### Run
 
-Run:
-
-python scripts/plot_mission_submissions_map.py   --input_dir results/training_quality_log_submissions/missions   --out_dir results/plots/mission_submissions   --dpi 300
+```bash
+python scripts/plot_mission_submissions_map.py --input_dir results/training_quality_log_submissions/missions --out_dir results/plots/mission_submissions --dpi 300
+```
 
 ---
 
@@ -303,11 +341,11 @@ python scripts/plot_mission_submissions_map.py   --input_dir results/training_qu
 
 The pipeline generates several plots:
 
-Logical Map  
-Coherent Map  
-Task Blueprint  
-Human‑in‑the‑Loop Review  
-Mission → Sub‑mission → Task Hierarchy
+- Logical Map  
+- Coherent Map  
+- Task Blueprint  
+- Human‑in‑the‑Loop Review  
+- Mission → Sub‑mission → Task Hierarchy  
 
 These visualizations mirror the JSON outputs and assist in validating reasoning structure.
 
@@ -315,8 +353,8 @@ These visualizations mirror the JSON outputs and assist in validating reasoning 
 
 # Expected Output Structure
 
+```text
 results/
-
 thread_logic/  
 coherent_blocks/  
 coherent_blocks_with_submissions/  
@@ -324,15 +362,10 @@ task_blueprints/
 check_reports/  
 training_quality_log_submissions/  
 plots/
+```
 
 ---
-## Example Output
 
-![Pipeline 2 Structured Output](../../documents/images/pipeline2_detailed.png)
-
-This figure shows an example of the final structured dataset generated by the pipeline. 
-It includes the hierarchical representation of mission → sub-mission → tasks → subtasks, 
-along with logical validation, categorization, and execution-ready task blueprints.
 # Purpose
 
 The generated JSON structures form **high‑quality training data** for LLM‑based robotic reasoning systems.  
