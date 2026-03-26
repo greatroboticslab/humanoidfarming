@@ -1,0 +1,610 @@
+{
+  "index": "FVpWd0kIo4M",
+  "title": "Morning at Sunshine Farm: Meet the Goats and Chickens",
+  "url": "https://www.youtube.com/watch?v=FVpWd0kIo4M",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Introduce the farm and its residents to viewers.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      }
+    },
+    {
+      "task_index": 1,
+      "task_text": "Highlight the farm's chickens and roosters.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 3
+      }
+    },
+    {
+      "task_index": 2,
+      "task_text": "Show the process of harvesting lunch and preparing a vegan salad.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      }
+    },
+    {
+      "task_index": 3,
+      "task_text": "Feature the activity of picking blackberries and show the availability of peaches.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      }
+    }
+  ],
+  "num_threads": 7,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 0.0,
+      "time_end": 14.64,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Introduce the farm and its residents to viewers.",
+          "sub_index": 0,
+          "text": "Explain that the video is an introduction to Sunshine Farm, which has a vegan homestead and permaculture gardens.",
+          "start": 0.0,
+          "end": 4.24,
+          "segment_ids": [
+            0
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Introduce the farm and its residents to viewers.",
+          "sub_index": 1,
+          "text": "Show the farm's companion animals and permaculture gardens.",
+          "start": 4.24,
+          "end": 14.64,
+          "segment_ids": [
+            1,
+            2
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 0.0,
+          "time_end": 14.64,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            },
+            {
+              "task_index": 0,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Introduction to Sunshine Farm",
+        "thread_summary": "The video introduces viewers to Sunshine Farm, highlighting its vegan homestead and permaculture gardens, as well as the companion animals present.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The next step logically follows by showing the farm's features after explaining the introduction."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 1,
+      "time_start": 50.74,
+      "time_end": 56.02,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 1,
+          "task_text": "Highlight the farm's chickens and roosters.",
+          "sub_index": 0,
+          "text": "Describe the three chicken coops and the different types of chickens.",
+          "start": 50.74,
+          "end": 56.02,
+          "segment_ids": [
+            5
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 50.74,
+          "time_end": 56.02,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 0
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Description of Chicken Coops and Chicken Types",
+        "thread_summary": "The video segment describes the three chicken coops and the different types of chickens present in them.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 2,
+      "time_start": 102.38,
+      "time_end": 139.76,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 1,
+          "task_text": "Highlight the farm's chickens and roosters.",
+          "sub_index": 2,
+          "text": "Detail the challenges they faced with the roosters and how they resolved those issues.",
+          "start": 102.38,
+          "end": 139.76,
+          "segment_ids": [
+            13,
+            18,
+            19
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Highlight the farm's chickens and roosters.",
+          "sub_index": 1,
+          "text": "Explain why they have to deal with roosters carefully on a vegan homestead.",
+          "start": 120.64,
+          "end": 129.36,
+          "segment_ids": [
+            16,
+            17
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 102.38,
+          "time_end": 139.76,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 2
+            },
+            {
+              "task_index": 1,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Challenges and Solutions on a Vegan Homestead",
+        "thread_summary": "The video segment discusses the difficulties faced with roosters on a vegan homestead and how these issues were resolved.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The speaker transitions from detailing the challenges to explaining the reasons behind them, providing context for the issues mentioned."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [
+            {
+              "insert_after": 0,
+              "text": "These challenges included dealing with roosters who were not suitable for a vegan environment."
+            }
+          ]
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": -19.12,
+        "has_conflicts": false,
+        "needs_repair": true
+      }
+    },
+    {
+      "thread_index": 3,
+      "time_start": 380.34,
+      "time_end": 397.14,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 2,
+          "task_text": "Show the process of harvesting lunch and preparing a vegan salad.",
+          "sub_index": 0,
+          "text": "Demonstrate the picking and preparation of vegetables for the salad.",
+          "start": 380.34,
+          "end": 397.14,
+          "segment_ids": [
+            44,
+            45,
+            46
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 380.34,
+          "time_end": 397.14,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 0
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Vegetable Preparation for Salad",
+        "thread_summary": "The video segment shows the process of picking and preparing vegetables for a salad.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 4,
+      "time_start": 482.37,
+      "time_end": 495.25,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 2,
+          "task_text": "Show the process of harvesting lunch and preparing a vegan salad.",
+          "sub_index": 1,
+          "text": "Show the process of making the vegan chicken nuggets.",
+          "start": 482.37,
+          "end": 495.25,
+          "segment_ids": [
+            51,
+            52
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 482.37,
+          "time_end": 495.25,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Process of Making Vegan Chicken Nuggets",
+        "thread_summary": "The video demonstrates the step-by-step process of making vegan chicken nuggets, including preparation, coating, and cooking.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 5,
+      "time_start": 549.76,
+      "time_end": 578.74,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 3,
+          "task_text": "Feature the activity of picking blackberries and show the availability of peaches.",
+          "sub_index": 0,
+          "text": "Highlight the blackberry picking process and the satisfaction of picking them.",
+          "start": 549.76,
+          "end": 578.74,
+          "segment_ids": [
+            58,
+            59,
+            60,
+            61
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 549.76,
+          "time_end": 578.74,
+          "subtask_refs": [
+            {
+              "task_index": 3,
+              "sub_index": 0
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Blackberry Picking Experience",
+        "thread_summary": "The video segment focuses on the process of picking blackberries and the joy it brings.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 6,
+      "time_start": 705.1,
+      "time_end": 718.0,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 3,
+          "task_text": "Feature the activity of picking blackberries and show the availability of peaches.",
+          "sub_index": 1,
+          "text": "Point out the almost ripe peaches on the tree.",
+          "start": 705.1,
+          "end": 718.0,
+          "segment_ids": [
+            77,
+            78
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 705.1,
+          "time_end": 718.0,
+          "subtask_refs": [
+            {
+              "task_index": 3,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Observing Peaches on a Tree",
+        "thread_summary": "The video segment focuses on identifying almost ripe peaches on a tree.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    }
+  ]
+}

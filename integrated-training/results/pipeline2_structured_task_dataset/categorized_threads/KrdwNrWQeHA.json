@@ -1,0 +1,205 @@
+{
+  "index": "KrdwNrWQeHA",
+  "title": "Vertical Aeroponic Tower Garden Review",
+  "url": "https://www.youtube.com/watch?v=KrdwNrWQeHA",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Explain the features and benefits of a vertical aeroplane tower garden.",
+      "task_category": "planning",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 2,
+        "planning": 0,
+        "narration": 2
+      }
+    }
+  ],
+  "num_threads": 1,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 0.0,
+      "time_end": 22.56,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 2,
+        "planning": 0,
+        "narration": 2
+      },
+      "thread_dominant_category": "planning",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Explain the features and benefits of a vertical aeroplane tower garden.",
+          "sub_index": 0,
+          "text": "Observe the vertical aeroplane tower garden that can grow up to 44 plants in less than one square meter.",
+          "start": 0.0,
+          "end": 6.48,
+          "segment_ids": [
+            0
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Explain the features and benefits of a vertical aeroplane tower garden.",
+          "sub_index": 1,
+          "text": "Notice that the tower garden allows you to grow up to 160 different types of crops.",
+          "start": 6.48,
+          "end": 13.04,
+          "segment_ids": [
+            1
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "notice"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Explain the features and benefits of a vertical aeroplane tower garden.",
+          "sub_index": 2,
+          "text": "Highlight the feature that you can mix and match crops on the tower.",
+          "start": 13.04,
+          "end": 18.4,
+          "segment_ids": [
+            2
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [
+              "mix"
+            ],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": true
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Explain the features and benefits of a vertical aeroplane tower garden.",
+          "sub_index": 3,
+          "text": "Note that the tower garden uses 95% less water than traditional farming methods.",
+          "start": 18.4,
+          "end": 22.56,
+          "segment_ids": [
+            3
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 0.0,
+          "time_end": 13.04,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            },
+            {
+              "task_index": 0,
+              "sub_index": 1
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "narration",
+          "time_start": 13.04,
+          "time_end": 22.56,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 2
+            },
+            {
+              "task_index": 0,
+              "sub_index": 3
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Introduction to Vertical Aeroplane Tower Garden",
+        "thread_summary": "This video segment introduces the vertical aeroplane tower garden, highlighting its capacity, crop variety, and water efficiency.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The subtask transitions from describing the tower garden's capacity to the variety of crops it can grow."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "The subtask shifts from mentioning the number of crops to the flexibility of crop selection."
+          },
+          {
+            "from": 2,
+            "to": 3,
+            "link": "The subtask moves from discussing the crop variety to the water efficiency of the tower garden."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    }
+  ]
+}

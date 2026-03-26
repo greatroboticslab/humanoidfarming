@@ -1,0 +1,545 @@
+{
+  "index": "_1k9XR8ZFTk",
+  "title": "Maize Growing Tips for Sustainable Production 1",
+  "url": "https://www.youtube.com/watch?v=_1k9XR8ZFTk",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Describe the process of selecting and purchasing maize seeds.",
+      "task_category": "planning",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 1,
+        "narration": 1
+      }
+    },
+    {
+      "task_index": 1,
+      "task_text": "Explain how to determine the appropriate planting time based on rainfall patterns.",
+      "task_category": "motion",
+      "evidence_counts": {
+        "motion": 3,
+        "perception": 0,
+        "planning": 0,
+        "narration": 0
+      }
+    },
+    {
+      "task_index": 2,
+      "task_text": "Discuss soil management practices for sustainable maize production.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      }
+    },
+    {
+      "task_index": 3,
+      "task_text": "Outline principles of maize planting and fertilization.",
+      "task_category": "planning",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 1,
+        "narration": 1
+      }
+    }
+  ],
+  "num_threads": 5,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 4.05,
+      "time_end": 13.05,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 1,
+        "narration": 0
+      },
+      "thread_dominant_category": "planning",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the process of selecting and purchasing maize seeds.",
+          "sub_index": 0,
+          "text": "Consult with extension officers to choose the best maize variety for your area.",
+          "start": 4.05,
+          "end": 13.05,
+          "segment_ids": [
+            1
+          ],
+          "subtask_category": "planning",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [
+              "choose"
+            ],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "planning",
+          "time_start": 4.05,
+          "time_end": 13.05,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Selecting Maize Variety",
+        "thread_summary": "The video segment discusses the process of consulting with extension officers to choose the best maize variety for a specific area.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 1,
+      "time_start": 13.05,
+      "time_end": 21.05,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the process of selecting and purchasing maize seeds.",
+          "sub_index": 1,
+          "text": "Purchase certified seeds from the AgroDealer recommended by the Agri Business Hubs.",
+          "start": 13.05,
+          "end": 21.05,
+          "segment_ids": [
+            2
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 13.05,
+          "time_end": 21.05,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Seeds Procurement Process",
+        "thread_summary": "The video segment describes the process of purchasing certified seeds from a recommended source.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 2,
+      "time_start": 43.05,
+      "time_end": 64.05,
+      "thread_category_distribution": {
+        "motion": 3,
+        "perception": 0,
+        "planning": 0,
+        "narration": 0
+      },
+      "thread_dominant_category": "motion",
+      "subtasks": [
+        {
+          "task_index": 1,
+          "task_text": "Explain how to determine the appropriate planting time based on rainfall patterns.",
+          "sub_index": 0,
+          "text": "Plant late maturity varieties in regions with high rainfall during the early part of the rainy season.",
+          "start": 43.05,
+          "end": 54.05,
+          "segment_ids": [
+            6,
+            7
+          ],
+          "subtask_category": "motion",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [
+              "plant"
+            ],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Explain how to determine the appropriate planting time based on rainfall patterns.",
+          "sub_index": 1,
+          "text": "Plant medium maturity varieties in the middle of the rainy season.",
+          "start": 54.05,
+          "end": 59.05,
+          "segment_ids": [
+            8
+          ],
+          "subtask_category": "motion",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [
+              "plant"
+            ],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Explain how to determine the appropriate planting time based on rainfall patterns.",
+          "sub_index": 2,
+          "text": "Plant early maturity varieties towards the end of the rainy season.",
+          "start": 59.05,
+          "end": 64.05,
+          "segment_ids": [
+            9
+          ],
+          "subtask_category": "motion",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [
+              "plant"
+            ],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "motion",
+          "time_start": 43.05,
+          "time_end": 64.05,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 0
+            },
+            {
+              "task_index": 1,
+              "sub_index": 1
+            },
+            {
+              "task_index": 1,
+              "sub_index": 2
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Planting Strategies for Different Maturity Varieties Based on Rainfall Timing",
+        "thread_summary": "The video discusses the optimal planting times for different maturity varieties of crops in relation to the rainy season, starting with late maturity varieties in the early part, followed by medium maturity varieties in the middle, and early maturity varieties at the end.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The progression from late to medium maturity varieties reflects the changing rainfall patterns throughout the rainy season, with the middle of the season being more favorable for medium maturity crops."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "The shift from medium to early maturity varieties is logical as the end of the rainy season typically sees less rainfall, making it suitable for early maturity crops that require less water during their growing period."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 3,
+      "time_start": 115.32,
+      "time_end": 138.32,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 2,
+          "task_text": "Discuss soil management practices for sustainable maize production.",
+          "sub_index": 0,
+          "text": "Ensure soil testing every 3 to 4 years for soil acidity and magnesium.",
+          "start": 115.32,
+          "end": 124.32,
+          "segment_ids": [
+            18
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 2,
+          "task_text": "Discuss soil management practices for sustainable maize production.",
+          "sub_index": 1,
+          "text": "Apply lime to maintain a soil pH between 5.5 and 7 before planting.",
+          "start": 130.32,
+          "end": 138.32,
+          "segment_ids": [
+            20
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 115.32,
+          "time_end": 138.32,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 0
+            },
+            {
+              "task_index": 2,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Soil Testing and Lime Application for Optimal pH",
+        "thread_summary": "The video segment discusses the importance of regular soil testing and the application of lime to maintain optimal soil pH for planting.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The subtask about soil testing is followed by the application of lime to address any issues identified during the testing, such as soil acidity, which is a common issue that requires adjustment before planting."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 6.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 4,
+      "time_start": 199.58,
+      "time_end": 225.58,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 1,
+        "narration": 1
+      },
+      "thread_dominant_category": "planning",
+      "subtasks": [
+        {
+          "task_index": 3,
+          "task_text": "Outline principles of maize planting and fertilization.",
+          "sub_index": 0,
+          "text": "Plan for 4 to 5 plants per square meter in areas with good rainfall and fertile soils.",
+          "start": 199.58,
+          "end": 213.58,
+          "segment_ids": [
+            27
+          ],
+          "subtask_category": "planning",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [
+              "plan"
+            ],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 3,
+          "task_text": "Outline principles of maize planting and fertilization.",
+          "sub_index": 1,
+          "text": "Aim for 3 to 4 plants per square meter in areas with low rainfall or limited nutrients.",
+          "start": 213.58,
+          "end": 225.58,
+          "segment_ids": [
+            28
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "planning",
+          "time_start": 199.58,
+          "time_end": 213.58,
+          "subtask_refs": [
+            {
+              "task_index": 3,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "narration",
+          "time_start": 213.58,
+          "time_end": 225.58,
+          "subtask_refs": [
+            {
+              "task_index": 3,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Optimizing Plant Density Based on Environmental Factors",
+        "thread_summary": "The video discusses the optimal number of plants per square meter based on environmental conditions such as rainfall and soil fertility.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The subtask transitions from discussing ideal conditions (good rainfall and fertile soils) to less favorable conditions (low rainfall or limited nutrients). This logical progression shows how plant density recommendations vary based on environmental factors."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,529 @@
+{
+  "index": "vF8C-nTSP8U",
+  "title": "Selecting Healthy Tomato Plants for Gardening",
+  "url": "https://www.youtube.com/watch?v=vF8C-nTSP8U",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Provide guidance on selecting tomato plants for Wyoming gardens.",
+      "task_category": "planning",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 1,
+        "narration": 1
+      }
+    },
+    {
+      "task_index": 1,
+      "task_text": "Explain the proper method for transplanting tomato plants.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 1,
+        "narration": 2
+      }
+    },
+    {
+      "task_index": 2,
+      "task_text": "Discuss the characteristics of tomato plants that are preferred by many.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 2
+      }
+    }
+  ],
+  "num_threads": 4,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 0.0,
+      "time_end": 25.59,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 1,
+        "narration": 1
+      },
+      "thread_dominant_category": "planning",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Provide guidance on selecting tomato plants for Wyoming gardens.",
+          "sub_index": 0,
+          "text": "Observe that the tomato plant is a mainstay in Wyoming gardens.",
+          "start": 0.0,
+          "end": 10.81,
+          "segment_ids": [
+            0
+          ],
+          "subtask_category": "planning",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [
+              "plant"
+            ],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Provide guidance on selecting tomato plants for Wyoming gardens.",
+          "sub_index": 1,
+          "text": "Note the importance of selecting a plant with overall health.",
+          "start": 10.81,
+          "end": 25.59,
+          "segment_ids": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [
+              "plant"
+            ],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "planning",
+          "time_start": 0.0,
+          "time_end": 10.81,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "narration",
+          "time_start": 10.81,
+          "time_end": 25.59,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Observing and Selecting a Healthy Tomato Plant",
+        "thread_summary": "The video segment focuses on observing the environment where tomato plants are grown and selecting a healthy plant for a Wyoming garden.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The next step is to assess the health of the tomato plant, which is a logical follow-up to observing the plant's environment."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [
+            {
+              "insert_after": 0,
+              "text": "The video segment is about selecting a healthy tomato plant for a Wyoming garden, starting with observing the plant's environment."
+            }
+          ]
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": true
+      }
+    },
+    {
+      "thread_index": 1,
+      "time_start": 25.59,
+      "time_end": 36.47,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 0
+      },
+      "thread_dominant_category": "perception",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Provide guidance on selecting tomato plants for Wyoming gardens.",
+          "sub_index": 2,
+          "text": "Watch for any broken branches or signs of disease.",
+          "start": 25.59,
+          "end": 36.47,
+          "segment_ids": [
+            6,
+            7
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "watch"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 25.59,
+          "time_end": 36.47,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 2
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Tree Inspection",
+        "thread_summary": "The video segment focuses on inspecting a tree for signs of damage and health issues.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 2,
+      "time_start": 48.15,
+      "time_end": 59.51,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 1,
+        "narration": 2
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 1,
+          "task_text": "Explain the proper method for transplanting tomato plants.",
+          "sub_index": 0,
+          "text": "Observe the process of gently removing the tomato plant from its pot.",
+          "start": 48.15,
+          "end": 52.79,
+          "segment_ids": [
+            10
+          ],
+          "subtask_category": "planning",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [
+              "plant"
+            ],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Explain the proper method for transplanting tomato plants.",
+          "sub_index": 1,
+          "text": "Note the practice of plucking the bottom branches before planting.",
+          "start": 52.79,
+          "end": 57.67,
+          "segment_ids": [
+            11
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Explain the proper method for transplanting tomato plants.",
+          "sub_index": 2,
+          "text": "Describe the technique of planting the plant deeper than in the pot.",
+          "start": 57.67,
+          "end": 59.51,
+          "segment_ids": [
+            12
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [
+              "plant"
+            ],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "planning",
+          "time_start": 48.15,
+          "time_end": 52.79,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "narration",
+          "time_start": 52.79,
+          "time_end": 59.51,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 1
+            },
+            {
+              "task_index": 1,
+              "sub_index": 2
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Tomato Plant Transplanting Technique",
+        "thread_summary": "The video segment describes the process of transplanting a tomato plant, including removing it from its pot, preparing the plant for planting, and the proper planting technique.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "After observing the removal of the tomato plant from its pot, the next step is to prepare the plant for planting by plucking the bottom branches."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "Following the preparation of the plant, the next step is to plant it, which involves planting it deeper than it was in the pot."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 3,
+      "time_start": 59.51,
+      "time_end": 79.55,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 2
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 2,
+          "task_text": "Discuss the characteristics of tomato plants that are preferred by many.",
+          "sub_index": 0,
+          "text": "Observe the preference for plants with blossoms and tomatoes.",
+          "start": 59.51,
+          "end": 65.67,
+          "segment_ids": [
+            13
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 2,
+          "task_text": "Discuss the characteristics of tomato plants that are preferred by many.",
+          "sub_index": 1,
+          "text": "Highlight the consideration of transplanting stress in larger plants.",
+          "start": 69.55,
+          "end": 73.47,
+          "segment_ids": [
+            15
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 2,
+          "task_text": "Discuss the characteristics of tomato plants that are preferred by many.",
+          "sub_index": 2,
+          "text": "Mention the significance of a big red tomato.",
+          "start": 75.39,
+          "end": 79.55,
+          "segment_ids": [
+            17
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 59.51,
+          "time_end": 65.67,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "narration",
+          "time_start": 69.55,
+          "time_end": 79.55,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 1
+            },
+            {
+              "task_index": 2,
+              "sub_index": 2
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Planting and Transplanting Considerations",
+        "thread_summary": "The video discusses the observation of plant preferences and the importance of considering transplanting stress, particularly for larger plants and tomatoes.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The observation of plant preferences (blossoms and tomatoes) leads to the consideration of transplanting stress, especially for larger plants."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "The consideration of transplanting stress for larger plants naturally leads to the mention of the significance of a big red tomato, as tomatoes are a key focus of the observation."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 2.9,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    }
+  ]
+}

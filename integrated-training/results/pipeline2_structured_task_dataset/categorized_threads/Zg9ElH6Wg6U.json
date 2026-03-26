@@ -1,0 +1,383 @@
+{
+  "index": "Zg9ElH6Wg6U",
+  "title": "Retroescavadora K-Sanio Aniversario 50 A\u00f1os",
+  "url": "https://www.youtube.com/watch?v=Zg9ElH6Wg6U",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Highlight the features and maintenance status of the K-San 2007 retro-escavadora.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 2
+      }
+    },
+    {
+      "task_index": 1,
+      "task_text": "Describe the interior features and comfort of the K-San 2007 retro-escavadora.",
+      "task_category": "perception",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 2,
+        "planning": 0,
+        "narration": 0
+      }
+    },
+    {
+      "task_index": 2,
+      "task_text": "Highlight the additional equipment and information provided for the K-San 2007 retro-escavadora.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      }
+    }
+  ],
+  "num_threads": 2,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 10.25,
+      "time_end": 21.229999999999997,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 2,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "perception",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Highlight the features and maintenance status of the K-San 2007 retro-escavadora.",
+          "sub_index": 0,
+          "text": "Observe that the retro-escavadora is an edition special for the 50th anniversary of K-San 2007.",
+          "start": 10.25,
+          "end": 18.13,
+          "segment_ids": [
+            1
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Highlight the features and maintenance status of the K-San 2007 retro-escavadora.",
+          "sub_index": 1,
+          "text": "Note that the machine has less than 1000 hours of usage, indicating good condition.",
+          "start": 18.13,
+          "end": 21.229999999999997,
+          "segment_ids": [
+            2
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Describe the interior features and comfort of the K-San 2007 retro-escavadora.",
+          "sub_index": 0,
+          "text": "Notice that the machine comes with a closed cab for comfort.",
+          "start": 18.13,
+          "end": 21.229999999999997,
+          "segment_ids": [
+            2
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "notice"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 10.25,
+          "time_end": 18.13,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "narration",
+          "time_start": 18.13,
+          "time_end": 21.229999999999997,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 1
+            }
+          ]
+        },
+        {
+          "group_id": 2,
+          "category": "perception",
+          "time_start": 18.13,
+          "time_end": 21.229999999999997,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 0
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "K-San 2007 Retro-Escavadora Inspection",
+        "thread_summary": "This video segment describes the inspection of a special edition retro-escavadora from K-San 2007, focusing on its condition and features.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The observation of the machine's special edition status naturally leads to noting its condition, which is a relevant follow-up."
+          },
+          {
+            "from": 0,
+            "to": 2,
+            "link": "After observing the special edition status, it makes sense to also note the machine's cab, which is another feature of the special edition."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": -1.55,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 1,
+      "time_start": 21.229999999999997,
+      "time_end": 39.01,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 3
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Highlight the features and maintenance status of the K-San 2007 retro-escavadora.",
+          "sub_index": 2,
+          "text": "Describe the 4x2 traction system of the retro-escavadora.",
+          "start": 21.229999999999997,
+          "end": 24.33,
+          "segment_ids": [
+            2
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Describe the interior features and comfort of the K-San 2007 retro-escavadora.",
+          "sub_index": 1,
+          "text": "Observe the air conditioning installed in the cab for comfort.",
+          "start": 21.229999999999997,
+          "end": 24.33,
+          "segment_ids": [
+            2
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 2,
+          "task_text": "Highlight the additional equipment and information provided for the K-San 2007 retro-escavadora.",
+          "sub_index": 0,
+          "text": "Describe the kit available to connect the rotomartillo.",
+          "start": 24.33,
+          "end": 30.49,
+          "segment_ids": [
+            3
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 2,
+          "task_text": "Highlight the additional equipment and information provided for the K-San 2007 retro-escavadora.",
+          "sub_index": 1,
+          "text": "Mention that the machine is available for more information and prices contact.",
+          "start": 37.05,
+          "end": 39.01,
+          "segment_ids": [
+            5
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 21.229999999999997,
+          "time_end": 24.33,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 2
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "perception",
+          "time_start": 21.229999999999997,
+          "time_end": 24.33,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 1
+            }
+          ]
+        },
+        {
+          "group_id": 2,
+          "category": "narration",
+          "time_start": 24.33,
+          "time_end": 39.01,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 0
+            },
+            {
+              "task_index": 2,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Description and Information of a Retro-escavadora",
+        "thread_summary": "The video segment describes the features of a retro-escavadora, including its traction system, air conditioning, and availability for more information.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The video first describes the traction system, then shifts to observing the cab's amenities, which is a logical progression of features."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "After observing the cab, the video moves to describing the kit available for the rotomartillo, which is a natural continuation of the machine's features."
+          },
+          {
+            "from": 2,
+            "to": 3,
+            "link": "The final subtask provides contact information for more details, which is a logical conclusion to the description of the machine's features."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 1.153,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    }
+  ]
+}

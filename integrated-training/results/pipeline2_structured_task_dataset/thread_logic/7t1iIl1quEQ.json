@@ -1,0 +1,159 @@
+{
+  "index": "7t1iIl1quEQ",
+  "title": "Kisan\u9769\u65b0\u7684\u8015\u4f5c\u65b9\u5f0f\u63d0\u5347\u571f\u58e4\u8d28\u91cf\u4e0e\u4f5c\u7269\u4ea7\u91cf \u5370\u5ea6\u519c\u6751\u8131\u8d2b\u7684\u5e0c\u671b \u6ce5\u571f\u6837\u672c\u6d4b\u8bd5\u7ed3\u679c\u4ee4\u4eba\u60ca\u559c \u4f01\u4e1a\u8d5e\u52a9\u652f\u6301",
+  "url": "https://www.youtube.com/watch?v=7t1iIl1quEQ",
+  "num_threads": 3,
+  "threads_with_logic": [
+    {
+      "thread_index": 0,
+      "time_start": 0.21,
+      "time_end": 83.19,
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Explain the agricultural practices and the involvement of a company to improve soil quality.",
+          "sub_index": 0,
+          "text": "Describe the agricultural research and demonstration processes involving the company and local farmers.",
+          "start": 0.21,
+          "end": 18.47,
+          "segment_ids": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "task_index": 0,
+          "task_text": "Explain the agricultural practices and the involvement of a company to improve soil quality.",
+          "sub_index": 1,
+          "text": "Highlight the testing and benefits of different agricultural seeds and techniques.",
+          "start": 39.63,
+          "end": 83.19,
+          "segment_ids": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ]
+        },
+        {
+          "task_index": 1,
+          "task_text": "Discuss the impact and results of the company's interventions on crop yields and farmer practices.",
+          "sub_index": 1,
+          "text": "Note the positive change in soil quality and the intervention of the company.",
+          "start": 62.15,
+          "end": 66.59,
+          "segment_ids": [
+            11
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Agricultural Research and Seed Testing",
+        "thread_summary": "The video segment describes the agricultural research and demonstration processes involving the company and local farmers, focusing on the testing and benefits of different seeds and techniques, and the positive impact on soil quality.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The subtask transitions from describing the research and demonstration processes to highlighting the specific testing and benefits of seeds and techniques, which are part of the research process."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "The subtask then shifts to noting the positive change in soil quality, which is a result of the testing and implementation of the new seeds and techniques."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "_raw": null
+    },
+    {
+      "thread_index": 1,
+      "time_start": 107.32,
+      "time_end": 109.62,
+      "subtasks": [
+        {
+          "task_index": 1,
+          "task_text": "Discuss the impact and results of the company's interventions on crop yields and farmer practices.",
+          "sub_index": 0,
+          "text": "Observe the significant increase in plant height and yield due to the company's intervention.",
+          "start": 107.32,
+          "end": 109.62,
+          "segment_ids": [
+            22
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Impact of Company Intervention on Plant Growth and Yield",
+        "thread_summary": "This thread discusses the observable effects of a company's intervention on plant height and yield.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The subtask directly describes the observed outcome of the company's intervention, which is the main topic of the thread."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "_raw": null
+    },
+    {
+      "thread_index": 2,
+      "time_start": 144.58,
+      "time_end": 190.46,
+      "subtasks": [
+        {
+          "task_index": 1,
+          "task_text": "Discuss the impact and results of the company's interventions on crop yields and farmer practices.",
+          "sub_index": 2,
+          "text": "Highlight the increased productivity and farming practices observed due to the company's capabilities.",
+          "start": 144.58,
+          "end": 190.46,
+          "segment_ids": [
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Impact of Company's Capabilities on Productivity and Farming Practices",
+        "thread_summary": "The subtasks discuss the observed improvements in productivity and farming practices attributed to the company's capabilities.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The subtask directly states the observed improvements, which is the main topic of the thread."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "_raw": null
+    }
+  ]
+}

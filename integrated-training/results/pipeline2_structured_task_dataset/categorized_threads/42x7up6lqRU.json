@@ -1,0 +1,429 @@
+{
+  "index": "42x7up6lqRU",
+  "title": "Naturally Occurring GMOs Explained",
+  "url": "https://www.youtube.com/watch?v=42x7up6lqRU",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Explain how natural processes involving microbes led to understanding genetic modification in plants.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 5
+      }
+    },
+    {
+      "task_index": 1,
+      "task_text": "Highlight the historical and contemporary natural occurrence of GMO-like processes.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      }
+    }
+  ],
+  "num_threads": 4,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 0.0,
+      "time_end": 48.72,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Explain how natural processes involving microbes led to understanding genetic modification in plants.",
+          "sub_index": 0,
+          "text": "Point out that microbes were cutting and pasting DNA into plants long before lab-based genetic modification.",
+          "start": 0.0,
+          "end": 22.0,
+          "segment_ids": [
+            0,
+            1,
+            2
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Explain how natural processes involving microbes led to understanding genetic modification in plants.",
+          "sub_index": 1,
+          "text": "Describe the crown gall condition as an example of natural genetic modification.",
+          "start": 22.0,
+          "end": 48.72,
+          "segment_ids": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 0.0,
+          "time_end": 48.72,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            },
+            {
+              "task_index": 0,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Natural Genetic Modification in Plants",
+        "thread_summary": "The video discusses how microbes have been naturally modifying plant DNA for a long time, using the crown gall condition as an example.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The subtask transitions from discussing natural genetic modification to providing an example of it, specifically the crown gall condition."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [
+            {
+              "insert_after": 0,
+              "text": "This process, known as horizontal gene transfer, has been occurring for millions of years."
+            }
+          ]
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": true
+      }
+    },
+    {
+      "thread_index": 1,
+      "time_start": 48.72,
+      "time_end": 78.48,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Explain how natural processes involving microbes led to understanding genetic modification in plants.",
+          "sub_index": 2,
+          "text": "Explain the mechanism by which microbes insert DNA into plant cells.",
+          "start": 48.72,
+          "end": 78.48,
+          "segment_ids": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [
+              "insert",
+              "plant"
+            ],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 48.72,
+          "time_end": 78.48,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 2
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Microbial DNA Insertion into Plant Cells",
+        "thread_summary": "This video segment discusses the process by which microbes transfer DNA into plant cells.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 2,
+      "time_start": 78.48,
+      "time_end": 92.64,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Explain how natural processes involving microbes led to understanding genetic modification in plants.",
+          "sub_index": 3,
+          "text": "Describe the first step in modern microbial gene insertion technique\u2014the solution preparation.",
+          "start": 78.48,
+          "end": 92.64,
+          "segment_ids": [
+            11,
+            12
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [
+              "step"
+            ],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 78.48,
+          "time_end": 92.64,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 3
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Modern Microbial Gene Insertion Technique",
+        "thread_summary": "The subtasks describe the initial steps in the modern microbial gene insertion technique, focusing on solution preparation.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 3,
+      "time_start": 92.64,
+      "time_end": 161.1,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 3
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Explain how natural processes involving microbes led to understanding genetic modification in plants.",
+          "sub_index": 4,
+          "text": "Note that the process for crop plants is similar to the simpler one used for flowers.",
+          "start": 92.64,
+          "end": 120.14,
+          "segment_ids": [
+            13,
+            14,
+            15,
+            16
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Highlight the historical and contemporary natural occurrence of GMO-like processes.",
+          "sub_index": 0,
+          "text": "Mention that DNA from the same microbes has been present in sweet potatoes for 9,000 years.",
+          "start": 120.14,
+          "end": 148.7,
+          "segment_ids": [
+            17,
+            18,
+            19,
+            20
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Highlight the historical and contemporary natural occurrence of GMO-like processes.",
+          "sub_index": 1,
+          "text": "Emphasize that all sweet potatoes, even certified organic ones, contain microbial DNA.",
+          "start": 148.7,
+          "end": 161.1,
+          "segment_ids": [
+            21,
+            22
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 92.64,
+          "time_end": 161.1,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 4
+            },
+            {
+              "task_index": 1,
+              "sub_index": 0
+            },
+            {
+              "task_index": 1,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Microbial DNA in Sweet Potatoes",
+        "thread_summary": "The video discusses the presence of microbial DNA in sweet potatoes, both in conventional and organic varieties, and provides historical context.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The subtask transitions from a general statement about crop plants to a specific example of sweet potatoes, setting up the topic of microbial DNA."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "The subtask builds on the previous one by providing historical context about the presence of microbial DNA in sweet potatoes, reinforcing the main topic."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    }
+  ]
+}

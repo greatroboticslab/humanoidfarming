@@ -1,0 +1,373 @@
+{
+  "index": "EV2kCEapzCc",
+  "title": "Smart Irrigation Revolutionizing Agriculture Efficiency",
+  "url": "https://www.youtube.com/watch?v=EV2kCEapzCc",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Describe the functioning and benefits of smart irrigation systems.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      }
+    },
+    {
+      "task_index": 1,
+      "task_text": "Discuss the economic and environmental benefits of implementing smart irrigation systems.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      }
+    },
+    {
+      "task_index": 2,
+      "task_text": "Present a case study demonstrating the effectiveness of smart irrigation systems.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      }
+    }
+  ],
+  "num_threads": 3,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 45.4,
+      "time_end": 136.48,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 4
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the functioning and benefits of smart irrigation systems.",
+          "sub_index": 0,
+          "text": "Explain how smart irrigation systems use real-time data from sensors to optimize water usage.",
+          "start": 45.4,
+          "end": 74.64,
+          "segment_ids": [
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Describe the functioning and benefits of smart irrigation systems.",
+          "sub_index": 1,
+          "text": "Highlight the ability of smart irrigation systems to adjust water flow based on specific crop and environmental needs.",
+          "start": 74.64,
+          "end": 89.56,
+          "segment_ids": [
+            19,
+            20,
+            21
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": true,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Discuss the economic and environmental benefits of implementing smart irrigation systems.",
+          "sub_index": 0,
+          "text": "Mention the water savings achievable with smart irrigation systems depending on crop and climate.",
+          "start": 108.4,
+          "end": 116.48,
+          "segment_ids": [
+            27,
+            28
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Discuss the economic and environmental benefits of implementing smart irrigation systems.",
+          "sub_index": 1,
+          "text": "Explain how smart irrigation systems improve crop health by providing consistent moisture.",
+          "start": 121.88,
+          "end": 136.48,
+          "segment_ids": [
+            31,
+            32,
+            33,
+            34
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 45.4,
+          "time_end": 136.48,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            },
+            {
+              "task_index": 0,
+              "sub_index": 1
+            },
+            {
+              "task_index": 1,
+              "sub_index": 0
+            },
+            {
+              "task_index": 1,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Benefits of Smart Irrigation Systems",
+        "thread_summary": "This video segment discusses how smart irrigation systems use real-time data to optimize water usage, adjust water flow based on crop and environmental needs, and improve crop health.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The next subtask elaborates on the real-time data-driven feature of smart irrigation systems by explaining how they adjust water flow based on specific crop and environmental needs."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "The following subtask provides specific outcomes of using smart irrigation systems, such as the water savings achievable depending on crop and climate."
+          },
+          {
+            "from": 2,
+            "to": 3,
+            "link": "The final subtask explains the positive impact of smart irrigation systems on crop health, which is a logical continuation of the benefits mentioned in the previous subtask."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [
+            {
+              "insert_after": 1,
+              "text": "This adjustment ensures that crops receive the precise amount of water they need, which is crucial for their health and productivity."
+            }
+          ],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 8.08,
+        "has_conflicts": false,
+        "needs_repair": true
+      }
+    },
+    {
+      "thread_index": 1,
+      "time_start": 220.68,
+      "time_end": 249.32,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 2,
+          "task_text": "Present a case study demonstrating the effectiveness of smart irrigation systems.",
+          "sub_index": 0,
+          "text": "Describe how a vineyard in California reduced water usage and increased grape yield using a smart irrigation system.",
+          "start": 220.68,
+          "end": 249.32,
+          "segment_ids": [
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 220.68,
+          "time_end": 249.32,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 0
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Smart Irrigation System in a California Vineyard",
+        "thread_summary": "This video segment discusses the implementation of a smart irrigation system in a California vineyard to reduce water usage and increase grape yield.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 2,
+      "time_start": 277.72,
+      "time_end": 292.12,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 2,
+          "task_text": "Present a case study demonstrating the effectiveness of smart irrigation systems.",
+          "sub_index": 1,
+          "text": "Highlight the real-time monitoring feature of smart irrigation systems and its impact on crop growth.",
+          "start": 277.72,
+          "end": 292.12,
+          "segment_ids": [
+            70,
+            71,
+            72,
+            73
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 277.72,
+          "time_end": 292.12,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Smart Irrigation Systems and Real-Time Monitoring",
+        "thread_summary": "This thread discusses the real-time monitoring feature of smart irrigation systems and its benefits for crop growth.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    }
+  ]
+}

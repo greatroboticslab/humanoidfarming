@@ -1,0 +1,194 @@
+{
+  "index": "eOulwXmYUzc",
+  "title": "Pasture Transformation in Years",
+  "url": "https://www.youtube.com/watch?v=eOulwXmYUzc",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Describe the quick landscape changes possible in a pasture.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 3
+      }
+    }
+  ],
+  "num_threads": 2,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 0.0,
+      "time_end": 6.08,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the quick landscape changes possible in a pasture.",
+          "sub_index": 0,
+          "text": "Explain how quickly pasture appearance can be altered.",
+          "start": 0.0,
+          "end": 6.08,
+          "segment_ids": [
+            0
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 0.0,
+          "time_end": 6.08,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Factors Influencing Pasture Appearance",
+        "thread_summary": "The video discusses the rapid changes in pasture appearance and the factors that contribute to these changes.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 1,
+      "time_start": 6.08,
+      "time_end": 15.2,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the quick landscape changes possible in a pasture.",
+          "sub_index": 1,
+          "text": "Note the use of polywire to change cattle grazing areas.",
+          "start": 6.08,
+          "end": 10.34,
+          "segment_ids": [
+            1
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Describe the quick landscape changes possible in a pasture.",
+          "sub_index": 2,
+          "text": "Mention the impact on cattle eating habits resulting from polywire placement.",
+          "start": 10.34,
+          "end": 15.2,
+          "segment_ids": [
+            2
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 6.08,
+          "time_end": 15.2,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 1
+            },
+            {
+              "task_index": 0,
+              "sub_index": 2
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Impact of Polywire on Cattle Grazing",
+        "thread_summary": "This video segment discusses how the use of polywire to change cattle grazing areas affects the cattle's eating habits.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The subtask 0 describes the action of using polywire to change cattle grazing areas, which logically leads to the observation of its impact on cattle eating habits in subtask 1."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "index": "COgLak-nlOo",
+  "title": "Prepare Corn for Planting Video",
+  "url": "https://www.youtube.com/watch?v=COgLak-nlOo",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Demonstrate the steps of preparing corn for planting.",
+      "task_category": "planning",
+      "evidence_counts": {
+        "motion": 1,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      }
+    },
+    {
+      "task_index": 1,
+      "task_text": "Explain the next step in the process of corn planting.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      }
+    }
+  ],
+  "num_threads": 2,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 0.02,
+      "time_end": 6.03,
+      "thread_category_distribution": {
+        "motion": 1,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "planning",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Demonstrate the steps of preparing corn for planting.",
+          "sub_index": 0,
+          "text": "Grab a fresh corn and peel it.",
+          "start": 0.02,
+          "end": 2.02,
+          "segment_ids": [
+            0
+          ],
+          "subtask_category": "motion",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [
+              "grab"
+            ],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Demonstrate the steps of preparing corn for planting.",
+          "sub_index": 1,
+          "text": "Throw the peeled corn on top of a pot with salt.",
+          "start": 2.02,
+          "end": 6.03,
+          "segment_ids": [
+            1
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "motion",
+          "time_start": 0.02,
+          "time_end": 2.02,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "narration",
+          "time_start": 2.02,
+          "time_end": 6.03,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Preparing Corn for Cooking",
+        "thread_summary": "The video segment describes the process of preparing corn for cooking by peeling it and then adding it to a pot with salt.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "After peeling the corn, the next logical step is to prepare it for cooking by adding it to a pot with salt."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 1,
+      "time_start": 6.03,
+      "time_end": 26.7,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 1,
+          "task_text": "Explain the next step in the process of corn planting.",
+          "sub_index": 0,
+          "text": "Out of each sprouted seed, carefully implant this gently and-",
+          "start": 6.03,
+          "end": 26.7,
+          "segment_ids": [
+            2
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 6.03,
+          "time_end": 26.7,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 0
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Seeding Process",
+        "thread_summary": "The video segment describes the process of carefully implanting sprouted seeds into a suitable environment.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    }
+  ]
+}

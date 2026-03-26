@@ -1,0 +1,280 @@
+{
+  "index": "OkoIEiakwh8",
+  "title": "Drilling through 2x6s for Ribbon Boards",
+  "url": "https://www.youtube.com/watch?v=OkoIEiakwh8",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Describe the process of working on ribbon boards and drilling holes in 2x6 wood.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 1,
+        "perception": 0,
+        "planning": 1,
+        "narration": 3
+      }
+    }
+  ],
+  "num_threads": 2,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 1.26,
+      "time_end": 80.74,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 3
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the process of working on ribbon boards and drilling holes in 2x6 wood.",
+          "sub_index": 0,
+          "text": "Use a battery-powered drill to create initial holes but ran into power issues.",
+          "start": 1.26,
+          "end": 46.26,
+          "segment_ids": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Describe the process of working on ribbon boards and drilling holes in 2x6 wood.",
+          "sub_index": 1,
+          "text": "Buy sharper drill bits at Menards and get longer drill bits to finish drilling holes.",
+          "start": 46.26,
+          "end": 66.26,
+          "segment_ids": [
+            4,
+            5
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Describe the process of working on ribbon boards and drilling holes in 2x6 wood.",
+          "sub_index": 2,
+          "text": "Use an electrical drill with a generator for the final drilling and cutting.",
+          "start": 66.26,
+          "end": 80.74,
+          "segment_ids": [
+            6
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 1.26,
+          "time_end": 80.74,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            },
+            {
+              "task_index": 0,
+              "sub_index": 1
+            },
+            {
+              "task_index": 0,
+              "sub_index": 2
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Drilling and Fixing Power Issues",
+        "thread_summary": "The video segment describes the process of drilling holes using a battery-powered drill, encountering power issues, and then switching to a generator-powered drill to complete the task.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The initial attempt with a battery-powered drill failed due to power issues, necessitating the purchase of sharper and longer drill bits."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "After obtaining the new drill bits, the user decided to use a generator-powered drill for the final drilling and cutting to ensure sufficient power."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 1,
+      "time_start": 80.74,
+      "time_end": 133.74,
+      "thread_category_distribution": {
+        "motion": 1,
+        "perception": 0,
+        "planning": 1,
+        "narration": 0
+      },
+      "thread_dominant_category": "planning",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the process of working on ribbon boards and drilling holes in 2x6 wood.",
+          "sub_index": 3,
+          "text": "Cut 16-foot 2x6 wood in half to connect on both sides of the pole.",
+          "start": 80.74,
+          "end": 110.74,
+          "segment_ids": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "subtask_category": "motion",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [
+              "cut"
+            ],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Describe the process of working on ribbon boards and drilling holes in 2x6 wood.",
+          "sub_index": 4,
+          "text": "Plan to finish the current side and proceed to the end frames.",
+          "start": 110.74,
+          "end": 133.74,
+          "segment_ids": [
+            11,
+            12,
+            13
+          ],
+          "subtask_category": "planning",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [
+              "plan"
+            ],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "motion",
+          "time_start": 80.74,
+          "time_end": 110.74,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 3
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "planning",
+          "time_start": 110.74,
+          "time_end": 133.74,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 4
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Wood Cutting and Assembly",
+        "thread_summary": "The video segment describes the process of cutting and assembling wood to connect on both sides of a pole.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "After cutting the wood, the next logical step is to plan how to finish the current side and proceed to the end frames, as the wood is now ready for assembly."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    }
+  ]
+}

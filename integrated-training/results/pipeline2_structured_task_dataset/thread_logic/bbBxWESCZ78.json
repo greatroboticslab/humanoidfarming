@@ -1,0 +1,215 @@
+{
+  "index": "bbBxWESCZ78",
+  "title": "Hubmer Family Farm's Sustainable Practices",
+  "url": "https://www.youtube.com/watch?v=bbBxWESCZ78",
+  "num_threads": 3,
+  "threads_with_logic": [
+    {
+      "thread_index": 0,
+      "time_start": 140.94,
+      "time_end": 205.78,
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the sustainable farming techniques used at the Hubmer farm.",
+          "sub_index": 0,
+          "text": "Explain the ridge tilling method used for planting soybeans.",
+          "start": 140.94,
+          "end": 205.78,
+          "segment_ids": [
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49
+          ]
+        },
+        {
+          "task_index": 0,
+          "task_text": "Describe the sustainable farming techniques used at the Hubmer farm.",
+          "sub_index": 1,
+          "text": "Highlight the benefits of using ridge tilling, including reduced erosion and better moisture retention.",
+          "start": 140.94,
+          "end": 194.98,
+          "segment_ids": [
+            34,
+            35,
+            36,
+            37,
+            42,
+            43,
+            44,
+            45,
+            47
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Explanation of Ridge Tilling Method for Soybean Planting",
+        "thread_summary": "The video segment explains the ridge tilling method and its benefits for planting soybeans.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The explanation of ridge tilling (subtask 0) naturally leads to discussing its benefits (subtask 1), as the benefits are a logical consequence of the method described."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "_raw": null
+    },
+    {
+      "thread_index": 1,
+      "time_start": 272.9,
+      "time_end": 289.18,
+      "subtasks": [
+        {
+          "task_index": 1,
+          "task_text": "Describe the use of cover crops and banding fertilizer.",
+          "sub_index": 1,
+          "text": "Explain the process of banding fertilizer for the next year's crop.",
+          "start": 272.9,
+          "end": 289.18,
+          "segment_ids": [
+            70,
+            71,
+            72,
+            73
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Fertilizer Banding Process Explanation",
+        "thread_summary": "The video segment explains the process of banding fertilizer for the next year's crop, detailing the steps involved in preparing and applying the fertilizer.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The explanation of the banding process logically leads to the description of the next steps in preparing and applying the fertilizer."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "_raw": null
+    },
+    {
+      "thread_index": 2,
+      "time_start": 293.46,
+      "time_end": 380.49,
+      "subtasks": [
+        {
+          "task_index": 1,
+          "task_text": "Describe the use of cover crops and banding fertilizer.",
+          "sub_index": 0,
+          "text": "Show the cover crops (rye and vetch) that were planted in the field.",
+          "start": 293.46,
+          "end": 309.34,
+          "segment_ids": [
+            76,
+            77,
+            78,
+            79,
+            80
+          ]
+        },
+        {
+          "task_index": 2,
+          "task_text": "Discuss the role of the manure storage system and its contribution to recycling.",
+          "sub_index": 0,
+          "text": "Show the manure storage system where the gutters transport manure.",
+          "start": 311.74,
+          "end": 337.98,
+          "segment_ids": [
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88
+          ]
+        },
+        {
+          "task_index": 2,
+          "task_text": "Discuss the role of the manure storage system and its contribution to recycling.",
+          "sub_index": 1,
+          "text": "Explain how the manure from the hogs is recycled back into the fields.",
+          "start": 337.98,
+          "end": 348.58,
+          "segment_ids": [
+            89,
+            90,
+            91,
+            92
+          ]
+        },
+        {
+          "task_index": 3,
+          "task_text": "Describe the history and evolution of the Hubmer farm.",
+          "sub_index": 0,
+          "text": "Show a historical photo of the farm from the early 1920s.",
+          "start": 360.46,
+          "end": 380.49,
+          "segment_ids": [
+            98,
+            99,
+            100,
+            101,
+            102,
+            103
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Farm Practices and History",
+        "thread_summary": "The video segment covers current farm practices, including the use of cover crops and manure recycling, as well as a historical look at the farm from the early 1920s.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The video transitions from showing the cover crops to explaining the manure storage system, which is a part of the farm's sustainable practices."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "The explanation of the manure storage system leads to an explanation of how the manure is recycled back into the fields, showing the farm's circular economy approach."
+          },
+          {
+            "from": 2,
+            "to": 3,
+            "link": "The historical photo provides context to the current farm practices, showing how the farm has evolved over time."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [
+            {
+              "insert_after": 2,
+              "text": "This recycling process is part of the farm's sustainable practices, which have been in place for decades."
+            }
+          ]
+        }
+      },
+      "_raw": null
+    }
+  ]
+}

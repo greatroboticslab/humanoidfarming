@@ -1,0 +1,282 @@
+{
+  "index": "tlPb6vvE01Q",
+  "title": "Farmers Market Harvest Celebration",
+  "url": "https://www.youtube.com/watch?v=tlPb6vvE01Q",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Explain the process of sorting and preparing produce for the market.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      }
+    },
+    {
+      "task_index": 1,
+      "task_text": "Describe the journey of the produce from the fields to the market.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      }
+    },
+    {
+      "task_index": 2,
+      "task_text": "Emphasize the celebration of local farming.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      }
+    }
+  ],
+  "num_threads": 2,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 3.96,
+      "time_end": 16.0,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 3
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Explain the process of sorting and preparing produce for the market.",
+          "sub_index": 0,
+          "text": "Describe the sorting process for peaches by size and quality.",
+          "start": 3.96,
+          "end": 8.08,
+          "segment_ids": [
+            1
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Explain the process of sorting and preparing produce for the market.",
+          "sub_index": 1,
+          "text": "Highlight the display of sorted peanuts and peaches at the market.",
+          "start": 8.08,
+          "end": 12.68,
+          "segment_ids": [
+            2
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Describe the journey of the produce from the fields to the market.",
+          "sub_index": 0,
+          "text": "Mention the vibrant colors of the produce catching customers' attention at the market.",
+          "start": 12.68,
+          "end": 16.0,
+          "segment_ids": [
+            3
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 3.96,
+          "time_end": 16.0,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            },
+            {
+              "task_index": 0,
+              "sub_index": 1
+            },
+            {
+              "task_index": 1,
+              "sub_index": 0
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Market Produce Display and Sorting",
+        "thread_summary": "The video describes the sorting process for peaches and peanuts, followed by their display at the market and the attention they receive from customers.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "After describing the sorting process for peaches, the next step is to highlight how the sorted produce is displayed at the market."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "Following the display of sorted produce, the next logical step is to mention how the vibrant colors of the produce catch customers' attention."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 1,
+      "time_start": 16.0,
+      "time_end": 45.44,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 1,
+          "task_text": "Describe the journey of the produce from the fields to the market.",
+          "sub_index": 1,
+          "text": "Describe farmers proudly displaying their produce and sharing their dedication.",
+          "start": 16.0,
+          "end": 20.12,
+          "segment_ids": [
+            4
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 2,
+          "task_text": "Emphasize the celebration of local farming.",
+          "sub_index": 0,
+          "text": "Encourage supporting local farmers during the harvest season.",
+          "start": 37.4,
+          "end": 45.44,
+          "segment_ids": [
+            9,
+            10
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 16.0,
+          "time_end": 45.44,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 1
+            },
+            {
+              "task_index": 2,
+              "sub_index": 0
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Supporting Local Farmers During Harvest Season",
+        "thread_summary": "The video showcases farmers proudly displaying their produce and encourages viewers to support local farmers during the harvest season.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The video first highlights the dedication and pride of local farmers in their produce, which naturally leads to encouraging viewers to support them during the harvest season."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 17.28,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    }
+  ]
+}

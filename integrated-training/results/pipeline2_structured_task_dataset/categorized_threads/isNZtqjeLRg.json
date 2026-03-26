@@ -1,0 +1,217 @@
+{
+  "index": "isNZtqjeLRg",
+  "title": "Three Reasons to Love Reused Tire Planter",
+  "url": "https://www.youtube.com/watch?v=isNZtqjeLRg",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Explain the benefits of the Tierra Verde rubber planter.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 1,
+        "narration": 2
+      }
+    }
+  ],
+  "num_threads": 2,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 0.37,
+      "time_end": 16.79,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 1,
+        "narration": 1
+      },
+      "thread_dominant_category": "planning",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Explain the benefits of the Tierra Verde rubber planter.",
+          "sub_index": 0,
+          "text": "Mention that the planter is made from recycled tires to reduce tire landfill.",
+          "start": 0.37,
+          "end": 10.55,
+          "segment_ids": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Explain the benefits of the Tierra Verde rubber planter.",
+          "sub_index": 1,
+          "text": "Note that the planter is unbreakable due to its rubber material.",
+          "start": 0.37,
+          "end": 16.79,
+          "segment_ids": [
+            0,
+            1,
+            5
+          ],
+          "subtask_category": "planning",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [
+              "due to"
+            ],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 0.37,
+          "time_end": 10.55,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "planning",
+          "time_start": 0.37,
+          "time_end": 16.79,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Recycled Tire Planter Benefits",
+        "thread_summary": "The video highlights the environmental benefits of using recycled tires for planters, specifically focusing on their durability and landfill reduction.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The second statement builds on the first by emphasizing the unbreakable nature of the planter, which is a direct consequence of its rubber material, as mentioned in the first statement."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": -10.18,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 1,
+      "time_start": 0.37,
+      "time_end": 29.47,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Explain the benefits of the Tierra Verde rubber planter.",
+          "sub_index": 2,
+          "text": "Describe the water reservoir feature for better plant care.",
+          "start": 0.37,
+          "end": 29.47,
+          "segment_ids": [
+            0,
+            1,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [
+              "plant"
+            ],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 0.37,
+          "time_end": 29.47,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 2
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Water Reservoir for Plant Care",
+        "thread_summary": "The video segment discusses the benefits and setup of a water reservoir feature to improve plant care.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "index": "eHbWKGe1Uv0",
+  "title": "Japanese Green Vegetable Protection",
+  "url": "https://www.youtube.com/watch?v=eHbWKGe1Uv0",
+  "params": {
+    "use_links": true,
+    "max_time_span": 180.0,
+    "max_gap": 30.0,
+    "min_overlap": 0.06,
+    "narration_merge_overlap": 0.12,
+    "max_block_units": 12,
+    "use_llm": true,
+    "model": "Qwen/Qwen2.5-7B-Instruct"
+  },
+  "debug": {
+    "link_grouping": {
+      "num_units": 3,
+      "num_unit_edges": 2,
+      "num_components": 1,
+      "num_blocks_after_caps": 1
+    }
+  },
+  "num_blocks": 1,
+  "blocks": [
+    {
+      "block_id": 0,
+      "time_start": 0.0,
+      "time_end": 12.5,
+      "dominant_category": "perception",
+      "category_distribution": {
+        "perception": 2,
+        "narration": 1
+      },
+      "units": [
+        {
+          "unit_id": "th0_g0",
+          "thread_index": 0,
+          "group_id": 0,
+          "category": "perception"
+        },
+        {
+          "unit_id": "th0_g1",
+          "thread_index": 0,
+          "group_id": 1,
+          "category": "narration"
+        },
+        {
+          "unit_id": "th0_g2",
+          "thread_index": 0,
+          "group_id": 2,
+          "category": "perception"
+        }
+      ],
+      "subtask_refs": [
+        {
+          "task_index": 0,
+          "sub_index": 0
+        },
+        {
+          "task_index": 1,
+          "sub_index": 0
+        },
+        {
+          "task_index": 1,
+          "sub_index": 1
+        }
+      ],
+      "block_preview_text": "Observe the use of ultra-durable wire mesh to enclose green vegetables in Japan. Note the placement of the black mat under tree roots in China. Observe how the black mat helps to lock in soil moisture and block weeds.",
+      "sub_mission_id": "eHbWKGe1Uv0_subm0",
+      "sub_mission_title": "Theme: black / mat / block",
+      "sub_mission_time": {
+        "start": 0.0,
+        "end": 12.5
+      }
+    }
+  ],
+  "mission_id": "eHbWKGe1Uv0",
+  "mission_title": "Japanese Green Vegetable Protection",
+  "sub_missions": [
+    {
+      "sub_mission_id": "eHbWKGe1Uv0_subm0",
+      "sub_mission_title": "Theme: black / mat / block",
+      "time_start": 0.0,
+      "time_end": 12.5,
+      "block_id": 0
+    }
+  ]
+}

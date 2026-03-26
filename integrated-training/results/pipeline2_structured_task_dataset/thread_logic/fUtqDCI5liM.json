@@ -1,0 +1,118 @@
+{
+  "index": "fUtqDCI5liM",
+  "title": "McLaren Skid-Ship Multure Demo",
+  "url": "https://www.youtube.com/watch?v=fUtqDCI5liM",
+  "num_threads": 1,
+  "threads_with_logic": [
+    {
+      "thread_index": 0,
+      "time_start": 24.54,
+      "time_end": 68.79,
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Depicts the operation of the McLaren Skid-Ship Multure on palm meadows.",
+          "sub_index": 0,
+          "text": "Observe the McLaren Skid-Ship Multure machine in operation.",
+          "start": 24.54,
+          "end": 30.62,
+          "segment_ids": [
+            1
+          ]
+        },
+        {
+          "task_index": 0,
+          "task_text": "Depicts the operation of the McLaren Skid-Ship Multure on palm meadows.",
+          "sub_index": 1,
+          "text": "Note the machine mulching up big pine trees.",
+          "start": 30.62,
+          "end": 34.42,
+          "segment_ids": [
+            2
+          ]
+        },
+        {
+          "task_index": 1,
+          "task_text": "Displays the resulting wood chips after the mulching process.",
+          "sub_index": 0,
+          "text": "Watch the visible wood chips left after the machine passes over.",
+          "start": 34.82,
+          "end": 51.80500000000001,
+          "segment_ids": [
+            3
+          ]
+        },
+        {
+          "task_index": 2,
+          "task_text": "Illustrates the effectiveness of the mulching process.",
+          "sub_index": 0,
+          "text": "Highlight the fine quality of the material left by the machine.",
+          "start": 34.82,
+          "end": 51.80500000000001,
+          "segment_ids": [
+            3
+          ]
+        },
+        {
+          "task_index": 1,
+          "task_text": "Displays the resulting wood chips after the mulching process.",
+          "sub_index": 1,
+          "text": "See a single path that has been mulched by the machine.",
+          "start": 51.80500000000001,
+          "end": 68.79,
+          "segment_ids": [
+            3
+          ]
+        },
+        {
+          "task_index": 2,
+          "task_text": "Illustrates the effectiveness of the mulching process.",
+          "sub_index": 1,
+          "text": "Notice the mulched trees transformed into wood chips.",
+          "start": 51.80500000000001,
+          "end": 68.79,
+          "segment_ids": [
+            3
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Observation and Analysis of a Mulching Machine",
+        "thread_summary": "This thread describes the operation of a mulching machine, focusing on the process of mulching pine trees and the quality of the resulting wood chips.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The observation of the machine in operation leads to noting the specific task it is performing, which is mulching pine trees."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "After observing the machine mulching pine trees, the next logical step is to watch the aftermath, which is the visible wood chips."
+          },
+          {
+            "from": 2,
+            "to": 3,
+            "link": "Highlighting the quality of the wood chips follows the observation of the wood chips left after mulching."
+          },
+          {
+            "from": 3,
+            "to": 4,
+            "link": "The observation of the path mulched by the machine naturally leads to noticing the transformation of the mulched trees into wood chips."
+          },
+          {
+            "from": 4,
+            "to": 5,
+            "link": "The final step is to explicitly state the transformation of mulched trees into wood chips, which is a logical conclusion of the observation."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "_raw": null
+    }
+  ]
+}

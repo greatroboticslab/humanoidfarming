@@ -1,0 +1,643 @@
+{
+  "index": "EG06lrs5crQ",
+  "title": "Farm Animals and Their Names Explained",
+  "url": "https://www.youtube.com/watch?v=EG06lrs5crQ",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Describe the different types of cows on a farm.",
+      "task_category": "planning",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 1
+      }
+    },
+    {
+      "task_index": 1,
+      "task_text": "Explain the life cycle and terminology for piglets and their care.",
+      "task_category": "planning",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 1
+      }
+    },
+    {
+      "task_index": 2,
+      "task_text": "Describe goats and their farm uses.",
+      "task_category": "planning",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 1
+      }
+    },
+    {
+      "task_index": 3,
+      "task_text": "Describe the care and farming of sheep.",
+      "task_category": "planning",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 1
+      }
+    },
+    {
+      "task_index": 4,
+      "task_text": "Describe farm animals in the context of horse care and riding.",
+      "task_category": "planning",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 1
+      }
+    }
+  ],
+  "num_threads": 5,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 14.5,
+      "time_end": 26.84,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "planning",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the different types of cows on a farm.",
+          "sub_index": 0,
+          "text": "Observe a Jersey steer and note that Jersey cows are known for producing rich milk.",
+          "start": 14.5,
+          "end": 21.16,
+          "segment_ids": [
+            2
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Describe the different types of cows on a farm.",
+          "sub_index": 1,
+          "text": "Note that there are different breeds of cows, with some raised for meat and others for milk.",
+          "start": 14.5,
+          "end": 26.84,
+          "segment_ids": [
+            2,
+            3
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 14.5,
+          "time_end": 21.16,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "narration",
+          "time_start": 14.5,
+          "time_end": 26.84,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Breed Characteristics of Cows",
+        "thread_summary": "The video discusses the characteristics of different cow breeds, focusing on milk production and meat production.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The subtask transitions from observing a specific breed (Jersey steer) to noting the general distinction between milk and meat breeds."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [
+            {
+              "insert_after": 0,
+              "text": "The Jersey breed is particularly known for its milk production."
+            }
+          ]
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": -6.66,
+        "has_conflicts": false,
+        "needs_repair": true
+      }
+    },
+    {
+      "thread_index": 1,
+      "time_start": 74.6,
+      "time_end": 80.4,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 0
+      },
+      "thread_dominant_category": "perception",
+      "subtasks": [
+        {
+          "task_index": 1,
+          "task_text": "Explain the life cycle and terminology for piglets and their care.",
+          "sub_index": 0,
+          "text": "Observe a male pig and note that it is called a boar.",
+          "start": 74.6,
+          "end": 80.4,
+          "segment_ids": [
+            11
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 74.6,
+          "time_end": 80.4,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 0
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Introduction to Pig Anatomy and Terminology",
+        "thread_summary": "The video segment introduces the term 'boar' for a male pig and provides context for future discussions on pig anatomy.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 2,
+      "time_start": 82.0,
+      "time_end": 88.4,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 1,
+          "task_text": "Explain the life cycle and terminology for piglets and their care.",
+          "sub_index": 1,
+          "text": "Describe how pigs seek shade and roll in mud to cool off.",
+          "start": 82.0,
+          "end": 88.4,
+          "segment_ids": [
+            12
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 82.0,
+          "time_end": 88.4,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Pigs' Cooling Behaviors",
+        "thread_summary": "This video segment describes how pigs seek shade and roll in mud to cool off.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 3,
+      "time_start": 126.04,
+      "time_end": 142.46,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "planning",
+      "subtasks": [
+        {
+          "task_index": 2,
+          "task_text": "Describe goats and their farm uses.",
+          "sub_index": 0,
+          "text": "Observe a male goat and note that it is called a billy goat.",
+          "start": 126.04,
+          "end": 134.12,
+          "segment_ids": [
+            19
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 2,
+          "task_text": "Describe goats and their farm uses.",
+          "sub_index": 1,
+          "text": "Describe the production of goat milk and note that goat milk is good for making cheese.",
+          "start": 137.78,
+          "end": 142.46,
+          "segment_ids": [
+            21
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 126.04,
+          "time_end": 134.12,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "narration",
+          "time_start": 137.78,
+          "time_end": 142.46,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Goat Milk Production and Uses",
+        "thread_summary": "The video segment describes the observation of a billy goat and then explains the process of goat milk production and its use in cheese making.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The observation of the billy goat naturally leads to a discussion about goat milk, which is a logical extension of the initial observation."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 3.66,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 4,
+      "time_start": 282.87,
+      "time_end": 325.71,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 2,
+        "planning": 0,
+        "narration": 2
+      },
+      "thread_dominant_category": "planning",
+      "subtasks": [
+        {
+          "task_index": 3,
+          "task_text": "Describe the care and farming of sheep.",
+          "sub_index": 0,
+          "text": "Observe a male sheep and note that it is called a ram.",
+          "start": 282.87,
+          "end": 284.87,
+          "segment_ids": [
+            38
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 3,
+          "task_text": "Describe the care and farming of sheep.",
+          "sub_index": 1,
+          "text": "Note that sheep are clipped for their wool to keep them cool in summer.",
+          "start": 285.39,
+          "end": 290.75,
+          "segment_ids": [
+            39
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 4,
+          "task_text": "Describe farm animals in the context of horse care and riding.",
+          "sub_index": 0,
+          "text": "Observe horses grazing in a pasture and note their color.",
+          "start": 294.91,
+          "end": 300.87,
+          "segment_ids": [
+            41
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 4,
+          "task_text": "Describe farm animals in the context of horse care and riding.",
+          "sub_index": 1,
+          "text": "Describe the care horses receive at a barn, including feeding and storage.",
+          "start": 319.79,
+          "end": 325.71,
+          "segment_ids": [
+            45
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 282.87,
+          "time_end": 284.87,
+          "subtask_refs": [
+            {
+              "task_index": 3,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "narration",
+          "time_start": 285.39,
+          "time_end": 290.75,
+          "subtask_refs": [
+            {
+              "task_index": 3,
+              "sub_index": 1
+            }
+          ]
+        },
+        {
+          "group_id": 2,
+          "category": "perception",
+          "time_start": 294.91,
+          "time_end": 300.87,
+          "subtask_refs": [
+            {
+              "task_index": 4,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 3,
+          "category": "narration",
+          "time_start": 319.79,
+          "time_end": 325.71,
+          "subtask_refs": [
+            {
+              "task_index": 4,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Observations and Care of Livestock",
+        "thread_summary": "The video segment describes observations of a ram and horses, as well as the care provided to horses at a barn.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The observation of the ram leads to a discussion about sheep care, specifically wool clipping."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "The topic shifts to observing horses, which is unrelated to the previous subtask about sheep care."
+          },
+          {
+            "from": 2,
+            "to": 3,
+            "link": "The care provided to horses at a barn is described, which logically follows the observation of horses in a pasture."
+          }
+        ],
+        "conflicts": [
+          {
+            "type": "topic_jump",
+            "between": [
+              1,
+              2
+            ],
+            "description": "There is an abrupt topic jump from sheep care to observing horses, which are a different type of livestock."
+          }
+        ],
+        "repair": {
+          "bridging_sentences": [
+            {
+              "insert_after": 1,
+              "text": "While sheep are typically clipped for their wool, horses also require care and maintenance, such as grazing in pastures."
+            }
+          ],
+          "revised_subtasks": [
+            {
+              "index": 2,
+              "text": "Observe horses grazing in a pasture and note their color, and consider the care they receive at a barn, including feeding and storage."
+            }
+          ]
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 7.867,
+        "has_conflicts": true,
+        "needs_repair": true
+      }
+    }
+  ]
+}

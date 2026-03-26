@@ -1,0 +1,827 @@
+{
+  "index": "W5A6cwxYMSM",
+  "title": "Advanced Farming Machines Transform Agriculture",
+  "url": "https://www.youtube.com/watch?v=W5A6cwxYMSM",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Describe the Munoz Harvest Machine and its features.",
+      "task_category": "planning",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 1
+      }
+    },
+    {
+      "task_index": 1,
+      "task_text": "Explain the purpose and features of the TU Blind Retriever.",
+      "task_category": "planning",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 1
+      }
+    },
+    {
+      "task_index": 2,
+      "task_text": "Describe the advanced Strawberry Harvesting Robot.",
+      "task_category": "perception",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 2,
+        "planning": 0,
+        "narration": 0
+      }
+    },
+    {
+      "task_index": 3,
+      "task_text": "Highlight the Kiwi Fruit Harvester and its automation capabilities.",
+      "task_category": "perception",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 2,
+        "planning": 0,
+        "narration": 0
+      }
+    },
+    {
+      "task_index": 4,
+      "task_text": "Describe the advanced Green Onion Harvester.",
+      "task_category": "perception",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 2,
+        "planning": 0,
+        "narration": 0
+      }
+    },
+    {
+      "task_index": 5,
+      "task_text": "Explain the capabilities of the John Deere 6150R and 6620 machines.",
+      "task_category": "perception",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 2,
+        "planning": 0,
+        "narration": 0
+      }
+    },
+    {
+      "task_index": 6,
+      "task_text": "Highlight the unmanned aerial vehicles (UAVs) and their role in agriculture.",
+      "task_category": "perception",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 2,
+        "planning": 0,
+        "narration": 0
+      }
+    }
+  ],
+  "num_threads": 7,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 10.32,
+      "time_end": 19.12,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "planning",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the Munoz Harvest Machine and its features.",
+          "sub_index": 0,
+          "text": "Observe the Munoz Harvest Machine carefully cutting apples from branches.",
+          "start": 10.32,
+          "end": 14.72,
+          "segment_ids": [
+            2
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Describe the Munoz Harvest Machine and its features.",
+          "sub_index": 1,
+          "text": "Note the unique feature of transporting harvested apples directly into the processing unit.",
+          "start": 14.72,
+          "end": 19.12,
+          "segment_ids": [
+            3
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 10.32,
+          "time_end": 14.72,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "narration",
+          "time_start": 14.72,
+          "time_end": 19.12,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Munoz Harvest Machine Operation and Features",
+        "thread_summary": "This video segment describes the operation of the Munoz Harvest Machine, focusing on its method of harvesting apples and the unique feature of transporting harvested apples directly to the processing unit.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The observation of the machine's harvesting process naturally leads to noting its transportation feature, as the next step after harvesting is typically transporting the apples."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 1,
+      "time_start": 29.04,
+      "time_end": 35.52,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 0
+      },
+      "thread_dominant_category": "perception",
+      "subtasks": [
+        {
+          "task_index": 1,
+          "task_text": "Explain the purpose and features of the TU Blind Retriever.",
+          "sub_index": 0,
+          "text": "Watch the TU Blind Retriever efficiently handling small square bales.",
+          "start": 29.04,
+          "end": 35.52,
+          "segment_ids": [
+            6
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "watch"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 29.04,
+          "time_end": 35.52,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 0
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Efficient Handling of Small Square Bales by a TU Blind Retriever",
+        "thread_summary": "This video segment showcases the TU Blind Retriever's capability to handle small square bales efficiently.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 2,
+      "time_start": 36.48,
+      "time_end": 42.08,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 1,
+          "task_text": "Explain the purpose and features of the TU Blind Retriever.",
+          "sub_index": 1,
+          "text": "Note its 10-bale grapple and benefits in reducing leaf loss and broken bales.",
+          "start": 36.48,
+          "end": 42.08,
+          "segment_ids": [
+            7
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 36.48,
+          "time_end": 42.08,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Benefits of Using 10-Bale Grapple in Harvesting",
+        "thread_summary": "The subtasks discuss the advantages of using a 10-bale grapple in the harvesting process, specifically focusing on reducing leaf loss and broken bales.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 3,
+      "time_start": 48.0,
+      "time_end": 58.8,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 2,
+        "planning": 0,
+        "narration": 0
+      },
+      "thread_dominant_category": "perception",
+      "subtasks": [
+        {
+          "task_index": 2,
+          "task_text": "Describe the advanced Strawberry Harvesting Robot.",
+          "sub_index": 0,
+          "text": "Notice the robot picking only ripe strawberries with precision.",
+          "start": 48.0,
+          "end": 54.0,
+          "segment_ids": [
+            9
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "notice"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 2,
+          "task_text": "Describe the advanced Strawberry Harvesting Robot.",
+          "sub_index": 1,
+          "text": "Observe that the strawberries are transported efficiently to processing facilities.",
+          "start": 54.0,
+          "end": 58.8,
+          "segment_ids": [
+            10
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 48.0,
+          "time_end": 58.8,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 0
+            },
+            {
+              "task_index": 2,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Strawberry Picking and Transport",
+        "thread_summary": "The video segment describes the process of picking ripe strawberries and their efficient transport to processing facilities.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The robot's precision in picking ripe strawberries (subtask 0) explains why the strawberries are transported efficiently (subtask 1)."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 4,
+      "time_start": 66.24,
+      "time_end": 96.32,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 4,
+        "planning": 0,
+        "narration": 0
+      },
+      "thread_dominant_category": "perception",
+      "subtasks": [
+        {
+          "task_index": 3,
+          "task_text": "Highlight the Kiwi Fruit Harvester and its automation capabilities.",
+          "sub_index": 0,
+          "text": "Look at the harvester picking and transporting Kiwi fruits.",
+          "start": 66.24,
+          "end": 71.76,
+          "segment_ids": [
+            12
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "look"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 3,
+          "task_text": "Highlight the Kiwi Fruit Harvester and its automation capabilities.",
+          "sub_index": 1,
+          "text": "Observe the harvester\u2019s transport to processing facilities for further processing.",
+          "start": 78.8,
+          "end": 83.6,
+          "segment_ids": [
+            14
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 4,
+          "task_text": "Describe the advanced Green Onion Harvester.",
+          "sub_index": 0,
+          "text": "Notice the harvester traversing fields and streamlining onion harvesting.",
+          "start": 84.56,
+          "end": 90.8,
+          "segment_ids": [
+            15
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "notice"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 4,
+          "task_text": "Describe the advanced Green Onion Harvester.",
+          "sub_index": 1,
+          "text": "Observe the harvester covering large areas and boosting efficiency.",
+          "start": 90.8,
+          "end": 96.32,
+          "segment_ids": [
+            16
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 66.24,
+          "time_end": 96.32,
+          "subtask_refs": [
+            {
+              "task_index": 3,
+              "sub_index": 0
+            },
+            {
+              "task_index": 3,
+              "sub_index": 1
+            },
+            {
+              "task_index": 4,
+              "sub_index": 0
+            },
+            {
+              "task_index": 4,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Harvester Operations in Fruit and Vegetable Harvesting",
+        "thread_summary": "This thread describes the operations of a harvester as it picks and transports fruits and vegetables to processing facilities.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The harvester's transport to processing facilities is a natural next step after observing its picking and transporting of Kiwi fruits."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "The harvester's field traversal and streamlining of onion harvesting is a logical continuation of its transport to processing facilities."
+          },
+          {
+            "from": 2,
+            "to": 3,
+            "link": "Observing the harvester covering large areas and boosting efficiency is a natural conclusion to its operations in the field."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 2.667,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 5,
+      "time_start": 101.92,
+      "time_end": 110.64,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 2,
+        "planning": 0,
+        "narration": 0
+      },
+      "thread_dominant_category": "perception",
+      "subtasks": [
+        {
+          "task_index": 5,
+          "task_text": "Explain the capabilities of the John Deere 6150R and 6620 machines.",
+          "sub_index": 0,
+          "text": "Watch the machines bale hay efficiently during the harvest process.",
+          "start": 101.92,
+          "end": 107.52,
+          "segment_ids": [
+            18
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "watch"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 5,
+          "task_text": "Explain the capabilities of the John Deere 6150R and 6620 machines.",
+          "sub_index": 1,
+          "text": "Observe the machines\u2019 reliability and efficiency in handling hay operations.",
+          "start": 107.52,
+          "end": 110.64,
+          "segment_ids": [
+            19
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 101.92,
+          "time_end": 110.64,
+          "subtask_refs": [
+            {
+              "task_index": 5,
+              "sub_index": 0
+            },
+            {
+              "task_index": 5,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Harvest Process and Machine Efficiency",
+        "thread_summary": "The video segment focuses on observing the efficiency and reliability of machines during the hay baling process.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The subtask transitions from describing the machines' actions to evaluating their performance in the context of the harvest process."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [
+            {
+              "insert_after": 0,
+              "text": "The machines are seen baling hay, which is an essential part of the harvest process."
+            }
+          ]
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": true
+      }
+    },
+    {
+      "thread_index": 6,
+      "time_start": 117.44,
+      "time_end": 130.32,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 2,
+        "planning": 0,
+        "narration": 0
+      },
+      "thread_dominant_category": "perception",
+      "subtasks": [
+        {
+          "task_index": 6,
+          "task_text": "Highlight the unmanned aerial vehicles (UAVs) and their role in agriculture.",
+          "sub_index": 0,
+          "text": "Notice the UAVs being used for precise pesticide spraying.",
+          "start": 117.44,
+          "end": 123.76,
+          "segment_ids": [
+            21
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "notice"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 6,
+          "task_text": "Highlight the unmanned aerial vehicles (UAVs) and their role in agriculture.",
+          "sub_index": 1,
+          "text": "Observe the UAVs ensuring thorough coverage of crops.",
+          "start": 123.76,
+          "end": 130.32,
+          "segment_ids": [
+            22
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 117.44,
+          "time_end": 130.32,
+          "subtask_refs": [
+            {
+              "task_index": 6,
+              "sub_index": 0
+            },
+            {
+              "task_index": 6,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "UAVs for Precision Agriculture",
+        "thread_summary": "The video segment describes the use of UAVs in precision agriculture, specifically focusing on pesticide spraying and ensuring thorough coverage of crops.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The observation of UAVs being used for precise pesticide spraying naturally leads to the next step of ensuring thorough coverage of crops."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "index": "Dz_d3m-7l_I",
+  "title": "Ice Farming on a Cold Day Farming for Eggs and Livestock Care Ice Bucket Breaker Farm Happy Cold Day Farming Ice Farm...",
+  "url": "https://www.youtube.com/watch?v=Dz_d3m-7l_I",
+  "num_threads": 2,
+  "threads_with_logic": [
+    {
+      "thread_index": 0,
+      "time_start": 0.0,
+      "time_end": 2.32,
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Check on the livestock on a cold day.",
+          "sub_index": 0,
+          "text": "Observe the chickens in the coop on a 5 degree day.",
+          "start": 0.0,
+          "end": 2.32,
+          "segment_ids": [
+            0
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Observing Chickens on a Cold Day",
+        "thread_summary": "The video segment focuses on observing chickens in a coop on a cold day (5 degrees).",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 0,
+            "link": "The subtask is a single observation and does not logically link to another subtask."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "_raw": null
+    },
+    {
+      "thread_index": 1,
+      "time_start": 2.32,
+      "time_end": 14.48,
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Check on the livestock on a cold day.",
+          "sub_index": 1,
+          "text": "Note the hens are still laying eggs despite the cold.",
+          "start": 2.32,
+          "end": 4.64,
+          "segment_ids": [
+            0
+          ]
+        },
+        {
+          "task_index": 0,
+          "task_text": "Check on the livestock on a cold day.",
+          "sub_index": 3,
+          "text": "Watch the ice being broken out of buckets.",
+          "start": 4.64,
+          "end": 14.48,
+          "segment_ids": [
+            1,
+            2
+          ]
+        },
+        {
+          "task_index": 0,
+          "task_text": "Check on the livestock on a cold day.",
+          "sub_index": 2,
+          "text": "Notice the pig-pen where the pigs are warm.",
+          "start": 9.44,
+          "end": 14.48,
+          "segment_ids": [
+            2
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Winter Farm Activities",
+        "thread_summary": "This video segment shows farm activities during winter, including hens laying eggs, breaking ice, and pigs being kept warm.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The video transitions from observing the hens to showing another winter activity, breaking ice."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "The video then shifts to another winter-related activity, focusing on the pig-pen where the pigs are kept warm."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "_raw": null
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "index": "ew_OZmns1ms",
+  "title": "Veggie Boys Start Tomato Planting",
+  "url": "https://www.youtube.com/watch?v=ew_OZmns1ms",
+  "params": {
+    "use_links": true,
+    "max_time_span": 180.0,
+    "max_gap": 30.0,
+    "min_overlap": 0.06,
+    "narration_merge_overlap": 0.12,
+    "max_block_units": 12,
+    "use_llm": true,
+    "model": "Qwen/Qwen2.5-7B-Instruct"
+  },
+  "debug": {
+    "link_grouping": {
+      "num_units": 5,
+      "num_unit_edges": 3,
+      "num_components": 2,
+      "num_blocks_after_caps": 2
+    }
+  },
+  "num_blocks": 2,
+  "blocks": [
+    {
+      "block_id": 0,
+      "time_start": 109.94,
+      "time_end": 186.33,
+      "dominant_category": "narration",
+      "category_distribution": {
+        "narration": 2,
+        "perception": 1,
+        "planning": 1
+      },
+      "units": [
+        {
+          "unit_id": "th0_g0",
+          "thread_index": 0,
+          "group_id": 0,
+          "category": "narration"
+        },
+        {
+          "unit_id": "th0_g1",
+          "thread_index": 0,
+          "group_id": 1,
+          "category": "perception"
+        },
+        {
+          "unit_id": "th0_g2",
+          "thread_index": 0,
+          "group_id": 2,
+          "category": "planning"
+        },
+        {
+          "unit_id": "th0_g3",
+          "thread_index": 0,
+          "group_id": 3,
+          "category": "narration"
+        }
+      ],
+      "subtask_refs": [
+        {
+          "task_index": 0,
+          "sub_index": 0
+        },
+        {
+          "task_index": 1,
+          "sub_index": 0
+        },
+        {
+          "task_index": 0,
+          "sub_index": 1
+        },
+        {
+          "task_index": 0,
+          "sub_index": 2
+        },
+        {
+          "task_index": 0,
+          "sub_index": 3
+        },
+        {
+          "task_index": 1,
+          "sub_index": 1
+        },
+        {
+          "task_index": 1,
+          "sub_index": 2
+        }
+      ],
+      "block_preview_text": "Explain why multiple tomato varieties are being planted today. Introduce and plant the first distinct tomato variety. Describe the method for transplanting different tomato varieties. Identify and describe the unique cherry and grape tomatoes being planted. Specify the heirloom tomato being planted and its characteristics. Highlight the planting of another tomato variety by one of the helpers. Describe the final preparation and planting of the last tomato variety.",
+      "sub_mission_id": "ew_OZmns1ms_subm0",
+      "sub_mission_title": "Theme: tomato / describe / planted",
+      "sub_mission_time": {
+        "start": 109.94,
+        "end": 186.33
+      }
+    },
+    {
+      "block_id": 1,
+      "time_start": 277.65,
+      "time_end": 316.61,
+      "dominant_category": "narration",
+      "category_distribution": {
+        "narration": 1
+      },
+      "units": [
+        {
+          "unit_id": "th1_g0",
+          "thread_index": 1,
+          "group_id": 0,
+          "category": "narration"
+        }
+      ],
+      "subtask_refs": [
+        {
+          "task_index": 2,
+          "sub_index": 0
+        },
+        {
+          "task_index": 2,
+          "sub_index": 1
+        },
+        {
+          "task_index": 2,
+          "sub_index": 2
+        }
+      ],
+      "block_preview_text": "Explain the importance of maintaining consistent planting spaces for future comparison. Describe the necessity of weeding and soil management for crop health. Explain the use of mulch for tomato cultivation.",
+      "sub_mission_id": "ew_OZmns1ms_subm1",
+      "sub_mission_title": "Theme: comparison / consistent / crop",
+      "sub_mission_time": {
+        "start": 277.65,
+        "end": 316.61
+      }
+    }
+  ],
+  "mission_id": "ew_OZmns1ms",
+  "mission_title": "Veggie Boys Start Tomato Planting",
+  "sub_missions": [
+    {
+      "sub_mission_id": "ew_OZmns1ms_subm0",
+      "sub_mission_title": "Theme: tomato / describe / planted",
+      "time_start": 109.94,
+      "time_end": 186.33,
+      "block_id": 0
+    },
+    {
+      "sub_mission_id": "ew_OZmns1ms_subm1",
+      "sub_mission_title": "Theme: comparison / consistent / crop",
+      "time_start": 277.65,
+      "time_end": 316.61,
+      "block_id": 1
+    }
+  ]
+}

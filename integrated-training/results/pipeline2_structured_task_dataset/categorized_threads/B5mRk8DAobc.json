@@ -1,0 +1,726 @@
+{
+  "index": "B5mRk8DAobc",
+  "title": "Introducing Agriculture and Its Global Variations",
+  "url": "https://www.youtube.com/watch?v=B5mRk8DAobc",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Describe the relationship between climate and agricultural practices.",
+      "task_category": "planning",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 2,
+        "planning": 0,
+        "narration": 2
+      }
+    },
+    {
+      "task_index": 1,
+      "task_text": "Explain the impact of technology on agriculture.",
+      "task_category": "perception",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 2,
+        "planning": 0,
+        "narration": 1
+      }
+    },
+    {
+      "task_index": 2,
+      "task_text": "Differentiate between intensive and extensive agriculture.",
+      "task_category": "perception",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 2,
+        "planning": 0,
+        "narration": 1
+      }
+    },
+    {
+      "task_index": 3,
+      "task_text": "Describe the characteristics of extensive agriculture.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 2
+      }
+    }
+  ],
+  "num_threads": 5,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 14.4,
+      "time_end": 23.68,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "planning",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the relationship between climate and agricultural practices.",
+          "sub_index": 0,
+          "text": "Observe how farmers in cold mid-latitude climates grow wheat and barley and have a variety of livestock.",
+          "start": 14.4,
+          "end": 19.44,
+          "segment_ids": [
+            3
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Describe the relationship between climate and agricultural practices.",
+          "sub_index": 1,
+          "text": "Note the production of fruits and rice in warm mid-latitude climates, such as southern China and the southern United States.",
+          "start": 19.44,
+          "end": 23.68,
+          "segment_ids": [
+            4
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 14.4,
+          "time_end": 19.44,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "narration",
+          "time_start": 19.44,
+          "time_end": 23.68,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Climate and Agricultural Practices",
+        "thread_summary": "The video segment discusses how different agricultural practices are adapted to various climates, focusing on mid-latitude regions.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The video transitions from discussing the agricultural practices in cold mid-latitude climates to those in warm mid-latitude climates, highlighting the diversity in farming methods across different regions."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [
+            {
+              "insert_after": 0,
+              "text": "This includes the cultivation of wheat and barley, as well as a range of livestock, in regions with cooler climates."
+            }
+          ]
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": true
+      }
+    },
+    {
+      "thread_index": 1,
+      "time_start": 76.72,
+      "time_end": 94.56,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "planning",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the relationship between climate and agricultural practices.",
+          "sub_index": 2,
+          "text": "Highlight the cultivation of grapes, olives, and dates in Mediterranean climates, as seen in California and the Mediterranean Sea region.",
+          "start": 76.72,
+          "end": 82.4,
+          "segment_ids": [
+            15
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Describe the relationship between climate and agricultural practices.",
+          "sub_index": 3,
+          "text": "Look at the production of coffee, sugar, and tea in tropical climates, exemplified by Indonesia.",
+          "start": 88.16,
+          "end": 94.56,
+          "segment_ids": [
+            17
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "look"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 76.72,
+          "time_end": 82.4,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 2
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "perception",
+          "time_start": 88.16,
+          "time_end": 94.56,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 3
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Agricultural Practices in Different Climates",
+        "thread_summary": "The video segment discusses the cultivation of various crops in different climatic regions, focusing on both Mediterranean and tropical climates.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The video transitions from discussing crops suitable for Mediterranean climates to those suitable for tropical climates, providing a comprehensive overview of agricultural practices in different regions."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [
+            {
+              "insert_after": 0,
+              "text": "This includes the cultivation of grapes, olives, and dates in Mediterranean climates, as seen in California and the Mediterranean Sea region."
+            }
+          ]
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 5.76,
+        "has_conflicts": false,
+        "needs_repair": true
+      }
+    },
+    {
+      "thread_index": 2,
+      "time_start": 124.0,
+      "time_end": 151.28,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 2,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "perception",
+      "subtasks": [
+        {
+          "task_index": 1,
+          "task_text": "Explain the impact of technology on agriculture.",
+          "sub_index": 0,
+          "text": "Observe the use of genetic modification to grow plants larger and faster than before.",
+          "start": 124.0,
+          "end": 129.76,
+          "segment_ids": [
+            24
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Explain the impact of technology on agriculture.",
+          "sub_index": 1,
+          "text": "Notice the application of chemical fertilizers, pesticides, and herbicides to increase crop yields and nutrient levels in the soil.",
+          "start": 134.72,
+          "end": 140.0,
+          "segment_ids": [
+            26
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "notice"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Explain the impact of technology on agriculture.",
+          "sub_index": 2,
+          "text": "Describe the creation of greenhouses to extend growing seasons and vertical farming in urban areas to combat food deserts.",
+          "start": 144.96,
+          "end": 151.28,
+          "segment_ids": [
+            28
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 124.0,
+          "time_end": 140.0,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 0
+            },
+            {
+              "task_index": 1,
+              "sub_index": 1
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "narration",
+          "time_start": 144.96,
+          "time_end": 151.28,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 2
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Agricultural Innovations and Practices",
+        "thread_summary": "The video discusses various modern agricultural techniques and practices, including genetic modification, chemical use, and innovative farming methods.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The subtask transitions from discussing genetic modification to mentioning chemical fertilizers and pesticides, which are often used in conjunction with genetically modified crops to enhance their growth and yield."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "The subtask shifts from discussing chemical applications to describing modern farming methods like greenhouses and vertical farming, which are advanced techniques used to improve crop production and address urban food shortages."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 4.96,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 3,
+      "time_start": 189.92,
+      "time_end": 225.92,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 2,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "perception",
+      "subtasks": [
+        {
+          "task_index": 2,
+          "task_text": "Differentiate between intensive and extensive agriculture.",
+          "sub_index": 1,
+          "text": "Observe the characteristics of intensive agriculture, which require less land but more capital and labor.",
+          "start": 189.92,
+          "end": 195.68,
+          "segment_ids": [
+            37
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 2,
+          "task_text": "Differentiate between intensive and extensive agriculture.",
+          "sub_index": 0,
+          "text": "Identify intensive agriculture systems, such as plantation farming and mixed crop and livestock, located near urban areas.",
+          "start": 200.8,
+          "end": 206.4,
+          "segment_ids": [
+            39
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "identify"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 2,
+          "task_text": "Differentiate between intensive and extensive agriculture.",
+          "sub_index": 2,
+          "text": "Describe the economic aspects of intensive agriculture and how farms can maximize profits by growing cash crops.",
+          "start": 220.96,
+          "end": 225.92,
+          "segment_ids": [
+            43
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 189.92,
+          "time_end": 206.4,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 1
+            },
+            {
+              "task_index": 2,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "narration",
+          "time_start": 220.96,
+          "time_end": 225.92,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 2
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Characteristics and Economic Aspects of Intensive Agriculture",
+        "thread_summary": "The video segment discusses the characteristics of intensive agriculture, identifies specific systems, and explains their economic benefits.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The subtask on observing characteristics of intensive agriculture (0) sets the stage for identifying specific systems (1), as understanding the characteristics helps in recognizing these systems."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "After identifying the specific systems of intensive agriculture (1), the next logical step is to describe their economic aspects (2), as this provides a deeper understanding of how these systems operate and their profitability."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 9.84,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 4,
+      "time_start": 307.44,
+      "time_end": 369.44,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 2
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 3,
+          "task_text": "Describe the characteristics of extensive agriculture.",
+          "sub_index": 0,
+          "text": "Note shifting cultivation, which is found in tropical climates, such as Latin America, Sub-Saharan Africa, or Southeast Asia.",
+          "start": 307.44,
+          "end": 313.2,
+          "segment_ids": [
+            61
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 3,
+          "task_text": "Describe the characteristics of extensive agriculture.",
+          "sub_index": 1,
+          "text": "Observe the practice of nomadic herding, traditionally located in dry climates in Central and Southwest Asia and North Africa.",
+          "start": 335.12,
+          "end": 340.88,
+          "segment_ids": [
+            67
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 3,
+          "task_text": "Describe the characteristics of extensive agriculture.",
+          "sub_index": 2,
+          "text": "Describe ranching, which is traditionally located on less suitable land and further from urban centers to reduce costs and become more profitable.",
+          "start": 364.8,
+          "end": 369.44,
+          "segment_ids": [
+            73
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 307.44,
+          "time_end": 313.2,
+          "subtask_refs": [
+            {
+              "task_index": 3,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "perception",
+          "time_start": 335.12,
+          "time_end": 340.88,
+          "subtask_refs": [
+            {
+              "task_index": 3,
+              "sub_index": 1
+            }
+          ]
+        },
+        {
+          "group_id": 2,
+          "category": "narration",
+          "time_start": 364.8,
+          "time_end": 369.44,
+          "subtask_refs": [
+            {
+              "task_index": 3,
+              "sub_index": 2
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Agricultural Practices in Different Climates",
+        "thread_summary": "The video discusses various agricultural practices such as shifting cultivation, nomadic herding, and ranching, and their geographical locations.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The video transitions from discussing shifting cultivation in tropical climates to nomadic herding in dry climates, showing a shift in agricultural practices based on climate conditions."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "The video then moves on to describe ranching, which is another agricultural practice that is adapted to less suitable land, further illustrating the diversity of agricultural practices across different climates."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 22.92,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    }
+  ]
+}

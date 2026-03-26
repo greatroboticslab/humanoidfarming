@@ -1,0 +1,648 @@
+{
+  "index": "71YHr-v9vSE",
+  "title": "Tying Off Wire Strainers Efficiently",
+  "url": "https://www.youtube.com/watch?v=71YHr-v9vSE",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Describe the method for securing knots in wire fence tensioning.",
+      "task_category": "planning",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 1
+      }
+    },
+    {
+      "task_index": 1,
+      "task_text": "Explain the construction and tensioning of wire fences.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 1,
+        "perception": 1,
+        "planning": 0,
+        "narration": 2
+      }
+    },
+    {
+      "task_index": 2,
+      "task_text": "Discuss the challenges and considerations during the fence construction.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 1,
+        "narration": 2
+      }
+    }
+  ],
+  "num_threads": 7,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 43.9,
+      "time_end": 90.18,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 2,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "perception",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the method for securing knots in wire fence tensioning.",
+          "sub_index": 0,
+          "text": "Note the knot technique which is deemed to be 70% the strength of the wire.",
+          "start": 43.9,
+          "end": 55.98,
+          "segment_ids": [
+            2
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Describe the method for securing knots in wire fence tensioning.",
+          "sub_index": 1,
+          "text": "Observe the advantage of the knot technique in providing even tension and preventing slipping.",
+          "start": 43.9,
+          "end": 66.74,
+          "segment_ids": [
+            2,
+            3
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Explain the construction and tensioning of wire fences.",
+          "sub_index": 0,
+          "text": "Inspect the use of wire strainers and their importance in securing the fence.",
+          "start": 78.01,
+          "end": 90.18,
+          "segment_ids": [
+            7
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "inspect"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 43.9,
+          "time_end": 55.98,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "perception",
+          "time_start": 43.9,
+          "time_end": 90.18,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 1
+            },
+            {
+              "task_index": 1,
+              "sub_index": 0
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Knot Technique and Wire Strainers in Fence Securing",
+        "thread_summary": "The video discusses the knot technique used in securing a fence, its advantages, and the role of wire strainers in maintaining tension and preventing slippage.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The subtask on knot technique (0) is followed by observing its advantages (1), which logically explains why the knot technique is important."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "After observing the advantages of the knot technique, the next logical step is to inspect the wire strainers (2), which are mentioned as an additional securing mechanism."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": -0.405,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 1,
+      "time_start": 152.4,
+      "time_end": 165.43,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 1,
+          "task_text": "Explain the construction and tensioning of wire fences.",
+          "sub_index": 1,
+          "text": "Highlight the process of tensioning individual wire strands to around 150 kgs.",
+          "start": 152.4,
+          "end": 165.43,
+          "segment_ids": [
+            14
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 152.4,
+          "time_end": 165.43,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Wire Stranding Tensioning Process",
+        "thread_summary": "The video segment describes the process of tensioning individual wire strands to a specific weight.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 2,
+      "time_start": 192.81,
+      "time_end": 200.13,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 1,
+          "task_text": "Explain the construction and tensioning of wire fences.",
+          "sub_index": 2,
+          "text": "Describe the placement and necessity of knots for batten alignment.",
+          "start": 192.81,
+          "end": 200.13,
+          "segment_ids": [
+            22
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 192.81,
+          "time_end": 200.13,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 2
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Knot Placement for Batten Alignment",
+        "thread_summary": "This thread discusses the importance and correct placement of knots for aligning battens.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 3,
+      "time_start": 254.86,
+      "time_end": 262.34,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 1,
+        "narration": 0
+      },
+      "thread_dominant_category": "planning",
+      "subtasks": [
+        {
+          "task_index": 2,
+          "task_text": "Discuss the challenges and considerations during the fence construction.",
+          "sub_index": 0,
+          "text": "Notice the use of angle posts and the challenges in placing them due to ground conditions.",
+          "start": 254.86,
+          "end": 262.34,
+          "segment_ids": [
+            36
+          ],
+          "subtask_category": "planning",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "notice"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [
+              "due to"
+            ],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "planning",
+          "time_start": 254.86,
+          "time_end": 262.34,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 0
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Challenges in Installing Angle Posts",
+        "thread_summary": "The video segment discusses the difficulties encountered while installing angle posts due to unfavorable ground conditions.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 4,
+      "time_start": 338.75,
+      "time_end": 348.5,
+      "thread_category_distribution": {
+        "motion": 1,
+        "perception": 0,
+        "planning": 0,
+        "narration": 0
+      },
+      "thread_dominant_category": "motion",
+      "subtasks": [
+        {
+          "task_index": 1,
+          "task_text": "Explain the construction and tensioning of wire fences.",
+          "sub_index": 3,
+          "text": "Demonstrate the final step of trimming surplus wire after securing the fence.",
+          "start": 338.75,
+          "end": 348.5,
+          "segment_ids": [
+            55
+          ],
+          "subtask_category": "motion",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [
+              "step"
+            ],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "motion",
+          "time_start": 338.75,
+          "time_end": 348.5,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 3
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Fence Construction and Maintenance",
+        "thread_summary": "The video segment focuses on the final steps of constructing and maintaining a fence, specifically trimming surplus wire after securing it.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 5,
+      "time_start": 475.46,
+      "time_end": 534.4,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 2,
+          "task_text": "Discuss the challenges and considerations during the fence construction.",
+          "sub_index": 1,
+          "text": "Mention the impact of ground conditions on fence stability and the importance of securing posts.",
+          "start": 475.46,
+          "end": 534.4,
+          "segment_ids": [
+            79,
+            89
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 475.46,
+          "time_end": 534.4,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Factors Affecting Fence Stability",
+        "thread_summary": "The discussion focuses on the impact of ground conditions on fence stability and the importance of securing fence posts.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 6,
+      "time_start": 580.44,
+      "time_end": 615.14,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "planning",
+      "subtasks": [
+        {
+          "task_index": 2,
+          "task_text": "Discuss the challenges and considerations during the fence construction.",
+          "sub_index": 2,
+          "text": "Observe the author's experience and ongoing efforts to improve fence construction methods.",
+          "start": 580.44,
+          "end": 615.14,
+          "segment_ids": [
+            102,
+            108
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 2,
+          "task_text": "Discuss the challenges and considerations during the fence construction.",
+          "sub_index": 3,
+          "text": "Note the use of safety pins to manage fence components more efficiently.",
+          "start": null,
+          "end": null,
+          "segment_ids": [
+            640,
+            667
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 580.44,
+          "time_end": 615.14,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 2
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "narration",
+          "time_start": null,
+          "time_end": null,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 3
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Improving Fence Construction Methods",
+        "thread_summary": "The video segment focuses on the author's observations and improvements in fence construction, specifically highlighting the use of safety pins for better management of fence components.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The author observes the current construction process and notes a specific tool (safety pins) that could improve the efficiency of handling fence components."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    }
+  ]
+}

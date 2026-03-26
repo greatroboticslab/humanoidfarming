@@ -1,0 +1,378 @@
+{
+  "index": "huwXIGH_ynM",
+  "title": "Dwarf Kale for Small Spaces",
+  "url": "https://www.youtube.com/watch?v=huwXIGH_ynM",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Explain the benefits of growing dwarf kale.",
+      "task_category": "planning",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 1
+      }
+    },
+    {
+      "task_index": 1,
+      "task_text": "Describe the concept of \"cut and come again\" in gardening.",
+      "task_category": "perception",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 2,
+        "planning": 0,
+        "narration": 0
+      }
+    },
+    {
+      "task_index": 2,
+      "task_text": "Highlight the productivity of growing power greens in small spaces.",
+      "task_category": "perception",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 2,
+        "planning": 0,
+        "narration": 0
+      }
+    }
+  ],
+  "num_threads": 3,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 0.0,
+      "time_end": 5.6,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 3,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "perception",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Explain the benefits of growing dwarf kale.",
+          "sub_index": 0,
+          "text": "Observe how dwarf kale allows growing in limited space.",
+          "start": 0.0,
+          "end": 3.0,
+          "segment_ids": [
+            0
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Explain the benefits of growing dwarf kale.",
+          "sub_index": 1,
+          "text": "Note the advantage of continuous harvesting with dwarf kale.",
+          "start": 3.0,
+          "end": 5.6,
+          "segment_ids": [
+            1
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Describe the concept of \"cut and come again\" in gardening.",
+          "sub_index": 0,
+          "text": "Watch the demonstration of continuous meal preparation using dwarf kale.",
+          "start": 3.0,
+          "end": 4.3,
+          "segment_ids": [
+            1
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "watch"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Describe the concept of \"cut and come again\" in gardening.",
+          "sub_index": 1,
+          "text": "Observe the repeated harvesting process for continuous meals.",
+          "start": 4.3,
+          "end": 5.6,
+          "segment_ids": [
+            1
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 0.0,
+          "time_end": 3.0,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "narration",
+          "time_start": 3.0,
+          "time_end": 5.6,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 1
+            }
+          ]
+        },
+        {
+          "group_id": 2,
+          "category": "perception",
+          "time_start": 3.0,
+          "time_end": 5.6,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 0
+            },
+            {
+              "task_index": 1,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Demonstration of Dwarf Kale Usage for Continuous Harvesting and Meal Preparation",
+        "thread_summary": "The video demonstrates how dwarf kale can be grown in limited space and continuously harvested for meal preparation.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The observation of dwarf kale's space-saving nature leads to noting its advantage in continuous harvesting."
+          },
+          {
+            "from": 0,
+            "to": 2,
+            "link": "After observing the dwarf kale in its limited space, the next step is to watch a demonstration of how it can be used in meal preparation."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "Noting the advantage of continuous harvesting naturally transitions to a demonstration of this process."
+          },
+          {
+            "from": 2,
+            "to": 3,
+            "link": "The demonstration of continuous meal preparation using dwarf kale is followed by observing the repeated harvesting process for continuous meals."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": -0.867,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 1,
+      "time_start": 5.6,
+      "time_end": 6.6,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 0
+      },
+      "thread_dominant_category": "perception",
+      "subtasks": [
+        {
+          "task_index": 2,
+          "task_text": "Highlight the productivity of growing power greens in small spaces.",
+          "sub_index": 0,
+          "text": "Notice how dwarf kale provides power greens from your porch.",
+          "start": 5.6,
+          "end": 6.6,
+          "segment_ids": [
+            2
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "notice"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 5.6,
+          "time_end": 6.6,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 0
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Growing Dwarf Kale on a Porch",
+        "thread_summary": "This video segment focuses on the benefits of growing dwarf kale in a porch setting, emphasizing its ability to provide power greens in a convenient location.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 2,
+      "time_start": 6.6,
+      "time_end": 7.6,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 0
+      },
+      "thread_dominant_category": "perception",
+      "subtasks": [
+        {
+          "task_index": 2,
+          "task_text": "Highlight the productivity of growing power greens in small spaces.",
+          "sub_index": 1,
+          "text": "See the focus on porch gardening for compact green production.",
+          "start": 6.6,
+          "end": 7.6,
+          "segment_ids": [
+            2
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "see"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 6.6,
+          "time_end": 7.6,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Porch Gardening Techniques",
+        "thread_summary": "The video segment focuses on various techniques for growing plants in a limited space, specifically on a porch.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    }
+  ]
+}

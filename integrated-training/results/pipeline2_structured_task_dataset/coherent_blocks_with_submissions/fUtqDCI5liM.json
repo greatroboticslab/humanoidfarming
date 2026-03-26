@@ -1,0 +1,112 @@
+{
+  "index": "fUtqDCI5liM",
+  "title": "McLaren Skid-Ship Multure Demo",
+  "url": "https://www.youtube.com/watch?v=fUtqDCI5liM",
+  "params": {
+    "use_links": true,
+    "max_time_span": 180.0,
+    "max_gap": 30.0,
+    "min_overlap": 0.06,
+    "narration_merge_overlap": 0.12,
+    "max_block_units": 12,
+    "use_llm": true,
+    "model": "Qwen/Qwen2.5-7B-Instruct"
+  },
+  "debug": {
+    "link_grouping": {
+      "num_units": 5,
+      "num_unit_edges": 4,
+      "num_components": 1,
+      "num_blocks_after_caps": 1
+    }
+  },
+  "num_blocks": 1,
+  "blocks": [
+    {
+      "block_id": 0,
+      "time_start": 24.54,
+      "time_end": 68.79,
+      "dominant_category": "perception",
+      "category_distribution": {
+        "perception": 3,
+        "narration": 2
+      },
+      "units": [
+        {
+          "unit_id": "th0_g0",
+          "thread_index": 0,
+          "group_id": 0,
+          "category": "perception"
+        },
+        {
+          "unit_id": "th0_g1",
+          "thread_index": 0,
+          "group_id": 1,
+          "category": "narration"
+        },
+        {
+          "unit_id": "th0_g2",
+          "thread_index": 0,
+          "group_id": 2,
+          "category": "perception"
+        },
+        {
+          "unit_id": "th0_g3",
+          "thread_index": 0,
+          "group_id": 3,
+          "category": "narration"
+        },
+        {
+          "unit_id": "th0_g4",
+          "thread_index": 0,
+          "group_id": 4,
+          "category": "perception"
+        }
+      ],
+      "subtask_refs": [
+        {
+          "task_index": 0,
+          "sub_index": 0
+        },
+        {
+          "task_index": 0,
+          "sub_index": 1
+        },
+        {
+          "task_index": 1,
+          "sub_index": 0
+        },
+        {
+          "task_index": 2,
+          "sub_index": 0
+        },
+        {
+          "task_index": 1,
+          "sub_index": 1
+        },
+        {
+          "task_index": 2,
+          "sub_index": 1
+        }
+      ],
+      "block_preview_text": "Observe the McLaren Skid-Ship Multure machine in operation. Note the machine mulching up big pine trees. Watch the visible wood chips left after the machine passes over. Highlight the fine quality of the material left by the machine. See a single path that has been mulched by the machine. Notice the mulched trees transformed into wood chips.",
+      "sub_mission_id": "fUtqDCI5liM_subm0",
+      "sub_mission_title": "Theme: machine / chips / left",
+      "sub_mission_time": {
+        "start": 24.54,
+        "end": 68.79
+      }
+    }
+  ],
+  "mission_id": "fUtqDCI5liM",
+  "mission_title": "McLaren Skid-Ship Multure Demo",
+  "sub_missions": [
+    {
+      "sub_mission_id": "fUtqDCI5liM_subm0",
+      "sub_mission_title": "Theme: machine / chips / left",
+      "time_start": 24.54,
+      "time_end": 68.79,
+      "block_id": 0
+    }
+  ]
+}

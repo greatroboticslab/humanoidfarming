@@ -1,0 +1,127 @@
+{
+  "index": "lvCALDe7CSU",
+  "title": "Classifying Pets Farm Animals and Zoo Animals",
+  "url": "https://www.youtube.com/watch?v=lvCALDe7CSU",
+  "params": {
+    "use_links": true,
+    "max_time_span": 180.0,
+    "max_gap": 30.0,
+    "min_overlap": 0.06,
+    "narration_merge_overlap": 0.12,
+    "max_block_units": 12,
+    "use_llm": true,
+    "model": "Qwen/Qwen2.5-7B-Instruct"
+  },
+  "debug": {
+    "link_grouping": {
+      "num_units": 3,
+      "num_unit_edges": 2,
+      "num_components": 1,
+      "num_blocks_after_caps": 2
+    }
+  },
+  "num_blocks": 2,
+  "blocks": [
+    {
+      "block_id": 0,
+      "time_start": 11.15,
+      "time_end": 89.95,
+      "dominant_category": "planning",
+      "category_distribution": {
+        "narration": 1,
+        "planning": 1
+      },
+      "units": [
+        {
+          "unit_id": "th0_g0",
+          "thread_index": 0,
+          "group_id": 0,
+          "category": "narration"
+        },
+        {
+          "unit_id": "th0_g1",
+          "thread_index": 0,
+          "group_id": 1,
+          "category": "planning"
+        }
+      ],
+      "subtask_refs": [
+        {
+          "task_index": 0,
+          "sub_index": 0
+        },
+        {
+          "task_index": 0,
+          "sub_index": 1
+        },
+        {
+          "task_index": 0,
+          "sub_index": 2
+        }
+      ],
+      "block_preview_text": "Describe the definition of pets as animals kept for companionship and entertainment. List examples of common pets such as dogs, rabbits, birds, fish, and turtles. Define farm animals as those that live on farms and are used for production.",
+      "sub_mission_id": "lvCALDe7CSU_subm0",
+      "sub_mission_title": "Theme: animals / pets / birds",
+      "sub_mission_time": {
+        "start": 11.15,
+        "end": 89.95
+      }
+    },
+    {
+      "block_id": 1,
+      "time_start": 92.57,
+      "time_end": 206.38,
+      "dominant_category": "narration",
+      "category_distribution": {
+        "narration": 1
+      },
+      "units": [
+        {
+          "unit_id": "th0_g2",
+          "thread_index": 0,
+          "group_id": 2,
+          "category": "narration"
+        }
+      ],
+      "subtask_refs": [
+        {
+          "task_index": 0,
+          "sub_index": 3
+        },
+        {
+          "task_index": 0,
+          "sub_index": 4
+        },
+        {
+          "task_index": 0,
+          "sub_index": 5
+        }
+      ],
+      "block_preview_text": "Provide examples of farm animals like pigs, chickens, ducks, horses, sheep, cows, and goats. Explain that zoo animals are wild animals that are dangerous and cannot be domesticated. List examples of zoo animals such as lions, monkeys, elephants, and snakes.",
+      "sub_mission_id": "lvCALDe7CSU_subm1",
+      "sub_mission_title": "Theme: animals / examples / zoo",
+      "sub_mission_time": {
+        "start": 92.57,
+        "end": 206.38
+      }
+    }
+  ],
+  "mission_id": "lvCALDe7CSU",
+  "mission_title": "Classifying Pets Farm Animals and Zoo Animals",
+  "sub_missions": [
+    {
+      "sub_mission_id": "lvCALDe7CSU_subm0",
+      "sub_mission_title": "Theme: animals / pets / birds",
+      "time_start": 11.15,
+      "time_end": 89.95,
+      "block_id": 0
+    },
+    {
+      "sub_mission_id": "lvCALDe7CSU_subm1",
+      "sub_mission_title": "Theme: animals / examples / zoo",
+      "time_start": 92.57,
+      "time_end": 206.38,
+      "block_id": 1
+    }
+  ]
+}

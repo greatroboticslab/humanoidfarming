@@ -1,0 +1,159 @@
+{
+  "index": "V0RcTomj8Y8",
+  "title": "Fleckbee Cattle Heritage Celebration",
+  "url": "https://www.youtube.com/watch?v=V0RcTomj8Y8",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Emphasize the significance of maintaining heritage in fleckbee cattle ownership.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 3
+      }
+    }
+  ],
+  "num_threads": 1,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 0.05,
+      "time_end": 12.05,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 3
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Emphasize the significance of maintaining heritage in fleckbee cattle ownership.",
+          "sub_index": 0,
+          "text": "Explain that owning fleckbee cattle is more than a business venture.",
+          "start": 0.05,
+          "end": 3.05,
+          "segment_ids": [
+            0
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Emphasize the significance of maintaining heritage in fleckbee cattle ownership.",
+          "sub_index": 1,
+          "text": "Highlight the importance of preserving quality and excellence in the fleckbee cattle tradition.",
+          "start": 3.05,
+          "end": 7.05,
+          "segment_ids": [
+            1
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Emphasize the significance of maintaining heritage in fleckbee cattle ownership.",
+          "sub_index": 2,
+          "text": "Encourage celebrating the historical significance of these remarkable animals.",
+          "start": 7.05,
+          "end": 12.05,
+          "segment_ids": [
+            2
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 0.05,
+          "time_end": 12.05,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            },
+            {
+              "task_index": 0,
+              "sub_index": 1
+            },
+            {
+              "task_index": 0,
+              "sub_index": 2
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Preserving and Celebrating Fleckbee Cattle",
+        "thread_summary": "The video emphasizes the importance of maintaining the quality and historical significance of fleckbee cattle, going beyond a simple business perspective.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The next step logically follows by elaborating on the quality and excellence that is central to owning fleckbee cattle."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "The final step builds on the importance of quality and tradition by encouraging the celebration of the historical significance of these animals."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,302 @@
+{
+  "index": "fmqa9xYzWzw",
+  "title": "Cassava: Nutritional Powerhouse and Profitable Crop",
+  "url": "https://www.youtube.com/watch?v=fmqa9xYzWzw",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Highlight the natural resilience and nutritional value of cassava.",
+      "task_category": "perception",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 2,
+        "planning": 0,
+        "narration": 1
+      }
+    },
+    {
+      "task_index": 1,
+      "task_text": "Emphasize the economic opportunities associated with cassava cultivation.",
+      "task_category": "planning",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 1
+      }
+    }
+  ],
+  "num_threads": 2,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 0.0,
+      "time_end": 14.84,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "planning",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Highlight the natural resilience and nutritional value of cassava.",
+          "sub_index": 0,
+          "text": "Observe how cassava thrives without fertilizers, manure, or pesticides.",
+          "start": 0.0,
+          "end": 9.4,
+          "segment_ids": [
+            0,
+            1
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Highlight the natural resilience and nutritional value of cassava.",
+          "sub_index": 1,
+          "text": "Note that cassava stands tall even in droughts.",
+          "start": 9.4,
+          "end": 14.84,
+          "segment_ids": [
+            2
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 0.0,
+          "time_end": 9.4,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "narration",
+          "time_start": 9.4,
+          "time_end": 14.84,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Cassava Resilience and Growth",
+        "thread_summary": "This video segment highlights the ability of cassava to grow well under adverse conditions, specifically without the need for fertilizers, manure, or pesticides, and its ability to withstand droughts.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The next observation about cassava standing tall in droughts further emphasizes its resilience and ability to thrive in poor conditions, which was introduced in the previous subtask."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 1,
+      "time_start": 14.84,
+      "time_end": 36.44,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 2,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "perception",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Highlight the natural resilience and nutritional value of cassava.",
+          "sub_index": 2,
+          "text": "Notice the mention of cassava's health benefits and global importance.",
+          "start": 14.84,
+          "end": 19.84,
+          "segment_ids": [
+            3,
+            4
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "notice"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Emphasize the economic opportunities associated with cassava cultivation.",
+          "sub_index": 0,
+          "text": "Note the potential for financial prosperity from cultivating cassava.",
+          "start": 27.48,
+          "end": 31.12,
+          "segment_ids": [
+            7
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Emphasize the economic opportunities associated with cassava cultivation.",
+          "sub_index": 1,
+          "text": "Observe the combination of nutritional and monetary benefits.",
+          "start": 31.12,
+          "end": 36.44,
+          "segment_ids": [
+            8
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 14.84,
+          "time_end": 19.84,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 2
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "narration",
+          "time_start": 27.48,
+          "time_end": 31.12,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 2,
+          "category": "perception",
+          "time_start": 31.12,
+          "time_end": 36.44,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Benefits and Potential of Cultivating Cassava",
+        "thread_summary": "The video discusses the health benefits and global importance of cassava, as well as the potential for financial prosperity from cultivating it.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The mention of cassava's health benefits and global importance sets the stage for discussing its potential financial benefits."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "After noting the potential financial prosperity from cultivating cassava, the next step is to observe the combination of nutritional and monetary benefits."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 3.82,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    }
+  ]
+}

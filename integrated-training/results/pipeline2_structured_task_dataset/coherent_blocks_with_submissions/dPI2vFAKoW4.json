@@ -1,0 +1,156 @@
+{
+  "index": "dPI2vFAKoW4",
+  "title": "Clean Up Doubtful Damp Spot Effortlessly In 4 Steps",
+  "url": "https://www.youtube.com/watch?v=dPI2vFAKoW4",
+  "params": {
+    "use_links": true,
+    "max_time_span": 180.0,
+    "max_gap": 30.0,
+    "min_overlap": 0.06,
+    "narration_merge_overlap": 0.12,
+    "max_block_units": 12,
+    "use_llm": true,
+    "model": "Qwen/Qwen2.5-7B-Instruct"
+  },
+  "debug": {
+    "link_grouping": {
+      "num_units": 4,
+      "num_unit_edges": 2,
+      "num_components": 2,
+      "num_blocks_after_caps": 2
+    }
+  },
+  "num_blocks": 3,
+  "blocks": [
+    {
+      "block_id": 0,
+      "time_start": 0.0,
+      "time_end": 1.8,
+      "dominant_category": "narration",
+      "category_distribution": {
+        "narration": 1
+      },
+      "units": [
+        {
+          "unit_id": "th0_g0",
+          "thread_index": 0,
+          "group_id": 0,
+          "category": "narration"
+        }
+      ],
+      "subtask_refs": [
+        {
+          "task_index": 0,
+          "sub_index": 0
+        }
+      ],
+      "block_preview_text": "Note the initial action of taking a photo of the crop.",
+      "sub_mission_id": "dPI2vFAKoW4_subm0",
+      "sub_mission_title": "Theme: action / crop / initial",
+      "sub_mission_time": {
+        "start": 0.0,
+        "end": 1.8
+      }
+    },
+    {
+      "block_id": 1,
+      "time_start": 81.54,
+      "time_end": 111.54,
+      "dominant_category": "narration",
+      "category_distribution": {
+        "narration": 1
+      },
+      "units": [
+        {
+          "unit_id": "th1_g0",
+          "thread_index": 1,
+          "group_id": 0,
+          "category": "narration"
+        }
+      ],
+      "subtask_refs": [
+        {
+          "task_index": 0,
+          "sub_index": 1
+        },
+        {
+          "task_index": 0,
+          "sub_index": 2
+        }
+      ],
+      "block_preview_text": "Explain the subsequent steps of making the crop rot, soil consumption, and body part decomposition. Mention the effects of certain chemicals on rotting, soil, and body parts.",
+      "sub_mission_id": "dPI2vFAKoW4_subm1",
+      "sub_mission_title": "Theme: body / certain / chemicals",
+      "sub_mission_time": {
+        "start": 81.54,
+        "end": 111.54
+      }
+    },
+    {
+      "block_id": 2,
+      "time_start": 126.98,
+      "time_end": 135.98,
+      "dominant_category": "planning",
+      "category_distribution": {
+        "perception": 1,
+        "narration": 1
+      },
+      "units": [
+        {
+          "unit_id": "th1_g1",
+          "thread_index": 1,
+          "group_id": 1,
+          "category": "perception"
+        },
+        {
+          "unit_id": "th1_g2",
+          "thread_index": 1,
+          "group_id": 2,
+          "category": "narration"
+        }
+      ],
+      "subtask_refs": [
+        {
+          "task_index": 1,
+          "sub_index": 0
+        },
+        {
+          "task_index": 1,
+          "sub_index": 1
+        }
+      ],
+      "block_preview_text": "Observe the large amount of plastic and medical waste in the environment. Note the significant levels of plastic and medical waste.",
+      "sub_mission_id": "dPI2vFAKoW4_subm2",
+      "sub_mission_title": "Theme: medical / plastic / waste",
+      "sub_mission_time": {
+        "start": 126.98,
+        "end": 135.98
+      }
+    }
+  ],
+  "mission_id": "dPI2vFAKoW4",
+  "mission_title": "Clean Up Doubtful Damp Spot Effortlessly In 4 Steps",
+  "sub_missions": [
+    {
+      "sub_mission_id": "dPI2vFAKoW4_subm0",
+      "sub_mission_title": "Theme: action / crop / initial",
+      "time_start": 0.0,
+      "time_end": 1.8,
+      "block_id": 0
+    },
+    {
+      "sub_mission_id": "dPI2vFAKoW4_subm1",
+      "sub_mission_title": "Theme: body / certain / chemicals",
+      "time_start": 81.54,
+      "time_end": 111.54,
+      "block_id": 1
+    },
+    {
+      "sub_mission_id": "dPI2vFAKoW4_subm2",
+      "sub_mission_title": "Theme: medical / plastic / waste",
+      "time_start": 126.98,
+      "time_end": 135.98,
+      "block_id": 2
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "index": "YwZtvMELRrM",
+  "title": "When to Cut Hay for Maximum Quality",
+  "url": "https://www.youtube.com/watch?v=YwZtvMELRrM",
+  "params": {
+    "use_links": true,
+    "max_time_span": 180.0,
+    "max_gap": 30.0,
+    "min_overlap": 0.06,
+    "narration_merge_overlap": 0.12,
+    "max_block_units": 12,
+    "use_llm": true,
+    "model": "Qwen/Qwen2.5-7B-Instruct"
+  },
+  "debug": {
+    "link_grouping": {
+      "num_units": 3,
+      "num_unit_edges": 2,
+      "num_components": 1,
+      "num_blocks_after_caps": 2
+    }
+  },
+  "num_blocks": 2,
+  "blocks": [
+    {
+      "block_id": 0,
+      "time_start": 3.15,
+      "time_end": 145.19,
+      "dominant_category": "planning",
+      "category_distribution": {
+        "narration": 1,
+        "perception": 1
+      },
+      "units": [
+        {
+          "unit_id": "th0_g0",
+          "thread_index": 0,
+          "group_id": 0,
+          "category": "narration"
+        },
+        {
+          "unit_id": "th0_g1",
+          "thread_index": 0,
+          "group_id": 1,
+          "category": "perception"
+        }
+      ],
+      "subtask_refs": [
+        {
+          "task_index": 0,
+          "sub_index": 0
+        },
+        {
+          "task_index": 0,
+          "sub_index": 1
+        },
+        {
+          "task_index": 1,
+          "sub_index": 0
+        }
+      ],
+      "block_preview_text": "Note the typical timeline for hay harvest, checking seed head development. Describe the benefits of high moisture hay versus dry hay. Observe the effect of dry weather on hay cutting decisions.",
+      "sub_mission_id": "YwZtvMELRrM_subm0",
+      "sub_mission_title": "Theme: hay / dry / benefits",
+      "sub_mission_time": {
+        "start": 3.15,
+        "end": 145.19
+      }
+    },
+    {
+      "block_id": 1,
+      "time_start": 145.19,
+      "time_end": 234.19,
+      "dominant_category": "narration",
+      "category_distribution": {
+        "narration": 1
+      },
+      "units": [
+        {
+          "unit_id": "th0_g2",
+          "thread_index": 0,
+          "group_id": 2,
+          "category": "narration"
+        }
+      ],
+      "subtask_refs": [
+        {
+          "task_index": 1,
+          "sub_index": 1
+        },
+        {
+          "task_index": 2,
+          "sub_index": 0
+        },
+        {
+          "task_index": 2,
+          "sub_index": 1
+        }
+      ],
+      "block_preview_text": "Mention the importance of limiting hay cutting during hot, dry periods. Note the recommended moisture content for stored hay. Highlight the importance of controlling moisture during baling.",
+      "sub_mission_id": "YwZtvMELRrM_subm1",
+      "sub_mission_title": "Theme: during / hay / moisture",
+      "sub_mission_time": {
+        "start": 145.19,
+        "end": 234.19
+      }
+    }
+  ],
+  "mission_id": "YwZtvMELRrM",
+  "mission_title": "When to Cut Hay for Maximum Quality",
+  "sub_missions": [
+    {
+      "sub_mission_id": "YwZtvMELRrM_subm0",
+      "sub_mission_title": "Theme: hay / dry / benefits",
+      "time_start": 3.15,
+      "time_end": 145.19,
+      "block_id": 0
+    },
+    {
+      "sub_mission_id": "YwZtvMELRrM_subm1",
+      "sub_mission_title": "Theme: during / hay / moisture",
+      "time_start": 145.19,
+      "time_end": 234.19,
+      "block_id": 1
+    }
+  ]
+}

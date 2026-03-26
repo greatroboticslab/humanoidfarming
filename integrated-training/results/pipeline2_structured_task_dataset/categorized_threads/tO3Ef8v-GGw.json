@@ -1,0 +1,355 @@
+{
+  "index": "tO3Ef8v-GGw",
+  "title": "DIY Vertical Herb Garden Project",
+  "url": "https://www.youtube.com/watch?v=tO3Ef8v-GGw",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Describe the initial setup needed for a vertical garden.",
+      "task_category": "planning",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 1
+      }
+    },
+    {
+      "task_index": 1,
+      "task_text": "Detail the installation of the small pots.",
+      "task_category": "planning",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 1,
+        "narration": 1
+      }
+    },
+    {
+      "task_index": 2,
+      "task_text": "Describe the final steps to complete the vertical garden.",
+      "task_category": "motion",
+      "evidence_counts": {
+        "motion": 2,
+        "perception": 0,
+        "planning": 0,
+        "narration": 0
+      }
+    }
+  ],
+  "num_threads": 2,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 0.0,
+      "time_end": 27.68,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 1,
+        "narration": 2
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the initial setup needed for a vertical garden.",
+          "sub_index": 0,
+          "text": "Measure and mark the spots for attaching small pots on a reclaimed wood plank.",
+          "start": 0.0,
+          "end": 6.32,
+          "segment_ids": [
+            0,
+            1,
+            2
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "measure"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Describe the initial setup needed for a vertical garden.",
+          "sub_index": 1,
+          "text": "Drill holes at the marked spots for securing the pots.",
+          "start": 6.32,
+          "end": 16.6,
+          "segment_ids": [
+            3,
+            4
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Detail the installation of the small pots.",
+          "sub_index": 0,
+          "text": "Screw small pots into the drilled holes to ensure they are secure.",
+          "start": 16.6,
+          "end": 22.8,
+          "segment_ids": [
+            5,
+            6
+          ],
+          "subtask_category": "planning",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [
+              "screw"
+            ],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [
+              "to ensure"
+            ],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Detail the installation of the small pots.",
+          "sub_index": 1,
+          "text": "Attach hooks or brackets to the top of the plank for hanging the garden.",
+          "start": 22.8,
+          "end": 27.68,
+          "segment_ids": [
+            7,
+            8
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 0.0,
+          "time_end": 6.32,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "narration",
+          "time_start": 6.32,
+          "time_end": 16.6,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 1
+            }
+          ]
+        },
+        {
+          "group_id": 2,
+          "category": "planning",
+          "time_start": 16.6,
+          "time_end": 22.8,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 3,
+          "category": "narration",
+          "time_start": 22.8,
+          "time_end": 27.68,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "DIY Garden Setup",
+        "thread_summary": "This video segment describes the process of setting up a hanging garden on a reclaimed wood plank, including marking, drilling, securing pots, and attaching hanging mechanisms.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "After marking the spots, the next step is to drill holes to prepare for attaching the pots."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "Drilling holes is necessary to secure the pots into the wood plank."
+          },
+          {
+            "from": 2,
+            "to": 3,
+            "link": "Once the pots are secured, the next step is to attach hooks or brackets for hanging the garden."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 1,
+      "time_start": 27.68,
+      "time_end": 37.72,
+      "thread_category_distribution": {
+        "motion": 2,
+        "perception": 0,
+        "planning": 0,
+        "narration": 0
+      },
+      "thread_dominant_category": "motion",
+      "subtasks": [
+        {
+          "task_index": 2,
+          "task_text": "Describe the final steps to complete the vertical garden.",
+          "sub_index": 0,
+          "text": "Fill the pots with soil and plant your chosen herbs.",
+          "start": 27.68,
+          "end": 33.24,
+          "segment_ids": [
+            9,
+            10
+          ],
+          "subtask_category": "motion",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [
+              "fill",
+              "plant"
+            ],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 2,
+          "task_text": "Describe the final steps to complete the vertical garden.",
+          "sub_index": 1,
+          "text": "Water the plants and place the garden in a sunny location.",
+          "start": 33.24,
+          "end": 37.72,
+          "segment_ids": [
+            11,
+            12
+          ],
+          "subtask_category": "motion",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [
+              "place"
+            ],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "motion",
+          "time_start": 27.68,
+          "time_end": 37.72,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 0
+            },
+            {
+              "task_index": 2,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Planting and Caring for Herbs",
+        "thread_summary": "This video segment describes the process of planting herbs in pots and providing initial care.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "After planting the herbs in the pots, it is necessary to water them and place them in a sunny location to ensure they grow well."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    }
+  ]
+}

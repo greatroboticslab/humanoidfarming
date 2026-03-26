@@ -1,0 +1,127 @@
+{
+  "index": "kyKNrjMjmIU",
+  "title": "Shallow Corn Planting Depth Decreases Yield Uniformity",
+  "url": "https://www.youtube.com/watch?v=kyKNrjMjmIU",
+  "params": {
+    "use_links": true,
+    "max_time_span": 180.0,
+    "max_gap": 30.0,
+    "min_overlap": 0.06,
+    "narration_merge_overlap": 0.12,
+    "max_block_units": 12,
+    "use_llm": true,
+    "model": "Qwen/Qwen2.5-7B-Instruct"
+  },
+  "debug": {
+    "link_grouping": {
+      "num_units": 3,
+      "num_unit_edges": 1,
+      "num_components": 2,
+      "num_blocks_after_caps": 2
+    }
+  },
+  "num_blocks": 2,
+  "blocks": [
+    {
+      "block_id": 0,
+      "time_start": 33.84,
+      "time_end": 50.36,
+      "dominant_category": "planning",
+      "category_distribution": {
+        "planning": 1,
+        "narration": 1
+      },
+      "units": [
+        {
+          "unit_id": "th0_g0",
+          "thread_index": 0,
+          "group_id": 0,
+          "category": "planning"
+        },
+        {
+          "unit_id": "th0_g1",
+          "thread_index": 0,
+          "group_id": 1,
+          "category": "narration"
+        }
+      ],
+      "subtask_refs": [
+        {
+          "task_index": 0,
+          "sub_index": 0
+        },
+        {
+          "task_index": 1,
+          "sub_index": 0
+        }
+      ],
+      "block_preview_text": "Describe planting corn deeper can sometimes lead to higher yields due to more uniform emergence. Discuss the notion that uniform emergence is more important than a perfectly straight row of corn plants.",
+      "sub_mission_id": "kyKNrjMjmIU_subm0",
+      "sub_mission_title": "Theme: corn / emergence / more",
+      "sub_mission_time": {
+        "start": 33.84,
+        "end": 50.36
+      }
+    },
+    {
+      "block_id": 1,
+      "time_start": 83.68,
+      "time_end": 122.44,
+      "dominant_category": "narration",
+      "category_distribution": {
+        "narration": 1
+      },
+      "units": [
+        {
+          "unit_id": "th1_g0",
+          "thread_index": 1,
+          "group_id": 0,
+          "category": "narration"
+        }
+      ],
+      "subtask_refs": [
+        {
+          "task_index": 0,
+          "sub_index": 1
+        },
+        {
+          "task_index": 1,
+          "sub_index": 2
+        },
+        {
+          "task_index": 0,
+          "sub_index": 2
+        },
+        {
+          "task_index": 1,
+          "sub_index": 1
+        }
+      ],
+      "block_preview_text": "Elaborate on the surprising finding that deeper planting can actually narrow the window of emergence variability, enhancing yield. Illustrate the impact of delayed emergence on earlier corn flowering and, consequently, potential yield. Explain the observed difference in yield between plants that emerge on day one and those that emerge on day three. Present the experimental evidence showing a 12% yield difference between plants emerging on day one and day three.",
+      "sub_mission_id": "kyKNrjMjmIU_subm1",
+      "sub_mission_title": "Theme: day / yield / between",
+      "sub_mission_time": {
+        "start": 83.68,
+        "end": 122.44
+      }
+    }
+  ],
+  "mission_id": "kyKNrjMjmIU",
+  "mission_title": "Shallow Corn Planting Depth Decreases Yield Uniformity",
+  "sub_missions": [
+    {
+      "sub_mission_id": "kyKNrjMjmIU_subm0",
+      "sub_mission_title": "Theme: corn / emergence / more",
+      "time_start": 33.84,
+      "time_end": 50.36,
+      "block_id": 0
+    },
+    {
+      "sub_mission_id": "kyKNrjMjmIU_subm1",
+      "sub_mission_title": "Theme: day / yield / between",
+      "time_start": 83.68,
+      "time_end": 122.44,
+      "block_id": 1
+    }
+  ]
+}

@@ -1,0 +1,603 @@
+{
+  "index": "_DOFRQZb7vk",
+  "title": "Different Chicken Breeds Compared",
+  "url": "https://www.youtube.com/watch?v=_DOFRQZb7vk",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Describe the process of choosing and raising chickens.",
+      "task_category": "planning",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 1,
+        "narration": 1
+      }
+    },
+    {
+      "task_index": 1,
+      "task_text": "Present the benefits of raising Bodrock chicks.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      }
+    },
+    {
+      "task_index": 2,
+      "task_text": "Demonstrate the egg-laying process and yield of Bodrock chicks.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      }
+    },
+    {
+      "task_index": 3,
+      "task_text": "Summarize the overall benefits and user interaction.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 3
+      }
+    }
+  ],
+  "num_threads": 5,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 12.0,
+      "time_end": 77.18,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 1,
+        "narration": 1
+      },
+      "thread_dominant_category": "planning",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the process of choosing and raising chickens.",
+          "sub_index": 0,
+          "text": "Mention the Bodrock chicks breed and explain why they were chosen.",
+          "start": 12.0,
+          "end": 77.18,
+          "segment_ids": [
+            4,
+            5,
+            6,
+            7,
+            17,
+            18,
+            19
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Describe the process of choosing and raising chickens.",
+          "sub_index": 1,
+          "text": "Compare Bodrock chicks to other breeds like Americanas and White Rocks.",
+          "start": 40.18,
+          "end": 68.18,
+          "segment_ids": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "subtask_category": "planning",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [
+              "compare"
+            ],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 12.0,
+          "time_end": 77.18,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "planning",
+          "time_start": 40.18,
+          "time_end": 68.18,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Comparison of Bodrock Chicks Breed",
+        "thread_summary": "The video discusses the Bodrock chicks breed and compares them to other breeds like Americanas and White Rocks.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The next step logically follows by providing a comparison to other breeds after explaining the chosen breed."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": -37.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 1,
+      "time_start": 121.75,
+      "time_end": 138.75,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 1,
+          "task_text": "Present the benefits of raising Bodrock chicks.",
+          "sub_index": 0,
+          "text": "Highlight the friendly and dashing nature of Bodrock chicks.",
+          "start": 121.75,
+          "end": 138.75,
+          "segment_ids": [
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 121.75,
+          "time_end": 138.75,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 0
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Describing Bodrock Chicks' Personality",
+        "thread_summary": "The video segment focuses on highlighting the friendly and dashing nature of Bodrock chicks.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 2,
+      "time_start": 173.06,
+      "time_end": 213.22,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 1,
+          "task_text": "Present the benefits of raising Bodrock chicks.",
+          "sub_index": 1,
+          "text": "Describe how Bodrock chicks help with pest control.",
+          "start": 173.06,
+          "end": 213.22,
+          "segment_ids": [
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 173.06,
+          "time_end": 213.22,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Bodrock Chicks and Pest Control",
+        "thread_summary": "The video segment discusses the role of Bodrock chicks in pest control.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 3,
+      "time_start": 250.14,
+      "time_end": 289.14,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 3,
+          "task_text": "Summarize the overall benefits and user interaction.",
+          "sub_index": 0,
+          "text": "Explain why raising chickens is beneficial.",
+          "start": 250.14,
+          "end": 289.14,
+          "segment_ids": [
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 250.14,
+          "time_end": 289.14,
+          "subtask_refs": [
+            {
+              "task_index": 3,
+              "sub_index": 0
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Benefits of Raising Chickens",
+        "thread_summary": "The subtasks discuss the advantages of keeping chickens, such as egg production, cost savings, and environmental benefits.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 4,
+      "time_start": 254.14,
+      "time_end": 338.14,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 4
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 2,
+          "task_text": "Demonstrate the egg-laying process and yield of Bodrock chicks.",
+          "sub_index": 1,
+          "text": "Mention the increasing egg-laying rate in early spring.",
+          "start": 254.14,
+          "end": 268.14,
+          "segment_ids": [
+            71,
+            72,
+            73,
+            74
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 2,
+          "task_text": "Demonstrate the egg-laying process and yield of Bodrock chicks.",
+          "sub_index": 0,
+          "text": "Show numerous Bodrock chicks laying eggs.",
+          "start": 279.14,
+          "end": 307.14,
+          "segment_ids": [
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 3,
+          "task_text": "Summarize the overall benefits and user interaction.",
+          "sub_index": 1,
+          "text": "Encourage viewers to raise Icelandic chicks.",
+          "start": 279.14,
+          "end": 326.14,
+          "segment_ids": [
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 3,
+          "task_text": "Summarize the overall benefits and user interaction.",
+          "sub_index": 2,
+          "text": "Provide details on how to submit responses.",
+          "start": 317.14,
+          "end": 338.14,
+          "segment_ids": [
+            89,
+            90,
+            91,
+            92,
+            93,
+            94
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 254.14,
+          "time_end": 338.14,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 1
+            },
+            {
+              "task_index": 2,
+              "sub_index": 0
+            },
+            {
+              "task_index": 3,
+              "sub_index": 1
+            },
+            {
+              "task_index": 3,
+              "sub_index": 2
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Egg-laying and Chick Raising",
+        "thread_summary": "The video discusses the increasing egg-laying rate of Bodrock chicks in early spring and encourages viewers to raise Icelandic chicks, providing a way to submit responses.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The mention of the increasing egg-laying rate in early spring naturally leads to showing numerous Bodrock chicks laying eggs."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "After showing the chicks laying eggs, it makes sense to encourage viewers to raise Icelandic chicks, as the video is likely about raising chicks in general."
+          },
+          {
+            "from": 2,
+            "to": 3,
+            "link": "Encouraging viewers to raise chicks logically leads to providing a way to submit responses, likely for a contest or survey."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": -8.667,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    }
+  ]
+}

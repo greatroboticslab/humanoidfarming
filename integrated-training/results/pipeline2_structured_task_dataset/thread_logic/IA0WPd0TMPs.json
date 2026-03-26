@@ -1,0 +1,109 @@
+{
+  "index": "IA0WPd0TMPs",
+  "title": "Jesse's Three Year Crop Rotation Success Story",
+  "url": "https://www.youtube.com/watch?v=IA0WPd0TMPs",
+  "num_threads": 2,
+  "threads_with_logic": [
+    {
+      "thread_index": 0,
+      "time_start": 41.0,
+      "time_end": 112.0,
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Explain the three-year crop rotation and its benefits.",
+          "sub_index": 0,
+          "text": "Describe the three-year rotation of corn, soybeans, and oats.",
+          "start": 41.0,
+          "end": 63.0,
+          "segment_ids": [
+            6,
+            7,
+            9
+          ]
+        },
+        {
+          "task_index": 0,
+          "task_text": "Explain the three-year crop rotation and its benefits.",
+          "sub_index": 1,
+          "text": "Highlight the increase in soybean and corn yields after introducing oats.",
+          "start": 63.0,
+          "end": 88.0,
+          "segment_ids": [
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "task_index": 1,
+          "task_text": "Describe the role of cover crops and livestock in improving soil health and profitability.",
+          "sub_index": 1,
+          "text": "Show the difference in soil health and profitability by introducing livestock.",
+          "start": 103.0,
+          "end": 112.0,
+          "segment_ids": [
+            15
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Impact of Crop Rotation on Farming",
+        "thread_summary": "The video discusses the benefits of rotating crops, specifically corn, soybeans, and oats, and how introducing livestock can further enhance soil health and profitability.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The subtask about crop rotation (corn, soybeans, and oats) sets the context for the next subtask, which highlights the yield improvements after introducing oats."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "The subtask on yield improvements logically leads to the next one, which shows the broader benefits of the rotation, including soil health and profitability, especially when livestock are introduced."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "_raw": null
+    },
+    {
+      "thread_index": 1,
+      "time_start": 148.0,
+      "time_end": 156.0,
+      "subtasks": [
+        {
+          "task_index": 1,
+          "task_text": "Describe the role of cover crops and livestock in improving soil health and profitability.",
+          "sub_index": 0,
+          "text": "Explain the use of cover crops like rye and rapeseed after oats.",
+          "start": 148.0,
+          "end": 156.0,
+          "segment_ids": [
+            21
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Explanation of Cover Crops Usage",
+        "thread_summary": "The subtasks describe the explanation of using cover crops like rye and rapeseed after oats.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The next subtask logically follows as it continues to explain the use of cover crops after oats."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "_raw": null
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "index": "enwuAjRfKPY",
+  "title": "City vs Country Living Dynamics",
+  "url": "https://www.youtube.com/watch?v=enwuAjRfKPY",
+  "params": {
+    "use_links": true,
+    "max_time_span": 180.0,
+    "max_gap": 30.0,
+    "min_overlap": 0.06,
+    "narration_merge_overlap": 0.12,
+    "max_block_units": 12,
+    "use_llm": true,
+    "model": "Qwen/Qwen2.5-7B-Instruct"
+  },
+  "debug": {
+    "link_grouping": {
+      "num_units": 4,
+      "num_unit_edges": 1,
+      "num_components": 3,
+      "num_blocks_after_caps": 3
+    }
+  },
+  "num_blocks": 3,
+  "blocks": [
+    {
+      "block_id": 0,
+      "time_start": 0.94,
+      "time_end": 61.94,
+      "dominant_category": "planning",
+      "category_distribution": {
+        "planning": 1
+      },
+      "units": [
+        {
+          "unit_id": "th0_g0",
+          "thread_index": 0,
+          "group_id": 0,
+          "category": "planning"
+        }
+      ],
+      "subtask_refs": [
+        {
+          "task_index": 0,
+          "sub_index": 0
+        }
+      ],
+      "block_preview_text": "Describe the demographic characteristics that define rural and urban areas.",
+      "sub_mission_id": "enwuAjRfKPY_subm0",
+      "sub_mission_title": "Theme: areas / characteristics / define",
+      "sub_mission_time": {
+        "start": 0.94,
+        "end": 61.94
+      }
+    },
+    {
+      "block_id": 1,
+      "time_start": 28.94,
+      "time_end": 101.94,
+      "dominant_category": "narration",
+      "category_distribution": {
+        "narration": 1
+      },
+      "units": [
+        {
+          "unit_id": "th1_g0",
+          "thread_index": 1,
+          "group_id": 0,
+          "category": "narration"
+        }
+      ],
+      "subtask_refs": [
+        {
+          "task_index": 1,
+          "sub_index": 0
+        }
+      ],
+      "block_preview_text": "Detail the change in population distribution over the past 200 years.",
+      "sub_mission_id": "enwuAjRfKPY_subm1",
+      "sub_mission_title": "Theme: change / detail / distribution",
+      "sub_mission_time": {
+        "start": 28.94,
+        "end": 101.94
+      }
+    },
+    {
+      "block_id": 2,
+      "time_start": 103.94,
+      "time_end": 131.94,
+      "dominant_category": "planning",
+      "category_distribution": {
+        "planning": 1,
+        "narration": 1
+      },
+      "units": [
+        {
+          "unit_id": "th2_g0",
+          "thread_index": 2,
+          "group_id": 0,
+          "category": "planning"
+        },
+        {
+          "unit_id": "th2_g1",
+          "thread_index": 2,
+          "group_id": 1,
+          "category": "narration"
+        }
+      ],
+      "subtask_refs": [
+        {
+          "task_index": 2,
+          "sub_index": 0
+        },
+        {
+          "task_index": 3,
+          "sub_index": 0
+        }
+      ],
+      "block_preview_text": "Mention jobs as the primary reason for moving to cities. Note the projection for continued urbanization.",
+      "sub_mission_id": "enwuAjRfKPY_subm2",
+      "sub_mission_title": "Theme: cities / continued / jobs",
+      "sub_mission_time": {
+        "start": 103.94,
+        "end": 131.94
+      }
+    }
+  ],
+  "mission_id": "enwuAjRfKPY",
+  "mission_title": "City vs Country Living Dynamics",
+  "sub_missions": [
+    {
+      "sub_mission_id": "enwuAjRfKPY_subm0",
+      "sub_mission_title": "Theme: areas / characteristics / define",
+      "time_start": 0.94,
+      "time_end": 61.94,
+      "block_id": 0
+    },
+    {
+      "sub_mission_id": "enwuAjRfKPY_subm1",
+      "sub_mission_title": "Theme: change / detail / distribution",
+      "time_start": 28.94,
+      "time_end": 101.94,
+      "block_id": 1
+    },
+    {
+      "sub_mission_id": "enwuAjRfKPY_subm2",
+      "sub_mission_title": "Theme: cities / continued / jobs",
+      "time_start": 103.94,
+      "time_end": 131.94,
+      "block_id": 2
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "index": "mmzSeeCYv1s",
+  "title": "Tractor Revolutionizing Farm Efficiency",
+  "url": "https://www.youtube.com/watch?v=mmzSeeCYv1s",
+  "num_threads": 1,
+  "threads_with_logic": [
+    {
+      "thread_index": 0,
+      "time_start": 1.04,
+      "time_end": 29.84,
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the efficiency increase provided by the new tractor.",
+          "sub_index": 0,
+          "text": "Note the new tractor can complete a task that previously took 45 minutes in just 45 seconds.",
+          "start": 1.04,
+          "end": 12.96,
+          "segment_ids": [
+            0,
+            1
+          ]
+        },
+        {
+          "task_index": 1,
+          "task_text": "Explain the source of increased food for school meal programs.",
+          "sub_index": 0,
+          "text": "Highlight that food for school meal programs comes from increased yield on the tractor.",
+          "start": 12.96,
+          "end": 26.24,
+          "segment_ids": [
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "task_index": 1,
+          "task_text": "Explain the source of increased food for school meal programs.",
+          "sub_index": 1,
+          "text": "Mention the vast area where the tractor is increasing food production.",
+          "start": 26.24,
+          "end": 29.84,
+          "segment_ids": [
+            5
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Tractor's Impact on Food Production",
+        "thread_summary": "The video highlights how a new tractor can significantly reduce the time needed for tasks and increase food production for school meal programs.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The subtask about the tractor's speed in completing tasks sets the stage for explaining its broader impact on food production."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "After highlighting the increased efficiency in food production, the next subtask provides the specific area where this increased production is taking place."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [
+            {
+              "insert_after": 1,
+              "text": "This increased yield is particularly significant for school meal programs, ensuring a steady supply of nutritious food."
+            }
+          ],
+          "revised_subtasks": []
+        }
+      },
+      "_raw": null
+    }
+  ]
+}

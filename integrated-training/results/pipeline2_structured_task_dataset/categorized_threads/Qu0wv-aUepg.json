@@ -1,0 +1,249 @@
+{
+  "index": "Qu0wv-aUepg",
+  "title": "Fishes Burying for Chinese Ginger Farms Reasons Explained",
+  "url": "https://www.youtube.com/watch?v=Qu0wv-aUepg",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Describe the agricultural practice of burying fish with ginger plants.",
+      "task_category": "planning",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 1
+      }
+    },
+    {
+      "task_index": 1,
+      "task_text": "Explain the resulting benefits of this farming technique.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 3
+      }
+    }
+  ],
+  "num_threads": 1,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 0.0,
+      "time_end": 16.72,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 4
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the agricultural practice of burying fish with ginger plants.",
+          "sub_index": 0,
+          "text": "Observe the people planting ginger and burying fish in the ground.",
+          "start": 0.0,
+          "end": 9.0,
+          "segment_ids": [
+            0,
+            1,
+            2
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Describe the agricultural practice of burying fish with ginger plants.",
+          "sub_index": 1,
+          "text": "Note the reasoning behind burying the fish with the ginger.",
+          "start": 5.64,
+          "end": 12.24,
+          "segment_ids": [
+            2,
+            3
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Explain the resulting benefits of this farming technique.",
+          "sub_index": 0,
+          "text": "Describe how the buried fish provide nutrition to the ginger plants.",
+          "start": 9.0,
+          "end": 12.24,
+          "segment_ids": [
+            3
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Explain the resulting benefits of this farming technique.",
+          "sub_index": 1,
+          "text": "Highlight the improved yield from this method.",
+          "start": 12.24,
+          "end": 14.12,
+          "segment_ids": [
+            4
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Explain the resulting benefits of this farming technique.",
+          "sub_index": 2,
+          "text": "Mention the final step of harvesting the ginger.",
+          "start": 14.12,
+          "end": 16.72,
+          "segment_ids": [
+            5
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [
+              "step"
+            ],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 0.0,
+          "time_end": 9.0,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "narration",
+          "time_start": 5.64,
+          "time_end": 16.72,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 1
+            },
+            {
+              "task_index": 1,
+              "sub_index": 0
+            },
+            {
+              "task_index": 1,
+              "sub_index": 1
+            },
+            {
+              "task_index": 1,
+              "sub_index": 2
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Ginger Farming Techniques",
+        "thread_summary": "This video segment describes a unique method of ginger farming where fish are buried with the ginger plants to provide nutrition, resulting in improved yield.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The observation of people planting ginger and burying fish sets the context for the reasoning behind this practice."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "The reasoning provided explains why the fish are buried with the ginger, leading to the next step of describing the nutritional benefits."
+          },
+          {
+            "from": 2,
+            "to": 3,
+            "link": "The description of how the buried fish provide nutrition logically leads to highlighting the improved yield from this method."
+          },
+          {
+            "from": 3,
+            "to": 4,
+            "link": "After discussing the benefits, the video concludes with the final step of harvesting the ginger."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": -1.65,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    }
+  ]
+}

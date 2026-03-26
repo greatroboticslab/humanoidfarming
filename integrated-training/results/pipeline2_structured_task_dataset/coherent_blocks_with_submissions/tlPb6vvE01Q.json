@@ -1,0 +1,114 @@
+{
+  "index": "tlPb6vvE01Q",
+  "title": "Farmers Market Harvest Celebration",
+  "url": "https://www.youtube.com/watch?v=tlPb6vvE01Q",
+  "params": {
+    "use_links": true,
+    "max_time_span": 180.0,
+    "max_gap": 30.0,
+    "min_overlap": 0.06,
+    "narration_merge_overlap": 0.12,
+    "max_block_units": 12,
+    "use_llm": true,
+    "model": "Qwen/Qwen2.5-7B-Instruct"
+  },
+  "debug": {
+    "link_grouping": {
+      "num_units": 2,
+      "num_unit_edges": 0
+    }
+  },
+  "num_blocks": 2,
+  "blocks": [
+    {
+      "block_id": 0,
+      "time_start": 3.96,
+      "time_end": 16.0,
+      "dominant_category": "narration",
+      "category_distribution": {
+        "narration": 1
+      },
+      "units": [
+        {
+          "unit_id": "th0_g0",
+          "thread_index": 0,
+          "group_id": 0,
+          "category": "narration"
+        }
+      ],
+      "subtask_refs": [
+        {
+          "task_index": 0,
+          "sub_index": 0
+        },
+        {
+          "task_index": 0,
+          "sub_index": 1
+        },
+        {
+          "task_index": 1,
+          "sub_index": 0
+        }
+      ],
+      "block_preview_text": "Describe the sorting process for peaches by size and quality. Highlight the display of sorted peanuts and peaches at the market. Mention the vibrant colors of the produce catching customers' attention at the market.",
+      "sub_mission_id": "tlPb6vvE01Q_subm0",
+      "sub_mission_title": "Theme: peaches / attention / catching",
+      "sub_mission_time": {
+        "start": 3.96,
+        "end": 16.0
+      }
+    },
+    {
+      "block_id": 1,
+      "time_start": 16.0,
+      "time_end": 45.44,
+      "dominant_category": "narration",
+      "category_distribution": {
+        "narration": 1
+      },
+      "units": [
+        {
+          "unit_id": "th1_g0",
+          "thread_index": 1,
+          "group_id": 0,
+          "category": "narration"
+        }
+      ],
+      "subtask_refs": [
+        {
+          "task_index": 1,
+          "sub_index": 1
+        },
+        {
+          "task_index": 2,
+          "sub_index": 0
+        }
+      ],
+      "block_preview_text": "Describe farmers proudly displaying their produce and sharing their dedication. Encourage supporting local farmers during the harvest season.",
+      "sub_mission_id": "tlPb6vvE01Q_subm1",
+      "sub_mission_title": "Theme: farmers / dedication / describe",
+      "sub_mission_time": {
+        "start": 16.0,
+        "end": 45.44
+      }
+    }
+  ],
+  "mission_id": "tlPb6vvE01Q",
+  "mission_title": "Farmers Market Harvest Celebration",
+  "sub_missions": [
+    {
+      "sub_mission_id": "tlPb6vvE01Q_subm0",
+      "sub_mission_title": "Theme: peaches / attention / catching",
+      "time_start": 3.96,
+      "time_end": 16.0,
+      "block_id": 0
+    },
+    {
+      "sub_mission_id": "tlPb6vvE01Q_subm1",
+      "sub_mission_title": "Theme: farmers / dedication / describe",
+      "time_start": 16.0,
+      "time_end": 45.44,
+      "block_id": 1
+    }
+  ]
+}

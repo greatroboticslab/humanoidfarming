@@ -1,0 +1,272 @@
+{
+  "index": "VQqq76JuDYE",
+  "title": "Asparagus Farming Harvest Innovation",
+  "url": "https://www.youtube.com/watch?v=VQqq76JuDYE",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Describe the asparagus cultivation process.",
+      "task_category": "planning",
+      "evidence_counts": {
+        "motion": 1,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      }
+    },
+    {
+      "task_index": 1,
+      "task_text": "Explain the harvesting method and the use of specialized machinery.",
+      "task_category": "motion",
+      "evidence_counts": {
+        "motion": 1,
+        "perception": 0,
+        "planning": 0,
+        "narration": 0
+      }
+    },
+    {
+      "task_index": 2,
+      "task_text": "Highlight the modern agricultural technology in asparagus farming.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      }
+    }
+  ],
+  "num_threads": 2,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 22.9,
+      "time_end": 44.2,
+      "thread_category_distribution": {
+        "motion": 2,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "motion",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the asparagus cultivation process.",
+          "sub_index": 0,
+          "text": "Farmers plant one-year-old asparagus crowns, which can produce for up to 20 years.",
+          "start": 22.9,
+          "end": 29.4,
+          "segment_ids": [
+            6,
+            7
+          ],
+          "subtask_category": "motion",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [
+              "plant"
+            ],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Describe the asparagus cultivation process.",
+          "sub_index": 1,
+          "text": "Farmers harvest asparagus daily, with each stalk potentially growing up to 10 inches per day.",
+          "start": 32.0,
+          "end": 38.9,
+          "segment_ids": [
+            9,
+            10
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Explain the harvesting method and the use of specialized machinery.",
+          "sub_index": 0,
+          "text": "Specialized machinery is used to cut asparagus stalks without damaging the plant.",
+          "start": 38.9,
+          "end": 44.2,
+          "segment_ids": [
+            11,
+            12
+          ],
+          "subtask_category": "motion",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [
+              "cut",
+              "plant"
+            ],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "motion",
+          "time_start": 22.9,
+          "time_end": 29.4,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "narration",
+          "time_start": 32.0,
+          "time_end": 38.9,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 1
+            }
+          ]
+        },
+        {
+          "group_id": 2,
+          "category": "motion",
+          "time_start": 38.9,
+          "time_end": 44.2,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 0
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Asparagus Farming Process",
+        "thread_summary": "This thread describes the process of planting and harvesting asparagus, including the use of specialized machinery.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The subtask about planting asparagus crowns (0) sets the stage for the subsequent subtask about harvesting (1), as the planted crowns will eventually grow into asparagus stalks."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "The daily harvesting process (1) is directly related to the growth of asparagus stalks (2), which is why specialized machinery is used to cut them without damaging the plant."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 1.3,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 1,
+      "time_start": 52.1,
+      "time_end": 55.7,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 2,
+          "task_text": "Highlight the modern agricultural technology in asparagus farming.",
+          "sub_index": 0,
+          "text": "Farmers combine traditional methods with advanced technology in asparagus farming.",
+          "start": 52.1,
+          "end": 55.7,
+          "segment_ids": [
+            15
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 52.1,
+          "time_end": 55.7,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 0
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Asparagus Farming Techniques",
+        "thread_summary": "The video discusses the integration of traditional methods with modern technology in asparagus farming.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    }
+  ]
+}

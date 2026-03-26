@@ -1,0 +1,349 @@
+{
+  "index": "satMCvVd_B0",
+  "title": "India's Agricultural Prowess Shines Globally",
+  "url": "https://www.youtube.com/watch?v=satMCvVd_B0",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Highlight the scale and diversity of India's agricultural sector.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      }
+    },
+    {
+      "task_index": 1,
+      "task_text": "Discuss the range of agricultural practices in India.",
+      "task_category": "perception",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 0
+      }
+    },
+    {
+      "task_index": 2,
+      "task_text": "Emphasize the employment and food security roles of India's agricultural sector.",
+      "task_category": "planning",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 1
+      }
+    },
+    {
+      "task_index": 3,
+      "task_text": "Highlight India's contribution to the global food supply.",
+      "task_category": "perception",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 0
+      }
+    }
+  ],
+  "num_threads": 3,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 7.78,
+      "time_end": 13.5,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Highlight the scale and diversity of India's agricultural sector.",
+          "sub_index": 0,
+          "text": "Note the vast arable land and major crops of India such as rice, wheat, and sugarcane.",
+          "start": 7.78,
+          "end": 13.5,
+          "segment_ids": [
+            1
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 7.78,
+          "time_end": 13.5,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Agricultural Overview of India",
+        "thread_summary": "The subtasks describe the vast arable land and major crops in India, focusing on rice, wheat, and sugarcane.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 1,
+      "time_start": 16.58,
+      "time_end": 23.94,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 0
+      },
+      "thread_dominant_category": "perception",
+      "subtasks": [
+        {
+          "task_index": 1,
+          "task_text": "Discuss the range of agricultural practices in India.",
+          "sub_index": 0,
+          "text": "Observe traditional farming methods alongside modern techniques like organic farming and precision agriculture.",
+          "start": 16.58,
+          "end": 23.94,
+          "segment_ids": [
+            3,
+            4
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 16.58,
+          "time_end": 23.94,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 0
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Comparison of Traditional and Modern Farming Methods",
+        "thread_summary": "The video segment discusses the observation of traditional farming methods alongside modern techniques such as organic farming and precision agriculture.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 2,
+      "time_start": 23.94,
+      "time_end": 38.06,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 2,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "perception",
+      "subtasks": [
+        {
+          "task_index": 2,
+          "task_text": "Emphasize the employment and food security roles of India's agricultural sector.",
+          "sub_index": 0,
+          "text": "Notice the significant portion of the population employed in the agricultural sector.",
+          "start": 23.94,
+          "end": 28.18,
+          "segment_ids": [
+            5
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "notice"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 2,
+          "task_text": "Emphasize the employment and food security roles of India's agricultural sector.",
+          "sub_index": 1,
+          "text": "Recognize the crucial role of the agricultural sector in ensuring food security for 1.3 billion people.",
+          "start": 28.18,
+          "end": 33.34,
+          "segment_ids": [
+            6
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 3,
+          "task_text": "Highlight India's contribution to the global food supply.",
+          "sub_index": 0,
+          "text": "Observe India's continued contribution to the global food supply.",
+          "start": 33.34,
+          "end": 38.06,
+          "segment_ids": [
+            7
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 23.94,
+          "time_end": 28.18,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "narration",
+          "time_start": 28.18,
+          "time_end": 33.34,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 1
+            }
+          ]
+        },
+        {
+          "group_id": 2,
+          "category": "perception",
+          "time_start": 33.34,
+          "time_end": 38.06,
+          "subtask_refs": [
+            {
+              "task_index": 3,
+              "sub_index": 0
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Agricultural Sector's Role in Food Security",
+        "thread_summary": "The video discusses the importance of the agricultural sector in providing employment and ensuring food security for a significant portion of the global population, with a specific focus on India's contribution.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The subtask transitions from noting the employment in agriculture to highlighting its role in food security, which is a logical progression."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "The subtask moves from discussing the role of agriculture in food security to observing India's contribution, which is a natural follow-up to the previous statement."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,453 @@
+{
+  "index": "6U3XX6NFgPo",
+  "title": "Investment Opportunity in Food Commodities Explained",
+  "url": "https://www.youtube.com/watch?v=6U3XX6NFgPo",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Analyze the current trends and future outlook for the food and agriculture markets.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 2
+      }
+    },
+    {
+      "task_index": 1,
+      "task_text": "Evaluate the performance and future potential of the agriculture index.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 1,
+        "narration": 2
+      }
+    },
+    {
+      "task_index": 2,
+      "task_text": "Explore potential investments in food stocks.",
+      "task_category": "perception",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 0
+      }
+    }
+  ],
+  "num_threads": 4,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 70.36,
+      "time_end": 217.04,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 2
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Analyze the current trends and future outlook for the food and agriculture markets.",
+          "sub_index": 0,
+          "text": "Note that global population growth and economic development are leading to increased demand for food.",
+          "start": 70.36,
+          "end": 217.04,
+          "segment_ids": [
+            24,
+            25,
+            76
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Analyze the current trends and future outlook for the food and agriculture markets.",
+          "sub_index": 2,
+          "text": "Observe the trend of growing food demand and its positive forecast for the next 20-40 years.",
+          "start": 88.16,
+          "end": 96.96,
+          "segment_ids": [
+            31,
+            32,
+            33
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Analyze the current trends and future outlook for the food and agriculture markets.",
+          "sub_index": 1,
+          "text": "Highlight the flat arable land availability and the need for increased production.",
+          "start": 96.96,
+          "end": 105.56,
+          "segment_ids": [
+            34,
+            35,
+            36
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 70.36,
+          "time_end": 217.04,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "perception",
+          "time_start": 88.16,
+          "time_end": 96.96,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 2
+            }
+          ]
+        },
+        {
+          "group_id": 2,
+          "category": "narration",
+          "time_start": 96.96,
+          "time_end": 105.56,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Impact of Global Population Growth on Food Demand",
+        "thread_summary": "The subtasks discuss the increasing demand for food due to global population growth and economic development, and the challenges this poses for food production.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The subtask transitions from discussing the causes of increased food demand to observing the trend and its positive forecast."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "The subtask shifts from observing the trend to highlighting the challenge of flat arable land availability, which is a consequence of the increased demand."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": -64.44,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 1,
+      "time_start": 142.16,
+      "time_end": 175.2,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 1,
+          "task_text": "Evaluate the performance and future potential of the agriculture index.",
+          "sub_index": 0,
+          "text": "Point out the constant decline of the agriculture index over the past six years and its negative returns.",
+          "start": 142.16,
+          "end": 153.32,
+          "segment_ids": [
+            49,
+            50,
+            51
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Evaluate the performance and future potential of the agriculture index.",
+          "sub_index": 1,
+          "text": "Discuss the increasing crop yields and the role of technology in enhancing food production.",
+          "start": 167.16,
+          "end": 175.2,
+          "segment_ids": [
+            57,
+            58,
+            59,
+            60
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 142.16,
+          "time_end": 175.2,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 0
+            },
+            {
+              "task_index": 1,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Analysis of Agricultural Trends and Technology Impact",
+        "thread_summary": "The video discusses the decline in the agriculture index and increasing crop yields, attributing the latter to technological advancements.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The subtask transitions from discussing the negative trend in the agriculture index to exploring a positive aspect (increasing crop yields) and the factors behind it, specifically technology."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 13.84,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 2,
+      "time_start": 206.0,
+      "time_end": 232.28,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 1,
+        "narration": 0
+      },
+      "thread_dominant_category": "planning",
+      "subtasks": [
+        {
+          "task_index": 1,
+          "task_text": "Evaluate the performance and future potential of the agriculture index.",
+          "sub_index": 2,
+          "text": "Mention the expected future challenges and opportunities in the food sector due to weather fluctuations and food price volatility.",
+          "start": 206.0,
+          "end": 232.28,
+          "segment_ids": [
+            73,
+            80,
+            81
+          ],
+          "subtask_category": "planning",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [
+              "due to"
+            ],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "planning",
+          "time_start": 206.0,
+          "time_end": 232.28,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 2
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Future Challenges and Opportunities in the Food Sector",
+        "thread_summary": "The subtasks discuss the expected challenges and opportunities in the food sector, particularly focusing on the impact of weather fluctuations and food price volatility.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 3,
+      "time_start": 391.48,
+      "time_end": 400.76,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 0
+      },
+      "thread_dominant_category": "perception",
+      "subtasks": [
+        {
+          "task_index": 2,
+          "task_text": "Explore potential investments in food stocks.",
+          "sub_index": 0,
+          "text": "Identify Archer Daniels Midland as an example of food stocks that have not moved despite a rally in the stock market.",
+          "start": 391.48,
+          "end": 400.76,
+          "segment_ids": [
+            141,
+            142,
+            143,
+            144
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "identify"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 391.48,
+          "time_end": 400.76,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 0
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Analysis of Food Stocks During Market Rally",
+        "thread_summary": "The subtasks discuss the performance of food stocks, specifically Archer Daniels Midland, during a market rally, highlighting its unique behavior.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    }
+  ]
+}

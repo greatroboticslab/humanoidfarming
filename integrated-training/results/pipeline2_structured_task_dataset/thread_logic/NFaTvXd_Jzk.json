@@ -1,0 +1,168 @@
+{
+  "index": "NFaTvXd_Jzk",
+  "title": "Cover Crops for Enhanced Vegetable Farming Sustainability",
+  "url": "https://www.youtube.com/watch?v=NFaTvXd_Jzk",
+  "num_threads": 3,
+  "threads_with_logic": [
+    {
+      "thread_index": 0,
+      "time_start": 32.11,
+      "time_end": 56.83,
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Explain the role of cover crops in sustainable agriculture.",
+          "sub_index": 0,
+          "text": "Describe the multiple benefits of cover crops, including soil stewardship, pest management, and crop rotation.",
+          "start": 32.11,
+          "end": 38.55,
+          "segment_ids": [
+            0
+          ]
+        },
+        {
+          "task_index": 1,
+          "task_text": "Detail the planting and management of cover crops.",
+          "sub_index": 0,
+          "text": "Explain the process of growing winter rye and hairy vetch together as a cover crop.",
+          "start": 41.55,
+          "end": 56.83,
+          "segment_ids": [
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Benefits and Process of Cover Crops",
+        "thread_summary": "This video segment discusses the advantages of using cover crops and explains the process of growing a specific combination of cover crops.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The next subtask logically follows by providing a specific example of the cover crops mentioned in the previous statement, which is winter rye and hairy vetch."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [
+            {
+              "insert_after": 0,
+              "text": "For instance, winter rye and hairy vetch are popular choices for cover crops due to their multiple benefits."
+            }
+          ]
+        }
+      },
+      "_raw": null
+    },
+    {
+      "thread_index": 1,
+      "time_start": 198.5,
+      "time_end": 204.82,
+      "subtasks": [
+        {
+          "task_index": 1,
+          "task_text": "Detail the planting and management of cover crops.",
+          "sub_index": 1,
+          "text": "Describe the inoculation process for improving nitrogen fixation in hairy vetch.",
+          "start": 198.5,
+          "end": 204.82,
+          "segment_ids": [
+            24
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Inoculation Process for Hairy Vetch",
+        "thread_summary": "The video segment describes the steps involved in inoculating hairy vetch to improve its nitrogen fixation capabilities.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The subtask directly describes the inoculation process for hairy vetch, which is the main topic of the video segment."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "_raw": null
+    },
+    {
+      "thread_index": 2,
+      "time_start": 350.42,
+      "time_end": 424.4,
+      "subtasks": [
+        {
+          "task_index": 1,
+          "task_text": "Detail the planting and management of cover crops.",
+          "sub_index": 2,
+          "text": "Outline the specific planting technique used to interseed rye into late season crops.",
+          "start": 350.42,
+          "end": 376.54,
+          "segment_ids": [
+            50,
+            51,
+            52,
+            53,
+            54,
+            55
+          ]
+        },
+        {
+          "task_index": 2,
+          "task_text": "Highlight the use of cover crops in different crops and their management.",
+          "sub_index": 0,
+          "text": "Explain the process of interseeding rye into cauliflower crops.",
+          "start": 385.38,
+          "end": 408.4,
+          "segment_ids": [
+            58,
+            59,
+            60,
+            61,
+            62
+          ]
+        },
+        {
+          "task_index": 2,
+          "task_text": "Highlight the use of cover crops in different crops and their management.",
+          "sub_index": 1,
+          "text": "Describe the protection provided by winter rye for brussel sprouts through the winter.",
+          "start": 408.4,
+          "end": 424.4,
+          "segment_ids": [
+            63,
+            64,
+            65
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Interseeding Rye into Late Season Crops",
+        "thread_summary": "This thread discusses the technique of interseeding rye into late season crops, specifically focusing on cauliflower and brussel sprouts.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The subtask transitions from outlining the general technique to explaining its application in a specific crop, cauliflower."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "The subtask then extends the explanation to another late season crop, brussel sprouts, providing a comprehensive overview of the technique's application."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "_raw": null
+    }
+  ]
+}

@@ -1,0 +1,411 @@
+{
+  "index": "SpbYZvZunsY",
+  "title": "Reconnecting in Honokahau Valley Bejiigsand Chronicles: Restoration and Friendship Bejiigsand Chronicles: Restoring H...",
+  "url": "https://www.youtube.com/watch?v=SpbYZvZunsY",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Introduce the narrator's connection with George Kahumoko Jr. and the background of Honokahau Valley.",
+      "task_category": "planning",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 1
+      }
+    },
+    {
+      "task_index": 1,
+      "task_text": "Describe the location and natural beauty of Honokahau Valley.",
+      "task_category": "perception",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 3,
+        "planning": 0,
+        "narration": 0
+      }
+    },
+    {
+      "task_index": 2,
+      "task_text": "Explain the restoration efforts and Job Kabato's vision in Honokahau Valley.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      }
+    }
+  ],
+  "num_threads": 3,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 0.69,
+      "time_end": 31.22,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "planning",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Introduce the narrator's connection with George Kahumoko Jr. and the background of Honokahau Valley.",
+          "sub_index": 0,
+          "text": "Observe how the narrator met George Kahumoko Jr. on his tour in California.",
+          "start": 0.69,
+          "end": 20.3,
+          "segment_ids": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Introduce the narrator's connection with George Kahumoko Jr. and the background of Honokahau Valley.",
+          "sub_index": 1,
+          "text": "Note the business card exchange between George and the narrator before the planned Maui visit.",
+          "start": 20.3,
+          "end": 31.22,
+          "segment_ids": [
+            4,
+            5,
+            6
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 0.69,
+          "time_end": 20.3,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "narration",
+          "time_start": 20.3,
+          "time_end": 31.22,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Meeting and exchanging business cards with George Kahumoku Jr.",
+        "thread_summary": "The narrator meets and exchanges business cards with George Kahumoku Jr. during his tour in California, before a planned visit to Maui.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "After observing the meeting, the narrator notes the business card exchange, which is a natural follow-up action."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 1,
+      "time_start": 31.22,
+      "time_end": 73.3,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 3,
+        "planning": 0,
+        "narration": 0
+      },
+      "thread_dominant_category": "perception",
+      "subtasks": [
+        {
+          "task_index": 1,
+          "task_text": "Describe the location and natural beauty of Honokahau Valley.",
+          "sub_index": 0,
+          "text": "Notice the area known as Honokahau Valley.",
+          "start": 31.22,
+          "end": 40.3,
+          "segment_ids": [
+            7,
+            8
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "notice"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Describe the location and natural beauty of Honokahau Valley.",
+          "sub_index": 1,
+          "text": "See thecurvaceous road, rugged cliffs, and the valley's starting point at mile marker 36.",
+          "start": 40.3,
+          "end": 55.82,
+          "segment_ids": [
+            9,
+            10,
+            11
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "see"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Describe the location and natural beauty of Honokahau Valley.",
+          "sub_index": 2,
+          "text": "Observe the natural beaches and unique snorkeling opportunities in Honolua Bay.",
+          "start": 55.82,
+          "end": 73.3,
+          "segment_ids": [
+            12,
+            13,
+            14,
+            15
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 31.22,
+          "time_end": 73.3,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 0
+            },
+            {
+              "task_index": 1,
+              "sub_index": 1
+            },
+            {
+              "task_index": 1,
+              "sub_index": 2
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Exploring Honokahau Valley and Honolua Bay",
+        "thread_summary": "The video segment describes the journey along the Honokahau Valley road, highlighting its scenic features and the nearby Honolua Bay.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The subtask starts by identifying the Honokahau Valley, and the next subtask provides a description of the road and cliffs that lead into the valley."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "After describing the road and cliffs, the next subtask focuses on the natural features and activities available in Honolua Bay, which is part of the Honokahau Valley area."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 2,
+      "time_start": 73.3,
+      "time_end": 94.66,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 2,
+          "task_text": "Explain the restoration efforts and Job Kabato's vision in Honokahau Valley.",
+          "sub_index": 0,
+          "text": "Highlight the creation of the Gardener's Guild by Job Kabato.",
+          "start": 73.3,
+          "end": 85.22,
+          "segment_ids": [
+            16,
+            17,
+            18
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 2,
+          "task_text": "Explain the restoration efforts and Job Kabato's vision in Honokahau Valley.",
+          "sub_index": 1,
+          "text": "Describe Job Kabato's vision of restoring the valley's old Hawaiian nature.",
+          "start": 85.22,
+          "end": 94.66,
+          "segment_ids": [
+            19,
+            20
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 73.3,
+          "time_end": 94.66,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 0
+            },
+            {
+              "task_index": 2,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Job Kabato's Vision for the Gardener's Guild",
+        "thread_summary": "The subtasks describe the creation of the Gardener's Guild and Job Kabato's vision for restoring the valley's Hawaiian nature.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The subtask about the creation of the Gardener's Guild naturally leads into Job Kabato's vision for the organization, as his vision would be a key aspect of the guild's purpose."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    }
+  ]
+}

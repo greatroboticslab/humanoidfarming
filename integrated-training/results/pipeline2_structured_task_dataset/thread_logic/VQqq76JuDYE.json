@@ -1,0 +1,108 @@
+{
+  "index": "VQqq76JuDYE",
+  "title": "Asparagus Farming Harvest Innovation",
+  "url": "https://www.youtube.com/watch?v=VQqq76JuDYE",
+  "num_threads": 2,
+  "threads_with_logic": [
+    {
+      "thread_index": 0,
+      "time_start": 22.9,
+      "time_end": 44.2,
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the asparagus cultivation process.",
+          "sub_index": 0,
+          "text": "Farmers plant one-year-old asparagus crowns, which can produce for up to 20 years.",
+          "start": 22.9,
+          "end": 29.4,
+          "segment_ids": [
+            6,
+            7
+          ]
+        },
+        {
+          "task_index": 0,
+          "task_text": "Describe the asparagus cultivation process.",
+          "sub_index": 1,
+          "text": "Farmers harvest asparagus daily, with each stalk potentially growing up to 10 inches per day.",
+          "start": 32.0,
+          "end": 38.9,
+          "segment_ids": [
+            9,
+            10
+          ]
+        },
+        {
+          "task_index": 1,
+          "task_text": "Explain the harvesting method and the use of specialized machinery.",
+          "sub_index": 0,
+          "text": "Specialized machinery is used to cut asparagus stalks without damaging the plant.",
+          "start": 38.9,
+          "end": 44.2,
+          "segment_ids": [
+            11,
+            12
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Asparagus Farming Process",
+        "thread_summary": "This thread describes the process of planting and harvesting asparagus, including the use of specialized machinery.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The subtask about planting asparagus crowns (0) sets the stage for the subsequent subtask about harvesting (1), as the planted crowns will eventually grow into asparagus stalks."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "The daily harvesting process (1) is directly related to the growth of asparagus stalks (2), which is why specialized machinery is used to cut them without damaging the plant."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "_raw": null
+    },
+    {
+      "thread_index": 1,
+      "time_start": 52.1,
+      "time_end": 55.7,
+      "subtasks": [
+        {
+          "task_index": 2,
+          "task_text": "Highlight the modern agricultural technology in asparagus farming.",
+          "sub_index": 0,
+          "text": "Farmers combine traditional methods with advanced technology in asparagus farming.",
+          "start": 52.1,
+          "end": 55.7,
+          "segment_ids": [
+            15
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Asparagus Farming Techniques",
+        "thread_summary": "The video discusses the integration of traditional methods with modern technology in asparagus farming.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 0,
+            "link": "The subtask directly introduces the topic of asparagus farming techniques."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "_raw": null
+    }
+  ]
+}

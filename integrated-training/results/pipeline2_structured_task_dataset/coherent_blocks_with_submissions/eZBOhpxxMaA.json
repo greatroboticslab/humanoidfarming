@@ -1,0 +1,82 @@
+{
+  "index": "eZBOhpxxMaA",
+  "title": "Mechanical Harvester Cabbage Harvesting Process Today",
+  "url": "https://www.youtube.com/watch?v=eZBOhpxxMaA",
+  "params": {
+    "use_links": true,
+    "max_time_span": 180.0,
+    "max_gap": 30.0,
+    "min_overlap": 0.06,
+    "narration_merge_overlap": 0.12,
+    "max_block_units": 12,
+    "use_llm": true,
+    "model": "Qwen/Qwen2.5-7B-Instruct"
+  },
+  "debug": {
+    "link_grouping": {
+      "num_units": 2,
+      "num_unit_edges": 1,
+      "num_components": 1,
+      "num_blocks_after_caps": 1
+    }
+  },
+  "num_blocks": 1,
+  "blocks": [
+    {
+      "block_id": 0,
+      "time_start": 1.07,
+      "time_end": 27.17,
+      "dominant_category": "planning",
+      "category_distribution": {
+        "perception": 1,
+        "narration": 1
+      },
+      "units": [
+        {
+          "unit_id": "th0_g0",
+          "thread_index": 0,
+          "group_id": 0,
+          "category": "perception"
+        },
+        {
+          "unit_id": "th0_g1",
+          "thread_index": 0,
+          "group_id": 1,
+          "category": "narration"
+        }
+      ],
+      "subtask_refs": [
+        {
+          "task_index": 0,
+          "sub_index": 0
+        },
+        {
+          "task_index": 0,
+          "sub_index": 1
+        },
+        {
+          "task_index": 0,
+          "sub_index": 2
+        }
+      ],
+      "block_preview_text": "Observe the mechanical harvester replacing manual labor and handling the harvesting of acres of cabbage. Note that the harvester minimizes damage to the cabbage during the harvesting process. Highlight how the machine's front unit performs the harvesting using rotating metal spindles.",
+      "sub_mission_id": "eZBOhpxxMaA_subm0",
+      "sub_mission_title": "Theme: harvesting / cabbage / harvester",
+      "sub_mission_time": {
+        "start": 1.07,
+        "end": 27.17
+      }
+    }
+  ],
+  "mission_id": "eZBOhpxxMaA",
+  "mission_title": "Mechanical Harvester Cabbage Harvesting Process Today",
+  "sub_missions": [
+    {
+      "sub_mission_id": "eZBOhpxxMaA_subm0",
+      "sub_mission_title": "Theme: harvesting / cabbage / harvester",
+      "time_start": 1.07,
+      "time_end": 27.17,
+      "block_id": 0
+    }
+  ]
+}

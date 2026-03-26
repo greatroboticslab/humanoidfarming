@@ -1,0 +1,184 @@
+{
+  "index": "9Pg9adwK0-c",
+  "title": "Mike Acheson Fights Home Development Near Farmland",
+  "url": "https://www.youtube.com/watch?v=9Pg9adwK0-c",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Advocate against the proposed housing development in West Boca Raton.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      }
+    },
+    {
+      "task_index": 1,
+      "task_text": "Express concerns about potential loss of farmland.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      }
+    },
+    {
+      "task_index": 2,
+      "task_text": "Present Mike Acheson's background and role.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      }
+    }
+  ],
+  "num_threads": 1,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 0.85,
+      "time_end": 40.15,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 3
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 2,
+          "task_text": "Present Mike Acheson's background and role.",
+          "sub_index": 0,
+          "text": "Mike Acheson works at a family nursery in West Delray Beach and is president of the local chapter of the Florida Nursery Growers and Landscape Association.",
+          "start": 0.85,
+          "end": 14.31,
+          "segment_ids": [
+            0,
+            1
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Advocate against the proposed housing development in West Boca Raton.",
+          "sub_index": 0,
+          "text": "Mike and his group aim to convince the Palm Beach County Commission to vote against the proposal for 1077 new homes.",
+          "start": 15.25,
+          "end": 29.19,
+          "segment_ids": [
+            2,
+            3
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Express concerns about potential loss of farmland.",
+          "sub_index": 0,
+          "text": "Acheson believes that if GL Homes gets approval to build in West Boca, farmland in the area will diminish rapidly.",
+          "start": 29.43,
+          "end": 40.15,
+          "segment_ids": [
+            4,
+            5
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 0.85,
+          "time_end": 40.15,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 0
+            },
+            {
+              "task_index": 0,
+              "sub_index": 0
+            },
+            {
+              "task_index": 1,
+              "sub_index": 0
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Local Nursery Owner's Opposition to New Home Development",
+        "thread_summary": "Mike Acheson, a nursery owner, is opposing a proposal for 1077 new homes in Palm Beach County, fearing it will lead to the loss of farmland in West Boca.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "Mike Acheson, as a local nursery owner, is concerned about the impact of new home developments on the local environment and agriculture."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "Acheson's broader concern about the loss of farmland in West Boca is a logical extension of his efforts to oppose the 1077 new homes proposal."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.59,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    }
+  ]
+}

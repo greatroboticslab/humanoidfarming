@@ -1,0 +1,211 @@
+{
+  "index": "cM4cMIoyd9E",
+  "title": "Barleys Adapted for Early Sowing Explained Tasmania",
+  "url": "https://www.youtube.com/watch?v=cM4cMIoyd9E",
+  "num_threads": 1,
+  "threads_with_logic": [
+    {
+      "thread_index": 0,
+      "time_start": 5.71,
+      "time_end": 163.36,
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Explain the challenges and benefits of early planting of spring and winter barleys.",
+          "sub_index": 0,
+          "text": "Describe the current planting date of both spring barley (planet) and winter barley (surge).",
+          "start": 5.71,
+          "end": 25.23,
+          "segment_ids": [
+            0,
+            1
+          ]
+        },
+        {
+          "task_index": 0,
+          "task_text": "Explain the challenges and benefits of early planting of spring and winter barleys.",
+          "sub_index": 1,
+          "text": "Note the research focus on wheat rather than barley in the past decade.",
+          "start": 25.73,
+          "end": 41.73,
+          "segment_ids": [
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "task_index": 0,
+          "task_text": "Explain the challenges and benefits of early planting of spring and winter barleys.",
+          "sub_index": 2,
+          "text": "Discuss the planting date and its implications for spring barley.",
+          "start": 42.73,
+          "end": 50.73,
+          "segment_ids": [
+            5
+          ]
+        },
+        {
+          "task_index": 1,
+          "task_text": "Demonstrate the differences in timing and maturity between spring and winter barleys.",
+          "sub_index": 0,
+          "text": "Observe the specific requirements for winter barley growth.",
+          "start": 51.73,
+          "end": 65.73,
+          "segment_ids": [
+            6,
+            7
+          ]
+        },
+        {
+          "task_index": 1,
+          "task_text": "Demonstrate the differences in timing and maturity between spring and winter barleys.",
+          "sub_index": 1,
+          "text": "Highlight the advantages of planting winter barley earlier.",
+          "start": 68.36,
+          "end": 75.36,
+          "segment_ids": [
+            8
+          ]
+        },
+        {
+          "task_index": 1,
+          "task_text": "Demonstrate the differences in timing and maturity between spring and winter barleys.",
+          "sub_index": 2,
+          "text": "Describe the early development and maturation of certain plants in the spring barley crop.",
+          "start": 76.36,
+          "end": 102.36,
+          "segment_ids": [
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "task_index": 1,
+          "task_text": "Demonstrate the differences in timing and maturity between spring and winter barleys.",
+          "sub_index": 3,
+          "text": "Note the negative consequence of early maturation in spring barley.",
+          "start": 103.36,
+          "end": 139.36,
+          "segment_ids": [
+            12,
+            13,
+            14,
+            15
+          ]
+        },
+        {
+          "task_index": 1,
+          "task_text": "Demonstrate the differences in timing and maturity between spring and winter barleys.",
+          "sub_index": 4,
+          "text": "Mention the interesting adaptation observed with the secondary tillers of spring barley.",
+          "start": 140.36,
+          "end": 163.36,
+          "segment_ids": [
+            16,
+            17
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Barley Planting and Growth Discussion",
+        "thread_summary": "The discussion revolves around the planting dates and growth characteristics of spring and winter barley, with a focus on the implications and advantages of different planting strategies.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The subtask transitions from describing the planting dates of both spring and winter barley to noting the research focus on wheat, indicating a shift in the discussion context."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "The discussion moves from the research focus on wheat to discussing the planting date and its implications for spring barley, maintaining the focus on barley planting."
+          },
+          {
+            "from": 2,
+            "to": 3,
+            "link": "The subtask transitions from discussing the planting date of spring barley to observing the specific requirements for winter barley growth, showing a shift in focus to winter barley."
+          },
+          {
+            "from": 3,
+            "to": 4,
+            "link": "The subtask moves from observing the requirements for winter barley growth to highlighting the advantages of planting winter barley earlier, maintaining the focus on winter barley planting."
+          },
+          {
+            "from": 4,
+            "to": 5,
+            "link": "The discussion shifts from the advantages of planting winter barley earlier to describing the early development and maturation of spring barley, indicating a return to spring barley discussion."
+          },
+          {
+            "from": 5,
+            "to": 6,
+            "link": "The subtask transitions from describing the early development and maturation of spring barley to noting the negative consequences of early maturation, maintaining the focus on spring barley growth."
+          },
+          {
+            "from": 6,
+            "to": 7,
+            "link": "The discussion moves from noting the negative consequences of early maturation to mentioning an interesting adaptation observed with the secondary tillers of spring barley, maintaining the focus on spring barley growth characteristics."
+          }
+        ],
+        "conflicts": [
+          {
+            "type": "topic_jump",
+            "between": [
+              1,
+              2
+            ],
+            "description": "There is a jump in topic from discussing wheat research focus to discussing the planting date and implications for spring barley, which is a shift in the focus of the discussion."
+          },
+          {
+            "type": "topic_jump",
+            "between": [
+              2,
+              3
+            ],
+            "description": "The discussion shifts from discussing the planting date of spring barley to observing the specific requirements for winter barley growth, indicating a shift in focus to winter barley."
+          },
+          {
+            "type": "topic_jump",
+            "between": [
+              3,
+              4
+            ],
+            "description": "The subtask transitions from observing the requirements for winter barley growth to highlighting the advantages of planting winter barley earlier, maintaining the focus on winter barley planting, but then shifts back to spring barley in the next subtask."
+          }
+        ],
+        "repair": {
+          "bridging_sentences": [
+            {
+              "insert_after": 1,
+              "text": "However, the discussion will now focus on the planting date and its implications for spring barley."
+            },
+            {
+              "insert_after": 3,
+              "text": "After discussing the specific requirements for winter barley growth, we will now highlight the advantages of planting winter barley earlier."
+            },
+            {
+              "insert_after": 6,
+              "text": "Returning to spring barley, we will now discuss the negative consequences of early maturation in this crop."
+            }
+          ],
+          "revised_subtasks": [
+            {
+              "index": 1,
+              "text": "Note the research focus on wheat rather than barley in the past decade, however, the discussion will now focus on the planting date and its implications for spring barley."
+            },
+            {
+              "index": 3,
+              "text": "Observe the specific requirements for winter barley growth, after which we will highlight the advantages of planting winter barley earlier."
+            },
+            {
+              "index": 6,
+              "text": "Note the negative consequence of early maturation in spring barley, returning to the discussion of spring barley characteristics."
+            }
+          ]
+        }
+      },
+      "_raw": null
+    }
+  ]
+}

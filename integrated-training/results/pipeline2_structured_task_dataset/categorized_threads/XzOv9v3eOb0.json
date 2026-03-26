@@ -1,0 +1,467 @@
+{
+  "index": "XzOv9v3eOb0",
+  "title": "President Signs Grain to Alcohol Production Bill",
+  "url": "https://www.youtube.com/watch?v=XzOv9v3eOb0",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "The President signs a bill enabling the Department of Agriculture to convert grain into alcohol for fuel use.",
+      "task_category": "planning",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 1,
+        "narration": 1
+      }
+    },
+    {
+      "task_index": 1,
+      "task_text": "The President signs a bill.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      }
+    },
+    {
+      "task_index": 2,
+      "task_text": "The President announces a trade agreement that will benefit the American steel industry.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 1,
+        "perception": 0,
+        "planning": 0,
+        "narration": 4
+      }
+    }
+  ],
+  "num_threads": 2,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 19.22,
+      "time_end": 121.77,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 1,
+        "narration": 3
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "The President signs a bill enabling the Department of Agriculture to convert grain into alcohol for fuel use.",
+          "sub_index": 0,
+          "text": "The President states the purpose of the bill, which is to enable the Department of Agriculture to take grain in storage and convert it into alcohol for fuel use.",
+          "start": 19.22,
+          "end": 31.47,
+          "segment_ids": [
+            3,
+            4,
+            5
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "The President signs a bill enabling the Department of Agriculture to convert grain into alcohol for fuel use.",
+          "sub_index": 1,
+          "text": "The President explains that this bill will help by reducing the threat to legitimate grain pricing due to the large stock of government-held grain.",
+          "start": 31.47,
+          "end": 58.71,
+          "segment_ids": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "subtask_category": "planning",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [
+              "due to"
+            ],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "The President signs a bill.",
+          "sub_index": 0,
+          "text": "The President prepares to sign the bill.",
+          "start": 58.71,
+          "end": 64.59,
+          "segment_ids": [
+            10
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "The President signs a bill.",
+          "sub_index": 1,
+          "text": "The President signs the bill and states that it is now law.",
+          "start": 64.59,
+          "end": 121.77,
+          "segment_ids": [
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 19.22,
+          "time_end": 31.47,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "planning",
+          "time_start": 31.47,
+          "time_end": 58.71,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 1
+            }
+          ]
+        },
+        {
+          "group_id": 2,
+          "category": "narration",
+          "time_start": 58.71,
+          "time_end": 121.77,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 0
+            },
+            {
+              "task_index": 1,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "President's Explanation and Signing of a Grain Conversion Bill",
+        "thread_summary": "The President explains the purpose of a bill to convert government-held grain into alcohol for fuel use, addresses the benefits, and signs the bill into law.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The President provides the context for the bill by stating its purpose, which is to enable the Department of Agriculture to convert grain into alcohol for fuel use."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "The President explains the benefit of the bill, which is to reduce the threat to legitimate grain pricing, and then prepares to sign the bill."
+          },
+          {
+            "from": 2,
+            "to": 3,
+            "link": "The President signs the bill, officially making it law, following the explanation and preparation steps."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 1,
+      "time_start": 150.81,
+      "time_end": 224.13,
+      "thread_category_distribution": {
+        "motion": 1,
+        "perception": 0,
+        "planning": 0,
+        "narration": 4
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 2,
+          "task_text": "The President announces a trade agreement that will benefit the American steel industry.",
+          "sub_index": 0,
+          "text": "The President discusses the negotiated agreement that will restrain European steel exports to the United States.",
+          "start": 150.81,
+          "end": 165.17,
+          "segment_ids": [
+            25,
+            26,
+            27
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 2,
+          "task_text": "The President announces a trade agreement that will benefit the American steel industry.",
+          "sub_index": 1,
+          "text": "The President explains that the agreement will cover 90 percent of steel imports from Europe and relieve unfair competition.",
+          "start": 165.17,
+          "end": 178.41,
+          "segment_ids": [
+            28,
+            29,
+            30
+          ],
+          "subtask_category": "motion",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [
+              "cover"
+            ],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 2,
+          "task_text": "The President announces a trade agreement that will benefit the American steel industry.",
+          "sub_index": 2,
+          "text": "The President mentions that the agreement will mean more and lasting jobs in the steel industry.",
+          "start": 178.41,
+          "end": 191.37,
+          "segment_ids": [
+            31,
+            32,
+            33
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 2,
+          "task_text": "The President announces a trade agreement that will benefit the American steel industry.",
+          "sub_index": 3,
+          "text": "The President describes what will happen in return for the agreement on imports.",
+          "start": 191.37,
+          "end": 200.73,
+          "segment_ids": [
+            34,
+            35
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 2,
+          "task_text": "The President announces a trade agreement that will benefit the American steel industry.",
+          "sub_index": 4,
+          "text": "The President commends the negotiators for their efforts.",
+          "start": 200.73,
+          "end": 224.13,
+          "segment_ids": [
+            36,
+            37,
+            38,
+            39,
+            40
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 150.81,
+          "time_end": 165.17,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "motion",
+          "time_start": 165.17,
+          "time_end": 178.41,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 1
+            }
+          ]
+        },
+        {
+          "group_id": 2,
+          "category": "narration",
+          "time_start": 178.41,
+          "time_end": 224.13,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 2
+            },
+            {
+              "task_index": 2,
+              "sub_index": 3
+            },
+            {
+              "task_index": 2,
+              "sub_index": 4
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "President Discusses Steel Trade Agreement",
+        "thread_summary": "The President outlines a negotiated agreement that will limit European steel exports to the United States, its benefits, and the negotiators' efforts.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The President provides details about the agreement, starting with the coverage of steel imports and the relief it offers."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "The President elaborates on the positive impact of the agreement, specifically mentioning job creation in the steel industry."
+          },
+          {
+            "from": 2,
+            "to": 3,
+            "link": "The President explains the terms of the agreement, including what will happen in return for the reduced imports."
+          },
+          {
+            "from": 3,
+            "to": 4,
+            "link": "The President concludes by praising the negotiators for their work on the agreement."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    }
+  ]
+}

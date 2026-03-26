@@ -1,0 +1,190 @@
+{
+  "index": "eHbWKGe1Uv0",
+  "title": "Japanese Green Vegetable Protection",
+  "url": "https://www.youtube.com/watch?v=eHbWKGe1Uv0",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Explain the Japanese method of protecting green vegetables.",
+      "task_category": "perception",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 0
+      }
+    },
+    {
+      "task_index": 1,
+      "task_text": "Describe the Chinese practice of using a black mat during tree planting.",
+      "task_category": "planning",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 1
+      }
+    }
+  ],
+  "num_threads": 1,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 0.0,
+      "time_end": 12.5,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 2,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "perception",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Explain the Japanese method of protecting green vegetables.",
+          "sub_index": 0,
+          "text": "Observe the use of ultra-durable wire mesh to enclose green vegetables in Japan.",
+          "start": 0.0,
+          "end": 7.46,
+          "segment_ids": [
+            0
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Describe the Chinese practice of using a black mat during tree planting.",
+          "sub_index": 0,
+          "text": "Note the placement of the black mat under tree roots in China.",
+          "start": 7.46,
+          "end": 9.98,
+          "segment_ids": [
+            1
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Describe the Chinese practice of using a black mat during tree planting.",
+          "sub_index": 1,
+          "text": "Observe how the black mat helps to lock in soil moisture and block weeds.",
+          "start": 9.98,
+          "end": 12.5,
+          "segment_ids": [
+            1
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 0.0,
+          "time_end": 7.46,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "narration",
+          "time_start": 7.46,
+          "time_end": 9.98,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 2,
+          "category": "perception",
+          "time_start": 9.98,
+          "time_end": 12.5,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Comparison of Agricultural Practices in Different Countries",
+        "thread_summary": "The video segment compares agricultural techniques used in Japan and China, focusing on the use of ultra-durable wire mesh and black mats for vegetable cultivation and weed control.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The observation of the wire mesh in Japan leads to the introduction of a similar technique used in China, which is the black mat under tree roots."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "The black mat in China is described in relation to its function, which is similar to the purpose of the wire mesh in Japan, i.e., to improve soil moisture and control weeds."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    }
+  ]
+}

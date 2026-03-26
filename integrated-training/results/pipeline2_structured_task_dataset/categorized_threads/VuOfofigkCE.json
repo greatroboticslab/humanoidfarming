@@ -1,0 +1,988 @@
+{
+  "index": "VuOfofigkCE",
+  "title": "Future Agriculture Trends 2030 Preview",
+  "url": "https://www.youtube.com/watch?v=VuOfofigkCE",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Explore the increased use of AI and machine learning in agriculture.",
+      "task_category": "planning",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 2,
+        "planning": 1,
+        "narration": 2
+      }
+    },
+    {
+      "task_index": 1,
+      "task_text": "Examine the rise of vertical farming and urban agriculture.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 3
+      }
+    },
+    {
+      "task_index": 2,
+      "task_text": "Address precision agriculture and data-driven farming techniques.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 4
+      }
+    },
+    {
+      "task_index": 3,
+      "task_text": "Discuss sustainable agriculture and climate-resilient farming practices.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 3
+      }
+    }
+  ],
+  "num_threads": 8,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 10.84,
+      "time_end": 39.92,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 1,
+        "narration": 0
+      },
+      "thread_dominant_category": "planning",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Explore the increased use of AI and machine learning in agriculture.",
+          "sub_index": 0,
+          "text": "Analyze how AI-driven systems will provide detailed insights for planting, watering, and harvesting.",
+          "start": 10.84,
+          "end": 35.72,
+          "segment_ids": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "subtask_category": "planning",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [
+              "analyze"
+            ],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Explore the increased use of AI and machine learning in agriculture.",
+          "sub_index": 2,
+          "text": "Observe the automation of labor-intensive tasks like weeding, fertilizing, and monitoring crops with AI-powered robots.",
+          "start": 23.56,
+          "end": 39.92,
+          "segment_ids": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "planning",
+          "time_start": 10.84,
+          "time_end": 35.72,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "perception",
+          "time_start": 23.56,
+          "time_end": 39.92,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 2
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Impact of AI on Agricultural Tasks",
+        "thread_summary": "The video discusses how AI-driven systems and automation can provide detailed insights and perform labor-intensive tasks in agriculture.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The subtask transitions from discussing the benefits of AI in providing insights to how AI can directly perform tasks, showing a progression from analysis to implementation."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": -12.16,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 1,
+      "time_start": 35.72,
+      "time_end": 60.60000000000001,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 0
+      },
+      "thread_dominant_category": "perception",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Explore the increased use of AI and machine learning in agriculture.",
+          "sub_index": 1,
+          "text": "Describe how machine learning algorithms detect patterns in weather, soil health, and crop growth.",
+          "start": 35.72,
+          "end": 60.60000000000001,
+          "segment_ids": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "detect"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 35.72,
+          "time_end": 60.60000000000001,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Machine Learning in Agriculture",
+        "thread_summary": "The subtasks describe how machine learning algorithms are used to analyze weather, soil health, and crop growth patterns in agriculture.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 2,
+      "time_start": 39.92,
+      "time_end": 60.6,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Explore the increased use of AI and machine learning in agriculture.",
+          "sub_index": 3,
+          "text": "Highlight the shift towards more autonomous operations of farms with the help of AI.",
+          "start": 39.92,
+          "end": 47.44,
+          "segment_ids": [
+            10,
+            11
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Explore the increased use of AI and machine learning in agriculture.",
+          "sub_index": 4,
+          "text": "Explain how the integration of AI makes farming smarter, more efficient, and more sustainable.",
+          "start": 47.44,
+          "end": 60.6,
+          "segment_ids": [
+            12,
+            13,
+            14
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 39.92,
+          "time_end": 60.6,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 3
+            },
+            {
+              "task_index": 0,
+              "sub_index": 4
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Impact of AI on Farming Efficiency and Sustainability",
+        "thread_summary": "The video discusses how the integration of AI is transforming farming operations, making them more autonomous, efficient, and sustainable.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The subtask 0 introduces the topic of AI in farming, specifically focusing on autonomous operations. Subtask 1 builds upon this by explaining the broader impact of AI on farming, including efficiency and sustainability."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 3,
+      "time_start": 104.64,
+      "time_end": 181.32,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 4
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 1,
+          "task_text": "Examine the rise of vertical farming and urban agriculture.",
+          "sub_index": 0,
+          "text": "Describe the widespread adoption of vertical farms in cities by 2030.",
+          "start": 104.64,
+          "end": 128.24,
+          "segment_ids": [
+            25,
+            26,
+            27,
+            28,
+            29
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Examine the rise of vertical farming and urban agriculture.",
+          "sub_index": 1,
+          "text": "Note the advantages of vertical farms in terms of water and land usage.",
+          "start": 110.16,
+          "end": 128.24,
+          "segment_ids": [
+            26,
+            27,
+            28,
+            29
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Examine the rise of vertical farming and urban agriculture.",
+          "sub_index": 2,
+          "text": "Observe the use of advanced hydroponic or aeroponic systems in vertical farms.",
+          "start": 123.48,
+          "end": 133.12,
+          "segment_ids": [
+            29,
+            30
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Examine the rise of vertical farming and urban agriculture.",
+          "sub_index": 3,
+          "text": "Highlight the sustainability benefits of vertical farming, including reduced transportation costs and carbon emissions.",
+          "start": 133.12,
+          "end": 154.24,
+          "segment_ids": [
+            31,
+            32,
+            33,
+            34
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 2,
+          "task_text": "Address precision agriculture and data-driven farming techniques.",
+          "sub_index": 0,
+          "text": "Describe the use of sensors, drones, and satellite imagery to collect real-time data.",
+          "start": 159.08,
+          "end": 181.32,
+          "segment_ids": [
+            37,
+            38,
+            39,
+            40,
+            41,
+            42
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 104.64,
+          "time_end": 128.24,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 0
+            },
+            {
+              "task_index": 1,
+              "sub_index": 1
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "perception",
+          "time_start": 123.48,
+          "time_end": 133.12,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 2
+            }
+          ]
+        },
+        {
+          "group_id": 2,
+          "category": "narration",
+          "time_start": 133.12,
+          "time_end": 181.32,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 3
+            },
+            {
+              "task_index": 2,
+              "sub_index": 0
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Advancements and Benefits of Vertical Farming by 2030",
+        "thread_summary": "The discussion covers the widespread adoption of vertical farming in cities by 2030, its advantages, and the use of advanced technologies to support sustainability.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The subtask transitions from describing the adoption of vertical farms to highlighting their advantages, specifically focusing on water and land usage."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "The subtask moves from discussing the advantages to observing the technologies used in vertical farms, such as hydroponic or aeroponic systems."
+          },
+          {
+            "from": 2,
+            "to": 3,
+            "link": "The subtask shifts from observing the technologies to discussing the sustainability benefits of vertical farming, including reduced transportation costs and carbon emissions."
+          },
+          {
+            "from": 3,
+            "to": 4,
+            "link": "The subtask transitions from discussing sustainability benefits to describing the use of advanced technologies like sensors, drones, and satellite imagery to collect real-time data."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [
+            {
+              "insert_after": 2,
+              "text": "These systems help in optimizing resource usage and monitoring plant health more effectively."
+            }
+          ]
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": -4.5,
+        "has_conflicts": false,
+        "needs_repair": true
+      }
+    },
+    {
+      "thread_index": 4,
+      "time_start": 181.32,
+      "time_end": 191.8,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 2,
+          "task_text": "Address precision agriculture and data-driven farming techniques.",
+          "sub_index": 1,
+          "text": "Explain how AI systems help farmers make decisions for planting, irrigating, fertilizing, and harvesting.",
+          "start": 181.32,
+          "end": 191.8,
+          "segment_ids": [
+            43,
+            44
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 181.32,
+          "time_end": 191.8,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "AI in Agriculture",
+        "thread_summary": "The subtasks discuss how AI systems assist farmers in various agricultural activities such as planting, irrigating, fertilizing, and harvesting.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 5,
+      "time_start": 191.8,
+      "time_end": 204.36,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 2,
+          "task_text": "Address precision agriculture and data-driven farming techniques.",
+          "sub_index": 2,
+          "text": "Highlight the benefits of precision irrigation systems in reducing water waste.",
+          "start": 191.8,
+          "end": 204.36,
+          "segment_ids": [
+            45,
+            46,
+            47
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 191.8,
+          "time_end": 204.36,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 2
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Benefits of Precision Irrigation Systems",
+        "thread_summary": "The video segment discusses the advantages of precision irrigation systems in conserving water resources.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 6,
+      "time_start": 204.36,
+      "time_end": 224.96,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 0
+      },
+      "thread_dominant_category": "perception",
+      "subtasks": [
+        {
+          "task_index": 2,
+          "task_text": "Address precision agriculture and data-driven farming techniques.",
+          "sub_index": 3,
+          "text": "Observe how precision farming tools can apply fertilizers and pesticides only where needed.",
+          "start": 204.36,
+          "end": 224.96,
+          "segment_ids": [
+            48,
+            49,
+            50,
+            51
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 204.36,
+          "time_end": 224.96,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 3
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Precision Farming Techniques",
+        "thread_summary": "The video segment discusses the application of precision farming tools to apply fertilizers and pesticides selectively.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 7,
+      "time_start": 224.96,
+      "time_end": 279.2,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 4
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 2,
+          "task_text": "Address precision agriculture and data-driven farming techniques.",
+          "sub_index": 4,
+          "text": "Describe the integration of autonomous machinery in precision agriculture.",
+          "start": 224.96,
+          "end": 239.32,
+          "segment_ids": [
+            52,
+            53,
+            54,
+            55
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 3,
+          "task_text": "Discuss sustainable agriculture and climate-resilient farming practices.",
+          "sub_index": 0,
+          "text": "Explain the importance of using climate-resistant crops and improving soil health.",
+          "start": 239.32,
+          "end": 263.24,
+          "segment_ids": [
+            56,
+            57,
+            58,
+            59,
+            60,
+            61
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 3,
+          "task_text": "Discuss sustainable agriculture and climate-resilient farming practices.",
+          "sub_index": 1,
+          "text": "Describe the role of regenerative farming in preserving soil fertility and reducing erosion.",
+          "start": 256.8,
+          "end": 265.64,
+          "segment_ids": [
+            60,
+            61,
+            62
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 3,
+          "task_text": "Discuss sustainable agriculture and climate-resilient farming practices.",
+          "sub_index": 2,
+          "text": "Highlight the use of renewable energy in farming to reduce carbon footprint.",
+          "start": 265.64,
+          "end": 279.2,
+          "segment_ids": [
+            63,
+            64,
+            65
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 224.96,
+          "time_end": 279.2,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 4
+            },
+            {
+              "task_index": 3,
+              "sub_index": 0
+            },
+            {
+              "task_index": 3,
+              "sub_index": 1
+            },
+            {
+              "task_index": 3,
+              "sub_index": 2
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Sustainable Practices in Precision Agriculture",
+        "thread_summary": "The video discusses the integration of autonomous machinery in precision agriculture and highlights sustainable practices such as using climate-resistant crops, improving soil health, regenerative farming, and the use of renewable energy to reduce the carbon footprint.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The discussion on precision agriculture naturally transitions to sustainable practices, starting with the importance of using climate-resistant crops and improving soil health."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "After discussing the importance of using climate-resistant crops and improving soil health, the next logical step is to explain the role of regenerative farming in preserving soil fertility and reducing erosion."
+          },
+          {
+            "from": 2,
+            "to": 3,
+            "link": "Following the explanation of regenerative farming, the video logically moves to highlight the use of renewable energy in farming to further reduce the carbon footprint."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": -2.147,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    }
+  ]
+}

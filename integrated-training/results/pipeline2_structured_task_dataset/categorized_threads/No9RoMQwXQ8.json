@@ -1,0 +1,519 @@
+{
+  "index": "No9RoMQwXQ8",
+  "title": "Drilling Corn Rows with Drip Irrigation Setup",
+  "url": "https://www.youtube.com/watch?v=No9RoMQwXQ8",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Describe the planting process of corn using drip irrigation.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 3
+      }
+    },
+    {
+      "task_index": 1,
+      "task_text": "Explain the installation of drip irrigation system components.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      }
+    },
+    {
+      "task_index": 2,
+      "task_text": "Detail the corn planting process using a garden seeder.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 3
+      }
+    }
+  ],
+  "num_threads": 4,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 0.0,
+      "time_end": 114.35,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 3
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the planting process of corn using drip irrigation.",
+          "sub_index": 0,
+          "text": "Show the preparation of the planting area by using a BCS tiller.",
+          "start": 0.0,
+          "end": 6.72,
+          "segment_ids": [
+            0,
+            1
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Describe the planting process of corn using drip irrigation.",
+          "sub_index": 1,
+          "text": "Mention the use of drip tape for watering the sweet corn and describe the layout process.",
+          "start": 9.68,
+          "end": 58.96,
+          "segment_ids": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Describe the planting process of corn using drip irrigation.",
+          "sub_index": 2,
+          "text": "Highlight the use of electric fence posts and string to create straight rows for corn planting.",
+          "start": 81.04,
+          "end": 114.35,
+          "segment_ids": [
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 0.0,
+          "time_end": 114.35,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            },
+            {
+              "task_index": 0,
+              "sub_index": 1
+            },
+            {
+              "task_index": 0,
+              "sub_index": 2
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Sweet Corn Planting Process",
+        "thread_summary": "The video describes the preparation and planting of sweet corn, including the use of a tiller, drip tape for watering, and electric fence posts for row layout.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "After preparing the planting area with the BCS tiller, the next step is to ensure proper watering for the sweet corn, which is why drip tape is mentioned."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "Once the watering system is set up, the next logical step is to create straight rows for planting, which is why electric fence posts and string are used to layout the rows."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 12.52,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 1,
+      "time_start": 150.15,
+      "time_end": 211.74,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 1,
+          "task_text": "Explain the installation of drip irrigation system components.",
+          "sub_index": 0,
+          "text": "Describe the process of laying out the drip tape and securing it.",
+          "start": 150.15,
+          "end": 211.74,
+          "segment_ids": [
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 150.15,
+          "time_end": 211.74,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 0
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Laying Out and Securing Drip Tape",
+        "thread_summary": "The video segment describes the process of laying out and securing drip tape for irrigation purposes.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 2,
+      "time_start": 283.41,
+      "time_end": 382.32,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 1,
+          "task_text": "Explain the installation of drip irrigation system components.",
+          "sub_index": 1,
+          "text": "Show the installation of the mainline tubing and fittings.",
+          "start": 283.41,
+          "end": 331.41,
+          "segment_ids": [
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 2,
+          "task_text": "Detail the corn planting process using a garden seeder.",
+          "sub_index": 0,
+          "text": "Demonstrate the preparation of rose starts and their insertion into the drip tape.",
+          "start": 341.73,
+          "end": 382.32,
+          "segment_ids": [
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 283.41,
+          "time_end": 382.32,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 1
+            },
+            {
+              "task_index": 2,
+              "sub_index": 0
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Installation of Irrigation System Components",
+        "thread_summary": "The video segment shows the installation of the mainline tubing and fittings, followed by the preparation and insertion of rose starts into the drip tape.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The mainline tubing and fittings installation is the initial step in setting up the irrigation system, and the next logical step is to prepare and insert rose starts into the drip tape to complete the system setup."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [
+            {
+              "insert_after": 0,
+              "text": "After the mainline tubing and fittings are installed, the next step is to prepare and insert rose starts into the drip tape."
+            }
+          ],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 10.32,
+        "has_conflicts": false,
+        "needs_repair": true
+      }
+    },
+    {
+      "thread_index": 3,
+      "time_start": 411.14,
+      "time_end": 467.25,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 2,
+          "task_text": "Detail the corn planting process using a garden seeder.",
+          "sub_index": 1,
+          "text": "Illustrate the complete installation of the drip irrigation system.",
+          "start": 411.14,
+          "end": 432.38,
+          "segment_ids": [
+            112,
+            113,
+            114,
+            115,
+            116,
+            117
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 2,
+          "task_text": "Detail the corn planting process using a garden seeder.",
+          "sub_index": 2,
+          "text": "Show the corn being planted with a garden seeder.",
+          "start": 444.5,
+          "end": 467.25,
+          "segment_ids": [
+            121,
+            122,
+            123,
+            124,
+            125,
+            126
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 411.14,
+          "time_end": 467.25,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 1
+            },
+            {
+              "task_index": 2,
+              "sub_index": 2
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Agricultural Installation and Planting",
+        "thread_summary": "The video segment describes the installation of a drip irrigation system followed by the planting of corn using a garden seeder.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "After installing the drip irrigation system, the next logical step is to plant the corn, which requires a garden seeder."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 12.12,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    }
+  ]
+}

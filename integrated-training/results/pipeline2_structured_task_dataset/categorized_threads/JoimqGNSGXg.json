@@ -1,0 +1,498 @@
+{
+  "index": "JoimqGNSGXg",
+  "title": "Harvesting Baby Green Spinach in Containers",
+  "url": "https://www.youtube.com/watch?v=JoimqGNSGXg",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Demonstrate the method of harvesting baby green spinach.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      }
+    },
+    {
+      "task_index": 1,
+      "task_text": "Explain the benefits of retaining a base for reharvesting.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      }
+    },
+    {
+      "task_index": 2,
+      "task_text": "Show the use of a screen cover to grow spinach in summer.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 1,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      }
+    },
+    {
+      "task_index": 3,
+      "task_text": "Demonstrate the growth and harvesting of spinach with the screen cover.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 1,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      }
+    }
+  ],
+  "num_threads": 2,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 50.96,
+      "time_end": 106.42,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 4
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Demonstrate the method of harvesting baby green spinach.",
+          "sub_index": 0,
+          "text": "Show how to cut the spinach from the outside and work your way inward.",
+          "start": 50.96,
+          "end": 69.96,
+          "segment_ids": [
+            6,
+            7,
+            8
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [
+              "cut"
+            ],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Demonstrate the method of harvesting baby green spinach.",
+          "sub_index": 1,
+          "text": "Demonstrate the quicker method of cutting the spinach right off at the top.",
+          "start": 69.96,
+          "end": 98.42,
+          "segment_ids": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Explain the benefits of retaining a base for reharvesting.",
+          "sub_index": 0,
+          "text": "Highlight the importance of leaving a base in the container.",
+          "start": 88.42,
+          "end": 106.42,
+          "segment_ids": [
+            12,
+            13,
+            14
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Explain the benefits of retaining a base for reharvesting.",
+          "sub_index": 1,
+          "text": "Note that cutting near the base allows for multiple harvests.",
+          "start": 98.42,
+          "end": 101.42,
+          "segment_ids": [
+            13
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 50.96,
+          "time_end": 106.42,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            },
+            {
+              "task_index": 0,
+              "sub_index": 1
+            },
+            {
+              "task_index": 1,
+              "sub_index": 0
+            },
+            {
+              "task_index": 1,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Methods of Cutting Spinach for Multiple Harvests",
+        "thread_summary": "The video demonstrates two methods of cutting spinach and emphasizes the importance of leaving a base for future harvests.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The second method is described as a quicker alternative to the first method of cutting from the outside inward."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "The importance of leaving a base is highlighted, which is relevant to both cutting methods."
+          },
+          {
+            "from": 2,
+            "to": 3,
+            "link": "The note about cutting near the base for multiple harvests directly follows the emphasis on leaving a base."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": -6.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 1,
+      "time_start": 177.79,
+      "time_end": 278.17,
+      "thread_category_distribution": {
+        "motion": 2,
+        "perception": 0,
+        "planning": 0,
+        "narration": 4
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 2,
+          "task_text": "Show the use of a screen cover to grow spinach in summer.",
+          "sub_index": 0,
+          "text": "Present the screen cover and how it's positioned over the container.",
+          "start": 177.79,
+          "end": 205.17,
+          "segment_ids": [
+            25,
+            26,
+            27,
+            28
+          ],
+          "subtask_category": "motion",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [
+              "cover"
+            ],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 2,
+          "task_text": "Show the use of a screen cover to grow spinach in summer.",
+          "sub_index": 1,
+          "text": "Explain the shading provided by the screen cover.",
+          "start": 205.17,
+          "end": 219.17,
+          "segment_ids": [
+            29,
+            30,
+            31
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [
+              "cover"
+            ],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 2,
+          "task_text": "Show the use of a screen cover to grow spinach in summer.",
+          "sub_index": 2,
+          "text": "Describe the benefits of using the screen cover in summer.",
+          "start": 219.17,
+          "end": 232.17,
+          "segment_ids": [
+            32,
+            33,
+            34
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [
+              "cover"
+            ],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 3,
+          "task_text": "Demonstrate the growth and harvesting of spinach with the screen cover.",
+          "sub_index": 0,
+          "text": "Show the container with morning sun only.",
+          "start": 232.17,
+          "end": 242.17,
+          "segment_ids": [
+            35
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 3,
+          "task_text": "Demonstrate the growth and harvesting of spinach with the screen cover.",
+          "sub_index": 1,
+          "text": "Highlight the use of the screen to prevent insect damage.",
+          "start": 232.17,
+          "end": 256.17,
+          "segment_ids": [
+            35,
+            36,
+            37,
+            38
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 3,
+          "task_text": "Demonstrate the growth and harvesting of spinach with the screen cover.",
+          "sub_index": 2,
+          "text": "Demonstrate the abundant spinach harvest after using the screen cover.",
+          "start": 256.17,
+          "end": 278.17,
+          "segment_ids": [
+            39,
+            40,
+            41,
+            42
+          ],
+          "subtask_category": "motion",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [
+              "cover"
+            ],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "motion",
+          "time_start": 177.79,
+          "time_end": 205.17,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "narration",
+          "time_start": 205.17,
+          "time_end": 256.17,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 1
+            },
+            {
+              "task_index": 2,
+              "sub_index": 2
+            },
+            {
+              "task_index": 3,
+              "sub_index": 0
+            },
+            {
+              "task_index": 3,
+              "sub_index": 1
+            }
+          ]
+        },
+        {
+          "group_id": 2,
+          "category": "motion",
+          "time_start": 256.17,
+          "time_end": 278.17,
+          "subtask_refs": [
+            {
+              "task_index": 3,
+              "sub_index": 2
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Benefits and Usage of Screen Cover for Container Gardening",
+        "thread_summary": "This video segment explains the screen cover's positioning, shading, benefits, and insect protection for container gardening, culminating in a demonstration of its effectiveness.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The screen cover is first presented, and then its shading properties are explained."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "After explaining the shading, the benefits of the screen cover in summer are described."
+          },
+          {
+            "from": 2,
+            "to": 3,
+            "link": "The container is shown with morning sun to illustrate the context of the screen cover's use."
+          },
+          {
+            "from": 3,
+            "to": 4,
+            "link": "The screen cover's role in preventing insect damage is highlighted after showing the container with morning sun."
+          },
+          {
+            "from": 4,
+            "to": 5,
+            "link": "Finally, the screen cover's effectiveness is demonstrated through an abundant spinach harvest."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": -2.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    }
+  ]
+}

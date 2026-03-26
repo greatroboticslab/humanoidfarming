@@ -1,0 +1,124 @@
+{
+  "index": "qzN0B4p30O0",
+  "title": "Animals Dancing on the Farm",
+  "url": "https://www.youtube.com/watch?v=qzN0B4p30O0",
+  "num_threads": 2,
+  "threads_with_logic": [
+    {
+      "thread_index": 0,
+      "time_start": 5.47,
+      "time_end": 11.8,
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Show animals performing dances on the farm.",
+          "sub_index": 0,
+          "text": "Watch little animals dancing on the farm.",
+          "start": 5.47,
+          "end": 11.8,
+          "segment_ids": [
+            2
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Animals on the Farm",
+        "thread_summary": "The video segment focuses on observing animals performing a dance-like activity on a farm.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 0,
+            "link": "The subtask directly describes the content of the video segment, which is observing animals dancing on the farm."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "_raw": null
+    },
+    {
+      "thread_index": 1,
+      "time_start": 46.41,
+      "time_end": 172.8,
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Show animals performing dances on the farm.",
+          "sub_index": 1,
+          "text": "Notice Leo stomp stomping his dance.",
+          "start": 46.41,
+          "end": 56.75,
+          "segment_ids": [
+            5,
+            6
+          ]
+        },
+        {
+          "task_index": 0,
+          "task_text": "Show animals performing dances on the farm.",
+          "sub_index": 2,
+          "text": "Observe more little animals continuing to dance.",
+          "start": 56.75,
+          "end": 58.75,
+          "segment_ids": [
+            7
+          ]
+        },
+        {
+          "task_index": 0,
+          "task_text": "Show animals performing dances on the farm.",
+          "sub_index": 3,
+          "text": "See the duck performing its dance.",
+          "start": 58.75,
+          "end": 87.88,
+          "segment_ids": [
+            8,
+            9
+          ]
+        },
+        {
+          "task_index": 0,
+          "task_text": "Show animals performing dances on the farm.",
+          "sub_index": 4,
+          "text": "Watch three little animals showing off their dance.",
+          "start": 88.88,
+          "end": 172.8,
+          "segment_ids": [
+            10,
+            11
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Animals Dancing in a Video",
+        "thread_summary": "The video shows various animals, including a duck, performing dance routines, with Leo stomping and other little animals joining in.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "Leo's stomping action is noted as an introduction to the dancing scene, followed by other animals joining in."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "After observing other animals, the focus shifts to the duck performing its dance."
+          },
+          {
+            "from": 2,
+            "to": 3,
+            "link": "The duck's dance is highlighted, and then the scene broadens to show three little animals showing off their dance skills."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "_raw": null
+    }
+  ]
+}

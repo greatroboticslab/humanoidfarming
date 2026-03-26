@@ -1,0 +1,717 @@
+{
+  "index": "upgyxjq3TCY",
+  "title": "Raw Material Safety in Juice Production",
+  "url": "https://www.youtube.com/watch?v=upgyxjq3TCY",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Explain the importance of agricultural and manufacturing practices for minimizing microbial contamination in fresh produce.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 7
+      }
+    },
+    {
+      "task_index": 1,
+      "task_text": "Describe the principles and recommended practices to minimize microbial food safety hazards in fresh produce.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 6
+      }
+    }
+  ],
+  "num_threads": 6,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 6.32,
+      "time_end": 33.32,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 3
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Explain the importance of agricultural and manufacturing practices for minimizing microbial contamination in fresh produce.",
+          "sub_index": 0,
+          "text": "Note that the safety and quality of the final juice is dependent on the safety and quality of the raw material.",
+          "start": 6.32,
+          "end": 13.32,
+          "segment_ids": [
+            0
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Explain the importance of agricultural and manufacturing practices for minimizing microbial contamination in fresh produce.",
+          "sub_index": 1,
+          "text": "Identify that raw materials can include fruits and vegetables and various types of water and additives throughout the process.",
+          "start": 13.32,
+          "end": 21.32,
+          "segment_ids": [
+            1
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "identify"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Explain the importance of agricultural and manufacturing practices for minimizing microbial contamination in fresh produce.",
+          "sub_index": 2,
+          "text": "Indicate how the environment, both in and around growing fields and packing houses, can influence the safety and quality of raw materials.",
+          "start": 21.32,
+          "end": 29.32,
+          "segment_ids": [
+            2
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Explain the importance of agricultural and manufacturing practices for minimizing microbial contamination in fresh produce.",
+          "sub_index": 3,
+          "text": "Mention that microbial contamination of produce can occur at any point during its production.",
+          "start": 29.32,
+          "end": 33.32,
+          "segment_ids": [
+            3
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 6.32,
+          "time_end": 13.32,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "perception",
+          "time_start": 13.32,
+          "time_end": 21.32,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 1
+            }
+          ]
+        },
+        {
+          "group_id": 2,
+          "category": "narration",
+          "time_start": 21.32,
+          "time_end": 33.32,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 2
+            },
+            {
+              "task_index": 0,
+              "sub_index": 3
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Factors Influencing the Safety and Quality of Juice Raw Materials",
+        "thread_summary": "This thread discusses the importance of raw material safety and quality in juice production, including the role of environmental factors and microbial contamination.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The statement about the dependency of final juice quality on raw material quality logically leads to identifying the types of raw materials used in the process."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "After identifying the types of raw materials, it makes sense to discuss how environmental factors can impact their safety and quality."
+          },
+          {
+            "from": 2,
+            "to": 3,
+            "link": "The discussion on environmental factors naturally transitions to the issue of microbial contamination, which can occur at any point in the production process."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 1,
+      "time_start": 33.32,
+      "time_end": 40.32,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Explain the importance of agricultural and manufacturing practices for minimizing microbial contamination in fresh produce.",
+          "sub_index": 4,
+          "text": "Discuss the commitment required from farmers and their workers to reduce microbial risks.",
+          "start": 33.32,
+          "end": 40.32,
+          "segment_ids": [
+            4
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 33.32,
+          "time_end": 40.32,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 4
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Farmer Commitment to Reducing Microbial Risks",
+        "thread_summary": "The video segment discusses the importance of farmer and worker commitment in reducing microbial risks in agricultural practices.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 2,
+      "time_start": 40.32,
+      "time_end": 76.32,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 3
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Explain the importance of agricultural and manufacturing practices for minimizing microbial contamination in fresh produce.",
+          "sub_index": 5,
+          "text": "Highlight that raw materials for fruit and vegetable juices are produced in many different geographical areas.",
+          "start": 40.32,
+          "end": 47.32,
+          "segment_ids": [
+            5
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Explain the importance of agricultural and manufacturing practices for minimizing microbial contamination in fresh produce.",
+          "sub_index": 6,
+          "text": "List examples of raw materials coming from different parts of the United States.",
+          "start": 47.32,
+          "end": 57.32,
+          "segment_ids": [
+            6
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Explain the importance of agricultural and manufacturing practices for minimizing microbial contamination in fresh produce.",
+          "sub_index": 7,
+          "text": "Point out that raw materials can be of varying shapes and sizes and may arrive at the processor in different forms.",
+          "start": 65.32,
+          "end": 76.32,
+          "segment_ids": [
+            8
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 40.32,
+          "time_end": 76.32,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 5
+            },
+            {
+              "task_index": 0,
+              "sub_index": 6
+            },
+            {
+              "task_index": 0,
+              "sub_index": 7
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Sources and Variations of Raw Materials for Fruit and Vegetable Juices",
+        "thread_summary": "The video discusses the geographical origins and variations of raw materials used in fruit and vegetable juice production.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The video transitions from a general statement about the geographical origins of raw materials to specific examples from the United States."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "The video moves from specific examples to a broader discussion of the variations in raw materials and their forms upon arrival at the processor."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 4.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 3,
+      "time_start": 228.32,
+      "time_end": 239.32,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 1,
+          "task_text": "Describe the principles and recommended practices to minimize microbial food safety hazards in fresh produce.",
+          "sub_index": 0,
+          "text": "Explain principle one - prevention of microbial contamination is favored over reliance on corrective actions after contamination has occurred.",
+          "start": 228.32,
+          "end": 239.32,
+          "segment_ids": [
+            17
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 228.32,
+          "time_end": 239.32,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 0
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Principles of Microbial Contamination Prevention",
+        "thread_summary": "The video segment discusses the importance of preventing microbial contamination rather than relying on corrective actions after contamination has occurred.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 4,
+      "time_start": 239.32,
+      "time_end": 253.32,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 1,
+          "task_text": "Describe the principles and recommended practices to minimize microbial food safety hazards in fresh produce.",
+          "sub_index": 1,
+          "text": "State principle two - growers, packers, or shippers should use good agricultural and manufacturing practices in areas over which they have control.",
+          "start": 239.32,
+          "end": 253.32,
+          "segment_ids": [
+            18
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 239.32,
+          "time_end": 253.32,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Regulations for Good Agricultural and Manufacturing Practices",
+        "thread_summary": "This thread discusses the principles that growers, packers, and shippers should follow to ensure good agricultural and manufacturing practices in their areas of control.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 5,
+      "time_start": 253.32,
+      "time_end": 312.32,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 4
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 1,
+          "task_text": "Describe the principles and recommended practices to minimize microbial food safety hazards in fresh produce.",
+          "sub_index": 2,
+          "text": "Outline principle three - produce can become microbiologically contaminated at any point along the farm to table food chain.",
+          "start": 253.32,
+          "end": 268.32,
+          "segment_ids": [
+            19
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Describe the principles and recommended practices to minimize microbial food safety hazards in fresh produce.",
+          "sub_index": 3,
+          "text": "Mention principle four - water quality and its source dictate the potential for contamination when water comes into contact with produce.",
+          "start": 269.32,
+          "end": 284.32,
+          "segment_ids": [
+            20
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Describe the principles and recommended practices to minimize microbial food safety hazards in fresh produce.",
+          "sub_index": 4,
+          "text": "Discuss principle five - managing practices using animal manure or municipal biosolid waste to minimize microbial contamination.",
+          "start": 285.32,
+          "end": 296.32,
+          "segment_ids": [
+            21
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Describe the principles and recommended practices to minimize microbial food safety hazards in fresh produce.",
+          "sub_index": 5,
+          "text": "Highlight principle six - worker hygiene and sanitation practices play a critical role in minimizing microbial contamination.",
+          "start": 297.32,
+          "end": 312.32,
+          "segment_ids": [
+            22
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 253.32,
+          "time_end": 312.32,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 2
+            },
+            {
+              "task_index": 1,
+              "sub_index": 3
+            },
+            {
+              "task_index": 1,
+              "sub_index": 4
+            },
+            {
+              "task_index": 1,
+              "sub_index": 5
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Principles of Microbiological Contamination in Produce Handling",
+        "thread_summary": "The video segment outlines six principles to minimize microbiological contamination in produce from farm to table, focusing on various factors such as water quality, animal manure, and worker hygiene.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The discussion on principle three transitions to principle four by expanding on the potential points of contamination, specifically mentioning water quality."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "Principle four about water quality leads to principle five by discussing the impact of water quality on contamination when it comes into contact with produce, and how animal manure can further contribute to this issue."
+          },
+          {
+            "from": 2,
+            "to": 3,
+            "link": "Principle five about managing practices using animal manure transitions to principle six by addressing the broader context of contamination control, including worker hygiene and sanitation practices."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 1.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    }
+  ]
+}

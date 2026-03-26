@@ -1,0 +1,731 @@
+{
+  "index": "XhopyS_krDk",
+  "title": "Innovative Farming Machines Transforming Agriculture",
+  "url": "https://www.youtube.com/watch?v=XhopyS_krDk",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Describe the ecological weeding technique.",
+      "task_category": "planning",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 1
+      }
+    },
+    {
+      "task_index": 1,
+      "task_text": "Explain the plant-tape technique for sustainable farming.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 2
+      }
+    },
+    {
+      "task_index": 2,
+      "task_text": "Describe the onion harvesting machine.",
+      "task_category": "planning",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 1,
+        "narration": 1
+      }
+    },
+    {
+      "task_index": 3,
+      "task_text": "Describe the tree stump processing machine.",
+      "task_category": "planning",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 1,
+        "narration": 1
+      }
+    },
+    {
+      "task_index": 4,
+      "task_text": "Describe the Stacker 80 hay baling machine.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 2
+      }
+    }
+  ],
+  "num_threads": 4,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 12.46,
+      "time_end": 100.31,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 2
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the ecological weeding technique.",
+          "sub_index": 0,
+          "text": "Observe the use of foam bubbles at a temperature range of 70 to 90 degrees Celsius to eliminate weeds.",
+          "start": 12.46,
+          "end": 86.54,
+          "segment_ids": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Describe the ecological weeding technique.",
+          "sub_index": 1,
+          "text": "Highlight the environmental benefit of this technique in avoiding toxic chemicals.",
+          "start": 74.19,
+          "end": 86.54,
+          "segment_ids": [
+            13
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Explain the plant-tape technique for sustainable farming.",
+          "sub_index": 0,
+          "text": "Note the use of biodegradable plant-tapes and specialized planting machines.",
+          "start": 95.21,
+          "end": 100.31,
+          "segment_ids": [
+            16
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [
+              "plant"
+            ],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 12.46,
+          "time_end": 86.54,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "narration",
+          "time_start": 74.19,
+          "time_end": 100.31,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 1
+            },
+            {
+              "task_index": 1,
+              "sub_index": 0
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Weed Control Techniques Using Foam Bubbles and Biodegradable Plant-Tapes",
+        "thread_summary": "The video discusses a weed control method involving foam bubbles at specific temperatures and highlights its environmental benefits, followed by the use of biodegradable plant-tapes and specialized planting machines.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The subtask about observing the use of foam bubbles leads to highlighting their environmental benefits, as the technique is introduced and then its advantages are explained."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "After discussing the environmental benefits, the subtask transitions to noting the use of biodegradable plant-tapes and specialized planting machines, which are additional components of the weed control method."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": -1.84,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 1,
+      "time_start": 100.31,
+      "time_end": 171.67,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 2,
+        "planning": 1,
+        "narration": 2
+      },
+      "thread_dominant_category": "planning",
+      "subtasks": [
+        {
+          "task_index": 1,
+          "task_text": "Explain the plant-tape technique for sustainable farming.",
+          "sub_index": 1,
+          "text": "Observe the seeds being sown with unparalleled accuracy.",
+          "start": 100.31,
+          "end": 107.12,
+          "segment_ids": [
+            17
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Explain the plant-tape technique for sustainable farming.",
+          "sub_index": 2,
+          "text": "Describe the environmental benefits of the plant-tape technique.",
+          "start": 124.59,
+          "end": 129.97,
+          "segment_ids": [
+            21
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [
+              "plant"
+            ],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 2,
+          "task_text": "Describe the onion harvesting machine.",
+          "sub_index": 0,
+          "text": "Watch the machine cut and push onions.",
+          "start": 143.84,
+          "end": 149.6,
+          "segment_ids": [
+            25
+          ],
+          "subtask_category": "planning",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [
+              "cut",
+              "push"
+            ],
+            "matched_perception_verbs": [
+              "watch"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 2,
+          "task_text": "Describe the onion harvesting machine.",
+          "sub_index": 1,
+          "text": "Note the result of perfectly harvested onion bulbs.",
+          "start": 149.6,
+          "end": 151.6,
+          "segment_ids": [
+            26
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 2,
+          "task_text": "Describe the onion harvesting machine.",
+          "sub_index": 2,
+          "text": "Observe the process of sorting and packaging the onions.",
+          "start": 156.7,
+          "end": 171.67,
+          "segment_ids": [
+            28,
+            29,
+            30
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 100.31,
+          "time_end": 107.12,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 1
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "narration",
+          "time_start": 124.59,
+          "time_end": 129.97,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 2
+            }
+          ]
+        },
+        {
+          "group_id": 2,
+          "category": "planning",
+          "time_start": 143.84,
+          "time_end": 149.6,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 3,
+          "category": "narration",
+          "time_start": 149.6,
+          "time_end": 151.6,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 1
+            }
+          ]
+        },
+        {
+          "group_id": 4,
+          "category": "perception",
+          "time_start": 156.7,
+          "time_end": 171.67,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 2
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Onion Harvesting and Processing",
+        "thread_summary": "The video segment describes the process of harvesting and processing onions, including the use of a plant-tape technique and a machine for cutting and packaging.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The observation of the seeds being sown accurately sets the context for the environmental benefits of the plant-tape technique."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "After describing the environmental benefits, the next logical step is to show the actual harvesting process."
+          },
+          {
+            "from": 2,
+            "to": 3,
+            "link": "The machine cutting and pushing onions is a direct continuation of the harvesting process."
+          },
+          {
+            "from": 3,
+            "to": 4,
+            "link": "The result of the perfectly harvested onion bulbs naturally leads to the observation of the sorting and packaging process."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 9.11,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 2,
+      "time_start": 457.47,
+      "time_end": 493.19,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 1,
+        "narration": 0
+      },
+      "thread_dominant_category": "planning",
+      "subtasks": [
+        {
+          "task_index": 3,
+          "task_text": "Describe the tree stump processing machine.",
+          "sub_index": 0,
+          "text": "Watch the machine turn tree stumps into sawdust.",
+          "start": 457.47,
+          "end": 493.19,
+          "segment_ids": [
+            81,
+            82,
+            83,
+            84,
+            85
+          ],
+          "subtask_category": "planning",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [
+              "turn"
+            ],
+            "matched_perception_verbs": [
+              "watch"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "planning",
+          "time_start": 457.47,
+          "time_end": 493.19,
+          "subtask_refs": [
+            {
+              "task_index": 3,
+              "sub_index": 0
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Process of Wood Chipping",
+        "thread_summary": "The video segment describes the process of converting tree stumps into sawdust using a machine.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 3,
+      "time_start": 493.19,
+      "time_end": 533.2,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 3
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 3,
+          "task_text": "Describe the tree stump processing machine.",
+          "sub_index": 1,
+          "text": "Note the clean and debris-free landscape after stump processing.",
+          "start": 493.19,
+          "end": 505.33,
+          "segment_ids": [
+            86
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [
+              "clean"
+            ],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 4,
+          "task_text": "Describe the Stacker 80 hay baling machine.",
+          "sub_index": 0,
+          "text": "Observe the machine gracefully stacking and compacting hay bales.",
+          "start": 505.33,
+          "end": 509.77,
+          "segment_ids": [
+            87
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 4,
+          "task_text": "Describe the Stacker 80 hay baling machine.",
+          "sub_index": 1,
+          "text": "Note the machine's flexibility in conquering various terrains.",
+          "start": 521.36,
+          "end": 526.88,
+          "segment_ids": [
+            89
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 4,
+          "task_text": "Describe the Stacker 80 hay baling machine.",
+          "sub_index": 2,
+          "text": "Highlight the convenience and productivity offered by the machine for farmers.",
+          "start": 528.52,
+          "end": 533.2,
+          "segment_ids": [
+            91
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 493.19,
+          "time_end": 505.33,
+          "subtask_refs": [
+            {
+              "task_index": 3,
+              "sub_index": 1
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "perception",
+          "time_start": 505.33,
+          "time_end": 509.77,
+          "subtask_refs": [
+            {
+              "task_index": 4,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 2,
+          "category": "narration",
+          "time_start": 521.36,
+          "time_end": 533.2,
+          "subtask_refs": [
+            {
+              "task_index": 4,
+              "sub_index": 1
+            },
+            {
+              "task_index": 4,
+              "sub_index": 2
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Machine Performance and Benefits",
+        "thread_summary": "The video segment showcases the machine's capabilities in processing stumps, stacking and compacting hay bales, and its versatility on different terrains, emphasizing its benefits for farmers.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The subtask transitions from the clean landscape after stump processing to the machine's operation, highlighting its immediate impact and ongoing functionality."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "After observing the machine's operation in stacking and compacting hay bales, the next subtask emphasizes its adaptability to different terrains."
+          },
+          {
+            "from": 2,
+            "to": 3,
+            "link": "The final subtask builds on the machine's versatility by highlighting its overall benefits for farmers, summarizing the previous observations."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [
+            {
+              "insert_after": 1,
+              "text": "This efficient operation ensures a clean and debris-free environment, setting the stage for the machine's next task."
+            }
+          ],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 4.41,
+        "has_conflicts": false,
+        "needs_repair": true
+      }
+    }
+  ]
+}

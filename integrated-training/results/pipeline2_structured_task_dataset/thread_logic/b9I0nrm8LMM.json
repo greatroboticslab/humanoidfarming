@@ -1,0 +1,151 @@
+{
+  "index": "b9I0nrm8LMM",
+  "title": "Managing Lucin Grazing Challenges",
+  "url": "https://www.youtube.com/watch?v=b9I0nrm8LMM",
+  "num_threads": 2,
+  "threads_with_logic": [
+    {
+      "thread_index": 0,
+      "time_start": 8.53,
+      "time_end": 108.93,
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Explain the health challenges of grazing sheep on Lucin pasture.",
+          "sub_index": 0,
+          "text": "Observe the production of red gut due to the high fermentability of Lucin pasture.",
+          "start": 8.53,
+          "end": 108.93,
+          "segment_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+          ]
+        },
+        {
+          "task_index": 0,
+          "task_text": "Explain the health challenges of grazing sheep on Lucin pasture.",
+          "sub_index": 1,
+          "text": "Note the method of rotating Lucin with other pastures to prevent red gut.",
+          "start": 88.89,
+          "end": 108.93,
+          "segment_ids": [
+            21,
+            22,
+            23,
+            24
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Management of Red Gut in Livestock",
+        "thread_summary": "The video discusses the observation of red gut in livestock due to the high fermentability of Lucin pasture and the method of rotating Lucin with other pastures to prevent it.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The observation of red gut leads to the need for preventive measures, which include rotating Lucin pasture with others to reduce the risk of red gut."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [
+            {
+              "insert_after": 0,
+              "text": "Red gut is a condition observed in livestock due to the high fermentability of Lucin pasture, which can lead to digestive issues."
+            }
+          ],
+          "revised_subtasks": [
+            {
+              "index": 0,
+              "text": "Observe the production of red gut due to the high fermentability of Lucin pasture. Red gut is a condition observed in livestock due to the high fermentability of Lucin pasture, which can lead to digestive issues."
+            }
+          ]
+        }
+      },
+      "_raw": null
+    },
+    {
+      "thread_index": 1,
+      "time_start": 132.69,
+      "time_end": 204.33,
+      "subtasks": [
+        {
+          "task_index": 1,
+          "task_text": "Describe the vaccination and supplementing practices for healthcare and growth.",
+          "sub_index": 0,
+          "text": "Mention the clostridial diseases and their vaccines.",
+          "start": 132.69,
+          "end": 166.33,
+          "segment_ids": [
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37
+          ]
+        },
+        {
+          "task_index": 1,
+          "task_text": "Describe the vaccination and supplementing practices for healthcare and growth.",
+          "sub_index": 1,
+          "text": "Highlight the role of supplementing salts to increase growth rates.",
+          "start": 191.21,
+          "end": 204.33,
+          "segment_ids": [
+            43,
+            44,
+            45,
+            46
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Vaccines and Supplemental Salts in Livestock Management",
+        "thread_summary": "The video discusses clostridial diseases and their vaccines, followed by the role of salt supplementation in increasing growth rates in livestock.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The video transitions from discussing vaccines for clostridial diseases to mentioning another aspect of livestock management, which is the use of salt supplements to improve growth rates."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [
+            {
+              "insert_after": 0,
+              "text": "Both vaccines and salt supplementation are important aspects of managing livestock health and productivity."
+            }
+          ]
+        }
+      },
+      "_raw": null
+    }
+  ]
+}

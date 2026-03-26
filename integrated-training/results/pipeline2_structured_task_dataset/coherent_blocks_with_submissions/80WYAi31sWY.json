@@ -1,0 +1,190 @@
+{
+  "index": "80WYAi31sWY",
+  "title": "Bushhogging Large Horse Pasture Job",
+  "url": "https://www.youtube.com/watch?v=80WYAi31sWY",
+  "params": {
+    "use_links": true,
+    "max_time_span": 180.0,
+    "max_gap": 30.0,
+    "min_overlap": 0.06,
+    "narration_merge_overlap": 0.12,
+    "max_block_units": 12,
+    "use_llm": true,
+    "model": "Qwen/Qwen2.5-7B-Instruct"
+  },
+  "debug": {
+    "link_grouping": {
+      "num_units": 4,
+      "num_unit_edges": 2,
+      "num_components": 2,
+      "num_blocks_after_caps": 4
+    }
+  },
+  "num_blocks": 4,
+  "blocks": [
+    {
+      "block_id": 0,
+      "time_start": 29.52,
+      "time_end": 104.96,
+      "dominant_category": "narration",
+      "category_distribution": {
+        "narration": 1
+      },
+      "units": [
+        {
+          "unit_id": "th0_g0",
+          "thread_index": 0,
+          "group_id": 0,
+          "category": "narration"
+        }
+      ],
+      "subtask_refs": [
+        {
+          "task_index": 0,
+          "sub_index": 0
+        },
+        {
+          "task_index": 0,
+          "sub_index": 1
+        }
+      ],
+      "block_preview_text": "Describe the initial assessment of the 19-acre horse pasture property and the decision to charge $3,500. Detail the factors that added time and cost to the job, such as the presence of trees and debris.",
+      "sub_mission_id": "80WYAi31sWY_subm0",
+      "sub_mission_title": "Theme: acre / added / assessment",
+      "sub_mission_time": {
+        "start": 29.52,
+        "end": 104.96
+      }
+    },
+    {
+      "block_id": 1,
+      "time_start": 142.36,
+      "time_end": 183.76,
+      "dominant_category": "planning",
+      "category_distribution": {
+        "planning": 1
+      },
+      "units": [
+        {
+          "unit_id": "th1_g0",
+          "thread_index": 1,
+          "group_id": 0,
+          "category": "planning"
+        }
+      ],
+      "subtask_refs": [
+        {
+          "task_index": 1,
+          "sub_index": 0
+        }
+      ],
+      "block_preview_text": "Observe how a zero-turn mower increases efficiency and flexibility compared to a traditional mower.",
+      "sub_mission_id": "80WYAi31sWY_subm1",
+      "sub_mission_title": "Theme: mower / compared / efficiency",
+      "sub_mission_time": {
+        "start": 142.36,
+        "end": 183.76
+      }
+    },
+    {
+      "block_id": 2,
+      "time_start": 195.24,
+      "time_end": 347.9,
+      "dominant_category": "narration",
+      "category_distribution": {
+        "narration": 1
+      },
+      "units": [
+        {
+          "unit_id": "th1_g1",
+          "thread_index": 1,
+          "group_id": 1,
+          "category": "narration"
+        }
+      ],
+      "subtask_refs": [
+        {
+          "task_index": 1,
+          "sub_index": 1
+        },
+        {
+          "task_index": 2,
+          "sub_index": 0
+        },
+        {
+          "task_index": 2,
+          "sub_index": 1
+        }
+      ],
+      "block_preview_text": "Note the decision to invest in a larger, more powerful mower for future jobs. Highlight the customer's decision to find a tenant and stop the job before completion. Explain the need to create a service agreement to address issues of cancellation and payment.",
+      "sub_mission_id": "80WYAi31sWY_subm2",
+      "sub_mission_title": "Theme: decision / address / agreement",
+      "sub_mission_time": {
+        "start": 195.24,
+        "end": 347.9
+      }
+    },
+    {
+      "block_id": 3,
+      "time_start": 347.9,
+      "time_end": 583.83,
+      "dominant_category": "perception",
+      "category_distribution": {
+        "perception": 1
+      },
+      "units": [
+        {
+          "unit_id": "th1_g2",
+          "thread_index": 1,
+          "group_id": 2,
+          "category": "perception"
+        }
+      ],
+      "subtask_refs": [
+        {
+          "task_index": 3,
+          "sub_index": 0
+        }
+      ],
+      "block_preview_text": "Observe the progress made on the job by cutting down palmettoes and preparing for the next land maintenance job.",
+      "sub_mission_id": "80WYAi31sWY_subm3",
+      "sub_mission_title": "Theme: job / cutting / down",
+      "sub_mission_time": {
+        "start": 347.9,
+        "end": 583.83
+      }
+    }
+  ],
+  "mission_id": "80WYAi31sWY",
+  "mission_title": "Bushhogging Large Horse Pasture Job",
+  "sub_missions": [
+    {
+      "sub_mission_id": "80WYAi31sWY_subm0",
+      "sub_mission_title": "Theme: acre / added / assessment",
+      "time_start": 29.52,
+      "time_end": 104.96,
+      "block_id": 0
+    },
+    {
+      "sub_mission_id": "80WYAi31sWY_subm1",
+      "sub_mission_title": "Theme: mower / compared / efficiency",
+      "time_start": 142.36,
+      "time_end": 183.76,
+      "block_id": 1
+    },
+    {
+      "sub_mission_id": "80WYAi31sWY_subm2",
+      "sub_mission_title": "Theme: decision / address / agreement",
+      "time_start": 195.24,
+      "time_end": 347.9,
+      "block_id": 2
+    },
+    {
+      "sub_mission_id": "80WYAi31sWY_subm3",
+      "sub_mission_title": "Theme: job / cutting / down",
+      "time_start": 347.9,
+      "time_end": 583.83,
+      "block_id": 3
+    }
+  ]
+}

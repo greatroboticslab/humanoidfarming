@@ -1,0 +1,216 @@
+{
+  "index": "8s6wMf8gWWw",
+  "title": "Save the Soil: Common Resource for All",
+  "url": "https://www.youtube.com/watch?v=8s6wMf8gWWw",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Discuss strategies for soil conservation and communication.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      }
+    },
+    {
+      "task_index": 1,
+      "task_text": "Explain the importance of communication and shared priorities among nations.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      }
+    },
+    {
+      "task_index": 2,
+      "task_text": "Advocate for the conservation of soil as a common resource.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      }
+    }
+  ],
+  "num_threads": 1,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 6.33,
+      "time_end": 43.17,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 4
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Discuss strategies for soil conservation and communication.",
+          "sub_index": 0,
+          "text": "Mention the importance of adding organic content to the soil.",
+          "start": 6.33,
+          "end": 11.13,
+          "segment_ids": [
+            1
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Explain the importance of communication and shared priorities among nations.",
+          "sub_index": 0,
+          "text": "Highlight the role of the EU in communicating soil concerns.",
+          "start": 18.49,
+          "end": 28.45,
+          "segment_ids": [
+            4,
+            5
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Explain the importance of communication and shared priorities among nations.",
+          "sub_index": 1,
+          "text": "Emphasize the need for a clear and unified message about soil conservation.",
+          "start": 28.73,
+          "end": 32.29,
+          "segment_ids": [
+            6
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 2,
+          "task_text": "Advocate for the conservation of soil as a common resource.",
+          "sub_index": 0,
+          "text": "State the importance of saving soil.",
+          "start": 32.29,
+          "end": 43.17,
+          "segment_ids": [
+            7,
+            8,
+            9
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 6.33,
+          "time_end": 43.17,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            },
+            {
+              "task_index": 1,
+              "sub_index": 0
+            },
+            {
+              "task_index": 1,
+              "sub_index": 1
+            },
+            {
+              "task_index": 2,
+              "sub_index": 0
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Importance of Soil Conservation and EU Communication",
+        "thread_summary": "The video discusses the importance of adding organic content to the soil, the role of the EU in communicating soil concerns, the need for a clear and unified message, and the importance of saving soil.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The discussion on the importance of soil quality naturally leads to mentioning the role of the EU in addressing these concerns."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "After highlighting the EU's role, it makes sense to emphasize the need for a clear and unified message to effectively communicate these concerns."
+          },
+          {
+            "from": 2,
+            "to": 3,
+            "link": "The need for a clear message logically leads to the importance of saving soil, as a unified message is crucial for conservation efforts."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 2.547,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    }
+  ]
+}

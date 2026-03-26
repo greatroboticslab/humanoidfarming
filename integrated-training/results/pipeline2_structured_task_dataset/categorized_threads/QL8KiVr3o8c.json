@@ -1,0 +1,577 @@
+{
+  "index": "QL8KiVr3o8c",
+  "title": "Farmacies Cultivating Sustainable Agriculture Costa Dia Gr\u00e0ria",
+  "url": "https://www.youtube.com/watch?v=QL8KiVr3o8c",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Explain the first block of actions to improve soy fertility.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 3
+      }
+    },
+    {
+      "task_index": 1,
+      "task_text": "Describe the second block of actions to improve water management practices.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 3
+      }
+    },
+    {
+      "task_index": 2,
+      "task_text": "Outline the third block of actions for biodiversity conservation.",
+      "task_category": "planning",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 1
+      }
+    },
+    {
+      "task_index": 3,
+      "task_text": "Explain the broader conservation efforts.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      }
+    }
+  ],
+  "num_threads": 5,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 66.96,
+      "time_end": 84.56,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Explain the first block of actions to improve soy fertility.",
+          "sub_index": 0,
+          "text": "Discuss the base of soy productivity and its economic implications for pharmacies.",
+          "start": 66.96,
+          "end": 73.96,
+          "segment_ids": [
+            24,
+            25,
+            26
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Explain the first block of actions to improve soy fertility.",
+          "sub_index": 2,
+          "text": "Explain the support provided to pharmacies in implementing new practices and necessary materials.",
+          "start": 79.96,
+          "end": 84.56,
+          "segment_ids": [
+            30,
+            31
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 66.96,
+          "time_end": 84.56,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            },
+            {
+              "task_index": 0,
+              "sub_index": 2
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Support for Pharmacies Implementing New Practices",
+        "thread_summary": "The video discusses the economic importance of soy productivity for pharmacies and the support provided to pharmacies to implement new practices and obtain necessary materials.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The discussion about the economic implications of soy productivity (subtask 0) naturally leads to the explanation of support provided to pharmacies (subtask 1), as understanding the economic impact may motivate pharmacies to adopt new practices and obtain necessary materials."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 6.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 1,
+      "time_start": 182.86,
+      "time_end": 188.86,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 2
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Explain the first block of actions to improve soy fertility.",
+          "sub_index": 1,
+          "text": "Mention the analysis and management recommendations for soy productivity.",
+          "start": 182.86,
+          "end": 188.86,
+          "segment_ids": [
+            77,
+            78,
+            79
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 2,
+          "task_text": "Outline the third block of actions for biodiversity conservation.",
+          "sub_index": 0,
+          "text": "Highlight the inventory of each pharmacy that helps detect areas for protection.",
+          "start": null,
+          "end": null,
+          "segment_ids": [
+            172,
+            173,
+            174
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "detect"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 2,
+          "task_text": "Outline the third block of actions for biodiversity conservation.",
+          "sub_index": 1,
+          "text": "Emphasize collaboration in habitat maintenance and restoration.",
+          "start": null,
+          "end": null,
+          "segment_ids": [
+            187,
+            188,
+            189
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 182.86,
+          "time_end": 188.86,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 1
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "perception",
+          "time_start": null,
+          "time_end": null,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 2,
+          "category": "narration",
+          "time_start": null,
+          "time_end": null,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Recommendations and Collaborative Efforts for Productivity and Conservation",
+        "thread_summary": "The video discusses analysis and management recommendations for soy productivity and emphasizes the importance of collaboration in habitat maintenance and restoration, while also mentioning an unrelated inventory highlight.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The subtask about inventory highlights is mentioned but not directly linked to the analysis of soy productivity, suggesting a brief transition is needed."
+          }
+        ],
+        "conflicts": [
+          {
+            "type": "topic_jump",
+            "between": [
+              0,
+              1
+            ],
+            "description": "There is an abrupt topic jump from inventory highlighting to soy productivity analysis, which are not directly related."
+          }
+        ],
+        "repair": {
+          "bridging_sentences": [
+            {
+              "insert_after": 0,
+              "text": "While the inventory highlight is important, it is not directly related to the main topic of soy productivity analysis."
+            }
+          ],
+          "revised_subtasks": [
+            {
+              "index": 0,
+              "text": "Highlight the inventory of each pharmacy that helps detect areas for protection. While the inventory highlight is important, it is not directly related to the main topic of soy productivity analysis."
+            }
+          ]
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": true,
+        "needs_repair": true
+      }
+    },
+    {
+      "thread_index": 2,
+      "time_start": 218.52,
+      "time_end": 222.52,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 1,
+          "task_text": "Describe the second block of actions to improve water management practices.",
+          "sub_index": 0,
+          "text": "Recommend reducing the extraction of fresh water from the aquifer.",
+          "start": 218.52,
+          "end": 222.52,
+          "segment_ids": [
+            95,
+            96
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 218.52,
+          "time_end": 222.52,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 0
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Water Management and Sustainability",
+        "thread_summary": "The video discusses the importance of sustainable water management practices, specifically focusing on reducing the extraction of fresh water from an aquifer.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 3,
+      "time_start": 237.52,
+      "time_end": 241.52,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 1,
+          "task_text": "Describe the second block of actions to improve water management practices.",
+          "sub_index": 1,
+          "text": "Describe maintaining humidity in soy to improve fertility.",
+          "start": 237.52,
+          "end": 241.52,
+          "segment_ids": [
+            105,
+            106
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 237.52,
+          "time_end": 241.52,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Methods to Improve Soy Fertility",
+        "thread_summary": "The video segment discusses techniques to enhance the fertility of soy by focusing on maintaining appropriate humidity levels.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 4,
+      "time_start": 237.52,
+      "time_end": 259.46,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 3,
+          "task_text": "Explain the broader conservation efforts.",
+          "sub_index": 0,
+          "text": "Mention the preservation of olive groves and their traditional methods.",
+          "start": 237.52,
+          "end": 245.36,
+          "segment_ids": [
+            105,
+            106,
+            107
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Describe the second block of actions to improve water management practices.",
+          "sub_index": 2,
+          "text": "Explain the removal of waste water systems that are not well-maintained or abandoned.",
+          "start": 254.06,
+          "end": 259.46,
+          "segment_ids": [
+            110,
+            111,
+            112
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 237.52,
+          "time_end": 259.46,
+          "subtask_refs": [
+            {
+              "task_index": 3,
+              "sub_index": 0
+            },
+            {
+              "task_index": 1,
+              "sub_index": 2
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Environmental Preservation and Maintenance",
+        "thread_summary": "The video discusses the importance of preserving olive groves and their traditional methods, as well as the removal of poorly maintained or abandoned waste water systems.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The discussion shifts from preserving traditional olive groves to addressing environmental issues, specifically focusing on waste water systems."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [
+            {
+              "insert_after": 0,
+              "text": "The video then turns to another aspect of environmental preservation, focusing on waste water systems."
+            }
+          ]
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 8.7,
+        "has_conflicts": false,
+        "needs_repair": true
+      }
+    }
+  ]
+}

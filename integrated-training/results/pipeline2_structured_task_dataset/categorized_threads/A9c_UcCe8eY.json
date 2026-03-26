@@ -1,0 +1,412 @@
+{
+  "index": "A9c_UcCe8eY",
+  "title": "Guava Farming Practices and Harvesting",
+  "url": "https://www.youtube.com/watch?v=A9c_UcCe8eY",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Describe the initial planting and care of guava plants.",
+      "task_category": "perception",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 2,
+        "planning": 0,
+        "narration": 0
+      }
+    },
+    {
+      "task_index": 1,
+      "task_text": "Explain the irrigation and maintenance practices for mature guava trees.",
+      "task_category": "perception",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 2,
+        "planning": 0,
+        "narration": 1
+      }
+    },
+    {
+      "task_index": 2,
+      "task_text": "Highlight the stages leading up to and including fruit harvest.",
+      "task_category": "perception",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 0
+      }
+    }
+  ],
+  "num_threads": 3,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 37.68,
+      "time_end": 72.92,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 2,
+        "planning": 0,
+        "narration": 0
+      },
+      "thread_dominant_category": "perception",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the initial planting and care of guava plants.",
+          "sub_index": 0,
+          "text": "Observe the selection and careful planting of healthy guava sprouts.",
+          "start": 37.68,
+          "end": 48.56,
+          "segment_ids": [
+            9,
+            10,
+            11
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Describe the initial planting and care of guava plants.",
+          "sub_index": 1,
+          "text": "Notice the precision planting with recommended distances between guava trees.",
+          "start": 54.04,
+          "end": 72.92,
+          "segment_ids": [
+            14,
+            15,
+            16,
+            17
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "notice"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 37.68,
+          "time_end": 72.92,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            },
+            {
+              "task_index": 0,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Guava Tree Planting Process",
+        "thread_summary": "The video segment describes the careful selection and planting of guava sprouts, emphasizing the precision in planting to ensure healthy growth.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The subtask about observing the selection and planting of healthy guava sprouts naturally leads to the next step of noticing the precision in planting with recommended distances between the trees, as proper selection is crucial for successful planting."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 5.48,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 1,
+      "time_start": 80.8,
+      "time_end": 152.44,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 2,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "perception",
+      "subtasks": [
+        {
+          "task_index": 1,
+          "task_text": "Explain the irrigation and maintenance practices for mature guava trees.",
+          "sub_index": 0,
+          "text": "Watch the installation of a drip irrigation system to conserve water.",
+          "start": 80.8,
+          "end": 93.08,
+          "segment_ids": [
+            20,
+            21,
+            22
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "watch"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Explain the irrigation and maintenance practices for mature guava trees.",
+          "sub_index": 1,
+          "text": "Note the importance of filtration in the irrigation water.",
+          "start": 97.44,
+          "end": 109.76,
+          "segment_ids": [
+            24,
+            25,
+            27
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Explain the irrigation and maintenance practices for mature guava trees.",
+          "sub_index": 2,
+          "text": "Inspect the trimming of guava trees to promote healthy growth and fruit development.",
+          "start": 109.76,
+          "end": 152.44,
+          "segment_ids": [
+            28,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "inspect"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 80.8,
+          "time_end": 93.08,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "narration",
+          "time_start": 97.44,
+          "time_end": 109.76,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 1
+            }
+          ]
+        },
+        {
+          "group_id": 2,
+          "category": "perception",
+          "time_start": 109.76,
+          "time_end": 152.44,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 2
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Irrigation System Installation and Maintenance",
+        "thread_summary": "The video segment discusses the installation of a drip irrigation system and its maintenance, including the importance of filtration and tree trimming.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The next step after watching the installation is to understand the importance of filtration in the irrigation water, which is crucial for the proper functioning of the system."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "After discussing filtration, the next logical step is to inspect the trimming of guava trees, as proper tree maintenance is essential for the overall health of the irrigation system and the trees themselves."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 2.18,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 2,
+      "time_start": 259.88,
+      "time_end": 337.92,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 0
+      },
+      "thread_dominant_category": "perception",
+      "subtasks": [
+        {
+          "task_index": 2,
+          "task_text": "Highlight the stages leading up to and including fruit harvest.",
+          "sub_index": 0,
+          "text": "Notice the process of harvest and careful handling of guavas.",
+          "start": 259.88,
+          "end": 337.92,
+          "segment_ids": [
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "notice"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 259.88,
+          "time_end": 337.92,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 0
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Guava Harvesting and Handling",
+        "thread_summary": "The video segment focuses on the process of harvesting and carefully handling guavas.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    }
+  ]
+}

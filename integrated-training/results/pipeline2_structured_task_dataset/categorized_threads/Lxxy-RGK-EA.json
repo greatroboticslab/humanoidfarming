@@ -1,0 +1,382 @@
+{
+  "index": "Lxxy-RGK-EA",
+  "title": "Air Pollution Threatens Organic Pest Control in Farming",
+  "url": "https://www.youtube.com/watch?v=Lxxy-RGK-EA",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Explain the negative impacts of air pollution on sustainable farming methods.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      }
+    },
+    {
+      "task_index": 1,
+      "task_text": "Present examples of the specific ways air pollution endangers organic farming.",
+      "task_category": "planning",
+      "evidence_counts": {
+        "motion": 1,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      }
+    },
+    {
+      "task_index": 2,
+      "task_text": "Discuss the threat to sustainable farming methods due to air pollution.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      }
+    }
+  ],
+  "num_threads": 3,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 0.0,
+      "time_end": 91.08,
+      "thread_category_distribution": {
+        "motion": 1,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Explain the negative impacts of air pollution on sustainable farming methods.",
+          "sub_index": 0,
+          "text": "Highlight the risk of air pollution to human health and the environment.",
+          "start": 0.0,
+          "end": 36.76,
+          "segment_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Explain the negative impacts of air pollution on sustainable farming methods.",
+          "sub_index": 1,
+          "text": "Describe the disruption of natural ecosystems caused by air pollution.",
+          "start": 37.76,
+          "end": 52.76,
+          "segment_ids": [
+            6,
+            7,
+            8
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Present examples of the specific ways air pollution endangers organic farming.",
+          "sub_index": 0,
+          "text": "Detail the impact of pollutants on plant health and crop yields.",
+          "start": 53.72,
+          "end": 91.08,
+          "segment_ids": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "subtask_category": "motion",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [
+              "plant"
+            ],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 0.0,
+          "time_end": 52.76,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            },
+            {
+              "task_index": 0,
+              "sub_index": 1
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "motion",
+          "time_start": 53.72,
+          "time_end": 91.08,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 0
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Impact of Air Pollution on Health and Environment",
+        "thread_summary": "The video discusses the negative effects of air pollution on human health, natural ecosystems, and plant life.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The next subtask logically follows by expanding on the broader impact of air pollution beyond human health to include its effect on ecosystems."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "This subtask further details the specific impact of air pollution on plant health and crop yields, which is a direct consequence of the disruption of natural ecosystems mentioned in the previous subtask."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.98,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 1,
+      "time_start": 92.08,
+      "time_end": 120.44,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 1,
+          "task_text": "Present examples of the specific ways air pollution endangers organic farming.",
+          "sub_index": 1,
+          "text": "Explain how air pollution affects beneficial insects like ladybugs.",
+          "start": 92.08,
+          "end": 120.44,
+          "segment_ids": [
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 92.08,
+          "time_end": 120.44,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Impact of Air Pollution on Beneficial Insects",
+        "thread_summary": "The video segment discusses how air pollution impacts beneficial insects, specifically focusing on ladybugs.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 2,
+      "time_start": 121.44,
+      "time_end": 155.44,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 2,
+          "task_text": "Discuss the threat to sustainable farming methods due to air pollution.",
+          "sub_index": 0,
+          "text": "Emphasize the benefits of natural pest control methods in sustainable agriculture.",
+          "start": 121.44,
+          "end": 136.44,
+          "segment_ids": [
+            21,
+            22
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 2,
+          "task_text": "Discuss the threat to sustainable farming methods due to air pollution.",
+          "sub_index": 1,
+          "text": "Point out the research finding about the impact of air pollution on ladybugs.",
+          "start": 137.44,
+          "end": 155.44,
+          "segment_ids": [
+            23,
+            24,
+            25
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 121.44,
+          "time_end": 155.44,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 0
+            },
+            {
+              "task_index": 2,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Environmental Impact on Ladybugs",
+        "thread_summary": "The discussion focuses on the benefits of natural pest control methods and the impact of air pollution on ladybugs.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The subtask transitions from discussing natural pest control methods to mentioning a specific research finding about air pollution, which could be related to the impact on ladybugs, a beneficial insect in pest control."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [
+            {
+              "insert_after": 0,
+              "text": "This includes the impact of air pollution on ladybugs, which are important for natural pest control."
+            }
+          ]
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 1.0,
+        "has_conflicts": false,
+        "needs_repair": true
+      }
+    }
+  ]
+}

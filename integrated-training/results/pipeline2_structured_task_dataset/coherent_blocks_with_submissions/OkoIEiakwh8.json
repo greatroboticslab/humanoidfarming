@@ -1,0 +1,123 @@
+{
+  "index": "OkoIEiakwh8",
+  "title": "Drilling through 2x6s for Ribbon Boards",
+  "url": "https://www.youtube.com/watch?v=OkoIEiakwh8",
+  "params": {
+    "use_links": true,
+    "max_time_span": 180.0,
+    "max_gap": 30.0,
+    "min_overlap": 0.06,
+    "narration_merge_overlap": 0.12,
+    "max_block_units": 12,
+    "use_llm": true,
+    "model": "Qwen/Qwen2.5-7B-Instruct"
+  },
+  "debug": {
+    "link_grouping": {
+      "num_units": 3,
+      "num_unit_edges": 1,
+      "num_components": 2,
+      "num_blocks_after_caps": 2
+    }
+  },
+  "num_blocks": 2,
+  "blocks": [
+    {
+      "block_id": 0,
+      "time_start": 1.26,
+      "time_end": 80.74,
+      "dominant_category": "narration",
+      "category_distribution": {
+        "narration": 1
+      },
+      "units": [
+        {
+          "unit_id": "th0_g0",
+          "thread_index": 0,
+          "group_id": 0,
+          "category": "narration"
+        }
+      ],
+      "subtask_refs": [
+        {
+          "task_index": 0,
+          "sub_index": 0
+        },
+        {
+          "task_index": 0,
+          "sub_index": 1
+        },
+        {
+          "task_index": 0,
+          "sub_index": 2
+        }
+      ],
+      "block_preview_text": "Use a battery-powered drill to create initial holes but ran into power issues. Buy sharper drill bits at Menards and get longer drill bits to finish drilling holes. Use an electrical drill with a generator for the final drilling and cutting.",
+      "sub_mission_id": "OkoIEiakwh8_subm0",
+      "sub_mission_title": "Theme: drill / bits / drilling",
+      "sub_mission_time": {
+        "start": 1.26,
+        "end": 80.74
+      }
+    },
+    {
+      "block_id": 1,
+      "time_start": 80.74,
+      "time_end": 133.74,
+      "dominant_category": "planning",
+      "category_distribution": {
+        "motion": 1,
+        "planning": 1
+      },
+      "units": [
+        {
+          "unit_id": "th1_g0",
+          "thread_index": 1,
+          "group_id": 0,
+          "category": "motion"
+        },
+        {
+          "unit_id": "th1_g1",
+          "thread_index": 1,
+          "group_id": 1,
+          "category": "planning"
+        }
+      ],
+      "subtask_refs": [
+        {
+          "task_index": 0,
+          "sub_index": 3
+        },
+        {
+          "task_index": 0,
+          "sub_index": 4
+        }
+      ],
+      "block_preview_text": "Cut 16-foot 2x6 wood in half to connect on both sides of the pole. Plan to finish the current side and proceed to the end frames.",
+      "sub_mission_id": "OkoIEiakwh8_subm1",
+      "sub_mission_title": "Theme: both / connect / current",
+      "sub_mission_time": {
+        "start": 80.74,
+        "end": 133.74
+      }
+    }
+  ],
+  "mission_id": "OkoIEiakwh8",
+  "mission_title": "Drilling through 2x6s for Ribbon Boards",
+  "sub_missions": [
+    {
+      "sub_mission_id": "OkoIEiakwh8_subm0",
+      "sub_mission_title": "Theme: drill / bits / drilling",
+      "time_start": 1.26,
+      "time_end": 80.74,
+      "block_id": 0
+    },
+    {
+      "sub_mission_id": "OkoIEiakwh8_subm1",
+      "sub_mission_title": "Theme: both / connect / current",
+      "time_start": 80.74,
+      "time_end": 133.74,
+      "block_id": 1
+    }
+  ]
+}

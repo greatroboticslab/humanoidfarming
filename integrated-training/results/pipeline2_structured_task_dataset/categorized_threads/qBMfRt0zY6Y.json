@@ -1,0 +1,214 @@
+{
+  "index": "qBMfRt0zY6Y",
+  "title": "Humans Shaped Amazon Rainforest Ecosystems",
+  "url": "https://www.youtube.com/watch?v=qBMfRt0zY6Y",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Describe the theory that the Amazon rainforest is at least partially man-made.",
+      "task_category": "planning",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 1
+      }
+    },
+    {
+      "task_index": 1,
+      "task_text": "Explain the concept of terra preta.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      }
+    }
+  ],
+  "num_threads": 1,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 0.0,
+      "time_end": 54.8,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 3
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the theory that the Amazon rainforest is at least partially man-made.",
+          "sub_index": 0,
+          "text": "Observe the preponderance of trees that serve human needs in the Amazon rainforest.",
+          "start": 0.0,
+          "end": 14.44,
+          "segment_ids": [
+            0,
+            1,
+            2
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Describe the theory that the Amazon rainforest is at least partially man-made.",
+          "sub_index": 1,
+          "text": "Note the dominance of trees like Brazil nut trees that provide food for human beings.",
+          "start": 14.44,
+          "end": 20.12,
+          "segment_ids": [
+            3
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Explain the concept of terra preta.",
+          "sub_index": 0,
+          "text": "Highlight the man-made, nutrient-dense soil that allows for incredible agriculture.",
+          "start": 44.88,
+          "end": 51.76,
+          "segment_ids": [
+            10
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Explain the concept of terra preta.",
+          "sub_index": 1,
+          "text": "Mention that the method of creating terra preta remains a mystery to this day.",
+          "start": 51.76,
+          "end": 54.8,
+          "segment_ids": [
+            11
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 0.0,
+          "time_end": 14.44,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "narration",
+          "time_start": 14.44,
+          "time_end": 54.8,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 1
+            },
+            {
+              "task_index": 1,
+              "sub_index": 0
+            },
+            {
+              "task_index": 1,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Human Utilization of Amazon Rainforest Resources",
+        "thread_summary": "The video segment discusses the importance of trees in the Amazon rainforest and the man-made soil that supports agriculture.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The observation of trees serving human needs leads to a specific focus on Brazil nut trees that provide food."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "After noting the importance of specific trees, the next step is to highlight the man-made soil that supports agriculture."
+          },
+          {
+            "from": 2,
+            "to": 3,
+            "link": "The discussion on the man-made soil naturally transitions to the mystery surrounding its creation method."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 8.253,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    }
+  ]
+}

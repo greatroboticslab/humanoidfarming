@@ -1,0 +1,116 @@
+{
+  "index": "unB4bkw6KWo",
+  "title": "Farmers Resist Excessive Fertilizer Use",
+  "url": "https://www.youtube.com/watch?v=unB4bkw6KWo",
+  "num_threads": 2,
+  "threads_with_logic": [
+    {
+      "thread_index": 0,
+      "time_start": 0.0,
+      "time_end": 15.36,
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Explain the reasons and methods farmers in Canada use to reduce fertilizer usage.",
+          "sub_index": 0,
+          "text": "Farmers in Canada state they have economic reasons for using minimal fertilizer due to its cost.",
+          "start": 0.0,
+          "end": 10.24,
+          "segment_ids": [
+            0
+          ]
+        },
+        {
+          "task_index": 0,
+          "task_text": "Explain the reasons and methods farmers in Canada use to reduce fertilizer usage.",
+          "sub_index": 1,
+          "text": "They utilize satellite maps to target fertilizer application precisely.",
+          "start": 10.88,
+          "end": 15.36,
+          "segment_ids": [
+            1
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Fertilizer Management Strategies in Canadian Agriculture",
+        "thread_summary": "Farmers in Canada are adopting precision agriculture techniques to reduce fertilizer usage based on economic reasons and environmental benefits.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The farmers are addressing the high cost of fertilizer by using satellite maps to apply it more efficiently, which is a logical step in their strategy."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "_raw": null
+    },
+    {
+      "thread_index": 1,
+      "time_start": 15.36,
+      "time_end": 24.28,
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Explain the reasons and methods farmers in Canada use to reduce fertilizer usage.",
+          "sub_index": 2,
+          "text": "There has been a significant reduction in fertilizer use over the last 40 years.",
+          "start": 15.36,
+          "end": 19.84,
+          "segment_ids": [
+            1
+          ]
+        },
+        {
+          "task_index": 1,
+          "task_text": "Highlight the increased agricultural productivity despite reduced fertilizer use.",
+          "sub_index": 0,
+          "text": "Farmers have been able to produce more food with less fertilizer.",
+          "start": 20.16,
+          "end": 22.22,
+          "segment_ids": [
+            2
+          ]
+        },
+        {
+          "task_index": 1,
+          "task_text": "Highlight the increased agricultural productivity despite reduced fertilizer use.",
+          "sub_index": 1,
+          "text": "The reduction in fertilizer use has resulted in less strain on resources.",
+          "start": 22.22,
+          "end": 24.28,
+          "segment_ids": [
+            2
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Reduction in Fertilizer Use and Its Effects",
+        "thread_summary": "This thread discusses the decrease in fertilizer use over the past 40 years and its impact on food production and resource strain.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The statement about the reduction in fertilizer use (subtask 0) logically leads to the fact that farmers have been able to produce more food with less fertilizer (subtask 1)."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "The improvement in food production with less fertilizer (subtask 1) naturally leads to the conclusion that there is less strain on resources (subtask 2)."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "_raw": null
+    }
+  ]
+}

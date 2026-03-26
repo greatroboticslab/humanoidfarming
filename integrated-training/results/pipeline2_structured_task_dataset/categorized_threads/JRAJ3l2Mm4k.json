@@ -1,0 +1,578 @@
+{
+  "index": "JRAJ3l2Mm4k",
+  "title": "Growing Mint Without Overrun",
+  "url": "https://www.youtube.com/watch?v=JRAJ3l2Mm4k",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Describe the care and propagation techniques for mint.",
+      "task_category": "planning",
+      "evidence_counts": {
+        "motion": 1,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      }
+    },
+    {
+      "task_index": 1,
+      "task_text": "Explain the propagation methods for mint using stems with leaf nodes.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 3
+      }
+    },
+    {
+      "task_index": 2,
+      "task_text": "Provide tips for container gardening and controlling mint spread.",
+      "task_category": "planning",
+      "evidence_counts": {
+        "motion": 1,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      }
+    },
+    {
+      "task_index": 3,
+      "task_text": "Describe harvesting and using mint.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      }
+    }
+  ],
+  "num_threads": 5,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 1.1,
+      "time_end": 11.6,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the care and propagation techniques for mint.",
+          "sub_index": 0,
+          "text": "Explain the simple care tips for mint such as providing adequate light and moisture.",
+          "start": 1.1,
+          "end": 11.6,
+          "segment_ids": [
+            0,
+            1,
+            2
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 1.1,
+          "time_end": 11.6,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Mint Plant Care Tips",
+        "thread_summary": "This video segment provides basic care instructions for mint plants, focusing on light and moisture requirements.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 1,
+      "time_start": 117.6,
+      "time_end": 159.6,
+      "thread_category_distribution": {
+        "motion": 1,
+        "perception": 0,
+        "planning": 0,
+        "narration": 0
+      },
+      "thread_dominant_category": "motion",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the care and propagation techniques for mint.",
+          "sub_index": 1,
+          "text": "Demonstrate how to reset an overgrown mint plant using rhizomes and roots.",
+          "start": 117.6,
+          "end": 159.6,
+          "segment_ids": [
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39
+          ],
+          "subtask_category": "motion",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [
+              "plant"
+            ],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "motion",
+          "time_start": 117.6,
+          "time_end": 159.6,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Resetting an Overgrown Mint Plant",
+        "thread_summary": "The video demonstrates the process of resetting an overgrown mint plant using rhizomes and roots.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 2,
+      "time_start": 265.88,
+      "time_end": 356.88,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 3
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 1,
+          "task_text": "Explain the propagation methods for mint using stems with leaf nodes.",
+          "sub_index": 0,
+          "text": "Show how to clip and strip leaves from a mint stem.",
+          "start": 265.88,
+          "end": 284.88,
+          "segment_ids": [
+            66,
+            67,
+            68,
+            69
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Explain the propagation methods for mint using stems with leaf nodes.",
+          "sub_index": 1,
+          "text": "Demonstrate propagating mint in water.",
+          "start": 284.88,
+          "end": 327.88,
+          "segment_ids": [
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Explain the propagation methods for mint using stems with leaf nodes.",
+          "sub_index": 2,
+          "text": "Demonstrate propagating mint directly in soil.",
+          "start": 327.88,
+          "end": 356.88,
+          "segment_ids": [
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 265.88,
+          "time_end": 356.88,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 0
+            },
+            {
+              "task_index": 1,
+              "sub_index": 1
+            },
+            {
+              "task_index": 1,
+              "sub_index": 2
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Mint Propagation Techniques",
+        "thread_summary": "This video demonstrates different methods to propagate mint, including clipping and stripping leaves from a mint stem, propagating in water, and propagating directly in soil.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "After preparing the mint stem by clipping and stripping leaves, the next logical step is to propagate it in water to allow roots to develop."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "Once the mint has developed roots in water, the next step is to propagate it directly in soil to establish a new plant."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 3,
+      "time_start": 405.88,
+      "time_end": 457.88,
+      "thread_category_distribution": {
+        "motion": 1,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "planning",
+      "subtasks": [
+        {
+          "task_index": 2,
+          "task_text": "Provide tips for container gardening and controlling mint spread.",
+          "sub_index": 0,
+          "text": "Explain how a container can prevent mint from spreading.",
+          "start": 405.88,
+          "end": 419.88,
+          "segment_ids": [
+            104,
+            105,
+            106,
+            107
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 2,
+          "task_text": "Provide tips for container gardening and controlling mint spread.",
+          "sub_index": 1,
+          "text": "Demonstrate potting a mint plant in a larger container.",
+          "start": 432.88,
+          "end": 457.88,
+          "segment_ids": [
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120
+          ],
+          "subtask_category": "motion",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [
+              "plant"
+            ],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 405.88,
+          "time_end": 419.88,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "motion",
+          "time_start": 432.88,
+          "time_end": 457.88,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Container Gardening: Mint Planting and Containment",
+        "thread_summary": "This video segment explains how to plant a mint plant in a container and how to use a container to prevent mint from spreading.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The next step is to demonstrate a practical application of the container mentioned in the previous subtask, which is potting the mint plant in a larger container to prevent it from spreading."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [
+            {
+              "insert_after": 0,
+              "text": "To ensure the mint does not spread beyond the intended area, it is important to use a container with a lid or a barrier at the bottom."
+            }
+          ],
+          "revised_subtasks": [
+            {
+              "index": 0,
+              "text": "Explain how a container with a lid or a barrier at the bottom can prevent mint from spreading."
+            }
+          ]
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 13.0,
+        "has_conflicts": false,
+        "needs_repair": true
+      }
+    },
+    {
+      "thread_index": 4,
+      "time_start": 512.88,
+      "time_end": 581.88,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 3,
+          "task_text": "Describe harvesting and using mint.",
+          "sub_index": 0,
+          "text": "Show how to cut mint above leaf nodes for optimal regrowth.",
+          "start": 512.88,
+          "end": 581.88,
+          "segment_ids": [
+            140,
+            141,
+            142,
+            143,
+            144,
+            145,
+            146,
+            147,
+            148,
+            149,
+            150,
+            151,
+            152,
+            153,
+            154,
+            155,
+            156,
+            157,
+            158,
+            159
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [
+              "cut"
+            ],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 512.88,
+          "time_end": 581.88,
+          "subtask_refs": [
+            {
+              "task_index": 3,
+              "sub_index": 0
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Mint Cutting Technique for Optimal Regrowth",
+        "thread_summary": "Instructions on how to properly cut mint above leaf nodes to promote healthy regrowth.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    }
+  ]
+}

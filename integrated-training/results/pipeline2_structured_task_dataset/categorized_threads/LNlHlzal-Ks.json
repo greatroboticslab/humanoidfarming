@@ -1,0 +1,342 @@
+{
+  "index": "LNlHlzal-Ks",
+  "title": "Green Onion Fertilizing and Care Tips",
+  "url": "https://www.youtube.com/watch?v=LNlHlzal-Ks",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Explain the watering process for growing green onions.",
+      "task_category": "perception",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 2,
+        "planning": 0,
+        "narration": 0
+      }
+    },
+    {
+      "task_index": 1,
+      "task_text": "Describe the fertilizing methods for green onions.",
+      "task_category": "planning",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 1,
+        "narration": 0
+      }
+    },
+    {
+      "task_index": 2,
+      "task_text": "Explain the maintenance of green onions.",
+      "task_category": "planning",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 1
+      }
+    }
+  ],
+  "num_threads": 2,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 0.0,
+      "time_end": 22.68,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 3,
+        "planning": 0,
+        "narration": 0
+      },
+      "thread_dominant_category": "perception",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Explain the watering process for growing green onions.",
+          "sub_index": 0,
+          "text": "Observe the importance of providing consistent moisture for green onions.",
+          "start": 0.0,
+          "end": 7.6,
+          "segment_ids": [
+            0,
+            1
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Explain the watering process for growing green onions.",
+          "sub_index": 1,
+          "text": "Notice the recommendation to aim for about one inch of water per week.",
+          "start": 12.04,
+          "end": 16.56,
+          "segment_ids": [
+            3
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "notice"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Describe the fertilizing methods for green onions.",
+          "sub_index": 0,
+          "text": "Watch how to use a balanced fertilizer for green onions.",
+          "start": 18.6,
+          "end": 22.68,
+          "segment_ids": [
+            5
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "watch"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 0.0,
+          "time_end": 22.68,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            },
+            {
+              "task_index": 0,
+              "sub_index": 1
+            },
+            {
+              "task_index": 1,
+              "sub_index": 0
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Caring for Green Onions",
+        "thread_summary": "This video segment discusses the importance of consistent moisture and proper fertilization for green onions.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The next step logically follows the observation of the importance of moisture by providing specific watering guidelines."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "After discussing watering, the next logical step is to mention fertilization, which is another crucial aspect of caring for green onions."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 3.24,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 1,
+      "time_start": 31.48,
+      "time_end": 49.32,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 1,
+        "narration": 1
+      },
+      "thread_dominant_category": "planning",
+      "subtasks": [
+        {
+          "task_index": 1,
+          "task_text": "Describe the fertilizing methods for green onions.",
+          "sub_index": 1,
+          "text": "Pay attention to the recommendation to avoid over-fertilizing.",
+          "start": 31.48,
+          "end": 37.28,
+          "segment_ids": [
+            8
+          ],
+          "subtask_category": "planning",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [
+              "to avoid"
+            ],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 2,
+          "task_text": "Explain the maintenance of green onions.",
+          "sub_index": 0,
+          "text": "Observe the need to keep green onions weed-free.",
+          "start": 42.0,
+          "end": 47.76,
+          "segment_ids": [
+            10
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 2,
+          "task_text": "Explain the maintenance of green onions.",
+          "sub_index": 1,
+          "text": "Note the requirement to regularly remove weeds to prevent competition for nutrients.",
+          "start": 47.76,
+          "end": 49.32,
+          "segment_ids": [
+            11
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [
+              "remove"
+            ],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "planning",
+          "time_start": 31.48,
+          "time_end": 37.28,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 1
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "perception",
+          "time_start": 42.0,
+          "time_end": 47.76,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 2,
+          "category": "narration",
+          "time_start": 47.76,
+          "time_end": 49.32,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Gardening Maintenance Tips",
+        "thread_summary": "This video segment provides advice on maintaining a garden, focusing on avoiding over-fertilization and keeping the green onions free of weeds.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The advice about avoiding over-fertilizing sets the context for the need to maintain the garden, which includes keeping the green onions weed-free."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "The observation about the need to keep green onions weed-free logically follows the previous advice on avoiding over-fertilization, as weeds can compete for nutrients, which is a concern when over-fertilizing is a risk."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 2.36,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    }
+  ]
+}

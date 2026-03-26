@@ -1,0 +1,257 @@
+{
+  "index": "70GdTMnb5Ng",
+  "title": "Potatoes Grows Big with Straw Mulch Method To Save Effort Likely to Be Viral Next Spring 2023 Season",
+  "url": "https://www.youtube.com/watch?v=70GdTMnb5Ng",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Explain the potato planting method to achieve a large crop with little effort.",
+      "task_category": "motion",
+      "evidence_counts": {
+        "motion": 2,
+        "perception": 0,
+        "planning": 1,
+        "narration": 0
+      }
+    },
+    {
+      "task_index": 1,
+      "task_text": "Detail the expected outcome of this potato planting method.",
+      "task_category": "planning",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 1,
+        "narration": 0
+      }
+    }
+  ],
+  "num_threads": 2,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 5.52,
+      "time_end": 24.96,
+      "thread_category_distribution": {
+        "motion": 2,
+        "perception": 0,
+        "planning": 1,
+        "narration": 0
+      },
+      "thread_dominant_category": "motion",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Explain the potato planting method to achieve a large crop with little effort.",
+          "sub_index": 0,
+          "text": "Dig shallow holes for potato planting and place one potato at a distance of 15cm.",
+          "start": 5.52,
+          "end": 11.76,
+          "segment_ids": [
+            1
+          ],
+          "subtask_category": "motion",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [
+              "dig",
+              "place"
+            ],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Explain the potato planting method to achieve a large crop with little effort.",
+          "sub_index": 1,
+          "text": "Spread soil to cover the seedlings slightly and place a thick layer of straw on top.",
+          "start": 12.96,
+          "end": 18.72,
+          "segment_ids": [
+            2
+          ],
+          "subtask_category": "motion",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [
+              "cover",
+              "place"
+            ],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Explain the potato planting method to achieve a large crop with little effort.",
+          "sub_index": 2,
+          "text": "Water the area abundantly to ensure the straw remains wet and supports potato growth.",
+          "start": 18.72,
+          "end": 24.96,
+          "segment_ids": [
+            3
+          ],
+          "subtask_category": "planning",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [
+              "to ensure"
+            ],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "motion",
+          "time_start": 5.52,
+          "time_end": 18.72,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            },
+            {
+              "task_index": 0,
+              "sub_index": 1
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "planning",
+          "time_start": 18.72,
+          "time_end": 24.96,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 2
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Potato Planting and Care",
+        "thread_summary": "The video segment describes the process of planting potatoes and the subsequent care steps to ensure their growth.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "After planting the potatoes in shallow holes, the next step is to cover them with soil and straw to protect and support the seedlings."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "Once the soil and straw are in place, the final step is to water the area to keep the straw moist and promote potato growth."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.6,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 1,
+      "time_start": 31.36,
+      "time_end": 33.6,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 1,
+        "narration": 0
+      },
+      "thread_dominant_category": "planning",
+      "subtasks": [
+        {
+          "task_index": 1,
+          "task_text": "Detail the expected outcome of this potato planting method.",
+          "sub_index": 0,
+          "text": "Expect large and clean potatoes as a result of this method.",
+          "start": 31.36,
+          "end": 33.6,
+          "segment_ids": [
+            5
+          ],
+          "subtask_category": "planning",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [
+              "clean"
+            ],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [
+              "as a result"
+            ],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "planning",
+          "time_start": 31.36,
+          "time_end": 33.6,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 0
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Potato Cleaning Method",
+        "thread_summary": "This thread describes a method for cleaning large and clean potatoes.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    }
+  ]
+}

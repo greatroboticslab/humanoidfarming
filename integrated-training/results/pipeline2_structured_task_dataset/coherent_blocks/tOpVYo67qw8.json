@@ -1,0 +1,126 @@
+{
+  "index": "tOpVYo67qw8",
+  "title": "Three Sisters Garden Planting Beans",
+  "url": "https://www.youtube.com/watch?v=tOpVYo67qw8",
+  "params": {
+    "use_links": true,
+    "max_time_span": 180.0,
+    "max_gap": 30.0,
+    "min_overlap": 0.06,
+    "narration_merge_overlap": 0.12,
+    "max_block_units": 12,
+    "use_llm": true,
+    "model": "Qwen/Qwen2.5-7B-Instruct"
+  },
+  "debug": {
+    "link_grouping": {
+      "num_units": 4,
+      "num_unit_edges": 1,
+      "num_components": 3,
+      "num_blocks_after_caps": 3
+    }
+  },
+  "num_blocks": 4,
+  "blocks": [
+    {
+      "block_id": 0,
+      "time_start": 4.24,
+      "time_end": 8.8,
+      "dominant_category": "motion",
+      "category_distribution": {
+        "motion": 1
+      },
+      "units": [
+        {
+          "unit_id": "th0_g0",
+          "thread_index": 0,
+          "group_id": 0,
+          "category": "motion"
+        }
+      ],
+      "subtask_refs": [
+        {
+          "task_index": 0,
+          "sub_index": 0
+        }
+      ],
+      "block_preview_text": "Plant climbing beans that grow with support from tall corn stalks."
+    },
+    {
+      "block_id": 1,
+      "time_start": 8.8,
+      "time_end": 13.44,
+      "dominant_category": "narration",
+      "category_distribution": {
+        "narration": 1
+      },
+      "units": [
+        {
+          "unit_id": "th0_g1",
+          "thread_index": 0,
+          "group_id": 1,
+          "category": "narration"
+        }
+      ],
+      "subtask_refs": [
+        {
+          "task_index": 1,
+          "sub_index": 0
+        }
+      ],
+      "block_preview_text": "Explain how nitrogen-fixing beans enhance corn growth through symbiosis."
+    },
+    {
+      "block_id": 2,
+      "time_start": 13.44,
+      "time_end": 18.24,
+      "dominant_category": "narration",
+      "category_distribution": {
+        "narration": 1
+      },
+      "units": [
+        {
+          "unit_id": "th1_g0",
+          "thread_index": 1,
+          "group_id": 0,
+          "category": "narration"
+        }
+      ],
+      "subtask_refs": [
+        {
+          "task_index": 1,
+          "sub_index": 1
+        }
+      ],
+      "block_preview_text": "Mention the traditional knowledge behind the Three Sisters agriculture technique."
+    },
+    {
+      "block_id": 3,
+      "time_start": 22.48,
+      "time_end": 27.12,
+      "dominant_category": "narration",
+      "category_distribution": {
+        "narration": 1
+      },
+      "units": [
+        {
+          "unit_id": "th2_g0",
+          "thread_index": 2,
+          "group_id": 0,
+          "category": "narration"
+        }
+      ],
+      "subtask_refs": [
+        {
+          "task_index": 0,
+          "sub_index": 1
+        },
+        {
+          "task_index": 1,
+          "sub_index": 2
+        }
+      ],
+      "block_preview_text": "Incorporate pumpkin or winter squash into the mounds as a living mulch. Point out the role of pumpkins in providing living mulch for the mounds."
+    }
+  ]
+}

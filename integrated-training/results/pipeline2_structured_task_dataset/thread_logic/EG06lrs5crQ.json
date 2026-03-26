@@ -1,0 +1,272 @@
+{
+  "index": "EG06lrs5crQ",
+  "title": "Farm Animals and Their Names Explained",
+  "url": "https://www.youtube.com/watch?v=EG06lrs5crQ",
+  "num_threads": 5,
+  "threads_with_logic": [
+    {
+      "thread_index": 0,
+      "time_start": 14.5,
+      "time_end": 26.84,
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the different types of cows on a farm.",
+          "sub_index": 0,
+          "text": "Observe a Jersey steer and note that Jersey cows are known for producing rich milk.",
+          "start": 14.5,
+          "end": 21.16,
+          "segment_ids": [
+            2
+          ]
+        },
+        {
+          "task_index": 0,
+          "task_text": "Describe the different types of cows on a farm.",
+          "sub_index": 1,
+          "text": "Note that there are different breeds of cows, with some raised for meat and others for milk.",
+          "start": 14.5,
+          "end": 26.84,
+          "segment_ids": [
+            2,
+            3
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Breed Characteristics of Cows",
+        "thread_summary": "The video discusses the characteristics of different cow breeds, focusing on milk production and meat production.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The subtask transitions from observing a specific breed (Jersey steer) to noting the general distinction between milk and meat breeds."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [
+            {
+              "insert_after": 0,
+              "text": "The Jersey breed is particularly known for its milk production."
+            }
+          ]
+        }
+      },
+      "_raw": null
+    },
+    {
+      "thread_index": 1,
+      "time_start": 74.6,
+      "time_end": 80.4,
+      "subtasks": [
+        {
+          "task_index": 1,
+          "task_text": "Explain the life cycle and terminology for piglets and their care.",
+          "sub_index": 0,
+          "text": "Observe a male pig and note that it is called a boar.",
+          "start": 74.6,
+          "end": 80.4,
+          "segment_ids": [
+            11
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Introduction to Pig Anatomy and Terminology",
+        "thread_summary": "The video segment introduces the term 'boar' for a male pig and provides context for future discussions on pig anatomy.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The observation of the male pig naturally leads to introducing its specific term in the field of animal husbandry."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "_raw": null
+    },
+    {
+      "thread_index": 2,
+      "time_start": 82.0,
+      "time_end": 88.4,
+      "subtasks": [
+        {
+          "task_index": 1,
+          "task_text": "Explain the life cycle and terminology for piglets and their care.",
+          "sub_index": 1,
+          "text": "Describe how pigs seek shade and roll in mud to cool off.",
+          "start": 82.0,
+          "end": 88.4,
+          "segment_ids": [
+            12
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Pigs' Cooling Behaviors",
+        "thread_summary": "This video segment describes how pigs seek shade and roll in mud to cool off.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 0,
+            "link": "The subtask directly describes the cooling behaviors of pigs without any preceding or following subtasks to link to."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "_raw": null
+    },
+    {
+      "thread_index": 3,
+      "time_start": 126.04,
+      "time_end": 142.46,
+      "subtasks": [
+        {
+          "task_index": 2,
+          "task_text": "Describe goats and their farm uses.",
+          "sub_index": 0,
+          "text": "Observe a male goat and note that it is called a billy goat.",
+          "start": 126.04,
+          "end": 134.12,
+          "segment_ids": [
+            19
+          ]
+        },
+        {
+          "task_index": 2,
+          "task_text": "Describe goats and their farm uses.",
+          "sub_index": 1,
+          "text": "Describe the production of goat milk and note that goat milk is good for making cheese.",
+          "start": 137.78,
+          "end": 142.46,
+          "segment_ids": [
+            21
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Goat Milk Production and Uses",
+        "thread_summary": "The video segment describes the observation of a billy goat and then explains the process of goat milk production and its use in cheese making.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The observation of the billy goat naturally leads to a discussion about goat milk, which is a logical extension of the initial observation."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "_raw": null
+    },
+    {
+      "thread_index": 4,
+      "time_start": 282.87,
+      "time_end": 325.71,
+      "subtasks": [
+        {
+          "task_index": 3,
+          "task_text": "Describe the care and farming of sheep.",
+          "sub_index": 0,
+          "text": "Observe a male sheep and note that it is called a ram.",
+          "start": 282.87,
+          "end": 284.87,
+          "segment_ids": [
+            38
+          ]
+        },
+        {
+          "task_index": 3,
+          "task_text": "Describe the care and farming of sheep.",
+          "sub_index": 1,
+          "text": "Note that sheep are clipped for their wool to keep them cool in summer.",
+          "start": 285.39,
+          "end": 290.75,
+          "segment_ids": [
+            39
+          ]
+        },
+        {
+          "task_index": 4,
+          "task_text": "Describe farm animals in the context of horse care and riding.",
+          "sub_index": 0,
+          "text": "Observe horses grazing in a pasture and note their color.",
+          "start": 294.91,
+          "end": 300.87,
+          "segment_ids": [
+            41
+          ]
+        },
+        {
+          "task_index": 4,
+          "task_text": "Describe farm animals in the context of horse care and riding.",
+          "sub_index": 1,
+          "text": "Describe the care horses receive at a barn, including feeding and storage.",
+          "start": 319.79,
+          "end": 325.71,
+          "segment_ids": [
+            45
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Observations and Care of Livestock",
+        "thread_summary": "The video segment describes observations of a ram and horses, as well as the care provided to horses at a barn.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The observation of the ram leads to a discussion about sheep care, specifically wool clipping."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "The topic shifts to observing horses, which is unrelated to the previous subtask about sheep care."
+          },
+          {
+            "from": 2,
+            "to": 3,
+            "link": "The care provided to horses at a barn is described, which logically follows the observation of horses in a pasture."
+          }
+        ],
+        "conflicts": [
+          {
+            "type": "topic_jump",
+            "between": [
+              1,
+              2
+            ],
+            "description": "There is an abrupt topic jump from sheep care to observing horses, which are a different type of livestock."
+          }
+        ],
+        "repair": {
+          "bridging_sentences": [
+            {
+              "insert_after": 1,
+              "text": "While sheep are typically clipped for their wool, horses also require care and maintenance, such as grazing in pastures."
+            }
+          ],
+          "revised_subtasks": [
+            {
+              "index": 2,
+              "text": "Observe horses grazing in a pasture and note their color, and consider the care they receive at a barn, including feeding and storage."
+            }
+          ]
+        }
+      },
+      "_raw": null
+    }
+  ]
+}

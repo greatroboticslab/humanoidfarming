@@ -1,0 +1,373 @@
+{
+  "index": "vkgEPd0A9t4",
+  "title": "Training Farmers on New Agricultural Machinery",
+  "url": "https://www.youtube.com/watch?v=vkgEPd0A9t4",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Train farmers on the use of small agricultural machinery.",
+      "task_category": "planning",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 1
+      }
+    },
+    {
+      "task_index": 1,
+      "task_text": "Explain the benefits of farm mechanization from a politician's perspective.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      }
+    },
+    {
+      "task_index": 2,
+      "task_text": "Describe the expected cost reductions from using small machinery.",
+      "task_category": "planning",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 1
+      }
+    }
+  ],
+  "num_threads": 3,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 13.04,
+      "time_end": 47.44,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "planning",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Train farmers on the use of small agricultural machinery.",
+          "sub_index": 0,
+          "text": "Observe farmers, extension officers, and students completing a small machinery training session.",
+          "start": 13.04,
+          "end": 19.2,
+          "segment_ids": [
+            2
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Train farmers on the use of small agricultural machinery.",
+          "sub_index": 1,
+          "text": "Listen to the project coordinator Adeline Nunovic discussing the training's purpose and its preparation for incoming machinery.",
+          "start": 42.4,
+          "end": 47.44,
+          "segment_ids": [
+            7
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 13.04,
+          "time_end": 19.2,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "narration",
+          "time_start": 42.4,
+          "time_end": 47.44,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Training Session Overview and Purpose",
+        "thread_summary": "The video segment describes a training session for farmers, extension officers, and students on small machinery, followed by a discussion on the training's purpose by the project coordinator.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The observation of the training session provides context for the project coordinator's discussion on its purpose and preparation."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 23.2,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 1,
+      "time_start": 87.28,
+      "time_end": 105.36,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 1,
+          "task_text": "Explain the benefits of farm mechanization from a politician's perspective.",
+          "sub_index": 0,
+          "text": "Hear Minister Alfred Prosper emphasizing the importance of small mechanization in making the agriculture sector appealing to younger farmers.",
+          "start": 87.28,
+          "end": 93.36,
+          "segment_ids": [
+            15
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Explain the benefits of farm mechanization from a politician's perspective.",
+          "sub_index": 1,
+          "text": "Note the minister\u2019s statement that farm mechanization saves time, energy, and contributes to value chain development.",
+          "start": 99.44,
+          "end": 105.36,
+          "segment_ids": [
+            17
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 87.28,
+          "time_end": 105.36,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 0
+            },
+            {
+              "task_index": 1,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Minister's Speech on Farm Mechanization",
+        "thread_summary": "The minister discusses the importance of farm mechanization in attracting younger farmers and its benefits for the agriculture sector.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The minister elaborates on the importance of farm mechanization mentioned in the first statement, providing specific benefits."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 6.08,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 2,
+      "time_start": 133.76,
+      "time_end": 158.4,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "planning",
+      "subtasks": [
+        {
+          "task_index": 2,
+          "task_text": "Describe the expected cost reductions from using small machinery.",
+          "sub_index": 0,
+          "text": "Follow the explanation that small machinery can drastically reduce the cost of production.",
+          "start": 133.76,
+          "end": 140.32,
+          "segment_ids": [
+            22
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 2,
+          "task_text": "Describe the expected cost reductions from using small machinery.",
+          "sub_index": 1,
+          "text": "Observe the demonstration that small machinery can complete a task in one hour, reducing labor costs.",
+          "start": 152.56,
+          "end": 158.4,
+          "segment_ids": [
+            25
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 133.76,
+          "time_end": 140.32,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "perception",
+          "time_start": 152.56,
+          "time_end": 158.4,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Cost Reduction Through Small Machinery",
+        "thread_summary": "The video demonstrates how small machinery can reduce production costs by both lowering material costs and labor costs.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The subtask about cost reduction sets the context for the demonstration of labor cost reduction using small machinery."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [
+            {
+              "insert_after": 0,
+              "text": "This includes both material and labor costs."
+            }
+          ]
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 12.24,
+        "has_conflicts": false,
+        "needs_repair": true
+      }
+    }
+  ]
+}

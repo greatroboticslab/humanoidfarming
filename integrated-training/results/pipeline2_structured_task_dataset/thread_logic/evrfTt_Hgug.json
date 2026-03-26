@@ -1,0 +1,124 @@
+{
+  "index": "evrfTt_Hgug",
+  "title": "Saudi Farmers Discuss Irrigation Methods and Costs",
+  "url": "https://www.youtube.com/watch?v=evrfTt_Hgug",
+  "num_threads": 1,
+  "threads_with_logic": [
+    {
+      "thread_index": 0,
+      "time_start": 28.78,
+      "time_end": 94.04,
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Explain the attendees' feedback on a lecture about agricultural practices.",
+          "sub_index": 0,
+          "text": "The attendees noted the large quantity of pesticides and fertilizers mentioned in the program.",
+          "start": 28.78,
+          "end": 31.94,
+          "segment_ids": [
+            0
+          ]
+        },
+        {
+          "task_index": 0,
+          "task_text": "Explain the attendees' feedback on a lecture about agricultural practices.",
+          "sub_index": 1,
+          "text": "There were both accurate and incorrect information in the lecture about fertilizers.",
+          "start": 42.5,
+          "end": 49.34,
+          "segment_ids": [
+            4,
+            5
+          ]
+        },
+        {
+          "task_index": 0,
+          "task_text": "Explain the attendees' feedback on a lecture about agricultural practices.",
+          "sub_index": 2,
+          "text": "The session was generally positive and beneficial for the attendees.",
+          "start": 57.42,
+          "end": 63.34,
+          "segment_ids": [
+            9,
+            10
+          ]
+        },
+        {
+          "task_index": 1,
+          "task_text": "Describe the beneficial aspects of using less fertilizer.",
+          "sub_index": 0,
+          "text": "Using less fertilizer reduces the cost for the farm.",
+          "start": 77.16,
+          "end": 86.16,
+          "segment_ids": [
+            12,
+            13,
+            14,
+            15
+          ]
+        },
+        {
+          "task_index": 1,
+          "task_text": "Describe the beneficial aspects of using less fertilizer.",
+          "sub_index": 1,
+          "text": "The reduced fertilizer is more appealing in terms of appearance.",
+          "start": 86.16,
+          "end": 89.56,
+          "segment_ids": [
+            16,
+            17
+          ]
+        },
+        {
+          "task_index": 1,
+          "task_text": "Describe the beneficial aspects of using less fertilizer.",
+          "sub_index": 2,
+          "text": "The lecture was effective in providing beneficial information.",
+          "start": 90.2,
+          "end": 94.04,
+          "segment_ids": [
+            18
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Discussion on Fertilizers and Their Impact",
+        "thread_summary": "The discussion covers the accuracy of information about fertilizers, their cost-effectiveness, and the overall impact of using less fertilizer on farm appearance and economics.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The attendees noted the mention of fertilizers in the program, leading to a discussion on the accuracy of the information provided."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "After discussing the accuracy of the information, the session concluded with a positive summary of the lecture."
+          },
+          {
+            "from": 2,
+            "to": 3,
+            "link": "The positive summary transitioned to a specific benefit of using less fertilizer, which is cost reduction."
+          },
+          {
+            "from": 3,
+            "to": 4,
+            "link": "The cost reduction benefit was followed by a discussion on the visual appeal of using less fertilizer."
+          },
+          {
+            "from": 4,
+            "to": 5,
+            "link": "The discussion on the visual appeal was concluded with a final statement about the effectiveness of the lecture."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "_raw": null
+    }
+  ]
+}

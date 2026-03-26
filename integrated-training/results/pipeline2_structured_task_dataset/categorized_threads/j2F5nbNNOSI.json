@@ -1,0 +1,451 @@
+{
+  "index": "j2F5nbNNOSI",
+  "title": "Bamboo Kingdom of China: Diverse Species & Cultivation Techniques",
+  "url": "https://www.youtube.com/watch?v=j2F5nbNNOSI",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Describe the different methods of bamboo cultivation used in China.",
+      "task_category": "perception",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 3,
+        "planning": 1,
+        "narration": 2
+      }
+    }
+  ],
+  "num_threads": 5,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 0.43,
+      "time_end": 30.11,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 0
+      },
+      "thread_dominant_category": "perception",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the different methods of bamboo cultivation used in China.",
+          "sub_index": 0,
+          "text": "Observe the Chinese farmers threshing bamboo seeds before planting.",
+          "start": 0.43,
+          "end": 30.11,
+          "segment_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 0.43,
+          "time_end": 30.11,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Chinese Bamboo Seed Threshing Process",
+        "thread_summary": "This video segment shows the process of threshing bamboo seeds by Chinese farmers before planting.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 1,
+      "time_start": 124.83,
+      "time_end": 148.27,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "planning",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the different methods of bamboo cultivation used in China.",
+          "sub_index": 1,
+          "text": "Note the innovative technique of using holes in bamboo pieces for better soil moisture during planting.",
+          "start": 124.83,
+          "end": 129.27,
+          "segment_ids": [
+            37
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Describe the different methods of bamboo cultivation used in China.",
+          "sub_index": 2,
+          "text": "Notice the process of propagating bamboo trees by roots, which China utilizes as the most effective method.",
+          "start": 138.91,
+          "end": 148.27,
+          "segment_ids": [
+            41,
+            42,
+            43
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "notice"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 124.83,
+          "time_end": 129.27,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 1
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "perception",
+          "time_start": 138.91,
+          "time_end": 148.27,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 2
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Bamboo Propagation Techniques",
+        "thread_summary": "The video discusses two methods of bamboo propagation: using holes in bamboo pieces for soil moisture and propagating bamboo trees by roots.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The video transitions from discussing a specific technique for improving soil moisture during planting to explaining a broader method of bamboo propagation using roots."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [
+            {
+              "insert_after": 0,
+              "text": "This technique enhances the survival rate of planted bamboo by ensuring better water retention in the soil."
+            }
+          ]
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 9.64,
+        "has_conflicts": false,
+        "needs_repair": true
+      }
+    },
+    {
+      "thread_index": 2,
+      "time_start": 321.79,
+      "time_end": 350.27,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 0
+      },
+      "thread_dominant_category": "perception",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the different methods of bamboo cultivation used in China.",
+          "sub_index": 4,
+          "text": "See the method of cutting and transplanting bamboo plants into plastic bags for further propagation.",
+          "start": 321.79,
+          "end": 350.27,
+          "segment_ids": [
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "see"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 321.79,
+          "time_end": 350.27,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 4
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Bamboo Plant Propagation Method",
+        "thread_summary": "The video segment describes the process of cutting and transplanting bamboo plants into plastic bags for further propagation.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 3,
+      "time_start": 434.57,
+      "time_end": 451.25,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 1,
+        "narration": 0
+      },
+      "thread_dominant_category": "planning",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the different methods of bamboo cultivation used in China.",
+          "sub_index": 3,
+          "text": "Watch the method of tree branching, where a bud from an existing plant is cut and planted.",
+          "start": 434.57,
+          "end": 451.25,
+          "segment_ids": [
+            150,
+            151,
+            152,
+            153,
+            154,
+            155,
+            156
+          ],
+          "subtask_category": "planning",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [
+              "cut",
+              "plant"
+            ],
+            "matched_perception_verbs": [
+              "watch"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "planning",
+          "time_start": 434.57,
+          "time_end": 451.25,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 3
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Tree Propagation via Bud Grafting",
+        "thread_summary": "The video segment describes the process of propagating a tree by grafting a bud from an existing plant onto a new plant.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 4,
+      "time_start": 478.33,
+      "time_end": 488.45,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the different methods of bamboo cultivation used in China.",
+          "sub_index": 5,
+          "text": "Highlight the tissue culture method as a new scientific approach to growing bamboo.",
+          "start": 478.33,
+          "end": 488.45,
+          "segment_ids": [
+            170,
+            171,
+            172,
+            173,
+            174
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [
+              "approach"
+            ],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 478.33,
+          "time_end": 488.45,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 5
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Introduction to Tissue Culture Method for Bamboo Cultivation",
+        "thread_summary": "The video introduces the tissue culture method as a new scientific approach to growing bamboo, highlighting its benefits and applications.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,329 @@
+{
+  "index": "lyjM_G3qtuA",
+  "title": "Sustainable Farming Systems for Future Land Use",
+  "url": "https://www.youtube.com/watch?v=lyjM_G3qtuA",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Discuss the impact of population growth and changing diets on increased use of land for agriculture.",
+      "task_category": "perception",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 0
+      }
+    },
+    {
+      "task_index": 1,
+      "task_text": "Explain the work with commercial farmers to understand agricultural limitations and develop sustainable farming systems.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      }
+    },
+    {
+      "task_index": 2,
+      "task_text": "Describe the role of healthy ecosystems in food production and the provision of tools and data for future land use planning.",
+      "task_category": "planning",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 1,
+        "narration": 1
+      }
+    }
+  ],
+  "num_threads": 3,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 0.0,
+      "time_end": 23.54,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 2
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Discuss the impact of population growth and changing diets on increased use of land for agriculture.",
+          "sub_index": 0,
+          "text": "Observe how population growth and changing diets are driving the increasing use of agricultural land.",
+          "start": 0.0,
+          "end": 10.74,
+          "segment_ids": [
+            0
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Explain the work with commercial farmers to understand agricultural limitations and develop sustainable farming systems.",
+          "sub_index": 0,
+          "text": "Note that the team works at scale with commercial farmers to understand the limitations of food production.",
+          "start": 10.74,
+          "end": 16.58,
+          "segment_ids": [
+            1
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Explain the work with commercial farmers to understand agricultural limitations and develop sustainable farming systems.",
+          "sub_index": 1,
+          "text": "Highlight the monitoring of agriculture's impact on the environment as part of their work.",
+          "start": 16.58,
+          "end": 23.54,
+          "segment_ids": [
+            2
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 0.0,
+          "time_end": 10.74,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "narration",
+          "time_start": 10.74,
+          "time_end": 23.54,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 0
+            },
+            {
+              "task_index": 1,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Impact of Population Growth and Changing Diets on Agricultural Land Use",
+        "thread_summary": "The video discusses how population growth and changing diets are driving the increasing use of agricultural land, and how a team works with commercial farmers to understand the environmental impact of food production.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The observation about population growth and changing diets leads to the need to work with commercial farmers to understand the limitations of food production."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "The work with commercial farmers to understand the limitations of food production includes monitoring the environmental impact of agriculture."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 1,
+      "time_start": 23.54,
+      "time_end": 30.0,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 1,
+        "narration": 0
+      },
+      "thread_dominant_category": "planning",
+      "subtasks": [
+        {
+          "task_index": 2,
+          "task_text": "Describe the role of healthy ecosystems in food production and the provision of tools and data for future land use planning.",
+          "sub_index": 0,
+          "text": "Observe that healthy ecosystems are crucial for food production, and tools and data are provided to plan future land use.",
+          "start": 23.54,
+          "end": 30.0,
+          "segment_ids": [
+            3
+          ],
+          "subtask_category": "planning",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [
+              "plan"
+            ],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "planning",
+          "time_start": 23.54,
+          "time_end": 30.0,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 0
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Ecosystem Health and Land Use Planning",
+        "thread_summary": "The video segment discusses the importance of healthy ecosystems for food production and introduces tools and data for planning future land use.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 2,
+      "time_start": 30.0,
+      "time_end": 32.6,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 2,
+          "task_text": "Describe the role of healthy ecosystems in food production and the provision of tools and data for future land use planning.",
+          "sub_index": 1,
+          "text": "Mention the development of new sustainable farming systems as part of their objectives.",
+          "start": 30.0,
+          "end": 32.6,
+          "segment_ids": [
+            4
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 30.0,
+          "time_end": 32.6,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Sustainable Farming Objectives",
+        "thread_summary": "The video discusses the development and implementation of new sustainable farming systems as part of the organization's objectives.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    }
+  ]
+}

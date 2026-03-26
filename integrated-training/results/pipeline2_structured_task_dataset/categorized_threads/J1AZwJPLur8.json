@@ -1,0 +1,240 @@
+{
+  "index": "J1AZwJPLur8",
+  "title": "Growing Strawberry Plants Explained",
+  "url": "https://www.youtube.com/watch?v=J1AZwJPLur8",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Explain the importance of strawberry leaves in strawberry production.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      }
+    },
+    {
+      "task_index": 1,
+      "task_text": "Detail the management strategies for strawberry plant growth.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      }
+    }
+  ],
+  "num_threads": 1,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 0.0,
+      "time_end": 33.36,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 4
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Explain the importance of strawberry leaves in strawberry production.",
+          "sub_index": 0,
+          "text": "Describe how strawberry leaves capture sunlight and produce flowers.",
+          "start": 0.0,
+          "end": 9.62,
+          "segment_ids": [
+            0,
+            1,
+            2
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Explain the importance of strawberry leaves in strawberry production.",
+          "sub_index": 1,
+          "text": "Explain the consequence of not having enough leaves on strawberry production.",
+          "start": 11.24,
+          "end": 14.24,
+          "segment_ids": [
+            4
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Detail the management strategies for strawberry plant growth.",
+          "sub_index": 0,
+          "text": "Describe the process of removing excess flowers early in the season.",
+          "start": 15.24,
+          "end": 23.48,
+          "segment_ids": [
+            6,
+            7,
+            8
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Detail the management strategies for strawberry plant growth.",
+          "sub_index": 1,
+          "text": "Explain the function of runners in strawberry propagation and why they are removed.",
+          "start": 23.48,
+          "end": 33.36,
+          "segment_ids": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 0.0,
+          "time_end": 33.36,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            },
+            {
+              "task_index": 0,
+              "sub_index": 1
+            },
+            {
+              "task_index": 1,
+              "sub_index": 0
+            },
+            {
+              "task_index": 1,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Strawberry Plant Care and Propagation",
+        "thread_summary": "This video segment discusses the importance of leaf health and flower management in strawberry plants, as well as the role of runners in propagation.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The video transitions from explaining how leaves capture sunlight and produce flowers to discussing the consequences of insufficient leaf count on strawberry production."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "After explaining the negative impact of few leaves, the video moves to a solution by describing the process of removing excess flowers."
+          },
+          {
+            "from": 2,
+            "to": 3,
+            "link": "The video then shifts to another aspect of plant care, explaining the function of runners in propagation and why they are removed."
+          }
+        ],
+        "conflicts": [
+          {
+            "type": "topic_jump",
+            "between": [
+              1,
+              2
+            ],
+            "description": "There is a jump from discussing the consequences of insufficient leaves to removing excess flowers, without a clear bridge between the two topics."
+          },
+          {
+            "type": "topic_jump",
+            "between": [
+              2,
+              3
+            ],
+            "description": "The video abruptly shifts from discussing flower management to explaining the role of runners in propagation without a clear transition."
+          }
+        ],
+        "repair": {
+          "bridging_sentences": [
+            {
+              "insert_after": 1,
+              "text": "To maintain optimal strawberry production, it is crucial to manage the number of flowers by removing excess ones early in the season."
+            },
+            {
+              "insert_after": 2,
+              "text": "In addition to managing flowers, it is also important to control the growth of runners, which can divert energy away from fruit production."
+            }
+          ],
+          "revised_subtasks": [
+            {
+              "index": 2,
+              "text": "Describe the process of removing excess flowers early in the season to maintain optimal strawberry production."
+            }
+          ]
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.873,
+        "has_conflicts": true,
+        "needs_repair": true
+      }
+    }
+  ]
+}

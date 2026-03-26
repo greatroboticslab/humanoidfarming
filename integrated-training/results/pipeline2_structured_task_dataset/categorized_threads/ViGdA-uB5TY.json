@@ -1,0 +1,232 @@
+{
+  "index": "ViGdA-uB5TY",
+  "title": "Factory Heroes Struggling For Survival",
+  "url": "https://www.youtube.com/watch?v=ViGdA-uB5TY",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Display unique products and their traits mentioned in the video.",
+      "task_category": "planning",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 1
+      }
+    },
+    {
+      "task_index": 1,
+      "task_text": "Highlight the pricing of the products mentioned.",
+      "task_category": "planning",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 1
+      }
+    }
+  ],
+  "num_threads": 1,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 2.22,
+      "time_end": 19.4,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 2,
+        "planning": 0,
+        "narration": 2
+      },
+      "thread_dominant_category": "planning",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Display unique products and their traits mentioned in the video.",
+          "sub_index": 0,
+          "text": "Observe the world's largest pumpkin that is so heavy a single person cannot carry it alone.",
+          "start": 2.22,
+          "end": 4.94,
+          "segment_ids": [
+            1
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [
+              "carry"
+            ],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": true
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Display unique products and their traits mentioned in the video.",
+          "sub_index": 1,
+          "text": "Note the tiny hand-sized pumpkins that contrast visually with the giant pumpkin.",
+          "start": 4.94,
+          "end": 7.36,
+          "segment_ids": [
+            2
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Highlight the pricing of the products mentioned.",
+          "sub_index": 0,
+          "text": "Look at the tamarind fruit that looks awkward in shape but is described as very delicious.",
+          "start": 7.36,
+          "end": 9.52,
+          "segment_ids": [
+            3
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "look"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Highlight the pricing of the products mentioned.",
+          "sub_index": 1,
+          "text": "Mention that all these pumpkins and fruits are sold for high prices in the market.",
+          "start": 9.52,
+          "end": 19.4,
+          "segment_ids": [
+            4
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 2.22,
+          "time_end": 4.94,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "narration",
+          "time_start": 4.94,
+          "time_end": 7.36,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 1
+            }
+          ]
+        },
+        {
+          "group_id": 2,
+          "category": "perception",
+          "time_start": 7.36,
+          "time_end": 9.52,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 3,
+          "category": "narration",
+          "time_start": 9.52,
+          "time_end": 19.4,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Comparison of Different Pumpkins and Fruits in a Market",
+        "thread_summary": "The video segment describes the observation of various pumpkins and fruits, highlighting their sizes, shapes, and market value.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The observation of the world's largest pumpkin naturally leads to noting the contrast with smaller pumpkins."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "After discussing the small pumpkins, the next logical step is to introduce another type of fruit, which is the tamarind."
+          },
+          {
+            "from": 2,
+            "to": 3,
+            "link": "The mention of the tamarind fruit provides a transition to discussing the market value of the items observed."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    }
+  ]
+}

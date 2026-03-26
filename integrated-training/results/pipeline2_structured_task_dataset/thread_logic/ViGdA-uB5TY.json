@@ -1,0 +1,86 @@
+{
+  "index": "ViGdA-uB5TY",
+  "title": "Factory Heroes Struggling For Survival",
+  "url": "https://www.youtube.com/watch?v=ViGdA-uB5TY",
+  "num_threads": 1,
+  "threads_with_logic": [
+    {
+      "thread_index": 0,
+      "time_start": 2.22,
+      "time_end": 19.4,
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Display unique products and their traits mentioned in the video.",
+          "sub_index": 0,
+          "text": "Observe the world's largest pumpkin that is so heavy a single person cannot carry it alone.",
+          "start": 2.22,
+          "end": 4.94,
+          "segment_ids": [
+            1
+          ]
+        },
+        {
+          "task_index": 0,
+          "task_text": "Display unique products and their traits mentioned in the video.",
+          "sub_index": 1,
+          "text": "Note the tiny hand-sized pumpkins that contrast visually with the giant pumpkin.",
+          "start": 4.94,
+          "end": 7.36,
+          "segment_ids": [
+            2
+          ]
+        },
+        {
+          "task_index": 1,
+          "task_text": "Highlight the pricing of the products mentioned.",
+          "sub_index": 0,
+          "text": "Look at the tamarind fruit that looks awkward in shape but is described as very delicious.",
+          "start": 7.36,
+          "end": 9.52,
+          "segment_ids": [
+            3
+          ]
+        },
+        {
+          "task_index": 1,
+          "task_text": "Highlight the pricing of the products mentioned.",
+          "sub_index": 1,
+          "text": "Mention that all these pumpkins and fruits are sold for high prices in the market.",
+          "start": 9.52,
+          "end": 19.4,
+          "segment_ids": [
+            4
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Comparison of Different Pumpkins and Fruits in a Market",
+        "thread_summary": "The video segment describes the observation of various pumpkins and fruits, highlighting their sizes, shapes, and market value.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The observation of the world's largest pumpkin naturally leads to noting the contrast with smaller pumpkins."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "After discussing the small pumpkins, the next logical step is to introduce another type of fruit, which is the tamarind."
+          },
+          {
+            "from": 2,
+            "to": 3,
+            "link": "The mention of the tamarind fruit provides a transition to discussing the market value of the items observed."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "_raw": null
+    }
+  ]
+}

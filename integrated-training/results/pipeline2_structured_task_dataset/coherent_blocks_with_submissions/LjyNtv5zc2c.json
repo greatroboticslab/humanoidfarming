@@ -1,0 +1,170 @@
+{
+  "index": "LjyNtv5zc2c",
+  "title": "\u0915\u093e\u0930\u093f\u0935 \u0935 \u0915\u093f\u0938\u093e\u0906 tossed veggies and crops care",
+  "url": "https://www.youtube.com/watch?v=LjyNtv5zc2c",
+  "params": {
+    "use_links": true,
+    "max_time_span": 180.0,
+    "max_gap": 30.0,
+    "min_overlap": 0.06,
+    "narration_merge_overlap": 0.12,
+    "max_block_units": 12,
+    "use_llm": true,
+    "model": "Qwen/Qwen2.5-7B-Instruct"
+  },
+  "debug": {
+    "link_grouping": {
+      "num_units": 5,
+      "num_unit_edges": 3,
+      "num_components": 2,
+      "num_blocks_after_caps": 2
+    }
+  },
+  "num_blocks": 3,
+  "blocks": [
+    {
+      "block_id": 0,
+      "time_start": 1.9,
+      "time_end": 35.87,
+      "dominant_category": "perception",
+      "category_distribution": {
+        "perception": 1
+      },
+      "units": [
+        {
+          "unit_id": "th0_g0",
+          "thread_index": 0,
+          "group_id": 0,
+          "category": "perception"
+        }
+      ],
+      "subtask_refs": [
+        {
+          "task_index": 0,
+          "sub_index": 0
+        }
+      ],
+      "block_preview_text": "Observe the farmer explaining the need for management practices on his agricultural plot.",
+      "sub_mission_id": "LjyNtv5zc2c_subm0",
+      "sub_mission_title": "Theme: agricultural / explaining / farmer",
+      "sub_mission_time": {
+        "start": 1.9,
+        "end": 35.87
+      }
+    },
+    {
+      "block_id": 1,
+      "time_start": 44.87,
+      "time_end": 111.47,
+      "dominant_category": "narration",
+      "category_distribution": {
+        "narration": 1
+      },
+      "units": [
+        {
+          "unit_id": "th0_g1",
+          "thread_index": 0,
+          "group_id": 1,
+          "category": "narration"
+        }
+      ],
+      "subtask_refs": [
+        {
+          "task_index": 0,
+          "sub_index": 1
+        },
+        {
+          "task_index": 0,
+          "sub_index": 2
+        }
+      ],
+      "block_preview_text": "Note the use of different fertilizers like calcium nitrate, muriate of potash, etc., as described by the farmer. Pay attention to the process of plowing the land and applying fertilizers, as demonstrated by the farmer.",
+      "sub_mission_id": "LjyNtv5zc2c_subm1",
+      "sub_mission_title": "Theme: farmer / fertilizers / applying",
+      "sub_mission_time": {
+        "start": 44.87,
+        "end": 111.47
+      }
+    },
+    {
+      "block_id": 2,
+      "time_start": 150.47,
+      "time_end": 261.47,
+      "dominant_category": "perception",
+      "category_distribution": {
+        "perception": 2,
+        "narration": 1
+      },
+      "units": [
+        {
+          "unit_id": "th1_g0",
+          "thread_index": 1,
+          "group_id": 0,
+          "category": "perception"
+        },
+        {
+          "unit_id": "th1_g1",
+          "thread_index": 1,
+          "group_id": 1,
+          "category": "narration"
+        },
+        {
+          "unit_id": "th1_g2",
+          "thread_index": 1,
+          "group_id": 2,
+          "category": "perception"
+        }
+      ],
+      "subtask_refs": [
+        {
+          "task_index": 0,
+          "sub_index": 3
+        },
+        {
+          "task_index": 1,
+          "sub_index": 0
+        },
+        {
+          "task_index": 1,
+          "sub_index": 1
+        },
+        {
+          "task_index": 1,
+          "sub_index": 2
+        }
+      ],
+      "block_preview_text": "Watch the farmer mention the importance of maintaining soil quality by adding necessary nutrients. Listen to the farmer's advice on maintaining soil fertility and avoiding pests. Observe the farmer describing the importance of organic amendments and their impact on crops. Watch the farmer discussing the need for regular soil testing and fertilization adjustments.",
+      "sub_mission_id": "LjyNtv5zc2c_subm2",
+      "sub_mission_title": "Theme: farmer / maintaining / watch",
+      "sub_mission_time": {
+        "start": 150.47,
+        "end": 261.47
+      }
+    }
+  ],
+  "mission_id": "LjyNtv5zc2c",
+  "mission_title": "\u0915\u093e\u0930\u093f\u0935 \u0935 \u0915\u093f\u0938\u093e\u0906 tossed veggies and crops care",
+  "sub_missions": [
+    {
+      "sub_mission_id": "LjyNtv5zc2c_subm0",
+      "sub_mission_title": "Theme: agricultural / explaining / farmer",
+      "time_start": 1.9,
+      "time_end": 35.87,
+      "block_id": 0
+    },
+    {
+      "sub_mission_id": "LjyNtv5zc2c_subm1",
+      "sub_mission_title": "Theme: farmer / fertilizers / applying",
+      "time_start": 44.87,
+      "time_end": 111.47,
+      "block_id": 1
+    },
+    {
+      "sub_mission_id": "LjyNtv5zc2c_subm2",
+      "sub_mission_title": "Theme: farmer / maintaining / watch",
+      "time_start": 150.47,
+      "time_end": 261.47,
+      "block_id": 2
+    }
+  ]
+}

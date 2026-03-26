@@ -1,0 +1,198 @@
+{
+  "index": "BAtQ0LtWzz4",
+  "title": "Checking Beehive Frames for Honey Harvest",
+  "url": "https://www.youtube.com/watch?v=BAtQ0LtWzz4",
+  "params": {
+    "use_links": true,
+    "max_time_span": 180.0,
+    "max_gap": 30.0,
+    "min_overlap": 0.06,
+    "narration_merge_overlap": 0.12,
+    "max_block_units": 12,
+    "use_llm": true,
+    "model": "Qwen/Qwen2.5-7B-Instruct"
+  },
+  "debug": {
+    "link_grouping": {
+      "num_units": 8,
+      "num_unit_edges": 5,
+      "num_components": 3,
+      "num_blocks_after_caps": 3
+    }
+  },
+  "num_blocks": 3,
+  "blocks": [
+    {
+      "block_id": 0,
+      "time_start": 0.14,
+      "time_end": 43.78,
+      "dominant_category": "planning",
+      "category_distribution": {
+        "planning": 2,
+        "narration": 1
+      },
+      "units": [
+        {
+          "unit_id": "th0_g0",
+          "thread_index": 0,
+          "group_id": 0,
+          "category": "planning"
+        },
+        {
+          "unit_id": "th0_g1",
+          "thread_index": 0,
+          "group_id": 1,
+          "category": "narration"
+        },
+        {
+          "unit_id": "th0_g2",
+          "thread_index": 0,
+          "group_id": 2,
+          "category": "planning"
+        }
+      ],
+      "subtask_refs": [
+        {
+          "task_index": 0,
+          "sub_index": 0
+        },
+        {
+          "task_index": 0,
+          "sub_index": 1
+        },
+        {
+          "task_index": 0,
+          "sub_index": 2
+        }
+      ],
+      "block_preview_text": "Observe the new set of deep frames that need to be checked for honey. Note that some frames might need to be replaced if they are not full of honey. Mention the plan to take honey from the box if it is full.",
+      "sub_mission_id": "BAtQ0LtWzz4_subm0",
+      "sub_mission_title": "Theme: honey / frames / full",
+      "sub_mission_time": {
+        "start": 0.14,
+        "end": 43.78
+      }
+    },
+    {
+      "block_id": 1,
+      "time_start": 145.06,
+      "time_end": 251.11,
+      "dominant_category": "planning",
+      "category_distribution": {
+        "narration": 1,
+        "perception": 1
+      },
+      "units": [
+        {
+          "unit_id": "th1_g0",
+          "thread_index": 1,
+          "group_id": 0,
+          "category": "narration"
+        },
+        {
+          "unit_id": "th1_g1",
+          "thread_index": 1,
+          "group_id": 1,
+          "category": "perception"
+        }
+      ],
+      "subtask_refs": [
+        {
+          "task_index": 2,
+          "sub_index": 0
+        },
+        {
+          "task_index": 2,
+          "sub_index": 1
+        },
+        {
+          "task_index": 2,
+          "sub_index": 2
+        }
+      ],
+      "block_preview_text": "Note the abundance of strawberries and the children's excitement. Record the children not picking strawberries properly. Observe the children teaching each other and parents correcting their strawberry-picking techniques.",
+      "sub_mission_id": "BAtQ0LtWzz4_subm1",
+      "sub_mission_title": "Theme: children / strawberries / abundance",
+      "sub_mission_time": {
+        "start": 145.06,
+        "end": 251.11
+      }
+    },
+    {
+      "block_id": 2,
+      "time_start": 316.1,
+      "time_end": 348.66,
+      "dominant_category": "perception",
+      "category_distribution": {
+        "perception": 2,
+        "planning": 1
+      },
+      "units": [
+        {
+          "unit_id": "th2_g0",
+          "thread_index": 2,
+          "group_id": 0,
+          "category": "perception"
+        },
+        {
+          "unit_id": "th2_g1",
+          "thread_index": 2,
+          "group_id": 1,
+          "category": "planning"
+        },
+        {
+          "unit_id": "th2_g2",
+          "thread_index": 2,
+          "group_id": 2,
+          "category": "perception"
+        }
+      ],
+      "subtask_refs": [
+        {
+          "task_index": 1,
+          "sub_index": 0
+        },
+        {
+          "task_index": 1,
+          "sub_index": 1
+        },
+        {
+          "task_index": 1,
+          "sub_index": 2
+        }
+      ],
+      "block_preview_text": "Watch the process of pulling garlic heads from the field. See the decision to evaluate the garlic before pulling. Observe the harvesting of extra large onions for curing.",
+      "sub_mission_id": "BAtQ0LtWzz4_subm2",
+      "sub_mission_title": "Theme: garlic / pulling / before",
+      "sub_mission_time": {
+        "start": 316.1,
+        "end": 348.66
+      }
+    }
+  ],
+  "mission_id": "BAtQ0LtWzz4",
+  "mission_title": "Checking Beehive Frames for Honey Harvest",
+  "sub_missions": [
+    {
+      "sub_mission_id": "BAtQ0LtWzz4_subm0",
+      "sub_mission_title": "Theme: honey / frames / full",
+      "time_start": 0.14,
+      "time_end": 43.78,
+      "block_id": 0
+    },
+    {
+      "sub_mission_id": "BAtQ0LtWzz4_subm1",
+      "sub_mission_title": "Theme: children / strawberries / abundance",
+      "time_start": 145.06,
+      "time_end": 251.11,
+      "block_id": 1
+    },
+    {
+      "sub_mission_id": "BAtQ0LtWzz4_subm2",
+      "sub_mission_title": "Theme: garlic / pulling / before",
+      "time_start": 316.1,
+      "time_end": 348.66,
+      "block_id": 2
+    }
+  ]
+}

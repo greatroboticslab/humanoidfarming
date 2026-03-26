@@ -1,0 +1,227 @@
+{
+  "index": "4UNOWFJH_aQ",
+  "title": "Obano Civilization's Innovative Agriculture and Engineering",
+  "url": "https://www.youtube.com/watch?v=4UNOWFJH_aQ",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Describe the agricultural techniques and water management systems of the Obano civilization.",
+      "task_category": "planning",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 1
+      }
+    },
+    {
+      "task_index": 1,
+      "task_text": "Highlight the architectural structures found in the remains of the Obano civilization.",
+      "task_category": "perception",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 2,
+        "planning": 0,
+        "narration": 0
+      }
+    }
+  ],
+  "num_threads": 1,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 0.0,
+      "time_end": 37.92,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 3,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "perception",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the agricultural techniques and water management systems of the Obano civilization.",
+          "sub_index": 0,
+          "text": "Observe the creation of raised fields and water reservoirs used to improve crop production in the Amazonian soil.",
+          "start": 0.0,
+          "end": 9.76,
+          "segment_ids": [
+            0,
+            1
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Describe the agricultural techniques and water management systems of the Obano civilization.",
+          "sub_index": 1,
+          "text": "Note the complex water system consisting of canals and storage ponds that aided in irrigation and fishing.",
+          "start": 9.76,
+          "end": 21.28,
+          "segment_ids": [
+            2,
+            3
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Highlight the architectural structures found in the remains of the Obano civilization.",
+          "sub_index": 0,
+          "text": "Look at the large architectural structures, platforms, and stone circles used in ceremonial rituals.",
+          "start": 21.28,
+          "end": 32.64,
+          "segment_ids": [
+            4,
+            5
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "look"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Highlight the architectural structures found in the remains of the Obano civilization.",
+          "sub_index": 1,
+          "text": "Notice the harmony Obanokeans had with nature, as evidenced by their use of local plants and animals.",
+          "start": 32.64,
+          "end": 37.92,
+          "segment_ids": [
+            6
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "notice"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 0.0,
+          "time_end": 9.76,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "narration",
+          "time_start": 9.76,
+          "time_end": 21.28,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 1
+            }
+          ]
+        },
+        {
+          "group_id": 2,
+          "category": "perception",
+          "time_start": 21.28,
+          "time_end": 37.92,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 0
+            },
+            {
+              "task_index": 1,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Ancient Agricultural and Ceremonial Practices in the Amazon",
+        "thread_summary": "The video segment showcases the advanced agricultural techniques and ceremonial structures of the Obanokeans in the Amazon region, highlighting their sustainable practices and connection to nature.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The subtask transitions from describing the agricultural infrastructure to the water system, which is a natural progression as the water system is integral to the agricultural practices."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "After discussing the water system, the next logical step is to mention the architectural structures, which were likely built to support both agricultural and ceremonial activities."
+          },
+          {
+            "from": 2,
+            "to": 3,
+            "link": "The final subtask describes the Obanokeans' harmonious relationship with nature, which is a logical conclusion to the previous points about their agricultural and ceremonial practices."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    }
+  ]
+}

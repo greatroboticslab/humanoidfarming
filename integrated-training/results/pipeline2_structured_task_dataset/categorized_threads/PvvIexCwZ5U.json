@@ -1,0 +1,414 @@
+{
+  "index": "PvvIexCwZ5U",
+  "title": "Planting Herbs in Bio Cups Video",
+  "url": "https://www.youtube.com/watch?v=PvvIexCwZ5U",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Describe the process of planting herbs using a gardening kit.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      }
+    },
+    {
+      "task_index": 1,
+      "task_text": "Explain how the kit was repurposed and placed in the room.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      }
+    },
+    {
+      "task_index": 2,
+      "task_text": "Discuss the instructions in the packaging and the process of preparing the bio cups.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 2
+      }
+    }
+  ],
+  "num_threads": 3,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 15.68,
+      "time_end": 44.08,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the process of planting herbs using a gardening kit.",
+          "sub_index": 0,
+          "text": "Show the different types of herbs in the kit, including mint, lime, basil, and lavender.",
+          "start": 15.68,
+          "end": 32.4,
+          "segment_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Describe the process of planting herbs using a gardening kit.",
+          "sub_index": 1,
+          "text": "Explain that the speaker's partner is not interested in participating in planting.",
+          "start": 32.4,
+          "end": 44.08,
+          "segment_ids": [
+            7,
+            8,
+            9
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 15.68,
+          "time_end": 44.08,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            },
+            {
+              "task_index": 0,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Herb Introduction and Partner's Disinterest",
+        "thread_summary": "The video segment starts with showing different types of herbs in a kit and then shifts to explaining the partner's disinterest in participating in planting.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "After showing the herbs, the speaker explains the partner's disinterest, which could be related to the upcoming planting activity or the partner's general attitude towards gardening."
+          }
+        ],
+        "conflicts": [
+          {
+            "type": "topic_jump",
+            "between": [
+              0,
+              1
+            ],
+            "description": "The segment abruptly shifts from showing herbs to explaining the partner's disinterest in planting, without a clear connection or bridge."
+          }
+        ],
+        "repair": {
+          "bridging_sentences": [
+            {
+              "insert_after": 0,
+              "text": "These herbs can be used for various purposes, such as cooking or making tea. However, it seems that the speaker's partner is not interested in participating in planting them."
+            }
+          ]
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": true,
+        "needs_repair": true
+      }
+    },
+    {
+      "thread_index": 1,
+      "time_start": 83.9,
+      "time_end": 90.7,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 1,
+          "task_text": "Explain how the kit was repurposed and placed in the room.",
+          "sub_index": 0,
+          "text": "Describe the item from the kit that was left in the room with candles.",
+          "start": 83.9,
+          "end": 87.86,
+          "segment_ids": [
+            21
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Explain how the kit was repurposed and placed in the room.",
+          "sub_index": 1,
+          "text": "Mention that the item was just sitting there and hadn't been used.",
+          "start": 87.86,
+          "end": 90.7,
+          "segment_ids": [
+            22
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 83.9,
+          "time_end": 90.7,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 0
+            },
+            {
+              "task_index": 1,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Description of an Unattended Item in a Room",
+        "thread_summary": "The video segment describes an item from a kit that was left in a room with candles and mentions that it was not used.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The subtask 0 describes the item, setting the context for subtask 1, which elaborates on its state of being unused."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 2,
+      "time_start": 127.21,
+      "time_end": 215.08,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 2
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 2,
+          "task_text": "Discuss the instructions in the packaging and the process of preparing the bio cups.",
+          "sub_index": 0,
+          "text": "Read the instructions for preparing the growing medium.",
+          "start": 127.21,
+          "end": 134.89,
+          "segment_ids": [
+            32
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "read"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 2,
+          "task_text": "Discuss the instructions in the packaging and the process of preparing the bio cups.",
+          "sub_index": 1,
+          "text": "Explain the process of dissolving the growing medium in water and fluffing it with a fork.",
+          "start": 127.21,
+          "end": 149.68,
+          "segment_ids": [
+            32,
+            33,
+            34,
+            35
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 2,
+          "task_text": "Discuss the instructions in the packaging and the process of preparing the bio cups.",
+          "sub_index": 2,
+          "text": "Demonstrate the placement of the prepared growing medium into the bio cups.",
+          "start": 159.13,
+          "end": 215.08,
+          "segment_ids": [
+            38
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 127.21,
+          "time_end": 134.89,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "narration",
+          "time_start": 127.21,
+          "time_end": 215.08,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 1
+            },
+            {
+              "task_index": 2,
+              "sub_index": 2
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Preparing the Growing Medium for Bio Cups",
+        "thread_summary": "The video demonstrates the process of preparing and placing the growing medium into bio cups, including dissolving and fluffing the medium.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "After reading the instructions, the next logical step is to prepare the growing medium by dissolving it in water and fluffing it with a fork."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "Once the growing medium is prepared, the next step is to place it into the bio cups for further use."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.885,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    }
+  ]
+}

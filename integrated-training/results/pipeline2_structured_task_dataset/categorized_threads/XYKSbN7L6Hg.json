@@ -1,0 +1,447 @@
+{
+  "index": "XYKSbN7L6Hg",
+  "title": "Global Food Supply Chain Evolution",
+  "url": "https://www.youtube.com/watch?v=XYKSbN7L6Hg",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Examine the historical development of food supply systems.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 2
+      }
+    },
+    {
+      "task_index": 1,
+      "task_text": "Analyze the challenges and benefits of local food production.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 2
+      }
+    },
+    {
+      "task_index": 2,
+      "task_text": "Discuss consumer choices and preferences in the food production paradigm.",
+      "task_category": "planning",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 1
+      }
+    }
+  ],
+  "num_threads": 2,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 0.0,
+      "time_end": 55.17,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 2
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Examine the historical development of food supply systems.",
+          "sub_index": 0,
+          "text": "Observe the narrator's timeline of food access, going from personal gardens and local trade to a globalized food market.",
+          "start": 0.0,
+          "end": 15.52,
+          "segment_ids": [
+            0,
+            1,
+            2
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Examine the historical development of food supply systems.",
+          "sub_index": 1,
+          "text": "Note the transformation of food supply chains from local to global enterprises.",
+          "start": 15.52,
+          "end": 34.21,
+          "segment_ids": [
+            3,
+            4
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Examine the historical development of food supply systems.",
+          "sub_index": 2,
+          "text": "Highlight the United States' role in the global agriculture trade.",
+          "start": 34.21,
+          "end": 55.17,
+          "segment_ids": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 0.0,
+          "time_end": 15.52,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "narration",
+          "time_start": 15.52,
+          "time_end": 55.17,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 1
+            },
+            {
+              "task_index": 0,
+              "sub_index": 2
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Transformation of Food Supply Chains",
+        "thread_summary": "The video discusses the evolution of food access and supply chains from local to global levels, with a focus on the United States' role in global agriculture trade.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The subtask transitions from observing the timeline of food access to noting the transformation of food supply chains, which logically follows the observation."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "The next step highlights the United States' role in the global agriculture trade, which is a natural progression from discussing the transformation of supply chains."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 1,
+      "time_start": 220.69,
+      "time_end": 378.53,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 2,
+        "planning": 0,
+        "narration": 3
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 1,
+          "task_text": "Analyze the challenges and benefits of local food production.",
+          "sub_index": 2,
+          "text": "Highlight the lowered food safety and sustainability concerns with local food production.",
+          "start": 220.69,
+          "end": 253.41,
+          "segment_ids": [
+            40,
+            41,
+            42,
+            43,
+            44,
+            45
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 2,
+          "task_text": "Discuss consumer choices and preferences in the food production paradigm.",
+          "sub_index": 0,
+          "text": "Describe the growth of local food movements and markets.",
+          "start": 247.73,
+          "end": 277.33,
+          "segment_ids": [
+            45,
+            46,
+            47,
+            48,
+            49
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 2,
+          "task_text": "Discuss consumer choices and preferences in the food production paradigm.",
+          "sub_index": 1,
+          "text": "Observe the economic impact of local agriculture.",
+          "start": 264.61,
+          "end": 277.33,
+          "segment_ids": [
+            48,
+            49
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Analyze the challenges and benefits of local food production.",
+          "sub_index": 0,
+          "text": "Observe the land requirements for personal food production and the limitations they present.",
+          "start": 299.17,
+          "end": 338.85,
+          "segment_ids": [
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Analyze the challenges and benefits of local food production.",
+          "sub_index": 1,
+          "text": "Describe the disparity between available land and the land needed for food production if everyone grown their own food.",
+          "start": 338.85,
+          "end": 378.53,
+          "segment_ids": [
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 220.69,
+          "time_end": 277.33,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 2
+            },
+            {
+              "task_index": 2,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "perception",
+          "time_start": 264.61,
+          "time_end": 338.85,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 1
+            },
+            {
+              "task_index": 1,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 2,
+          "category": "narration",
+          "time_start": 338.85,
+          "time_end": 378.53,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Impact of Local Food Production",
+        "thread_summary": "The discussion covers the growth of local food movements, their economic impact, land requirements, and the challenges of personal food production.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The subtask transitions from highlighting concerns about local food production to describing the growth of local food movements, setting the context for the discussion."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "After describing the growth of local food movements, the next step is to observe the economic impact, which is a logical follow-up."
+          },
+          {
+            "from": 2,
+            "to": 3,
+            "link": "Observing the economic impact leads to examining the land requirements for personal food production, which is a natural progression."
+          },
+          {
+            "from": 3,
+            "to": 4,
+            "link": "After discussing land requirements, the final step is to describe the disparity between available land and the land needed for food production, which logically concludes the topic."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.86,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    }
+  ]
+}

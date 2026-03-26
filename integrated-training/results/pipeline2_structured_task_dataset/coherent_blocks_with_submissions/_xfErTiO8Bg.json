@@ -1,0 +1,152 @@
+{
+  "index": "_xfErTiO8Bg",
+  "title": "Grocery Store Food Distribution Inefficiency Explained",
+  "url": "https://www.youtube.com/watch?v=_xfErTiO8Bg",
+  "params": {
+    "use_links": true,
+    "max_time_span": 180.0,
+    "max_gap": 30.0,
+    "min_overlap": 0.06,
+    "narration_merge_overlap": 0.12,
+    "max_block_units": 12,
+    "use_llm": true,
+    "model": "Qwen/Qwen2.5-7B-Instruct"
+  },
+  "debug": {
+    "link_grouping": {
+      "num_units": 4,
+      "num_unit_edges": 1,
+      "num_components": 3,
+      "num_blocks_after_caps": 3
+    }
+  },
+  "num_blocks": 3,
+  "blocks": [
+    {
+      "block_id": 0,
+      "time_start": 9.04,
+      "time_end": 20.08,
+      "dominant_category": "planning",
+      "category_distribution": {
+        "narration": 1,
+        "perception": 1
+      },
+      "units": [
+        {
+          "unit_id": "th0_g0",
+          "thread_index": 0,
+          "group_id": 0,
+          "category": "narration"
+        },
+        {
+          "unit_id": "th0_g1",
+          "thread_index": 0,
+          "group_id": 1,
+          "category": "perception"
+        }
+      ],
+      "subtask_refs": [
+        {
+          "task_index": 0,
+          "sub_index": 0
+        },
+        {
+          "task_index": 0,
+          "sub_index": 1
+        }
+      ],
+      "block_preview_text": "Note that the average piece of produce travels 1500 miles and is 10 days old. Observe that produce loses half of its nutritional value and half goes bad during distribution.",
+      "sub_mission_id": "_xfErTiO8Bg_subm0",
+      "sub_mission_title": "Theme: half / produce / average",
+      "sub_mission_time": {
+        "start": 9.04,
+        "end": 20.08
+      }
+    },
+    {
+      "block_id": 1,
+      "time_start": 20.08,
+      "time_end": 25.28,
+      "dominant_category": "narration",
+      "category_distribution": {
+        "narration": 1
+      },
+      "units": [
+        {
+          "unit_id": "th1_g0",
+          "thread_index": 1,
+          "group_id": 0,
+          "category": "narration"
+        }
+      ],
+      "subtask_refs": [
+        {
+          "task_index": 1,
+          "sub_index": 0
+        }
+      ],
+      "block_preview_text": "Mention that people initially found grocery stores selling fresh food ridiculous.",
+      "sub_mission_id": "_xfErTiO8Bg_subm1",
+      "sub_mission_title": "Theme: food / found / fresh",
+      "sub_mission_time": {
+        "start": 20.08,
+        "end": 25.28
+      }
+    },
+    {
+      "block_id": 2,
+      "time_start": 30.16,
+      "time_end": 37.76,
+      "dominant_category": "narration",
+      "category_distribution": {
+        "narration": 1
+      },
+      "units": [
+        {
+          "unit_id": "th2_g0",
+          "thread_index": 2,
+          "group_id": 0,
+          "category": "narration"
+        }
+      ],
+      "subtask_refs": [
+        {
+          "task_index": 1,
+          "sub_index": 1
+        }
+      ],
+      "block_preview_text": "Highlight the goal of working with consumers to transition to a more sustainable food system.",
+      "sub_mission_id": "_xfErTiO8Bg_subm2",
+      "sub_mission_title": "Theme: consumers / food / goal",
+      "sub_mission_time": {
+        "start": 30.16,
+        "end": 37.76
+      }
+    }
+  ],
+  "mission_id": "_xfErTiO8Bg",
+  "mission_title": "Grocery Store Food Distribution Inefficiency Explained",
+  "sub_missions": [
+    {
+      "sub_mission_id": "_xfErTiO8Bg_subm0",
+      "sub_mission_title": "Theme: half / produce / average",
+      "time_start": 9.04,
+      "time_end": 20.08,
+      "block_id": 0
+    },
+    {
+      "sub_mission_id": "_xfErTiO8Bg_subm1",
+      "sub_mission_title": "Theme: food / found / fresh",
+      "time_start": 20.08,
+      "time_end": 25.28,
+      "block_id": 1
+    },
+    {
+      "sub_mission_id": "_xfErTiO8Bg_subm2",
+      "sub_mission_title": "Theme: consumers / food / goal",
+      "time_start": 30.16,
+      "time_end": 37.76,
+      "block_id": 2
+    }
+  ]
+}

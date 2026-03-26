@@ -1,0 +1,119 @@
+{
+  "index": "b9I0nrm8LMM",
+  "title": "Managing Lucin Grazing Challenges",
+  "url": "https://www.youtube.com/watch?v=b9I0nrm8LMM",
+  "params": {
+    "use_links": true,
+    "max_time_span": 180.0,
+    "max_gap": 30.0,
+    "min_overlap": 0.06,
+    "narration_merge_overlap": 0.12,
+    "max_block_units": 12,
+    "use_llm": true,
+    "model": "Qwen/Qwen2.5-7B-Instruct"
+  },
+  "debug": {
+    "link_grouping": {
+      "num_units": 3,
+      "num_unit_edges": 1,
+      "num_components": 2,
+      "num_blocks_after_caps": 2
+    }
+  },
+  "num_blocks": 2,
+  "blocks": [
+    {
+      "block_id": 0,
+      "time_start": 8.53,
+      "time_end": 108.93,
+      "dominant_category": "planning",
+      "category_distribution": {
+        "planning": 1,
+        "narration": 1
+      },
+      "units": [
+        {
+          "unit_id": "th0_g0",
+          "thread_index": 0,
+          "group_id": 0,
+          "category": "planning"
+        },
+        {
+          "unit_id": "th0_g1",
+          "thread_index": 0,
+          "group_id": 1,
+          "category": "narration"
+        }
+      ],
+      "subtask_refs": [
+        {
+          "task_index": 0,
+          "sub_index": 0
+        },
+        {
+          "task_index": 0,
+          "sub_index": 1
+        }
+      ],
+      "block_preview_text": "Observe the production of red gut due to the high fermentability of Lucin pasture. Note the method of rotating Lucin with other pastures to prevent red gut.",
+      "sub_mission_id": "b9I0nrm8LMM_subm0",
+      "sub_mission_title": "Theme: gut / lucin / red",
+      "sub_mission_time": {
+        "start": 8.53,
+        "end": 108.93
+      }
+    },
+    {
+      "block_id": 1,
+      "time_start": 132.69,
+      "time_end": 204.33,
+      "dominant_category": "narration",
+      "category_distribution": {
+        "narration": 1
+      },
+      "units": [
+        {
+          "unit_id": "th1_g0",
+          "thread_index": 1,
+          "group_id": 0,
+          "category": "narration"
+        }
+      ],
+      "subtask_refs": [
+        {
+          "task_index": 1,
+          "sub_index": 0
+        },
+        {
+          "task_index": 1,
+          "sub_index": 1
+        }
+      ],
+      "block_preview_text": "Mention the clostridial diseases and their vaccines. Highlight the role of supplementing salts to increase growth rates.",
+      "sub_mission_id": "b9I0nrm8LMM_subm1",
+      "sub_mission_title": "Theme: clostridial / diseases / growth",
+      "sub_mission_time": {
+        "start": 132.69,
+        "end": 204.33
+      }
+    }
+  ],
+  "mission_id": "b9I0nrm8LMM",
+  "mission_title": "Managing Lucin Grazing Challenges",
+  "sub_missions": [
+    {
+      "sub_mission_id": "b9I0nrm8LMM_subm0",
+      "sub_mission_title": "Theme: gut / lucin / red",
+      "time_start": 8.53,
+      "time_end": 108.93,
+      "block_id": 0
+    },
+    {
+      "sub_mission_id": "b9I0nrm8LMM_subm1",
+      "sub_mission_title": "Theme: clostridial / diseases / growth",
+      "time_start": 132.69,
+      "time_end": 204.33,
+      "block_id": 1
+    }
+  ]
+}

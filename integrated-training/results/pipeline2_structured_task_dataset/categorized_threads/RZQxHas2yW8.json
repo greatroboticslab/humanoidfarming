@@ -1,0 +1,170 @@
+{
+  "index": "RZQxHas2yW8",
+  "title": "Vertical Farming:space: Sustainable Yield Boost",
+  "url": "https://www.youtube.com/watch?v=RZQxHas2yW8",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Explain the increased efficiency of vertical farming.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      }
+    },
+    {
+      "task_index": 1,
+      "task_text": "Highlight the sustainability of vertical farming.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      }
+    }
+  ],
+  "num_threads": 1,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 2.56,
+      "time_end": 16.0,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 3
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Explain the increased efficiency of vertical farming.",
+          "sub_index": 0,
+          "text": "Describe how vertical farming can increase yield up to 10 times compared to traditional farming methods.",
+          "start": 2.56,
+          "end": 8.32,
+          "segment_ids": [
+            1
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Explain the increased efficiency of vertical farming.",
+          "sub_index": 1,
+          "text": "Mention that vertical farming uses up to 70% less water.",
+          "start": 8.32,
+          "end": 16.0,
+          "segment_ids": [
+            2
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Highlight the sustainability of vertical farming.",
+          "sub_index": 0,
+          "text": "Note that vertical farming is a sustainable solution for growing fresh produce in urban environments.",
+          "start": 8.32,
+          "end": 16.0,
+          "segment_ids": [
+            2
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 2.56,
+          "time_end": 16.0,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            },
+            {
+              "task_index": 0,
+              "sub_index": 1
+            },
+            {
+              "task_index": 1,
+              "sub_index": 0
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Benefits of Vertical Farming",
+        "thread_summary": "The video discusses the advantages of vertical farming, including increased yield, water efficiency, and sustainability in urban areas.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The next subtask elaborates on another benefit of vertical farming, specifically its water efficiency, which is a logical follow-up to the yield increase."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "The final subtask mentions the sustainability aspect of vertical farming, which is a natural continuation from the discussion on water usage efficiency."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": -3.84,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    }
+  ]
+}

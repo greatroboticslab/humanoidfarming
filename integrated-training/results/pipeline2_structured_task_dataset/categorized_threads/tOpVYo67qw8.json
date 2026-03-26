@@ -1,0 +1,315 @@
+{
+  "index": "tOpVYo67qw8",
+  "title": "Three Sisters Garden Planting Beans",
+  "url": "https://www.youtube.com/watch?v=tOpVYo67qw8",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Describe the Three Sisters planting method.",
+      "task_category": "planning",
+      "evidence_counts": {
+        "motion": 1,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      }
+    },
+    {
+      "task_index": 1,
+      "task_text": "Highlight the historical and nutritional benefits of the Three Sisters method.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 3
+      }
+    }
+  ],
+  "num_threads": 3,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 4.24,
+      "time_end": 13.44,
+      "thread_category_distribution": {
+        "motion": 1,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "planning",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the Three Sisters planting method.",
+          "sub_index": 0,
+          "text": "Plant climbing beans that grow with support from tall corn stalks.",
+          "start": 4.24,
+          "end": 8.8,
+          "segment_ids": [
+            1
+          ],
+          "subtask_category": "motion",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [
+              "plant"
+            ],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Highlight the historical and nutritional benefits of the Three Sisters method.",
+          "sub_index": 0,
+          "text": "Explain how nitrogen-fixing beans enhance corn growth through symbiosis.",
+          "start": 8.8,
+          "end": 13.44,
+          "segment_ids": [
+            2
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "motion",
+          "time_start": 4.24,
+          "time_end": 8.8,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "narration",
+          "time_start": 8.8,
+          "time_end": 13.44,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 0
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Growing Beans and Corn Together",
+        "thread_summary": "This video segment explains how to plant climbing beans that grow with support from tall corn stalks and how these beans enhance corn growth through symbiosis.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The next step explains the beneficial relationship between the beans and corn, which is a logical follow-up to the planting instructions."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 1,
+      "time_start": 13.44,
+      "time_end": 18.24,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 1,
+          "task_text": "Highlight the historical and nutritional benefits of the Three Sisters method.",
+          "sub_index": 1,
+          "text": "Mention the traditional knowledge behind the Three Sisters agriculture technique.",
+          "start": 13.44,
+          "end": 18.24,
+          "segment_ids": [
+            3
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 13.44,
+          "time_end": 18.24,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Three Sisters Agriculture Technique",
+        "thread_summary": "The discussion revolves around explaining the traditional knowledge behind the Three Sisters agriculture technique.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 2,
+      "time_start": 22.48,
+      "time_end": 27.12,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the Three Sisters planting method.",
+          "sub_index": 1,
+          "text": "Incorporate pumpkin or winter squash into the mounds as a living mulch.",
+          "start": 22.48,
+          "end": 27.12,
+          "segment_ids": [
+            5
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Highlight the historical and nutritional benefits of the Three Sisters method.",
+          "sub_index": 2,
+          "text": "Point out the role of pumpkins in providing living mulch for the mounds.",
+          "start": 22.48,
+          "end": 27.12,
+          "segment_ids": [
+            5
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 22.48,
+          "time_end": 27.12,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 1
+            },
+            {
+              "task_index": 1,
+              "sub_index": 2
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Incorporating Pumpkins as Living Mulch in Mounds",
+        "thread_summary": "The subtasks describe the process of using pumpkins or winter squash as living mulch in mounds.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The first subtask directly states the action of incorporating pumpkins or winter squash into the mounds, while the second subtask reiterates this action and explains its role, providing a logical flow."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": -4.64,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    }
+  ]
+}

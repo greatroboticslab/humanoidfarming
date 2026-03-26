@@ -1,0 +1,910 @@
+{
+  "index": "E-juRjYSpZY",
+  "title": "Advanced\u519c\u4e1a\u673a\u68b0\u8bbe\u5907\u5c55\u793a",
+  "url": "https://www.youtube.com/watch?v=E-juRjYSpZY",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Display the functionality of the parsley harvester used for efficient harvesting of herb crops.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      }
+    },
+    {
+      "task_index": 1,
+      "task_text": "Demonstrate the utilization of the Soil-Tiller for soil preparation in agricultural fields.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      }
+    },
+    {
+      "task_index": 2,
+      "task_text": "Showcase the process of peanut harvesting using a machine designed to save labor and time.",
+      "task_category": "perception",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 2,
+        "planning": 0,
+        "narration": 0
+      }
+    },
+    {
+      "task_index": 3,
+      "task_text": "Highlight the machine harvesting of grapes and its efficiency in the vineyard.",
+      "task_category": "perception",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 2,
+        "planning": 0,
+        "narration": 0
+      }
+    },
+    {
+      "task_index": 4,
+      "task_text": "Illustrate the use of a tarp system for harvesting various fruits.",
+      "task_category": "perception",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 0
+      }
+    },
+    {
+      "task_index": 5,
+      "task_text": "Demonstrate the operation and effectiveness of the automatic transplanter for efficient planting.",
+      "task_category": "planning",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 1
+      }
+    },
+    {
+      "task_index": 6,
+      "task_text": "Describe the manual harvesting of mangoes using ladders and nets to prevent bruising.",
+      "task_category": "perception",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 0
+      }
+    },
+    {
+      "task_index": 7,
+      "task_text": "Showcase the post-harvest handling and processing of mangoes at the packing facility.",
+      "task_category": "planning",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 1,
+        "narration": 0
+      }
+    },
+    {
+      "task_index": 8,
+      "task_text": "Demonstrate the mechanical harvesting process in sugarcane farming.",
+      "task_category": "planning",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 1
+      }
+    }
+  ],
+  "num_threads": 8,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 9.5,
+      "time_end": 26.7,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Display the functionality of the parsley harvester used for efficient harvesting of herb crops.",
+          "sub_index": 0,
+          "text": "Show the operation of the parsley harvester as it moves through rows of parsley, cutting plants at a predetermined height.",
+          "start": 9.5,
+          "end": 19.7,
+          "segment_ids": [
+            1
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Display the functionality of the parsley harvester used for efficient harvesting of herb crops.",
+          "sub_index": 1,
+          "text": "Highlight how the parsley harvester conveys the cut parsley using a vacuum system to a collection area.",
+          "start": 19.7,
+          "end": 26.7,
+          "segment_ids": [
+            2
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [
+              "cut"
+            ],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 9.5,
+          "time_end": 26.7,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            },
+            {
+              "task_index": 0,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Operation and Function of a Parsley Harvester",
+        "thread_summary": "This video segment describes the process of harvesting parsley using a harvester, focusing on the cutting and conveying mechanisms.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The harvester first cuts the parsley at a predetermined height, and then the vacuum system is used to convey the cut parsley to a collection area."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 1,
+      "time_start": 61.7,
+      "time_end": 92.0,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 1,
+          "task_text": "Demonstrate the utilization of the Soil-Tiller for soil preparation in agricultural fields.",
+          "sub_index": 0,
+          "text": "Describe the Soil-Tiller's capability to break up stubborn soil clumps.",
+          "start": 61.7,
+          "end": 70.8,
+          "segment_ids": [
+            8
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Demonstrate the utilization of the Soil-Tiller for soil preparation in agricultural fields.",
+          "sub_index": 1,
+          "text": "Explain how the Soil-Tiller creates stable soil mounds for root crop growth.",
+          "start": 86.7,
+          "end": 92.0,
+          "segment_ids": [
+            11
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 61.7,
+          "time_end": 92.0,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 0
+            },
+            {
+              "task_index": 1,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Soil Preparation for Root Crop Growth",
+        "thread_summary": "The subtasks describe the Soil-Tiller's functions in breaking up soil clumps and creating stable mounds for root crops.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The Soil-Tiller's ability to break up soil clumps (subtask 0) is a prerequisite for creating stable soil mounds (subtask 1) that are suitable for root crop growth."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 15.9,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 2,
+      "time_start": 200.3,
+      "time_end": 220.1,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 3,
+        "planning": 0,
+        "narration": 0
+      },
+      "thread_dominant_category": "perception",
+      "subtasks": [
+        {
+          "task_index": 2,
+          "task_text": "Showcase the process of peanut harvesting using a machine designed to save labor and time.",
+          "sub_index": 0,
+          "text": "Observe the peanut digger moving through rows, cutting the roots from the underside of plants.",
+          "start": 200.3,
+          "end": 204.0,
+          "segment_ids": [
+            25
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 2,
+          "task_text": "Showcase the process of peanut harvesting using a machine designed to save labor and time.",
+          "sub_index": 1,
+          "text": "Notice the process of flipping peanut plants over with rotating times, preparing them for harvesting.",
+          "start": 208.7,
+          "end": 220.1,
+          "segment_ids": [
+            27
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "notice"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 8,
+          "task_text": "Demonstrate the mechanical harvesting process in sugarcane farming.",
+          "sub_index": 1,
+          "text": "Notice the efficiency increase in harvesting time from 32 hours to just 6 to 12 hours with mechanical harvesters.",
+          "start": null,
+          "end": null,
+          "segment_ids": [
+            184
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "notice"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 200.3,
+          "time_end": 220.1,
+          "subtask_refs": [
+            {
+              "task_index": 2,
+              "sub_index": 0
+            },
+            {
+              "task_index": 2,
+              "sub_index": 1
+            },
+            {
+              "task_index": 8,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Peanut Harvesting Process",
+        "thread_summary": "This thread describes the process of harvesting peanuts using mechanical equipment, focusing on the efficiency improvements and specific steps involved.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The subtask about efficiency increase (0) sets the context for the discussion on the use of mechanical harvesters, which is further elaborated in the following subtask (1) with the specific equipment used."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "Subtask 1 describes the operation of the peanut digger, which is a crucial step in the harvesting process, leading to the preparation of the plants for the next step (2) where the plants are flipped over for further processing."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 4.7,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 3,
+      "time_start": 282.3,
+      "time_end": 295.4,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 2,
+        "planning": 0,
+        "narration": 0
+      },
+      "thread_dominant_category": "perception",
+      "subtasks": [
+        {
+          "task_index": 3,
+          "task_text": "Highlight the machine harvesting of grapes and its efficiency in the vineyard.",
+          "sub_index": 0,
+          "text": "Watch the machine harvesting process shaking vines to release grapes onto a conveyor belt.",
+          "start": 282.3,
+          "end": 289.6,
+          "segment_ids": [
+            36
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "watch"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 3,
+          "task_text": "Highlight the machine harvesting of grapes and its efficiency in the vineyard.",
+          "sub_index": 1,
+          "text": "Notice the removal of impurities from harvested grapes through a series of screens.",
+          "start": 289.6,
+          "end": 295.4,
+          "segment_ids": [
+            37
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "notice"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 282.3,
+          "time_end": 295.4,
+          "subtask_refs": [
+            {
+              "task_index": 3,
+              "sub_index": 0
+            },
+            {
+              "task_index": 3,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Grape Harvesting Process",
+        "thread_summary": "The video segment describes the machine harvesting process and the subsequent purification of grapes.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "After the grapes are harvested and shaken off the vines onto a conveyor belt, the next step is to remove impurities from the harvested grapes using screens."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 4,
+      "time_start": 373.2,
+      "time_end": 379.7,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 1,
+        "planning": 0,
+        "narration": 0
+      },
+      "thread_dominant_category": "perception",
+      "subtasks": [
+        {
+          "task_index": 4,
+          "task_text": "Illustrate the use of a tarp system for harvesting various fruits.",
+          "sub_index": 0,
+          "text": "Observe the automatic operation and extension of the tarp system for harvesting fruits like olives and almonds.",
+          "start": 373.2,
+          "end": 379.7,
+          "segment_ids": [
+            52
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "perception",
+          "time_start": 373.2,
+          "time_end": 379.7,
+          "subtask_refs": [
+            {
+              "task_index": 4,
+              "sub_index": 0
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Observation of Tarp System Operation",
+        "thread_summary": "The video segment describes the automatic operation and extension of a tarp system used for harvesting fruits like olives and almonds.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 5,
+      "time_start": 434.4,
+      "time_end": 469.5,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 2,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "perception",
+      "subtasks": [
+        {
+          "task_index": 5,
+          "task_text": "Demonstrate the operation and effectiveness of the automatic transplanter for efficient planting.",
+          "sub_index": 0,
+          "text": "Show the preparation of soil and loading of seedling trays into the transplanter.",
+          "start": 434.4,
+          "end": 437.9,
+          "segment_ids": [
+            62
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 5,
+          "task_text": "Demonstrate the operation and effectiveness of the automatic transplanter for efficient planting.",
+          "sub_index": 1,
+          "text": "Notice the precision setting of parameters such as the distance between plants by operators.",
+          "start": 441.9,
+          "end": 448.8,
+          "segment_ids": [
+            64
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "notice"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 6,
+          "task_text": "Describe the manual harvesting of mangoes using ladders and nets to prevent bruising.",
+          "sub_index": 0,
+          "text": "Watch the process of mango picking by hand, leaving a bit of stem on the fruit.",
+          "start": 464.8,
+          "end": 469.5,
+          "segment_ids": [
+            68
+          ],
+          "subtask_category": "perception",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [
+              "watch"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 434.4,
+          "time_end": 437.9,
+          "subtask_refs": [
+            {
+              "task_index": 5,
+              "sub_index": 0
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "perception",
+          "time_start": 441.9,
+          "time_end": 469.5,
+          "subtask_refs": [
+            {
+              "task_index": 5,
+              "sub_index": 1
+            },
+            {
+              "task_index": 6,
+              "sub_index": 0
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Agricultural Planting and Harvesting Process",
+        "thread_summary": "The video segment shows the preparation for planting, the precision setting during the planting process, and the harvesting of mangoes.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The subtask about soil preparation and loading seedling trays into the transplanter is followed by the precision setting of parameters, which is crucial for the effective operation of the transplanter."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "After setting the parameters, the next logical step is to observe the actual planting process, which in this case involves mango picking, to ensure the correct distance between plants is maintained."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 10.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 6,
+      "time_start": 508.6,
+      "time_end": 514.0,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 1,
+        "narration": 0
+      },
+      "thread_dominant_category": "planning",
+      "subtasks": [
+        {
+          "task_index": 7,
+          "task_text": "Showcase the post-harvest handling and processing of mangoes at the packing facility.",
+          "sub_index": 0,
+          "text": "Observe the cooling process of mangoes to remove field heat and extend their shelf life.",
+          "start": 508.6,
+          "end": 514.0,
+          "segment_ids": [
+            76
+          ],
+          "subtask_category": "planning",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [
+              "remove"
+            ],
+            "matched_perception_verbs": [
+              "observe"
+            ],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "planning",
+          "time_start": 508.6,
+          "time_end": 514.0,
+          "subtask_refs": [
+            {
+              "task_index": 7,
+              "sub_index": 0
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Mango Cooling Process",
+        "thread_summary": "This thread describes the process of cooling mangoes to remove field heat and improve their shelf life.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 7,
+      "time_start": 1010.0,
+      "time_end": 1016.3,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 8,
+          "task_text": "Demonstrate the mechanical harvesting process in sugarcane farming.",
+          "sub_index": 0,
+          "text": "Show the mechanical harvester collecting mature sugarcane from September until January.",
+          "start": 1010.0,
+          "end": 1016.3,
+          "segment_ids": [
+            167
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 1010.0,
+          "time_end": 1016.3,
+          "subtask_refs": [
+            {
+              "task_index": 8,
+              "sub_index": 0
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Harvesting Sugarcane",
+        "thread_summary": "The video segment shows a mechanical harvester collecting mature sugarcane from September to January.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    }
+  ]
+}

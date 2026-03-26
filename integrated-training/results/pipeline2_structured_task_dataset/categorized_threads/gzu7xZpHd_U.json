@@ -1,0 +1,471 @@
+{
+  "index": "gzu7xZpHd_U",
+  "title": "Seasonal Equipment Maintenance & Upgrades",
+  "url": "https://www.youtube.com/watch?v=gzu7xZpHd_U",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Explain the challenges and reasons for seasonal maintenance of construction equipment.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 1,
+        "narration": 3
+      }
+    },
+    {
+      "task_index": 1,
+      "task_text": "Describe the financial planning and practical steps to maintain old but used equipment.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 5
+      }
+    }
+  ],
+  "num_threads": 3,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 11.54,
+      "time_end": 29.78,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Explain the challenges and reasons for seasonal maintenance of construction equipment.",
+          "sub_index": 0,
+          "text": "Describe the seasonal nature of maintenance as equipment returns from work and more time becomes available.",
+          "start": 11.54,
+          "end": 16.82,
+          "segment_ids": [
+            0
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Explain the challenges and reasons for seasonal maintenance of construction equipment.",
+          "sub_index": 1,
+          "text": "List the regular maintenance tasks such as changing oil, transmission, and hydraulic fluids.",
+          "start": 17.7,
+          "end": 29.78,
+          "segment_ids": [
+            1,
+            2
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 11.54,
+          "time_end": 29.78,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            },
+            {
+              "task_index": 0,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Maintenance Schedule and Tasks",
+        "thread_summary": "The video discusses the seasonal nature of maintenance tasks and lists the regular maintenance tasks that are performed.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The discussion about the seasonal nature of maintenance sets the context for why regular maintenance tasks are performed more frequently during this period."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [
+            {
+              "insert_after": 0,
+              "text": "Given the seasonal nature of maintenance, it is a good time to perform regular tasks such as changing oil, transmission, and hydraulic fluids."
+            }
+          ]
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.88,
+        "has_conflicts": false,
+        "needs_repair": true
+      }
+    },
+    {
+      "thread_index": 1,
+      "time_start": 29.78,
+      "time_end": 105.73,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 1,
+        "narration": 3
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Explain the challenges and reasons for seasonal maintenance of construction equipment.",
+          "sub_index": 2,
+          "text": "Explain the importance of maintaining sharp teeth on buckets for efficient operation.",
+          "start": 29.78,
+          "end": 45.46,
+          "segment_ids": [
+            3,
+            4
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Explain the challenges and reasons for seasonal maintenance of construction equipment.",
+          "sub_index": 3,
+          "text": "Mention the upgrading of equipment for certain projects to ensure smooth operation.",
+          "start": 45.46,
+          "end": 83.09,
+          "segment_ids": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "subtask_category": "planning",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [
+              "to ensure"
+            ],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Describe the financial planning and practical steps to maintain old but used equipment.",
+          "sub_index": 0,
+          "text": "Emphasize the need to save money for potential maintenance of older equipment.",
+          "start": 83.89,
+          "end": 91.09,
+          "segment_ids": [
+            11
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Describe the financial planning and practical steps to maintain old but used equipment.",
+          "sub_index": 1,
+          "text": "Highlight the decision to use specific tires that compact the road better.",
+          "start": 91.49,
+          "end": 105.73,
+          "segment_ids": [
+            12,
+            13
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 29.78,
+          "time_end": 45.46,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 2
+            }
+          ]
+        },
+        {
+          "group_id": 1,
+          "category": "planning",
+          "time_start": 45.46,
+          "time_end": 83.09,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 3
+            }
+          ]
+        },
+        {
+          "group_id": 2,
+          "category": "narration",
+          "time_start": 83.89,
+          "time_end": 105.73,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 0
+            },
+            {
+              "task_index": 1,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Equipment Maintenance and Upgrades",
+        "thread_summary": "The video discusses the importance of maintaining equipment, particularly sharp teeth on buckets, and mentions the need for upgrades and savings for future maintenance.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The subtask about maintaining sharp teeth on buckets (0) leads into the discussion about upgrading equipment for better performance (1)."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "The mention of upgrading equipment (1) naturally flows into the need to save money for potential maintenance of older equipment (2)."
+          },
+          {
+            "from": 2,
+            "to": 3,
+            "link": "The emphasis on saving money for maintenance (2) transitions to the decision to use specific tires for better compaction (3)."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.4,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 2,
+      "time_start": 105.73,
+      "time_end": 181.6,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 3
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 1,
+          "task_text": "Describe the financial planning and practical steps to maintain old but used equipment.",
+          "sub_index": 2,
+          "text": "Explain the significance of a barn for future equipment maintenance.",
+          "start": 105.73,
+          "end": 117.65,
+          "segment_ids": [
+            14,
+            15
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Describe the financial planning and practical steps to maintain old but used equipment.",
+          "sub_index": 3,
+          "text": "Mention the recent purchase of additional land and plans for future development.",
+          "start": 118.29,
+          "end": 162.0,
+          "segment_ids": [
+            16,
+            17,
+            18,
+            19,
+            20
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Describe the financial planning and practical steps to maintain old but used equipment.",
+          "sub_index": 4,
+          "text": "Describe the development progress and the upcoming complete development of the properties.",
+          "start": 162.16,
+          "end": 181.6,
+          "segment_ids": [
+            21,
+            22,
+            23
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 105.73,
+          "time_end": 181.6,
+          "subtask_refs": [
+            {
+              "task_index": 1,
+              "sub_index": 2
+            },
+            {
+              "task_index": 1,
+              "sub_index": 3
+            },
+            {
+              "task_index": 1,
+              "sub_index": 4
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Land Development and Future Plans",
+        "thread_summary": "The video segment discusses the significance of a barn for maintenance, recent land purchase, and future development plans.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The discussion about the barn's significance sets the context for the speaker's future plans, including the purchase of additional land."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "After mentioning the recent purchase of land, the speaker logically transitions to discussing the development progress and future plans for the properties."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.4,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    }
+  ]
+}

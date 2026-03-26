@@ -1,0 +1,538 @@
+{
+  "index": "L2En6O6V1es",
+  "title": "Luke Dunn's Farming Innovations",
+  "url": "https://www.youtube.com/watch?v=L2En6O6V1es",
+  "category_schema": [
+    "motion",
+    "perception",
+    "planning",
+    "narration"
+  ],
+  "task_categories": [
+    {
+      "task_index": 0,
+      "task_text": "Explain the current and planned farming practices for Reedy Creek Partners.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 3
+      }
+    },
+    {
+      "task_index": 1,
+      "task_text": "Outline the plans to improve water management on the farm.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      }
+    },
+    {
+      "task_index": 2,
+      "task_text": "Describe the use of rotational grazing and how it benefits the farm.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      }
+    },
+    {
+      "task_index": 3,
+      "task_text": "Explain the current farming setups and future improvements.",
+      "task_category": "narration",
+      "evidence_counts": {
+        "motion": 1,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      }
+    }
+  ],
+  "num_threads": 4,
+  "threads": [
+    {
+      "thread_index": 0,
+      "time_start": 0.0,
+      "time_end": 31.94,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 2
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Explain the current and planned farming practices for Reedy Creek Partners.",
+          "sub_index": 0,
+          "text": "Describe the mixed farm operations of grazings, cropping, and livestock.",
+          "start": 0.0,
+          "end": 13.22,
+          "segment_ids": [
+            0
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 0,
+          "task_text": "Explain the current and planned farming practices for Reedy Creek Partners.",
+          "sub_index": 1,
+          "text": "Detail the transition towards minimum and no till farming methods.",
+          "start": 25.38,
+          "end": 31.94,
+          "segment_ids": [
+            3
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 0.0,
+          "time_end": 31.94,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 0
+            },
+            {
+              "task_index": 0,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Evolution of Farming Practices",
+        "thread_summary": "The video discusses the current mixed farm operations and then transitions to describe the shift towards more sustainable farming methods such as minimum and no till farming.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The video first describes the current mixed farm operations, which include grazings, cropping, and livestock. This sets the context for the subsequent discussion on the transition towards more sustainable farming methods, specifically minimum and no till farming."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 12.16,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 1,
+      "time_start": 46.98,
+      "time_end": 178.98,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 6
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 0,
+          "task_text": "Explain the current and planned farming practices for Reedy Creek Partners.",
+          "sub_index": 2,
+          "text": "Discuss the importance of maintaining ground cover to reduce water runoff.",
+          "start": 46.98,
+          "end": 104.1,
+          "segment_ids": [
+            7,
+            19,
+            20
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [
+              "cover"
+            ],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Outline the plans to improve water management on the farm.",
+          "sub_index": 0,
+          "text": "Explain the installation of bores, header tanks, and pipelines.",
+          "start": 114.34,
+          "end": 122.58,
+          "segment_ids": [
+            23,
+            24
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 1,
+          "task_text": "Outline the plans to improve water management on the farm.",
+          "sub_index": 1,
+          "text": "Describe the process of interlinking farming and grazing areas.",
+          "start": 122.58,
+          "end": 131.54,
+          "segment_ids": [
+            25,
+            26
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 2,
+          "task_text": "Describe the use of rotational grazing and how it benefits the farm.",
+          "sub_index": 0,
+          "text": "Outline the implementation of rotational grazing and water management.",
+          "start": 131.54,
+          "end": 144.9,
+          "segment_ids": [
+            27,
+            28,
+            29
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 3,
+          "task_text": "Explain the current farming setups and future improvements.",
+          "sub_index": 0,
+          "text": "Describe the process of dividing 50-hectare paddocks into 20-hectare ones.",
+          "start": 160.9,
+          "end": 171.38,
+          "segment_ids": [
+            35,
+            36,
+            37
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        },
+        {
+          "task_index": 2,
+          "task_text": "Describe the use of rotational grazing and how it benefits the farm.",
+          "sub_index": 1,
+          "text": "Discuss the use of troughs for water distribution.",
+          "start": 171.38,
+          "end": 178.98,
+          "segment_ids": [
+            38,
+            39
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 46.98,
+          "time_end": 178.98,
+          "subtask_refs": [
+            {
+              "task_index": 0,
+              "sub_index": 2
+            },
+            {
+              "task_index": 1,
+              "sub_index": 0
+            },
+            {
+              "task_index": 1,
+              "sub_index": 1
+            },
+            {
+              "task_index": 2,
+              "sub_index": 0
+            },
+            {
+              "task_index": 3,
+              "sub_index": 0
+            },
+            {
+              "task_index": 2,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Water Management and Land Use in Agriculture",
+        "thread_summary": "The video discusses various agricultural practices aimed at improving water management and land use, including the installation of water systems, dividing paddocks, and rotational grazing.",
+        "logical_links": [
+          {
+            "from": 0,
+            "to": 1,
+            "link": "The discussion on water management (importance of ground cover) naturally leads to the explanation of water system installation (bores, header tanks, pipelines)."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "link": "After explaining the water system installation, the next logical step is to describe how these systems can be integrated into the land use practices (interlinking farming and grazing areas)."
+          },
+          {
+            "from": 2,
+            "to": 3,
+            "link": "The process of interlinking farming and grazing areas is a prerequisite for implementing rotational grazing and water management strategies."
+          },
+          {
+            "from": 3,
+            "to": 4,
+            "link": "The implementation of rotational grazing and water management requires dividing the land into smaller, manageable sections (dividing 50-hectare paddocks into 20-hectares)."
+          },
+          {
+            "from": 4,
+            "to": 5,
+            "link": "After dividing the land, the next step is to discuss how to distribute water effectively (use of troughs for water distribution)."
+          }
+        ],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 5.248,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 2,
+      "time_start": 209.46,
+      "time_end": 220.74,
+      "thread_category_distribution": {
+        "motion": 1,
+        "perception": 0,
+        "planning": 0,
+        "narration": 0
+      },
+      "thread_dominant_category": "motion",
+      "subtasks": [
+        {
+          "task_index": 3,
+          "task_text": "Explain the current farming setups and future improvements.",
+          "sub_index": 1,
+          "text": "Detail the set stock lambing and small mob management.",
+          "start": 209.46,
+          "end": 220.74,
+          "segment_ids": [
+            48,
+            49,
+            50
+          ],
+          "subtask_category": "motion",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [
+              "set"
+            ],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": false,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "motion",
+          "time_start": 209.46,
+          "time_end": 220.74,
+          "subtask_refs": [
+            {
+              "task_index": 3,
+              "sub_index": 1
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Lambing and Small Mob Management",
+        "thread_summary": "This video segment discusses the management of a small flock of sheep, focusing on lambing and the care of the ewes and lambs.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    },
+    {
+      "thread_index": 3,
+      "time_start": 223.14,
+      "time_end": 230.1,
+      "thread_category_distribution": {
+        "motion": 0,
+        "perception": 0,
+        "planning": 0,
+        "narration": 1
+      },
+      "thread_dominant_category": "narration",
+      "subtasks": [
+        {
+          "task_index": 3,
+          "task_text": "Explain the current farming setups and future improvements.",
+          "sub_index": 2,
+          "text": "Mention the challenges with water availability for certain paddocks.",
+          "start": 223.14,
+          "end": 230.1,
+          "segment_ids": [
+            52,
+            53
+          ],
+          "subtask_category": "narration",
+          "category_confidence": null,
+          "category_meta": {
+            "matched_motion_verbs": [],
+            "matched_perception_verbs": [],
+            "matched_planning_verbs": [],
+            "matched_planning_markers": [],
+            "starts_with_narration_leader": true,
+            "process_narration": false,
+            "blocked_open_adjective": false,
+            "blocked_modal_capability": false
+          }
+        }
+      ],
+      "category_groups": [
+        {
+          "group_id": 0,
+          "category": "narration",
+          "time_start": 223.14,
+          "time_end": 230.1,
+          "subtask_refs": [
+            {
+              "task_index": 3,
+              "sub_index": 2
+            }
+          ]
+        }
+      ],
+      "logic": {
+        "thread_title": "Water Availability Challenges in Paddocks",
+        "thread_summary": "The video discusses the difficulties faced in ensuring adequate water supply for different paddocks.",
+        "logical_links": [],
+        "conflicts": [],
+        "repair": {
+          "bridging_sentences": [],
+          "revised_subtasks": []
+        }
+      },
+      "metrics": {
+        "timestamps_monotonic": true,
+        "avg_gap_seconds": 0.0,
+        "has_conflicts": false,
+        "needs_repair": false
+      }
+    }
+  ]
+}
