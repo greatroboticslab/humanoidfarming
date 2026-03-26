@@ -319,8 +319,7 @@ subtask_guidance/
 final_guidance_txt/
 ```
 
-<<<<<<< HEAD
-=======
+
 ## 🔹 Detailed Pipeline Visualization
 
 This figure shows the full Pipeline 1 workflow, including:
@@ -328,7 +327,7 @@ This figure shows the full Pipeline 1 workflow, including:
 - frame extraction and captioning
 - LLM-based robot guidance generation
 - LoRA-based training and final instruction dataset
-- 
+
 ![Automated Pipeline](../../documents/images/pipeline1_detailed.png)
 
 ## 🔹 Example: Robot Instruction Generation (LLM Output)

@@ -364,8 +364,7 @@ check_reports/
 training_quality_log_submissions/  
 plots/
 ```
-<<<<<<< HEAD
-=======
+
 ## 🔹 Detailed Pipeline Visualization
 
 This figure illustrates the full Pipeline 2 workflow for transforming timestamped video tasks into a structured hierarchical dataset.
