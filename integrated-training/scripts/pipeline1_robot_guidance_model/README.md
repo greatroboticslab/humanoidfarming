@@ -350,7 +350,7 @@ This example demonstrates how the trained model generates structured robot guida
   
 ![Automated Pipeline](../../documents/images/llm.png)
 
->>>>>>> ae74360ab (Update pipeline 2 outputs)
+
 ---
 
 # Purpose

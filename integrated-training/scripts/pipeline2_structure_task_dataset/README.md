@@ -388,7 +388,7 @@ This figure illustrates the full Pipeline 2 workflow for transforming timestampe
   - Discuss market growth  
   - Explain applications  
   - Identify challenges  
->>>>>>> ae74360ab (Update pipeline 2 outputs)
+
 
 ---
 
