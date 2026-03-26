@@ -1,0 +1,149 @@
+{
+  "mission_id": "EV2kCEapzCc",
+  "mission_title": "Smart Irrigation Revolutionizing Agriculture Efficiency",
+  "url": "https://www.youtube.com/watch?v=EV2kCEapzCc",
+  "artifacts_present": {
+    "thread_logic": true,
+    "coherent_blocks_with_submissions": true,
+    "task_blueprint": true,
+    "coherence_report": true
+  },
+  "checks": {
+    "logical_check": {
+      "status": "fail",
+      "num_issues": 1,
+      "issue_type_counts": {
+        "needs_repair": 1
+      },
+      "sample_issues": [
+        {
+          "thread_index": 0,
+          "type": "needs_repair",
+          "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+        }
+      ]
+    },
+    "coherence_check": {
+      "status": "pass",
+      "num_issues": 0,
+      "issue_type_counts": {},
+      "sample_issues": []
+    }
+  },
+  "sub_missions": [
+    {
+      "sub_mission_id": "EV2kCEapzCc_subm0",
+      "sub_mission_title": "Theme: irrigation / smart / systems",
+      "block_id": 0,
+      "time_start": 45.4,
+      "time_end": 136.48,
+      "issues_detected": true,
+      "checks": {
+        "logical_check": {
+          "status": "fail",
+          "num_issues": 1,
+          "issue_type_counts": {
+            "needs_repair": 1
+          },
+          "sample_issues": [
+            {
+              "thread_index": 0,
+              "type": "needs_repair",
+              "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+            }
+          ]
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "pending",
+      "final_status": "pending_entry",
+      "used_for_training": false,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the functioning and benefits of smart irrigation systems.",
+          "status": "fail"
+        },
+        {
+          "task_index": 1,
+          "task_text": "Discuss the economic and environmental benefits of implementing smart irrigation systems.",
+          "status": "fail"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "EV2kCEapzCc_subm1",
+      "sub_mission_title": "Theme: california / describe / grape",
+      "block_id": 1,
+      "time_start": 220.68,
+      "time_end": 249.32,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 2,
+          "task_text": "Present a case study demonstrating the effectiveness of smart irrigation systems.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "EV2kCEapzCc_subm2",
+      "sub_mission_title": "Theme: crop / feature / growth",
+      "block_id": 2,
+      "time_start": 277.72,
+      "time_end": 292.12,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 2,
+          "task_text": "Present a case study demonstrating the effectiveness of smart irrigation systems.",
+          "status": "pass"
+        }
+      ]
+    }
+  ],
+  "mission_rollup": {
+    "num_sub_missions": 3,
+    "num_successful_entries": 2,
+    "all_successful": false
+  }
+}

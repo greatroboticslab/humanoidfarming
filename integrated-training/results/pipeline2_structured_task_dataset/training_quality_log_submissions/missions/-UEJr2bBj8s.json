@@ -36,7 +36,7 @@
       "sub_mission_title": "Theme: irrigation / solar / costs",
       "block_id": 0,
       "time_start": 0.0,
-      "time_end": 192.16,
+      "time_end": 156.4,
       "issues_detected": false,
       "checks": {
         "logical_check": {
@@ -65,7 +65,34 @@
           "task_index": 1,
           "task_text": "Describe the environmental benefits of solar irrigation.",
           "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "-UEJr2bBj8s_subm1",
+      "sub_mission_title": "Theme: energy / bills / drop",
+      "block_id": 1,
+      "time_start": 156.4,
+      "time_end": 192.16,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
         },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
         {
           "task_index": 2,
           "task_text": "Explain the financial savings for farmers with solar irrigation.",
@@ -74,9 +101,9 @@
       ]
     },
     {
-      "sub_mission_id": "-UEJr2bBj8s_subm1",
+      "sub_mission_id": "-UEJr2bBj8s_subm2",
       "sub_mission_title": "Theme: irrigation / maintenance / minimal",
-      "block_id": 1,
+      "block_id": 2,
       "time_start": 192.8,
       "time_end": 238.08,
       "issues_detected": false,
@@ -106,9 +133,9 @@
       ]
     },
     {
-      "sub_mission_id": "-UEJr2bBj8s_subm2",
+      "sub_mission_id": "-UEJr2bBj8s_subm3",
       "sub_mission_title": "Theme: benefits / cooperative / cost",
-      "block_id": 2,
+      "block_id": 3,
       "time_start": 341.36,
       "time_end": 406.88,
       "issues_detected": true,
@@ -147,8 +174,8 @@
     }
   ],
   "mission_rollup": {
-    "num_sub_missions": 3,
-    "num_successful_entries": 2,
+    "num_sub_missions": 4,
+    "num_successful_entries": 3,
     "all_successful": false
   }
 }

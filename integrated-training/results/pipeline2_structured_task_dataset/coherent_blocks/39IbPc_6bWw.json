@@ -4,13 +4,13 @@
   "url": "https://www.youtube.com/watch?v=39IbPc_6bWw",
   "params": {
     "use_links": true,
-    "max_time_span": 240.0,
+    "max_time_span": 180.0,
     "max_gap": 30.0,
-    "min_overlap": 0.03,
-    "narration_merge_overlap": 0.03,
+    "min_overlap": 0.06,
+    "narration_merge_overlap": 0.12,
     "max_block_units": 12,
-    "use_llm": false,
-    "model": null
+    "use_llm": true,
+    "model": "Qwen/Qwen2.5-7B-Instruct"
   },
   "debug": {
     "link_grouping": {
@@ -20,7 +20,7 @@
       "num_blocks_after_caps": 5
     }
   },
-  "num_blocks": 5,
+  "num_blocks": 7,
   "blocks": [
     {
       "block_id": 0,
@@ -132,29 +132,16 @@
     {
       "block_id": 4,
       "time_start": 26.68,
-      "time_end": 40.92,
+      "time_end": 33.04,
       "dominant_category": "narration",
       "category_distribution": {
-        "narration": 2,
-        "perception": 1
+        "narration": 1
       },
       "units": [
         {
           "unit_id": "th4_g0",
           "thread_index": 4,
           "group_id": 0,
-          "category": "narration"
-        },
-        {
-          "unit_id": "th4_g1",
-          "thread_index": 4,
-          "group_id": 1,
-          "category": "perception"
-        },
-        {
-          "unit_id": "th4_g2",
-          "thread_index": 4,
-          "group_id": 2,
           "category": "narration"
         }
       ],
@@ -166,17 +153,57 @@
         {
           "task_index": 4,
           "sub_index": 1
-        },
+        }
+      ],
+      "block_preview_text": "Note the essential bond between farmers and dogs. Describe how dogs' loyalty and skills increased productivity."
+    },
+    {
+      "block_id": 5,
+      "time_start": 33.04,
+      "time_end": 38.16,
+      "dominant_category": "perception",
+      "category_distribution": {
+        "perception": 1
+      },
+      "units": [
+        {
+          "unit_id": "th4_g1",
+          "thread_index": 4,
+          "group_id": 1,
+          "category": "perception"
+        }
+      ],
+      "subtask_refs": [
         {
           "task_index": 5,
           "sub_index": 0
-        },
+        }
+      ],
+      "block_preview_text": "Observe working dogs adapting to modern farming needs."
+    },
+    {
+      "block_id": 6,
+      "time_start": 38.16,
+      "time_end": 40.92,
+      "dominant_category": "narration",
+      "category_distribution": {
+        "narration": 1
+      },
+      "units": [
+        {
+          "unit_id": "th4_g2",
+          "thread_index": 4,
+          "group_id": 2,
+          "category": "narration"
+        }
+      ],
+      "subtask_refs": [
         {
           "task_index": 5,
           "sub_index": 1
         }
       ],
-      "block_preview_text": "Note the essential bond between farmers and dogs. Describe how dogs' loyalty and skills increased productivity. Observe working dogs adapting to modern farming needs. Highlight the improved value of dogs on homesteads today."
+      "block_preview_text": "Highlight the improved value of dogs on homesteads today."
     }
   ]
 }

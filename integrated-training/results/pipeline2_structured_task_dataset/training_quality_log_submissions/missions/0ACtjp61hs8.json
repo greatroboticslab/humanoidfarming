@@ -25,9 +25,41 @@
   "sub_missions": [
     {
       "sub_mission_id": "0ACtjp61hs8_subm0",
-      "sub_mission_title": "Theme: canals / civilization / controlled",
+      "sub_mission_title": "Theme: crucial / efficiency / improved",
       "block_id": 0,
       "time_start": 5.52,
+      "time_end": 11.92,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the agricultural innovations developed by the Sumerians.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "0ACtjp61hs8_subm1",
+      "sub_mission_title": "Theme: canals / civilization / controlled",
+      "block_id": 1,
+      "time_start": 11.92,
       "time_end": 22.72,
       "issues_detected": false,
       "checks": {
@@ -57,8 +89,8 @@
     }
   ],
   "mission_rollup": {
-    "num_sub_missions": 1,
-    "num_successful_entries": 1,
+    "num_sub_missions": 2,
+    "num_successful_entries": 2,
     "all_successful": true
   }
 }

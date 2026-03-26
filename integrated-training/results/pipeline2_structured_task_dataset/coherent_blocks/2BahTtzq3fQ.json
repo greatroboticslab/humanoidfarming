@@ -4,13 +4,13 @@
   "url": "https://www.youtube.com/watch?v=2BahTtzq3fQ",
   "params": {
     "use_links": true,
-    "max_time_span": 240.0,
+    "max_time_span": 180.0,
     "max_gap": 30.0,
-    "min_overlap": 0.03,
-    "narration_merge_overlap": 0.03,
+    "min_overlap": 0.06,
+    "narration_merge_overlap": 0.12,
     "max_block_units": 12,
-    "use_llm": false,
-    "model": null
+    "use_llm": true,
+    "model": "Qwen/Qwen2.5-7B-Instruct"
   },
   "debug": {
     "link_grouping": {
@@ -20,16 +20,16 @@
       "num_blocks_after_caps": 3
     }
   },
-  "num_blocks": 3,
+  "num_blocks": 5,
   "blocks": [
     {
       "block_id": 0,
       "time_start": 31.73,
-      "time_end": 148.74,
-      "dominant_category": "narration",
+      "time_end": 112.9,
+      "dominant_category": "planning",
       "category_distribution": {
         "perception": 1,
-        "narration": 2,
+        "narration": 1,
         "planning": 1
       },
       "units": [
@@ -50,12 +50,6 @@
           "thread_index": 0,
           "group_id": 2,
           "category": "planning"
-        },
-        {
-          "unit_id": "th0_g3",
-          "thread_index": 0,
-          "group_id": 3,
-          "category": "narration"
         }
       ],
       "subtask_refs": [
@@ -78,16 +72,36 @@
         {
           "task_index": 1,
           "sub_index": 0
-        },
+        }
+      ],
+      "block_preview_text": "Observe bell peppers growing in containers and covered with insect barriers. Note the difference between first and second generation bell peppers. Describe the overwintering of a bell pepper plant indoors. Point out the current state and harvesting process of bell peppers. Compare the growth of organic store-bought mini peppers."
+    },
+    {
+      "block_id": 1,
+      "time_start": 112.94,
+      "time_end": 148.74,
+      "dominant_category": "narration",
+      "category_distribution": {
+        "narration": 1
+      },
+      "units": [
+        {
+          "unit_id": "th0_g3",
+          "thread_index": 0,
+          "group_id": 3,
+          "category": "narration"
+        }
+      ],
+      "subtask_refs": [
         {
           "task_index": 1,
           "sub_index": 1
         }
       ],
-      "block_preview_text": "Observe bell peppers growing in containers and covered with insect barriers. Note the difference between first and second generation bell peppers. Describe the overwintering of a bell pepper plant indoors. Point out the current state and harvesting process of bell peppers. Compare the growth of organic store-bought mini peppers. Highlight the challenges and solutions for growing bell peppers in a semi-arid climate."
+      "block_preview_text": "Highlight the challenges and solutions for growing bell peppers in a semi-arid climate."
     },
     {
-      "block_id": 1,
+      "block_id": 2,
       "time_start": 225.34,
       "time_end": 277.54,
       "dominant_category": "narration",
@@ -119,13 +133,12 @@
       "block_preview_text": "Describe the setup of a tropical microclimate for growing ginger. Explain how to protect a ginger plant from pests. Show the current state and harvesting process of a ginger plant."
     },
     {
-      "block_id": 2,
+      "block_id": 3,
       "time_start": 277.54,
-      "time_end": 335.66,
-      "dominant_category": "planning",
+      "time_end": 292.38,
+      "dominant_category": "perception",
       "category_distribution": {
-        "perception": 1,
-        "narration": 1
+        "perception": 1
       },
       "units": [
         {
@@ -133,7 +146,25 @@
           "thread_index": 2,
           "group_id": 0,
           "category": "perception"
-        },
+        }
+      ],
+      "subtask_refs": [
+        {
+          "task_index": 3,
+          "sub_index": 0
+        }
+      ],
+      "block_preview_text": "Observe the Perry Morse lettuce growing under partial shade."
+    },
+    {
+      "block_id": 4,
+      "time_start": 293.06,
+      "time_end": 335.66,
+      "dominant_category": "narration",
+      "category_distribution": {
+        "narration": 1
+      },
+      "units": [
         {
           "unit_id": "th2_g1",
           "thread_index": 2,
@@ -144,10 +175,6 @@
       "subtask_refs": [
         {
           "task_index": 3,
-          "sub_index": 0
-        },
-        {
-          "task_index": 3,
           "sub_index": 1
         },
         {
@@ -155,7 +182,7 @@
           "sub_index": 2
         }
       ],
-      "block_preview_text": "Observe the Perry Morse lettuce growing under partial shade. Demonstrate the method of growing carrots. Highlight the challenges and benefits of growing pineapples and strawberries in containers."
+      "block_preview_text": "Demonstrate the method of growing carrots. Highlight the challenges and benefits of growing pineapples and strawberries in containers."
     }
   ]
 }

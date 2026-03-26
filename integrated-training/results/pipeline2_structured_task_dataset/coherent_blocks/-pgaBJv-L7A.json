@@ -4,32 +4,32 @@
   "url": "https://www.youtube.com/watch?v=-pgaBJv-L7A",
   "params": {
     "use_links": true,
-    "max_time_span": 240.0,
+    "max_time_span": 180.0,
     "max_gap": 30.0,
-    "min_overlap": 0.03,
-    "narration_merge_overlap": 0.03,
+    "min_overlap": 0.06,
+    "narration_merge_overlap": 0.12,
     "max_block_units": 12,
-    "use_llm": false,
-    "model": null
+    "use_llm": true,
+    "model": "Qwen/Qwen2.5-7B-Instruct"
   },
   "debug": {
     "link_grouping": {
       "num_units": 8,
       "num_unit_edges": 5,
       "num_components": 3,
-      "num_blocks_after_caps": 4
+      "num_blocks_after_caps": 5
     }
   },
-  "num_blocks": 4,
+  "num_blocks": 7,
   "blocks": [
     {
       "block_id": 0,
       "time_start": 0.0,
-      "time_end": 159.12,
+      "time_end": 67.04,
       "dominant_category": "planning",
       "category_distribution": {
-        "perception": 2,
-        "narration": 2
+        "perception": 1,
+        "narration": 1
       },
       "units": [
         {
@@ -43,18 +43,6 @@
           "thread_index": 0,
           "group_id": 1,
           "category": "narration"
-        },
-        {
-          "unit_id": "th0_g2",
-          "thread_index": 0,
-          "group_id": 2,
-          "category": "perception"
-        },
-        {
-          "unit_id": "th0_g3",
-          "thread_index": 0,
-          "group_id": 3,
-          "category": "narration"
         }
       ],
       "subtask_refs": [
@@ -65,20 +53,60 @@
         {
           "task_index": 0,
           "sub_index": 1
-        },
+        }
+      ],
+      "block_preview_text": "Observe the advanced methods precision farming uses like GPS and data analytics to enhance crop management. Note the significant benefits of precision farming, including reduced waste, environmental impact, and higher yields."
+    },
+    {
+      "block_id": 1,
+      "time_start": 67.04,
+      "time_end": 135.12,
+      "dominant_category": "perception",
+      "category_distribution": {
+        "perception": 1
+      },
+      "units": [
+        {
+          "unit_id": "th0_g2",
+          "thread_index": 0,
+          "group_id": 2,
+          "category": "perception"
+        }
+      ],
+      "subtask_refs": [
         {
           "task_index": 1,
           "sub_index": 0
-        },
+        }
+      ],
+      "block_preview_text": "Observe how drones provide aerial perspectives and detailed surveys of crops using imaging technology."
+    },
+    {
+      "block_id": 2,
+      "time_start": 135.12,
+      "time_end": 159.12,
+      "dominant_category": "narration",
+      "category_distribution": {
+        "narration": 1
+      },
+      "units": [
+        {
+          "unit_id": "th0_g3",
+          "thread_index": 0,
+          "group_id": 3,
+          "category": "narration"
+        }
+      ],
+      "subtask_refs": [
         {
           "task_index": 1,
           "sub_index": 1
         }
       ],
-      "block_preview_text": "Observe the advanced methods precision farming uses like GPS and data analytics to enhance crop management. Note the significant benefits of precision farming, including reduced waste, environmental impact, and higher yields. Observe how drones provide aerial perspectives and detailed surveys of crops using imaging technology. Note the capabilities of drones in detecting issues like nutrient deficiencies and water stress before they become visible."
+      "block_preview_text": "Note the capabilities of drones in detecting issues like nutrient deficiencies and water stress before they become visible."
     },
     {
-      "block_id": 1,
+      "block_id": 3,
       "time_start": 198.8,
       "time_end": 318.8,
       "dominant_category": "perception",
@@ -102,7 +130,7 @@
       "block_preview_text": "Observe the technique where plants float in nutrient-rich solutions, absorbing everything they need to grow."
     },
     {
-      "block_id": 2,
+      "block_id": 4,
       "time_start": 318.8,
       "time_end": 446.8,
       "dominant_category": "narration",
@@ -126,13 +154,12 @@
       "block_preview_text": "Note the various types of hydroponic systems and their unique setups, including the WIC system and aquaponics."
     },
     {
-      "block_id": 3,
+      "block_id": 5,
       "time_start": 452.16,
-      "time_end": 639.28,
-      "dominant_category": "planning",
+      "time_end": 591.52,
+      "dominant_category": "perception",
       "category_distribution": {
-        "perception": 1,
-        "narration": 1
+        "perception": 1
       },
       "units": [
         {
@@ -140,7 +167,25 @@
           "thread_index": 2,
           "group_id": 1,
           "category": "perception"
-        },
+        }
+      ],
+      "subtask_refs": [
+        {
+          "task_index": 3,
+          "sub_index": 0
+        }
+      ],
+      "block_preview_text": "Observe how robotic harvesters can navigate through rows of crops with precision using sensors and GPS technology."
+    },
+    {
+      "block_id": 6,
+      "time_start": 592.08,
+      "time_end": 639.28,
+      "dominant_category": "narration",
+      "category_distribution": {
+        "narration": 1
+      },
+      "units": [
         {
           "unit_id": "th2_g2",
           "thread_index": 2,
@@ -151,14 +196,10 @@
       "subtask_refs": [
         {
           "task_index": 3,
-          "sub_index": 0
-        },
-        {
-          "task_index": 3,
           "sub_index": 1
         }
       ],
-      "block_preview_text": "Observe how robotic harvesters can navigate through rows of crops with precision using sensors and GPS technology. Note the advantages of robotic harvesters, including their ability to work around the clock and reduce waste."
+      "block_preview_text": "Note the advantages of robotic harvesters, including their ability to work around the clock and reduce waste."
     }
   ]
 }

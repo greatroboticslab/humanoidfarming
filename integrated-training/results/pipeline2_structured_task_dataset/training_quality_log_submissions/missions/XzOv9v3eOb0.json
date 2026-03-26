@@ -1,0 +1,101 @@
+{
+  "mission_id": "XzOv9v3eOb0",
+  "mission_title": "President Signs Grain to Alcohol Production Bill",
+  "url": "https://www.youtube.com/watch?v=XzOv9v3eOb0",
+  "artifacts_present": {
+    "thread_logic": true,
+    "coherent_blocks_with_submissions": true,
+    "task_blueprint": true,
+    "coherence_report": true
+  },
+  "checks": {
+    "logical_check": {
+      "status": "pass",
+      "num_issues": 0,
+      "issue_type_counts": {},
+      "sample_issues": []
+    },
+    "coherence_check": {
+      "status": "pass",
+      "num_issues": 0,
+      "issue_type_counts": {},
+      "sample_issues": []
+    }
+  },
+  "sub_missions": [
+    {
+      "sub_mission_id": "XzOv9v3eOb0_subm0",
+      "sub_mission_title": "Theme: bill / president / grain",
+      "block_id": 0,
+      "time_start": 19.22,
+      "time_end": 121.77,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "The President signs a bill enabling the Department of Agriculture to convert grain into alcohol for fuel use.",
+          "status": "pass"
+        },
+        {
+          "task_index": 1,
+          "task_text": "The President signs a bill.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "XzOv9v3eOb0_subm1",
+      "sub_mission_title": "Theme: president / agreement / will",
+      "block_id": 1,
+      "time_start": 150.81,
+      "time_end": 224.13,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 2,
+          "task_text": "The President announces a trade agreement that will benefit the American steel industry.",
+          "status": "pass"
+        }
+      ]
+    }
+  ],
+  "mission_rollup": {
+    "num_sub_missions": 2,
+    "num_successful_entries": 2,
+    "all_successful": true
+  }
+}

@@ -6,6 +6,8 @@ Pipeline 1 converts **timestamped tasks and subtasks** into
 **robot-centric procedural guidance** grounded in visual observations
 from video frames.
 
+![Automated Pipeline](../../documents/images/pipeline_1.png)
+
 It starts from the shared output:
 
 `results/tasks_with_timestamps/<video_id>.json`
@@ -317,6 +319,38 @@ subtask_guidance/
 final_guidance_txt/
 ```
 
+<<<<<<< HEAD
+=======
+## 🔹 Detailed Pipeline Visualization
+
+This figure shows the full Pipeline 1 workflow, including:
+- video input processing
+- frame extraction and captioning
+- LLM-based robot guidance generation
+- LoRA-based training and final instruction dataset
+- 
+![Automated Pipeline](../../documents/images/pipeline1_detailed.png)
+
+## 🔹 Example: Robot Instruction Generation (LLM Output)
+
+
+
+This example demonstrates how the trained model generates structured robot guidance from a text prompt.
+
+### Key Highlights:
+- Converts natural language into **robot-executable steps**
+- Produces structured sections such as:
+  - `GLOBAL_SUMMARY`
+  - `ORDERED_ROBOT_ACTION_STEPS`
+  - `SUBTASK_STORY`
+- Ensures actions are categorized into:
+  - navigation
+  - perception
+  - manipulation
+  
+![Automated Pipeline](../../documents/images/llm.png)
+
+>>>>>>> ae74360ab (Update pipeline 2 outputs)
 ---
 
 # Purpose

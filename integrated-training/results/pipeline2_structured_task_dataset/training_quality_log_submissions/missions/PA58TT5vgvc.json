@@ -1,0 +1,144 @@
+{
+  "mission_id": "PA58TT5vgvc",
+  "mission_title": "Growing Garlic in Containers vs Ground",
+  "url": "https://www.youtube.com/watch?v=PA58TT5vgvc",
+  "artifacts_present": {
+    "thread_logic": true,
+    "coherent_blocks_with_submissions": true,
+    "task_blueprint": true,
+    "coherence_report": true
+  },
+  "checks": {
+    "logical_check": {
+      "status": "pass",
+      "num_issues": 0,
+      "issue_type_counts": {},
+      "sample_issues": []
+    },
+    "coherence_check": {
+      "status": "fail",
+      "num_issues": 1,
+      "issue_type_counts": {
+        "block_time_span_too_large": 1
+      },
+      "sample_issues": [
+        {
+          "block_id": 0,
+          "type": "block_time_span_too_large",
+          "span_seconds": 265.17
+        }
+      ]
+    }
+  },
+  "sub_missions": [
+    {
+      "sub_mission_id": "PA58TT5vgvc_subm0",
+      "sub_mission_title": "Theme: bulbs / container / describe",
+      "block_id": 0,
+      "time_start": 30.85,
+      "time_end": 296.02,
+      "issues_detected": true,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "fail",
+          "num_issues": 1,
+          "issue_type_counts": {
+            "block_time_span_too_large": 1
+          },
+          "sample_issues": [
+            {
+              "block_id": 0,
+              "type": "block_time_span_too_large",
+              "span_seconds": 265.17
+            }
+          ]
+        }
+      },
+      "human_decision": "pending",
+      "final_status": "pending_entry",
+      "used_for_training": false,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "Explain the method of planting garlic in containers.",
+          "status": "fail"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "PA58TT5vgvc_subm1",
+      "sub_mission_title": "Theme: containers / directly / ground",
+      "block_id": 1,
+      "time_start": 121.65,
+      "time_end": 181.34,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "Explain the method of planting garlic in containers.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "PA58TT5vgvc_subm2",
+      "sub_mission_title": "Theme: adding / bulbs / container",
+      "block_id": 2,
+      "time_start": 140.41,
+      "time_end": 260.54,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 1,
+          "task_text": "Describe the process of preparing the soil and containers for garlic planting.",
+          "status": "pass"
+        }
+      ]
+    }
+  ],
+  "mission_rollup": {
+    "num_sub_missions": 3,
+    "num_successful_entries": 2,
+    "all_successful": false
+  }
+}

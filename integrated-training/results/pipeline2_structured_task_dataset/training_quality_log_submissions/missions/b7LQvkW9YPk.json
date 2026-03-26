@@ -1,0 +1,170 @@
+{
+  "mission_id": "b7LQvkW9YPk",
+  "mission_title": "Modern Rice Transplanting Techniques Revealed",
+  "url": "https://www.youtube.com/watch?v=b7LQvkW9YPk",
+  "artifacts_present": {
+    "thread_logic": true,
+    "coherent_blocks_with_submissions": true,
+    "task_blueprint": true,
+    "coherence_report": true
+  },
+  "checks": {
+    "logical_check": {
+      "status": "fail",
+      "num_issues": 1,
+      "issue_type_counts": {
+        "needs_repair": 1
+      },
+      "sample_issues": [
+        {
+          "thread_index": 0,
+          "type": "needs_repair",
+          "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+        }
+      ]
+    },
+    "coherence_check": {
+      "status": "pass",
+      "num_issues": 0,
+      "issue_type_counts": {},
+      "sample_issues": []
+    }
+  },
+  "sub_missions": [
+    {
+      "sub_mission_id": "b7LQvkW9YPk_subm0",
+      "sub_mission_title": "Theme: about / benefits / discussion",
+      "block_id": 0,
+      "time_start": 5.2,
+      "time_end": 18.28,
+      "issues_detected": true,
+      "checks": {
+        "logical_check": {
+          "status": "fail",
+          "num_issues": 1,
+          "issue_type_counts": {
+            "needs_repair": 1
+          },
+          "sample_issues": [
+            {
+              "thread_index": 0,
+              "type": "needs_repair",
+              "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+            }
+          ]
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "pending",
+      "final_status": "pending_entry",
+      "used_for_training": false,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "Explain the advantages of using mechanized transplanters over manual labor.",
+          "status": "fail"
+        },
+        {
+          "task_index": 1,
+          "task_text": "Describe the importance of optimized spacing methods in rice transplanting.",
+          "status": "fail"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "b7LQvkW9YPk_subm1",
+      "sub_mission_title": "Theme: rice / advantages / behind",
+      "block_id": 1,
+      "time_start": 21.6,
+      "time_end": 29.12,
+      "issues_detected": true,
+      "checks": {
+        "logical_check": {
+          "status": "fail",
+          "num_issues": 1,
+          "issue_type_counts": {
+            "needs_repair": 1
+          },
+          "sample_issues": [
+            {
+              "thread_index": 0,
+              "type": "needs_repair",
+              "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+            }
+          ]
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "pending",
+      "final_status": "pending_entry",
+      "used_for_training": false,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "Explain the advantages of using mechanized transplanters over manual labor.",
+          "status": "fail"
+        },
+        {
+          "task_index": 1,
+          "task_text": "Describe the importance of optimized spacing methods in rice transplanting.",
+          "status": "fail"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "b7LQvkW9YPk_subm2",
+      "sub_mission_title": "Theme: breakdown / comparisons / cost-benefit",
+      "block_id": 2,
+      "time_start": 26.2,
+      "time_end": 35.28,
+      "issues_detected": true,
+      "checks": {
+        "logical_check": {
+          "status": "fail",
+          "num_issues": 1,
+          "issue_type_counts": {
+            "needs_repair": 1
+          },
+          "sample_issues": [
+            {
+              "thread_index": 0,
+              "type": "needs_repair",
+              "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+            }
+          ]
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "pending",
+      "final_status": "pending_entry",
+      "used_for_training": false,
+      "tasks": [
+        {
+          "task_index": 2,
+          "task_text": "Highlight the importance of line marking tools for precise planting.",
+          "status": "fail"
+        }
+      ]
+    }
+  ],
+  "mission_rollup": {
+    "num_sub_missions": 3,
+    "num_successful_entries": 0,
+    "all_successful": false
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "mission_id": "reIM-JjsCvE",
+  "mission_title": "Agricultural Innovations and the Green Revolution Impacting Crop Yields and Environment. Agricultural Innovations and...",
+  "url": "https://www.youtube.com/watch?v=reIM-JjsCvE",
+  "artifacts_present": {
+    "thread_logic": true,
+    "coherent_blocks_with_submissions": true,
+    "task_blueprint": true,
+    "coherence_report": true
+  },
+  "checks": {
+    "logical_check": {
+      "status": "fail",
+      "num_issues": 1,
+      "issue_type_counts": {
+        "needs_repair": 1
+      },
+      "sample_issues": [
+        {
+          "thread_index": 0,
+          "type": "needs_repair",
+          "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+        }
+      ]
+    },
+    "coherence_check": {
+      "status": "pass",
+      "num_issues": 0,
+      "issue_type_counts": {},
+      "sample_issues": []
+    }
+  },
+  "sub_missions": [
+    {
+      "sub_mission_id": "reIM-JjsCvE_subm0",
+      "sub_mission_title": "Theme: about / agricultural / how",
+      "block_id": 0,
+      "time_start": 0.0,
+      "time_end": 3.2,
+      "issues_detected": true,
+      "checks": {
+        "logical_check": {
+          "status": "fail",
+          "num_issues": 1,
+          "issue_type_counts": {
+            "needs_repair": 1
+          },
+          "sample_issues": [
+            {
+              "thread_index": 0,
+              "type": "needs_repair",
+              "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+            }
+          ]
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "pending",
+      "final_status": "pending_entry",
+      "used_for_training": false,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "Introduce the concept of agricultural innovations and their global impact.",
+          "status": "fail"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "reIM-JjsCvE_subm1",
+      "sub_mission_title": "Theme: revolution / increased / advancements",
+      "block_id": 1,
+      "time_start": 4.08,
+      "time_end": 15.12,
+      "issues_detected": true,
+      "checks": {
+        "logical_check": {
+          "status": "fail",
+          "num_issues": 1,
+          "issue_type_counts": {
+            "needs_repair": 1
+          },
+          "sample_issues": [
+            {
+              "thread_index": 0,
+              "type": "needs_repair",
+              "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+            }
+          ]
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "pending",
+      "final_status": "pending_entry",
+      "used_for_training": false,
+      "tasks": [
+        {
+          "task_index": 1,
+          "task_text": "Describe the quest for increased food production and its beginning.",
+          "status": "fail"
+        },
+        {
+          "task_index": 2,
+          "task_text": "Explain the role of scientific advancements and hybrid seeds in the revolution.",
+          "status": "fail"
+        },
+        {
+          "task_index": 3,
+          "task_text": "Describe the outcomes of the Green Revolution.",
+          "status": "fail"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "reIM-JjsCvE_subm2",
+      "sub_mission_title": "Theme: green / revolution / agriculture",
+      "block_id": 2,
+      "time_start": 16.0,
+      "time_end": 24.72,
+      "issues_detected": true,
+      "checks": {
+        "logical_check": {
+          "status": "fail",
+          "num_issues": 1,
+          "issue_type_counts": {
+            "needs_repair": 1
+          },
+          "sample_issues": [
+            {
+              "thread_index": 0,
+              "type": "needs_repair",
+              "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+            }
+          ]
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "pending",
+      "final_status": "pending_entry",
+      "used_for_training": false,
+      "tasks": [
+        {
+          "task_index": 4,
+          "task_text": "Highlight the concerns raised during the Green Revolution.",
+          "status": "fail"
+        },
+        {
+          "task_index": 5,
+          "task_text": "Conclude by summarizing the reshaping of agriculture due to the Green Revolution.",
+          "status": "fail"
+        }
+      ]
+    }
+  ],
+  "mission_rollup": {
+    "num_sub_missions": 3,
+    "num_successful_entries": 0,
+    "all_successful": false
+  }
+}

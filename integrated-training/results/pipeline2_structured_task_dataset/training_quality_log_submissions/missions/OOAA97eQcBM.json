@@ -1,0 +1,189 @@
+{
+  "mission_id": "OOAA97eQcBM",
+  "mission_title": "Grain Grower Machinery Investment Guide Launched 0.34 Ratio Explained 0.34 Ratio For Efficient Farm Machinery Investm...",
+  "url": "https://www.youtube.com/watch?v=OOAA97eQcBM",
+  "artifacts_present": {
+    "thread_logic": true,
+    "coherent_blocks_with_submissions": true,
+    "task_blueprint": true,
+    "coherence_report": true
+  },
+  "checks": {
+    "logical_check": {
+      "status": "fail",
+      "num_issues": 1,
+      "issue_type_counts": {
+        "needs_repair": 1
+      },
+      "sample_issues": [
+        {
+          "thread_index": 1,
+          "type": "needs_repair",
+          "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+        }
+      ]
+    },
+    "coherence_check": {
+      "status": "pass",
+      "num_issues": 0,
+      "issue_type_counts": {},
+      "sample_issues": []
+    }
+  },
+  "sub_missions": [
+    {
+      "sub_mission_id": "OOAA97eQcBM_subm0",
+      "sub_mission_title": "Theme: growers / guide / australia",
+      "block_id": 0,
+      "time_start": 0.62,
+      "time_end": 79.78,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the background and purpose of the GRDC project.",
+          "status": "pass"
+        },
+        {
+          "task_index": 1,
+          "task_text": "Describe how the guide assists growers in making machinery investment decisions.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "OOAA97eQcBM_subm1",
+      "sub_mission_title": "Theme: chose / costs / due",
+      "block_id": 1,
+      "time_start": 101.67,
+      "time_end": 113.99,
+      "issues_detected": true,
+      "checks": {
+        "logical_check": {
+          "status": "fail",
+          "num_issues": 1,
+          "issue_type_counts": {
+            "needs_repair": 1
+          },
+          "sample_issues": [
+            {
+              "thread_index": 1,
+              "type": "needs_repair",
+              "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+            }
+          ]
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "pending",
+      "final_status": "pending_entry",
+      "used_for_training": false,
+      "tasks": [
+        {
+          "task_index": 1,
+          "task_text": "Describe how the guide assists growers in making machinery investment decisions.",
+          "status": "fail"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "OOAA97eQcBM_subm2",
+      "sub_mission_title": "Theme: formula / account / benchmarking",
+      "block_id": 2,
+      "time_start": 113.99,
+      "time_end": 136.91,
+      "issues_detected": true,
+      "checks": {
+        "logical_check": {
+          "status": "fail",
+          "num_issues": 1,
+          "issue_type_counts": {
+            "needs_repair": 1
+          },
+          "sample_issues": [
+            {
+              "thread_index": 1,
+              "type": "needs_repair",
+              "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+            }
+          ]
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "pending",
+      "final_status": "pending_entry",
+      "used_for_training": false,
+      "tasks": [
+        {
+          "task_index": 2,
+          "task_text": "Explain the new benchmarking formula featured in the guide.",
+          "status": "fail"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "OOAA97eQcBM_subm3",
+      "sub_mission_title": "Theme: about / benchmark / costs",
+      "block_id": 3,
+      "time_start": 136.91,
+      "time_end": 152.11,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 2,
+          "task_text": "Explain the new benchmarking formula featured in the guide.",
+          "status": "pass"
+        }
+      ]
+    }
+  ],
+  "mission_rollup": {
+    "num_sub_missions": 4,
+    "num_successful_entries": 2,
+    "all_successful": false
+  }
+}

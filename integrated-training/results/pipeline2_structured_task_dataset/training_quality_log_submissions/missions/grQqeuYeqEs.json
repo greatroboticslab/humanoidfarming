@@ -1,0 +1,181 @@
+{
+  "mission_id": "grQqeuYeqEs",
+  "mission_title": "Sheet-Tax Mushrooms Revolutionizing Agriculture",
+  "url": "https://www.youtube.com/watch?v=grQqeuYeqEs",
+  "artifacts_present": {
+    "thread_logic": true,
+    "coherent_blocks_with_submissions": true,
+    "task_blueprint": true,
+    "coherence_report": true
+  },
+  "checks": {
+    "logical_check": {
+      "status": "fail",
+      "num_issues": 1,
+      "issue_type_counts": {
+        "needs_repair": 1
+      },
+      "sample_issues": [
+        {
+          "thread_index": 2,
+          "type": "needs_repair",
+          "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+        }
+      ]
+    },
+    "coherence_check": {
+      "status": "pass",
+      "num_issues": 0,
+      "issue_type_counts": {},
+      "sample_issues": []
+    }
+  },
+  "sub_missions": [
+    {
+      "sub_mission_id": "grQqeuYeqEs_subm0",
+      "sub_mission_title": "Theme: mushrooms / sheet-tax / common-button",
+      "block_id": 0,
+      "time_start": 29.85,
+      "time_end": 66.33,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the economic benefits and cultivation methods of Sheet-Tax mushrooms.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "grQqeuYeqEs_subm1",
+      "sub_mission_title": "Theme: equipment / land / minimal",
+      "block_id": 1,
+      "time_start": 66.33,
+      "time_end": 71.33,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the economic benefits and cultivation methods of Sheet-Tax mushrooms.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "grQqeuYeqEs_subm2",
+      "sub_mission_title": "Theme: mushrooms / sheet-tax / cultivation",
+      "block_id": 2,
+      "time_start": 102.26,
+      "time_end": 123.26,
+      "issues_detected": true,
+      "checks": {
+        "logical_check": {
+          "status": "fail",
+          "num_issues": 1,
+          "issue_type_counts": {
+            "needs_repair": 1
+          },
+          "sample_issues": [
+            {
+              "thread_index": 2,
+              "type": "needs_repair",
+              "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+            }
+          ]
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "pending",
+      "final_status": "pending_entry",
+      "used_for_training": false,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the economic benefits and cultivation methods of Sheet-Tax mushrooms.",
+          "status": "fail"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "grQqeuYeqEs_subm3",
+      "sub_mission_title": "Theme: sheet-tax / mushrooms / farming",
+      "block_id": 3,
+      "time_start": 153.94,
+      "time_end": 245.68,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the economic benefits and cultivation methods of Sheet-Tax mushrooms.",
+          "status": "pass"
+        },
+        {
+          "task_index": 1,
+          "task_text": "Describe the market opportunities and benefits of selling Sheet-Tax mushrooms.",
+          "status": "pass"
+        }
+      ]
+    }
+  ],
+  "mission_rollup": {
+    "num_sub_missions": 4,
+    "num_successful_entries": 3,
+    "all_successful": false
+  }
+}

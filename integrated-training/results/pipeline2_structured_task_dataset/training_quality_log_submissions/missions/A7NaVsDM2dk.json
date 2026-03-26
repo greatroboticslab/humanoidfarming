@@ -1,0 +1,208 @@
+{
+  "mission_id": "A7NaVsDM2dk",
+  "mission_title": "Precautions in Seed Selection Process",
+  "url": "https://www.youtube.com/watch?v=A7NaVsDM2dk",
+  "artifacts_present": {
+    "thread_logic": true,
+    "coherent_blocks_with_submissions": true,
+    "task_blueprint": true,
+    "coherence_report": true
+  },
+  "checks": {
+    "logical_check": {
+      "status": "fail",
+      "num_issues": 1,
+      "issue_type_counts": {
+        "needs_repair": 1
+      },
+      "sample_issues": [
+        {
+          "thread_index": 4,
+          "type": "needs_repair",
+          "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+        }
+      ]
+    },
+    "coherence_check": {
+      "status": "pass",
+      "num_issues": 0,
+      "issue_type_counts": {},
+      "sample_issues": []
+    }
+  },
+  "sub_missions": [
+    {
+      "sub_mission_id": "A7NaVsDM2dk_subm0",
+      "sub_mission_title": "Theme: seeds / soaking / water",
+      "block_id": 0,
+      "time_start": 305.47,
+      "time_end": 316.37,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "Show various steps in seed selection and handling.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "A7NaVsDM2dk_subm1",
+      "sub_mission_title": "Theme: bags / describe / jute",
+      "block_id": 1,
+      "time_start": 316.37,
+      "time_end": 326.45,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "Show various steps in seed selection and handling.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "A7NaVsDM2dk_subm2",
+      "sub_mission_title": "Theme: process / sealings / seedlings",
+      "block_id": 2,
+      "time_start": 329.55,
+      "time_end": 370.37,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 1,
+          "task_text": "Demonstrate the steps in seedling transplantation.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "A7NaVsDM2dk_subm3",
+      "sub_mission_title": "Theme: tools / about / agricultural",
+      "block_id": 3,
+      "time_start": 631.01,
+      "time_end": 637.9300000000001,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 2,
+          "task_text": "Present information on agricultural tools and machines.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "A7NaVsDM2dk_subm4",
+      "sub_mission_title": "Theme: agricultural / appreciate / describe",
+      "block_id": 4,
+      "time_start": 637.9300000000001,
+      "time_end": 645.01,
+      "issues_detected": true,
+      "checks": {
+        "logical_check": {
+          "status": "fail",
+          "num_issues": 1,
+          "issue_type_counts": {
+            "needs_repair": 1
+          },
+          "sample_issues": [
+            {
+              "thread_index": 4,
+              "type": "needs_repair",
+              "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+            }
+          ]
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "pending",
+      "final_status": "pending_entry",
+      "used_for_training": false,
+      "tasks": [
+        {
+          "task_index": 2,
+          "task_text": "Present information on agricultural tools and machines.",
+          "status": "fail"
+        }
+      ]
+    }
+  ],
+  "mission_rollup": {
+    "num_sub_missions": 5,
+    "num_successful_entries": 4,
+    "all_successful": false
+  }
+}

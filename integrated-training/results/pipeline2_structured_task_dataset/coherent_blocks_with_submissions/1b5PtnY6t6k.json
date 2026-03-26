@@ -4,13 +4,13 @@
   "url": "https://www.youtube.com/watch?v=1b5PtnY6t6k",
   "params": {
     "use_links": true,
-    "max_time_span": 240.0,
+    "max_time_span": 180.0,
     "max_gap": 30.0,
-    "min_overlap": 0.03,
-    "narration_merge_overlap": 0.03,
+    "min_overlap": 0.06,
+    "narration_merge_overlap": 0.12,
     "max_block_units": 12,
-    "use_llm": false,
-    "model": null
+    "use_llm": true,
+    "model": "Qwen/Qwen2.5-7B-Instruct"
   },
   "debug": {
     "link_grouping": {
@@ -20,16 +20,15 @@
       "num_blocks_after_caps": 1
     }
   },
-  "num_blocks": 1,
+  "num_blocks": 2,
   "blocks": [
     {
       "block_id": 0,
       "time_start": 0.0,
-      "time_end": 7.2,
-      "dominant_category": "planning",
+      "time_end": 3.68,
+      "dominant_category": "perception",
       "category_distribution": {
-        "perception": 1,
-        "narration": 1
+        "perception": 1
       },
       "units": [
         {
@@ -37,7 +36,31 @@
           "thread_index": 0,
           "group_id": 0,
           "category": "perception"
-        },
+        }
+      ],
+      "subtask_refs": [
+        {
+          "task_index": 0,
+          "sub_index": 0
+        }
+      ],
+      "block_preview_text": "Observe how planting several black soil pots with black radish greens allows for continuous harvesting.",
+      "sub_mission_id": "1b5PtnY6t6k_subm0",
+      "sub_mission_title": "Theme: black / allows / continuous",
+      "sub_mission_time": {
+        "start": 0.0,
+        "end": 3.68
+      }
+    },
+    {
+      "block_id": 1,
+      "time_start": 3.68,
+      "time_end": 7.2,
+      "dominant_category": "narration",
+      "category_distribution": {
+        "narration": 1
+      },
+      "units": [
         {
           "unit_id": "th0_g1",
           "thread_index": 0,
@@ -48,10 +71,6 @@
       "subtask_refs": [
         {
           "task_index": 0,
-          "sub_index": 0
-        },
-        {
-          "task_index": 0,
           "sub_index": 1
         },
         {
@@ -59,11 +78,11 @@
           "sub_index": 2
         }
       ],
-      "block_preview_text": "Observe how planting several black soil pots with black radish greens allows for continuous harvesting. Note that the more you harvest the black radish greens, the faster they grow. Explain that you don't need to worry about the greens being depleted, only about the diner's potential boredom.",
-      "sub_mission_id": "1b5PtnY6t6k_subm0",
-      "sub_mission_title": "Theme: black / greens / about",
+      "block_preview_text": "Note that the more you harvest the black radish greens, the faster they grow. Explain that you don't need to worry about the greens being depleted, only about the diner's potential boredom.",
+      "sub_mission_id": "1b5PtnY6t6k_subm1",
+      "sub_mission_title": "Theme: about / greens / black",
       "sub_mission_time": {
-        "start": 0.0,
+        "start": 3.68,
         "end": 7.2
       }
     }
@@ -73,10 +92,17 @@
   "sub_missions": [
     {
       "sub_mission_id": "1b5PtnY6t6k_subm0",
-      "sub_mission_title": "Theme: black / greens / about",
+      "sub_mission_title": "Theme: black / allows / continuous",
       "time_start": 0.0,
-      "time_end": 7.2,
+      "time_end": 3.68,
       "block_id": 0
+    },
+    {
+      "sub_mission_id": "1b5PtnY6t6k_subm1",
+      "sub_mission_title": "Theme: about / greens / black",
+      "time_start": 3.68,
+      "time_end": 7.2,
+      "block_id": 1
     }
   ]
 }

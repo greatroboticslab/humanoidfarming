@@ -1,0 +1,224 @@
+{
+  "mission_id": "OYsNuwempQY",
+  "mission_title": "Monsoon Memories and Climate Narratives",
+  "url": "https://www.youtube.com/watch?v=OYsNuwempQY",
+  "artifacts_present": {
+    "thread_logic": true,
+    "coherent_blocks_with_submissions": true,
+    "task_blueprint": true,
+    "coherence_report": true
+  },
+  "checks": {
+    "logical_check": {
+      "status": "fail",
+      "num_issues": 1,
+      "issue_type_counts": {
+        "needs_repair": 1
+      },
+      "sample_issues": [
+        {
+          "thread_index": 0,
+          "type": "needs_repair",
+          "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+        }
+      ]
+    },
+    "coherence_check": {
+      "status": "fail",
+      "num_issues": 1,
+      "issue_type_counts": {
+        "block_time_span_too_large": 1
+      },
+      "sample_issues": [
+        {
+          "block_id": 3,
+          "type": "block_time_span_too_large",
+          "span_seconds": 409.24
+        }
+      ]
+    }
+  },
+  "sub_missions": [
+    {
+      "sub_mission_id": "OYsNuwempQY_subm0",
+      "sub_mission_title": "Theme: about / activists / artists",
+      "block_id": 0,
+      "time_start": 37.11,
+      "time_end": 70.79,
+      "issues_detected": true,
+      "checks": {
+        "logical_check": {
+          "status": "fail",
+          "num_issues": 1,
+          "issue_type_counts": {
+            "needs_repair": 1
+          },
+          "sample_issues": [
+            {
+              "thread_index": 0,
+              "type": "needs_repair",
+              "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+            }
+          ]
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "pending",
+      "final_status": "pending_entry",
+      "used_for_training": false,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "Explore the cultural lens of art and its role in understanding climate change.",
+          "status": "fail"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "OYsNuwempQY_subm1",
+      "sub_mission_title": "Theme: addresses / agency / art",
+      "block_id": 1,
+      "time_start": 75.59,
+      "time_end": 133.15,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 1,
+          "task_text": "Discuss the role of feminist theory in contemporary art and its influence on projects addressing climate change in South Asia.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "OYsNuwempQY_subm2",
+      "sub_mission_title": "Theme: chitra / community / farming",
+      "block_id": 2,
+      "time_start": 327.07,
+      "time_end": 467.67,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 2,
+          "task_text": "Examine collaborative projects in South Asia and how they address climate change and related issues.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "OYsNuwempQY_subm3",
+      "sub_mission_title": "Theme: art / approach / community",
+      "block_id": 3,
+      "time_start": 601.07,
+      "time_end": 1010.31,
+      "issues_detected": true,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "fail",
+          "num_issues": 1,
+          "issue_type_counts": {
+            "block_time_span_too_large": 1
+          },
+          "sample_issues": [
+            {
+              "block_id": 3,
+              "type": "block_time_span_too_large",
+              "span_seconds": 409.24
+            }
+          ]
+        }
+      },
+      "human_decision": "pending",
+      "final_status": "pending_entry",
+      "used_for_training": false,
+      "tasks": [
+        {
+          "task_index": 2,
+          "task_text": "Examine collaborative projects in South Asia and how they address climate change and related issues.",
+          "status": "fail"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "OYsNuwempQY_subm4",
+      "sub_mission_title": "Theme: artist / asian / book",
+      "block_id": 4,
+      "time_start": 1557.75,
+      "time_end": 1741.59,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 1,
+          "task_text": "Discuss the role of feminist theory in contemporary art and its influence on projects addressing climate change in South Asia.",
+          "status": "pass"
+        }
+      ]
+    }
+  ],
+  "mission_rollup": {
+    "num_sub_missions": 5,
+    "num_successful_entries": 3,
+    "all_successful": false
+  }
+}

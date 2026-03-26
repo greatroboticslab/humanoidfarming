@@ -1,0 +1,290 @@
+{
+  "mission_id": "tfKWKfagfFs",
+  "mission_title": "Water-Saving Rice Farming Technique: AWD",
+  "url": "https://www.youtube.com/watch?v=tfKWKfagfFs",
+  "artifacts_present": {
+    "thread_logic": true,
+    "coherent_blocks_with_submissions": true,
+    "task_blueprint": true,
+    "coherence_report": true
+  },
+  "checks": {
+    "logical_check": {
+      "status": "fail",
+      "num_issues": 2,
+      "issue_type_counts": {
+        "needs_repair": 2
+      },
+      "sample_issues": [
+        {
+          "thread_index": 2,
+          "type": "needs_repair",
+          "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+        },
+        {
+          "thread_index": 6,
+          "type": "needs_repair",
+          "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+        }
+      ]
+    },
+    "coherence_check": {
+      "status": "pass",
+      "num_issues": 0,
+      "issue_type_counts": {},
+      "sample_issues": []
+    }
+  },
+  "sub_missions": [
+    {
+      "sub_mission_id": "tfKWKfagfFs_subm0",
+      "sub_mission_title": "Theme: rice / water / amount",
+      "block_id": 0,
+      "time_start": 1.81,
+      "time_end": 60.97,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "Introduce the AWD technique and its benefits.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "tfKWKfagfFs_subm1",
+      "sub_mission_title": "Theme: conditions / dry / field",
+      "block_id": 1,
+      "time_start": 70.97,
+      "time_end": 89.97,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "Introduce the AWD technique and its benefits.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "tfKWKfagfFs_subm2",
+      "sub_mission_title": "Theme: can / awd / rice",
+      "block_id": 2,
+      "time_start": 142.23,
+      "time_end": 176.23,
+      "issues_detected": true,
+      "checks": {
+        "logical_check": {
+          "status": "fail",
+          "num_issues": 1,
+          "issue_type_counts": {
+            "needs_repair": 1
+          },
+          "sample_issues": [
+            {
+              "thread_index": 2,
+              "type": "needs_repair",
+              "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+            }
+          ]
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "pending",
+      "final_status": "pending_entry",
+      "used_for_training": false,
+      "tasks": [
+        {
+          "task_index": 1,
+          "task_text": "Describe how farmers can observe and apply the AWD technique using the field water tube.",
+          "status": "fail"
+        },
+        {
+          "task_index": 2,
+          "task_text": "Provide specific steps on applying the Safe AWD irrigation method.",
+          "status": "fail"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "tfKWKfagfFs_subm3",
+      "sub_mission_title": "Theme: water / avoid / depth",
+      "block_id": 3,
+      "time_start": 185.93,
+      "time_end": 197.93,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 2,
+          "task_text": "Provide specific steps on applying the Safe AWD irrigation method.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "tfKWKfagfFs_subm4",
+      "sub_mission_title": "Theme: after / again / applied",
+      "block_id": 4,
+      "time_start": 198.93,
+      "time_end": 204.93,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 2,
+          "task_text": "Provide specific steps on applying the Safe AWD irrigation method.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "tfKWKfagfFs_subm5",
+      "sub_mission_title": "Theme: although / penalty / relatively",
+      "block_id": 5,
+      "time_start": 206.93,
+      "time_end": 215.93,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 2,
+          "task_text": "Provide specific steps on applying the Safe AWD irrigation method.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "tfKWKfagfFs_subm6",
+      "sub_mission_title": "Theme: tube / water / checking",
+      "block_id": 6,
+      "time_start": 232.93,
+      "time_end": 316.11,
+      "issues_detected": true,
+      "checks": {
+        "logical_check": {
+          "status": "fail",
+          "num_issues": 1,
+          "issue_type_counts": {
+            "needs_repair": 1
+          },
+          "sample_issues": [
+            {
+              "thread_index": 6,
+              "type": "needs_repair",
+              "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+            }
+          ]
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "pending",
+      "final_status": "pending_entry",
+      "used_for_training": false,
+      "tasks": [
+        {
+          "task_index": 1,
+          "task_text": "Describe how farmers can observe and apply the AWD technique using the field water tube.",
+          "status": "fail"
+        }
+      ]
+    }
+  ],
+  "mission_rollup": {
+    "num_sub_missions": 7,
+    "num_successful_entries": 5,
+    "all_successful": false
+  }
+}

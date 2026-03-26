@@ -1,0 +1,201 @@
+{
+  "mission_id": "IRtD-6fWLZY",
+  "mission_title": "Easy Cold Climate Gardening: Potatoes and Pumpkins",
+  "url": "https://www.youtube.com/watch?v=IRtD-6fWLZY",
+  "artifacts_present": {
+    "thread_logic": true,
+    "coherent_blocks_with_submissions": true,
+    "task_blueprint": true,
+    "coherence_report": true
+  },
+  "checks": {
+    "logical_check": {
+      "status": "fail",
+      "num_issues": 2,
+      "issue_type_counts": {
+        "conflicts": 1,
+        "needs_repair": 1
+      },
+      "sample_issues": [
+        {
+          "thread_index": 0,
+          "type": "conflicts",
+          "count": 1
+        },
+        {
+          "thread_index": 0,
+          "type": "needs_repair",
+          "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+        }
+      ]
+    },
+    "coherence_check": {
+      "status": "pass",
+      "num_issues": 0,
+      "issue_type_counts": {},
+      "sample_issues": []
+    }
+  },
+  "sub_missions": [
+    {
+      "sub_mission_id": "IRtD-6fWLZY_subm0",
+      "sub_mission_title": "Theme: longevity / potato / beautiful",
+      "block_id": 0,
+      "time_start": 165.46,
+      "time_end": 219.06,
+      "issues_detected": true,
+      "checks": {
+        "logical_check": {
+          "status": "fail",
+          "num_issues": 2,
+          "issue_type_counts": {
+            "conflicts": 1,
+            "needs_repair": 1
+          },
+          "sample_issues": [
+            {
+              "thread_index": 0,
+              "type": "conflicts",
+              "count": 1
+            },
+            {
+              "thread_index": 0,
+              "type": "needs_repair",
+              "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+            }
+          ]
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "pending",
+      "final_status": "pending_entry",
+      "used_for_training": false,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "Present the most calorie-dense food that stores well and can be planted again for more.",
+          "status": "fail"
+        },
+        {
+          "task_index": 1,
+          "task_text": "Introduce pumpkins for their abundant storage time and versatility.",
+          "status": "fail"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "IRtD-6fWLZY_subm1",
+      "sub_mission_title": "Theme: benefits / beans / display",
+      "block_id": 1,
+      "time_start": 219.42,
+      "time_end": 240.8,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 1,
+          "task_text": "Introduce pumpkins for their abundant storage time and versatility.",
+          "status": "pass"
+        },
+        {
+          "task_index": 2,
+          "task_text": "Explain the benefits of growing zucchini as a summer squash.",
+          "status": "pass"
+        },
+        {
+          "task_index": 3,
+          "task_text": "Discuss the importance of storing abundance during the growing season by canning beans and other produce.",
+          "status": "pass"
+        },
+        {
+          "task_index": 4,
+          "task_text": "Describe the process of making garden produce more flavorful through incorporating onions and garlic.",
+          "status": "pass"
+        },
+        {
+          "task_index": 5,
+          "task_text": "Discuss the importance of greens in a diet and provide examples of easy-to-grow greens.",
+          "status": "pass"
+        },
+        {
+          "task_index": 6,
+          "task_text": "Explain the process of making sourcrout and its benefits for preserving cabbage.",
+          "status": "pass"
+        },
+        {
+          "task_index": 7,
+          "task_text": "Provide an overview of fruits and fruit trees as investments for long-term food production.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "IRtD-6fWLZY_subm2",
+      "sub_mission_title": "Theme: abundance / apples / blackberries",
+      "block_id": 2,
+      "time_start": null,
+      "time_end": null,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 7,
+          "task_text": "Provide an overview of fruits and fruit trees as investments for long-term food production.",
+          "status": "pass"
+        },
+        {
+          "task_index": 8,
+          "task_text": "Highlight the easy-to-grow nature of berries, especially raspberries and blackberries.",
+          "status": "pass"
+        },
+        {
+          "task_index": 9,
+          "task_text": "Demonstrate the abundance and ease of growing tomatoes and hot peppers.",
+          "status": "pass"
+        }
+      ]
+    }
+  ],
+  "mission_rollup": {
+    "num_sub_missions": 3,
+    "num_successful_entries": 2,
+    "all_successful": false
+  }
+}

@@ -4,13 +4,13 @@
   "url": "https://www.youtube.com/watch?v=0aN4ZuHMckU",
   "params": {
     "use_links": true,
-    "max_time_span": 240.0,
+    "max_time_span": 180.0,
     "max_gap": 30.0,
-    "min_overlap": 0.03,
-    "narration_merge_overlap": 0.03,
+    "min_overlap": 0.06,
+    "narration_merge_overlap": 0.12,
     "max_block_units": 12,
-    "use_llm": false,
-    "model": null
+    "use_llm": true,
+    "model": "Qwen/Qwen2.5-7B-Instruct"
   },
   "debug": {
     "link_grouping": {
@@ -20,7 +20,7 @@
       "num_blocks_after_caps": 4
     }
   },
-  "num_blocks": 4,
+  "num_blocks": 5,
   "blocks": [
     {
       "block_id": 0,
@@ -55,11 +55,11 @@
     {
       "block_id": 1,
       "time_start": 65.93,
-      "time_end": 111.14,
-      "dominant_category": "planning",
+      "time_end": 96.14,
+      "dominant_category": "narration",
       "category_distribution": {
         "narration": 2,
-        "perception": 2
+        "perception": 1
       },
       "units": [
         {
@@ -79,12 +79,6 @@
           "thread_index": 1,
           "group_id": 2,
           "category": "narration"
-        },
-        {
-          "unit_id": "th1_g3",
-          "thread_index": 1,
-          "group_id": 3,
-          "category": "perception"
         }
       ],
       "subtask_refs": [
@@ -99,22 +93,48 @@
         {
           "task_index": 1,
           "sub_index": 0
-        },
+        }
+      ],
+      "block_preview_text": "Note the initial handling of the ground and setting up the field for Baranaaja. Observe the planting of mixed crops including Baranaaja among the different types of pulses. Monitor the growth of Baranaaja compared to other pulses and note the distinct characteristics.",
+      "sub_mission_id": "0aN4ZuHMckU_subm1",
+      "sub_mission_title": "Theme: baranaaja / pulses / among",
+      "sub_mission_time": {
+        "start": 65.93,
+        "end": 96.14
+      }
+    },
+    {
+      "block_id": 2,
+      "time_start": 107.14,
+      "time_end": 111.14,
+      "dominant_category": "perception",
+      "category_distribution": {
+        "perception": 1
+      },
+      "units": [
+        {
+          "unit_id": "th1_g3",
+          "thread_index": 1,
+          "group_id": 3,
+          "category": "perception"
+        }
+      ],
+      "subtask_refs": [
         {
           "task_index": 1,
           "sub_index": 1
         }
       ],
-      "block_preview_text": "Note the initial handling of the ground and setting up the field for Baranaaja. Observe the planting of mixed crops including Baranaaja among the different types of pulses. Monitor the growth of Baranaaja compared to other pulses and note the distinct characteristics. Identify the techniques used for managing sowing and nursing, including netting and fencing.",
-      "sub_mission_id": "0aN4ZuHMckU_subm1",
-      "sub_mission_title": "Theme: baranaaja / including / pulses",
+      "block_preview_text": "Identify the techniques used for managing sowing and nursing, including netting and fencing.",
+      "sub_mission_id": "0aN4ZuHMckU_subm2",
+      "sub_mission_title": "Theme: fencing / identify / including",
       "sub_mission_time": {
-        "start": 65.93,
+        "start": 107.14,
         "end": 111.14
       }
     },
     {
-      "block_id": 2,
+      "block_id": 3,
       "time_start": 224.94,
       "time_end": 238.94,
       "dominant_category": "narration",
@@ -140,7 +160,7 @@
         }
       ],
       "block_preview_text": "Describe the aftermath of Baranaaja cultivation and prepare for the next crop cycle. Explain the current conditions of soil and the impact on future crop planning.",
-      "sub_mission_id": "0aN4ZuHMckU_subm2",
+      "sub_mission_id": "0aN4ZuHMckU_subm3",
       "sub_mission_title": "Theme: crop / aftermath / baranaaja",
       "sub_mission_time": {
         "start": 224.94,
@@ -148,7 +168,7 @@
       }
     },
     {
-      "block_id": 3,
+      "block_id": 4,
       "time_start": 265.94,
       "time_end": 283.58,
       "dominant_category": "narration",
@@ -170,7 +190,7 @@
         }
       ],
       "block_preview_text": "Mention the changes in climate and soil conditions affecting the next planting.",
-      "sub_mission_id": "0aN4ZuHMckU_subm3",
+      "sub_mission_id": "0aN4ZuHMckU_subm4",
       "sub_mission_title": "Theme: affecting / changes / climate",
       "sub_mission_time": {
         "start": 265.94,
@@ -190,24 +210,31 @@
     },
     {
       "sub_mission_id": "0aN4ZuHMckU_subm1",
-      "sub_mission_title": "Theme: baranaaja / including / pulses",
+      "sub_mission_title": "Theme: baranaaja / pulses / among",
       "time_start": 65.93,
-      "time_end": 111.14,
+      "time_end": 96.14,
       "block_id": 1
     },
     {
       "sub_mission_id": "0aN4ZuHMckU_subm2",
-      "sub_mission_title": "Theme: crop / aftermath / baranaaja",
-      "time_start": 224.94,
-      "time_end": 238.94,
+      "sub_mission_title": "Theme: fencing / identify / including",
+      "time_start": 107.14,
+      "time_end": 111.14,
       "block_id": 2
     },
     {
       "sub_mission_id": "0aN4ZuHMckU_subm3",
+      "sub_mission_title": "Theme: crop / aftermath / baranaaja",
+      "time_start": 224.94,
+      "time_end": 238.94,
+      "block_id": 3
+    },
+    {
+      "sub_mission_id": "0aN4ZuHMckU_subm4",
       "sub_mission_title": "Theme: affecting / changes / climate",
       "time_start": 265.94,
       "time_end": 283.58,
-      "block_id": 3
+      "block_id": 4
     }
   ]
 }

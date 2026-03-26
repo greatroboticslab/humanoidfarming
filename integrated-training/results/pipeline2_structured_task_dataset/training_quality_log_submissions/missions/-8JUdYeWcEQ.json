@@ -33,10 +33,10 @@
   "sub_missions": [
     {
       "sub_mission_id": "-8JUdYeWcEQ_subm0",
-      "sub_mission_title": "Theme: pumpkin / alone / can",
+      "sub_mission_title": "Theme: alone / can / carry",
       "block_id": 0,
       "time_start": 5.84,
-      "time_end": 14.32,
+      "time_end": 10.16,
       "issues_detected": false,
       "checks": {
         "logical_check": {
@@ -65,9 +65,81 @@
     },
     {
       "sub_mission_id": "-8JUdYeWcEQ_subm1",
-      "sub_mission_title": "Theme: all / awkward / but",
+      "sub_mission_title": "Theme: chinese / developed / hand",
       "block_id": 1,
+      "time_start": 10.16,
+      "time_end": 14.32,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the unique pumpkin farming techniques of the Chinese.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "-8JUdYeWcEQ_subm2",
+      "sub_mission_title": "Theme: awkward / but / delicious",
+      "block_id": 2,
       "time_start": 14.32,
+      "time_end": 18.48,
+      "issues_detected": true,
+      "checks": {
+        "logical_check": {
+          "status": "fail",
+          "num_issues": 1,
+          "issue_type_counts": {
+            "needs_repair": 1
+          },
+          "sample_issues": [
+            {
+              "thread_index": 1,
+              "type": "needs_repair",
+              "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+            }
+          ]
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "pending",
+      "final_status": "pending_entry",
+      "used_for_training": false,
+      "tasks": [
+        {
+          "task_index": 1,
+          "task_text": "Highlight other unique products and their pricing.",
+          "status": "fail"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "-8JUdYeWcEQ_subm3",
+      "sub_mission_title": "Theme: all / fruits / high",
+      "block_id": 3,
+      "time_start": 18.48,
       "time_end": 20.32,
       "issues_detected": true,
       "checks": {
@@ -105,8 +177,8 @@
     }
   ],
   "mission_rollup": {
-    "num_sub_missions": 2,
-    "num_successful_entries": 1,
+    "num_sub_missions": 4,
+    "num_successful_entries": 2,
     "all_successful": false
   }
 }

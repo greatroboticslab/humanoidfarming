@@ -25,9 +25,41 @@
   "sub_missions": [
     {
       "sub_mission_id": "0oLDxPD8Lmc_subm0",
-      "sub_mission_title": "Theme: activities / area / avang",
+      "sub_mission_title": "Theme: area / avang / diir",
       "block_id": 0,
       "time_start": 9.87,
+      "time_end": 17.13,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the movements and locations of individuals mentioned in the text.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "0oLDxPD8Lmc_subm1",
+      "sub_mission_title": "Theme: activities / bathe / bind",
+      "block_id": 1,
+      "time_start": 18.13,
       "time_end": 23.49,
       "issues_detected": false,
       "checks": {
@@ -57,8 +89,8 @@
     }
   ],
   "mission_rollup": {
-    "num_sub_missions": 1,
-    "num_successful_entries": 1,
+    "num_sub_missions": 2,
+    "num_successful_entries": 2,
     "all_successful": true
   }
 }

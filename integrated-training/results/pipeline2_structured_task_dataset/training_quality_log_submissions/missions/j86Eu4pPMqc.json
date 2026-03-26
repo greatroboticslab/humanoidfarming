@@ -1,0 +1,80 @@
+{
+  "mission_id": "j86Eu4pPMqc",
+  "mission_title": "Seven Essentials for Raising Happy Chicks",
+  "url": "https://www.youtube.com/watch?v=j86Eu4pPMqc",
+  "artifacts_present": {
+    "thread_logic": true,
+    "coherent_blocks_with_submissions": true,
+    "task_blueprint": true,
+    "coherence_report": true
+  },
+  "checks": {
+    "logical_check": {
+      "status": "pass",
+      "num_issues": 0,
+      "issue_type_counts": {},
+      "sample_issues": []
+    },
+    "coherence_check": {
+      "status": "fail",
+      "num_issues": 1,
+      "issue_type_counts": {
+        "block_time_span_too_large": 1
+      },
+      "sample_issues": [
+        {
+          "block_id": 0,
+          "type": "block_time_span_too_large",
+          "span_seconds": 361.5
+        }
+      ]
+    }
+  },
+  "sub_missions": [
+    {
+      "sub_mission_id": "j86Eu4pPMqc_subm0",
+      "sub_mission_title": "Theme: chicks / use / water",
+      "block_id": 0,
+      "time_start": 6.56,
+      "time_end": 368.06,
+      "issues_detected": true,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "fail",
+          "num_issues": 1,
+          "issue_type_counts": {
+            "block_time_span_too_large": 1
+          },
+          "sample_issues": [
+            {
+              "block_id": 0,
+              "type": "block_time_span_too_large",
+              "span_seconds": 361.5
+            }
+          ]
+        }
+      },
+      "human_decision": "pending",
+      "final_status": "pending_entry",
+      "used_for_training": false,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the essential items needed for raising healthy chicks.",
+          "status": "fail"
+        }
+      ]
+    }
+  ],
+  "mission_rollup": {
+    "num_sub_missions": 1,
+    "num_successful_entries": 0,
+    "all_successful": false
+  }
+}

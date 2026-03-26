@@ -1,0 +1,186 @@
+{
+  "mission_id": "PC0SwkpfgMw",
+  "mission_title": "Agriculture for Future Generations",
+  "url": "https://www.youtube.com/watch?v=PC0SwkpfgMw",
+  "artifacts_present": {
+    "thread_logic": true,
+    "coherent_blocks_with_submissions": true,
+    "task_blueprint": true,
+    "coherence_report": true
+  },
+  "checks": {
+    "logical_check": {
+      "status": "fail",
+      "num_issues": 1,
+      "issue_type_counts": {
+        "needs_repair": 1
+      },
+      "sample_issues": [
+        {
+          "thread_index": 1,
+          "type": "needs_repair",
+          "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+        }
+      ]
+    },
+    "coherence_check": {
+      "status": "pass",
+      "num_issues": 0,
+      "issue_type_counts": {},
+      "sample_issues": []
+    }
+  },
+  "sub_missions": [
+    {
+      "sub_mission_id": "PC0SwkpfgMw_subm0",
+      "sub_mission_title": "Theme: cattle / focus / future",
+      "block_id": 0,
+      "time_start": 0.0,
+      "time_end": 4.16,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "Discuss the importance of preserving agriculture for the future.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "PC0SwkpfgMw_subm1",
+      "sub_mission_title": "Theme: agriculture / appealing / food",
+      "block_id": 1,
+      "time_start": 4.16,
+      "time_end": 6.96,
+      "issues_detected": true,
+      "checks": {
+        "logical_check": {
+          "status": "fail",
+          "num_issues": 1,
+          "issue_type_counts": {
+            "needs_repair": 1
+          },
+          "sample_issues": [
+            {
+              "thread_index": 1,
+              "type": "needs_repair",
+              "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+            }
+          ]
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "pending",
+      "final_status": "pending_entry",
+      "used_for_training": false,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "Discuss the importance of preserving agriculture for the future.",
+          "status": "fail"
+        },
+        {
+          "task_index": 1,
+          "task_text": "Highlight the challenge of making agriculture accessible and understandable to the public.",
+          "status": "fail"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "PC0SwkpfgMw_subm2",
+      "sub_mission_title": "Theme: agriculture / attractive / future",
+      "block_id": 2,
+      "time_start": 6.026666666666666,
+      "time_end": 7.893333333333333,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 1,
+          "task_text": "Highlight the challenge of making agriculture accessible and understandable to the public.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "PC0SwkpfgMw_subm3",
+      "sub_mission_title": "Theme: agriculture / public / about",
+      "block_id": 3,
+      "time_start": 6.96,
+      "time_end": 9.76,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "Discuss the importance of preserving agriculture for the future.",
+          "status": "pass"
+        },
+        {
+          "task_index": 1,
+          "task_text": "Highlight the challenge of making agriculture accessible and understandable to the public.",
+          "status": "pass"
+        }
+      ]
+    }
+  ],
+  "mission_rollup": {
+    "num_sub_missions": 4,
+    "num_successful_entries": 3,
+    "all_successful": false
+  }
+}

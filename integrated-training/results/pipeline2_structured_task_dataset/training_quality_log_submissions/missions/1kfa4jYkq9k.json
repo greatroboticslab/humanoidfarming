@@ -25,10 +25,10 @@
   "sub_missions": [
     {
       "sub_mission_id": "1kfa4jYkq9k_subm0",
-      "sub_mission_title": "Theme: clear-cutting / all / area",
+      "sub_mission_title": "Theme: different / each / forest",
       "block_id": 0,
       "time_start": 5.52,
-      "time_end": 18.24,
+      "time_end": 8.76,
       "issues_detected": false,
       "checks": {
         "logical_check": {
@@ -57,10 +57,10 @@
     },
     {
       "sub_mission_id": "1kfa4jYkq9k_subm1",
-      "sub_mission_title": "Theme: how / logging / skyline",
+      "sub_mission_title": "Theme: clear-cutting / all / area",
       "block_id": 1,
-      "time_start": 57.2,
-      "time_end": 188.32,
+      "time_start": 8.86,
+      "time_end": 18.24,
       "issues_detected": false,
       "checks": {
         "logical_check": {
@@ -84,12 +84,162 @@
           "task_index": 0,
           "task_text": "Describe the clear-cutting process and its benefits for forest management in the Willamette Valley.",
           "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "1kfa4jYkq9k_subm2",
+      "sub_mission_title": "Theme: disturbance / extract / how",
+      "block_id": 2,
+      "time_start": 57.2,
+      "time_end": 80.08,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
         },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the clear-cutting process and its benefits for forest management in the Willamette Valley.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "1kfa4jYkq9k_subm3",
+      "sub_mission_title": "Theme: logging / skyline / allows",
+      "block_id": 3,
+      "time_start": 80.18,
+      "time_end": 124.94,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
         {
           "task_index": 1,
           "task_text": "Explain the benefits of skyline logging for forest management and seedling growth.",
           "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "1kfa4jYkq9k_subm4",
+      "sub_mission_title": "Theme: buffer / protect / reforestation",
+      "block_id": 4,
+      "time_start": 126.44,
+      "time_end": 156.88,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
         },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 1,
+          "task_text": "Explain the benefits of skyline logging for forest management and seedling growth.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "1kfa4jYkq9k_subm5",
+      "sub_mission_title": "Theme: capabilities / douglas / fir",
+      "block_id": 5,
+      "time_start": 166.36,
+      "time_end": 170.46,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 2,
+          "task_text": "Describe how clear-cutting promotes the growth of Douglas fir.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "1kfa4jYkq9k_subm6",
+      "sub_mission_title": "Theme: douglas / fir / abundant",
+      "block_id": 6,
+      "time_start": 173.06,
+      "time_end": 188.32,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
         {
           "task_index": 2,
           "task_text": "Describe how clear-cutting promotes the growth of Douglas fir.",
@@ -99,8 +249,8 @@
     }
   ],
   "mission_rollup": {
-    "num_sub_missions": 2,
-    "num_successful_entries": 2,
+    "num_sub_missions": 7,
+    "num_successful_entries": 7,
     "all_successful": true
   }
 }

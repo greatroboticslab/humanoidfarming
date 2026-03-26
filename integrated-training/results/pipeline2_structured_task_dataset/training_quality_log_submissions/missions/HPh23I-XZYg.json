@@ -1,0 +1,357 @@
+{
+  "mission_id": "HPh23I-XZYg",
+  "mission_title": "CEDRIC Webinar: Soil Health & Biodiversity Introduction",
+  "url": "https://www.youtube.com/watch?v=HPh23I-XZYg",
+  "artifacts_present": {
+    "thread_logic": true,
+    "coherent_blocks_with_submissions": true,
+    "task_blueprint": true,
+    "coherence_report": true
+  },
+  "checks": {
+    "logical_check": {
+      "status": "fail",
+      "num_issues": 1,
+      "issue_type_counts": {
+        "needs_repair": 1
+      },
+      "sample_issues": [
+        {
+          "thread_index": 0,
+          "type": "needs_repair",
+          "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+        }
+      ]
+    },
+    "coherence_check": {
+      "status": "fail",
+      "num_issues": 1,
+      "issue_type_counts": {
+        "block_time_span_too_large": 1
+      },
+      "sample_issues": [
+        {
+          "block_id": 0,
+          "type": "block_time_span_too_large",
+          "span_seconds": 475.07
+        }
+      ]
+    }
+  },
+  "sub_missions": [
+    {
+      "sub_mission_id": "HPh23I-XZYg_subm0",
+      "sub_mission_title": "Theme: agriculture / cedric / project",
+      "block_id": 0,
+      "time_start": 14.83,
+      "time_end": 489.9,
+      "issues_detected": true,
+      "checks": {
+        "logical_check": {
+          "status": "fail",
+          "num_issues": 1,
+          "issue_type_counts": {
+            "needs_repair": 1
+          },
+          "sample_issues": [
+            {
+              "thread_index": 0,
+              "type": "needs_repair",
+              "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+            }
+          ]
+        },
+        "coherence_check": {
+          "status": "fail",
+          "num_issues": 1,
+          "issue_type_counts": {
+            "block_time_span_too_large": 1
+          },
+          "sample_issues": [
+            {
+              "block_id": 0,
+              "type": "block_time_span_too_large",
+              "span_seconds": 475.07
+            }
+          ]
+        }
+      },
+      "human_decision": "pending",
+      "final_status": "pending_entry",
+      "used_for_training": false,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "Introduce the CEDRIC project and its objectives.",
+          "status": "fail"
+        },
+        {
+          "task_index": 1,
+          "task_text": "Discuss the seminar topic and the background of Lucrezia Lamastra's research.",
+          "status": "fail"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "HPh23I-XZYg_subm1",
+      "sub_mission_title": "Theme: boundaries / concept / current",
+      "block_id": 1,
+      "time_start": 582.08,
+      "time_end": 584.08,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 1,
+          "task_text": "Discuss the seminar topic and the background of Lucrezia Lamastra's research.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "HPh23I-XZYg_subm2",
+      "sub_mission_title": "Theme: adaptation / addressing / between",
+      "block_id": 2,
+      "time_start": 909.38,
+      "time_end": 913.69,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 1,
+          "task_text": "Discuss the seminar topic and the background of Lucrezia Lamastra's research.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "HPh23I-XZYg_subm3",
+      "sub_mission_title": "Theme: agri-food / agriculture / broader",
+      "block_id": 3,
+      "time_start": 1257.62,
+      "time_end": 1264.62,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 1,
+          "task_text": "Discuss the seminar topic and the background of Lucrezia Lamastra's research.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "HPh23I-XZYg_subm4",
+      "sub_mission_title": "Theme: assessment / cycle / global",
+      "block_id": 4,
+      "time_start": 1499.84,
+      "time_end": 1504.84,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 1,
+          "task_text": "Discuss the seminar topic and the background of Lucrezia Lamastra's research.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "HPh23I-XZYg_subm5",
+      "sub_mission_title": "Theme: assessment / concept / cycle",
+      "block_id": 5,
+      "time_start": 2505.94,
+      "time_end": 2531.94,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 1,
+          "task_text": "Discuss the seminar topic and the background of Lucrezia Lamastra's research.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "HPh23I-XZYg_subm6",
+      "sub_mission_title": "Theme: assessing / framework / present",
+      "block_id": 6,
+      "time_start": 2609.94,
+      "time_end": 2626.94,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 1,
+          "task_text": "Discuss the seminar topic and the background of Lucrezia Lamastra's research.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "HPh23I-XZYg_subm7",
+      "sub_mission_title": "Theme: assessment / cycle / farm",
+      "block_id": 7,
+      "time_start": 3334.18,
+      "time_end": 3528.18,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 1,
+          "task_text": "Discuss the seminar topic and the background of Lucrezia Lamastra's research.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "HPh23I-XZYg_subm8",
+      "sub_mission_title": "Theme: carbon / addressing / farming",
+      "block_id": 8,
+      "time_start": 4184.89,
+      "time_end": 4185.89,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 1,
+          "task_text": "Discuss the seminar topic and the background of Lucrezia Lamastra's research.",
+          "status": "pass"
+        }
+      ]
+    }
+  ],
+  "mission_rollup": {
+    "num_sub_missions": 9,
+    "num_successful_entries": 8,
+    "all_successful": false
+  }
+}

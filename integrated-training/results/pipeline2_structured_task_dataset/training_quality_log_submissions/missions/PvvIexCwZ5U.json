@@ -1,0 +1,156 @@
+{
+  "mission_id": "PvvIexCwZ5U",
+  "mission_title": "Planting Herbs in Bio Cups Video",
+  "url": "https://www.youtube.com/watch?v=PvvIexCwZ5U",
+  "artifacts_present": {
+    "thread_logic": true,
+    "coherent_blocks_with_submissions": true,
+    "task_blueprint": true,
+    "coherence_report": true
+  },
+  "checks": {
+    "logical_check": {
+      "status": "fail",
+      "num_issues": 2,
+      "issue_type_counts": {
+        "conflicts": 1,
+        "needs_repair": 1
+      },
+      "sample_issues": [
+        {
+          "thread_index": 0,
+          "type": "conflicts",
+          "count": 1
+        },
+        {
+          "thread_index": 0,
+          "type": "needs_repair",
+          "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+        }
+      ]
+    },
+    "coherence_check": {
+      "status": "pass",
+      "num_issues": 0,
+      "issue_type_counts": {},
+      "sample_issues": []
+    }
+  },
+  "sub_missions": [
+    {
+      "sub_mission_id": "PvvIexCwZ5U_subm0",
+      "sub_mission_title": "Theme: basil / different / herbs",
+      "block_id": 0,
+      "time_start": 15.68,
+      "time_end": 44.08,
+      "issues_detected": true,
+      "checks": {
+        "logical_check": {
+          "status": "fail",
+          "num_issues": 2,
+          "issue_type_counts": {
+            "conflicts": 1,
+            "needs_repair": 1
+          },
+          "sample_issues": [
+            {
+              "thread_index": 0,
+              "type": "conflicts",
+              "count": 1
+            },
+            {
+              "thread_index": 0,
+              "type": "needs_repair",
+              "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+            }
+          ]
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "pending",
+      "final_status": "pending_entry",
+      "used_for_training": false,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the process of planting herbs using a gardening kit.",
+          "status": "fail"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "PvvIexCwZ5U_subm1",
+      "sub_mission_title": "Theme: item / candles / describe",
+      "block_id": 1,
+      "time_start": 83.9,
+      "time_end": 90.7,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 1,
+          "task_text": "Explain how the kit was repurposed and placed in the room.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "PvvIexCwZ5U_subm2",
+      "sub_mission_title": "Theme: growing / medium / bio",
+      "block_id": 2,
+      "time_start": 127.21,
+      "time_end": 215.08,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 2,
+          "task_text": "Discuss the instructions in the packaging and the process of preparing the bio cups.",
+          "status": "pass"
+        }
+      ]
+    }
+  ],
+  "mission_rollup": {
+    "num_sub_missions": 3,
+    "num_successful_entries": 2,
+    "all_successful": false
+  }
+}

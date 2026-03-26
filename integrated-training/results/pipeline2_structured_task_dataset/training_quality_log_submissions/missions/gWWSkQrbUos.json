@@ -1,0 +1,106 @@
+{
+  "mission_id": "gWWSkQrbUos",
+  "mission_title": "Optimal Straw Management Reduces Greenhouse Gases",
+  "url": "https://www.youtube.com/watch?v=gWWSkQrbUos",
+  "artifacts_present": {
+    "thread_logic": true,
+    "coherent_blocks_with_submissions": true,
+    "task_blueprint": true,
+    "coherence_report": true
+  },
+  "checks": {
+    "logical_check": {
+      "status": "pass",
+      "num_issues": 0,
+      "issue_type_counts": {},
+      "sample_issues": []
+    },
+    "coherence_check": {
+      "status": "pass",
+      "num_issues": 0,
+      "issue_type_counts": {},
+      "sample_issues": []
+    }
+  },
+  "sub_missions": [
+    {
+      "sub_mission_id": "gWWSkQrbUos_subm0",
+      "sub_mission_title": "Theme: straw / input / emissions",
+      "block_id": 0,
+      "time_start": 0.0,
+      "time_end": 38.4,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "Explain the benefits and potential pitfalls of straw input as a farming practice.",
+          "status": "pass"
+        },
+        {
+          "task_index": 1,
+          "task_text": "Detail the optimal combination of management practices to reduce greenhouse gas emissions.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "gWWSkQrbUos_subm1",
+      "sub_mission_title": "Theme: article / authors / crop",
+      "block_id": 1,
+      "time_start": 39.44,
+      "time_end": 52.08,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 1,
+          "task_text": "Detail the optimal combination of management practices to reduce greenhouse gas emissions.",
+          "status": "pass"
+        },
+        {
+          "task_index": 2,
+          "task_text": "Provide context for the information presented in the article.",
+          "status": "pass"
+        }
+      ]
+    }
+  ],
+  "mission_rollup": {
+    "num_sub_missions": 2,
+    "num_successful_entries": 2,
+    "all_successful": true
+  }
+}

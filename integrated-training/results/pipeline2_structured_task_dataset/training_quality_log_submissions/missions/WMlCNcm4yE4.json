@@ -1,0 +1,157 @@
+{
+  "mission_id": "WMlCNcm4yE4",
+  "mission_title": "Urban Agriculture in Portugal: Self-Consumption Focus Exposed",
+  "url": "https://www.youtube.com/watch?v=WMlCNcm4yE4",
+  "artifacts_present": {
+    "thread_logic": true,
+    "coherent_blocks_with_submissions": true,
+    "task_blueprint": true,
+    "coherence_report": true
+  },
+  "checks": {
+    "logical_check": {
+      "status": "fail",
+      "num_issues": 1,
+      "issue_type_counts": {
+        "needs_repair": 1
+      },
+      "sample_issues": [
+        {
+          "thread_index": 1,
+          "type": "needs_repair",
+          "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+        }
+      ]
+    },
+    "coherence_check": {
+      "status": "pass",
+      "num_issues": 0,
+      "issue_type_counts": {},
+      "sample_issues": []
+    }
+  },
+  "sub_missions": [
+    {
+      "sub_mission_id": "WMlCNcm4yE4_subm0",
+      "sub_mission_title": "Theme: urban / agriculture / about",
+      "block_id": 0,
+      "time_start": 0.0,
+      "time_end": 24.4,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the main points of the paper on urban agriculture in Portugal.",
+          "status": "pass"
+        },
+        {
+          "task_index": 1,
+          "task_text": "Explain the paper's conclusions and suggestions.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "WMlCNcm4yE4_subm1",
+      "sub_mission_title": "Theme: civil / collaborative / decision",
+      "block_id": 1,
+      "time_start": 30.0,
+      "time_end": 35.92,
+      "issues_detected": true,
+      "checks": {
+        "logical_check": {
+          "status": "fail",
+          "num_issues": 1,
+          "issue_type_counts": {
+            "needs_repair": 1
+          },
+          "sample_issues": [
+            {
+              "thread_index": 1,
+              "type": "needs_repair",
+              "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+            }
+          ]
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "pending",
+      "final_status": "pending_entry",
+      "used_for_training": false,
+      "tasks": [
+        {
+          "task_index": 2,
+          "task_text": "Highlight the importance of collaboration in the process.",
+          "status": "fail"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "WMlCNcm4yE4_subm2",
+      "sub_mission_title": "Theme: agriculture / broader / contribution",
+      "block_id": 2,
+      "time_start": 36.88,
+      "time_end": 42.32,
+      "issues_detected": true,
+      "checks": {
+        "logical_check": {
+          "status": "fail",
+          "num_issues": 1,
+          "issue_type_counts": {
+            "needs_repair": 1
+          },
+          "sample_issues": [
+            {
+              "thread_index": 1,
+              "type": "needs_repair",
+              "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+            }
+          ]
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "pending",
+      "final_status": "pending_entry",
+      "used_for_training": false,
+      "tasks": [
+        {
+          "task_index": 2,
+          "task_text": "Highlight the importance of collaboration in the process.",
+          "status": "fail"
+        }
+      ]
+    }
+  ],
+  "mission_rollup": {
+    "num_sub_missions": 3,
+    "num_successful_entries": 1,
+    "all_successful": false
+  }
+}

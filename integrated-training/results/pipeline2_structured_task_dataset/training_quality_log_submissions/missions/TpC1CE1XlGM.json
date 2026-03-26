@@ -1,0 +1,213 @@
+{
+  "mission_id": "TpC1CE1XlGM",
+  "mission_title": "D.I.S. Technicians Led Growth",
+  "url": "https://www.youtube.com/watch?v=TpC1CE1XlGM",
+  "artifacts_present": {
+    "thread_logic": true,
+    "coherent_blocks_with_submissions": true,
+    "task_blueprint": true,
+    "coherence_report": true
+  },
+  "checks": {
+    "logical_check": {
+      "status": "fail",
+      "num_issues": 1,
+      "issue_type_counts": {
+        "needs_repair": 1
+      },
+      "sample_issues": [
+        {
+          "thread_index": 2,
+          "type": "needs_repair",
+          "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+        }
+      ]
+    },
+    "coherence_check": {
+      "status": "pass",
+      "num_issues": 0,
+      "issue_type_counts": {},
+      "sample_issues": []
+    }
+  },
+  "sub_missions": [
+    {
+      "sub_mission_id": "TpC1CE1XlGM_subm0",
+      "sub_mission_title": "Theme: core / customer / honesty",
+      "block_id": 0,
+      "time_start": 9.82,
+      "time_end": 15.82,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 1,
+          "task_text": "Maintain honesty and principle-driven business practices.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "TpC1CE1XlGM_subm1",
+      "sub_mission_title": "Theme: business / emphasize / people-focused",
+      "block_id": 1,
+      "time_start": 15.82,
+      "time_end": 145.7,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 2,
+          "task_text": "Focus on technological advancements and customer satisfaction.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "TpC1CE1XlGM_subm2",
+      "sub_mission_title": "Theme: training / attend / ensure",
+      "block_id": 2,
+      "time_start": 22.06,
+      "time_end": 80.74,
+      "issues_detected": true,
+      "checks": {
+        "logical_check": {
+          "status": "fail",
+          "num_issues": 1,
+          "issue_type_counts": {
+            "needs_repair": 1
+          },
+          "sample_issues": [
+            {
+              "thread_index": 2,
+              "type": "needs_repair",
+              "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+            }
+          ]
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "pending",
+      "final_status": "pending_entry",
+      "used_for_training": false,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "Train and maintain a skilled workforce.",
+          "status": "fail"
+        },
+        {
+          "task_index": 1,
+          "task_text": "Maintain honesty and principle-driven business practices.",
+          "status": "fail"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "TpC1CE1XlGM_subm3",
+      "sub_mission_title": "Theme: all / areas / assess",
+      "block_id": 3,
+      "time_start": 90.61,
+      "time_end": 105.61,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 1,
+          "task_text": "Maintain honesty and principle-driven business practices.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "TpC1CE1XlGM_subm4",
+      "sub_mission_title": "Theme: equipment / focus / only",
+      "block_id": 4,
+      "time_start": 105.61,
+      "time_end": 110.61,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "Train and maintain a skilled workforce.",
+          "status": "pass"
+        }
+      ]
+    }
+  ],
+  "mission_rollup": {
+    "num_sub_missions": 5,
+    "num_successful_entries": 4,
+    "all_successful": false
+  }
+}

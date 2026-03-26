@@ -3,6 +3,8 @@
 This repository implements a structured pipeline that converts **timestamped video tasks** into a hierarchical **mission → sub‑mission → task → subtask** representation.  
 The goal is to enable **robot reasoning and LLM training** for long‑horizon tasks by ensuring logical consistency, coherent grouping, and validated execution plans.
 
+![Automated Pipeline](../../documents/images/pipeline_2.png)
+
 The pipeline processes timestamped instructions extracted from videos and produces:
 
 - logical reasoning structure
@@ -350,7 +352,6 @@ The pipeline generates several plots:
 These visualizations mirror the JSON outputs and assist in validating reasoning structure.
 
 ---
-
 # Expected Output Structure
 
 ```text
@@ -363,6 +364,31 @@ check_reports/
 training_quality_log_submissions/  
 plots/
 ```
+<<<<<<< HEAD
+=======
+## 🔹 Detailed Pipeline Visualization
+
+This figure illustrates the full Pipeline 2 workflow for transforming timestamped video tasks into a structured hierarchical dataset.
+
+### Key Processing Stages:
+- **Thread Segmentation** → group subtasks into reasoning threads  
+- **LLM Logical Analysis** → detect conflicts and ensure reasoning consistency  
+- **Semantic Categorization** → label subtasks (motion, perception, planning, narration)  
+- **Task Blueprint Generation** → produce ordered execution steps  
+- **Validation Checks** → ensure logical and coherence quality  
+- **Sub-mission Generation** → cluster tasks into thematic groups  
+
+
+![Automated Pipeline](../../documents/images/pipeline2_detailed.png)
+
+### Example:
+- Mission: Soil Fertility Testing Market  
+- Sub-mission: organic / advanced / agriculture  
+- Tasks:
+  - Discuss market growth  
+  - Explain applications  
+  - Identify challenges  
+>>>>>>> ae74360ab (Update pipeline 2 outputs)
 
 ---
 

@@ -1,0 +1,253 @@
+{
+  "mission_id": "UTGedfNuU48",
+  "mission_title": "Gardening Tips for Legumes and Beans",
+  "url": "https://www.youtube.com/watch?v=UTGedfNuU48",
+  "artifacts_present": {
+    "thread_logic": true,
+    "coherent_blocks_with_submissions": true,
+    "task_blueprint": true,
+    "coherence_report": true
+  },
+  "checks": {
+    "logical_check": {
+      "status": "fail",
+      "num_issues": 1,
+      "issue_type_counts": {
+        "needs_repair": 1
+      },
+      "sample_issues": [
+        {
+          "thread_index": 4,
+          "type": "needs_repair",
+          "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+        }
+      ]
+    },
+    "coherence_check": {
+      "status": "pass",
+      "num_issues": 0,
+      "issue_type_counts": {},
+      "sample_issues": []
+    }
+  },
+  "sub_missions": [
+    {
+      "sub_mission_id": "UTGedfNuU48_subm0",
+      "sub_mission_title": "Theme: mixture / garden / adding",
+      "block_id": 0,
+      "time_start": 44.99,
+      "time_end": 58.83,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the soil composition and its importance in legume cultivation.",
+          "status": "pass"
+        },
+        {
+          "task_index": 1,
+          "task_text": "Explain the specific mixed compost ingredients used in the garden.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "UTGedfNuU48_subm1",
+      "sub_mission_title": "Theme: legumes / method / newly",
+      "block_id": 1,
+      "time_start": 59.23,
+      "time_end": 63.57,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 2,
+          "task_text": "Showcase the watering technique for the freshly sown legume seeds.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "UTGedfNuU48_subm2",
+      "sub_mission_title": "Theme: advice / day / next",
+      "block_id": 2,
+      "time_start": 66.63,
+      "time_end": 71.43,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 2,
+          "task_text": "Showcase the watering technique for the freshly sown legume seeds.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "UTGedfNuU48_subm3",
+      "sub_mission_title": "Theme: growing / harvested / later",
+      "block_id": 3,
+      "time_start": 71.43,
+      "time_end": 78.09,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 3,
+          "task_text": "Demonstrate the care and expected growth of the legumes from the compost.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "UTGedfNuU48_subm4",
+      "sub_mission_title": "Theme: beans / harvesting / multiple",
+      "block_id": 4,
+      "time_start": 89.05,
+      "time_end": 111.48,
+      "issues_detected": true,
+      "checks": {
+        "logical_check": {
+          "status": "fail",
+          "num_issues": 1,
+          "issue_type_counts": {
+            "needs_repair": 1
+          },
+          "sample_issues": [
+            {
+              "thread_index": 4,
+              "type": "needs_repair",
+              "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+            }
+          ]
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "pending",
+      "final_status": "pending_entry",
+      "used_for_training": false,
+      "tasks": [
+        {
+          "task_index": 3,
+          "task_text": "Demonstrate the care and expected growth of the legumes from the compost.",
+          "status": "fail"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "UTGedfNuU48_subm5",
+      "sub_mission_title": "Theme: beans / developing / future",
+      "block_id": 5,
+      "time_start": 129.64,
+      "time_end": 131.96,
+      "issues_detected": true,
+      "checks": {
+        "logical_check": {
+          "status": "fail",
+          "num_issues": 1,
+          "issue_type_counts": {
+            "needs_repair": 1
+          },
+          "sample_issues": [
+            {
+              "thread_index": 4,
+              "type": "needs_repair",
+              "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+            }
+          ]
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "pending",
+      "final_status": "pending_entry",
+      "used_for_training": false,
+      "tasks": [
+        {
+          "task_index": 3,
+          "task_text": "Demonstrate the care and expected growth of the legumes from the compost.",
+          "status": "fail"
+        }
+      ]
+    }
+  ],
+  "mission_rollup": {
+    "num_sub_missions": 6,
+    "num_successful_entries": 4,
+    "all_successful": false
+  }
+}

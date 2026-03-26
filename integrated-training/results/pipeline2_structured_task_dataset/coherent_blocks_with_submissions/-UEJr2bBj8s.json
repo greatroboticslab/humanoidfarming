@@ -4,33 +4,33 @@
   "url": "https://www.youtube.com/watch?v=-UEJr2bBj8s",
   "params": {
     "use_links": true,
-    "max_time_span": 240.0,
+    "max_time_span": 180.0,
     "max_gap": 30.0,
-    "min_overlap": 0.03,
-    "narration_merge_overlap": 0.03,
+    "min_overlap": 0.06,
+    "narration_merge_overlap": 0.12,
     "max_block_units": 12,
-    "use_llm": false,
-    "model": null
+    "use_llm": true,
+    "model": "Qwen/Qwen2.5-7B-Instruct"
   },
   "debug": {
     "link_grouping": {
       "num_units": 8,
       "num_unit_edges": 5,
       "num_components": 3,
-      "num_blocks_after_caps": 3
+      "num_blocks_after_caps": 4
     }
   },
-  "num_blocks": 3,
+  "num_blocks": 4,
   "blocks": [
     {
       "block_id": 0,
       "time_start": 0.0,
-      "time_end": 192.16,
+      "time_end": 156.4,
       "dominant_category": "planning",
       "category_distribution": {
         "perception": 2,
         "narration": 2,
-        "planning": 2
+        "planning": 1
       },
       "units": [
         {
@@ -62,12 +62,6 @@
           "thread_index": 0,
           "group_id": 4,
           "category": "narration"
-        },
-        {
-          "unit_id": "th0_g5",
-          "thread_index": 0,
-          "group_id": 5,
-          "category": "planning"
         }
       ],
       "subtask_refs": [
@@ -94,10 +88,6 @@
         {
           "task_index": 1,
           "sub_index": 2
-        },
-        {
-          "task_index": 2,
-          "sub_index": 0
         }
       ],
       "block_preview_text": "Observe the rising costs of traditional irrigation methods like diesel and electricity. Note that solar irrigation systems offer a way to reduce operating costs. Highlight the simplicity of using solar panels to generate electricity for irrigation. Observe that solar irrigation systems do not produce emissions, making them a clean energy solution. Notice the alignment of solar irrigation with sustainable farming practices. Mention the reduction in greenhouse gas emissions through the use of sola",
@@ -105,11 +95,41 @@
       "sub_mission_title": "Theme: irrigation / solar / costs",
       "sub_mission_time": {
         "start": 0.0,
-        "end": 192.16
+        "end": 156.4
       }
     },
     {
       "block_id": 1,
+      "time_start": 156.4,
+      "time_end": 192.16,
+      "dominant_category": "planning",
+      "category_distribution": {
+        "planning": 1
+      },
+      "units": [
+        {
+          "unit_id": "th0_g5",
+          "thread_index": 0,
+          "group_id": 5,
+          "category": "planning"
+        }
+      ],
+      "subtask_refs": [
+        {
+          "task_index": 2,
+          "sub_index": 0
+        }
+      ],
+      "block_preview_text": "Observe that solar energy is free, leading to a significant drop in energy bills.",
+      "sub_mission_id": "-UEJr2bBj8s_subm1",
+      "sub_mission_title": "Theme: energy / bills / drop",
+      "sub_mission_time": {
+        "start": 156.4,
+        "end": 192.16
+      }
+    },
+    {
+      "block_id": 2,
       "time_start": 192.8,
       "time_end": 238.08,
       "dominant_category": "narration",
@@ -131,7 +151,7 @@
         }
       ],
       "block_preview_text": "Note the minimal maintenance required for solar irrigation systems.",
-      "sub_mission_id": "-UEJr2bBj8s_subm1",
+      "sub_mission_id": "-UEJr2bBj8s_subm2",
       "sub_mission_title": "Theme: irrigation / maintenance / minimal",
       "sub_mission_time": {
         "start": 192.8,
@@ -139,7 +159,7 @@
       }
     },
     {
-      "block_id": 2,
+      "block_id": 3,
       "time_start": 341.36,
       "time_end": 406.88,
       "dominant_category": "perception",
@@ -165,7 +185,7 @@
         }
       ],
       "block_preview_text": "Observe the cost savings of the Unadi pay-per-use service. Notice the benefits of the Solar Pump Irrigator's Cooperative Enterprise (SPICE).",
-      "sub_mission_id": "-UEJr2bBj8s_subm2",
+      "sub_mission_id": "-UEJr2bBj8s_subm3",
       "sub_mission_title": "Theme: benefits / cooperative / cost",
       "sub_mission_time": {
         "start": 341.36,
@@ -180,22 +200,29 @@
       "sub_mission_id": "-UEJr2bBj8s_subm0",
       "sub_mission_title": "Theme: irrigation / solar / costs",
       "time_start": 0.0,
-      "time_end": 192.16,
+      "time_end": 156.4,
       "block_id": 0
     },
     {
       "sub_mission_id": "-UEJr2bBj8s_subm1",
-      "sub_mission_title": "Theme: irrigation / maintenance / minimal",
-      "time_start": 192.8,
-      "time_end": 238.08,
+      "sub_mission_title": "Theme: energy / bills / drop",
+      "time_start": 156.4,
+      "time_end": 192.16,
       "block_id": 1
     },
     {
       "sub_mission_id": "-UEJr2bBj8s_subm2",
+      "sub_mission_title": "Theme: irrigation / maintenance / minimal",
+      "time_start": 192.8,
+      "time_end": 238.08,
+      "block_id": 2
+    },
+    {
+      "sub_mission_id": "-UEJr2bBj8s_subm3",
       "sub_mission_title": "Theme: benefits / cooperative / cost",
       "time_start": 341.36,
       "time_end": 406.88,
-      "block_id": 2
+      "block_id": 3
     }
   ]
 }

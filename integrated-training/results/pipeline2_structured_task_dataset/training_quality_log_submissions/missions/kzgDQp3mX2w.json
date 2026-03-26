@@ -1,0 +1,161 @@
+{
+  "mission_id": "kzgDQp3mX2w",
+  "mission_title": "Dawn of Agriculture: Rewriting Nature's Rules",
+  "url": "https://www.youtube.com/watch?v=kzgDQp3mX2w",
+  "artifacts_present": {
+    "thread_logic": true,
+    "coherent_blocks_with_submissions": true,
+    "task_blueprint": true,
+    "coherence_report": true
+  },
+  "checks": {
+    "logical_check": {
+      "status": "fail",
+      "num_issues": 1,
+      "issue_type_counts": {
+        "needs_repair": 1
+      },
+      "sample_issues": [
+        {
+          "thread_index": 0,
+          "type": "needs_repair",
+          "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+        }
+      ]
+    },
+    "coherence_check": {
+      "status": "fail",
+      "num_issues": 2,
+      "issue_type_counts": {
+        "block_time_span_too_large": 2
+      },
+      "sample_issues": [
+        {
+          "block_id": 0,
+          "type": "block_time_span_too_large",
+          "span_seconds": 307.4
+        },
+        {
+          "block_id": 1,
+          "type": "block_time_span_too_large",
+          "span_seconds": 302.49
+        }
+      ]
+    }
+  },
+  "sub_missions": [
+    {
+      "sub_mission_id": "kzgDQp3mX2w_subm0",
+      "sub_mission_title": "Theme: describe / exchange / impact",
+      "block_id": 0,
+      "time_start": 0.62,
+      "time_end": 308.02,
+      "issues_detected": true,
+      "checks": {
+        "logical_check": {
+          "status": "fail",
+          "num_issues": 1,
+          "issue_type_counts": {
+            "needs_repair": 1
+          },
+          "sample_issues": [
+            {
+              "thread_index": 0,
+              "type": "needs_repair",
+              "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+            }
+          ]
+        },
+        "coherence_check": {
+          "status": "fail",
+          "num_issues": 1,
+          "issue_type_counts": {
+            "block_time_span_too_large": 1
+          },
+          "sample_issues": [
+            {
+              "block_id": 0,
+              "type": "block_time_span_too_large",
+              "span_seconds": 307.4
+            }
+          ]
+        }
+      },
+      "human_decision": "pending",
+      "final_status": "pending_entry",
+      "used_for_training": false,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "Outline the historical shift from hunting and gathering to agricultural practices.",
+          "status": "fail"
+        },
+        {
+          "task_index": 1,
+          "task_text": "Describe the challenges and early agricultural innovations brought about by the Neolithic Revolution.",
+          "status": "fail"
+        },
+        {
+          "task_index": 2,
+          "task_text": "Explore the globalization of agriculture through the Columbian Exchange.",
+          "status": "fail"
+        },
+        {
+          "task_index": 3,
+          "task_text": "Describe the scientific advancements in agriculture during the 17th and 18th centuries.",
+          "status": "fail"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "kzgDQp3mX2w_subm1",
+      "sub_mission_title": "Theme: development / challenges / controversies",
+      "block_id": 1,
+      "time_start": 308.02,
+      "time_end": 610.51,
+      "issues_detected": true,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "fail",
+          "num_issues": 1,
+          "issue_type_counts": {
+            "block_time_span_too_large": 1
+          },
+          "sample_issues": [
+            {
+              "block_id": 1,
+              "type": "block_time_span_too_large",
+              "span_seconds": 302.49
+            }
+          ]
+        }
+      },
+      "human_decision": "pending",
+      "final_status": "pending_entry",
+      "used_for_training": false,
+      "tasks": [
+        {
+          "task_index": 4,
+          "task_text": "Explain the introduction of synthetic fertilizers through the Haber-Bosch process and its effects on modern agriculture.",
+          "status": "fail"
+        },
+        {
+          "task_index": 5,
+          "task_text": "Describe genetic engineering and its impact on agriculture.",
+          "status": "fail"
+        }
+      ]
+    }
+  ],
+  "mission_rollup": {
+    "num_sub_missions": 2,
+    "num_successful_entries": 0,
+    "all_successful": false
+  }
+}

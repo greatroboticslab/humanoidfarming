@@ -1,0 +1,389 @@
+{
+  "mission_id": "vAmglTjpDfw",
+  "mission_title": "Six Easy Vegetables for Beginners Gardening",
+  "url": "https://www.youtube.com/watch?v=vAmglTjpDfw",
+  "artifacts_present": {
+    "thread_logic": true,
+    "coherent_blocks_with_submissions": true,
+    "task_blueprint": true,
+    "coherence_report": true
+  },
+  "checks": {
+    "logical_check": {
+      "status": "fail",
+      "num_issues": 3,
+      "issue_type_counts": {
+        "needs_repair": 2,
+        "conflicts": 1
+      },
+      "sample_issues": [
+        {
+          "thread_index": 2,
+          "type": "conflicts",
+          "count": 1
+        },
+        {
+          "thread_index": 2,
+          "type": "needs_repair",
+          "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+        },
+        {
+          "thread_index": 4,
+          "type": "needs_repair",
+          "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+        }
+      ]
+    },
+    "coherence_check": {
+      "status": "pass",
+      "num_issues": 0,
+      "issue_type_counts": {},
+      "sample_issues": []
+    }
+  },
+  "sub_missions": [
+    {
+      "sub_mission_id": "vAmglTjpDfw_subm0",
+      "sub_mission_title": "Theme: apart / approximately / demonstrate",
+      "block_id": 0,
+      "time_start": 0.0,
+      "time_end": 16.48,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "Explain how to grow peas in a home garden.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "vAmglTjpDfw_subm1",
+      "sub_mission_title": "Theme: bamboo / before / cattle",
+      "block_id": 1,
+      "time_start": 26.8,
+      "time_end": 52.56,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "Explain how to grow peas in a home garden.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "vAmglTjpDfw_subm2",
+      "sub_mission_title": "Theme: placing / potatoes / them",
+      "block_id": 2,
+      "time_start": 83.64,
+      "time_end": 120.44,
+      "issues_detected": true,
+      "checks": {
+        "logical_check": {
+          "status": "fail",
+          "num_issues": 2,
+          "issue_type_counts": {
+            "conflicts": 1,
+            "needs_repair": 1
+          },
+          "sample_issues": [
+            {
+              "thread_index": 2,
+              "type": "conflicts",
+              "count": 1
+            },
+            {
+              "thread_index": 2,
+              "type": "needs_repair",
+              "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+            }
+          ]
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "pending",
+      "final_status": "pending_entry",
+      "used_for_training": false,
+      "tasks": [
+        {
+          "task_index": 1,
+          "task_text": "Describe the process for growing and harvesting potatoes.",
+          "status": "fail"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "vAmglTjpDfw_subm3",
+      "sub_mission_title": "Theme: fade / flowers / guide",
+      "block_id": 3,
+      "time_start": 123.96,
+      "time_end": 131.68,
+      "issues_detected": true,
+      "checks": {
+        "logical_check": {
+          "status": "fail",
+          "num_issues": 2,
+          "issue_type_counts": {
+            "conflicts": 1,
+            "needs_repair": 1
+          },
+          "sample_issues": [
+            {
+              "thread_index": 2,
+              "type": "conflicts",
+              "count": 1
+            },
+            {
+              "thread_index": 2,
+              "type": "needs_repair",
+              "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+            }
+          ]
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "pending",
+      "final_status": "pending_entry",
+      "used_for_training": false,
+      "tasks": [
+        {
+          "task_index": 1,
+          "task_text": "Describe the process for growing and harvesting potatoes.",
+          "status": "fail"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "vAmglTjpDfw_subm4",
+      "sub_mission_title": "Theme: lettuce / apart / how",
+      "block_id": 4,
+      "time_start": 152.64,
+      "time_end": 215.6,
+      "issues_detected": true,
+      "checks": {
+        "logical_check": {
+          "status": "fail",
+          "num_issues": 2,
+          "issue_type_counts": {
+            "conflicts": 1,
+            "needs_repair": 1
+          },
+          "sample_issues": [
+            {
+              "thread_index": 2,
+              "type": "conflicts",
+              "count": 1
+            },
+            {
+              "thread_index": 2,
+              "type": "needs_repair",
+              "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+            }
+          ]
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "pending",
+      "final_status": "pending_entry",
+      "used_for_training": false,
+      "tasks": [
+        {
+          "task_index": 2,
+          "task_text": "Provide instructions for growing lettuce.",
+          "status": "fail"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "vAmglTjpDfw_subm5",
+      "sub_mission_title": "Theme: choosing / different / latitudes",
+      "block_id": 5,
+      "time_start": 273.3,
+      "time_end": 286.72,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 3,
+          "task_text": "Explain the process of growing onions.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "vAmglTjpDfw_subm6",
+      "sub_mission_title": "Theme: them / how / onions",
+      "block_id": 6,
+      "time_start": 322.56,
+      "time_end": 366.08,
+      "issues_detected": true,
+      "checks": {
+        "logical_check": {
+          "status": "fail",
+          "num_issues": 1,
+          "issue_type_counts": {
+            "needs_repair": 1
+          },
+          "sample_issues": [
+            {
+              "thread_index": 4,
+              "type": "needs_repair",
+              "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+            }
+          ]
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "pending",
+      "final_status": "pending_entry",
+      "used_for_training": false,
+      "tasks": [
+        {
+          "task_index": 3,
+          "task_text": "Explain the process of growing onions.",
+          "status": "fail"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "vAmglTjpDfw_subm7",
+      "sub_mission_title": "Theme: ground / before / cloves",
+      "block_id": 7,
+      "time_start": 396.04,
+      "time_end": 416.0,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 4,
+          "task_text": "Present tips for growing garlic.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "vAmglTjpDfw_subm8",
+      "sub_mission_title": "Theme: bottom / brown / bulb",
+      "block_id": 8,
+      "time_start": 444.64,
+      "time_end": 456.2,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 4,
+          "task_text": "Present tips for growing garlic.",
+          "status": "pass"
+        }
+      ]
+    }
+  ],
+  "mission_rollup": {
+    "num_sub_missions": 9,
+    "num_successful_entries": 5,
+    "all_successful": false
+  }
+}

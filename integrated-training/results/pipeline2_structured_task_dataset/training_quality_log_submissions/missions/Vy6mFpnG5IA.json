@@ -1,0 +1,176 @@
+{
+  "mission_id": "Vy6mFpnG5IA",
+  "mission_title": "Dumping Chipper Shredder Compost",
+  "url": "https://www.youtube.com/watch?v=Vy6mFpnG5IA",
+  "artifacts_present": {
+    "thread_logic": true,
+    "coherent_blocks_with_submissions": true,
+    "task_blueprint": true,
+    "coherence_report": true
+  },
+  "checks": {
+    "logical_check": {
+      "status": "fail",
+      "num_issues": 1,
+      "issue_type_counts": {
+        "needs_repair": 1
+      },
+      "sample_issues": [
+        {
+          "thread_index": 0,
+          "type": "needs_repair",
+          "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+        }
+      ]
+    },
+    "coherence_check": {
+      "status": "pass",
+      "num_issues": 0,
+      "issue_type_counts": {},
+      "sample_issues": []
+    }
+  },
+  "sub_missions": [
+    {
+      "sub_mission_id": "Vy6mFpnG5IA_subm0",
+      "sub_mission_title": "Theme: chipper / freight / harbor",
+      "block_id": 0,
+      "time_start": 20.94,
+      "time_end": 23.94,
+      "issues_detected": true,
+      "checks": {
+        "logical_check": {
+          "status": "fail",
+          "num_issues": 1,
+          "issue_type_counts": {
+            "needs_repair": 1
+          },
+          "sample_issues": [
+            {
+              "thread_index": 0,
+              "type": "needs_repair",
+              "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+            }
+          ]
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "pending",
+      "final_status": "pending_entry",
+      "used_for_training": false,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the unboxing and initial setup of a chipper shredder.",
+          "status": "fail"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "Vy6mFpnG5IA_subm1",
+      "sub_mission_title": "Theme: camera / card / due",
+      "block_id": 1,
+      "time_start": 23.94,
+      "time_end": 64.15,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the unboxing and initial setup of a chipper shredder.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "Vy6mFpnG5IA_subm2",
+      "sub_mission_title": "Theme: bag / compost / dumped",
+      "block_id": 2,
+      "time_start": 326.94,
+      "time_end": 447.61,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 1,
+          "task_text": "Explain the process of adding compost to garden beds.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "Vy6mFpnG5IA_subm3",
+      "sub_mission_title": "Theme: beds / examine / lining",
+      "block_id": 3,
+      "time_start": 368.11,
+      "time_end": 393.47,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 1,
+          "task_text": "Explain the process of adding compost to garden beds.",
+          "status": "pass"
+        }
+      ]
+    }
+  ],
+  "mission_rollup": {
+    "num_sub_missions": 4,
+    "num_successful_entries": 3,
+    "all_successful": false
+  }
+}

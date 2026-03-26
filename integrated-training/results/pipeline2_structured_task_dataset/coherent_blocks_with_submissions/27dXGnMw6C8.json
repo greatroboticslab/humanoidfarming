@@ -4,23 +4,23 @@
   "url": "https://www.youtube.com/watch?v=27dXGnMw6C8",
   "params": {
     "use_links": true,
-    "max_time_span": 240.0,
+    "max_time_span": 180.0,
     "max_gap": 30.0,
-    "min_overlap": 0.03,
-    "narration_merge_overlap": 0.03,
+    "min_overlap": 0.06,
+    "narration_merge_overlap": 0.12,
     "max_block_units": 12,
-    "use_llm": false,
-    "model": null
+    "use_llm": true,
+    "model": "Qwen/Qwen2.5-7B-Instruct"
   },
   "debug": {
     "link_grouping": {
       "num_units": 12,
       "num_unit_edges": 5,
       "num_components": 7,
-      "num_blocks_after_caps": 7
+      "num_blocks_after_caps": 8
     }
   },
-  "num_blocks": 7,
+  "num_blocks": 10,
   "blocks": [
     {
       "block_id": 0,
@@ -55,11 +55,11 @@
     {
       "block_id": 1,
       "time_start": 22.48,
-      "time_end": 213.6,
-      "dominant_category": "planning",
+      "time_end": 156.76,
+      "dominant_category": "perception",
       "category_distribution": {
         "perception": 2,
-        "narration": 2
+        "narration": 1
       },
       "units": [
         {
@@ -79,12 +79,6 @@
           "thread_index": 1,
           "group_id": 2,
           "category": "perception"
-        },
-        {
-          "unit_id": "th1_g3",
-          "thread_index": 1,
-          "group_id": 3,
-          "category": "narration"
         }
       ],
       "subtask_refs": [
@@ -107,7 +101,33 @@
         {
           "task_index": 8,
           "sub_index": 0
-        },
+        }
+      ],
+      "block_preview_text": "Observe the MIT 15.5M1100PS Combine Harvester for its advanced grain harvesting capabilities. Note the New Holland CR 10.90 combined harvester for its efficiency and large grain tank capacity. Mention the John Deere 6R Tractor's versatile and advanced features for various farming tasks. Observe the Class Lexion 8900 for its high-performance grain harvesting and advanced technology. Observe the Agralan Muritz fertilizer spreader for its role in modern farming practices.",
+      "sub_mission_id": "27dXGnMw6C8_subm1",
+      "sub_mission_title": "Theme: advanced / grain / farming",
+      "sub_mission_time": {
+        "start": 22.48,
+        "end": 156.76
+      }
+    },
+    {
+      "block_id": 2,
+      "time_start": 156.76,
+      "time_end": 213.6,
+      "dominant_category": "narration",
+      "category_distribution": {
+        "narration": 1
+      },
+      "units": [
+        {
+          "unit_id": "th1_g3",
+          "thread_index": 1,
+          "group_id": 3,
+          "category": "narration"
+        }
+      ],
+      "subtask_refs": [
         {
           "task_index": 3,
           "sub_index": 1
@@ -117,22 +137,21 @@
           "sub_index": 0
         }
       ],
-      "block_preview_text": "Observe the MIT 15.5M1100PS Combine Harvester for its advanced grain harvesting capabilities. Note the New Holland CR 10.90 combined harvester for its efficiency and large grain tank capacity. Mention the John Deere 6R Tractor's versatile and advanced features for various farming tasks. Observe the Class Lexion 8900 for its high-performance grain harvesting and advanced technology. Observe the Agralan Muritz fertilizer spreader for its role in modern farming practices. Highlight the Amazon EDX 6",
-      "sub_mission_id": "27dXGnMw6C8_subm1",
-      "sub_mission_title": "Theme: advanced / grain / farming",
+      "block_preview_text": "Highlight the Amazon EDX 6000TC Seed Drill for efficient and precise seed placement. Note the N500C Air Drill's use of air pressure for efficient planting.",
+      "sub_mission_id": "27dXGnMw6C8_subm2",
+      "sub_mission_title": "Theme: air / drill / efficient",
       "sub_mission_time": {
-        "start": 22.48,
+        "start": 156.76,
         "end": 213.6
       }
     },
     {
-      "block_id": 2,
+      "block_id": 3,
       "time_start": 251.2,
-      "time_end": 316.36,
-      "dominant_category": "planning",
+      "time_end": 272.8,
+      "dominant_category": "perception",
       "category_distribution": {
-        "perception": 1,
-        "narration": 1
+        "perception": 1
       },
       "units": [
         {
@@ -140,7 +159,31 @@
           "thread_index": 2,
           "group_id": 0,
           "category": "perception"
-        },
+        }
+      ],
+      "subtask_refs": [
+        {
+          "task_index": 5,
+          "sub_index": 0
+        }
+      ],
+      "block_preview_text": "Observe the chisel plow for breaking up compacted layers and improving soil aeration.",
+      "sub_mission_id": "27dXGnMw6C8_subm3",
+      "sub_mission_title": "Theme: aeration / breaking / chisel",
+      "sub_mission_time": {
+        "start": 251.2,
+        "end": 272.8
+      }
+    },
+    {
+      "block_id": 4,
+      "time_start": 290.2,
+      "time_end": 316.36,
+      "dominant_category": "narration",
+      "category_distribution": {
+        "narration": 1
+      },
+      "units": [
         {
           "unit_id": "th2_g1",
           "thread_index": 2,
@@ -150,10 +193,6 @@
       ],
       "subtask_refs": [
         {
-          "task_index": 5,
-          "sub_index": 0
-        },
-        {
           "task_index": 7,
           "sub_index": 1
         },
@@ -162,22 +201,21 @@
           "sub_index": 1
         }
       ],
-      "block_preview_text": "Observe the chisel plow for breaking up compacted layers and improving soil aeration. Mention the Boom Sprayers for precise and efficient pesticide application. Mention the SAF SMFAB Lister tractor for land preparation and planting.",
-      "sub_mission_id": "27dXGnMw6C8_subm2",
-      "sub_mission_title": "Theme: aeration / application / boom",
+      "block_preview_text": "Mention the Boom Sprayers for precise and efficient pesticide application. Mention the SAF SMFAB Lister tractor for land preparation and planting.",
+      "sub_mission_id": "27dXGnMw6C8_subm4",
+      "sub_mission_title": "Theme: application / boom / efficient",
       "sub_mission_time": {
-        "start": 251.2,
+        "start": 290.2,
         "end": 316.36
       }
     },
     {
-      "block_id": 3,
+      "block_id": 5,
       "time_start": 324.08,
-      "time_end": 424.8,
-      "dominant_category": "planning",
+      "time_end": 350.16,
+      "dominant_category": "perception",
       "category_distribution": {
-        "perception": 1,
-        "narration": 1
+        "perception": 1
       },
       "units": [
         {
@@ -185,7 +223,31 @@
           "thread_index": 3,
           "group_id": 0,
           "category": "perception"
-        },
+        }
+      ],
+      "subtask_refs": [
+        {
+          "task_index": 5,
+          "sub_index": 2
+        }
+      ],
+      "block_preview_text": "Observe the Amazon EDX 6000TC Seed Drill's capability to evenly distribute fertilizers.",
+      "sub_mission_id": "27dXGnMw6C8_subm5",
+      "sub_mission_title": "Theme: amazon / capability / distribute",
+      "sub_mission_time": {
+        "start": 324.08,
+        "end": 350.16
+      }
+    },
+    {
+      "block_id": 6,
+      "time_start": 362.08,
+      "time_end": 424.8,
+      "dominant_category": "narration",
+      "category_distribution": {
+        "narration": 1
+      },
+      "units": [
         {
           "unit_id": "th3_g1",
           "thread_index": 3,
@@ -196,10 +258,6 @@
       "subtask_refs": [
         {
           "task_index": 5,
-          "sub_index": 2
-        },
-        {
-          "task_index": 5,
           "sub_index": 3
         },
         {
@@ -207,16 +265,16 @@
           "sub_index": 0
         }
       ],
-      "block_preview_text": "Observe the Amazon EDX 6000TC Seed Drill's capability to evenly distribute fertilizers. Highlight the John Deere Rotary Tiller's role in preparing soil by breaking it into smaller particles. Examine the New Holland T8 Tractor's advanced technology and features for optimal performance.",
-      "sub_mission_id": "27dXGnMw6C8_subm3",
-      "sub_mission_title": "Theme: advanced / amazon / breaking",
+      "block_preview_text": "Highlight the John Deere Rotary Tiller's role in preparing soil by breaking it into smaller particles. Examine the New Holland T8 Tractor's advanced technology and features for optimal performance.",
+      "sub_mission_id": "27dXGnMw6C8_subm6",
+      "sub_mission_title": "Theme: advanced / breaking / deere",
       "sub_mission_time": {
-        "start": 324.08,
+        "start": 362.08,
         "end": 424.8
       }
     },
     {
-      "block_id": 4,
+      "block_id": 7,
       "time_start": 484.68,
       "time_end": 515.8,
       "dominant_category": "perception",
@@ -238,7 +296,7 @@
         }
       ],
       "block_preview_text": "Observe the Jaguar 909TT Harvester for its powerful and efficient crop harvesting.",
-      "sub_mission_id": "27dXGnMw6C8_subm4",
+      "sub_mission_id": "27dXGnMw6C8_subm7",
       "sub_mission_title": "Theme: crop / efficient / harvester",
       "sub_mission_time": {
         "start": 484.68,
@@ -246,7 +304,7 @@
       }
     },
     {
-      "block_id": 5,
+      "block_id": 8,
       "time_start": 551.24,
       "time_end": 571.36,
       "dominant_category": "narration",
@@ -268,7 +326,7 @@
         }
       ],
       "block_preview_text": "Note the modern capabilities of the BCS America Rotary Tiller.",
-      "sub_mission_id": "27dXGnMw6C8_subm5",
+      "sub_mission_id": "27dXGnMw6C8_subm8",
       "sub_mission_title": "Theme: america / bcs / capabilities",
       "sub_mission_time": {
         "start": 551.24,
@@ -276,7 +334,7 @@
       }
     },
     {
-      "block_id": 6,
+      "block_id": 9,
       "time_start": 606.56,
       "time_end": 622.68,
       "dominant_category": "narration",
@@ -298,7 +356,7 @@
         }
       ],
       "block_preview_text": "Highlight the Kleese Lexion Harvester's state-of-the-art grain harvesting with advanced features.",
-      "sub_mission_id": "27dXGnMw6C8_subm6",
+      "sub_mission_id": "27dXGnMw6C8_subm9",
       "sub_mission_title": "Theme: advanced / features / grain",
       "sub_mission_time": {
         "start": 606.56,
@@ -320,43 +378,64 @@
       "sub_mission_id": "27dXGnMw6C8_subm1",
       "sub_mission_title": "Theme: advanced / grain / farming",
       "time_start": 22.48,
-      "time_end": 213.6,
+      "time_end": 156.76,
       "block_id": 1
     },
     {
       "sub_mission_id": "27dXGnMw6C8_subm2",
-      "sub_mission_title": "Theme: aeration / application / boom",
-      "time_start": 251.2,
-      "time_end": 316.36,
+      "sub_mission_title": "Theme: air / drill / efficient",
+      "time_start": 156.76,
+      "time_end": 213.6,
       "block_id": 2
     },
     {
       "sub_mission_id": "27dXGnMw6C8_subm3",
-      "sub_mission_title": "Theme: advanced / amazon / breaking",
-      "time_start": 324.08,
-      "time_end": 424.8,
+      "sub_mission_title": "Theme: aeration / breaking / chisel",
+      "time_start": 251.2,
+      "time_end": 272.8,
       "block_id": 3
     },
     {
       "sub_mission_id": "27dXGnMw6C8_subm4",
-      "sub_mission_title": "Theme: crop / efficient / harvester",
-      "time_start": 484.68,
-      "time_end": 515.8,
+      "sub_mission_title": "Theme: application / boom / efficient",
+      "time_start": 290.2,
+      "time_end": 316.36,
       "block_id": 4
     },
     {
       "sub_mission_id": "27dXGnMw6C8_subm5",
-      "sub_mission_title": "Theme: america / bcs / capabilities",
-      "time_start": 551.24,
-      "time_end": 571.36,
+      "sub_mission_title": "Theme: amazon / capability / distribute",
+      "time_start": 324.08,
+      "time_end": 350.16,
       "block_id": 5
     },
     {
       "sub_mission_id": "27dXGnMw6C8_subm6",
+      "sub_mission_title": "Theme: advanced / breaking / deere",
+      "time_start": 362.08,
+      "time_end": 424.8,
+      "block_id": 6
+    },
+    {
+      "sub_mission_id": "27dXGnMw6C8_subm7",
+      "sub_mission_title": "Theme: crop / efficient / harvester",
+      "time_start": 484.68,
+      "time_end": 515.8,
+      "block_id": 7
+    },
+    {
+      "sub_mission_id": "27dXGnMw6C8_subm8",
+      "sub_mission_title": "Theme: america / bcs / capabilities",
+      "time_start": 551.24,
+      "time_end": 571.36,
+      "block_id": 8
+    },
+    {
+      "sub_mission_id": "27dXGnMw6C8_subm9",
       "sub_mission_title": "Theme: advanced / features / grain",
       "time_start": 606.56,
       "time_end": 622.68,
-      "block_id": 6
+      "block_id": 9
     }
   ]
 }

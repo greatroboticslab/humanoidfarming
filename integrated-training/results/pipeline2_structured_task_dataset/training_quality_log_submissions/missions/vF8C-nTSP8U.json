@@ -1,0 +1,208 @@
+{
+  "mission_id": "vF8C-nTSP8U",
+  "mission_title": "Selecting Healthy Tomato Plants for Gardening",
+  "url": "https://www.youtube.com/watch?v=vF8C-nTSP8U",
+  "artifacts_present": {
+    "thread_logic": true,
+    "coherent_blocks_with_submissions": true,
+    "task_blueprint": true,
+    "coherence_report": true
+  },
+  "checks": {
+    "logical_check": {
+      "status": "fail",
+      "num_issues": 1,
+      "issue_type_counts": {
+        "needs_repair": 1
+      },
+      "sample_issues": [
+        {
+          "thread_index": 0,
+          "type": "needs_repair",
+          "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+        }
+      ]
+    },
+    "coherence_check": {
+      "status": "pass",
+      "num_issues": 0,
+      "issue_type_counts": {},
+      "sample_issues": []
+    }
+  },
+  "sub_missions": [
+    {
+      "sub_mission_id": "vF8C-nTSP8U_subm0",
+      "sub_mission_title": "Theme: plant / gardens / health",
+      "block_id": 0,
+      "time_start": 0.0,
+      "time_end": 25.59,
+      "issues_detected": true,
+      "checks": {
+        "logical_check": {
+          "status": "fail",
+          "num_issues": 1,
+          "issue_type_counts": {
+            "needs_repair": 1
+          },
+          "sample_issues": [
+            {
+              "thread_index": 0,
+              "type": "needs_repair",
+              "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+            }
+          ]
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "pending",
+      "final_status": "pending_entry",
+      "used_for_training": false,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "Provide guidance on selecting tomato plants for Wyoming gardens.",
+          "status": "fail"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "vF8C-nTSP8U_subm1",
+      "sub_mission_title": "Theme: any / branches / broken",
+      "block_id": 1,
+      "time_start": 25.59,
+      "time_end": 36.47,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "Provide guidance on selecting tomato plants for Wyoming gardens.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "vF8C-nTSP8U_subm2",
+      "sub_mission_title": "Theme: plant / planting / pot",
+      "block_id": 2,
+      "time_start": 48.15,
+      "time_end": 59.51,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 1,
+          "task_text": "Explain the proper method for transplanting tomato plants.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "vF8C-nTSP8U_subm3",
+      "sub_mission_title": "Theme: blossoms / plants / preference",
+      "block_id": 3,
+      "time_start": 59.51,
+      "time_end": 65.67,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 2,
+          "task_text": "Discuss the characteristics of tomato plants that are preferred by many.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "vF8C-nTSP8U_subm4",
+      "sub_mission_title": "Theme: big / consideration / larger",
+      "block_id": 4,
+      "time_start": 69.55,
+      "time_end": 79.55,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 2,
+          "task_text": "Discuss the characteristics of tomato plants that are preferred by many.",
+          "status": "pass"
+        }
+      ]
+    }
+  ],
+  "mission_rollup": {
+    "num_sub_missions": 5,
+    "num_successful_entries": 4,
+    "all_successful": false
+  }
+}

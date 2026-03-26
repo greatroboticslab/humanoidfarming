@@ -25,9 +25,41 @@
   "sub_missions": [
     {
       "sub_mission_id": "1b5PtnY6t6k_subm0",
-      "sub_mission_title": "Theme: black / greens / about",
+      "sub_mission_title": "Theme: black / allows / continuous",
       "block_id": 0,
       "time_start": 0.0,
+      "time_end": 3.68,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the process of growing and maintaining leafy greens in a pot.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "1b5PtnY6t6k_subm1",
+      "sub_mission_title": "Theme: about / greens / black",
+      "block_id": 1,
+      "time_start": 3.68,
       "time_end": 7.2,
       "issues_detected": false,
       "checks": {
@@ -57,8 +89,8 @@
     }
   ],
   "mission_rollup": {
-    "num_sub_missions": 1,
-    "num_successful_entries": 1,
+    "num_sub_missions": 2,
+    "num_successful_entries": 2,
     "all_successful": true
   }
 }

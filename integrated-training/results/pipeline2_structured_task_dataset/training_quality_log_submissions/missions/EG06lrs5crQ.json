@@ -1,0 +1,371 @@
+{
+  "mission_id": "EG06lrs5crQ",
+  "mission_title": "Farm Animals and Their Names Explained",
+  "url": "https://www.youtube.com/watch?v=EG06lrs5crQ",
+  "artifacts_present": {
+    "thread_logic": true,
+    "coherent_blocks_with_submissions": true,
+    "task_blueprint": true,
+    "coherence_report": true
+  },
+  "checks": {
+    "logical_check": {
+      "status": "fail",
+      "num_issues": 3,
+      "issue_type_counts": {
+        "needs_repair": 2,
+        "conflicts": 1
+      },
+      "sample_issues": [
+        {
+          "thread_index": 0,
+          "type": "needs_repair",
+          "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+        },
+        {
+          "thread_index": 4,
+          "type": "conflicts",
+          "count": 1
+        },
+        {
+          "thread_index": 4,
+          "type": "needs_repair",
+          "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+        }
+      ]
+    },
+    "coherence_check": {
+      "status": "pass",
+      "num_issues": 0,
+      "issue_type_counts": {},
+      "sample_issues": []
+    }
+  },
+  "sub_missions": [
+    {
+      "sub_mission_id": "EG06lrs5crQ_subm0",
+      "sub_mission_title": "Theme: cows / jersey / milk",
+      "block_id": 0,
+      "time_start": 14.5,
+      "time_end": 26.84,
+      "issues_detected": true,
+      "checks": {
+        "logical_check": {
+          "status": "fail",
+          "num_issues": 1,
+          "issue_type_counts": {
+            "needs_repair": 1
+          },
+          "sample_issues": [
+            {
+              "thread_index": 0,
+              "type": "needs_repair",
+              "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+            }
+          ]
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "pending",
+      "final_status": "pending_entry",
+      "used_for_training": false,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the different types of cows on a farm.",
+          "status": "fail"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "EG06lrs5crQ_subm1",
+      "sub_mission_title": "Theme: boar / called / male",
+      "block_id": 1,
+      "time_start": 74.6,
+      "time_end": 80.4,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 1,
+          "task_text": "Explain the life cycle and terminology for piglets and their care.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "EG06lrs5crQ_subm2",
+      "sub_mission_title": "Theme: cool / describe / how",
+      "block_id": 2,
+      "time_start": 82.0,
+      "time_end": 88.4,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 1,
+          "task_text": "Explain the life cycle and terminology for piglets and their care.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "EG06lrs5crQ_subm3",
+      "sub_mission_title": "Theme: goat / milk / billy",
+      "block_id": 3,
+      "time_start": 126.04,
+      "time_end": 142.46,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 2,
+          "task_text": "Describe goats and their farm uses.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "EG06lrs5crQ_subm4",
+      "sub_mission_title": "Theme: called / male / ram",
+      "block_id": 4,
+      "time_start": 282.87,
+      "time_end": 284.87,
+      "issues_detected": true,
+      "checks": {
+        "logical_check": {
+          "status": "fail",
+          "num_issues": 2,
+          "issue_type_counts": {
+            "conflicts": 1,
+            "needs_repair": 1
+          },
+          "sample_issues": [
+            {
+              "thread_index": 4,
+              "type": "conflicts",
+              "count": 1
+            },
+            {
+              "thread_index": 4,
+              "type": "needs_repair",
+              "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+            }
+          ]
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "pending",
+      "final_status": "pending_entry",
+      "used_for_training": false,
+      "tasks": [
+        {
+          "task_index": 3,
+          "task_text": "Describe the care and farming of sheep.",
+          "status": "fail"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "EG06lrs5crQ_subm5",
+      "sub_mission_title": "Theme: clipped / cool / keep",
+      "block_id": 5,
+      "time_start": 285.39,
+      "time_end": 290.75,
+      "issues_detected": true,
+      "checks": {
+        "logical_check": {
+          "status": "fail",
+          "num_issues": 2,
+          "issue_type_counts": {
+            "conflicts": 1,
+            "needs_repair": 1
+          },
+          "sample_issues": [
+            {
+              "thread_index": 4,
+              "type": "conflicts",
+              "count": 1
+            },
+            {
+              "thread_index": 4,
+              "type": "needs_repair",
+              "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+            }
+          ]
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "pending",
+      "final_status": "pending_entry",
+      "used_for_training": false,
+      "tasks": [
+        {
+          "task_index": 3,
+          "task_text": "Describe the care and farming of sheep.",
+          "status": "fail"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "EG06lrs5crQ_subm6",
+      "sub_mission_title": "Theme: color / grazing / horses",
+      "block_id": 6,
+      "time_start": 294.91,
+      "time_end": 300.87,
+      "issues_detected": true,
+      "checks": {
+        "logical_check": {
+          "status": "fail",
+          "num_issues": 2,
+          "issue_type_counts": {
+            "conflicts": 1,
+            "needs_repair": 1
+          },
+          "sample_issues": [
+            {
+              "thread_index": 4,
+              "type": "conflicts",
+              "count": 1
+            },
+            {
+              "thread_index": 4,
+              "type": "needs_repair",
+              "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+            }
+          ]
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "pending",
+      "final_status": "pending_entry",
+      "used_for_training": false,
+      "tasks": [
+        {
+          "task_index": 4,
+          "task_text": "Describe farm animals in the context of horse care and riding.",
+          "status": "fail"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "EG06lrs5crQ_subm7",
+      "sub_mission_title": "Theme: barn / care / describe",
+      "block_id": 7,
+      "time_start": 319.79,
+      "time_end": 325.71,
+      "issues_detected": true,
+      "checks": {
+        "logical_check": {
+          "status": "fail",
+          "num_issues": 2,
+          "issue_type_counts": {
+            "conflicts": 1,
+            "needs_repair": 1
+          },
+          "sample_issues": [
+            {
+              "thread_index": 4,
+              "type": "conflicts",
+              "count": 1
+            },
+            {
+              "thread_index": 4,
+              "type": "needs_repair",
+              "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+            }
+          ]
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "pending",
+      "final_status": "pending_entry",
+      "used_for_training": false,
+      "tasks": [
+        {
+          "task_index": 4,
+          "task_text": "Describe farm animals in the context of horse care and riding.",
+          "status": "fail"
+        }
+      ]
+    }
+  ],
+  "mission_rollup": {
+    "num_sub_missions": 8,
+    "num_successful_entries": 3,
+    "all_successful": false
+  }
+}

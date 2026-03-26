@@ -65,10 +65,10 @@
     },
     {
       "sub_mission_id": "-VsvDZOKPM8_subm1",
-      "sub_mission_title": "Theme: agricultural / attitude / barry",
+      "sub_mission_title": "Theme: barry / encouragement / farmers",
       "block_id": 1,
       "time_start": 23.8,
-      "time_end": 59.16,
+      "time_end": 40.92,
       "issues_detected": true,
       "checks": {
         "logical_check": {
@@ -100,7 +100,42 @@
           "task_index": 1,
           "task_text": "Discuss the importance of knowledge sharing and networking among farmers.",
           "status": "fail"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "-VsvDZOKPM8_subm2",
+      "sub_mission_title": "Theme: agricultural / attitude / critical",
+      "block_id": 2,
+      "time_start": 40.92,
+      "time_end": 59.16,
+      "issues_detected": true,
+      "checks": {
+        "logical_check": {
+          "status": "fail",
+          "num_issues": 1,
+          "issue_type_counts": {
+            "needs_repair": 1
+          },
+          "sample_issues": [
+            {
+              "thread_index": 1,
+              "type": "needs_repair",
+              "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+            }
+          ]
         },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "pending",
+      "final_status": "pending_entry",
+      "used_for_training": false,
+      "tasks": [
         {
           "task_index": 2,
           "task_text": "Highlight the role of education and attitude in achieving success.",
@@ -109,9 +144,9 @@
       ]
     },
     {
-      "sub_mission_id": "-VsvDZOKPM8_subm2",
+      "sub_mission_id": "-VsvDZOKPM8_subm3",
       "sub_mission_title": "Theme: advantage / ambassador / chen",
-      "block_id": 2,
+      "block_id": 3,
       "time_start": 84.64,
       "time_end": 126.68,
       "issues_detected": false,
@@ -141,9 +176,9 @@
       ]
     },
     {
-      "sub_mission_id": "-VsvDZOKPM8_subm3",
+      "sub_mission_id": "-VsvDZOKPM8_subm4",
       "sub_mission_title": "Theme: certified / farmers / have",
-      "block_id": 3,
+      "block_id": 4,
       "time_start": 126.88,
       "time_end": 138.16,
       "issues_detected": false,
@@ -174,7 +209,7 @@
     }
   ],
   "mission_rollup": {
-    "num_sub_missions": 4,
+    "num_sub_missions": 5,
     "num_successful_entries": 3,
     "all_successful": false
   }

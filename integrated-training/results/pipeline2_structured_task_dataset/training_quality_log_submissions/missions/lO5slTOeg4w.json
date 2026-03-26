@@ -1,0 +1,162 @@
+{
+  "mission_id": "lO5slTOeg4w",
+  "mission_title": "Variable Retention Harvest Explained",
+  "url": "https://www.youtube.com/watch?v=lO5slTOeg4w",
+  "artifacts_present": {
+    "thread_logic": true,
+    "coherent_blocks_with_submissions": true,
+    "task_blueprint": true,
+    "coherence_report": true
+  },
+  "checks": {
+    "logical_check": {
+      "status": "fail",
+      "num_issues": 1,
+      "issue_type_counts": {
+        "needs_repair": 1
+      },
+      "sample_issues": [
+        {
+          "thread_index": 0,
+          "type": "needs_repair",
+          "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+        }
+      ]
+    },
+    "coherence_check": {
+      "status": "pass",
+      "num_issues": 0,
+      "issue_type_counts": {},
+      "sample_issues": []
+    }
+  },
+  "sub_missions": [
+    {
+      "sub_mission_id": "lO5slTOeg4w_subm0",
+      "sub_mission_title": "Theme: creation / diverse / forest",
+      "block_id": 0,
+      "time_start": 4.66,
+      "time_end": 15.66,
+      "issues_detected": true,
+      "checks": {
+        "logical_check": {
+          "status": "fail",
+          "num_issues": 1,
+          "issue_type_counts": {
+            "needs_repair": 1
+          },
+          "sample_issues": [
+            {
+              "thread_index": 0,
+              "type": "needs_repair",
+              "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+            }
+          ]
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "pending",
+      "final_status": "pending_entry",
+      "used_for_training": false,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the variable retention harvest method and its ecological benefits.",
+          "status": "fail"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "lO5slTOeg4w_subm1",
+      "sub_mission_title": "Theme: habitat / retention / variable",
+      "block_id": 1,
+      "time_start": 15.66,
+      "time_end": 85.32,
+      "issues_detected": true,
+      "checks": {
+        "logical_check": {
+          "status": "fail",
+          "num_issues": 1,
+          "issue_type_counts": {
+            "needs_repair": 1
+          },
+          "sample_issues": [
+            {
+              "thread_index": 0,
+              "type": "needs_repair",
+              "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+            }
+          ]
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "pending",
+      "final_status": "pending_entry",
+      "used_for_training": false,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the variable retention harvest method and its ecological benefits.",
+          "status": "fail"
+        },
+        {
+          "task_index": 1,
+          "task_text": "Illustrate how variable retention harvest imitates natural disturbances to benefit species diversity.",
+          "status": "fail"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "lO5slTOeg4w_subm2",
+      "sub_mission_title": "Theme: behind / left / systems",
+      "block_id": 2,
+      "time_start": 118.32,
+      "time_end": 147.32,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the variable retention harvest method and its ecological benefits.",
+          "status": "pass"
+        },
+        {
+          "task_index": 1,
+          "task_text": "Illustrate how variable retention harvest imitates natural disturbances to benefit species diversity.",
+          "status": "pass"
+        }
+      ]
+    }
+  ],
+  "mission_rollup": {
+    "num_sub_missions": 3,
+    "num_successful_entries": 1,
+    "all_successful": false
+  }
+}

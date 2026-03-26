@@ -1,0 +1,149 @@
+{
+  "mission_id": "VA6wnnZcsig",
+  "mission_title": "Tips for Growing Perfect Corn Ears in Your Garden 1",
+  "url": "https://www.youtube.com/watch?v=VA6wnnZcsig",
+  "artifacts_present": {
+    "thread_logic": true,
+    "coherent_blocks_with_submissions": true,
+    "task_blueprint": true,
+    "coherence_report": true
+  },
+  "checks": {
+    "logical_check": {
+      "status": "fail",
+      "num_issues": 1,
+      "issue_type_counts": {
+        "needs_repair": 1
+      },
+      "sample_issues": [
+        {
+          "thread_index": 0,
+          "type": "needs_repair",
+          "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+        }
+      ]
+    },
+    "coherence_check": {
+      "status": "pass",
+      "num_issues": 0,
+      "issue_type_counts": {},
+      "sample_issues": []
+    }
+  },
+  "sub_missions": [
+    {
+      "sub_mission_id": "VA6wnnZcsig_subm0",
+      "sub_mission_title": "Theme: corn / plants / apply",
+      "block_id": 0,
+      "time_start": 107.36,
+      "time_end": 205.12,
+      "issues_detected": true,
+      "checks": {
+        "logical_check": {
+          "status": "fail",
+          "num_issues": 1,
+          "issue_type_counts": {
+            "needs_repair": 1
+          },
+          "sample_issues": [
+            {
+              "thread_index": 0,
+              "type": "needs_repair",
+              "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+            }
+          ]
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "pending",
+      "final_status": "pending_entry",
+      "used_for_training": false,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "Implement effective water retention methods for corn plants.",
+          "status": "fail"
+        },
+        {
+          "task_index": 1,
+          "task_text": "Utilize drip irrigation to efficiently water corn plants.",
+          "status": "fail"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "VA6wnnZcsig_subm1",
+      "sub_mission_title": "Theme: corn / fertilizers / growth",
+      "block_id": 1,
+      "time_start": 239.92,
+      "time_end": 395.92,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 2,
+          "task_text": "Ensure adequate fertilization for corn plants.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "VA6wnnZcsig_subm2",
+      "sub_mission_title": "Theme: corn / ears / ensure",
+      "block_id": 2,
+      "time_start": 539.52,
+      "time_end": 624.8,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 3,
+          "task_text": "Ensure successful corn pollination.",
+          "status": "pass"
+        }
+      ]
+    }
+  ],
+  "mission_rollup": {
+    "num_sub_missions": 3,
+    "num_successful_entries": 2,
+    "all_successful": false
+  }
+}

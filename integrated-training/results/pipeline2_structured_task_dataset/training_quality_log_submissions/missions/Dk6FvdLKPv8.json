@@ -1,0 +1,149 @@
+{
+  "mission_id": "Dk6FvdLKPv8",
+  "mission_title": "Herbs for Pest Control and Garden Health",
+  "url": "https://www.youtube.com/watch?v=Dk6FvdLKPv8",
+  "artifacts_present": {
+    "thread_logic": true,
+    "coherent_blocks_with_submissions": true,
+    "task_blueprint": true,
+    "coherence_report": true
+  },
+  "checks": {
+    "logical_check": {
+      "status": "fail",
+      "num_issues": 1,
+      "issue_type_counts": {
+        "needs_repair": 1
+      },
+      "sample_issues": [
+        {
+          "thread_index": 1,
+          "type": "needs_repair",
+          "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+        }
+      ]
+    },
+    "coherence_check": {
+      "status": "pass",
+      "num_issues": 0,
+      "issue_type_counts": {},
+      "sample_issues": []
+    }
+  },
+  "sub_missions": [
+    {
+      "sub_mission_id": "Dk6FvdLKPv8_subm0",
+      "sub_mission_title": "Theme: alongside / can / deter",
+      "block_id": 0,
+      "time_start": 5.28,
+      "time_end": 15.6,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the concept of companion planting and how herbs can benefit gardens.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "Dk6FvdLKPv8_subm1",
+      "sub_mission_title": "Theme: basil / benefits / describe",
+      "block_id": 1,
+      "time_start": 80.16,
+      "time_end": 118.8,
+      "issues_detected": true,
+      "checks": {
+        "logical_check": {
+          "status": "fail",
+          "num_issues": 1,
+          "issue_type_counts": {
+            "needs_repair": 1
+          },
+          "sample_issues": [
+            {
+              "thread_index": 1,
+              "type": "needs_repair",
+              "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+            }
+          ]
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "pending",
+      "final_status": "pending_entry",
+      "used_for_training": false,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the concept of companion planting and how herbs can benefit gardens.",
+          "status": "fail"
+        },
+        {
+          "task_index": 1,
+          "task_text": "Provide examples of herb combinations that can enhance garden growth and flavor.",
+          "status": "fail"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "Dk6FvdLKPv8_subm2",
+      "sub_mission_title": "Theme: ask / combinations / comment",
+      "block_id": 2,
+      "time_start": 147.12,
+      "time_end": 156.24,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 2,
+          "task_text": "Encourage viewers to experiment with companion planting and share their favorite combinations.",
+          "status": "pass"
+        }
+      ]
+    }
+  ],
+  "mission_rollup": {
+    "num_sub_missions": 3,
+    "num_successful_entries": 2,
+    "all_successful": false
+  }
+}

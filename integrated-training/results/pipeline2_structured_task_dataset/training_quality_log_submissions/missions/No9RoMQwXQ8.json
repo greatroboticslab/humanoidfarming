@@ -1,0 +1,181 @@
+{
+  "mission_id": "No9RoMQwXQ8",
+  "mission_title": "Drilling Corn Rows with Drip Irrigation Setup",
+  "url": "https://www.youtube.com/watch?v=No9RoMQwXQ8",
+  "artifacts_present": {
+    "thread_logic": true,
+    "coherent_blocks_with_submissions": true,
+    "task_blueprint": true,
+    "coherence_report": true
+  },
+  "checks": {
+    "logical_check": {
+      "status": "fail",
+      "num_issues": 1,
+      "issue_type_counts": {
+        "needs_repair": 1
+      },
+      "sample_issues": [
+        {
+          "thread_index": 2,
+          "type": "needs_repair",
+          "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+        }
+      ]
+    },
+    "coherence_check": {
+      "status": "pass",
+      "num_issues": 0,
+      "issue_type_counts": {},
+      "sample_issues": []
+    }
+  },
+  "sub_missions": [
+    {
+      "sub_mission_id": "No9RoMQwXQ8_subm0",
+      "sub_mission_title": "Theme: corn / planting / use",
+      "block_id": 0,
+      "time_start": 0.0,
+      "time_end": 114.35,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the planting process of corn using drip irrigation.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "No9RoMQwXQ8_subm1",
+      "sub_mission_title": "Theme: describe / drip / laying",
+      "block_id": 1,
+      "time_start": 150.15,
+      "time_end": 211.74,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 1,
+          "task_text": "Explain the installation of drip irrigation system components.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "No9RoMQwXQ8_subm2",
+      "sub_mission_title": "Theme: demonstrate / drip / fittings",
+      "block_id": 2,
+      "time_start": 283.41,
+      "time_end": 382.32,
+      "issues_detected": true,
+      "checks": {
+        "logical_check": {
+          "status": "fail",
+          "num_issues": 1,
+          "issue_type_counts": {
+            "needs_repair": 1
+          },
+          "sample_issues": [
+            {
+              "thread_index": 2,
+              "type": "needs_repair",
+              "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+            }
+          ]
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "pending",
+      "final_status": "pending_entry",
+      "used_for_training": false,
+      "tasks": [
+        {
+          "task_index": 1,
+          "task_text": "Explain the installation of drip irrigation system components.",
+          "status": "fail"
+        },
+        {
+          "task_index": 2,
+          "task_text": "Detail the corn planting process using a garden seeder.",
+          "status": "fail"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "No9RoMQwXQ8_subm3",
+      "sub_mission_title": "Theme: complete / corn / drip",
+      "block_id": 3,
+      "time_start": 411.14,
+      "time_end": 467.25,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 2,
+          "task_text": "Detail the corn planting process using a garden seeder.",
+          "status": "pass"
+        }
+      ]
+    }
+  ],
+  "mission_rollup": {
+    "num_sub_missions": 4,
+    "num_successful_entries": 3,
+    "all_successful": false
+  }
+}

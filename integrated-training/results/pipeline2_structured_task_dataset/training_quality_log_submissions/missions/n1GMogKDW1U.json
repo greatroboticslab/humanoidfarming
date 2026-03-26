@@ -1,0 +1,176 @@
+{
+  "mission_id": "n1GMogKDW1U",
+  "mission_title": "Buying a Farm at 22: Our Journey Explained",
+  "url": "https://www.youtube.com/watch?v=n1GMogKDW1U",
+  "artifacts_present": {
+    "thread_logic": true,
+    "coherent_blocks_with_submissions": true,
+    "task_blueprint": true,
+    "coherence_report": true
+  },
+  "checks": {
+    "logical_check": {
+      "status": "fail",
+      "num_issues": 2,
+      "issue_type_counts": {
+        "conflicts": 1,
+        "needs_repair": 1
+      },
+      "sample_issues": [
+        {
+          "thread_index": 0,
+          "type": "conflicts",
+          "count": 1
+        },
+        {
+          "thread_index": 0,
+          "type": "needs_repair",
+          "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+        }
+      ]
+    },
+    "coherence_check": {
+      "status": "pass",
+      "num_issues": 0,
+      "issue_type_counts": {},
+      "sample_issues": []
+    }
+  },
+  "sub_missions": [
+    {
+      "sub_mission_id": "n1GMogKDW1U_subm0",
+      "sub_mission_title": "Theme: couple / money / save",
+      "block_id": 0,
+      "time_start": 207.18,
+      "time_end": 387.18,
+      "issues_detected": true,
+      "checks": {
+        "logical_check": {
+          "status": "fail",
+          "num_issues": 2,
+          "issue_type_counts": {
+            "conflicts": 1,
+            "needs_repair": 1
+          },
+          "sample_issues": [
+            {
+              "thread_index": 0,
+              "type": "conflicts",
+              "count": 1
+            },
+            {
+              "thread_index": 0,
+              "type": "needs_repair",
+              "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+            }
+          ]
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "pending",
+      "final_status": "pending_entry",
+      "used_for_training": false,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the process of saving and buying the farm.",
+          "status": "fail"
+        },
+        {
+          "task_index": 1,
+          "task_text": "Describe the decision-making process and steps involved in buying the farm.",
+          "status": "fail"
+        },
+        {
+          "task_index": 3,
+          "task_text": "Highlight the couple's journey towards a debt-free life and how it influenced their decisions.",
+          "status": "fail"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "n1GMogKDW1U_subm1",
+      "sub_mission_title": "Theme: affordability / concessions / couple",
+      "block_id": 1,
+      "time_start": 420.18,
+      "time_end": 481.18,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 1,
+          "task_text": "Describe the decision-making process and steps involved in buying the farm.",
+          "status": "pass"
+        },
+        {
+          "task_index": 2,
+          "task_text": "Provide advice and personal experiences related to living on a homestead.",
+          "status": "pass"
+        },
+        {
+          "task_index": 3,
+          "task_text": "Highlight the couple's journey towards a debt-free life and how it influenced their decisions.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "n1GMogKDW1U_subm2",
+      "sub_mission_title": "Theme: cutting / emphasize / expenses",
+      "block_id": 2,
+      "time_start": 625.18,
+      "time_end": 652.18,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 2,
+          "task_text": "Provide advice and personal experiences related to living on a homestead.",
+          "status": "pass"
+        }
+      ]
+    }
+  ],
+  "mission_rollup": {
+    "num_sub_missions": 3,
+    "num_successful_entries": 2,
+    "all_successful": false
+  }
+}

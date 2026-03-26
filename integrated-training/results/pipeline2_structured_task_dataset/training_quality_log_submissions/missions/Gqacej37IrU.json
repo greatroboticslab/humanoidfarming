@@ -1,0 +1,144 @@
+{
+  "mission_id": "Gqacej37IrU",
+  "mission_title": "How to Level a Bumpy Lawn Without Destructive Tools Slide Deck",
+  "url": "https://www.youtube.com/watch?v=Gqacej37IrU",
+  "artifacts_present": {
+    "thread_logic": true,
+    "coherent_blocks_with_submissions": true,
+    "task_blueprint": true,
+    "coherence_report": true
+  },
+  "checks": {
+    "logical_check": {
+      "status": "pass",
+      "num_issues": 0,
+      "issue_type_counts": {},
+      "sample_issues": []
+    },
+    "coherence_check": {
+      "status": "fail",
+      "num_issues": 1,
+      "issue_type_counts": {
+        "block_time_span_too_large": 1
+      },
+      "sample_issues": [
+        {
+          "block_id": 2,
+          "type": "block_time_span_too_large",
+          "span_seconds": 271.4
+        }
+      ]
+    }
+  },
+  "sub_missions": [
+    {
+      "sub_mission_id": "Gqacej37IrU_subm0",
+      "sub_mission_title": "Theme: blades / box / creating",
+      "block_id": 0,
+      "time_start": 47.64,
+      "time_end": 69.48,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the challenges of using box blades or land planes on sod.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "Gqacej37IrU_subm1",
+      "sub_mission_title": "Theme: break / efficiently / matter",
+      "block_id": 1,
+      "time_start": 121.28,
+      "time_end": 150.0,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "Describe the challenges of using box blades or land planes on sod.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "Gqacej37IrU_subm2",
+      "sub_mission_title": "Theme: using / process / seeding",
+      "block_id": 2,
+      "time_start": 210.52,
+      "time_end": 481.92,
+      "issues_detected": true,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "fail",
+          "num_issues": 1,
+          "issue_type_counts": {
+            "block_time_span_too_large": 1
+          },
+          "sample_issues": [
+            {
+              "block_id": 2,
+              "type": "block_time_span_too_large",
+              "span_seconds": 271.4
+            }
+          ]
+        }
+      },
+      "human_decision": "pending",
+      "final_status": "pending_entry",
+      "used_for_training": false,
+      "tasks": [
+        {
+          "task_index": 1,
+          "task_text": "Describe the final steps in preparing a bumpy area for seeding after using tillers.",
+          "status": "fail"
+        }
+      ]
+    }
+  ],
+  "mission_rollup": {
+    "num_sub_missions": 3,
+    "num_successful_entries": 2,
+    "all_successful": false
+  }
+}

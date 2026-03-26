@@ -68,7 +68,7 @@
       "sub_mission_title": "Theme: advanced / grain / farming",
       "block_id": 1,
       "time_start": 22.48,
-      "time_end": 213.6,
+      "time_end": 156.76,
       "issues_detected": true,
       "checks": {
         "logical_check": {
@@ -112,11 +112,6 @@
           "status": "fail"
         },
         {
-          "task_index": 7,
-          "task_text": "Showcase advanced application techniques for agricultural chemicals.",
-          "status": "fail"
-        },
-        {
           "task_index": 8,
           "task_text": "Present specialized equipment for soil preparation.",
           "status": "fail"
@@ -125,9 +120,86 @@
     },
     {
       "sub_mission_id": "27dXGnMw6C8_subm2",
-      "sub_mission_title": "Theme: aeration / application / boom",
+      "sub_mission_title": "Theme: air / drill / efficient",
       "block_id": 2,
+      "time_start": 156.76,
+      "time_end": 213.6,
+      "issues_detected": true,
+      "checks": {
+        "logical_check": {
+          "status": "fail",
+          "num_issues": 1,
+          "issue_type_counts": {
+            "needs_repair": 1
+          },
+          "sample_issues": [
+            {
+              "thread_index": 1,
+              "type": "needs_repair",
+              "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+            }
+          ]
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "pending",
+      "final_status": "pending_entry",
+      "used_for_training": false,
+      "tasks": [
+        {
+          "task_index": 3,
+          "task_text": "Discuss specialized agricultural machinery.",
+          "status": "fail"
+        },
+        {
+          "task_index": 7,
+          "task_text": "Showcase advanced application techniques for agricultural chemicals.",
+          "status": "fail"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "27dXGnMw6C8_subm3",
+      "sub_mission_title": "Theme: aeration / breaking / chisel",
+      "block_id": 3,
       "time_start": 251.2,
+      "time_end": 272.8,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 5,
+          "task_text": "Present versatile agricultural soil preparation tools.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "27dXGnMw6C8_subm4",
+      "sub_mission_title": "Theme: application / boom / efficient",
+      "block_id": 4,
+      "time_start": 290.2,
       "time_end": 316.36,
       "issues_detected": false,
       "checks": {
@@ -161,10 +233,42 @@
       ]
     },
     {
-      "sub_mission_id": "27dXGnMw6C8_subm3",
-      "sub_mission_title": "Theme: advanced / amazon / breaking",
-      "block_id": 3,
+      "sub_mission_id": "27dXGnMw6C8_subm5",
+      "sub_mission_title": "Theme: amazon / capability / distribute",
+      "block_id": 5,
       "time_start": 324.08,
+      "time_end": 350.16,
+      "issues_detected": false,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        }
+      },
+      "human_decision": "auto_pass",
+      "final_status": "successful_entry",
+      "used_for_training": true,
+      "tasks": [
+        {
+          "task_index": 5,
+          "task_text": "Present versatile agricultural soil preparation tools.",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "27dXGnMw6C8_subm6",
+      "sub_mission_title": "Theme: advanced / breaking / deere",
+      "block_id": 6,
+      "time_start": 362.08,
       "time_end": 424.8,
       "issues_detected": false,
       "checks": {
@@ -198,9 +302,9 @@
       ]
     },
     {
-      "sub_mission_id": "27dXGnMw6C8_subm4",
+      "sub_mission_id": "27dXGnMw6C8_subm7",
       "sub_mission_title": "Theme: crop / efficient / harvester",
-      "block_id": 4,
+      "block_id": 7,
       "time_start": 484.68,
       "time_end": 515.8,
       "issues_detected": false,
@@ -230,9 +334,9 @@
       ]
     },
     {
-      "sub_mission_id": "27dXGnMw6C8_subm5",
+      "sub_mission_id": "27dXGnMw6C8_subm8",
       "sub_mission_title": "Theme: america / bcs / capabilities",
-      "block_id": 5,
+      "block_id": 8,
       "time_start": 551.24,
       "time_end": 571.36,
       "issues_detected": false,
@@ -262,9 +366,9 @@
       ]
     },
     {
-      "sub_mission_id": "27dXGnMw6C8_subm6",
+      "sub_mission_id": "27dXGnMw6C8_subm9",
       "sub_mission_title": "Theme: advanced / features / grain",
-      "block_id": 6,
+      "block_id": 9,
       "time_start": 606.56,
       "time_end": 622.68,
       "issues_detected": false,
@@ -295,8 +399,8 @@
     }
   ],
   "mission_rollup": {
-    "num_sub_missions": 7,
-    "num_successful_entries": 6,
+    "num_sub_missions": 10,
+    "num_successful_entries": 8,
     "all_successful": false
   }
 }

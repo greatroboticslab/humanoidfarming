@@ -4,13 +4,13 @@
   "url": "https://www.youtube.com/watch?v=05BEyHMtheA",
   "params": {
     "use_links": true,
-    "max_time_span": 240.0,
+    "max_time_span": 180.0,
     "max_gap": 30.0,
-    "min_overlap": 0.03,
-    "narration_merge_overlap": 0.03,
+    "min_overlap": 0.06,
+    "narration_merge_overlap": 0.12,
     "max_block_units": 12,
-    "use_llm": false,
-    "model": null
+    "use_llm": true,
+    "model": "Qwen/Qwen2.5-7B-Instruct"
   },
   "debug": {
     "link_grouping": {
@@ -20,15 +20,15 @@
       "num_blocks_after_caps": 6
     }
   },
-  "num_blocks": 6,
+  "num_blocks": 9,
   "blocks": [
     {
       "block_id": 0,
       "time_start": 8.6,
-      "time_end": 60.1,
-      "dominant_category": "perception",
+      "time_end": 39.6,
+      "dominant_category": "planning",
       "category_distribution": {
-        "perception": 2,
+        "perception": 1,
         "narration": 1
       },
       "units": [
@@ -43,12 +43,6 @@
           "thread_index": 0,
           "group_id": 1,
           "category": "narration"
-        },
-        {
-          "unit_id": "th0_g2",
-          "thread_index": 0,
-          "group_id": 2,
-          "category": "perception"
         }
       ],
       "subtask_refs": [
@@ -59,22 +53,48 @@
         {
           "task_index": 0,
           "sub_index": 1
-        },
+        }
+      ],
+      "block_preview_text": "Observe the increase in unpredictability of weather patterns affecting crop yields. Note the direct link between crop failure and rising prices in agricultural markets.",
+      "sub_mission_id": "05BEyHMtheA_subm0",
+      "sub_mission_title": "Theme: crop / affecting / agricultural",
+      "sub_mission_time": {
+        "start": 8.6,
+        "end": 39.6
+      }
+    },
+    {
+      "block_id": 1,
+      "time_start": 54.1,
+      "time_end": 60.1,
+      "dominant_category": "perception",
+      "category_distribution": {
+        "perception": 1
+      },
+      "units": [
+        {
+          "unit_id": "th0_g2",
+          "thread_index": 0,
+          "group_id": 2,
+          "category": "perception"
+        }
+      ],
+      "subtask_refs": [
         {
           "task_index": 1,
           "sub_index": 0
         }
       ],
-      "block_preview_text": "Observe the increase in unpredictability of weather patterns affecting crop yields. Note the direct link between crop failure and rising prices in agricultural markets. See the mention of irrigation systems, drought-resistant seeds, and greenhouse operations becoming essential.",
-      "sub_mission_id": "05BEyHMtheA_subm0",
-      "sub_mission_title": "Theme: crop / affecting / agricultural",
+      "block_preview_text": "See the mention of irrigation systems, drought-resistant seeds, and greenhouse operations becoming essential.",
+      "sub_mission_id": "05BEyHMtheA_subm1",
+      "sub_mission_title": "Theme: becoming / drought-resistant / essential",
       "sub_mission_time": {
-        "start": 8.6,
+        "start": 54.1,
         "end": 60.1
       }
     },
     {
-      "block_id": 1,
+      "block_id": 2,
       "time_start": 60.6,
       "time_end": 68.1,
       "dominant_category": "planning",
@@ -96,7 +116,7 @@
         }
       ],
       "block_preview_text": "Observe how supply chain disruptions due to extreme weather add to commodity price increases.",
-      "sub_mission_id": "05BEyHMtheA_subm1",
+      "sub_mission_id": "05BEyHMtheA_subm2",
       "sub_mission_title": "Theme: add / chain / commodity",
       "sub_mission_time": {
         "start": 60.6,
@@ -104,13 +124,12 @@
       }
     },
     {
-      "block_id": 2,
+      "block_id": 3,
       "time_start": 72.6,
-      "time_end": 90.1,
-      "dominant_category": "planning",
+      "time_end": 77.1,
+      "dominant_category": "perception",
       "category_distribution": {
-        "perception": 1,
-        "narration": 1
+        "perception": 1
       },
       "units": [
         {
@@ -118,7 +137,31 @@
           "thread_index": 2,
           "group_id": 0,
           "category": "perception"
-        },
+        }
+      ],
+      "subtask_refs": [
+        {
+          "task_index": 2,
+          "sub_index": 0
+        }
+      ],
+      "block_preview_text": "Notice the mention of investments in sustainable farming methods, renewable energy, and climate adaptation technologies.",
+      "sub_mission_id": "05BEyHMtheA_subm3",
+      "sub_mission_title": "Theme: adaptation / climate / energy",
+      "sub_mission_time": {
+        "start": 72.6,
+        "end": 77.1
+      }
+    },
+    {
+      "block_id": 4,
+      "time_start": 85.1,
+      "time_end": 90.1,
+      "dominant_category": "narration",
+      "category_distribution": {
+        "narration": 1
+      },
+      "units": [
         {
           "unit_id": "th2_g1",
           "thread_index": 2,
@@ -129,23 +172,19 @@
       "subtask_refs": [
         {
           "task_index": 2,
-          "sub_index": 0
-        },
-        {
-          "task_index": 2,
           "sub_index": 1
         }
       ],
-      "block_preview_text": "Notice the mention of investments in sustainable farming methods, renewable energy, and climate adaptation technologies. Highlight the trend of future-driven investors channeling funds into vertical farming or precision agriculture.",
-      "sub_mission_id": "05BEyHMtheA_subm2",
-      "sub_mission_title": "Theme: farming / adaptation / agriculture",
+      "block_preview_text": "Highlight the trend of future-driven investors channeling funds into vertical farming or precision agriculture.",
+      "sub_mission_id": "05BEyHMtheA_subm4",
+      "sub_mission_title": "Theme: agriculture / channeling / farming",
       "sub_mission_time": {
-        "start": 72.6,
+        "start": 85.1,
         "end": 90.1
       }
     },
     {
-      "block_id": 3,
+      "block_id": 5,
       "time_start": 96.6,
       "time_end": 104.1,
       "dominant_category": "planning",
@@ -167,7 +206,7 @@
         }
       ],
       "block_preview_text": "Observe the recommendation to consider broader portfolios including climate tech startups.",
-      "sub_mission_id": "05BEyHMtheA_subm3",
+      "sub_mission_id": "05BEyHMtheA_subm5",
       "sub_mission_title": "Theme: broader / climate / consider",
       "sub_mission_time": {
         "start": 96.6,
@@ -175,7 +214,7 @@
       }
     },
     {
-      "block_id": 4,
+      "block_id": 6,
       "time_start": 104.6,
       "time_end": 111.1,
       "dominant_category": "narration",
@@ -197,7 +236,7 @@
         }
       ],
       "block_preview_text": "Note the importance of monitoring policy and international agreements on carbon pricing and agricultural subsidies.",
-      "sub_mission_id": "05BEyHMtheA_subm4",
+      "sub_mission_id": "05BEyHMtheA_subm6",
       "sub_mission_title": "Theme: agreements / agricultural / carbon",
       "sub_mission_time": {
         "start": 104.6,
@@ -205,13 +244,12 @@
       }
     },
     {
-      "block_id": 5,
+      "block_id": 7,
       "time_start": 116.1,
-      "time_end": 129.1,
-      "dominant_category": "planning",
+      "time_end": 119.1,
+      "dominant_category": "perception",
       "category_distribution": {
-        "perception": 1,
-        "narration": 1
+        "perception": 1
       },
       "units": [
         {
@@ -219,7 +257,31 @@
           "thread_index": 5,
           "group_id": 0,
           "category": "perception"
-        },
+        }
+      ],
+      "subtask_refs": [
+        {
+          "task_index": 4,
+          "sub_index": 0
+        }
+      ],
+      "block_preview_text": "See the recommendation to align portfolios with climate-resilient sectors.",
+      "sub_mission_id": "05BEyHMtheA_subm7",
+      "sub_mission_title": "Theme: align / climate-resilient / portfolios",
+      "sub_mission_time": {
+        "start": 116.1,
+        "end": 119.1
+      }
+    },
+    {
+      "block_id": 8,
+      "time_start": 122.6,
+      "time_end": 129.1,
+      "dominant_category": "narration",
+      "category_distribution": {
+        "narration": 1
+      },
+      "units": [
         {
           "unit_id": "th5_g1",
           "thread_index": 5,
@@ -230,18 +292,14 @@
       "subtask_refs": [
         {
           "task_index": 4,
-          "sub_index": 0
-        },
-        {
-          "task_index": 4,
           "sub_index": 1
         }
       ],
-      "block_preview_text": "See the recommendation to align portfolios with climate-resilient sectors. Highlight the importance of continuous learning and partnering with knowledgeable advisors.",
-      "sub_mission_id": "05BEyHMtheA_subm5",
-      "sub_mission_title": "Theme: advisors / align / climate-resilient",
+      "block_preview_text": "Highlight the importance of continuous learning and partnering with knowledgeable advisors.",
+      "sub_mission_id": "05BEyHMtheA_subm8",
+      "sub_mission_title": "Theme: advisors / continuous / knowledgeable",
       "sub_mission_time": {
-        "start": 116.1,
+        "start": 122.6,
         "end": 129.1
       }
     }
@@ -253,43 +311,64 @@
       "sub_mission_id": "05BEyHMtheA_subm0",
       "sub_mission_title": "Theme: crop / affecting / agricultural",
       "time_start": 8.6,
-      "time_end": 60.1,
+      "time_end": 39.6,
       "block_id": 0
     },
     {
       "sub_mission_id": "05BEyHMtheA_subm1",
-      "sub_mission_title": "Theme: add / chain / commodity",
-      "time_start": 60.6,
-      "time_end": 68.1,
+      "sub_mission_title": "Theme: becoming / drought-resistant / essential",
+      "time_start": 54.1,
+      "time_end": 60.1,
       "block_id": 1
     },
     {
       "sub_mission_id": "05BEyHMtheA_subm2",
-      "sub_mission_title": "Theme: farming / adaptation / agriculture",
-      "time_start": 72.6,
-      "time_end": 90.1,
+      "sub_mission_title": "Theme: add / chain / commodity",
+      "time_start": 60.6,
+      "time_end": 68.1,
       "block_id": 2
     },
     {
       "sub_mission_id": "05BEyHMtheA_subm3",
-      "sub_mission_title": "Theme: broader / climate / consider",
-      "time_start": 96.6,
-      "time_end": 104.1,
+      "sub_mission_title": "Theme: adaptation / climate / energy",
+      "time_start": 72.6,
+      "time_end": 77.1,
       "block_id": 3
     },
     {
       "sub_mission_id": "05BEyHMtheA_subm4",
-      "sub_mission_title": "Theme: agreements / agricultural / carbon",
-      "time_start": 104.6,
-      "time_end": 111.1,
+      "sub_mission_title": "Theme: agriculture / channeling / farming",
+      "time_start": 85.1,
+      "time_end": 90.1,
       "block_id": 4
     },
     {
       "sub_mission_id": "05BEyHMtheA_subm5",
-      "sub_mission_title": "Theme: advisors / align / climate-resilient",
-      "time_start": 116.1,
-      "time_end": 129.1,
+      "sub_mission_title": "Theme: broader / climate / consider",
+      "time_start": 96.6,
+      "time_end": 104.1,
       "block_id": 5
+    },
+    {
+      "sub_mission_id": "05BEyHMtheA_subm6",
+      "sub_mission_title": "Theme: agreements / agricultural / carbon",
+      "time_start": 104.6,
+      "time_end": 111.1,
+      "block_id": 6
+    },
+    {
+      "sub_mission_id": "05BEyHMtheA_subm7",
+      "sub_mission_title": "Theme: align / climate-resilient / portfolios",
+      "time_start": 116.1,
+      "time_end": 119.1,
+      "block_id": 7
+    },
+    {
+      "sub_mission_id": "05BEyHMtheA_subm8",
+      "sub_mission_title": "Theme: advisors / continuous / knowledgeable",
+      "time_start": 122.6,
+      "time_end": 129.1,
+      "block_id": 8
     }
   ]
 }

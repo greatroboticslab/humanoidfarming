@@ -1,0 +1,156 @@
+{
+  "mission_id": "QEdoPaqfxXw",
+  "mission_title": "Mace Planters for Renting Opportunities Explained AshkoTV",
+  "url": "https://www.youtube.com/watch?v=QEdoPaqfxXw",
+  "artifacts_present": {
+    "thread_logic": true,
+    "coherent_blocks_with_submissions": true,
+    "task_blueprint": true,
+    "coherence_report": true
+  },
+  "checks": {
+    "logical_check": {
+      "status": "fail",
+      "num_issues": 1,
+      "issue_type_counts": {
+        "needs_repair": 1
+      },
+      "sample_issues": [
+        {
+          "thread_index": 1,
+          "type": "needs_repair",
+          "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+        }
+      ]
+    },
+    "coherence_check": {
+      "status": "fail",
+      "num_issues": 2,
+      "issue_type_counts": {
+        "block_time_span_too_large": 2
+      },
+      "sample_issues": [
+        {
+          "block_id": 0,
+          "type": "block_time_span_too_large",
+          "span_seconds": 335.97
+        },
+        {
+          "block_id": 1,
+          "type": "block_time_span_too_large",
+          "span_seconds": 505.97
+        }
+      ]
+    }
+  },
+  "sub_missions": [
+    {
+      "sub_mission_id": "QEdoPaqfxXw_subm0",
+      "sub_mission_title": "Theme: mace / planters / benefits",
+      "block_id": 0,
+      "time_start": 15.0,
+      "time_end": 350.97,
+      "issues_detected": true,
+      "checks": {
+        "logical_check": {
+          "status": "pass",
+          "num_issues": 0,
+          "issue_type_counts": {},
+          "sample_issues": []
+        },
+        "coherence_check": {
+          "status": "fail",
+          "num_issues": 1,
+          "issue_type_counts": {
+            "block_time_span_too_large": 1
+          },
+          "sample_issues": [
+            {
+              "block_id": 0,
+              "type": "block_time_span_too_large",
+              "span_seconds": 335.97
+            }
+          ]
+        }
+      },
+      "human_decision": "pending",
+      "final_status": "pending_entry",
+      "used_for_training": false,
+      "tasks": [
+        {
+          "task_index": 0,
+          "task_text": "Recommend investing in and renting out agricultural equipment for profit.",
+          "status": "fail"
+        }
+      ]
+    },
+    {
+      "sub_mission_id": "QEdoPaqfxXw_subm1",
+      "sub_mission_title": "Theme: machines / renting / advantages",
+      "block_id": 1,
+      "time_start": 350.97,
+      "time_end": 856.94,
+      "issues_detected": true,
+      "checks": {
+        "logical_check": {
+          "status": "fail",
+          "num_issues": 1,
+          "issue_type_counts": {
+            "needs_repair": 1
+          },
+          "sample_issues": [
+            {
+              "thread_index": 1,
+              "type": "needs_repair",
+              "details": "repair.bridging_sentences or repair.revised_subtasks non-empty"
+            }
+          ]
+        },
+        "coherence_check": {
+          "status": "fail",
+          "num_issues": 1,
+          "issue_type_counts": {
+            "block_time_span_too_large": 1
+          },
+          "sample_issues": [
+            {
+              "block_id": 1,
+              "type": "block_time_span_too_large",
+              "span_seconds": 505.97
+            }
+          ]
+        }
+      },
+      "human_decision": "pending",
+      "final_status": "pending_entry",
+      "used_for_training": false,
+      "tasks": [
+        {
+          "task_index": 1,
+          "task_text": "Recommend plowing machines for maize farming and explain their rental options.",
+          "status": "fail"
+        },
+        {
+          "task_index": 2,
+          "task_text": "Discuss the use and potential of spraying machines in agribusiness.",
+          "status": "fail"
+        },
+        {
+          "task_index": 3,
+          "task_text": "Recommend the maize treasure machine for agribusiness.",
+          "status": "fail"
+        },
+        {
+          "task_index": 4,
+          "task_text": "Provide advice on renting out agricultural equipment to farmers.",
+          "status": "fail"
+        }
+      ]
+    }
+  ],
+  "mission_rollup": {
+    "num_sub_missions": 2,
+    "num_successful_entries": 0,
+    "all_successful": false
+  }
+}
